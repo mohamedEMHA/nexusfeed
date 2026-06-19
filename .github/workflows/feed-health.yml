@@ -1,0 +1,31 @@
+name: Feed Health Check
+
+on:
+  schedule:
+    - cron: "0 8 * * 1"
+  workflow_dispatch:
+
+jobs:
+  check-feeds:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install requests feedparser python-dateutil
+      - name: Run feed health check
+        run: python check_feeds.py
+      - name: Fail if feeds below threshold
+        run: |
+          python -c "
+          import json, sys
+          with open('feed_health.json', encoding='utf-8') as f:
+              results = json.load(f)
+          working = results['working_count']
+          total = results['total_count']
+          print(f'Working feeds: {working}/{total}')
+          if working < 12:
+              print('ERROR: Too many dead feeds!')
+              sys.exit(1)
+          "
