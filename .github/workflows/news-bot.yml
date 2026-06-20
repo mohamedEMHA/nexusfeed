@@ -44,6 +44,8 @@ jobs:
           CEREBRAS_API_KEY: ${{ secrets.CEREBRAS_API_KEY }}
           GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
           GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python main.py
 
       - name: Commit state files
@@ -51,7 +53,7 @@ jobs:
           git config user.name "mohamedEMHA"
           git config user.email "mohamed.migo60@gmail.com"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-          git add daily_state.json posted_articles.json
+          git add daily_state.json posted_articles.json ai_cache.json
           git diff --staged --quiet || git commit -m "chore(state): update bot state [skip ci]"
           git push
         env:
