@@ -153,6 +153,7 @@ SOFTWARE_TOPIC_KEYWORDS = (
 )
 GENERAL_TOPIC_KEYWORDS = tuple(sorted(set(AI_TOPIC_KEYWORDS + SOFTWARE_TOPIC_KEYWORDS)))
 TIER_ORDER = {"S": 0, "A": 1, "B": 2, "C": 3}
+SOCIAL_POST_PLATFORMS = ("twitter", "facebook", "threads", "telegram")
 
 SCORING_SYSTEM_PROMPT = """
 You are a strict AI news curator targeting software engineers and AI researchers.
@@ -222,6 +223,7 @@ UNIVERSAL RULES FOR ALL PLATFORMS:
 - Write as if a senior software engineer or AI researcher is sharing this with peers, not as a social media manager.
 - The post must pass a "would a human write this?" check. If it sounds robotic or templated, rewrite it.
 - Match the source article's language (English article -> English post).
+- If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.
 
 Respond ONLY with valid JSON. No markdown, no explanation outside JSON.
 """.strip()
@@ -526,6 +528,19 @@ def clean_multiline_text(value: str) -> str:
     return "\n".join(lines).strip()
 
 
+def normalize_social_posts(raw_social_posts: Any) -> dict[str, str]:
+    if not isinstance(raw_social_posts, dict):
+        raw_social_posts = {}
+    return {
+        platform: clean_multiline_text(str(raw_social_posts.get(platform, "")))
+        for platform in SOCIAL_POST_PLATFORMS
+    }
+
+
+def missing_social_post_platforms(social_posts: dict[str, str]) -> list[str]:
+    return [platform for platform in SOCIAL_POST_PLATFORMS if not social_posts.get(platform, "").strip()]
+
+
 def sanitize_telegram_markdown_text(value: str) -> str:
     cleaned = clean_whitespace(str(value))
     return re.sub(r"[_*\[\]`]", "", cleaned)
@@ -809,6 +824,7 @@ def rebuild_prompt_with_summary_limit(candidates: list[Article], char_limit: int
         "response_schema": GROQ_RESPONSE_SCHEMA,
         "social_media_rules": [
             "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
+            "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.",
             "Use the FULL article title as headline without inventing facts.",
             "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff.",
         ],
@@ -834,6 +850,7 @@ def build_groq_prompt(candidates: list[Article], now: datetime) -> str:
         "response_schema": GROQ_RESPONSE_SCHEMA,
         "social_media_rules": [
             "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
+            "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.",
             "Use the FULL article title as headline without inventing facts.",
             "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff.",
         ],
@@ -850,6 +867,27 @@ def build_groq_prompt(candidates: list[Article], now: datetime) -> str:
             }
             for article in candidates
         ],
+    }
+    return json.dumps(prompt_payload, ensure_ascii=True, separators=(",", ":"))
+
+
+def build_social_post_retry_prompt(article: Article, now: datetime) -> str:
+    prompt_payload = {
+        "instruction": (
+            "You must generate all four social_posts fields. "
+            f"They were empty in your previous response. Please regenerate only the social_posts for the article at index {article.index}."
+        ),
+        "response_schema": {"social_posts": GROQ_RESPONSE_SCHEMA["social_posts"]},
+        "article": {
+            "index": article.index,
+            "title": article.title,
+            "summary": article.summary,
+            "source": article.source,
+            "tier": article.tier,
+            "published_time_utc": article.published_at,
+            "published_relative": hours_ago_text(article.published_ts, now),
+            "article_url": article.url,
+        },
     }
     return json.dumps(prompt_payload, ensure_ascii=True, separators=(",", ":"))
 
@@ -950,6 +988,45 @@ def call_groq(candidates: list[Article], now: datetime, api_key: str) -> dict[st
             return None
 
     return None
+
+
+def regenerate_groq_social_posts(article: Article, now: datetime, api_key: str) -> dict[str, str] | None:
+    prompt_content = build_social_post_retry_prompt(article, now)
+    payload = {
+        "model": GROQ_MODEL,
+        "temperature": 0.3,
+        "max_completion_tokens": 1000,
+        "response_format": {"type": "json_object"},
+        "messages": [
+            {"role": "system", "content": SCORING_SYSTEM_PROMPT},
+            {"role": "user", "content": prompt_content},
+        ],
+    }
+    headers = {
+        "Authorization": f"Bearer {api_key}",
+        "Content-Type": "application/json",
+    }
+
+    try:
+        response = requests.post(GROQ_URL, headers=headers, json=payload, timeout=60)
+        response.raise_for_status()
+        data = response.json()
+        content = data["choices"][0]["message"]["content"]
+        result = json.loads(content)
+    except (requests.RequestException, KeyError, IndexError, json.JSONDecodeError) as exc:
+        logging.warning("Groq social post regeneration failed for article index %s: %s", article.index, exc)
+        return None
+
+    raw_social_posts = result.get("social_posts") if isinstance(result, dict) else {}
+    social_posts = normalize_social_posts(raw_social_posts)
+    missing_platforms = missing_social_post_platforms(social_posts)
+    if missing_platforms:
+        logging.warning(
+            "Groq social post regeneration still returned empty posts for article index %s: %s",
+            article.index,
+            ", ".join(missing_platforms),
+        )
+    return social_posts
 
 
 def call_cerebras(candidates: list[Article], now: datetime, api_key: str) -> dict[str, Any] | None:
@@ -1135,15 +1212,7 @@ def normalize_groq_result(result: dict[str, Any]) -> dict[str, Any] | None:
     else:
         recommendation = "SKIP"
 
-    raw_social_posts = result.get("social_posts")
-    if not isinstance(raw_social_posts, dict):
-        raw_social_posts = {}
-    social_posts = {
-        "twitter": clean_multiline_text(str(raw_social_posts.get("twitter", ""))),
-        "facebook": clean_multiline_text(str(raw_social_posts.get("facebook", ""))),
-        "threads": clean_multiline_text(str(raw_social_posts.get("threads", ""))),
-        "telegram": clean_multiline_text(str(raw_social_posts.get("telegram", ""))),
-    }
+    social_posts = normalize_social_posts(result.get("social_posts"))
 
     return {
         "articles": normalized_articles,
@@ -1166,10 +1235,7 @@ def build_candidate_payload(
     saved_at: datetime,
 ) -> dict[str, Any]:
     authoritative_score = round(float(score.get("authoritative_score", score.get("total_score", 0.0))), 2)
-    cleaned_social_posts = {
-        key: clean_multiline_text(str(social_posts.get(key, "")))
-        for key in ("twitter", "facebook", "threads", "telegram")
-    }
+    cleaned_social_posts = normalize_social_posts(social_posts)
     return {
         "index": article.index,
         "title": article.title,
@@ -1282,6 +1348,24 @@ def main() -> int:
             logging.warning("Groq failed. Falling back to Cerebras AI...")
             groq_result = call_cerebras(candidates, now, secrets["CEREBRAS_API_KEY"])
         normalized = normalize_groq_result(groq_result) if groq_result else None
+        if normalized and normalized.get("recommendation") == "POST_NOW":
+            sp = normalized.get("social_posts", {})
+            for platform in ("twitter", "facebook", "threads", "telegram"):
+                val = sp.get(platform, "")
+                if not val.strip():
+                    logging.warning("Groq returned empty social post for platform: %s", platform)
+            missing_platforms = missing_social_post_platforms(sp)
+            if missing_platforms:
+                retry_article = next(
+                    (article for article in candidates if article.index == normalized.get("best_index", -1)),
+                    None,
+                )
+                if retry_article:
+                    regenerated_social_posts = regenerate_groq_social_posts(
+                        retry_article, now, secrets["GROQ_API_KEY"]
+                    )
+                    if regenerated_social_posts:
+                        normalized["social_posts"] = regenerated_social_posts
         if normalized:
             score_map = score_map_from_result(normalized)
             best_index = normalized["best_index"]
