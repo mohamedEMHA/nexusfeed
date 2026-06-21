@@ -1,766 +1,5 @@
 {
-  "cerebras_scoring": {
-    "099c3403fb6ff811de8ba65fc502b728412ec691bbc042b175385288843e9669": {
-      "created_at": "2026-06-20T07:38:17Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 7,
-            "novelty_score": 2.5,
-            "reason": "New research on LLM self\u2011alignment, niche relevance, recent publication, low\u2011tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Emergent Alignment",
-            "total_score": 6.0
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 8,
-            "novelty_score": 2.5,
-            "reason": "New architecture that could influence many model designs, broader impact, recent publication, low\u2011tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "ITNet: A Learnable Integral Transform That Subsumes Convolution, Attention, and Recurrence",
-            "total_score": 7.0
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 9,
-            "novelty_score": 2.5,
-            "reason": "New research on uncertainty handling for LLM agents, niche relevance, recent publication, low\u2011tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Uncertainty Decomposition for Clarification Seeking in LLM Agents",
-            "total_score": 6.0
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 10,
-            "novelty_score": 2.5,
-            "reason": "New study of LLM\u2011solver interaction gaps, niche relevance, recent publication, low\u2011tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Analyzing the Narration Gap in LLM-Solver Loops",
-            "total_score": 6.0
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 11,
-            "novelty_score": 2.5,
-            "reason": "New research on clinical RAG systems, domain\u2011specific impact, recent publication, low\u2011tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Configurable Clinical Information Extraction with Agentic RAG: What Works, What Breaks, and Why",
-            "total_score": 6.0
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 12,
-            "novelty_score": 2.5,
-            "reason": "New work on preference data collection for LLM alignment, niche relevance, recent publication, low\u2011tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Which Pairs to Compare for LLM Post-Training?",
-            "total_score": 6.0
-          }
-        ],
-        "best_index": 8,
-        "best_score": 7.0,
-        "recommendation": "SKIP",
-        "social_posts": {
-          "facebook": "",
-          "telegram": "",
-          "threads": "",
-          "twitter": ""
-        }
-      }
-    },
-    "0f65daaa8392daa0d30015452d61695a66e47236c87bbd34cbae1122e5d45208": {
-      "created_at": "2026-06-20T08:26:25Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.0,
-            "impact_score": 1.5,
-            "index": 9,
-            "novelty_score": 2.5,
-            "reason": "New research on uncertainty handling for LLM agents, relevant to a niche audience of AI developers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Uncertainty Decomposition for Clarification Seeking in LLM Agents",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.0,
-            "impact_score": 1.5,
-            "index": 10,
-            "novelty_score": 2.5,
-            "reason": "New study of LLM reasoning pipelines, primarily of interest to a niche group working on LLM\u2011solver integration.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Analyzing the Narration Gap in LLM-Solver Loops",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.0,
-            "impact_score": 1.5,
-            "index": 11,
-            "novelty_score": 2.5,
-            "reason": "Research on clinical information extraction using agentic RAG, niche impact limited to healthcare AI practitioners.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Configurable Clinical Information Extraction with Agentic RAG: What Works, What Breaks, and Why",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.0,
-            "impact_score": 2.5,
-            "index": 12,
-            "novelty_score": 2.5,
-            "reason": "New research on preference\u2011based post\u2011training methods, broadly relevant to most LLM developers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Which Pairs to Compare for LLM Post-Training?",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 12,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {
-          "facebook": "",
-          "telegram": "",
-          "threads": "",
-          "twitter": ""
-        }
-      }
-    },
-    "10699ca948e35b958583f0f0a8dc243c9b85f06b07086a40ac74fe6487636895": {
-      "created_at": "2026-06-20T08:13:45Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.0,
-            "impact_score": 1.5,
-            "index": 19,
-            "novelty_score": 2.5,
-            "reason": "A niche research paper on Quranic ASR with moderate relevance to AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "A Comparative Study of Pretrained Transformer Models for Quranic ASR: Speech Representations, Label Formats, and Dataset Composition",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.0,
-            "impact_score": 1.5,
-            "index": 20,
-            "novelty_score": 2.5,
-            "reason": "Introduces evaluation of emerging agentic review tools, interesting but limited to a specific community.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Benchmarking Agentic Review Systems",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.0,
-            "impact_score": 2.5,
-            "index": 21,
-            "novelty_score": 2.5,
-            "reason": "Presents foundational principles for integrating generative models, broadly relevant to AI developers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Grounded Inference: Principles for Deterministically Encapsulated Generative Models",
-            "total_score": 7.0
-          },
-          {
-            "freshness_score": 1.0,
-            "impact_score": 1.5,
-            "index": 22,
-            "novelty_score": 2.5,
-            "reason": "Offers a scheduling model for QA forums, useful but of niche interest.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Optimal Scheduling in a Question-Answering Forum of Knowledge Workers",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.0,
-            "impact_score": 2.5,
-            "index": 23,
-            "novelty_score": 2.5,
-            "reason": "Addresses LLM reasoning stability, a high\u2011impact topic for AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Beyond Entropy: Learning from Token-Level Distributional Deviations for LLM Reasoning",
-            "total_score": 7.0
-          },
-          {
-            "freshness_score": 1.0,
-            "impact_score": 1.5,
-            "index": 24,
-            "novelty_score": 2.5,
-            "reason": "Focuses on financial chart QA, relevant mainly to fintech applications.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "AgentFinVQA: A Deployable Multi-Agent Pipeline for Auditable Financial Chart QA",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 21,
-        "best_score": 7.0,
-        "recommendation": "SKIP",
-        "social_posts": {
-          "facebook": "",
-          "telegram": "",
-          "threads": "",
-          "twitter": ""
-        }
-      }
-    },
-    "173d3cb222702bf8a76dd5837b4bb8a5ee425d66f1efe30c8b6c42f95b8d90fd": {
-      "created_at": "2026-06-20T08:13:45Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.0,
-            "impact_score": 1.5,
-            "index": 13,
-            "novelty_score": 2.5,
-            "reason": "New research with niche impact, recent but low source tier.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "BrainG3N: A Dual-Purpose Tokenizer for Controllable 3D Brain MRI Generation",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.0,
-            "impact_score": 1.5,
-            "index": 14,
-            "novelty_score": 2.5,
-            "reason": "New research with niche impact, recent but low source tier.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Denoising Implicit Feedback for Cold-start Recommendation",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.0,
-            "impact_score": 1.5,
-            "index": 15,
-            "novelty_score": 2.5,
-            "reason": "New research with niche impact, recent but low source tier.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Exit-and-Join Dynamics for Decentralized Coalition Formation",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.0,
-            "impact_score": 1.5,
-            "index": 16,
-            "novelty_score": 2.5,
-            "reason": "New research with niche impact, recent but low source tier.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Beyond Static Leaderboards: Predictive Validity for the Evaluation of LLM Agents",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.0,
-            "impact_score": 1.5,
-            "index": 17,
-            "novelty_score": 2.5,
-            "reason": "New research with niche impact, recent but low source tier.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "GLARE: A Natural Language Interface for Querying Global Explanations",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.0,
-            "impact_score": 1.5,
-            "index": 18,
-            "novelty_score": 2.5,
-            "reason": "New research with niche impact, recent but low source tier.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Interpreting Neural Combinatorial Optimization via Evolving Programmatic Bottlenecks",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 13,
-        "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {
-          "facebook": "",
-          "telegram": "",
-          "threads": "",
-          "twitter": ""
-        }
-      }
-    },
-    "2aa5be7013550a869430aedbb30d6de99903740ec9dfa79efb19674c8652bdc3": {
-      "created_at": "2026-06-20T08:26:25Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.0,
-            "impact_score": 1.5,
-            "index": 17,
-            "novelty_score": 2.5,
-            "reason": "New research paper with niche impact, moderate freshness, and low-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "GLARE: A Natural Language Interface for Querying Global Explanations",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.0,
-            "impact_score": 1.5,
-            "index": 18,
-            "novelty_score": 2.5,
-            "reason": "New research paper with niche impact, moderate freshness, and low-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Interpreting Neural Combinatorial Optimization via Evolving Programmatic Bottlenecks",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.0,
-            "impact_score": 1.5,
-            "index": 19,
-            "novelty_score": 2.5,
-            "reason": "New research paper with niche impact, moderate freshness, and low-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "A Comparative Study of Pretrained Transformer Models for Quranic ASR: Speech Representations, Label Formats, and Dataset Composition",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.0,
-            "impact_score": 1.5,
-            "index": 20,
-            "novelty_score": 2.5,
-            "reason": "New research paper with niche impact, moderate freshness, and low-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Benchmarking Agentic Review Systems",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 17,
-        "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {
-          "facebook": "",
-          "telegram": "",
-          "threads": "",
-          "twitter": ""
-        }
-      }
-    },
-    "2dee12c32899981a13f03636fad3a771c146a2cbb241895f7dacdd92ba3b5a15": {
-      "created_at": "2026-06-20T08:26:25Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.0,
-            "impact_score": 1.5,
-            "index": 13,
-            "novelty_score": 2.5,
-            "reason": "Research paper with niche impact, modest freshness and low-tier source yields 5.5/10.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "BrainG3N: A Dual-Purpose Tokenizer for Controllable 3D Brain MRI Generation",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.0,
-            "impact_score": 1.5,
-            "index": 14,
-            "novelty_score": 2.5,
-            "reason": "Research paper with niche impact, modest freshness and low-tier source yields 5.5/10.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Denoising Implicit Feedback for Cold-start Recommendation",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.0,
-            "impact_score": 1.5,
-            "index": 15,
-            "novelty_score": 2.5,
-            "reason": "Research paper with niche impact, modest freshness and low-tier source yields 5.5/10.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Exit-and-Join Dynamics for Decentralized Coalition Formation",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.0,
-            "impact_score": 1.5,
-            "index": 16,
-            "novelty_score": 2.5,
-            "reason": "Research paper with niche impact, modest freshness and low-tier source yields 5.5/10.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Beyond Static Leaderboards: Predictive Validity for the Evaluation of LLM Agents",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 13,
-        "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {
-          "facebook": "",
-          "telegram": "",
-          "threads": "",
-          "twitter": ""
-        }
-      }
-    },
-    "5692f02b595c930249858cea0fc09f23a041a96b272d695de4028a99dce2780f": {
-      "created_at": "2026-06-20T07:38:17Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.0,
-            "impact_score": 1.5,
-            "index": 19,
-            "novelty_score": 2.5,
-            "reason": "A new research paper with niche impact, moderate freshness, and low-tier source yields a modest 5.5 score.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Interpreting Neural Combinatorial Optimization via Evolving Programmatic Bottlenecks",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.0,
-            "impact_score": 1.5,
-            "index": 20,
-            "novelty_score": 2.5,
-            "reason": "A new research paper with niche impact, moderate freshness, and low-tier source yields a modest 5.5 score.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "A Comparative Study of Pretrained Transformer Models for Quranic ASR: Speech Representations, Label Formats, and Dataset Composition",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.0,
-            "impact_score": 1.5,
-            "index": 21,
-            "novelty_score": 2.5,
-            "reason": "A new research paper with niche impact, moderate freshness, and low-tier source yields a modest 5.5 score.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Benchmarking Agentic Review Systems",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.0,
-            "impact_score": 1.5,
-            "index": 22,
-            "novelty_score": 2.5,
-            "reason": "A new research paper with niche impact, moderate freshness, and low-tier source yields a modest 5.5 score.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Grounded Inference: Principles for Deterministically Encapsulated Generative Models",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.0,
-            "impact_score": 1.5,
-            "index": 23,
-            "novelty_score": 2.5,
-            "reason": "A new research paper with niche impact, moderate freshness, and low-tier source yields a modest 5.5 score.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Optimal Scheduling in a Question-Answering Forum of Knowledge Workers",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.0,
-            "impact_score": 1.5,
-            "index": 24,
-            "novelty_score": 2.5,
-            "reason": "A new research paper with niche impact, moderate freshness, and low-tier source yields a modest 5.5 score.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Beyond Entropy: Learning from Token-Level Distributional Deviations for LLM Reasoning",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 19,
-        "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {
-          "facebook": "",
-          "telegram": "",
-          "threads": "",
-          "twitter": ""
-        }
-      }
-    },
-    "a7efed4c0d93be886be99f1c796ba37561edf2e26e925db6dcea7aa2c92e3ec7": {
-      "created_at": "2026-06-20T08:26:25Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.0,
-            "impact_score": 1.5,
-            "index": 21,
-            "novelty_score": 2.5,
-            "reason": "New research paper with niche impact, moderate freshness, and low-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Optimal Scheduling in a Question-Answering Forum of Knowledge Workers",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.0,
-            "impact_score": 1.5,
-            "index": 22,
-            "novelty_score": 2.5,
-            "reason": "New research paper with niche impact, moderate freshness, and low-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Beyond Entropy: Learning from Token-Level Distributional Deviations for LLM Reasoning",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.0,
-            "impact_score": 1.5,
-            "index": 23,
-            "novelty_score": 2.5,
-            "reason": "New research paper with niche impact, moderate freshness, and low-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "AgentFinVQA: A Deployable Multi-Agent Pipeline for Auditable Financial Chart QA",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.0,
-            "impact_score": 1.5,
-            "index": 24,
-            "novelty_score": 2.5,
-            "reason": "New research paper with niche impact, moderate freshness, and low-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "ORAgentBench: Can LLM Agents Solve Challenging Operations Research Tasks End to End?",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 21,
-        "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {
-          "facebook": "",
-          "telegram": "",
-          "threads": "",
-          "twitter": ""
-        }
-      }
-    },
-    "b2c0ce10b9064f09f5ef64b77f30673f3fb25db73ad9d29c225f237d0c90cf1a": {
-      "created_at": "2026-06-20T08:26:25Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.0,
-            "impact_score": 1.5,
-            "index": 5,
-            "novelty_score": 2.5,
-            "reason": "New research paper with niche impact on DeFi supervision, moderate freshness, low\u2011tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "DeXposure-Claw: An Agentic System for DeFi Risk Supervision",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.0,
-            "impact_score": 1.5,
-            "index": 6,
-            "novelty_score": 2.5,
-            "reason": "New research paper with niche impact on clinical AI, moderate freshness, low\u2011tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "LLM Doesn't Know What It Doesn't Know: Detecting Epistemic Blind Spots via Cross-Model Attribution Divergence on Clinical Tabular Data",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.0,
-            "impact_score": 1.5,
-            "index": 7,
-            "novelty_score": 2.5,
-            "reason": "New research paper with niche impact on medical imaging, moderate freshness, low\u2011tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "REVEAL++: Differentiable Phenotypic Grouping for Vision-Language Retinal Modeling of Alzheimer's Disease Risk",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.0,
-            "impact_score": 2.5,
-            "index": 8,
-            "novelty_score": 2.5,
-            "reason": "New research paper with broader AI alignment relevance, moderate freshness, low\u2011tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Emergent Alignment",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 8,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {
-          "facebook": "",
-          "telegram": "",
-          "threads": "",
-          "twitter": ""
-        }
-      }
-    },
-    "d45943c35d69974efa36d122b0481418757dc934806b3a85db71477535e7f83e": {
-      "created_at": "2026-06-20T07:38:17Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 13,
-            "novelty_score": 2.5,
-            "reason": "A new research paper with niche impact, published 3 hours ago on a tier C source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Toten: Knowledge-Based Ontological Tokenization Of Physical Quantities And Technical Notation In Brazilian Portuguese",
-            "total_score": 6.0
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 14,
-            "novelty_score": 2.5,
-            "reason": "A new research paper with niche impact, published 3 hours ago on a tier C source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "BrainG3N: A Dual-Purpose Tokenizer for Controllable 3D Brain MRI Generation",
-            "total_score": 6.0
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 15,
-            "novelty_score": 2.5,
-            "reason": "A new research paper with niche impact, published 3 hours ago on a tier C source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Denoising Implicit Feedback for Cold-start Recommendation",
-            "total_score": 6.0
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 16,
-            "novelty_score": 2.5,
-            "reason": "A new research paper with niche impact, published 3 hours ago on a tier C source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Exit-and-Join Dynamics for Decentralized Coalition Formation",
-            "total_score": 6.0
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 17,
-            "novelty_score": 2.5,
-            "reason": "A new research paper with niche impact, published 3 hours ago on a tier C source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Beyond Static Leaderboards: Predictive Validity for the Evaluation of LLM Agents",
-            "total_score": 6.0
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 18,
-            "novelty_score": 2.5,
-            "reason": "A new research paper with niche impact, published 3 hours ago on a tier C source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "GLARE: A Natural Language Interface for Querying Global Explanations",
-            "total_score": 6.0
-          }
-        ],
-        "best_index": 13,
-        "best_score": 6.0,
-        "recommendation": "SKIP",
-        "social_posts": {
-          "facebook": "",
-          "telegram": "",
-          "threads": "",
-          "twitter": ""
-        }
-      }
-    }
-  },
+  "cerebras_scoring": {},
   "groq_social_posts": {
     "e687ca56fefcaa56abbbd79f2f6edf74da83e9bb394c00238102f8e5f9281057": {
       "created_at": "2026-06-20T08:13:45Z",
@@ -920,6 +159,120 @@
       "status": "scoring_attempted",
       "title": "CombEval: A Framework for Evaluating Combinatorial Counting in Large Language Models"
     },
+    "https://blog.cloudflare.com/temporary-accounts": {
+      "canonical_url": "https://blog.cloudflare.com/temporary-accounts",
+      "created_at": "2026-06-20T15:23:58Z",
+      "status": "scoring_attempted",
+      "title": "Temporary Cloudflare Accounts for AI Agents"
+    },
+    "https://bootimus.com": {
+      "canonical_url": "https://bootimus.com",
+      "created_at": "2026-06-20T13:23:03Z",
+      "status": "scoring_attempted",
+      "title": "Bootimus \u2013 A Self-Contained PXE and HTTP Boot Server"
+    },
+    "https://clickhouse.com/blog/postgresbench": {
+      "canonical_url": "https://clickhouse.com/blog/postgresbench",
+      "created_at": "2026-06-20T20:09:52Z",
+      "status": "scoring_attempted",
+      "title": "PostgresBench: A Reproducible Benchmark for Postgres Services"
+    },
+    "https://fosterelli.co/developers-dont-understand-cors": {
+      "canonical_url": "https://fosterelli.co/developers-dont-understand-cors",
+      "created_at": "2026-06-21T05:19:01Z",
+      "status": "scoring_attempted",
+      "title": "Developers don't understand CORS (2019)"
+    },
+    "https://github.com/mysk-research/loupe": {
+      "canonical_url": "https://github.com/mysk-research/loupe",
+      "created_at": "2026-06-21T00:00:36Z",
+      "status": "scoring_attempted",
+      "title": "Loupe \u2013 A iOS app that raises awareness about what native apps can see"
+    },
+    "https://lcamtuf.substack.com/p/the-100000-whys-of-ai": {
+      "canonical_url": "https://lcamtuf.substack.com/p/the-100000-whys-of-ai",
+      "created_at": "2026-06-21T06:48:52Z",
+      "status": "scoring_attempted",
+      "title": "The 100k Whys of AI"
+    },
+    "https://martinfowler.com/articles/reliable-llm-bayer.html": {
+      "canonical_url": "https://martinfowler.com/articles/reliable-llm-bayer.html",
+      "created_at": "2026-06-21T06:48:52Z",
+      "status": "scoring_attempted",
+      "title": "Building reliable agentic AI systems"
+    },
+    "https://news.ycombinator.com/item?id=48611303": {
+      "canonical_url": "https://news.ycombinator.com/item?id=48611303",
+      "created_at": "2026-06-20T18:45:58Z",
+      "status": "scoring_attempted",
+      "title": "Ask HN: Due to spam on GitHub, what platforms can I move my projects?"
+    },
+    "https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search": {
+      "canonical_url": "https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search",
+      "created_at": "2026-06-20T20:09:52Z",
+      "status": "scoring_attempted",
+      "title": "In the Weights is your new AI-centric vanity search"
+    },
+    "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic": {
+      "canonical_url": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic",
+      "created_at": "2026-06-20T17:06:28Z",
+      "status": "scoring_attempted",
+      "title": "Nobel laureate John Jumper is leaving DeepMind for rival Anthropic"
+    },
+    "https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends": {
+      "canonical_url": "https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends",
+      "created_at": "2026-06-20T21:40:39Z",
+      "status": "scoring_attempted",
+      "title": "Signal\u2019s Meredith Whittaker wants you to remember that AI chatbots \u2018are not your friends\u2019"
+    },
+    "https://vinibrasil.com/when-i-reject-ai-code-even-if-it-works": {
+      "canonical_url": "https://vinibrasil.com/when-i-reject-ai-code-even-if-it-works",
+      "created_at": "2026-06-21T05:19:01Z",
+      "status": "scoring_attempted",
+      "title": "When I reject AI code even if it works"
+    },
+    "https://waxy.org/2026/06/the-wholesale-plagiarism-of-obscure-sorrows": {
+      "canonical_url": "https://waxy.org/2026/06/the-wholesale-plagiarism-of-obscure-sorrows",
+      "created_at": "2026-06-20T18:45:58Z",
+      "status": "scoring_attempted",
+      "title": "Agency stole bestselling author's book, used AI to relaunch as their own"
+    },
+    "https://www.argusred.com/cli": {
+      "canonical_url": "https://www.argusred.com/cli",
+      "created_at": "2026-06-20T18:45:58Z",
+      "status": "scoring_attempted",
+      "title": "Show HN: We post-trained a model that pen tests instead of refusing"
+    },
+    "https://www.bbc.com/news/articles/c0rygp005wjo": {
+      "canonical_url": "https://www.bbc.com/news/articles/c0rygp005wjo",
+      "created_at": "2026-06-21T01:41:34Z",
+      "status": "scoring_attempted",
+      "title": "'We had to get out of the way': The backlash over delivery robots"
+    },
+    "https://www.bloomberg.com/news/articles/2026-06-20/ubisoft-co-founder-claude-guillemot-dies-in-air-crash-at-age-69": {
+      "canonical_url": "https://www.bloomberg.com/news/articles/2026-06-20/ubisoft-co-founder-claude-guillemot-dies-in-air-crash-at-age-69",
+      "created_at": "2026-06-20T17:06:28Z",
+      "status": "scoring_attempted",
+      "title": "Ubisoft co-founder Claude Guillemot has died in a plane crash"
+    },
+    "https://www.cell.com/neuron/fulltext/S0896-6273(26)00339-9": {
+      "canonical_url": "https://www.cell.com/neuron/fulltext/S0896-6273(26)00339-9",
+      "created_at": "2026-06-21T00:00:36Z",
+      "status": "scoring_attempted",
+      "title": "Slow breathing modulates brain function and risk behavior"
+    },
+    "https://www.extremetech.com/computing/windows-11s-new-media-player-uses-35x-more-ram-charges-for-popular-video": {
+      "canonical_url": "https://www.extremetech.com/computing/windows-11s-new-media-player-uses-35x-more-ram-charges-for-popular-video",
+      "created_at": "2026-06-20T17:06:28Z",
+      "status": "scoring_attempted",
+      "title": "Windows 11 New Media Player Uses 3.5x More RAM, Charges for Popular Video Codecs"
+    },
+    "https://www.infoq.com/news/2026/06/apple-core-ai-wwdc": {
+      "canonical_url": "https://www.infoq.com/news/2026/06/apple-core-ai-wwdc",
+      "created_at": "2026-06-20T11:51:33Z",
+      "status": "scoring_attempted",
+      "title": "Apple Launches Core AI for Apple-Silicon Optimized On-Device Generative AI"
+    },
     "https://www.infoq.com/news/2026/06/bedrock-fable-5-data-sharing": {
       "canonical_url": "https://www.infoq.com/news/2026/06/bedrock-fable-5-data-sharing",
       "created_at": "2026-06-20T09:56:30Z",
@@ -932,11 +285,89 @@
       "status": "scoring_attempted",
       "title": "AWS Adds Multi-Region Replication to Amazon Cognito Identity Service"
     },
+    "https://www.infoq.com/news/2026/06/forge-billing-usage-platform": {
+      "canonical_url": "https://www.infoq.com/news/2026/06/forge-billing-usage-platform",
+      "created_at": "2026-06-20T15:23:58Z",
+      "status": "scoring_attempted",
+      "title": "Inside Atlassian\u2019s Forge Billing Architecture for Distributed Usage Tracking at Scale"
+    },
+    "https://www.marktechpost.com/2026/06/20/cisco-ai-introduces-fapo-pipeline-aware-prompt-optimization-with-step-level-failure-attribution-and-claude-code-orchestration": {
+      "canonical_url": "https://www.marktechpost.com/2026/06/20/cisco-ai-introduces-fapo-pipeline-aware-prompt-optimization-with-step-level-failure-attribution-and-claude-code-orchestration",
+      "created_at": "2026-06-21T00:00:36Z",
+      "status": "scoring_attempted",
+      "title": "Cisco AI Introduces FAPO: Pipeline-Aware Prompt Optimization With Step-Level Failure Attribution and Claude Code Orchestration"
+    },
+    "https://www.marktechpost.com/2026/06/20/nous-research-updates-hermes-agent-with-a-blank-slate-mode-that-pins-toolsets-via-platform_toolsets-cli-and-disabled_toolsets": {
+      "canonical_url": "https://www.marktechpost.com/2026/06/20/nous-research-updates-hermes-agent-with-a-blank-slate-mode-that-pins-toolsets-via-platform_toolsets-cli-and-disabled_toolsets",
+      "created_at": "2026-06-20T22:56:39Z",
+      "status": "scoring_attempted",
+      "title": "Nous Research Updates Hermes Agent With a Blank Slate Mode That Pins Toolsets via platform_toolsets.cli and disabled_toolsets"
+    },
+    "https://www.marktechpost.com/2026/06/20/yandex-open-sources-yaff-a-zero-copy-wire-format-for-protobuf-with-near-struct-read-speed": {
+      "canonical_url": "https://www.marktechpost.com/2026/06/20/yandex-open-sources-yaff-a-zero-copy-wire-format-for-protobuf-with-near-struct-read-speed",
+      "created_at": "2026-06-20T11:51:33Z",
+      "status": "scoring_attempted",
+      "title": "Yandex Open-Sources YaFF: A Zero-Copy Wire Format for Protobuf With Near-Struct Read Speed"
+    },
+    "https://www.phoronix.com/news/Linux-7.2-Drops-strncpy": {
+      "canonical_url": "https://www.phoronix.com/news/Linux-7.2-Drops-strncpy",
+      "created_at": "2026-06-20T21:40:39Z",
+      "status": "scoring_attempted",
+      "title": "Linux Eliminates the Strncpy API After Six Years of Work, 360 Patches"
+    },
+    "https://www.publictechnology.net/2026/06/15/public-order-justice-and-rights/home-office-launches-75m-policeai-to-capitalise-on-artificial-intelligence": {
+      "canonical_url": "https://www.publictechnology.net/2026/06/15/public-order-justice-and-rights/home-office-launches-75m-policeai-to-capitalise-on-artificial-intelligence",
+      "created_at": "2026-06-20T21:40:39Z",
+      "status": "scoring_attempted",
+      "title": "UK Home Office launches \u00a375M 'PoliceAI' to capitalise on artificial intelligence"
+    },
+    "https://www.reuters.com/technology/us-scientist-john-jumper-leave-google-deepmind-anthropic-2026-06-19": {
+      "canonical_url": "https://www.reuters.com/technology/us-scientist-john-jumper-leave-google-deepmind-anthropic-2026-06-19",
+      "created_at": "2026-06-20T15:23:58Z",
+      "status": "scoring_attempted",
+      "title": "US Scientist John Jumper to Leave Google DeepMind for Anthropic"
+    },
+    "https://www.reuters.com/world/ubisofts-co-founder-claude-guillemot-dies-plane-crash-2026-06-20": {
+      "canonical_url": "https://www.reuters.com/world/ubisofts-co-founder-claude-guillemot-dies-plane-crash-2026-06-20",
+      "created_at": "2026-06-20T18:45:58Z",
+      "status": "scoring_attempted",
+      "title": "Ubisoft co-founder Claude Guillemot has died in a plane crash"
+    },
+    "https://www.satisfice.com/blog/archives/488148": {
+      "canonical_url": "https://www.satisfice.com/blog/archives/488148",
+      "created_at": "2026-06-21T09:04:28Z",
+      "status": "scoring_attempted",
+      "title": "Public Service Announcement: Don't Say You Use AI for Writing"
+    },
+    "https://www.sciencedaily.com/releases/2026/06/260614012006.htm": {
+      "canonical_url": "https://www.sciencedaily.com/releases/2026/06/260614012006.htm",
+      "created_at": "2026-06-21T05:19:01Z",
+      "status": "scoring_attempted",
+      "title": "Your brain was never designed for this much bad news"
+    },
+    "https://www.theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data": {
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data",
+      "created_at": "2026-06-20T20:09:52Z",
+      "status": "scoring_attempted",
+      "title": "The Atlantic created a searchable database of the music used to train AI"
+    },
+    "https://www.theverge.com/report/953116/experimental-musician-youtuber-hainbach-interview": {
+      "canonical_url": "https://www.theverge.com/report/953116/experimental-musician-youtuber-hainbach-interview",
+      "created_at": "2026-06-20T15:23:58Z",
+      "status": "scoring_attempted",
+      "title": "Musician and YouTuber Hainbach on \u2018Breath of the Wild\u2019 and Swiss Army Knives"
+    },
     "https://www.theverge.com/tech/952855/switchbot-standing-circulator-fan-review": {
       "canonical_url": "https://www.theverge.com/tech/952855/switchbot-standing-circulator-fan-review",
       "created_at": "2026-06-20T08:39:44Z",
       "status": "scoring_attempted",
       "title": "SwitchBot\u2019s Standing Circulator Fan is worth fighting for"
+    },
+    "https://www.wired.com/story/siri-ai-hands-on-iphone": {
+      "canonical_url": "https://www.wired.com/story/siri-ai-hands-on-iphone",
+      "created_at": "2026-06-20T11:51:33Z",
+      "status": "scoring_attempted",
+      "title": "Siri AI Hands On: A Smart, Helpful Assistant"
     }
   },
   "version": 1
