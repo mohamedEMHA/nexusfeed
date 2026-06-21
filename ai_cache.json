@@ -23,6 +23,28 @@
         "social_posts": {}
       }
     },
+    "0807e8c765fc147e282abafc01cf184d8bce947cddc52840aa3bf1b303b9afe0": {
+      "created_at": "2026-06-21T20:19:56Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 0.2,
+            "reason": "Tutorial content with low novelty and source tier.",
+            "red_flag": true,
+            "red_flag_reason": "tutorial",
+            "source_score": 0.5,
+            "title": "JSON-LD Explained for Personal Websites",
+            "total_score": 3.2
+          }
+        ],
+        "best_index": 0,
+        "best_score": 3.2,
+        "recommendation": "SKIP"
+      }
+    },
     "146c3c403d009dbe056334a175732df2d37ef96fb6c44a33eaad7f1d2f9b5706": {
       "created_at": "2026-06-21T15:46:40Z",
       "payload": {
@@ -309,6 +331,29 @@
         "social_posts": {}
       }
     },
+    "e177c2269e8fde7d820d72297ea1ec506ae613bca1285167137778515757c343": {
+      "created_at": "2026-06-21T20:19:56Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 1.5,
+            "reason": "Important topic but not novel, and source is low-tier.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Burnout is real for open source maintainers",
+            "total_score": 5.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 5.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "fe789f3bfa397027d637763f320f11a9163c060975c80d765fb777d529a6fd26": {
       "created_at": "2026-06-21T17:16:16Z",
       "payload": {
@@ -558,6 +603,12 @@
       "status": "scoring_attempted",
       "title": "Show HN: Pulse \u2013 Dashboard for Claude Code, approve tool calls from your phone"
     },
+    "https://hawksley.dev/blog/json-ld-explained-for-personal-websites": {
+      "canonical_url": "https://hawksley.dev/blog/json-ld-explained-for-personal-websites",
+      "created_at": "2026-06-21T20:19:56Z",
+      "status": "scoring_attempted",
+      "title": "JSON-LD Explained for Personal Websites"
+    },
     "https://hbr.org/2026/06/ai-has-broken-hiring-heres-how-to-fix-it": {
       "canonical_url": "https://hbr.org/2026/06/ai-has-broken-hiring-heres-how-to-fix-it",
       "created_at": "2026-06-21T17:16:16Z",
@@ -593,6 +644,12 @@
       "created_at": "2026-06-21T13:56:19Z",
       "status": "scoring_attempted",
       "title": "Anthropic to Require ID Verification for Certain Capabilities Starting July 8"
+    },
+    "https://openjsf.org/blog/burnout-is-real-for-open-source-maintainers": {
+      "canonical_url": "https://openjsf.org/blog/burnout-is-real-for-open-source-maintainers",
+      "created_at": "2026-06-21T20:19:56Z",
+      "status": "scoring_attempted",
+      "title": "Burnout is real for open source maintainers"
     },
     "https://support.claude.com/en/articles/14328960-identity-verification-on-claude": {
       "canonical_url": "https://support.claude.com/en/articles/14328960-identity-verification-on-claude",
