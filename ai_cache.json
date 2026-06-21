@@ -46,6 +46,29 @@
         "social_posts": {}
       }
     },
+    "16f328d8bab4683b4d25d6f14c7d3de0430b511474e73f46c1413b652fbf1d4b": {
+      "created_at": "2026-06-21T17:16:16Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Anthropic's Claude now handles 95% of internal analytics queries, showcasing significant operational efficiency gains.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.0,
+            "title": "Anthropic Reports Claude Now Handles 95% of Internal Analytics Queries",
+            "total_score": 8.0
+          }
+        ],
+        "best_index": 0,
+        "best_score": 8.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "24b3d123a2650ff48e9f99b33f9c8d2e054606aab6d41856e7dfed25ad886298": {
       "created_at": "2026-06-21T15:46:40Z",
       "payload": {
@@ -213,6 +236,29 @@
         ],
         "best_index": 0,
         "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "fe789f3bfa397027d637763f320f11a9163c060975c80d765fb777d529a6fd26": {
+      "created_at": "2026-06-21T17:16:16Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "The article is flagged for containing 'how to' in the summary.",
+            "red_flag": true,
+            "red_flag_reason": "how to",
+            "source_score": 0.5,
+            "title": "AI Has Broken Hiring",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -431,6 +477,12 @@
       "status": "scoring_attempted",
       "title": "Loupe \u2013 A iOS app that raises awareness about what native apps can see"
     },
+    "https://hbr.org/2026/06/ai-has-broken-hiring-heres-how-to-fix-it": {
+      "canonical_url": "https://hbr.org/2026/06/ai-has-broken-hiring-heres-how-to-fix-it",
+      "created_at": "2026-06-21T17:16:16Z",
+      "status": "scoring_attempted",
+      "title": "AI Has Broken Hiring"
+    },
     "https://kevinak.se/blog/who-actually-owns-your-atproto-identity-hint-its-probably-not-you": {
       "canonical_url": "https://kevinak.se/blog/who-actually-owns-your-atproto-identity-hint-its-probably-not-you",
       "created_at": "2026-06-21T15:46:40Z",
@@ -532,6 +584,12 @@
       "created_at": "2026-06-20T17:06:28Z",
       "status": "scoring_attempted",
       "title": "Windows 11 New Media Player Uses 3.5x More RAM, Charges for Popular Video Codecs"
+    },
+    "https://www.infoq.com/news/2026/06/anthropic-claude-analytics": {
+      "canonical_url": "https://www.infoq.com/news/2026/06/anthropic-claude-analytics",
+      "created_at": "2026-06-21T17:16:16Z",
+      "status": "scoring_attempted",
+      "title": "Anthropic Reports Claude Now Handles 95% of Internal Analytics Queries"
     },
     "https://www.infoq.com/news/2026/06/apple-core-ai-wwdc": {
       "canonical_url": "https://www.infoq.com/news/2026/06/apple-core-ai-wwdc",
