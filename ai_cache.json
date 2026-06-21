@@ -97,6 +97,52 @@
         }
       }
     },
+    "3d3a936b214d7def51393b506152745f2992ea0f878d16b9e51b01c33f7a15cb": {
+      "created_at": "2026-06-21T18:53:21Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1,
+            "impact_score": 1.5,
+            "index": 4,
+            "novelty_score": 1.5,
+            "reason": "Update on identity verification process for Claude users.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Identity verification on Claude",
+            "total_score": 4.5
+          }
+        ],
+        "best_index": 4,
+        "best_score": 4.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "48381166414f198987f6c84b9f2b9575c2866ce41aa1b65b35aa0492400d9ca7": {
+      "created_at": "2026-06-21T18:53:21Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 1,
+            "novelty_score": 0.2,
+            "reason": "Comments section, not a full article.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "The Minimum Viable Unit of Saleable Software",
+            "total_score": 3.2
+          }
+        ],
+        "best_index": 1,
+        "best_score": 3.2,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "5097897a020fff1796a3f58490e945c1200122d5ab297471091267b6bac97201": {
       "created_at": "2026-06-21T12:07:10Z",
       "payload": {
@@ -236,6 +282,29 @@
         ],
         "best_index": 0,
         "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "dd318b99cb09ddced6a6ea1220a97fe98a25887127a9afb40ae72dbe1ae115e6": {
+      "created_at": "2026-06-21T18:53:21Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 0.5,
+            "impact_score": 1.5,
+            "index": 14,
+            "novelty_score": 2.5,
+            "reason": "New tool for Claude Code, but limited impact and freshness.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Show HN: Pulse \u2013 Dashboard for Claude Code, approve tool calls from your phone",
+            "total_score": 4.5
+          }
+        ],
+        "best_index": 14,
+        "best_score": 4.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -459,6 +528,12 @@
       "status": "scoring_attempted",
       "title": "Bootimus \u2013 A Self-Contained PXE and HTTP Boot Server"
     },
+    "https://brandur.org/minimum-viable-unit": {
+      "canonical_url": "https://brandur.org/minimum-viable-unit",
+      "created_at": "2026-06-21T18:53:21Z",
+      "status": "scoring_attempted",
+      "title": "The Minimum Viable Unit of Saleable Software"
+    },
     "https://clickhouse.com/blog/postgresbench": {
       "canonical_url": "https://clickhouse.com/blog/postgresbench",
       "created_at": "2026-06-20T20:09:52Z",
@@ -476,6 +551,12 @@
       "created_at": "2026-06-21T00:00:36Z",
       "status": "scoring_attempted",
       "title": "Loupe \u2013 A iOS app that raises awareness about what native apps can see"
+    },
+    "https://github.com/nikitadoudikov/claude-pulse": {
+      "canonical_url": "https://github.com/nikitadoudikov/claude-pulse",
+      "created_at": "2026-06-21T18:53:21Z",
+      "status": "scoring_attempted",
+      "title": "Show HN: Pulse \u2013 Dashboard for Claude Code, approve tool calls from your phone"
     },
     "https://hbr.org/2026/06/ai-has-broken-hiring-heres-how-to-fix-it": {
       "canonical_url": "https://hbr.org/2026/06/ai-has-broken-hiring-heres-how-to-fix-it",
@@ -512,6 +593,12 @@
       "created_at": "2026-06-21T13:56:19Z",
       "status": "scoring_attempted",
       "title": "Anthropic to Require ID Verification for Certain Capabilities Starting July 8"
+    },
+    "https://support.claude.com/en/articles/14328960-identity-verification-on-claude": {
+      "canonical_url": "https://support.claude.com/en/articles/14328960-identity-verification-on-claude",
+      "created_at": "2026-06-21T18:53:21Z",
+      "status": "scoring_attempted",
+      "title": "Identity verification on Claude"
     },
     "https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search": {
       "canonical_url": "https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search",
