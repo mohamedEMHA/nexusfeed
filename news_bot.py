@@ -42,6 +42,8 @@ REQUIRED_SECRETS = [
     "CEREBRAS_API_KEY",
     "GOOGLE_CREDENTIALS",
     "GOOGLE_SHEET_ID",
+]
+TELEGRAM_REQUIRED_SECRETS = [
     "TELEGRAM_BOT_TOKEN",
     "TELEGRAM_CHAT_ID",
 ]
@@ -171,7 +173,7 @@ GROQ_SOCIAL_PROMPT_VERSION = "groq-social-v1"
 CEREBRAS_SCORING_CACHE_TTL = timedelta(hours=24)
 GROQ_SOCIAL_CACHE_TTL = timedelta(days=7)
 SEEN_ARTICLE_LINK_CACHE_TTL = timedelta(days=7)
-CEREBRAS_BATCH_COUNT = 8
+CEREBRAS_BATCH_COUNT = 4
 CEREBRAS_MAX_BATCH_PROMPT_CHARS = 12000
 
 SCORING_SYSTEM_PROMPT = """
@@ -519,6 +521,12 @@ def require_env() -> dict[str, str]:
         if not value:
             raise EnvironmentError(f"Missing required secret: {key}")
         values[key] = value
+    if is_env_flag_enabled("ENABLE_TELEGRAM_MESSAGES", default=True):
+        for key in TELEGRAM_REQUIRED_SECRETS:
+            value = os.environ.get(key)
+            if not value:
+                raise EnvironmentError(f"Missing required secret: {key}")
+            values[key] = value
     return values
 
 
@@ -527,6 +535,18 @@ def get_cerebras_model() -> str:
     if requested_model not in CEREBRAS_SUPPORTED_MODELS:
         raise EnvironmentError(f"Unsupported Cerebras model for this organization: {requested_model}")
     return requested_model
+
+
+def is_env_flag_enabled(key: str, default: bool = False) -> bool:
+    raw_value = clean_whitespace(os.environ.get(key, ""))
+    if not raw_value:
+        return default
+    normalized = raw_value.lower()
+    if normalized in {"1", "true", "yes", "on"}:
+        return True
+    if normalized in {"0", "false", "no", "off"}:
+        return False
+    return default
 
 
 def default_state(now: datetime | None = None) -> dict[str, Any]:
@@ -937,6 +957,9 @@ def parse_llm_json_object(content: str) -> dict[str, Any]:
 
 
 def send_telegram_error(message: str, context: dict | None = None) -> bool:
+    if not is_env_flag_enabled("ENABLE_TELEGRAM_MESSAGES", default=True):
+        logging.info("Telegram messages are disabled via ENABLE_TELEGRAM_MESSAGES.")
+        return False
     bot_token = clean_whitespace(os.environ.get("TELEGRAM_BOT_TOKEN", ""))
     chat_id = clean_whitespace(os.environ.get("TELEGRAM_CHAT_ID", ""))
     if not bot_token or not chat_id:
@@ -1666,18 +1689,19 @@ def call_cerebras(
             raw_header = response.headers.get("retry-after", "")
             wait_seconds = parse_retry_after(raw_header, backoff)
             logging.warning("Cerebras rate limited (429). Waiting %.1fs (retry-after: '%s').", wait_seconds, raw_header)
-            notify_component_error(
-                "Cerebras Scoring",
-                "429",
-                "Cerebras scoring was rate limited.",
-                {
-                    "attempt": attempt,
-                    "candidate_count": len(candidates),
-                    "retry_after": raw_header,
-                    "parsed_retry_after_seconds": wait_seconds,
-                    "run_context": "call_cerebras",
-                },
-            )
+            if attempt >= 3:
+                notify_component_error(
+                    "Cerebras Scoring",
+                    "429",
+                    "Cerebras scoring is persistently rate limited across multiple attempts.",
+                    {
+                        "attempt": attempt,
+                        "candidate_count": len(candidates),
+                        "retry_after": raw_header,
+                        "parsed_retry_after_seconds": wait_seconds,
+                        "run_context": "call_cerebras",
+                    },
+                )
             time.sleep(wait_seconds)
             backoff = min(backoff * 2, 120.0)
             continue
@@ -1778,7 +1802,32 @@ def call_cerebras(
             result = parse_llm_json_object(content)
             set_cached_ai_result(ai_cache, "cerebras_scoring", cache_key, result, now)
             return result
-        except (requests.RequestException, KeyError, IndexError, ValueError, json.JSONDecodeError) as exc:
+        except requests.HTTPError as exc:
+            status_code = exc.response.status_code if exc.response is not None else "unknown"
+            body_preview = trim_error_text(exc.response.text, 600) if exc.response is not None else ""
+            logging.error(
+                "Cerebras HTTPError on attempt %s: status=%s body=%s",
+                attempt,
+                status_code,
+                body_preview,
+            )
+            notify_component_error(
+                "Cerebras Scoring",
+                f"HTTPError_{status_code}",
+                f"Cerebras returned unhandled HTTP {status_code}: {body_preview}",
+                {
+                    "attempt": attempt,
+                    "candidate_count": len(candidates),
+                    "status_code": status_code,
+                    "run_context": "call_cerebras",
+                },
+            )
+            if attempt == 5:
+                return None
+            time.sleep(backoff)
+            backoff *= 2
+            continue
+        except (KeyError, IndexError, ValueError, json.JSONDecodeError) as exc:
             logging.error("Cerebras unexpected error on attempt %s: %s", attempt, exc)
             notify_component_error(
                 "Cerebras Scoring",

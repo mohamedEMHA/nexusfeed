@@ -18,8 +18,12 @@ Autonomous AI and software engineering news curator.
 Configure these repository secrets before enabling the workflow:
 
 - `GROQ_API_KEY`
+- `CEREBRAS_API_KEY`
 - `GOOGLE_CREDENTIALS` full service account JSON string
 - `GOOGLE_SHEET_ID` Google Spreadsheet ID from the sheet URL
+- `ENABLE_TELEGRAM_MESSAGES` optional flag, set to `true` or `false`
+- `TELEGRAM_BOT_TOKEN` required only when `ENABLE_TELEGRAM_MESSAGES=true`
+- `TELEGRAM_CHAT_ID` required only when `ENABLE_TELEGRAM_MESSAGES=true`
 
 The bot validates all required runtime secrets at startup and fails fast if one is missing.
 
