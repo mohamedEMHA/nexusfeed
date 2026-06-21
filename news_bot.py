@@ -28,9 +28,9 @@ AI_CACHE_PATH = ROOT / "ai_cache.json"
 DEBUG_CEREBRAS_RESPONSE_PATH = ROOT / "debug-cerebras-response.txt"
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 GROQ_MODEL = "llama-3.3-70b-versatile"
-CEREBRAS_URL = "https://api.cerebras.ai/v1/chat/completions"
-DEFAULT_CEREBRAS_MODEL = "gpt-oss-120b"
-CEREBRAS_SUPPORTED_MODELS = {"gpt-oss-120b", "zai-glm-4.7"}
+CEREBRAS_URL = "https://api.mistral.ai/v1/chat/completions"
+DEFAULT_CEREBRAS_MODEL = "mistral-small-2506"
+CEREBRAS_SUPPORTED_MODELS = {"mistral-small-2506"}
 TELEGRAM_API_URL_TEMPLATE = "https://api.telegram.org/bot{token}/sendMessage"
 MAX_CANDIDATES = 25
 MAX_ARTICLE_AGE_HOURS = 24
@@ -39,7 +39,7 @@ POSTED_RETENTION_DAYS = 7
 RECENT_TITLE_LOOKBACK_HOURS = 24
 REQUIRED_SECRETS = [
     "GROQ_API_KEY",
-    "CEREBRAS_API_KEY",
+    "MISTRAL_API_KEY",
     "GOOGLE_CREDENTIALS",
     "GOOGLE_SHEET_ID",
 ]
@@ -47,7 +47,7 @@ TELEGRAM_REQUIRED_SECRETS = [
     "TELEGRAM_BOT_TOKEN",
     "TELEGRAM_CHAT_ID",
 ]
-DOTENV_OVERRIDE_KEYS = {"CEREBRAS_API_KEY"}
+DOTENV_OVERRIDE_KEYS = {"MISTRAL_API_KEY"}
 TRACKING_QUERY_PREFIXES = (
     "utm_",
     "fbclid",
@@ -1625,7 +1625,7 @@ def call_cerebras(
     ai_cache: dict[str, Any],
 ) -> dict[str, Any] | None:
     cerebras_model = get_cerebras_model()
-    env_api_key = os.environ.get("CEREBRAS_API_KEY", "")
+    env_api_key = os.environ.get("MISTRAL_API_KEY", "")
     logging.info("Cerebras debug: env var name used = CEREBRAS_API_KEY")
     logging.info("Cerebras debug: CEREBRAS_API_KEY exists in os.environ = %s", "CEREBRAS_API_KEY" in os.environ)
     logging.info("Cerebras debug: env key length = %s", len(env_api_key))
@@ -1763,7 +1763,7 @@ def call_cerebras(
 
         if response.status_code == 401:
             logging.error("Cerebras API key is invalid or missing (401 Unauthorized).")
-            logging.error("Check CEREBRAS_API_KEY secret in GitHub -> Settings -> Secrets.")
+            logging.error("Check MISTRAL_API_KEY secret in GitHub -> Settings -> Secrets.")
             logging.error("Cerebras debug: 401 response body = %s", trim_error_text(response.text, 1000))
             notify_component_error(
                 "Cerebras Scoring",
@@ -2232,7 +2232,7 @@ def main() -> int:
         logging.info("Proceeding with %s unseen candidate(s) after ai_cache link filtering.", len(candidates))
 
         if candidates:
-            normalized = score_candidates_with_cerebras_batches(candidates, now, secrets["CEREBRAS_API_KEY"], ai_cache)
+            normalized = score_candidates_with_cerebras_batches(candidates, now, secrets["MISTRAL_API_KEY"], ai_cache)
             if normalized:
                 score_map = score_map_from_result(normalized)
                 best_index = normalized["best_index"]

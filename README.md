@@ -18,7 +18,7 @@ Autonomous AI and software engineering news curator.
 Configure these repository secrets before enabling the workflow:
 
 - `GROQ_API_KEY`
-- `CEREBRAS_API_KEY`
+- `MISTRAL_API_KEY`
 - `GOOGLE_CREDENTIALS` full service account JSON string
 - `GOOGLE_SHEET_ID` Google Spreadsheet ID from the sheet URL
 - `ENABLE_TELEGRAM_MESSAGES` optional flag, set to `true` or `false`
