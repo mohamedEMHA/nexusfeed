@@ -45,6 +45,29 @@
         "recommendation": "SKIP"
       }
     },
+    "0e073674f59ba84fc5cc408d497683021660b0d357ef1bfb97a009ba6cab1a61": {
+      "created_at": "2026-06-21T21:45:51Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Opinion piece on AI-native organizations with moderate impact and high freshness.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "The Anatomy of an AI-Native Org",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "146c3c403d009dbe056334a175732df2d37ef96fb6c44a33eaad7f1d2f9b5706": {
       "created_at": "2026-06-21T15:46:40Z",
       "payload": {
@@ -257,6 +280,29 @@
         "social_posts": {}
       }
     },
+    "b2ce49f452efacdc8018d834821d3bd641d6fc69b402232aa2057d87a6703c4b": {
+      "created_at": "2026-06-21T21:45:51Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "New open foundation model for sovereign AI, but source is Hacker News.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Apertus \u2013 Open Foundation Model for Sovereign AI",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "b829f32d9be582416ecf2498ff1afda035c416c0933e9c92be92574b500a5f74": {
       "created_at": "2026-06-21T15:46:40Z",
       "payload": {
@@ -304,6 +350,29 @@
         ],
         "best_index": 0,
         "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "dbe6cc1f7f202ecbb8682d00458e9a64d38a8d9c11fd81dead4be2417f22ad56": {
+      "created_at": "2026-06-21T21:45:51Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "Interesting discussion on optimizing token usage in AI projects, but niche impact and lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Stop wasting tokens and re explaining your project between sessions",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 2,
+        "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -417,11 +486,23 @@
     }
   },
   "seen_article_links": {
+    "https://ajeygore.in/content/the-anatomy-of-an-ai-native-org": {
+      "canonical_url": "https://ajeygore.in/content/the-anatomy-of-an-ai-native-org",
+      "created_at": "2026-06-21T21:45:51Z",
+      "status": "scoring_attempted",
+      "title": "The Anatomy of an AI-Native Org"
+    },
     "https://alexkritchevsky.com/2024/02/28/geometric-algebra.html": {
       "canonical_url": "https://alexkritchevsky.com/2024/02/28/geometric-algebra.html",
       "created_at": "2026-06-21T12:07:10Z",
       "status": "scoring_attempted",
       "title": "The case against geometric algebra"
+    },
+    "https://apertvs.ai": {
+      "canonical_url": "https://apertvs.ai",
+      "created_at": "2026-06-21T21:45:51Z",
+      "status": "scoring_attempted",
+      "title": "Apertus \u2013 Open Foundation Model for Sovereign AI"
     },
     "https://arxiv.org/abs/2606.19469": {
       "canonical_url": "https://arxiv.org/abs/2606.19469",
@@ -602,6 +683,12 @@
       "created_at": "2026-06-21T18:53:21Z",
       "status": "scoring_attempted",
       "title": "Show HN: Pulse \u2013 Dashboard for Claude Code, approve tool calls from your phone"
+    },
+    "https://github.com/raiyanyahya/recall": {
+      "canonical_url": "https://github.com/raiyanyahya/recall",
+      "created_at": "2026-06-21T21:45:51Z",
+      "status": "scoring_attempted",
+      "title": "Stop wasting tokens and re explaining your project between sessions"
     },
     "https://hawksley.dev/blog/json-ld-explained-for-personal-websites": {
       "canonical_url": "https://hawksley.dev/blog/json-ld-explained-for-personal-websites",
