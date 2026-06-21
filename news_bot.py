@@ -2240,7 +2240,7 @@ def main() -> int:
                 best_score = score_map.get(best_index)
                 authoritative_score = float(normalized.get("authoritative_score", 0.0))
 
-                if best_article and best_score and not best_score["red_flag"]:
+                if best_article and best_score and (FORCE_APPEND_BEST_FOR_TEST or not best_score["red_flag"]):
                     best_score = dict(best_score)
                     best_score["authoritative_score"] = authoritative_score
                     recommendation = normalized["recommendation"]
