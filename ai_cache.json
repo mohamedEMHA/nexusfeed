@@ -382,6 +382,29 @@
         "social_posts": {}
       }
     },
+    "cf52e118ef00631e8c608a9c4f865ad3297510e05a553eca6edc356e6647ed80": {
+      "created_at": "2026-06-22T00:08:11Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Interesting experiment but lacks depth and broader implications.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "I Gave an AI a Civilization to Run. It Built a Nuke \u2013 Launching CivBench",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "dbe6cc1f7f202ecbb8682d00458e9a64d38a8d9c11fd81dead4be2417f22ad56": {
       "created_at": "2026-06-21T21:45:51Z",
       "payload": {
@@ -447,6 +470,29 @@
         ],
         "best_index": 1,
         "best_score": 5.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "efdbafb41efc687c3b76d948d409f8c63c091767172acc7632c0232f242acdcc": {
+      "created_at": "2026-06-22T00:08:11Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 3,
+            "novelty_score": 0.5,
+            "reason": "Opinion piece on open models with limited impact and source quality.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "There is minimal downside to switching to open models",
+            "total_score": 3.5
+          }
+        ],
+        "best_index": 3,
+        "best_score": 3.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -888,6 +934,18 @@
       "created_at": "2026-06-20T15:23:58Z",
       "status": "scoring_attempted",
       "title": "Inside Atlassian\u2019s Forge Billing Architecture for Distributed Usage Tracking at Scale"
+    },
+    "https://www.lwilko.com/blog/i-gave-an-ai-a-civilization": {
+      "canonical_url": "https://www.lwilko.com/blog/i-gave-an-ai-a-civilization",
+      "created_at": "2026-06-22T00:08:11Z",
+      "status": "scoring_attempted",
+      "title": "I Gave an AI a Civilization to Run. It Built a Nuke \u2013 Launching CivBench"
+    },
+    "https://www.marble.onl/posts/cancel_claude.html": {
+      "canonical_url": "https://www.marble.onl/posts/cancel_claude.html",
+      "created_at": "2026-06-22T00:08:11Z",
+      "status": "scoring_attempted",
+      "title": "There is minimal downside to switching to open models"
     },
     "https://www.marktechpost.com/2026/06/20/cisco-ai-introduces-fapo-pipeline-aware-prompt-optimization-with-step-level-failure-attribution-and-claude-code-orchestration": {
       "canonical_url": "https://www.marktechpost.com/2026/06/20/cisco-ai-introduces-fapo-pipeline-aware-prompt-optimization-with-step-level-failure-attribution-and-claude-code-orchestration",
