@@ -23,6 +23,29 @@
         "social_posts": {}
       }
     },
+    "043cebe2632db8525589762d51438ce09fd0dce1d5a543325567c8a36992d87a": {
+      "created_at": "2026-06-22T12:46:00Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "AWS Graviton5's general availability with 192 cores and verified VM isolation is a significant hardware and cloud infrastructure update.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "AWS Graviton5 Reaches General Availability with 192 Cores and Formally Verified VM Isolation",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "0807e8c765fc147e282abafc01cf184d8bce947cddc52840aa3bf1b303b9afe0": {
       "created_at": "2026-06-21T20:19:56Z",
       "payload": {
@@ -211,25 +234,48 @@
         "social_posts": {}
       }
     },
-    "5097897a020fff1796a3f58490e945c1200122d5ab297471091267b6bac97201": {
-      "created_at": "2026-06-21T12:07:10Z",
+    "4bfdeba9c874fdde96f1a66518fba33315fa8fd5318a0ca2d3518372ff5977aa": {
+      "created_at": "2026-06-22T12:46:00Z",
       "payload": {
         "articles": [
           {
             "freshness_score": 1.5,
             "impact_score": 1.5,
-            "index": 1,
+            "index": 3,
             "novelty_score": 2.5,
-            "reason": "Opinion piece on geometric algebra with niche impact and moderate novelty.",
+            "reason": "AI-driven scams are a growing concern, but the article lacks technical depth for software engineers.",
             "red_flag": false,
             "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "The case against geometric algebra",
+            "source_score": 1.5,
+            "title": "World Cup Scams Are Getting Harder to Spot",
             "total_score": 5.5
           }
         ],
-        "best_index": 1,
+        "best_index": 3,
         "best_score": 5.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "53b752bd251403ea29ab8dbefece7681e0d0eec7cd2fe1cc1bdfb53cfc5294f1": {
+      "created_at": "2026-06-22T12:46:00Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "In-depth exploration of eBPF's evolution and security implications for kernel observability.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Podcast: How eBPF Empowers Developers to Observe Inside the Linux Kernel in a Safe and Unintrusive Way",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -257,25 +303,25 @@
         "social_posts": {}
       }
     },
-    "6b374b36b51afb478f1a6c4866d0b6ed852106def0ec9db61346770f1b8e4ea9": {
-      "created_at": "2026-06-21T12:07:10Z",
+    "764997e92d6ff0a509eb93b8d3b0319448833e6a39856dd69a72faaca22a4b1e": {
+      "created_at": "2026-06-22T12:46:00Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 2.0,
-            "impact_score": 0.0,
-            "index": 0,
-            "novelty_score": 0.0,
-            "reason": "Weekly newsletter format disqualifies it from being novel or impactful.",
-            "red_flag": true,
-            "red_flag_reason": "weekly newsletter",
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "Industry move with moderate impact and freshness from a Tier A source.",
+            "red_flag": false,
+            "red_flag_reason": null,
             "source_score": 1.5,
-            "title": "Electric air taxis are stuck in the courtroom",
-            "total_score": 3.5
+            "title": "Some Electricians Think Building Data Centers Is for Sellouts",
+            "total_score": 7.5
           }
         ],
-        "best_index": 0,
-        "best_score": 3.5,
+        "best_index": 2,
+        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -329,29 +375,6 @@
           "threads": "Samsung just deployed ChatGPT Enterprise and Codex to its global workforce. One of the largest enterprise AI rollouts yet. https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
           "twitter": "Samsung just rolled out ChatGPT Enterprise and Codex to its entire global workforce. One of OpenAI's largest enterprise AI deployments yet.\nhttps://openai.com/index/samsung-electronics-chatgpt-codex-deployment"
         }
-      }
-    },
-    "99e0ebaaa37e8ebac61d1cee1b15841ab87af5f34d7b75461d1c61eece931120": {
-      "created_at": "2026-06-21T11:56:20Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 0.5,
-            "reason": "Red flag: 'tips' in title.",
-            "red_flag": true,
-            "red_flag_reason": "tips",
-            "source_score": 1.5,
-            "title": "28 Tips to Take Your ChatGPT Prompts to the Next Level",
-            "total_score": 3.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 3.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "b2ce49f452efacdc8018d834821d3bd641d6fc69b402232aa2057d87a6703c4b": {
@@ -1021,6 +1044,12 @@
       "status": "scoring_attempted",
       "title": "Apple Launches Core AI for Apple-Silicon Optimized On-Device Generative AI"
     },
+    "https://www.infoq.com/news/2026/06/aws-graviton5-ga": {
+      "canonical_url": "https://www.infoq.com/news/2026/06/aws-graviton5-ga",
+      "created_at": "2026-06-22T12:46:00Z",
+      "status": "scoring_attempted",
+      "title": "AWS Graviton5 Reaches General Availability with 192 Cores and Formally Verified VM Isolation"
+    },
     "https://www.infoq.com/news/2026/06/bedrock-fable-5-data-sharing": {
       "canonical_url": "https://www.infoq.com/news/2026/06/bedrock-fable-5-data-sharing",
       "created_at": "2026-06-20T09:56:30Z",
@@ -1038,6 +1067,12 @@
       "created_at": "2026-06-20T15:23:58Z",
       "status": "scoring_attempted",
       "title": "Inside Atlassian\u2019s Forge Billing Architecture for Distributed Usage Tracking at Scale"
+    },
+    "https://www.infoq.com/podcasts/empowers-developers-inside-linux-kernel": {
+      "canonical_url": "https://www.infoq.com/podcasts/empowers-developers-inside-linux-kernel",
+      "created_at": "2026-06-22T12:46:00Z",
+      "status": "scoring_attempted",
+      "title": "Podcast: How eBPF Empowers Developers to Observe Inside the Linux Kernel in a Safe and Unintrusive Way"
     },
     "https://www.lwilko.com/blog/i-gave-an-ai-a-civilization": {
       "canonical_url": "https://www.lwilko.com/blog/i-gave-an-ai-a-civilization",
@@ -1159,11 +1194,23 @@
       "status": "scoring_cache_hit",
       "title": "28 Tips to Take Your ChatGPT Prompts to the Next Level"
     },
+    "https://www.wired.com/story/data-center-buildout-electricians-selling-out": {
+      "canonical_url": "https://www.wired.com/story/data-center-buildout-electricians-selling-out",
+      "created_at": "2026-06-22T12:46:00Z",
+      "status": "scoring_attempted",
+      "title": "Some Electricians Think Building Data Centers Is for Sellouts"
+    },
     "https://www.wired.com/story/siri-ai-hands-on-iphone": {
       "canonical_url": "https://www.wired.com/story/siri-ai-hands-on-iphone",
       "created_at": "2026-06-20T11:51:33Z",
       "status": "scoring_attempted",
       "title": "Siri AI Hands On: A Smart, Helpful Assistant"
+    },
+    "https://www.wired.com/story/world-cup-scams-are-getting-harder-to-spot": {
+      "canonical_url": "https://www.wired.com/story/world-cup-scams-are-getting-harder-to-spot",
+      "created_at": "2026-06-22T12:46:00Z",
+      "status": "scoring_attempted",
+      "title": "World Cup Scams Are Getting Harder to Spot"
     }
   },
   "version": 1
