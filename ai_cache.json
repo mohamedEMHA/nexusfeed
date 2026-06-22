@@ -1,5 +1,28 @@
 {
   "cerebras_scoring": {
+    "034c1be5a0df124bf414b81f54c6a504d1c724fb859fd8bc007f1dec3a8f1b00": {
+      "created_at": "2026-06-22T18:11:45Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 17,
+            "novelty_score": 2.5,
+            "reason": "Interesting tool but limited impact and from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Show HN: Selector Forge \u2013 browser extension for AI-generated resilient selectors",
+            "total_score": 5.5
+          }
+        ],
+        "best_index": 17,
+        "best_score": 5.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "043cebe2632db8525589762d51438ce09fd0dce1d5a543325567c8a36992d87a": {
       "created_at": "2026-06-22T12:46:00Z",
       "payload": {
@@ -23,6 +46,46 @@
         "social_posts": {}
       }
     },
+    "04d4b550205f00301825ecc52ffd507ffecba38e98c9c04c418ff1f778e41cc6": {
+      "created_at": "2026-06-22T18:11:45Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "Amazon expanding Alexa+ to India with Hindi support is a significant regional move.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Amazon is testing Alexa+ in India with Hindi support",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 11,
+            "novelty_score": 2.5,
+            "reason": "NSF reallocating funds is impactful but lacks the immediate technical relevance for engineers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "NSF slashes research programs to support new tech initiative, insiders say",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 2,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Amazon is expanding its Alexa+ AI assistant to India with Hindi support. This move could significantly increase Alexa's user base in a major market. Link: https://techcrunch.com/2026/06/22/amazon-is-testing-alexa-in-india-with-hindi-support/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Amazon is testing Alexa+ in India with Hindi support*\n\nAmazon is expanding its Alexa+ AI assistant to India with Hindi support, marking a significant expansion of its AI assistant.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/06/22/amazon-is-testing-alexa-in-india-with-hindi-support/",
+          "threads": "Amazon is testing Alexa+ in India with Hindi support, a big step for its AI assistant's global reach. https://techcrunch.com/2026/06/22/amazon-is-testing-alexa-in-india-with-hindi-support/",
+          "twitter": "Amazon is testing Alexa+ in India with Hindi support, marking a significant expansion of its AI assistant. https://techcrunch.com/2026/06/22/amazon-is-testing-alexa-in-india-with-hindi-support/"
+        }
+      }
+    },
     "0807e8c765fc147e282abafc01cf184d8bce947cddc52840aa3bf1b303b9afe0": {
       "created_at": "2026-06-21T20:19:56Z",
       "payload": {
@@ -43,6 +106,41 @@
         "best_index": 0,
         "best_score": 3.2,
         "recommendation": "SKIP"
+      }
+    },
+    "0a335e42df3b1b2618a7481023921bcff5639749cbf8cc0d9d43ecb27edad01e": {
+      "created_at": "2026-06-22T18:11:45Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 13,
+            "novelty_score": 2.5,
+            "reason": "New Git replacement tool designed for agents, but niche impact and lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Show HN: Oak \u2013 Git replacement designed for agents",
+            "total_score": 5.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 14,
+            "novelty_score": 2.5,
+            "reason": "Bain's innovative approach to evaluating software acquisitions using AI replicas.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Bain tests software takeover targets by vibecoding AI replicas",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 14,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "0e073674f59ba84fc5cc408d497683021660b0d357ef1bfb97a009ba6cab1a61": {
@@ -154,6 +252,41 @@
           "threads": "SpaceX and Reflection AI just announced a $150M/month deal for Nvidia's GB300 AI chips. This is a big step in AI infrastructure, showing how space tech and AI are converging.\nhttps://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/",
           "twitter": "SpaceX just signed a $150M/month deal with Reflection AI for Nvidia's latest GB300 AI chips. This is a massive move in AI infrastructure.\nhttps://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/"
         }
+      }
+    },
+    "20449424bfdb615fc2a0428a0c86f305ba19168848709450480217b3d10392c5": {
+      "created_at": "2026-06-22T18:11:45Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 1.5,
+            "reason": "Price drop on consumer hardware is niche impact and not novel.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "The Apple Watch SE 3 is just $199 for Prime Day",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2,
+            "reason": "Analysis of industry trends with moderate novelty and broad impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "The Steam Machine is the start of an even more expensive future for game consoles",
+            "total_score": 8
+          }
+        ],
+        "best_index": 1,
+        "best_score": 8.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "2e2793c7450a86ae0660fba2c163d58cd6390affb09b9838b5f73a05fc249b6b": {
@@ -771,6 +904,15 @@
     }
   },
   "groq_social_posts": {
+    "18f6fc9c973d52e250bc85e815e8249608c0f75655d8f176aec1dda27d82d31e": {
+      "created_at": "2026-06-22T18:11:45Z",
+      "payload": {
+        "facebook": "Amazon is increasing its presence in India with the testing of Alexa+, its new conversational AI assistant, now available in Hindi. This move marks a significant expansion of Amazon's AI capabilities in the region. #AI #ConversationalAI #India",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Amazon Expands AI Reach\nAmazon is testing its conversational AI assistant Alexa+ in India, with support for Hindi.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #ConversationalAI #India\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Amazon's Alexa+ is being tested in India with Hindi support, a significant move for the company's conversational AI assistant, @TechCrunch #AI",
+        "twitter": "Amazon expands conversational AI reach with Alexa+ testing in India, now supporting Hindi, @TechCrunch #AI"
+      }
+    },
     "20e3a39b21f4d90e17d764d8db0b62d6d0d34c6432efecd01a31a48f5cc5ed62": {
       "created_at": "2026-06-21T23:09:14Z",
       "payload": {
@@ -1025,6 +1167,12 @@
       "status": "scoring_attempted",
       "title": "Developers don't understand CORS (2019)"
     },
+    "https://github.com/Intuned/selector-forge": {
+      "canonical_url": "https://github.com/Intuned/selector-forge",
+      "created_at": "2026-06-22T18:11:45Z",
+      "status": "scoring_attempted",
+      "title": "Show HN: Selector Forge \u2013 browser extension for AI-generated resilient selectors"
+    },
     "https://github.com/kyle-ssg/kyde": {
       "canonical_url": "https://github.com/kyle-ssg/kyde",
       "created_at": "2026-06-22T17:19:35Z",
@@ -1115,6 +1263,12 @@
       "status": "scoring_attempted",
       "title": "Ask HN: Due to spam on GitHub, what platforms can I move my projects?"
     },
+    "https://oak.space/oak/oak": {
+      "canonical_url": "https://oak.space/oak/oak",
+      "created_at": "2026-06-22T18:11:45Z",
+      "status": "scoring_attempted",
+      "title": "Show HN: Oak \u2013 Git replacement designed for agents"
+    },
     "https://old.reddit.com/r/ClaudeAI/comments/1ubm53n/official_anthropic_to_require_identity": {
       "canonical_url": "https://old.reddit.com/r/ClaudeAI/comments/1ubm53n/official_anthropic_to_require_identity",
       "created_at": "2026-06-21T13:56:19Z",
@@ -1187,6 +1341,12 @@
       "status": "scoring_attempted",
       "title": "When the Trump administration cracks down on Anthropic, who benefits?"
     },
+    "https://techcrunch.com/2026/06/22/amazon-is-testing-alexa-in-india-with-hindi-support": {
+      "canonical_url": "https://techcrunch.com/2026/06/22/amazon-is-testing-alexa-in-india-with-hindi-support",
+      "created_at": "2026-06-22T18:11:45Z",
+      "status": "scoring_attempted",
+      "title": "Amazon is testing Alexa+ in India with Hindi support"
+    },
     "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab": {
       "canonical_url": "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab",
       "created_at": "2026-06-22T17:19:35Z",
@@ -1258,6 +1418,12 @@
       "created_at": "2026-06-20T17:06:28Z",
       "status": "scoring_attempted",
       "title": "Windows 11 New Media Player Uses 3.5x More RAM, Charges for Popular Video Codecs"
+    },
+    "https://www.ft.com/content/e5bac4d1-b1f8-43a4-bd54-b182d5357af0": {
+      "canonical_url": "https://www.ft.com/content/e5bac4d1-b1f8-43a4-bd54-b182d5357af0",
+      "created_at": "2026-06-22T18:11:45Z",
+      "status": "scoring_attempted",
+      "title": "Bain tests software takeover targets by vibecoding AI replicas"
     },
     "https://www.infoq.com/news/2026/06/anthropic-claude-analytics": {
       "canonical_url": "https://www.infoq.com/news/2026/06/anthropic-claude-analytics",
@@ -1373,6 +1539,12 @@
       "status": "scoring_attempted",
       "title": "Public Service Announcement: Don't Say You Use AI for Writing"
     },
+    "https://www.science.org/content/article/exclusive-nsf-slashes-research-programs-support-new-tech-initiative-insiders-say": {
+      "canonical_url": "https://www.science.org/content/article/exclusive-nsf-slashes-research-programs-support-new-tech-initiative-insiders-say",
+      "created_at": "2026-06-22T18:11:45Z",
+      "status": "scoring_attempted",
+      "title": "NSF slashes research programs to support new tech initiative, insiders say"
+    },
     "https://www.sciencedaily.com/releases/2026/06/260614012006.htm": {
       "canonical_url": "https://www.sciencedaily.com/releases/2026/06/260614012006.htm",
       "created_at": "2026-06-21T05:19:01Z",
@@ -1402,6 +1574,18 @@
       "created_at": "2026-06-22T17:19:35Z",
       "status": "scoring_attempted",
       "title": "Google invests in A24 to build AI movie tools"
+    },
+    "https://www.theverge.com/entertainment/953615/steam-machine-price-game-consoles-future-ps6-project-helix": {
+      "canonical_url": "https://www.theverge.com/entertainment/953615/steam-machine-price-game-consoles-future-ps6-project-helix",
+      "created_at": "2026-06-22T18:11:45Z",
+      "status": "scoring_attempted",
+      "title": "The Steam Machine is the start of an even more expensive future for game consoles"
+    },
+    "https://www.theverge.com/gadgets/953458/apple-watch-se-3-prime-day-deal-sale": {
+      "canonical_url": "https://www.theverge.com/gadgets/953458/apple-watch-se-3-prime-day-deal-sale",
+      "created_at": "2026-06-22T18:11:45Z",
+      "status": "scoring_attempted",
+      "title": "The Apple Watch SE 3 is just $199 for Prime Day"
     },
     "https://www.theverge.com/gadgets/953655/ringconn-lord-of-the-rings": {
       "canonical_url": "https://www.theverge.com/gadgets/953655/ringconn-lord-of-the-rings",
