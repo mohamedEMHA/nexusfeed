@@ -86,26 +86,39 @@
         }
       }
     },
-    "0807e8c765fc147e282abafc01cf184d8bce947cddc52840aa3bf1b303b9afe0": {
-      "created_at": "2026-06-21T20:19:56Z",
+    "05a4e721e2635c07900ac643b143d8ce321776d22ecbf44f0c1f2d519fc1ca13": {
+      "created_at": "2026-06-22T21:13:54Z",
       "payload": {
         "articles": [
           {
             "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 0,
+            "impact_score": 0.5,
+            "index": 7,
             "novelty_score": 0.2,
-            "reason": "Tutorial content with low novelty and source tier.",
+            "reason": "Comments section with no new information.",
             "red_flag": true,
-            "red_flag_reason": "tutorial",
+            "red_flag_reason": "Comments",
             "source_score": 0.5,
-            "title": "JSON-LD Explained for Personal Websites",
-            "total_score": 3.2
+            "title": "Jobs and Software Is Fucked",
+            "total_score": 2.2
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 8,
+            "novelty_score": 3.0,
+            "reason": "Major investment in AI filmmaking tools with significant industry impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Google DeepMind bets $75M on AI\u2019s future in Hollywood with A24 deal",
+            "total_score": 8.0
           }
         ],
-        "best_index": 0,
-        "best_score": 3.2,
-        "recommendation": "SKIP"
+        "best_index": 8,
+        "best_score": 8.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "0a335e42df3b1b2618a7481023921bcff5639749cbf8cc0d9d43ecb27edad01e": {
@@ -400,52 +413,6 @@
         "social_posts": {}
       }
     },
-    "3d3a936b214d7def51393b506152745f2992ea0f878d16b9e51b01c33f7a15cb": {
-      "created_at": "2026-06-21T18:53:21Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1,
-            "impact_score": 1.5,
-            "index": 4,
-            "novelty_score": 1.5,
-            "reason": "Update on identity verification process for Claude users.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Identity verification on Claude",
-            "total_score": 4.5
-          }
-        ],
-        "best_index": 4,
-        "best_score": 4.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "48381166414f198987f6c84b9f2b9575c2866ce41aa1b65b35aa0492400d9ca7": {
-      "created_at": "2026-06-21T18:53:21Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 1,
-            "novelty_score": 0.2,
-            "reason": "Comments section, not a full article.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "The Minimum Viable Unit of Saleable Software",
-            "total_score": 3.2
-          }
-        ],
-        "best_index": 1,
-        "best_score": 3.2,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "4bfdeba9c874fdde96f1a66518fba33315fa8fd5318a0ca2d3518372ff5977aa": {
       "created_at": "2026-06-22T12:46:00Z",
       "payload": {
@@ -467,6 +434,58 @@
         "best_score": 5.5,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "4ebf79f1880a31b2b7e13ceb2e47515a2db58931384c7562da8a67eb086351da": {
+      "created_at": "2026-06-22T21:13:54Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Meta pausing an employee-tracking program due to a data leak is a significant industry move with broad impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Meta Pauses Employee-Tracking Program Following Internal Data Leak",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 0.5,
+            "index": 1,
+            "novelty_score": 0.2,
+            "reason": "A job posting has minimal novelty and impact, even if it's from a YC company.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Kyber (YC W23) Is Hiring a Head of Engineering",
+            "total_score": 3.2
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "TechCrunch's analysis of AI agents working continuously in the background is a novel and impactful topic.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "The AI world is getting 'loopy'",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Meta has hit the brakes on its employee-tracking program following an internal data leak. The company left potentially sensitive data exposed, prompting the pause. This is a significant move in the tech industry, highlighting the risks of internal data security breaches.\nLink: https://www.wired.com/story/meta-pauses-employee-tracking-program-following-internal-security-breach/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Meta Pauses Employee-Tracking Program Following Internal Data Leak*\n\nMeta has paused its employee-tracking program after an internal data leak exposed sensitive information.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.wired.com/story/meta-pauses-employee-tracking-program-following-internal-security-breach/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Meta just paused its employee-tracking program after an internal data leak. The exposed data was sensitive, forcing the company to act quickly.\nhttps://www.wired.com/story/meta-pauses-employee-tracking-program-following-internal-security-breach/",
+          "twitter": "Meta has paused its employee-tracking program after an internal data leak exposed sensitive information.\nhttps://www.wired.com/story/meta-pauses-employee-tracking-program-following-internal-security-breach/"
+        }
       }
     },
     "53b752bd251403ea29ab8dbefece7681e0d0eec7cd2fe1cc1bdfb53cfc5294f1": {
@@ -566,6 +585,41 @@
         }
       }
     },
+    "89c5a7da9854c53ed3a7a0769b974e133dca3b36f027f5a2ae468ea34b288799": {
+      "created_at": "2026-06-22T21:13:54Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 5,
+            "novelty_score": 2.5,
+            "reason": "Nvidia's new cooling system addresses a critical sustainability issue in AI infrastructure.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Nvidia wants to cut data center water use, but that\u2019s not the same as fixing AI\u2019s water problem",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 6,
+            "novelty_score": 2.5,
+            "reason": "Explores the unintended consequences of AI in real estate, particularly virtual staging.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "AI is cursing renters with the promise of impossible homes",
+            "total_score": 7.0
+          }
+        ],
+        "best_index": 5,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "b2ce49f452efacdc8018d834821d3bd641d6fc69b402232aa2057d87a6703c4b": {
       "created_at": "2026-06-21T21:45:51Z",
       "payload": {
@@ -635,6 +689,46 @@
         "social_posts": {}
       }
     },
+    "d1bfb6f1b719ba9ab0097b90c44b7898341aef37364107157ad810b73e9790f1": {
+      "created_at": "2026-06-22T21:13:54Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "Meta accidentally exposed employee keystroke data, raising serious privacy concerns.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Meta Exposed Data Internally From Its Controversial Employee-Tracking Program",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2,
+            "index": 4,
+            "novelty_score": 2.5,
+            "reason": "Groq raises $650M and hires new execs after Nvidia's not-acqui-hire deal.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "AI chipmaker Groq confirms $650M raise, re-staffs after Nvidia\u2019s $20B not-acqui-hire deal",
+            "total_score": 8
+          }
+        ],
+        "best_index": 3,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Meta's employee-tracking program, which collects keystroke data to train AI models, accidentally exposed internal data. This raises serious privacy concerns. Link: https://www.wired.com/story/meta-accidentally-let-employees-access-each-others-keystroke-data/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Meta Exposed Data Internally From Its Controversial Employee-Tracking Program*\n\nMeta accidentally exposed employee keystroke data collected for AI training, raising serious privacy concerns.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.wired.com/story/meta-accidentally-let-employees-access-each-others-keystroke-data/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Meta's AI training program accidentally exposed employee keystroke data internally. This is a major privacy concern. https://www.wired.com/story/meta-accidentally-let-employees-access-each-others-keystroke-data/",
+          "twitter": "Meta accidentally exposed employee keystroke data collected for AI training. https://www.wired.com/story/meta-accidentally-let-employees-access-each-others-keystroke-data/"
+        }
+      }
+    },
     "dbe6cc1f7f202ecbb8682d00458e9a64d38a8d9c11fd81dead4be2417f22ad56": {
       "created_at": "2026-06-21T21:45:51Z",
       "payload": {
@@ -658,29 +752,6 @@
         "social_posts": {}
       }
     },
-    "dd318b99cb09ddced6a6ea1220a97fe98a25887127a9afb40ae72dbe1ae115e6": {
-      "created_at": "2026-06-21T18:53:21Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 0.5,
-            "impact_score": 1.5,
-            "index": 14,
-            "novelty_score": 2.5,
-            "reason": "New tool for Claude Code, but limited impact and freshness.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Show HN: Pulse \u2013 Dashboard for Claude Code, approve tool calls from your phone",
-            "total_score": 4.5
-          }
-        ],
-        "best_index": 14,
-        "best_score": 4.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "dd8a915ae03be579f833b5201276e5474981d89a5115849ecd759b6823d6a30c": {
       "created_at": "2026-06-22T01:42:41Z",
       "payload": {
@@ -700,29 +771,6 @@
         ],
         "best_index": 0,
         "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "e177c2269e8fde7d820d72297ea1ec506ae613bca1285167137778515757c343": {
-      "created_at": "2026-06-21T20:19:56Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 1.5,
-            "reason": "Important topic but not novel, and source is low-tier.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Burnout is real for open source maintainers",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 5.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -929,6 +977,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Geometric Algebra Under Fire\nThe complexity and limited applications of geometric algebra have led to criticism and debate among mathematicians and engineers.\n\ud83c\udfdb\ufe0f Source: Hacker News (C)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 5.5/10\n#Mathematics #Geometry #Algebra\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "The case against geometric algebra is gaining traction, with some arguing that its complexity outweighs its benefits, says @alexkritchevsky, prompting a reevaluation of its role in mathematics and engineering #Mathematics",
         "twitter": "Geometric algebra faces criticism for its complexity and limited applications, says @alexkritchevsky, sparking debate among mathematicians and engineers #Mathematics"
+      }
+    },
+    "66f01e6f5f0511d4ace3e625d3110eed6016c0c201a7f27f0e592c6c6b713e63": {
+      "created_at": "2026-06-22T21:13:54Z",
+      "payload": {
+        "facebook": "A recent internal data leak has prompted Meta to pause its employee-tracking program, raising concerns about data protection and security. This move highlights the importance of safeguarding sensitive information within organizations. #datasecurity #employeeprivacy #metatech",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Meta Pauses Employee Tracking Program\nMeta has halted its employee-tracking initiative following an internal data leak that exposed potentially sensitive information.\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#datasecurity #metatech #employeeprivacy\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Meta has paused its employee-tracking program due to an internal data leak, sparking concerns over data security and protection @Meta, #datasecurity",
+        "twitter": "Meta halts its employee-tracking program after an internal data leak exposed sensitive information @Meta, #datasecurity"
       }
     },
     "b744bba06e9e1bb0869cafec7ad20c12e03ff1477fd8b9532fa6a1b20b9fb248": {
@@ -1341,17 +1398,41 @@
       "status": "scoring_attempted",
       "title": "When the Trump administration cracks down on Anthropic, who benefits?"
     },
+    "https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal": {
+      "canonical_url": "https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal",
+      "created_at": "2026-06-22T21:13:54Z",
+      "status": "scoring_attempted",
+      "title": "AI chipmaker Groq confirms $650M raise, re-staffs after Nvidia\u2019s $20B not-acqui-hire deal"
+    },
     "https://techcrunch.com/2026/06/22/amazon-is-testing-alexa-in-india-with-hindi-support": {
       "canonical_url": "https://techcrunch.com/2026/06/22/amazon-is-testing-alexa-in-india-with-hindi-support",
       "created_at": "2026-06-22T18:11:45Z",
       "status": "scoring_attempted",
       "title": "Amazon is testing Alexa+ in India with Hindi support"
     },
+    "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal": {
+      "canonical_url": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal",
+      "created_at": "2026-06-22T21:13:54Z",
+      "status": "scoring_attempted",
+      "title": "Google DeepMind bets $75M on AI\u2019s future in Hollywood with A24 deal"
+    },
+    "https://techcrunch.com/2026/06/22/nvidia-wants-to-cut-data-center-water-use-but-thats-not-the-same-as-fixing-ais-water-problem": {
+      "canonical_url": "https://techcrunch.com/2026/06/22/nvidia-wants-to-cut-data-center-water-use-but-thats-not-the-same-as-fixing-ais-water-problem",
+      "created_at": "2026-06-22T21:13:54Z",
+      "status": "scoring_attempted",
+      "title": "Nvidia wants to cut data center water use, but that\u2019s not the same as fixing AI\u2019s water problem"
+    },
     "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab": {
       "canonical_url": "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab",
       "created_at": "2026-06-22T17:19:35Z",
       "status": "scoring_attempted",
       "title": "SpaceX inks compute deal with Reflection AI, an open-source AI lab"
+    },
+    "https://techcrunch.com/2026/06/22/the-ai-world-is-getting-loopy": {
+      "canonical_url": "https://techcrunch.com/2026/06/22/the-ai-world-is-getting-loopy",
+      "created_at": "2026-06-22T21:13:54Z",
+      "status": "scoring_attempted",
+      "title": "The AI world is getting \u2018loopy\u2019"
     },
     "https://techcrunch.com/2026/06/22/the-founder-conference-built-for-growth-techcrunch-founder-summit-pass-rates-increase-june-26": {
       "canonical_url": "https://techcrunch.com/2026/06/22/the-founder-conference-built-for-growth-techcrunch-founder-summit-pass-rates-increase-june-26",
@@ -1364,6 +1445,12 @@
       "created_at": "2026-06-22T07:21:01Z",
       "status": "scoring_attempted",
       "title": "Danish privacy activist Lars Andersen raided by police"
+    },
+    "https://urflow.bearblog.dev/jobs-and-software-is-fucked": {
+      "canonical_url": "https://urflow.bearblog.dev/jobs-and-software-is-fucked",
+      "created_at": "2026-06-22T21:13:54Z",
+      "status": "scoring_attempted",
+      "title": "Jobs and Software Is Fucked"
     },
     "https://vinibrasil.com/when-i-reject-ai-code-even-if-it-works": {
       "canonical_url": "https://vinibrasil.com/when-i-reject-ai-code-even-if-it-works",
@@ -1629,6 +1716,12 @@
       "status": "scoring_attempted",
       "title": "Musician and YouTuber Hainbach on \u2018Breath of the Wild\u2019 and Swiss Army Knives"
     },
+    "https://www.theverge.com/report/953888/ai-virtual-staging-real-estate-apartment-listings": {
+      "canonical_url": "https://www.theverge.com/report/953888/ai-virtual-staging-real-estate-apartment-listings",
+      "created_at": "2026-06-22T21:13:54Z",
+      "status": "scoring_attempted",
+      "title": "AI is cursing renters with the promise of impossible homes"
+    },
     "https://www.theverge.com/tech/952855/switchbot-standing-circulator-fan-review": {
       "canonical_url": "https://www.theverge.com/tech/952855/switchbot-standing-circulator-fan-review",
       "created_at": "2026-06-20T08:39:44Z",
@@ -1653,6 +1746,18 @@
       "status": "scoring_attempted",
       "title": "Some Electricians Think Building Data Centers Is for Sellouts"
     },
+    "https://www.wired.com/story/meta-accidentally-let-employees-access-each-others-keystroke-data": {
+      "canonical_url": "https://www.wired.com/story/meta-accidentally-let-employees-access-each-others-keystroke-data",
+      "created_at": "2026-06-22T21:13:54Z",
+      "status": "scoring_attempted",
+      "title": "Meta Exposed Data Internally From Its Controversial Employee-Tracking Program"
+    },
+    "https://www.wired.com/story/meta-pauses-employee-tracking-program-following-internal-security-breach": {
+      "canonical_url": "https://www.wired.com/story/meta-pauses-employee-tracking-program-following-internal-security-breach",
+      "created_at": "2026-06-22T21:13:54Z",
+      "status": "scoring_attempted",
+      "title": "Meta Pauses Employee-Tracking Program Following Internal Data Leak"
+    },
     "https://www.wired.com/story/openai-launches-full-scale-effort-to-patch-open-source-bugs-as-it-takes-on-anthropics-mythos": {
       "canonical_url": "https://www.wired.com/story/openai-launches-full-scale-effort-to-patch-open-source-bugs-as-it-takes-on-anthropics-mythos",
       "created_at": "2026-06-22T17:19:35Z",
@@ -1670,6 +1775,12 @@
       "created_at": "2026-06-22T12:46:00Z",
       "status": "scoring_attempted",
       "title": "World Cup Scams Are Getting Harder to Spot"
+    },
+    "https://www.ycombinator.com/companies/kyber/jobs/FGmI8mx-head-of-engineering": {
+      "canonical_url": "https://www.ycombinator.com/companies/kyber/jobs/FGmI8mx-head-of-engineering",
+      "created_at": "2026-06-22T21:13:54Z",
+      "status": "scoring_attempted",
+      "title": "Kyber (YC W23) Is Hiring a Head of Engineering"
     }
   },
   "version": 1
