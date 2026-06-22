@@ -1,28 +1,5 @@
 {
   "cerebras_scoring": {
-    "00b77058be5125c288266551a64ee7ebf45e0d26e7fabebf397f8709ea6b18cd": {
-      "created_at": "2026-06-21T15:46:40Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "iOS 27 AI features are notable but not groundbreaking for developers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "043cebe2632db8525589762d51438ce09fd0dce1d5a543325567c8a36992d87a": {
       "created_at": "2026-06-22T12:46:00Z",
       "payload": {
@@ -91,77 +68,179 @@
         "social_posts": {}
       }
     },
-    "146c3c403d009dbe056334a175732df2d37ef96fb6c44a33eaad7f1d2f9b5706": {
-      "created_at": "2026-06-21T15:46:40Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "Interesting analysis on ATProto identity ownership, but niche impact and lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Who Owns Your ATProto Identity? Hint: It's Probably Not You",
-            "total_score": 6.0
-          }
-        ],
-        "best_index": 3,
-        "best_score": 6.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "16f328d8bab4683b4d25d6f14c7d3de0430b511474e73f46c1413b652fbf1d4b": {
-      "created_at": "2026-06-21T17:16:16Z",
+    "0e3ed6c2278b88f15d00aac4022f316ebdcf1e42fa1e8e60ee19e91758ae065c": {
+      "created_at": "2026-06-22T17:19:35Z",
       "payload": {
         "articles": [
           {
             "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 6,
+            "novelty_score": 2.0,
+            "reason": "Industry move but niche impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Valve prices the Steam Machine at $1,049",
+            "total_score": 6.0
+          },
+          {
+            "freshness_score": 2.0,
             "impact_score": 2.5,
-            "index": 0,
+            "index": 7,
             "novelty_score": 2.5,
-            "reason": "Anthropic's Claude now handles 95% of internal analytics queries, showcasing significant operational efficiency gains.",
+            "reason": "New compute deal with significant impact on AI infrastructure.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "SpaceX inks compute deal with Reflection AI, an open-source AI lab",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 0.5,
+            "index": 8,
+            "novelty_score": 0.5,
+            "reason": "Marketing fluff with minimal technical relevance.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "RingConn\u2019s Lord of the Rings promotion assumes smart ring wearers want to be like Gollum",
+            "total_score": 4.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 9,
+            "novelty_score": 1.5,
+            "reason": "Update to existing technology with moderate impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "AMD releases FSR 4.1 upscaling for older graphics cards",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.0,
+            "index": 10,
+            "novelty_score": 2.5,
+            "reason": "New research on mitigating vendor lock-in with multi-agent models.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 1.0,
-            "title": "Anthropic Reports Claude Now Handles 95% of Internal Analytics Queries",
-            "total_score": 8.0
+            "title": "Mitigating vendor lock-in with Sakana AI Fugu multi-agent models",
+            "total_score": 7.0
+          },
+          {
+            "freshness_score": 1.0,
+            "impact_score": 2.0,
+            "index": 11,
+            "novelty_score": 2.0,
+            "reason": "Case study on migrating from Google Analytics with moderate impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.0,
+            "title": "Presentation: Challenging Google Analytics: Building a Scalable, Cost-Effective User Tracking Service",
+            "total_score": 6.0
           }
         ],
-        "best_index": 0,
-        "best_score": 8.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
+        "best_index": 7,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "SpaceX has inked a significant compute deal with Reflection AI, an open-source AI lab. The agreement, worth $150 million a month, provides Reflection AI with immediate access to Nvidia's latest GB300 AI chips and supporting hardware across SpaceX's Colossus 2 data center near Memphis, Tennessee. This deal highlights the growing intersection of space technology and AI research.\nLink: https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *SpaceX inks compute deal with Reflection AI, an open-source AI lab*\n\nReflection AI will pay $150 million a month for immediate access to Nvidia's latest GB300 AI chips and supporting hardware across SpaceX's Colossus 2 data center.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "SpaceX and Reflection AI just announced a $150M/month deal for Nvidia's GB300 AI chips. This is a big step in AI infrastructure, showing how space tech and AI are converging.\nhttps://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/",
+          "twitter": "SpaceX just signed a $150M/month deal with Reflection AI for Nvidia's latest GB300 AI chips. This is a massive move in AI infrastructure.\nhttps://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/"
+        }
       }
     },
-    "24b3d123a2650ff48e9f99b33f9c8d2e054606aab6d41856e7dfed25ad886298": {
-      "created_at": "2026-06-21T15:46:40Z",
+    "2e2793c7450a86ae0660fba2c163d58cd6390affb09b9838b5f73a05fc249b6b": {
+      "created_at": "2026-06-22T17:19:35Z",
       "payload": {
         "articles": [
           {
             "freshness_score": 2,
             "impact_score": 2.5,
-            "index": 2,
+            "index": 0,
             "novelty_score": 2.5,
-            "reason": "Investigation reveals Polymarket's paid fake viral content strategy.",
+            "reason": "Google and A24 partnership on AI movie tools is a significant industry move with broad implications for filmmaking.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 1.5,
-            "title": "That viral clip you saw of someone winning big on Polymarket was probably fake",
+            "title": "Google invests in A24 to build AI movie tools",
             "total_score": 8.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 1,
+            "novelty_score": 1.5,
+            "reason": "Steam Machine reservation process is a niche update with limited impact beyond gaming enthusiasts.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Here\u2019s how you can reserve a Steam Machine",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 2,
+            "reason": "Copyright case outcome is notable but limited to legal and media circles.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Blogger Defeats Photographer's Copyright Claim-Sokolskyfilm vs. Messiah",
+            "total_score": 6
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 3,
+            "novelty_score": 1.5,
+            "reason": "Steam Machine pricing strategy is a niche update with limited impact beyond gaming enthusiasts.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Valve explains why it isn\u2019t subsidizing the Steam Machine",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 0.5,
+            "index": 4,
+            "novelty_score": 0.2,
+            "reason": "Job posting is a low-impact update with limited relevance to a specific audience.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Charge Robotics (YC S21) Is Hiring Software and Hardware Engineers",
+            "total_score": 3.2
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 3,
+            "index": 5,
+            "novelty_score": 3,
+            "reason": "OpenAI's new cybersecurity initiative is a significant development with broad implications for AI and software security.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "OpenAI Launches Full-Scale Effort to Patch Open-Source Bugs as It Takes on Anthropic\u2019s Mythos",
+            "total_score": 9.5
           }
         ],
-        "best_index": 2,
-        "best_score": 8.5,
+        "best_index": 5,
+        "best_score": 9.5,
         "recommendation": "POST_NOW",
         "social_posts": {
-          "facebook": "A Wall Street Journal investigation found that Polymarket has been paying people to create fake viral videos of betting wins. Over 1,100 deceptive clips were identified, and creators confirmed the company's involvement. Link: https://www.theverge.com/tech/953285/polymarket-fake-viral-video-bets",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *That viral clip you saw of someone winning big on Polymarket was probably fake*\n\nA Wall Street Journal investigation found that Polymarket has been paying people to create fake viral videos of betting wins. Over 1,100 deceptive clips were identified, and creators confirmed the company's involvement.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/tech/953285/polymarket-fake-viral-video-bets\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Polymarket paid creators to film fake viral betting wins, WSJ investigation reveals. Over 1,100 deceptive clips identified. https://www.theverge.com/tech/953285/polymarket-fake-viral-video-bets",
-          "twitter": "Polymarket paid creators to film fake viral betting wins, WSJ investigation reveals. https://www.theverge.com/tech/953285/polymarket-fake-viral-video-bets"
+          "facebook": "OpenAI has unveiled a significant new initiative to address open-source software bugs with GPT-5.5-Cyber. This move is part of their broader strategy to enhance AI model cybersecurity capabilities, directly competing with Anthropic's Mythos. The 'Patch the Plant' initiative aims to fix vulnerabilities and improve the overall security of open-source software. Link: https://www.wired.com/story/openai-launches-full-scale-effort-to-patch-open-source-bugs-as-it-takes-on-anthropics-mythos/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *OpenAI Launches Full-Scale Effort to Patch Open-Source Bugs as It Takes on Anthropic\u2019s Mythos*\n\nOpenAI has unveiled a significant new initiative to address open-source software bugs with GPT-5.5-Cyber. This move is part of their broader strategy to enhance AI model cybersecurity capabilities, directly competing with Anthropic's Mythos. The 'Patch the Plant' initiative aims to fix vulnerabilities and improve the overall security of open-source software.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.5/10\n\n\ud83d\udd17 https://www.wired.com/story/openai-launches-full-scale-effort-to-patch-open-source-bugs-as-it-takes-on-anthropics-mythos/",
+          "threads": "OpenAI is taking on Anthropic's Mythos with a full-scale effort to patch open-source bugs using GPT-5.5-Cyber. This initiative aims to fix vulnerabilities and improve software security. https://www.wired.com/story/openai-launches-full-scale-effort-to-patch-open-source-bugs-as-it-takes-on-anthropics-mythos/",
+          "twitter": "OpenAI launches a full-scale effort to patch open-source bugs, taking on Anthropic's Mythos with GPT-5.5-Cyber.\nhttps://www.wired.com/story/openai-launches-full-scale-effort-to-patch-open-source-bugs-as-it-takes-on-anthropics-mythos/"
         }
       }
     },
@@ -280,29 +359,6 @@
         "social_posts": {}
       }
     },
-    "561ba1085ef90049b848bbfcae9859e0ae274c819e96f2d3281136dc87534bf3": {
-      "created_at": "2026-06-21T13:56:19Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 1,
-            "novelty_score": 0.2,
-            "reason": "This is a retrospective on Roomba's history, not a technical or industry-focused piece.",
-            "red_flag": true,
-            "red_flag_reason": "tutorial",
-            "source_score": 1.5,
-            "title": "How Roomba started a robot revolution",
-            "total_score": 3.2
-          }
-        ],
-        "best_index": 1,
-        "best_score": 3.2,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "764997e92d6ff0a509eb93b8d3b0319448833e6a39856dd69a72faaca22a4b1e": {
       "created_at": "2026-06-22T12:46:00Z",
       "payload": {
@@ -395,57 +451,6 @@
           }
         ],
         "best_index": 1,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "b829f32d9be582416ecf2498ff1afda035c416c0933e9c92be92574b500a5f74": {
-      "created_at": "2026-06-21T15:46:40Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Analysis of Trump administration's move against Anthropic with potential ecosystem impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "When the Trump administration cracks down on Anthropic, who benefits?",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "The Trump administration's recent moves against Anthropic have sparked significant debate. This analysis explores what prompted the crackdown and who might benefit from these actions. The implications for the broader AI ecosystem could be substantial. Link: https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *When the Trump administration cracks down on Anthropic, who benefits?*\n\nThe Trump administration's crackdown on Anthropic could reshape the AI ecosystem. Who stands to gain?\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/",
-          "threads": "The Trump administration's crackdown on Anthropic could reshape the AI ecosystem. Who stands to gain? The analysis explores the potential winners and losers in this developing situation. https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/",
-          "twitter": "The Trump administration's crackdown on Anthropic could reshape the AI ecosystem. Who stands to gain?\nhttps://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/"
-        }
-      }
-    },
-    "c2bac743654f22f691e4650c7a839cf08fc19bef0ca943d777dc95b215c15484": {
-      "created_at": "2026-06-21T13:56:19Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Anthropic's ID verification requirement is a notable industry move, but the source is a Reddit post.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Anthropic to Require ID Verification for Certain Capabilities Starting July 8",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 0,
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
@@ -589,6 +594,82 @@
         "social_posts": {}
       }
     },
+    "ea75708fc5ce56004c5c65016bcc67bd262c4c90c1b30bc0609bdb7e2c45c8df": {
+      "created_at": "2026-06-22T17:19:35Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 17,
+            "novelty_score": 2.5,
+            "reason": "New release of a multilingual OCR model with significant parameter increase.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 2,
+            "title": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 18,
+            "novelty_score": 2.5,
+            "reason": "Interesting project but limited impact and from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Show HN: I rebuilt the only parts of my IDE I use, in Rust, over a weekend",
+            "total_score": 5.5
+          },
+          {
+            "freshness_score": 1,
+            "impact_score": 2.5,
+            "index": 21,
+            "novelty_score": 2.5,
+            "reason": "New initiative by OpenAI to support open-source maintainers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 2,
+            "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+            "total_score": 8
+          },
+          {
+            "freshness_score": 1,
+            "impact_score": 2.5,
+            "index": 22,
+            "novelty_score": 2.5,
+            "reason": "New security tools from OpenAI to help organizations patch vulnerabilities.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 2,
+            "title": "Daybreak: Tools for securing every organization in the world",
+            "total_score": 8
+          },
+          {
+            "freshness_score": 1,
+            "impact_score": 1.5,
+            "index": 23,
+            "novelty_score": 2,
+            "reason": "Interesting collaboration but limited impact and from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "L\u2019Or\u00e9al brings Maybelline virtual try-on to ChatGPT",
+            "total_score": 5.5
+          }
+        ],
+        "best_index": 17,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Hugging Face has just released PP-OCRv6, a significant update to their OCR model. This version supports 50 languages and scales from 1.5M to 34.5M parameters, making it a powerful tool for multilingual text recognition. The model is now available on Hugging Face. Link: https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters*\n\nHugging Face releases PP-OCRv6, a 50-language OCR model scaling from 1.5M to 34.5M parameters.\n\n\ud83c\udfdb\ufe0f Source: HuggingFace (S)\n\u23f0 Published: 4 hours ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://huggingface.co/blog/PaddlePaddle/pp-ocrv6\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Hugging Face just dropped PP-OCRv6, a 50-language OCR model that scales from 1.5M to 34.5M parameters. This is a big leap in multilingual text recognition. https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
+          "twitter": "Hugging Face releases PP-OCRv6, a 50-language OCR model scaling from 1.5M to 34.5M parameters.\nhttps://huggingface.co/blog/PaddlePaddle/pp-ocrv6"
+        }
+      }
+    },
     "efdbafb41efc687c3b76d948d409f8c63c091767172acc7632c0232f242acdcc": {
       "created_at": "2026-06-22T00:08:11Z",
       "payload": {
@@ -612,27 +693,80 @@
         "social_posts": {}
       }
     },
-    "fe789f3bfa397027d637763f320f11a9163c060975c80d765fb777d529a6fd26": {
-      "created_at": "2026-06-21T17:16:16Z",
+    "fe0f32af9333935e1383fd9f1fd8e4f7b562632010df99e5b96f5985f53dfd37": {
+      "created_at": "2026-06-22T17:19:35Z",
       "payload": {
         "articles": [
           {
             "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 1,
+            "impact_score": 1.5,
+            "index": 12,
             "novelty_score": 2.5,
-            "reason": "The article is flagged for containing 'how to' in the summary.",
-            "red_flag": true,
-            "red_flag_reason": "how to",
+            "reason": "Interesting analysis but limited impact and from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
             "source_score": 0.5,
-            "title": "AI Has Broken Hiring",
-            "total_score": 6.5
+            "title": "Claude Code's \"extended thinking\" is a summary- not authentic thinking",
+            "total_score": 5.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.5,
+            "index": 13,
+            "novelty_score": 0.5,
+            "reason": "Promotional content with limited novelty and impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "The founder conference built for growth: TechCrunch Founder Summit pass rates increase June 26",
+            "total_score": 3.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 14,
+            "novelty_score": 3,
+            "reason": "New model with significant performance claims, but from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Moebius: 0.2B image inpainting model with 10B-level performance",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 15,
+            "novelty_score": 2.5,
+            "reason": "Important analysis on AI policy with significant impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "How Anthropic may have talked itself into an AI export ban",
+            "total_score": 8.0
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 16,
+            "novelty_score": 1.5,
+            "reason": "Interesting but niche funding announcement.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Pledging Another $400k to the Zig Software Foundation",
+            "total_score": 5.0
           }
         ],
-        "best_index": 1,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
+        "best_index": 15,
+        "best_score": 8.0,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Anthropic's public stance on AI risks could be leading to an export ban. The company has been more vocal about AI dangers than OpenAI, and this might be coming back to haunt them. Link: https://arstechnica.com/ai/2026/06/how-anthropic-may-have-talked-itself-into-an-ai-export-ban/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *How Anthropic may have talked itself into an AI export ban*\n\nAnthropic's vocal warnings about AI risks may have backfired, potentially triggering an export ban.\n\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: 3 hours ago\n\u2b50 Score: 8.0/10\n\n\ud83d\udd17 https://arstechnica.com/ai/2026/06/how-anthropic-may-have-talked-itself-into-an-ai-export-ban/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Anthropic's warnings about AI risks may have led to an export ban. The company has been more vocal than OpenAI on this front. https://arstechnica.com/ai/2026/06/how-anthropic-may-have-talked-itself-into-an-ai-export-ban/",
+          "twitter": "Anthropic's vocal warnings about AI risks may have backfired, potentially triggering an export ban. https://arstechnica.com/ai/2026/06/how-anthropic-may-have-talked-itself-into-an-ai-export-ban/"
+        }
       }
     }
   },
@@ -653,6 +787,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Geometric Algebra Under Fire\nThe complexity and limited applications of geometric algebra have led to criticism and debate among mathematicians and engineers.\n\ud83c\udfdb\ufe0f Source: Hacker News (C)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 5.5/10\n#Mathematics #Geometry #Algebra\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "The case against geometric algebra is gaining traction, with some arguing that its complexity outweighs its benefits, says @alexkritchevsky, prompting a reevaluation of its role in mathematics and engineering #Mathematics",
         "twitter": "Geometric algebra faces criticism for its complexity and limited applications, says @alexkritchevsky, sparking debate among mathematicians and engineers #Mathematics"
+      }
+    },
+    "b744bba06e9e1bb0869cafec7ad20c12e03ff1477fd8b9532fa6a1b20b9fb248": {
+      "created_at": "2026-06-22T17:19:35Z",
+      "payload": {
+        "facebook": "As concerns about AI models' cybersecurity capabilities grow, OpenAI has launched a comprehensive initiative to fix open-source software bugs, including an improved version of GPT-5.5-Cyber. This move is part of OpenAI's efforts to enhance AI security and take on competitors like Anthropic. #AIsecurity #OpenAI #Cybersecurity",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 OpenAI Launches Cybersecurity Initiative\nOpenAI has launched a full-scale effort to patch open-source bugs, unveiling an improved version of GPT-5.5-Cyber. This move is part of OpenAI's efforts to enhance AI security and take on competitors like Anthropic.\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.5/10\n#AIsecurity #OpenAI #Cybersecurity\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "OpenAI has unveiled an improved GPT-5.5-Cyber and a new initiative to patch open-source bugs, taking on Anthropic's Mythos in the process @OpenAI #AIsecurity",
+        "twitter": "OpenAI takes on Anthropic's Mythos with a full-scale effort to patch open-source bugs, unveiling an improved GPT-5.5-Cyber @OpenAI #AIsecurity"
       }
     },
     "d7d2cbeca2ec62d8987cd0446b4dd366ad476af295acb0a308ddf2435b298376": {
@@ -701,6 +844,12 @@
       "created_at": "2026-06-21T21:45:51Z",
       "status": "scoring_attempted",
       "title": "Apertus \u2013 Open Foundation Model for Sovereign AI"
+    },
+    "https://arstechnica.com/ai/2026/06/how-anthropic-may-have-talked-itself-into-an-ai-export-ban": {
+      "canonical_url": "https://arstechnica.com/ai/2026/06/how-anthropic-may-have-talked-itself-into-an-ai-export-ban",
+      "created_at": "2026-06-22T17:19:35Z",
+      "status": "scoring_attempted",
+      "title": "How Anthropic may have talked itself into an AI export ban"
     },
     "https://arxiv.org/abs/2606.19469": {
       "canonical_url": "https://arxiv.org/abs/2606.19469",
@@ -846,6 +995,12 @@
       "status": "scoring_attempted",
       "title": "Temporary Cloudflare Accounts for AI Agents"
     },
+    "https://blog.ericgoldman.org/archives/2026/06/blogger-defeats-photographers-copyright-claim-sokolskyfilm-v-messiah.htm": {
+      "canonical_url": "https://blog.ericgoldman.org/archives/2026/06/blogger-defeats-photographers-copyright-claim-sokolskyfilm-v-messiah.htm",
+      "created_at": "2026-06-22T17:19:35Z",
+      "status": "scoring_attempted",
+      "title": "Blogger Defeats Photographer's Copyright Claim-Sokolskyfilm vs. Messiah"
+    },
     "https://bootimus.com": {
       "canonical_url": "https://bootimus.com",
       "created_at": "2026-06-20T13:23:03Z",
@@ -869,6 +1024,12 @@
       "created_at": "2026-06-21T05:19:01Z",
       "status": "scoring_attempted",
       "title": "Developers don't understand CORS (2019)"
+    },
+    "https://github.com/kyle-ssg/kyde": {
+      "canonical_url": "https://github.com/kyle-ssg/kyde",
+      "created_at": "2026-06-22T17:19:35Z",
+      "status": "scoring_attempted",
+      "title": "Show HN: I rebuilt the only parts of my IDE I use, in Rust, over a weekend"
     },
     "https://github.com/mysk-research/loupe": {
       "canonical_url": "https://github.com/mysk-research/loupe",
@@ -900,6 +1061,24 @@
       "status": "scoring_attempted",
       "title": "AI Has Broken Hiring"
     },
+    "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6": {
+      "canonical_url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
+      "created_at": "2026-06-22T17:19:35Z",
+      "status": "scoring_attempted",
+      "title": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters"
+    },
+    "https://hustvl.github.io/Moebius": {
+      "canonical_url": "https://hustvl.github.io/Moebius",
+      "created_at": "2026-06-22T17:19:35Z",
+      "status": "scoring_attempted",
+      "title": "Moebius: 0.2B image inpainting model with 10B-level performance"
+    },
+    "https://jobs.ashbyhq.com/charge-robotics": {
+      "canonical_url": "https://jobs.ashbyhq.com/charge-robotics",
+      "created_at": "2026-06-22T17:19:35Z",
+      "status": "scoring_attempted",
+      "title": "Charge Robotics (YC S21) Is Hiring Software and Hardware Engineers"
+    },
     "https://kevinak.se/blog/who-actually-owns-your-atproto-identity-hint-its-probably-not-you": {
       "canonical_url": "https://kevinak.se/blog/who-actually-owns-your-atproto-identity-hint-its-probably-not-you",
       "created_at": "2026-06-21T15:46:40Z",
@@ -924,6 +1103,12 @@
       "status": "scoring_attempted",
       "title": "Petition against Meta's employee training data collection for ML models"
     },
+    "https://mitchellh.com/writing/zig-donation-2026": {
+      "canonical_url": "https://mitchellh.com/writing/zig-donation-2026",
+      "created_at": "2026-06-22T17:19:35Z",
+      "status": "scoring_attempted",
+      "title": "Pledging Another $400k to the Zig Software Foundation"
+    },
     "https://news.ycombinator.com/item?id=48611303": {
       "canonical_url": "https://news.ycombinator.com/item?id=48611303",
       "created_at": "2026-06-20T18:45:58Z",
@@ -936,6 +1121,18 @@
       "status": "scoring_attempted",
       "title": "Anthropic to Require ID Verification for Certain Capabilities Starting July 8"
     },
+    "https://openai.com/index/daybreak-securing-the-world": {
+      "canonical_url": "https://openai.com/index/daybreak-securing-the-world",
+      "created_at": "2026-06-22T17:19:35Z",
+      "status": "scoring_attempted",
+      "title": "Daybreak: Tools for securing every organization in the world"
+    },
+    "https://openai.com/index/patch-the-planet": {
+      "canonical_url": "https://openai.com/index/patch-the-planet",
+      "created_at": "2026-06-22T17:19:35Z",
+      "status": "scoring_attempted",
+      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers"
+    },
     "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment": {
       "canonical_url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
       "created_at": "2026-06-21T23:09:14Z",
@@ -947,6 +1144,12 @@
       "created_at": "2026-06-21T20:19:56Z",
       "status": "scoring_attempted",
       "title": "Burnout is real for open source maintainers"
+    },
+    "https://patrickmccanna.net/the-text-in-claude-codes-extended-thinking-output-is-not-authentic": {
+      "canonical_url": "https://patrickmccanna.net/the-text-in-claude-codes-extended-thinking-output-is-not-authentic",
+      "created_at": "2026-06-22T17:19:35Z",
+      "status": "scoring_attempted",
+      "title": "Claude Code's \"extended thinking\" is a summary- not authentic thinking"
     },
     "https://support.claude.com/en/articles/14328960-identity-verification-on-claude": {
       "canonical_url": "https://support.claude.com/en/articles/14328960-identity-verification-on-claude",
@@ -984,6 +1187,18 @@
       "status": "scoring_attempted",
       "title": "When the Trump administration cracks down on Anthropic, who benefits?"
     },
+    "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab": {
+      "canonical_url": "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab",
+      "created_at": "2026-06-22T17:19:35Z",
+      "status": "scoring_attempted",
+      "title": "SpaceX inks compute deal with Reflection AI, an open-source AI lab"
+    },
+    "https://techcrunch.com/2026/06/22/the-founder-conference-built-for-growth-techcrunch-founder-summit-pass-rates-increase-june-26": {
+      "canonical_url": "https://techcrunch.com/2026/06/22/the-founder-conference-built-for-growth-techcrunch-founder-summit-pass-rates-increase-june-26",
+      "created_at": "2026-06-22T17:19:35Z",
+      "status": "scoring_attempted",
+      "title": "The founder conference built for growth: TechCrunch Founder Summit pass rates increase June 26"
+    },
     "https://twitter.com/LarsAnders1620/status/2068208864747540516": {
       "canonical_url": "https://twitter.com/LarsAnders1620/status/2068208864747540516",
       "created_at": "2026-06-22T07:21:01Z",
@@ -1007,6 +1222,18 @@
       "created_at": "2026-06-20T18:45:58Z",
       "status": "scoring_attempted",
       "title": "Show HN: We post-trained a model that pen tests instead of refusing"
+    },
+    "https://www.artificialintelligence-news.com/news/loreal-maybelline-virtual-try-on-chatgpt": {
+      "canonical_url": "https://www.artificialintelligence-news.com/news/loreal-maybelline-virtual-try-on-chatgpt",
+      "created_at": "2026-06-22T17:19:35Z",
+      "status": "scoring_attempted",
+      "title": "L\u2019Or\u00e9al brings Maybelline virtual try-on to ChatGPT"
+    },
+    "https://www.artificialintelligence-news.com/news/mitigating-vendor-lock-in-sakana-ai-fugu-multi-agent-models": {
+      "canonical_url": "https://www.artificialintelligence-news.com/news/mitigating-vendor-lock-in-sakana-ai-fugu-multi-agent-models",
+      "created_at": "2026-06-22T17:19:35Z",
+      "status": "scoring_attempted",
+      "title": "Mitigating vendor lock-in with Sakana AI Fugu multi-agent models"
     },
     "https://www.bbc.com/news/articles/c0rygp005wjo": {
       "canonical_url": "https://www.bbc.com/news/articles/c0rygp005wjo",
@@ -1073,6 +1300,12 @@
       "created_at": "2026-06-22T12:46:00Z",
       "status": "scoring_attempted",
       "title": "Podcast: How eBPF Empowers Developers to Observe Inside the Linux Kernel in a Safe and Unintrusive Way"
+    },
+    "https://www.infoq.com/presentations/mobile-user-tracking-service": {
+      "canonical_url": "https://www.infoq.com/presentations/mobile-user-tracking-service",
+      "created_at": "2026-06-22T17:19:35Z",
+      "status": "scoring_attempted",
+      "title": "Presentation: Challenging Google Analytics: Building a Scalable, Cost-Effective User Tracking Service"
     },
     "https://www.lwilko.com/blog/i-gave-an-ai-a-civilization": {
       "canonical_url": "https://www.lwilko.com/blog/i-gave-an-ai-a-civilization",
@@ -1164,6 +1397,42 @@
       "status": "scoring_attempted",
       "title": "Electric air taxis are stuck in the courtroom"
     },
+    "https://www.theverge.com/entertainment/953596/google-deepmind-a24-studio-ai-partnership": {
+      "canonical_url": "https://www.theverge.com/entertainment/953596/google-deepmind-a24-studio-ai-partnership",
+      "created_at": "2026-06-22T17:19:35Z",
+      "status": "scoring_attempted",
+      "title": "Google invests in A24 to build AI movie tools"
+    },
+    "https://www.theverge.com/gadgets/953655/ringconn-lord-of-the-rings": {
+      "canonical_url": "https://www.theverge.com/gadgets/953655/ringconn-lord-of-the-rings",
+      "created_at": "2026-06-22T17:19:35Z",
+      "status": "scoring_attempted",
+      "title": "RingConn&#8217;s Lord of the Rings promotion assumes smart ring wearers want to be like Gollum"
+    },
+    "https://www.theverge.com/games/952004/valve-steam-machine-price-not-subsidizing": {
+      "canonical_url": "https://www.theverge.com/games/952004/valve-steam-machine-price-not-subsidizing",
+      "created_at": "2026-06-22T17:19:35Z",
+      "status": "scoring_attempted",
+      "title": "Valve explains why it isn&#8217;t subsidizing the Steam Machine"
+    },
+    "https://www.theverge.com/games/952191/valve-steam-machine-reservation-preorder-process": {
+      "canonical_url": "https://www.theverge.com/games/952191/valve-steam-machine-reservation-preorder-process",
+      "created_at": "2026-06-22T17:19:35Z",
+      "status": "scoring_attempted",
+      "title": "Here\u2019s how you can reserve a Steam Machine"
+    },
+    "https://www.theverge.com/news/837022/valve-steam-machine-price-release-date": {
+      "canonical_url": "https://www.theverge.com/news/837022/valve-steam-machine-price-release-date",
+      "created_at": "2026-06-22T17:19:35Z",
+      "status": "scoring_attempted",
+      "title": "Valve prices the Steam Machine at $1,049"
+    },
+    "https://www.theverge.com/news/953664/amd-fsr-4-1-upscaling-rx-7000-series-gpus-rdna-3": {
+      "canonical_url": "https://www.theverge.com/news/953664/amd-fsr-4-1-upscaling-rx-7000-series-gpus-rdna-3",
+      "created_at": "2026-06-22T17:19:35Z",
+      "status": "scoring_attempted",
+      "title": "AMD releases FSR 4.1 upscaling for older graphics cards"
+    },
     "https://www.theverge.com/podcast/953275/roomba-robot-vacuum-version-history": {
       "canonical_url": "https://www.theverge.com/podcast/953275/roomba-robot-vacuum-version-history",
       "created_at": "2026-06-21T13:56:19Z",
@@ -1199,6 +1468,12 @@
       "created_at": "2026-06-22T12:46:00Z",
       "status": "scoring_attempted",
       "title": "Some Electricians Think Building Data Centers Is for Sellouts"
+    },
+    "https://www.wired.com/story/openai-launches-full-scale-effort-to-patch-open-source-bugs-as-it-takes-on-anthropics-mythos": {
+      "canonical_url": "https://www.wired.com/story/openai-launches-full-scale-effort-to-patch-open-source-bugs-as-it-takes-on-anthropics-mythos",
+      "created_at": "2026-06-22T17:19:35Z",
+      "status": "scoring_attempted",
+      "title": "OpenAI Launches Full-Scale Effort to Patch Open-Source Bugs as It Takes on Anthropic\u2019s Mythos"
     },
     "https://www.wired.com/story/siri-ai-hands-on-iphone": {
       "canonical_url": "https://www.wired.com/story/siri-ai-hands-on-iphone",
