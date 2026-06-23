@@ -58,6 +58,65 @@
         "social_posts": {}
       }
     },
+    "08a9cd12ed72687d90eb5de93a78ad22ffec22081d5d92185de86bf51275e149": {
+      "created_at": "2026-06-23T20:28:19Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 4,
+            "novelty_score": 1.5,
+            "reason": "Red flag for 'best' in title.",
+            "red_flag": true,
+            "red_flag_reason": "contains 'best'",
+            "source_score": 1.5,
+            "title": "Prime Day has served up several great deals on 4K TVs",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 5,
+            "novelty_score": 2.5,
+            "reason": "High impact and novelty, but not directly relevant to software engineers or AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Tesla claims driver \u2018manually overrode self-driving\u2019 in deadly Texas crash",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 6,
+            "novelty_score": 1.5,
+            "reason": "Red flag for 'best' in title.",
+            "red_flag": true,
+            "red_flag_reason": "contains 'best'",
+            "source_score": 1.5,
+            "title": "Eufy\u2019s Omni C28 is one of the best Prime Day deals on robot vacuums",
+            "total_score": 6.0
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.5,
+            "index": 7,
+            "novelty_score": 0.5,
+            "reason": "Low novelty and impact, not relevant to software engineers or AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Cheap stuff that doesn\u2019t suck and is under $25 for Prime Day",
+            "total_score": 4.0
+          }
+        ],
+        "best_index": 5,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "08f9ccc76eef2f7c41782ddac196403f07831192f62064cdd88ac36924aada14": {
       "created_at": "2026-06-23T18:20:38Z",
       "payload": {
@@ -431,6 +490,70 @@
         "social_posts": {}
       }
     },
+    "34308a630919ab3ca17eeb8dc7d53a02de7a58bb2aca1725c0bfac8c70008153": {
+      "created_at": "2026-06-23T20:28:19Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 2.0,
+            "reason": "Industry move with moderate impact and freshness.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Oracle\u2019s 21,000 layoffs help drive its debt-fueled AI investments",
+            "total_score": 6.0
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 0.5,
+            "index": 1,
+            "novelty_score": 1.5,
+            "reason": "Consumer tech deal with limited impact on software engineers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Xteink\u2019s tiny e-readers are 20 percent off for Prime Day",
+            "total_score": 5.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.0,
+            "index": 2,
+            "novelty_score": 1.5,
+            "reason": "Policy update with niche impact and low source tier.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Anthropic updates their terms to verify age or identity",
+            "total_score": 5.0
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 3,
+            "novelty_score": 3.0,
+            "reason": "New open-weights vision model with significant impact and freshness.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Datalab Releases lift: A 9B Open-Weights Vision Model That Extracts Structured JSON From PDFs Using Schemas",
+            "total_score": 9.0
+          }
+        ],
+        "best_index": 3,
+        "best_score": 9.0,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Datalab has released lift, a 9B open-weights vision model that turns PDFs and images into schema-matching JSON. It uses schema-constrained decoding for valid structure and trained abstention to return null instead of hallucinating absent fields, scoring 90.2% field accuracy on a 225-document benchmark. This is a significant development for anyone working with document processing and structured data extraction. Link: https://www.marktechpost.com/2026/06/23/datalab-releases-lift-a-9b-open-weights-vision-model-that-extracts-structured-json-from-pdfs-using-schemas/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Datalab Releases lift: A 9B Open-Weights Vision Model That Extracts Structured JSON From PDFs Using Schemas*\n\nDatalab released lift, a 9B open-weights vision model that turns PDFs and images into schema-matching JSON. It uses schema-constrained decoding for valid structure and trained abstention to return null instead of hallucinating absent fields, scoring 90.2% field accuracy on a 225-document benchmark.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/06/23/datalab-releases-lift-a-9b-open-weights-vision-model-that-extracts-structured-json-from-pdfs-using-schemas/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Datalab's new lift model extracts structured JSON from PDFs with 90.2% accuracy. It's a 9B open-weights vision model designed for document processing. https://www.marktechpost.com/2026/06/23/datalab-releases-lift-a-9b-open-weights-vision-model-that-extracts-structured-json-from-pdfs-using-schemas/",
+          "twitter": "Datalab's new 9B open-weights vision model extracts structured JSON from PDFs with 90.2% field accuracy. https://www.marktechpost.com/2026/06/23/datalab-releases-lift-a-9b-open-weights-vision-model-that-extracts-structured-json-from-pdfs-using-schemas/"
+        }
+      }
+    },
     "38cd4c5643a6f3d8aeb34e560f3ccafa490a0892d9d89334551837e5c22b6841": {
       "created_at": "2026-06-23T05:50:22Z",
       "payload": {
@@ -735,6 +858,65 @@
           }
         ],
         "best_index": 16,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "84a9190c8bb6ed48fe29e8c27068fedca7f1bd5d142e05d935edb0cf851be110": {
+      "created_at": "2026-06-23T20:28:19Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 8,
+            "novelty_score": 2.5,
+            "reason": "Important study on AI bias in hiring tools, but source tier is low.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "AI Hiring Tools Yield Racial Bias and Systemic Rejection; 26% Black & 15% Asian",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 0,
+            "index": 9,
+            "novelty_score": 0,
+            "reason": "Personal opinion piece on consumer electronics deals.",
+            "red_flag": true,
+            "red_flag_reason": "Not relevant to software engineers or AI researchers",
+            "source_score": 1.5,
+            "title": "These are my favorite Prime Day deals on earbuds and headphones",
+            "total_score": 3.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 10,
+            "novelty_score": 3,
+            "reason": "New model release, but niche impact and low-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "FUTO Swipe \u2013 A new swipe typing model",
+            "total_score": 6.0
+          },
+          {
+            "freshness_score": 1,
+            "impact_score": 2,
+            "index": 12,
+            "novelty_score": 2.5,
+            "reason": "Interesting industry move, but not groundbreaking.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Omio scales travel product development using OpenAI models",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 8,
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
@@ -1210,6 +1392,58 @@
         "social_posts": {}
       }
     },
+    "c682445d9419db1b12135812ecc6305844f3a1d1feab528033093c77fcbd0fdb": {
+      "created_at": "2026-06-23T20:28:19Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1,
+            "impact_score": 1.5,
+            "index": 13,
+            "novelty_score": 2.5,
+            "reason": "Interesting tool but niche impact and lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Show HN: The Cascade Graph \u2013 An interactive map of AI and energy constraints",
+            "total_score": 5.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 3,
+            "index": 19,
+            "novelty_score": 2.5,
+            "reason": "OpenAI's initiative on AI standards is highly impactful and timely.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 2,
+            "title": "Helping build shared standards for advanced AI",
+            "total_score": 9
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.5,
+            "index": 20,
+            "novelty_score": 1.5,
+            "reason": "Consumer tech with limited relevance to software engineers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Kiwibit\u2019s AI-powered bird feeder is my new backyard buddy",
+            "total_score": 4.5
+          }
+        ],
+        "best_index": 19,
+        "best_score": 9.0,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "OpenAI is taking a leadership role in developing shared standards for advanced AI. This initiative includes creating evaluation frameworks, safety practices, and promoting global cooperation through the Appia Foundation. It's a significant step toward ensuring AI's responsible development. Link: https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Helping build shared standards for advanced AI*\n\nOpenAI is spearheading a global effort to establish shared standards for advanced AI, focusing on evaluation frameworks and safety practices.\n\n\ud83c\udfdb\ufe0f Source: OpenAI (S)\n\u23f0 Published: 7 hours ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://openai.com/index/helping-build-shared-standards-for-advanced-ai\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "OpenAI is building shared standards for advanced AI, focusing on evaluation frameworks and safety practices. This global effort aims to ensure responsible AI development. https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
+          "twitter": "OpenAI is spearheading a global effort to establish shared standards for advanced AI, focusing on evaluation frameworks and safety practices. https://openai.com/index/helping-build-shared-standards-for-advanced-ai"
+        }
+      }
+    },
     "c72235dabac969c8ed2ed2032b4206845de5832fe66091fc01e26c5fbf3b8630": {
       "created_at": "2026-06-22T22:56:36Z",
       "payload": {
@@ -1442,6 +1676,15 @@
         "twitter": "Developers can now create real agentic apps with CUGA, a lightweight harness offering two dozen working examples @HuggingFace #AI"
       }
     },
+    "91e88d437109601cd4a456f17d5510f9437f02bfc52d450dbae050c31928997c": {
+      "created_at": "2026-06-23T20:28:19Z",
+      "payload": {
+        "facebook": "A significant development in AI-powered document processing, Datalab's lift model can extract structured JSON from PDFs with high accuracy, leveraging schema-constrained decoding for valid structure. This technology has the potential to automate data extraction tasks. #AI #DocumentProcessing #JSON",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Datalab Releases lift Vision Model\nDatalab's lift model is a 9B open-weights vision model that extracts structured JSON from PDFs using schemas, achieving 90.2% field accuracy.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n#AI #DocumentProcessing #JSON\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Datalab's lift model is a 9B open-weights vision model that turns PDFs and images into schema-matching JSON, achieving 90.2% field accuracy @DatalabAI #AI",
+        "twitter": "Datalab's new 9B vision model lift achieves 90.2% field accuracy extracting JSON from PDFs @DatalabAI #AI"
+      }
+    },
     "b744bba06e9e1bb0869cafec7ad20c12e03ff1477fd8b9532fa6a1b20b9fb248": {
       "created_at": "2026-06-22T17:19:35Z",
       "payload": {
@@ -1509,6 +1752,12 @@
       "created_at": "2026-06-22T17:19:35Z",
       "status": "scoring_attempted",
       "title": "How Anthropic may have talked itself into an AI export ban"
+    },
+    "https://arstechnica.com/ai/2026/06/oracles-21000-layoffs-help-drive-its-debt-fueled-ai-investments": {
+      "canonical_url": "https://arstechnica.com/ai/2026/06/oracles-21000-layoffs-help-drive-its-debt-fueled-ai-investments",
+      "created_at": "2026-06-23T20:28:19Z",
+      "status": "scoring_attempted",
+      "title": "Oracle\u2019s 21,000 layoffs help drive its debt-fueled AI investments"
     },
     "https://arstechnica.com/tech-policy/2026/06/polymarkets-viral-videos-showed-people-winning-big-but-the-bets-were-fake": {
       "canonical_url": "https://arstechnica.com/tech-policy/2026/06/polymarkets-viral-videos-showed-people-winning-big-but-the-bets-were-fake",
@@ -1798,6 +2047,12 @@
       "status": "scoring_attempted",
       "title": "Skill Coverage: A Test Adequacy Metric for Agent Skills"
     },
+    "https://atomprophet.io/tools/cascade": {
+      "canonical_url": "https://atomprophet.io/tools/cascade",
+      "created_at": "2026-06-23T20:28:19Z",
+      "status": "scoring_attempted",
+      "title": "Show HN: The Cascade Graph \u2013 An interactive map of AI and energy constraints"
+    },
     "https://blog.cloudflare.com/temporary-accounts": {
       "canonical_url": "https://blog.cloudflare.com/temporary-accounts",
       "created_at": "2026-06-20T15:23:58Z",
@@ -1887,6 +2142,12 @@
       "created_at": "2026-06-23T13:24:43Z",
       "status": "scoring_attempted",
       "title": "Show HN: Shumai \u2013 open-source Frame.io alternative for creative work"
+    },
+    "https://hai.stanford.edu/news/ai-hiring-tools-can-yield-racial-bias-and-systemic-rejection": {
+      "canonical_url": "https://hai.stanford.edu/news/ai-hiring-tools-can-yield-racial-bias-and-systemic-rejection",
+      "created_at": "2026-06-23T20:28:19Z",
+      "status": "scoring_attempted",
+      "title": "AI Hiring Tools Yield Racial Bias and Systemic Rejection; 26% Black & 15% Asian"
     },
     "https://hawksley.dev/blog/json-ld-explained-for-personal-websites": {
       "canonical_url": "https://hawksley.dev/blog/json-ld-explained-for-personal-websites",
@@ -2008,6 +2269,12 @@
       "status": "scoring_attempted",
       "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery"
     },
+    "https://openai.com/index/helping-build-shared-standards-for-advanced-ai": {
+      "canonical_url": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
+      "created_at": "2026-06-23T20:28:19Z",
+      "status": "scoring_attempted",
+      "title": "Helping build shared standards for advanced AI"
+    },
     "https://openai.com/index/patch-the-planet": {
       "canonical_url": "https://openai.com/index/patch-the-planet",
       "created_at": "2026-06-22T17:19:35Z",
@@ -2061,6 +2328,12 @@
       "created_at": "2026-06-21T18:53:21Z",
       "status": "scoring_attempted",
       "title": "Identity verification on Claude"
+    },
+    "https://swipe.futo.tech": {
+      "canonical_url": "https://swipe.futo.tech",
+      "created_at": "2026-06-23T20:28:19Z",
+      "status": "scoring_attempted",
+      "title": "FUTO Swipe \u2013 A new swipe typing model"
     },
     "https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search": {
       "canonical_url": "https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search",
@@ -2158,6 +2431,12 @@
       "status": "scoring_attempted",
       "title": "Fika Jobs raises $4M to build a video-first hiring platform where AI agents interview candidates"
     },
+    "https://techcrunch.com/2026/06/23/kiwibits-ai-powered-bird-feeder-is-my-new-backyard-buddy": {
+      "canonical_url": "https://techcrunch.com/2026/06/23/kiwibits-ai-powered-bird-feeder-is-my-new-backyard-buddy",
+      "created_at": "2026-06-23T20:28:19Z",
+      "status": "scoring_attempted",
+      "title": "Kiwibit\u2019s AI-powered bird feeder is my new backyard buddy"
+    },
     "https://twitter.com/LarsAnders1620/status/2068208864747540516": {
       "canonical_url": "https://twitter.com/LarsAnders1620/status/2068208864747540516",
       "created_at": "2026-06-22T07:21:01Z",
@@ -2181,6 +2460,12 @@
       "created_at": "2026-06-20T18:45:58Z",
       "status": "scoring_attempted",
       "title": "Agency stole bestselling author's book, used AI to relaunch as their own"
+    },
+    "https://www.anthropic.com/legal/privacy": {
+      "canonical_url": "https://www.anthropic.com/legal/privacy",
+      "created_at": "2026-06-23T20:28:19Z",
+      "status": "scoring_attempted",
+      "title": "Anthropic updates their terms to verify age or identity"
     },
     "https://www.anthropic.com/news/introducing-claude-tag": {
       "canonical_url": "https://www.anthropic.com/news/introducing-claude-tag",
@@ -2211,6 +2496,12 @@
       "created_at": "2026-06-22T17:19:35Z",
       "status": "scoring_attempted",
       "title": "Mitigating vendor lock-in with Sakana AI Fugu multi-agent models"
+    },
+    "https://www.artificialintelligence-news.com/news/omio-scales-travel-product-development-using-openai-models": {
+      "canonical_url": "https://www.artificialintelligence-news.com/news/omio-scales-travel-product-development-using-openai-models",
+      "created_at": "2026-06-23T20:28:19Z",
+      "status": "scoring_attempted",
+      "title": "Omio scales travel product development using OpenAI models"
     },
     "https://www.bbc.com/news/articles/c0rygp005wjo": {
       "canonical_url": "https://www.bbc.com/news/articles/c0rygp005wjo",
@@ -2368,6 +2659,12 @@
       "status": "scoring_attempted",
       "title": "xAI Launches /goal in Grok Build, Adding Long-Running Autonomous Execution With Built-In Verification for Multi-Step Coding Tasks"
     },
+    "https://www.marktechpost.com/2026/06/23/datalab-releases-lift-a-9b-open-weights-vision-model-that-extracts-structured-json-from-pdfs-using-schemas": {
+      "canonical_url": "https://www.marktechpost.com/2026/06/23/datalab-releases-lift-a-9b-open-weights-vision-model-that-extracts-structured-json-from-pdfs-using-schemas",
+      "created_at": "2026-06-23T20:28:19Z",
+      "status": "scoring_attempted",
+      "title": "Datalab Releases lift: A 9B Open-Weights Vision Model That Extracts Structured JSON From PDFs Using Schemas"
+    },
     "https://www.marktechpost.com/2026/06/23/prime-intellect-releases-prime-rl-0-6-0-to-train-trillion-parameter-moe-models-on-agentic-rl-workloads": {
       "canonical_url": "https://www.marktechpost.com/2026/06/23/prime-intellect-releases-prime-rl-0-6-0-to-train-trillion-parameter-moe-models-on-agentic-rl-workloads",
       "created_at": "2026-06-23T09:33:05Z",
@@ -2470,11 +2767,35 @@
       "status": "scoring_attempted",
       "title": "Laptop prices suck these days, so here are some Prime Day deals that help a little"
     },
+    "https://www.theverge.com/gadgets/951230/eufy-omni-c28-robot-vacuum-amazon-prime-day-deal-sale": {
+      "canonical_url": "https://www.theverge.com/gadgets/951230/eufy-omni-c28-robot-vacuum-amazon-prime-day-deal-sale",
+      "created_at": "2026-06-23T20:28:19Z",
+      "status": "scoring_attempted",
+      "title": "Eufy\u2019s Omni C28 is one of the best Prime Day deals on robot vacuums"
+    },
+    "https://www.theverge.com/gadgets/951852/prime-day-deals-cheap-stuff-under-25-sale": {
+      "canonical_url": "https://www.theverge.com/gadgets/951852/prime-day-deals-cheap-stuff-under-25-sale",
+      "created_at": "2026-06-23T20:28:19Z",
+      "status": "scoring_attempted",
+      "title": "Cheap stuff that doesn\u2019t suck and is under $25 for Prime Day"
+    },
+    "https://www.theverge.com/gadgets/952282/best-4k-tv-deals-amazon-prime-day-sale": {
+      "canonical_url": "https://www.theverge.com/gadgets/952282/best-4k-tv-deals-amazon-prime-day-sale",
+      "created_at": "2026-06-23T20:28:19Z",
+      "status": "scoring_attempted",
+      "title": "Prime Day has served up several great deals on 4K TVs"
+    },
     "https://www.theverge.com/gadgets/952555/kindle-paperwhite-amazon-deal-sale": {
       "canonical_url": "https://www.theverge.com/gadgets/952555/kindle-paperwhite-amazon-deal-sale",
       "created_at": "2026-06-23T13:24:43Z",
       "status": "scoring_attempted",
       "title": "My go-to Kindle is back at its best price yet for Prime Day"
+    },
+    "https://www.theverge.com/gadgets/952601/earbuds-headphones-deals-prime-day-2026": {
+      "canonical_url": "https://www.theverge.com/gadgets/952601/earbuds-headphones-deals-prime-day-2026",
+      "created_at": "2026-06-23T20:28:19Z",
+      "status": "scoring_attempted",
+      "title": "These are my favorite Prime Day deals on earbuds and headphones"
     },
     "https://www.theverge.com/gadgets/953038/hoto-electric-screwdriver-kit-pro-amazon-deal-sale": {
       "canonical_url": "https://www.theverge.com/gadgets/953038/hoto-electric-screwdriver-kit-pro-amazon-deal-sale",
@@ -2499,6 +2820,12 @@
       "created_at": "2026-06-22T17:19:35Z",
       "status": "scoring_attempted",
       "title": "RingConn&#8217;s Lord of the Rings promotion assumes smart ring wearers want to be like Gollum"
+    },
+    "https://www.theverge.com/gadgets/955139/xteink-x3-x4-e-ink-reader-amazon-prime-day-deal-sale": {
+      "canonical_url": "https://www.theverge.com/gadgets/955139/xteink-x3-x4-e-ink-reader-amazon-prime-day-deal-sale",
+      "created_at": "2026-06-23T20:28:19Z",
+      "status": "scoring_attempted",
+      "title": "Xteink\u2019s tiny e-readers are 20 percent off for Prime Day"
     },
     "https://www.theverge.com/games/952004/valve-steam-machine-price-not-subsidizing": {
       "canonical_url": "https://www.theverge.com/games/952004/valve-steam-machine-price-not-subsidizing",
@@ -2601,6 +2928,12 @@
       "created_at": "2026-06-23T09:33:05Z",
       "status": "scoring_attempted",
       "title": "Amflow&#8217;s TL e-bike is ready for baby&#8217;s first mountain adventure"
+    },
+    "https://www.theverge.com/transportation/955153/tesla-full-self-driving-texas-crash": {
+      "canonical_url": "https://www.theverge.com/transportation/955153/tesla-full-self-driving-texas-crash",
+      "created_at": "2026-06-23T20:28:19Z",
+      "status": "scoring_attempted",
+      "title": "Tesla claims driver &#8216;manually overrode self-driving&#8217; in deadly Texas crash"
     },
     "https://www.wired.com/story/28-tips-to-take-your-chatgpt-prompts-to-the-next-level": {
       "canonical_url": "https://www.wired.com/story/28-tips-to-take-your-chatgpt-prompts-to-the-next-level",
