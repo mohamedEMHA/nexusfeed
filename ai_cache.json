@@ -121,6 +121,29 @@
         "social_posts": {}
       }
     },
+    "0a09f73f99790e9b16e71a1786c7563a9c393eadc3d07a4d0e9f0ba467fd919a": {
+      "created_at": "2026-06-23T10:34:06Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 0.0,
+            "index": 1,
+            "novelty_score": 0.0,
+            "reason": "Red flag triggered by 'best' in the title.",
+            "red_flag": true,
+            "red_flag_reason": "top 10",
+            "source_score": 1.5,
+            "title": "The best Apple deals you can get during Prime Day",
+            "total_score": 0.0
+          }
+        ],
+        "best_index": 1,
+        "best_score": 0.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "0a335e42df3b1b2618a7481023921bcff5639749cbf8cc0d9d43ecb27edad01e": {
       "created_at": "2026-06-22T18:11:45Z",
       "payload": {
@@ -242,6 +265,29 @@
           "threads": "SpaceX and Reflection AI just announced a $150M/month deal for Nvidia's GB300 AI chips. This is a big step in AI infrastructure, showing how space tech and AI are converging.\nhttps://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/",
           "twitter": "SpaceX just signed a $150M/month deal with Reflection AI for Nvidia's latest GB300 AI chips. This is a massive move in AI infrastructure.\nhttps://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/"
         }
+      }
+    },
+    "15c9cf9dd0ab8241586eee30d800c45f66ccc73e807509439f8e713b48ca7bac": {
+      "created_at": "2026-06-23T10:34:06Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 0.0,
+            "index": 2,
+            "novelty_score": 0.0,
+            "reason": "Red flag triggered: 'best' in title.",
+            "red_flag": true,
+            "red_flag_reason": "top 10",
+            "source_score": 1.5,
+            "title": "The best Prime Day deals we found on our favorite gear",
+            "total_score": 0.0
+          }
+        ],
+        "best_index": 2,
+        "best_score": 0.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "16981b62ade7d8ae2d7fbb74d6001963249e67a35bf56da13d886531d55054b6": {
@@ -898,6 +944,29 @@
         "social_posts": {}
       }
     },
+    "951ea2a7b7ea54981f079de91c44ebb97ffa83760a5bcb7ecd212a7dd5052ef0": {
+      "created_at": "2026-06-23T10:34:06Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 4,
+            "novelty_score": 2.5,
+            "reason": "Neural Particle Automata is a novel research topic but is only relevant to a niche audience and is published on a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Show HN: Neural Particle Automata",
+            "total_score": 5.5
+          }
+        ],
+        "best_index": 4,
+        "best_score": 5.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "9d4879bfe954214f0dac0c092de2645453d01db9e3c0ab05833a6a8b31ea7e24": {
       "created_at": "2026-06-23T01:25:45Z",
       "payload": {
@@ -1237,6 +1306,29 @@
         ],
         "best_index": 10,
         "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "ea1ae72248c2497440fff12e61e47ba85e5f619f9ba1abfd8783856eb33bbba5": {
+      "created_at": "2026-06-23T10:34:06Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 0.0,
+            "index": 0,
+            "novelty_score": 0.0,
+            "reason": "Red flag triggered by 'best' in the title.",
+            "red_flag": true,
+            "red_flag_reason": "top 10",
+            "source_score": 1.5,
+            "title": "The best robot vacuum deals available during Prime Day",
+            "total_score": 0.0
+          }
+        ],
+        "best_index": 0,
+        "best_score": 0.0,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -2000,6 +2092,12 @@
       "status": "scoring_attempted",
       "title": "Show HN: Ideate a trading strategy with an Ex-Citadel Trader"
     },
+    "https://selforg-npa.github.io": {
+      "canonical_url": "https://selforg-npa.github.io",
+      "created_at": "2026-06-23T10:34:06Z",
+      "status": "scoring_attempted",
+      "title": "Show HN: Neural Particle Automata"
+    },
     "https://spur.us/blog/smart-tv-apps-residential-proxy-sdks": {
       "canonical_url": "https://spur.us/blog/smart-tv-apps-residential-proxy-sdks",
       "created_at": "2026-06-22T22:56:36Z",
@@ -2353,6 +2451,24 @@
       "created_at": "2026-06-22T18:11:45Z",
       "status": "scoring_attempted",
       "title": "The Steam Machine is the start of an even more expensive future for game consoles"
+    },
+    "https://www.theverge.com/gadgets/948610/best-prime-day-tech-deals-sale": {
+      "canonical_url": "https://www.theverge.com/gadgets/948610/best-prime-day-tech-deals-sale",
+      "created_at": "2026-06-23T10:34:06Z",
+      "status": "scoring_attempted",
+      "title": "The best Prime Day deals we found on our favorite gear"
+    },
+    "https://www.theverge.com/gadgets/949350/amazon-prime-day-sale-best-apple-deals-2026": {
+      "canonical_url": "https://www.theverge.com/gadgets/949350/amazon-prime-day-sale-best-apple-deals-2026",
+      "created_at": "2026-06-23T10:34:06Z",
+      "status": "scoring_attempted",
+      "title": "The best Apple deals you can get during Prime Day"
+    },
+    "https://www.theverge.com/gadgets/951081/robot-vacuum-mop-deals-amazon-prime-day-2026": {
+      "canonical_url": "https://www.theverge.com/gadgets/951081/robot-vacuum-mop-deals-amazon-prime-day-2026",
+      "created_at": "2026-06-23T10:34:06Z",
+      "status": "scoring_attempted",
+      "title": "The best robot vacuum deals available during Prime Day"
     },
     "https://www.theverge.com/gadgets/953458/apple-watch-se-3-prime-day-deal-sale": {
       "canonical_url": "https://www.theverge.com/gadgets/953458/apple-watch-se-3-prime-day-deal-sale",
