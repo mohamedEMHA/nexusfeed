@@ -244,6 +244,41 @@
         }
       }
     },
+    "16981b62ade7d8ae2d7fbb74d6001963249e67a35bf56da13d886531d55054b6": {
+      "created_at": "2026-06-23T09:33:05Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 7,
+            "novelty_score": 2.5,
+            "reason": "Tutorial on a new HTTP method, but not impactful enough for the audience.",
+            "red_flag": true,
+            "red_flag_reason": "tutorial",
+            "source_score": 0.5,
+            "title": "The new HTTP QUERY method explained",
+            "total_score": 6.0
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 8,
+            "novelty_score": 2.5,
+            "reason": "Interesting take on team topologies for agentic platforms, but not novel enough.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Who Does What? Team Topologies for the Agentic Platform",
+            "total_score": 7.0
+          }
+        ],
+        "best_index": 8,
+        "best_score": 7.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "1854237b74122b9c46fa815815a1b6f53b7d90855c33ba97c73c64b8ec512796": {
       "created_at": "2026-06-23T05:50:22Z",
       "payload": {
@@ -682,6 +717,46 @@
         "social_posts": {}
       }
     },
+    "73647551114e7a17578ed81b409f79af7ad0f7136ad898871573917ada72bdaf": {
+      "created_at": "2026-06-23T09:33:05Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 3,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "Urgent warning from Five Eyes nations about AI cyber threats impacting everyone soon.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Top spy agencies say AI cyber threats will impact you within months. Here\u2019s why",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 0.5,
+            "index": 4,
+            "novelty_score": 0.2,
+            "reason": "Red flag: 'Show HN' indicates a low-quality or self-promotional post.",
+            "red_flag": true,
+            "red_flag_reason": "Show HN",
+            "source_score": 0.5,
+            "title": "Show HN: Ideate a trading strategy with an Ex-Citadel Trader",
+            "total_score": 3.2
+          }
+        ],
+        "best_index": 3,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "The Five Eyes intelligence alliance has issued an urgent warning about AI cyber threats becoming a global issue within months. This isn't just a corporate problem anymore, according to the cybersecurity chiefs of the US, UK, Canada, Australia, and New Zealand. Link: https://www.artificialintelligence-news.com/news/five-eyes-warning-ai-cyber-threats/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Top spy agencies say AI cyber threats will impact you within months. Here\u2019s why*\n\nThe Five Eyes nations warn of an imminent global surge in AI cyber threats, affecting everyone, not just corporate data centers.\n\n\ud83c\udfdb\ufe0f Source: AI News (B)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.artificialintelligence-news.com/news/five-eyes-warning-ai-cyber-threats/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Five Eyes nations warn AI cyber threats will impact everyone within months. This isn't just a corporate problem anymore.\nhttps://www.artificialintelligence-news.com/news/five-eyes-warning-ai-cyber-threats/",
+          "twitter": "Five Eyes nations warn AI cyber threats will impact everyone within months. Here\u2019s why.\nhttps://www.artificialintelligence-news.com/news/five-eyes-warning-ai-cyber-threats/"
+        }
+      }
+    },
     "764997e92d6ff0a509eb93b8d3b0319448833e6a39856dd69a72faaca22a4b1e": {
       "created_at": "2026-06-22T12:46:00Z",
       "payload": {
@@ -846,6 +921,76 @@
         "social_posts": {}
       }
     },
+    "9e186649c191a22035f13439faf65f52b0882f7348cd548e0427a9b1ea735308": {
+      "created_at": "2026-06-23T09:33:05Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 5,
+            "novelty_score": 3.0,
+            "reason": "New release of a framework for training trillion-parameter models with significant performance metrics.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Prime Intellect Releases prime-rl 0.6.0 to Train Trillion-Parameter MoE Models on Agentic RL Workloads",
+            "total_score": 8.0
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.5,
+            "index": 6,
+            "novelty_score": 2.0,
+            "reason": "Product announcement with limited relevance to software engineers and AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Amflow\u2019s TL e-bike is ready for baby\u2019s first mountain adventure",
+            "total_score": 5.5
+          }
+        ],
+        "best_index": 5,
+        "best_score": 8.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "af7ffc472553405649a0c614c8abad1af783b1dcdee9fa0fbfda0d2beb787b61": {
+      "created_at": "2026-06-23T09:33:05Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "AWS Blocks is a new open-source framework for AI agents to build backends, but it's not a major industry move yet.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "AWS Launches Blocks, an Open-Source TypeScript Framework Designed for AI Agents to Build Backends",
+            "total_score": 8
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 0,
+            "index": 1,
+            "novelty_score": 0,
+            "reason": "This is just a collection of comments, not a substantive article.",
+            "red_flag": true,
+            "red_flag_reason": "Comments",
+            "source_score": 0.5,
+            "title": "Gemini models increasingly stucking in thinking loop",
+            "total_score": 2.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 8,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "b64e6daf111020217e68cdd86026236308e1db904fca633b1a65c0533736d983": {
       "created_at": "2026-06-23T01:25:45Z",
       "payload": {
@@ -983,29 +1128,6 @@
         ],
         "best_index": 0,
         "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "c3a2af320d6e8e1f4409b7528689db3757febedecec3f4dccd733755ff71e80f": {
-      "created_at": "2026-06-22T07:21:01Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 2.0,
-            "reason": "This is a niche story about a privacy activist being raided by police, which may not be directly relevant to software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Danish privacy activist Lars Andersen raided by police",
-            "total_score": 5.0
-          }
-        ],
-        "best_index": 0,
-        "best_score": 5.0,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1298,6 +1420,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Geometric Algebra Under Fire\nThe complexity and limited applications of geometric algebra have led to criticism and debate among mathematicians and engineers.\n\ud83c\udfdb\ufe0f Source: Hacker News (C)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 5.5/10\n#Mathematics #Geometry #Algebra\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "The case against geometric algebra is gaining traction, with some arguing that its complexity outweighs its benefits, says @alexkritchevsky, prompting a reevaluation of its role in mathematics and engineering #Mathematics",
         "twitter": "Geometric algebra faces criticism for its complexity and limited applications, says @alexkritchevsky, sparking debate among mathematicians and engineers #Mathematics"
+      }
+    },
+    "58f8c9573028323fa4157a1d2ad5b0bb65c410b5e81bbc768e6c0806ae6a3f9f": {
+      "created_at": "2026-06-23T09:33:05Z",
+      "payload": {
+        "facebook": "The world's most powerful intelligence alliance is sounding the alarm on AI cyber threats, which are now a pressing concern for everyone, not just corporate data centers. The Five Eyes nations are warning of potential impacts within months. #AIcyberthreats #cybersecurity #intelligence",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 AI cyber threats are coming for everyone\nThe Five Eyes nations are warning of potential impacts within months, making this a pressing concern for everyone, not just corporate data centers.\n\ud83c\udfdb\ufe0f Source: AI News (B)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n#AIcyberthreats #cybersecurity #intelligence\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "The Five Eyes nations are warning that AI cyber threats will impact us all within months, making this a pressing concern for everyone @cybersecurity #AIcyberthreats",
+        "twitter": "AI cyber threats are no longer a distant problem, warns the Five Eyes nations, with impacts expected within months @cybersecurity #AIcyberthreats #cybersecurity"
       }
     },
     "66f01e6f5f0511d4ace3e625d3110eed6016c0c201a7f27f0e592c6c6b713e63": {
@@ -1677,6 +1808,12 @@
       "status": "scoring_attempted",
       "title": "Blogger Defeats Photographer's Copyright Claim-Sokolskyfilm vs. Messiah"
     },
+    "https://blog.owulveryck.info/2026/06/22/who-does-what-team-topologies-for-the-agentic-platform.html": {
+      "canonical_url": "https://blog.owulveryck.info/2026/06/22/who-does-what-team-topologies-for-the-agentic-platform.html",
+      "created_at": "2026-06-23T09:33:05Z",
+      "status": "scoring_attempted",
+      "title": "Who Does What? Team Topologies for the Agentic Platform"
+    },
     "https://bootimus.com": {
       "canonical_url": "https://bootimus.com",
       "created_at": "2026-06-20T13:23:03Z",
@@ -1767,6 +1904,12 @@
       "status": "scoring_attempted",
       "title": "Who Owns Your ATProto Identity? Hint: It's Probably Not You"
     },
+    "https://kreya.app/blog/new-http-query-method-explained": {
+      "canonical_url": "https://kreya.app/blog/new-http-query-method-explained",
+      "created_at": "2026-06-23T09:33:05Z",
+      "status": "scoring_attempted",
+      "title": "The new HTTP QUERY method explained"
+    },
     "https://lcamtuf.substack.com/p/the-100000-whys-of-ai": {
       "canonical_url": "https://lcamtuf.substack.com/p/the-100000-whys-of-ai",
       "created_at": "2026-06-21T06:48:52Z",
@@ -1802,6 +1945,12 @@
       "created_at": "2026-06-20T18:45:58Z",
       "status": "scoring_attempted",
       "title": "Ask HN: Due to spam on GitHub, what platforms can I move my projects?"
+    },
+    "https://news.ycombinator.com/item?id=48642229": {
+      "canonical_url": "https://news.ycombinator.com/item?id=48642229",
+      "created_at": "2026-06-23T09:33:05Z",
+      "status": "scoring_attempted",
+      "title": "Gemini models increasingly stucking in thinking loop"
     },
     "https://oak.space/oak/oak": {
       "canonical_url": "https://oak.space/oak/oak",
@@ -1844,6 +1993,12 @@
       "created_at": "2026-06-22T17:19:35Z",
       "status": "scoring_attempted",
       "title": "Claude Code's \"extended thinking\" is a summary- not authentic thinking"
+    },
+    "https://sean-but-ai.vercel.app": {
+      "canonical_url": "https://sean-but-ai.vercel.app",
+      "created_at": "2026-06-23T09:33:05Z",
+      "status": "scoring_attempted",
+      "title": "Show HN: Ideate a trading strategy with an Ex-Citadel Trader"
     },
     "https://spur.us/blog/smart-tv-apps-residential-proxy-sdks": {
       "canonical_url": "https://spur.us/blog/smart-tv-apps-residential-proxy-sdks",
@@ -1965,6 +2120,12 @@
       "status": "scoring_attempted",
       "title": "Show HN: We post-trained a model that pen tests instead of refusing"
     },
+    "https://www.artificialintelligence-news.com/news/five-eyes-warning-ai-cyber-threats": {
+      "canonical_url": "https://www.artificialintelligence-news.com/news/five-eyes-warning-ai-cyber-threats",
+      "created_at": "2026-06-23T09:33:05Z",
+      "status": "scoring_attempted",
+      "title": "Top spy agencies say AI cyber threats will impact you within months. Here\u2019s why"
+    },
     "https://www.artificialintelligence-news.com/news/loreal-maybelline-virtual-try-on-chatgpt": {
       "canonical_url": "https://www.artificialintelligence-news.com/news/loreal-maybelline-virtual-try-on-chatgpt",
       "created_at": "2026-06-22T17:19:35Z",
@@ -2024,6 +2185,12 @@
       "created_at": "2026-06-20T11:51:33Z",
       "status": "scoring_attempted",
       "title": "Apple Launches Core AI for Apple-Silicon Optimized On-Device Generative AI"
+    },
+    "https://www.infoq.com/news/2026/06/aws-blocks-framework-preview": {
+      "canonical_url": "https://www.infoq.com/news/2026/06/aws-blocks-framework-preview",
+      "created_at": "2026-06-23T09:33:05Z",
+      "status": "scoring_attempted",
+      "title": "AWS Launches Blocks, an Open-Source TypeScript Framework Designed for AI Agents to Build Backends"
     },
     "https://www.infoq.com/news/2026/06/aws-graviton5-ga": {
       "canonical_url": "https://www.infoq.com/news/2026/06/aws-graviton5-ga",
@@ -2108,6 +2275,12 @@
       "created_at": "2026-06-22T22:56:36Z",
       "status": "scoring_attempted",
       "title": "xAI Launches /goal in Grok Build, Adding Long-Running Autonomous Execution With Built-In Verification for Multi-Step Coding Tasks"
+    },
+    "https://www.marktechpost.com/2026/06/23/prime-intellect-releases-prime-rl-0-6-0-to-train-trillion-parameter-moe-models-on-agentic-rl-workloads": {
+      "canonical_url": "https://www.marktechpost.com/2026/06/23/prime-intellect-releases-prime-rl-0-6-0-to-train-trillion-parameter-moe-models-on-agentic-rl-workloads",
+      "created_at": "2026-06-23T09:33:05Z",
+      "status": "scoring_attempted",
+      "title": "Prime Intellect Releases prime-rl 0.6.0 to Train Trillion-Parameter MoE Models on Agentic RL Workloads"
     },
     "https://www.phoronix.com/news/Linux-7.2-Drops-strncpy": {
       "canonical_url": "https://www.phoronix.com/news/Linux-7.2-Drops-strncpy",
@@ -2252,6 +2425,12 @@
       "created_at": "2026-06-23T01:25:45Z",
       "status": "scoring_attempted",
       "title": "Nvidia says its AI data center design runs hotter to use a lot less water"
+    },
+    "https://www.theverge.com/transportation/954291/amflows-tl-e-bike-is-ready-for-babys-first-mountain-adventure": {
+      "canonical_url": "https://www.theverge.com/transportation/954291/amflows-tl-e-bike-is-ready-for-babys-first-mountain-adventure",
+      "created_at": "2026-06-23T09:33:05Z",
+      "status": "scoring_attempted",
+      "title": "Amflow&#8217;s TL e-bike is ready for baby&#8217;s first mountain adventure"
     },
     "https://www.wired.com/story/28-tips-to-take-your-chatgpt-prompts-to-the-next-level": {
       "canonical_url": "https://www.wired.com/story/28-tips-to-take-your-chatgpt-prompts-to-the-next-level",
