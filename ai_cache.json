@@ -244,6 +244,89 @@
         }
       }
     },
+    "1854237b74122b9c46fa815815a1b6f53b7d90855c33ba97c73c64b8ec512796": {
+      "created_at": "2026-06-23T05:50:22Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 7,
+            "novelty_score": 2.5,
+            "reason": "New research on human sequence learning with program induction.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Path-dependent program induction under resource constraints explains human sequence learning",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2,
+            "index": 8,
+            "novelty_score": 2.5,
+            "reason": "New research on LLM reasoning and value alignment.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "In LLM Reasoning, there is Irrationality on top of Value Misalignment",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 9,
+            "novelty_score": 2.5,
+            "reason": "New research on structured memory for alpha mining agents.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "AlphaMemo: Structured Search-Process Memory for Self-Evolving Alpha Mining Agents",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 10,
+            "novelty_score": 2.5,
+            "reason": "New research on latent goal prediction for model-based planning.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Latent Goal Prediction from Language for Model-Based Planning",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2,
+            "index": 11,
+            "novelty_score": 2.5,
+            "reason": "New research on human decision-making with AI assistance.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Human Decision-Making with AI Assistance under Correlated Features",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 12,
+            "novelty_score": 2.5,
+            "reason": "New research on architectural patterns for skill-mediated LLM agents.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Harnessing Agent Skills: Architectural Patterns and a Reference Architecture for Skill-Mediated LLM Agents",
+            "total_score": 7
+          }
+        ],
+        "best_index": 8,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "20449424bfdb615fc2a0428a0c86f305ba19168848709450480217b3d10392c5": {
       "created_at": "2026-06-22T18:11:45Z",
       "payload": {
@@ -367,27 +450,92 @@
         }
       }
     },
-    "31999a21281c23ad0d172b4c42c71e495eaea48ac055eaff80c2bab7dcf98f40": {
-      "created_at": "2026-06-22T01:42:41Z",
+    "38cd4c5643a6f3d8aeb34e560f3ccafa490a0892d9d89334551837e5c22b6841": {
+      "created_at": "2026-06-23T05:50:22Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 1.5,
+            "freshness_score": 2,
             "impact_score": 1.5,
-            "index": 1,
-            "novelty_score": 0.2,
-            "reason": "Red flag triggered by 'guide to' in title.",
-            "red_flag": true,
-            "red_flag_reason": "guide to",
-            "source_score": 1.5,
-            "title": "The 7 Types of Agent Memory: A Technical Guide for AI Engineers",
-            "total_score": 3.2
+            "index": 19,
+            "novelty_score": 2.5,
+            "reason": "New research on multi-agent systems for circuit diagram QA, but niche impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "SPARC: A Multi-Agent System for Electrical Circuit Question Answering",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 20,
+            "novelty_score": 2.5,
+            "reason": "New research on multi-objective search algorithms, but niche impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Bridging Multi-Valued Heuristics and Dimensionality Reduction in Multi-Objective Search",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 21,
+            "novelty_score": 2.5,
+            "reason": "New research on string constraint solvers, but niche impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Learning Splitting Heuristics for Parallel String Solvers",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 22,
+            "novelty_score": 2.5,
+            "reason": "New research on autonomous post-training of large language models, with broader impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "A-Evolve-Training: Autonomous Post-Training of a 30B Model",
+            "total_score": 8
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 23,
+            "novelty_score": 2.5,
+            "reason": "New research on planning under uncertainty, but niche impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Expected Free Energy-based Planning as Variational Inference",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 24,
+            "novelty_score": 2.5,
+            "reason": "New research on agent skills evaluation, but niche impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Skill Coverage: A Test Adequacy Metric for Agent Skills",
+            "total_score": 7
           }
         ],
-        "best_index": 1,
-        "best_score": 3.2,
-        "recommendation": "SKIP",
-        "social_posts": {}
+        "best_index": 22,
+        "best_score": 8,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Researchers have developed an autonomous system capable of post-training a 30B model without human intervention. This could significantly speed up the development of large language models. Link: https://arxiv.org/abs/2606.20657",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *A-Evolve-Training: Autonomous Post-Training of a 30B Model*\n\nResearchers have developed an autonomous system capable of post-training a 30B model without human intervention. This could significantly speed up the development of large language models.\n\n\ud83c\udfdb\ufe0f Source: arXiv cs.AI (C)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8/10\n\n\ud83d\udd17 https://arxiv.org/abs/2606.20657\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Autonomous post-training for 30B models is here. No humans needed. https://arxiv.org/abs/2606.20657",
+          "twitter": "A new autonomous system can post-train a 30B model without human intervention. https://arxiv.org/abs/2606.20657"
+        }
       }
     },
     "4bfdeba9c874fdde96f1a66518fba33315fa8fd5318a0ca2d3518372ff5977aa": {
@@ -557,25 +705,85 @@
         "social_posts": {}
       }
     },
-    "78592713a5fa372a3f0e6a5e2cb87f5baa0d8f946e5650411be5d39791acae35": {
-      "created_at": "2026-06-22T01:42:41Z",
+    "7713d912e4a47de90d90f3cc755d746f9496f7d6b3074e14e587bf0711380b08": {
+      "created_at": "2026-06-23T05:50:22Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 1.5,
+            "freshness_score": 2,
             "impact_score": 1.5,
-            "index": 2,
+            "index": 13,
             "novelty_score": 2.5,
-            "reason": "Fine-tuning a local LLM for specific tasks is useful but not groundbreaking.",
+            "reason": "New benchmark for agent-runtime governance, but niche impact.",
             "red_flag": false,
             "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Good results fine tuning a local LLM like Qwen 3:0.6B to categorize questions",
-            "total_score": 5.5
+            "source_score": 1,
+            "title": "DEMM-Bench: A Cross-Regime Benchmark for Agent-Runtime Governance-Evidence Sufficiency",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 14,
+            "novelty_score": 2.5,
+            "reason": "New approach for skill learning in computer-use agents, but niche impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "SkillHarness: Harnessing Safe Skills for Computer-Use Agents",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1,
+            "index": 15,
+            "novelty_score": 2.5,
+            "reason": "New algorithm for electoral redistricting, but limited impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Constituency Optimisation Through Hamiltonian Representation Of Mandates (COTHROM): Algorithmic Redistricting of Irish Election Boundaries",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2,
+            "index": 16,
+            "novelty_score": 2.5,
+            "reason": "New method for continual adaptation of black-box agents, moderate impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "RIZZ: Routing Interactions to Near Zero-Interference Zones for Continual Adaptation of Black-Box Agents",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2,
+            "index": 17,
+            "novelty_score": 2.5,
+            "reason": "New framework for explainable autonomous driving, moderate impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "An LLM-Explainable DRL Framework for Passenger-Directed Autonomous Driving",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1,
+            "index": 18,
+            "novelty_score": 2.5,
+            "reason": "New approach for formalizing statistical theory, but limited impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Hypothesis-Disciplined Multi-Agent Automated Formalization of Asymptotic Statistical Theory",
+            "total_score": 6.5
           }
         ],
-        "best_index": 2,
-        "best_score": 5.5,
+        "best_index": 16,
+        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -657,6 +865,101 @@
         ],
         "best_index": 2,
         "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "b8f093ac5a3e14850d4e6270a8c506a3008333075355acf5fbfa18d2a5a7e86b": {
+      "created_at": "2026-06-23T05:50:22Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Novel hardware for robotics navigation with moderate impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "New chip could help tiny robots traverse complex environments",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "Interesting research on co-adaptive systems but from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "On the Identifiability of User Adaptation in Co-Adaptive Neural Interfaces",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "Research on Tree-of-Thought reasoning but from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Beyond Fixed Budgets: Characterizing the Inelasticity and Limitations of Tree-of-Thought Reasoning Strategies",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "Interesting theoretical work but from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "The New Associationism: Lessons from Deep Learning",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 4,
+            "novelty_score": 2.5,
+            "reason": "Important work on AI-SDLC but from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Specifying AI-SDLC Processes: A Protocol Language for Human-Agent Boundaries",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 5,
+            "novelty_score": 2.5,
+            "reason": "Novel approach to multi-agent debate but from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "PEAR: Permutation-Equivariant Adaptive Routing Multi-Agent Debate",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 6,
+            "novelty_score": 2.5,
+            "reason": "Interesting roadmap for self-evolving agents but from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Darwin Mobile Agent: A Roadmap for Self-Evolution",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 7,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -789,29 +1092,6 @@
         ],
         "best_index": 4,
         "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "dd8a915ae03be579f833b5201276e5474981d89a5115849ecd759b6823d6a30c": {
-      "created_at": "2026-06-22T01:42:41Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Meta's employee training data collection for ML models is a significant development, but the source is not highly reputable.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Petition against Meta's employee training data collection for ML models",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1241,6 +1521,150 @@
       "status": "scoring_attempted",
       "title": "CombEval: A Framework for Evaluating Combinatorial Counting in Large Language Models"
     },
+    "https://arxiv.org/abs/2606.20569": {
+      "canonical_url": "https://arxiv.org/abs/2606.20569",
+      "created_at": "2026-06-23T05:50:22Z",
+      "status": "scoring_attempted",
+      "title": "On the Identifiability of User Adaptation in Co-Adaptive Neural Interfaces"
+    },
+    "https://arxiv.org/abs/2606.20599": {
+      "canonical_url": "https://arxiv.org/abs/2606.20599",
+      "created_at": "2026-06-23T05:50:22Z",
+      "status": "scoring_attempted",
+      "title": "Beyond Fixed Budgets: Characterizing the Inelasticity and Limitations of Tree-of-Thought Reasoning Strategies"
+    },
+    "https://arxiv.org/abs/2606.20600": {
+      "canonical_url": "https://arxiv.org/abs/2606.20600",
+      "created_at": "2026-06-23T05:50:22Z",
+      "status": "scoring_attempted",
+      "title": "The New Associationism: Lessons from Deep Learning"
+    },
+    "https://arxiv.org/abs/2606.20615": {
+      "canonical_url": "https://arxiv.org/abs/2606.20615",
+      "created_at": "2026-06-23T05:50:22Z",
+      "status": "scoring_attempted",
+      "title": "Specifying AI-SDLC Processes: A Protocol Language for Human-Agent Boundaries"
+    },
+    "https://arxiv.org/abs/2606.20621": {
+      "canonical_url": "https://arxiv.org/abs/2606.20621",
+      "created_at": "2026-06-23T05:50:22Z",
+      "status": "scoring_attempted",
+      "title": "PEAR: Permutation-Equivariant Adaptive Routing Multi-Agent Debate"
+    },
+    "https://arxiv.org/abs/2606.20622": {
+      "canonical_url": "https://arxiv.org/abs/2606.20622",
+      "created_at": "2026-06-23T05:50:22Z",
+      "status": "scoring_attempted",
+      "title": "Darwin Mobile Agent: A Roadmap for Self-Evolution"
+    },
+    "https://arxiv.org/abs/2606.20623": {
+      "canonical_url": "https://arxiv.org/abs/2606.20623",
+      "created_at": "2026-06-23T05:50:22Z",
+      "status": "scoring_attempted",
+      "title": "Path-dependent program induction under resource constraints explains human sequence learning"
+    },
+    "https://arxiv.org/abs/2606.20624": {
+      "canonical_url": "https://arxiv.org/abs/2606.20624",
+      "created_at": "2026-06-23T05:50:22Z",
+      "status": "scoring_attempted",
+      "title": "In LLM Reasoning, there is Irrationality on top of Value Misalignment"
+    },
+    "https://arxiv.org/abs/2606.20625": {
+      "canonical_url": "https://arxiv.org/abs/2606.20625",
+      "created_at": "2026-06-23T05:50:22Z",
+      "status": "scoring_attempted",
+      "title": "AlphaMemo: Structured Search-Process Memory for Self-Evolving Alpha Mining Agents"
+    },
+    "https://arxiv.org/abs/2606.20627": {
+      "canonical_url": "https://arxiv.org/abs/2606.20627",
+      "created_at": "2026-06-23T05:50:22Z",
+      "status": "scoring_attempted",
+      "title": "Latent Goal Prediction from Language for Model-Based Planning"
+    },
+    "https://arxiv.org/abs/2606.20628": {
+      "canonical_url": "https://arxiv.org/abs/2606.20628",
+      "created_at": "2026-06-23T05:50:22Z",
+      "status": "scoring_attempted",
+      "title": "Human Decision-Making with AI Assistance under Correlated Features"
+    },
+    "https://arxiv.org/abs/2606.20631": {
+      "canonical_url": "https://arxiv.org/abs/2606.20631",
+      "created_at": "2026-06-23T05:50:22Z",
+      "status": "scoring_attempted",
+      "title": "Harnessing Agent Skills: Architectural Patterns and a Reference Architecture for Skill-Mediated LLM Agents"
+    },
+    "https://arxiv.org/abs/2606.20634": {
+      "canonical_url": "https://arxiv.org/abs/2606.20634",
+      "created_at": "2026-06-23T05:50:22Z",
+      "status": "scoring_attempted",
+      "title": "DEMM-Bench: A Cross-Regime Benchmark for Agent-Runtime Governance-Evidence Sufficiency"
+    },
+    "https://arxiv.org/abs/2606.20636": {
+      "canonical_url": "https://arxiv.org/abs/2606.20636",
+      "created_at": "2026-06-23T05:50:22Z",
+      "status": "scoring_attempted",
+      "title": "SkillHarness: Harnessing Safe Skills for Computer-Use Agents"
+    },
+    "https://arxiv.org/abs/2606.20637": {
+      "canonical_url": "https://arxiv.org/abs/2606.20637",
+      "created_at": "2026-06-23T05:50:22Z",
+      "status": "scoring_attempted",
+      "title": "Constituency Optimisation Through Hamiltonian Representation Of Mandates (COTHROM): Algorithmic Redistricting of Irish Election Boundaries"
+    },
+    "https://arxiv.org/abs/2606.20638": {
+      "canonical_url": "https://arxiv.org/abs/2606.20638",
+      "created_at": "2026-06-23T05:50:22Z",
+      "status": "scoring_attempted",
+      "title": "RIZZ: Routing Interactions to Near Zero-Interference Zones for Continual Adaptation of Black-Box Agents"
+    },
+    "https://arxiv.org/abs/2606.20640": {
+      "canonical_url": "https://arxiv.org/abs/2606.20640",
+      "created_at": "2026-06-23T05:50:22Z",
+      "status": "scoring_attempted",
+      "title": "An LLM-Explainable DRL Framework for Passenger-Directed Autonomous Driving"
+    },
+    "https://arxiv.org/abs/2606.20642": {
+      "canonical_url": "https://arxiv.org/abs/2606.20642",
+      "created_at": "2026-06-23T05:50:22Z",
+      "status": "scoring_attempted",
+      "title": "Hypothesis-Disciplined Multi-Agent Automated Formalization of Asymptotic Statistical Theory"
+    },
+    "https://arxiv.org/abs/2606.20643": {
+      "canonical_url": "https://arxiv.org/abs/2606.20643",
+      "created_at": "2026-06-23T05:50:22Z",
+      "status": "scoring_attempted",
+      "title": "SPARC: A Multi-Agent System for Electrical Circuit Question Answering"
+    },
+    "https://arxiv.org/abs/2606.20644": {
+      "canonical_url": "https://arxiv.org/abs/2606.20644",
+      "created_at": "2026-06-23T05:50:22Z",
+      "status": "scoring_attempted",
+      "title": "Bridging Multi-Valued Heuristics and Dimensionality Reduction in Multi-Objective Search"
+    },
+    "https://arxiv.org/abs/2606.20656": {
+      "canonical_url": "https://arxiv.org/abs/2606.20656",
+      "created_at": "2026-06-23T05:50:22Z",
+      "status": "scoring_attempted",
+      "title": "Learning Splitting Heuristics for Parallel String Solvers"
+    },
+    "https://arxiv.org/abs/2606.20657": {
+      "canonical_url": "https://arxiv.org/abs/2606.20657",
+      "created_at": "2026-06-23T05:50:22Z",
+      "status": "scoring_attempted",
+      "title": "A-Evolve-Training: Autonomous Post-Training of a 30B Model"
+    },
+    "https://arxiv.org/abs/2606.20658": {
+      "canonical_url": "https://arxiv.org/abs/2606.20658",
+      "created_at": "2026-06-23T05:50:22Z",
+      "status": "scoring_attempted",
+      "title": "Expected Free Energy-based Planning as Variational Inference"
+    },
+    "https://arxiv.org/abs/2606.20659": {
+      "canonical_url": "https://arxiv.org/abs/2606.20659",
+      "created_at": "2026-06-23T05:50:22Z",
+      "status": "scoring_attempted",
+      "title": "Skill Coverage: A Test Adequacy Metric for Agent Skills"
+    },
     "https://blog.cloudflare.com/temporary-accounts": {
       "canonical_url": "https://blog.cloudflare.com/temporary-accounts",
       "created_at": "2026-06-20T15:23:58Z",
@@ -1366,6 +1790,12 @@
       "created_at": "2026-06-22T17:19:35Z",
       "status": "scoring_attempted",
       "title": "Pledging Another $400k to the Zig Software Foundation"
+    },
+    "https://news.mit.edu/2026/new-chip-could-help-tiny-robots-traverse-complex-environments-0623": {
+      "canonical_url": "https://news.mit.edu/2026/new-chip-could-help-tiny-robots-traverse-complex-environments-0623",
+      "created_at": "2026-06-23T05:50:22Z",
+      "status": "scoring_attempted",
+      "title": "New chip could help tiny robots traverse complex environments"
     },
     "https://news.ycombinator.com/item?id=48611303": {
       "canonical_url": "https://news.ycombinator.com/item?id=48611303",
