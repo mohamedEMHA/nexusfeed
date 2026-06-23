@@ -302,6 +302,53 @@
         "social_posts": {}
       }
     },
+    "169bf4d6f2969271d36551fdbbc6f0defe85a2acfae2635afcf565fba6c2c429": {
+      "created_at": "2026-06-23T16:08:40Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 1,
+            "novelty_score": 0.5,
+            "reason": "Opinion piece on affordability from a niche source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "AI's Affordability Crisis",
+            "total_score": 4.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 2.0,
+            "reason": "Review of Fitbit Air's AI health features with moderate impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "The Fitbit Air takes a smarter approach to the AI health dumpster fire",
+            "total_score": 7.0
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 3,
+            "novelty_score": 1.5,
+            "reason": "Incident report with moderate impact from a niche source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Elevated error rate across multiple models",
+            "total_score": 6.0
+          }
+        ],
+        "best_index": 2,
+        "best_score": 7.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "1854237b74122b9c46fa815815a1b6f53b7d90855c33ba97c73c64b8ec512796": {
       "created_at": "2026-06-23T05:50:22Z",
       "payload": {
@@ -505,6 +552,41 @@
           "threads": "HuggingFace just dropped a detailed guide on building agentic apps with CUGA, including two dozen working examples. This is a must-read for developers exploring AI applications. https://huggingface.co/blog/ibm-research/cuga-apps",
           "twitter": "HuggingFace details how to build real agentic apps with CUGA, offering two dozen working examples.\nhttps://huggingface.co/blog/ibm-research/cuga-apps"
         }
+      }
+    },
+    "2b484b301c0b9f9c8219af56b12596f1e8f73cc395a000a738e2e7a06e6fd4cb": {
+      "created_at": "2026-06-23T16:08:40Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.0,
+            "index": 4,
+            "novelty_score": 0.0,
+            "reason": "Promotional content with no technical relevance.",
+            "red_flag": true,
+            "red_flag_reason": "promotional content",
+            "source_score": 1.5,
+            "title": "4 days left to save up to $190 on TechCrunch Founder Summit 2026",
+            "total_score": 3.0
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.0,
+            "index": 5,
+            "novelty_score": 0.0,
+            "reason": "Promotional content with no technical relevance.",
+            "red_flag": true,
+            "red_flag_reason": "promotional content",
+            "source_score": 1.5,
+            "title": "Hoto\u2019s 25-bit electric screwdriver is 40 percent off during Prime Day",
+            "total_score": 3.0
+          }
+        ],
+        "best_index": 4,
+        "best_score": 3.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "2e2793c7450a86ae0660fba2c163d58cd6390affb09b9838b5f73a05fc249b6b": {
@@ -1020,6 +1102,41 @@
         "social_posts": {}
       }
     },
+    "a5ffdfd4d03a52de96db33223bb0819c25ab9e6b17fae4bc937c7a7ce4f977de": {
+      "created_at": "2026-06-23T16:08:40Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 9,
+            "novelty_score": 2.5,
+            "reason": "Interesting niche application of AI in hiring, but not groundbreaking.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Fika Jobs raises $4M to build a video-first hiring platform where AI agents interview candidates",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 1,
+            "impact_score": 1.5,
+            "index": 11,
+            "novelty_score": 2.5,
+            "reason": "Interesting analysis of AI in gaming, but from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "The Low-Tech AI of Elden Ring",
+            "total_score": 5.5
+          }
+        ],
+        "best_index": 9,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "af7ffc472553405649a0c614c8abad1af783b1dcdee9fa0fbfda0d2beb787b61": {
       "created_at": "2026-06-23T09:33:05Z",
       "payload": {
@@ -1171,6 +1288,46 @@
         "best_score": 7,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "bf88e46992913628fde46fa7386de87395ef1c4ee31ef9cd5ddc250c2261efd9": {
+      "created_at": "2026-06-23T16:08:40Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.5,
+            "index": 6,
+            "novelty_score": 1.5,
+            "reason": "The article is about a gadget deal, not relevant to software engineers or AI researchers.",
+            "red_flag": true,
+            "red_flag_reason": "The article is about a gadget deal, not relevant to software engineers or AI researchers.",
+            "source_score": 1.5,
+            "title": "The Oura Ring 4 is as low as $226 for Prime Day",
+            "total_score": 4.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 7,
+            "novelty_score": 3,
+            "reason": "Lucide's v1.0 release is a significant update for developers using open-source icon toolkits.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Lucide Releases Version 1.0, Removing Brand Icons and Cutting Bundle Size for Millions of Projects",
+            "total_score": 8
+          }
+        ],
+        "best_index": 7,
+        "best_score": 8,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Lucide has released version 1.0 of its open-source icon toolkit, removing trademarked brand icons and significantly reducing package size. This update affects millions of projects. Link: https://www.infoq.com/news/2026/06/lucide-v1-icons/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Lucide Releases Version 1.0, Removing Brand Icons and Cutting Bundle Size for Millions of Projects*\n\nLucide has released version 1.0 of its open-source icon toolkit, marking its first stable major release. The update features over 1,600 icons and removes trademarked brand icons due to legal and design concerns. Significant performance improvements have also been made, reducing package size and adding to the appeal for developers.\n\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (B)\n\u23f0 Published: 2 hours ago\n\u2b50 Score: 8.0/10\n\n\ud83d\udd17 https://www.infoq.com/news/2026/06/lucide-v1-icons/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Lucide v1.0 is out with 1,600+ icons, no brand logos, and smaller bundle sizes. Big news for devs using open-source icon toolkits. https://www.infoq.com/news/2026/06/lucide-v1-icons/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "twitter": "Lucide v1.0 drops brand icons and slashes bundle size, impacting millions of projects. https://www.infoq.com/news/2026/06/lucide-v1-icons/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+        }
       }
     },
     "c12841b6f4e7dee9b95430ba8d0d4b41d3c889f55352984b1ac2ee84fe310490": {
@@ -1980,6 +2137,12 @@
       "status": "scoring_attempted",
       "title": "Temporary Cloudflare Accounts for AI Agents"
     },
+    "https://blog.dshr.org/2026/06/ais-affordability-crisis.html": {
+      "canonical_url": "https://blog.dshr.org/2026/06/ais-affordability-crisis.html",
+      "created_at": "2026-06-23T16:08:40Z",
+      "status": "scoring_attempted",
+      "title": "AI's Affordability Crisis"
+    },
     "https://blog.ericgoldman.org/archives/2026/06/blogger-defeats-photographers-copyright-claim-sokolskyfilm-v-messiah.htm": {
       "canonical_url": "https://blog.ericgoldman.org/archives/2026/06/blogger-defeats-photographers-copyright-claim-sokolskyfilm-v-messiah.htm",
       "created_at": "2026-06-22T17:19:35Z",
@@ -2130,6 +2293,12 @@
       "status": "scoring_attempted",
       "title": "Pledging Another $400k to the Zig Software Foundation"
     },
+    "https://nega.tv/posts/low-tech-ai-of-elden-ring.html": {
+      "canonical_url": "https://nega.tv/posts/low-tech-ai-of-elden-ring.html",
+      "created_at": "2026-06-23T16:08:40Z",
+      "status": "scoring_attempted",
+      "title": "The Low-Tech AI of Elden Ring"
+    },
     "https://news.mit.edu/2026/new-chip-could-help-tiny-robots-traverse-complex-environments-0623": {
       "canonical_url": "https://news.mit.edu/2026/new-chip-could-help-tiny-robots-traverse-complex-environments-0623",
       "created_at": "2026-06-23T05:50:22Z",
@@ -2207,6 +2376,12 @@
       "created_at": "2026-06-22T22:56:36Z",
       "status": "scoring_attempted",
       "title": "Nearly Half of LG Smart TV Apps Contain Residential Proxy SDKs"
+    },
+    "https://status.claude.com/incidents/jbhf20wjmzrf": {
+      "canonical_url": "https://status.claude.com/incidents/jbhf20wjmzrf",
+      "created_at": "2026-06-23T16:08:40Z",
+      "status": "scoring_attempted",
+      "title": "Elevated error rate across multiple models"
     },
     "https://support.claude.com/en/articles/14328960-identity-verification-on-claude": {
       "canonical_url": "https://support.claude.com/en/articles/14328960-identity-verification-on-claude",
@@ -2291,6 +2466,18 @@
       "created_at": "2026-06-22T17:19:35Z",
       "status": "scoring_attempted",
       "title": "The founder conference built for growth: TechCrunch Founder Summit pass rates increase June 26"
+    },
+    "https://techcrunch.com/2026/06/23/4-days-left-to-save-up-to-190-on-techcrunch-founder-summit-2026": {
+      "canonical_url": "https://techcrunch.com/2026/06/23/4-days-left-to-save-up-to-190-on-techcrunch-founder-summit-2026",
+      "created_at": "2026-06-23T16:08:40Z",
+      "status": "scoring_attempted",
+      "title": "4 days left to save up to $190 on TechCrunch Founder Summit 2026"
+    },
+    "https://techcrunch.com/2026/06/23/fika-jobs-raises-4m-to-build-a-video-first-hiring-platform-where-ai-agents-interview-candidates": {
+      "canonical_url": "https://techcrunch.com/2026/06/23/fika-jobs-raises-4m-to-build-a-video-first-hiring-platform-where-ai-agents-interview-candidates",
+      "created_at": "2026-06-23T16:08:40Z",
+      "status": "scoring_attempted",
+      "title": "Fika Jobs raises $4M to build a video-first hiring platform where AI agents interview candidates"
     },
     "https://twitter.com/LarsAnders1620/status/2068208864747540516": {
       "canonical_url": "https://twitter.com/LarsAnders1620/status/2068208864747540516",
@@ -2417,6 +2604,12 @@
       "created_at": "2026-06-20T15:23:58Z",
       "status": "scoring_attempted",
       "title": "Inside Atlassian\u2019s Forge Billing Architecture for Distributed Usage Tracking at Scale"
+    },
+    "https://www.infoq.com/news/2026/06/lucide-v1-icons": {
+      "canonical_url": "https://www.infoq.com/news/2026/06/lucide-v1-icons",
+      "created_at": "2026-06-23T16:08:40Z",
+      "status": "scoring_attempted",
+      "title": "Lucide Releases Version 1.0, Removing Brand Icons and Cutting Bundle Size for Millions of Projects"
     },
     "https://www.infoq.com/news/2026/06/microsoft-build-aks-ai": {
       "canonical_url": "https://www.infoq.com/news/2026/06/microsoft-build-aks-ai",
@@ -2592,11 +2785,23 @@
       "status": "scoring_attempted",
       "title": "My go-to Kindle is back at its best price yet for Prime Day"
     },
+    "https://www.theverge.com/gadgets/953038/hoto-electric-screwdriver-kit-pro-amazon-deal-sale": {
+      "canonical_url": "https://www.theverge.com/gadgets/953038/hoto-electric-screwdriver-kit-pro-amazon-deal-sale",
+      "created_at": "2026-06-23T16:08:40Z",
+      "status": "scoring_attempted",
+      "title": "Hoto\u2019s 25-bit electric screwdriver is 40 percent off during Prime Day"
+    },
     "https://www.theverge.com/gadgets/953458/apple-watch-se-3-prime-day-deal-sale": {
       "canonical_url": "https://www.theverge.com/gadgets/953458/apple-watch-se-3-prime-day-deal-sale",
       "created_at": "2026-06-22T18:11:45Z",
       "status": "scoring_attempted",
       "title": "The Apple Watch SE 3 is just $199 for Prime Day"
+    },
+    "https://www.theverge.com/gadgets/953517/oura-ring-4-prime-day-smart-ring-deal-sale": {
+      "canonical_url": "https://www.theverge.com/gadgets/953517/oura-ring-4-prime-day-smart-ring-deal-sale",
+      "created_at": "2026-06-23T16:08:40Z",
+      "status": "scoring_attempted",
+      "title": "The Oura Ring 4 is as low as $226 for Prime Day"
     },
     "https://www.theverge.com/gadgets/953655/ringconn-lord-of-the-rings": {
       "canonical_url": "https://www.theverge.com/gadgets/953655/ringconn-lord-of-the-rings",
@@ -2687,6 +2892,12 @@
       "created_at": "2026-06-23T01:25:45Z",
       "status": "scoring_attempted",
       "title": "Nvidia says its AI data center design runs hotter to use a lot less water"
+    },
+    "https://www.theverge.com/tech/954768/google-fitbit-air-review-fitness-tracker-wearable-ai-health-coach": {
+      "canonical_url": "https://www.theverge.com/tech/954768/google-fitbit-air-review-fitness-tracker-wearable-ai-health-coach",
+      "created_at": "2026-06-23T16:08:40Z",
+      "status": "scoring_attempted",
+      "title": "The Fitbit Air takes a smarter approach to the AI health dumpster fire"
     },
     "https://www.theverge.com/transportation/954291/amflows-tl-e-bike-is-ready-for-babys-first-mountain-adventure": {
       "canonical_url": "https://www.theverge.com/transportation/954291/amflows-tl-e-bike-is-ready-for-babys-first-mountain-adventure",
