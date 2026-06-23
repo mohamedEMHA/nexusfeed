@@ -1,40 +1,5 @@
 {
   "cerebras_scoring": {
-    "05a4e721e2635c07900ac643b143d8ce321776d22ecbf44f0c1f2d519fc1ca13": {
-      "created_at": "2026-06-22T21:13:54Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.5,
-            "index": 7,
-            "novelty_score": 0.2,
-            "reason": "Comments section with no new information.",
-            "red_flag": true,
-            "red_flag_reason": "Comments",
-            "source_score": 0.5,
-            "title": "Jobs and Software Is Fucked",
-            "total_score": 2.2
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 8,
-            "novelty_score": 3.0,
-            "reason": "Major investment in AI filmmaking tools with significant industry impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Google DeepMind bets $75M on AI\u2019s future in Hollywood with A24 deal",
-            "total_score": 8.0
-          }
-        ],
-        "best_index": 8,
-        "best_score": 8.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "07609db47036345b96f1053e8e4654bc84ae2f45c0f663603d697c73e34d497e": {
       "created_at": "2026-06-23T18:20:38Z",
       "payload": {
@@ -281,6 +246,29 @@
         ],
         "best_index": 2,
         "best_score": 7.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "16edacfc24ab6add64ddfc979e794ee68952e9a4ecc89e4e20b348c48021ab59": {
+      "created_at": "2026-06-23T21:58:48Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 5,
+            "novelty_score": 1.5,
+            "reason": "A niche topic with limited novelty and impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Don't verify email addresses by sending spam to them",
+            "total_score": 4.5
+          }
+        ],
+        "best_index": 5,
+        "best_score": 4.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -642,56 +630,27 @@
         }
       }
     },
-    "4ebf79f1880a31b2b7e13ceb2e47515a2db58931384c7562da8a67eb086351da": {
-      "created_at": "2026-06-22T21:13:54Z",
+    "587d2b97774d10145bcb0379a11d887389e6c3641487684abc967d75c35e1bb7": {
+      "created_at": "2026-06-23T21:58:48Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Meta pausing an employee-tracking program due to a data leak is a significant industry move with broad impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Meta Pauses Employee-Tracking Program Following Internal Data Leak",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 0.5,
-            "index": 1,
-            "novelty_score": 0.2,
-            "reason": "A job posting has minimal novelty and impact, even if it's from a YC company.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Kyber (YC W23) Is Hiring a Head of Engineering",
-            "total_score": 3.2
-          },
-          {
             "freshness_score": 1.5,
             "impact_score": 2.5,
-            "index": 2,
+            "index": 4,
             "novelty_score": 2.5,
-            "reason": "TechCrunch's analysis of AI agents working continuously in the background is a novel and impactful topic.",
+            "reason": "MIT researchers discuss AI's societal impacts at a forum.",
             "red_flag": false,
             "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "The AI world is getting 'loopy'",
-            "total_score": 8.5
+            "source_score": 1,
+            "title": "Exploring the societal impacts of AI",
+            "total_score": 7.5
           }
         ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Meta has hit the brakes on its employee-tracking program following an internal data leak. The company left potentially sensitive data exposed, prompting the pause. This is a significant move in the tech industry, highlighting the risks of internal data security breaches.\nLink: https://www.wired.com/story/meta-pauses-employee-tracking-program-following-internal-security-breach/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Meta Pauses Employee-Tracking Program Following Internal Data Leak*\n\nMeta has paused its employee-tracking program after an internal data leak exposed sensitive information.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.wired.com/story/meta-pauses-employee-tracking-program-following-internal-security-breach/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Meta just paused its employee-tracking program after an internal data leak. The exposed data was sensitive, forcing the company to act quickly.\nhttps://www.wired.com/story/meta-pauses-employee-tracking-program-following-internal-security-breach/",
-          "twitter": "Meta has paused its employee-tracking program after an internal data leak exposed sensitive information.\nhttps://www.wired.com/story/meta-pauses-employee-tracking-program-following-internal-security-breach/"
-        }
+        "best_index": 4,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "649a98088c00fc5f19a8f94f3ff68a9a48b10e00fd6fa2bc03b122fc32c209db": {
@@ -736,6 +695,41 @@
         ],
         "best_index": 3,
         "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "6a8fba5df7096715b3a737319b99ae2c2dc4b2d276ed65d2e2926e306d559de2": {
+      "created_at": "2026-06-23T21:58:48Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Critical infrastructure failure affecting rail services in Germany.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "German Rail Service Suspended Due to Radio Interference",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "Critical infrastructure failure affecting rail services in Germany.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "All train services in Germany halted after train radio communications disruption",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -922,37 +916,25 @@
         "social_posts": {}
       }
     },
-    "89c5a7da9854c53ed3a7a0769b974e133dca3b36f027f5a2ae468ea34b288799": {
-      "created_at": "2026-06-22T21:13:54Z",
+    "8e3b21ca27053e55422bc3fe108bcad92b8e7f6fd8928e0c26a192804a8f06fd": {
+      "created_at": "2026-06-23T21:58:48Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 5,
-            "novelty_score": 2.5,
-            "reason": "Nvidia's new cooling system addresses a critical sustainability issue in AI infrastructure.",
+            "freshness_score": 2.0,
+            "impact_score": 0.5,
+            "index": 2,
+            "novelty_score": 1.5,
+            "reason": "This is a product sale announcement, not a software or AI-related news.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 1.5,
-            "title": "Nvidia wants to cut data center water use, but that\u2019s not the same as fixing AI\u2019s water problem",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 6,
-            "novelty_score": 2.5,
-            "reason": "Explores the unintended consequences of AI in real estate, particularly virtual staging.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "AI is cursing renters with the promise of impossible homes",
-            "total_score": 7.0
+            "title": "Prime Day takes $240 off Roborock\u2019s Saros 20, one of our favorite robovacs",
+            "total_score": 5.5
           }
         ],
-        "best_index": 5,
-        "best_score": 7.5,
+        "best_index": 2,
+        "best_score": 5.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1465,46 +1447,6 @@
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "d1bfb6f1b719ba9ab0097b90c44b7898341aef37364107157ad810b73e9790f1": {
-      "created_at": "2026-06-22T21:13:54Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "Meta accidentally exposed employee keystroke data, raising serious privacy concerns.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Meta Exposed Data Internally From Its Controversial Employee-Tracking Program",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2,
-            "index": 4,
-            "novelty_score": 2.5,
-            "reason": "Groq raises $650M and hires new execs after Nvidia's not-acqui-hire deal.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "AI chipmaker Groq confirms $650M raise, re-staffs after Nvidia\u2019s $20B not-acqui-hire deal",
-            "total_score": 8
-          }
-        ],
-        "best_index": 3,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Meta's employee-tracking program, which collects keystroke data to train AI models, accidentally exposed internal data. This raises serious privacy concerns. Link: https://www.wired.com/story/meta-accidentally-let-employees-access-each-others-keystroke-data/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Meta Exposed Data Internally From Its Controversial Employee-Tracking Program*\n\nMeta accidentally exposed employee keystroke data collected for AI training, raising serious privacy concerns.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.wired.com/story/meta-accidentally-let-employees-access-each-others-keystroke-data/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Meta's AI training program accidentally exposed employee keystroke data internally. This is a major privacy concern. https://www.wired.com/story/meta-accidentally-let-employees-access-each-others-keystroke-data/",
-          "twitter": "Meta accidentally exposed employee keystroke data collected for AI training. https://www.wired.com/story/meta-accidentally-let-employees-access-each-others-keystroke-data/"
-        }
       }
     },
     "d8d9508e5f104dd8ea02d53eeb0dabc8c79a260cd586b12e47448167802b4dd2": {
@@ -2101,6 +2043,12 @@
       "status": "scoring_attempted",
       "title": "Apple is going to raise device prices, but when?"
     },
+    "https://english.news.cn/20260624/65f1b6192cd947e28849776a5aef05c6/c.html": {
+      "canonical_url": "https://english.news.cn/20260624/65f1b6192cd947e28849776a5aef05c6/c.html",
+      "created_at": "2026-06-23T21:58:48Z",
+      "status": "scoring_attempted",
+      "title": "All train services in Germany halted after train radio communications disruption"
+    },
     "https://fosterelli.co/developers-dont-understand-cors": {
       "canonical_url": "https://fosterelli.co/developers-dont-understand-cors",
       "created_at": "2026-06-21T05:19:01Z",
@@ -2215,6 +2163,12 @@
       "status": "scoring_attempted",
       "title": "Petition against Meta's employee training data collection for ML models"
     },
+    "https://milek7.pl/mailverifyspam": {
+      "canonical_url": "https://milek7.pl/mailverifyspam",
+      "created_at": "2026-06-23T21:58:48Z",
+      "status": "scoring_attempted",
+      "title": "Don't verify email addresses by sending spam to them"
+    },
     "https://mitchellh.com/writing/zig-donation-2026": {
       "canonical_url": "https://mitchellh.com/writing/zig-donation-2026",
       "created_at": "2026-06-22T17:19:35Z",
@@ -2226,6 +2180,12 @@
       "created_at": "2026-06-23T16:08:40Z",
       "status": "scoring_attempted",
       "title": "The Low-Tech AI of Elden Ring"
+    },
+    "https://news.mit.edu/2026/exploring-societal-impacts-of-ai-0623": {
+      "canonical_url": "https://news.mit.edu/2026/exploring-societal-impacts-of-ai-0623",
+      "created_at": "2026-06-23T21:58:48Z",
+      "status": "scoring_attempted",
+      "title": "Exploring the societal impacts of AI"
     },
     "https://news.mit.edu/2026/new-chip-could-help-tiny-robots-traverse-complex-environments-0623": {
       "canonical_url": "https://news.mit.edu/2026/new-chip-could-help-tiny-robots-traverse-complex-environments-0623",
@@ -2514,6 +2474,12 @@
       "created_at": "2026-06-20T17:06:28Z",
       "status": "scoring_attempted",
       "title": "Ubisoft co-founder Claude Guillemot has died in a plane crash"
+    },
+    "https://www.bluewin.ch/en/news/german-rail-service-suspended-due-to-radio-interference-li.3295297": {
+      "canonical_url": "https://www.bluewin.ch/en/news/german-rail-service-suspended-due-to-radio-interference-li.3295297",
+      "created_at": "2026-06-23T21:58:48Z",
+      "status": "scoring_attempted",
+      "title": "German Rail Service Suspended Due to Radio Interference"
     },
     "https://www.cbc.ca/news/politics/federal-nuclear-strategy-9.7244509": {
       "canonical_url": "https://www.cbc.ca/news/politics/federal-nuclear-strategy-9.7244509",
@@ -2820,6 +2786,12 @@
       "created_at": "2026-06-22T17:19:35Z",
       "status": "scoring_attempted",
       "title": "RingConn&#8217;s Lord of the Rings promotion assumes smart ring wearers want to be like Gollum"
+    },
+    "https://www.theverge.com/gadgets/953936/roborock-saros-20-amazon-deal-sale": {
+      "canonical_url": "https://www.theverge.com/gadgets/953936/roborock-saros-20-amazon-deal-sale",
+      "created_at": "2026-06-23T21:58:48Z",
+      "status": "scoring_attempted",
+      "title": "Prime Day takes $240 off Roborock\u2019s Saros 20, one of our favorite robovacs"
     },
     "https://www.theverge.com/gadgets/955139/xteink-x3-x4-e-ink-reader-amazon-prime-day-deal-sale": {
       "canonical_url": "https://www.theverge.com/gadgets/955139/xteink-x3-x4-e-ink-reader-amazon-prime-day-deal-sale",
