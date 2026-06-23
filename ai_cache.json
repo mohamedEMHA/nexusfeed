@@ -1,68 +1,5 @@
 {
   "cerebras_scoring": {
-    "034c1be5a0df124bf414b81f54c6a504d1c724fb859fd8bc007f1dec3a8f1b00": {
-      "created_at": "2026-06-22T18:11:45Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 17,
-            "novelty_score": 2.5,
-            "reason": "Interesting tool but limited impact and from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Show HN: Selector Forge \u2013 browser extension for AI-generated resilient selectors",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 17,
-        "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "04d4b550205f00301825ecc52ffd507ffecba38e98c9c04c418ff1f778e41cc6": {
-      "created_at": "2026-06-22T18:11:45Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "Amazon expanding Alexa+ to India with Hindi support is a significant regional move.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Amazon is testing Alexa+ in India with Hindi support",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 11,
-            "novelty_score": 2.5,
-            "reason": "NSF reallocating funds is impactful but lacks the immediate technical relevance for engineers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "NSF slashes research programs to support new tech initiative, insiders say",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 2,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Amazon is expanding its Alexa+ AI assistant to India with Hindi support. This move could significantly increase Alexa's user base in a major market. Link: https://techcrunch.com/2026/06/22/amazon-is-testing-alexa-in-india-with-hindi-support/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Amazon is testing Alexa+ in India with Hindi support*\n\nAmazon is expanding its Alexa+ AI assistant to India with Hindi support, marking a significant expansion of its AI assistant.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/06/22/amazon-is-testing-alexa-in-india-with-hindi-support/",
-          "threads": "Amazon is testing Alexa+ in India with Hindi support, a big step for its AI assistant's global reach. https://techcrunch.com/2026/06/22/amazon-is-testing-alexa-in-india-with-hindi-support/",
-          "twitter": "Amazon is testing Alexa+ in India with Hindi support, marking a significant expansion of its AI assistant. https://techcrunch.com/2026/06/22/amazon-is-testing-alexa-in-india-with-hindi-support/"
-        }
-      }
-    },
     "05a4e721e2635c07900ac643b143d8ce321776d22ecbf44f0c1f2d519fc1ca13": {
       "created_at": "2026-06-22T21:13:54Z",
       "payload": {
@@ -98,6 +35,69 @@
         "social_posts": {}
       }
     },
+    "07609db47036345b96f1053e8e4654bc84ae2f45c0f663603d697c73e34d497e": {
+      "created_at": "2026-06-23T18:20:38Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 0.2,
+            "reason": "This article is a tutorial on Prime Day deals, which is not relevant to software engineers and AI researchers.",
+            "red_flag": true,
+            "red_flag_reason": "tutorial",
+            "source_score": 1.5,
+            "title": "Laptop prices suck these days, so here are some Prime Day deals that help a little",
+            "total_score": 3.7
+          }
+        ],
+        "best_index": 2,
+        "best_score": 3.7,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "08f9ccc76eef2f7c41782ddac196403f07831192f62064cdd88ac36924aada14": {
+      "created_at": "2026-06-23T18:20:38Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 0.5,
+            "impact_score": 2.5,
+            "index": 860,
+            "novelty_score": 2.5,
+            "reason": "New product announcement from a top-tier source, but not very fresh.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 2,
+            "title": "Introducing Claude Tag",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "Detailed analysis of a new product with significant implications for enterprise workflows.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Anthropic\u2019s Claude Tag is learning your company, one Slack message at a time",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Anthropic's new Claude Tag is designed to be an always-on AI teammate in Slack, but it's also a strategic move to capture organizational context and enterprise workflows. This could be a game-changer for companies relying on Slack for collaboration. Link: https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Anthropic\u2019s Claude Tag is learning your company, one Slack message at a time*\n\nAnthropic's new Claude Tag brings an always-on AI teammate to Slack, aiming to capture organizational context and enterprise workflows.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Anthropic's Claude Tag is embedding itself into Slack workflows, aiming to capture organizational context and institutional knowledge. This is a significant move for enterprise AI integration. https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/",
+          "twitter": "Anthropic's Claude Tag is embedding itself into Slack workflows, aiming to capture organizational context and institutional knowledge. https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/"
+        }
+      }
+    },
     "0a09f73f99790e9b16e71a1786c7563a9c393eadc3d07a4d0e9f0ba467fd919a": {
       "created_at": "2026-06-23T10:34:06Z",
       "payload": {
@@ -119,129 +119,6 @@
         "best_score": 0.0,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "0a335e42df3b1b2618a7481023921bcff5639749cbf8cc0d9d43ecb27edad01e": {
-      "created_at": "2026-06-22T18:11:45Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 13,
-            "novelty_score": 2.5,
-            "reason": "New Git replacement tool designed for agents, but niche impact and lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Show HN: Oak \u2013 Git replacement designed for agents",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 14,
-            "novelty_score": 2.5,
-            "reason": "Bain's innovative approach to evaluating software acquisitions using AI replicas.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Bain tests software takeover targets by vibecoding AI replicas",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 14,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "0e3ed6c2278b88f15d00aac4022f316ebdcf1e42fa1e8e60ee19e91758ae065c": {
-      "created_at": "2026-06-22T17:19:35Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 6,
-            "novelty_score": 2.0,
-            "reason": "Industry move but niche impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Valve prices the Steam Machine at $1,049",
-            "total_score": 6.0
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 7,
-            "novelty_score": 2.5,
-            "reason": "New compute deal with significant impact on AI infrastructure.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "SpaceX inks compute deal with Reflection AI, an open-source AI lab",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 0.5,
-            "index": 8,
-            "novelty_score": 0.5,
-            "reason": "Marketing fluff with minimal technical relevance.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "RingConn\u2019s Lord of the Rings promotion assumes smart ring wearers want to be like Gollum",
-            "total_score": 4.5
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 9,
-            "novelty_score": 1.5,
-            "reason": "Update to existing technology with moderate impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "AMD releases FSR 4.1 upscaling for older graphics cards",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.0,
-            "index": 10,
-            "novelty_score": 2.5,
-            "reason": "New research on mitigating vendor lock-in with multi-agent models.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.0,
-            "title": "Mitigating vendor lock-in with Sakana AI Fugu multi-agent models",
-            "total_score": 7.0
-          },
-          {
-            "freshness_score": 1.0,
-            "impact_score": 2.0,
-            "index": 11,
-            "novelty_score": 2.0,
-            "reason": "Case study on migrating from Google Analytics with moderate impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.0,
-            "title": "Presentation: Challenging Google Analytics: Building a Scalable, Cost-Effective User Tracking Service",
-            "total_score": 6.0
-          }
-        ],
-        "best_index": 7,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "SpaceX has inked a significant compute deal with Reflection AI, an open-source AI lab. The agreement, worth $150 million a month, provides Reflection AI with immediate access to Nvidia's latest GB300 AI chips and supporting hardware across SpaceX's Colossus 2 data center near Memphis, Tennessee. This deal highlights the growing intersection of space technology and AI research.\nLink: https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *SpaceX inks compute deal with Reflection AI, an open-source AI lab*\n\nReflection AI will pay $150 million a month for immediate access to Nvidia's latest GB300 AI chips and supporting hardware across SpaceX's Colossus 2 data center.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "SpaceX and Reflection AI just announced a $150M/month deal for Nvidia's GB300 AI chips. This is a big step in AI infrastructure, showing how space tech and AI are converging.\nhttps://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/",
-          "twitter": "SpaceX just signed a $150M/month deal with Reflection AI for Nvidia's latest GB300 AI chips. This is a massive move in AI infrastructure.\nhttps://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/"
-        }
       }
     },
     "15c9cf9dd0ab8241586eee30d800c45f66ccc73e807509439f8e713b48ca7bac": {
@@ -467,41 +344,6 @@
         "social_posts": {}
       }
     },
-    "20449424bfdb615fc2a0428a0c86f305ba19168848709450480217b3d10392c5": {
-      "created_at": "2026-06-22T18:11:45Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 1.5,
-            "reason": "Price drop on consumer hardware is niche impact and not novel.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "The Apple Watch SE 3 is just $199 for Prime Day",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2,
-            "reason": "Analysis of industry trends with moderate novelty and broad impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "The Steam Machine is the start of an even more expensive future for game consoles",
-            "total_score": 8
-          }
-        ],
-        "best_index": 1,
-        "best_score": 8.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "280d4d8d1fb74d07c403293fd3e1bf8a48b55dfbfe7861d88f33e223595ef9db": {
       "created_at": "2026-06-23T13:24:43Z",
       "payload": {
@@ -587,94 +429,6 @@
         "best_score": 3.0,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "2e2793c7450a86ae0660fba2c163d58cd6390affb09b9838b5f73a05fc249b6b": {
-      "created_at": "2026-06-22T17:19:35Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Google and A24 partnership on AI movie tools is a significant industry move with broad implications for filmmaking.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Google invests in A24 to build AI movie tools",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 1,
-            "novelty_score": 1.5,
-            "reason": "Steam Machine reservation process is a niche update with limited impact beyond gaming enthusiasts.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Here\u2019s how you can reserve a Steam Machine",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 2,
-            "novelty_score": 2,
-            "reason": "Copyright case outcome is notable but limited to legal and media circles.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Blogger Defeats Photographer's Copyright Claim-Sokolskyfilm vs. Messiah",
-            "total_score": 6
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 3,
-            "novelty_score": 1.5,
-            "reason": "Steam Machine pricing strategy is a niche update with limited impact beyond gaming enthusiasts.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Valve explains why it isn\u2019t subsidizing the Steam Machine",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 0.5,
-            "index": 4,
-            "novelty_score": 0.2,
-            "reason": "Job posting is a low-impact update with limited relevance to a specific audience.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Charge Robotics (YC S21) Is Hiring Software and Hardware Engineers",
-            "total_score": 3.2
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 3,
-            "index": 5,
-            "novelty_score": 3,
-            "reason": "OpenAI's new cybersecurity initiative is a significant development with broad implications for AI and software security.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "OpenAI Launches Full-Scale Effort to Patch Open-Source Bugs as It Takes on Anthropic\u2019s Mythos",
-            "total_score": 9.5
-          }
-        ],
-        "best_index": 5,
-        "best_score": 9.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "OpenAI has unveiled a significant new initiative to address open-source software bugs with GPT-5.5-Cyber. This move is part of their broader strategy to enhance AI model cybersecurity capabilities, directly competing with Anthropic's Mythos. The 'Patch the Plant' initiative aims to fix vulnerabilities and improve the overall security of open-source software. Link: https://www.wired.com/story/openai-launches-full-scale-effort-to-patch-open-source-bugs-as-it-takes-on-anthropics-mythos/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *OpenAI Launches Full-Scale Effort to Patch Open-Source Bugs as It Takes on Anthropic\u2019s Mythos*\n\nOpenAI has unveiled a significant new initiative to address open-source software bugs with GPT-5.5-Cyber. This move is part of their broader strategy to enhance AI model cybersecurity capabilities, directly competing with Anthropic's Mythos. The 'Patch the Plant' initiative aims to fix vulnerabilities and improve the overall security of open-source software.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.5/10\n\n\ud83d\udd17 https://www.wired.com/story/openai-launches-full-scale-effort-to-patch-open-source-bugs-as-it-takes-on-anthropics-mythos/",
-          "threads": "OpenAI is taking on Anthropic's Mythos with a full-scale effort to patch open-source bugs using GPT-5.5-Cyber. This initiative aims to fix vulnerabilities and improve software security. https://www.wired.com/story/openai-launches-full-scale-effort-to-patch-open-source-bugs-as-it-takes-on-anthropics-mythos/",
-          "twitter": "OpenAI launches a full-scale effort to patch open-source bugs, taking on Anthropic's Mythos with GPT-5.5-Cyber.\nhttps://www.wired.com/story/openai-launches-full-scale-effort-to-patch-open-source-bugs-as-it-takes-on-anthropics-mythos/"
-        }
       }
     },
     "38cd4c5643a6f3d8aeb34e560f3ccafa490a0892d9d89334551837e5c22b6841": {
@@ -1137,6 +891,34 @@
         "social_posts": {}
       }
     },
+    "a7a3beff9f535ba7c721a1a874fbc99395e9bf898a2bb61490568ad9915baac4": {
+      "created_at": "2026-06-23T18:20:38Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "Corporate AI super PACs spending $27 million on a local election is a significant industry move with broad implications.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Why corporate AI super PACs spent $27 million on a local election",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 3,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Corporate AI super PACs have spent $27 million on a local election, raising questions about their influence. This is a significant move that could reshape how AI companies engage in politics. Link: https://www.theverge.com/policy/954970/ai-super-pacs-alex-bores-new-york-12th-district",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Why corporate AI super PACs spent $27 million on a local election*\n\nCorporate AI super PACs have spent $27 million on a local election, raising questions about their influence and strategy.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/policy/954970/ai-super-pacs-alex-bores-new-york-12th-district\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Corporate AI super PACs just spent $27 million on a local election. What's the strategy behind this massive investment?\nhttps://www.theverge.com/policy/954970/ai-super-pacs-alex-bores-new-york-12th-district",
+          "twitter": "Corporate AI super PACs just dropped $27 million on a local election. What's the play here?\nhttps://www.theverge.com/policy/954970/ai-super-pacs-alex-bores-new-york-12th-district"
+        }
+      }
+    },
     "af7ffc472553405649a0c614c8abad1af783b1dcdee9fa0fbfda0d2beb787b61": {
       "created_at": "2026-06-23T09:33:05Z",
       "payload": {
@@ -1327,6 +1109,34 @@
           "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Lucide Releases Version 1.0, Removing Brand Icons and Cutting Bundle Size for Millions of Projects*\n\nLucide has released version 1.0 of its open-source icon toolkit, marking its first stable major release. The update features over 1,600 icons and removes trademarked brand icons due to legal and design concerns. Significant performance improvements have also been made, reducing package size and adding to the appeal for developers.\n\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (B)\n\u23f0 Published: 2 hours ago\n\u2b50 Score: 8.0/10\n\n\ud83d\udd17 https://www.infoq.com/news/2026/06/lucide-v1-icons/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
           "threads": "Lucide v1.0 is out with 1,600+ icons, no brand logos, and smaller bundle sizes. Big news for devs using open-source icon toolkits. https://www.infoq.com/news/2026/06/lucide-v1-icons/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "twitter": "Lucide v1.0 drops brand icons and slashes bundle size, impacting millions of projects. https://www.infoq.com/news/2026/06/lucide-v1-icons/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+        }
+      }
+    },
+    "c0c17af21fc26d597b8328e8f90c9522cc521e075750bf447d1f513f76abfce3": {
+      "created_at": "2026-06-23T18:20:38Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 4,
+            "novelty_score": 2.5,
+            "reason": "GPT-5 Pro's application in solving a 3-year-old immunology mystery is notable but not groundbreaking.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 2,
+            "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 4,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "GPT-5 Pro has helped solve a 3-year-old immunology mystery, providing new insights into T cell behavior. This breakthrough could support cancer and autoimmune research. Link: https://openai.com/index/gpt-5-immunology-mystery",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery*\n\nGPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.\n\n\ud83c\udfdb\ufe0f Source: OpenAI (S)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://openai.com/index/gpt-5-immunology-mystery\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "GPT-5 Pro just solved a 3-year-old immunology mystery, offering new insights into T cell behavior. This could advance cancer and autoimmune research. https://openai.com/index/gpt-5-immunology-mystery",
+          "twitter": "GPT-5 Pro cracked a 3-year-old immunology mystery, offering new insights into T cell behavior. https://openai.com/index/gpt-5-immunology-mystery"
         }
       }
     },
@@ -1532,82 +1342,6 @@
         "social_posts": {}
       }
     },
-    "ea75708fc5ce56004c5c65016bcc67bd262c4c90c1b30bc0609bdb7e2c45c8df": {
-      "created_at": "2026-06-22T17:19:35Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 17,
-            "novelty_score": 2.5,
-            "reason": "New release of a multilingual OCR model with significant parameter increase.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 2,
-            "title": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 18,
-            "novelty_score": 2.5,
-            "reason": "Interesting project but limited impact and from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Show HN: I rebuilt the only parts of my IDE I use, in Rust, over a weekend",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1,
-            "impact_score": 2.5,
-            "index": 21,
-            "novelty_score": 2.5,
-            "reason": "New initiative by OpenAI to support open-source maintainers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 2,
-            "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-            "total_score": 8
-          },
-          {
-            "freshness_score": 1,
-            "impact_score": 2.5,
-            "index": 22,
-            "novelty_score": 2.5,
-            "reason": "New security tools from OpenAI to help organizations patch vulnerabilities.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 2,
-            "title": "Daybreak: Tools for securing every organization in the world",
-            "total_score": 8
-          },
-          {
-            "freshness_score": 1,
-            "impact_score": 1.5,
-            "index": 23,
-            "novelty_score": 2,
-            "reason": "Interesting collaboration but limited impact and from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "L\u2019Or\u00e9al brings Maybelline virtual try-on to ChatGPT",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 17,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Hugging Face has just released PP-OCRv6, a significant update to their OCR model. This version supports 50 languages and scales from 1.5M to 34.5M parameters, making it a powerful tool for multilingual text recognition. The model is now available on Hugging Face. Link: https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters*\n\nHugging Face releases PP-OCRv6, a 50-language OCR model scaling from 1.5M to 34.5M parameters.\n\n\ud83c\udfdb\ufe0f Source: HuggingFace (S)\n\u23f0 Published: 4 hours ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://huggingface.co/blog/PaddlePaddle/pp-ocrv6\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Hugging Face just dropped PP-OCRv6, a 50-language OCR model that scales from 1.5M to 34.5M parameters. This is a big leap in multilingual text recognition. https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
-          "twitter": "Hugging Face releases PP-OCRv6, a 50-language OCR model scaling from 1.5M to 34.5M parameters.\nhttps://huggingface.co/blog/PaddlePaddle/pp-ocrv6"
-        }
-      }
-    },
     "fc45708ded0a78c5b26f81d104385e4ae75969f6131b00ff40d77b4525a5ace8": {
       "created_at": "2026-06-23T13:24:43Z",
       "payload": {
@@ -1641,82 +1375,6 @@
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "fe0f32af9333935e1383fd9f1fd8e4f7b562632010df99e5b96f5985f53dfd37": {
-      "created_at": "2026-06-22T17:19:35Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 12,
-            "novelty_score": 2.5,
-            "reason": "Interesting analysis but limited impact and from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Claude Code's \"extended thinking\" is a summary- not authentic thinking",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.5,
-            "index": 13,
-            "novelty_score": 0.5,
-            "reason": "Promotional content with limited novelty and impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "The founder conference built for growth: TechCrunch Founder Summit pass rates increase June 26",
-            "total_score": 3.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 14,
-            "novelty_score": 3,
-            "reason": "New model with significant performance claims, but from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Moebius: 0.2B image inpainting model with 10B-level performance",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 15,
-            "novelty_score": 2.5,
-            "reason": "Important analysis on AI policy with significant impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "How Anthropic may have talked itself into an AI export ban",
-            "total_score": 8.0
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 16,
-            "novelty_score": 1.5,
-            "reason": "Interesting but niche funding announcement.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Pledging Another $400k to the Zig Software Foundation",
-            "total_score": 5.0
-          }
-        ],
-        "best_index": 15,
-        "best_score": 8.0,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Anthropic's public stance on AI risks could be leading to an export ban. The company has been more vocal about AI dangers than OpenAI, and this might be coming back to haunt them. Link: https://arstechnica.com/ai/2026/06/how-anthropic-may-have-talked-itself-into-an-ai-export-ban/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *How Anthropic may have talked itself into an AI export ban*\n\nAnthropic's vocal warnings about AI risks may have backfired, potentially triggering an export ban.\n\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: 3 hours ago\n\u2b50 Score: 8.0/10\n\n\ud83d\udd17 https://arstechnica.com/ai/2026/06/how-anthropic-may-have-talked-itself-into-an-ai-export-ban/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Anthropic's warnings about AI risks may have led to an export ban. The company has been more vocal than OpenAI on this front. https://arstechnica.com/ai/2026/06/how-anthropic-may-have-talked-itself-into-an-ai-export-ban/",
-          "twitter": "Anthropic's vocal warnings about AI risks may have backfired, potentially triggering an export ban. https://arstechnica.com/ai/2026/06/how-anthropic-may-have-talked-itself-into-an-ai-export-ban/"
-        }
       }
     }
   },
@@ -1764,6 +1422,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Meta Pauses Employee Tracking Program\nMeta has halted its employee-tracking initiative following an internal data leak that exposed potentially sensitive information.\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#datasecurity #metatech #employeeprivacy\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Meta has paused its employee-tracking program due to an internal data leak, sparking concerns over data security and protection @Meta, #datasecurity",
         "twitter": "Meta halts its employee-tracking program after an internal data leak exposed sensitive information @Meta, #datasecurity"
+      }
+    },
+    "895b6128750febc2071365a608518329e56732895091f0b31158fbdffdd6892e": {
+      "created_at": "2026-06-23T18:20:38Z",
+      "payload": {
+        "facebook": "The introduction of Anthropic's Claude Tag in Slack marks a significant shift in how AI integrates into company workflows, aiming to capture organizational context and institutional knowledge. This move could redefine enterprise productivity and data management. #AI #Slack #Productivity",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Anthropic's AI Invasion of Slack\nAnthropic's Claude Tag is integrating AI into Slack to learn company workflows and capture organizational context.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n#AI #Slack #Productivity\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Anthropic's Claude Tag is bringing AI directly into Slack, learning from company interactions and workflows, notes @TechCrunch, which could significantly impact how businesses operate #AI",
+        "twitter": "Anthropic's Claude Tag is changing the way companies interact with AI in Slack, says @TechCrunch, with implications for productivity and data capture #AI"
       }
     },
     "8e8e31e5d6b4e482af969d85fb5068df8a947e7ba9b7a88ba39afa7be5602820": {
@@ -2335,6 +2002,12 @@
       "status": "scoring_attempted",
       "title": "Daybreak: Tools for securing every organization in the world"
     },
+    "https://openai.com/index/gpt-5-immunology-mystery": {
+      "canonical_url": "https://openai.com/index/gpt-5-immunology-mystery",
+      "created_at": "2026-06-23T18:20:38Z",
+      "status": "scoring_attempted",
+      "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery"
+    },
     "https://openai.com/index/patch-the-planet": {
       "canonical_url": "https://openai.com/index/patch-the-planet",
       "created_at": "2026-06-22T17:19:35Z",
@@ -2473,6 +2146,12 @@
       "status": "scoring_attempted",
       "title": "4 days left to save up to $190 on TechCrunch Founder Summit 2026"
     },
+    "https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time": {
+      "canonical_url": "https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time",
+      "created_at": "2026-06-23T18:20:38Z",
+      "status": "scoring_attempted",
+      "title": "Anthropic\u2019s Claude Tag is learning your company, one Slack message at a time"
+    },
     "https://techcrunch.com/2026/06/23/fika-jobs-raises-4m-to-build-a-video-first-hiring-platform-where-ai-agents-interview-candidates": {
       "canonical_url": "https://techcrunch.com/2026/06/23/fika-jobs-raises-4m-to-build-a-video-first-hiring-platform-where-ai-agents-interview-candidates",
       "created_at": "2026-06-23T16:08:40Z",
@@ -2502,6 +2181,12 @@
       "created_at": "2026-06-20T18:45:58Z",
       "status": "scoring_attempted",
       "title": "Agency stole bestselling author's book, used AI to relaunch as their own"
+    },
+    "https://www.anthropic.com/news/introducing-claude-tag": {
+      "canonical_url": "https://www.anthropic.com/news/introducing-claude-tag",
+      "created_at": "2026-06-23T18:20:38Z",
+      "status": "scoring_attempted",
+      "title": "Introducing Claude Tag"
     },
     "https://www.argusred.com/cli": {
       "canonical_url": "https://www.argusred.com/cli",
@@ -2779,6 +2464,12 @@
       "status": "scoring_attempted",
       "title": "The best robot vacuum deals available during Prime Day"
     },
+    "https://www.theverge.com/gadgets/951105/prime-day-laptop-keyboards-mice-accessories-deal-sale": {
+      "canonical_url": "https://www.theverge.com/gadgets/951105/prime-day-laptop-keyboards-mice-accessories-deal-sale",
+      "created_at": "2026-06-23T18:20:38Z",
+      "status": "scoring_attempted",
+      "title": "Laptop prices suck these days, so here are some Prime Day deals that help a little"
+    },
     "https://www.theverge.com/gadgets/952555/kindle-paperwhite-amazon-deal-sale": {
       "canonical_url": "https://www.theverge.com/gadgets/952555/kindle-paperwhite-amazon-deal-sale",
       "created_at": "2026-06-23T13:24:43Z",
@@ -2856,6 +2547,12 @@
       "created_at": "2026-06-23T13:24:43Z",
       "status": "scoring_attempted",
       "title": "Elon Musk and the plot to hijack America\u2019s broadband"
+    },
+    "https://www.theverge.com/policy/954970/ai-super-pacs-alex-bores-new-york-12th-district": {
+      "canonical_url": "https://www.theverge.com/policy/954970/ai-super-pacs-alex-bores-new-york-12th-district",
+      "created_at": "2026-06-23T18:20:38Z",
+      "status": "scoring_attempted",
+      "title": "Why corporate AI super PACs spent $27 million on a local election"
     },
     "https://www.theverge.com/report/953116/experimental-musician-youtuber-hainbach-interview": {
       "canonical_url": "https://www.theverge.com/report/953116/experimental-musician-youtuber-hainbach-interview",
