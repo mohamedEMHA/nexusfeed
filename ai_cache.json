@@ -122,52 +122,6 @@
         }
       }
     },
-    "0a09f73f99790e9b16e71a1786c7563a9c393eadc3d07a4d0e9f0ba467fd919a": {
-      "created_at": "2026-06-23T10:34:06Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 0.0,
-            "index": 1,
-            "novelty_score": 0.0,
-            "reason": "Red flag triggered by 'best' in the title.",
-            "red_flag": true,
-            "red_flag_reason": "top 10",
-            "source_score": 1.5,
-            "title": "The best Apple deals you can get during Prime Day",
-            "total_score": 0.0
-          }
-        ],
-        "best_index": 1,
-        "best_score": 0.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "15c9cf9dd0ab8241586eee30d800c45f66ccc73e807509439f8e713b48ca7bac": {
-      "created_at": "2026-06-23T10:34:06Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 0.0,
-            "index": 2,
-            "novelty_score": 0.0,
-            "reason": "Red flag triggered: 'best' in title.",
-            "red_flag": true,
-            "red_flag_reason": "top 10",
-            "source_score": 1.5,
-            "title": "The best Prime Day deals we found on our favorite gear",
-            "total_score": 0.0
-          }
-        ],
-        "best_index": 2,
-        "best_score": 0.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "169bf4d6f2969271d36551fdbbc6f0defe85a2acfae2635afcf565fba6c2c429": {
       "created_at": "2026-06-23T16:08:40Z",
       "payload": {
@@ -728,29 +682,6 @@
         "social_posts": {}
       }
     },
-    "951ea2a7b7ea54981f079de91c44ebb97ffa83760a5bcb7ecd212a7dd5052ef0": {
-      "created_at": "2026-06-23T10:34:06Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 4,
-            "novelty_score": 2.5,
-            "reason": "Neural Particle Automata is a novel research topic but is only relevant to a niche audience and is published on a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Show HN: Neural Particle Automata",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 4,
-        "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "959e47af9e0c12519c8f015a5b5745636d49de4a2b524fab643d0c40de4aca37": {
       "created_at": "2026-06-24T04:39:50Z",
       "payload": {
@@ -902,6 +833,29 @@
         }
       }
     },
+    "9f998f12e2caabe0797c620f3261d1fda8f242ce6a15d6a1c92e5f20eb0e1e9f": {
+      "created_at": "2026-06-24T12:31:02Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 0.5,
+            "index": 1,
+            "novelty_score": 0.2,
+            "reason": "Not relevant to software engineers or AI researchers.",
+            "red_flag": true,
+            "red_flag_reason": "not relevant to software engineers or AI researchers",
+            "source_score": 1.5,
+            "title": "Star Fox is the Switch 2\u2019s most impressive visual showcase yet",
+            "total_score": 3.2
+          }
+        ],
+        "best_index": 1,
+        "best_score": 3.2,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "a5ffdfd4d03a52de96db33223bb0819c25ab9e6b17fae4bc937c7a7ce4f977de": {
       "created_at": "2026-06-23T16:08:40Z",
       "payload": {
@@ -937,6 +891,29 @@
         "social_posts": {}
       }
     },
+    "a6467929eff470db5bd04972c6cb15b583e9f3afc009efb7c9d9c16618edac70": {
+      "created_at": "2026-06-24T12:31:02Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 0.5,
+            "reason": "Opinion piece on air conditioning adoption in Europe, limited technical relevance for software engineers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Europeans should learn to love the air-conditioner",
+            "total_score": 4.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 4.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "a7a3beff9f535ba7c721a1a874fbc99395e9bf898a2bb61490568ad9915baac4": {
       "created_at": "2026-06-23T18:20:38Z",
       "payload": {
@@ -963,6 +940,52 @@
           "threads": "Corporate AI super PACs just spent $27 million on a local election. What's the strategy behind this massive investment?\nhttps://www.theverge.com/policy/954970/ai-super-pacs-alex-bores-new-york-12th-district",
           "twitter": "Corporate AI super PACs just dropped $27 million on a local election. What's the play here?\nhttps://www.theverge.com/policy/954970/ai-super-pacs-alex-bores-new-york-12th-district"
         }
+      }
+    },
+    "aff79018b068e9d2aa1b2e178e4b1915380bb441556a6e55aa4477e5f513d4c2": {
+      "created_at": "2026-06-24T12:31:02Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "Open-source AI framework for production-ready agents and RAG, but from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Haystack: Open-Source AI Framework for Production Ready Agents, RAG",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 3,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "bcfbd2775c4288da0108a215ac29380a9aea8b131824caf5476825cc1cffa905": {
+      "created_at": "2026-06-24T12:31:02Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 2.0,
+            "reason": "Minimus container images are now free, impacting niche users.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Minimus container images are now free",
+            "total_score": 6.0
+          }
+        ],
+        "best_index": 2,
+        "best_score": 6.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "bf88e46992913628fde46fa7386de87395ef1c4ee31ef9cd5ddc250c2261efd9": {
@@ -1392,29 +1415,6 @@
           "threads": "RIFT-Bench is a new dynamic red-teaming framework for agentic AI systems, tackling security challenges that go beyond traditional LLM vulnerabilities. This research is crucial as AI systems become more autonomous.\nhttps://arxiv.org/abs/2606.23927",
           "twitter": "New research introduces RIFT-Bench for dynamic red-teaming of agentic AI systems, addressing evolving security challenges beyond traditional LLM vulnerabilities.\nhttps://arxiv.org/abs/2606.23927"
         }
-      }
-    },
-    "ea1ae72248c2497440fff12e61e47ba85e5f619f9ba1abfd8783856eb33bbba5": {
-      "created_at": "2026-06-23T10:34:06Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 0.0,
-            "index": 0,
-            "novelty_score": 0.0,
-            "reason": "Red flag triggered by 'best' in the title.",
-            "red_flag": true,
-            "red_flag_reason": "top 10",
-            "source_score": 1.5,
-            "title": "The best robot vacuum deals available during Prime Day",
-            "total_score": 0.0
-          }
-        ],
-        "best_index": 0,
-        "best_score": 0.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "f8f74ce2fe2caea65fa9bdfa012651b571e20c2b90760e6b0d096f8589fa4192": {
@@ -2208,6 +2208,12 @@
       "status": "scoring_attempted",
       "title": "JSON-LD Explained for Personal Websites"
     },
+    "https://haystack.deepset.ai": {
+      "canonical_url": "https://haystack.deepset.ai",
+      "created_at": "2026-06-24T12:31:02Z",
+      "status": "scoring_attempted",
+      "title": "Haystack: Open-Source AI Framework for Production Ready Agents, RAG"
+    },
     "https://hbr.org/2026/06/ai-has-broken-hiring-heres-how-to-fix-it": {
       "canonical_url": "https://hbr.org/2026/06/ai-has-broken-hiring-heres-how-to-fix-it",
       "created_at": "2026-06-21T17:16:16Z",
@@ -2231,6 +2237,12 @@
       "created_at": "2026-06-22T17:19:35Z",
       "status": "scoring_attempted",
       "title": "Moebius: 0.2B image inpainting model with 10B-level performance"
+    },
+    "https://images.minimus.io": {
+      "canonical_url": "https://images.minimus.io",
+      "created_at": "2026-06-24T12:31:02Z",
+      "status": "scoring_attempted",
+      "title": "Minimus container images are now free"
     },
     "https://jobs.ashbyhq.com/charge-robotics": {
       "canonical_url": "https://jobs.ashbyhq.com/charge-robotics",
@@ -2616,6 +2628,12 @@
       "status": "scoring_attempted",
       "title": "Slow breathing modulates brain function and risk behavior"
     },
+    "https://www.economist.com/europe/2026/06/18/europeans-should-learn-to-love-the-air-conditioner": {
+      "canonical_url": "https://www.economist.com/europe/2026/06/18/europeans-should-learn-to-love-the-air-conditioner",
+      "created_at": "2026-06-24T12:31:02Z",
+      "status": "scoring_attempted",
+      "title": "Europeans should learn to love the air-conditioner"
+    },
     "https://www.extremetech.com/computing/windows-11s-new-media-player-uses-35x-more-ram-charges-for-popular-video": {
       "canonical_url": "https://www.extremetech.com/computing/windows-11s-new-media-player-uses-35x-more-ram-charges-for-popular-video",
       "created_at": "2026-06-20T17:06:28Z",
@@ -2867,6 +2885,12 @@
       "created_at": "2026-06-23T23:06:09Z",
       "status": "scoring_attempted",
       "title": "Hollywood is bending the knee to OpenAI"
+    },
+    "https://www.theverge.com/entertainment/955300/star-fox-review-nintendo-switch-2": {
+      "canonical_url": "https://www.theverge.com/entertainment/955300/star-fox-review-nintendo-switch-2",
+      "created_at": "2026-06-24T12:31:02Z",
+      "status": "scoring_attempted",
+      "title": "Star Fox is the Switch 2\u2019s most impressive visual showcase yet"
     },
     "https://www.theverge.com/gadgets/948610/best-prime-day-tech-deals-sale": {
       "canonical_url": "https://www.theverge.com/gadgets/948610/best-prime-day-tech-deals-sale",
