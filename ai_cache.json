@@ -1,28 +1,5 @@
 {
   "cerebras_scoring": {
-    "07609db47036345b96f1053e8e4654bc84ae2f45c0f663603d697c73e34d497e": {
-      "created_at": "2026-06-23T18:20:38Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 2,
-            "novelty_score": 0.2,
-            "reason": "This article is a tutorial on Prime Day deals, which is not relevant to software engineers and AI researchers.",
-            "red_flag": true,
-            "red_flag_reason": "tutorial",
-            "source_score": 1.5,
-            "title": "Laptop prices suck these days, so here are some Prime Day deals that help a little",
-            "total_score": 3.7
-          }
-        ],
-        "best_index": 2,
-        "best_score": 3.7,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "08a9cd12ed72687d90eb5de93a78ad22ffec22081d5d92185de86bf51275e149": {
       "created_at": "2026-06-23T20:28:19Z",
       "payload": {
@@ -80,46 +57,6 @@
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "08f9ccc76eef2f7c41782ddac196403f07831192f62064cdd88ac36924aada14": {
-      "created_at": "2026-06-23T18:20:38Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 0.5,
-            "impact_score": 2.5,
-            "index": 860,
-            "novelty_score": 2.5,
-            "reason": "New product announcement from a top-tier source, but not very fresh.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 2,
-            "title": "Introducing Claude Tag",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Detailed analysis of a new product with significant implications for enterprise workflows.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Anthropic\u2019s Claude Tag is learning your company, one Slack message at a time",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Anthropic's new Claude Tag is designed to be an always-on AI teammate in Slack, but it's also a strategic move to capture organizational context and enterprise workflows. This could be a game-changer for companies relying on Slack for collaboration. Link: https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Anthropic\u2019s Claude Tag is learning your company, one Slack message at a time*\n\nAnthropic's new Claude Tag brings an always-on AI teammate to Slack, aiming to capture organizational context and enterprise workflows.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Anthropic's Claude Tag is embedding itself into Slack workflows, aiming to capture organizational context and institutional knowledge. This is a significant move for enterprise AI integration. https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/",
-          "twitter": "Anthropic's Claude Tag is embedding itself into Slack workflows, aiming to capture organizational context and institutional knowledge. https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/"
-        }
       }
     },
     "153f1c6e95a8e762fe6bbaf7bd00e9aec706f84dd75050fab66a1a0922a23698": {
@@ -710,6 +647,46 @@
         "social_posts": {}
       }
     },
+    "7753b5f4dbcc8d2a9cf85dfb8f4fb6c511a94507c59c8af061e71b5418bd00f5": {
+      "created_at": "2026-06-24T20:13:00Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "Congresswoman's denial of AI use in legislation drafting raises ethical and legal questions.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Congresswoman denies staff used AI to write defense funding amendment",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 3,
+            "novelty_score": 2,
+            "reason": "Legal action between music equipment companies is niche and not directly relevant to software engineers or AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Thomann takes legal action against Fender",
+            "total_score": 5.5
+          }
+        ],
+        "best_index": 2,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Rep. Anna Paulina Luna (R-FL) claims her staff only used AI for spellcheck in a defense bill summary, not the legislation itself. This raises questions about AI's role in government work. Link: https://www.theverge.com/policy/956394/florida-anna-paulina-luna-anthropic-claude",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Congresswoman denies staff used AI to write defense funding amendment*\n\nRep. Anna Paulina Luna (R-FL) claims her staff only used AI for spellcheck in a defense bill summary, not the legislation itself. This raises questions about AI's role in government work.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/policy/956394/florida-anna-paulina-luna-anthropic-claude\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "A U.S. Congresswoman says her staff only used AI for spellcheck in a defense bill summary, not the actual legislation. Interesting implications for AI in government. https://www.theverge.com/policy/956394/florida-anna-paulina-luna-anthropic-claude",
+          "twitter": "A U.S. Congresswoman denies her staff used AI to draft a defense bill, despite AI-assisted summaries. https://www.theverge.com/policy/956394/florida-anna-paulina-luna-anthropic-claude"
+        }
+      }
+    },
     "7a2a9dbb2fa71936faff169b2729b4e68c082ed7d3827abd3d4ba5984598a2a0": {
       "created_at": "2026-06-24T18:14:56Z",
       "payload": {
@@ -1168,34 +1145,6 @@
         "social_posts": {}
       }
     },
-    "a7a3beff9f535ba7c721a1a874fbc99395e9bf898a2bb61490568ad9915baac4": {
-      "created_at": "2026-06-23T18:20:38Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "Corporate AI super PACs spending $27 million on a local election is a significant industry move with broad implications.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Why corporate AI super PACs spent $27 million on a local election",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 3,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Corporate AI super PACs have spent $27 million on a local election, raising questions about their influence. This is a significant move that could reshape how AI companies engage in politics. Link: https://www.theverge.com/policy/954970/ai-super-pacs-alex-bores-new-york-12th-district",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Why corporate AI super PACs spent $27 million on a local election*\n\nCorporate AI super PACs have spent $27 million on a local election, raising questions about their influence and strategy.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/policy/954970/ai-super-pacs-alex-bores-new-york-12th-district\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Corporate AI super PACs just spent $27 million on a local election. What's the strategy behind this massive investment?\nhttps://www.theverge.com/policy/954970/ai-super-pacs-alex-bores-new-york-12th-district",
-          "twitter": "Corporate AI super PACs just dropped $27 million on a local election. What's the play here?\nhttps://www.theverge.com/policy/954970/ai-super-pacs-alex-bores-new-york-12th-district"
-        }
-      }
-    },
     "aff79018b068e9d2aa1b2e178e4b1915380bb441556a6e55aa4477e5f513d4c2": {
       "created_at": "2026-06-24T12:31:02Z",
       "payload": {
@@ -1240,34 +1189,6 @@
         "best_score": 6.0,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "c0c17af21fc26d597b8328e8f90c9522cc521e075750bf447d1f513f76abfce3": {
-      "created_at": "2026-06-23T18:20:38Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 4,
-            "novelty_score": 2.5,
-            "reason": "GPT-5 Pro's application in solving a 3-year-old immunology mystery is notable but not groundbreaking.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 2,
-            "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 4,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "GPT-5 Pro has helped solve a 3-year-old immunology mystery, providing new insights into T cell behavior. This breakthrough could support cancer and autoimmune research. Link: https://openai.com/index/gpt-5-immunology-mystery",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery*\n\nGPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.\n\n\ud83c\udfdb\ufe0f Source: OpenAI (S)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://openai.com/index/gpt-5-immunology-mystery\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "GPT-5 Pro just solved a 3-year-old immunology mystery, offering new insights into T cell behavior. This could advance cancer and autoimmune research. https://openai.com/index/gpt-5-immunology-mystery",
-          "twitter": "GPT-5 Pro cracked a 3-year-old immunology mystery, offering new insights into T cell behavior. https://openai.com/index/gpt-5-immunology-mystery"
-        }
       }
     },
     "c682445d9419db1b12135812ecc6305844f3a1d1feab528033093c77fcbd0fdb": {
@@ -1428,6 +1349,29 @@
         "social_posts": {}
       }
     },
+    "d02dabf3c566f34730ae8f398cb5c813f72739d8c134fc7c1ee9db337a65d6fe": {
+      "created_at": "2026-06-24T20:13:00Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 14,
+            "novelty_score": 2.5,
+            "reason": "Industry trend with moderate impact and freshness, but low-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Big AI labs are hiring philosophers",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 14,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "d48f86552c37894be7c2f12c77b5f669acf4c1c79168f3d93c6b3382253f7c43": {
       "created_at": "2026-06-24T08:03:53Z",
       "payload": {
@@ -1481,6 +1425,46 @@
           "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Mistral OCR 4 Brings Citation-Ready Structured Output to RAG, Agentic, and Enterprise Search Pipelines*\n\nMistral AI released OCR 4, moving from clean text extraction to structured document output. Each block returns a bounding box, a typed classification, and per-page and per-word confidence scores. The model supports 170 languages and runs in a single self-hosted container.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/06/23/mistral-ocr-4/",
           "threads": "Mistral OCR 4 introduces structured document output with bounding boxes, typed classification, and confidence scores, supporting 170 languages in a single container.\nhttps://www.marktechpost.com/2026/06/23/mistral-ocr-4/",
           "twitter": "Mistral OCR 4 now outputs structured documents with bounding boxes, typed classification, and confidence scores, supporting 170 languages in a single container.\nhttps://www.marktechpost.com/2026/06/23/mistral-ocr-4/"
+        }
+      }
+    },
+    "dfff3f51b004aa25a7a30f48e83e48f9c8b006240a260387fa3cf3953a1d9a52": {
+      "created_at": "2026-06-24T20:13:00Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.0,
+            "reason": "Industry move with broad impact, but not a major technical breakthrough.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Companies are scrambling to stop employees from maxing out AI budgets with small tasks",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 3.0,
+            "reason": "New release with significant performance improvements in real-time speech translation.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Gradium Launches stt-translate and s2s-translate, Real-Time Speech Translation Models Beating gpt-realtime-translate on Accuracy and Latency",
+            "total_score": 9.0
+          }
+        ],
+        "best_index": 1,
+        "best_score": 9.0,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Gradium just released two new real-time speech translation models that beat gpt-realtime-translate in both accuracy and latency. The models cover English, French, German, Spanish, and Portuguese across 20 language pairs, collapsing the standard three-model cascade into two. Link: https://www.marktechpost.com/2026/06/24/gradium-launches-stt-translate-and-s2s-translate-real-time-speech-translation-models-beating-gpt-realtime-translate-on-accuracy-and-latency/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Gradium Launches stt-translate and s2s-translate, Real-Time Speech Translation Models Beating gpt-realtime-translate on Accuracy and Latency*\n\nGradium released two real-time speech translation models, stt-translate and s2s-translate, covering English, French, German, Spanish, and Portuguese across 20 language pairs. The models collapse the standard three-model cascade into two, pairing single-pass transcription-and-translation with a Grad...\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/06/24/gradium-launches-stt-translate-and-s2s-translate-real-time-speech-translation-models-beating-gpt-realtime-translate-on-accuracy-and-latency/",
+          "threads": "Gradium's stt-translate and s2s-translate models now outperform gpt-realtime-translate in real-time speech translation. They cover 20 language pairs and simplify the translation pipeline. https://www.marktechpost.com/2026/06/24/gradium-launches-stt-translate-and-s2s-translate-real-time-speech-translation-models-beating-gpt-realtime-translate-on-accuracy-and-latency/",
+          "twitter": "Gradium's new stt-translate and s2s-translate models outperform gpt-realtime-translate in accuracy and latency. https://www.marktechpost.com/2026/06/24/gradium-launches-stt-translate-and-s2s-translate-real-time-speech-translation-models-beating-gpt-realtime-translate-on-accuracy-and-latency/"
         }
       }
     },
@@ -1607,6 +1591,46 @@
         "social_posts": {}
       }
     },
+    "fa775e2521ccbdb8e40f37ecb0b5c95934518d5a12dd1137d7b2c5611b970aa8": {
+      "created_at": "2026-06-24T20:13:00Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 3.0,
+            "index": 4,
+            "novelty_score": 2.5,
+            "reason": "Insightful interview with Chinese AI researchers on the AI arms race, offering unique perspectives on global AI safety concerns.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "I Met With China\u2019s Top AI Experts. They\u2019re Freaking Out, Too",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 5,
+            "novelty_score": 1.5,
+            "reason": "Discussion on the future of physical game copies, relevant but not directly related to software engineering or AI research.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "GTA VI is a worrying sign for the future of physical games",
+            "total_score": 6.0
+          }
+        ],
+        "best_index": 4,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "China's top AI researchers are expressing serious concerns about the AI arms race, comparing it to a potential 'Chernobyl moment'. The interview offers a unique perspective on the global AI safety landscape. Link: https://www.wired.com/story/ai-arms-race-china-us-cooperation/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *I Met With China\u2019s Top AI Experts. They\u2019re Freaking Out, Too*\n\nChina's top AI researchers are expressing serious concerns about the AI arms race, warning of a potential 'Chernobyl moment'. The interview offers a unique perspective on the global AI safety landscape.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.wired.com/story/ai-arms-race-china-us-cooperation/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "China's top AI researchers are sounding the alarm on the AI arms race, warning of a potential 'Chernobyl moment'. The interview offers a unique perspective on the global AI safety landscape. https://www.wired.com/story/ai-arms-race-china-us-cooperation/",
+          "twitter": "China's top AI researchers are sounding the alarm on the AI arms race, warning of a potential 'Chernobyl moment'.\nhttps://www.wired.com/story/ai-arms-race-china-us-cooperation/"
+        }
+      }
+    },
     "fe83457493d4137aacf453d03bad893510e120c723840958d0bd302d1b7117cf": {
       "created_at": "2026-06-24T16:19:05Z",
       "payload": {
@@ -1692,6 +1716,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Automating Skill Creation\nNous Research has added a /learn command to the Hermes Agent Skills System, allowing for automated skill creation from various sources.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #Automation #NousResearch\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Nous Research has introduced a new /learn command for Hermes Agent, enabling automated skill creation from local directories, doc URLs, past conversations, or pasted notes @NousResearch #AI",
         "twitter": "Nous Research automates skill creation with new /learn command for Hermes Agent, simplifying workflow capture @NousResearch #AI"
+      }
+    },
+    "3d56c1a05c5692c49fc340b1ca4af2b34903e2d12cd94df6170dc258fa834ad9": {
+      "created_at": "2026-06-24T20:13:00Z",
+      "payload": {
+        "facebook": "The field of real-time speech translation has seen significant advancements with the launch of Gradium's stt-translate and s2s-translate models. These models have been shown to outperform existing solutions like gpt-realtime-translate in terms of accuracy and latency, covering a wide range of languages. This development has the potential to greatly improve communication across language barriers #SpeechTranslation #AI",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Real-time speech translation advancements\nGradium has launched stt-translate and s2s-translate, two models that outperform gpt-realtime-translate in accuracy and latency, supporting 20 language pairs across English, French, German, Spanish, and Portuguese.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9/10\n#SpeechTranslation #AI #RealTimeTranslation\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Gradium's new stt-translate and s2s-translate models are changing the game for real-time speech translation, offering better accuracy and lower latency than gpt-realtime-translate @GradiumAI #SpeechTranslation",
+        "twitter": "Real-time speech translation just got a boost with Gradium's stt-translate and s2s-translate models, outperforming gpt-realtime-translate in accuracy and latency @GradiumAI #SpeechTranslation"
       }
     },
     "504e762af013f7a2dc7a19312ff568aee7316ff348c33c32cd0f1438a5a82a0c": {
@@ -2746,6 +2779,12 @@
       "status": "scoring_attempted",
       "title": "Agility Robotics plans to go public via SPAC in a $2.5B deal"
     },
+    "https://techcrunch.com/2026/06/24/companies-are-scrambling-to-stop-employees-from-maxing-out-ai-budgets-with-small-tasks": {
+      "canonical_url": "https://techcrunch.com/2026/06/24/companies-are-scrambling-to-stop-employees-from-maxing-out-ai-budgets-with-small-tasks",
+      "created_at": "2026-06-24T20:13:00Z",
+      "status": "scoring_attempted",
+      "title": "Companies are scrambling to stop employees from maxing out AI budgets with small tasks"
+    },
     "https://techcrunch.com/2026/06/24/facebook-rolls-out-an-ai-companion-app-for-creators": {
       "canonical_url": "https://techcrunch.com/2026/06/24/facebook-rolls-out-an-ai-companion-app-for-creators",
       "created_at": "2026-06-24T18:14:56Z",
@@ -2901,6 +2940,12 @@
       "created_at": "2026-06-24T12:31:02Z",
       "status": "scoring_attempted",
       "title": "Europeans should learn to love the air-conditioner"
+    },
+    "https://www.economist.com/science-and-technology/2026/06/24/why-big-ai-labs-are-hiring-so-many-philosophers": {
+      "canonical_url": "https://www.economist.com/science-and-technology/2026/06/24/why-big-ai-labs-are-hiring-so-many-philosophers",
+      "created_at": "2026-06-24T20:13:00Z",
+      "status": "scoring_attempted",
+      "title": "Big AI labs are hiring philosophers"
     },
     "https://www.extremetech.com/computing/windows-11s-new-media-player-uses-35x-more-ram-charges-for-popular-video": {
       "canonical_url": "https://www.extremetech.com/computing/windows-11s-new-media-player-uses-35x-more-ram-charges-for-popular-video",
@@ -3081,6 +3126,12 @@
       "created_at": "2026-06-24T08:03:53Z",
       "status": "scoring_attempted",
       "title": "DFlash Speculative Decoding Drafts Whole Token Blocks in Parallel for Up to 15x Higher Throughput on NVIDIA Blackwell"
+    },
+    "https://www.marktechpost.com/2026/06/24/gradium-launches-stt-translate-and-s2s-translate-real-time-speech-translation-models-beating-gpt-realtime-translate-on-accuracy-and-latency": {
+      "canonical_url": "https://www.marktechpost.com/2026/06/24/gradium-launches-stt-translate-and-s2s-translate-real-time-speech-translation-models-beating-gpt-realtime-translate-on-accuracy-and-latency",
+      "created_at": "2026-06-24T20:13:00Z",
+      "status": "scoring_attempted",
+      "title": "Gradium Launches stt-translate and s2s-translate, Real-Time Speech Translation Models Beating gpt-realtime-translate on Accuracy and Latency"
     },
     "https://www.marktechpost.com/2026/06/24/nous-research-adds-learn-to-hermes-agents-skills-system-capturing-workflows-as-slash-commands-without-hand-writing-skill-md": {
       "canonical_url": "https://www.marktechpost.com/2026/06/24/nous-research-adds-learn-to-hermes-agents-skills-system-capturing-workflows-as-slash-commands-without-hand-writing-skill-md",
@@ -3334,6 +3385,12 @@
       "status": "scoring_attempted",
       "title": "Riot now lets you enable its anti-cheat when you want to"
     },
+    "https://www.theverge.com/games/956389/grand-theft-auto-6-gta-digital-code-in-box-physical-games": {
+      "canonical_url": "https://www.theverge.com/games/956389/grand-theft-auto-6-gta-digital-code-in-box-physical-games",
+      "created_at": "2026-06-24T20:13:00Z",
+      "status": "scoring_attempted",
+      "title": "GTA VI is a worrying sign for the future of physical games"
+    },
     "https://www.theverge.com/news/837022/valve-steam-machine-price-release-date": {
       "canonical_url": "https://www.theverge.com/news/837022/valve-steam-machine-price-release-date",
       "created_at": "2026-06-22T17:19:35Z",
@@ -3369,6 +3426,12 @@
       "created_at": "2026-06-24T18:14:56Z",
       "status": "scoring_attempted",
       "title": "Google&#8217;s new rules for the app store will allow alternative billing next week"
+    },
+    "https://www.theverge.com/policy/956394/florida-anna-paulina-luna-anthropic-claude": {
+      "canonical_url": "https://www.theverge.com/policy/956394/florida-anna-paulina-luna-anthropic-claude",
+      "created_at": "2026-06-24T20:13:00Z",
+      "status": "scoring_attempted",
+      "title": "Congresswoman denies staff used AI to write defense funding amendment"
     },
     "https://www.theverge.com/report/953116/experimental-musician-youtuber-hainbach-interview": {
       "canonical_url": "https://www.theverge.com/report/953116/experimental-musician-youtuber-hainbach-interview",
@@ -3442,11 +3505,23 @@
       "status": "scoring_attempted",
       "title": "Zoox&#8217;s purpose-built robotaxi is getting a refresh"
     },
+    "https://www.thomann.de/blog/en/inside/thomann-takes-legal-action-against-fender": {
+      "canonical_url": "https://www.thomann.de/blog/en/inside/thomann-takes-legal-action-against-fender",
+      "created_at": "2026-06-24T20:13:00Z",
+      "status": "scoring_attempted",
+      "title": "Thomann takes legal action against Fender"
+    },
     "https://www.wired.com/story/28-tips-to-take-your-chatgpt-prompts-to-the-next-level": {
       "canonical_url": "https://www.wired.com/story/28-tips-to-take-your-chatgpt-prompts-to-the-next-level",
       "created_at": "2026-06-21T12:00:25Z",
       "status": "scoring_cache_hit",
       "title": "28 Tips to Take Your ChatGPT Prompts to the Next Level"
+    },
+    "https://www.wired.com/story/ai-arms-race-china-us-cooperation": {
+      "canonical_url": "https://www.wired.com/story/ai-arms-race-china-us-cooperation",
+      "created_at": "2026-06-24T20:13:00Z",
+      "status": "scoring_attempted",
+      "title": "I Met With China\u2019s Top AI Experts. They\u2019re Freaking Out, Too"
     },
     "https://www.wired.com/story/data-center-buildout-electricians-selling-out": {
       "canonical_url": "https://www.wired.com/story/data-center-buildout-electricians-selling-out",
