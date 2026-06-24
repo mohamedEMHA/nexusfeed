@@ -1,64 +1,5 @@
 {
   "cerebras_scoring": {
-    "08a9cd12ed72687d90eb5de93a78ad22ffec22081d5d92185de86bf51275e149": {
-      "created_at": "2026-06-23T20:28:19Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 4,
-            "novelty_score": 1.5,
-            "reason": "Red flag for 'best' in title.",
-            "red_flag": true,
-            "red_flag_reason": "contains 'best'",
-            "source_score": 1.5,
-            "title": "Prime Day has served up several great deals on 4K TVs",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 5,
-            "novelty_score": 2.5,
-            "reason": "High impact and novelty, but not directly relevant to software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Tesla claims driver \u2018manually overrode self-driving\u2019 in deadly Texas crash",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 6,
-            "novelty_score": 1.5,
-            "reason": "Red flag for 'best' in title.",
-            "red_flag": true,
-            "red_flag_reason": "contains 'best'",
-            "source_score": 1.5,
-            "title": "Eufy\u2019s Omni C28 is one of the best Prime Day deals on robot vacuums",
-            "total_score": 6.0
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.5,
-            "index": 7,
-            "novelty_score": 0.5,
-            "reason": "Low novelty and impact, not relevant to software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Cheap stuff that doesn\u2019t suck and is under $25 for Prime Day",
-            "total_score": 4.0
-          }
-        ],
-        "best_index": 5,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "153f1c6e95a8e762fe6bbaf7bd00e9aec706f84dd75050fab66a1a0922a23698": {
       "created_at": "2026-06-24T15:21:58Z",
       "payload": {
@@ -262,70 +203,6 @@
         "social_posts": {}
       }
     },
-    "34308a630919ab3ca17eeb8dc7d53a02de7a58bb2aca1725c0bfac8c70008153": {
-      "created_at": "2026-06-23T20:28:19Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 2.0,
-            "reason": "Industry move with moderate impact and freshness.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Oracle\u2019s 21,000 layoffs help drive its debt-fueled AI investments",
-            "total_score": 6.0
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 0.5,
-            "index": 1,
-            "novelty_score": 1.5,
-            "reason": "Consumer tech deal with limited impact on software engineers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Xteink\u2019s tiny e-readers are 20 percent off for Prime Day",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.0,
-            "index": 2,
-            "novelty_score": 1.5,
-            "reason": "Policy update with niche impact and low source tier.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Anthropic updates their terms to verify age or identity",
-            "total_score": 5.0
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 3,
-            "novelty_score": 3.0,
-            "reason": "New open-weights vision model with significant impact and freshness.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Datalab Releases lift: A 9B Open-Weights Vision Model That Extracts Structured JSON From PDFs Using Schemas",
-            "total_score": 9.0
-          }
-        ],
-        "best_index": 3,
-        "best_score": 9.0,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Datalab has released lift, a 9B open-weights vision model that turns PDFs and images into schema-matching JSON. It uses schema-constrained decoding for valid structure and trained abstention to return null instead of hallucinating absent fields, scoring 90.2% field accuracy on a 225-document benchmark. This is a significant development for anyone working with document processing and structured data extraction. Link: https://www.marktechpost.com/2026/06/23/datalab-releases-lift-a-9b-open-weights-vision-model-that-extracts-structured-json-from-pdfs-using-schemas/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Datalab Releases lift: A 9B Open-Weights Vision Model That Extracts Structured JSON From PDFs Using Schemas*\n\nDatalab released lift, a 9B open-weights vision model that turns PDFs and images into schema-matching JSON. It uses schema-constrained decoding for valid structure and trained abstention to return null instead of hallucinating absent fields, scoring 90.2% field accuracy on a 225-document benchmark.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/06/23/datalab-releases-lift-a-9b-open-weights-vision-model-that-extracts-structured-json-from-pdfs-using-schemas/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Datalab's new lift model extracts structured JSON from PDFs with 90.2% accuracy. It's a 9B open-weights vision model designed for document processing. https://www.marktechpost.com/2026/06/23/datalab-releases-lift-a-9b-open-weights-vision-model-that-extracts-structured-json-from-pdfs-using-schemas/",
-          "twitter": "Datalab's new 9B open-weights vision model extracts structured JSON from PDFs with 90.2% field accuracy. https://www.marktechpost.com/2026/06/23/datalab-releases-lift-a-9b-open-weights-vision-model-that-extracts-structured-json-from-pdfs-using-schemas/"
-        }
-      }
-    },
     "42936d1e61a7f4972277b9ae10c58f50da5f6fbf16b038db2ce3594e4762dd59": {
       "created_at": "2026-06-23T23:06:09Z",
       "payload": {
@@ -467,6 +344,46 @@
         "social_posts": {}
       }
     },
+    "5020185e9f0659ac0bc39c4bb9b319c6e8c5dc3fc558e24ff2ebbb8fcf5d625f": {
+      "created_at": "2026-06-24T21:47:20Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 4,
+            "novelty_score": 2.0,
+            "reason": "Industry move with moderate impact and high freshness.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "A24 Knows You\u2019re Mad About the Google AI Collab",
+            "total_score": 6.0
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 5,
+            "novelty_score": 2.5,
+            "reason": "Research critique with high impact and freshness.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "A new paper argues Microsoft exaggerated its quantum claims a year ago",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 5,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "A new paper published in Nature argues that Microsoft may have exaggerated its quantum computing claims from a year ago. The critique calls into question the technology behind the Majorana 1 chip, which Microsoft had touted as a breakthrough. This development could have significant implications for the field of quantum computing.\nLink: https://www.theverge.com/tech/956450/nature-microsoft-quantum-computing-majorana-1-claims",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *A new paper argues Microsoft exaggerated its quantum claims a year ago*\n\nA critique published in Nature calls into question the basic technology behind Microsoft's \"breakthrough\" quantum computing chip, the Majorana 1.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/tech/956450/nature-microsoft-quantum-computing-majorana-1-claims\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Nature just published a paper questioning Microsoft's quantum computing claims from last year. The critique targets the Majorana 1 chip, which Microsoft had presented as a breakthrough with topological qubits.\nhttps://www.theverge.com/tech/956450/nature-microsoft-quantum-computing-majorana-1-claims",
+          "twitter": "A new paper in Nature challenges Microsoft's quantum computing claims from last year, questioning the validity of its Majorana 1 chip breakthrough.\nhttps://www.theverge.com/tech/956450/nature-microsoft-quantum-computing-majorana-1-claims"
+        }
+      }
+    },
     "587d2b97774d10145bcb0379a11d887389e6c3641487684abc967d75c35e1bb7": {
       "created_at": "2026-06-23T21:58:48Z",
       "payload": {
@@ -488,6 +405,46 @@
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "58cafa6774ea2eadc33358e62cbabe4f5d8762dda1baed38f15fef7aa723137e": {
+      "created_at": "2026-06-24T21:47:20Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 1.5,
+            "reason": "New product announcement but limited impact beyond specific hardware niche.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Microsoft introduces cheaper Surface devices with half the memory",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "Significant financial results with broad industry implications.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "The memory chip crunch is paying off for this U.S. company",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 3,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "A major U.S. memory chip company just reported staggering growth, with revenue jumping to $41.45 billion and profits hitting $28.2 billion year-over-year. This is a clear sign of how the global chip shortage is reshaping the industry. Link: https://techcrunch.com/2026/06/24/the-memory-chip-crunch-is-paying-off-for-this-u-s-company/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *The memory chip crunch is paying off for this U.S. company*\n\nA U.S. memory chip company reported revenue quadrupling to $41.45 billion and profits rising to $28.2 billion year-over-year.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/06/24/the-memory-chip-crunch-is-paying-off-for-this-u-s-company/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "A U.S. memory chip company just quadrupled revenue to $41.45 billion in a year, with profits soaring to $28.2 billion. This is a massive shift in the semiconductor landscape. https://techcrunch.com/2026/06/24/the-memory-chip-crunch-is-paying-off-for-this-u-s-company/",
+          "twitter": "A U.S. memory chip company just quadrupled revenue to $41.45 billion in a year, with profits soaring to $28.2 billion. https://techcrunch.com/2026/06/24/the-memory-chip-crunch-is-paying-off-for-this-u-s-company/"
+        }
       }
     },
     "633412138d81de2ea14ebf95522de838b5fba212c412d9efdbc07f78b685b182": {
@@ -647,6 +604,29 @@
         "social_posts": {}
       }
     },
+    "73487ae1ecf30fc8eadad5cf0185e8a6af2ac0c3954d74476f9a1a47a16d10c9": {
+      "created_at": "2026-06-24T21:47:20Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 7,
+            "novelty_score": 2.5,
+            "reason": "Discussion on Rust package management infrastructure.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "GitHub shouldn't be a dependency for publishing Rust on crates.io",
+            "total_score": 5.5
+          }
+        ],
+        "best_index": 7,
+        "best_score": 5.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "7753b5f4dbcc8d2a9cf85dfb8f4fb6c511a94507c59c8af061e71b5418bd00f5": {
       "created_at": "2026-06-24T20:13:00Z",
       "payload": {
@@ -730,65 +710,6 @@
         ],
         "best_index": 3,
         "best_score": 8,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "84a9190c8bb6ed48fe29e8c27068fedca7f1bd5d142e05d935edb0cf851be110": {
-      "created_at": "2026-06-23T20:28:19Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 8,
-            "novelty_score": 2.5,
-            "reason": "Important study on AI bias in hiring tools, but source tier is low.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "AI Hiring Tools Yield Racial Bias and Systemic Rejection; 26% Black & 15% Asian",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 0,
-            "index": 9,
-            "novelty_score": 0,
-            "reason": "Personal opinion piece on consumer electronics deals.",
-            "red_flag": true,
-            "red_flag_reason": "Not relevant to software engineers or AI researchers",
-            "source_score": 1.5,
-            "title": "These are my favorite Prime Day deals on earbuds and headphones",
-            "total_score": 3.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 10,
-            "novelty_score": 3,
-            "reason": "New model release, but niche impact and low-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "FUTO Swipe \u2013 A new swipe typing model",
-            "total_score": 6.0
-          },
-          {
-            "freshness_score": 1,
-            "impact_score": 2,
-            "index": 12,
-            "novelty_score": 2.5,
-            "reason": "Interesting industry move, but not groundbreaking.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Omio scales travel product development using OpenAI models",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 8,
-        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1191,55 +1112,43 @@
         "social_posts": {}
       }
     },
-    "c682445d9419db1b12135812ecc6305844f3a1d1feab528033093c77fcbd0fdb": {
-      "created_at": "2026-06-23T20:28:19Z",
+    "c2ad5a0fd45470514e22310e2ab6e48a0c66700ec175376277d96967867b2a61": {
+      "created_at": "2026-06-24T21:47:20Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 1,
-            "impact_score": 1.5,
-            "index": 13,
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 0,
             "novelty_score": 2.5,
-            "reason": "Interesting tool but niche impact and lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Show HN: The Cascade Graph \u2013 An interactive map of AI and energy constraints",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 3,
-            "index": 19,
-            "novelty_score": 2.5,
-            "reason": "OpenAI's initiative on AI standards is highly impactful and timely.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 2,
-            "title": "Helping build shared standards for advanced AI",
-            "total_score": 9
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.5,
-            "index": 20,
-            "novelty_score": 1.5,
-            "reason": "Consumer tech with limited relevance to software engineers.",
+            "reason": "Significant industry move with top researchers switching teams, impacting AI research landscape.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 1.5,
-            "title": "Kiwibit\u2019s AI-powered bird feeder is my new backyard buddy",
-            "total_score": 4.5
+            "title": "AI researchers continue to leave Google for its rivals",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 0,
+            "index": 1,
+            "novelty_score": 0,
+            "reason": "Not relevant to software engineers or AI researchers.",
+            "red_flag": true,
+            "red_flag_reason": "Not relevant to software engineers or AI researchers",
+            "source_score": 1.5,
+            "title": "Charlie Kirk\u2019s legacy is a 30-year sentence for moving zines",
+            "total_score": 3.5
           }
         ],
-        "best_index": 19,
-        "best_score": 9.0,
+        "best_index": 0,
+        "best_score": 8.5,
         "recommendation": "POST_NOW",
         "social_posts": {
-          "facebook": "OpenAI is taking a leadership role in developing shared standards for advanced AI. This initiative includes creating evaluation frameworks, safety practices, and promoting global cooperation through the Appia Foundation. It's a significant step toward ensuring AI's responsible development. Link: https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Helping build shared standards for advanced AI*\n\nOpenAI is spearheading a global effort to establish shared standards for advanced AI, focusing on evaluation frameworks and safety practices.\n\n\ud83c\udfdb\ufe0f Source: OpenAI (S)\n\u23f0 Published: 7 hours ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://openai.com/index/helping-build-shared-standards-for-advanced-ai\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "OpenAI is building shared standards for advanced AI, focusing on evaluation frameworks and safety practices. This global effort aims to ensure responsible AI development. https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
-          "twitter": "OpenAI is spearheading a global effort to establish shared standards for advanced AI, focusing on evaluation frameworks and safety practices. https://openai.com/index/helping-build-shared-standards-for-advanced-ai"
+          "facebook": "Jonas Adler and Alexander Pritzel, two prominent AI researchers, are leaving Google to join Anthropic. This follows other notable departures like Noam Shazeer and John Jumper. The exodus highlights shifting dynamics in the AI research landscape.\nLink: https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *AI researchers continue to leave Google for its rivals*\n\nTop AI researchers Jonas Adler and Alexander Pritzel are leaving Google for Anthropic, following departures from Noam Shazeer and John Jumper.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Two more top AI researchers, Jonas Adler and Alexander Pritzel, are leaving Google for Anthropic. This continues a trend of key departures from Google's AI team.\nhttps://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/",
+          "twitter": "Top AI researchers Jonas Adler and Alexander Pritzel are leaving Google for Anthropic, following other high-profile departures.\nhttps://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/"
         }
       }
     },
@@ -1743,6 +1652,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 AI cyber threats are coming for everyone\nThe Five Eyes nations are warning of potential impacts within months, making this a pressing concern for everyone, not just corporate data centers.\n\ud83c\udfdb\ufe0f Source: AI News (B)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n#AIcyberthreats #cybersecurity #intelligence\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "The Five Eyes nations are warning that AI cyber threats will impact us all within months, making this a pressing concern for everyone @cybersecurity #AIcyberthreats",
         "twitter": "AI cyber threats are no longer a distant problem, warns the Five Eyes nations, with impacts expected within months @cybersecurity #AIcyberthreats #cybersecurity"
+      }
+    },
+    "63e6d4fcaf6d4005ba20ebd39fd49481ab8f00fabdcbd819f3d882da6c30c083": {
+      "created_at": "2026-06-24T21:47:20Z",
+      "payload": {
+        "facebook": "The AI research landscape is shifting as top scientists continue to depart from Google, with Jonas Adler and Alexander Pritzel joining Anthropic. This move follows similar departures from Noam Shazeer and John Jumper, indicating a significant industry shift. #AIresearch #Google #Anthropic",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 AI Research Exodus\nTop researchers Jonas Adler and Alexander Pritzel are leaving Google for Anthropic, following similar departures from Noam Shazeer and John Jumper.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AIresearch #Google #Anthropic\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Jonas Adler and Alexander Pritzel, renowned AI researchers, are leaving Google for Anthropic, marking a notable change in the AI research landscape @TechCrunch #AI",
+        "twitter": "Top AI researchers Jonas Adler and Alexander Pritzel are leaving Google for Anthropic, a significant move @TechCrunch #AIresearch"
       }
     },
     "66f01e6f5f0511d4ace3e625d3110eed6016c0c201a7f27f0e592c6c6b713e63": {
@@ -2479,6 +2397,12 @@
       "status": "scoring_attempted",
       "title": "Minimus container images are now free"
     },
+    "https://infosec.exchange/@mttaggart/116806641273303255": {
+      "canonical_url": "https://infosec.exchange/@mttaggart/116806641273303255",
+      "created_at": "2026-06-24T21:47:20Z",
+      "status": "scoring_attempted",
+      "title": "GitHub shouldn't be a dependency for publishing Rust on crates.io"
+    },
     "https://jobs.ashbyhq.com/charge-robotics": {
       "canonical_url": "https://jobs.ashbyhq.com/charge-robotics",
       "created_at": "2026-06-22T17:19:35Z",
@@ -2779,6 +2703,12 @@
       "status": "scoring_attempted",
       "title": "Agility Robotics plans to go public via SPAC in a $2.5B deal"
     },
+    "https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals": {
+      "canonical_url": "https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals",
+      "created_at": "2026-06-24T21:47:20Z",
+      "status": "scoring_attempted",
+      "title": "AI researchers continue to leave Google for its rivals"
+    },
     "https://techcrunch.com/2026/06/24/companies-are-scrambling-to-stop-employees-from-maxing-out-ai-budgets-with-small-tasks": {
       "canonical_url": "https://techcrunch.com/2026/06/24/companies-are-scrambling-to-stop-employees-from-maxing-out-ai-budgets-with-small-tasks",
       "created_at": "2026-06-24T20:13:00Z",
@@ -2802,6 +2732,12 @@
       "created_at": "2026-06-24T15:21:58Z",
       "status": "scoring_attempted",
       "title": "OpenAI unveils its first custom chip, built by Broadcom"
+    },
+    "https://techcrunch.com/2026/06/24/the-memory-chip-crunch-is-paying-off-for-this-u-s-company": {
+      "canonical_url": "https://techcrunch.com/2026/06/24/the-memory-chip-crunch-is-paying-off-for-this-u-s-company",
+      "created_at": "2026-06-24T21:47:20Z",
+      "status": "scoring_attempted",
+      "title": "The memory chip crunch is paying off for this U.S. company"
     },
     "https://techstrong.ai/articles/for-most-of-the-world-open-source-ai-is-the-only-way-forward": {
       "canonical_url": "https://techstrong.ai/articles/for-most-of-the-world-open-source-ai-is-the-only-way-forward",
@@ -3433,6 +3369,12 @@
       "status": "scoring_attempted",
       "title": "Congresswoman denies staff used AI to write defense funding amendment"
     },
+    "https://www.theverge.com/policy/956404/prairieland-sentencing-zines-trump-antifa": {
+      "canonical_url": "https://www.theverge.com/policy/956404/prairieland-sentencing-zines-trump-antifa",
+      "created_at": "2026-06-24T21:47:20Z",
+      "status": "scoring_attempted",
+      "title": "Charlie Kirk&#8217;s legacy is a 30-year sentence for moving zines"
+    },
     "https://www.theverge.com/report/953116/experimental-musician-youtuber-hainbach-interview": {
       "canonical_url": "https://www.theverge.com/report/953116/experimental-musician-youtuber-hainbach-interview",
       "created_at": "2026-06-20T15:23:58Z",
@@ -3487,6 +3429,18 @@
       "status": "scoring_attempted",
       "title": "Figma now has AI motion graphics and shader tools"
     },
+    "https://www.theverge.com/tech/956450/nature-microsoft-quantum-computing-majorana-1-claims": {
+      "canonical_url": "https://www.theverge.com/tech/956450/nature-microsoft-quantum-computing-majorana-1-claims",
+      "created_at": "2026-06-24T21:47:20Z",
+      "status": "scoring_attempted",
+      "title": "A new paper argues Microsoft exaggerated its quantum claims a year ago"
+    },
+    "https://www.theverge.com/tech/956504/microsoft-surface-pro-laptop-ram": {
+      "canonical_url": "https://www.theverge.com/tech/956504/microsoft-surface-pro-laptop-ram",
+      "created_at": "2026-06-24T21:47:20Z",
+      "status": "scoring_attempted",
+      "title": "Microsoft introduces cheaper Surface devices with half the memory"
+    },
     "https://www.theverge.com/transportation/954291/amflows-tl-e-bike-is-ready-for-babys-first-mountain-adventure": {
       "canonical_url": "https://www.theverge.com/transportation/954291/amflows-tl-e-bike-is-ready-for-babys-first-mountain-adventure",
       "created_at": "2026-06-23T09:33:05Z",
@@ -3516,6 +3470,12 @@
       "created_at": "2026-06-21T12:00:25Z",
       "status": "scoring_cache_hit",
       "title": "28 Tips to Take Your ChatGPT Prompts to the Next Level"
+    },
+    "https://www.wired.com/story/a24-knows-youre-mad-about-the-google-ai-collab": {
+      "canonical_url": "https://www.wired.com/story/a24-knows-youre-mad-about-the-google-ai-collab",
+      "created_at": "2026-06-24T21:47:20Z",
+      "status": "scoring_attempted",
+      "title": "A24 Knows You\u2019re Mad About the Google AI Collab"
     },
     "https://www.wired.com/story/ai-arms-race-china-us-cooperation": {
       "canonical_url": "https://www.wired.com/story/ai-arms-race-china-us-cooperation",
