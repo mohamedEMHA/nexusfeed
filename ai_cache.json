@@ -162,53 +162,6 @@
         }
       }
     },
-    "169bf4d6f2969271d36551fdbbc6f0defe85a2acfae2635afcf565fba6c2c429": {
-      "created_at": "2026-06-23T16:08:40Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 1,
-            "novelty_score": 0.5,
-            "reason": "Opinion piece on affordability from a niche source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "AI's Affordability Crisis",
-            "total_score": 4.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 2,
-            "novelty_score": 2.0,
-            "reason": "Review of Fitbit Air's AI health features with moderate impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "The Fitbit Air takes a smarter approach to the AI health dumpster fire",
-            "total_score": 7.0
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 3,
-            "novelty_score": 1.5,
-            "reason": "Incident report with moderate impact from a niche source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Elevated error rate across multiple models",
-            "total_score": 6.0
-          }
-        ],
-        "best_index": 2,
-        "best_score": 7.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "16edacfc24ab6add64ddfc979e794ee68952e9a4ecc89e4e20b348c48021ab59": {
       "created_at": "2026-06-23T21:58:48Z",
       "payload": {
@@ -267,37 +220,60 @@
         "social_posts": {}
       }
     },
-    "2b484b301c0b9f9c8219af56b12596f1e8f73cc395a000a738e2e7a06e6fd4cb": {
-      "created_at": "2026-06-23T16:08:40Z",
+    "195ab7d99543884b2960fa64388e67e2d61ab8490a2460014bafa69d3b15e2c3": {
+      "created_at": "2026-06-24T16:19:05Z",
       "payload": {
         "articles": [
           {
             "freshness_score": 1.5,
-            "impact_score": 0.0,
-            "index": 4,
-            "novelty_score": 0.0,
-            "reason": "Promotional content with no technical relevance.",
-            "red_flag": true,
-            "red_flag_reason": "promotional content",
-            "source_score": 1.5,
-            "title": "4 days left to save up to $190 on TechCrunch Founder Summit 2026",
-            "total_score": 3.0
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.0,
-            "index": 5,
-            "novelty_score": 0.0,
-            "reason": "Promotional content with no technical relevance.",
-            "red_flag": true,
-            "red_flag_reason": "promotional content",
-            "source_score": 1.5,
-            "title": "Hoto\u2019s 25-bit electric screwdriver is 40 percent off during Prime Day",
-            "total_score": 3.0
+            "impact_score": 1.5,
+            "index": 16,
+            "novelty_score": 0.2,
+            "reason": "Comments section discussion lacks depth for technical audience.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "PR spam today looks like email spam in the early 2000s",
+            "total_score": 3.7
           }
         ],
-        "best_index": 4,
-        "best_score": 3.0,
+        "best_index": 16,
+        "best_score": 3.7,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "1cf60523fa9661e5257a77c2f8fe47a8e4fa3f050bd98aea6972b5fa271dbc88": {
+      "created_at": "2026-06-24T16:19:05Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 0.5,
+            "index": 6,
+            "novelty_score": 0.2,
+            "reason": "This is a product review, not relevant to software engineers or AI researchers.",
+            "red_flag": true,
+            "red_flag_reason": "tutorial",
+            "source_score": 1.5,
+            "title": "The SwitchBot battery-powered fan we love is $90 for Prime Day",
+            "total_score": 4.2
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 7,
+            "novelty_score": 2.5,
+            "reason": "This article discusses a significant claim about Microsoft's quantum research, which is highly relevant to AI researchers and software engineers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Boffin claims Microsoft's \"quantum leap\" is invalid due to \"basic Python errors\"",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 7,
+        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -664,6 +640,46 @@
         "social_posts": {}
       }
     },
+    "886f7faf88ef1b7f942a6ecb4b2e642d072b88a27226656ba7a1cc729405d1ca": {
+      "created_at": "2026-06-24T16:19:05Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Figma's AI-powered design and coding tools represent a significant update for creatives and developers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Figma now has AI motion graphics and shader tools",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 0.5,
+            "index": 2,
+            "novelty_score": 0.2,
+            "reason": "A consumer gadget deal with limited relevance to software engineers and AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "The solar-powered Birdbuddy Pro is on sale for $168, the lowest price yet",
+            "total_score": 4.2
+          }
+        ],
+        "best_index": 0,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Figma's latest updates at Config 2026 introduce AI-powered motion graphics and shader tools, along with a reimagined canvas optimized for full-stack development. This could significantly streamline workflows for designers and developers. Link: https://www.theverge.com/tech/955831/figma-code-design-tools-config-2026-announcements",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Figma now has AI motion graphics and shader tools*\n\nFigma has unveiled AI-powered motion graphics and shader tools at its annual Config conference, along with a reimagined canvas optimized for full-stack development.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/tech/955831/figma-code-design-tools-config-2026-announcements\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Figma's Config 2026 announcements include AI motion graphics and shader tools, plus a full-stack optimized canvas. Big step for design and development workflows.\nhttps://www.theverge.com/tech/955831/figma-code-design-tools-config-2026-announcements",
+          "twitter": "Figma just unveiled AI-powered motion graphics and shader tools at Config 2026, reimagining its canvas for full-stack development.\nhttps://www.theverge.com/tech/955831/figma-code-design-tools-config-2026-announcements"
+        }
+      }
+    },
     "8e3b21ca27053e55422bc3fe108bcad92b8e7f6fd8928e0c26a192804a8f06fd": {
       "created_at": "2026-06-23T21:58:48Z",
       "payload": {
@@ -953,41 +969,6 @@
         "social_posts": {}
       }
     },
-    "a5ffdfd4d03a52de96db33223bb0819c25ab9e6b17fae4bc937c7a7ce4f977de": {
-      "created_at": "2026-06-23T16:08:40Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 9,
-            "novelty_score": 2.5,
-            "reason": "Interesting niche application of AI in hiring, but not groundbreaking.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Fika Jobs raises $4M to build a video-first hiring platform where AI agents interview candidates",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 1,
-            "impact_score": 1.5,
-            "index": 11,
-            "novelty_score": 2.5,
-            "reason": "Interesting analysis of AI in gaming, but from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "The Low-Tech AI of Elden Ring",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 9,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "a6467929eff470db5bd04972c6cb15b583e9f3afc009efb7c9d9c16618edac70": {
       "created_at": "2026-06-24T12:31:02Z",
       "payload": {
@@ -1083,46 +1064,6 @@
         "best_score": 6.0,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "bf88e46992913628fde46fa7386de87395ef1c4ee31ef9cd5ddc250c2261efd9": {
-      "created_at": "2026-06-23T16:08:40Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.5,
-            "index": 6,
-            "novelty_score": 1.5,
-            "reason": "The article is about a gadget deal, not relevant to software engineers or AI researchers.",
-            "red_flag": true,
-            "red_flag_reason": "The article is about a gadget deal, not relevant to software engineers or AI researchers.",
-            "source_score": 1.5,
-            "title": "The Oura Ring 4 is as low as $226 for Prime Day",
-            "total_score": 4.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 7,
-            "novelty_score": 3,
-            "reason": "Lucide's v1.0 release is a significant update for developers using open-source icon toolkits.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Lucide Releases Version 1.0, Removing Brand Icons and Cutting Bundle Size for Millions of Projects",
-            "total_score": 8
-          }
-        ],
-        "best_index": 7,
-        "best_score": 8,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Lucide has released version 1.0 of its open-source icon toolkit, removing trademarked brand icons and significantly reducing package size. This update affects millions of projects. Link: https://www.infoq.com/news/2026/06/lucide-v1-icons/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Lucide Releases Version 1.0, Removing Brand Icons and Cutting Bundle Size for Millions of Projects*\n\nLucide has released version 1.0 of its open-source icon toolkit, marking its first stable major release. The update features over 1,600 icons and removes trademarked brand icons due to legal and design concerns. Significant performance improvements have also been made, reducing package size and adding to the appeal for developers.\n\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (B)\n\u23f0 Published: 2 hours ago\n\u2b50 Score: 8.0/10\n\n\ud83d\udd17 https://www.infoq.com/news/2026/06/lucide-v1-icons/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Lucide v1.0 is out with 1,600+ icons, no brand logos, and smaller bundle sizes. Big news for devs using open-source icon toolkits. https://www.infoq.com/news/2026/06/lucide-v1-icons/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "twitter": "Lucide v1.0 drops brand icons and slashes bundle size, impacting millions of projects. https://www.infoq.com/news/2026/06/lucide-v1-icons/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
-        }
       }
     },
     "c0c17af21fc26d597b8328e8f90c9522cc521e075750bf447d1f513f76abfce3": {
@@ -1489,9 +1430,58 @@
         "recommendation": "SKIP",
         "social_posts": {}
       }
+    },
+    "fe83457493d4137aacf453d03bad893510e120c723840958d0bd302d1b7117cf": {
+      "created_at": "2026-06-24T16:19:05Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "NVIDIA NeMo AutoModel streamlines transformer fine-tuning, a significant update for AI practitioners.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 2,
+            "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
+            "total_score": 9
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 5,
+            "novelty_score": 0.5,
+            "reason": "Opinion piece on past mistakes lacks broad relevance to current software engineering practices.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "John Carmack on the mistakes around Quake that ruined id software",
+            "total_score": 4.5
+          }
+        ],
+        "best_index": 3,
+        "best_score": 9,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "NVIDIA has released NeMo AutoModel, a tool that automates the fine-tuning of transformer models. This is a significant development for anyone working with large language models, as it reduces the time and complexity involved in the fine-tuning process. The tool is now available on Hugging Face.\nLink: https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel*\n\nNVIDIA's NeMo AutoModel automates transformer fine-tuning, cutting time and complexity for AI practitioners.\n\n\ud83c\udfdb\ufe0f Source: HuggingFace (S)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9/10\n\n\ud83d\udd17 https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "NVIDIA's NeMo AutoModel automates transformer fine-tuning, cutting time and complexity for AI practitioners. Available now on Hugging Face.\nhttps://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
+          "twitter": "NVIDIA's NeMo AutoModel automates transformer fine-tuning, cutting time and complexity for AI practitioners.\nhttps://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel"
+        }
+      }
     }
   },
   "groq_social_posts": {
+    "03edac55be8bb54eb992d8bb4d7c43c723ebc41c98a50550f9c4dfc5ae987f31": {
+      "created_at": "2026-06-24T16:19:05Z",
+      "payload": {
+        "facebook": "The latest development in AI is the introduction of NVIDIA NeMo AutoModel, which accelerates the fine-tuning of transformers. This update is significant for AI practitioners and has the potential to improve model performance. #AI #NVIDIA #MachineLearning",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 NVIDIA NeMo AutoModel Accelerates Fine-Tuning\nNVIDIA NeMo AutoModel streamlines transformer fine-tuning, a significant update for AI practitioners.\n\ud83c\udfdb\ufe0f Source: HuggingFace (S)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n#AI #MachineLearning #NVIDIA\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "NVIDIA NeMo AutoModel is accelerating transformer fine-tuning, a significant update for AI practitioners @NVIDIA #AI",
+        "twitter": "NVIDIA NeMo AutoModel is streamlining transformer fine-tuning @NVIDIA #AI"
+      }
+    },
     "18f6fc9c973d52e250bc85e815e8249608c0f75655d8f176aec1dda27d82d31e": {
       "created_at": "2026-06-22T18:11:45Z",
       "payload": {
@@ -2256,6 +2246,12 @@
       "status": "scoring_attempted",
       "title": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness"
     },
+    "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel": {
+      "canonical_url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
+      "created_at": "2026-06-24T16:19:05Z",
+      "status": "scoring_attempted",
+      "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel"
+    },
     "https://hustvl.github.io/Moebius": {
       "canonical_url": "https://hustvl.github.io/Moebius",
       "created_at": "2026-06-22T17:19:35Z",
@@ -2568,6 +2564,12 @@
       "status": "scoring_attempted",
       "title": "OpenAI unveils its first custom chip, built by Broadcom"
     },
+    "https://twitter.com/ID_AA_Carmack/status/2069799283369345247": {
+      "canonical_url": "https://twitter.com/ID_AA_Carmack/status/2069799283369345247",
+      "created_at": "2026-06-24T16:19:05Z",
+      "status": "scoring_attempted",
+      "title": "John Carmack on the mistakes around Quake that ruined id software"
+    },
     "https://twitter.com/LarsAnders1620/status/2068208864747540516": {
       "canonical_url": "https://twitter.com/LarsAnders1620/status/2068208864747540516",
       "created_at": "2026-06-22T07:21:01Z",
@@ -2693,6 +2695,12 @@
       "created_at": "2026-06-22T18:11:45Z",
       "status": "scoring_attempted",
       "title": "Bain tests software takeover targets by vibecoding AI replicas"
+    },
+    "https://www.greptile.com/blog/prs-on-openclaw": {
+      "canonical_url": "https://www.greptile.com/blog/prs-on-openclaw",
+      "created_at": "2026-06-24T16:19:05Z",
+      "status": "scoring_attempted",
+      "title": "PR spam today looks like email spam in the early 2000s"
     },
     "https://www.infoq.com/articles/rdla-offline-first-reactive-android-data-layer": {
       "canonical_url": "https://www.infoq.com/articles/rdla-offline-first-reactive-android-data-layer",
@@ -2910,6 +2918,12 @@
       "status": "scoring_attempted",
       "title": "Good results fine tuning a local LLM like Qwen 3:0.6B to categorize questions"
     },
+    "https://www.theregister.com/research/2026/06/24/boffin-claims-microsofts-supposed-quantum-leap-does-not-compute-due-to-basic-python-errors/5260489": {
+      "canonical_url": "https://www.theregister.com/research/2026/06/24/boffin-claims-microsofts-supposed-quantum-leap-does-not-compute-due-to-basic-python-errors/5260489",
+      "created_at": "2026-06-24T16:19:05Z",
+      "status": "scoring_attempted",
+      "title": "Boffin claims Microsoft's \"quantum leap\" is invalid due to \"basic Python errors\""
+    },
     "https://www.theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data": {
       "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data",
       "created_at": "2026-06-20T20:09:52Z",
@@ -3030,6 +3044,12 @@
       "status": "scoring_attempted",
       "title": "RingConn&#8217;s Lord of the Rings promotion assumes smart ring wearers want to be like Gollum"
     },
+    "https://www.theverge.com/gadgets/953766/switchbot-circulating-fan-prime-day-deal-sale": {
+      "canonical_url": "https://www.theverge.com/gadgets/953766/switchbot-circulating-fan-prime-day-deal-sale",
+      "created_at": "2026-06-24T16:19:05Z",
+      "status": "scoring_attempted",
+      "title": "The SwitchBot battery-powered fan we love is $90 for Prime Day"
+    },
     "https://www.theverge.com/gadgets/953936/roborock-saros-20-amazon-deal-sale": {
       "canonical_url": "https://www.theverge.com/gadgets/953936/roborock-saros-20-amazon-deal-sale",
       "created_at": "2026-06-23T21:58:48Z",
@@ -3047,6 +3067,12 @@
       "created_at": "2026-06-23T20:28:19Z",
       "status": "scoring_attempted",
       "title": "Xteink\u2019s tiny e-readers are 20 percent off for Prime Day"
+    },
+    "https://www.theverge.com/gadgets/955351/birdbuddy-pro-solar-prime-day-deal-sale": {
+      "canonical_url": "https://www.theverge.com/gadgets/955351/birdbuddy-pro-solar-prime-day-deal-sale",
+      "created_at": "2026-06-24T16:19:05Z",
+      "status": "scoring_attempted",
+      "title": "The solar-powered Birdbuddy Pro is on sale for $168, the lowest price yet"
     },
     "https://www.theverge.com/games/952004/valve-steam-machine-price-not-subsidizing": {
       "canonical_url": "https://www.theverge.com/games/952004/valve-steam-machine-price-not-subsidizing",
@@ -3149,6 +3175,12 @@
       "created_at": "2026-06-23T16:08:40Z",
       "status": "scoring_attempted",
       "title": "The Fitbit Air takes a smarter approach to the AI health dumpster fire"
+    },
+    "https://www.theverge.com/tech/955831/figma-code-design-tools-config-2026-announcements": {
+      "canonical_url": "https://www.theverge.com/tech/955831/figma-code-design-tools-config-2026-announcements",
+      "created_at": "2026-06-24T16:19:05Z",
+      "status": "scoring_attempted",
+      "title": "Figma now has AI motion graphics and shader tools"
     },
     "https://www.theverge.com/transportation/954291/amflows-tl-e-bike-is-ready-for-babys-first-mountain-adventure": {
       "canonical_url": "https://www.theverge.com/transportation/954291/amflows-tl-e-bike-is-ready-for-babys-first-mountain-adventure",
