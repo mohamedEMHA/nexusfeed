@@ -168,41 +168,6 @@
         "social_posts": {}
       }
     },
-    "16981b62ade7d8ae2d7fbb74d6001963249e67a35bf56da13d886531d55054b6": {
-      "created_at": "2026-06-23T09:33:05Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 7,
-            "novelty_score": 2.5,
-            "reason": "Tutorial on a new HTTP method, but not impactful enough for the audience.",
-            "red_flag": true,
-            "red_flag_reason": "tutorial",
-            "source_score": 0.5,
-            "title": "The new HTTP QUERY method explained",
-            "total_score": 6.0
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 8,
-            "novelty_score": 2.5,
-            "reason": "Interesting take on team topologies for agentic platforms, but not novel enough.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Who Does What? Team Topologies for the Agentic Platform",
-            "total_score": 7.0
-          }
-        ],
-        "best_index": 8,
-        "best_score": 7.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "169bf4d6f2969271d36551fdbbc6f0defe85a2acfae2635afcf565fba6c2c429": {
       "created_at": "2026-06-23T16:08:40Z",
       "payload": {
@@ -269,6 +234,41 @@
         ],
         "best_index": 5,
         "best_score": 4.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "186075eb5b59de14dbbff8017dab32b87811d6f29633cc919d93a6b9bf44a94f": {
+      "created_at": "2026-06-24T10:18:59Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 2.0,
+            "reason": "Interesting historical insight but limited impact on software engineers and AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Bob Iger\u2019s Disney wanted Apple, Twitter, and 007",
+            "total_score": 6.0
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "Significant move by a major tech company expanding AI tool access to employees.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.0,
+            "title": "Samsung opens ChatGPT Enterprise and Codex access after AI restrictions",
+            "total_score": 8.0
+          }
+        ],
+        "best_index": 1,
+        "best_score": 8.0,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -588,6 +588,29 @@
         "social_posts": {}
       }
     },
+    "65503a336f2d064bd060c2699e940dc6447e1180b6e0f64f8ecdf46e54850104": {
+      "created_at": "2026-06-24T10:18:59Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 4,
+            "novelty_score": 2.5,
+            "reason": "Anthropic's new Slack integration for Claude Tag is a significant move in workplace AI, but not groundbreaking enough to warrant a higher novelty score.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Anthropic drops 'workplace AI agents' directly inside Slack",
+            "total_score": 8
+          }
+        ],
+        "best_index": 4,
+        "best_score": 8,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "6a8fba5df7096715b3a737319b99ae2c2dc4b2d276ed65d2e2926e306d559de2": {
       "created_at": "2026-06-23T21:58:48Z",
       "payload": {
@@ -621,46 +644,6 @@
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "73647551114e7a17578ed81b409f79af7ad0f7136ad898871573917ada72bdaf": {
-      "created_at": "2026-06-23T09:33:05Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 3,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "Urgent warning from Five Eyes nations about AI cyber threats impacting everyone soon.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Top spy agencies say AI cyber threats will impact you within months. Here\u2019s why",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 0.5,
-            "index": 4,
-            "novelty_score": 0.2,
-            "reason": "Red flag: 'Show HN' indicates a low-quality or self-promotional post.",
-            "red_flag": true,
-            "red_flag_reason": "Show HN",
-            "source_score": 0.5,
-            "title": "Show HN: Ideate a trading strategy with an Ex-Citadel Trader",
-            "total_score": 3.2
-          }
-        ],
-        "best_index": 3,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "The Five Eyes intelligence alliance has issued an urgent warning about AI cyber threats becoming a global issue within months. This isn't just a corporate problem anymore, according to the cybersecurity chiefs of the US, UK, Canada, Australia, and New Zealand. Link: https://www.artificialintelligence-news.com/news/five-eyes-warning-ai-cyber-threats/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Top spy agencies say AI cyber threats will impact you within months. Here\u2019s why*\n\nThe Five Eyes nations warn of an imminent global surge in AI cyber threats, affecting everyone, not just corporate data centers.\n\n\ud83c\udfdb\ufe0f Source: AI News (B)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.artificialintelligence-news.com/news/five-eyes-warning-ai-cyber-threats/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Five Eyes nations warn AI cyber threats will impact everyone within months. This isn't just a corporate problem anymore.\nhttps://www.artificialintelligence-news.com/news/five-eyes-warning-ai-cyber-threats/",
-          "twitter": "Five Eyes nations warn AI cyber threats will impact everyone within months. Here\u2019s why.\nhttps://www.artificialintelligence-news.com/news/five-eyes-warning-ai-cyber-threats/"
-        }
       }
     },
     "84a9190c8bb6ed48fe29e8c27068fedca7f1bd5d142e05d935edb0cf851be110": {
@@ -851,39 +834,44 @@
         "social_posts": {}
       }
     },
-    "9e186649c191a22035f13439faf65f52b0882f7348cd548e0427a9b1ea735308": {
-      "created_at": "2026-06-23T09:33:05Z",
+    "97a3acf7cbe41990bb0dadbe05bf172ec0154fe675e1aaea4178b44c2f54ec10": {
+      "created_at": "2026-06-24T10:18:59Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 1.5,
+            "freshness_score": 2.0,
             "impact_score": 2.5,
-            "index": 5,
-            "novelty_score": 3.0,
-            "reason": "New release of a framework for training trillion-parameter models with significant performance metrics.",
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "Nous Research adds a new /learn command to Hermes Agent Skills System, automating skill creation from various sources.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 1.5,
-            "title": "Prime Intellect Releases prime-rl 0.6.0 to Train Trillion-Parameter MoE Models on Agentic RL Workloads",
-            "total_score": 8.0
+            "title": "Nous Research Adds /learn to Hermes Agent\u2019s Skills System, Capturing Workflows as Slash Commands Without Hand-Writing SKILL.md",
+            "total_score": 8.5
           },
           {
             "freshness_score": 1.5,
-            "impact_score": 0.5,
-            "index": 6,
+            "impact_score": 1.5,
+            "index": 3,
             "novelty_score": 2.0,
-            "reason": "Product announcement with limited relevance to software engineers and AI researchers.",
+            "reason": "InfoQ explores Reactive Data Layer Architecture (RDLA) for Android, focusing on offline-first reactive data management.",
             "red_flag": false,
             "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Amflow\u2019s TL e-bike is ready for baby\u2019s first mountain adventure",
-            "total_score": 5.5
+            "source_score": 1.0,
+            "title": "Article: Beyond CLEAN and MVP: Architecting an Offline-first Reactive Data Layer in Android",
+            "total_score": 6.0
           }
         ],
-        "best_index": 5,
-        "best_score": 8.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
+        "best_index": 2,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Nous Research has introduced a /learn command to the Hermes Agent Skills System. This new feature automates the creation of standards-compliant SKILL.md files from various sources, including local directories, doc URLs, past conversations, or pasted notes. The live agent sources the material with its own tools, then writes the skill without requiring manual intervention. This development streamlines workflow automation significantly. Link: https://www.marktechpost.com/2026/06/24/nous-research-adds-learn-to-hermes-agents-skills-system-capturing-workflows-as-slash-commands-without-hand-writing-skill-md/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\ud83d\udd25 *Nous Research Adds /learn to Hermes Agent\u2019s Skills System* \n\nNous Research has added /learn to the Hermes Agent Skills System, automating the creation of standards-compliant SKILL.md files from various sources. The live agent sources the material with its own tools, then writes the skill without manual intervention. \n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/06/24/nous-research-adds-learn-to-hermes-agents-skills-system-capturing-workflows-as-slash-commands-without-hand-writing-skill-md/",
+          "threads": "Nous Research's /learn command automates skill creation for Hermes Agent, eliminating manual SKILL.md writing. The live agent sources the material with its own tools, then writes the skill. https://www.marktechpost.com/2026/06/24/nous-research-adds-learn-to-hermes-agents-skills-system-capturing-workflows-as-slash-commands-without-hand-writing-skill-md/",
+          "twitter": "Nous Research's /learn command automates skill creation for Hermes Agent, eliminating manual SKILL.md writing.\nhttps://www.marktechpost.com/2026/06/24/nous-research-adds-learn-to-hermes-agents-skills-system-capturing-workflows-as-slash-commands-without-hand-writing-skill-md/"
+        }
       }
     },
     "9e2c5ec282057fc8507484bfc7c5c69b1055ec7e0b3b48181c13d9157984e140": {
@@ -975,41 +963,6 @@
           "threads": "Corporate AI super PACs just spent $27 million on a local election. What's the strategy behind this massive investment?\nhttps://www.theverge.com/policy/954970/ai-super-pacs-alex-bores-new-york-12th-district",
           "twitter": "Corporate AI super PACs just dropped $27 million on a local election. What's the play here?\nhttps://www.theverge.com/policy/954970/ai-super-pacs-alex-bores-new-york-12th-district"
         }
-      }
-    },
-    "af7ffc472553405649a0c614c8abad1af783b1dcdee9fa0fbfda0d2beb787b61": {
-      "created_at": "2026-06-23T09:33:05Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "AWS Blocks is a new open-source framework for AI agents to build backends, but it's not a major industry move yet.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "AWS Launches Blocks, an Open-Source TypeScript Framework Designed for AI Agents to Build Backends",
-            "total_score": 8
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 0,
-            "index": 1,
-            "novelty_score": 0,
-            "reason": "This is just a collection of comments, not a substantive article.",
-            "red_flag": true,
-            "red_flag_reason": "Comments",
-            "source_score": 0.5,
-            "title": "Gemini models increasingly stucking in thinking loop",
-            "total_score": 2.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "bf88e46992913628fde46fa7386de87395ef1c4ee31ef9cd5ddc250c2261efd9": {
@@ -1464,6 +1417,29 @@
         "social_posts": {}
       }
     },
+    "f8f74ce2fe2caea65fa9bdfa012651b571e20c2b90760e6b0d096f8589fa4192": {
+      "created_at": "2026-06-24T10:18:59Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.0,
+            "index": 5,
+            "novelty_score": 0.0,
+            "reason": "Red flag triggered by 'top 10' in title.",
+            "red_flag": true,
+            "red_flag_reason": "top 10",
+            "source_score": 1.5,
+            "title": "16 Best Generative AI Coding Tools in 2026 Compared: Features, and Best Fit",
+            "total_score": 0.0
+          }
+        ],
+        "best_index": 5,
+        "best_score": 0.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "fc45708ded0a78c5b26f81d104385e4ae75969f6131b00ff40d77b4525a5ace8": {
       "created_at": "2026-06-23T13:24:43Z",
       "payload": {
@@ -1526,6 +1502,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Geometric Algebra Under Fire\nThe complexity and limited applications of geometric algebra have led to criticism and debate among mathematicians and engineers.\n\ud83c\udfdb\ufe0f Source: Hacker News (C)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 5.5/10\n#Mathematics #Geometry #Algebra\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "The case against geometric algebra is gaining traction, with some arguing that its complexity outweighs its benefits, says @alexkritchevsky, prompting a reevaluation of its role in mathematics and engineering #Mathematics",
         "twitter": "Geometric algebra faces criticism for its complexity and limited applications, says @alexkritchevsky, sparking debate among mathematicians and engineers #Mathematics"
+      }
+    },
+    "2f554dab1653f32a0dbf7a625f32cd2a9a6a2e972b5c79d18accb2200b1d6a6e": {
+      "created_at": "2026-06-24T10:18:59Z",
+      "payload": {
+        "facebook": "The latest development from Nous Research introduces a /learn command to the Hermes Agent Skills System, allowing for automated skill creation from various sources. This innovation has the potential to significantly simplify workflow capture and improve overall efficiency. #AI #Automation #NousResearch",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Automating Skill Creation\nNous Research has added a /learn command to the Hermes Agent Skills System, allowing for automated skill creation from various sources.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #Automation #NousResearch\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Nous Research has introduced a new /learn command for Hermes Agent, enabling automated skill creation from local directories, doc URLs, past conversations, or pasted notes @NousResearch #AI",
+        "twitter": "Nous Research automates skill creation with new /learn command for Hermes Agent, simplifying workflow capture @NousResearch #AI"
       }
     },
     "504e762af013f7a2dc7a19312ff568aee7316ff348c33c32cd0f1438a5a82a0c": {
@@ -2565,6 +2550,12 @@
       "status": "scoring_attempted",
       "title": "Show HN: We post-trained a model that pen tests instead of refusing"
     },
+    "https://www.artificialintelligence-news.com/news/anthropic-slack-workplace-ai-agents": {
+      "canonical_url": "https://www.artificialintelligence-news.com/news/anthropic-slack-workplace-ai-agents",
+      "created_at": "2026-06-24T10:18:59Z",
+      "status": "scoring_attempted",
+      "title": "Anthropic drops \u2018workplace AI agents\u2019 directly inside Slack"
+    },
     "https://www.artificialintelligence-news.com/news/five-eyes-warning-ai-cyber-threats": {
       "canonical_url": "https://www.artificialintelligence-news.com/news/five-eyes-warning-ai-cyber-threats",
       "created_at": "2026-06-23T09:33:05Z",
@@ -2588,6 +2579,12 @@
       "created_at": "2026-06-23T20:28:19Z",
       "status": "scoring_attempted",
       "title": "Omio scales travel product development using OpenAI models"
+    },
+    "https://www.artificialintelligence-news.com/news/samsung-chatgpt-enterprise-codex-employee-ai-use": {
+      "canonical_url": "https://www.artificialintelligence-news.com/news/samsung-chatgpt-enterprise-codex-employee-ai-use",
+      "created_at": "2026-06-24T10:18:59Z",
+      "status": "scoring_attempted",
+      "title": "Samsung opens ChatGPT Enterprise and Codex access after AI restrictions"
     },
     "https://www.bbc.com/news/articles/c0rygp005wjo": {
       "canonical_url": "https://www.bbc.com/news/articles/c0rygp005wjo",
@@ -2630,6 +2627,12 @@
       "created_at": "2026-06-22T18:11:45Z",
       "status": "scoring_attempted",
       "title": "Bain tests software takeover targets by vibecoding AI replicas"
+    },
+    "https://www.infoq.com/articles/rdla-offline-first-reactive-android-data-layer": {
+      "canonical_url": "https://www.infoq.com/articles/rdla-offline-first-reactive-android-data-layer",
+      "created_at": "2026-06-24T10:18:59Z",
+      "status": "scoring_attempted",
+      "title": "Article: Beyond CLEAN and MVP: Architecting an Offline-first Reactive Data Layer in Android"
     },
     "https://www.infoq.com/news/2026/06/anthropic-claude-analytics": {
       "canonical_url": "https://www.infoq.com/news/2026/06/anthropic-claude-analytics",
@@ -2774,6 +2777,18 @@
       "created_at": "2026-06-24T08:03:53Z",
       "status": "scoring_attempted",
       "title": "DFlash Speculative Decoding Drafts Whole Token Blocks in Parallel for Up to 15x Higher Throughput on NVIDIA Blackwell"
+    },
+    "https://www.marktechpost.com/2026/06/24/nous-research-adds-learn-to-hermes-agents-skills-system-capturing-workflows-as-slash-commands-without-hand-writing-skill-md": {
+      "canonical_url": "https://www.marktechpost.com/2026/06/24/nous-research-adds-learn-to-hermes-agents-skills-system-capturing-workflows-as-slash-commands-without-hand-writing-skill-md",
+      "created_at": "2026-06-24T10:18:59Z",
+      "status": "scoring_attempted",
+      "title": "Nous Research Adds /learn to Hermes Agent\u2019s Skills System, Capturing Workflows as Slash Commands Without Hand-Writing SKILL.md"
+    },
+    "https://www.marktechpost.com/2026/06/24/top-generative-ai-coding-tools-of-2026": {
+      "canonical_url": "https://www.marktechpost.com/2026/06/24/top-generative-ai-coding-tools-of-2026",
+      "created_at": "2026-06-24T10:18:59Z",
+      "status": "scoring_attempted",
+      "title": "16 Best Generative AI Coding Tools in 2026 Compared: Features, and Best Fit"
     },
     "https://www.phoronix.com/news/Linux-7.2-Drops-strncpy": {
       "canonical_url": "https://www.phoronix.com/news/Linux-7.2-Drops-strncpy",
@@ -3008,6 +3023,12 @@
       "created_at": "2026-06-22T21:13:54Z",
       "status": "scoring_attempted",
       "title": "AI is cursing renters with the promise of impossible homes"
+    },
+    "https://www.theverge.com/streaming/955646/disney-bob-iger-twitter-james-bond-apple-merger": {
+      "canonical_url": "https://www.theverge.com/streaming/955646/disney-bob-iger-twitter-james-bond-apple-merger",
+      "created_at": "2026-06-24T10:18:59Z",
+      "status": "scoring_attempted",
+      "title": "Bob Iger\u2019s Disney wanted Apple, Twitter, and 007"
     },
     "https://www.theverge.com/tech/952855/switchbot-standing-circulator-fan-review": {
       "canonical_url": "https://www.theverge.com/tech/952855/switchbot-standing-circulator-fan-review",
