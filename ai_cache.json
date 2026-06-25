@@ -1227,6 +1227,29 @@
         }
       }
     },
+    "c544eb0638fa71bb06126f80dda3088ed6260e59f0e3a59bacf1599fb05558e9": {
+      "created_at": "2026-06-25T08:55:35Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Wikipedia workers seeking union recognition is a notable move but has limited impact on software engineers and AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Wikipedia Workers in Britain set global first by seeking union recognition",
+            "total_score": 5.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 5.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "c72bf085898626d724f91984889da8282073a269746ad296b61cafa6888f615a": {
       "created_at": "2026-06-24T22:55:54Z",
       "payload": {
@@ -1271,34 +1294,6 @@
         "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "d48f86552c37894be7c2f12c77b5f669acf4c1c79168f3d93c6b3382253f7c43": {
-      "created_at": "2026-06-24T08:03:53Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "UC San Diego's DFlash introduces a novel speculative decoding method with significant throughput improvements on NVIDIA Blackwell.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "DFlash Speculative Decoding Drafts Whole Token Blocks in Parallel for Up to 15x Higher Throughput on NVIDIA Blackwell",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Researchers at UC San Diego have developed DFlash, a speculative decoding method that drafts whole token blocks in parallel. This approach achieves up to 15x higher throughput on NVIDIA Blackwell. The paper reports up to 6.08x lossless speedup on Qwen3-8B. Link: https://www.marktechpost.com/2026/06/24/dflash-speculative-decoding-drafts-whole-token-blocks-in-parallel-for-up-to-15x-higher-throughput-on-nvidia-blackwell/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *DFlash Speculative Decoding Drafts Whole Token Blocks in Parallel for Up to 15x Higher Throughput on NVIDIA Blackwell*\n\nUC San Diego's DFlash replaces autoregressive drafting with a lightweight block diffusion model for speculative decoding. It drafts whole token blocks in a single forward pass and conditions on target hidden features through KV injection. The paper reports up to 6.08x lossless speedup on Qwen3-8B.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/06/24/dflash-speculative-decoding-drafts-whole-token-blocks-in-parallel-for-up-to-15x-higher-throughput-on-nvidia-blackwell/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "UC San Diego's DFlash speculative decoding drafts whole token blocks in parallel, achieving up to 15x higher throughput on NVIDIA Blackwell. The paper reports up to 6.08x lossless speedup on Qwen3-8B.\nhttps://www.marktechpost.com/2026/06/24/dflash-speculative-decoding-drafts-whole-token-blocks-in-parallel-for-up-to-15x-higher-throughput-on-nvidia-blackwell/",
-          "twitter": "UC San Diego's DFlash speculative decoding drafts whole token blocks in parallel, achieving up to 15x higher throughput on NVIDIA Blackwell.\nhttps://www.marktechpost.com/2026/06/24/dflash-speculative-decoding-drafts-whole-token-blocks-in-parallel-for-up-to-15x-higher-throughput-on-nvidia-blackwell/"
-        }
       }
     },
     "dfff3f51b004aa25a7a30f48e83e48f9c8b006240a260387fa3cf3953a1d9a52": {
@@ -1420,6 +1415,29 @@
         ],
         "best_index": 19,
         "best_score": 8,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "f5f73ca364a2b44bccaf110cbe6e8b86db34f7461b5c37de4873f74d599d7d68": {
+      "created_at": "2026-06-25T08:55:35Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 1,
+            "novelty_score": 2.0,
+            "reason": "Industry move with moderate impact and freshness from a tier B source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.0,
+            "title": "Slack Outlines Four-Phase Journey to a Multi-Cloud AI Serving Platform",
+            "total_score": 5.0
+          }
+        ],
+        "best_index": 1,
+        "best_score": 5.0,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -2902,6 +2920,12 @@
       "status": "scoring_attempted",
       "title": "Jobs and Software Is Fucked"
     },
+    "https://utaw.tech/news/wikipedia-recognition": {
+      "canonical_url": "https://utaw.tech/news/wikipedia-recognition",
+      "created_at": "2026-06-25T08:55:35Z",
+      "status": "scoring_attempted",
+      "title": "Wikipedia Workers in Britain set global first by seeking union recognition"
+    },
     "https://vinibrasil.com/when-i-reject-ai-code-even-if-it-works": {
       "canonical_url": "https://vinibrasil.com/when-i-reject-ai-code-even-if-it-works",
       "created_at": "2026-06-21T05:19:01Z",
@@ -3117,6 +3141,12 @@
       "created_at": "2026-06-23T13:24:43Z",
       "status": "scoring_attempted",
       "title": "Microsoft Expands Azure Kubernetes Service with Bare Metal, Fleet Management and AI Infrastructure"
+    },
+    "https://www.infoq.com/news/2026/06/slack-multicloud": {
+      "canonical_url": "https://www.infoq.com/news/2026/06/slack-multicloud",
+      "created_at": "2026-06-25T08:55:35Z",
+      "status": "scoring_attempted",
+      "title": "Slack Outlines Four-Phase Journey to a Multi-Cloud AI Serving Platform"
     },
     "https://www.infoq.com/podcasts/empowers-developers-inside-linux-kernel": {
       "canonical_url": "https://www.infoq.com/podcasts/empowers-developers-inside-linux-kernel",
