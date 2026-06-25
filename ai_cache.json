@@ -1,43 +1,50 @@
 {
   "cerebras_scoring": {
-    "153f1c6e95a8e762fe6bbaf7bd00e9aec706f84dd75050fab66a1a0922a23698": {
-      "created_at": "2026-06-24T15:21:58Z",
+    "150b2db291f2380816a009621f447f5cb878e340a05744f11dc9460d7b361fd4": {
+      "created_at": "2026-06-25T15:31:40Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 6,
-            "novelty_score": 3.0,
-            "reason": "OpenAI's first AI processor is a significant hardware announcement with broad implications for AI infrastructure.",
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 3,
+            "novelty_score": 2,
+            "reason": "Industry move with moderate impact and fresh source.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 1.5,
-            "title": "OpenAI reveals its first AI processor: Jalape\u00f1o",
-            "total_score": 8.5
+            "title": "Netris raises $15M Series A from a16z to help AI neoclouds go live faster",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 0.5,
+            "index": 4,
+            "novelty_score": 1.5,
+            "reason": "Industry move with limited impact on software engineers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Bungie hit with \u2018significant\u2019 layoffs after ending Destiny 2",
+            "total_score": 5.5
           },
           {
             "freshness_score": 1.5,
-            "impact_score": 0.0,
-            "index": 9,
-            "novelty_score": 0.0,
-            "reason": "Promotional content with no technical or research value.",
-            "red_flag": true,
-            "red_flag_reason": "promotional content",
-            "source_score": 1.5,
-            "title": "3 days left to save up to $190 on your TechCrunch Founder Summit 2026 pass",
-            "total_score": 3.0
+            "impact_score": 0.5,
+            "index": 5,
+            "novelty_score": 0.2,
+            "reason": "Low novelty and impact, niche topic.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Ask HN: What surprised you about Estonia e-Residency and running an Estonian \u00dc?",
+            "total_score": 2.7
           }
         ],
-        "best_index": 6,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "OpenAI has revealed Jalape\u00f1o, its first AI processor, developed in partnership with Broadcom. This chip is designed to power both current and future large language models. It's a significant step in AI hardware infrastructure.\nLink: https://www.theverge.com/ai-artificial-intelligence/955939/openai-reveals-its-first-ai-processor-jalapeno",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *OpenAI reveals its first AI processor: Jalape\u00f1o*\n\nOpenAI has unveiled Jalape\u00f1o, its first AI processor, developed in partnership with Broadcom. The chip is designed to power current and future large language models.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/ai-artificial-intelligence/955939/openai-reveals-its-first-ai-processor-jalapeno\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "OpenAI just announced Jalape\u00f1o, its first AI processor, built with Broadcom. It's designed to power current and future large language models, marking a significant move in AI hardware.\nhttps://www.theverge.com/ai-artificial-intelligence/955939/openai-reveals-its-first-ai-processor-jalapeno",
-          "twitter": "OpenAI just unveiled Jalape\u00f1o, its first AI processor built with Broadcom. Designed to power current and future large language models.\nhttps://www.theverge.com/ai-artificial-intelligence/955939/openai-reveals-its-first-ai-processor-jalapeno"
-        }
+        "best_index": 3,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "18ce18907b1a97802ddccb21fc4346b2f374edbffed0b18597b94482ae87fc1b": {
@@ -308,6 +315,41 @@
         "social_posts": {}
       }
     },
+    "3da370cdfa1b65cf1a3ccf578e447a438738e9ea73f704819f8c0df86eded3c7": {
+      "created_at": "2026-06-25T15:31:40Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 9,
+            "novelty_score": 2.0,
+            "reason": "Adobe's acquisition of Topaz Labs is a notable industry move but has limited impact on software engineers and AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Adobe acquires image and video enhancement tool maker Topaz Labs",
+            "total_score": 5.0
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 10,
+            "novelty_score": 1.5,
+            "reason": "Apple's price hikes are newsworthy but have limited relevance to software engineers and AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Apple raises prices on Macs, iPads, and more by hundreds of dollars",
+            "total_score": 6.0
+          }
+        ],
+        "best_index": 9,
+        "best_score": 5.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "45f1d36078b9c62417282b1bc96ac0f9a7c6f27d85fabd54629dfa1c8e8a58e8": {
       "created_at": "2026-06-24T18:14:56Z",
       "payload": {
@@ -339,6 +381,53 @@
         ],
         "best_index": 18,
         "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "46576d5b59e8730df35d409e722df62afd47d56fa72681c6fb3c4e2f80ecac26": {
+      "created_at": "2026-06-25T15:31:40Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 6,
+            "novelty_score": 2.5,
+            "reason": "Important case of government overreach in digital speech, but niche impact and lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Federal agents track down woman, demand she remove Instagram post about ICE",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 0.0,
+            "index": 7,
+            "novelty_score": 0.0,
+            "reason": "Marketing content with no technical or research value.",
+            "red_flag": true,
+            "red_flag_reason": "Marketing content",
+            "source_score": 1.5,
+            "title": "2 days left to save up to $190: Join 1,000+ founders and investors at TechCrunch Founder Summit",
+            "total_score": 3.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 8,
+            "novelty_score": 1.5,
+            "reason": "Interesting but not groundbreaking, relevant to consumers but not developers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Samsung\u2019s new budget phone costs $50 more despite downgrades",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 6,
+        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -535,58 +624,6 @@
         "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "633412138d81de2ea14ebf95522de838b5fba212c412d9efdbc07f78b685b182": {
-      "created_at": "2026-06-24T15:21:58Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "High-impact industry move with strong novelty and freshness from a top-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "The Trump White House Is Over Anthropic's Dario Amodei",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 0,
-            "index": 1,
-            "novelty_score": 0,
-            "reason": "Red flag triggered by recap nature of the article.",
-            "red_flag": true,
-            "red_flag_reason": "Recap of deals",
-            "source_score": 1.5,
-            "title": "21 Prime Day deals Verge readers are buying right now",
-            "total_score": 3.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 2,
-            "novelty_score": 2,
-            "reason": "Interesting update on autonomous vehicles but not as impactful as the top article.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Zoox\u2019s purpose-built robotaxi is getting a refresh",
-            "total_score": 7
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Anthropic's CEO Dario Amodei has been replaced by cofounder Tom Brown for high-stakes meetings with the Trump White House. This shift could have significant implications for the AI company's direction and influence. Link: https://www.wired.com/story/the-trump-white-house-is-over-anthropics-dario-amodei/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *The Trump White House Is Over Anthropic's Dario Amodei*\n\nAnthropic's CEO Dario Amodei has been replaced by cofounder Tom Brown for high-stakes meetings with the Trump White House.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.wired.com/story/the-trump-white-house-is-over-anthropics-dario-amodei/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Anthropic's CEO out, cofounder Tom Brown in for White House meetings. What does this mean for the AI company's future? https://www.wired.com/story/the-trump-white-house-is-over-anthropics-dario-amodei/",
-          "twitter": "Anthropic's CEO replaced by cofounder Tom Brown in high-stakes White House meetings. https://www.wired.com/story/the-trump-white-house-is-over-anthropics-dario-amodei/"
-        }
       }
     },
     "679cd85691d5fe282675ee872f9eedbf61879306616e40995120aac36af4e0f1": {
@@ -920,58 +957,6 @@
         }
       }
     },
-    "8e3e8bdf521d8692cb1776828e005dd01803712dd2244bde631b1be241427e65": {
-      "created_at": "2026-06-24T15:21:58Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "Industry move with significant impact on software development processes.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "AI Is Moving up the Software Lifecycle: From Code Review to PRD Governance",
-            "total_score": 8
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 4,
-            "novelty_score": 3,
-            "reason": "New hardware release from a major AI player with broad implications.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "OpenAI unveils its first custom chip, built by Broadcom",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 5,
-            "novelty_score": 2.5,
-            "reason": "New framework with niche impact and lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "RubyLLM: A single, beautiful Ruby framework for all major AI providers",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 4,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "OpenAI has unveiled its first custom chip, Jalape\u00f1o, built by Broadcom. This new processor is specifically designed for the unique needs of OpenAI's inference systems, marking a significant step in AI hardware development. The chip is expected to enhance the performance and efficiency of AI models in production environments.\nLink: https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *OpenAI unveils its first custom chip, built by Broadcom*\n\nOpenAI has unveiled Jalape\u00f1o, its first custom chip built by Broadcom, designed specifically for the unique needs of OpenAI's inference systems.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "OpenAI just unveiled Jalape\u00f1o, its first custom chip built by Broadcom. Designed for inference systems, this marks a significant step in AI hardware development.\nhttps://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
-          "twitter": "OpenAI just unveiled Jalape\u00f1o, its first custom chip built by Broadcom, designed for inference systems.\nhttps://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/"
-        }
-      }
-    },
     "93d4010e108cc48ef293ee63edc48a9d9cea62e66079b9d616cdc6f9421defb0": {
       "created_at": "2026-06-25T05:49:38Z",
       "payload": {
@@ -1060,6 +1045,58 @@
         }
       }
     },
+    "9851d7f06cce4d9cad2c49be5156cd7a6fc1387b69494557d79f24c40e813ffe": {
+      "created_at": "2026-06-25T15:31:40Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 1.5,
+            "reason": "Interesting but not directly relevant to software engineers or AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "How the World Cup became a US streaming success story",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 0.5,
+            "index": 1,
+            "novelty_score": 1.5,
+            "reason": "Not relevant to software engineers or AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Get Macbooks at a Prime Day discount before Apple\u2019s new price hikes kick in",
+            "total_score": 5.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "Relevant to AI researchers and software engineers, with significant impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Ford rehires 350 engineers after AI fails to preserve expertise or train juniors",
+            "total_score": 8
+          }
+        ],
+        "best_index": 2,
+        "best_score": 8,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Ford's decision to rehire 350 engineers after AI fell short highlights the ongoing challenges in AI adoption. The move underscores the importance of human expertise in critical roles. Link: https://www.bloomberg.com/news/articles/2026-06-25/ford-has-been-rehiring-quality-inspectors-after-ai-fell-short",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Ford rehires 350 engineers after AI fails to preserve expertise or train juniors*\n\nFord is rehiring 350 engineers after AI fell short in preserving expertise and training junior staff, highlighting ongoing challenges in AI adoption.\n\n\ud83c\udfdb\ufe0f Source: Bloomberg (C)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8/10\n\n\ud83d\udd17 https://www.bloomberg.com/news/articles/2026-06-25/ford-has-been-rehiring-quality-inspectors-after-ai-fell-short\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Ford is bringing back 350 engineers after AI couldn't match human expertise. A notable setback for AI in quality inspection roles.\nhttps://www.bloomberg.com/news/articles/2026-06-25/ford-has-been-rehiring-quality-inspectors-after-ai-fell-short",
+          "twitter": "Ford is rehiring 350 engineers after AI failed to preserve expertise or train juniors. A stark reminder of AI's limitations in critical roles.\nhttps://www.bloomberg.com/news/articles/2026-06-25/ford-has-been-rehiring-quality-inspectors-after-ai-fell-short"
+        }
+      }
+    },
     "99200715e74a5d0fee59512a37de2f2937d67b95a84c9c23dba3480ec339eed8": {
       "created_at": "2026-06-25T10:13:43Z",
       "payload": {
@@ -1081,46 +1118,6 @@
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "9d71eb8ff4c761fe5ba403ecde6ab926d061f9bdfa53b67b819cadad864132e6": {
-      "created_at": "2026-06-24T15:21:58Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 10,
-            "novelty_score": 2.0,
-            "reason": "Significant industry move with high impact but not novel enough to justify a higher score.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Qualcomm Buys Buzzy Chip Startup Modular for Nearly $4 Billion",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 1.0,
-            "impact_score": 3.0,
-            "index": 14,
-            "novelty_score": 3.0,
-            "reason": "New hardware release from a top-tier source with broad implications for AI infrastructure.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 2.0,
-            "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
-            "total_score": 9.0
-          }
-        ],
-        "best_index": 14,
-        "best_score": 9.0,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "OpenAI and Broadcom have introduced Jalape\u00f1o, a new AI chip optimized for LLM inference. This hardware is designed to improve performance, efficiency, and scalability across AI systems. Link: https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *OpenAI and Broadcom unveil LLM-optimized inference chip*\n\nOpenAI and Broadcom introduce Jalape\u00f1o, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.\n\n\ud83c\udfdb\ufe0f Source: OpenAI (S)\n\u23f0 Published: 9 hours ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://openai.com/index/openai-broadcom-jalapeno-inference-chip\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "OpenAI and Broadcom just launched Jalape\u00f1o, a custom chip built for LLM inference. It's designed to boost performance and efficiency across AI systems. https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
-          "twitter": "OpenAI and Broadcom just unveiled Jalape\u00f1o, a custom chip designed to optimize LLM inference. https://openai.com/index/openai-broadcom-jalapeno-inference-chip"
-        }
       }
     },
     "b8c2b5947154390adf878f33fc281eefadd4fcb37fbe074376c3ca8aa1d0403f": {
@@ -2654,6 +2651,12 @@
       "status": "scoring_attempted",
       "title": "Gemini models increasingly stucking in thinking loop"
     },
+    "https://news.ycombinator.com/item?id=48673801": {
+      "canonical_url": "https://news.ycombinator.com/item?id=48673801",
+      "created_at": "2026-06-25T15:31:40Z",
+      "status": "scoring_attempted",
+      "title": "Ask HN: What surprised you about Estonia e-Residency and running an Estonian O\u00dc?"
+    },
     "https://oak.space/oak/oak": {
       "canonical_url": "https://oak.space/oak/oak",
       "created_at": "2026-06-22T18:11:45Z",
@@ -2936,11 +2939,29 @@
       "status": "scoring_attempted",
       "title": "The memory chip crunch is paying off for this U.S. company"
     },
+    "https://techcrunch.com/2026/06/25/2-days-left-to-save-up-to-190-join-1000-founders-and-investors-at-techcrunch-founder-summit": {
+      "canonical_url": "https://techcrunch.com/2026/06/25/2-days-left-to-save-up-to-190-join-1000-founders-and-investors-at-techcrunch-founder-summit",
+      "created_at": "2026-06-25T15:31:40Z",
+      "status": "scoring_attempted",
+      "title": "2 days left to save up to $190: Join 1,000+ founders and investors at TechCrunch Founder Summit"
+    },
+    "https://techcrunch.com/2026/06/25/adobe-acquires-image-and-video-enhancement-tool-maker-topaz-labs": {
+      "canonical_url": "https://techcrunch.com/2026/06/25/adobe-acquires-image-and-video-enhancement-tool-maker-topaz-labs",
+      "created_at": "2026-06-25T15:31:40Z",
+      "status": "scoring_attempted",
+      "title": "Adobe acquires image and video enhancement tool maker Topaz Labs"
+    },
     "https://techcrunch.com/2026/06/25/amazon-ups-india-bet-with-fresh-13b-ai-infrastructure-investment": {
       "canonical_url": "https://techcrunch.com/2026/06/25/amazon-ups-india-bet-with-fresh-13b-ai-infrastructure-investment",
       "created_at": "2026-06-25T12:33:53Z",
       "status": "scoring_attempted",
       "title": "Amazon ups India bet with fresh $13B AI infrastructure investment"
+    },
+    "https://techcrunch.com/2026/06/25/netris-raises-15m-series-a-from-a16z-to-help-ai-neoclouds-go-live-faster": {
+      "canonical_url": "https://techcrunch.com/2026/06/25/netris-raises-15m-series-a-from-a16z-to-help-ai-neoclouds-go-live-faster",
+      "created_at": "2026-06-25T15:31:40Z",
+      "status": "scoring_attempted",
+      "title": "Netris raises $15M Series A from a16z to help AI neoclouds go live faster"
     },
     "https://techstrong.ai/articles/for-most-of-the-world-open-source-ai-is-the-only-way-forward": {
       "canonical_url": "https://techstrong.ai/articles/for-most-of-the-world-open-source-ai-is-the-only-way-forward",
@@ -3061,6 +3082,12 @@
       "created_at": "2026-06-20T17:06:28Z",
       "status": "scoring_attempted",
       "title": "Ubisoft co-founder Claude Guillemot has died in a plane crash"
+    },
+    "https://www.bloomberg.com/news/articles/2026-06-25/ford-has-been-rehiring-quality-inspectors-after-ai-fell-short": {
+      "canonical_url": "https://www.bloomberg.com/news/articles/2026-06-25/ford-has-been-rehiring-quality-inspectors-after-ai-fell-short",
+      "created_at": "2026-06-25T15:31:40Z",
+      "status": "scoring_attempted",
+      "title": "Ford rehires 350 engineers after AI fails to preserve expertise or train juniors"
     },
     "https://www.bluewin.ch/en/news/german-rail-service-suspended-due-to-radio-interference-li.3295297": {
       "canonical_url": "https://www.bluewin.ch/en/news/german-rail-service-suspended-due-to-radio-interference-li.3295297",
@@ -3368,6 +3395,12 @@
       "status": "scoring_attempted",
       "title": "Your brain was never designed for this much bad news"
     },
+    "https://www.syracuse.com/news/2026/06/federal-agents-track-down-syracuse-woman-demand-she-remove-instagram-post-about-ice.html": {
+      "canonical_url": "https://www.syracuse.com/news/2026/06/federal-agents-track-down-syracuse-woman-demand-she-remove-instagram-post-about-ice.html",
+      "created_at": "2026-06-25T15:31:40Z",
+      "status": "scoring_attempted",
+      "title": "Federal agents track down woman, demand she remove Instagram post about ICE"
+    },
     "https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions": {
       "canonical_url": "https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions",
       "created_at": "2026-06-22T01:42:41Z",
@@ -3404,6 +3437,12 @@
       "status": "scoring_attempted",
       "title": "Electric air taxis are stuck in the courtroom"
     },
+    "https://www.theverge.com/column/956756/world-cup-streaming": {
+      "canonical_url": "https://www.theverge.com/column/956756/world-cup-streaming",
+      "created_at": "2026-06-25T15:31:40Z",
+      "status": "scoring_attempted",
+      "title": "How the World Cup became a US streaming success story"
+    },
     "https://www.theverge.com/entertainment/953596/google-deepmind-a24-studio-ai-partnership": {
       "canonical_url": "https://www.theverge.com/entertainment/953596/google-deepmind-a24-studio-ai-partnership",
       "created_at": "2026-06-22T17:19:35Z",
@@ -3427,6 +3466,12 @@
       "created_at": "2026-06-24T12:31:02Z",
       "status": "scoring_attempted",
       "title": "Star Fox is the Switch 2\u2019s most impressive visual showcase yet"
+    },
+    "https://www.theverge.com/entertainment/956880/bungie-layoffs-destiny-2": {
+      "canonical_url": "https://www.theverge.com/entertainment/956880/bungie-layoffs-destiny-2",
+      "created_at": "2026-06-25T15:31:40Z",
+      "status": "scoring_attempted",
+      "title": "Bungie hit with \u2018significant\u2019 layoffs after ending Destiny 2"
     },
     "https://www.theverge.com/gadgets/948610/best-prime-day-tech-deals-sale": {
       "canonical_url": "https://www.theverge.com/gadgets/948610/best-prime-day-tech-deals-sale",
@@ -3535,6 +3580,12 @@
       "created_at": "2026-06-24T16:19:05Z",
       "status": "scoring_attempted",
       "title": "The solar-powered Birdbuddy Pro is on sale for $168, the lowest price yet"
+    },
+    "https://www.theverge.com/gadgets/956830/prime-day-macbook-deals-apple-price-hikes": {
+      "canonical_url": "https://www.theverge.com/gadgets/956830/prime-day-macbook-deals-apple-price-hikes",
+      "created_at": "2026-06-25T15:31:40Z",
+      "status": "scoring_attempted",
+      "title": "Get Macbooks at a Prime Day discount before Apple&#8217;s new price hikes kick in"
     },
     "https://www.theverge.com/games/952004/valve-steam-machine-price-not-subsidizing": {
       "canonical_url": "https://www.theverge.com/games/952004/valve-steam-machine-price-not-subsidizing",
@@ -3650,6 +3701,12 @@
       "status": "scoring_attempted",
       "title": "Disney agrees to pay $50 million to YouTube TV and DirecTV subscribers"
     },
+    "https://www.theverge.com/tech/952162/apple-price-increase-ram-shortage": {
+      "canonical_url": "https://www.theverge.com/tech/952162/apple-price-increase-ram-shortage",
+      "created_at": "2026-06-25T15:31:40Z",
+      "status": "scoring_attempted",
+      "title": "Apple raises prices on Macs, iPads, and more by hundreds of dollars"
+    },
     "https://www.theverge.com/tech/952855/switchbot-standing-circulator-fan-review": {
       "canonical_url": "https://www.theverge.com/tech/952855/switchbot-standing-circulator-fan-review",
       "created_at": "2026-06-20T08:39:44Z",
@@ -3697,6 +3754,12 @@
       "created_at": "2026-06-24T21:47:20Z",
       "status": "scoring_attempted",
       "title": "Microsoft introduces cheaper Surface devices with half the memory"
+    },
+    "https://www.theverge.com/tech/956835/samsung-galaxy-a27-5g-launch-price-specs": {
+      "canonical_url": "https://www.theverge.com/tech/956835/samsung-galaxy-a27-5g-launch-price-specs",
+      "created_at": "2026-06-25T15:31:40Z",
+      "status": "scoring_attempted",
+      "title": "Samsung&#8217;s new budget phone costs $50 more despite downgrades"
     },
     "https://www.theverge.com/transportation/954291/amflows-tl-e-bike-is-ready-for-babys-first-mountain-adventure": {
       "canonical_url": "https://www.theverge.com/transportation/954291/amflows-tl-e-bike-is-ready-for-babys-first-mountain-adventure",
