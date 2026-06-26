@@ -47,6 +47,29 @@
         "social_posts": {}
       }
     },
+    "1dab17cfb2bf284ff3d8d4924b626f2e354833dcb824cc5c6469a6e295b3e648": {
+      "created_at": "2026-06-26T08:58:02Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 0.5,
+            "index": 0,
+            "novelty_score": 1.5,
+            "reason": "Trump Mobile's T1 Phone is now available for anyone to buy directly.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Trump Mobile will take your $499 right now",
+            "total_score": 5.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 5.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "22bcdfad7c238b291bf91559a67c3f1d9fbefe281bad969c69e7e1c313ebaca2": {
       "created_at": "2026-06-25T16:21:59Z",
       "payload": {
@@ -292,6 +315,29 @@
         ],
         "best_index": 9,
         "best_score": 5.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "3de0dfe569b197feb0bd92e512c24d131adfb6e65a16769785fb38725ddd0cc3": {
+      "created_at": "2026-06-26T08:58:02Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "Opinion piece on LLM costs with moderate impact and freshness, but low source tier.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Why current LLM costs are not sustainable",
+            "total_score": 7.0
+          }
+        ],
+        "best_index": 1,
+        "best_score": 7.0,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -796,6 +842,29 @@
         }
       }
     },
+    "7552a6e9974d1002d752f3bfd5033e58e8639f613d181ce8768d654d7aee38c1": {
+      "created_at": "2026-06-26T08:58:02Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 0.5,
+            "reason": "Opinion piece on open source defense with moderate impact and freshness but low novelty and source tier.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "We All Depend on Open Source. We Will Defend It Together",
+            "total_score": 3.5
+          }
+        ],
+        "best_index": 2,
+        "best_score": 3.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "7b0d5fc3a117aae4122539acb143bbd705d4d9c39143e07b9543f248b282792c": {
       "created_at": "2026-06-25T22:08:36Z",
       "payload": {
@@ -1292,29 +1361,6 @@
         "social_posts": {}
       }
     },
-    "c544eb0638fa71bb06126f80dda3088ed6260e59f0e3a59bacf1599fb05558e9": {
-      "created_at": "2026-06-25T08:55:35Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Wikipedia workers seeking union recognition is a notable move but has limited impact on software engineers and AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Wikipedia Workers in Britain set global first by seeking union recognition",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "d6310434b397a218ddd3d35a3feaf51ae5ad262fcbbb6ea68ee1f50801e84c7b": {
       "created_at": "2026-06-25T18:29:51Z",
       "payload": {
@@ -1417,29 +1463,6 @@
           "threads": "Anthropic's Claude is winning over paid consumers, challenging ChatGPT's market dominance. This is a significant development in the AI landscape.\nhttps://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/",
           "twitter": "Anthropic's Claude is making inroads into ChatGPT's paid consumer market, signaling a potential shift in AI preferences.\nhttps://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/"
         }
-      }
-    },
-    "f5f73ca364a2b44bccaf110cbe6e8b86db34f7461b5c37de4873f74d599d7d68": {
-      "created_at": "2026-06-25T08:55:35Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 1,
-            "novelty_score": 2.0,
-            "reason": "Industry move with moderate impact and freshness from a tier B source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.0,
-            "title": "Slack Outlines Four-Phase Journey to a Multi-Cloud AI Serving Platform",
-            "total_score": 5.0
-          }
-        ],
-        "best_index": 1,
-        "best_score": 5.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "f8a544cca063f7b9b77989c08d9605594ae788949835d6e35e9de74ae2da0d18": {
@@ -1721,6 +1744,12 @@
     }
   },
   "seen_article_links": {
+    "https://aditya.patadia.org/p/ai-and-cloud-costs": {
+      "canonical_url": "https://aditya.patadia.org/p/ai-and-cloud-costs",
+      "created_at": "2026-06-26T08:58:02Z",
+      "status": "scoring_attempted",
+      "title": "Why current LLM costs are not sustainable"
+    },
     "https://aisle.com/blog/aisle-discovers-6-new-cves-in-curl-including-the-oldest-issue-ever-reported": {
       "canonical_url": "https://aisle.com/blog/aisle-discovers-6-new-cves-in-curl-including-the-oldest-issue-ever-reported",
       "created_at": "2026-06-25T10:13:43Z",
@@ -1732,6 +1761,12 @@
       "created_at": "2026-06-21T21:45:51Z",
       "status": "scoring_attempted",
       "title": "The Anatomy of an AI-Native Org"
+    },
+    "https://akrites.org/letter": {
+      "canonical_url": "https://akrites.org/letter",
+      "created_at": "2026-06-26T08:58:02Z",
+      "status": "scoring_attempted",
+      "title": "We All Depend on Open Source. We Will Defend It Together"
     },
     "https://alexkritchevsky.com/2024/02/28/geometric-algebra.html": {
       "canonical_url": "https://alexkritchevsky.com/2024/02/28/geometric-algebra.html",
@@ -4042,6 +4077,12 @@
       "created_at": "2026-06-25T20:33:19Z",
       "status": "scoring_attempted",
       "title": "RAMageddon just got extremely real"
+    },
+    "https://www.theverge.com/tech/957521/trump-mobile-t1-phone-open-sale-no-deposit": {
+      "canonical_url": "https://www.theverge.com/tech/957521/trump-mobile-t1-phone-open-sale-no-deposit",
+      "created_at": "2026-06-26T08:58:02Z",
+      "status": "scoring_attempted",
+      "title": "Trump Mobile will take your $499 right now"
     },
     "https://www.theverge.com/transportation/954291/amflows-tl-e-bike-is-ready-for-babys-first-mountain-adventure": {
       "canonical_url": "https://www.theverge.com/transportation/954291/amflows-tl-e-bike-is-ready-for-babys-first-mountain-adventure",
