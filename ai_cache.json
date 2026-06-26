@@ -47,106 +47,6 @@
         "social_posts": {}
       }
     },
-    "2056858967b19e6908521c145068dbbdebdead8ee6dab45c6f4fef7f58a3e90d": {
-      "created_at": "2026-06-25T05:49:38Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Baidu's Unlimited OCR introduces a novel architecture for long-document parsing with significant performance improvements.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Baidu Releases Unlimited OCR, a 3B Model That Keeps the KV Cache Flat for Long-Document Parsing",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2,
-            "index": 1,
-            "novelty_score": 2,
-            "reason": "Murakkab optimizes AI agent workflows, but the impact is somewhat niche compared to broader AI advancements.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Improving the speed and energy-efficiency of AI agents",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "Auto-World addresses a critical gap in benchmarking relational reasoning, but the source tier limits its overall score.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Project Auto-World: Towards Automated Benchmarking of Neural Relational Reasoners",
-            "total_score": 6
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 3,
-            "novelty_score": 2,
-            "reason": "This research tackles compounding errors in agentic persuasion, but the niche focus and source tier reduce its score.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Diagnosing and Mitigating Compounding Failures in Agentic Persuasion via Taxonomic Strategy Retrieval",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 4,
-            "novelty_score": 2,
-            "reason": "This study explores vision-language models' search mechanisms, but the niche focus and source tier limit its score.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Do vision-language models search like humans? Reasoning tokens as a reaction-time analog in classic visual-search paradigms",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 5,
-            "novelty_score": 2,
-            "reason": "This paper introduces efficient computation of Asymmetric Shapley Values, but the niche focus and source tier reduce its score.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Beyond Shapley: Efficient Computation of Asymmetric Shapley Values",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 6,
-            "novelty_score": 2,
-            "reason": "This research addresses critical issues in autonomous AI prescribing, but the niche focus and source tier limit its score.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "The Clinician's Veto: Navigating Trust, Liability, and Uncertainty in Autonomous AI Prescribing",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Baidu has open-sourced Unlimited OCR, a 3B-parameter model that maintains constant memory usage for long documents. It achieves a score of 93.23 on OmniDocBench v1.5, outperforming previous models. This breakthrough could significantly impact document processing tasks. Link: https://www.marktechpost.com/2026/06/24/baidu-releases-unlimited-ocr-a-3b-model-that-keeps-the-kv-cache-flat-for-long-document-parsing/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Baidu Releases Unlimited OCR, a 3B Model That Keeps the KV Cache Flat for Long-Document Parsing*\n\nBaidu open-sourced Unlimited OCR, a 3B-parameter MoE model that parses dozens of document pages in a single forward pass. Its Reference Sliding Window Attention (R-SWA) holds the KV cache constant, so memory and latency stay flat as output grows. It scores 93.23 on OmniDocBench v1.5, beating the De...\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/06/24/baidu-releases-unlimited-ocr-a-3b-model-that-keeps-the-kv-cache-flat-for-long-document-parsing/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Baidu's Unlimited OCR model introduces Reference Sliding Window Attention to keep memory flat for long documents. It scores 93.23 on OmniDocBench. https://www.marktechpost.com/2026/06/24/baidu-releases-unlimited-ocr-a-3b-model-that-keeps-the-kv-cache-flat-for-long-document-parsing/",
-          "twitter": "Baidu's Unlimited OCR model keeps memory usage flat for long documents, scoring 93.23 on OmniDocBench. https://www.marktechpost.com/2026/06/24/baidu-releases-unlimited-ocr-a-3b-model-that-keeps-the-kv-cache-flat-for-long-document-parsing/"
-        }
-      }
-    },
     "22bcdfad7c238b291bf91559a67c3f1d9fbefe281bad969c69e7e1c313ebaca2": {
       "created_at": "2026-06-25T16:21:59Z",
       "payload": {
@@ -278,6 +178,89 @@
         }
       }
     },
+    "315c8a5e11971300a64cee429332a6ff4d8f4d3d40af9fccd39ca2e84c1be341": {
+      "created_at": "2026-06-26T05:53:14Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 13,
+            "novelty_score": 2.5,
+            "reason": "New research on a critical failure mode in agentic systems, but published on arXiv (Tier C).",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Instruction Bleed: Cross-Module Interference in Prompt-Composed Agentic Systems",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.0,
+            "index": 14,
+            "novelty_score": 2.5,
+            "reason": "Interesting discussion on technological progress, but niche impact and published on arXiv (Tier C).",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Accelerating Returns and the Qualitative Engine for Science",
+            "total_score": 7.0
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 15,
+            "novelty_score": 2.5,
+            "reason": "New approach to ethical reasoning in LLMs, but published on arXiv (Tier C).",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Narration-of-Thought: Inference-Time Scaffolding for Defeasible Ethical Reasoning in Large Language Models",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 16,
+            "novelty_score": 2.5,
+            "reason": "Specialized research on combinatorial geometry, niche impact, and published on arXiv (Tier C).",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Geometry-Aware MCTS for Extremal Problems in Combinatorial Geometry",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.0,
+            "index": 17,
+            "novelty_score": 2.5,
+            "reason": "Interesting application of agentic systems, but niche impact and published on arXiv (Tier C).",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "When Agents Meet Electric Bus Fleet Operations: Pricing Behavior, Trade-offs, and Policy Implications in an Aggregator Framework",
+            "total_score": 7.0
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.0,
+            "index": 18,
+            "novelty_score": 2.5,
+            "reason": "Theoretical research on oracles, niche impact, and published on arXiv (Tier C).",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Unbiased Canonical Set-Valued Oracles Via Lattice Theory",
+            "total_score": 7.0
+          }
+        ],
+        "best_index": 13,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "3da370cdfa1b65cf1a3ccf578e447a438738e9ea73f704819f8c0df86eded3c7": {
       "created_at": "2026-06-25T15:31:40Z",
       "payload": {
@@ -309,6 +292,89 @@
         ],
         "best_index": 9,
         "best_score": 5.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "4426554a9c65aa88f8daa4cfa824a29fb14eb57643ddd3f590e7b267947355e8": {
+      "created_at": "2026-06-26T05:53:14Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 19,
+            "novelty_score": 2.5,
+            "reason": "New research on uncertainty in classifier performance, relevant to AI researchers but niche impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Estimating Uncertainty in Classifier Performance with Applications to Large Language Models and Nested Data",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2,
+            "index": 20,
+            "novelty_score": 2.5,
+            "reason": "New research challenging the limits of data-driven machine learning in logical reasoning.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Data-driven Machine Learning Cannot Reach Symbolic-level Logical Reasoning -- The Limit of the Scaling Law",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 21,
+            "novelty_score": 2.5,
+            "reason": "New benchmark for multimodal knowledge graph-augmented generation, relevant to AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "MKG-RAG-Bench: Benchmarking Retrieval in Multimodal Knowledge Graph-Augmented Generation",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 22,
+            "novelty_score": 2.5,
+            "reason": "New research on automating psychological science using AI agents, relevant to AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "auto-psych: Automating the science of mind using agent-driven theory discovery and experimentation",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 23,
+            "novelty_score": 2.5,
+            "reason": "New proposal for a clinical AI skill ecosystem, relevant to medical AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Clinical Harness for Governable Medical AI Skill Ecosystems",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2,
+            "index": 24,
+            "novelty_score": 2.5,
+            "reason": "New research on reasoning models' behavior compared to humans, relevant to AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Humans Disengage, Reasoning Models Persist: Separating Difficulty Registration from Deliberation Allocation",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 20,
+        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -419,6 +485,101 @@
         ],
         "best_index": 2,
         "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "4b0639fdf32436cff1dc21e362b58d1ee8cb93ceb58f2a24859f0f9baab3abda": {
+      "created_at": "2026-06-26T05:53:14Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "New research on controlling model behaviors through activation steering methods.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Detecting and Controlling Sycophancy with Cascading Linear Features",
+            "total_score": 7.0
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "New research on benchmark saturation and agent performance dimensions.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Life After Benchmark Saturation: A Case Study of CORE-Bench",
+            "total_score": 7.0
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "New research on the interaction between refusal and persona traits in chat models.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Refusal Lives Downstream of Persona in Chat Models",
+            "total_score": 7.0
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "New research on LLM-driven meta-evolution of algorithmic trading programs.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "AlgoEvolve: LLM-driven Meta-evolution of Algorithmic Trading Programs",
+            "total_score": 7.0
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 4,
+            "novelty_score": 2.5,
+            "reason": "New research on LLM-powered comparative governance discourse analysis.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Agentic Analysis for Agentic Infrastructure: An LLM-Powered Pipeline for Comparative Governance of DAO and Corporate AI Protocols",
+            "total_score": 7.0
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 5,
+            "novelty_score": 2.5,
+            "reason": "New research on knowledge-augmented agentic AI for mental health medication information seeking.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Knowledge-augmented Agentic AI for Mental Health Medication Information Seeking",
+            "total_score": 7.0
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 6,
+            "novelty_score": 2.5,
+            "reason": "New research on accelerating skill assessment in chess with a drift-diffusion-enhanced Elo rating system.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Accelerating Skill Assessment in Chess: A Drift-Diffusion-Enhanced Elo Rating System",
+            "total_score": 7.0
+          }
+        ],
+        "best_index": 0,
+        "best_score": 7.0,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -540,89 +701,6 @@
         ],
         "best_index": 14,
         "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "679cd85691d5fe282675ee872f9eedbf61879306616e40995120aac36af4e0f1": {
-      "created_at": "2026-06-25T05:49:38Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 13,
-            "novelty_score": 2.5,
-            "reason": "New research on multi-agent LLM architecture for stealth assessment in serious games.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Agentic Knowledge Tracing: A Multi-Agent LLM Architecture for Stealth Assessment of Financial Literacy in Serious Games",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 14,
-            "novelty_score": 2.5,
-            "reason": "Red flag triggered by 'What Actually Works' in the title.",
-            "red_flag": true,
-            "red_flag_reason": "What Actually Works",
-            "source_score": 0.5,
-            "title": "What Actually Works for Spacecraft Fault-Tolerant Control: An Honest Settled-Gate Benchmark of Learned and Classical Methods",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 15,
-            "novelty_score": 2.5,
-            "reason": "New research on multi-agent continual cooperation via skill partition and reuse.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Offline Multi-agent Continual Cooperation via Skill Partition and Reuse",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 16,
-            "novelty_score": 2.5,
-            "reason": "New research on cognitive-developmental risks in AI companions.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Long-Term Simulation Exposes Cognitive-Developmental Risks in AI Companions",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 17,
-            "novelty_score": 2.5,
-            "reason": "New research on a multi-agent framework for autonomous brain signal understanding.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "BrainAgent: A Large Language Model-Driven Multi-Agent Framework for Autonomous Brain Signal Understanding",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2,
-            "index": 18,
-            "novelty_score": 2.5,
-            "reason": "New research on the hidden costs of low-bit reasoning models.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Quantization Inflates Reasoning: Token Inflation as a Hidden Cost of Low-Bit Reasoning Models",
-            "total_score": 7
-          }
-        ],
-        "best_index": 16,
-        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -861,94 +939,6 @@
         "social_posts": {}
       }
     },
-    "93d4010e108cc48ef293ee63edc48a9d9cea62e66079b9d616cdc6f9421defb0": {
-      "created_at": "2026-06-25T05:49:38Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 7,
-            "novelty_score": 2.5,
-            "reason": "New research on trustworthy memory consolidation for LLM agents with long-term memory.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.0,
-            "title": "TRUSTMEM: Learning Trustworthy Memory Consolidation for LLM Agents with Long-Term Memory",
-            "total_score": 8.0
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 8,
-            "novelty_score": 2.5,
-            "reason": "New research on representation learning for individual human chess style.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.0,
-            "title": "Elo-Disentangled Player-Style Embeddings for Human Chess via Rating-Conditioned Residual Move Model",
-            "total_score": 7.0
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.0,
-            "index": 9,
-            "novelty_score": 2.5,
-            "reason": "New research on automated curriculum for multi-domain RLVR.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.0,
-            "title": "Transferability for General Reasoning: An Automated Curriculum for Multi-Domain RLVR",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.0,
-            "index": 10,
-            "novelty_score": 2.5,
-            "reason": "New research on model-adaptive assessment for multi-agent RAG.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.0,
-            "title": "To Isolate or to Score? Model-Adaptive Assessment for Cost-Efficient Multi-Agent RAG",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 11,
-            "novelty_score": 2.5,
-            "reason": "New research on search strategies for autonomous AI research agents.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.0,
-            "title": "Heuresis: Search Strategies for Autonomous AI Research Agents Across Quality, Diversity and Novelty",
-            "total_score": 8.0
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.0,
-            "index": 12,
-            "novelty_score": 2.5,
-            "reason": "New research on omni-perception policy optimization for multimodal emotion reasoning.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.0,
-            "title": "Omni-Perception Policy Optimization for Multimodal Emotion Reasoning",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 7,
-        "best_score": 8.0,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Researchers have developed a new approach for trustworthy memory consolidation in LLM agents with long-term memory. This could significantly improve the reliability of AI systems in extended interactions and personalized assistance. Link: https://arxiv.org/abs/2606.25161",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *TRUSTMEM: Learning Trustworthy Memory Consolidation for LLM Agents with Long-Term Memory*\n\nResearchers have developed a new approach for trustworthy memory consolidation in LLM agents with long-term memory.\n\n\ud83c\udfdb\ufe0f Source: arXiv cs.AI (C)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.0/10\n\n\ud83d\udd17 https://arxiv.org/abs/2606.25161\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "New research on trustworthy memory consolidation for LLM agents with long-term memory. This could improve the reliability of AI systems in extended interactions and personalized assistance. https://arxiv.org/abs/2606.25161",
-          "twitter": "New research on trustworthy memory consolidation for LLM agents with long-term memory.\nhttps://arxiv.org/abs/2606.25161"
-        }
-      }
-    },
     "9851d7f06cce4d9cad2c49be5156cd7a6fc1387b69494557d79f24c40e813ffe": {
       "created_at": "2026-06-25T15:31:40Z",
       "payload": {
@@ -1068,6 +1058,94 @@
         "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "a5764b6c5decfec86e1e8e8555ea0f2b796ab660af1565933848889b891faf9b": {
+      "created_at": "2026-06-26T05:53:14Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 7,
+            "novelty_score": 2.5,
+            "reason": "New research on governance models for autonomous AI systems with significant implications for AI safety and regulation.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Governing Actions, Not Agents: Institutional Attestation as a Governance Model for Autonomous AI Systems",
+            "total_score": 8
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 8,
+            "novelty_score": 2.5,
+            "reason": "Interesting but niche application of AI in physical art design.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "COrigami: An AI Pipeline for Co-Designing Flat-Foldable Visually Recognisable Origami",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2,
+            "index": 9,
+            "novelty_score": 2.5,
+            "reason": "Research on the challenges of verifying coding agents' outputs.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "The Verification Horizon: No Silver Bullet for Coding Agent Rewards",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2,
+            "index": 10,
+            "novelty_score": 2.5,
+            "reason": "Evaluation of LLM agents in energy analytics, a critical but understudied domain.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "How Do Tool-Augmented LLM Agents Perform on Real-World Energy Analytics Tasks?",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2,
+            "index": 11,
+            "novelty_score": 2.5,
+            "reason": "Critical review of multimodal LLM evaluation methods.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "What We are Missing in Multimodal LLM Evaluation?",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2,
+            "index": 12,
+            "novelty_score": 2.5,
+            "reason": "New benchmark environment for evaluating quantitative finance agents.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "OpenFinGym: A Verifiable Multi-Task Gym Environment for Evaluating Quant Agents",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 7,
+        "best_score": 8,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "A new paper on arXiv introduces institutional attestation as a governance model for autonomous AI systems. This approach could be crucial as AI agents take on more consequential tasks like clinical prescribing and software deployment. Link: https://arxiv.org/abs/2606.26298",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Governing Actions, Not Agents: Institutional Attestation as a Governance Model for Autonomous AI Systems*\n\nNew research proposes institutional attestation as a governance model for autonomous AI systems performing irreversible actions like clinical prescribing and software deployment.\n\n\ud83c\udfdb\ufe0f Source: arXiv cs.AI (C)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8/10\n\n\ud83d\udd17 https://arxiv.org/abs/2606.26298\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Autonomous AI systems performing irreversible actions need new governance models. Institutional attestation could be the answer. https://arxiv.org/abs/2606.26298",
+          "twitter": "New research proposes institutional attestation as a governance model for autonomous AI systems performing irreversible actions. https://arxiv.org/abs/2606.26298"
+        }
       }
     },
     "aa15ff71d1d874a9072b12b7459c2bc8456798695c200f0961ff55ff3ea6a875": {
@@ -1287,89 +1365,6 @@
           "threads": "Anthropic claims Alibaba used 25,000 accounts to mine Claude 28.8 million times. This is a major AI security incident. \nhttps://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities/",
           "twitter": "Anthropic accuses Alibaba of a massive Claude cloning attack with 28.8 million exchanges. \nhttps://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities/"
         }
-      }
-    },
-    "eebf3b6a319a3581720a291ec085321974c526feafebd0adeb2007060fdcf50a": {
-      "created_at": "2026-06-25T05:49:38Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 19,
-            "novelty_score": 2.5,
-            "reason": "New research on LLM failure modes in math reasoning with significant impact on AI development.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Cliff Tokens: Identifying Single-Token Failure Triggers in LLM Mathematical Reasoning",
-            "total_score": 8
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 20,
-            "novelty_score": 2.5,
-            "reason": "New research on physically grounded AI agents with significant impact on AI development.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Agentic evolution of physically constrained foundation models",
-            "total_score": 8
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 21,
-            "novelty_score": 2.5,
-            "reason": "New research on constrained movement trajectory computation with moderate impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Reasonable Motion: A General ASP Foundation for Environment Constrained Movement Trajectory Computation",
-            "total_score": 7
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 22,
-            "novelty_score": 2.5,
-            "reason": "New research on GUI agents with moderate impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "GUI agent: Guided Exploration of User-Sensitive Screens",
-            "total_score": 7
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 23,
-            "novelty_score": 2.5,
-            "reason": "New research on position graphs with moderate impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Position Spaces and Graphs",
-            "total_score": 7
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 24,
-            "novelty_score": 2.5,
-            "reason": "New research on fuzzy quantification with moderate impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Fuzzy Quantification over OWL Ontologies and Knowledge Graphs",
-            "total_score": 7
-          }
-        ],
-        "best_index": 19,
-        "best_score": 8,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "f5a72c094bafb194c166c3628d8d0bc7099a45e1bea595d37788677d55408717": {
@@ -2379,6 +2374,156 @@
       "created_at": "2026-06-25T05:49:38Z",
       "status": "scoring_attempted",
       "title": "Fuzzy Quantification over OWL Ontologies and Knowledge Graphs"
+    },
+    "https://arxiv.org/abs/2606.26155": {
+      "canonical_url": "https://arxiv.org/abs/2606.26155",
+      "created_at": "2026-06-26T05:53:14Z",
+      "status": "scoring_attempted",
+      "title": "Detecting and Controlling Sycophancy with Cascading Linear Features"
+    },
+    "https://arxiv.org/abs/2606.26158": {
+      "canonical_url": "https://arxiv.org/abs/2606.26158",
+      "created_at": "2026-06-26T05:53:14Z",
+      "status": "scoring_attempted",
+      "title": "Life After Benchmark Saturation: A Case Study of CORE-Bench"
+    },
+    "https://arxiv.org/abs/2606.26161": {
+      "canonical_url": "https://arxiv.org/abs/2606.26161",
+      "created_at": "2026-06-26T05:53:14Z",
+      "status": "scoring_attempted",
+      "title": "Refusal Lives Downstream of Persona in Chat Models"
+    },
+    "https://arxiv.org/abs/2606.26173": {
+      "canonical_url": "https://arxiv.org/abs/2606.26173",
+      "created_at": "2026-06-26T05:53:14Z",
+      "status": "scoring_attempted",
+      "title": "AlgoEvolve: LLM-driven Meta-evolution of Algorithmic Trading Programs"
+    },
+    "https://arxiv.org/abs/2606.26203": {
+      "canonical_url": "https://arxiv.org/abs/2606.26203",
+      "created_at": "2026-06-26T05:53:14Z",
+      "status": "scoring_attempted",
+      "title": "Agentic Analysis for Agentic Infrastructure: An LLM-Powered Pipeline for Comparative Governance of DAO and Corporate AI Protocols"
+    },
+    "https://arxiv.org/abs/2606.26205": {
+      "canonical_url": "https://arxiv.org/abs/2606.26205",
+      "created_at": "2026-06-26T05:53:14Z",
+      "status": "scoring_attempted",
+      "title": "Knowledge-augmented Agentic AI for Mental Health Medication Information Seeking"
+    },
+    "https://arxiv.org/abs/2606.26267": {
+      "canonical_url": "https://arxiv.org/abs/2606.26267",
+      "created_at": "2026-06-26T05:53:14Z",
+      "status": "scoring_attempted",
+      "title": "Accelerating Skill Assessment in Chess: A Drift-Diffusion-Enhanced Elo Rating System"
+    },
+    "https://arxiv.org/abs/2606.26298": {
+      "canonical_url": "https://arxiv.org/abs/2606.26298",
+      "created_at": "2026-06-26T05:53:14Z",
+      "status": "scoring_attempted",
+      "title": "Governing Actions, Not Agents: Institutional Attestation as a Governance Model for Autonomous AI Systems"
+    },
+    "https://arxiv.org/abs/2606.26299": {
+      "canonical_url": "https://arxiv.org/abs/2606.26299",
+      "created_at": "2026-06-26T05:53:14Z",
+      "status": "scoring_attempted",
+      "title": "COrigami: An AI Pipeline for Co-Designing Flat-Foldable Visually Recognisable Origami"
+    },
+    "https://arxiv.org/abs/2606.26300": {
+      "canonical_url": "https://arxiv.org/abs/2606.26300",
+      "created_at": "2026-06-26T05:53:14Z",
+      "status": "scoring_attempted",
+      "title": "The Verification Horizon: No Silver Bullet for Coding Agent Rewards"
+    },
+    "https://arxiv.org/abs/2606.26346": {
+      "canonical_url": "https://arxiv.org/abs/2606.26346",
+      "created_at": "2026-06-26T05:53:14Z",
+      "status": "scoring_attempted",
+      "title": "How Do Tool-Augmented LLM Agents Perform on Real-World Energy Analytics Tasks?"
+    },
+    "https://arxiv.org/abs/2606.26348": {
+      "canonical_url": "https://arxiv.org/abs/2606.26348",
+      "created_at": "2026-06-26T05:53:14Z",
+      "status": "scoring_attempted",
+      "title": "What We are Missing in Multimodal LLM Evaluation?"
+    },
+    "https://arxiv.org/abs/2606.26350": {
+      "canonical_url": "https://arxiv.org/abs/2606.26350",
+      "created_at": "2026-06-26T05:53:14Z",
+      "status": "scoring_attempted",
+      "title": "OpenFinGym: A Verifiable Multi-Task Gym Environment for Evaluating Quant Agents"
+    },
+    "https://arxiv.org/abs/2606.26356": {
+      "canonical_url": "https://arxiv.org/abs/2606.26356",
+      "created_at": "2026-06-26T05:53:14Z",
+      "status": "scoring_attempted",
+      "title": "Instruction Bleed: Cross-Module Interference in Prompt-Composed Agentic Systems"
+    },
+    "https://arxiv.org/abs/2606.26359": {
+      "canonical_url": "https://arxiv.org/abs/2606.26359",
+      "created_at": "2026-06-26T05:53:14Z",
+      "status": "scoring_attempted",
+      "title": "Accelerating Returns and the Qualitative Engine for Science"
+    },
+    "https://arxiv.org/abs/2606.26366": {
+      "canonical_url": "https://arxiv.org/abs/2606.26366",
+      "created_at": "2026-06-26T05:53:14Z",
+      "status": "scoring_attempted",
+      "title": "Narration-of-Thought: Inference-Time Scaffolding for Defeasible Ethical Reasoning in Large Language Models"
+    },
+    "https://arxiv.org/abs/2606.26399": {
+      "canonical_url": "https://arxiv.org/abs/2606.26399",
+      "created_at": "2026-06-26T05:53:14Z",
+      "status": "scoring_attempted",
+      "title": "Geometry-Aware MCTS for Extremal Problems in Combinatorial Geometry"
+    },
+    "https://arxiv.org/abs/2606.26400": {
+      "canonical_url": "https://arxiv.org/abs/2606.26400",
+      "created_at": "2026-06-26T05:53:14Z",
+      "status": "scoring_attempted",
+      "title": "When Agents Meet Electric Bus Fleet Operations: Pricing Behavior, Trade-offs, and Policy Implications in an Aggregator Framework"
+    },
+    "https://arxiv.org/abs/2606.26418": {
+      "canonical_url": "https://arxiv.org/abs/2606.26418",
+      "created_at": "2026-06-26T05:53:14Z",
+      "status": "scoring_attempted",
+      "title": "Unbiased Canonical Set-Valued Oracles Via Lattice Theory"
+    },
+    "https://arxiv.org/abs/2606.26422": {
+      "canonical_url": "https://arxiv.org/abs/2606.26422",
+      "created_at": "2026-06-26T05:53:14Z",
+      "status": "scoring_attempted",
+      "title": "Estimating Uncertainty in Classifier Performance with Applications to Large Language Models and Nested Data"
+    },
+    "https://arxiv.org/abs/2606.26454": {
+      "canonical_url": "https://arxiv.org/abs/2606.26454",
+      "created_at": "2026-06-26T05:53:14Z",
+      "status": "scoring_attempted",
+      "title": "Data-driven Machine Learning Cannot Reach Symbolic-level Logical Reasoning -- The Limit of the Scaling Law"
+    },
+    "https://arxiv.org/abs/2606.26458": {
+      "canonical_url": "https://arxiv.org/abs/2606.26458",
+      "created_at": "2026-06-26T05:53:14Z",
+      "status": "scoring_attempted",
+      "title": "MKG-RAG-Bench: Benchmarking Retrieval in Multimodal Knowledge Graph-Augmented Generation"
+    },
+    "https://arxiv.org/abs/2606.26460": {
+      "canonical_url": "https://arxiv.org/abs/2606.26460",
+      "created_at": "2026-06-26T05:53:14Z",
+      "status": "scoring_attempted",
+      "title": "auto-psych: Automating the science of mind using agent-driven theory discovery and experimentation"
+    },
+    "https://arxiv.org/abs/2606.26494": {
+      "canonical_url": "https://arxiv.org/abs/2606.26494",
+      "created_at": "2026-06-26T05:53:14Z",
+      "status": "scoring_attempted",
+      "title": "Clinical Harness for Governable Medical AI Skill Ecosystems"
+    },
+    "https://arxiv.org/abs/2606.26502": {
+      "canonical_url": "https://arxiv.org/abs/2606.26502",
+      "created_at": "2026-06-26T05:53:14Z",
+      "status": "scoring_attempted",
+      "title": "Humans Disengage, Reasoning Models Persist: Separating Difficulty Registration from Deliberation Allocation"
     },
     "https://atomprophet.io/tools/cascade": {
       "canonical_url": "https://atomprophet.io/tools/cascade",
