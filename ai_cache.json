@@ -1,5 +1,57 @@
 {
   "cerebras_scoring": {
+    "0101894ecc1a24028b25ae995ce582d1150c9b3eb8670176034cbb16f9d31971": {
+      "created_at": "2026-06-26T15:14:45Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "Anthropic's Mythos model issues are a significant industry development with broad implications for AI regulation and deployment.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Anthropic\u2019s Mythos mess is only getting worse",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.5,
+            "index": 4,
+            "novelty_score": 0.2,
+            "reason": "A consumer electronics deal with limited relevance to software engineers and AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Apple\u2019s AirPods Max 2 headphones are still $150 off \u2014 for now",
+            "total_score": 3.7
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.5,
+            "index": 5,
+            "novelty_score": 0,
+            "reason": "An event promotion with minimal technical content or relevance to the target audience.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Early Bird pricing ends tonight for TechCrunch Founder Summit",
+            "total_score": 3.5
+          }
+        ],
+        "best_index": 3,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Anthropic's Mythos model situation is worsening with no clear resolution after two weeks of negotiations with the Trump administration. The company has been notably quiet on updates. This is a significant development in AI regulation and deployment. Link: https://www.theverge.com/ai-artificial-intelligence/957327/anthropic-mythos-fable-ai-trump-administration-negotiations",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Anthropic\u2019s Mythos mess is only getting worse*\n\nAnthropic's Mythos model issues escalate as Trump administration pressures mount. No resolution in sight yet.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/ai-artificial-intelligence/957327/anthropic-mythos-fable-ai-trump-administration-negotiations\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Anthropic's Mythos model issues deepen with Trump administration pressure. Still no resolution after two weeks.\nhttps://www.theverge.com/ai-artificial-intelligence/957327/anthropic-mythos-fable-ai-trump-administration-negotiations",
+          "twitter": "Anthropic's Mythos model issues escalate as Trump administration pressures mount. No resolution in sight yet.\nhttps://www.theverge.com/ai-artificial-intelligence/957327/anthropic-mythos-fable-ai-trump-administration-negotiations"
+        }
+      }
+    },
     "0b16c5324be6372e26058624f21415a0b3c24d5d6f8a9534dec033a9876d66ed": {
       "created_at": "2026-06-26T12:30:41Z",
       "payload": {
@@ -71,6 +123,41 @@
         ],
         "best_index": 3,
         "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "179c1a1a713401a4e5dd2ade4e0749af46054bad1c06bf341ed4c8e0b3b9bce6": {
+      "created_at": "2026-06-26T15:14:45Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 8,
+            "novelty_score": 2,
+            "reason": "Industry move with moderate impact and freshness.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "SAP aligns commerce data for AI personalisation",
+            "total_score": 5.5
+          },
+          {
+            "freshness_score": 1,
+            "impact_score": 0,
+            "index": 11,
+            "novelty_score": 0,
+            "reason": "Red flag due to 'Comments' in title.",
+            "red_flag": true,
+            "red_flag_reason": "Comments",
+            "source_score": 0.5,
+            "title": "Ultrasound Imaging of the Brain",
+            "total_score": 1.5
+          }
+        ],
+        "best_index": 8,
+        "best_score": 5.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -460,46 +547,6 @@
         "social_posts": {}
       }
     },
-    "48d230a80e9457675a856ded19158dfe9eefdbf2a4915c847687a22a1dadb47b": {
-      "created_at": "2026-06-25T12:33:53Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.0,
-            "reason": "Amazon's $13B AI infrastructure investment in India is significant but not groundbreaking.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Amazon ups India bet with fresh $13B AI infrastructure investment",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Ford's struggle with automated systems highlights real-world AI challenges in manufacturing.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Ford had to hire back former engineers to fix mistakes made by its automated systems",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Ford's recent JD Power ranking win comes with a candid admission: its automated systems made costly mistakes, forcing them to rehire engineers. A stark reminder that AI isn't a magic bullet in manufacturing.\nLink: https://www.theverge.com/transportation/956316/ford-quality-jd-power-ranking-ai-automated-mistakes",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Ford had to hire back former engineers to fix mistakes made by its automated systems*\n\nFord's automated systems made enough mistakes that they had to rehire engineers to fix them. A real-world case study in AI's limitations in manufacturing.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/transportation/956316/ford-quality-jd-power-ranking-ai-automated-mistakes\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Ford's automated systems made enough mistakes that they had to rehire engineers to fix them. A real-world case study in AI's limitations in manufacturing.\nhttps://www.theverge.com/transportation/956316/ford-quality-jd-power-ranking-ai-automated-mistakes",
-          "twitter": "Ford is hiring back engineers to fix mistakes made by its automated systems, highlighting the limits of AI in manufacturing.\nhttps://www.theverge.com/transportation/956316/ford-quality-jd-power-ranking-ai-automated-mistakes"
-        }
-      }
-    },
     "49a876b33d931800bd7670709d7449a5dd2fcd7e07dd2be5a97d748e77f59baa": {
       "created_at": "2026-06-26T10:20:25Z",
       "payload": {
@@ -865,34 +912,6 @@
         }
       }
     },
-    "73a92499b4aa0709dd1484882895a89005fbac8c6936f8a4bff946cab0b4ed4b": {
-      "created_at": "2026-06-25T12:33:53Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "Industry move with significant financial impact on subscribers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Disney agrees to pay $50 million to YouTube TV and DirecTV subscribers",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 2,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Disney has agreed to pay $50 million to YouTube TV and DirecTV Stream subscribers as part of a settlement over claims that it forced price increases. If you were a subscriber between April 2019 and March 2020, you may be eligible for a payout. Link: https://www.theverge.com/streaming/956712/disney-youtube-tv-directv-streaming-settlement",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Disney agrees to pay $50 million to YouTube TV and DirecTV subscribers*\n\nYouTube TV and DirecTV Stream customers may be eligible for a cash payout, after Disney agreed to pay $50 million to settle claims that it forced the services to increase their subscription prices.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/streaming/956712/disney-youtube-tv-directv-streaming-settlement\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Disney is paying $50 million to YouTube TV and DirecTV Stream subscribers to settle claims of forced price hikes. If you were a subscriber between April 2019 and March 2020, check if you qualify. https://www.theverge.com/streaming/956712/disney-youtube-tv-directv-streaming-settlement",
-          "twitter": "Disney will pay $50 million to YouTube TV and DirecTV Stream subscribers to settle price hike claims. https://www.theverge.com/streaming/956712/disney-youtube-tv-directv-streaming-settlement"
-        }
-      }
-    },
     "7552a6e9974d1002d752f3bfd5033e58e8639f613d181ce8768d654d7aee38c1": {
       "created_at": "2026-06-26T08:58:02Z",
       "payload": {
@@ -1245,6 +1264,58 @@
         }
       }
     },
+    "a8d240c5caf0e0c80c0613905be685835902dd49e0175d30443a7be4af80ea42": {
+      "created_at": "2026-06-26T15:14:45Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Europe's push for independent AI development is significant but lacks novelty in the broader context.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Europe Is Fed Up and Wants Its Own AI",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "AI's impact on software delivery pipelines is a critical topic, but the presentation format reduces novelty.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Presentation: AI Works, Pull Requests Don\u2019t: How AI Is Breaking the SDLC and What To Do About It",
+            "total_score": 8.0
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 1.5,
+            "reason": "Meta's strategic moves are notable but less relevant to software engineers and AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Of course Meta thinks gambling is the future",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Europe is making a significant move towards developing its own AI infrastructure, partly driven by geopolitical tensions and the influence of Donald Trump. This could reshape the global AI landscape. Link: https://www.wired.com/story/europe-is-fed-up-and-wants-its-own-ai/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Europe Is Fed Up and Wants Its Own AI*\n\nEurope is pushing for its own AI infrastructure, driven by geopolitical tensions and Trump's influence. This could reshape the global AI landscape.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.wired.com/story/europe-is-fed-up-and-wants-its-own-ai/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Europe is pushing for its own AI infrastructure, driven by geopolitical tensions and Trump's influence. This could reshape the global AI landscape. https://www.wired.com/story/europe-is-fed-up-and-wants-its-own-ai/",
+          "twitter": "Europe is pushing for its own AI infrastructure, driven by geopolitical tensions and Trump's influence. https://www.wired.com/story/europe-is-fed-up-and-wants-its-own-ai/"
+        }
+      }
+    },
     "aa15ff71d1d874a9072b12b7459c2bc8456798695c200f0961ff55ff3ea6a875": {
       "created_at": "2026-06-25T20:33:19Z",
       "payload": {
@@ -1343,6 +1414,41 @@
         }
       }
     },
+    "b702b07db56dbb70ab294b69035e9fe22916829418856236d39006d1a4eb61a3": {
+      "created_at": "2026-06-26T15:14:45Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 6,
+            "novelty_score": 2.5,
+            "reason": "New approach using LLMs to improve robot task understanding, but not a major industry move.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "LLMs help robots understand vague instructions and focus on key details",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0,
+            "index": 7,
+            "novelty_score": 0,
+            "reason": "Red flag triggered by 'Comments' in title.",
+            "red_flag": true,
+            "red_flag_reason": "Comments",
+            "source_score": 0.5,
+            "title": "Incident CVE-2026-LGTM",
+            "total_score": 2
+          }
+        ],
+        "best_index": 6,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "be382754595bf14b88ac7059c8b2761d6fe60cea65ee0edc9bd3022433b123c1": {
       "created_at": "2026-06-26T12:30:41Z",
       "payload": {
@@ -1381,29 +1487,6 @@
           "threads": "Argo CD 3.5 tightens supply chain security with internal mTLS and Git commit verification. A notable update for GitOps workflows.\nhttps://www.infoq.com/news/2026/06/argocd-supply-chain-security/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "twitter": "Argo CD 3.5 adds mutual TLS and Git commit verification to tighten supply chain security. A major step for GitOps workflows.\nhttps://www.infoq.com/news/2026/06/argocd-supply-chain-security/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
         }
-      }
-    },
-    "c1f83c23ec339b64fcfa1d81dfea568119f23bd4cf7ba17d772d4f94fa2b023e": {
-      "created_at": "2026-06-25T12:33:53Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.5,
-            "index": 3,
-            "novelty_score": 0.2,
-            "reason": "The article discusses a new solar e-bike but lacks technical depth for software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Is this solar e-bike a good idea or sophisticated e-waste?",
-            "total_score": 2.2
-          }
-        ],
-        "best_index": 3,
-        "best_score": 2.2,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "c276fccecd4892914dd01378a7099db0f8dac05b7cd131a8cfc91be013e7959b": {
@@ -1532,29 +1615,6 @@
           "twitter": "Anthropic's Claude is making inroads into ChatGPT's paid consumer market, signaling a potential shift in AI preferences.\nhttps://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/"
         }
       }
-    },
-    "f8a544cca063f7b9b77989c08d9605594ae788949835d6e35e9de74ae2da0d18": {
-      "created_at": "2026-06-25T12:33:53Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 4,
-            "novelty_score": 2.5,
-            "reason": "Interesting architectural pattern for polyglot SDKs but niche impact and not a new release.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Presentation: Rust at the Core - Accelerating Polyglot SDK Development",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 4,
-        "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
     }
   },
   "groq_social_posts": {
@@ -1565,6 +1625,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 NVIDIA NeMo AutoModel Accelerates Fine-Tuning\nNVIDIA NeMo AutoModel streamlines transformer fine-tuning, a significant update for AI practitioners.\n\ud83c\udfdb\ufe0f Source: HuggingFace (S)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n#AI #MachineLearning #NVIDIA\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "NVIDIA NeMo AutoModel is accelerating transformer fine-tuning, a significant update for AI practitioners @NVIDIA #AI",
         "twitter": "NVIDIA NeMo AutoModel is streamlining transformer fine-tuning @NVIDIA #AI"
+      }
+    },
+    "10f4c3338de5e454687e2f74fe69027e0b3d52347a93f539758b2abe5a3449d5": {
+      "created_at": "2026-06-26T15:14:45Z",
+      "payload": {
+        "facebook": "The European continent is taking steps towards creating its own AI, possibly capitalizing on the changes brought about by the Trump administration. This development could have significant implications for the global AI landscape. #AI #EuropeanTech #ArtificialIntelligence",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Europe's AI Ambitions\nEuropean nations are pursuing independent AI development, potentially leveraging the aftermath of Donald Trump's presidency.\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #EuropeanTech #ArtificialIntelligence\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Europe is moving to develop its own AI, potentially using the post-Trump era to its advantage, @Wired #AI",
+        "twitter": "European nations seek to develop their own AI capabilities, potentially leveraging the aftermath of Donald Trump's presidency, @Wired @EU_Commission #AI"
       }
     },
     "1746453f5c9d9656a0eafbe978244cd76c7447aaeb91d8c6cd681418950f11a3": {
@@ -1844,6 +1913,12 @@
       "created_at": "2026-06-26T08:58:02Z",
       "status": "scoring_attempted",
       "title": "We All Depend on Open Source. We Will Defend It Together"
+    },
+    "https://alephneuro.com/blog/ultrasound-brain": {
+      "canonical_url": "https://alephneuro.com/blog/ultrasound-brain",
+      "created_at": "2026-06-26T15:14:45Z",
+      "status": "scoring_attempted",
+      "title": "Ultrasound Imaging of the Brain"
     },
     "https://alexkritchevsky.com/2024/02/28/geometric-algebra.html": {
       "canonical_url": "https://alexkritchevsky.com/2024/02/28/geometric-algebra.html",
@@ -2883,6 +2958,12 @@
       "status": "scoring_attempted",
       "title": "The Low-Tech AI of Elden Ring"
     },
+    "https://nesbitt.io/2026/06/26/incident-report-cve-2026-lgtm.html": {
+      "canonical_url": "https://nesbitt.io/2026/06/26/incident-report-cve-2026-lgtm.html",
+      "created_at": "2026-06-26T15:14:45Z",
+      "status": "scoring_attempted",
+      "title": "Incident CVE-2026-LGTM"
+    },
     "https://news.mit.edu/2026/exploring-societal-impacts-of-ai-0623": {
       "canonical_url": "https://news.mit.edu/2026/exploring-societal-impacts-of-ai-0623",
       "created_at": "2026-06-23T21:58:48Z",
@@ -2894,6 +2975,12 @@
       "created_at": "2026-06-25T05:49:38Z",
       "status": "scoring_attempted",
       "title": "Improving the speed and energy-efficiency of AI agents"
+    },
+    "https://news.mit.edu/2026/llms-help-robots-understand-vague-instructions-and-focus-key-details-0626": {
+      "canonical_url": "https://news.mit.edu/2026/llms-help-robots-understand-vague-instructions-and-focus-key-details-0626",
+      "created_at": "2026-06-26T15:14:45Z",
+      "status": "scoring_attempted",
+      "title": "LLMs help robots understand vague instructions and focus on key details"
     },
     "https://news.mit.edu/2026/mit-media-exploring-how-curiosity-driven-science-essential-ingredient-americas-success": {
       "canonical_url": "https://news.mit.edu/2026/mit-media-exploring-how-curiosity-driven-science-essential-ingredient-americas-success",
@@ -3267,6 +3354,12 @@
       "status": "scoring_attempted",
       "title": "The White House is asking OpenAI to slow roll the release of its new model over safety concerns"
     },
+    "https://techcrunch.com/2026/06/26/early-bird-pricing-ends-tonight-for-techcrunch-founder-summit": {
+      "canonical_url": "https://techcrunch.com/2026/06/26/early-bird-pricing-ends-tonight-for-techcrunch-founder-summit",
+      "created_at": "2026-06-26T15:14:45Z",
+      "status": "scoring_attempted",
+      "title": "Early Bird pricing ends tonight for TechCrunch Founder Summit"
+    },
     "https://techstrong.ai/articles/for-most-of-the-world-open-source-ai-is-the-only-way-forward": {
       "canonical_url": "https://techstrong.ai/articles/for-most-of-the-world-open-source-ai-is-the-only-way-forward",
       "created_at": "2026-06-24T18:14:56Z",
@@ -3380,6 +3473,12 @@
       "created_at": "2026-06-24T10:18:59Z",
       "status": "scoring_attempted",
       "title": "Samsung opens ChatGPT Enterprise and Codex access after AI restrictions"
+    },
+    "https://www.artificialintelligence-news.com/news/sap-aligns-commerce-data-for-ai-personalisation": {
+      "canonical_url": "https://www.artificialintelligence-news.com/news/sap-aligns-commerce-data-for-ai-personalisation",
+      "created_at": "2026-06-26T15:14:45Z",
+      "status": "scoring_attempted",
+      "title": "SAP aligns commerce data for AI personalisation"
     },
     "https://www.bbc.com/news/articles/c0rygp005wjo": {
       "canonical_url": "https://www.bbc.com/news/articles/c0rygp005wjo",
@@ -3566,6 +3665,12 @@
       "created_at": "2026-06-22T12:46:00Z",
       "status": "scoring_attempted",
       "title": "Podcast: How eBPF Empowers Developers to Observe Inside the Linux Kernel in a Safe and Unintrusive Way"
+    },
+    "https://www.infoq.com/presentations/ai-sdlc-pull-request": {
+      "canonical_url": "https://www.infoq.com/presentations/ai-sdlc-pull-request",
+      "created_at": "2026-06-26T15:14:45Z",
+      "status": "scoring_attempted",
+      "title": "Presentation: AI Works, Pull Requests Don\u2019t: How AI Is Breaking the SDLC and What To Do About It"
     },
     "https://www.infoq.com/presentations/incident-dns": {
       "canonical_url": "https://www.infoq.com/presentations/incident-dns",
@@ -3783,6 +3888,12 @@
       "status": "scoring_attempted",
       "title": "The $27 million Al proxy war over Alex Bores ends in a draw"
     },
+    "https://www.theverge.com/ai-artificial-intelligence/957327/anthropic-mythos-fable-ai-trump-administration-negotiations": {
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/957327/anthropic-mythos-fable-ai-trump-administration-negotiations",
+      "created_at": "2026-06-26T15:14:45Z",
+      "status": "scoring_attempted",
+      "title": "Anthropic&#8217;s Mythos mess is only getting worse"
+    },
     "https://www.theverge.com/ai-artificial-intelligence/957372/openai-will-delay-gpt-5-6-after-trump-administration-request": {
       "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/957372/openai-will-delay-gpt-5-6-after-trump-administration-request",
       "created_at": "2026-06-25T22:08:36Z",
@@ -3987,6 +4098,12 @@
       "status": "scoring_attempted",
       "title": "It\u2019s the last day of Prime Day \u2014 here are over 130 great deals to choose from"
     },
+    "https://www.theverge.com/gadgets/957605/apple-airpods-max-2-headphones-prime-day-deal-sale": {
+      "canonical_url": "https://www.theverge.com/gadgets/957605/apple-airpods-max-2-headphones-prime-day-deal-sale",
+      "created_at": "2026-06-26T15:14:45Z",
+      "status": "scoring_attempted",
+      "title": "Apple&#8217;s AirPods Max 2 headphones are still $150 off \u2014 for now"
+    },
     "https://www.theverge.com/games/952004/valve-steam-machine-price-not-subsidizing": {
       "canonical_url": "https://www.theverge.com/games/952004/valve-steam-machine-price-not-subsidizing",
       "created_at": "2026-06-22T17:19:35Z",
@@ -4052,6 +4169,12 @@
       "created_at": "2026-06-21T13:56:19Z",
       "status": "scoring_attempted",
       "title": "How Roomba started a robot revolution"
+    },
+    "https://www.theverge.com/podcast/957673/meta-polymarket-apple-prices-vergecast": {
+      "canonical_url": "https://www.theverge.com/podcast/957673/meta-polymarket-apple-prices-vergecast",
+      "created_at": "2026-06-26T15:14:45Z",
+      "status": "scoring_attempted",
+      "title": "Of course Meta thinks gambling is the future"
     },
     "https://www.theverge.com/policy/953944/bead-broadband-funding-trump-musk-bezos": {
       "canonical_url": "https://www.theverge.com/policy/953944/bead-broadband-funding-trump-musk-bezos",
@@ -4274,6 +4397,12 @@
       "created_at": "2026-06-22T12:46:00Z",
       "status": "scoring_attempted",
       "title": "Some Electricians Think Building Data Centers Is for Sellouts"
+    },
+    "https://www.wired.com/story/europe-is-fed-up-and-wants-its-own-ai": {
+      "canonical_url": "https://www.wired.com/story/europe-is-fed-up-and-wants-its-own-ai",
+      "created_at": "2026-06-26T15:14:45Z",
+      "status": "scoring_attempted",
+      "title": "Europe Is Fed Up and Wants Its Own AI"
     },
     "https://www.wired.com/story/how-qatar-became-fifas-technology-test-lab": {
       "canonical_url": "https://www.wired.com/story/how-qatar-became-fifas-technology-test-lab",
