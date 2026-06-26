@@ -52,6 +52,52 @@
         }
       }
     },
+    "01327e89defd9f196fcc0978f63ab4ad773e0a365063c6a7090e5e86d13b18b6": {
+      "created_at": "2026-06-26T16:20:07Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 0.5,
+            "index": 1,
+            "novelty_score": 0.2,
+            "reason": "This is a commercial article about a sale, not a technical or research piece.",
+            "red_flag": true,
+            "red_flag_reason": "tutorial",
+            "source_score": 1.5,
+            "title": "Xreal\u2019s best USB-C smart glasses are $50 off, but not for long",
+            "total_score": 4.2
+          }
+        ],
+        "best_index": 1,
+        "best_score": 4.2,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "07ec3fa991b48b4ef0a3c6358f65e8f5173653d75cf6094b1acaa731a106baf1": {
+      "created_at": "2026-06-26T16:20:07Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 3,
+            "novelty_score": 1.5,
+            "reason": "Arduino Uno Q price increase affects developers and hobbyists.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "It\u2019s now the Arduino Uno Q\u2019s turn to get a price hike",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 3,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "0b16c5324be6372e26058624f21415a0b3c24d5d6f8a9534dec033a9876d66ed": {
       "created_at": "2026-06-26T12:30:41Z",
       "payload": {
@@ -78,53 +124,6 @@
           "threads": "Apple is skipping Pro/Max versions of the M6 chip, fast-tracking M7 with new tech originally planned for later. This could impact developers and AI researchers. https://www.theverge.com/tech/957561/apple-m6-m7-ai-chip-release-timeline-gurman",
           "twitter": "Apple is skipping Pro/Max versions of the M6 chip, fast-tracking M7 with new tech originally planned for later. https://www.theverge.com/tech/957561/apple-m6-m7-ai-chip-release-timeline-gurman"
         }
-      }
-    },
-    "150b2db291f2380816a009621f447f5cb878e340a05744f11dc9460d7b361fd4": {
-      "created_at": "2026-06-25T15:31:40Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 3,
-            "novelty_score": 2,
-            "reason": "Industry move with moderate impact and fresh source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Netris raises $15M Series A from a16z to help AI neoclouds go live faster",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 0.5,
-            "index": 4,
-            "novelty_score": 1.5,
-            "reason": "Industry move with limited impact on software engineers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Bungie hit with \u2018significant\u2019 layoffs after ending Destiny 2",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.5,
-            "index": 5,
-            "novelty_score": 0.2,
-            "reason": "Low novelty and impact, niche topic.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Ask HN: What surprised you about Estonia e-Residency and running an Estonian \u00dc?",
-            "total_score": 2.7
-          }
-        ],
-        "best_index": 3,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "179c1a1a713401a4e5dd2ade4e0749af46054bad1c06bf341ed4c8e0b3b9bce6": {
@@ -359,41 +358,6 @@
         "social_posts": {}
       }
     },
-    "3da370cdfa1b65cf1a3ccf578e447a438738e9ea73f704819f8c0df86eded3c7": {
-      "created_at": "2026-06-25T15:31:40Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 9,
-            "novelty_score": 2.0,
-            "reason": "Adobe's acquisition of Topaz Labs is a notable industry move but has limited impact on software engineers and AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Adobe acquires image and video enhancement tool maker Topaz Labs",
-            "total_score": 5.0
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 10,
-            "novelty_score": 1.5,
-            "reason": "Apple's price hikes are newsworthy but have limited relevance to software engineers and AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Apple raises prices on Macs, iPads, and more by hundreds of dollars",
-            "total_score": 6.0
-          }
-        ],
-        "best_index": 9,
-        "best_score": 5.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "3de0dfe569b197feb0bd92e512c24d131adfb6e65a16769785fb38725ddd0cc3": {
       "created_at": "2026-06-26T08:58:02Z",
       "payload": {
@@ -495,53 +459,6 @@
           }
         ],
         "best_index": 20,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "46576d5b59e8730df35d409e722df62afd47d56fa72681c6fb3c4e2f80ecac26": {
-      "created_at": "2026-06-25T15:31:40Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 6,
-            "novelty_score": 2.5,
-            "reason": "Important case of government overreach in digital speech, but niche impact and lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Federal agents track down woman, demand she remove Instagram post about ICE",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 0.0,
-            "index": 7,
-            "novelty_score": 0.0,
-            "reason": "Marketing content with no technical or research value.",
-            "red_flag": true,
-            "red_flag_reason": "Marketing content",
-            "source_score": 1.5,
-            "title": "2 days left to save up to $190: Join 1,000+ founders and investors at TechCrunch Founder Summit",
-            "total_score": 3.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 8,
-            "novelty_score": 1.5,
-            "reason": "Interesting but not groundbreaking, relevant to consumers but not developers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Samsung\u2019s new budget phone costs $50 more despite downgrades",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 6,
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
@@ -935,6 +852,29 @@
         "social_posts": {}
       }
     },
+    "7a09f6780a474352e259c0a7d02a6213d216363b9b4fb6af6bfb8107fbca9a82": {
+      "created_at": "2026-06-26T16:20:07Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 4,
+            "novelty_score": 2.0,
+            "reason": "Industry move with moderate impact and freshness, but low-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "The AI industry is pouring millions into US elections",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 4,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "7b0d5fc3a117aae4122539acb143bbd705d4d9c39143e07b9543f248b282792c": {
       "created_at": "2026-06-25T22:08:36Z",
       "payload": {
@@ -1076,58 +1016,6 @@
         "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "9851d7f06cce4d9cad2c49be5156cd7a6fc1387b69494557d79f24c40e813ffe": {
-      "created_at": "2026-06-25T15:31:40Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 1.5,
-            "reason": "Interesting but not directly relevant to software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "How the World Cup became a US streaming success story",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 0.5,
-            "index": 1,
-            "novelty_score": 1.5,
-            "reason": "Not relevant to software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Get Macbooks at a Prime Day discount before Apple\u2019s new price hikes kick in",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "Relevant to AI researchers and software engineers, with significant impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Ford rehires 350 engineers after AI fails to preserve expertise or train juniors",
-            "total_score": 8
-          }
-        ],
-        "best_index": 2,
-        "best_score": 8,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Ford's decision to rehire 350 engineers after AI fell short highlights the ongoing challenges in AI adoption. The move underscores the importance of human expertise in critical roles. Link: https://www.bloomberg.com/news/articles/2026-06-25/ford-has-been-rehiring-quality-inspectors-after-ai-fell-short",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Ford rehires 350 engineers after AI fails to preserve expertise or train juniors*\n\nFord is rehiring 350 engineers after AI fell short in preserving expertise and training junior staff, highlighting ongoing challenges in AI adoption.\n\n\ud83c\udfdb\ufe0f Source: Bloomberg (C)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8/10\n\n\ud83d\udd17 https://www.bloomberg.com/news/articles/2026-06-25/ford-has-been-rehiring-quality-inspectors-after-ai-fell-short\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Ford is bringing back 350 engineers after AI couldn't match human expertise. A notable setback for AI in quality inspection roles.\nhttps://www.bloomberg.com/news/articles/2026-06-25/ford-has-been-rehiring-quality-inspectors-after-ai-fell-short",
-          "twitter": "Ford is rehiring 350 engineers after AI failed to preserve expertise or train juniors. A stark reminder of AI's limitations in critical roles.\nhttps://www.bloomberg.com/news/articles/2026-06-25/ford-has-been-rehiring-quality-inspectors-after-ai-fell-short"
-        }
       }
     },
     "a133997520b1c920d68886ea87f7828f0fc48d2eb6d03b4b6cfc2ec822428d9c": {
@@ -3486,6 +3374,12 @@
       "status": "scoring_attempted",
       "title": "'We had to get out of the way': The backlash over delivery robots"
     },
+    "https://www.bloodinthemachine.com/p/the-ai-industry-is-pouring-hundreds": {
+      "canonical_url": "https://www.bloodinthemachine.com/p/the-ai-industry-is-pouring-hundreds",
+      "created_at": "2026-06-26T16:20:07Z",
+      "status": "scoring_attempted",
+      "title": "The AI industry is pouring millions into US elections"
+    },
     "https://www.bloomberg.com/news/articles/2026-06-20/ubisoft-co-founder-claude-guillemot-dies-in-air-crash-at-age-69": {
       "canonical_url": "https://www.bloomberg.com/news/articles/2026-06-20/ubisoft-co-founder-claude-guillemot-dies-in-air-crash-at-age-69",
       "created_at": "2026-06-20T17:06:28Z",
@@ -3984,6 +3878,12 @@
       "status": "scoring_attempted",
       "title": "Cheap stuff that doesn\u2019t suck and is under $25 for Prime Day"
     },
+    "https://www.theverge.com/gadgets/952261/xreal-one-pro-1s-smart-glasses-deal-sale": {
+      "canonical_url": "https://www.theverge.com/gadgets/952261/xreal-one-pro-1s-smart-glasses-deal-sale",
+      "created_at": "2026-06-26T16:20:07Z",
+      "status": "scoring_attempted",
+      "title": "Xreal\u2019s best USB-C smart glasses are $50 off, but not for long"
+    },
     "https://www.theverge.com/gadgets/952282/best-4k-tv-deals-amazon-prime-day-sale": {
       "canonical_url": "https://www.theverge.com/gadgets/952282/best-4k-tv-deals-amazon-prime-day-sale",
       "created_at": "2026-06-23T20:28:19Z",
@@ -4325,6 +4225,12 @@
       "created_at": "2026-06-26T12:30:41Z",
       "status": "scoring_attempted",
       "title": "Samsung will soon start charging to access its smart home API"
+    },
+    "https://www.theverge.com/tech/957751/arduino-q-microcomputer-price-increase-ram-crisis": {
+      "canonical_url": "https://www.theverge.com/tech/957751/arduino-q-microcomputer-price-increase-ram-crisis",
+      "created_at": "2026-06-26T16:20:07Z",
+      "status": "scoring_attempted",
+      "title": "It\u2019s now the Arduino Uno Q\u2019s turn to get a price hike"
     },
     "https://www.theverge.com/transportation/954291/amflows-tl-e-bike-is-ready-for-babys-first-mountain-adventure": {
       "canonical_url": "https://www.theverge.com/transportation/954291/amflows-tl-e-bike-is-ready-for-babys-first-mountain-adventure",
