@@ -530,6 +530,29 @@
         "social_posts": {}
       }
     },
+    "9d964ed63a4c725de83b33c59194ecbb22a9595ac5d13ac5e0539624dc46beaf": {
+      "created_at": "2026-06-27T20:02:18Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1,
+            "impact_score": 0.5,
+            "index": 5,
+            "novelty_score": 0.2,
+            "reason": "Comments section of a blog post, not a formal article.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Running a software jam in a world of slop",
+            "total_score": 2.2
+          }
+        ],
+        "best_index": 5,
+        "best_score": 2.2,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "9f50a1f86e01a1a7412e62c119baaecef8ede918391b10d46eda0eb1befd1e52": {
       "created_at": "2026-06-27T16:20:01Z",
       "payload": {
@@ -1893,6 +1916,12 @@
       "created_at": "2026-06-21T05:19:01Z",
       "status": "scoring_attempted",
       "title": "Developers don't understand CORS (2019)"
+    },
+    "https://foxmoss.com/blog/radish": {
+      "canonical_url": "https://foxmoss.com/blog/radish",
+      "created_at": "2026-06-27T20:02:18Z",
+      "status": "scoring_attempted",
+      "title": "Running a software jam in a world of slop"
     },
     "https://github.com/Intuned/selector-forge": {
       "canonical_url": "https://github.com/Intuned/selector-forge",
