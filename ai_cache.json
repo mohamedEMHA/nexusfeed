@@ -198,6 +198,29 @@
         "recommendation": "SKIP"
       }
     },
+    "3480734d91b692b14d5fb89ac57c5312fa4c0781d8617dbd032088d93c186bb8": {
+      "created_at": "2026-06-27T18:47:20Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 0.5,
+            "reason": "This is a recap of an interview, not a new development in AI.",
+            "red_flag": true,
+            "red_flag_reason": "recap",
+            "source_score": 1.5,
+            "title": "Margaret Atwood says the problem with AI is 'garbage in, garbage out'",
+            "total_score": 4.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 4.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "37a37c6663cc352b1cf3e4819fc76ec9a3ae03502da66d59c397aa40390bed4d": {
       "created_at": "2026-06-27T01:24:34Z",
       "payload": {
@@ -242,6 +265,34 @@
         "best_score": 4.2,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "4ac1f804a333d50aa1f6492a32db1a8a485db370bfc55cc604119875815036ef": {
+      "created_at": "2026-06-27T18:47:20Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "Apple's move to seek an exception to buy RAM chips from a blacklisted Chinese supplier is a significant industry development with broad implications for supply chain dynamics.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Apple wants permission to buy memory from a blacklisted Chinese supplier",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Apple is reportedly seeking permission to buy RAM chips from a Chinese supplier blacklisted by the Pentagon. This move comes as the tech giant looks to alleviate pressure on its supply chain amid rising RAM prices. Link: https://www.theverge.com/tech/958707/apple-ram-buy-memory-blacklisted-china-cxmt",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Apple wants permission to buy memory from a blacklisted Chinese supplier*\n\nApple is seeking an exception from the Trump administration to buy RAM chips from CXMT, a company blacklisted by the Pentagon over ties to the People's Liberation Army.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/tech/958707/apple-ram-buy-memory-blacklisted-china-cxmt\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Apple wants to buy RAM from a blacklisted Chinese supplier, seeking a Trump-era waiver. This could reshape supply chain strategies in the tech industry. https://www.theverge.com/tech/958707/apple-ram-buy-memory-blacklisted-china-cxmt",
+          "twitter": "Apple seeks Trump-era waiver to buy RAM from blacklisted Chinese supplier CXMT amid skyrocketing prices. https://www.theverge.com/tech/958707/apple-ram-buy-memory-blacklisted-china-cxmt"
+        }
       }
     },
     "4d18f6dd06cb131a476d078853cc635bd7b68697c9f20d3d45dbbefabc93ccd1": {
@@ -311,58 +362,6 @@
         "best_score": 3.2,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "5a0787c91b7ac35698277cdeb4293c884e7b9199b24e16134286babb3fc49571": {
-      "created_at": "2026-06-26T18:08:12Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 12,
-            "novelty_score": 2.5,
-            "reason": "AI models' political consequences require collective action.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "It\u2019s not about Anthropic vs. OpenAI anymore",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 14,
-            "novelty_score": 1.5,
-            "reason": "Niche appointment, limited immediate impact on AI research.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "David Autor named head of the Department of Economics",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1,
-            "impact_score": 2.5,
-            "index": 19,
-            "novelty_score": 3,
-            "reason": "OpenAI's custom inference chip challenges Nvidia's dominance.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "OpenAI\u2019s Jalape\u00f1o chip is Big Tech\u2019s spiciest move away from Nvidia",
-            "total_score": 8
-          }
-        ],
-        "best_index": 12,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "The AI arms race between Anthropic and OpenAI is no longer the main story. The real challenge is managing the political consequences of advanced AI models. This shift requires collective action, not just competition.\nLink: https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *It\u2019s not about Anthropic vs. OpenAI anymore*\n\nAI models have progressed to the point where their capabilities have real political consequences. Dealing with those consequences will require collective action.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/",
-          "threads": "AI models have reached a point where their political impact requires collective action, not just rivalry between Anthropic and OpenAI.\nhttps://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/",
-          "twitter": "AI models' political consequences now demand collective action, not just Anthropic vs. OpenAI rivalry.\nhttps://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/"
-        }
       }
     },
     "5a4386a45d7b4f98a09527acf17293c1532aa49b470006cdb4f873975afe4c7e": {
@@ -529,58 +528,6 @@
         "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "8a1172bd0ec98eda5863770b12c2121b4e19c56f84a37272f83ba0ee035ad4dd": {
-      "created_at": "2026-06-26T18:08:12Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 8,
-            "novelty_score": 2.0,
-            "reason": "Industry move with moderate impact and fresh source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Smart lock maker Level has been gutted and its founders are out",
-            "total_score": 6.0
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 9,
-            "novelty_score": 3.0,
-            "reason": "New release with high impact but from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Show HN: Smart model routing directly in Claude, Codex and Cursor",
-            "total_score": 8.0
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 10,
-            "novelty_score": 3.0,
-            "reason": "New release with high impact and a solid source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.0,
-            "title": "Vercel Introduces Eve, an Open-Source Framework for Building AI Agents",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 10,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Vercel has released Eve, an open-source framework for building, deploying, and operating AI agents in production. The framework uses a filesystem-based project structure to organize agent instructions, tools, skills, subagents, communication channels, and scheduled tasks. This could be a game-changer for developers looking to streamline their AI agent development process.\nLink: https://www.infoq.com/news/2026/06/vercel-eve-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Vercel Introduces Eve, an Open-Source Framework for Building AI Agents*\n\nVercel has released Eve, an open-source framework for building, deploying, and operating AI agents in production. The framework uses a filesystem-based project structure to organize agent instructions, tools, skills, subagents, communication channels, and scheduled tasks.\n\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (B)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.infoq.com/news/2026/06/vercel-eve-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Vercel's new open-source framework Eve lets developers build AI agents with a filesystem-based structure. Could simplify agent development significantly.\nhttps://www.infoq.com/news/2026/06/vercel-eve-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "twitter": "Vercel just open-sourced Eve, a framework for building AI agents in production. It uses a filesystem-based structure for organizing agent components.\nhttps://www.infoq.com/news/2026/06/vercel-eve-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
-        }
       }
     },
     "9f50a1f86e01a1a7412e62c119baaecef8ede918391b10d46eda0eb1befd1e52": {
@@ -840,134 +787,6 @@
         "social_posts": {}
       }
     },
-    "e92050bb9f7f03c7bd2b6cd8fbd0efbefc9b0fe34bd00bc07fd23443e02ed979": {
-      "created_at": "2026-06-26T18:08:12Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 0.5,
-            "reason": "Opinion piece on immigration policies, not directly relevant to software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "The beautiful shame",
-            "total_score": 4.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 0.5,
-            "index": 1,
-            "novelty_score": 0.2,
-            "reason": "Consumer gadget review, not relevant to software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "This video bird feeder is the surprise hit of Prime Day",
-            "total_score": 4.2
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "High-impact analysis of AI chip development trends involving major tech players.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Why everyone from OpenAI to SpaceX is building their own chips (and turning up the heat on Nvidia)",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1,
-            "index": 3,
-            "novelty_score": 1.5,
-            "reason": "Interesting but niche story about climate data website, not directly relevant to software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Ex-NOAA employees laid off by DOGE rebuilt climate website",
-            "total_score": 5
-          }
-        ],
-        "best_index": 2,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Major tech companies like OpenAI and SpaceX are developing their own AI chips, challenging Nvidia's dominance. This shift could significantly impact the AI hardware landscape. Link: https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Why everyone from OpenAI to SpaceX is building their own chips (and turning up the heat on Nvidia)*\n\nMajor tech companies are developing custom AI chips to reduce dependence on Nvidia, potentially reshaping the AI hardware landscape.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "OpenAI, SpaceX, and others are building custom AI chips to reduce Nvidia dependence. The AI chip wars are heating up. This could reshape the AI hardware landscape. https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/",
-          "twitter": "OpenAI, SpaceX, and others are building custom AI chips to reduce Nvidia dependence. The AI chip wars are heating up.\nhttps://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/"
-        }
-      }
-    },
-    "ebc599e390e663f5b7db5f2041fb7fa650f387bce2d902e1c6dc788c588e3aa8": {
-      "created_at": "2026-06-26T18:08:12Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 26,
-            "novelty_score": 2.5,
-            "reason": "OpenAI's preview of GPT-5.6 Sol is a significant release with broad implications for coding, science, and cybersecurity.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 2,
-            "title": "Previewing GPT-5.6 Sol: a next-generation model",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 3,
-            "index": 5,
-            "novelty_score": 2,
-            "reason": "The White House's request to delay OpenAI's GPT-5.6 models highlights the intersection of AI development and regulatory oversight.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "OpenAI Has New AI Models. Here\u2019s Why You Can\u2019t Use Them",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 0.5,
-            "index": 6,
-            "novelty_score": 0,
-            "reason": "A hiring post for a startup does not provide significant technical or industry insights.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Liva AI (YC S25) Is Hiring",
-            "total_score": 3
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 7,
-            "novelty_score": 2.5,
-            "reason": "The unveiling of GPT-5.6 amidst regulatory drama is a significant development in the AI industry.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "OpenAI unveils GPT-5.6 amid US AI regulatory drama",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 5,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "The White House has requested OpenAI to delay the rollout of its GPT-5.6 AI models, just two weeks after Anthropic had to take its most advanced AI models offline. This move highlights the growing tension between AI development and regulatory oversight. Link: https://www.wired.com/story/openai-gpt-56-model-release-trump-admin-approval/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *OpenAI Has New AI Models. Here\u2019s Why You Can\u2019t Use Them*\n\nThe White House asked OpenAI to delay the rollout of its GPT-5.6 AI models, two weeks after Anthropic had to take its most advanced AI models offline.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.wired.com/story/openai-gpt-56-model-release-trump-admin-approval/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "The White House asked OpenAI to delay GPT-5.6's release, following Anthropic's model takedown. The AI regulatory landscape is heating up. https://www.wired.com/story/openai-gpt-56-model-release-trump-admin-approval/",
-          "twitter": "The White House asked OpenAI to delay GPT-5.6's release, following Anthropic's model takedown. The AI regulatory landscape is heating up. https://www.wired.com/story/openai-gpt-56-model-release-trump-admin-approval/"
-        }
-      }
-    },
     "fb5e847b0d34e0ad63cf59f2b01323f9568102ed6ce24faf7c1513fde3fd1d8f": {
       "created_at": "2026-06-27T01:59:03Z",
       "payload": {
@@ -1045,6 +864,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Samsung Electronics Deploys AI Tools\nSamsung Electronics is deploying ChatGPT Enterprise and Codex to its employees worldwide, marking one of OpenAI\u2019s largest enterprise AI rollouts.\n\ud83c\udfdb\ufe0f Source: OpenAI (S)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n#AIadoption #ChatGPT #EnterpriseAI\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Samsung Electronics is bringing ChatGPT Enterprise and Codex to its global workforce, marking a major milestone for OpenAI @OpenAI #AIadoption",
         "twitter": "Samsung Electronics is rolling out ChatGPT Enterprise and Codex to its global workforce @OpenAI #AIadoption #ChatGPT"
+      }
+    },
+    "232341ef763c00e33bc24b8f3a67340f77f0798f552e03d0569ee46e1597a695": {
+      "created_at": "2026-06-27T18:47:20Z",
+      "payload": {
+        "facebook": "The tech industry is watching as Apple requests permission to purchase memory from CXMT, a Chinese company blacklisted by the Pentagon. This move could have significant implications for supply chain dynamics and the industry as a whole. #Apple #SupplyChain #TechNews",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Apple Seeks Exception to Buy Memory from Blacklisted Supplier\nApple is looking to alleviate supply chain pressure by seeking an exception to buy RAM chips from CXMT, a Chinese company blacklisted by the Pentagon.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n#Apple #SupplyChain #TechNews\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Apple is looking to alleviate supply chain pressure by seeking an exception to buy RAM chips from blacklisted Chinese supplier CXMT, @TheVerge reports, a significant development for the industry #Apple",
+        "twitter": "Apple seeks exception to buy RAM chips from blacklisted Chinese supplier CXMT, @TheVerge reports, amid supply chain pressures #Apple"
       }
     },
     "249d615cd6011758069c6f5c8a07b78010389cc76a72f5d4c22c35c8c5dac197": {
@@ -2312,12 +2140,6 @@
       "status": "scoring_attempted",
       "title": "New chip could help tiny robots traverse complex environments"
     },
-    "https://news.ycombinator.com/item?id=48611303": {
-      "canonical_url": "https://news.ycombinator.com/item?id=48611303",
-      "created_at": "2026-06-20T18:45:58Z",
-      "status": "scoring_attempted",
-      "title": "Ask HN: Due to spam on GitHub, what platforms can I move my projects?"
-    },
     "https://news.ycombinator.com/item?id=48642229": {
       "canonical_url": "https://news.ycombinator.com/item?id=48642229",
       "created_at": "2026-06-23T09:33:05Z",
@@ -2798,12 +2620,6 @@
       "status": "scoring_attempted",
       "title": "Fintech Engineering Handbook"
     },
-    "https://waxy.org/2026/06/the-wholesale-plagiarism-of-obscure-sorrows": {
-      "canonical_url": "https://waxy.org/2026/06/the-wholesale-plagiarism-of-obscure-sorrows",
-      "created_at": "2026-06-20T18:45:58Z",
-      "status": "scoring_attempted",
-      "title": "Agency stole bestselling author's book, used AI to relaunch as their own"
-    },
     "https://werd.io/journalism-is-rearranging-the-deckchairs-it-needs-to-reinvent-itself": {
       "canonical_url": "https://werd.io/journalism-is-rearranging-the-deckchairs-it-needs-to-reinvent-itself",
       "created_at": "2026-06-24T18:14:56Z",
@@ -2821,12 +2637,6 @@
       "created_at": "2026-06-23T18:20:38Z",
       "status": "scoring_attempted",
       "title": "Introducing Claude Tag"
-    },
-    "https://www.argusred.com/cli": {
-      "canonical_url": "https://www.argusred.com/cli",
-      "created_at": "2026-06-20T18:45:58Z",
-      "status": "scoring_attempted",
-      "title": "Show HN: We post-trained a model that pen tests instead of refusing"
     },
     "https://www.artificialintelligence-news.com/news/anthropic-slack-workplace-ai-agents": {
       "canonical_url": "https://www.artificialintelligence-news.com/news/anthropic-slack-workplace-ai-agents",
@@ -3224,12 +3034,6 @@
       "status": "scoring_attempted",
       "title": "Apple raises prices of MacBooks, iPads"
     },
-    "https://www.reuters.com/world/ubisofts-co-founder-claude-guillemot-dies-plane-crash-2026-06-20": {
-      "canonical_url": "https://www.reuters.com/world/ubisofts-co-founder-claude-guillemot-dies-plane-crash-2026-06-20",
-      "created_at": "2026-06-20T18:45:58Z",
-      "status": "scoring_attempted",
-      "title": "Ubisoft co-founder Claude Guillemot has died in a plane crash"
-    },
     "https://www.satisfice.com/blog/archives/488148": {
       "canonical_url": "https://www.satisfice.com/blog/archives/488148",
       "created_at": "2026-06-21T09:04:28Z",
@@ -3307,6 +3111,12 @@
       "created_at": "2026-06-26T18:08:12Z",
       "status": "scoring_attempted",
       "title": "OpenAI unveils GPT-5.6 amid US AI regulatory drama"
+    },
+    "https://www.theverge.com/ai-artificial-intelligence/958715/margaret-atwood-ai-problem-garbage-in-garbage-out": {
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/958715/margaret-atwood-ai-problem-garbage-in-garbage-out",
+      "created_at": "2026-06-27T18:47:20Z",
+      "status": "scoring_attempted",
+      "title": "Margaret Atwood says the problem with AI is &#8216;garbage in, garbage out&#8217;"
     },
     "https://www.theverge.com/column/950975/electric-air-taxis-lawsuits": {
       "canonical_url": "https://www.theverge.com/column/950975/electric-air-taxis-lawsuits",
@@ -3787,6 +3597,12 @@
       "created_at": "2026-06-27T13:23:50Z",
       "status": "scoring_attempted",
       "title": "Inside the room where the smart home industry is still betting on Matter"
+    },
+    "https://www.theverge.com/tech/958707/apple-ram-buy-memory-blacklisted-china-cxmt": {
+      "canonical_url": "https://www.theverge.com/tech/958707/apple-ram-buy-memory-blacklisted-china-cxmt",
+      "created_at": "2026-06-27T18:47:20Z",
+      "status": "scoring_attempted",
+      "title": "Apple wants permission to buy memory from a blacklisted Chinese supplier"
     },
     "https://www.theverge.com/transportation/954291/amflows-tl-e-bike-is-ready-for-babys-first-mountain-adventure": {
       "canonical_url": "https://www.theverge.com/transportation/954291/amflows-tl-e-bike-is-ready-for-babys-first-mountain-adventure",
