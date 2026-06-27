@@ -1,28 +1,5 @@
 {
   "cerebras_scoring": {
-    "01327e89defd9f196fcc0978f63ab4ad773e0a365063c6a7090e5e86d13b18b6": {
-      "created_at": "2026-06-26T16:20:07Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 0.5,
-            "index": 1,
-            "novelty_score": 0.2,
-            "reason": "This is a commercial article about a sale, not a technical or research piece.",
-            "red_flag": true,
-            "red_flag_reason": "tutorial",
-            "source_score": 1.5,
-            "title": "Xreal\u2019s best USB-C smart glasses are $50 off, but not for long",
-            "total_score": 4.2
-          }
-        ],
-        "best_index": 1,
-        "best_score": 4.2,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "04b26d61e8cf839f9d08995d9d22739de5edce727f7cd3c651621179ce6bc9e0": {
       "created_at": "2026-06-27T01:24:34Z",
       "payload": {
@@ -51,27 +28,55 @@
         }
       }
     },
-    "07ec3fa991b48b4ef0a3c6358f65e8f5173653d75cf6094b1acaa731a106baf1": {
-      "created_at": "2026-06-26T16:20:07Z",
+    "060f9bd36bc172c726c6039378f46674b039521792799eee51b597134d942544": {
+      "created_at": "2026-06-27T17:33:33Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.5,
+            "index": 1,
+            "novelty_score": 0.2,
+            "reason": "Interesting case study but not relevant to software engineers or AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Doctors suspected man had brain cancer. He had worms",
+            "total_score": 2.2
+          }
+        ],
+        "best_index": 1,
+        "best_score": 2.2,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "0e5b73585d159f3c2fcca5eaf62681374234c20792459b00d43f451e7793232a": {
+      "created_at": "2026-06-27T17:33:33Z",
       "payload": {
         "articles": [
           {
             "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 3,
-            "novelty_score": 1.5,
-            "reason": "Arduino Uno Q price increase affects developers and hobbyists.",
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "High-impact executive move between major tech companies with strong AI relevance.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 1.5,
-            "title": "It\u2019s now the Arduino Uno Q\u2019s turn to get a price hike",
-            "total_score": 6.5
+            "title": "Apple Vision Pro exec is reportedly leaving for OpenAI",
+            "total_score": 8.5
           }
         ],
-        "best_index": 3,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
+        "best_index": 0,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Paul Meade, Apple's VP overseeing the Vision Pro, is reportedly leaving for OpenAI to work on hardware. This could signal a significant shift in OpenAI's hardware strategy. Link: https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Apple Vision Pro exec reportedly leaving for OpenAI*\n\nPaul Meade, Apple's VP overseeing the Vision Pro, is reportedly joining OpenAI's hardware team.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Apple's Vision Pro VP Paul Meade is reportedly joining OpenAI's hardware team. This could be a major move in the AI hardware space. https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
+          "twitter": "Apple's Vision Pro VP Paul Meade is reportedly joining OpenAI's hardware team. A major shift in the AI hardware landscape. https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/"
+        }
       }
     },
     "10a5038b3f5ba9e73ea12ddb859223c58e1b1a4c64314b7bb4bec2d7d80280da": {
@@ -521,29 +526,6 @@
           }
         ],
         "best_index": 3,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "7a09f6780a474352e259c0a7d02a6213d216363b9b4fb6af6bfb8107fbca9a82": {
-      "created_at": "2026-06-26T16:20:07Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 4,
-            "novelty_score": 2.0,
-            "reason": "Industry move with moderate impact and freshness, but low-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "The AI industry is pouring millions into US elections",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 4,
         "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
@@ -1272,6 +1254,15 @@
         "twitter": "Ford's reliance on automated systems led to mistakes that required rehiring former engineers to fix, says @TheVerge, highlighting AI challenges in manufacturing #AI #Automotive"
       }
     },
+    "dd273f231789bbbe51b4e79ed5d4e3d9b8ae075db577cfdb21b016d4c757ef04": {
+      "created_at": "2026-06-27T17:33:33Z",
+      "payload": {
+        "facebook": "A significant shift in the tech landscape as Apple's vice president in charge of the Vision Pro headset, Paul Meade, is reportedly moving to OpenAI's hardware team. This move highlights the growing importance of AI in the industry. #AI #TechNews #OpenAI",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Apple's Vision Pro Headset Lead Departs for OpenAI\nPaul Meade is leaving Apple to join OpenAI's hardware team, marking a significant move in the tech industry.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #TechNews #OpenAI\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Paul Meade, the executive behind Apple's Vision Pro headset, is joining OpenAI's hardware team, a move that underscores the increasing focus on AI @OpenAI #AI",
+        "twitter": "Apple's Vision Pro headset lead Paul Meade is leaving to join OpenAI's hardware team @OpenAI #AI"
+      }
+    },
     "e126ea64fd46e434deb58e39346da4abb36d1eaf67e50d326e4598e2f41c909d": {
       "created_at": "2026-06-24T15:21:58Z",
       "payload": {
@@ -1396,6 +1387,12 @@
       "created_at": "2026-06-25T20:33:19Z",
       "status": "scoring_attempted",
       "title": "Google finally releases a Finance Android app, promises iOS version later in 2026"
+    },
+    "https://arstechnica.com/health/2026/06/doctors-suspected-man-had-brain-cancer-he-actually-had-worms": {
+      "canonical_url": "https://arstechnica.com/health/2026/06/doctors-suspected-man-had-brain-cancer-he-actually-had-worms",
+      "created_at": "2026-06-27T17:33:33Z",
+      "status": "scoring_attempted",
+      "title": "Doctors suspected man had brain cancer. He had worms"
     },
     "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities": {
       "canonical_url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
@@ -2471,12 +2468,6 @@
       "status": "scoring_attempted",
       "title": "In the Weights is your new AI-centric vanity search"
     },
-    "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic": {
-      "canonical_url": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic",
-      "created_at": "2026-06-20T17:06:28Z",
-      "status": "scoring_attempted",
-      "title": "Nobel laureate John Jumper is leaving DeepMind for rival Anthropic"
-    },
     "https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends": {
       "canonical_url": "https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends",
       "created_at": "2026-06-20T21:40:39Z",
@@ -2729,6 +2720,12 @@
       "status": "scoring_attempted",
       "title": "Trump Admin releases Anthropic Mythos to be used by more than 100 US companies, agencies"
     },
+    "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai": {
+      "canonical_url": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai",
+      "created_at": "2026-06-27T17:33:33Z",
+      "status": "scoring_attempted",
+      "title": "Apple Vision Pro exec is reportedly leaving for OpenAI"
+    },
     "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on": {
       "canonical_url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on",
       "created_at": "2026-06-27T13:23:50Z",
@@ -2891,12 +2888,6 @@
       "status": "scoring_attempted",
       "title": "The AI industry is pouring millions into US elections"
     },
-    "https://www.bloomberg.com/news/articles/2026-06-20/ubisoft-co-founder-claude-guillemot-dies-in-air-crash-at-age-69": {
-      "canonical_url": "https://www.bloomberg.com/news/articles/2026-06-20/ubisoft-co-founder-claude-guillemot-dies-in-air-crash-at-age-69",
-      "created_at": "2026-06-20T17:06:28Z",
-      "status": "scoring_attempted",
-      "title": "Ubisoft co-founder Claude Guillemot has died in a plane crash"
-    },
     "https://www.bloomberg.com/news/articles/2026-06-25/apple-to-skip-high-end-m6-mac-chips-to-launch-m7-pro-m7-max-m7-ultra-instead?embedded-checkout=true": {
       "canonical_url": "https://www.bloomberg.com/news/articles/2026-06-25/apple-to-skip-high-end-m6-mac-chips-to-launch-m7-pro-m7-max-m7-ultra-instead?embedded-checkout=true",
       "created_at": "2026-06-26T01:32:02Z",
@@ -2950,12 +2941,6 @@
       "created_at": "2026-06-24T20:13:00Z",
       "status": "scoring_attempted",
       "title": "Big AI labs are hiring philosophers"
-    },
-    "https://www.extremetech.com/computing/windows-11s-new-media-player-uses-35x-more-ram-charges-for-popular-video": {
-      "canonical_url": "https://www.extremetech.com/computing/windows-11s-new-media-player-uses-35x-more-ram-charges-for-popular-video",
-      "created_at": "2026-06-20T17:06:28Z",
-      "status": "scoring_attempted",
-      "title": "Windows 11 New Media Player Uses 3.5x More RAM, Charges for Popular Video Codecs"
     },
     "https://www.ft.com/content/e5bac4d1-b1f8-43a4-bd54-b182d5357af0": {
       "canonical_url": "https://www.ft.com/content/e5bac4d1-b1f8-43a4-bd54-b182d5357af0",
