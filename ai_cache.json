@@ -258,6 +258,28 @@
         "social_posts": {}
       }
     },
+    "2ef80a31dce37afb585e01895aa5138ec16a66f4476387b35d5580bcaccf7555": {
+      "created_at": "2026-06-27T11:57:53Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 1,
+            "novelty_score": 0.2,
+            "reason": "Tutorial content with low novelty and impact.",
+            "red_flag": true,
+            "red_flag_reason": "tutorial",
+            "source_score": 0.5,
+            "title": "Fintech Engineering Handbook",
+            "total_score": 3.2
+          }
+        ],
+        "best_index": 1,
+        "best_score": 3.2,
+        "recommendation": "SKIP"
+      }
+    },
     "37a37c6663cc352b1cf3e4819fc76ec9a3ae03502da66d59c397aa40390bed4d": {
       "created_at": "2026-06-27T01:24:34Z",
       "payload": {
@@ -853,6 +875,29 @@
           "threads": "Argo CD 3.5 tightens supply chain security with internal mTLS and Git commit verification. A notable update for GitOps workflows.\nhttps://www.infoq.com/news/2026/06/argocd-supply-chain-security/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "twitter": "Argo CD 3.5 adds mutual TLS and Git commit verification to tighten supply chain security. A major step for GitOps workflows.\nhttps://www.infoq.com/news/2026/06/argocd-supply-chain-security/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
         }
+      }
+    },
+    "d0d82d023a530f0ebd10a391e8542633aa90192dd9a682699b8374085ad27643": {
+      "created_at": "2026-06-27T11:57:53Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "New AWS tool for automated certificate and secret management, impacting all developers using AWS or non-AWS environments.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.0,
+            "title": "AWS Introduces Workload Credentials Provider for Automated Certificate and Secret Management",
+            "total_score": 8.0
+          }
+        ],
+        "best_index": 0,
+        "best_score": 8.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "d4cf666b031338e7776d0ea4b9bb681e46d8035ff615eae740811dff2662a613": {
@@ -2846,6 +2891,12 @@
       "status": "scoring_attempted",
       "title": "When I reject AI code even if it works"
     },
+    "https://w.pitula.me/fintech-engineering-handbook": {
+      "canonical_url": "https://w.pitula.me/fintech-engineering-handbook",
+      "created_at": "2026-06-27T11:57:53Z",
+      "status": "scoring_attempted",
+      "title": "Fintech Engineering Handbook"
+    },
     "https://waxy.org/2026/06/the-wholesale-plagiarism-of-obscure-sorrows": {
       "canonical_url": "https://waxy.org/2026/06/the-wholesale-plagiarism-of-obscure-sorrows",
       "created_at": "2026-06-20T18:45:58Z",
@@ -3038,12 +3089,6 @@
       "status": "scoring_attempted",
       "title": "Anthropic Lead: HTML Increasingly Better Than Markdown at Keeping Humans Engaged in Agentic Loops"
     },
-    "https://www.infoq.com/news/2026/06/apple-core-ai-wwdc": {
-      "canonical_url": "https://www.infoq.com/news/2026/06/apple-core-ai-wwdc",
-      "created_at": "2026-06-20T11:51:33Z",
-      "status": "scoring_attempted",
-      "title": "Apple Launches Core AI for Apple-Silicon Optimized On-Device Generative AI"
-    },
     "https://www.infoq.com/news/2026/06/argocd-supply-chain-security": {
       "canonical_url": "https://www.infoq.com/news/2026/06/argocd-supply-chain-security",
       "created_at": "2026-06-26T12:30:41Z",
@@ -3055,6 +3100,12 @@
       "created_at": "2026-06-23T09:33:05Z",
       "status": "scoring_attempted",
       "title": "AWS Launches Blocks, an Open-Source TypeScript Framework Designed for AI Agents to Build Backends"
+    },
+    "https://www.infoq.com/news/2026/06/aws-credentials-provider": {
+      "canonical_url": "https://www.infoq.com/news/2026/06/aws-credentials-provider",
+      "created_at": "2026-06-27T11:57:53Z",
+      "status": "scoring_attempted",
+      "title": "AWS Introduces Workload Credentials Provider for Automated Certificate and Secret Management"
     },
     "https://www.infoq.com/news/2026/06/aws-graviton5-ga": {
       "canonical_url": "https://www.infoq.com/news/2026/06/aws-graviton5-ga",
@@ -3163,12 +3214,6 @@
       "created_at": "2026-06-20T22:56:39Z",
       "status": "scoring_attempted",
       "title": "Nous Research Updates Hermes Agent With a Blank Slate Mode That Pins Toolsets via platform_toolsets.cli and disabled_toolsets"
-    },
-    "https://www.marktechpost.com/2026/06/20/yandex-open-sources-yaff-a-zero-copy-wire-format-for-protobuf-with-near-struct-read-speed": {
-      "canonical_url": "https://www.marktechpost.com/2026/06/20/yandex-open-sources-yaff-a-zero-copy-wire-format-for-protobuf-with-near-struct-read-speed",
-      "created_at": "2026-06-20T11:51:33Z",
-      "status": "scoring_attempted",
-      "title": "Yandex Open-Sources YaFF: A Zero-Copy Wire Format for Protobuf With Near-Struct Read Speed"
     },
     "https://www.marktechpost.com/2026/06/21/the-7-types-of-agent-memory-a-technical-guide-for-ai-engineers": {
       "canonical_url": "https://www.marktechpost.com/2026/06/21/the-7-types-of-agent-memory-a-technical-guide-for-ai-engineers",
@@ -3967,12 +4012,6 @@
       "created_at": "2026-06-24T15:21:58Z",
       "status": "scoring_attempted",
       "title": "Qualcomm Buys Buzzy Chip Startup Modular for Nearly $4 Billion"
-    },
-    "https://www.wired.com/story/siri-ai-hands-on-iphone": {
-      "canonical_url": "https://www.wired.com/story/siri-ai-hands-on-iphone",
-      "created_at": "2026-06-20T11:51:33Z",
-      "status": "scoring_attempted",
-      "title": "Siri AI Hands On: A Smart, Helpful Assistant"
     },
     "https://www.wired.com/story/the-trump-white-house-is-over-anthropics-dario-amodei": {
       "canonical_url": "https://www.wired.com/story/the-trump-white-house-is-over-anthropics-dario-amodei",
