@@ -1,57 +1,5 @@
 {
   "cerebras_scoring": {
-    "0101894ecc1a24028b25ae995ce582d1150c9b3eb8670176034cbb16f9d31971": {
-      "created_at": "2026-06-26T15:14:45Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "Anthropic's Mythos model issues are a significant industry development with broad implications for AI regulation and deployment.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Anthropic\u2019s Mythos mess is only getting worse",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.5,
-            "index": 4,
-            "novelty_score": 0.2,
-            "reason": "A consumer electronics deal with limited relevance to software engineers and AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Apple\u2019s AirPods Max 2 headphones are still $150 off \u2014 for now",
-            "total_score": 3.7
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.5,
-            "index": 5,
-            "novelty_score": 0,
-            "reason": "An event promotion with minimal technical content or relevance to the target audience.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Early Bird pricing ends tonight for TechCrunch Founder Summit",
-            "total_score": 3.5
-          }
-        ],
-        "best_index": 3,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Anthropic's Mythos model situation is worsening with no clear resolution after two weeks of negotiations with the Trump administration. The company has been notably quiet on updates. This is a significant development in AI regulation and deployment. Link: https://www.theverge.com/ai-artificial-intelligence/957327/anthropic-mythos-fable-ai-trump-administration-negotiations",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Anthropic\u2019s Mythos mess is only getting worse*\n\nAnthropic's Mythos model issues escalate as Trump administration pressures mount. No resolution in sight yet.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/ai-artificial-intelligence/957327/anthropic-mythos-fable-ai-trump-administration-negotiations\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Anthropic's Mythos model issues deepen with Trump administration pressure. Still no resolution after two weeks.\nhttps://www.theverge.com/ai-artificial-intelligence/957327/anthropic-mythos-fable-ai-trump-administration-negotiations",
-          "twitter": "Anthropic's Mythos model issues escalate as Trump administration pressures mount. No resolution in sight yet.\nhttps://www.theverge.com/ai-artificial-intelligence/957327/anthropic-mythos-fable-ai-trump-administration-negotiations"
-        }
-      }
-    },
     "01327e89defd9f196fcc0978f63ab4ad773e0a365063c6a7090e5e86d13b18b6": {
       "created_at": "2026-06-26T16:20:07Z",
       "payload": {
@@ -144,41 +92,6 @@
           }
         ],
         "best_index": 5,
-        "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "179c1a1a713401a4e5dd2ade4e0749af46054bad1c06bf341ed4c8e0b3b9bce6": {
-      "created_at": "2026-06-26T15:14:45Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 8,
-            "novelty_score": 2,
-            "reason": "Industry move with moderate impact and freshness.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "SAP aligns commerce data for AI personalisation",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1,
-            "impact_score": 0,
-            "index": 11,
-            "novelty_score": 0,
-            "reason": "Red flag due to 'Comments' in title.",
-            "red_flag": true,
-            "red_flag_reason": "Comments",
-            "source_score": 0.5,
-            "title": "Ultrasound Imaging of the Brain",
-            "total_score": 1.5
-          }
-        ],
-        "best_index": 8,
         "best_score": 5.5,
         "recommendation": "SKIP",
         "social_posts": {}
@@ -322,6 +235,29 @@
         ],
         "best_index": 1,
         "best_score": 4.2,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "4d18f6dd06cb131a476d078853cc635bd7b68697c9f20d3d45dbbefabc93ccd1": {
+      "created_at": "2026-06-27T16:20:01Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "High novelty and impact, but low source tier and no clear author.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Anonymous GitHub account mass-dropping undisclosed 0-days",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -665,56 +601,27 @@
         }
       }
     },
-    "a8d240c5caf0e0c80c0613905be685835902dd49e0175d30443a7be4af80ea42": {
-      "created_at": "2026-06-26T15:14:45Z",
+    "9f50a1f86e01a1a7412e62c119baaecef8ede918391b10d46eda0eb1befd1e52": {
+      "created_at": "2026-06-27T16:20:01Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 2,
-            "impact_score": 2.5,
+            "freshness_score": 1.5,
+            "impact_score": 0.5,
             "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Europe's push for independent AI development is significant but lacks novelty in the broader context.",
+            "novelty_score": 0.2,
+            "reason": "Opinion piece on personal tech choices lacks broad relevance to software engineers and AI researchers.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 1.5,
-            "title": "Europe Is Fed Up and Wants Its Own AI",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "AI's impact on software delivery pipelines is a critical topic, but the presentation format reduces novelty.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Presentation: AI Works, Pull Requests Don\u2019t: How AI Is Breaking the SDLC and What To Do About It",
-            "total_score": 8.0
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 2,
-            "novelty_score": 1.5,
-            "reason": "Meta's strategic moves are notable but less relevant to software engineers and AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Of course Meta thinks gambling is the future",
-            "total_score": 6.5
+            "title": "The Guardian\u2019s Kai Wright refuses to buy a new phone",
+            "total_score": 2.2
           }
         ],
         "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Europe is making a significant move towards developing its own AI infrastructure, partly driven by geopolitical tensions and the influence of Donald Trump. This could reshape the global AI landscape. Link: https://www.wired.com/story/europe-is-fed-up-and-wants-its-own-ai/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Europe Is Fed Up and Wants Its Own AI*\n\nEurope is pushing for its own AI infrastructure, driven by geopolitical tensions and Trump's influence. This could reshape the global AI landscape.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.wired.com/story/europe-is-fed-up-and-wants-its-own-ai/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Europe is pushing for its own AI infrastructure, driven by geopolitical tensions and Trump's influence. This could reshape the global AI landscape. https://www.wired.com/story/europe-is-fed-up-and-wants-its-own-ai/",
-          "twitter": "Europe is pushing for its own AI infrastructure, driven by geopolitical tensions and Trump's influence. https://www.wired.com/story/europe-is-fed-up-and-wants-its-own-ai/"
-        }
+        "best_score": 2.2,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "b25683e94a6f4194f61e0dff84d550ffb8db4ef63cbe392d004e62027f04362f": {
@@ -764,41 +671,6 @@
         ],
         "best_index": 0,
         "best_score": 4.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "b702b07db56dbb70ab294b69035e9fe22916829418856236d39006d1a4eb61a3": {
-      "created_at": "2026-06-26T15:14:45Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 6,
-            "novelty_score": 2.5,
-            "reason": "New approach using LLMs to improve robot task understanding, but not a major industry move.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "LLMs help robots understand vague instructions and focus on key details",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0,
-            "index": 7,
-            "novelty_score": 0,
-            "reason": "Red flag triggered by 'Comments' in title.",
-            "red_flag": true,
-            "red_flag_reason": "Comments",
-            "source_score": 0.5,
-            "title": "Incident CVE-2026-LGTM",
-            "total_score": 2
-          }
-        ],
-        "best_index": 6,
-        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -2131,12 +2003,6 @@
       "status": "scoring_attempted",
       "title": "Show HN: The Cascade Graph \u2013 An interactive map of AI and energy constraints"
     },
-    "https://blog.cloudflare.com/temporary-accounts": {
-      "canonical_url": "https://blog.cloudflare.com/temporary-accounts",
-      "created_at": "2026-06-20T15:23:58Z",
-      "status": "scoring_attempted",
-      "title": "Temporary Cloudflare Accounts for AI Agents"
-    },
     "https://blog.doubleword.ai/frontier-os-llm": {
       "canonical_url": "https://blog.doubleword.ai/frontier-os-llm",
       "created_at": "2026-06-26T21:40:00Z",
@@ -2208,6 +2074,12 @@
       "created_at": "2026-06-22T18:11:45Z",
       "status": "scoring_attempted",
       "title": "Show HN: Selector Forge \u2013 browser extension for AI-generated resilient selectors"
+    },
+    "https://github.com/bikini/exploitarium": {
+      "canonical_url": "https://github.com/bikini/exploitarium",
+      "created_at": "2026-06-27T16:20:01Z",
+      "status": "scoring_attempted",
+      "title": "Anonymous GitHub account mass-dropping undisclosed 0-days"
     },
     "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf": {
       "canonical_url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
@@ -3157,12 +3029,6 @@
       "status": "scoring_attempted",
       "title": "Dapr 1.18 Introduces Verifiable Execution, Bringing Cryptographic Trust to AI Agents and Workflows"
     },
-    "https://www.infoq.com/news/2026/06/forge-billing-usage-platform": {
-      "canonical_url": "https://www.infoq.com/news/2026/06/forge-billing-usage-platform",
-      "created_at": "2026-06-20T15:23:58Z",
-      "status": "scoring_attempted",
-      "title": "Inside Atlassian\u2019s Forge Billing Architecture for Distributed Usage Tracking at Scale"
-    },
     "https://www.infoq.com/news/2026/06/google-open-rl-fine-tuning": {
       "canonical_url": "https://www.infoq.com/news/2026/06/google-open-rl-fine-tuning",
       "created_at": "2026-06-24T18:14:56Z",
@@ -3366,12 +3232,6 @@
       "created_at": "2026-06-20T21:40:39Z",
       "status": "scoring_attempted",
       "title": "UK Home Office launches \u00a375M 'PoliceAI' to capitalise on artificial intelligence"
-    },
-    "https://www.reuters.com/technology/us-scientist-john-jumper-leave-google-deepmind-anthropic-2026-06-19": {
-      "canonical_url": "https://www.reuters.com/technology/us-scientist-john-jumper-leave-google-deepmind-anthropic-2026-06-19",
-      "created_at": "2026-06-20T15:23:58Z",
-      "status": "scoring_attempted",
-      "title": "US Scientist John Jumper to Leave Google DeepMind for Anthropic"
     },
     "https://www.reuters.com/world/asia-pacific/apple-raises-prices-macbooks-ipads-memory-costs-skyrocket-2026-06-25": {
       "canonical_url": "https://www.reuters.com/world/asia-pacific/apple-raises-prices-macbooks-ipads-memory-costs-skyrocket-2026-06-25",
@@ -3799,12 +3659,6 @@
       "status": "scoring_attempted",
       "title": "Charlie Kirk&#8217;s legacy is a 30-year sentence for moving zines"
     },
-    "https://www.theverge.com/report/953116/experimental-musician-youtuber-hainbach-interview": {
-      "canonical_url": "https://www.theverge.com/report/953116/experimental-musician-youtuber-hainbach-interview",
-      "created_at": "2026-06-20T15:23:58Z",
-      "status": "scoring_attempted",
-      "title": "Musician and YouTuber Hainbach on \u2018Breath of the Wild\u2019 and Swiss Army Knives"
-    },
     "https://www.theverge.com/report/953888/ai-virtual-staging-real-estate-apartment-listings": {
       "canonical_url": "https://www.theverge.com/report/953888/ai-virtual-staging-real-estate-apartment-listings",
       "created_at": "2026-06-22T21:13:54Z",
@@ -3822,6 +3676,12 @@
       "created_at": "2026-06-27T15:03:26Z",
       "status": "scoring_attempted",
       "title": "Why is Apple asking me to pay more for Big Tech\u2019s AI obsession?"
+    },
+    "https://www.theverge.com/report/958695/kai-wright-npr-guardian-interview-questionnaire": {
+      "canonical_url": "https://www.theverge.com/report/958695/kai-wright-npr-guardian-interview-questionnaire",
+      "created_at": "2026-06-27T16:20:01Z",
+      "status": "scoring_attempted",
+      "title": "The Guardian&#8217;s Kai Wright refuses to buy a new phone"
     },
     "https://www.theverge.com/streaming/955646/disney-bob-iger-twitter-james-bond-apple-merger": {
       "canonical_url": "https://www.theverge.com/streaming/955646/disney-bob-iger-twitter-james-bond-apple-merger",
