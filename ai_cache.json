@@ -165,28 +165,6 @@
         }
       }
     },
-    "2ef80a31dce37afb585e01895aa5138ec16a66f4476387b35d5580bcaccf7555": {
-      "created_at": "2026-06-27T11:57:53Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 1,
-            "novelty_score": 0.2,
-            "reason": "Tutorial content with low novelty and impact.",
-            "red_flag": true,
-            "red_flag_reason": "tutorial",
-            "source_score": 0.5,
-            "title": "Fintech Engineering Handbook",
-            "total_score": 3.2
-          }
-        ],
-        "best_index": 1,
-        "best_score": 3.2,
-        "recommendation": "SKIP"
-      }
-    },
     "3060007cc12efff17f5b59f00777dc87f4c3c72ec4c014c24fff5a0e89c75aa4": {
       "created_at": "2026-06-28T08:18:52Z",
       "payload": {
@@ -588,25 +566,48 @@
         "social_posts": {}
       }
     },
-    "d0d82d023a530f0ebd10a391e8542633aa90192dd9a682699b8374085ad27643": {
-      "created_at": "2026-06-27T11:57:53Z",
+    "cdb1d5a1cb99557e93e138aa76ffeefb85a899e5a19d785d9159627b87304c99": {
+      "created_at": "2026-06-28T12:14:15Z",
       "payload": {
         "articles": [
           {
             "freshness_score": 2.0,
-            "impact_score": 2.5,
+            "impact_score": 1.5,
             "index": 0,
-            "novelty_score": 2.5,
-            "reason": "New AWS tool for automated certificate and secret management, impacting all developers using AWS or non-AWS environments.",
+            "novelty_score": 1.5,
+            "reason": "Interesting story but not directly relevant to software engineers or AI researchers.",
             "red_flag": false,
             "red_flag_reason": null,
-            "source_score": 1.0,
-            "title": "AWS Introduces Workload Credentials Provider for Automated Certificate and Secret Management",
-            "total_score": 8.0
+            "source_score": 1.5,
+            "title": "Nest\u2019s quest to fix your thermostat",
+            "total_score": 5.0
           }
         ],
         "best_index": 0,
-        "best_score": 8.0,
+        "best_score": 5.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "d08370a2e341fd0194a8ebfee4039d57840159cb96b7069304b7204b83e82887": {
+      "created_at": "2026-06-28T12:14:15Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 0.5,
+            "index": 1,
+            "novelty_score": 0.2,
+            "reason": "The article is a recap of previous findings with no new evidence or research.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "More evidence of life on Mars but still no life",
+            "total_score": 3.2
+          }
+        ],
+        "best_index": 1,
+        "best_score": 3.2,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -743,15 +744,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Apple Seeks Exception to Buy Memory from Blacklisted Supplier\nApple is looking to alleviate supply chain pressure by seeking an exception to buy RAM chips from CXMT, a Chinese company blacklisted by the Pentagon.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n#Apple #SupplyChain #TechNews\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Apple is looking to alleviate supply chain pressure by seeking an exception to buy RAM chips from blacklisted Chinese supplier CXMT, @TheVerge reports, a significant development for the industry #Apple",
         "twitter": "Apple seeks exception to buy RAM chips from blacklisted Chinese supplier CXMT, @TheVerge reports, amid supply chain pressures #Apple"
-      }
-    },
-    "249d615cd6011758069c6f5c8a07b78010389cc76a72f5d4c22c35c8c5dac197": {
-      "created_at": "2026-06-21T12:07:10Z",
-      "payload": {
-        "facebook": "A recent opinion piece argues that geometric algebra, despite its promise, has significant drawbacks, including complexity and limited real-world applications. This has led to a discussion about the role of geometric algebra in modern mathematics and engineering. The debate highlights the need for a more nuanced understanding of the subject's potential and limitations #Mathematics #Geometry #Algebra",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Geometric Algebra Under Fire\nThe complexity and limited applications of geometric algebra have led to criticism and debate among mathematicians and engineers.\n\ud83c\udfdb\ufe0f Source: Hacker News (C)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 5.5/10\n#Mathematics #Geometry #Algebra\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "The case against geometric algebra is gaining traction, with some arguing that its complexity outweighs its benefits, says @alexkritchevsky, prompting a reevaluation of its role in mathematics and engineering #Mathematics",
-        "twitter": "Geometric algebra faces criticism for its complexity and limited applications, says @alexkritchevsky, sparking debate among mathematicians and engineers #Mathematics"
       }
     },
     "2f554dab1653f32a0dbf7a625f32cd2a9a6a2e972b5c79d18accb2200b1d6a6e": {
@@ -1028,12 +1020,6 @@
       "created_at": "2026-06-26T15:14:45Z",
       "status": "scoring_attempted",
       "title": "Ultrasound Imaging of the Brain"
-    },
-    "https://alexkritchevsky.com/2024/02/28/geometric-algebra.html": {
-      "canonical_url": "https://alexkritchevsky.com/2024/02/28/geometric-algebra.html",
-      "created_at": "2026-06-21T12:07:10Z",
-      "status": "scoring_attempted",
-      "title": "The case against geometric algebra"
     },
     "https://apertvs.ai": {
       "canonical_url": "https://apertvs.ai",
@@ -2595,6 +2581,12 @@
       "status": "scoring_attempted",
       "title": "Canada plans 'nuclear renaissance' with up to 10 reactors built by 2040"
     },
+    "https://www.cbc.ca/radio/quirks/more-evidence-of-life-on-mars-but-still-no-life-1.7649645": {
+      "canonical_url": "https://www.cbc.ca/radio/quirks/more-evidence-of-life-on-mars-but-still-no-life-1.7649645",
+      "created_at": "2026-06-28T12:14:15Z",
+      "status": "scoring_attempted",
+      "title": "More evidence of life on Mars but still no life"
+    },
     "https://www.climate.us": {
       "canonical_url": "https://www.climate.us",
       "created_at": "2026-06-26T18:08:12Z",
@@ -2973,12 +2965,6 @@
       "status": "scoring_attempted",
       "title": "Margaret Atwood says the problem with AI is &#8216;garbage in, garbage out&#8217;"
     },
-    "https://www.theverge.com/column/950975/electric-air-taxis-lawsuits": {
-      "canonical_url": "https://www.theverge.com/column/950975/electric-air-taxis-lawsuits",
-      "created_at": "2026-06-21T12:07:10Z",
-      "status": "scoring_attempted",
-      "title": "Electric air taxis are stuck in the courtroom"
-    },
     "https://www.theverge.com/column/956756/world-cup-streaming": {
       "canonical_url": "https://www.theverge.com/column/956756/world-cup-streaming",
       "created_at": "2026-06-25T15:31:40Z",
@@ -3285,6 +3271,12 @@
       "status": "scoring_attempted",
       "title": "Of course Meta thinks gambling is the future"
     },
+    "https://www.theverge.com/podcast/958735/nest-thermostat-version-history": {
+      "canonical_url": "https://www.theverge.com/podcast/958735/nest-thermostat-version-history",
+      "created_at": "2026-06-28T12:14:15Z",
+      "status": "scoring_attempted",
+      "title": "Nest&#8217;s quest to fix your thermostat"
+    },
     "https://www.theverge.com/policy/953944/bead-broadband-funding-trump-musk-bezos": {
       "canonical_url": "https://www.theverge.com/policy/953944/bead-broadband-funding-trump-musk-bezos",
       "created_at": "2026-06-23T13:24:43Z",
@@ -3512,12 +3504,6 @@
       "created_at": "2026-06-26T20:08:19Z",
       "status": "scoring_attempted",
       "title": "U.S. government will decide who gets to use GPT-5.6"
-    },
-    "https://www.wired.com/story/28-tips-to-take-your-chatgpt-prompts-to-the-next-level": {
-      "canonical_url": "https://www.wired.com/story/28-tips-to-take-your-chatgpt-prompts-to-the-next-level",
-      "created_at": "2026-06-21T12:00:25Z",
-      "status": "scoring_cache_hit",
-      "title": "28 Tips to Take Your ChatGPT Prompts to the Next Level"
     },
     "https://www.wired.com/story/a24-knows-youre-mad-about-the-google-ai-collab": {
       "canonical_url": "https://www.wired.com/story/a24-knows-youre-mad-about-the-google-ai-collab",
