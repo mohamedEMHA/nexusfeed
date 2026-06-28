@@ -206,6 +206,29 @@
         "social_posts": {}
       }
     },
+    "371ec314c9f4a578de88ea7b25f53c6f9d11acb7f191ca0d00194baeff178815": {
+      "created_at": "2026-06-28T16:56:10Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Interesting use case of Claude Code in medical analysis, but niche impact and lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "I used Claude Code to get a second opinion on my MRI",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "40f2683530da86e815e2a40d94e5b3bbb3b1f276a0df83503eaf3dfd2d51a8ab": {
       "created_at": "2026-06-28T15:41:27Z",
       "payload": {
@@ -257,29 +280,6 @@
         }
       }
     },
-    "4d18f6dd06cb131a476d078853cc635bd7b68697c9f20d3d45dbbefabc93ccd1": {
-      "created_at": "2026-06-27T16:20:01Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "High novelty and impact, but low source tier and no clear author.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Anonymous GitHub account mass-dropping undisclosed 0-days",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "4ded898f281b89b7398a8fa393a933a7e3c0423ec90c1c07d0f14a2e7ce67c09": {
       "created_at": "2026-06-27T22:31:55Z",
       "payload": {
@@ -322,6 +322,29 @@
         ],
         "best_index": 3,
         "best_score": 1.7,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "95d84f17ec36e6a74d1a05f71a036bd91fd39982538b9f82f72ffa0f93020e0c": {
+      "created_at": "2026-06-28T16:56:10Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 0.5,
+            "index": 1,
+            "novelty_score": 0.2,
+            "reason": "The article is about a traditional Japanese technique, which is not directly relevant to software engineers or AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Daisugi the Japanese Technique of Trees Out of Trees, Making Exact Straight Wood",
+            "total_score": 3.2
+          }
+        ],
+        "best_index": 1,
+        "best_score": 3.2,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -398,29 +421,6 @@
           "threads": "Wall Street sees Micron as the next Nvidia in AI. The reasoning behind this bold prediction is worth a look.\nhttps://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia/",
           "twitter": "Wall Street is betting Micron could be the next Nvidia in AI. Here's why.\nhttps://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia/"
         }
-      }
-    },
-    "9f50a1f86e01a1a7412e62c119baaecef8ede918391b10d46eda0eb1befd1e52": {
-      "created_at": "2026-06-27T16:20:01Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.5,
-            "index": 0,
-            "novelty_score": 0.2,
-            "reason": "Opinion piece on personal tech choices lacks broad relevance to software engineers and AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "The Guardian\u2019s Kai Wright refuses to buy a new phone",
-            "total_score": 2.2
-          }
-        ],
-        "best_index": 0,
-        "best_score": 2.2,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "adc9b9bd9416e3b73d05f1adadfc8bb8dcec911bb1d203fb53818df2f8059626": {
@@ -953,15 +953,6 @@
         "twitter": "Elon Musk's orbital data center plans are facing skepticism from major tech figures, including SoftBank's CEO, @elonmusk #orbitaldatacenters #tech"
       }
     },
-    "d7d2cbeca2ec62d8987cd0446b4dd366ad476af295acb0a308ddf2435b298376": {
-      "created_at": "2026-06-21T15:46:40Z",
-      "payload": {
-        "facebook": "The latest developments in the Trump administration's crackdown on Anthropic have sparked interesting discussions about the potential beneficiaries and the impact on the AI ecosystem as a whole. This could be a pivotal moment for the industry, with various companies poised to gain from the situation. #AI #TechNews #Anthropic",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Trump administration's Anthropic crackdown\nThe move has significant implications for the AI ecosystem, with potential benefits for other players. The situation is being closely watched, with various companies poised to gain from the situation.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #TechNews #Anthropic\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "The Trump administration's actions against Anthropic are being closely watched, with potential ripple effects throughout the AI ecosystem, @TechCrunch notes, and this could lead to new opportunities for other companies #AI",
-        "twitter": "The Trump administration's move against Anthropic has significant implications for the AI ecosystem, @TechCrunch reports, with potential benefits for other players #AI"
-      }
-    },
     "d9810a0c894e1c1d6b9d5b9261f479e44c76e298c5d9d15b840844c91b2fade2": {
       "created_at": "2026-06-25T12:33:53Z",
       "payload": {
@@ -1038,6 +1029,12 @@
       "created_at": "2026-06-26T15:14:45Z",
       "status": "scoring_attempted",
       "title": "Ultrasound Imaging of the Brain"
+    },
+    "https://antoine.fi/mri-analysis-using-claude-code-opus": {
+      "canonical_url": "https://antoine.fi/mri-analysis-using-claude-code-opus",
+      "created_at": "2026-06-28T16:56:10Z",
+      "status": "scoring_attempted",
+      "title": "I used Claude Code to get a second opinion on my MRI"
     },
     "https://apertvs.ai": {
       "canonical_url": "https://apertvs.ai",
@@ -1963,12 +1960,6 @@
       "status": "scoring_attempted",
       "title": "Charge Robotics (YC S21) Is Hiring Software and Hardware Engineers"
     },
-    "https://kevinak.se/blog/who-actually-owns-your-atproto-identity-hint-its-probably-not-you": {
-      "canonical_url": "https://kevinak.se/blog/who-actually-owns-your-atproto-identity-hint-its-probably-not-you",
-      "created_at": "2026-06-21T15:46:40Z",
-      "status": "scoring_attempted",
-      "title": "Who Owns Your ATProto Identity? Hint: It's Probably Not You"
-    },
     "https://kreya.app/blog/new-http-query-method-explained": {
       "canonical_url": "https://kreya.app/blog/new-http-query-method-explained",
       "created_at": "2026-06-23T09:33:05Z",
@@ -2178,18 +2169,6 @@
       "created_at": "2026-06-23T20:28:19Z",
       "status": "scoring_attempted",
       "title": "FUTO Swipe \u2013 A new swipe typing model"
-    },
-    "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27": {
-      "canonical_url": "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27",
-      "created_at": "2026-06-21T15:46:40Z",
-      "status": "scoring_attempted",
-      "title": "Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27"
-    },
-    "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits": {
-      "canonical_url": "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits",
-      "created_at": "2026-06-21T15:46:40Z",
-      "status": "scoring_attempted",
-      "title": "When the Trump administration cracks down on Anthropic, who benefits?"
     },
     "https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal": {
       "canonical_url": "https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal",
@@ -2923,6 +2902,12 @@
       "status": "scoring_attempted",
       "title": "OpenAI Leans Toward Waiting Until Next Year for IPO"
     },
+    "https://www.openculture.com/2020/10/daisugi.html": {
+      "canonical_url": "https://www.openculture.com/2020/10/daisugi.html",
+      "created_at": "2026-06-28T16:56:10Z",
+      "status": "scoring_attempted",
+      "title": "Daisugi the Japanese Technique of Trees Out of Trees, Making Exact Straight Wood"
+    },
     "https://www.psychologytoday.com/au/blog/mood-by-microbe/202606/what-ozempic-does-to-the-gut-brain-axis": {
       "canonical_url": "https://www.psychologytoday.com/au/blog/mood-by-microbe/202606/what-ozempic-does-to-the-gut-brain-axis",
       "created_at": "2026-06-28T01:36:53Z",
@@ -3396,12 +3381,6 @@
       "created_at": "2026-06-25T15:31:40Z",
       "status": "scoring_attempted",
       "title": "Apple raises prices on Macs, iPads, and more by hundreds of dollars"
-    },
-    "https://www.theverge.com/tech/953285/polymarket-fake-viral-video-bets": {
-      "canonical_url": "https://www.theverge.com/tech/953285/polymarket-fake-viral-video-bets",
-      "created_at": "2026-06-21T15:46:40Z",
-      "status": "scoring_attempted",
-      "title": "That viral clip you saw of someone winning big on Polymarket was probably fake"
     },
     "https://www.theverge.com/tech/954052/meta-glasses-hands-on-kylie-jenner-smart-glasses-price-battery-privacy": {
       "canonical_url": "https://www.theverge.com/tech/954052/meta-glasses-hands-on-kylie-jenner-smart-glasses-price-battery-privacy",
