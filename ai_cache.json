@@ -187,6 +187,29 @@
         "recommendation": "SKIP"
       }
     },
+    "3060007cc12efff17f5b59f00777dc87f4c3c72ec4c014c24fff5a0e89c75aa4": {
+      "created_at": "2026-06-28T08:18:52Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "Liquid AI's new model targets tool use and data extraction, beating larger models like Qwen3.5-0.8B and Gemma 3 1B.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Liquid AI Ships LFM2.5-230M with llama.cpp, MLX, vLLM, SGLang, and ONNX Support for On-Device Inference",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 3,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "3480734d91b692b14d5fb89ac57c5312fa4c0781d8617dbd032088d93c186bb8": {
       "created_at": "2026-06-27T18:47:20Z",
       "payload": {
@@ -611,6 +634,29 @@
         "social_posts": {}
       }
     },
+    "db5e370ec61dc805820bb33302738efd9082ab60dd8ebbd6b92ca9eba876aa22": {
+      "created_at": "2026-06-28T08:18:52Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 1,
+            "novelty_score": 1.5,
+            "reason": "Interesting product review but not directly relevant to software engineers or AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "TMD\u2019s keyless bike lock is a $280 solution to a $60 problem",
+            "total_score": 4.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 4.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "e76dfea7658353eba0d1a458299236487b347bebdd9191aed4302a2fe4c254d2": {
       "created_at": "2026-06-27T10:34:25Z",
       "payload": {
@@ -630,6 +676,52 @@
         ],
         "best_index": 1,
         "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "eee3ae65b3be3c90f65794968888a0b868d53f580e8430a62871c81d058c7be6": {
+      "created_at": "2026-06-28T08:18:52Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "AWS FinOps Agent automates cost analysis and optimization workflows, integrating with Slack and Jira.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "AWS Previews FinOps Agent for Cost Analysis and Optimization",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 2,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "f41eaeeda35df2889424218f51b804db0d4647bcf47134c9edffadb9f2c59fa9": {
+      "created_at": "2026-06-28T08:18:52Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Swift 6.4 beta introduces significant language enhancements and performance improvements.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Swift 6.4 Brings New Language Features and Swift Testing/XCTest Interop",
+            "total_score": 8
+          }
+        ],
+        "best_index": 0,
+        "best_score": 8,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1913,18 +2005,6 @@
       "status": "scoring_attempted",
       "title": "The new HTTP QUERY method explained"
     },
-    "https://lcamtuf.substack.com/p/the-100000-whys-of-ai": {
-      "canonical_url": "https://lcamtuf.substack.com/p/the-100000-whys-of-ai",
-      "created_at": "2026-06-21T06:48:52Z",
-      "status": "scoring_attempted",
-      "title": "The 100k Whys of AI"
-    },
-    "https://martinfowler.com/articles/reliable-llm-bayer.html": {
-      "canonical_url": "https://martinfowler.com/articles/reliable-llm-bayer.html",
-      "created_at": "2026-06-21T06:48:52Z",
-      "status": "scoring_attempted",
-      "title": "Building reliable agentic AI systems"
-    },
     "https://mcipetition.com": {
       "canonical_url": "https://mcipetition.com",
       "created_at": "2026-06-22T01:42:41Z",
@@ -2633,6 +2713,12 @@
       "status": "scoring_attempted",
       "title": "AWS Introduces Workload Credentials Provider for Automated Certificate and Secret Management"
     },
+    "https://www.infoq.com/news/2026/06/aws-finops-agent": {
+      "canonical_url": "https://www.infoq.com/news/2026/06/aws-finops-agent",
+      "created_at": "2026-06-28T08:18:52Z",
+      "status": "scoring_attempted",
+      "title": "AWS Previews FinOps Agent for Cost Analysis and Optimization"
+    },
     "https://www.infoq.com/news/2026/06/aws-graviton5-ga": {
       "canonical_url": "https://www.infoq.com/news/2026/06/aws-graviton5-ga",
       "created_at": "2026-06-22T12:46:00Z",
@@ -2674,6 +2760,12 @@
       "created_at": "2026-06-25T08:55:35Z",
       "status": "scoring_attempted",
       "title": "Slack Outlines Four-Phase Journey to a Multi-Cloud AI Serving Platform"
+    },
+    "https://www.infoq.com/news/2026/06/swift-6-4-beta-features": {
+      "canonical_url": "https://www.infoq.com/news/2026/06/swift-6-4-beta-features",
+      "created_at": "2026-06-28T08:18:52Z",
+      "status": "scoring_attempted",
+      "title": "Swift 6.4 Brings New Language Features and Swift Testing/XCTest Interop"
     },
     "https://www.infoq.com/news/2026/06/vercel-eve-agents": {
       "canonical_url": "https://www.infoq.com/news/2026/06/vercel-eve-agents",
@@ -2824,6 +2916,12 @@
       "created_at": "2026-06-28T04:54:40Z",
       "status": "scoring_attempted",
       "title": "DeepSeek Releases DSpark, a Speculative Decoding Framework That Accelerates DeepSeek-V4 Per-User Generation 60\u201385% Over MTP-1"
+    },
+    "https://www.marktechpost.com/2026/06/27/liquid-ai-ships-lfm2-5-230m-with-llama-cpp-mlx-vllm-sglang-and-onnx-support-for-on-device-inference": {
+      "canonical_url": "https://www.marktechpost.com/2026/06/27/liquid-ai-ships-lfm2-5-230m-with-llama-cpp-mlx-vllm-sglang-and-onnx-support-for-on-device-inference",
+      "created_at": "2026-06-28T08:18:52Z",
+      "status": "scoring_attempted",
+      "title": "Liquid AI Ships LFM2.5-230M with llama.cpp, MLX, vLLM, SGLang, and ONNX Support for On-Device Inference"
     },
     "https://www.marktechpost.com/2026/06/27/metas-astryx-brings-a-cli-and-mcp-server-to-an-open-source-react-design-system-agents-can-read": {
       "canonical_url": "https://www.marktechpost.com/2026/06/27/metas-astryx-brings-a-cli-and-mcp-server-to-an-open-source-react-design-system-agents-can-read",
@@ -3394,6 +3492,12 @@
       "created_at": "2026-06-26T12:30:41Z",
       "status": "scoring_attempted",
       "title": "Samsung will soon start charging to access its smart home API"
+    },
+    "https://www.theverge.com/tech/957603/tmd-smart-keyless-bike-lock-review": {
+      "canonical_url": "https://www.theverge.com/tech/957603/tmd-smart-keyless-bike-lock-review",
+      "created_at": "2026-06-28T08:18:52Z",
+      "status": "scoring_attempted",
+      "title": "TMD\u2019s keyless bike lock is a $280 solution to a $60 problem"
     },
     "https://www.theverge.com/tech/957751/arduino-q-microcomputer-price-increase-ram-crisis": {
       "canonical_url": "https://www.theverge.com/tech/957751/arduino-q-microcomputer-price-increase-ram-crisis",
