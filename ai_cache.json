@@ -1,28 +1,5 @@
 {
   "cerebras_scoring": {
-    "060f9bd36bc172c726c6039378f46674b039521792799eee51b597134d942544": {
-      "created_at": "2026-06-27T17:33:33Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.5,
-            "index": 1,
-            "novelty_score": 0.2,
-            "reason": "Interesting case study but not relevant to software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Doctors suspected man had brain cancer. He had worms",
-            "total_score": 2.2
-          }
-        ],
-        "best_index": 1,
-        "best_score": 2.2,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "06c443b0d177f588c5ff8b2e114293f20d9777f5b339566522858161d75d6905": {
       "created_at": "2026-06-28T04:54:40Z",
       "payload": {
@@ -44,34 +21,6 @@
         "best_score": 2.0,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "0e5b73585d159f3c2fcca5eaf62681374234c20792459b00d43f451e7793232a": {
-      "created_at": "2026-06-27T17:33:33Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "High-impact executive move between major tech companies with strong AI relevance.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Apple Vision Pro exec is reportedly leaving for OpenAI",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Paul Meade, Apple's VP overseeing the Vision Pro, is reportedly leaving for OpenAI to work on hardware. This could signal a significant shift in OpenAI's hardware strategy. Link: https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Apple Vision Pro exec reportedly leaving for OpenAI*\n\nPaul Meade, Apple's VP overseeing the Vision Pro, is reportedly joining OpenAI's hardware team.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Apple's Vision Pro VP Paul Meade is reportedly joining OpenAI's hardware team. This could be a major move in the AI hardware space. https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
-          "twitter": "Apple's Vision Pro VP Paul Meade is reportedly joining OpenAI's hardware team. A major shift in the AI hardware landscape. https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/"
-        }
       }
     },
     "1363cf58c16ebbc05447f17aaa398f96e5204cbc1da362812d4f79e22f0ac3e7": {
@@ -326,6 +275,29 @@
         "social_posts": {}
       }
     },
+    "6ec97ee138843bc418720ced6e691a186751a5bab92117ca9737c52cf03b2f02": {
+      "created_at": "2026-06-28T17:58:44Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 3,
+            "novelty_score": 0.5,
+            "reason": "Opinion piece with limited novelty and impact, from a lower-tier source.",
+            "red_flag": true,
+            "red_flag_reason": "Reflections",
+            "source_score": 0.5,
+            "title": "Reflections on Software Engineering in the Age of AI",
+            "total_score": 3.5
+          }
+        ],
+        "best_index": 3,
+        "best_score": 3.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "95d84f17ec36e6a74d1a05f71a036bd91fd39982538b9f82f72ffa0f93020e0c": {
       "created_at": "2026-06-28T16:56:10Z",
       "payload": {
@@ -420,6 +392,34 @@
           "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Why Wall Street thinks US memory maker Micron is the next Nvidia*\n\nWall Street investors are eyeing Micron as a potential AI winner, drawing parallels to Nvidia's success.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
           "threads": "Wall Street sees Micron as the next Nvidia in AI. The reasoning behind this bold prediction is worth a look.\nhttps://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia/",
           "twitter": "Wall Street is betting Micron could be the next Nvidia in AI. Here's why.\nhttps://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia/"
+        }
+      }
+    },
+    "9ecac598a114feabd929d558eb3857ba1ff7bc4f68fdabd15d5fe920829b1fbd": {
+      "created_at": "2026-06-28T17:58:44Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "China's new supercomputer LineShine reclaims the top spot on the TOP500 ranking, marking a significant development in global supercomputing.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "China claims the world\u2019s fastest supercomputer",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "China has reclaimed the title of the world's fastest supercomputer with LineShine, pushing El Capitan out of the top spot on the TOP500 ranking. This development comes despite strict US trade restrictions on high-powered computing components. Link: https://www.theverge.com/tech/958768/china-claims-the-worlds-fastest-supercomputer",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *China claims the world\u2019s fastest supercomputer*\n\nChina's LineShine supercomputer has reclaimed the title of the world's fastest, pushing El Capitan out of the top spot on the TOP500 ranking, despite US trade restrictions.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/tech/958768/china-claims-the-worlds-fastest-supercomputer\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "China's LineShine supercomputer reclaims the world's fastest title, despite US trade restrictions. This marks the first time since 2018 that China has held the top spot. https://www.theverge.com/tech/958768/china-claims-the-worlds-fastest-supercomputer",
+          "twitter": "China's LineShine supercomputer dethrones El Capitan to claim the world's fastest title, despite US trade restrictions.\nhttps://www.theverge.com/tech/958768/china-claims-the-worlds-fastest-supercomputer"
         }
       }
     },
@@ -997,9 +997,24 @@
         "threads": "OpenAI's new custom inference chip, Jalape\u00f1o, is the latest example of companies taking chip development into their own hands, joining Google, Apple, and SpaceX, according to @TechCrunch, and this trend is turning up the heat on Nvidia #AIchips",
         "twitter": "Nvidia's dominance in AI chips is being challenged by OpenAI, Google, Apple, and SpaceX, who are all developing their own custom chips, says @TechCrunch #AIchips"
       }
+    },
+    "f83cf596d41594e914277c6df8aa6e730fafda3587df8b7433fffdd43ff25250": {
+      "created_at": "2026-06-28T17:58:44Z",
+      "payload": {
+        "facebook": "China has reclaimed the title of the world's fastest supercomputer for the first time since 2018, with LineShine pushing El Capitan out of the top spot. This development marks a significant shift in global supercomputing capabilities. #supercomputing #technews #computing",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 China Reclaims Supercomputing Title\nChina's LineShine supercomputer has surpassed El Capitan, reclaiming the top spot on the TOP500 ranking.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#supercomputing #technews #computing\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "China's new supercomputer LineShine has taken the top spot on the TOP500 ranking, surpassing El Capitan @TheVerge #supercomputing",
+        "twitter": "China regains the top spot in supercomputing with LineShine, surpassing El Capitan @TheVerge #supercomputing"
+      }
     }
   },
   "seen_article_links": {
+    "https://adiamond.me/2026/06/software-engineering-in-the-age-of-ai": {
+      "canonical_url": "https://adiamond.me/2026/06/software-engineering-in-the-age-of-ai",
+      "created_at": "2026-06-28T17:58:44Z",
+      "status": "scoring_attempted",
+      "title": "Reflections on Software Engineering in the Age of AI"
+    },
     "https://aditya.patadia.org/p/ai-and-cloud-costs": {
       "canonical_url": "https://aditya.patadia.org/p/ai-and-cloud-costs",
       "created_at": "2026-06-26T08:58:02Z",
@@ -1894,12 +1909,6 @@
       "status": "scoring_attempted",
       "title": "Haystack: Open-Source AI Framework for Production Ready Agents, RAG"
     },
-    "https://hbr.org/2026/06/ai-has-broken-hiring-heres-how-to-fix-it": {
-      "canonical_url": "https://hbr.org/2026/06/ai-has-broken-hiring-heres-how-to-fix-it",
-      "created_at": "2026-06-21T17:16:16Z",
-      "status": "scoring_attempted",
-      "title": "AI Has Broken Hiring"
-    },
     "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6": {
       "canonical_url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
       "created_at": "2026-06-22T17:19:35Z",
@@ -2649,12 +2658,6 @@
       "created_at": "2026-06-24T15:21:58Z",
       "status": "scoring_attempted",
       "title": "AI Is Moving up the Software Lifecycle: From Code Review to PRD Governance"
-    },
-    "https://www.infoq.com/news/2026/06/anthropic-claude-analytics": {
-      "canonical_url": "https://www.infoq.com/news/2026/06/anthropic-claude-analytics",
-      "created_at": "2026-06-21T17:16:16Z",
-      "status": "scoring_attempted",
-      "title": "Anthropic Reports Claude Now Handles 95% of Internal Analytics Queries"
     },
     "https://www.infoq.com/news/2026/06/anthropic-html-markdown-agent": {
       "canonical_url": "https://www.infoq.com/news/2026/06/anthropic-html-markdown-agent",
@@ -3483,6 +3486,12 @@
       "created_at": "2026-06-27T18:47:20Z",
       "status": "scoring_attempted",
       "title": "Apple wants permission to buy memory from a blacklisted Chinese supplier"
+    },
+    "https://www.theverge.com/tech/958768/china-claims-the-worlds-fastest-supercomputer": {
+      "canonical_url": "https://www.theverge.com/tech/958768/china-claims-the-worlds-fastest-supercomputer",
+      "created_at": "2026-06-28T17:58:44Z",
+      "status": "scoring_attempted",
+      "title": "China claims the world&#8217;s fastest supercomputer"
     },
     "https://www.theverge.com/transportation/954291/amflows-tl-e-bike-is-ready-for-babys-first-mountain-adventure": {
       "canonical_url": "https://www.theverge.com/transportation/954291/amflows-tl-e-bike-is-ready-for-babys-first-mountain-adventure",
