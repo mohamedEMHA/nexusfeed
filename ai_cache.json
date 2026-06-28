@@ -74,29 +74,6 @@
         }
       }
     },
-    "10a5038b3f5ba9e73ea12ddb859223c58e1b1a4c64314b7bb4bec2d7d80280da": {
-      "created_at": "2026-06-27T05:35:51Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 5,
-            "novelty_score": 2.5,
-            "reason": "Interesting project but niche impact and low-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Show HN: Hacker News on a train station-style flip board",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 5,
-        "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "1363cf58c16ebbc05447f17aaa398f96e5204cbc1da362812d4f79e22f0ac3e7": {
       "created_at": "2026-06-27T21:19:41Z",
       "payload": {
@@ -445,29 +422,6 @@
         "social_posts": {}
       }
     },
-    "74045a92b5e15da798f84f9829a29533f6c392a1188bb4f0c88dcee80296edb3": {
-      "created_at": "2026-06-27T05:35:51Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "Interesting analysis of a failed attack, but limited novelty and source tier.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Anatomy of a Failed (Nation-State?) Attack",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 3,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "9ae8b09bc2bd7a31663a84f7b310943f1b0596cbc1635a604398db283e43f1e4": {
       "created_at": "2026-06-27T21:19:41Z",
       "payload": {
@@ -556,29 +510,6 @@
         ],
         "best_index": 0,
         "best_score": 0.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "b62f06b1a7e06862f8ec46363c3b47c3dc4f093153760a1213c1e028da7147b7": {
-      "created_at": "2026-06-27T05:35:51Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 1.5,
-            "reason": "Discussion on hardware choices for LLM development, relevant to a niche audience.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Ask HN: MacBook vs. Dedicated GPU for LLM",
-            "total_score": 4.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 4.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -676,29 +607,6 @@
         ],
         "best_index": 0,
         "best_score": 8.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "e3ce0a04be8d5d6eaae3eec262150b0fa0ccf94597c32481a671f00c4d3d92a7": {
-      "created_at": "2026-06-27T05:53:01Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Reverse engineering of IBM MCGA Gate Array is novel but niche in impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "IBM MCGA Gate Array Reverse Engineering",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1813,12 +1721,6 @@
       "status": "scoring_attempted",
       "title": "'Careless People' author claims Meta surveilled her for 12mos to enforce silence"
     },
-    "https://fosterelli.co/developers-dont-understand-cors": {
-      "canonical_url": "https://fosterelli.co/developers-dont-understand-cors",
-      "created_at": "2026-06-21T05:19:01Z",
-      "status": "scoring_attempted",
-      "title": "Developers don't understand CORS (2019)"
-    },
     "https://foxmoss.com/blog/radish": {
       "canonical_url": "https://foxmoss.com/blog/radish",
       "created_at": "2026-06-27T20:02:18Z",
@@ -2551,12 +2453,6 @@
       "status": "scoring_attempted",
       "title": "Wikipedia Workers in Britain set global first by seeking union recognition"
     },
-    "https://vinibrasil.com/when-i-reject-ai-code-even-if-it-works": {
-      "canonical_url": "https://vinibrasil.com/when-i-reject-ai-code-even-if-it-works",
-      "created_at": "2026-06-21T05:19:01Z",
-      "status": "scoring_attempted",
-      "title": "When I reject AI code even if it works"
-    },
     "https://w.pitula.me/fintech-engineering-handbook": {
       "canonical_url": "https://w.pitula.me/fintech-engineering-handbook",
       "created_at": "2026-06-27T11:57:53Z",
@@ -2964,12 +2860,6 @@
       "created_at": "2026-06-22T18:11:45Z",
       "status": "scoring_attempted",
       "title": "NSF slashes research programs to support new tech initiative, insiders say"
-    },
-    "https://www.sciencedaily.com/releases/2026/06/260614012006.htm": {
-      "canonical_url": "https://www.sciencedaily.com/releases/2026/06/260614012006.htm",
-      "created_at": "2026-06-21T05:19:01Z",
-      "status": "scoring_attempted",
-      "title": "Your brain was never designed for this much bad news"
     },
     "https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies": {
       "canonical_url": "https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies",
