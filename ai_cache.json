@@ -23,6 +23,29 @@
         "social_posts": {}
       }
     },
+    "06c443b0d177f588c5ff8b2e114293f20d9777f5b339566522858161d75d6905": {
+      "created_at": "2026-06-28T04:54:40Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.0,
+            "index": 2,
+            "novelty_score": 0.0,
+            "reason": "Comments are not a valid source for AI news.",
+            "red_flag": true,
+            "red_flag_reason": "Comments",
+            "source_score": 0.5,
+            "title": "Response to AI slop is from Robin Williams",
+            "total_score": 2.0
+          }
+        ],
+        "best_index": 2,
+        "best_score": 2.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "0e5b73585d159f3c2fcca5eaf62681374234c20792459b00d43f451e7793232a": {
       "created_at": "2026-06-27T17:33:33Z",
       "payload": {
@@ -100,6 +123,41 @@
           "threads": "SoftBank\u2019s CEO isn\u2019t the only one questioning Elon Musk\u2019s orbital data center plans. The skepticism is growing among major tech figures. https://techcrunch.com/2026/06/27/softbanks-ceo-isnt-the-only-one-with-questions-about-elon-musks-orbital-data-center-hype/",
           "twitter": "SoftBank\u2019s CEO isn\u2019t the only one questioning Elon Musk\u2019s orbital data center plans. https://techcrunch.com/2026/06/27/softbanks-ceo-isnt-the-only-one-with-questions-about-elon-musks-orbital-data-center-hype/"
         }
+      }
+    },
+    "1da8e01be784b3690ac1c3b99153e632f63da5bcd800eb213abfc301ace49fef": {
+      "created_at": "2026-06-28T04:54:40Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "New release with moderate impact and high freshness but low source tier.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Wayfinder Router: deterministic routing of queries between local and hosted LLM",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2,
+            "reason": "Industry move with significant impact but low source tier.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Ford hired AI and sacked humans. It backfired badly",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "232054ea4298354a042471310027652d9ea6ffe7bbcccd670817e539fcf0ce33": {
@@ -268,6 +326,29 @@
         ],
         "best_index": 1,
         "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "50d197f3c4d71279dafb44e8d8514e432325c1c5fabadd18c6f95c4a169c67da": {
+      "created_at": "2026-06-28T04:54:40Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1,
+            "impact_score": 0.5,
+            "index": 3,
+            "novelty_score": 0.2,
+            "reason": "Tutorial on setting up AMD Strix Halo RDMA cluster.",
+            "red_flag": true,
+            "red_flag_reason": "tutorial",
+            "source_score": 0.5,
+            "title": "AMD Strix Halo RDMA Cluster Setup Guide",
+            "total_score": 1.7
+          }
+        ],
+        "best_index": 3,
+        "best_score": 1.7,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -530,6 +611,29 @@
         }
       }
     },
+    "bbf84f543beaed6900e0418650d145508c4bffa9b5590c18c439b52013b09a73": {
+      "created_at": "2026-06-28T04:54:40Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 0.5,
+            "impact_score": 2.5,
+            "index": 8,
+            "novelty_score": 2.5,
+            "reason": "New release with significant performance improvements, but not very fresh.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "DeepSeek Releases DSpark, a Speculative Decoding Framework That Accelerates DeepSeek-V4 Per-User Generation 60\u201385% Over MTP-1",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 8,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "c17f2bd31b7914927984b27955def926f6958c52647ea9c5ff81bb28e65998a3": {
       "created_at": "2026-06-27T15:03:26Z",
       "payload": {
@@ -617,29 +721,6 @@
           }
         ],
         "best_index": 1,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "fb5e847b0d34e0ad63cf59f2b01323f9568102ed6ce24faf7c1513fde3fd1d8f": {
-      "created_at": "2026-06-27T01:59:03Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "Cursor study reveals significant benchmark inflation through reward hacking in coding agents.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Cursor Study Finds Reward Hacking Inflates Coding-Agent Benchmark Scores on SWE-bench Pro",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 3,
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
@@ -1768,6 +1849,12 @@
       "status": "scoring_attempted",
       "title": "Show HN: OpenKnowledge \u2013 open source AI-first alternative to Obsidian/Notion"
     },
+    "https://github.com/itsthelore/wayfinder-router": {
+      "canonical_url": "https://github.com/itsthelore/wayfinder-router",
+      "created_at": "2026-06-28T04:54:40Z",
+      "status": "scoring_attempted",
+      "title": "Wayfinder Router: deterministic routing of queries between local and hosted LLM"
+    },
     "https://github.com/kageroumado/adrafinil": {
       "canonical_url": "https://github.com/kageroumado/adrafinil",
       "created_at": "2026-06-27T21:19:41Z",
@@ -1779,6 +1866,12 @@
       "created_at": "2026-06-22T17:19:35Z",
       "status": "scoring_attempted",
       "title": "Show HN: I rebuilt the only parts of my IDE I use, in Rust, over a weekend"
+    },
+    "https://github.com/kyuz0/amd-strix-halo-vllm-toolboxes/blob/main/rdma_cluster/setup_guide.md": {
+      "canonical_url": "https://github.com/kyuz0/amd-strix-halo-vllm-toolboxes/blob/main/rdma_cluster/setup_guide.md",
+      "created_at": "2026-06-28T04:54:40Z",
+      "status": "scoring_attempted",
+      "title": "AMD Strix Halo RDMA Cluster Setup Guide"
     },
     "https://github.com/nikitadoudikov/claude-pulse": {
       "canonical_url": "https://github.com/nikitadoudikov/claude-pulse",
@@ -1893,6 +1986,12 @@
       "created_at": "2026-06-24T21:47:20Z",
       "status": "scoring_attempted",
       "title": "GitHub shouldn't be a dependency for publishing Rust on crates.io"
+    },
+    "https://jayacunzo.com/blog/your-move-chief": {
+      "canonical_url": "https://jayacunzo.com/blog/your-move-chief",
+      "created_at": "2026-06-28T04:54:40Z",
+      "status": "scoring_attempted",
+      "title": "Response to AI slop is from Robin Williams"
     },
     "https://jobs.ashbyhq.com/charge-robotics": {
       "canonical_url": "https://jobs.ashbyhq.com/charge-robotics",
@@ -2530,12 +2629,6 @@
       "status": "scoring_attempted",
       "title": "SAP aligns commerce data for AI personalisation"
     },
-    "https://www.bbc.com/news/articles/c0rygp005wjo": {
-      "canonical_url": "https://www.bbc.com/news/articles/c0rygp005wjo",
-      "created_at": "2026-06-21T01:41:34Z",
-      "status": "scoring_attempted",
-      "title": "'We had to get out of the way': The backlash over delivery robots"
-    },
     "https://www.bloodinthemachine.com/p/the-ai-industry-is-pouring-hundreds": {
       "canonical_url": "https://www.bloodinthemachine.com/p/the-ai-industry-is-pouring-hundreds",
       "created_at": "2026-06-26T16:20:07Z",
@@ -2830,6 +2923,12 @@
       "status": "scoring_attempted",
       "title": "Perplexity Launches Computer for Counsel: A Multi-Model Agentic Layer for Legal Workflows"
     },
+    "https://www.marktechpost.com/2026/06/27/deepseek-releases-dspark-a-speculative-decoding-framework-that-accelerates-deepseek-v4-per-user-generation-60-85-over-mtp-1": {
+      "canonical_url": "https://www.marktechpost.com/2026/06/27/deepseek-releases-dspark-a-speculative-decoding-framework-that-accelerates-deepseek-v4-per-user-generation-60-85-over-mtp-1",
+      "created_at": "2026-06-28T04:54:40Z",
+      "status": "scoring_attempted",
+      "title": "DeepSeek Releases DSpark, a Speculative Decoding Framework That Accelerates DeepSeek-V4 Per-User Generation 60\u201385% Over MTP-1"
+    },
     "https://www.marktechpost.com/2026/06/27/metas-astryx-brings-a-cli-and-mcp-server-to-an-open-source-react-design-system-agents-can-read": {
       "canonical_url": "https://www.marktechpost.com/2026/06/27/metas-astryx-brings-a-cli-and-mcp-server-to-an-open-source-react-design-system-agents-can-read",
       "created_at": "2026-06-27T10:34:25Z",
@@ -2889,6 +2988,12 @@
       "created_at": "2026-06-22T01:42:41Z",
       "status": "scoring_attempted",
       "title": "Good results fine tuning a local LLM like Qwen 3:0.6B to categorize questions"
+    },
+    "https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html": {
+      "canonical_url": "https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html",
+      "created_at": "2026-06-28T04:54:40Z",
+      "status": "scoring_attempted",
+      "title": "Ford hired AI and sacked humans. It backfired badly"
     },
     "https://www.theregister.com/research/2026/06/24/boffin-claims-microsofts-supposed-quantum-leap-does-not-compute-due-to-basic-python-errors/5260489": {
       "canonical_url": "https://www.theregister.com/research/2026/06/24/boffin-claims-microsofts-supposed-quantum-leap-does-not-compute-due-to-basic-python-errors/5260489",
