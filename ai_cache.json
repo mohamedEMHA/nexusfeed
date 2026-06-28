@@ -81,29 +81,6 @@
         "social_posts": {}
       }
     },
-    "370ccb71008c12e879cabd270142f96d852e1ed1e8f10eb4a7ef4b60336a563e": {
-      "created_at": "2026-06-27T22:31:55Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "New features for a niche hardware sampler.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Teenage Engineering adds lo-fi mode, USB audio, and more to its KO II sampler",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "371ec314c9f4a578de88ea7b25f53c6f9d11acb7f191ca0d00194baeff178815": {
       "created_at": "2026-06-28T16:56:10Z",
       "payload": {
@@ -146,29 +123,6 @@
         ],
         "best_index": 1,
         "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "4ded898f281b89b7398a8fa393a933a7e3c0423ec90c1c07d0f14a2e7ce67c09": {
-      "created_at": "2026-06-27T22:31:55Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Meta surveillance allegations are significant but lack concrete evidence.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "'Careless People' author claims Meta surveilled her for 12mos to enforce silence",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -431,6 +385,29 @@
         ],
         "best_index": 8,
         "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "bdeade075d3dcc0f5c63d0e9ab8217f098662f68f85559e64452a48233c3c5b6": {
+      "created_at": "2026-06-28T22:51:59Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Research on knowledge distillation for black-box LLMs, published less than an hour ago, but from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Knowledge Distillation of Black-Box Large Language Models",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1118,12 +1095,6 @@
       "status": "scoring_attempted",
       "title": "Aisle Discovers 6 New CVEs in Curl, Including the Oldest Issue Ever Reported"
     },
-    "https://ajeygore.in/content/the-anatomy-of-an-ai-native-org": {
-      "canonical_url": "https://ajeygore.in/content/the-anatomy-of-an-ai-native-org",
-      "created_at": "2026-06-21T21:45:51Z",
-      "status": "scoring_attempted",
-      "title": "The Anatomy of an AI-Native Org"
-    },
     "https://akrites.org/letter": {
       "canonical_url": "https://akrites.org/letter",
       "created_at": "2026-06-26T08:58:02Z",
@@ -1141,12 +1112,6 @@
       "created_at": "2026-06-28T16:56:10Z",
       "status": "scoring_attempted",
       "title": "I used Claude Code to get a second opinion on my MRI"
-    },
-    "https://apertvs.ai": {
-      "canonical_url": "https://apertvs.ai",
-      "created_at": "2026-06-21T21:45:51Z",
-      "status": "scoring_attempted",
-      "title": "Apertus \u2013 Open Foundation Model for Sovereign AI"
     },
     "https://apnews.com/article/germany-trains-halted-communications-radio-problem-deutsche-bahn-e8fd970b2d889f3ae7ce03322d5c726b": {
       "canonical_url": "https://apnews.com/article/germany-trains-halted-communications-radio-problem-deutsche-bahn-e8fd970b2d889f3ae7ce03322d5c726b",
@@ -1231,6 +1196,12 @@
       "created_at": "2026-06-23T01:25:45Z",
       "status": "scoring_attempted",
       "title": "Polymarket's viral videos showed people winning big, but the bets were fake"
+    },
+    "https://arxiv.org/abs/2401.07013": {
+      "canonical_url": "https://arxiv.org/abs/2401.07013",
+      "created_at": "2026-06-28T22:51:59Z",
+      "status": "scoring_attempted",
+      "title": "Knowledge Distillation of Black-Box Large Language Models"
     },
     "https://arxiv.org/abs/2606.20569": {
       "canonical_url": "https://arxiv.org/abs/2606.20569",
@@ -1969,12 +1940,6 @@
       "created_at": "2026-06-28T14:16:42Z",
       "status": "scoring_attempted",
       "title": "A way to exclude sensitive files issue still open for OpenAI Codex"
-    },
-    "https://github.com/raiyanyahya/recall": {
-      "canonical_url": "https://github.com/raiyanyahya/recall",
-      "created_at": "2026-06-21T21:45:51Z",
-      "status": "scoring_attempted",
-      "title": "Stop wasting tokens and re explaining your project between sessions"
     },
     "https://github.com/schlae/IBM_MCGA": {
       "canonical_url": "https://github.com/schlae/IBM_MCGA",
