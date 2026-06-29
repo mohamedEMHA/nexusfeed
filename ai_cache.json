@@ -1,5 +1,45 @@
 {
   "cerebras_scoring": {
+    "1c27dfa5104aab20d16f38caa3ed0b51f0b742616688707807a67aabd8afc72e": {
+      "created_at": "2026-06-29T19:03:34Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 2.0,
+            "reason": "Industry move with significant investment, but impact is somewhat regional.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "South Korean tech giants commit over $550B to ease 'RAMageddon'",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 3,
+            "novelty_score": 3.0,
+            "reason": "New transformer model with broad applications in AI research.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 2.0,
+            "title": "DiScoFormer: One transformer for density and score, across distributions",
+            "total_score": 9.0
+          }
+        ],
+        "best_index": 3,
+        "best_score": 9.0,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "AllenAI has developed DiScoFormer, a transformer model that handles both density and score estimation across distributions. This could simplify many AI workflows by reducing the need for specialized models. Link: https://huggingface.co/blog/allenai/discoformer",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *DiScoFormer: One transformer for density and score, across distributions*\n\nAllenAI introduces DiScoFormer, a transformer model that unifies density and score estimation across distributions.\n\n\ud83c\udfdb\ufe0f Source: HuggingFace (S)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://huggingface.co/blog/allenai/discoformer\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "DiScoFormer from AllenAI combines density and score estimation in a single transformer, potentially streamlining AI research. https://huggingface.co/blog/allenai/discoformer",
+          "twitter": "AllenAI's DiScoFormer unifies density and score estimation in one transformer, promising broader AI applications. https://huggingface.co/blog/allenai/discoformer"
+        }
+      }
+    },
     "23df3b07d2847e57f979e21efcc363ed7bba860c31da975002c45a28729d59a4": {
       "created_at": "2026-06-29T05:01:58Z",
       "payload": {
@@ -142,29 +182,6 @@
         ],
         "best_index": 8,
         "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "371ec314c9f4a578de88ea7b25f53c6f9d11acb7f191ca0d00194baeff178815": {
-      "created_at": "2026-06-28T16:56:10Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Interesting use case of Claude Code in medical analysis, but niche impact and lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "I used Claude Code to get a second opinion on my MRI",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -338,27 +355,44 @@
         "social_posts": {}
       }
     },
-    "6ec97ee138843bc418720ced6e691a186751a5bab92117ca9737c52cf03b2f02": {
-      "created_at": "2026-06-28T17:58:44Z",
+    "7043dd37512382e1ca669504a0e3be52083761efb776eb296f115e1c88db8315": {
+      "created_at": "2026-06-29T19:03:34Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 1.5,
+            "freshness_score": 2,
             "impact_score": 1.5,
-            "index": 3,
-            "novelty_score": 0.5,
-            "reason": "Opinion piece with limited novelty and impact, from a lower-tier source.",
-            "red_flag": true,
-            "red_flag_reason": "Reflections",
+            "index": 6,
+            "novelty_score": 2.5,
+            "reason": "Open-source model for agentic coding, but limited impact and source tier.",
+            "red_flag": false,
+            "red_flag_reason": null,
             "source_score": 0.5,
-            "title": "Reflections on Software Engineering in the Age of AI",
-            "total_score": 3.5
+            "title": "Ornith-1.0: self-improving open-source models for agentic coding",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 7,
+            "novelty_score": 3,
+            "reason": "New mobile app for coding agent oversight, high novelty and impact, strong source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Cursor now has a mobile app for guiding your coding agent on the go",
+            "total_score": 9
           }
         ],
-        "best_index": 3,
-        "best_score": 3.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
+        "best_index": 7,
+        "best_score": 9,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Cursor has launched a mobile app that allows developers to oversee coding agents remotely. This is a significant step forward in making AI coding tools more accessible and flexible. Link: https://techcrunch.com/2026/06/29/cursor-now-has-a-mobile-app-for-guiding-your-coding-agent-on-the-go/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\ud83d\udd25 *Cursor now has a mobile app for guiding your coding agent on the go*\n\nCursor has launched a new mobile app for remote oversight over coding agents.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9/10\n\n\ud83d\udd17 https://techcrunch.com/2026/06/29/cursor-now-has-a-mobile-app-for-guiding-your-coding-agent-on-the-go/",
+          "threads": "Cursor just released a mobile app for remote coding agent oversight. This could change how developers work with AI assistants. https://techcrunch.com/2026/06/29/cursor-now-has-a-mobile-app-for-guiding-your-coding-agent-on-the-go/",
+          "twitter": "Cursor's new mobile app lets you guide coding agents remotely. A first for the space.\nhttps://techcrunch.com/2026/06/29/cursor-now-has-a-mobile-app-for-guiding-your-coding-agent-on-the-go/"
+        }
       }
     },
     "715fb30d6c559b71e3be3a71aafeb9ffb19555f1912d6f44ac9b30eb932abb25": {
@@ -617,6 +651,46 @@
         "social_posts": {}
       }
     },
+    "91b08aebe51d8e2e3ea2a63ed388f6537ebb06a099cc0904bd02172de6ba2e23": {
+      "created_at": "2026-06-29T19:03:34Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "OpenAI's new hardware for Codex is a significant industry move with broad impact on developers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "OpenAI is teasing new hardware\u2026 for Codex",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2,
+            "reason": "Anthropic's deal with California is a notable industry move but slightly less impactful than OpenAI's hardware release.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Anthropic and Gov. Newsom forge deal allowing California government to use Claude at half price",
+            "total_score": 8
+          }
+        ],
+        "best_index": 0,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "OpenAI is teasing new hardware for Codex, hinting at a significant upgrade for developers. The device, shown in a recent video, features a square shape with several buttons, suggesting a physical interface for AI-powered coding. Link: https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *OpenAI is teasing new hardware for Codex*\n\nOpenAI is releasing a device related to its AI-powered coding tool, Codex, featuring a square shape with several buttons. The upgrade promises to enhance coding shortcuts.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "OpenAI just teased new hardware for Codex, promising to upgrade coding shortcuts. The device features a square shape with several buttons, hinting at a physical interface for AI-powered coding. https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder",
+          "twitter": "OpenAI is teasing new hardware for Codex, promising to upgrade your coding shortcuts. https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder"
+        }
+      }
+    },
     "944f273f4267b5d4c13c229aaa23fc2d0bf9c06927afbc021f99308293153e18": {
       "created_at": "2026-06-29T11:56:09Z",
       "payload": {
@@ -690,57 +764,6 @@
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "95d84f17ec36e6a74d1a05f71a036bd91fd39982538b9f82f72ffa0f93020e0c": {
-      "created_at": "2026-06-28T16:56:10Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 0.5,
-            "index": 1,
-            "novelty_score": 0.2,
-            "reason": "The article is about a traditional Japanese technique, which is not directly relevant to software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Daisugi the Japanese Technique of Trees Out of Trees, Making Exact Straight Wood",
-            "total_score": 3.2
-          }
-        ],
-        "best_index": 1,
-        "best_score": 3.2,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "9ecac598a114feabd929d558eb3857ba1ff7bc4f68fdabd15d5fe920829b1fbd": {
-      "created_at": "2026-06-28T17:58:44Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "China's new supercomputer LineShine reclaims the top spot on the TOP500 ranking, marking a significant development in global supercomputing.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "China claims the world\u2019s fastest supercomputer",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "China has reclaimed the title of the world's fastest supercomputer with LineShine, pushing El Capitan out of the top spot on the TOP500 ranking. This development comes despite strict US trade restrictions on high-powered computing components. Link: https://www.theverge.com/tech/958768/china-claims-the-worlds-fastest-supercomputer",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *China claims the world\u2019s fastest supercomputer*\n\nChina's LineShine supercomputer has reclaimed the title of the world's fastest, pushing El Capitan out of the top spot on the TOP500 ranking, despite US trade restrictions.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/tech/958768/china-claims-the-worlds-fastest-supercomputer\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "China's LineShine supercomputer reclaims the world's fastest title, despite US trade restrictions. This marks the first time since 2018 that China has held the top spot. https://www.theverge.com/tech/958768/china-claims-the-worlds-fastest-supercomputer",
-          "twitter": "China's LineShine supercomputer dethrones El Capitan to claim the world's fastest title, despite US trade restrictions.\nhttps://www.theverge.com/tech/958768/china-claims-the-worlds-fastest-supercomputer"
-        }
       }
     },
     "a8168cfebb69d059eb40dec6e411bc36ab5aa4be5e472e06c398a90ad02b51bc": {
@@ -1020,6 +1043,46 @@
         "social_posts": {}
       }
     },
+    "c42dd7f2aa4ff07f17d57078e5f93ac987288d453da363b57ce0b157c74b9422": {
+      "created_at": "2026-06-29T19:03:34Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 4,
+            "novelty_score": 1.5,
+            "reason": "Interesting exhibition on AI and aesthetics, but niche impact and not a major tech development.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "3 Questions: Beyond data-driven aesthetics",
+            "total_score": 6
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 5,
+            "novelty_score": 2.5,
+            "reason": "Arena's rapid growth to $100M is a significant milestone in the AI industry.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Arena, the AI leaderboard everyone uses, is now a $100M business",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 5,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Arena, the popular AI leaderboard, has grown into a $100M business just seven months after launching its commercial service. This is a significant milestone for the AI industry. Link: https://techcrunch.com/2026/06/29/arena-the-ai-leaderboard-everyone-uses-is-now-a-100m-business/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Arena, the AI leaderboard everyone uses, is now a $100M business*\n\nThe startup, which runs a popular free AI leaderboard, launched its commercial service just last September.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/06/29/arena-the-ai-leaderboard-everyone-uses-is-now-a-100m-business/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Arena, the AI leaderboard everyone uses, just hit $100M in revenue. Launched its commercial service last September. https://techcrunch.com/2026/06/29/arena-the-ai-leaderboard-everyone-uses-is-now-a-100m-business/",
+          "twitter": "Arena, the AI leaderboard used by everyone, just hit $100M in revenue. https://techcrunch.com/2026/06/29/arena-the-ai-leaderboard-everyone-uses-is-now-a-100m-business/"
+        }
+      }
+    },
     "c79ba5cd5585794c545788590db1f482f7b651d6943e1b2f54eb6cff5c9ab378": {
       "created_at": "2026-06-28T21:43:22Z",
       "payload": {
@@ -1293,15 +1356,6 @@
         "twitter": "Former Meta AI researchers' startup Patronus AI secures $50M to develop digital worlds for AI agent testing @TechCrunch #AItesting"
       }
     },
-    "18f6fc9c973d52e250bc85e815e8249608c0f75655d8f176aec1dda27d82d31e": {
-      "created_at": "2026-06-22T18:11:45Z",
-      "payload": {
-        "facebook": "Amazon is increasing its presence in India with the testing of Alexa+, its new conversational AI assistant, now available in Hindi. This move marks a significant expansion of Amazon's AI capabilities in the region. #AI #ConversationalAI #India",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Amazon Expands AI Reach\nAmazon is testing its conversational AI assistant Alexa+ in India, with support for Hindi.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #ConversationalAI #India\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Amazon's Alexa+ is being tested in India with Hindi support, a significant move for the company's conversational AI assistant, @TechCrunch #AI",
-        "twitter": "Amazon expands conversational AI reach with Alexa+ testing in India, now supporting Hindi, @TechCrunch #AI"
-      }
-    },
     "1fc65f024b8c331b5fc3d68c8e8e0261f83c42864883fbcdc96d13f315fd469c": {
       "created_at": "2026-06-28T14:16:42Z",
       "payload": {
@@ -1464,6 +1518,15 @@
         "twitter": "Developers can now create real agentic apps with CUGA, a lightweight harness offering two dozen working examples @HuggingFace #AI"
       }
     },
+    "912bb6607648b8eb419e3c88ecea9449947d1bceda549d71bb165b612c74b906": {
+      "created_at": "2026-06-29T19:03:34Z",
+      "payload": {
+        "facebook": "The development of a single transformer model that can handle both density and score across distributions is a significant step forward for AI research. This model has the potential to be applied in a wide range of areas, from natural language processing to computer vision. #AI #MachineLearning #TransformerModel",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 New Transformer Model Introduced\nA single transformer model can now handle both density and score across distributions, a significant step forward for AI research.\n\ud83c\udfdb\ufe0f Source: HuggingFace (S)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9/10\n#AI #MachineLearning #TransformerModel\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Researchers have introduced a new transformer model that can handle density and score across distributions, a significant advancement in AI research, according to @HuggingFace #AI",
+        "twitter": "A new transformer model is making waves in AI research, capable of handling density and score across distributions, says @HuggingFace #AI"
+      }
+    },
     "91e88d437109601cd4a456f17d5510f9437f02bfc52d450dbae050c31928997c": {
       "created_at": "2026-06-23T20:28:19Z",
       "payload": {
@@ -1525,15 +1588,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 The Smart Home Industry's Last Hope\nMatter, the open standard for smart home interoperability, is still being backed by major players like Apple and Google. The standard aims to simplify the fragmented market and make it easier for devices to communicate with each other.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#Matter #SmartHome #IoT\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "The smart home industry is still counting on Matter to bring order to the chaotic market, with big names like Apple and Google involved @TheVerge #SmartHome",
         "twitter": "Matter is still the smart home industry's best bet for interoperability, with major players like Apple and Google on board @TheVerge #Matter #SmartHome"
-      }
-    },
-    "b744bba06e9e1bb0869cafec7ad20c12e03ff1477fd8b9532fa6a1b20b9fb248": {
-      "created_at": "2026-06-22T17:19:35Z",
-      "payload": {
-        "facebook": "As concerns about AI models' cybersecurity capabilities grow, OpenAI has launched a comprehensive initiative to fix open-source software bugs, including an improved version of GPT-5.5-Cyber. This move is part of OpenAI's efforts to enhance AI security and take on competitors like Anthropic. #AIsecurity #OpenAI #Cybersecurity",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 OpenAI Launches Cybersecurity Initiative\nOpenAI has launched a full-scale effort to patch open-source bugs, unveiling an improved version of GPT-5.5-Cyber. This move is part of OpenAI's efforts to enhance AI security and take on competitors like Anthropic.\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.5/10\n#AIsecurity #OpenAI #Cybersecurity\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "OpenAI has unveiled an improved GPT-5.5-Cyber and a new initiative to patch open-source bugs, taking on Anthropic's Mythos in the process @OpenAI #AIsecurity",
-        "twitter": "OpenAI takes on Anthropic's Mythos with a full-scale effort to patch open-source bugs, unveiling an improved GPT-5.5-Cyber @OpenAI #AIsecurity"
       }
     },
     "c139a28c3203cdbb78a68d90e40ec81e2276e1514da64361e8df0f604422c434": {
@@ -1663,12 +1717,6 @@
       "created_at": "2026-06-22T22:56:36Z",
       "status": "scoring_attempted",
       "title": "GM installs robots at flagship EV factory after laying off 1,300 workers"
-    },
-    "https://arstechnica.com/ai/2026/06/how-anthropic-may-have-talked-itself-into-an-ai-export-ban": {
-      "canonical_url": "https://arstechnica.com/ai/2026/06/how-anthropic-may-have-talked-itself-into-an-ai-export-ban",
-      "created_at": "2026-06-22T17:19:35Z",
-      "status": "scoring_attempted",
-      "title": "How Anthropic may have talked itself into an AI export ban"
     },
     "https://arstechnica.com/ai/2026/06/oracles-21000-layoffs-help-drive-its-debt-fueled-ai-investments": {
       "canonical_url": "https://arstechnica.com/ai/2026/06/oracles-21000-layoffs-help-drive-its-debt-fueled-ai-investments",
@@ -2486,12 +2534,6 @@
       "status": "scoring_attempted",
       "title": "AI's Affordability Crisis"
     },
-    "https://blog.ericgoldman.org/archives/2026/06/blogger-defeats-photographers-copyright-claim-sokolskyfilm-v-messiah.htm": {
-      "canonical_url": "https://blog.ericgoldman.org/archives/2026/06/blogger-defeats-photographers-copyright-claim-sokolskyfilm-v-messiah.htm",
-      "created_at": "2026-06-22T17:19:35Z",
-      "status": "scoring_attempted",
-      "title": "Blogger Defeats Photographer's Copyright Claim-Sokolskyfilm vs. Messiah"
-    },
     "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash": {
       "canonical_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash",
       "created_at": "2026-06-24T18:14:56Z",
@@ -2558,12 +2600,6 @@
       "status": "scoring_attempted",
       "title": "Running a software jam in a world of slop"
     },
-    "https://github.com/Intuned/selector-forge": {
-      "canonical_url": "https://github.com/Intuned/selector-forge",
-      "created_at": "2026-06-22T18:11:45Z",
-      "status": "scoring_attempted",
-      "title": "Show HN: Selector Forge \u2013 browser extension for AI-generated resilient selectors"
-    },
     "https://github.com/JustVugg/nanoeuler": {
       "canonical_url": "https://github.com/JustVugg/nanoeuler",
       "created_at": "2026-06-28T20:37:29Z",
@@ -2575,6 +2611,12 @@
       "created_at": "2026-06-27T16:20:01Z",
       "status": "scoring_attempted",
       "title": "Anonymous GitHub account mass-dropping undisclosed 0-days"
+    },
+    "https://github.com/deepreinforce-ai/Ornith-1": {
+      "canonical_url": "https://github.com/deepreinforce-ai/Ornith-1",
+      "created_at": "2026-06-29T19:03:34Z",
+      "status": "scoring_attempted",
+      "title": "Ornith-1.0: self-improving open-source models for agentic coding"
     },
     "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf": {
       "canonical_url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
@@ -2605,12 +2647,6 @@
       "created_at": "2026-06-28T20:37:29Z",
       "status": "scoring_attempted",
       "title": "Show HN: Bash4LLM+ \u2013 A lightweight, dependency-free Bash wrapper for LLM APIs"
-    },
-    "https://github.com/kyle-ssg/kyde": {
-      "canonical_url": "https://github.com/kyle-ssg/kyde",
-      "created_at": "2026-06-22T17:19:35Z",
-      "status": "scoring_attempted",
-      "title": "Show HN: I rebuilt the only parts of my IDE I use, in Rust, over a weekend"
     },
     "https://github.com/kyuz0/amd-strix-halo-vllm-toolboxes/blob/main/rdma_cluster/setup_guide.md": {
       "canonical_url": "https://github.com/kyuz0/amd-strix-halo-vllm-toolboxes/blob/main/rdma_cluster/setup_guide.md",
@@ -2684,11 +2720,11 @@
       "status": "scoring_attempted",
       "title": "Haystack: Open-Source AI Framework for Production Ready Agents, RAG"
     },
-    "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6": {
-      "canonical_url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
-      "created_at": "2026-06-22T17:19:35Z",
+    "https://huggingface.co/blog/allenai/discoformer": {
+      "canonical_url": "https://huggingface.co/blog/allenai/discoformer",
+      "created_at": "2026-06-29T19:03:34Z",
       "status": "scoring_attempted",
-      "title": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters"
+      "title": "DiScoFormer: One transformer for density and score, across distributions"
     },
     "https://huggingface.co/blog/allenai/hybrid-token-prediction": {
       "canonical_url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
@@ -2714,12 +2750,6 @@
       "status": "scoring_attempted",
       "title": "Run a vLLM Server on HF Jobs in One Command"
     },
-    "https://hustvl.github.io/Moebius": {
-      "canonical_url": "https://hustvl.github.io/Moebius",
-      "created_at": "2026-06-22T17:19:35Z",
-      "status": "scoring_attempted",
-      "title": "Moebius: 0.2B image inpainting model with 10B-level performance"
-    },
     "https://images.minimus.io": {
       "canonical_url": "https://images.minimus.io",
       "created_at": "2026-06-24T12:31:02Z",
@@ -2737,12 +2767,6 @@
       "created_at": "2026-06-28T04:54:40Z",
       "status": "scoring_attempted",
       "title": "Response to AI slop is from Robin Williams"
-    },
-    "https://jobs.ashbyhq.com/charge-robotics": {
-      "canonical_url": "https://jobs.ashbyhq.com/charge-robotics",
-      "created_at": "2026-06-22T17:19:35Z",
-      "status": "scoring_attempted",
-      "title": "Charge Robotics (YC S21) Is Hiring Software and Hardware Engineers"
     },
     "https://kreya.app/blog/new-http-query-method-explained": {
       "canonical_url": "https://kreya.app/blog/new-http-query-method-explained",
@@ -2762,12 +2786,6 @@
       "status": "scoring_attempted",
       "title": "Don't verify email addresses by sending spam to them"
     },
-    "https://mitchellh.com/writing/zig-donation-2026": {
-      "canonical_url": "https://mitchellh.com/writing/zig-donation-2026",
-      "created_at": "2026-06-22T17:19:35Z",
-      "status": "scoring_attempted",
-      "title": "Pledging Another $400k to the Zig Software Foundation"
-    },
     "https://nega.tv/posts/low-tech-ai-of-elden-ring.html": {
       "canonical_url": "https://nega.tv/posts/low-tech-ai-of-elden-ring.html",
       "created_at": "2026-06-23T16:08:40Z",
@@ -2779,6 +2797,12 @@
       "created_at": "2026-06-26T15:14:45Z",
       "status": "scoring_attempted",
       "title": "Incident CVE-2026-LGTM"
+    },
+    "https://news.mit.edu/2026/3-questions-beyond-data-driven-aesthetics-alexandros-haridis-0629": {
+      "canonical_url": "https://news.mit.edu/2026/3-questions-beyond-data-driven-aesthetics-alexandros-haridis-0629",
+      "created_at": "2026-06-29T19:03:34Z",
+      "status": "scoring_attempted",
+      "title": "3 Questions: Beyond data-driven aesthetics"
     },
     "https://news.mit.edu/2026/david-autor-named-head-department-economics-0626": {
       "canonical_url": "https://news.mit.edu/2026/david-autor-named-head-department-economics-0626",
@@ -2846,18 +2870,6 @@
       "status": "scoring_attempted",
       "title": "US Grid Constraints: Towards 40GW+ of Behind-the-Meter Datacenter by 2028?"
     },
-    "https://oak.space/oak/oak": {
-      "canonical_url": "https://oak.space/oak/oak",
-      "created_at": "2026-06-22T18:11:45Z",
-      "status": "scoring_attempted",
-      "title": "Show HN: Oak \u2013 Git replacement designed for agents"
-    },
-    "https://openai.com/index/daybreak-securing-the-world": {
-      "canonical_url": "https://openai.com/index/daybreak-securing-the-world",
-      "created_at": "2026-06-22T17:19:35Z",
-      "status": "scoring_attempted",
-      "title": "Daybreak: Tools for securing every organization in the world"
-    },
     "https://openai.com/index/gpt-5-immunology-mystery": {
       "canonical_url": "https://openai.com/index/gpt-5-immunology-mystery",
       "created_at": "2026-06-23T18:20:38Z",
@@ -2888,23 +2900,11 @@
       "status": "scoring_attempted",
       "title": "OpenAI and Broadcom unveil LLM-optimized inference chip"
     },
-    "https://openai.com/index/patch-the-planet": {
-      "canonical_url": "https://openai.com/index/patch-the-planet",
-      "created_at": "2026-06-22T17:19:35Z",
-      "status": "scoring_attempted",
-      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers"
-    },
     "https://openai.com/index/previewing-gpt-5-6-sol": {
       "canonical_url": "https://openai.com/index/previewing-gpt-5-6-sol",
       "created_at": "2026-06-26T18:08:12Z",
       "status": "scoring_attempted",
       "title": "Previewing GPT-5.6 Sol: a next-generation model"
-    },
-    "https://patrickmccanna.net/the-text-in-claude-codes-extended-thinking-output-is-not-authentic": {
-      "canonical_url": "https://patrickmccanna.net/the-text-in-claude-codes-extended-thinking-output-is-not-authentic",
-      "created_at": "2026-06-22T17:19:35Z",
-      "status": "scoring_attempted",
-      "title": "Claude Code's \"extended thinking\" is a summary- not authentic thinking"
     },
     "https://popflame.quickish.space/hn-flipboard": {
       "canonical_url": "https://popflame.quickish.space/hn-flipboard",
@@ -2966,12 +2966,6 @@
       "status": "scoring_attempted",
       "title": "AI chipmaker Groq confirms $650M raise, re-staffs after Nvidia\u2019s $20B not-acqui-hire deal"
     },
-    "https://techcrunch.com/2026/06/22/amazon-is-testing-alexa-in-india-with-hindi-support": {
-      "canonical_url": "https://techcrunch.com/2026/06/22/amazon-is-testing-alexa-in-india-with-hindi-support",
-      "created_at": "2026-06-22T18:11:45Z",
-      "status": "scoring_attempted",
-      "title": "Amazon is testing Alexa+ in India with Hindi support"
-    },
     "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal": {
       "canonical_url": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal",
       "created_at": "2026-06-22T21:13:54Z",
@@ -2990,23 +2984,11 @@
       "status": "scoring_attempted",
       "title": "OpenAI launches new initiative to help find and patch open-source bugs"
     },
-    "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab": {
-      "canonical_url": "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab",
-      "created_at": "2026-06-22T17:19:35Z",
-      "status": "scoring_attempted",
-      "title": "SpaceX inks compute deal with Reflection AI, an open-source AI lab"
-    },
     "https://techcrunch.com/2026/06/22/the-ai-world-is-getting-loopy": {
       "canonical_url": "https://techcrunch.com/2026/06/22/the-ai-world-is-getting-loopy",
       "created_at": "2026-06-22T21:13:54Z",
       "status": "scoring_attempted",
       "title": "The AI world is getting \u2018loopy\u2019"
-    },
-    "https://techcrunch.com/2026/06/22/the-founder-conference-built-for-growth-techcrunch-founder-summit-pass-rates-increase-june-26": {
-      "canonical_url": "https://techcrunch.com/2026/06/22/the-founder-conference-built-for-growth-techcrunch-founder-summit-pass-rates-increase-june-26",
-      "created_at": "2026-06-22T17:19:35Z",
-      "status": "scoring_attempted",
-      "title": "The founder conference built for growth: TechCrunch Founder Summit pass rates increase June 26"
     },
     "https://techcrunch.com/2026/06/23/4-days-left-to-save-up-to-190-on-techcrunch-founder-summit-2026": {
       "canonical_url": "https://techcrunch.com/2026/06/23/4-days-left-to-save-up-to-190-on-techcrunch-founder-summit-2026",
@@ -3230,6 +3212,24 @@
       "status": "scoring_attempted",
       "title": "Why Wall Street thinks US memory maker Micron is the next Nvidia"
     },
+    "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price": {
+      "canonical_url": "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price",
+      "created_at": "2026-06-29T19:03:34Z",
+      "status": "scoring_attempted",
+      "title": "Anthropic and Gov. Newsom forge deal allowing California government to use Claude at half price"
+    },
+    "https://techcrunch.com/2026/06/29/arena-the-ai-leaderboard-everyone-uses-is-now-a-100m-business": {
+      "canonical_url": "https://techcrunch.com/2026/06/29/arena-the-ai-leaderboard-everyone-uses-is-now-a-100m-business",
+      "created_at": "2026-06-29T19:03:34Z",
+      "status": "scoring_attempted",
+      "title": "Arena, the AI leaderboard everyone uses, is now a $100M business"
+    },
+    "https://techcrunch.com/2026/06/29/cursor-now-has-a-mobile-app-for-guiding-your-coding-agent-on-the-go": {
+      "canonical_url": "https://techcrunch.com/2026/06/29/cursor-now-has-a-mobile-app-for-guiding-your-coding-agent-on-the-go",
+      "created_at": "2026-06-29T19:03:34Z",
+      "status": "scoring_attempted",
+      "title": "Cursor now has a mobile app for guiding your coding agent on the go"
+    },
     "https://techcrunch.com/2026/06/29/omen-ais-plan-to-optimize-data-centers-is-all-wet": {
       "canonical_url": "https://techcrunch.com/2026/06/29/omen-ais-plan-to-optimize-data-centers-is-all-wet",
       "created_at": "2026-06-29T15:42:29Z",
@@ -3241,6 +3241,12 @@
       "created_at": "2026-06-29T15:42:29Z",
       "status": "scoring_attempted",
       "title": "Robot hand company settles Tesla trade secret suit and announces $11M raise"
+    },
+    "https://techcrunch.com/2026/06/29/south-korean-tech-giants-commit-over-550b-to-ease-ramageddon": {
+      "canonical_url": "https://techcrunch.com/2026/06/29/south-korean-tech-giants-commit-over-550b-to-ease-ramageddon",
+      "created_at": "2026-06-29T19:03:34Z",
+      "status": "scoring_attempted",
+      "title": "South Korean tech giants commit over $550B to ease \u2018 RAMageddon\u2019"
     },
     "https://techcrunch.com/2026/06/29/tidal-cracks-down-on-ai-music-by-cutting-off-monetization": {
       "canonical_url": "https://techcrunch.com/2026/06/29/tidal-cracks-down-on-ai-music-by-cutting-off-monetization",
@@ -3349,18 +3355,6 @@
       "created_at": "2026-06-29T15:42:29Z",
       "status": "scoring_attempted",
       "title": "HP accelerates enterprise workflows with OpenAI Frontier"
-    },
-    "https://www.artificialintelligence-news.com/news/loreal-maybelline-virtual-try-on-chatgpt": {
-      "canonical_url": "https://www.artificialintelligence-news.com/news/loreal-maybelline-virtual-try-on-chatgpt",
-      "created_at": "2026-06-22T17:19:35Z",
-      "status": "scoring_attempted",
-      "title": "L\u2019Or\u00e9al brings Maybelline virtual try-on to ChatGPT"
-    },
-    "https://www.artificialintelligence-news.com/news/mitigating-vendor-lock-in-sakana-ai-fugu-multi-agent-models": {
-      "canonical_url": "https://www.artificialintelligence-news.com/news/mitigating-vendor-lock-in-sakana-ai-fugu-multi-agent-models",
-      "created_at": "2026-06-22T17:19:35Z",
-      "status": "scoring_attempted",
-      "title": "Mitigating vendor lock-in with Sakana AI Fugu multi-agent models"
     },
     "https://www.artificialintelligence-news.com/news/omio-scales-travel-product-development-using-openai-models": {
       "canonical_url": "https://www.artificialintelligence-news.com/news/omio-scales-travel-product-development-using-openai-models",
@@ -3475,12 +3469,6 @@
       "created_at": "2026-06-24T20:13:00Z",
       "status": "scoring_attempted",
       "title": "Big AI labs are hiring philosophers"
-    },
-    "https://www.ft.com/content/e5bac4d1-b1f8-43a4-bd54-b182d5357af0": {
-      "canonical_url": "https://www.ft.com/content/e5bac4d1-b1f8-43a4-bd54-b182d5357af0",
-      "created_at": "2026-06-22T18:11:45Z",
-      "status": "scoring_attempted",
-      "title": "Bain tests software takeover targets by vibecoding AI replicas"
     },
     "https://www.greptile.com/blog/prs-on-openclaw": {
       "canonical_url": "https://www.greptile.com/blog/prs-on-openclaw",
@@ -3626,12 +3614,6 @@
       "status": "scoring_attempted",
       "title": "Presentation: The Time It Wasn't DNS"
     },
-    "https://www.infoq.com/presentations/mobile-user-tracking-service": {
-      "canonical_url": "https://www.infoq.com/presentations/mobile-user-tracking-service",
-      "created_at": "2026-06-22T17:19:35Z",
-      "status": "scoring_attempted",
-      "title": "Presentation: Challenging Google Analytics: Building a Scalable, Cost-Effective User Tracking Service"
-    },
     "https://www.infoq.com/presentations/rust-polyglot-sdk": {
       "canonical_url": "https://www.infoq.com/presentations/rust-polyglot-sdk",
       "created_at": "2026-06-25T12:33:53Z",
@@ -3776,12 +3758,6 @@
       "status": "scoring_attempted",
       "title": "Apple raises prices of MacBooks, iPads"
     },
-    "https://www.science.org/content/article/exclusive-nsf-slashes-research-programs-support-new-tech-initiative-insiders-say": {
-      "canonical_url": "https://www.science.org/content/article/exclusive-nsf-slashes-research-programs-support-new-tech-initiative-insiders-say",
-      "created_at": "2026-06-22T18:11:45Z",
-      "status": "scoring_attempted",
-      "title": "NSF slashes research programs to support new tech initiative, insiders say"
-    },
     "https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies": {
       "canonical_url": "https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies",
       "created_at": "2026-06-27T05:35:51Z",
@@ -3866,23 +3842,17 @@
       "status": "scoring_attempted",
       "title": "Lawmakers want to ban AI companies from selling your health data"
     },
+    "https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder": {
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder",
+      "created_at": "2026-06-29T19:03:34Z",
+      "status": "scoring_attempted",
+      "title": "OpenAI is teasing new hardware\u2026 for Codex"
+    },
     "https://www.theverge.com/column/956756/world-cup-streaming": {
       "canonical_url": "https://www.theverge.com/column/956756/world-cup-streaming",
       "created_at": "2026-06-25T15:31:40Z",
       "status": "scoring_attempted",
       "title": "How the World Cup became a US streaming success story"
-    },
-    "https://www.theverge.com/entertainment/953596/google-deepmind-a24-studio-ai-partnership": {
-      "canonical_url": "https://www.theverge.com/entertainment/953596/google-deepmind-a24-studio-ai-partnership",
-      "created_at": "2026-06-22T17:19:35Z",
-      "status": "scoring_attempted",
-      "title": "Google invests in A24 to build AI movie tools"
-    },
-    "https://www.theverge.com/entertainment/953615/steam-machine-price-game-consoles-future-ps6-project-helix": {
-      "canonical_url": "https://www.theverge.com/entertainment/953615/steam-machine-price-game-consoles-future-ps6-project-helix",
-      "created_at": "2026-06-22T18:11:45Z",
-      "status": "scoring_attempted",
-      "title": "The Steam Machine is the start of an even more expensive future for game consoles"
     },
     "https://www.theverge.com/entertainment/954899/luca-guadagnino-artificial-sam-altman-amazon-a24-neon-mubi-chatgpt": {
       "canonical_url": "https://www.theverge.com/entertainment/954899/luca-guadagnino-artificial-sam-altman-amazon-a24-neon-mubi-chatgpt",
@@ -3986,23 +3956,11 @@
       "status": "scoring_attempted",
       "title": "Hoto\u2019s 25-bit electric screwdriver is 40 percent off during Prime Day"
     },
-    "https://www.theverge.com/gadgets/953458/apple-watch-se-3-prime-day-deal-sale": {
-      "canonical_url": "https://www.theverge.com/gadgets/953458/apple-watch-se-3-prime-day-deal-sale",
-      "created_at": "2026-06-22T18:11:45Z",
-      "status": "scoring_attempted",
-      "title": "The Apple Watch SE 3 is just $199 for Prime Day"
-    },
     "https://www.theverge.com/gadgets/953517/oura-ring-4-prime-day-smart-ring-deal-sale": {
       "canonical_url": "https://www.theverge.com/gadgets/953517/oura-ring-4-prime-day-smart-ring-deal-sale",
       "created_at": "2026-06-23T16:08:40Z",
       "status": "scoring_attempted",
       "title": "The Oura Ring 4 is as low as $226 for Prime Day"
-    },
-    "https://www.theverge.com/gadgets/953655/ringconn-lord-of-the-rings": {
-      "canonical_url": "https://www.theverge.com/gadgets/953655/ringconn-lord-of-the-rings",
-      "created_at": "2026-06-22T17:19:35Z",
-      "status": "scoring_attempted",
-      "title": "RingConn&#8217;s Lord of the Rings promotion assumes smart ring wearers want to be like Gollum"
     },
     "https://www.theverge.com/gadgets/953766/switchbot-circulating-fan-prime-day-deal-sale": {
       "canonical_url": "https://www.theverge.com/gadgets/953766/switchbot-circulating-fan-prime-day-deal-sale",
@@ -4094,18 +4052,6 @@
       "status": "scoring_attempted",
       "title": "After covering Prime Day for 36 hours over four days, this is the one thing I bought"
     },
-    "https://www.theverge.com/games/952004/valve-steam-machine-price-not-subsidizing": {
-      "canonical_url": "https://www.theverge.com/games/952004/valve-steam-machine-price-not-subsidizing",
-      "created_at": "2026-06-22T17:19:35Z",
-      "status": "scoring_attempted",
-      "title": "Valve explains why it isn&#8217;t subsidizing the Steam Machine"
-    },
-    "https://www.theverge.com/games/952191/valve-steam-machine-reservation-preorder-process": {
-      "canonical_url": "https://www.theverge.com/games/952191/valve-steam-machine-reservation-preorder-process",
-      "created_at": "2026-06-22T17:19:35Z",
-      "status": "scoring_attempted",
-      "title": "Here\u2019s how you can reserve a Steam Machine"
-    },
     "https://www.theverge.com/games/952634/valve-intel-nvidia-steamos-gpus-linux": {
       "canonical_url": "https://www.theverge.com/games/952634/valve-intel-nvidia-steamos-gpus-linux",
       "created_at": "2026-06-23T13:24:43Z",
@@ -4147,18 +4093,6 @@
       "created_at": "2026-06-29T16:55:11Z",
       "status": "scoring_attempted",
       "title": "Dbrand cancels Companion Cube because it didn&#8217;t actually ask Valve for permission"
-    },
-    "https://www.theverge.com/news/837022/valve-steam-machine-price-release-date": {
-      "canonical_url": "https://www.theverge.com/news/837022/valve-steam-machine-price-release-date",
-      "created_at": "2026-06-22T17:19:35Z",
-      "status": "scoring_attempted",
-      "title": "Valve prices the Steam Machine at $1,049"
-    },
-    "https://www.theverge.com/news/953664/amd-fsr-4-1-upscaling-rx-7000-series-gpus-rdna-3": {
-      "canonical_url": "https://www.theverge.com/news/953664/amd-fsr-4-1-upscaling-rx-7000-series-gpus-rdna-3",
-      "created_at": "2026-06-22T17:19:35Z",
-      "status": "scoring_attempted",
-      "title": "AMD releases FSR 4.1 upscaling for older graphics cards"
     },
     "https://www.theverge.com/news/956095/worlds-first-solar-ebike-do-not-buy": {
       "canonical_url": "https://www.theverge.com/news/956095/worlds-first-solar-ebike-do-not-buy",
@@ -4489,12 +4423,6 @@
       "created_at": "2026-06-26T18:08:12Z",
       "status": "scoring_attempted",
       "title": "OpenAI Has New AI Models. Here\u2019s Why You Can\u2019t Use Them"
-    },
-    "https://www.wired.com/story/openai-launches-full-scale-effort-to-patch-open-source-bugs-as-it-takes-on-anthropics-mythos": {
-      "canonical_url": "https://www.wired.com/story/openai-launches-full-scale-effort-to-patch-open-source-bugs-as-it-takes-on-anthropics-mythos",
-      "created_at": "2026-06-22T17:19:35Z",
-      "status": "scoring_attempted",
-      "title": "OpenAI Launches Full-Scale Effort to Patch Open-Source Bugs as It Takes on Anthropic\u2019s Mythos"
     },
     "https://www.wired.com/story/qualcomm-buys-buzzy-chip-startup-modular-for-nearly-dollar4-billion": {
       "canonical_url": "https://www.wired.com/story/qualcomm-buys-buzzy-chip-startup-modular-for-nearly-dollar4-billion",
