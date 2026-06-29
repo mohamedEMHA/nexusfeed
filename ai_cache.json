@@ -1,59 +1,84 @@
 {
   "cerebras_scoring": {
-    "06c443b0d177f588c5ff8b2e114293f20d9777f5b339566522858161d75d6905": {
-      "created_at": "2026-06-28T04:54:40Z",
+    "23df3b07d2847e57f979e21efcc363ed7bba860c31da975002c45a28729d59a4": {
+      "created_at": "2026-06-29T05:01:58Z",
       "payload": {
         "articles": [
           {
             "freshness_score": 1.5,
-            "impact_score": 0.0,
-            "index": 2,
-            "novelty_score": 0.0,
-            "reason": "Comments are not a valid source for AI news.",
-            "red_flag": true,
-            "red_flag_reason": "Comments",
-            "source_score": 0.5,
-            "title": "Response to AI slop is from Robin Williams",
-            "total_score": 2.0
-          }
-        ],
-        "best_index": 2,
-        "best_score": 2.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "1da8e01be784b3690ac1c3b99153e632f63da5bcd800eb213abfc301ace49fef": {
-      "created_at": "2026-06-28T04:54:40Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
             "impact_score": 1.5,
-            "index": 0,
+            "index": 13,
             "novelty_score": 2.5,
-            "reason": "New release with moderate impact and high freshness but low source tier.",
+            "reason": "New research on knowledge graph completion with quaternion rotation.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 0.5,
-            "title": "Wayfinder Router: deterministic routing of queries between local and hosted LLM",
-            "total_score": 6.5
+            "title": "RelBall: Relation Ball with Quaternion Rotation for Knowledge Graph Completion",
+            "total_score": 5.5
           },
           {
             "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2,
-            "reason": "Industry move with significant impact but low source tier.",
+            "impact_score": 1.5,
+            "index": 14,
+            "novelty_score": 2.5,
+            "reason": "New research on lifted inference in probabilistic graphical models.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 0.5,
-            "title": "Ford hired AI and sacked humans. It backfired badly",
-            "total_score": 6.5
+            "title": "Lifted Causal Inference",
+            "total_score": 5.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 15,
+            "novelty_score": 2.5,
+            "reason": "New industrial-scale solution for item understanding and management.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "JD Oxygen AI Item Center (Oxygen AIIC) V1: An Industrial-Scale LLM/VLM-Centric Solution for Item Understanding, Management, and Applications",
+            "total_score": 5.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 16,
+            "novelty_score": 2.5,
+            "reason": "New approach to multi-hop knowledge graph question answering.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Ontology-Guided Evidence Path Inference for Multi-hop Knowledge Graph Question Answering",
+            "total_score": 5.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 17,
+            "novelty_score": 2.5,
+            "reason": "New framework for automating innovation in high-tech system design.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "AI-Driven Synthesis for High-Tech System Design: Automating Innovation",
+            "total_score": 5.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 18,
+            "novelty_score": 2.5,
+            "reason": "New approach to reinforcement learning with verifiable rewards.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Tandem Reinforcement Learning with Verifiable Rewards",
+            "total_score": 5.5
           }
         ],
-        "best_index": 1,
-        "best_score": 6.5,
+        "best_index": 18,
+        "best_score": 5.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -178,25 +203,85 @@
         }
       }
     },
-    "50d197f3c4d71279dafb44e8d8514e432325c1c5fabadd18c6f95c4a169c67da": {
-      "created_at": "2026-06-28T04:54:40Z",
+    "6ab39f2bb4cfb8effc5e238a27d9c441cc84a2e5760263aeb65344055b9c2dfb": {
+      "created_at": "2026-06-29T05:01:58Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 1,
-            "impact_score": 0.5,
-            "index": 3,
-            "novelty_score": 0.2,
-            "reason": "Tutorial on setting up AMD Strix Halo RDMA cluster.",
-            "red_flag": true,
-            "red_flag_reason": "tutorial",
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 7,
+            "novelty_score": 2.5,
+            "reason": "New research on LLM planning with symbolic feedback, but published on arXiv (Tier C).",
+            "red_flag": false,
+            "red_flag_reason": null,
             "source_score": 0.5,
-            "title": "AMD Strix Halo RDMA Cluster Setup Guide",
-            "total_score": 1.7
+            "title": "Towards Reliable and Robust LLM Planning: Symbolic Feedback-Driven Iterative Self-Refinement Framework",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2,
+            "index": 8,
+            "novelty_score": 2.5,
+            "reason": "New research on graph world models, but published on arXiv (Tier C).",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Understanding Rollout Error in Graph World Models",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 9,
+            "novelty_score": 2.5,
+            "reason": "New research on reducing hallucination propagation in LLM agents, but published on arXiv (Tier C).",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Grounded Iterative Language Planning: How Parameterized World Models Reduce Hallucination Propagation in LLM Agents",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2,
+            "index": 10,
+            "novelty_score": 2.5,
+            "reason": "New research on multi-turn autonomous agents, but published on arXiv (Tier C).",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "ATOD: Annealed Turn-aware On-policy Distillation for Multi-turn Autonomous Agents",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2,
+            "index": 11,
+            "novelty_score": 2.5,
+            "reason": "New research on social norm compliance in embodied planning, but published on arXiv (Tier C).",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "NormAct: A Benchmark for Hidden Social Norm Compliance in Embodied Planning",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2,
+            "index": 12,
+            "novelty_score": 2.5,
+            "reason": "New research on verifiable geometry problem solving, but published on arXiv (Tier C).",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Verifiable Geometry Problem Solving: Solver-Driven Autoformalization and Theorem Proposing",
+            "total_score": 7
           }
         ],
-        "best_index": 3,
-        "best_score": 1.7,
+        "best_index": 9,
+        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -287,6 +372,101 @@
         "social_posts": {}
       }
     },
+    "803201512f36000d321d21c66ba28221e55976dea4f4c0ced1a98f64a1b03326": {
+      "created_at": "2026-06-29T05:01:58Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Research on AI-model networks with moderate impact and freshness.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "AI-Model Network: Concept, Current State and Future",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "Research on personality composition in multi-agent LLM teams with moderate impact and freshness.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "When Does Personality Composition Matter for Multi-Agent LLM Teams?",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "Research on agentic training paradigms for world model planning with moderate impact and freshness.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Internalizing the Future: A Unified Agentic Training Paradigm for World Model Planning",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "Research on verifiable local truth-preserving foundation models with moderate impact and freshness.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Odyssey: Constructing Verifiable Local Truth-Preserving Foundation Models",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 4,
+            "novelty_score": 2.5,
+            "reason": "Research on dyslexic learners' insights with moderate impact and freshness.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "DysLexLens: A Low-Resource LLM Framework for Analysing Dyslexic Learners Insights from Online Forums",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 5,
+            "novelty_score": 2.5,
+            "reason": "Research on multimodal emotion reasoning with moderate impact and freshness.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "MER-R1: Multimodal Emotion Reasoning via Slow-Fast Thinking Synergy",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 6,
+            "novelty_score": 2.5,
+            "reason": "Research on claim verification frameworks with moderate impact and freshness.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "ToE: A Hierarchical and Explainable Claim Verification Framework with Dynamic Multi-source Evidence Retrieval and Aggregation",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "95d84f17ec36e6a74d1a05f71a036bd91fd39982538b9f82f72ffa0f93020e0c": {
       "created_at": "2026-06-28T16:56:10Z",
       "payload": {
@@ -364,52 +544,6 @@
           "threads": "China's LineShine supercomputer reclaims the world's fastest title, despite US trade restrictions. This marks the first time since 2018 that China has held the top spot. https://www.theverge.com/tech/958768/china-claims-the-worlds-fastest-supercomputer",
           "twitter": "China's LineShine supercomputer dethrones El Capitan to claim the world's fastest title, despite US trade restrictions.\nhttps://www.theverge.com/tech/958768/china-claims-the-worlds-fastest-supercomputer"
         }
-      }
-    },
-    "adc9b9bd9416e3b73d05f1adadfc8bb8dcec911bb1d203fb53818df2f8059626": {
-      "created_at": "2026-06-28T01:36:53Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.0,
-            "impact_score": 0.0,
-            "index": 0,
-            "novelty_score": 0.0,
-            "reason": "Red flag detected: 'What is' in title.",
-            "red_flag": true,
-            "red_flag_reason": "What is",
-            "source_score": 0.5,
-            "title": "What Ozempic does to the gut-brain axis",
-            "total_score": 0.0
-          }
-        ],
-        "best_index": 0,
-        "best_score": 0.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "bbf84f543beaed6900e0418650d145508c4bffa9b5590c18c439b52013b09a73": {
-      "created_at": "2026-06-28T04:54:40Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 0.5,
-            "impact_score": 2.5,
-            "index": 8,
-            "novelty_score": 2.5,
-            "reason": "New release with significant performance improvements, but not very fresh.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "DeepSeek Releases DSpark, a Speculative Decoding Framework That Accelerates DeepSeek-V4 Per-User Generation 60\u201385% Over MTP-1",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 8,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "bdeade075d3dcc0f5c63d0e9ab8217f098662f68f85559e64452a48233c3c5b6": {
@@ -713,6 +847,89 @@
         ],
         "best_index": 3,
         "best_score": 5.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "e5ae3834c33d2a00706db1ebdbe0d335f8bba8dc3b638ddc3625e1d2ebf94584": {
+      "created_at": "2026-06-29T05:01:58Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 19,
+            "novelty_score": 2.5,
+            "reason": "New research on autonomous agent security frameworks.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Agent-Native Immune System: Architecture, Taxonomy, and Engineering",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 20,
+            "novelty_score": 2.5,
+            "reason": "New research on scalable checkpointing for transformer models.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "DataStates-LLM: Scalable Checkpointing for Transformer Models Using Composable State Providers",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2,
+            "index": 21,
+            "novelty_score": 2.5,
+            "reason": "Position paper on the misuse of \"machine unlearning\" in LLMs.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Position: The Term \"Machine Unlearning\" Is Overused in LLMs",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2,
+            "index": 22,
+            "novelty_score": 2.5,
+            "reason": "New research on real-time traffic signal optimization.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "OverFlowLight: Real-Time Gridlock Prevention and Traffic Signal Optimization for Urban Intersections",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2,
+            "index": 23,
+            "novelty_score": 2.5,
+            "reason": "New research on evidence-calibrated scientific briefing with LLMs.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "CalBrief: A Pilot Diagnostic Benchmark for Evidence-Calibrated Scientific Briefing with Large Language Models",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2,
+            "index": 24,
+            "novelty_score": 2.5,
+            "reason": "New research on evaluating agents in open-ended bargaining games.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "SidConArena: An Environment Evaluating Agents in Open-Ended, Positive-Sum Bargaining Game",
+            "total_score": 7
+          }
+        ],
+        "best_index": 19,
+        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1216,6 +1433,12 @@
       "created_at": "2026-06-28T22:51:59Z",
       "status": "scoring_attempted",
       "title": "Knowledge Distillation of Black-Box Large Language Models"
+    },
+    "https://arxiv.org/abs/2601.16956": {
+      "canonical_url": "https://arxiv.org/abs/2601.16956",
+      "created_at": "2026-06-29T05:01:58Z",
+      "status": "scoring_attempted",
+      "title": "DataStates-LLM: Scalable Checkpointing for Transformer Models Using Composable State Providers"
     },
     "https://arxiv.org/abs/2606.20569": {
       "canonical_url": "https://arxiv.org/abs/2606.20569",
@@ -1799,6 +2022,150 @@
       "status": "scoring_attempted",
       "title": "Humans Disengage, Reasoning Models Persist: Separating Difficulty Registration from Deliberation Allocation"
     },
+    "https://arxiv.org/abs/2606.27379": {
+      "canonical_url": "https://arxiv.org/abs/2606.27379",
+      "created_at": "2026-06-29T05:01:58Z",
+      "status": "scoring_attempted",
+      "title": "Position: The Term \"Machine Unlearning\" Is Overused in LLMs"
+    },
+    "https://arxiv.org/abs/2606.27381": {
+      "canonical_url": "https://arxiv.org/abs/2606.27381",
+      "created_at": "2026-06-29T05:01:58Z",
+      "status": "scoring_attempted",
+      "title": "OverFlowLight: Real-Time Gridlock Prevention and Traffic Signal Optimization for Urban Intersections"
+    },
+    "https://arxiv.org/abs/2606.27382": {
+      "canonical_url": "https://arxiv.org/abs/2606.27382",
+      "created_at": "2026-06-29T05:01:58Z",
+      "status": "scoring_attempted",
+      "title": "AI-Model Network: Concept, Current State and Future"
+    },
+    "https://arxiv.org/abs/2606.27383": {
+      "canonical_url": "https://arxiv.org/abs/2606.27383",
+      "created_at": "2026-06-29T05:01:58Z",
+      "status": "scoring_attempted",
+      "title": "CalBrief: A Pilot Diagnostic Benchmark for Evidence-Calibrated Scientific Briefing with Large Language Models"
+    },
+    "https://arxiv.org/abs/2606.27397": {
+      "canonical_url": "https://arxiv.org/abs/2606.27397",
+      "created_at": "2026-06-29T05:01:58Z",
+      "status": "scoring_attempted",
+      "title": "SidConArena: An Environment Evaluating Agents in Open-Ended,Positive-Sum Bargaining Game"
+    },
+    "https://arxiv.org/abs/2606.27443": {
+      "canonical_url": "https://arxiv.org/abs/2606.27443",
+      "created_at": "2026-06-29T05:01:58Z",
+      "status": "scoring_attempted",
+      "title": "When Does Personality Composition Matter for Multi-Agent LLM Teams?"
+    },
+    "https://arxiv.org/abs/2606.27483": {
+      "canonical_url": "https://arxiv.org/abs/2606.27483",
+      "created_at": "2026-06-29T05:01:58Z",
+      "status": "scoring_attempted",
+      "title": "Internalizing the Future: A Unified Agentic Training Paradigm for World Model Planning"
+    },
+    "https://arxiv.org/abs/2606.27593": {
+      "canonical_url": "https://arxiv.org/abs/2606.27593",
+      "created_at": "2026-06-29T05:01:58Z",
+      "status": "scoring_attempted",
+      "title": "Odyssey: Constructing Verifiable Local Truth-Preserving Foundation Models"
+    },
+    "https://arxiv.org/abs/2606.27619": {
+      "canonical_url": "https://arxiv.org/abs/2606.27619",
+      "created_at": "2026-06-29T05:01:58Z",
+      "status": "scoring_attempted",
+      "title": "DysLexLens: A Low-Resource LLM Framework for Analysing Dyslexic Learners Insights from Online Forums"
+    },
+    "https://arxiv.org/abs/2606.27652": {
+      "canonical_url": "https://arxiv.org/abs/2606.27652",
+      "created_at": "2026-06-29T05:01:58Z",
+      "status": "scoring_attempted",
+      "title": "MER-R1: Multimodal Emotion Reasoning via Slow-Fast Thinking Synergy"
+    },
+    "https://arxiv.org/abs/2606.27736": {
+      "canonical_url": "https://arxiv.org/abs/2606.27736",
+      "created_at": "2026-06-29T05:01:58Z",
+      "status": "scoring_attempted",
+      "title": "ToE: A Hierarchical and Explainable Claim Verification Framework with Dynamic Multi-source Evidence Retrieval and Aggregation"
+    },
+    "https://arxiv.org/abs/2606.27757": {
+      "canonical_url": "https://arxiv.org/abs/2606.27757",
+      "created_at": "2026-06-29T05:01:58Z",
+      "status": "scoring_attempted",
+      "title": "Towards Reliable and Robust LLM Planning: Symbolic Feedback-Driven Iterative Self-Refinement Framework"
+    },
+    "https://arxiv.org/abs/2606.27780": {
+      "canonical_url": "https://arxiv.org/abs/2606.27780",
+      "created_at": "2026-06-29T05:01:58Z",
+      "status": "scoring_attempted",
+      "title": "Understanding Rollout Error in Graph World Models"
+    },
+    "https://arxiv.org/abs/2606.27806": {
+      "canonical_url": "https://arxiv.org/abs/2606.27806",
+      "created_at": "2026-06-29T05:01:58Z",
+      "status": "scoring_attempted",
+      "title": "Grounded Iterative Language Planning: How Parameterized World Models Reduce Hallucination Propagation in LLM Agents"
+    },
+    "https://arxiv.org/abs/2606.27814": {
+      "canonical_url": "https://arxiv.org/abs/2606.27814",
+      "created_at": "2026-06-29T05:01:58Z",
+      "status": "scoring_attempted",
+      "title": "ATOD: Annealed Turn-aware On-policy Distillation for Multi-turn Autonomous Agents"
+    },
+    "https://arxiv.org/abs/2606.27826": {
+      "canonical_url": "https://arxiv.org/abs/2606.27826",
+      "created_at": "2026-06-29T05:01:58Z",
+      "status": "scoring_attempted",
+      "title": "NormAct: A Benchmark for Hidden Social Norm Compliance in Embodied Planning"
+    },
+    "https://arxiv.org/abs/2606.27926": {
+      "canonical_url": "https://arxiv.org/abs/2606.27926",
+      "created_at": "2026-06-29T05:01:58Z",
+      "status": "scoring_attempted",
+      "title": "Verifiable Geometry Problem Solving: Solver-Driven Autoformalization and Theorem Proposing"
+    },
+    "https://arxiv.org/abs/2606.27967": {
+      "canonical_url": "https://arxiv.org/abs/2606.27967",
+      "created_at": "2026-06-29T05:01:58Z",
+      "status": "scoring_attempted",
+      "title": "RelBall: Relation Ball with Quaternion Rotation for Knowledge Graph Completion"
+    },
+    "https://arxiv.org/abs/2606.28024": {
+      "canonical_url": "https://arxiv.org/abs/2606.28024",
+      "created_at": "2026-06-29T05:01:58Z",
+      "status": "scoring_attempted",
+      "title": "Lifted Causal Inference"
+    },
+    "https://arxiv.org/abs/2606.28070": {
+      "canonical_url": "https://arxiv.org/abs/2606.28070",
+      "created_at": "2026-06-29T05:01:58Z",
+      "status": "scoring_attempted",
+      "title": "JD Oxygen AI Item Center (Oxygen AIIC) V1: An Industrial-Scale LLM/VLM-Centric Solution for Item Understanding, Management, and Applications"
+    },
+    "https://arxiv.org/abs/2606.28076": {
+      "canonical_url": "https://arxiv.org/abs/2606.28076",
+      "created_at": "2026-06-29T05:01:58Z",
+      "status": "scoring_attempted",
+      "title": "Ontology-Guided Evidence Path Inference for Multi-hop Knowledge Graph Question Answering"
+    },
+    "https://arxiv.org/abs/2606.28126": {
+      "canonical_url": "https://arxiv.org/abs/2606.28126",
+      "created_at": "2026-06-29T05:01:58Z",
+      "status": "scoring_attempted",
+      "title": "AI-Driven Synthesis for High-Tech System Design: Automating Innovation"
+    },
+    "https://arxiv.org/abs/2606.28166": {
+      "canonical_url": "https://arxiv.org/abs/2606.28166",
+      "created_at": "2026-06-29T05:01:58Z",
+      "status": "scoring_attempted",
+      "title": "Tandem Reinforcement Learning with Verifiable Rewards"
+    },
+    "https://arxiv.org/abs/2606.28270": {
+      "canonical_url": "https://arxiv.org/abs/2606.28270",
+      "created_at": "2026-06-29T05:01:58Z",
+      "status": "scoring_attempted",
+      "title": "Agent-Native Immune System: Architecture, Taxonomy, and Engineering"
+    },
     "https://atomprophet.io/tools/cascade": {
       "canonical_url": "https://atomprophet.io/tools/cascade",
       "created_at": "2026-06-23T20:28:19Z",
@@ -2062,12 +2429,6 @@
       "created_at": "2026-06-23T09:33:05Z",
       "status": "scoring_attempted",
       "title": "The new HTTP QUERY method explained"
-    },
-    "https://mcipetition.com": {
-      "canonical_url": "https://mcipetition.com",
-      "created_at": "2026-06-22T01:42:41Z",
-      "status": "scoring_attempted",
-      "title": "Petition against Meta's employee training data collection for ML models"
     },
     "https://milek7.pl/mailverifyspam": {
       "canonical_url": "https://milek7.pl/mailverifyspam",
@@ -2861,12 +3222,6 @@
       "status": "scoring_attempted",
       "title": "Presentation: Rust at the Core - Accelerating Polyglot SDK Development"
     },
-    "https://www.marktechpost.com/2026/06/21/the-7-types-of-agent-memory-a-technical-guide-for-ai-engineers": {
-      "canonical_url": "https://www.marktechpost.com/2026/06/21/the-7-types-of-agent-memory-a-technical-guide-for-ai-engineers",
-      "created_at": "2026-06-22T01:42:41Z",
-      "status": "scoring_attempted",
-      "title": "The 7 Types of Agent Memory: A Technical Guide for AI Engineers"
-    },
     "https://www.marktechpost.com/2026/06/22/sakana-ai-launches-sakana-fugu-an-orchestration-model-that-routes-tasks-across-a-swappable-pool-of-frontier-llms": {
       "canonical_url": "https://www.marktechpost.com/2026/06/22/sakana-ai-launches-sakana-fugu-an-orchestration-model-that-routes-tasks-across-a-swappable-pool-of-frontier-llms",
       "created_at": "2026-06-22T22:56:36Z",
@@ -3016,12 +3371,6 @@
       "created_at": "2026-06-25T15:31:40Z",
       "status": "scoring_attempted",
       "title": "Federal agents track down woman, demand she remove Instagram post about ICE"
-    },
-    "https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions": {
-      "canonical_url": "https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions",
-      "created_at": "2026-06-22T01:42:41Z",
-      "status": "scoring_attempted",
-      "title": "Good results fine tuning a local LLM like Qwen 3:0.6B to categorize questions"
     },
     "https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html": {
       "canonical_url": "https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html",
