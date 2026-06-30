@@ -126,6 +126,52 @@
         "social_posts": {}
       }
     },
+    "3f01038b44c9a6fc88f8f6400c1d7bf9df96bbe9a93d90de3e4987447abb0b58": {
+      "created_at": "2026-06-30T12:30:40Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "Microsoft's Copilot Autofix for Azure DevOps is a significant update for developers using Azure Repos.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.0,
+            "title": "Microsoft Brings AI-Powered Vulnerability Remediation to Azure DevOps with Copilot Autofix",
+            "total_score": 8.0
+          }
+        ],
+        "best_index": 1,
+        "best_score": 8.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "548064c85610539125b6ec51c8e3a2f723be67cab8a4e1338afca5060a9d4a8c": {
+      "created_at": "2026-06-30T12:30:40Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "Interesting concept but not directly relevant to software engineers or AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "This motor could be the future of e-bikes",
+            "total_score": 5.5
+          }
+        ],
+        "best_index": 2,
+        "best_score": 5.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "580558749802461fab34c94d4f9836031197e24cbda1d3b48f58581c4633ad26": {
       "created_at": "2026-06-30T10:29:55Z",
       "payload": {
@@ -273,29 +319,6 @@
           "threads": "Google just made Gemini's personalized AI image generation free for U.S. users, pulling from your Google data to create images. This could make AI-generated content more accessible and personalized for a broader audience.\nhttps://techcrunch.com/2026/06/29/geminis-personalized-ai-image-generation-is-now-free-for-u-s-users/",
           "twitter": "Google just made Gemini's personalized AI image generation free for U.S. users, pulling from your Google data to create images.\nhttps://techcrunch.com/2026/06/29/geminis-personalized-ai-image-generation-is-now-free-for-u-s-users/"
         }
-      }
-    },
-    "633ac3c5d413fdc6e625bf8893412028649a0d9627fda60bb81fc7b91342f62c": {
-      "created_at": "2026-06-29T11:56:09Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 4,
-            "novelty_score": 2.5,
-            "reason": "New open-source release with hybrid retrieval and self-evolving skills.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Meet EverOS: An Open Source Markdown-First Agent Memory Runtime With Hybrid BM25 + Vector Retrieval and Self-Evolving Skills",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 4,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "6fcaac6c0b098232170105cf25d473cc67084a02a437d4844c4f8e6b1425b7cb": {
@@ -470,41 +493,6 @@
         "social_posts": {}
       }
     },
-    "8a8ca2bc2c7214e2b40291de82f4df43ad1312b82eaaf664a7e74e458508f4ae": {
-      "created_at": "2026-06-29T11:56:09Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "Expert panel discussion on evolving AI security threats with high novelty and impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.0,
-            "title": "Virtual panel: Security in the Machine Age: Expert Insights on AI Threat Evolution",
-            "total_score": 8.0
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.0,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "Insightful discussion on local-first architecture with notable novelty and impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.0,
-            "title": "Podcast: Architectural Patterns: Moving Beyond Cloud-Native to Local-First - Insights from Adam Wiggins",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 2,
-        "best_score": 8.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "91b08aebe51d8e2e3ea2a63ed388f6537ebb06a099cc0904bd02172de6ba2e23": {
       "created_at": "2026-06-29T19:03:34Z",
       "payload": {
@@ -542,46 +530,6 @@
           "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *OpenAI is teasing new hardware for Codex*\n\nOpenAI is releasing a device related to its AI-powered coding tool, Codex, featuring a square shape with several buttons. The upgrade promises to enhance coding shortcuts.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
           "threads": "OpenAI just teased new hardware for Codex, promising to upgrade coding shortcuts. The device features a square shape with several buttons, hinting at a physical interface for AI-powered coding. https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder",
           "twitter": "OpenAI is teasing new hardware for Codex, promising to upgrade your coding shortcuts. https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder"
-        }
-      }
-    },
-    "944f273f4267b5d4c13c229aaa23fc2d0bf9c06927afbc021f99308293153e18": {
-      "created_at": "2026-06-29T11:56:09Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 2.0,
-            "reason": "Industry move with moderate impact and high freshness.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Comcast is splitting in two",
-            "total_score": 6.0
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Significant research impact with high freshness and relevance.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "The war against \u2018woke\u2019 could end US science as we know it",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "A new federal proposal threatens to undermine scientific research in the US. The 412-page document could drastically alter how research is funded. Here's what you need to know and how to take action.\nLink: https://www.theverge.com/science/957630/omb-killing-science-budget-grants-research",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *The war against \u2018woke\u2019 could end US science as we know it*\n\nA federal rule change threatens to cripple scientific research in the US. The 412-page proposal targets research funding in a significant way.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/science/957630/omb-killing-science-budget-grants-research\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "The US government just proposed a rule change that could end science as we know it. The 412-page document targets research funding in a major way.\nhttps://www.theverge.com/science/957630/omb-killing-science-budget-grants-research",
-          "twitter": "A federal rule change could cripple US scientific research. Here's what's at stake and how to fight it.\nhttps://www.theverge.com/science/957630/omb-killing-science-budget-grants-research"
         }
       }
     },
@@ -648,6 +596,34 @@
         }
       }
     },
+    "a55a82319a08f2f2092c3489019f5830a1c13ebf297fca381afbda2f08e59b34": {
+      "created_at": "2026-06-30T12:30:40Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Elon Musk suing OpenAI and Sam Altman is a significant development in the AI industry.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Meet the lawyer who beat Elon Musk \u2014 twice",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Elon Musk's lawsuit against OpenAI and Sam Altman has taken an interesting turn. The lawyer who beat him twice is now in the spotlight. Link: https://www.theverge.com/column/959270/elon-musk-open-ai-bill-savitt-twitter",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Meet the lawyer who beat Elon Musk \u2014 twice*\n\nElon Musk sued OpenAI and Sam Altman, and the lawyer who beat him twice is making waves. The case is heating up.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/column/959270/elon-musk-open-ai-bill-savitt-twitter\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Elon Musk sued OpenAI and Sam Altman, and the lawyer who beat him twice is making waves. The case is heating up. https://www.theverge.com/column/959270/elon-musk-open-ai-bill-savitt-twitter",
+          "twitter": "Elon Musk sued OpenAI and Sam Altman, and the lawyer who beat him twice is making waves. https://www.theverge.com/column/959270/elon-musk-open-ai-bill-savitt-twitter"
+        }
+      }
+    },
     "a5a8cdd0ea79214a620cb38dab1aeefc54689dae065e682437d689a9c0a3e25b": {
       "created_at": "2026-06-30T08:18:38Z",
       "payload": {
@@ -709,6 +685,29 @@
           "threads": "Meta contractors posed as teens to test rival chatbots on high-risk topics. This reveals significant ethical and operational insights. https://www.wired.com/story/meta-contractors-pretending-to-be-teens-chatbot-testing/",
           "twitter": "Meta contractors posed as teens to test rival chatbots on high-risk topics like suicide and drugs. https://www.wired.com/story/meta-contractors-pretending-to-be-teens-chatbot-testing/"
         }
+      }
+    },
+    "a7e3b88a5d2b5d62a477ad26d8e671efed779a1b21cfa4087f165e8ce7a618b7": {
+      "created_at": "2026-06-30T12:30:40Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "Opinion piece on political views about AI, not technical content.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Bernie Sanders Saw This Coming",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 3,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "aa856e1e77e90a35d5356110be3d381d679d103730770350c83a0ff5584b5c48": {
@@ -824,34 +823,6 @@
         "best_score": 1.5,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "b4b85b31523708375e8afabe94ce480181cc9cbfed24683d3f2fc2a29f0f39f0": {
-      "created_at": "2026-06-29T11:56:09Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 12,
-            "novelty_score": 2.5,
-            "reason": "OpenAI report on AI's impact on EU jobs offers valuable insights for policymakers and tech professionals.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 2,
-            "title": "Mapping Europe\u2019s AI Workforce Opportunity",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 12,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "OpenAI has released a detailed report on how AI could transform the job market in the European Union. The study highlights which occupations may face automation, experience growth, or undergo significant workflow changes. This is crucial reading for anyone interested in the future of work in Europe.\nLink: https://openai.com/index/mapping-ai-jobs-transition-eu",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Mapping Europe\u2019s AI Workforce Opportunity*\n\nOpenAI report maps how AI could reshape jobs across the EU, highlighting occupations facing automation, growth, or workflow changes.\n\n\ud83c\udfdb\ufe0f Source: OpenAI (S)\n\u23f0 Published: 4 hours ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://openai.com/index/mapping-ai-jobs-transition-eu\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "OpenAI's new report maps AI's impact on EU jobs, showing which roles face automation and which will grow. Important for policymakers and tech professionals.\nhttps://openai.com/index/mapping-ai-jobs-transition-eu",
-          "twitter": "OpenAI maps how AI will reshape jobs across the EU, identifying automation risks and growth areas.\nhttps://openai.com/index/mapping-ai-jobs-transition-eu"
-        }
       }
     },
     "bc707cc6da0b50147e8785a8fa9b50882e09ad1a61d4f7a89a10f9b9c12b6b8e": {
@@ -1389,6 +1360,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 The Smart Home Industry's Last Hope\nMatter, the open standard for smart home interoperability, is still being backed by major players like Apple and Google. The standard aims to simplify the fragmented market and make it easier for devices to communicate with each other.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#Matter #SmartHome #IoT\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "The smart home industry is still counting on Matter to bring order to the chaotic market, with big names like Apple and Google involved @TheVerge #SmartHome",
         "twitter": "Matter is still the smart home industry's best bet for interoperability, with major players like Apple and Google on board @TheVerge #Matter #SmartHome"
+      }
+    },
+    "b9d7d0ba4156eb5511f7284dca801d5fc93c45b09d33b958f778770aa93634a0": {
+      "created_at": "2026-06-30T12:30:40Z",
+      "payload": {
+        "facebook": "The recent case of Elon Musk suing OpenAI and Sam Altman has brought attention to the lawyer who defended them, Bill Savitt. Savitt's strategy in the courtroom has been notable, and his success against Musk is a significant development in the AI industry. #AI #law #technology",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Lawyer Beats Elon Musk Twice\nBill Savitt has successfully defended against Elon Musk in two high-profile cases, including the recent lawsuit against OpenAI and Sam Altman.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #law #technology\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Lawyer Bill Savitt has made a name for himself by defending against Elon Musk in court, not once but twice, @BillSavitt #AI",
+        "twitter": "Elon Musk's courtroom battles have been making headlines, with lawyer Bill Savitt successfully defending against him twice, @BillSavitt #AIlaw"
       }
     },
     "c139a28c3203cdbb78a68d90e40ec81e2276e1514da64361e8df0f604422c434": {
@@ -2593,12 +2573,6 @@
       "status": "scoring_attempted",
       "title": "RubyLLM: A single, beautiful Ruby framework for all major AI providers"
     },
-    "https://selforg-npa.github.io": {
-      "canonical_url": "https://selforg-npa.github.io",
-      "created_at": "2026-06-23T10:34:06Z",
-      "status": "scoring_attempted",
-      "title": "Show HN: Neural Particle Automata"
-    },
     "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks": {
       "canonical_url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks",
       "created_at": "2026-06-28T20:37:29Z",
@@ -3175,6 +3149,12 @@
       "status": "scoring_attempted",
       "title": "AWS Launches Lambda MicroVMs for Isolated Agent and User Code Execution"
     },
+    "https://www.infoq.com/news/2026/06/azuredevops-copilot-autofix": {
+      "canonical_url": "https://www.infoq.com/news/2026/06/azuredevops-copilot-autofix",
+      "created_at": "2026-06-30T12:30:40Z",
+      "status": "scoring_attempted",
+      "title": "Microsoft Brings AI-Powered Vulnerability Remediation to Azure DevOps with Copilot Autofix"
+    },
     "https://www.infoq.com/news/2026/06/cloudflare-one-stack-agents": {
       "canonical_url": "https://www.infoq.com/news/2026/06/cloudflare-one-stack-agents",
       "created_at": "2026-06-25T10:13:43Z",
@@ -3505,6 +3485,12 @@
       "status": "scoring_attempted",
       "title": "How the World Cup became a US streaming success story"
     },
+    "https://www.theverge.com/column/959270/elon-musk-open-ai-bill-savitt-twitter": {
+      "canonical_url": "https://www.theverge.com/column/959270/elon-musk-open-ai-bill-savitt-twitter",
+      "created_at": "2026-06-30T12:30:40Z",
+      "status": "scoring_attempted",
+      "title": "Meet the lawyer who beat Elon Musk \u2014 twice"
+    },
     "https://www.theverge.com/entertainment/954899/luca-guadagnino-artificial-sam-altman-amazon-a24-neon-mubi-chatgpt": {
       "canonical_url": "https://www.theverge.com/entertainment/954899/luca-guadagnino-artificial-sam-altman-amazon-a24-neon-mubi-chatgpt",
       "created_at": "2026-06-23T23:06:09Z",
@@ -3540,24 +3526,6 @@
       "created_at": "2026-06-27T22:31:55Z",
       "status": "scoring_attempted",
       "title": "Teenage Engineering adds lo-fi mode, USB audio, and more to its KO II sampler"
-    },
-    "https://www.theverge.com/gadgets/948610/best-prime-day-tech-deals-sale": {
-      "canonical_url": "https://www.theverge.com/gadgets/948610/best-prime-day-tech-deals-sale",
-      "created_at": "2026-06-23T10:34:06Z",
-      "status": "scoring_attempted",
-      "title": "The best Prime Day deals we found on our favorite gear"
-    },
-    "https://www.theverge.com/gadgets/949350/amazon-prime-day-sale-best-apple-deals-2026": {
-      "canonical_url": "https://www.theverge.com/gadgets/949350/amazon-prime-day-sale-best-apple-deals-2026",
-      "created_at": "2026-06-23T10:34:06Z",
-      "status": "scoring_attempted",
-      "title": "The best Apple deals you can get during Prime Day"
-    },
-    "https://www.theverge.com/gadgets/951081/robot-vacuum-mop-deals-amazon-prime-day-2026": {
-      "canonical_url": "https://www.theverge.com/gadgets/951081/robot-vacuum-mop-deals-amazon-prime-day-2026",
-      "created_at": "2026-06-23T10:34:06Z",
-      "status": "scoring_attempted",
-      "title": "The best robot vacuum deals available during Prime Day"
     },
     "https://www.theverge.com/gadgets/951105/prime-day-laptop-keyboards-mice-accessories-deal-sale": {
       "canonical_url": "https://www.theverge.com/gadgets/951105/prime-day-laptop-keyboards-mice-accessories-deal-sale",
@@ -3756,6 +3724,12 @@
       "created_at": "2026-06-25T12:33:53Z",
       "status": "scoring_attempted",
       "title": "Is this solar e-bike a good idea or sophisticated e-waste?"
+    },
+    "https://www.theverge.com/news/959382/avinox-mg-concept-gobao-mgu-ecvt": {
+      "canonical_url": "https://www.theverge.com/news/959382/avinox-mg-concept-gobao-mgu-ecvt",
+      "created_at": "2026-06-30T12:30:40Z",
+      "status": "scoring_attempted",
+      "title": "This motor could be the future of e-bikes"
     },
     "https://www.theverge.com/podcast/957673/meta-polymarket-apple-prices-vergecast": {
       "canonical_url": "https://www.theverge.com/podcast/957673/meta-polymarket-apple-prices-vergecast",
@@ -4074,6 +4048,12 @@
       "created_at": "2026-06-24T15:21:58Z",
       "status": "scoring_attempted",
       "title": "Qualcomm Buys Buzzy Chip Startup Modular for Nearly $4 Billion"
+    },
+    "https://www.wired.com/story/the-big-interview-podcast-senator-bernie-sanders": {
+      "canonical_url": "https://www.wired.com/story/the-big-interview-podcast-senator-bernie-sanders",
+      "created_at": "2026-06-30T12:30:40Z",
+      "status": "scoring_attempted",
+      "title": "Bernie Sanders Saw This Coming"
     },
     "https://www.wired.com/story/the-trump-white-house-is-over-anthropics-dario-amodei": {
       "canonical_url": "https://www.wired.com/story/the-trump-white-house-is-over-anthropics-dario-amodei",
