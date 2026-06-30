@@ -1,5 +1,109 @@
 {
   "cerebras_scoring": {
+    "02659d149aa1bf0cb6a272f96ee8a818b40f78327d62bece716a34620cfc5395": {
+      "created_at": "2026-06-30T18:17:43Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 1.5,
+            "reason": "Industry move with niche impact and recent publication.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "007 First Light\u2019s developer lays off staff but claims its next franchise will continue",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "New industry move with significant impact and recent publication.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Nvidia competitor Etched hits $5B valuation, $1B in sales for AI chip",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 3,
+            "reason": "New product launch with significant impact and recent publication.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Anthropic launches Claude Sonnet 5 as a cheaper way to run agents",
+            "total_score": 9
+          }
+        ],
+        "best_index": 2,
+        "best_score": 9,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Anthropic has launched Claude Sonnet 5, positioning it as a cheaper alternative to Opus, GPT-5.5, and Gemini Pro. The new model offers stronger agentic capabilities and improved safety. This move could shake up the AI market. Link: https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Anthropic launches Claude Sonnet 5 as a cheaper way to run agents*\n\nAnthropic\u2019s Claude Sonnet 5 brings stronger agentic capabilities, lower pricing, and improved safety, positioning the model as a cheaper alternative to Opus, GPT-5.5, and Gemini Pro.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9/10\n\n\ud83d\udd17 https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Claude Sonnet 5 from Anthropic is now available, offering stronger agentic capabilities at a lower price than Opus, GPT-5.5, and Gemini Pro. https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/",
+          "twitter": "Anthropic's Claude Sonnet 5 undercuts Opus, GPT-5.5, and Gemini Pro with stronger agentic capabilities and lower pricing. https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/"
+        }
+      }
+    },
+    "0d1214156607a051113b12342eac8a5a01656f1295317bb10fee1844bbb8be02": {
+      "created_at": "2026-06-30T18:17:43Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 5,
+            "novelty_score": 2.5,
+            "reason": "Netflix using AI to recreate Gene Wilder's voice for a reality show is a notable novelty with significant impact on AI applications in entertainment.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Netflix is using an AI-generated Gene Wilder voice in its Willy Wonka reality show",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0,
+            "index": 6,
+            "novelty_score": 0,
+            "reason": "Red flag triggered by 'Comments' in the title.",
+            "red_flag": true,
+            "red_flag_reason": "Comments",
+            "source_score": 0.5,
+            "title": "Claude Science",
+            "total_score": 2
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2,
+            "index": 7,
+            "novelty_score": 2,
+            "reason": "Unionization efforts at Rockstar Games are notable but not as directly relevant to software engineers and AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Rockstar workers push to unionize ahead of GTA VI\u2019s launch",
+            "total_score": 7
+          }
+        ],
+        "best_index": 5,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Netflix is using AI to recreate Gene Wilder's voice for its upcoming Willy Wonka reality show. This move highlights the growing use of AI in entertainment, particularly in bringing back iconic voices. Link: https://www.theverge.com/streaming/959684/netflix-wonka-golden-ticket-gene-wilder",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Netflix is using an AI-generated Gene Wilder voice in its Willy Wonka reality show*\n\nNetflix is using AI to recreate Gene Wilder's voice for its upcoming Willy Wonka reality show, pushing AI's role in entertainment to new heights.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/streaming/959684/netflix-wonka-golden-ticket-gene-wilder\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Netflix is using AI to recreate Gene Wilder's voice for a Willy Wonka reality show, a significant step in AI's role in entertainment. https://www.theverge.com/streaming/959684/netflix-wonka-golden-ticket-gene-wilder",
+          "twitter": "Netflix is using AI to recreate Gene Wilder's voice for a Willy Wonka reality show, pushing AI's role in entertainment to new heights.\nhttps://www.theverge.com/streaming/959684/netflix-wonka-golden-ticket-gene-wilder"
+        }
+      }
+    },
     "17aec63bbb4ef326369b9a2fca59f0db5c5ef06d065975143974086a9f323771": {
       "created_at": "2026-06-30T16:22:34Z",
       "payload": {
@@ -352,6 +456,58 @@
         "social_posts": {}
       }
     },
+    "58a334b6e10412b59cd17b22cebe248dcb3ae295151483e7e2ee8a4b8d0811db": {
+      "created_at": "2026-06-30T18:17:43Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 0.5,
+            "impact_score": 2.5,
+            "index": 261,
+            "novelty_score": 3.0,
+            "reason": "New model release with significant impact, but not very fresh.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 2.0,
+            "title": "Introducing Claude Sonnet 5",
+            "total_score": 8.0
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "New AI integration with broad impact and high freshness.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Acti puts AI agents directly into your smartphone keyboard",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 0.5,
+            "index": 4,
+            "novelty_score": 0.2,
+            "reason": "Product deal with limited relevance to software engineers and AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Moto\u2019s Tag 2 tracker is $20 for a limited time",
+            "total_score": 4.2
+          }
+        ],
+        "best_index": 3,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Acti is integrating AI agents into smartphone keyboards, allowing users to create custom AI-powered shortcuts using natural language. This could significantly change how we interact with our devices. Link: https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Acti puts AI agents directly into your smartphone keyboard*\n\nActi is embedding AI agents directly into smartphone keyboards, enabling natural language shortcuts across apps.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Acti is putting AI agents directly into smartphone keyboards, enabling natural language shortcuts across apps. This could be a game-changer for mobile productivity. https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard/",
+          "twitter": "Acti is embedding AI agents directly into smartphone keyboards, enabling natural language shortcuts across apps. https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard/"
+        }
+      }
+    },
     "5bda2ced50e5893969d30bbb4edb7aeccc27e68f5280476d66dc19b46a2134ea": {
       "created_at": "2026-06-30T00:00:39Z",
       "payload": {
@@ -506,46 +662,6 @@
         }
       }
     },
-    "7cc5717fa421c633ced74bcf739fbce093a9bd02f89a4d8e1ae77b606e1f939a": {
-      "created_at": "2026-06-29T16:55:11Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "TIDAL's policy change directly impacts AI music creators and the music industry.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "TIDAL cracks down on AI music by cutting off monetization",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 3,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Potential legislation affecting AI companies and user data privacy.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Lawmakers want to ban AI companies from selling your health data",
-            "total_score": 9
-          }
-        ],
-        "best_index": 1,
-        "best_score": 9,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Senators Elizabeth Warren and Mary Gay Scanlon are planning to introduce legislation that would ban AI companies from selling health and location data collected from users. This includes data revealed to AI chatbots like ChatGPT or Claude. The proposal aims to protect Americans' personal information from being sold to data brokers.\nLink: https://www.theverge.com/ai-artificial-intelligence/959033/health-location-data-protection-act-ai-warren-scanlon",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Lawmakers want to ban AI companies from selling your health data*\n\nSenators Elizabeth Warren and Mary Gay Scanlon propose legislation to ban AI companies from selling health and location data collected from users, including data from AI chatbots like ChatGPT or Claude.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9/10\n\n\ud83d\udd17 https://www.theverge.com/ai-artificial-intelligence/959033/health-location-data-protection-act-ai-warren-scanlon\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Senators Warren and Scanlon propose banning AI companies from selling health data collected from chatbots. This could significantly impact how AI companies operate and handle user data.\nhttps://www.theverge.com/ai-artificial-intelligence/959033/health-location-data-protection-act-ai-warren-scanlon",
-          "twitter": "Senators Warren and Scanlon propose banning AI companies from selling health data collected from chatbots.\nhttps://www.theverge.com/ai-artificial-intelligence/959033/health-location-data-protection-act-ai-warren-scanlon"
-        }
-      }
-    },
     "7d9ea425a15ad9926ff3a548f560b0a8517395ad0472c327f58a1715d9159c19": {
       "created_at": "2026-06-29T20:54:48Z",
       "payload": {
@@ -565,29 +681,6 @@
         ],
         "best_index": 4,
         "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "7ec60dfdb907f3ca08377496f98575faab87affcb4ae146f908eb013c42ded98": {
-      "created_at": "2026-06-29T16:55:11Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 0.0,
-            "index": 2,
-            "novelty_score": 0.0,
-            "reason": "Red flag triggered: 'What exactly is'",
-            "red_flag": true,
-            "red_flag_reason": "What exactly is",
-            "source_score": 2.0,
-            "title": "Ask an AI expert: What exactly is the full stack?",
-            "total_score": 0.0
-          }
-        ],
-        "best_index": 2,
-        "best_score": 0.0,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -895,52 +988,6 @@
         }
       }
     },
-    "aedd7b4b2089e28fe396c31ff1115f4b2a5732fd2b1b6f4731004cd3cc9e52f8": {
-      "created_at": "2026-06-29T16:55:11Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.0,
-            "impact_score": 0.0,
-            "index": 14,
-            "novelty_score": 0.0,
-            "reason": "Comments are not a valid source for technical news.",
-            "red_flag": true,
-            "red_flag_reason": "Comments",
-            "source_score": 0.5,
-            "title": "The CEO of Mullvad is the main financer of the Swedish \u00d6rebro party",
-            "total_score": 1.5
-          }
-        ],
-        "best_index": 14,
-        "best_score": 1.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "bc707cc6da0b50147e8785a8fa9b50882e09ad1a61d4f7a89a10f9b9c12b6b8e": {
-      "created_at": "2026-06-29T16:55:11Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "Dbrand's cancellation of the Companion Cube due to lack of Valve permission is notable but niche in impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Dbrand cancels Companion Cube because it didn\u2019t actually ask Valve for permission",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 3,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "c29b89e2c46ae974095b44a0a3b3056ce7eb3a2ba21571ebb1ae52ea2bd8ee39": {
       "created_at": "2026-06-30T00:00:39Z",
       "payload": {
@@ -1006,6 +1053,58 @@
           "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Arena, the AI leaderboard everyone uses, is now a $100M business*\n\nThe startup, which runs a popular free AI leaderboard, launched its commercial service just last September.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/06/29/arena-the-ai-leaderboard-everyone-uses-is-now-a-100m-business/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
           "threads": "Arena, the AI leaderboard everyone uses, just hit $100M in revenue. Launched its commercial service last September. https://techcrunch.com/2026/06/29/arena-the-ai-leaderboard-everyone-uses-is-now-a-100m-business/",
           "twitter": "Arena, the AI leaderboard used by everyone, just hit $100M in revenue. https://techcrunch.com/2026/06/29/arena-the-ai-leaderboard-everyone-uses-is-now-a-100m-business/"
+        }
+      }
+    },
+    "ce48e4ad69653ef2ea9879920f12758411e9d1c173914c3d9ee8965c3c1acfe3": {
+      "created_at": "2026-06-30T18:17:43Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 8,
+            "novelty_score": 2,
+            "reason": "Industry move with moderate impact on developers and users of platforms like X, Discord, Bluesky, and WhatsApp.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Google\u2019s killing off Tenor GIF searches in other apps",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 9,
+            "novelty_score": 2.5,
+            "reason": "New release of a workflow tool for scientists, with significant impact on computational research workflows.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Anthropic\u2019s Claude Science bets on workflow, not a new model, to win over scientists",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 10,
+            "novelty_score": 1.5,
+            "reason": "Update on a government initiative with niche impact on web designers and developers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Trump's plan to redesign every .gov website leads to AI-designed horrors",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 9,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Anthropic's Claude Science is a new workbench designed to simplify computational research for scientists. By integrating databases, pipelines, and tools into one environment, it aims to eliminate the need for researchers to switch between multiple platforms. This could significantly streamline workflows and improve efficiency. Link: https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Anthropic\u2019s Claude Science bets on workflow, not a new model, to win over scientists*\n\nAnthropic's Claude Science is a workbench that gives scientists one environment to do computational research, saving them from the need to bounce between databases, pipelines, and tools.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Anthropic's Claude Science introduces a unified workbench for computational research, consolidating databases, pipelines, and tools into one environment. This move could greatly enhance efficiency for scientists. https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists/",
+          "twitter": "Anthropic's Claude Science launches a unified workbench for computational research, streamlining workflows for scientists. https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists/"
         }
       }
     },
@@ -1296,6 +1395,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Baidu Releases Unlimited OCR Model\nBaidu's new Unlimited OCR model achieves significant performance improvements for long-document parsing, scoring 93.23 on OmniDocBench.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #OCRTech #DocumentParsing\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Baidu's Unlimited OCR model is a notable development in the field of document parsing, achieving flat memory and latency for long documents @Baidu #AI",
         "twitter": "Baidu's new Unlimited OCR model achieves flat memory and latency for long-document parsing, outperforming others with a score of 93.23 on OmniDocBench @Baidu #AI"
+      }
+    },
+    "4ce9b8a48d9465ba836c87e439774155d9af3a937b0a0cefe387fc9e4e7d85d6": {
+      "created_at": "2026-06-30T18:17:43Z",
+      "payload": {
+        "facebook": "The AI landscape is shifting with Anthropic's launch of Claude Sonnet 5, a more affordable alternative to existing models like Opus, GPT-5.5, and Gemini Pro. This new model boasts improved safety and stronger agentic capabilities, making it a significant contender. #AI #MachineLearning #Anthropic",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Anthropic Launches Claude Sonnet 5\nAnthropic\u2019s Claude Sonnet 5 model brings stronger agentic capabilities and lower pricing, positioning it as a cheaper alternative to existing models.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9/10\n#AI #MachineLearning #Anthropic\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Anthropic has just launched Claude Sonnet 5, a cheaper and more capable alternative to models like Opus and GPT-5.5, with improved safety features @AnthropicAI #AI",
+        "twitter": "Anthropic's new Claude Sonnet 5 model offers stronger agentic capabilities at a lower price point, posing a threat to Opus, GPT-5.5, and Gemini Pro @AnthropicAI #AI"
       }
     },
     "504e762af013f7a2dc7a19312ff568aee7316ff348c33c32cd0f1438a5a82a0c": {
@@ -1674,6 +1782,12 @@
       "created_at": "2026-06-30T16:22:34Z",
       "status": "scoring_attempted",
       "title": "Trump asked Musk for SpaceX stock to seed US kids\u2019 savings accounts, report says"
+    },
+    "https://arstechnica.com/tech-policy/2026/06/trumps-plan-to-redesign-every-gov-website-leads-to-ai-designed-horrors": {
+      "canonical_url": "https://arstechnica.com/tech-policy/2026/06/trumps-plan-to-redesign-every-gov-website-leads-to-ai-designed-horrors",
+      "created_at": "2026-06-30T18:17:43Z",
+      "status": "scoring_attempted",
+      "title": "Trump's plan to redesign every .gov website leads to AI-designed horrors"
     },
     "https://arxiv.org/abs/2401.07013": {
       "canonical_url": "https://arxiv.org/abs/2401.07013",
@@ -2310,6 +2424,12 @@
       "created_at": "2026-06-28T21:43:22Z",
       "status": "scoring_attempted",
       "title": "Do LLMs pass the mirror test?"
+    },
+    "https://claude.com/product/claude-science": {
+      "canonical_url": "https://claude.com/product/claude-science",
+      "created_at": "2026-06-30T18:17:43Z",
+      "status": "scoring_attempted",
+      "title": "Claude Science"
     },
     "https://det.social/@lostgen/116820546568940358": {
       "canonical_url": "https://det.social/@lostgen/116820546568940358",
@@ -2965,11 +3085,29 @@
       "status": "scoring_attempted",
       "title": "TIDAL cracks down on AI music by cutting off monetization"
     },
+    "https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard": {
+      "canonical_url": "https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard",
+      "created_at": "2026-06-30T18:17:43Z",
+      "status": "scoring_attempted",
+      "title": "Acti puts AI agents directly into your smartphone keyboard"
+    },
     "https://techcrunch.com/2026/06/30/amazon-launches-new-1-billion-fde-org-following-openai-and-anthropic": {
       "canonical_url": "https://techcrunch.com/2026/06/30/amazon-launches-new-1-billion-fde-org-following-openai-and-anthropic",
       "created_at": "2026-06-30T15:17:12Z",
       "status": "scoring_attempted",
       "title": "Amazon launches new $1 billion FDE org, following OpenAI and Anthropic"
+    },
+    "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents": {
+      "canonical_url": "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents",
+      "created_at": "2026-06-30T18:17:43Z",
+      "status": "scoring_attempted",
+      "title": "Anthropic launches Claude Sonnet 5 as a cheaper way to run agents"
+    },
+    "https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists": {
+      "canonical_url": "https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists",
+      "created_at": "2026-06-30T18:17:43Z",
+      "status": "scoring_attempted",
+      "title": "Anthropic\u2019s Claude Science bets on workflow, not a new model, to win over scientists"
     },
     "https://techcrunch.com/2026/06/30/crypto-exchange-okx-wants-ai-agents-to-hire-and-pay-each-other": {
       "canonical_url": "https://techcrunch.com/2026/06/30/crypto-exchange-okx-wants-ai-agents-to-hire-and-pay-each-other",
@@ -2982,6 +3120,12 @@
       "created_at": "2026-06-30T15:17:12Z",
       "status": "scoring_attempted",
       "title": "Lumo, Proton\u2019s privacy-focused AI chatbot, gets an upgrade"
+    },
+    "https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip": {
+      "canonical_url": "https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip",
+      "created_at": "2026-06-30T18:17:43Z",
+      "status": "scoring_attempted",
+      "title": "Nvidia competitor Etched hits $5B valuation, $1B in sales for AI chip"
     },
     "https://techcrunch.com/2026/06/30/podcasting-platform-riverside-enters-the-newsletter-publishing-game": {
       "canonical_url": "https://techcrunch.com/2026/06/30/podcasting-platform-riverside-enters-the-newsletter-publishing-game",
@@ -3084,6 +3228,12 @@
       "created_at": "2026-06-23T20:28:19Z",
       "status": "scoring_attempted",
       "title": "Anthropic updates their terms to verify age or identity"
+    },
+    "https://www.anthropic.com/news/claude-sonnet-5": {
+      "canonical_url": "https://www.anthropic.com/news/claude-sonnet-5",
+      "created_at": "2026-06-30T18:17:43Z",
+      "status": "scoring_attempted",
+      "title": "Introducing Claude Sonnet 5"
     },
     "https://www.anthropic.com/news/introducing-claude-tag": {
       "canonical_url": "https://www.anthropic.com/news/introducing-claude-tag",
@@ -3787,6 +3937,12 @@
       "status": "scoring_attempted",
       "title": "The Bose Soundlink Max is $120 off ahead of the July 4th weekend"
     },
+    "https://www.theverge.com/gadgets/959657/moto-tag-2-deal-sale": {
+      "canonical_url": "https://www.theverge.com/gadgets/959657/moto-tag-2-deal-sale",
+      "created_at": "2026-06-30T18:17:43Z",
+      "status": "scoring_attempted",
+      "title": "Moto&#8217;s Tag 2 tracker is $20 for a limited time"
+    },
     "https://www.theverge.com/games/956137/riot-games-vanguard-pre-check-anti-cheat-on-demand-valorant": {
       "canonical_url": "https://www.theverge.com/games/956137/riot-games-vanguard-pre-check-anti-cheat-on-demand-valorant",
       "created_at": "2026-06-24T18:14:56Z",
@@ -3822,6 +3978,18 @@
       "created_at": "2026-06-29T20:54:48Z",
       "status": "scoring_attempted",
       "title": "Sony&#8217;s next-gen PlayStation will go \u2018beyond the living room\u2019"
+    },
+    "https://www.theverge.com/games/959668/rockstar-games-workers-union-gta-vi": {
+      "canonical_url": "https://www.theverge.com/games/959668/rockstar-games-workers-union-gta-vi",
+      "created_at": "2026-06-30T18:17:43Z",
+      "status": "scoring_attempted",
+      "title": "Rockstar workers push to unionize ahead of GTA VI\u2019s launch"
+    },
+    "https://www.theverge.com/games/959713/io-interactive-project-fantasy-layoffs": {
+      "canonical_url": "https://www.theverge.com/games/959713/io-interactive-project-fantasy-layoffs",
+      "created_at": "2026-06-30T18:17:43Z",
+      "status": "scoring_attempted",
+      "title": "007 First Light&#8217;s developer lays off staff but claims its next franchise will continue"
     },
     "https://www.theverge.com/news/956095/worlds-first-solar-ebike-do-not-buy": {
       "canonical_url": "https://www.theverge.com/news/956095/worlds-first-solar-ebike-do-not-buy",
@@ -3924,6 +4092,12 @@
       "created_at": "2026-06-25T22:08:36Z",
       "status": "scoring_attempted",
       "title": "YouTube updates Shorts to make it even more like TikTok"
+    },
+    "https://www.theverge.com/streaming/959684/netflix-wonka-golden-ticket-gene-wilder": {
+      "canonical_url": "https://www.theverge.com/streaming/959684/netflix-wonka-golden-ticket-gene-wilder",
+      "created_at": "2026-06-30T18:17:43Z",
+      "status": "scoring_attempted",
+      "title": "Netflix is using an AI-generated Gene Wilder voice in its Willy Wonka reality show"
     },
     "https://www.theverge.com/tech/952162/apple-price-increase-ram-shortage": {
       "canonical_url": "https://www.theverge.com/tech/952162/apple-price-increase-ram-shortage",
@@ -4050,6 +4224,12 @@
       "created_at": "2026-06-30T15:17:12Z",
       "status": "scoring_attempted",
       "title": "iPhone 18 Pro \u2018drop test\u2019 leaks get yanked from X"
+    },
+    "https://www.theverge.com/tech/959658/google-tenor-api-shutdown-gif-picker": {
+      "canonical_url": "https://www.theverge.com/tech/959658/google-tenor-api-shutdown-gif-picker",
+      "created_at": "2026-06-30T18:17:43Z",
+      "status": "scoring_attempted",
+      "title": "Google&#8217;s killing off Tenor GIF searches in other apps"
     },
     "https://www.theverge.com/transportation/955153/tesla-full-self-driving-texas-crash": {
       "canonical_url": "https://www.theverge.com/transportation/955153/tesla-full-self-driving-texas-crash",
