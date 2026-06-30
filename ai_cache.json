@@ -209,6 +209,29 @@
         "social_posts": {}
       }
     },
+    "5bda2ced50e5893969d30bbb4edb7aeccc27e68f5280476d66dc19b46a2134ea": {
+      "created_at": "2026-06-30T00:00:39Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 0.5,
+            "impact_score": 1.5,
+            "index": 21,
+            "novelty_score": 0.5,
+            "reason": "Red flag triggered by the title structure.",
+            "red_flag": true,
+            "red_flag_reason": "What can you confidently guarantee about your software?",
+            "source_score": 0.5,
+            "title": "What can you confidently guarantee about your software?",
+            "total_score": 2.5
+          }
+        ],
+        "best_index": 21,
+        "best_score": 2.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "606639fe4914ed0a1766e3bf2a7a8b0564145e20e3a46a805cf078ceaef5f96b": {
       "created_at": "2026-06-29T15:42:29Z",
       "payload": {
@@ -1083,6 +1106,34 @@
         "social_posts": {}
       }
     },
+    "c29b89e2c46ae974095b44a0a3b3056ce7eb3a2ba21571ebb1ae52ea2bd8ee39": {
+      "created_at": "2026-06-30T00:00:39Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "OpenClaw's new mobile apps enable phone hardware integration with self-hosted AI agents, a significant step for local-first AI development.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "OpenClaw Releases iOS and Android Companion Node Apps That Connect a Phone to a Self-Hosted AI Agent Gateway",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "OpenClaw has released iOS and Android apps that connect your phone to a self-hosted AI agent gateway. This enables integration with device hardware like camera, location, and voice. The apps act as companion nodes, not standalone chatbots, and pair with a Gateway over WebSocket. This is a significant development for those building local-first AI systems.\nLink: https://www.marktechpost.com/2026/06/29/openclaw-releases-ios-and-android-companion-node-apps-that-connect-a-phone-to-a-self-hosted-ai-agent-gateway/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *OpenClaw Releases iOS and Android Companion Node Apps That Connect a Phone to a Self-Hosted AI Agent Gateway*\n\nOpenClaw's iOS and Android apps turn phones into hardware hubs for self-hosted AI agents, enabling camera, location, and voice integration.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/06/29/openclaw-releases-ios-and-android-companion-node-apps-that-connect-a-phone-to-a-self-hosted-ai-agent-gateway/",
+          "threads": "OpenClaw's new mobile apps bridge your phone's hardware to self-hosted AI agents, adding camera, location, and voice capabilities to local-first AI systems.\nhttps://www.marktechpost.com/2026/06/29/openclaw-releases-ios-and-android-companion-node-apps-that-connect-a-phone-to-a-self-hosted-ai-agent-gateway/",
+          "twitter": "OpenClaw's new mobile apps turn your phone into a hardware hub for self-hosted AI agents, unlocking camera, location, and voice integration.\nhttps://www.marktechpost.com/2026/06/29/openclaw-releases-ios-and-android-companion-node-apps-that-connect-a-phone-to-a-self-hosted-ai-agent-gateway/"
+        }
+      }
+    },
     "c42dd7f2aa4ff07f17d57078e5f93ac987288d453da363b57ce0b157c74b9422": {
       "created_at": "2026-06-29T19:03:34Z",
       "payload": {
@@ -1372,6 +1423,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 NVIDIA NeMo AutoModel Accelerates Fine-Tuning\nNVIDIA NeMo AutoModel streamlines transformer fine-tuning, a significant update for AI practitioners.\n\ud83c\udfdb\ufe0f Source: HuggingFace (S)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n#AI #MachineLearning #NVIDIA\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "NVIDIA NeMo AutoModel is accelerating transformer fine-tuning, a significant update for AI practitioners @NVIDIA #AI",
         "twitter": "NVIDIA NeMo AutoModel is streamlining transformer fine-tuning @NVIDIA #AI"
+      }
+    },
+    "0743e66980dbd272be0fcae870be21dc9ec952a0020953b301c188e1a834592a": {
+      "created_at": "2026-06-30T00:00:39Z",
+      "payload": {
+        "facebook": "The latest development in local-first AI is here, with OpenClaw's iOS and Android apps connecting phones to self-hosted AI agent gateways, adding device hardware capabilities. This move is expected to enhance AI development. #AI #LocalFirstAI #SelfHostedAI",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 OpenClaw Enhances Local-First AI Development\nOpenClaw's new iOS and Android apps connect phones to self-hosted AI agent gateways, enabling device hardware integration. This development is a significant step for local-first AI.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #LocalFirstAI #SelfHostedAI\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "OpenClaw's mobile apps pair phones with self-hosted AI gateways over WebSocket, integrating device hardware like cameras and voice. This is a significant step for local-first AI development @OpenClaw #AI",
+        "twitter": "OpenClaw's new mobile apps bring device hardware to self-hosted AI agents over WebSocket, a significant step for local-first AI @OpenClaw #AI"
       }
     },
     "10f4c3338de5e454687e2f74fe69027e0b3d52347a93f539758b2abe5a3449d5": {
@@ -1765,12 +1825,6 @@
       "created_at": "2026-06-28T20:37:29Z",
       "status": "scoring_attempted",
       "title": "Computer-Aided Language Development in Nonspeaking Children (1968) [pdf]"
-    },
-    "https://arstechnica.com/ai/2026/06/gm-installs-robots-at-flagship-ev-factory-after-laying-off-1300-workers": {
-      "canonical_url": "https://arstechnica.com/ai/2026/06/gm-installs-robots-at-flagship-ev-factory-after-laying-off-1300-workers",
-      "created_at": "2026-06-22T22:56:36Z",
-      "status": "scoring_attempted",
-      "title": "GM installs robots at flagship EV factory after laying off 1,300 workers"
     },
     "https://arstechnica.com/ai/2026/06/oracles-21000-layoffs-help-drive-its-debt-fueled-ai-investments": {
       "canonical_url": "https://arstechnica.com/ai/2026/06/oracles-21000-layoffs-help-drive-its-debt-fueled-ai-investments",
@@ -3002,6 +3056,12 @@
       "status": "scoring_attempted",
       "title": "Show HN: Hacker News on a train station-style flip board"
     },
+    "https://queue.acm.org/detail.cfm?id=3819084": {
+      "canonical_url": "https://queue.acm.org/detail.cfm?id=3819084",
+      "created_at": "2026-06-30T00:00:39Z",
+      "status": "scoring_attempted",
+      "title": "What can you confidently guarantee about your software?"
+    },
     "https://rubyllm.com": {
       "canonical_url": "https://rubyllm.com",
       "created_at": "2026-06-24T15:21:58Z",
@@ -3031,12 +3091,6 @@
       "created_at": "2026-06-27T01:24:34Z",
       "status": "scoring_attempted",
       "title": "AI in mathematics is forcing big questions"
-    },
-    "https://spur.us/blog/smart-tv-apps-residential-proxy-sdks": {
-      "canonical_url": "https://spur.us/blog/smart-tv-apps-residential-proxy-sdks",
-      "created_at": "2026-06-22T22:56:36Z",
-      "status": "scoring_attempted",
-      "title": "Nearly Half of LG Smart TV Apps Contain Residential Proxy SDKs"
     },
     "https://status.claude.com/incidents/jbhf20wjmzrf": {
       "canonical_url": "https://status.claude.com/incidents/jbhf20wjmzrf",
@@ -3692,18 +3746,6 @@
       "status": "scoring_attempted",
       "title": "Presentation: Rust at the Core - Accelerating Polyglot SDK Development"
     },
-    "https://www.marktechpost.com/2026/06/22/sakana-ai-launches-sakana-fugu-an-orchestration-model-that-routes-tasks-across-a-swappable-pool-of-frontier-llms": {
-      "canonical_url": "https://www.marktechpost.com/2026/06/22/sakana-ai-launches-sakana-fugu-an-orchestration-model-that-routes-tasks-across-a-swappable-pool-of-frontier-llms",
-      "created_at": "2026-06-22T22:56:36Z",
-      "status": "scoring_attempted",
-      "title": "Sakana AI Launches Sakana Fugu: An Orchestration Model That Routes Tasks Across a Swappable Pool of Frontier LLMs"
-    },
-    "https://www.marktechpost.com/2026/06/22/xai-launches-goal-in-grok-build-adding-long-running-autonomous-execution-with-built-in-verification-for-multi-step-coding-tasks": {
-      "canonical_url": "https://www.marktechpost.com/2026/06/22/xai-launches-goal-in-grok-build-adding-long-running-autonomous-execution-with-built-in-verification-for-multi-step-coding-tasks",
-      "created_at": "2026-06-22T22:56:36Z",
-      "status": "scoring_attempted",
-      "title": "xAI Launches /goal in Grok Build, Adding Long-Running Autonomous Execution With Built-In Verification for Multi-Step Coding Tasks"
-    },
     "https://www.marktechpost.com/2026/06/23/datalab-releases-lift-a-9b-open-weights-vision-model-that-extracts-structured-json-from-pdfs-using-schemas": {
       "canonical_url": "https://www.marktechpost.com/2026/06/23/datalab-releases-lift-a-9b-open-weights-vision-model-that-extracts-structured-json-from-pdfs-using-schemas",
       "created_at": "2026-06-23T20:28:19Z",
@@ -3811,6 +3853,12 @@
       "created_at": "2026-06-29T22:07:05Z",
       "status": "scoring_attempted",
       "title": "NVIDIA BioNeMo Agent Toolkit Turns Biomolecular Models Into Callable Skills for AI Agents in Drug Discovery"
+    },
+    "https://www.marktechpost.com/2026/06/29/openclaw-releases-ios-and-android-companion-node-apps-that-connect-a-phone-to-a-self-hosted-ai-agent-gateway": {
+      "canonical_url": "https://www.marktechpost.com/2026/06/29/openclaw-releases-ios-and-android-companion-node-apps-that-connect-a-phone-to-a-self-hosted-ai-agent-gateway",
+      "created_at": "2026-06-30T00:00:39Z",
+      "status": "scoring_attempted",
+      "title": "OpenClaw Releases iOS and Android Companion Node Apps That Connect a Phone to a Self-Hosted AI Agent Gateway"
     },
     "https://www.marktechpost.com/2026/06/29/pygraphistry-implementation-workflow-for-interactive-graph-intelligence-pipelines-in-security-analytics-and-risk-investigation": {
       "canonical_url": "https://www.marktechpost.com/2026/06/29/pygraphistry-implementation-workflow-for-interactive-graph-intelligence-pipelines-in-security-analytics-and-risk-investigation",
