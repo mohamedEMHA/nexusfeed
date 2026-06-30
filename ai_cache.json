@@ -1,5 +1,45 @@
 {
   "cerebras_scoring": {
+    "19700dfa22c7c86f0acd01ec737434a234e46d2227456778cf804d7e9226effe": {
+      "created_at": "2026-06-30T10:29:55Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 1.5,
+            "reason": "Red flag triggered by 'best look' in title.",
+            "red_flag": true,
+            "red_flag_reason": "best look",
+            "source_score": 1.5,
+            "title": "This could be our best look yet at Samsung\u2019s new wide foldable",
+            "total_score": 5.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 3,
+            "reason": "New AWS feature with significant impact on serverless computing.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "AWS Launches Lambda MicroVMs for Isolated Agent and User Code Execution",
+            "total_score": 8
+          }
+        ],
+        "best_index": 1,
+        "best_score": 8,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "AWS has introduced Lambda MicroVMs, a new serverless compute primitive that runs each user session or AI agent in its own Firecracker virtual machine. This provides hardware-level isolation, snapshot-based rapid launch, and state preservation for up to eight hours. Reddit community analysis found the minimum setup time to be 1.5 seconds. Link: https://www.infoq.com/news/2026/06/aws-lambda-microvms/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\ud83d\udd25 AWS Launches Lambda MicroVMs for Isolated Agent and User Code Execution\n\nAWS has introduced Lambda MicroVMs, a new serverless compute primitive that runs each user session or AI agent in its own Firecracker virtual machine with hardware-level isolation, snapshot-based rapid launch, and state preservation for up to eight hours.\n\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (B)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8/10\n\n\ud83d\udd17 https://www.infoq.com/news/2026/06/aws-lambda-microvms/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "AWS Lambda MicroVMs now run each user session in its own Firecracker VM with hardware-level isolation. Early analysis shows 1.5-second minimum setup times. https://www.infoq.com/news/2026/06/aws-lambda-microvms/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "twitter": "AWS just launched Lambda MicroVMs, giving each user session its own Firecracker VM with hardware-level isolation. https://www.infoq.com/news/2026/06/aws-lambda-microvms/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+        }
+      }
+    },
     "1c27dfa5104aab20d16f38caa3ed0b51f0b742616688707807a67aabd8afc72e": {
       "created_at": "2026-06-29T19:03:34Z",
       "payload": {
@@ -40,46 +80,6 @@
         }
       }
     },
-    "297307019ff7aec3516f48fd75acd9fa7126625684634974c2c84abe26e0fe0b": {
-      "created_at": "2026-06-29T10:00:33Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 5,
-            "novelty_score": 2.5,
-            "reason": "New research on AI's impact on software delivery cycles.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "AI Tools Accelerates Coding, but Not Overall Software Delivery, GitLab Research Finds",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 6,
-            "novelty_score": 3,
-            "reason": "New deepfake detection model launched with Qualcomm partnership.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Scam.ai Announces Qualcomm Partnership, Launches Halo Deepfake Detection Model at Computex 2026",
-            "total_score": 8.0
-          }
-        ],
-        "best_index": 6,
-        "best_score": 8.0,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Scam.ai and Qualcomm have partnered to launch Halo, a new on-device deepfake detection model for live video calls. This could be a significant step in combating deepfake fraud during video calls. Link: https://www.artificialintelligence-news.com/news/scam-ai-announces-qualcomm-partnership-launches-halo-deepfake-detection-model-at-computex-2026/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Scam.ai Announces Qualcomm Partnership, Launches Halo Deepfake Detection Model at Computex 2026*\n\nScam.ai and Qualcomm have partnered to launch Halo, an on-device deepfake detection model for live video calls. This could be a significant step in combating deepfake fraud during video calls.\n\n\ud83c\udfdb\ufe0f Source: AI News (B)\n\u23f0 Published: 2 hours ago\n\u2b50 Score: 8.0/10\n\n\ud83d\udd17 https://www.artificialintelligence-news.com/news/scam-ai-announces-qualcomm-partnership-launches-halo-deepfake-detection-model-at-computex-2026/",
-          "threads": "Scam.ai and Qualcomm just unveiled Halo, an on-device deepfake detection model for live video calls. This could be a game-changer for video call security.\nhttps://www.artificialintelligence-news.com/news/scam-ai-announces-qualcomm-partnership-launches-halo-deepfake-detection-model-at-computex-2026/",
-          "twitter": "Scam.ai and Qualcomm just launched Halo, an on-device deepfake detection model for live video calls.\nhttps://www.artificialintelligence-news.com/news/scam-ai-announces-qualcomm-partnership-launches-halo-deepfake-detection-model-at-computex-2026/"
-        }
-      }
-    },
     "2d5d912b25919353f28ad9f5a59274eebb4c14b61738140682e3a3c225fa5bef": {
       "created_at": "2026-06-29T22:07:05Z",
       "payload": {
@@ -99,6 +99,52 @@
         ],
         "best_index": 19,
         "best_score": 2.2,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "35fe10787f677e25f12330e240e0043dc7544626f28a5d53fe65ca3164e1d6a8": {
+      "created_at": "2026-06-30T10:29:55Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "The article provides valuable insights into the tradeoffs of event-driven design in Java-based real-time systems, but it lacks the novelty and impact to justify a higher score.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Article: Scaling Java-Based Real-Time Systems: The Hidden Tradeoffs of Event-Driven Design",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 3,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "580558749802461fab34c94d4f9836031197e24cbda1d3b48f58581c4633ad26": {
+      "created_at": "2026-06-30T10:29:55Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 4,
+            "novelty_score": 2.5,
+            "reason": "Meta AI's Brain2Qwerty v2 achieves 61% word accuracy in brain-to-text decoding, a significant advancement in non-invasive neural interfaces.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Meta AI Releases Brain2Qwerty v2: A Non-Invasive MEG Brain-to-Text Pipeline Decoding Typed Sentences at 61% Word Accuracy",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 4,
+        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -574,6 +620,34 @@
         "social_posts": {}
       }
     },
+    "9510cfa03ccbd19c5cc25a706266f6d15d724f0a011a1ce12de2e67877e9b4c6": {
+      "created_at": "2026-06-30T10:29:55Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "OKX's AI agent marketplace combines payments, identity, and reputation in a novel way.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Crypto exchange OKX wants AI agents to hire and pay each other",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 2,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "OKX is creating a marketplace for AI agents to hire and pay each other, combining payments, identity, and reputation. This could be a significant step in autonomous AI economies. Link: https://techcrunch.com/2026/06/30/crypto-exchange-okx-wants-ai-agents-to-hire-and-pay-each-other/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Crypto exchange OKX wants AI agents to hire and pay each other*\n\nOKX is bringing together payments, identity and reputation into a marketplace for AI agents.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/06/30/crypto-exchange-okx-wants-ai-agents-to-hire-and-pay-each-other/",
+          "threads": "OKX is building a marketplace where AI agents can hire and pay each other, integrating identity and reputation systems. This could be a significant step in autonomous AI economies. https://techcrunch.com/2026/06/30/crypto-exchange-okx-wants-ai-agents-to-hire-and-pay-each-other/",
+          "twitter": "OKX is building a marketplace where AI agents can hire and pay each other, integrating identity and reputation systems.\nhttps://techcrunch.com/2026/06/30/crypto-exchange-okx-wants-ai-agents-to-hire-and-pay-each-other/"
+        }
+      }
+    },
     "a5a8cdd0ea79214a620cb38dab1aeefc54689dae065e682437d689a9c0a3e25b": {
       "created_at": "2026-06-30T08:18:38Z",
       "payload": {
@@ -635,41 +709,6 @@
           "threads": "Meta contractors posed as teens to test rival chatbots on high-risk topics. This reveals significant ethical and operational insights. https://www.wired.com/story/meta-contractors-pretending-to-be-teens-chatbot-testing/",
           "twitter": "Meta contractors posed as teens to test rival chatbots on high-risk topics like suicide and drugs. https://www.wired.com/story/meta-contractors-pretending-to-be-teens-chatbot-testing/"
         }
-      }
-    },
-    "a8168cfebb69d059eb40dec6e411bc36ab5aa4be5e472e06c398a90ad02b51bc": {
-      "created_at": "2026-06-29T10:00:33Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 7,
-            "novelty_score": 2.5,
-            "reason": "Industry analysis on datacenter growth and grid constraints with moderate novelty and impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "US Grid Constraints: Towards 40GW+ of Behind-the-Meter Datacenter by 2028?",
-            "total_score": 7.0
-          },
-          {
-            "freshness_score": 1.0,
-            "impact_score": 1.5,
-            "index": 8,
-            "novelty_score": 3.0,
-            "reason": "New tool release with niche impact and moderate novelty.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Herdr: Agent multiplexer that lives in your terminal",
-            "total_score": 6.0
-          }
-        ],
-        "best_index": 7,
-        "best_score": 7.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "aa856e1e77e90a35d5356110be3d381d679d103730770350c83a0ff5584b5c48": {
@@ -838,41 +877,6 @@
         "social_posts": {}
       }
     },
-    "c094c83d6460d7b909a0e23325b6814a0ee7ccde58a5492a5fe555c8ee6a6cbd": {
-      "created_at": "2026-06-29T10:00:33Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 3,
-            "novelty_score": 2,
-            "reason": "Industry move with moderate impact and freshness from a tier B source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "xFusion scales enterprise AI from edge workstations to liquid-cooled data centres",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 4,
-            "novelty_score": 2.5,
-            "reason": "New research with high impact and freshness from a tier A source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "This Humanoid Robot Is a Terrifyingly Competent Office Intern",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 4,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "c29b89e2c46ae974095b44a0a3b3056ce7eb3a2ba21571ebb1ae52ea2bd8ee39": {
       "created_at": "2026-06-30T00:00:39Z",
       "payload": {
@@ -939,53 +943,6 @@
           "threads": "Arena, the AI leaderboard everyone uses, just hit $100M in revenue. Launched its commercial service last September. https://techcrunch.com/2026/06/29/arena-the-ai-leaderboard-everyone-uses-is-now-a-100m-business/",
           "twitter": "Arena, the AI leaderboard used by everyone, just hit $100M in revenue. https://techcrunch.com/2026/06/29/arena-the-ai-leaderboard-everyone-uses-is-now-a-100m-business/"
         }
-      }
-    },
-    "ce74b380a840e85dfa788f3d74790ee868007e86b3c33572fff4338a1e1513f9": {
-      "created_at": "2026-06-29T10:00:33Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 2,
-            "reason": "Industry move with moderate impact and fresh source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Wimbledon adds IBM AI tools for live match coverage",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Research with broad impact and fresh source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Advances in Natural Language Processing Are Changing Professional Networking",
-            "total_score": 7
-          },
-          {
-            "freshness_score": 0,
-            "impact_score": 0,
-            "index": 2,
-            "novelty_score": 0,
-            "reason": "Red flag triggered by 'best tools'.",
-            "red_flag": true,
-            "red_flag_reason": "top 10",
-            "source_score": 0,
-            "title": "Best Automated Security Testing Tools for Modern DevSecOps",
-            "total_score": 0
-          }
-        ],
-        "best_index": 1,
-        "best_score": 7,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "d88a556aa7ec61934a4a0e3d2db9d7cb2633c943a9dc9cc9c8be50b0dbf5f93b": {
@@ -1146,6 +1103,15 @@
         "twitter": "OpenClaw's new mobile apps bring device hardware to self-hosted AI agents over WebSocket, a significant step for local-first AI @OpenClaw #AI"
       }
     },
+    "083ca5a5a13bdd5183d5e1c87051d7dfd865fb43e6f0e352434951f86062a2d5": {
+      "created_at": "2026-06-30T10:29:55Z",
+      "payload": {
+        "facebook": "The crypto exchange OKX is developing a marketplace where AI agents can interact with each other, including hiring and paying one another. This innovative approach combines payments, identity, and reputation, #AI #OKX #CryptoExchange",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 AI Agents Marketplace\nOKX is bringing together payments, identity and reputation into a marketplace for AI agents to hire and pay each other.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n#AI #OKX #CryptoExchange\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "OKX is creating a marketplace for AI agents to hire and pay each other, @OKX reports, this combines payments, identity, and reputation in one place, #AIagents",
+        "twitter": "AI agents may soon hire and pay each other thanks to OKX's new marketplace, @TechCrunch reports, #AIagents #OKX"
+      }
+    },
     "10f4c3338de5e454687e2f74fe69027e0b3d52347a93f539758b2abe5a3449d5": {
       "created_at": "2026-06-26T15:14:45Z",
       "payload": {
@@ -1261,15 +1227,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 South Korea Invests in AI Infrastructure\nSouth Korea is investing heavily in AI infrastructure and humanoid robots, aiming for a physical AI lead by 2028.\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n#AI #Robotics #SouthKorea\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "South Korea is investing $1T in memory chip production and humanoid robots, aiming for a physical AI lead by 2028, @ArsTechnica #AI",
         "twitter": "South Korea invests heavily in AI infrastructure and humanoid robots, aiming for a physical AI lead by 2028, @ArsTechnica reports #AI"
-      }
-    },
-    "58f8c9573028323fa4157a1d2ad5b0bb65c410b5e81bbc768e6c0806ae6a3f9f": {
-      "created_at": "2026-06-23T09:33:05Z",
-      "payload": {
-        "facebook": "The world's most powerful intelligence alliance is sounding the alarm on AI cyber threats, which are now a pressing concern for everyone, not just corporate data centers. The Five Eyes nations are warning of potential impacts within months. #AIcyberthreats #cybersecurity #intelligence",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 AI cyber threats are coming for everyone\nThe Five Eyes nations are warning of potential impacts within months, making this a pressing concern for everyone, not just corporate data centers.\n\ud83c\udfdb\ufe0f Source: AI News (B)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n#AIcyberthreats #cybersecurity #intelligence\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "The Five Eyes nations are warning that AI cyber threats will impact us all within months, making this a pressing concern for everyone @cybersecurity #AIcyberthreats",
-        "twitter": "AI cyber threats are no longer a distant problem, warns the Five Eyes nations, with impacts expected within months @cybersecurity #AIcyberthreats #cybersecurity"
       }
     },
     "5bbd69eeaef7082a1ff53dc9b8d0513aeddc20762e2b67e60ea726ecb82f981a": {
@@ -2252,12 +2209,6 @@
       "status": "scoring_attempted",
       "title": "Our latest Google Finance upgrades, including a new app"
     },
-    "https://blog.owulveryck.info/2026/06/22/who-does-what-team-topologies-for-the-agentic-platform.html": {
-      "canonical_url": "https://blog.owulveryck.info/2026/06/22/who-does-what-team-topologies-for-the-agentic-platform.html",
-      "created_at": "2026-06-23T09:33:05Z",
-      "status": "scoring_attempted",
-      "title": "Who Does What? Team Topologies for the Agentic Platform"
-    },
     "https://blog.pascalschuster.de/article/do-llms-pass-the-mirror-test": {
       "canonical_url": "https://blog.pascalschuster.de/article/do-llms-pass-the-mirror-test",
       "created_at": "2026-06-28T21:43:22Z",
@@ -2486,12 +2437,6 @@
       "status": "scoring_attempted",
       "title": "Response to AI slop is from Robin Williams"
     },
-    "https://kreya.app/blog/new-http-query-method-explained": {
-      "canonical_url": "https://kreya.app/blog/new-http-query-method-explained",
-      "created_at": "2026-06-23T09:33:05Z",
-      "status": "scoring_attempted",
-      "title": "The new HTTP QUERY method explained"
-    },
     "https://microlink.io/blog/webgl-without-a-gpu": {
       "canonical_url": "https://microlink.io/blog/webgl-without-a-gpu",
       "created_at": "2026-06-29T15:42:29Z",
@@ -2563,12 +2508,6 @@
       "created_at": "2026-06-25T20:33:19Z",
       "status": "scoring_attempted",
       "title": "MIT in the media: Exploring how curiosity-driven science is an essential ingredient in America\u2019s success"
-    },
-    "https://news.ycombinator.com/item?id=48642229": {
-      "canonical_url": "https://news.ycombinator.com/item?id=48642229",
-      "created_at": "2026-06-23T09:33:05Z",
-      "status": "scoring_attempted",
-      "title": "Gemini models increasingly stucking in thinking loop"
     },
     "https://news.ycombinator.com/item?id=48673801": {
       "canonical_url": "https://news.ycombinator.com/item?id=48673801",
@@ -2653,12 +2592,6 @@
       "created_at": "2026-06-24T15:21:58Z",
       "status": "scoring_attempted",
       "title": "RubyLLM: A single, beautiful Ruby framework for all major AI providers"
-    },
-    "https://sean-but-ai.vercel.app": {
-      "canonical_url": "https://sean-but-ai.vercel.app",
-      "created_at": "2026-06-23T09:33:05Z",
-      "status": "scoring_attempted",
-      "title": "Show HN: Ideate a trading strategy with an Ex-Citadel Trader"
     },
     "https://selforg-npa.github.io": {
       "canonical_url": "https://selforg-npa.github.io",
@@ -2966,6 +2899,12 @@
       "status": "scoring_attempted",
       "title": "TIDAL cracks down on AI music by cutting off monetization"
     },
+    "https://techcrunch.com/2026/06/30/crypto-exchange-okx-wants-ai-agents-to-hire-and-pay-each-other": {
+      "canonical_url": "https://techcrunch.com/2026/06/30/crypto-exchange-okx-wants-ai-agents-to-hire-and-pay-each-other",
+      "created_at": "2026-06-30T10:29:55Z",
+      "status": "scoring_attempted",
+      "title": "Crypto exchange OKX wants AI agents to hire and pay each other"
+    },
     "https://techcrunch.com/podcast/openais-jalapeno-chip-is-big-techs-spiciest-move-away-from-nvidia": {
       "canonical_url": "https://techcrunch.com/podcast/openais-jalapeno-chip-is-big-techs-spiciest-move-away-from-nvidia",
       "created_at": "2026-06-26T18:08:12Z",
@@ -3055,12 +2994,6 @@
       "created_at": "2026-06-29T10:00:33Z",
       "status": "scoring_attempted",
       "title": "Best Automated Security Testing Tools for Modern DevSecOps"
-    },
-    "https://www.artificialintelligence-news.com/news/five-eyes-warning-ai-cyber-threats": {
-      "canonical_url": "https://www.artificialintelligence-news.com/news/five-eyes-warning-ai-cyber-threats",
-      "created_at": "2026-06-23T09:33:05Z",
-      "status": "scoring_attempted",
-      "title": "Top spy agencies say AI cyber threats will impact you within months. Here\u2019s why"
     },
     "https://www.artificialintelligence-news.com/news/hp-accelerates-enterprise-workflows-openai-frontier": {
       "canonical_url": "https://www.artificialintelligence-news.com/news/hp-accelerates-enterprise-workflows-openai-frontier",
@@ -3194,6 +3127,12 @@
       "status": "scoring_attempted",
       "title": "Article: Virtual panel: Security in the Machine Age: Expert Insights on AI Threat Evolution"
     },
+    "https://www.infoq.com/articles/tradeoffs-event-driven-design": {
+      "canonical_url": "https://www.infoq.com/articles/tradeoffs-event-driven-design",
+      "created_at": "2026-06-30T10:29:55Z",
+      "status": "scoring_attempted",
+      "title": "Article: Scaling Java-Based Real-Time Systems: The Hidden Tradeoffs of Event-Driven Design"
+    },
     "https://www.infoq.com/news/2026/06/ai-coding-outpaces-governance": {
       "canonical_url": "https://www.infoq.com/news/2026/06/ai-coding-outpaces-governance",
       "created_at": "2026-06-29T10:00:33Z",
@@ -3218,12 +3157,6 @@
       "status": "scoring_attempted",
       "title": "Argo CD 3.5 Tightens Supply Chain Security with Internal mTLS and Source Integrity"
     },
-    "https://www.infoq.com/news/2026/06/aws-blocks-framework-preview": {
-      "canonical_url": "https://www.infoq.com/news/2026/06/aws-blocks-framework-preview",
-      "created_at": "2026-06-23T09:33:05Z",
-      "status": "scoring_attempted",
-      "title": "AWS Launches Blocks, an Open-Source TypeScript Framework Designed for AI Agents to Build Backends"
-    },
     "https://www.infoq.com/news/2026/06/aws-credentials-provider": {
       "canonical_url": "https://www.infoq.com/news/2026/06/aws-credentials-provider",
       "created_at": "2026-06-27T11:57:53Z",
@@ -3235,6 +3168,12 @@
       "created_at": "2026-06-28T08:18:52Z",
       "status": "scoring_attempted",
       "title": "AWS Previews FinOps Agent for Cost Analysis and Optimization"
+    },
+    "https://www.infoq.com/news/2026/06/aws-lambda-microvms": {
+      "canonical_url": "https://www.infoq.com/news/2026/06/aws-lambda-microvms",
+      "created_at": "2026-06-30T10:29:55Z",
+      "status": "scoring_attempted",
+      "title": "AWS Launches Lambda MicroVMs for Isolated Agent and User Code Execution"
     },
     "https://www.infoq.com/news/2026/06/cloudflare-one-stack-agents": {
       "canonical_url": "https://www.infoq.com/news/2026/06/cloudflare-one-stack-agents",
@@ -3338,12 +3277,6 @@
       "status": "scoring_attempted",
       "title": "Mistral OCR 4 Brings Citation-Ready Structured Output to RAG, Agentic, and Enterprise Search Pipelines"
     },
-    "https://www.marktechpost.com/2026/06/23/prime-intellect-releases-prime-rl-0-6-0-to-train-trillion-parameter-moe-models-on-agentic-rl-workloads": {
-      "canonical_url": "https://www.marktechpost.com/2026/06/23/prime-intellect-releases-prime-rl-0-6-0-to-train-trillion-parameter-moe-models-on-agentic-rl-workloads",
-      "created_at": "2026-06-23T09:33:05Z",
-      "status": "scoring_attempted",
-      "title": "Prime Intellect Releases prime-rl 0.6.0 to Train Trillion-Parameter MoE Models on Agentic RL Workloads"
-    },
     "https://www.marktechpost.com/2026/06/24/baidu-releases-unlimited-ocr-a-3b-model-that-keeps-the-kv-cache-flat-for-long-document-parsing": {
       "canonical_url": "https://www.marktechpost.com/2026/06/24/baidu-releases-unlimited-ocr-a-3b-model-that-keeps-the-kv-cache-flat-for-long-document-parsing",
       "created_at": "2026-06-25T05:49:38Z",
@@ -3445,6 +3378,12 @@
       "created_at": "2026-06-29T22:07:05Z",
       "status": "scoring_attempted",
       "title": "PyGraphistry Implementation Workflow for Interactive Graph Intelligence Pipelines in Security Analytics and Risk Investigation"
+    },
+    "https://www.marktechpost.com/2026/06/30/meta-ai-releases-brain2qwerty-v2-a-non-invasive-meg-brain-to-text-pipeline-decoding-typed-sentences-at-61-word-accuracy": {
+      "canonical_url": "https://www.marktechpost.com/2026/06/30/meta-ai-releases-brain2qwerty-v2-a-non-invasive-meg-brain-to-text-pipeline-decoding-typed-sentences-at-61-word-accuracy",
+      "created_at": "2026-06-30T10:29:55Z",
+      "status": "scoring_attempted",
+      "title": "Meta AI Releases Brain2Qwerty v2: A Non-Invasive MEG Brain-to-Text Pipeline Decoding Typed Sentences at 61% Word Accuracy"
     },
     "https://www.nytimes.com/2026/06/25/technology/openai-ipo-artificial-intelligence.html": {
       "canonical_url": "https://www.nytimes.com/2026/06/25/technology/openai-ipo-artificial-intelligence.html",
@@ -4034,11 +3973,11 @@
       "status": "scoring_attempted",
       "title": "Tidal won\u2019t pay royalties on AI-generated music but isn\u2019t banning it outright"
     },
-    "https://www.theverge.com/transportation/954291/amflows-tl-e-bike-is-ready-for-babys-first-mountain-adventure": {
-      "canonical_url": "https://www.theverge.com/transportation/954291/amflows-tl-e-bike-is-ready-for-babys-first-mountain-adventure",
-      "created_at": "2026-06-23T09:33:05Z",
+    "https://www.theverge.com/tech/959372/samsung-galaxy-z-fold-wide-image-leaks": {
+      "canonical_url": "https://www.theverge.com/tech/959372/samsung-galaxy-z-fold-wide-image-leaks",
+      "created_at": "2026-06-30T10:29:55Z",
       "status": "scoring_attempted",
-      "title": "Amflow&#8217;s TL e-bike is ready for baby&#8217;s first mountain adventure"
+      "title": "This could be our best look yet at Samsung\u2019s new wide foldable"
     },
     "https://www.theverge.com/transportation/955153/tesla-full-self-driving-texas-crash": {
       "canonical_url": "https://www.theverge.com/transportation/955153/tesla-full-self-driving-texas-crash",
