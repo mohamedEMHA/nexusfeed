@@ -207,29 +207,6 @@
         }
       }
     },
-    "2d5d912b25919353f28ad9f5a59274eebb4c14b61738140682e3a3c225fa5bef": {
-      "created_at": "2026-06-29T22:07:05Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 0.5,
-            "impact_score": 1.5,
-            "index": 19,
-            "novelty_score": 0.2,
-            "reason": "Tutorial-style content with limited novelty and impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Working With AI: A concrete example",
-            "total_score": 2.2
-          }
-        ],
-        "best_index": 19,
-        "best_score": 2.2,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "30e9cb85efa7a2d335354aa4988b8f2f223de404b3a513df49bcca6299192b5c": {
       "created_at": "2026-06-30T15:17:12Z",
       "payload": {
@@ -627,6 +604,29 @@
         "social_posts": {}
       }
     },
+    "5bdf150ffbefb2aaf6c34e75e7d07e9c78bba14bd01f549fea33fe06b3295ca2": {
+      "created_at": "2026-06-30T23:04:26Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "New research on a zero-shot foundation model for tabular data, but from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "TabFM: A zero-shot foundation model for tabular data",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "5d34ab7432862af34f5675f4180a713f9e4f76b5b975c2c084e34917c35ebdf6": {
       "created_at": "2026-06-30T21:53:40Z",
       "payload": {
@@ -706,48 +706,25 @@
         }
       }
     },
-    "6fcaac6c0b098232170105cf25d473cc67084a02a437d4844c4f8e6b1425b7cb": {
-      "created_at": "2026-06-29T22:07:05Z",
+    "79e2c9eff70e987a31d3f7134c3a629918e00c85ccbcce24ac305f64ab2cddfa": {
+      "created_at": "2026-06-30T23:04:26Z",
       "payload": {
         "articles": [
           {
             "freshness_score": 1.5,
             "impact_score": 2.5,
-            "index": 7,
+            "index": 2,
             "novelty_score": 2.5,
-            "reason": "NVIDIA's BioNeMo Agent Toolkit enables AI agents to use biomolecular models for drug discovery, but it's not a new release and the source is Tier A.",
+            "reason": "Anthropic's Claude Sonnet 5 shows improved agentic coding performance compared to Sonnet 4.6 and Opus 4.8, with cost-performance analysis.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 1.5,
-            "title": "NVIDIA BioNeMo Agent Toolkit Turns Biomolecular Models Into Callable Skills for AI Agents in Drug Discovery",
+            "title": "Anthropic Claude Sonnet 5 vs Sonnet 4.6 vs Opus 4.8: Agentic Coding Benchmarks, API Pricing, and Cost-Performance Tradeoffs Compared",
             "total_score": 7.5
           }
         ],
-        "best_index": 7,
+        "best_index": 2,
         "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "889d0d3ecaeab902020323bdd5e39cf05b2620646fae92fa28b174207fc7c325": {
-      "created_at": "2026-06-29T22:53:12Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Research on molecular structures in water is novel but niche in impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Scientists find molecular-level evidence for two structures in liquid water",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -887,46 +864,6 @@
         "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "a5bd5e35d1964a93170f579a5e874d0cee67dbebe646ab7b26a429e64bf8ed5c": {
-      "created_at": "2026-06-29T22:07:05Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Meta's contractors posing as teens to test rival chatbots reveals significant ethical and operational insights.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Meta Contractors Posed as Teens to Prompt Rival Chatbots About Suicide, Sex, and Drugs",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "A detailed workflow for interactive graph analytics, useful for security and risk investigation.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "PyGraphistry Implementation Workflow for Interactive Graph Intelligence Pipelines in Security Analytics and Risk Investigation",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Meta's contractors pretended to be teenagers to prompt rival chatbots like Gemini and ChatGPT to discuss high-risk subjects such as suicide, sex, and drugs. This reveals significant ethical and operational insights into how these AI systems are tested and monitored. Link: https://www.wired.com/story/meta-contractors-pretending-to-be-teens-chatbot-testing/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Meta Contractors Posed as Teens to Prompt Rival Chatbots About Suicide, Sex, and Drugs*\n\nHundreds of contractors working on a project for Meta pretended to be kids\u2014and then prompted rival chatbots like Gemini and ChatGPT to discuss high-risk subjects.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.wired.com/story/meta-contractors-pretending-to-be-teens-chatbot-testing/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Meta contractors posed as teens to test rival chatbots on high-risk topics. This reveals significant ethical and operational insights. https://www.wired.com/story/meta-contractors-pretending-to-be-teens-chatbot-testing/",
-          "twitter": "Meta contractors posed as teens to test rival chatbots on high-risk topics like suicide and drugs. https://www.wired.com/story/meta-contractors-pretending-to-be-teens-chatbot-testing/"
-        }
       }
     },
     "a7e3b88a5d2b5d62a477ad26d8e671efed779a1b21cfa4087f165e8ce7a618b7": {
@@ -1072,43 +1009,31 @@
         }
       }
     },
-    "d88a556aa7ec61934a4a0e3d2db9d7cb2633c943a9dc9cc9c8be50b0dbf5f93b": {
-      "created_at": "2026-06-29T22:07:05Z",
+    "d5ffed0cbef530d04d0772f2e4fb03c049f8fc62165dc15ff7f8acbededf1074": {
+      "created_at": "2026-06-30T23:04:26Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 2,
-            "novelty_score": 0.2,
-            "reason": "This is a tutorial-style post, which automatically triggers a red flag.",
-            "red_flag": true,
-            "red_flag_reason": "tutorial",
-            "source_score": 0.5,
-            "title": "You really shouldn't copy-paste errors into Claude Code",
-            "total_score": 3.7
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 3.0,
-            "index": 3,
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 0,
             "novelty_score": 2.5,
-            "reason": "This article discusses a significant investment in AI infrastructure and humanoid robots, which is highly relevant to software engineers and AI researchers.",
+            "reason": "Linq launches interactive iMessage apps for payments, tickets, flights, and games, integrating them into the iMessage thread for agents.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 1.5,
-            "title": "South Korea to spend $1T on more memory chip production and humanoid robots",
-            "total_score": 9.0
+            "title": "Linq\u2019s iMessage Apps Bring Payments, Tickets, Flights, and Games Into the iMessage Bubble Through the imessage_app Part",
+            "total_score": 8.5
           }
         ],
-        "best_index": 3,
-        "best_score": 9.0,
+        "best_index": 0,
+        "best_score": 8.5,
         "recommendation": "POST_NOW",
         "social_posts": {
-          "facebook": "South Korea is making a massive $1 trillion investment in memory chip production and humanoid robot development, aiming to lead in physical AI by 2028. This move could significantly impact the global AI hardware market and accelerate advancements in robotics. Link: https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *South Korea to spend $1T on more memory chip production and humanoid robots*\n\nSouth Korea targets physical AI lead and commercial humanoid robots by 2028.\n\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots/",
-          "threads": "South Korea just announced a $1T investment in memory chips and humanoid robots, targeting 2028. This could be a game-changer for AI hardware. https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots/",
-          "twitter": "South Korea is committing $1T to memory chip production and humanoid robot development by 2028. This could reshape the AI hardware landscape.\nhttps://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots/"
+          "facebook": "Linq has introduced iMessage apps that enable agents to process payments, tickets, flights, and games within the iMessage thread. This integration streamlines customer interactions by keeping everything in one place. Link: https://www.marktechpost.com/2026/06/30/linqs-imessage-apps/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Linq\u2019s iMessage Apps Bring Payments, Tickets, Flights, and Games Into the iMessage Bubble*\n\nLinq launches interactive iMessage apps for payments, tickets, flights, and games, integrating them into the iMessage thread for agents.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/06/30/linqs-imessage-apps/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Linq's new iMessage apps bring payments, tickets, flights, and games into the iMessage bubble for agents. A seamless way to handle transactions within the chat. https://www.marktechpost.com/2026/06/30/linqs-imessage-apps/",
+          "twitter": "Linq just launched iMessage apps that let agents handle payments, tickets, and games directly in the chat thread. https://www.marktechpost.com/2026/06/30/linqs-imessage-apps/"
         }
       }
     },
@@ -1340,6 +1265,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Apple Seeks Exception to Buy Memory from Blacklisted Supplier\nApple is looking to alleviate supply chain pressure by seeking an exception to buy RAM chips from CXMT, a Chinese company blacklisted by the Pentagon.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n#Apple #SupplyChain #TechNews\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Apple is looking to alleviate supply chain pressure by seeking an exception to buy RAM chips from blacklisted Chinese supplier CXMT, @TheVerge reports, a significant development for the industry #Apple",
         "twitter": "Apple seeks exception to buy RAM chips from blacklisted Chinese supplier CXMT, @TheVerge reports, amid supply chain pressures #Apple"
+      }
+    },
+    "2d1d76fd1d0ab217a3cf3321fc7906cf1700cc1ed9dc84c5da36a19060963cf4": {
+      "created_at": "2026-06-30T23:04:26Z",
+      "payload": {
+        "facebook": "Linq has launched interactive iMessage apps that bring payments, tickets, flights, and games into the iMessage bubble. This integration is set to enhance the iMessage experience for agents, making it more functional and engaging. #iMessage #Linq #TechInnovation",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Linq Expands iMessage Capabilities\nLinq has introduced interactive iMessage apps, enabling payments, tickets, flights, and games within the iMessage thread.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#iMessage #Linq #TechNews\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Linq's new iMessage apps are changing the way we interact within threads, adding functionality for payments, tickets, and more @Linq, #iMessage",
+        "twitter": "Linq integrates payments, tickets, and more into iMessage threads with new interactive apps @Linq, #iMessage"
       }
     },
     "2f554dab1653f32a0dbf7a625f32cd2a9a6a2e972b5c79d18accb2200b1d6a6e": {
@@ -2430,12 +2364,6 @@
       "status": "scoring_attempted",
       "title": "Professor denounces mass AI fraud on an exam at Brown"
     },
-    "https://english.news.cn/20260624/65f1b6192cd947e28849776a5aef05c6/c.html": {
-      "canonical_url": "https://english.news.cn/20260624/65f1b6192cd947e28849776a5aef05c6/c.html",
-      "created_at": "2026-06-23T21:58:48Z",
-      "status": "scoring_attempted",
-      "title": "All train services in Germany halted after train radio communications disruption"
-    },
     "https://fortune.com/2026/06/26/meta-wynn-williams-surveillance-gag-order-lawsuit-2026": {
       "canonical_url": "https://fortune.com/2026/06/26/meta-wynn-williams-surveillance-gag-order-lawsuit-2026",
       "created_at": "2026-06-27T22:31:55Z",
@@ -2634,12 +2562,6 @@
       "status": "scoring_attempted",
       "title": "WebGL Without a GPU"
     },
-    "https://milek7.pl/mailverifyspam": {
-      "canonical_url": "https://milek7.pl/mailverifyspam",
-      "created_at": "2026-06-23T21:58:48Z",
-      "status": "scoring_attempted",
-      "title": "Don't verify email addresses by sending spam to them"
-    },
     "https://moondream.ai/blog/popping-the-gpu-bubble": {
       "canonical_url": "https://moondream.ai/blog/popping-the-gpu-bubble",
       "created_at": "2026-06-30T08:18:38Z",
@@ -2663,12 +2585,6 @@
       "created_at": "2026-06-26T18:08:12Z",
       "status": "scoring_attempted",
       "title": "David Autor named head of the Department of Economics"
-    },
-    "https://news.mit.edu/2026/exploring-societal-impacts-of-ai-0623": {
-      "canonical_url": "https://news.mit.edu/2026/exploring-societal-impacts-of-ai-0623",
-      "created_at": "2026-06-23T21:58:48Z",
-      "status": "scoring_attempted",
-      "title": "Exploring the societal impacts of AI"
     },
     "https://news.mit.edu/2026/improving-ai-agent-speed-and-energy-efficiency-0625": {
       "canonical_url": "https://news.mit.edu/2026/improving-ai-agent-speed-and-energy-efficiency-0625",
@@ -2771,6 +2687,12 @@
       "created_at": "2026-06-30T15:17:12Z",
       "status": "scoring_attempted",
       "title": "Words Are a Byproduct of Consciousness. For LLMs, It's Backwards"
+    },
+    "https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data": {
+      "canonical_url": "https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data",
+      "created_at": "2026-06-30T23:04:26Z",
+      "status": "scoring_attempted",
+      "title": "TabFM: A zero-shot foundation model for tabular data"
     },
     "https://rubyllm.com": {
       "canonical_url": "https://rubyllm.com",
@@ -3288,12 +3210,6 @@
       "status": "scoring_attempted",
       "title": "Ford rehires 350 engineers after AI fails to preserve expertise or train juniors"
     },
-    "https://www.bluewin.ch/en/news/german-rail-service-suspended-due-to-radio-interference-li.3295297": {
-      "canonical_url": "https://www.bluewin.ch/en/news/german-rail-service-suspended-due-to-radio-interference-li.3295297",
-      "created_at": "2026-06-23T21:58:48Z",
-      "status": "scoring_attempted",
-      "title": "German Rail Service Suspended Due to Radio Interference"
-    },
     "https://www.browserbase.com/blog/why-captchas-are-getting-harder": {
       "canonical_url": "https://www.browserbase.com/blog/why-captchas-are-getting-harder",
       "created_at": "2026-06-24T18:14:56Z",
@@ -3594,6 +3510,18 @@
       "status": "scoring_attempted",
       "title": "PyGraphistry Implementation Workflow for Interactive Graph Intelligence Pipelines in Security Analytics and Risk Investigation"
     },
+    "https://www.marktechpost.com/2026/06/30/anthropic-claude-sonnet-5-vs-sonnet-4-6-vs-opus-4-8-agentic-coding-benchmarks-api-pricing-and-cost-performance-tradeoffs-compared": {
+      "canonical_url": "https://www.marktechpost.com/2026/06/30/anthropic-claude-sonnet-5-vs-sonnet-4-6-vs-opus-4-8-agentic-coding-benchmarks-api-pricing-and-cost-performance-tradeoffs-compared",
+      "created_at": "2026-06-30T23:04:26Z",
+      "status": "scoring_attempted",
+      "title": "Anthropic Claude Sonnet 5 vs Sonnet 4.6 vs Opus 4.8: Agentic Coding Benchmarks, API Pricing, and Cost-Performance Tradeoffs Compared"
+    },
+    "https://www.marktechpost.com/2026/06/30/linqs-imessage-apps": {
+      "canonical_url": "https://www.marktechpost.com/2026/06/30/linqs-imessage-apps",
+      "created_at": "2026-06-30T23:04:26Z",
+      "status": "scoring_attempted",
+      "title": "Linq\u2019s iMessage Apps Bring Payments, Tickets, Flights, and Games Into the iMessage Bubble Through the imessage_app Part"
+    },
     "https://www.marktechpost.com/2026/06/30/meta-ai-releases-brain2qwerty-v2-a-non-invasive-meg-brain-to-text-pipeline-decoding-typed-sentences-at-61-word-accuracy": {
       "canonical_url": "https://www.marktechpost.com/2026/06/30/meta-ai-releases-brain2qwerty-v2-a-non-invasive-meg-brain-to-text-pipeline-decoding-typed-sentences-at-61-word-accuracy",
       "created_at": "2026-06-30T10:29:55Z",
@@ -3779,12 +3707,6 @@
       "created_at": "2026-06-24T16:19:05Z",
       "status": "scoring_attempted",
       "title": "The SwitchBot battery-powered fan we love is $90 for Prime Day"
-    },
-    "https://www.theverge.com/gadgets/953936/roborock-saros-20-amazon-deal-sale": {
-      "canonical_url": "https://www.theverge.com/gadgets/953936/roborock-saros-20-amazon-deal-sale",
-      "created_at": "2026-06-23T21:58:48Z",
-      "status": "scoring_attempted",
-      "title": "Prime Day takes $240 off Roborock\u2019s Saros 20, one of our favorite robovacs"
     },
     "https://www.theverge.com/gadgets/954880/amazon-prime-day-2026-popular-products-verge-readers": {
       "canonical_url": "https://www.theverge.com/gadgets/954880/amazon-prime-day-2026-popular-products-verge-readers",
