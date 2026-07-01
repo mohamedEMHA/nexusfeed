@@ -52,6 +52,29 @@
         }
       }
     },
+    "05f8efcdeb6eab01ae8df46afae5ea0952786dd9c959b52612a37811fc3ee67a": {
+      "created_at": "2026-07-01T01:34:16Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "Important industry move but low source tier and novelty score.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5",
+            "total_score": 7.0
+          }
+        ],
+        "best_index": 3,
+        "best_score": 7.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "0d1214156607a051113b12342eac8a5a01656f1295317bb10fee1844bbb8be02": {
       "created_at": "2026-06-30T18:17:43Z",
       "payload": {
@@ -581,29 +604,6 @@
         }
       }
     },
-    "5bda2ced50e5893969d30bbb4edb7aeccc27e68f5280476d66dc19b46a2134ea": {
-      "created_at": "2026-06-30T00:00:39Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 0.5,
-            "impact_score": 1.5,
-            "index": 21,
-            "novelty_score": 0.5,
-            "reason": "Red flag triggered by the title structure.",
-            "red_flag": true,
-            "red_flag_reason": "What can you confidently guarantee about your software?",
-            "source_score": 0.5,
-            "title": "What can you confidently guarantee about your software?",
-            "total_score": 2.5
-          }
-        ],
-        "best_index": 21,
-        "best_score": 2.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "5bdf150ffbefb2aaf6c34e75e7d07e9c78bba14bd01f549fea33fe06b3295ca2": {
       "created_at": "2026-06-30T23:04:26Z",
       "payload": {
@@ -815,6 +815,29 @@
         "social_posts": {}
       }
     },
+    "a3494b379eb8d51d93b02a800a2eace0bb7fffe481867eb7268f6173a0eefb05": {
+      "created_at": "2026-07-01T01:34:16Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 4,
+            "novelty_score": 2.5,
+            "reason": "Significant policy change affecting AI model accessibility.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "The Trump Administration Is Lifting Its Export Controls on Anthropic\u2019s Mythos and Fable AI Models",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 4,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "a55a82319a08f2f2092c3489019f5830a1c13ebf297fca381afbda2f08e59b34": {
       "created_at": "2026-06-30T12:30:40Z",
       "payload": {
@@ -929,8 +952,31 @@
         }
       }
     },
-    "c29b89e2c46ae974095b44a0a3b3056ce7eb3a2ba21571ebb1ae52ea2bd8ee39": {
-      "created_at": "2026-06-30T00:00:39Z",
+    "b8a038d9f99489cc0e86ca0cf36c1dc25f769c74f24e39b8482d43bb102f60fa": {
+      "created_at": "2026-07-01T01:34:16Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "Anthropic's Claude Fable 5 returning after export control lift is significant but not groundbreaking.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Anthropic\u2019s long-sidelined Fable 5 is greenlit to return",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 2,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "c1918392bd801b9c8e122c739fb33c2cfeda5e9f7cf6649a2bc3076581d43943": {
+      "created_at": "2026-07-01T01:34:16Z",
       "payload": {
         "articles": [
           {
@@ -938,22 +984,34 @@
             "impact_score": 2.5,
             "index": 0,
             "novelty_score": 2.5,
-            "reason": "OpenClaw's new mobile apps enable phone hardware integration with self-hosted AI agents, a significant step for local-first AI development.",
+            "reason": "Meta's move to limit AI features on its smart glasses to 3 hours/month unless users pay a $20/month subscription is a significant industry shift.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 1.5,
-            "title": "OpenClaw Releases iOS and Android Companion Node Apps That Connect a Phone to a Self-Hosted AI Agent Gateway",
+            "title": "Meta is adding ridiculous \u2018rate limits\u2019 and a soft paywall to its smart glasses",
             "total_score": 8.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "While notable, this political news about crypto deals lacks direct relevance to software engineers and AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "The President Made More Than $1Billon in Crypto Deals",
+            "total_score": 5.5
           }
         ],
         "best_index": 0,
         "best_score": 8.5,
         "recommendation": "POST_NOW",
         "social_posts": {
-          "facebook": "OpenClaw has released iOS and Android apps that connect your phone to a self-hosted AI agent gateway. This enables integration with device hardware like camera, location, and voice. The apps act as companion nodes, not standalone chatbots, and pair with a Gateway over WebSocket. This is a significant development for those building local-first AI systems.\nLink: https://www.marktechpost.com/2026/06/29/openclaw-releases-ios-and-android-companion-node-apps-that-connect-a-phone-to-a-self-hosted-ai-agent-gateway/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *OpenClaw Releases iOS and Android Companion Node Apps That Connect a Phone to a Self-Hosted AI Agent Gateway*\n\nOpenClaw's iOS and Android apps turn phones into hardware hubs for self-hosted AI agents, enabling camera, location, and voice integration.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/06/29/openclaw-releases-ios-and-android-companion-node-apps-that-connect-a-phone-to-a-self-hosted-ai-agent-gateway/",
-          "threads": "OpenClaw's new mobile apps bridge your phone's hardware to self-hosted AI agents, adding camera, location, and voice capabilities to local-first AI systems.\nhttps://www.marktechpost.com/2026/06/29/openclaw-releases-ios-and-android-companion-node-apps-that-connect-a-phone-to-a-self-hosted-ai-agent-gateway/",
-          "twitter": "OpenClaw's new mobile apps turn your phone into a hardware hub for self-hosted AI agents, unlocking camera, location, and voice integration.\nhttps://www.marktechpost.com/2026/06/29/openclaw-releases-ios-and-android-companion-node-apps-that-connect-a-phone-to-a-self-hosted-ai-agent-gateway/"
+          "facebook": "Meta is introducing a controversial paywall for its smart glasses AI features, limiting free use to just 3 hours per month. This move could set a precedent for AI hardware monetization. Link: https://www.theverge.com/gadgets/959899/meta-ai-glasses-paywall-rate-limit",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Meta is adding \u2018rate limits\u2019 and a soft paywall to its smart glasses*\n\nMeta is locking AI features on its smart glasses behind a $20/month paywall, limiting free use to 3 hours per month.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/gadgets/959899/meta-ai-glasses-paywall-rate-limit\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Meta's smart glasses AI features now require a $20/month subscription after 3 hours of use. This could change how we think about AI hardware access. https://www.theverge.com/gadgets/959899/meta-ai-glasses-paywall-rate-limit",
+          "twitter": "Meta is locking AI features on its smart glasses behind a $20/month paywall. https://www.theverge.com/gadgets/959899/meta-ai-glasses-paywall-rate-limit"
         }
       }
     },
@@ -1330,15 +1388,6 @@
         "twitter": "Anthropic's new Claude Sonnet 5 model offers stronger agentic capabilities at a lower price point, posing a threat to Opus, GPT-5.5, and Gemini Pro @AnthropicAI #AI"
       }
     },
-    "504e762af013f7a2dc7a19312ff568aee7316ff348c33c32cd0f1438a5a82a0c": {
-      "created_at": "2026-06-24T00:13:15Z",
-      "payload": {
-        "facebook": "The latest release from Mistral AI marks a significant shift in OCR technology, moving from clean text extraction to structured document output with features like bounding boxes and confidence scores. This update has major implications for RAG, Agentic, and enterprise search pipelines. #OCRTech #MistralAI #SearchPipelines",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Mistral AI Releases OCR 4 With Structured Output\nMistral AI's new OCR model supports 170 languages and brings features like bounding boxes, typed classification, and confidence scores to search pipelines.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#OCRTech #MistralAI #SearchPipelines\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Mistral AI's OCR 4 model introduces structured document output, a significant upgrade from traditional clean text extraction, with features like typed classification and per-word confidence scores @MistralAI #OCRTech",
-        "twitter": "Mistral AI's new OCR model brings structured output to search pipelines, supporting 170 languages with bounding boxes and confidence scores @MistralAI #OCRTech"
-      }
-    },
     "52e64dc3e08eadda65ea1f5f75cb2e7def1fdf1f111fc00bb8917915d9f93d2d": {
       "created_at": "2026-06-27T01:24:34Z",
       "payload": {
@@ -1427,6 +1476,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 DFlash Speculative Decoding Boosts Throughput\nDFlash replaces autoregressive drafting with a lightweight block diffusion model, drafting whole token blocks in parallel and achieving up to 15x higher throughput on NVIDIA Blackwell.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #MachineLearning #DFlash\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "DFlash introduces a novel speculative decoding method, achieving up to 15x higher throughput on NVIDIA Blackwell by drafting whole token blocks in parallel @NVIDIA #AI",
         "twitter": "DFlash achieves up to 15x higher throughput on NVIDIA Blackwell by drafting whole token blocks in parallel @NVIDIA #AI"
+      }
+    },
+    "7e4ca84fc458575ddfb5d8c32e6aae98149a66b1f792d91ccbeeeab653556686": {
+      "created_at": "2026-07-01T01:34:16Z",
+      "payload": {
+        "facebook": "Meta is introducing rate limits on its smart glasses, limiting AI features to 3 hours of use per month unless users pay for a premium subscription. This move could have significant implications for the industry and raises questions about the future of AI hardware ownership. #AI #SmartGlasses #Tech",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Meta Introduces Rate Limits on Smart Glasses\nMeta is restricting AI features on its smart glasses to 3 hours/month unless users pay for a premium subscription. This move could change the industry.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #SmartGlasses #Tech\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Meta's decision to limit AI features on its smart glasses to 3 hours/month without a $20/month subscription is a significant industry shift, one that could impact how we think about AI hardware ownership @TheVerge #AI",
+        "twitter": "Meta's new rate limits on smart glasses will restrict AI features to 3 hours/month without a $20/month subscription, a move that could change the industry @TheVerge #AI"
       }
     },
     "912bb6607648b8eb419e3c88ecea9449947d1bceda549d71bb165b612c74b906": {
@@ -2706,12 +2764,6 @@
       "status": "scoring_attempted",
       "title": "AI in mathematics is forcing big questions"
     },
-    "https://techcrunch.com/2026/06/23/indias-moengage-bets-marketings-future-on-millions-of-ai-agents": {
-      "canonical_url": "https://techcrunch.com/2026/06/23/indias-moengage-bets-marketings-future-on-millions-of-ai-agents",
-      "created_at": "2026-06-24T00:13:15Z",
-      "status": "scoring_attempted",
-      "title": "India\u2019s MoEngage bets that the future of marketing is millions of AI agents"
-    },
     "https://techcrunch.com/2026/06/24/3-days-left-to-save-up-to-190-on-techcrunch-founder-summit-2026": {
       "canonical_url": "https://techcrunch.com/2026/06/24/3-days-left-to-save-up-to-190-on-techcrunch-founder-summit-2026",
       "created_at": "2026-06-24T15:21:58Z",
@@ -3072,6 +3124,12 @@
       "status": "scoring_attempted",
       "title": "Local Reasoning for Global Properties"
     },
+    "https://twitter.com/AnthropicAI/status/2072106151890809341": {
+      "canonical_url": "https://twitter.com/AnthropicAI/status/2072106151890809341",
+      "created_at": "2026-07-01T01:34:16Z",
+      "status": "scoring_attempted",
+      "title": "Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5"
+    },
     "https://twitter.com/ID_AA_Carmack/status/2069799283369345247": {
       "canonical_url": "https://twitter.com/ID_AA_Carmack/status/2069799283369345247",
       "created_at": "2026-06-24T16:19:05Z",
@@ -3396,12 +3454,6 @@
       "status": "scoring_attempted",
       "title": "Presentation: Rust at the Core - Accelerating Polyglot SDK Development"
     },
-    "https://www.marktechpost.com/2026/06/23/mistral-ocr-4": {
-      "canonical_url": "https://www.marktechpost.com/2026/06/23/mistral-ocr-4",
-      "created_at": "2026-06-24T00:13:15Z",
-      "status": "scoring_attempted",
-      "title": "Mistral OCR 4 Brings Citation-Ready Structured Output to RAG, Agentic, and Enterprise Search Pipelines"
-    },
     "https://www.marktechpost.com/2026/06/24/baidu-releases-unlimited-ocr-a-3b-model-that-keeps-the-kv-cache-flat-for-long-document-parsing": {
       "canonical_url": "https://www.marktechpost.com/2026/06/24/baidu-releases-unlimited-ocr-a-3b-model-that-keeps-the-kv-cache-flat-for-long-document-parsing",
       "created_at": "2026-06-25T05:49:38Z",
@@ -3624,6 +3676,12 @@
       "status": "scoring_attempted",
       "title": "China\u2019s Z.ai claims it can match Mythos on cybersecurity"
     },
+    "https://www.theverge.com/ai-artificial-intelligence/958964/anthropic-claude-fable-5-is-back": {
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/958964/anthropic-claude-fable-5-is-back",
+      "created_at": "2026-07-01T01:34:16Z",
+      "status": "scoring_attempted",
+      "title": "Anthropic&#8217;s long-sidelined Fable 5 is greenlit to return"
+    },
     "https://www.theverge.com/ai-artificial-intelligence/959033/health-location-data-protection-act-ai-warren-scanlon": {
       "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/959033/health-location-data-protection-act-ai-warren-scanlon",
       "created_at": "2026-06-29T16:55:11Z",
@@ -3785,6 +3843,12 @@
       "created_at": "2026-06-30T20:23:51Z",
       "status": "scoring_attempted",
       "title": "Acer&#8217;s Swift Go 16 is a lot of laptop for $900"
+    },
+    "https://www.theverge.com/gadgets/959899/meta-ai-glasses-paywall-rate-limit": {
+      "canonical_url": "https://www.theverge.com/gadgets/959899/meta-ai-glasses-paywall-rate-limit",
+      "created_at": "2026-07-01T01:34:16Z",
+      "status": "scoring_attempted",
+      "title": "Meta is adding ridiculous &#8216;rate limits&#8217; and a soft paywall to its smart glasses"
     },
     "https://www.theverge.com/games/956137/riot-games-vanguard-pre-check-anti-cheat-on-demand-valorant": {
       "canonical_url": "https://www.theverge.com/games/956137/riot-games-vanguard-pre-check-anti-cheat-on-demand-valorant",
@@ -4188,11 +4252,23 @@
       "status": "scoring_attempted",
       "title": "This Humanoid Robot Is a Terrifyingly Competent Office Intern"
     },
+    "https://www.wired.com/story/trump-administration-lifts-export-controls-on-anthropics-mythos-and-fable-ai-models": {
+      "canonical_url": "https://www.wired.com/story/trump-administration-lifts-export-controls-on-anthropics-mythos-and-fable-ai-models",
+      "created_at": "2026-07-01T01:34:16Z",
+      "status": "scoring_attempted",
+      "title": "The Trump Administration Is Lifting Its Export Controls on Anthropic\u2019s Mythos and Fable AI Models"
+    },
     "https://www.wired.com/story/uncanny-valley-podcast-amazon-mgm-openai-movie-data-center-workers-fight-back-meta-leaks-employee-data": {
       "canonical_url": "https://www.wired.com/story/uncanny-valley-podcast-amazon-mgm-openai-movie-data-center-workers-fight-back-meta-leaks-employee-data",
       "created_at": "2026-06-26T01:32:02Z",
       "status": "scoring_attempted",
       "title": "Why Amazon Dropped Its OpenAI Movie, Data Center Workers Fight Back, and Meta Leaks Employee Data"
+    },
+    "https://www.wsj.com/politics/policy/trump-made-more-than-1-billion-on-crypto-deals-part-of-2025-windfall-ee917d3f": {
+      "canonical_url": "https://www.wsj.com/politics/policy/trump-made-more-than-1-billion-on-crypto-deals-part-of-2025-windfall-ee917d3f",
+      "created_at": "2026-07-01T01:34:16Z",
+      "status": "scoring_attempted",
+      "title": "The President Made More Than $1Billon in Crypto Deals"
     },
     "https://www.ycombinator.com/companies/besimple-ai/jobs/yWfhhOR-strategic-projects-lead-audio-data": {
       "canonical_url": "https://www.ycombinator.com/companies/besimple-ai/jobs/yWfhhOR-strategic-projects-lead-audio-data",
