@@ -1,5 +1,69 @@
 {
   "cerebras_scoring": {
+    "021aa8bf77f56f59ed3f59b1bca2614ebaf46c2a0c388b19c21e810c5da28e6e": {
+      "created_at": "2026-07-01T16:03:57Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Anthropic's new security measure is a significant industry move with broad impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Anthropic Added a New Security Measure to Get Back Into the Trump Administration\u2019s Good Graces",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2,
+            "reason": "Google's AI summit for education leaders is a notable industry event with significant impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 2,
+            "title": "New York City educators and industry leaders gathered at Google\u2019s offices to shape the future of AI in classrooms.",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "Microsoft's AI-powered library is a novel application of AI in historical education.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 2,
+            "title": "New AI-powered library lets people meet Theodore Roosevelt in a whole new way",
+            "total_score": 8
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2,
+            "index": 3,
+            "novelty_score": 1.5,
+            "reason": "Sony's decision to stop producing physical PlayStation discs is a significant industry move but less impactful for AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Sony is killing discs \u2014 and showing us why it\u2019s a terrible idea",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Anthropic has introduced new security measures that have led the US government to lift restrictions on its Fable 5 and Mythos 5 AI models. This move is significant for the AI industry and could have broad implications for AI development and deployment. The new measures are part of Anthropic's efforts to comply with government regulations and ensure the responsible use of AI. Link: https://www.wired.com/story/anthropic-added-a-new-security-measure-to-get-back-into-the-trump-administrations-good-graces",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Anthropic Added a New Security Measure to Get Back Into the Trump Administration\u2019s Good Graces*\n\nThe government has removed restrictions on Anthropic\u2019s Fable 5 and Mythos 5 AI models\u2014but there were strings attached.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.wired.com/story/anthropic-added-a-new-security-measure-to-get-back-into-the-trump-administrations-good-graces/",
+          "threads": "Anthropic's new security measures have convinced the US government to lift restrictions on Fable 5 and Mythos 5. This is a big deal for AI development and deployment. https://www.wired.com/story/anthropic-added-a-new-security-measure-to-get-back-into-the-trump-administrations-good-graces/",
+          "twitter": "Anthropic adds new security measures to lift US government restrictions on Fable 5 and Mythos 5 models.\nhttps://www.wired.com/story/anthropic-added-a-new-security-measure-to-get-back-into-the-trump-administrations-good-graces/"
+        }
+      }
+    },
     "02659d149aa1bf0cb6a272f96ee8a818b40f78327d62bece716a34620cfc5395": {
       "created_at": "2026-06-30T18:17:43Z",
       "payload": {
@@ -71,6 +135,53 @@
         ],
         "best_index": 3,
         "best_score": 7.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "06df2e53a1892cdbff8e50fa804aef8fa6ffdc97825f47c72f003578857278de": {
+      "created_at": "2026-07-01T16:03:57Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 12,
+            "novelty_score": 2.5,
+            "reason": "Meta's move to sell AI compute power could disrupt the cloud market.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Meta, like SpaceX, looks to turn excess AI compute into cash",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.5,
+            "index": 13,
+            "novelty_score": 0.2,
+            "reason": "Job posting with limited relevance to most software engineers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Manufact (YC S25) Is Hiring a Developer Advocate in SF",
+            "total_score": 2.7
+          },
+          {
+            "freshness_score": 1,
+            "impact_score": 1.5,
+            "index": 16,
+            "novelty_score": 2.5,
+            "reason": "Interesting tool but niche impact and lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Show HN: Frond \u2013 a frontend runtime for your app's dependency graph",
+            "total_score": 5.5
+          }
+        ],
+        "best_index": 12,
+        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -257,6 +368,70 @@
         "social_posts": {}
       }
     },
+    "16f39c35bdda3922438e27453f33944df54712b520eff4973457e2ae60644975": {
+      "created_at": "2026-07-01T16:03:57Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 4,
+            "novelty_score": 2,
+            "reason": "Industry move with niche impact, fresh, but low-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Sony Deletes 551 Movies PlayStation Owners Paid For",
+            "total_score": 5.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 5,
+            "novelty_score": 2.5,
+            "reason": "New funding round for a privacy-first AI platform, significant impact, fresh, and from a reputable source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Venice AI becomes a unicorn with $65M Series A as its privacy-first AI platform takes off",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 6,
+            "novelty_score": 3,
+            "reason": "Breakthrough in synthetic biology, high impact, fresh, and from a reputable source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "For first time, a cell built from scratch grows and divides",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 7,
+            "novelty_score": 2.5,
+            "reason": "New AI assistant available on Mac, significant impact, fresh, and from a reputable source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Gemini Spark, Google\u2019s agentic assistant, is now available on Mac",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 5,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Venice AI has become a unicorn with a $65M Series A funding round. The company's privacy-first AI platform is gaining traction, with annualized run-rate revenues exceeding $70 million. This is a significant milestone for the AI industry, showcasing the growing demand for privacy-focused solutions. Link: https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Venice AI becomes a unicorn with $65M Series A as its privacy-first AI platform takes off*\n\nVenice AI has raised $65M in Series A funding, achieving unicorn status. The company's privacy-first AI platform is already profitable, with annualized run-rate revenues exceeding $70 million.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/",
+          "threads": "Venice AI just secured $65M in Series A funding, becoming a unicorn. Their privacy-first AI platform is taking off, with revenues over $70M annually. https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/",
+          "twitter": "Venice AI just raised $65M Series A, hitting unicorn status with its privacy-first AI platform. https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/"
+        }
+      }
+    },
     "17aec63bbb4ef326369b9a2fca59f0db5c5ef06d065975143974086a9f323771": {
       "created_at": "2026-06-30T16:22:34Z",
       "payload": {
@@ -343,88 +518,6 @@
         }
       }
     },
-    "30e9cb85efa7a2d335354aa4988b8f2f223de404b3a513df49bcca6299192b5c": {
-      "created_at": "2026-06-30T15:17:12Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "HuggingFace's analysis of AI specialization trends offers valuable insights for researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 2,
-            "title": "Why Specialization Is Inevitable",
-            "total_score": 9
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 4,
-            "novelty_score": 2.5,
-            "reason": "Hacker News discussion on LLM consciousness is niche and lacks concrete research.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Words Are a Byproduct of Consciousness. For LLMs, It's Backwards",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 5,
-            "novelty_score": 1.5,
-            "reason": "Proton's Lumo 2.0 upgrade is notable but not groundbreaking for most AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Lumo, Proton\u2019s privacy-focused AI chatbot, gets an upgrade",
-            "total_score": 7
-          }
-        ],
-        "best_index": 3,
-        "best_score": 9,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "32165d9012f57faf7d4ab323f2b3c725440e020d485403f13ab5b4c55ef198d7": {
-      "created_at": "2026-06-30T15:17:12Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 6,
-            "novelty_score": 1.5,
-            "reason": "Update on iPhone 18 Pro leaks, moderate impact on tech community.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "iPhone 18 Pro \u2018drop test\u2019 leaks get yanked from X",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 7,
-            "novelty_score": 2.5,
-            "reason": "New open-source release from Elastic with potential for AI agent development.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.0,
-            "title": "Elastic Open-Sources Atlas Agent Memory Based on Cognitive Science",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 7,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "35b30d2ee66b57caa7f901663202200a06d72d4aa44ba27a08d5d4e9d900aecb": {
       "created_at": "2026-06-30T20:23:51Z",
       "payload": {
@@ -462,58 +555,6 @@
           "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Google\u2019s NotebookLM can sum up your research in a TikTok-style clip*\n\nGoogle's NotebookLM is adding a new way to catch up on your notes: TikTok-style AI videos. The new feature is rolling out to Google AI Ultra and Pro subscribers, allowing NotebookLM to generate 60-second vertical AI clips based on the sources you upload to the app.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/tech/959778/google-notebooklm-ai-clips\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
           "threads": "Google's NotebookLM can now generate TikTok-style AI video summaries of your research. A quick way to catch up on notes in 60 seconds. https://www.theverge.com/tech/959778/google-notebooklm-ai-clips",
           "twitter": "Google's NotebookLM now generates TikTok-style AI video summaries of your research. A new way to catch up on notes in 60 seconds.\nhttps://www.theverge.com/tech/959778/google-notebooklm-ai-clips"
-        }
-      }
-    },
-    "42561ac4acfcde4720562bae9851878db079838e7454abc0945e961b47db33fd": {
-      "created_at": "2026-06-30T15:17:12Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "X's MCP server launch is a significant move for AI developers, but not groundbreaking.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "X now offers an MCP server to make its platform easier for AI tools to use",
-            "total_score": 8.0
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 3,
-            "index": 1,
-            "novelty_score": 3,
-            "reason": "Amazon's $1 billion investment in FDE is a major industry move with wide implications.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Amazon launches new $1 billion FDE org, following OpenAI and Anthropic",
-            "total_score": 9.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 0,
-            "index": 2,
-            "novelty_score": 0,
-            "reason": "Not relevant to software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "The Supreme Court stops Trump\u2019s attempt to end birthright citizenship",
-            "total_score": 3.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 9.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Amazon is making a big bet on AI with a new $1 billion FDE organization. The team will embed engineers in companies to deploy purpose-built agents, focusing on fast deployments and customer self-sufficiency. This follows similar moves by OpenAI and Anthropic. Link: https://techcrunch.com/2026/06/30/amazon-launches-new-1-billion-fde-org-following-openai-and-anthropic/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\ud83d\udd25 *Amazon launches new $1 billion FDE org, following OpenAI and Anthropic* \n\n Engineers on the new team will embed within companies to deploy purpose-built agents, focusing on fast deployments and customer self-sufficiency. \n\n \ud83c\udfdb\ufe0f Source: TechCrunch (A) \n \u23f0 Published: <1 hour ago \n \u2b50 Score: 9.5/10 \n \n \ud83d\udd17 https://techcrunch.com/2026/06/30/amazon-launches-new-1-billion-fde-org-following-openai-and-anthropic/ \n \u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Amazon just launched a $1 billion FDE organization to embed engineers in companies for fast AI deployments. This follows similar moves by OpenAI and Anthropic. https://techcrunch.com/2026/06/30/amazon-launches-new-1-billion-fde-org-following-openai-and-anthropic/",
-          "twitter": "Amazon just launched a $1 billion FDE organization to embed engineers in companies for fast AI deployments. https://techcrunch.com/2026/06/30/amazon-launches-new-1-billion-fde-org-following-openai-and-anthropic/"
         }
       }
     },
@@ -991,41 +1032,6 @@
         "social_posts": {}
       }
     },
-    "9845ecee2e37b6aa87a3a217c5cca3e17627e681c110de4f32103477322921cd": {
-      "created_at": "2026-06-30T15:17:12Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 9,
-            "novelty_score": 2,
-            "reason": "Industry move with niche impact, published 4 hours ago, from a Tier C source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "European digital ID wallets rely on safety services of Google and Apple",
-            "total_score": 5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 10,
-            "novelty_score": 3,
-            "reason": "New release with significant impact, published 4 hours ago, from a Tier C source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Zluda 6 release (run unmodified CUDA applications on non-Nvidia GPUs)",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 10,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "9f300983f147dbce64d079cc4188d7fc1716416eb1e042a2a99a3e6e35d25f68": {
       "created_at": "2026-06-30T16:22:34Z",
       "payload": {
@@ -1288,6 +1294,65 @@
           "threads": "Google's new smart speaker with Gemini AI gets a mixed review. The hardware is solid, but the AI integration needs work. https://www.theverge.com/tech/959503/google-home-speaker-review-gemini-for-home",
           "twitter": "Google's new smart speaker shows Gemini AI isn't yet ready for prime time. A mixed review for AI-powered hardware.\nhttps://www.theverge.com/tech/959503/google-home-speaker-review-gemini-for-home"
         }
+      }
+    },
+    "d47d582d33665fb50d7c517426df059e177b35999515d918a541b914fc8d2bd9": {
+      "created_at": "2026-07-01T16:03:57Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 8,
+            "novelty_score": 2.5,
+            "reason": "Industry move with moderate impact and freshness, but not groundbreaking.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Instacart Scales Personalized Marketing via Configuration-Driven Multi-Tenant Platform",
+            "total_score": 5.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 9,
+            "novelty_score": 2.5,
+            "reason": "Research presentation on GraphRAG architecture with significant impact for AI workflows.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Presentation: Graph RAG: Building Smarter Retrieval Workflows with Knowledge Graphs",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.5,
+            "index": 10,
+            "novelty_score": 0.5,
+            "reason": "Event announcement with limited novelty and impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Builders Stage agenda revealed: Practical strategies for scaling startups at TechCrunch Disrupt 2026",
+            "total_score": 3.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2,
+            "index": 11,
+            "novelty_score": 3,
+            "reason": "New tool launch with potential impact, but lower source tier.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Launch HN: Parsewise (YC P25) \u2013 Reason Across Documents with an API",
+            "total_score": 7
+          }
+        ],
+        "best_index": 9,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "d5ffed0cbef530d04d0772f2e4fb03c049f8fc62165dc15ff7f8acbededf1074": {
@@ -1922,13 +1987,13 @@
         "twitter": "Apple's Vision Pro headset lead Paul Meade is leaving to join OpenAI's hardware team @OpenAI #AI"
       }
     },
-    "e126ea64fd46e434deb58e39346da4abb36d1eaf67e50d326e4598e2f41c909d": {
-      "created_at": "2026-06-24T15:21:58Z",
+    "e5efe9fece77b783a618e5941263a22de61d8d0d69e9cd59342e57554996e58a": {
+      "created_at": "2026-07-01T16:03:57Z",
       "payload": {
-        "facebook": "The development of custom AI chips continues to advance with the introduction of Jalape\u00f1o, a chip built by OpenAI and Broadcom for large language model inference. This innovation is expected to improve performance and efficiency across AI systems. #AI #LLM #hardware",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Custom AI Chips Advance\nOpenAI and Broadcom have developed Jalape\u00f1o, a chip optimized for large language model inference, aiming to boost performance and efficiency in AI systems.\n\ud83c\udfdb\ufe0f Source: OpenAI (S)\n\u23f0 Published: 9 hours ago\n\u2b50 Score: 9/10\n#AI #LLM #hardware\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "OpenAI and Broadcom have introduced Jalape\u00f1o, a custom AI chip designed for large language model inference, which promises to enhance performance and scale, @OpenAI #AI",
-        "twitter": "Custom AI chips are on the rise as OpenAI and Broadcom unveil Jalape\u00f1o, a chip optimized for LLM inference, @OpenAI #AIhardware"
+        "facebook": "The US government has lifted restrictions on Anthropic's Fable 5 and Mythos 5 AI models, but only after the company implemented additional security protocols. This move highlights the ongoing tension between AI development and national security concerns. #AI #ArtificialIntelligence #SecurityMeasures",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Anthropic Introduces New Security Measures\nThe US government has removed restrictions on Anthropic's AI models after the company added new security protocols, a move that highlights the complex relationship between AI and national security.\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #ArtificialIntelligence #SecurityMeasures\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Anthropic's AI models are back in the clear with the US government after introducing new security measures, a significant development for the industry @AnthropicAI #AIsecurity",
+        "twitter": "Anthropic's AI models get government clearance after adding new security measures @AnthropicAI #AIsecurity"
       }
     },
     "eba3bb40f2c632428fae9a5351e1d3be4e4d04fb953649e8bc4781f424f5ddfc": {
@@ -2698,6 +2763,12 @@
       "status": "scoring_attempted",
       "title": "Ask an AI expert: What exactly is the full stack?"
     },
+    "https://blog.google/products-and-platforms/products/education/nyc-ai-summit": {
+      "canonical_url": "https://blog.google/products-and-platforms/products/education/nyc-ai-summit",
+      "created_at": "2026-07-01T16:03:57Z",
+      "status": "scoring_attempted",
+      "title": "New York City educators and industry leaders gathered at Google\u2019s offices to shape the future of AI in classrooms."
+    },
     "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026": {
       "canonical_url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026",
       "created_at": "2026-06-25T16:21:59Z",
@@ -2739,6 +2810,12 @@
       "created_at": "2026-06-27T20:02:18Z",
       "status": "scoring_attempted",
       "title": "Running a software jam in a world of slop"
+    },
+    "https://frondruntime.dev": {
+      "canonical_url": "https://frondruntime.dev",
+      "created_at": "2026-07-01T16:03:57Z",
+      "status": "scoring_attempted",
+      "title": "Show HN: Frond \u2013 a frontend runtime for your app's dependency graph"
     },
     "https://github.com/JustVugg/nanoeuler": {
       "canonical_url": "https://github.com/JustVugg/nanoeuler",
@@ -2932,6 +3009,12 @@
       "status": "scoring_attempted",
       "title": "Incident CVE-2026-LGTM"
     },
+    "https://news.microsoft.com/signal/articles/ai-theodore-roosevelt-presidential-library": {
+      "canonical_url": "https://news.microsoft.com/signal/articles/ai-theodore-roosevelt-presidential-library",
+      "created_at": "2026-07-01T16:03:57Z",
+      "status": "scoring_attempted",
+      "title": "New AI-powered library lets people meet Theodore Roosevelt in a whole new way"
+    },
     "https://news.mit.edu/2026/3-questions-beyond-data-driven-aesthetics-alexandros-haridis-0629": {
       "canonical_url": "https://news.mit.edu/2026/3-questions-beyond-data-driven-aesthetics-alexandros-haridis-0629",
       "created_at": "2026-06-29T19:03:34Z",
@@ -2986,6 +3069,12 @@
       "status": "scoring_attempted",
       "title": "Ask HN: MacBook vs. Dedicated GPU for LLM"
     },
+    "https://news.ycombinator.com/item?id=48746752": {
+      "canonical_url": "https://news.ycombinator.com/item?id=48746752",
+      "created_at": "2026-07-01T16:03:57Z",
+      "status": "scoring_attempted",
+      "title": "Launch HN: Parsewise (YC P25) \u2013 Reason Across Documents with an API"
+    },
     "https://newsletter.semianalysis.com/p/us-grid-constraints-towards-40gw": {
       "canonical_url": "https://newsletter.semianalysis.com/p/us-grid-constraints-towards-40gw",
       "created_at": "2026-06-29T10:00:33Z",
@@ -3009,12 +3098,6 @@
       "created_at": "2026-06-29T11:56:09Z",
       "status": "scoring_attempted",
       "title": "Mapping Europe\u2019s AI Workforce Opportunity"
-    },
-    "https://openai.com/index/openai-broadcom-jalapeno-inference-chip": {
-      "canonical_url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
-      "created_at": "2026-06-24T15:21:58Z",
-      "status": "scoring_attempted",
-      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip"
     },
     "https://openai.com/index/previewing-gpt-5-6-sol": {
       "canonical_url": "https://openai.com/index/previewing-gpt-5-6-sol",
@@ -3052,17 +3135,17 @@
       "status": "scoring_attempted",
       "title": "Words Are a Byproduct of Consciousness. For LLMs, It's Backwards"
     },
+    "https://reclaimthenet.org/sony-deletes-551-studiocanal-movies-playstation-owners-paid-for": {
+      "canonical_url": "https://reclaimthenet.org/sony-deletes-551-studiocanal-movies-playstation-owners-paid-for",
+      "created_at": "2026-07-01T16:03:57Z",
+      "status": "scoring_attempted",
+      "title": "Sony Deletes 551 Movies PlayStation Owners Paid For"
+    },
     "https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data": {
       "canonical_url": "https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data",
       "created_at": "2026-06-30T23:04:26Z",
       "status": "scoring_attempted",
       "title": "TabFM: A zero-shot foundation model for tabular data"
-    },
-    "https://rubyllm.com": {
-      "canonical_url": "https://rubyllm.com",
-      "created_at": "2026-06-24T15:21:58Z",
-      "status": "scoring_attempted",
-      "title": "RubyLLM: A single, beautiful Ruby framework for all major AI providers"
     },
     "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks": {
       "canonical_url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks",
@@ -3075,12 +3158,6 @@
       "created_at": "2026-06-27T01:24:34Z",
       "status": "scoring_attempted",
       "title": "AI in mathematics is forcing big questions"
-    },
-    "https://techcrunch.com/2026/06/24/3-days-left-to-save-up-to-190-on-techcrunch-founder-summit-2026": {
-      "canonical_url": "https://techcrunch.com/2026/06/24/3-days-left-to-save-up-to-190-on-techcrunch-founder-summit-2026",
-      "created_at": "2026-06-24T15:21:58Z",
-      "status": "scoring_attempted",
-      "title": "3 days left to save up to $190 on your TechCrunch Founder Summit 2026 pass"
     },
     "https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal": {
       "canonical_url": "https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal",
@@ -3135,12 +3212,6 @@
       "created_at": "2026-06-25T01:28:38Z",
       "status": "scoring_attempted",
       "title": "Former Infosys chief has a new startup that wants to challenge the IT services world"
-    },
-    "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom": {
-      "canonical_url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom",
-      "created_at": "2026-06-24T15:21:58Z",
-      "status": "scoring_attempted",
-      "title": "OpenAI unveils its first custom chip, built by Broadcom"
     },
     "https://techcrunch.com/2026/06/24/the-memory-chip-crunch-is-paying-off-for-this-u-s-company": {
       "canonical_url": "https://techcrunch.com/2026/06/24/the-memory-chip-crunch-is-paying-off-for-this-u-s-company",
@@ -3394,6 +3465,30 @@
       "status": "scoring_attempted",
       "title": "X now offers an MCP server to make its platform easier for AI tools to use"
     },
+    "https://techcrunch.com/2026/07/01/builders-stage-agenda-revealed-practical-strategies-for-scaling-startups-at-techcrunch-disrupt-2026": {
+      "canonical_url": "https://techcrunch.com/2026/07/01/builders-stage-agenda-revealed-practical-strategies-for-scaling-startups-at-techcrunch-disrupt-2026",
+      "created_at": "2026-07-01T16:03:57Z",
+      "status": "scoring_attempted",
+      "title": "Builders Stage agenda revealed: Practical strategies for scaling startups at TechCrunch Disrupt 2026"
+    },
+    "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac": {
+      "canonical_url": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac",
+      "created_at": "2026-07-01T16:03:57Z",
+      "status": "scoring_attempted",
+      "title": "Gemini Spark, Google\u2019s agentic assistant, is now available on Mac"
+    },
+    "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash": {
+      "canonical_url": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash",
+      "created_at": "2026-07-01T16:03:57Z",
+      "status": "scoring_attempted",
+      "title": "Meta, like SpaceX, looks to turn excess AI compute into cash"
+    },
+    "https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off": {
+      "canonical_url": "https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off",
+      "created_at": "2026-07-01T16:03:57Z",
+      "status": "scoring_attempted",
+      "title": "Venice AI becomes a unicorn with $65M Series A as its privacy-first AI platform takes off"
+    },
     "https://techcrunch.com/podcast/openais-jalapeno-chip-is-big-techs-spiciest-move-away-from-nvidia": {
       "canonical_url": "https://techcrunch.com/podcast/openais-jalapeno-chip-is-big-techs-spiciest-move-away-from-nvidia",
       "created_at": "2026-06-26T18:08:12Z",
@@ -3634,12 +3729,6 @@
       "status": "scoring_attempted",
       "title": "AI Tools Accelerates Coding, but Not Overall Software Delivery, GitLab Research Finds"
     },
-    "https://www.infoq.com/news/2026/06/ai-prd-code-review-governance": {
-      "canonical_url": "https://www.infoq.com/news/2026/06/ai-prd-code-review-governance",
-      "created_at": "2026-06-24T15:21:58Z",
-      "status": "scoring_attempted",
-      "title": "AI Is Moving up the Software Lifecycle: From Code Review to PRD Governance"
-    },
     "https://www.infoq.com/news/2026/06/anthropic-html-markdown-agent": {
       "canonical_url": "https://www.infoq.com/news/2026/06/anthropic-html-markdown-agent",
       "created_at": "2026-06-25T01:28:38Z",
@@ -3736,6 +3825,12 @@
       "status": "scoring_attempted",
       "title": "HeroUI v3 Lands as a Ground-Up Rewrite for React and React Native, Built on Tailwind CSS v4"
     },
+    "https://www.infoq.com/news/2026/07/instacart-multi-tenant-marketing": {
+      "canonical_url": "https://www.infoq.com/news/2026/07/instacart-multi-tenant-marketing",
+      "created_at": "2026-07-01T16:03:57Z",
+      "status": "scoring_attempted",
+      "title": "Instacart Scales Personalized Marketing via Configuration-Driven Multi-Tenant Platform"
+    },
     "https://www.infoq.com/podcasts/natural-evolution-cloud-native": {
       "canonical_url": "https://www.infoq.com/podcasts/natural-evolution-cloud-native",
       "created_at": "2026-06-29T11:56:09Z",
@@ -3759,6 +3854,12 @@
       "created_at": "2026-06-29T15:42:29Z",
       "status": "scoring_attempted",
       "title": "Presentation: Million PDFs: Building a Modern Document Infrastructure with Rust and Typst"
+    },
+    "https://www.infoq.com/presentations/graph-rag-llm": {
+      "canonical_url": "https://www.infoq.com/presentations/graph-rag-llm",
+      "created_at": "2026-07-01T16:03:57Z",
+      "status": "scoring_attempted",
+      "title": "Presentation: Graph RAG: Building Smarter Retrieval Workflows with Knowledge Graphs"
     },
     "https://www.infoq.com/presentations/rust-polyglot-sdk": {
       "canonical_url": "https://www.infoq.com/presentations/rust-polyglot-sdk",
@@ -3904,6 +4005,12 @@
       "status": "scoring_attempted",
       "title": "What Ozempic does to the gut-brain axis"
     },
+    "https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701": {
+      "canonical_url": "https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701",
+      "created_at": "2026-07-01T16:03:57Z",
+      "status": "scoring_attempted",
+      "title": "For first time, a cell built from scratch grows and divides"
+    },
     "https://www.reuters.com/world/asia-pacific/apple-raises-prices-macbooks-ipads-memory-costs-skyrocket-2026-06-25": {
       "canonical_url": "https://www.reuters.com/world/asia-pacific/apple-raises-prices-macbooks-ipads-memory-costs-skyrocket-2026-06-25",
       "created_at": "2026-06-25T18:29:51Z",
@@ -3933,12 +4040,6 @@
       "created_at": "2026-06-24T16:19:05Z",
       "status": "scoring_attempted",
       "title": "Boffin claims Microsoft's \"quantum leap\" is invalid due to \"basic Python errors\""
-    },
-    "https://www.theverge.com/ai-artificial-intelligence/955939/openai-reveals-its-first-ai-processor-jalapeno": {
-      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/955939/openai-reveals-its-first-ai-processor-jalapeno",
-      "created_at": "2026-06-24T15:21:58Z",
-      "status": "scoring_attempted",
-      "title": "OpenAI reveals its first AI processor: Jalape\u00f1o"
     },
     "https://www.theverge.com/ai-artificial-intelligence/956263/alex-bores-new-york-12th-district-congressional-primary-results": {
       "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/956263/alex-bores-new-york-12th-district-congressional-primary-results",
@@ -4065,12 +4166,6 @@
       "created_at": "2026-06-24T16:19:05Z",
       "status": "scoring_attempted",
       "title": "The SwitchBot battery-powered fan we love is $90 for Prime Day"
-    },
-    "https://www.theverge.com/gadgets/954880/amazon-prime-day-2026-popular-products-verge-readers": {
-      "canonical_url": "https://www.theverge.com/gadgets/954880/amazon-prime-day-2026-popular-products-verge-readers",
-      "created_at": "2026-06-24T15:21:58Z",
-      "status": "scoring_attempted",
-      "title": "21 Prime Day deals Verge readers are buying right now"
     },
     "https://www.theverge.com/gadgets/955351/birdbuddy-pro-solar-prime-day-deal-sale": {
       "canonical_url": "https://www.theverge.com/gadgets/955351/birdbuddy-pro-solar-prime-day-deal-sale",
@@ -4215,6 +4310,12 @@
       "created_at": "2026-07-01T13:22:53Z",
       "status": "scoring_attempted",
       "title": "Sony is killing all physical PlayStation game discs"
+    },
+    "https://www.theverge.com/games/960212/sony-playstation-killing-discs-digital-preservation": {
+      "canonical_url": "https://www.theverge.com/games/960212/sony-playstation-killing-discs-digital-preservation",
+      "created_at": "2026-07-01T16:03:57Z",
+      "status": "scoring_attempted",
+      "title": "Sony is killing discs \u2014 and showing us why it\u2019s a terrible idea"
     },
     "https://www.theverge.com/news/956095/worlds-first-solar-ebike-do-not-buy": {
       "canonical_url": "https://www.theverge.com/news/956095/worlds-first-solar-ebike-do-not-buy",
@@ -4468,12 +4569,6 @@
       "status": "scoring_attempted",
       "title": "Cleared by the US, derailed by the UK: Getty\u2019s Shutterstock merger falls apart"
     },
-    "https://www.theverge.com/transportation/955822/zoox-robotaxi-refresh-updates-seats-audio-color": {
-      "canonical_url": "https://www.theverge.com/transportation/955822/zoox-robotaxi-refresh-updates-seats-audio-color",
-      "created_at": "2026-06-24T15:21:58Z",
-      "status": "scoring_attempted",
-      "title": "Zoox&#8217;s purpose-built robotaxi is getting a refresh"
-    },
     "https://www.theverge.com/transportation/956316/ford-quality-jd-power-ranking-ai-automated-mistakes": {
       "canonical_url": "https://www.theverge.com/transportation/956316/ford-quality-jd-power-ranking-ai-automated-mistakes",
       "created_at": "2026-06-25T12:33:53Z",
@@ -4509,6 +4604,12 @@
       "created_at": "2026-06-24T20:13:00Z",
       "status": "scoring_attempted",
       "title": "I Met With China\u2019s Top AI Experts. They\u2019re Freaking Out, Too"
+    },
+    "https://www.wired.com/story/anthropic-added-a-new-security-measure-to-get-back-into-the-trump-administrations-good-graces": {
+      "canonical_url": "https://www.wired.com/story/anthropic-added-a-new-security-measure-to-get-back-into-the-trump-administrations-good-graces",
+      "created_at": "2026-07-01T16:03:57Z",
+      "status": "scoring_attempted",
+      "title": "Anthropic Added a New Security Measure to Get Back Into the Trump Administration\u2019s Good Graces"
     },
     "https://www.wired.com/story/anthropic-restores-access-to-mythos": {
       "canonical_url": "https://www.wired.com/story/anthropic-restores-access-to-mythos",
@@ -4558,23 +4659,11 @@
       "status": "scoring_attempted",
       "title": "OpenAI Has New AI Models. Here\u2019s Why You Can\u2019t Use Them"
     },
-    "https://www.wired.com/story/qualcomm-buys-buzzy-chip-startup-modular-for-nearly-dollar4-billion": {
-      "canonical_url": "https://www.wired.com/story/qualcomm-buys-buzzy-chip-startup-modular-for-nearly-dollar4-billion",
-      "created_at": "2026-06-24T15:21:58Z",
-      "status": "scoring_attempted",
-      "title": "Qualcomm Buys Buzzy Chip Startup Modular for Nearly $4 Billion"
-    },
     "https://www.wired.com/story/the-big-interview-podcast-senator-bernie-sanders": {
       "canonical_url": "https://www.wired.com/story/the-big-interview-podcast-senator-bernie-sanders",
       "created_at": "2026-06-30T12:30:40Z",
       "status": "scoring_attempted",
       "title": "Bernie Sanders Saw This Coming"
-    },
-    "https://www.wired.com/story/the-trump-white-house-is-over-anthropics-dario-amodei": {
-      "canonical_url": "https://www.wired.com/story/the-trump-white-house-is-over-anthropics-dario-amodei",
-      "created_at": "2026-06-24T15:21:58Z",
-      "status": "scoring_attempted",
-      "title": "The Trump White House Is Over Anthropic's Dario Amodei"
     },
     "https://www.wired.com/story/this-robot-is-going-to-replace-your-interns-flexion": {
       "canonical_url": "https://www.wired.com/story/this-robot-is-going-to-replace-your-interns-flexion",
@@ -4611,6 +4700,12 @@
       "created_at": "2026-06-26T18:08:12Z",
       "status": "scoring_attempted",
       "title": "Liva AI (YC S25) Is Hiring"
+    },
+    "https://www.ycombinator.com/companies/manufact/jobs/4cyWd6S-developer-advocate-partnerships-devrel": {
+      "canonical_url": "https://www.ycombinator.com/companies/manufact/jobs/4cyWd6S-developer-advocate-partnerships-devrel",
+      "created_at": "2026-07-01T16:03:57Z",
+      "status": "scoring_attempted",
+      "title": "Manufact (YC S25) Is Hiring a Developer Advocate in SF"
     }
   },
   "version": 1
