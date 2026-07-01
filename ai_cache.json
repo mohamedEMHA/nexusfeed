@@ -285,6 +285,29 @@
         }
       }
     },
+    "22bd78fb4570ae2be7bbb618528e83e9685a33ed88407b9a71d01a5b760ae897": {
+      "created_at": "2026-07-01T10:17:12Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 6,
+            "novelty_score": 2.5,
+            "reason": "Godot's policy change on AI-authored code is notable but not groundbreaking.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Godot will no longer accept AI-authored code contributions",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 6,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "287588f04f42484ba2f384f95d795bad06cbc4c1e3b5cddd117338a296142c7c": {
       "created_at": "2026-06-30T20:23:51Z",
       "payload": {
@@ -573,6 +596,46 @@
         }
       }
     },
+    "5177f013eab62f7d2dacb9fe6593a40fcc7c4013be2771c82f3b735b96d502e2": {
+      "created_at": "2026-07-01T10:17:12Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 3.0,
+            "reason": "Anthropic's new model release and restored access to frontier models is highly relevant to AI researchers and developers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.0,
+            "title": "Anthropic deploys Claude Sonnet 5, Fable and Mythos restored",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 3,
+            "novelty_score": 2.0,
+            "reason": "A significant industry move, but less directly relevant to software engineers and AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Cleared by the US, derailed by the UK: Getty\u2019s Shutterstock merger falls apart",
+            "total_score": 7.0
+          }
+        ],
+        "best_index": 2,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Anthropic has released Claude Sonnet 5 and brought back its Fable and Mythos models after an 18-day pause due to US export controls. This is a significant development for AI researchers and developers. Link: https://www.artificialintelligence-news.com/news/anthropic-deploys-claude-sonnet-5-fable-and-mythos-restored/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Anthropic deploys Claude Sonnet 5, Fable and Mythos restored*\n\nAnthropic has launched Claude Sonnet 5 and restored access to its Fable and Mythos frontier models following a federal export control review.\n\n\ud83c\udfdb\ufe0f Source: AI News (B)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.artificialintelligence-news.com/news/anthropic-deploys-claude-sonnet-5-fable-and-mythos-restored/",
+          "threads": "Anthropic's Claude Sonnet 5 is out, along with restored access to Fable and Mythos. The models were paused due to US export controls. https://www.artificialintelligence-news.com/news/anthropic-deploys-claude-sonnet-5-fable-and-mythos-restored/",
+          "twitter": "Anthropic just launched Claude Sonnet 5 and restored Fable and Mythos after a US export control review. https://www.artificialintelligence-news.com/news/anthropic-deploys-claude-sonnet-5-fable-and-mythos-restored/"
+        }
+      }
+    },
     "540c37de5144854aa277712acf763e6bcdf9773f6261c05526d44341347c6518": {
       "created_at": "2026-07-01T06:08:53Z",
       "payload": {
@@ -826,6 +889,46 @@
         "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "612609c6eeccb588e9b74b869ee0b02c5bef5b16bee674d109cd977c7e7ce355": {
+      "created_at": "2026-07-01T10:17:12Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 4,
+            "novelty_score": 2.5,
+            "reason": "New model release with open weights, but impact is somewhat niche.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "NVIDIA Releases Nemotron-Labs-TwoTower: an Open-Weight Diffusion Language Model Built on a Frozen Autoregressive Nemotron-3-Nano-30B-A3B Backbone",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 5,
+            "novelty_score": 2.5,
+            "reason": "New foundation model for tabular data with zero-shot capabilities, significant for data scientists.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Google AI Introduces TabFM: A Hybrid-Attention Tabular Foundation Model for Zero-Shot Classification and Regression",
+            "total_score": 8.0
+          }
+        ],
+        "best_index": 5,
+        "best_score": 8.0,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Google AI has introduced TabFM, a foundation model for tabular data that performs zero-shot classification and regression without per-dataset training. This could be a game-changer for data scientists working with structured data. Link: https://www.marktechpost.com/2026/07/01/google-ai-introduces-tabfm-a-hybrid-attention-tabular-foundation-model-for-zero-shot-classification-and-regression/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Google AI Introduces TabFM: A Hybrid-Attention Tabular Foundation Model for Zero-Shot Classification and Regression*\n\nGoogle AI has released TabFM, a foundation model for tabular data that performs zero-shot classification and regression through in-context learning. It requires no per-dataset training, hyperparameter tuning, or feature engineering.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: 2 hours ago\n\u2b50 Score: 8.0/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/07/01/google-ai-introduces-tabfm-a-hybrid-attention-tabular-foundation-model-for-zero-shot-classification-and-regression/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Google AI's TabFM model does zero-shot classification and regression on tabular data with a single forward pass. No training or feature engineering required.\nhttps://www.marktechpost.com/2026/07/01/google-ai-introduces-tabfm-a-hybrid-attention-tabular-foundation-model-for-zero-shot-classification-and-regression/",
+          "twitter": "Google AI's new TabFM model handles tabular data with zero-shot classification and regression. No training or feature engineering needed.\nhttps://www.marktechpost.com/2026/07/01/google-ai-introduces-tabfm-a-hybrid-attention-tabular-foundation-model-for-zero-shot-classification-and-regression/"
+        }
       }
     },
     "6cea4c9f655b51ecd004f89aa6719a1e8377ce8353e9d64a51a84d13e64a5b8d": {
@@ -1097,29 +1200,6 @@
           "threads": "Elon Musk sued OpenAI and Sam Altman, and the lawyer who beat him twice is making waves. The case is heating up. https://www.theverge.com/column/959270/elon-musk-open-ai-bill-savitt-twitter",
           "twitter": "Elon Musk sued OpenAI and Sam Altman, and the lawyer who beat him twice is making waves. https://www.theverge.com/column/959270/elon-musk-open-ai-bill-savitt-twitter"
         }
-      }
-    },
-    "a5a8cdd0ea79214a620cb38dab1aeefc54689dae065e682437d689a9c0a3e25b": {
-      "created_at": "2026-06-30T08:18:38Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Industry move with moderate impact and freshness, but low-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Popping the GPU Bubble",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "a7e3b88a5d2b5d62a477ad26d8e671efed779a1b21cfa4087f165e8ce7a618b7": {
@@ -1403,34 +1483,6 @@
         "social_posts": {}
       }
     },
-    "e8b3fa7ab243da3ae0b4f9fb051cca24e364599e393cdf9cf1a4f3cfa71a8583": {
-      "created_at": "2026-06-30T08:18:38Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Google AI outlines a strategic vision for AI adoption in the UK, impacting productivity and workforce transformation.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 2,
-            "title": "Unlocking Britain\u2019s next era of productivity: Building a nation of AI trailblazers",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Google AI has published a detailed vision for how AI can drive productivity in the UK, focusing on workforce transformation. The report highlights key strategies for adopting AI across various sectors, aiming to position the UK as a leader in AI-driven economic growth. Link: https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Unlocking Britain\u2019s next era of productivity: Building a nation of AI trailblazers*\n\nGoogle AI outlines a strategic vision for AI adoption in the UK, aiming to transform productivity and workforce dynamics.\n\n\ud83c\udfdb\ufe0f Source: Google AI (S)\n\u23f0 Published: 2 hours ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Google AI's new report on transforming UK productivity through AI adoption. It's a strategic vision for workforce transformation and economic growth.\nhttps://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers/",
-          "twitter": "Google AI outlines a strategic vision for AI adoption in the UK, aiming to transform productivity and workforce dynamics.\nhttps://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers/"
-        }
-      }
-    },
     "ee2097a732410954bc776a310ae955b74414c5d76340560a4d65daa2a75fa593": {
       "created_at": "2026-07-01T06:08:53Z",
       "payload": {
@@ -1512,6 +1564,46 @@
         "best_score": 7.0,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "f48ec05df73cd4c4cbdb651417e26b495e8983eb6c18b0db0debeeaf52ac5241": {
+      "created_at": "2026-07-01T10:17:12Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Claude Opus 4.7's role in a significant security breach affecting major US music festivals.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Claude Helped a Hacker Find a Way to Issue Tickets to Almost Every US Music Festival",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2,
+            "reason": "Bank of England's review of AI rules for agentic AI in finance, highlighting regulatory challenges.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Bank of England reviews AI rules for agentic AI in finance",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "A researcher used Anthropic's Claude Opus 4.7 to break into Front Gate, the ticketing system for festivals like Lollapalooza and Bonnaroo, allowing free ticket issuance. This highlights the potential risks of AI in security systems. Link: https://www.wired.com/story/claude-helped-a-hacker-find-a-way-to-issue-tickets-to-almost-every-us-music-festival/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Claude Helped a Hacker Find a Way to Issue Tickets to Almost Every US Music Festival*\n\nA researcher used Anthropic's Claude Opus 4.7 to break into Front Gate, the ticketing system for festivals like Lollapalooza and Bonnaroo, allowing free ticket issuance.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.wired.com/story/claude-helped-a-hacker-find-a-way-to-issue-tickets-to-almost-every-us-music-festival/",
+          "threads": "Claude Opus 4.7 enabled a hacker to issue free tickets to major US festivals. This is a wake-up call for AI security. https://www.wired.com/story/claude-helped-a-hacker-find-a-way-to-issue-tickets-to-almost-every-us-music-festival/",
+          "twitter": "Anthropic's Claude Opus 4.7 helped a hacker issue free tickets to major US music festivals. https://www.wired.com/story/claude-helped-a-hacker-find-a-way-to-issue-tickets-to-almost-every-us-music-festival/"
+        }
       }
     },
     "f5f15749e530cd58edfc312456a26fc2b0ad84d1226323cf04655d4dbb55d22f": {
@@ -1785,15 +1877,6 @@
         "twitter": "Hybrid models are showing promise in token prediction, with certain tokens being better predicted than others, notes @HuggingFace, a key area of research #AI"
       }
     },
-    "7cab5d8a1111d4728cc3864f498bcaf81644660c55964d12c34c91a623b92f5f": {
-      "created_at": "2026-06-24T08:03:53Z",
-      "payload": {
-        "facebook": "Researchers at UC San Diego have developed DFlash, a speculative decoding method that replaces autoregressive drafting with a lightweight block diffusion model, resulting in significant throughput improvements on NVIDIA Blackwell. This breakthrough has the potential to accelerate various AI applications. #AI #MachineLearning #DFlash",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 DFlash Speculative Decoding Boosts Throughput\nDFlash replaces autoregressive drafting with a lightweight block diffusion model, drafting whole token blocks in parallel and achieving up to 15x higher throughput on NVIDIA Blackwell.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #MachineLearning #DFlash\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "DFlash introduces a novel speculative decoding method, achieving up to 15x higher throughput on NVIDIA Blackwell by drafting whole token blocks in parallel @NVIDIA #AI",
-        "twitter": "DFlash achieves up to 15x higher throughput on NVIDIA Blackwell by drafting whole token blocks in parallel @NVIDIA #AI"
-      }
-    },
     "7e4ca84fc458575ddfb5d8c32e6aae98149a66b1f792d91ccbeeeab653556686": {
       "created_at": "2026-07-01T01:34:16Z",
       "payload": {
@@ -1846,6 +1929,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Google Expands Gemini AI Image Generation\nGoogle's Gemini AI now generates personalized images for free US users based on their interests.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #ImageGeneration #Google\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Google's Gemini AI can now create personalized images for free US users based on their interests, leveraging data from connected Google apps @Google #AI",
         "twitter": "Google's Gemini AI now generates personalized images for free US users based on their interests @Google #AI"
+      }
+    },
+    "a1ac4939ad89e3554e0f140ea32c8158e4835c7fea6dc9cb4569bf1c3c315e0e": {
+      "created_at": "2026-07-01T10:17:12Z",
+      "payload": {
+        "facebook": "A security breach has been discovered in the website of Front Gate, which handles ticket sales for major US music festivals like Lollapalooza and Bonnaroo. The breach was made possible by Anthropic's Claude Opus 4.7, raising concerns about the potential misuse of AI technology. #musicfestival #securitybreach #AI",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Claude Opus 4.7's security breach\nA researcher used Anthropic's Claude Opus 4.7 to break into Front Gate's website, allowing them to issue tickets to almost every US music festival.\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#musicfestival #securitybreach #AI\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "A researcher used Anthropic's Claude Opus 4.7 to break into Front Gate's website, allowing them to issue tickets to almost every US music festival @AnthropicAI #AI",
+        "twitter": "Anthropic's Claude Opus 4.7 was used to breach Front Gate's website, allowing a hacker to issue tickets to major US music festivals @AnthropicAI #musicfestival"
       }
     },
     "afa08232c9084cc0c2e5f1b08ec0062b89a124ab96f8fbc883dd04bb0439dbf2": {
@@ -3506,11 +3598,23 @@
       "status": "scoring_attempted",
       "title": "Advances in Natural Language Processing Are Changing Professional Networking"
     },
+    "https://www.artificialintelligence-news.com/news/anthropic-deploys-claude-sonnet-5-fable-and-mythos-restored": {
+      "canonical_url": "https://www.artificialintelligence-news.com/news/anthropic-deploys-claude-sonnet-5-fable-and-mythos-restored",
+      "created_at": "2026-07-01T10:17:12Z",
+      "status": "scoring_attempted",
+      "title": "Anthropic deploys Claude Sonnet 5, Fable and Mythos restored"
+    },
     "https://www.artificialintelligence-news.com/news/anthropic-slack-workplace-ai-agents": {
       "canonical_url": "https://www.artificialintelligence-news.com/news/anthropic-slack-workplace-ai-agents",
       "created_at": "2026-06-24T10:18:59Z",
       "status": "scoring_attempted",
       "title": "Anthropic drops \u2018workplace AI agents\u2019 directly inside Slack"
+    },
+    "https://www.artificialintelligence-news.com/news/bank-of-england-agentic-ai-finance-rules": {
+      "canonical_url": "https://www.artificialintelligence-news.com/news/bank-of-england-agentic-ai-finance-rules",
+      "created_at": "2026-07-01T10:17:12Z",
+      "status": "scoring_attempted",
+      "title": "Bank of England reviews AI rules for agentic AI in finance"
     },
     "https://www.artificialintelligence-news.com/news/best-automated-security-testing-tools-for-modern-devsecops": {
       "canonical_url": "https://www.artificialintelligence-news.com/news/best-automated-security-testing-tools-for-modern-devsecops",
@@ -3776,12 +3880,6 @@
       "status": "scoring_attempted",
       "title": "Baidu Releases Unlimited OCR, a 3B Model That Keeps the KV Cache Flat for Long-Document Parsing"
     },
-    "https://www.marktechpost.com/2026/06/24/dflash-speculative-decoding-drafts-whole-token-blocks-in-parallel-for-up-to-15x-higher-throughput-on-nvidia-blackwell": {
-      "canonical_url": "https://www.marktechpost.com/2026/06/24/dflash-speculative-decoding-drafts-whole-token-blocks-in-parallel-for-up-to-15x-higher-throughput-on-nvidia-blackwell",
-      "created_at": "2026-06-24T08:03:53Z",
-      "status": "scoring_attempted",
-      "title": "DFlash Speculative Decoding Drafts Whole Token Blocks in Parallel for Up to 15x Higher Throughput on NVIDIA Blackwell"
-    },
     "https://www.marktechpost.com/2026/06/24/gradium-launches-stt-translate-and-s2s-translate-real-time-speech-translation-models-beating-gpt-realtime-translate-on-accuracy-and-latency": {
       "canonical_url": "https://www.marktechpost.com/2026/06/24/gradium-launches-stt-translate-and-s2s-translate-real-time-speech-translation-models-beating-gpt-realtime-translate-on-accuracy-and-latency",
       "created_at": "2026-06-24T20:13:00Z",
@@ -3890,6 +3988,18 @@
       "status": "scoring_attempted",
       "title": "Meta AI Releases Brain2Qwerty v2: A Non-Invasive MEG Brain-to-Text Pipeline Decoding Typed Sentences at 61% Word Accuracy"
     },
+    "https://www.marktechpost.com/2026/07/01/google-ai-introduces-tabfm-a-hybrid-attention-tabular-foundation-model-for-zero-shot-classification-and-regression": {
+      "canonical_url": "https://www.marktechpost.com/2026/07/01/google-ai-introduces-tabfm-a-hybrid-attention-tabular-foundation-model-for-zero-shot-classification-and-regression",
+      "created_at": "2026-07-01T10:17:12Z",
+      "status": "scoring_attempted",
+      "title": "Google AI Introduces TabFM: A Hybrid-Attention Tabular Foundation Model for Zero-Shot Classification and Regression"
+    },
+    "https://www.marktechpost.com/2026/07/01/nvidia-releases-nemotron-labs-twotower": {
+      "canonical_url": "https://www.marktechpost.com/2026/07/01/nvidia-releases-nemotron-labs-twotower",
+      "created_at": "2026-07-01T10:17:12Z",
+      "status": "scoring_attempted",
+      "title": "NVIDIA Releases Nemotron-Labs-TwoTower: an Open-Weight Diffusion Language Model Built on a Frozen Autoregressive Nemotron-3-Nano-30B-A3B Backbone"
+    },
     "https://www.nytimes.com/2026/06/25/technology/openai-ipo-artificial-intelligence.html": {
       "canonical_url": "https://www.nytimes.com/2026/06/25/technology/openai-ipo-artificial-intelligence.html",
       "created_at": "2026-06-25T22:08:36Z",
@@ -3901,6 +4011,12 @@
       "created_at": "2026-06-28T16:56:10Z",
       "status": "scoring_attempted",
       "title": "Daisugi the Japanese Technique of Trees Out of Trees, Making Exact Straight Wood"
+    },
+    "https://www.pcgamer.com/gaming-industry/open-source-game-engine-godot-will-no-longer-accept-ai-authored-code-contributions-we-cant-trust-heavy-users-of-ai-to-understand-their-code-enough-to-fix-it": {
+      "canonical_url": "https://www.pcgamer.com/gaming-industry/open-source-game-engine-godot-will-no-longer-accept-ai-authored-code-contributions-we-cant-trust-heavy-users-of-ai-to-understand-their-code-enough-to-fix-it",
+      "created_at": "2026-07-01T10:17:12Z",
+      "status": "scoring_attempted",
+      "title": "Godot will no longer accept AI-authored code contributions"
     },
     "https://www.psychologytoday.com/au/blog/mood-by-microbe/202606/what-ozempic-does-to-the-gut-brain-axis": {
       "canonical_url": "https://www.psychologytoday.com/au/blog/mood-by-microbe/202606/what-ozempic-does-to-the-gut-brain-axis",
@@ -4460,6 +4576,12 @@
       "status": "scoring_attempted",
       "title": "Amazon fined $2.25 million for failing to help identity theft victims"
     },
+    "https://www.theverge.com/tech/960047/getty-shutterstock-merger-agreement-termination": {
+      "canonical_url": "https://www.theverge.com/tech/960047/getty-shutterstock-merger-agreement-termination",
+      "created_at": "2026-07-01T10:17:12Z",
+      "status": "scoring_attempted",
+      "title": "Cleared by the US, derailed by the UK: Getty\u2019s Shutterstock merger falls apart"
+    },
     "https://www.theverge.com/transportation/955822/zoox-robotaxi-refresh-updates-seats-audio-color": {
       "canonical_url": "https://www.theverge.com/transportation/955822/zoox-robotaxi-refresh-updates-seats-audio-color",
       "created_at": "2026-06-24T15:21:58Z",
@@ -4519,6 +4641,12 @@
       "created_at": "2026-06-25T10:13:43Z",
       "status": "scoring_attempted",
       "title": "British Police Built a Sprawling Crime-Prediction Machine. Some Results Couldn\u2019t Be Trusted"
+    },
+    "https://www.wired.com/story/claude-helped-a-hacker-find-a-way-to-issue-tickets-to-almost-every-us-music-festival": {
+      "canonical_url": "https://www.wired.com/story/claude-helped-a-hacker-find-a-way-to-issue-tickets-to-almost-every-us-music-festival",
+      "created_at": "2026-07-01T10:17:12Z",
+      "status": "scoring_attempted",
+      "title": "Claude Helped a Hacker Find a Way to Issue Tickets to Almost Every US Music Festival"
     },
     "https://www.wired.com/story/europe-is-fed-up-and-wants-its-own-ai": {
       "canonical_url": "https://www.wired.com/story/europe-is-fed-up-and-wants-its-own-ai",
