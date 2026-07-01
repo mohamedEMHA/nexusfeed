@@ -245,46 +245,6 @@
         "social_posts": {}
       }
     },
-    "19700dfa22c7c86f0acd01ec737434a234e46d2227456778cf804d7e9226effe": {
-      "created_at": "2026-06-30T10:29:55Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 1.5,
-            "reason": "Red flag triggered by 'best look' in title.",
-            "red_flag": true,
-            "red_flag_reason": "best look",
-            "source_score": 1.5,
-            "title": "This could be our best look yet at Samsung\u2019s new wide foldable",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 3,
-            "reason": "New AWS feature with significant impact on serverless computing.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "AWS Launches Lambda MicroVMs for Isolated Agent and User Code Execution",
-            "total_score": 8
-          }
-        ],
-        "best_index": 1,
-        "best_score": 8,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "AWS has introduced Lambda MicroVMs, a new serverless compute primitive that runs each user session or AI agent in its own Firecracker virtual machine. This provides hardware-level isolation, snapshot-based rapid launch, and state preservation for up to eight hours. Reddit community analysis found the minimum setup time to be 1.5 seconds. Link: https://www.infoq.com/news/2026/06/aws-lambda-microvms/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\ud83d\udd25 AWS Launches Lambda MicroVMs for Isolated Agent and User Code Execution\n\nAWS has introduced Lambda MicroVMs, a new serverless compute primitive that runs each user session or AI agent in its own Firecracker virtual machine with hardware-level isolation, snapshot-based rapid launch, and state preservation for up to eight hours.\n\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (B)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8/10\n\n\ud83d\udd17 https://www.infoq.com/news/2026/06/aws-lambda-microvms/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "AWS Lambda MicroVMs now run each user session in its own Firecracker VM with hardware-level isolation. Early analysis shows 1.5-second minimum setup times. https://www.infoq.com/news/2026/06/aws-lambda-microvms/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "twitter": "AWS just launched Lambda MicroVMs, giving each user session its own Firecracker VM with hardware-level isolation. https://www.infoq.com/news/2026/06/aws-lambda-microvms/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
-        }
-      }
-    },
     "22bd78fb4570ae2be7bbb618528e83e9685a33ed88407b9a71d01a5b760ae897": {
       "created_at": "2026-07-01T10:17:12Z",
       "payload": {
@@ -468,29 +428,6 @@
           "threads": "Google's NotebookLM can now generate TikTok-style AI video summaries of your research. A quick way to catch up on notes in 60 seconds. https://www.theverge.com/tech/959778/google-notebooklm-ai-clips",
           "twitter": "Google's NotebookLM now generates TikTok-style AI video summaries of your research. A new way to catch up on notes in 60 seconds.\nhttps://www.theverge.com/tech/959778/google-notebooklm-ai-clips"
         }
-      }
-    },
-    "35fe10787f677e25f12330e240e0043dc7544626f28a5d53fe65ca3164e1d6a8": {
-      "created_at": "2026-06-30T10:29:55Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "The article provides valuable insights into the tradeoffs of event-driven design in Java-based real-time systems, but it lacks the novelty and impact to justify a higher score.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Article: Scaling Java-Based Real-Time Systems: The Hidden Tradeoffs of Event-Driven Design",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 3,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "3f01038b44c9a6fc88f8f6400c1d7bf9df96bbe9a93d90de3e4987447abb0b58": {
@@ -738,29 +675,6 @@
         ],
         "best_index": 2,
         "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "580558749802461fab34c94d4f9836031197e24cbda1d3b48f58581c4633ad26": {
-      "created_at": "2026-06-30T10:29:55Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 4,
-            "novelty_score": 2.5,
-            "reason": "Meta AI's Brain2Qwerty v2 achieves 61% word accuracy in brain-to-text decoding, a significant advancement in non-invasive neural interfaces.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Meta AI Releases Brain2Qwerty v2: A Non-Invasive MEG Brain-to-Text Pipeline Decoding Typed Sentences at 61% Word Accuracy",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 4,
-        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1063,34 +977,6 @@
         "best_score": 7.0,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "9510cfa03ccbd19c5cc25a706266f6d15d724f0a011a1ce12de2e67877e9b4c6": {
-      "created_at": "2026-06-30T10:29:55Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "OKX's AI agent marketplace combines payments, identity, and reputation in a novel way.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Crypto exchange OKX wants AI agents to hire and pay each other",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 2,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "OKX is creating a marketplace for AI agents to hire and pay each other, combining payments, identity, and reputation. This could be a significant step in autonomous AI economies. Link: https://techcrunch.com/2026/06/30/crypto-exchange-okx-wants-ai-agents-to-hire-and-pay-each-other/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Crypto exchange OKX wants AI agents to hire and pay each other*\n\nOKX is bringing together payments, identity and reputation into a marketplace for AI agents.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/06/30/crypto-exchange-okx-wants-ai-agents-to-hire-and-pay-each-other/",
-          "threads": "OKX is building a marketplace where AI agents can hire and pay each other, integrating identity and reputation systems. This could be a significant step in autonomous AI economies. https://techcrunch.com/2026/06/30/crypto-exchange-okx-wants-ai-agents-to-hire-and-pay-each-other/",
-          "twitter": "OKX is building a marketplace where AI agents can hire and pay each other, integrating identity and reputation systems.\nhttps://techcrunch.com/2026/06/30/crypto-exchange-okx-wants-ai-agents-to-hire-and-pay-each-other/"
-        }
       }
     },
     "9845ecee2e37b6aa87a3a217c5cca3e17627e681c110de4f32103477322921cd": {
@@ -1740,15 +1626,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Linq Expands iMessage Capabilities\nLinq has introduced interactive iMessage apps, enabling payments, tickets, flights, and games within the iMessage thread.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#iMessage #Linq #TechNews\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Linq's new iMessage apps are changing the way we interact within threads, adding functionality for payments, tickets, and more @Linq, #iMessage",
         "twitter": "Linq integrates payments, tickets, and more into iMessage threads with new interactive apps @Linq, #iMessage"
-      }
-    },
-    "2f554dab1653f32a0dbf7a625f32cd2a9a6a2e972b5c79d18accb2200b1d6a6e": {
-      "created_at": "2026-06-24T10:18:59Z",
-      "payload": {
-        "facebook": "The latest development from Nous Research introduces a /learn command to the Hermes Agent Skills System, allowing for automated skill creation from various sources. This innovation has the potential to significantly simplify workflow capture and improve overall efficiency. #AI #Automation #NousResearch",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Automating Skill Creation\nNous Research has added a /learn command to the Hermes Agent Skills System, allowing for automated skill creation from various sources.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #Automation #NousResearch\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Nous Research has introduced a new /learn command for Hermes Agent, enabling automated skill creation from local directories, doc URLs, past conversations, or pasted notes @NousResearch #AI",
-        "twitter": "Nous Research automates skill creation with new /learn command for Hermes Agent, simplifying workflow capture @NousResearch #AI"
       }
     },
     "3132899a8f3c93a54a912c6ffdedb0003f60f818d39ec4660b30c00f43f8d6a7": {
@@ -3604,12 +3481,6 @@
       "status": "scoring_attempted",
       "title": "Anthropic deploys Claude Sonnet 5, Fable and Mythos restored"
     },
-    "https://www.artificialintelligence-news.com/news/anthropic-slack-workplace-ai-agents": {
-      "canonical_url": "https://www.artificialintelligence-news.com/news/anthropic-slack-workplace-ai-agents",
-      "created_at": "2026-06-24T10:18:59Z",
-      "status": "scoring_attempted",
-      "title": "Anthropic drops \u2018workplace AI agents\u2019 directly inside Slack"
-    },
     "https://www.artificialintelligence-news.com/news/bank-of-england-agentic-ai-finance-rules": {
       "canonical_url": "https://www.artificialintelligence-news.com/news/bank-of-england-agentic-ai-finance-rules",
       "created_at": "2026-07-01T10:17:12Z",
@@ -3633,12 +3504,6 @@
       "created_at": "2026-06-25T10:13:43Z",
       "status": "scoring_attempted",
       "title": "The math behind the OpenAI Jalape\u00f1o chip"
-    },
-    "https://www.artificialintelligence-news.com/news/samsung-chatgpt-enterprise-codex-employee-ai-use": {
-      "canonical_url": "https://www.artificialintelligence-news.com/news/samsung-chatgpt-enterprise-codex-employee-ai-use",
-      "created_at": "2026-06-24T10:18:59Z",
-      "status": "scoring_attempted",
-      "title": "Samsung opens ChatGPT Enterprise and Codex access after AI restrictions"
     },
     "https://www.artificialintelligence-news.com/news/sap-aligns-commerce-data-for-ai-personalisation": {
       "canonical_url": "https://www.artificialintelligence-news.com/news/sap-aligns-commerce-data-for-ai-personalisation",
@@ -3729,12 +3594,6 @@
       "created_at": "2026-06-24T16:19:05Z",
       "status": "scoring_attempted",
       "title": "PR spam today looks like email spam in the early 2000s"
-    },
-    "https://www.infoq.com/articles/rdla-offline-first-reactive-android-data-layer": {
-      "canonical_url": "https://www.infoq.com/articles/rdla-offline-first-reactive-android-data-layer",
-      "created_at": "2026-06-24T10:18:59Z",
-      "status": "scoring_attempted",
-      "title": "Article: Beyond CLEAN and MVP: Architecting an Offline-first Reactive Data Layer in Android"
     },
     "https://www.infoq.com/articles/security-ai-threat-evolution": {
       "canonical_url": "https://www.infoq.com/articles/security-ai-threat-evolution",
@@ -3885,18 +3744,6 @@
       "created_at": "2026-06-24T20:13:00Z",
       "status": "scoring_attempted",
       "title": "Gradium Launches stt-translate and s2s-translate, Real-Time Speech Translation Models Beating gpt-realtime-translate on Accuracy and Latency"
-    },
-    "https://www.marktechpost.com/2026/06/24/nous-research-adds-learn-to-hermes-agents-skills-system-capturing-workflows-as-slash-commands-without-hand-writing-skill-md": {
-      "canonical_url": "https://www.marktechpost.com/2026/06/24/nous-research-adds-learn-to-hermes-agents-skills-system-capturing-workflows-as-slash-commands-without-hand-writing-skill-md",
-      "created_at": "2026-06-24T10:18:59Z",
-      "status": "scoring_attempted",
-      "title": "Nous Research Adds /learn to Hermes Agent\u2019s Skills System, Capturing Workflows as Slash Commands Without Hand-Writing SKILL.md"
-    },
-    "https://www.marktechpost.com/2026/06/24/top-generative-ai-coding-tools-of-2026": {
-      "canonical_url": "https://www.marktechpost.com/2026/06/24/top-generative-ai-coding-tools-of-2026",
-      "created_at": "2026-06-24T10:18:59Z",
-      "status": "scoring_attempted",
-      "title": "16 Best Generative AI Coding Tools in 2026 Compared: Features, and Best Fit"
     },
     "https://www.marktechpost.com/2026/06/25/deepreinforce-releases-ornith-1-0-an-open-source-coding-model-family-that-learns-its-own-rl-scaffolds": {
       "canonical_url": "https://www.marktechpost.com/2026/06/25/deepreinforce-releases-ornith-1-0-an-open-source-coding-model-family-that-learns-its-own-rl-scaffolds",
@@ -4407,12 +4254,6 @@
       "created_at": "2026-06-29T11:56:09Z",
       "status": "scoring_attempted",
       "title": "The war against &#8216;woke&#8217; could end US science as we know it"
-    },
-    "https://www.theverge.com/streaming/955646/disney-bob-iger-twitter-james-bond-apple-merger": {
-      "canonical_url": "https://www.theverge.com/streaming/955646/disney-bob-iger-twitter-james-bond-apple-merger",
-      "created_at": "2026-06-24T10:18:59Z",
-      "status": "scoring_attempted",
-      "title": "Bob Iger\u2019s Disney wanted Apple, Twitter, and 007"
     },
     "https://www.theverge.com/streaming/956712/disney-youtube-tv-directv-streaming-settlement": {
       "canonical_url": "https://www.theverge.com/streaming/956712/disney-youtube-tv-directv-streaming-settlement",
