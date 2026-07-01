@@ -431,6 +431,41 @@
         }
       }
     },
+    "3feffbe5a97c3ba7b0e680d9cf42d9bec45dc414094c200c90c665f2a6540070": {
+      "created_at": "2026-07-01T20:21:20Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "Interesting project but niche impact and lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Show HN: Z-Jail \u2013 A 130 KB Linux sandbox-C99 with 7 defense layers and zero deps",
+            "total_score": 5.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "New tool from GLM creators but lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "ZCode: Claude Code from the Makers of GLM",
+            "total_score": 7.0
+          }
+        ],
+        "best_index": 3,
+        "best_score": 7.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "4c86766df97e054983171e57228a73466d9dc09f2204633a82ccd5eb81cc34ca": {
       "created_at": "2026-06-30T21:53:40Z",
       "payload": {
@@ -496,6 +531,46 @@
           "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Anthropic deploys Claude Sonnet 5, Fable and Mythos restored*\n\nAnthropic has launched Claude Sonnet 5 and restored access to its Fable and Mythos frontier models following a federal export control review.\n\n\ud83c\udfdb\ufe0f Source: AI News (B)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.artificialintelligence-news.com/news/anthropic-deploys-claude-sonnet-5-fable-and-mythos-restored/",
           "threads": "Anthropic's Claude Sonnet 5 is out, along with restored access to Fable and Mythos. The models were paused due to US export controls. https://www.artificialintelligence-news.com/news/anthropic-deploys-claude-sonnet-5-fable-and-mythos-restored/",
           "twitter": "Anthropic just launched Claude Sonnet 5 and restored Fable and Mythos after a US export control review. https://www.artificialintelligence-news.com/news/anthropic-deploys-claude-sonnet-5-fable-and-mythos-restored/"
+        }
+      }
+    },
+    "524fce0c4c5259a3aa0c668154f23eb1da141df36d66927479d6a0d624447573": {
+      "created_at": "2026-07-01T20:21:20Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 4,
+            "novelty_score": 2.5,
+            "reason": "SpaceX's AI device prototype signals a potential expansion into wireless, impacting the tech industry.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "SpaceX has an AI device prototype, and it sure sounds phone-ish",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 5,
+            "novelty_score": 1.5,
+            "reason": "VC firm changes are niche and don't directly impact software engineers or AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Ashton Kutcher leaving Sound Ventures to launch new VC firm with Morgan Beller",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 4,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "SpaceX reportedly unveiled a \"handset-like\" AI device to investors, suggesting a move into wireless technology. This could signal a new direction for the company beyond its traditional aerospace focus. Link: https://techcrunch.com/2026/07/01/spacex-has-an-ai-device-prototype-and-it-sure-sounds-phone-ish/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *SpaceX has an AI device prototype, and it sure sounds phone-ish*\n\nSpaceX reportedly showed investors a \"handset-like\" AI device before going public. It could be another signal SpaceX wants to expand into wireless.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/01/spacex-has-an-ai-device-prototype-and-it-sure-sounds-phone-ish/",
+          "threads": "SpaceX showed investors a \"handset-like\" AI device, hinting at a potential expansion into wireless. This could signal a new direction for the company. https://techcrunch.com/2026/07/01/spacex-has-an-ai-device-prototype-and-it-sure-sounds-phone-ish/",
+          "twitter": "SpaceX showed investors a \"handset-like\" AI device, hinting at a potential expansion into wireless.\nhttps://techcrunch.com/2026/07/01/spacex-has-an-ai-device-prototype-and-it-sure-sounds-phone-ish/"
         }
       }
     },
@@ -914,6 +989,29 @@
           "threads": "Anthropic's Fable and Mythos models are now globally available after US safety testing. A big step for AI deployment. https://arstechnica.com/tech-policy/2026/07/after-spooking-trump-into-safety-testing-anthropic-ai-models-get-global-release/",
           "twitter": "Anthropic's Fable and Mythos models get global release after US safety testing. https://arstechnica.com/tech-policy/2026/07/after-spooking-trump-into-safety-testing-anthropic-ai-models-get-global-release/"
         }
+      }
+    },
+    "9b888362842bf0b0a1a21b8b16c3213b7d1cf2c8f0bfef8146ea662d898a71b9": {
+      "created_at": "2026-07-01T20:21:20Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 7,
+            "novelty_score": 2.5,
+            "reason": "New product launch but limited impact and from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Weave Robotics launches Isaac 1, a $7,999 home robot with fall 2026 deliveries",
+            "total_score": 5.5
+          }
+        ],
+        "best_index": 7,
+        "best_score": 5.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "a344779e699559afda6baa0285997a093e16077d361bef7016d09651d9ac6963": {
@@ -1348,6 +1446,46 @@
         "social_posts": {}
       }
     },
+    "db112de7d58317d465d7c0d2b76d129ec817c006dbb5b159b9002162c92747a3": {
+      "created_at": "2026-07-01T20:21:20Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Elon Musk's denial of SpaceX's AI phone prototype is a significant industry move with broad impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Elon Musk denies a report about SpaceX\u2019s AI phone prototype",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 0,
+            "index": 1,
+            "novelty_score": 0,
+            "reason": "No substantive content, just comments",
+            "red_flag": true,
+            "red_flag_reason": "No substantive content, just comments",
+            "source_score": 0.5,
+            "title": "Claude Fable 5 Promotional Access",
+            "total_score": 2.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Elon Musk has denied reports that SpaceX is developing an AI phone prototype, calling them \"utterly false.\" The Wall Street Journal had reported that SpaceX showed off a \"handset-like prototype\" to some investors before its record-breaking IPO in June. Link: https://www.theverge.com/science/960442/spacex-phone-prototype-elon-musk",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Elon Musk denies a report about SpaceX\u2019s AI phone prototype*\n\nElon Musk has denied reports that SpaceX is developing an AI phone prototype, calling them \"utterly false.\" The Wall Street Journal had reported that SpaceX showed off a \"handset-like prototype\" to some investors before its record-breaking IPO in June.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/science/960442/spacex-phone-prototype-elon-musk\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Elon Musk just denied reports that SpaceX is working on an AI phone prototype. He called the claims \"utterly false.\" The Wall Street Journal had reported that SpaceX showed off a \"handset-like prototype\" to some investors before its record-breaking IPO in June. https://www.theverge.com/science/960442/spacex-phone-prototype-elon-musk",
+          "twitter": "Elon Musk denies SpaceX is developing an AI phone prototype, calling reports \"utterly false.\" https://www.theverge.com/science/960442/spacex-phone-prototype-elon-musk"
+        }
+      }
+    },
     "dba2a37c7acf6c72a92f6a7976ea141105d6b407b6e705e9c4c3bedd91f7403c": {
       "created_at": "2026-06-30T20:23:51Z",
       "payload": {
@@ -1647,15 +1785,6 @@
         "twitter": "Amazon invests $1 billion in FDE, following OpenAI and Anthropic, to deploy purpose-built agents @Amazon #AI"
       }
     },
-    "3d56c1a05c5692c49fc340b1ca4af2b34903e2d12cd94df6170dc258fa834ad9": {
-      "created_at": "2026-06-24T20:13:00Z",
-      "payload": {
-        "facebook": "The field of real-time speech translation has seen significant advancements with the launch of Gradium's stt-translate and s2s-translate models. These models have been shown to outperform existing solutions like gpt-realtime-translate in terms of accuracy and latency, covering a wide range of languages. This development has the potential to greatly improve communication across language barriers #SpeechTranslation #AI",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Real-time speech translation advancements\nGradium has launched stt-translate and s2s-translate, two models that outperform gpt-realtime-translate in accuracy and latency, supporting 20 language pairs across English, French, German, Spanish, and Portuguese.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9/10\n#SpeechTranslation #AI #RealTimeTranslation\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Gradium's new stt-translate and s2s-translate models are changing the game for real-time speech translation, offering better accuracy and lower latency than gpt-realtime-translate @GradiumAI #SpeechTranslation",
-        "twitter": "Real-time speech translation just got a boost with Gradium's stt-translate and s2s-translate models, outperforming gpt-realtime-translate in accuracy and latency @GradiumAI #SpeechTranslation"
-      }
-    },
     "3e2119ae3023b984650111568b3eeb1c1ea6f88daf90b1dabfd2594bfdcf826c": {
       "created_at": "2026-06-25T10:13:43Z",
       "payload": {
@@ -1834,6 +1963,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Claude Opus 4.7's security breach\nA researcher used Anthropic's Claude Opus 4.7 to break into Front Gate's website, allowing them to issue tickets to almost every US music festival.\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#musicfestival #securitybreach #AI\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "A researcher used Anthropic's Claude Opus 4.7 to break into Front Gate's website, allowing them to issue tickets to almost every US music festival @AnthropicAI #AI",
         "twitter": "Anthropic's Claude Opus 4.7 was used to breach Front Gate's website, allowing a hacker to issue tickets to major US music festivals @AnthropicAI #musicfestival"
+      }
+    },
+    "aaeeaafa1dbf025502341ff382ab6cc792e7cdaa82124b7b13115ff5953fb77d": {
+      "created_at": "2026-07-01T20:21:20Z",
+      "payload": {
+        "facebook": "Elon Musk has come out to deny reports that SpaceX is developing an AI phone prototype. This comes after a report was published suggesting the company had shown off a handset-like prototype to investors. The denial is significant given the potential impact on the tech industry #SpaceX #AI",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Elon Musk Denies AI Phone Prototype Reports\nElon Musk has denied reports that SpaceX is working on an AI phone prototype, contradicting a recent report.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#SpaceX #AI #TechNews\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Elon Musk has denied reports of a SpaceX AI phone prototype, a move that could have significant implications for the tech industry @elonmusk #SpaceX",
+        "twitter": "Elon Musk denies SpaceX is working on an AI phone prototype @elonmusk #SpaceX"
       }
     },
     "add7c693f468be53a7029aec9afdeb6e7ac6434bd0db5cc74d20d0d3dd628abd": {
@@ -2771,6 +2909,12 @@
       "status": "scoring_attempted",
       "title": "Show HN: Frond \u2013 a frontend runtime for your app's dependency graph"
     },
+    "https://github.com/Division-36/Z-Jail": {
+      "canonical_url": "https://github.com/Division-36/Z-Jail",
+      "created_at": "2026-07-01T20:21:20Z",
+      "status": "scoring_attempted",
+      "title": "Show HN: Z-Jail \u2013 A 130 KB Linux sandbox-C99 with 7 defense layers and zero deps"
+    },
     "https://github.com/JustVugg/nanoeuler": {
       "canonical_url": "https://github.com/JustVugg/nanoeuler",
       "created_at": "2026-06-28T20:37:29Z",
@@ -3095,6 +3239,12 @@
       "status": "scoring_attempted",
       "title": "TabFM: A zero-shot foundation model for tabular data"
     },
+    "https://runtimewire.com/article/weave-robotics-isaac-1-home-robot-launch": {
+      "canonical_url": "https://runtimewire.com/article/weave-robotics-isaac-1-home-robot-launch",
+      "created_at": "2026-07-01T20:21:20Z",
+      "status": "scoring_attempted",
+      "title": "Weave Robotics launches Isaac 1, a $7,999 home robot with fall 2026 deliveries"
+    },
     "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks": {
       "canonical_url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks",
       "created_at": "2026-06-28T20:37:29Z",
@@ -3106,6 +3256,12 @@
       "created_at": "2026-06-27T01:24:34Z",
       "status": "scoring_attempted",
       "title": "AI in mathematics is forcing big questions"
+    },
+    "https://support.claude.com/en/articles/15424964-claude-fable-5-promotional-access": {
+      "canonical_url": "https://support.claude.com/en/articles/15424964-claude-fable-5-promotional-access",
+      "created_at": "2026-07-01T20:21:20Z",
+      "status": "scoring_attempted",
+      "title": "Claude Fable 5 Promotional Access"
     },
     "https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals": {
       "canonical_url": "https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals",
@@ -3124,12 +3280,6 @@
       "created_at": "2026-06-24T22:55:54Z",
       "status": "scoring_attempted",
       "title": "Cerebras stock plunges after earnings as CEO says margin outlook was misunderstood"
-    },
-    "https://techcrunch.com/2026/06/24/companies-are-scrambling-to-stop-employees-from-maxing-out-ai-budgets-with-small-tasks": {
-      "canonical_url": "https://techcrunch.com/2026/06/24/companies-are-scrambling-to-stop-employees-from-maxing-out-ai-budgets-with-small-tasks",
-      "created_at": "2026-06-24T20:13:00Z",
-      "status": "scoring_attempted",
-      "title": "Companies are scrambling to stop employees from maxing out AI budgets with small tasks"
     },
     "https://techcrunch.com/2026/06/24/europe-is-pushing-back-on-washingtons-chip-war": {
       "canonical_url": "https://techcrunch.com/2026/06/24/europe-is-pushing-back-on-washingtons-chip-war",
@@ -3395,6 +3545,12 @@
       "status": "scoring_attempted",
       "title": "X now offers an MCP server to make its platform easier for AI tools to use"
     },
+    "https://techcrunch.com/2026/07/01/ashton-kutcher-leaving-sound-ventures-to-launch-new-vc-firm-with-morgan-beller": {
+      "canonical_url": "https://techcrunch.com/2026/07/01/ashton-kutcher-leaving-sound-ventures-to-launch-new-vc-firm-with-morgan-beller",
+      "created_at": "2026-07-01T20:21:20Z",
+      "status": "scoring_attempted",
+      "title": "Ashton Kutcher leaving Sound Ventures to launch new VC firm with Morgan Beller"
+    },
     "https://techcrunch.com/2026/07/01/builders-stage-agenda-revealed-practical-strategies-for-scaling-startups-at-techcrunch-disrupt-2026": {
       "canonical_url": "https://techcrunch.com/2026/07/01/builders-stage-agenda-revealed-practical-strategies-for-scaling-startups-at-techcrunch-disrupt-2026",
       "created_at": "2026-07-01T16:03:57Z",
@@ -3418,6 +3574,12 @@
       "created_at": "2026-07-01T16:03:57Z",
       "status": "scoring_attempted",
       "title": "Meta, like SpaceX, looks to turn excess AI compute into cash"
+    },
+    "https://techcrunch.com/2026/07/01/spacex-has-an-ai-device-prototype-and-it-sure-sounds-phone-ish": {
+      "canonical_url": "https://techcrunch.com/2026/07/01/spacex-has-an-ai-device-prototype-and-it-sure-sounds-phone-ish",
+      "created_at": "2026-07-01T20:21:20Z",
+      "status": "scoring_attempted",
+      "title": "SpaceX has an AI device prototype, and it sure sounds phone-ish"
     },
     "https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off": {
       "canonical_url": "https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off",
@@ -3629,12 +3791,6 @@
       "status": "scoring_attempted",
       "title": "Google limits Meta's use of its Gemini AI models"
     },
-    "https://www.economist.com/science-and-technology/2026/06/24/why-big-ai-labs-are-hiring-so-many-philosophers": {
-      "canonical_url": "https://www.economist.com/science-and-technology/2026/06/24/why-big-ai-labs-are-hiring-so-many-philosophers",
-      "created_at": "2026-06-24T20:13:00Z",
-      "status": "scoring_attempted",
-      "title": "Big AI labs are hiring philosophers"
-    },
     "https://www.infoq.com/articles/security-ai-threat-evolution": {
       "canonical_url": "https://www.infoq.com/articles/security-ai-threat-evolution",
       "created_at": "2026-06-29T11:56:09Z",
@@ -3790,12 +3946,6 @@
       "created_at": "2026-06-25T05:49:38Z",
       "status": "scoring_attempted",
       "title": "Baidu Releases Unlimited OCR, a 3B Model That Keeps the KV Cache Flat for Long-Document Parsing"
-    },
-    "https://www.marktechpost.com/2026/06/24/gradium-launches-stt-translate-and-s2s-translate-real-time-speech-translation-models-beating-gpt-realtime-translate-on-accuracy-and-latency": {
-      "canonical_url": "https://www.marktechpost.com/2026/06/24/gradium-launches-stt-translate-and-s2s-translate-real-time-speech-translation-models-beating-gpt-realtime-translate-on-accuracy-and-latency",
-      "created_at": "2026-06-24T20:13:00Z",
-      "status": "scoring_attempted",
-      "title": "Gradium Launches stt-translate and s2s-translate, Real-Time Speech Translation Models Beating gpt-realtime-translate on Accuracy and Latency"
     },
     "https://www.marktechpost.com/2026/06/25/deepreinforce-releases-ornith-1-0-an-open-source-coding-model-family-that-learns-its-own-rl-scaffolds": {
       "canonical_url": "https://www.marktechpost.com/2026/06/25/deepreinforce-releases-ornith-1-0-an-open-source-coding-model-family-that-learns-its-own-rl-scaffolds",
@@ -4163,12 +4313,6 @@
       "status": "scoring_attempted",
       "title": "My favorite Kindle alternative is $30 off after a recent price increase"
     },
-    "https://www.theverge.com/games/956389/grand-theft-auto-6-gta-digital-code-in-box-physical-games": {
-      "canonical_url": "https://www.theverge.com/games/956389/grand-theft-auto-6-gta-digital-code-in-box-physical-games",
-      "created_at": "2026-06-24T20:13:00Z",
-      "status": "scoring_attempted",
-      "title": "GTA VI is a worrying sign for the future of physical games"
-    },
     "https://www.theverge.com/games/957042/xbox-price-increase-memory-shortage": {
       "canonical_url": "https://www.theverge.com/games/957042/xbox-price-increase-memory-shortage",
       "created_at": "2026-06-25T18:29:51Z",
@@ -4253,12 +4397,6 @@
       "status": "scoring_attempted",
       "title": "Nest&#8217;s quest to fix your thermostat"
     },
-    "https://www.theverge.com/policy/956394/florida-anna-paulina-luna-anthropic-claude": {
-      "canonical_url": "https://www.theverge.com/policy/956394/florida-anna-paulina-luna-anthropic-claude",
-      "created_at": "2026-06-24T20:13:00Z",
-      "status": "scoring_attempted",
-      "title": "Congresswoman denies staff used AI to write defense funding amendment"
-    },
     "https://www.theverge.com/policy/956404/prairieland-sentencing-zines-trump-antifa": {
       "canonical_url": "https://www.theverge.com/policy/956404/prairieland-sentencing-zines-trump-antifa",
       "created_at": "2026-06-24T21:47:20Z",
@@ -4294,6 +4432,12 @@
       "created_at": "2026-06-29T11:56:09Z",
       "status": "scoring_attempted",
       "title": "The war against &#8216;woke&#8217; could end US science as we know it"
+    },
+    "https://www.theverge.com/science/960442/spacex-phone-prototype-elon-musk": {
+      "canonical_url": "https://www.theverge.com/science/960442/spacex-phone-prototype-elon-musk",
+      "created_at": "2026-07-01T20:21:20Z",
+      "status": "scoring_attempted",
+      "title": "Elon Musk denies a report about SpaceX&#8217;s AI phone prototype"
     },
     "https://www.theverge.com/streaming/956712/disney-youtube-tv-directv-streaming-settlement": {
       "canonical_url": "https://www.theverge.com/streaming/956712/disney-youtube-tv-directv-streaming-settlement",
@@ -4475,12 +4619,6 @@
       "status": "scoring_attempted",
       "title": "Polestar has been muscled out of the US market"
     },
-    "https://www.thomann.de/blog/en/inside/thomann-takes-legal-action-against-fender": {
-      "canonical_url": "https://www.thomann.de/blog/en/inside/thomann-takes-legal-action-against-fender",
-      "created_at": "2026-06-24T20:13:00Z",
-      "status": "scoring_attempted",
-      "title": "Thomann takes legal action against Fender"
-    },
     "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model": {
       "canonical_url": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model",
       "created_at": "2026-06-26T20:08:19Z",
@@ -4492,12 +4630,6 @@
       "created_at": "2026-06-24T21:47:20Z",
       "status": "scoring_attempted",
       "title": "A24 Knows You\u2019re Mad About the Google AI Collab"
-    },
-    "https://www.wired.com/story/ai-arms-race-china-us-cooperation": {
-      "canonical_url": "https://www.wired.com/story/ai-arms-race-china-us-cooperation",
-      "created_at": "2026-06-24T20:13:00Z",
-      "status": "scoring_attempted",
-      "title": "I Met With China\u2019s Top AI Experts. They\u2019re Freaking Out, Too"
     },
     "https://www.wired.com/story/anthropic-added-a-new-security-measure-to-get-back-into-the-trump-administrations-good-graces": {
       "canonical_url": "https://www.wired.com/story/anthropic-added-a-new-security-measure-to-get-back-into-the-trump-administrations-good-graces",
@@ -4606,6 +4738,12 @@
       "created_at": "2026-07-01T16:03:57Z",
       "status": "scoring_attempted",
       "title": "Manufact (YC S25) Is Hiring a Developer Advocate in SF"
+    },
+    "https://zcode.z.ai/cn": {
+      "canonical_url": "https://zcode.z.ai/cn",
+      "created_at": "2026-07-01T20:21:20Z",
+      "status": "scoring_attempted",
+      "title": "ZCode: Claude Code from the Makers of GLM"
     }
   },
   "version": 1
