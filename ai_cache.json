@@ -292,6 +292,29 @@
         "social_posts": {}
       }
     },
+    "16d5e21eee6b92c55931b524b9ff994cb179ada443b996d6b742f4ee03521487": {
+      "created_at": "2026-07-02T12:10:20Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 6,
+            "novelty_score": 2.5,
+            "reason": "Apple's move to Google Cloud for Private Cloud Compute is significant but not groundbreaking.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Apple Extends Private Cloud Compute to Google Cloud for the First Time",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 6,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "16f39c35bdda3922438e27453f33944df54712b520eff4973457e2ae60644975": {
       "created_at": "2026-07-01T16:03:57Z",
       "payload": {
@@ -374,29 +397,6 @@
           }
         ],
         "best_index": 1,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "22bd78fb4570ae2be7bbb618528e83e9685a33ed88407b9a71d01a5b760ae897": {
-      "created_at": "2026-07-01T10:17:12Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 6,
-            "novelty_score": 2.5,
-            "reason": "Godot's policy change on AI-authored code is notable but not groundbreaking.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Godot will no longer accept AI-authored code contributions",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 6,
         "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
@@ -589,44 +589,39 @@
         "social_posts": {}
       }
     },
-    "5177f013eab62f7d2dacb9fe6593a40fcc7c4013be2771c82f3b735b96d502e2": {
-      "created_at": "2026-07-01T10:17:12Z",
+    "4c7d74ae4394f47b9870db1abafc80672ba814e015155017d5ccc968c59795f2": {
+      "created_at": "2026-07-02T12:10:20Z",
       "payload": {
         "articles": [
           {
             "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 2,
-            "novelty_score": 3.0,
-            "reason": "Anthropic's new model release and restored access to frontier models is highly relevant to AI researchers and developers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.0,
-            "title": "Anthropic deploys Claude Sonnet 5, Fable and Mythos restored",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 3,
-            "novelty_score": 2.0,
-            "reason": "A significant industry move, but less directly relevant to software engineers and AI researchers.",
+            "impact_score": 0.5,
+            "index": 0,
+            "novelty_score": 0.2,
+            "reason": "Entertainment piece with low relevance to software engineers and AI researchers.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 1.5,
-            "title": "Cleared by the US, derailed by the UK: Getty\u2019s Shutterstock merger falls apart",
-            "total_score": 7.0
+            "title": "Mystery box shows are complicated for everyone \u2014 even the actors",
+            "total_score": 4.2
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "High novelty and impact for software engineers, but source tier is B.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.0,
+            "title": "Shifting Platform Development from Projects to Products",
+            "total_score": 8.0
           }
         ],
-        "best_index": 2,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Anthropic has released Claude Sonnet 5 and brought back its Fable and Mythos models after an 18-day pause due to US export controls. This is a significant development for AI researchers and developers. Link: https://www.artificialintelligence-news.com/news/anthropic-deploys-claude-sonnet-5-fable-and-mythos-restored/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Anthropic deploys Claude Sonnet 5, Fable and Mythos restored*\n\nAnthropic has launched Claude Sonnet 5 and restored access to its Fable and Mythos frontier models following a federal export control review.\n\n\ud83c\udfdb\ufe0f Source: AI News (B)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.artificialintelligence-news.com/news/anthropic-deploys-claude-sonnet-5-fable-and-mythos-restored/",
-          "threads": "Anthropic's Claude Sonnet 5 is out, along with restored access to Fable and Mythos. The models were paused due to US export controls. https://www.artificialintelligence-news.com/news/anthropic-deploys-claude-sonnet-5-fable-and-mythos-restored/",
-          "twitter": "Anthropic just launched Claude Sonnet 5 and restored Fable and Mythos after a US export control review. https://www.artificialintelligence-news.com/news/anthropic-deploys-claude-sonnet-5-fable-and-mythos-restored/"
-        }
+        "best_index": 1,
+        "best_score": 8.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "524fce0c4c5259a3aa0c668154f23eb1da141df36d66927479d6a0d624447573": {
@@ -765,46 +760,6 @@
         "best_score": 3.0,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "612609c6eeccb588e9b74b869ee0b02c5bef5b16bee674d109cd977c7e7ce355": {
-      "created_at": "2026-07-01T10:17:12Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 4,
-            "novelty_score": 2.5,
-            "reason": "New model release with open weights, but impact is somewhat niche.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "NVIDIA Releases Nemotron-Labs-TwoTower: an Open-Weight Diffusion Language Model Built on a Frozen Autoregressive Nemotron-3-Nano-30B-A3B Backbone",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 5,
-            "novelty_score": 2.5,
-            "reason": "New foundation model for tabular data with zero-shot capabilities, significant for data scientists.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Google AI Introduces TabFM: A Hybrid-Attention Tabular Foundation Model for Zero-Shot Classification and Regression",
-            "total_score": 8.0
-          }
-        ],
-        "best_index": 5,
-        "best_score": 8.0,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Google AI has introduced TabFM, a foundation model for tabular data that performs zero-shot classification and regression without per-dataset training. This could be a game-changer for data scientists working with structured data. Link: https://www.marktechpost.com/2026/07/01/google-ai-introduces-tabfm-a-hybrid-attention-tabular-foundation-model-for-zero-shot-classification-and-regression/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Google AI Introduces TabFM: A Hybrid-Attention Tabular Foundation Model for Zero-Shot Classification and Regression*\n\nGoogle AI has released TabFM, a foundation model for tabular data that performs zero-shot classification and regression through in-context learning. It requires no per-dataset training, hyperparameter tuning, or feature engineering.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: 2 hours ago\n\u2b50 Score: 8.0/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/07/01/google-ai-introduces-tabfm-a-hybrid-attention-tabular-foundation-model-for-zero-shot-classification-and-regression/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Google AI's TabFM model does zero-shot classification and regression on tabular data with a single forward pass. No training or feature engineering required.\nhttps://www.marktechpost.com/2026/07/01/google-ai-introduces-tabfm-a-hybrid-attention-tabular-foundation-model-for-zero-shot-classification-and-regression/",
-          "twitter": "Google AI's new TabFM model handles tabular data with zero-shot classification and regression. No training or feature engineering needed.\nhttps://www.marktechpost.com/2026/07/01/google-ai-introduces-tabfm-a-hybrid-attention-tabular-foundation-model-for-zero-shot-classification-and-regression/"
-        }
       }
     },
     "6653126fff88011124b858b3a32230916dfa81e7d1b48c3eb9b5e73a995f2c06": {
@@ -1024,6 +979,46 @@
         "social_posts": {}
       }
     },
+    "89dce41cb61444654eb415f6b3d13fb1f96a74240a440bc46b90ab4d9333eb7f": {
+      "created_at": "2026-07-02T12:10:20Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "Potential government stake in OpenAI is significant but lacks concrete details.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "OpenAI: In early talks to give 5% stake to US Government",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 3,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "Google's AI infrastructure growth and its environmental impact are critical topics.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Google\u2019s AI buildout drove 37% increase in electricity use in 2025",
+            "total_score": 9
+          }
+        ],
+        "best_index": 3,
+        "best_score": 9,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Google's aggressive AI buildout led to a 37% increase in electricity consumption in 2025. The company is now trying to balance this growth with clean energy initiatives. Link: https://arstechnica.com/ai/2026/07/googles-ai-buildout-drove-37-increase-in-electricity-use-in-2025/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Google\u2019s AI buildout drove 37% increase in electricity use in 2025*\n\nGoogle's aggressive AI infrastructure expansion led to a significant rise in electricity consumption, prompting efforts to balance growth with clean energy initiatives.\n\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9/10\n\n\ud83d\udd17 https://arstechnica.com/ai/2026/07/googles-ai-buildout-drove-37-increase-in-electricity-use-in-2025/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Google's AI infrastructure grew so fast last year it drove a 37% increase in electricity use. The company is now trying to balance this growth with clean energy initiatives. https://arstechnica.com/ai/2026/07/googles-ai-buildout-drove-37-increase-in-electricity-use-in-2025/",
+          "twitter": "Google's AI infrastructure expansion drove a 37% surge in electricity use last year. https://arstechnica.com/ai/2026/07/googles-ai-buildout-drove-37-increase-in-electricity-use-in-2025/"
+        }
+      }
+    },
     "8e9015defdab22fb6fef1d4fa90c31040aee199da3751725345e8c63ffbcc151": {
       "created_at": "2026-07-01T18:23:15Z",
       "payload": {
@@ -1182,6 +1177,46 @@
           "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Cloudflare\u2019s new policy pushes AI companies to pay for publishers\u2019 content*\n\nCloudflare is giving AI companies until September 15 to separate web crawlers used for search from those used for AI training and agents, or risk being blocked by default on many publisher sites.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/",
           "threads": "Cloudflare just made AI companies choose: pay for publisher content or get blocked by default. This could reshape the AI training landscape.\nhttps://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/",
           "twitter": "Cloudflare just forced AI companies to pay for publisher content or risk being blocked. A major shift in the AI training landscape.\nhttps://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/"
+        }
+      }
+    },
+    "c4360e34dc25915143ddc98a1b0a85b86679ed1b9ccfae079abd81ea566417f2": {
+      "created_at": "2026-07-02T12:10:20Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 4,
+            "novelty_score": 0.2,
+            "reason": "Recap of BitTorrent's history lacks novelty for software engineers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "BitTorrent\u2019s disastrous, legendary, and controversial story",
+            "total_score": 3.7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 3,
+            "index": 5,
+            "novelty_score": 2.5,
+            "reason": "OpenAI's potential stake offer to the US government is a significant industry move.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "OpenAI floats giving Trump administration 5 percent cut of AI boom",
+            "total_score": 9
+          }
+        ],
+        "best_index": 5,
+        "best_score": 9,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "OpenAI is considering offering the US government a 5% stake in its AI operations to mitigate political tensions. This move could set a precedent for how AI companies navigate regulatory challenges. Link: https://www.theverge.com/ai-artificial-intelligence/960588/openai-government-5-percent-stake-trump",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *OpenAI proposes giving the US government a 5% stake in its AI operations*\n\nOpenAI's CEO Sam Altman suggests this move to ease tensions with the Trump administration and address public backlash against AI.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9/10\n\n\ud83d\udd17 https://www.theverge.com/ai-artificial-intelligence/960588/openai-government-5-percent-stake-trump\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "OpenAI's proposal to give the US government a 5% stake in its AI operations is a bold move to ease political tensions. This could reshape how tech companies interact with regulators. https://www.theverge.com/ai-artificial-intelligence/960588/openai-government-5-percent-stake-trump",
+          "twitter": "OpenAI proposes giving the US government a 5% stake in its AI boom to ease tensions with the Trump administration. https://www.theverge.com/ai-artificial-intelligence/960588/openai-government-5-percent-stake-trump"
         }
       }
     },
@@ -1451,46 +1486,6 @@
         }
       }
     },
-    "f48ec05df73cd4c4cbdb651417e26b495e8983eb6c18b0db0debeeaf52ac5241": {
-      "created_at": "2026-07-01T10:17:12Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Claude Opus 4.7's role in a significant security breach affecting major US music festivals.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Claude Helped a Hacker Find a Way to Issue Tickets to Almost Every US Music Festival",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2,
-            "reason": "Bank of England's review of AI rules for agentic AI in finance, highlighting regulatory challenges.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Bank of England reviews AI rules for agentic AI in finance",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "A researcher used Anthropic's Claude Opus 4.7 to break into Front Gate, the ticketing system for festivals like Lollapalooza and Bonnaroo, allowing free ticket issuance. This highlights the potential risks of AI in security systems. Link: https://www.wired.com/story/claude-helped-a-hacker-find-a-way-to-issue-tickets-to-almost-every-us-music-festival/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Claude Helped a Hacker Find a Way to Issue Tickets to Almost Every US Music Festival*\n\nA researcher used Anthropic's Claude Opus 4.7 to break into Front Gate, the ticketing system for festivals like Lollapalooza and Bonnaroo, allowing free ticket issuance.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.wired.com/story/claude-helped-a-hacker-find-a-way-to-issue-tickets-to-almost-every-us-music-festival/",
-          "threads": "Claude Opus 4.7 enabled a hacker to issue free tickets to major US festivals. This is a wake-up call for AI security. https://www.wired.com/story/claude-helped-a-hacker-find-a-way-to-issue-tickets-to-almost-every-us-music-festival/",
-          "twitter": "Anthropic's Claude Opus 4.7 helped a hacker issue free tickets to major US music festivals. https://www.wired.com/story/claude-helped-a-hacker-find-a-way-to-issue-tickets-to-almost-every-us-music-festival/"
-        }
-      }
-    },
     "f5b4960f2bf4eb7ed18d6a60a11fb904ebaf25ed9ad004c7c1e8fdd43d20e713": {
       "created_at": "2026-07-01T18:23:15Z",
       "payload": {
@@ -1646,15 +1641,6 @@
         "twitter": "Amazon invests $1 billion in FDE, following OpenAI and Anthropic, to deploy purpose-built agents @Amazon #AI"
       }
     },
-    "3e2119ae3023b984650111568b3eeb1c1ea6f88daf90b1dabfd2594bfdcf826c": {
-      "created_at": "2026-06-25T10:13:43Z",
-      "payload": {
-        "facebook": "The semiconductor industry is on the cusp of a significant breakthrough, as IBM claims to have developed the world's first sub-1 nanometer chip technology. This innovation could lead to improved chip performance or enhanced energy efficiency, which would be a notable advancement. #chiptechnology #nanotechnology #semiconductors",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 IBM Develops Sub-1 Nanometer Chip Technology\nIBM's nanostack transistors could boost chip performance or energy efficiency.\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#chiptechnology #nanotechnology #semiconductors\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "IBM's nanostack transistors have achieved sub-1 nanometer chip technology, which could significantly impact chip performance or energy efficiency @IBM #chiptechnology",
-        "twitter": "IBM achieves a major milestone with its sub-1 nanometer chip technology, potentially boosting performance or energy efficiency @IBM #chiptechnology"
-      }
-    },
     "3e78768292c84c492ff98b6ed459ef46b1907dfb0ab9a11397e298818d08ee6d": {
       "created_at": "2026-07-01T21:55:17Z",
       "payload": {
@@ -1662,6 +1648,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Anthropic Redeploys AI Model\nAnthropic is redeploying Claude Fable 5 after US export controls were lifted, adding a new cybersecurity classifier to block over 99% of flagged requests.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n#AI #Cybersecurity #TechNews\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Anthropic is redeploying Claude Fable 5 after US export controls were lifted, @AnthropicAI adding a new safety classifier to block flagged requests #AI",
         "twitter": "US export controls lifted, @AnthropicAI is redeploying Claude Fable 5 with enhanced safety features #AI"
+      }
+    },
+    "4a95bd664c850a26656ae584cd5dc7ba38512779be441504fc8b4db1fe8ec774": {
+      "created_at": "2026-07-02T12:10:20Z",
+      "payload": {
+        "facebook": "The rapid growth of Google's AI infrastructure has resulted in a significant increase in electricity use, posing a challenge for the company's clean energy efforts. As the demand for AI computing power continues to rise, finding sustainable solutions is crucial. #AI #Sustainability #Google",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Google's AI Infrastructure Growth\nGoogle's AI expansion has led to a significant increase in electricity use, posing a challenge for the company's clean energy efforts.\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9/10\n#AI #Sustainability #Google\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Google's AI buildout has driven a 37% increase in electricity use in 2025, underscoring the need for sustainable data center solutions @Google #AI",
+        "twitter": "Google's AI expansion led to a 37% surge in electricity use in 2025, highlighting the challenge of balancing data center emissions with clean energy @Google #AI"
       }
     },
     "4ce9b8a48d9465ba836c87e439774155d9af3a937b0a0cefe387fc9e4e7d85d6": {
@@ -1972,12 +1967,6 @@
       "status": "scoring_attempted",
       "title": "Meta's brain-scanning system reads sentences non-invasively, code open source"
     },
-    "https://aisle.com/blog/aisle-discovers-6-new-cves-in-curl-including-the-oldest-issue-ever-reported": {
-      "canonical_url": "https://aisle.com/blog/aisle-discovers-6-new-cves-in-curl-including-the-oldest-issue-ever-reported",
-      "created_at": "2026-06-25T10:13:43Z",
-      "status": "scoring_attempted",
-      "title": "Aisle Discovers 6 New CVEs in Curl, Including the Oldest Issue Ever Reported"
-    },
     "https://akrites.org/letter": {
       "canonical_url": "https://akrites.org/letter",
       "created_at": "2026-06-26T08:58:02Z",
@@ -2020,11 +2009,11 @@
       "status": "scoring_attempted",
       "title": "South Korea to spend $1T on more memory chip production and humanoid robots"
     },
-    "https://arstechnica.com/gadgets/2026/06/ibm-claims-worlds-first-sub-1-nanometer-chip-technology": {
-      "canonical_url": "https://arstechnica.com/gadgets/2026/06/ibm-claims-worlds-first-sub-1-nanometer-chip-technology",
-      "created_at": "2026-06-25T10:13:43Z",
+    "https://arstechnica.com/ai/2026/07/googles-ai-buildout-drove-37-increase-in-electricity-use-in-2025": {
+      "canonical_url": "https://arstechnica.com/ai/2026/07/googles-ai-buildout-drove-37-increase-in-electricity-use-in-2025",
+      "created_at": "2026-07-02T12:10:20Z",
       "status": "scoring_attempted",
-      "title": "IBM claims world\u2019s first sub-1 nanometer chip technology"
+      "title": "Google\u2019s AI buildout drove 37% increase in electricity use in 2025"
     },
     "https://arstechnica.com/gadgets/2026/06/notion-killing-skiff-influenced-email-app-since-most-users-use-ai-agents-instead": {
       "canonical_url": "https://arstechnica.com/gadgets/2026/06/notion-killing-skiff-influenced-email-app-since-most-users-use-ai-agents-instead",
@@ -3562,12 +3551,6 @@
       "status": "scoring_attempted",
       "title": "Japan\u2019s answer to its worker shortage: An AI model for 10 million robots"
     },
-    "https://www.artificialintelligence-news.com/news/openai-jalapeno-chip-inference-economics": {
-      "canonical_url": "https://www.artificialintelligence-news.com/news/openai-jalapeno-chip-inference-economics",
-      "created_at": "2026-06-25T10:13:43Z",
-      "status": "scoring_attempted",
-      "title": "The math behind the OpenAI Jalape\u00f1o chip"
-    },
     "https://www.artificialintelligence-news.com/news/sap-aligns-commerce-data-for-ai-personalisation": {
       "canonical_url": "https://www.artificialintelligence-news.com/news/sap-aligns-commerce-data-for-ai-personalisation",
       "created_at": "2026-06-26T15:14:45Z",
@@ -3682,12 +3665,6 @@
       "status": "scoring_attempted",
       "title": "Microsoft Brings AI-Powered Vulnerability Remediation to Azure DevOps with Copilot Autofix"
     },
-    "https://www.infoq.com/news/2026/06/cloudflare-one-stack-agents": {
-      "canonical_url": "https://www.infoq.com/news/2026/06/cloudflare-one-stack-agents",
-      "created_at": "2026-06-25T10:13:43Z",
-      "status": "scoring_attempted",
-      "title": "Cloudflare Ships Agent Skills for Zero Trust Deployment and Migration"
-    },
     "https://www.infoq.com/news/2026/06/dapr-1-18-cryptographic-ai": {
       "canonical_url": "https://www.infoq.com/news/2026/06/dapr-1-18-cryptographic-ai",
       "created_at": "2026-06-26T12:30:41Z",
@@ -3724,6 +3701,12 @@
       "status": "scoring_attempted",
       "title": "Vercel Introduces Eve, an Open-Source Framework for Building AI Agents"
     },
+    "https://www.infoq.com/news/2026/07/apple-pcc-google-cloud": {
+      "canonical_url": "https://www.infoq.com/news/2026/07/apple-pcc-google-cloud",
+      "created_at": "2026-07-02T12:10:20Z",
+      "status": "scoring_attempted",
+      "title": "Apple Extends Private Cloud Compute to Google Cloud for the First Time"
+    },
     "https://www.infoq.com/news/2026/07/heroui-v3-rewrite": {
       "canonical_url": "https://www.infoq.com/news/2026/07/heroui-v3-rewrite",
       "created_at": "2026-07-01T13:22:53Z",
@@ -3735,6 +3718,12 @@
       "created_at": "2026-07-01T16:03:57Z",
       "status": "scoring_attempted",
       "title": "Instacart Scales Personalized Marketing via Configuration-Driven Multi-Tenant Platform"
+    },
+    "https://www.infoq.com/news/2026/07/platform-projects-products": {
+      "canonical_url": "https://www.infoq.com/news/2026/07/platform-projects-products",
+      "created_at": "2026-07-02T12:10:20Z",
+      "status": "scoring_attempted",
+      "title": "Shifting Platform Development from Projects to Products"
     },
     "https://www.infoq.com/podcasts/natural-evolution-cloud-native": {
       "canonical_url": "https://www.infoq.com/podcasts/natural-evolution-cloud-native",
@@ -3952,6 +3941,12 @@
       "status": "scoring_attempted",
       "title": "Ford hired AI and sacked humans. It backfired badly"
     },
+    "https://www.theguardian.com/technology/2026/jul/02/openai-stake-us-government-ai-sam-altman": {
+      "canonical_url": "https://www.theguardian.com/technology/2026/jul/02/openai-stake-us-government-ai-sam-altman",
+      "created_at": "2026-07-02T12:10:20Z",
+      "status": "scoring_attempted",
+      "title": "OpenAI: In early talks to give 5% stake to US Government"
+    },
     "https://www.theverge.com/ai-artificial-intelligence/957327/anthropic-mythos-fable-ai-trump-administration-negotiations": {
       "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/957327/anthropic-mythos-fable-ai-trump-administration-negotiations",
       "created_at": "2026-06-26T15:14:45Z",
@@ -4012,6 +4007,12 @@
       "status": "scoring_attempted",
       "title": "OpenAI is teasing new hardware\u2026 for Codex"
     },
+    "https://www.theverge.com/ai-artificial-intelligence/960588/openai-government-5-percent-stake-trump": {
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/960588/openai-government-5-percent-stake-trump",
+      "created_at": "2026-07-02T12:10:20Z",
+      "status": "scoring_attempted",
+      "title": "OpenAI floats giving Trump administration 5 percent cut of AI boom"
+    },
     "https://www.theverge.com/column/956756/world-cup-streaming": {
       "canonical_url": "https://www.theverge.com/column/956756/world-cup-streaming",
       "created_at": "2026-06-25T15:31:40Z",
@@ -4053,6 +4054,12 @@
       "created_at": "2026-06-27T22:31:55Z",
       "status": "scoring_attempted",
       "title": "Teenage Engineering adds lo-fi mode, USB audio, and more to its KO II sampler"
+    },
+    "https://www.theverge.com/entertainment/960265/silo-season-3-apple-tv-interview-mystery-box": {
+      "canonical_url": "https://www.theverge.com/entertainment/960265/silo-season-3-apple-tv-interview-mystery-box",
+      "created_at": "2026-07-02T12:10:20Z",
+      "status": "scoring_attempted",
+      "title": "Mystery box shows are complicated for everyone \u2014 even the actors"
     },
     "https://www.theverge.com/gadgets/906880/lg-ultragear-tandem-oled-1440p-gaming-monitor-deal-sale": {
       "canonical_url": "https://www.theverge.com/gadgets/906880/lg-ultragear-tandem-oled-1440p-gaming-monitor-deal-sale",
@@ -4438,6 +4445,12 @@
       "status": "scoring_attempted",
       "title": "Amazon fined $2.25 million for failing to help identity theft victims"
     },
+    "https://www.theverge.com/tech/959848/bittorrent-story-25-years-piracy": {
+      "canonical_url": "https://www.theverge.com/tech/959848/bittorrent-story-25-years-piracy",
+      "created_at": "2026-07-02T12:10:20Z",
+      "status": "scoring_attempted",
+      "title": "BitTorrent&#8217;s disastrous, legendary, and controversial story"
+    },
     "https://www.theverge.com/tech/960047/getty-shutterstock-merger-agreement-termination": {
       "canonical_url": "https://www.theverge.com/tech/960047/getty-shutterstock-merger-agreement-termination",
       "created_at": "2026-07-01T10:17:12Z",
@@ -4491,12 +4504,6 @@
       "created_at": "2026-06-26T01:32:02Z",
       "status": "scoring_attempted",
       "title": "Anthropic Thinks Its Own Success Is Key to Making AI Safe"
-    },
-    "https://www.wired.com/story/british-police-built-a-sprawling-crime-prediction-machine-some-results-couldnt-be-trusted": {
-      "canonical_url": "https://www.wired.com/story/british-police-built-a-sprawling-crime-prediction-machine-some-results-couldnt-be-trusted",
-      "created_at": "2026-06-25T10:13:43Z",
-      "status": "scoring_attempted",
-      "title": "British Police Built a Sprawling Crime-Prediction Machine. Some Results Couldn\u2019t Be Trusted"
     },
     "https://www.wired.com/story/claude-helped-a-hacker-find-a-way-to-issue-tickets-to-almost-every-us-music-festival": {
       "canonical_url": "https://www.wired.com/story/claude-helped-a-hacker-find-a-way-to-issue-tickets-to-almost-every-us-music-festival",
