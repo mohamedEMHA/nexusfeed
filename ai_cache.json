@@ -64,27 +64,104 @@
         }
       }
     },
-    "05f8efcdeb6eab01ae8df46afae5ea0952786dd9c959b52612a37811fc3ee67a": {
-      "created_at": "2026-07-01T01:34:16Z",
+    "02cfe0d79201866f2efa91da52ed2632dbd7fe6d7454e82280ac015db7b4bc08": {
+      "created_at": "2026-07-02T05:40:12Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 3,
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 0,
             "novelty_score": 2.5,
-            "reason": "Important industry move but low source tier and novelty score.",
+            "reason": "New research on dynamic human-AI preference alignment, but niche impact.",
             "red_flag": false,
             "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5",
-            "total_score": 7.0
+            "source_score": 1,
+            "title": "Constructive Alignment: Governing Preference Dynamics in Human-AI Interaction",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "New framework for moral computation, but niche impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Bounded Morality: Defining the Space of Moral Computation",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "New data model for knowledge interoperability, but niche impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "The MMM Data Model -- A Normative Specification for Knowledge Interoperability in a Decentralisable Knowledge Commons",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "New framework for safe web data collection, but niche impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Making Failure Safe: A Constrained, Verifiable Agent Framework for Open-Web Data Collection",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 4,
+            "novelty_score": 2.5,
+            "reason": "New path planning for air traffic control, but niche impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Solution space path planning for supporting en-route air traffic control",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 5,
+            "novelty_score": 2.5,
+            "reason": "New autonomous medical reasoning for rare disease diagnosis with broader impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "RareDxR1: Autonomous Medical Reasoning for Rare Disease Diagnosis Beyond Human Annotation",
+            "total_score": 8
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 6,
+            "novelty_score": 2.5,
+            "reason": "New oversight game framework, but niche impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "A Contextual-Bandit Oversight Game with Two-Sided Informational Asymmetry",
+            "total_score": 7
           }
         ],
-        "best_index": 3,
-        "best_score": 7.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
+        "best_index": 5,
+        "best_score": 8,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Researchers have developed RareDxR1, an AI model designed to improve rare disease diagnosis by going beyond human annotation capabilities. This could significantly impact medical diagnostics. Link: https://arxiv.org/abs/2607.00147",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *RareDxR1: Autonomous Medical Reasoning for Rare Disease Diagnosis Beyond Human Annotation*\n\nNew AI model tackles rare disease diagnosis by going beyond human annotation limits.\n\n\ud83c\udfdb\ufe0f Source: arXiv cs.AI (C)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8/10\n\n\ud83d\udd17 https://arxiv.org/abs/2607.00147\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "RareDxR1 is a new AI model that aims to enhance rare disease diagnosis by surpassing human annotation limitations. This could be a game-changer for medical diagnostics. https://arxiv.org/abs/2607.00147",
+          "twitter": "New AI model RareDxR1 tackles rare disease diagnosis beyond human annotation limits. https://arxiv.org/abs/2607.00147"
+        }
       }
     },
     "06df2e53a1892cdbff8e50fa804aef8fa6ffdc97825f47c72f003578857278de": {
@@ -393,6 +470,89 @@
         ],
         "best_index": 1,
         "best_score": 7.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "2c5f4bd2508868ff756a5f4fda71d224db2b09671a08c7076b48808ca079147c": {
+      "created_at": "2026-07-02T05:40:12Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 19,
+            "novelty_score": 2.5,
+            "reason": "New research on reinforcement learning for interactive gameplay, but niche impact and lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Coachable agents for interactive gameplay",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 20,
+            "novelty_score": 2.5,
+            "reason": "New research on LLM agents, but niche impact and lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Self-GC: Self-Governing Context for Long-Horizon LLM Agents",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 21,
+            "novelty_score": 2.5,
+            "reason": "New research on self-evolving agents, but niche impact and lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Self-Evolving Agents with Anytime-Valid Certificates",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 22,
+            "novelty_score": 2.5,
+            "reason": "New research on reinforcement learning for scientific hypothesis generation, but niche impact and lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Graph-Native Reinforcement Learning Enables Traceable Scientific Hypothesis Generation through Conceptual Recombination",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 23,
+            "novelty_score": 2.5,
+            "reason": "New research on uncertainty propagation in RAG pipelines, but niche impact and lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Bayesian Uncertainty Propagation for Agentic RAG Pipelines: A Proof-of-Concept Study on Multi-Hop Question Answering",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 24,
+            "novelty_score": 2.5,
+            "reason": "New research on pedestrian traffic management, but niche impact and lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "PedNStream: Scalable Network Flow Simulation for Pedestrian Traffic Management",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 19,
+        "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -802,6 +962,177 @@
         "social_posts": {}
       }
     },
+    "722101c02c2404acf1092b41c17c45c3049b41d858a59a63f4f16d11b3ec78db": {
+      "created_at": "2026-07-02T05:40:12Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 13,
+            "novelty_score": 2.5,
+            "reason": "New benchmark for evaluating tool-augmented scientific simulator agents.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "PHREEQC-MCQ-200: A Diagnostic Benchmark for Tool-Augmented Scientific Simulator Agents",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 14,
+            "novelty_score": 2.5,
+            "reason": "New multi-agent LLM system for context-aware agricultural advisory generation.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Agri-SAGE: Simulation-Grounded Multi-Agent LLM for Context-Aware Agricultural Advisory Generation",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 15,
+            "novelty_score": 2.5,
+            "reason": "New approach to multi-scale reasoning and knowledge adaptation for embodied agents.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Multi-scale Mixture of World Models for Embodied Agents in Evolving Environments",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 16,
+            "novelty_score": 2,
+            "reason": "Survey and roadmap for AI-native games, defining the concept and future directions.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "AI Native Games: A Survey and Roadmap",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 17,
+            "novelty_score": 2.5,
+            "reason": "New method for robust safety alignment in LLMs by coupling harmfulness and refusal directions.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "HARC: Coupling Harmfulness and Refusal Directions for Robust Safety Alignment",
+            "total_score": 8
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 18,
+            "novelty_score": 2.5,
+            "reason": "New benchmark framework for evaluating world-modeling agents.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "AGI Maze as a Benchmark Framework for World-Modeling Agents",
+            "total_score": 7
+          }
+        ],
+        "best_index": 17,
+        "best_score": 8,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Researchers introduced HARC, a new approach to safety alignment in LLMs. It couples harmfulness and refusal directions to improve robustness. This could be a significant step forward in making LLMs safer. Link: https://arxiv.org/abs/2607.00572",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *HARC: Coupling Harmfulness and Refusal Directions for Robust Safety Alignment*\n\nResearchers introduced HARC, a new method for robust safety alignment in LLMs by coupling harmfulness and refusal directions.\n\n\ud83c\udfdb\ufe0f Source: arXiv cs.AI (C)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8/10\n\n\ud83d\udd17 https://arxiv.org/abs/2607.00572\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "HARC method advances LLM safety alignment by coupling harmfulness and refusal directions. Could this be the breakthrough we need? https://arxiv.org/abs/2607.00572",
+          "twitter": "New HARC method couples harmfulness and refusal directions for robust safety alignment in LLMs. https://arxiv.org/abs/2607.00572"
+        }
+      }
+    },
+    "7da35f8829bd346cec8499b8db73aff2f2e943b910f7d735771dd6221d9fef99": {
+      "created_at": "2026-07-02T05:40:12Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 7,
+            "novelty_score": 2.5,
+            "reason": "Research on epistemic thinking in AI-assisted programming education.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Constructing Epistemic AI Literacy: Detecting Epistemic Aims and Processes in Student-AI Co-Programming",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2,
+            "index": 8,
+            "novelty_score": 2.5,
+            "reason": "Research on memory architectures in LLM agents and language emergence.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "From Signals to Structure: How Memory Architecture Drives Language Emergence in LLM Agents",
+            "total_score": 7.0
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2,
+            "index": 9,
+            "novelty_score": 2.5,
+            "reason": "New model series Seed2.0 addressing real-world task complexity.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Seed2.0 Model Card: Towards Intelligence Frontier for Real-World Complexity",
+            "total_score": 7.0
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2,
+            "index": 10,
+            "novelty_score": 2.5,
+            "reason": "New approach for validating and repairing AI-generated workflows.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Mnemosyne: Agentic Transaction Processing for Validating and Repairing AI-generated Workflows",
+            "total_score": 7.0
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2,
+            "index": 11,
+            "novelty_score": 2.5,
+            "reason": "Research on safety and governance for autonomous agents in cyber-physical systems.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Managed Autonomy at Runtime: Gear-Based Safety and Governance for Single- and Multi-Agent Cyber-Physical Systems",
+            "total_score": 7.0
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 12,
+            "novelty_score": 2.5,
+            "reason": "Research on personalization in agentic slide generation.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Personalization as Inverse Planning: Learning Latent Design Intents for Agentic Slide Generation via Structural Denoising",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 9,
+        "best_score": 7.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "8afd9d75d5257d2fd67c9fccc4d3ab0b06e9c3d30edbcca6b1c6383ec4c39a3c": {
       "created_at": "2026-07-01T06:08:53Z",
       "payload": {
@@ -971,29 +1302,6 @@
         "social_posts": {}
       }
     },
-    "a3494b379eb8d51d93b02a800a2eace0bb7fffe481867eb7268f6173a0eefb05": {
-      "created_at": "2026-07-01T01:34:16Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 4,
-            "novelty_score": 2.5,
-            "reason": "Significant policy change affecting AI model accessibility.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "The Trump Administration Is Lifting Its Export Controls on Anthropic\u2019s Mythos and Fable AI Models",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 4,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "acc33394faa102f86dd2a9e1e46cc75596316a9fcd84d4fd221969753aaecc75": {
       "created_at": "2026-07-02T01:26:31Z",
       "payload": {
@@ -1015,69 +1323,6 @@
         "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "b8a038d9f99489cc0e86ca0cf36c1dc25f769c74f24e39b8482d43bb102f60fa": {
-      "created_at": "2026-07-01T01:34:16Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "Anthropic's Claude Fable 5 returning after export control lift is significant but not groundbreaking.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Anthropic\u2019s long-sidelined Fable 5 is greenlit to return",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 2,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "c1918392bd801b9c8e122c739fb33c2cfeda5e9f7cf6649a2bc3076581d43943": {
-      "created_at": "2026-07-01T01:34:16Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Meta's move to limit AI features on its smart glasses to 3 hours/month unless users pay a $20/month subscription is a significant industry shift.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Meta is adding ridiculous \u2018rate limits\u2019 and a soft paywall to its smart glasses",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "While notable, this political news about crypto deals lacks direct relevance to software engineers and AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "The President Made More Than $1Billon in Crypto Deals",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Meta is introducing a controversial paywall for its smart glasses AI features, limiting free use to just 3 hours per month. This move could set a precedent for AI hardware monetization. Link: https://www.theverge.com/gadgets/959899/meta-ai-glasses-paywall-rate-limit",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Meta is adding \u2018rate limits\u2019 and a soft paywall to its smart glasses*\n\nMeta is locking AI features on its smart glasses behind a $20/month paywall, limiting free use to 3 hours per month.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/gadgets/959899/meta-ai-glasses-paywall-rate-limit\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Meta's smart glasses AI features now require a $20/month subscription after 3 hours of use. This could change how we think about AI hardware access. https://www.theverge.com/gadgets/959899/meta-ai-glasses-paywall-rate-limit",
-          "twitter": "Meta is locking AI features on its smart glasses behind a $20/month paywall. https://www.theverge.com/gadgets/959899/meta-ai-glasses-paywall-rate-limit"
-        }
       }
     },
     "c23f699c476e75337ea7d0eb0a98b5a89e58595b29b3303f01f3f191823c042c": {
@@ -2647,6 +2892,156 @@
       "status": "scoring_attempted",
       "title": "Scenario Generation for Testing of Autonomous Driving Systems Using Real-World Failure Records"
     },
+    "https://arxiv.org/abs/2607.00001": {
+      "canonical_url": "https://arxiv.org/abs/2607.00001",
+      "created_at": "2026-07-02T05:40:12Z",
+      "status": "scoring_attempted",
+      "title": "Constructive Alignment: Governing Preference Dynamics in Human-AI Interaction"
+    },
+    "https://arxiv.org/abs/2607.00002": {
+      "canonical_url": "https://arxiv.org/abs/2607.00002",
+      "created_at": "2026-07-02T05:40:12Z",
+      "status": "scoring_attempted",
+      "title": "Bounded Morality: Defining the Space of Moral Computation"
+    },
+    "https://arxiv.org/abs/2607.00032": {
+      "canonical_url": "https://arxiv.org/abs/2607.00032",
+      "created_at": "2026-07-02T05:40:12Z",
+      "status": "scoring_attempted",
+      "title": "The MMM Data Model -- A Normative Specification for Knowledge Interoperability in a Decentralisable Knowledge Commons"
+    },
+    "https://arxiv.org/abs/2607.00035": {
+      "canonical_url": "https://arxiv.org/abs/2607.00035",
+      "created_at": "2026-07-02T05:40:12Z",
+      "status": "scoring_attempted",
+      "title": "Making Failure Safe: A Constrained, Verifiable Agent Framework for Open-Web Data Collection"
+    },
+    "https://arxiv.org/abs/2607.00064": {
+      "canonical_url": "https://arxiv.org/abs/2607.00064",
+      "created_at": "2026-07-02T05:40:12Z",
+      "status": "scoring_attempted",
+      "title": "Solution space path planning for supporting en-route air traffic control"
+    },
+    "https://arxiv.org/abs/2607.00147": {
+      "canonical_url": "https://arxiv.org/abs/2607.00147",
+      "created_at": "2026-07-02T05:40:12Z",
+      "status": "scoring_attempted",
+      "title": "RareDxR1: Autonomous Medical Reasoning for Rare Disease Diagnosis Beyond Human Annotation"
+    },
+    "https://arxiv.org/abs/2607.00155": {
+      "canonical_url": "https://arxiv.org/abs/2607.00155",
+      "created_at": "2026-07-02T05:40:12Z",
+      "status": "scoring_attempted",
+      "title": "A Contextual-Bandit Oversight Game with Two-Sided Informational Asymmetry"
+    },
+    "https://arxiv.org/abs/2607.00211": {
+      "canonical_url": "https://arxiv.org/abs/2607.00211",
+      "created_at": "2026-07-02T05:40:12Z",
+      "status": "scoring_attempted",
+      "title": "Constructing Epistemic AI Literacy: Detecting Epistemic Aims and Processes in Student-AI Co-Programming"
+    },
+    "https://arxiv.org/abs/2607.00233": {
+      "canonical_url": "https://arxiv.org/abs/2607.00233",
+      "created_at": "2026-07-02T05:40:12Z",
+      "status": "scoring_attempted",
+      "title": "From Signals to Structure: How Memory Architecture Drives Language Emergence in LLM Agents"
+    },
+    "https://arxiv.org/abs/2607.00248": {
+      "canonical_url": "https://arxiv.org/abs/2607.00248",
+      "created_at": "2026-07-02T05:40:12Z",
+      "status": "scoring_attempted",
+      "title": "Seed2.0 Model Card: Towards Intelligence Frontier for Real-World Complexity"
+    },
+    "https://arxiv.org/abs/2607.00269": {
+      "canonical_url": "https://arxiv.org/abs/2607.00269",
+      "created_at": "2026-07-02T05:40:12Z",
+      "status": "scoring_attempted",
+      "title": "Mnemosyne: Agentic Transaction Processing for Validating and Repairing AI-generated Workflows"
+    },
+    "https://arxiv.org/abs/2607.00334": {
+      "canonical_url": "https://arxiv.org/abs/2607.00334",
+      "created_at": "2026-07-02T05:40:12Z",
+      "status": "scoring_attempted",
+      "title": "Managed Autonomy at Runtime: Gear-Based Safety and Governance for Single- and Multi-Agent Cyber-Physical Systems"
+    },
+    "https://arxiv.org/abs/2607.00407": {
+      "canonical_url": "https://arxiv.org/abs/2607.00407",
+      "created_at": "2026-07-02T05:40:12Z",
+      "status": "scoring_attempted",
+      "title": "Personalization as Inverse Planning: Learning Latent Design Intents for Agentic Slide Generation via Structural Denoising"
+    },
+    "https://arxiv.org/abs/2607.00436": {
+      "canonical_url": "https://arxiv.org/abs/2607.00436",
+      "created_at": "2026-07-02T05:40:12Z",
+      "status": "scoring_attempted",
+      "title": "PHREEQC-MCQ-200: A Diagnostic Benchmark for Tool-Augmented Scientific Simulator Agents"
+    },
+    "https://arxiv.org/abs/2607.00454": {
+      "canonical_url": "https://arxiv.org/abs/2607.00454",
+      "created_at": "2026-07-02T05:40:12Z",
+      "status": "scoring_attempted",
+      "title": "Agri-SAGE: Simulation-Grounded Multi-Agent LLM for Context-Aware Agricultural Advisory Generation"
+    },
+    "https://arxiv.org/abs/2607.00457": {
+      "canonical_url": "https://arxiv.org/abs/2607.00457",
+      "created_at": "2026-07-02T05:40:12Z",
+      "status": "scoring_attempted",
+      "title": "Multi-scale Mixture of World Models for Embodied Agents in Evolving Environments"
+    },
+    "https://arxiv.org/abs/2607.00527": {
+      "canonical_url": "https://arxiv.org/abs/2607.00527",
+      "created_at": "2026-07-02T05:40:12Z",
+      "status": "scoring_attempted",
+      "title": "AI Native Games: A Survey and Roadmap"
+    },
+    "https://arxiv.org/abs/2607.00572": {
+      "canonical_url": "https://arxiv.org/abs/2607.00572",
+      "created_at": "2026-07-02T05:40:12Z",
+      "status": "scoring_attempted",
+      "title": "HARC: Coupling Harmfulness and Refusal Directions for Robust Safety Alignment"
+    },
+    "https://arxiv.org/abs/2607.00627": {
+      "canonical_url": "https://arxiv.org/abs/2607.00627",
+      "created_at": "2026-07-02T05:40:12Z",
+      "status": "scoring_attempted",
+      "title": "AGI Maze as a Benchmark Framework for World-Modeling Agents"
+    },
+    "https://arxiv.org/abs/2607.00642": {
+      "canonical_url": "https://arxiv.org/abs/2607.00642",
+      "created_at": "2026-07-02T05:40:12Z",
+      "status": "scoring_attempted",
+      "title": "Coachable agents for interactive gameplay"
+    },
+    "https://arxiv.org/abs/2607.00692": {
+      "canonical_url": "https://arxiv.org/abs/2607.00692",
+      "created_at": "2026-07-02T05:40:12Z",
+      "status": "scoring_attempted",
+      "title": "Self-GC: Self-Governing Context for Long-Horizon LLM Agents"
+    },
+    "https://arxiv.org/abs/2607.00871": {
+      "canonical_url": "https://arxiv.org/abs/2607.00871",
+      "created_at": "2026-07-02T05:40:12Z",
+      "status": "scoring_attempted",
+      "title": "Self-Evolving Agents with Anytime-Valid Certificates"
+    },
+    "https://arxiv.org/abs/2607.00924": {
+      "canonical_url": "https://arxiv.org/abs/2607.00924",
+      "created_at": "2026-07-02T05:40:12Z",
+      "status": "scoring_attempted",
+      "title": "Graph-Native Reinforcement Learning Enables Traceable Scientific Hypothesis Generation through Conceptual Recombination"
+    },
+    "https://arxiv.org/abs/2607.00972": {
+      "canonical_url": "https://arxiv.org/abs/2607.00972",
+      "created_at": "2026-07-02T05:40:12Z",
+      "status": "scoring_attempted",
+      "title": "Bayesian Uncertainty Propagation for Agentic RAG Pipelines: A Proof-of-Concept Study on Multi-Hop Question Answering"
+    },
+    "https://arxiv.org/abs/2607.01021": {
+      "canonical_url": "https://arxiv.org/abs/2607.01021",
+      "created_at": "2026-07-02T05:40:12Z",
+      "status": "scoring_attempted",
+      "title": "PedNStream: Scalable Network Flow Simulation for Pedestrian Traffic Management"
+    },
     "https://ayushtambde.com/blog/matrix-orthogonalization-improves-memory-in-recurrent-models": {
       "canonical_url": "https://ayushtambde.com/blog/matrix-orthogonalization-improves-memory-in-recurrent-models",
       "created_at": "2026-07-01T06:08:53Z",
@@ -3108,18 +3503,6 @@
       "created_at": "2026-07-01T20:21:20Z",
       "status": "scoring_attempted",
       "title": "Claude Fable 5 Promotional Access"
-    },
-    "https://techcrunch.com/2026/06/24/europe-is-pushing-back-on-washingtons-chip-war": {
-      "canonical_url": "https://techcrunch.com/2026/06/24/europe-is-pushing-back-on-washingtons-chip-war",
-      "created_at": "2026-06-25T01:28:38Z",
-      "status": "scoring_attempted",
-      "title": "Europe is pushing back on Washington\u2019s chip war"
-    },
-    "https://techcrunch.com/2026/06/24/former-infosys-chief-has-a-new-startup-that-wants-to-challenge-the-it-services-world": {
-      "canonical_url": "https://techcrunch.com/2026/06/24/former-infosys-chief-has-a-new-startup-that-wants-to-challenge-the-it-services-world",
-      "created_at": "2026-06-25T01:28:38Z",
-      "status": "scoring_attempted",
-      "title": "Former Infosys chief has a new startup that wants to challenge the IT services world"
     },
     "https://techcrunch.com/2026/06/25/2-days-left-to-save-up-to-190-join-1000-founders-and-investors-at-techcrunch-founder-summit": {
       "canonical_url": "https://techcrunch.com/2026/06/25/2-days-left-to-save-up-to-190-join-1000-founders-and-investors-at-techcrunch-founder-summit",
@@ -3630,12 +4013,6 @@
       "created_at": "2026-06-29T10:00:33Z",
       "status": "scoring_attempted",
       "title": "AI Tools Accelerates Coding, but Not Overall Software Delivery, GitLab Research Finds"
-    },
-    "https://www.infoq.com/news/2026/06/anthropic-html-markdown-agent": {
-      "canonical_url": "https://www.infoq.com/news/2026/06/anthropic-html-markdown-agent",
-      "created_at": "2026-06-25T01:28:38Z",
-      "status": "scoring_attempted",
-      "title": "Anthropic Lead: HTML Increasingly Better Than Markdown at Keeping Humans Engaged in Agentic Loops"
     },
     "https://www.infoq.com/news/2026/06/argocd-supply-chain-security": {
       "canonical_url": "https://www.infoq.com/news/2026/06/argocd-supply-chain-security",
