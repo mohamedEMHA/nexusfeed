@@ -414,37 +414,25 @@
         "social_posts": {}
       }
     },
-    "3feffbe5a97c3ba7b0e680d9cf42d9bec45dc414094c200c90c665f2a6540070": {
-      "created_at": "2026-07-01T20:21:20Z",
+    "3715f88e03777d6c43eb3c5e28bfd32e29970baebd9ab89201b393075d2e99d9": {
+      "created_at": "2026-07-02T20:45:32Z",
       "payload": {
         "articles": [
           {
             "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "Interesting project but niche impact and lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Show HN: Z-Jail \u2013 A 130 KB Linux sandbox-C99 with 7 defense layers and zero deps",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
+            "impact_score": 0.0,
             "index": 3,
-            "novelty_score": 2.5,
-            "reason": "New tool from GLM creators but lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "ZCode: Claude Code from the Makers of GLM",
-            "total_score": 7.0
+            "novelty_score": 0.0,
+            "reason": "This article is about grills and griddles, not relevant to software engineers or AI researchers.",
+            "red_flag": true,
+            "red_flag_reason": "tutorial",
+            "source_score": 1.5,
+            "title": "Weber marks down grills and griddles to their best prices ever for July 4th",
+            "total_score": 3.0
           }
         ],
         "best_index": 3,
-        "best_score": 7.0,
+        "best_score": 3.0,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -517,46 +505,6 @@
         "best_score": 8.0,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "524fce0c4c5259a3aa0c668154f23eb1da141df36d66927479d6a0d624447573": {
-      "created_at": "2026-07-01T20:21:20Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 4,
-            "novelty_score": 2.5,
-            "reason": "SpaceX's AI device prototype signals a potential expansion into wireless, impacting the tech industry.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "SpaceX has an AI device prototype, and it sure sounds phone-ish",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 5,
-            "novelty_score": 1.5,
-            "reason": "VC firm changes are niche and don't directly impact software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Ashton Kutcher leaving Sound Ventures to launch new VC firm with Morgan Beller",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 4,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "SpaceX reportedly unveiled a \"handset-like\" AI device to investors, suggesting a move into wireless technology. This could signal a new direction for the company beyond its traditional aerospace focus. Link: https://techcrunch.com/2026/07/01/spacex-has-an-ai-device-prototype-and-it-sure-sounds-phone-ish/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *SpaceX has an AI device prototype, and it sure sounds phone-ish*\n\nSpaceX reportedly showed investors a \"handset-like\" AI device before going public. It could be another signal SpaceX wants to expand into wireless.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/01/spacex-has-an-ai-device-prototype-and-it-sure-sounds-phone-ish/",
-          "threads": "SpaceX showed investors a \"handset-like\" AI device, hinting at a potential expansion into wireless. This could signal a new direction for the company. https://techcrunch.com/2026/07/01/spacex-has-an-ai-device-prototype-and-it-sure-sounds-phone-ish/",
-          "twitter": "SpaceX showed investors a \"handset-like\" AI device, hinting at a potential expansion into wireless.\nhttps://techcrunch.com/2026/07/01/spacex-has-an-ai-device-prototype-and-it-sure-sounds-phone-ish/"
-        }
       }
     },
     "56de88d50b9950dfabedf7e20157004a9d037e1cf0b206ed1e3219e153357965": {
@@ -683,6 +631,34 @@
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "679f6513483a8026816ae764a858149f5104f529c012417650b733ff3b92a648": {
+      "created_at": "2026-07-02T20:45:32Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "IPO analysis with AI angle is novel and impactful, but not groundbreaking.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Jersey Mike\u2019s IPO illustrates how bad the AI hype has become",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Jersey Mike\u2019s IPO documents show how pervasive AI hype has become, even in unexpected places like the sandwich industry. The analysis highlights the extent of AI\u2019s influence and the pressure to incorporate it, even where it may not be necessary. Link: https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Jersey Mike\u2019s IPO illustrates how bad the AI hype has become*\n\nJersey Mike\u2019s IPO documents reveal how AI hype has infiltrated even sandwich shops. The analysis highlights the extent of AI\u2019s influence and the pressure to incorporate it, even where it may not be necessary.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become/",
+          "threads": "Jersey Mike\u2019s IPO documents reveal how AI hype has infiltrated even sandwich shops. The analysis highlights the extent of AI\u2019s influence and the pressure to incorporate it, even where it may not be necessary. https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become/",
+          "twitter": "Jersey Mike\u2019s IPO documents reveal how AI hype has infiltrated even sandwich shops. https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become/"
+        }
       }
     },
     "722101c02c2404acf1092b41c17c45c3049b41d858a59a63f4f16d11b3ec78db": {
@@ -1012,29 +988,6 @@
         "social_posts": {}
       }
     },
-    "9b888362842bf0b0a1a21b8b16c3213b7d1cf2c8f0bfef8146ea662d898a71b9": {
-      "created_at": "2026-07-01T20:21:20Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 7,
-            "novelty_score": 2.5,
-            "reason": "New product launch but limited impact and from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Weave Robotics launches Isaac 1, a $7,999 home robot with fall 2026 deliveries",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 7,
-        "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "acc33394faa102f86dd2a9e1e46cc75596316a9fcd84d4fd221969753aaecc75": {
       "created_at": "2026-07-02T01:26:31Z",
       "payload": {
@@ -1206,46 +1159,6 @@
         "best_score": 5.5,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "db112de7d58317d465d7c0d2b76d129ec817c006dbb5b159b9002162c92747a3": {
-      "created_at": "2026-07-01T20:21:20Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Elon Musk's denial of SpaceX's AI phone prototype is a significant industry move with broad impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Elon Musk denies a report about SpaceX\u2019s AI phone prototype",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 0,
-            "index": 1,
-            "novelty_score": 0,
-            "reason": "No substantive content, just comments",
-            "red_flag": true,
-            "red_flag_reason": "No substantive content, just comments",
-            "source_score": 0.5,
-            "title": "Claude Fable 5 Promotional Access",
-            "total_score": 2.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Elon Musk has denied reports that SpaceX is developing an AI phone prototype, calling them \"utterly false.\" The Wall Street Journal had reported that SpaceX showed off a \"handset-like prototype\" to some investors before its record-breaking IPO in June. Link: https://www.theverge.com/science/960442/spacex-phone-prototype-elon-musk",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Elon Musk denies a report about SpaceX\u2019s AI phone prototype*\n\nElon Musk has denied reports that SpaceX is developing an AI phone prototype, calling them \"utterly false.\" The Wall Street Journal had reported that SpaceX showed off a \"handset-like prototype\" to some investors before its record-breaking IPO in June.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/science/960442/spacex-phone-prototype-elon-musk\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Elon Musk just denied reports that SpaceX is working on an AI phone prototype. He called the claims \"utterly false.\" The Wall Street Journal had reported that SpaceX showed off a \"handset-like prototype\" to some investors before its record-breaking IPO in June. https://www.theverge.com/science/960442/spacex-phone-prototype-elon-musk",
-          "twitter": "Elon Musk denies SpaceX is developing an AI phone prototype, calling reports \"utterly false.\" https://www.theverge.com/science/960442/spacex-phone-prototype-elon-musk"
-        }
       }
     },
     "dd9c4c8ea44744cb3934809f45cab866136801c9380831b13fd653359d7ca5b3": {
@@ -1499,15 +1412,6 @@
         "twitter": "European nations seek to develop their own AI capabilities, potentially leveraging the aftermath of Donald Trump's presidency, @Wired @EU_Commission #AI"
       }
     },
-    "17c7945159dccd51754061ee702a702f710c29ff5665651f06b4efc7819a57b0": {
-      "created_at": "2026-06-25T20:33:19Z",
-      "payload": {
-        "facebook": "The demand for AI agent testing is on the rise, with Patronus AI, founded by former Meta AI researchers, experiencing significant demand. This has led to the company securing $50M in funding to build digital worlds that stress-test AI agents. #AItesting #DigitalWorlds #ArtificialIntelligence",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Patronus AI Secures Funding for AI Agent Testing\nPatronus AI, founded by former Meta AI researchers, has raised $50M to develop digital worlds that stress-test AI agents.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AItesting #DigitalWorlds #ArtificialIntelligence\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Patronus AI, founded by former Meta AI researchers, has raised $50M to build digital worlds for AI agent testing, a move that highlights the growing need for robust AI testing solutions @TechCrunch #AItesting",
-        "twitter": "Former Meta AI researchers' startup Patronus AI secures $50M to develop digital worlds for AI agent testing @TechCrunch #AItesting"
-      }
-    },
     "1ad2744bbff64148394165ffbbda8b957fea4977f428ff98537fe3be1f0e5d2f": {
       "created_at": "2026-07-02T18:00:22Z",
       "payload": {
@@ -1659,6 +1563,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Eliya 25 Improves Java Diagnostics\nEliya 25.0.3 has been released, offering an OpenJDK 25 LTS distribution with enhanced production diagnostics for Java environments.\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (B)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#Java #OpenJDK #Eliya25\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Eliya 25 brings significant diagnostic improvements to Java environments with its JVM-level profiling for OpenJDK 25 LTS, a boon for teams needing reliable data @AsymmSystems #Java",
         "twitter": "Java environments just got a diagnostic boost with Eliya 25, bringing JVM-level profiling to OpenJDK 25 LTS @AsymmSystems #Java"
+      }
+    },
+    "6d6102daae9460854b84811e7f3860788cbc351421cecba064093dd956f9fa6d": {
+      "created_at": "2026-07-02T20:45:32Z",
+      "payload": {
+        "facebook": "The recent IPO of Jersey Mike's is a prime example of how AI hype has become ubiquitous, even in the food industry. The company's IPO documents mention AI, which may seem unnecessary for a sandwich shop. This trend is worth exploring further, #AI #IPO #TechNews",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 AI Hype Reaches New Heights\nThe recent Jersey Mike's IPO has sparked debate about the role of AI in the food industry, with the company's IPO documents surprisingly mentioning AI.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #IPO #TechNews\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Jersey Mike's IPO is the latest example of AI hype, with the company mentioning AI in its IPO documents, @TechCrunch #AI",
+        "twitter": "AI hype has reached new heights with Jersey Mike's IPO mentioning AI, @TechCrunch reports, #AIhype #IPO"
       }
     },
     "72a76825218cf79c0816053b7f47a8a52ff40e0212f2816182a74ea8aa9e746d": {
@@ -1926,18 +1839,6 @@
       "created_at": "2026-07-02T12:10:20Z",
       "status": "scoring_attempted",
       "title": "Google\u2019s AI buildout drove 37% increase in electricity use in 2025"
-    },
-    "https://arstechnica.com/gadgets/2026/06/notion-killing-skiff-influenced-email-app-since-most-users-use-ai-agents-instead": {
-      "canonical_url": "https://arstechnica.com/gadgets/2026/06/notion-killing-skiff-influenced-email-app-since-most-users-use-ai-agents-instead",
-      "created_at": "2026-06-25T20:33:19Z",
-      "status": "scoring_attempted",
-      "title": "Notion killing Skiff-influenced email app since most users use AI agents instead"
-    },
-    "https://arstechnica.com/google/2026/06/google-finance-finally-gets-a-mobile-app-as-ai-powered-overhaul-leaves-beta": {
-      "canonical_url": "https://arstechnica.com/google/2026/06/google-finance-finally-gets-a-mobile-app-as-ai-powered-overhaul-leaves-beta",
-      "created_at": "2026-06-25T20:33:19Z",
-      "status": "scoring_attempted",
-      "title": "Google finally releases a Finance Android app, promises iOS version later in 2026"
     },
     "https://arstechnica.com/health/2026/06/doctors-suspected-man-had-brain-cancer-he-actually-had-worms": {
       "canonical_url": "https://arstechnica.com/health/2026/06/doctors-suspected-man-had-brain-cancer-he-actually-had-worms",
@@ -2737,12 +2638,6 @@
       "status": "scoring_attempted",
       "title": "DeepSeek open-sources inference optimizations with 60\u201385% faster generation [pdf]"
     },
-    "https://github.com/inkeep/open-knowledge": {
-      "canonical_url": "https://github.com/inkeep/open-knowledge",
-      "created_at": "2026-06-25T20:33:19Z",
-      "status": "scoring_attempted",
-      "title": "Show HN: OpenKnowledge \u2013 open source AI-first alternative to Obsidian/Notion"
-    },
     "https://github.com/itsthelore/wayfinder-router": {
       "canonical_url": "https://github.com/itsthelore/wayfinder-router",
       "created_at": "2026-06-28T04:54:40Z",
@@ -2971,12 +2866,6 @@
       "status": "scoring_attempted",
       "title": "LLMs help robots understand vague instructions and focus on key details"
     },
-    "https://news.mit.edu/2026/mit-media-exploring-how-curiosity-driven-science-essential-ingredient-americas-success": {
-      "canonical_url": "https://news.mit.edu/2026/mit-media-exploring-how-curiosity-driven-science-essential-ingredient-americas-success",
-      "created_at": "2026-06-25T20:33:19Z",
-      "status": "scoring_attempted",
-      "title": "MIT in the media: Exploring how curiosity-driven science is an essential ingredient in America\u2019s success"
-    },
     "https://news.mit.edu/2026/mit-media-innovating-and-educating-next-250-years-america": {
       "canonical_url": "https://news.mit.edu/2026/mit-media-innovating-and-educating-next-250-years-america",
       "created_at": "2026-07-01T21:55:17Z",
@@ -3096,12 +2985,6 @@
       "created_at": "2026-07-01T20:21:20Z",
       "status": "scoring_attempted",
       "title": "Claude Fable 5 Promotional Access"
-    },
-    "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents": {
-      "canonical_url": "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents",
-      "created_at": "2026-06-25T20:33:19Z",
-      "status": "scoring_attempted",
-      "title": "Patronus AI lands $50M to build \u2018digital worlds\u2019 that stress-test AI agents"
     },
     "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns": {
       "canonical_url": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns",
@@ -3348,6 +3231,12 @@
       "created_at": "2026-07-02T19:44:21Z",
       "status": "scoring_attempted",
       "title": "Anthropic is discussing a new custom chip with Samsung"
+    },
+    "https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become": {
+      "canonical_url": "https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become",
+      "created_at": "2026-07-02T20:45:32Z",
+      "status": "scoring_attempted",
+      "title": "Jersey Mike\u2019s IPO illustrates how bad the AI hype has become"
     },
     "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket": {
       "canonical_url": "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket",
@@ -3715,12 +3604,6 @@
       "status": "scoring_attempted",
       "title": "Presentation: Enhancing Reliability Using Service-Level Prioritized Load Shedding at Netflix"
     },
-    "https://www.marktechpost.com/2026/06/25/deepreinforce-releases-ornith-1-0-an-open-source-coding-model-family-that-learns-its-own-rl-scaffolds": {
-      "canonical_url": "https://www.marktechpost.com/2026/06/25/deepreinforce-releases-ornith-1-0-an-open-source-coding-model-family-that-learns-its-own-rl-scaffolds",
-      "created_at": "2026-06-25T20:33:19Z",
-      "status": "scoring_attempted",
-      "title": "DeepReinforce Releases Ornith-1.0: An Open-Source Coding Model Family That Learns Its Own RL Scaffolds"
-    },
     "https://www.marktechpost.com/2026/06/26/cursor-study-finds-reward-hacking-inflates-coding-agent-benchmark-scores-on-swe-bench-pro": {
       "canonical_url": "https://www.marktechpost.com/2026/06/26/cursor-study-finds-reward-hacking-inflates-coding-agent-benchmark-scores-on-swe-bench-pro",
       "created_at": "2026-06-27T01:59:03Z",
@@ -4015,12 +3898,6 @@
       "status": "scoring_attempted",
       "title": "Xreal\u2019s best USB-C smart glasses are $50 off, but not for long"
     },
-    "https://www.theverge.com/gadgets/957170/xbox-series-s-x-prime-day-deal-sale": {
-      "canonical_url": "https://www.theverge.com/gadgets/957170/xbox-series-s-x-prime-day-deal-sale",
-      "created_at": "2026-06-25T20:33:19Z",
-      "status": "scoring_attempted",
-      "title": "Score a discounted Xbox console before the prices jump"
-    },
     "https://www.theverge.com/gadgets/957338/framework-laptop-13-pro-ssd-price-cpu": {
       "canonical_url": "https://www.theverge.com/gadgets/957338/framework-laptop-13-pro-ssd-price-cpu",
       "created_at": "2026-06-25T22:08:36Z",
@@ -4080,6 +3957,12 @@
       "created_at": "2026-07-01T18:23:15Z",
       "status": "scoring_attempted",
       "title": "My favorite Kindle alternative is $30 off after a recent price increase"
+    },
+    "https://www.theverge.com/gadgets/960558/weber-july-4th-grill-griddle-sale-deal": {
+      "canonical_url": "https://www.theverge.com/gadgets/960558/weber-july-4th-grill-griddle-sale-deal",
+      "created_at": "2026-07-02T20:45:32Z",
+      "status": "scoring_attempted",
+      "title": "Weber marks down grills and griddles to their best prices ever for July 4th"
     },
     "https://www.theverge.com/games/957474/whats-the-password-review-pc-ios-android": {
       "canonical_url": "https://www.theverge.com/games/957474/whats-the-password-review-pc-ios-android",
@@ -4224,18 +4107,6 @@
       "created_at": "2026-06-30T18:17:43Z",
       "status": "scoring_attempted",
       "title": "Netflix is using an AI-generated Gene Wilder voice in its Willy Wonka reality show"
-    },
-    "https://www.theverge.com/tech/956456/instagram-for-tv-youtube-microdramas-longform-video": {
-      "canonical_url": "https://www.theverge.com/tech/956456/instagram-for-tv-youtube-microdramas-longform-video",
-      "created_at": "2026-06-25T20:33:19Z",
-      "status": "scoring_attempted",
-      "title": "Instagram wants to monopolize your attention"
-    },
-    "https://www.theverge.com/tech/956950/ram-crisis-apple-price-increase": {
-      "canonical_url": "https://www.theverge.com/tech/956950/ram-crisis-apple-price-increase",
-      "created_at": "2026-06-25T20:33:19Z",
-      "status": "scoring_attempted",
-      "title": "RAMageddon just got extremely real"
     },
     "https://www.theverge.com/tech/957521/trump-mobile-t1-phone-open-sale-no-deposit": {
       "canonical_url": "https://www.theverge.com/tech/957521/trump-mobile-t1-phone-open-sale-no-deposit",
