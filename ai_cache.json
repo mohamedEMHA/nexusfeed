@@ -192,6 +192,29 @@
         "social_posts": {}
       }
     },
+    "1b8555d411693f632e536d1e101e04ef9867c0ea151a298a92af09440941dcf3": {
+      "created_at": "2026-07-02T19:44:21Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1,
+            "impact_score": 1.5,
+            "index": 13,
+            "novelty_score": 2.5,
+            "reason": "Opinion piece on LLM code in dependencies with moderate impact and freshness.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "No LLM Code in Dependencies",
+            "total_score": 5.5
+          }
+        ],
+        "best_index": 13,
+        "best_score": 5.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "2702c03b0c7b00e3f6ac9f09065f3e1b3751f514ebb6b88557e8b59212820f92": {
       "created_at": "2026-07-02T01:26:31Z",
       "payload": {
@@ -422,6 +445,41 @@
         ],
         "best_index": 3,
         "best_score": 7.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "4763d3c67a85e692e5787fcbac21d8101f32204ac4281910fa4477060a7bb03b": {
+      "created_at": "2026-07-02T19:44:21Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "Vulkan support on NetBSD is notable but niche.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Vulkan is now available on NetBSD",
+            "total_score": 5.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "Anthropic's potential custom chip with Samsung could reshape AI hardware.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Anthropic is discussing a new custom chip with Samsung",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 3,
+        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -873,46 +931,6 @@
         }
       }
     },
-    "8e9015defdab22fb6fef1d4fa90c31040aee199da3751725345e8c63ffbcc151": {
-      "created_at": "2026-07-01T18:23:15Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 5,
-            "novelty_score": 2.5,
-            "reason": "Anthropic's advanced AI models getting global release after US safety testing is a significant industry move with broad impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "After spooking Trump into safety testing, Anthropic AI models get global release",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 0.5,
-            "index": 6,
-            "novelty_score": 0.2,
-            "reason": "A consumer electronics deal with limited relevance to software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "My favorite Kindle alternative is $30 off after a recent price increase",
-            "total_score": 4.2
-          }
-        ],
-        "best_index": 5,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Anthropic's advanced AI models, Fable and Mythos, have received global release after the US lifted restrictions following safety testing. This marks a significant milestone in AI deployment. Link: https://arstechnica.com/tech-policy/2026/07/after-spooking-trump-into-safety-testing-anthropic-ai-models-get-global-release/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *After spooking Trump into safety testing, Anthropic AI models get global release*\n\nUS lifts curbs on Anthropic\u2019s advanced Fable and Mythos models.\n\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://arstechnica.com/tech-policy/2026/07/after-spooking-trump-into-safety-testing-anthropic-ai-models-get-global-release/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Anthropic's Fable and Mythos models are now globally available after US safety testing. A big step for AI deployment. https://arstechnica.com/tech-policy/2026/07/after-spooking-trump-into-safety-testing-anthropic-ai-models-get-global-release/",
-          "twitter": "Anthropic's Fable and Mythos models get global release after US safety testing. https://arstechnica.com/tech-policy/2026/07/after-spooking-trump-into-safety-testing-anthropic-ai-models-get-global-release/"
-        }
-      }
-    },
     "920825d86cc34f803b81eaef078366fe9fd09b0babe3794e24b05943fdfcb6ab": {
       "created_at": "2026-07-02T14:31:05Z",
       "payload": {
@@ -1087,55 +1105,43 @@
         "social_posts": {}
       }
     },
-    "c23f699c476e75337ea7d0eb0a98b5a89e58595b29b3303f01f3f191823c042c": {
-      "created_at": "2026-07-01T18:23:15Z",
+    "ba4b668e9d75b09700c55442a771427b10218d2b2808c12d8480841d444abe37": {
+      "created_at": "2026-07-02T19:44:21Z",
       "payload": {
         "articles": [
           {
             "freshness_score": 2.0,
-            "impact_score": 0.0,
+            "impact_score": 2.5,
             "index": 0,
-            "novelty_score": 0.0,
-            "reason": "Red flag triggered by 'in 2026'",
-            "red_flag": true,
-            "red_flag_reason": "in 2026",
-            "source_score": 2.0,
-            "title": "The latest AI news we announced in June 2026",
-            "total_score": 0.0
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "New tool for reporting AI safety issues, relevant to all developers and researchers",
+            "novelty_score": 3.0,
+            "reason": "Meta's new AI gaming app Pocket is a significant release with broad appeal.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 1.5,
-            "title": "You Can Now Sound the Alarm on AI Behaving Badly",
-            "total_score": 8.0
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "Cloudflare's new policy impacts AI companies and publishers, a significant industry move",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Cloudflare\u2019s new policy pushes AI companies to pay for publishers\u2019 content",
+            "title": "Meta quietly launches vibe-coded gaming app Pocket",
             "total_score": 8.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 0.0,
+            "index": 1,
+            "novelty_score": 0.0,
+            "reason": "This is just a comment thread, not a substantive article.",
+            "red_flag": true,
+            "red_flag_reason": "Comments",
+            "source_score": 0.5,
+            "title": "Claude's AskUserQuestion: \"No response after 60s \u2013 continued without an answer\"",
+            "total_score": 2.5
           }
         ],
-        "best_index": 2,
+        "best_index": 0,
         "best_score": 8.5,
         "recommendation": "POST_NOW",
         "social_posts": {
-          "facebook": "Cloudflare is now requiring AI companies to separate web crawlers for search and AI training, or face being blocked by default on many publisher sites. This new policy could significantly impact how AI models are trained and deployed. Link: https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Cloudflare\u2019s new policy pushes AI companies to pay for publishers\u2019 content*\n\nCloudflare is giving AI companies until September 15 to separate web crawlers used for search from those used for AI training and agents, or risk being blocked by default on many publisher sites.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/",
-          "threads": "Cloudflare just made AI companies choose: pay for publisher content or get blocked by default. This could reshape the AI training landscape.\nhttps://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/",
-          "twitter": "Cloudflare just forced AI companies to pay for publisher content or risk being blocked. A major shift in the AI training landscape.\nhttps://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/"
+          "facebook": "Meta has quietly released Pocket, an experimental AI app that allows users to generate and share interactive mini-games using text prompts. This could be a significant move in the gaming space. Link: https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Meta quietly launches vibe-coded gaming app Pocket*\n\nMeta has quietly launched Pocket, an experimental AI app that lets users generate and share interactive mini games using text prompts.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Meta's new Pocket app lets users create and share interactive mini-games with text prompts. This is a quiet but potentially significant release. https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/",
+          "twitter": "Meta just launched Pocket, an AI app that lets users create and share interactive mini-games with text prompts. https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/"
         }
       }
     },
@@ -1198,41 +1204,6 @@
         ],
         "best_index": 2,
         "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "d54afcf161aac6e4d3a77e4bcb70516dc38dcd6ccb62f25c3f98e1cba6c1711b": {
-      "created_at": "2026-07-01T18:23:15Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 3,
-            "novelty_score": 2.0,
-            "reason": "Industry move with moderate impact and high freshness.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Krafton settles with Subnautica 2 developer after drawn-out dispute over $250 million",
-            "total_score": 7.0
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.0,
-            "index": 4,
-            "novelty_score": 0.0,
-            "reason": "Question in title triggers red flag.",
-            "red_flag": true,
-            "red_flag_reason": "Question in title",
-            "source_score": 0.5,
-            "title": "Are readers generating fiction with AI models?",
-            "total_score": 2.0
-          }
-        ],
-        "best_index": 3,
-        "best_score": 7.0,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1411,41 +1382,6 @@
         "social_posts": {}
       }
     },
-    "f5b4960f2bf4eb7ed18d6a60a11fb904ebaf25ed9ad004c7c1e8fdd43d20e713": {
-      "created_at": "2026-07-01T18:23:15Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 7,
-            "novelty_score": 2.5,
-            "reason": "Interesting update on GPU snapshotting but limited impact and source tier.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Reduce GVisor Cold Starts with GPU Snapshotting",
-            "total_score": 6.0
-          },
-          {
-            "freshness_score": 1.0,
-            "impact_score": 2.5,
-            "index": 24,
-            "novelty_score": 3.0,
-            "reason": "New open-source 3D physics engine with significant impact but lower source tier.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Box3D, an open source 3D physics engine",
-            "total_score": 7.0
-          }
-        ],
-        "best_index": 24,
-        "best_score": 7.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "f82453ed0a0756fcfde2b8409531c0ab5025d6625b599b69132d2dd8f81225ed": {
       "created_at": "2026-07-02T09:58:07Z",
       "payload": {
@@ -1495,6 +1431,34 @@
         "best_score": 4.5,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "ffea47876d420c2e2c9c2fc995f3c9cc29867d204bd1bf6ce0de9d5254376367": {
+      "created_at": "2026-07-02T19:44:21Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 4,
+            "novelty_score": 2.5,
+            "reason": "Cursor's acquisition by SpaceX raises questions about the future of third-party AI models on its platform.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Can Cursor Remain a Platform for OpenAI and Anthropic\u2019s Models Inside SpaceX?",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 4,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Cursor's acquisition by SpaceX raises questions about whether it will continue to support third-party AI models from OpenAI and Anthropic. This move could reshape the AI landscape.\nLink: https://www.wired.com/story/can-cursor-remain-an-open-platform-inside-of-spacex/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Can Cursor Remain a Platform for OpenAI and Anthropic\u2019s Models Inside SpaceX?*\n\nCursor's future as an open platform for OpenAI and Anthropic models is in question after SpaceX acquisition.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.wired.com/story/can-cursor-remain-an-open-platform-inside-of-spacex/",
+          "threads": "Cursor's future as an open platform for OpenAI and Anthropic models is in question after SpaceX acquisition. This could reshape the AI landscape.\nhttps://www.wired.com/story/can-cursor-remain-an-open-platform-inside-of-spacex/",
+          "twitter": "Cursor's future as an open platform for OpenAI and Anthropic models is in question after SpaceX acquisition.\nhttps://www.wired.com/story/can-cursor-remain-an-open-platform-inside-of-spacex/"
+        }
       }
     }
   },
@@ -1868,13 +1832,13 @@
         "twitter": "Anthropic's AI models get government clearance after adding new security measures @AnthropicAI #AIsecurity"
       }
     },
-    "eba3bb40f2c632428fae9a5351e1d3be4e4d04fb953649e8bc4781f424f5ddfc": {
-      "created_at": "2026-06-25T18:29:51Z",
+    "eade5cdce1060552c8a60771f34f6412d600e7cccc2b2d43cc2eb763b12e0209": {
+      "created_at": "2026-07-02T19:44:21Z",
       "payload": {
-        "facebook": "A recent incident has highlighted the vulnerability of AI systems to cloning attacks. Anthropic is calling for action against Alibaba, which allegedly used thousands of accounts to exploit Claude. This raises important questions about the security of AI models #AIsecurity #cloningattack #technews",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Alibaba Cloning Attack\nAlibaba allegedly used 25,000 accounts to mine Anthropic's Claude over 28.8 million exchanges.\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9/10\n#AIsecurity #cloningattack #technews\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Anthropic claims Alibaba has launched a large-scale attack on its Claude model, using 25,000 accounts to mine capabilities @AnthropicAI #AIsecurity",
-        "twitter": "Alibaba faces backlash from Anthropic over alleged Claude cloning attack involving 25,000 accounts @AnthropicAI #AIsecurity"
+        "facebook": "Meta has introduced an experimental AI app called Pocket, which enables users to create and share interactive mini games using text prompts. This move marks a notable shift in the gaming landscape, with potential implications for the industry. #AIgaming #Meta #gamedevelopment",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Meta Launches AI Gaming App Pocket\nMeta has quietly launched an experimental AI app that lets users generate and share interactive mini games using text prompts.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n#AIgaming #Meta #gamedevelopment\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Meta's new AI gaming app Pocket is a significant development, allowing users to generate interactive mini games using text prompts, a notable step forward in gaming technology @Meta #AIgaming",
+        "twitter": "Meta's new AI gaming app Pocket allows users to generate interactive mini games using text prompts, a significant development in gaming @Meta #AIgaming"
       }
     },
     "f20fe88381bd43966b847be5aa158249f9d1a309bc7904ff3c2bda18e70d3f80": {
@@ -1986,12 +1950,6 @@
       "created_at": "2026-06-30T20:23:51Z",
       "status": "scoring_attempted",
       "title": "New attack provides one more reason why AI browsers are a bad idea"
-    },
-    "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities": {
-      "canonical_url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
-      "created_at": "2026-06-25T18:29:51Z",
-      "status": "scoring_attempted",
-      "title": "Anthropic says Alibaba must be punished for largest Claude cloning attack"
     },
     "https://arstechnica.com/tech-policy/2026/06/microsoft-built-supercomputer-to-help-openai-infringe-copyrights-nyt-alleged": {
       "canonical_url": "https://arstechnica.com/tech-policy/2026/06/microsoft-built-supercomputer-to-help-openai-infringe-copyrights-nyt-alleged",
@@ -2755,6 +2713,12 @@
       "status": "scoring_attempted",
       "title": "Show HN: NanoEuler \u2013 GPT-2 scale model in pure C/CUDA from scratch"
     },
+    "https://github.com/anthropics/claude-code/issues/73125": {
+      "canonical_url": "https://github.com/anthropics/claude-code/issues/73125",
+      "created_at": "2026-07-02T19:44:21Z",
+      "status": "scoring_attempted",
+      "title": "Claude's AskUserQuestion: \"No response after 60s \u2013 continued without an answer\""
+    },
     "https://github.com/bikini/exploitarium": {
       "canonical_url": "https://github.com/bikini/exploitarium",
       "created_at": "2026-06-27T16:20:01Z",
@@ -2839,6 +2803,12 @@
       "status": "scoring_attempted",
       "title": "IBM MCGA Gate Array Reverse Engineering"
     },
+    "https://github.com/segaboy/vulkan-netbsd": {
+      "canonical_url": "https://github.com/segaboy/vulkan-netbsd",
+      "created_at": "2026-07-02T19:44:21Z",
+      "status": "scoring_attempted",
+      "title": "Vulkan is now available on NetBSD"
+    },
     "https://github.com/skx/slisp": {
       "canonical_url": "https://github.com/skx/slisp",
       "created_at": "2026-06-26T21:40:00Z",
@@ -2910,6 +2880,12 @@
       "created_at": "2026-06-28T04:54:40Z",
       "status": "scoring_attempted",
       "title": "Response to AI slop is from Robin Williams"
+    },
+    "https://joeyh.name/blog/entry/no_LLM_code_in_dependencies": {
+      "canonical_url": "https://joeyh.name/blog/entry/no_LLM_code_in_dependencies",
+      "created_at": "2026-07-02T19:44:21Z",
+      "status": "scoring_attempted",
+      "title": "No LLM Code in Dependencies"
     },
     "https://mailmemories.com": {
       "canonical_url": "https://mailmemories.com",
@@ -3120,24 +3096,6 @@
       "created_at": "2026-07-01T20:21:20Z",
       "status": "scoring_attempted",
       "title": "Claude Fable 5 Promotional Access"
-    },
-    "https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt": {
-      "canonical_url": "https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt",
-      "created_at": "2026-06-25T18:29:51Z",
-      "status": "scoring_attempted",
-      "title": "Anthropic\u2019s Claude is winning over paid consumers, a market owned by ChatGPT"
-    },
-    "https://techcrunch.com/2026/06/25/databricks-former-ai-chief-thinks-he-can-cut-ais-power-bill-by-1000x": {
-      "canonical_url": "https://techcrunch.com/2026/06/25/databricks-former-ai-chief-thinks-he-can-cut-ais-power-bill-by-1000x",
-      "created_at": "2026-06-25T18:29:51Z",
-      "status": "scoring_attempted",
-      "title": "Databricks\u2019 former AI chief thinks he can cut AI\u2019s power bill by 1,000x"
-    },
-    "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world": {
-      "canonical_url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world",
-      "created_at": "2026-06-25T18:29:51Z",
-      "status": "scoring_attempted",
-      "title": "General Intuition\u2019s $2.3B bet that video games can train AI agents for the real world"
     },
     "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents": {
       "canonical_url": "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents",
@@ -3385,6 +3343,18 @@
       "status": "scoring_attempted",
       "title": "Venice AI becomes a unicorn with $65M Series A as its privacy-first AI platform takes off"
     },
+    "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung": {
+      "canonical_url": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung",
+      "created_at": "2026-07-02T19:44:21Z",
+      "status": "scoring_attempted",
+      "title": "Anthropic is discussing a new custom chip with Samsung"
+    },
+    "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket": {
+      "canonical_url": "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket",
+      "created_at": "2026-07-02T19:44:21Z",
+      "status": "scoring_attempted",
+      "title": "Meta quietly launches vibe-coded gaming app Pocket"
+    },
     "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment": {
       "canonical_url": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment",
       "created_at": "2026-07-02T14:31:05Z",
@@ -3426,12 +3396,6 @@
       "created_at": "2026-06-29T15:42:29Z",
       "status": "scoring_attempted",
       "title": "Tidal AI Policy"
-    },
-    "https://trakkr.ai/bias": {
-      "canonical_url": "https://trakkr.ai/bias",
-      "created_at": "2026-06-25T18:29:51Z",
-      "status": "scoring_attempted",
-      "title": "Political bias in AI: Where the AI models stand"
     },
     "https://tratt.net/laurie/blog/2026/local_reasoning_for_global_properties.html": {
       "canonical_url": "https://tratt.net/laurie/blog/2026/local_reasoning_for_global_properties.html",
@@ -3907,12 +3871,6 @@
       "status": "scoring_attempted",
       "title": "Meta loses bid to dismiss US states' claims that FB, Instagram addict children"
     },
-    "https://www.reuters.com/world/asia-pacific/apple-raises-prices-macbooks-ipads-memory-costs-skyrocket-2026-06-25": {
-      "canonical_url": "https://www.reuters.com/world/asia-pacific/apple-raises-prices-macbooks-ipads-memory-costs-skyrocket-2026-06-25",
-      "created_at": "2026-06-25T18:29:51Z",
-      "status": "scoring_attempted",
-      "title": "Apple raises prices of MacBooks, iPads"
-    },
     "https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies": {
       "canonical_url": "https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies",
       "created_at": "2026-06-27T05:35:51Z",
@@ -4057,12 +4015,6 @@
       "status": "scoring_attempted",
       "title": "Xreal\u2019s best USB-C smart glasses are $50 off, but not for long"
     },
-    "https://www.theverge.com/gadgets/957106/prime-day-ipad-deals-apple-price-hikes": {
-      "canonical_url": "https://www.theverge.com/gadgets/957106/prime-day-ipad-deals-apple-price-hikes",
-      "created_at": "2026-06-25T18:29:51Z",
-      "status": "scoring_attempted",
-      "title": "You won&#8217;t have long to get these iPad deals before Apple&#8217;s price hike"
-    },
     "https://www.theverge.com/gadgets/957170/xbox-series-s-x-prime-day-deal-sale": {
       "canonical_url": "https://www.theverge.com/gadgets/957170/xbox-series-s-x-prime-day-deal-sale",
       "created_at": "2026-06-25T20:33:19Z",
@@ -4128,12 +4080,6 @@
       "created_at": "2026-07-01T18:23:15Z",
       "status": "scoring_attempted",
       "title": "My favorite Kindle alternative is $30 off after a recent price increase"
-    },
-    "https://www.theverge.com/games/957042/xbox-price-increase-memory-shortage": {
-      "canonical_url": "https://www.theverge.com/games/957042/xbox-price-increase-memory-shortage",
-      "created_at": "2026-06-25T18:29:51Z",
-      "status": "scoring_attempted",
-      "title": "Xbox prices spike another $100 or more"
     },
     "https://www.theverge.com/games/957474/whats-the-password-review-pc-ios-android": {
       "canonical_url": "https://www.theverge.com/games/957474/whats-the-password-review-pc-ios-android",
@@ -4411,12 +4357,6 @@
       "status": "scoring_attempted",
       "title": "Cleared by the US, derailed by the UK: Getty\u2019s Shutterstock merger falls apart"
     },
-    "https://www.theverge.com/transportation/957033/polestar-banned-us-sales-china-software": {
-      "canonical_url": "https://www.theverge.com/transportation/957033/polestar-banned-us-sales-china-software",
-      "created_at": "2026-06-25T18:29:51Z",
-      "status": "scoring_attempted",
-      "title": "Polestar has been muscled out of the US market"
-    },
     "https://www.theverge.com/transportation/957685/tesla-q2-2026-sales-production-delivery-report": {
       "canonical_url": "https://www.theverge.com/transportation/957685/tesla-q2-2026-sales-production-delivery-report",
       "created_at": "2026-07-02T14:31:05Z",
@@ -4458,6 +4398,12 @@
       "created_at": "2026-06-26T01:32:02Z",
       "status": "scoring_attempted",
       "title": "Anthropic Thinks Its Own Success Is Key to Making AI Safe"
+    },
+    "https://www.wired.com/story/can-cursor-remain-an-open-platform-inside-of-spacex": {
+      "canonical_url": "https://www.wired.com/story/can-cursor-remain-an-open-platform-inside-of-spacex",
+      "created_at": "2026-07-02T19:44:21Z",
+      "status": "scoring_attempted",
+      "title": "Can Cursor Remain a Platform for OpenAI and Anthropic\u2019s Models Inside SpaceX?"
     },
     "https://www.wired.com/story/claude-helped-a-hacker-find-a-way-to-issue-tickets-to-almost-every-us-music-festival": {
       "canonical_url": "https://www.wired.com/story/claude-helped-a-hacker-find-a-way-to-issue-tickets-to-almost-every-us-music-festival",
@@ -4536,12 +4482,6 @@
       "created_at": "2026-07-01T01:34:16Z",
       "status": "scoring_attempted",
       "title": "The President Made More Than $1Billon in Crypto Deals"
-    },
-    "https://www.ycombinator.com/companies/besimple-ai/jobs/yWfhhOR-strategic-projects-lead-audio-data": {
-      "canonical_url": "https://www.ycombinator.com/companies/besimple-ai/jobs/yWfhhOR-strategic-projects-lead-audio-data",
-      "created_at": "2026-06-25T18:29:51Z",
-      "status": "scoring_attempted",
-      "title": "Besimple AI (YC P25) Is Hiring"
     },
     "https://www.ycombinator.com/companies/liva-ai/jobs/gvtc3Ep-founding-operations-lead": {
       "canonical_url": "https://www.ycombinator.com/companies/liva-ai/jobs/gvtc3Ep-founding-operations-lead",
