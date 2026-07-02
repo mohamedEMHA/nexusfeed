@@ -257,41 +257,6 @@
         "social_posts": {}
       }
     },
-    "10e716b9bc7f3cd71dbe87a07dde825c5f7fd50542e2b21f81b116e3d600cea5": {
-      "created_at": "2026-07-01T13:22:53Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "HeroUI v3 is a significant update for React and React Native developers, but it's not groundbreaking for the broader software engineering community.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "HeroUI v3 Lands as a Ground-Up Rewrite for React and React Native, Built on Tailwind CSS v4",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 1,
-            "novelty_score": 2,
-            "reason": "Sony's move to digital-only PlayStation games is notable but not directly relevant to software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Sony is killing all physical PlayStation game discs",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "16d5e21eee6b92c55931b524b9ff994cb179ada443b996d6b742f4ee03521487": {
       "created_at": "2026-07-02T12:10:20Z",
       "payload": {
@@ -739,29 +704,6 @@
         "social_posts": {}
       }
     },
-    "5a96f0c5636c6577bfeaa165a88405444495a78ddaf86979b30df4a7666b2daf": {
-      "created_at": "2026-07-01T13:22:53Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.0,
-            "index": 4,
-            "novelty_score": 0.0,
-            "reason": "Article is about EV supply chain, not range anxiety.",
-            "red_flag": true,
-            "red_flag_reason": "Title does not match article content",
-            "source_score": 1.5,
-            "title": "Range anxiety",
-            "total_score": 3.0
-          }
-        ],
-        "best_index": 4,
-        "best_score": 3.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "6653126fff88011124b858b3a32230916dfa81e7d1b48c3eb9b5e73a995f2c06": {
       "created_at": "2026-07-02T08:33:12Z",
       "payload": {
@@ -979,6 +921,41 @@
         "social_posts": {}
       }
     },
+    "87fd17a0374c0afb28bf9097f79e62e6c59d2df6919a1031ba4cbc1f363af955": {
+      "created_at": "2026-07-02T14:31:05Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 2.0,
+            "reason": "Microsoft's new AI deployment group is a significant industry move with substantial funding.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Microsoft launches its own AI deployment company with $2.5 billion commitment",
+            "total_score": 8.0
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.0,
+            "index": 3,
+            "novelty_score": 0.0,
+            "reason": "This article is an opinion piece and does not provide substantial technical or industry insights.",
+            "red_flag": true,
+            "red_flag_reason": "opinion",
+            "source_score": 0.5,
+            "title": "AI fake news complaining about how AI fake news is the death of real news",
+            "total_score": 2.0
+          }
+        ],
+        "best_index": 2,
+        "best_score": 8.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "89dce41cb61444654eb415f6b3d13fb1f96a74240a440bc46b90ab4d9333eb7f": {
       "created_at": "2026-07-02T12:10:20Z",
       "payload": {
@@ -1059,6 +1036,87 @@
         }
       }
     },
+    "920825d86cc34f803b81eaef078366fe9fd09b0babe3794e24b05943fdfcb6ab": {
+      "created_at": "2026-07-02T14:31:05Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 6,
+            "novelty_score": 2.5,
+            "reason": "Novelty is moderate as it's a creative use case of OpenClaw, impact is niche, and freshness is good.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Yep, we\u2019re using OpenClaw to date now",
+            "total_score": 5.5
+          }
+        ],
+        "best_index": 6,
+        "best_score": 5.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "93081a556fb17f83bf61a963f03ccc069aab8863b2270d80c2d92b4b3fa85d78": {
+      "created_at": "2026-07-02T14:31:05Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 1.5,
+            "reason": "Update on Tesla's Q2 sales performance, relevant to tech and automotive industries.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Tesla\u2019s Q2 sales jump 25 percent",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 1,
+            "novelty_score": 0.5,
+            "reason": "Opinion piece on AI in advertising, niche impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "AI won\u2019t save advertising, says Digitas\u2019 Amy Lanzi",
+            "total_score": 5.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "9a3f121fc0fd854d5f65d903bcf38e4866d12db9b4b76ba363a6f46e54da4395": {
+      "created_at": "2026-07-02T14:31:05Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 4,
+            "novelty_score": 2.5,
+            "reason": "Research on transformer layers in RL training, but low impact and source tier.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Is One Layer Enough? A Single Transformer Layer Matches Full-Parameter RL Training",
+            "total_score": 6.0
+          }
+        ],
+        "best_index": 4,
+        "best_score": 6.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "9b888362842bf0b0a1a21b8b16c3213b7d1cf2c8f0bfef8146ea662d898a71b9": {
       "created_at": "2026-07-01T20:21:20Z",
       "payload": {
@@ -1078,29 +1136,6 @@
         ],
         "best_index": 7,
         "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "a344779e699559afda6baa0285997a093e16077d361bef7016d09651d9ac6963": {
-      "created_at": "2026-07-01T13:22:53Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 5,
-            "novelty_score": 2.5,
-            "reason": "Panel discussion on scaling AI infrastructure, relevant to production engineers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Presentation: The Infrastructure Challenge Behind Production AI",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 5,
-        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1264,46 +1299,6 @@
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "d082fa66e28ae3f0eb39dc0df8ab99f948963e0a6304988d6801928da5b6e298": {
-      "created_at": "2026-07-01T13:22:53Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "Google's new smart speaker with Gemini AI integration is a significant industry move with broad impact on AI hardware adoption.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Google built a great smart speaker, but Gemini isn\u2019t ready for it",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 0.5,
-            "index": 3,
-            "novelty_score": 1.5,
-            "reason": "Nintendo's salary raise is a company-specific update with limited relevance to software engineers and AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Nintendo has raised its employees base salary by 10%",
-            "total_score": 4.5
-          }
-        ],
-        "best_index": 2,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Google's latest smart speaker integrates Gemini AI, but early reviews suggest the tech isn't ready for mainstream adoption. The Verge's hands-on look reveals the challenges of bringing AI to consumer hardware. Link: https://www.theverge.com/tech/959503/google-home-speaker-review-gemini-for-home",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Google built a great smart speaker, but Gemini isn\u2019t ready for it*\n\nGoogle's new smart speaker integrates Gemini AI, but early reviews suggest the tech isn't ready for mainstream adoption. The Verge's hands-on look reveals the challenges of bringing AI to consumer hardware.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/tech/959503/google-home-speaker-review-gemini-for-home\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Google's new smart speaker with Gemini AI gets a mixed review. The hardware is solid, but the AI integration needs work. https://www.theverge.com/tech/959503/google-home-speaker-review-gemini-for-home",
-          "twitter": "Google's new smart speaker shows Gemini AI isn't yet ready for prime time. A mixed review for AI-powered hardware.\nhttps://www.theverge.com/tech/959503/google-home-speaker-review-gemini-for-home"
-        }
       }
     },
     "d26ccfdbff89d94bc5ea1e420c38d429959e931db19f3364113b19a8fcac60b4": {
@@ -1891,15 +1886,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 China's Z.ai makes a breakthrough in cybersecurity with its GLM-5.2 model, reportedly matching Mythos in specific tasks.\nThe model shows promise in bug-finding and cybersecurity scenarios, although it lags behind in more general tasks.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#cybersecurity #AIresearch #technologyleadership\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "China's Z.ai has released its GLM-5.2 model, which reportedly matches Mythos in certain cybersecurity tasks, a significant step for the country's AI development @TheVerge #cybersecurity",
         "twitter": "China's Z.ai claims its GLM-5.2 model can match Mythos in certain cybersecurity tasks, a significant step for the country's AI development @TheVerge #cybersecurity"
-      }
-    },
-    "d9810a0c894e1c1d6b9d5b9261f479e44c76e298c5d9d15b840844c91b2fade2": {
-      "created_at": "2026-06-25T12:33:53Z",
-      "payload": {
-        "facebook": "Ford's recent ranking as No. 1 in JD Power's initial quality ranking among mainstream automakers comes after the company faced significant challenges with its automated systems. The errors made by these systems were so severe that Ford had to rehire former engineers to correct them. This experience highlights the real-world difficulties of implementing AI in manufacturing #AI #Automotive #Manufacturing",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Ford's Automated Systems Fail\nFord had to rehire former engineers to correct mistakes made by its automated systems, a common challenge in AI manufacturing.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #Automotive #Manufacturing\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Ford's automated systems created mistakes that were so significant the company had to rehire former engineers to fix them, a challenge that @TheVerge reports is a common issue in AI manufacturing #AI",
-        "twitter": "Ford's reliance on automated systems led to mistakes that required rehiring former engineers to fix, says @TheVerge, highlighting AI challenges in manufacturing #AI #Automotive"
       }
     },
     "dd273f231789bbbe51b4e79ed5d4e3d9b8ae075db577cfdb21b016d4c757ef04": {
@@ -2669,6 +2655,12 @@
       "status": "scoring_attempted",
       "title": "PedNStream: Scalable Network Flow Simulation for Pedestrian Traffic Management"
     },
+    "https://arxiv.org/abs/2607.01232": {
+      "canonical_url": "https://arxiv.org/abs/2607.01232",
+      "created_at": "2026-07-02T14:31:05Z",
+      "status": "scoring_attempted",
+      "title": "Is One Layer Enough? A Single Transformer Layer Matches Full-Parameter RL Train"
+    },
     "https://ayushtambde.com/blog/matrix-orthogonalization-improves-memory-in-recurrent-models": {
       "canonical_url": "https://ayushtambde.com/blog/matrix-orthogonalization-improves-memory-in-recurrent-models",
       "created_at": "2026-07-01T06:08:53Z",
@@ -3143,12 +3135,6 @@
       "status": "scoring_attempted",
       "title": "Adobe acquires image and video enhancement tool maker Topaz Labs"
     },
-    "https://techcrunch.com/2026/06/25/amazon-ups-india-bet-with-fresh-13b-ai-infrastructure-investment": {
-      "canonical_url": "https://techcrunch.com/2026/06/25/amazon-ups-india-bet-with-fresh-13b-ai-infrastructure-investment",
-      "created_at": "2026-06-25T12:33:53Z",
-      "status": "scoring_attempted",
-      "title": "Amazon ups India bet with fresh $13B AI infrastructure investment"
-    },
     "https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt": {
       "canonical_url": "https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt",
       "created_at": "2026-06-25T18:29:51Z",
@@ -3424,6 +3410,18 @@
       "created_at": "2026-07-01T16:03:57Z",
       "status": "scoring_attempted",
       "title": "Venice AI becomes a unicorn with $65M Series A as its privacy-first AI platform takes off"
+    },
+    "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment": {
+      "canonical_url": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment",
+      "created_at": "2026-07-02T14:31:05Z",
+      "status": "scoring_attempted",
+      "title": "Microsoft launches its own AI deployment company with $2.5 billion commitment"
+    },
+    "https://techcrunch.com/2026/07/02/yep-were-using-openclaw-to-date-now": {
+      "canonical_url": "https://techcrunch.com/2026/07/02/yep-were-using-openclaw-to-date-now",
+      "created_at": "2026-07-02T14:31:05Z",
+      "status": "scoring_attempted",
+      "title": "Yep, we\u2019re using OpenClaw to date now"
     },
     "https://techcrunch.com/podcast/openais-jalapeno-chip-is-big-techs-spiciest-move-away-from-nvidia": {
       "canonical_url": "https://techcrunch.com/podcast/openais-jalapeno-chip-is-big-techs-spiciest-move-away-from-nvidia",
@@ -3755,12 +3753,6 @@
       "status": "scoring_attempted",
       "title": "Presentation: Graph RAG: Building Smarter Retrieval Workflows with Knowledge Graphs"
     },
-    "https://www.infoq.com/presentations/rust-polyglot-sdk": {
-      "canonical_url": "https://www.infoq.com/presentations/rust-polyglot-sdk",
-      "created_at": "2026-06-25T12:33:53Z",
-      "status": "scoring_attempted",
-      "title": "Presentation: Rust at the Core - Accelerating Polyglot SDK Development"
-    },
     "https://www.infoq.com/presentations/service-level-prioritized-load-shedding": {
       "canonical_url": "https://www.infoq.com/presentations/service-level-prioritized-load-shedding",
       "created_at": "2026-07-02T09:58:07Z",
@@ -3880,6 +3872,12 @@
       "created_at": "2026-07-02T09:58:07Z",
       "status": "scoring_attempted",
       "title": "The Google Health API Got a CLI: ghealth is an Open-Source Tool for Your Fitbit Air Data"
+    },
+    "https://www.niemanlab.org/2026/07/now-were-getting-ai-fake-news-complaining-about-how-ai-fake-news-is-the-death-of-real-news": {
+      "canonical_url": "https://www.niemanlab.org/2026/07/now-were-getting-ai-fake-news-complaining-about-how-ai-fake-news-is-the-death-of-real-news",
+      "created_at": "2026-07-02T14:31:05Z",
+      "status": "scoring_attempted",
+      "title": "AI fake news complaining about how AI fake news is the death of real news"
     },
     "https://www.nytimes.com/2026/06/25/technology/openai-ipo-artificial-intelligence.html": {
       "canonical_url": "https://www.nytimes.com/2026/06/25/technology/openai-ipo-artificial-intelligence.html",
@@ -4229,12 +4227,6 @@
       "status": "scoring_attempted",
       "title": "The funeral for PlayStation discs has begun"
     },
-    "https://www.theverge.com/news/956095/worlds-first-solar-ebike-do-not-buy": {
-      "canonical_url": "https://www.theverge.com/news/956095/worlds-first-solar-ebike-do-not-buy",
-      "created_at": "2026-06-25T12:33:53Z",
-      "status": "scoring_attempted",
-      "title": "Is this solar e-bike a good idea or sophisticated e-waste?"
-    },
     "https://www.theverge.com/news/959382/avinox-mg-concept-gobao-mgu-ecvt": {
       "canonical_url": "https://www.theverge.com/news/959382/avinox-mg-concept-gobao-mgu-ecvt",
       "created_at": "2026-06-30T12:30:40Z",
@@ -4258,6 +4250,12 @@
       "created_at": "2026-06-28T12:14:15Z",
       "status": "scoring_attempted",
       "title": "Nest&#8217;s quest to fix your thermostat"
+    },
+    "https://www.theverge.com/podcast/959792/digitas-ceo-amy-lanzi-cannes-ad-industry-marketing-ai-creators": {
+      "canonical_url": "https://www.theverge.com/podcast/959792/digitas-ceo-amy-lanzi-cannes-ad-industry-marketing-ai-creators",
+      "created_at": "2026-07-02T14:31:05Z",
+      "status": "scoring_attempted",
+      "title": "AI won\u2019t save advertising, says Digitas\u2019 Amy Lanzi"
     },
     "https://www.theverge.com/policy/958974/supreme-court-slaughter-trump-decision-ftc-agency-independence": {
       "canonical_url": "https://www.theverge.com/policy/958974/supreme-court-slaughter-trump-decision-ftc-agency-independence",
@@ -4294,12 +4292,6 @@
       "created_at": "2026-07-01T20:21:20Z",
       "status": "scoring_attempted",
       "title": "Elon Musk denies a report about SpaceX&#8217;s AI phone prototype"
-    },
-    "https://www.theverge.com/streaming/956712/disney-youtube-tv-directv-streaming-settlement": {
-      "canonical_url": "https://www.theverge.com/streaming/956712/disney-youtube-tv-directv-streaming-settlement",
-      "created_at": "2026-06-25T12:33:53Z",
-      "status": "scoring_attempted",
-      "title": "Disney agrees to pay $50 million to YouTube TV and DirecTV subscribers"
     },
     "https://www.theverge.com/streaming/957422/youtube-shorts-update-tiktok": {
       "canonical_url": "https://www.theverge.com/streaming/957422/youtube-shorts-update-tiktok",
@@ -4457,17 +4449,17 @@
       "status": "scoring_attempted",
       "title": "Cleared by the US, derailed by the UK: Getty\u2019s Shutterstock merger falls apart"
     },
-    "https://www.theverge.com/transportation/956316/ford-quality-jd-power-ranking-ai-automated-mistakes": {
-      "canonical_url": "https://www.theverge.com/transportation/956316/ford-quality-jd-power-ranking-ai-automated-mistakes",
-      "created_at": "2026-06-25T12:33:53Z",
-      "status": "scoring_attempted",
-      "title": "Ford had to hire back former engineers to fix mistakes made by its automated systems"
-    },
     "https://www.theverge.com/transportation/957033/polestar-banned-us-sales-china-software": {
       "canonical_url": "https://www.theverge.com/transportation/957033/polestar-banned-us-sales-china-software",
       "created_at": "2026-06-25T18:29:51Z",
       "status": "scoring_attempted",
       "title": "Polestar has been muscled out of the US market"
+    },
+    "https://www.theverge.com/transportation/957685/tesla-q2-2026-sales-production-delivery-report": {
+      "canonical_url": "https://www.theverge.com/transportation/957685/tesla-q2-2026-sales-production-delivery-report",
+      "created_at": "2026-07-02T14:31:05Z",
+      "status": "scoring_attempted",
+      "title": "Tesla&#8217;s Q2 sales jump 25 percent"
     },
     "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model": {
       "canonical_url": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model",
