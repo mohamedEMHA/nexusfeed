@@ -201,29 +201,6 @@
         "social_posts": {}
       }
     },
-    "3715f88e03777d6c43eb3c5e28bfd32e29970baebd9ab89201b393075d2e99d9": {
-      "created_at": "2026-07-02T20:45:32Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.0,
-            "index": 3,
-            "novelty_score": 0.0,
-            "reason": "This article is about grills and griddles, not relevant to software engineers or AI researchers.",
-            "red_flag": true,
-            "red_flag_reason": "tutorial",
-            "source_score": 1.5,
-            "title": "Weber marks down grills and griddles to their best prices ever for July 4th",
-            "total_score": 3.0
-          }
-        ],
-        "best_index": 3,
-        "best_score": 3.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "3cb602aacee29ad5b6c715b800c72ae0a0906c868bd64b9aa7bef18e0a73b6fc": {
       "created_at": "2026-07-02T22:57:31Z",
       "payload": {
@@ -329,6 +306,29 @@
         ],
         "best_index": 6,
         "best_score": 4.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "57d8ca2a5df46f3cdd54d0475d6f002861731550e8f4d9f79343ef776a71dfe6": {
+      "created_at": "2026-07-03T21:21:34Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "Oak introduces a Git-like version control system for AI agents, which is novel and impactful but lacks widespread adoption and comes from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Oak: Git for Agents",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 3,
+        "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -479,32 +479,27 @@
         "social_posts": {}
       }
     },
-    "679f6513483a8026816ae764a858149f5104f529c012417650b733ff3b92a648": {
-      "created_at": "2026-07-02T20:45:32Z",
+    "7583d2ced2d1a0c0ea7fb162c7c6a3dc63c165da60f0fef0a48f782a5443d272": {
+      "created_at": "2026-07-03T21:21:34Z",
       "payload": {
         "articles": [
           {
             "freshness_score": 2.0,
             "impact_score": 2.5,
-            "index": 0,
+            "index": 1,
             "novelty_score": 2.5,
-            "reason": "IPO analysis with AI angle is novel and impactful, but not groundbreaking.",
+            "reason": "Espionage against the European Parliament is a significant development, but the source is a lower-tier one.",
             "red_flag": false,
             "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Jersey Mike\u2019s IPO illustrates how bad the AI hype has become",
-            "total_score": 8.5
+            "source_score": 0.5,
+            "title": "Espionage Against the European Parliament",
+            "total_score": 7.5
           }
         ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Jersey Mike\u2019s IPO documents show how pervasive AI hype has become, even in unexpected places like the sandwich industry. The analysis highlights the extent of AI\u2019s influence and the pressure to incorporate it, even where it may not be necessary. Link: https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Jersey Mike\u2019s IPO illustrates how bad the AI hype has become*\n\nJersey Mike\u2019s IPO documents reveal how AI hype has infiltrated even sandwich shops. The analysis highlights the extent of AI\u2019s influence and the pressure to incorporate it, even where it may not be necessary.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become/",
-          "threads": "Jersey Mike\u2019s IPO documents reveal how AI hype has infiltrated even sandwich shops. The analysis highlights the extent of AI\u2019s influence and the pressure to incorporate it, even where it may not be necessary. https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become/",
-          "twitter": "Jersey Mike\u2019s IPO documents reveal how AI hype has infiltrated even sandwich shops. https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become/"
-        }
+        "best_index": 1,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "75a4a54519f9c4cf4b328f8b032eeb2953d0eaabce455b773f743dea878ede59": {
@@ -768,6 +763,29 @@
         "social_posts": {}
       }
     },
+    "a59c32fbf450501994d42a6a12f9c6aae3347dc831bc1db7756675201fabeeab": {
+      "created_at": "2026-07-03T21:21:34Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 0.0,
+            "index": 0,
+            "novelty_score": 0.0,
+            "reason": "Red flag triggered: contains 'guide to'",
+            "red_flag": true,
+            "red_flag_reason": "contains 'guide to'",
+            "source_score": 1.5,
+            "title": "The only AI glossary you\u2019ll need this year",
+            "total_score": 0.0
+          }
+        ],
+        "best_index": 0,
+        "best_score": 0.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "a80f9d4dfd38679ac0f63135888f42da81f40bf4e2aa707860ff6cda6dcebdd4": {
       "created_at": "2026-07-03T18:45:09Z",
       "payload": {
@@ -810,6 +828,29 @@
         ],
         "best_index": 1,
         "best_score": 3.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "b73613000beeb414a6b97666a16f2181a79835ae7ef26534256fbc1d8de8dbff": {
+      "created_at": "2026-07-03T21:21:34Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 1.5,
+            "reason": "Update on Kagi's search features with AI toggle, moderate impact on users.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Kagi Changelog (July 2): Heads, tails, and an AI toggle",
+            "total_score": 5.5
+          }
+        ],
+        "best_index": 2,
+        "best_score": 5.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1532,15 +1573,6 @@
         "twitter": "Cloudflare's new policy requires AI companies to pay for publishers' content, @Cloudflare is giving them until September 15 to comply #AI #Cloudflare"
       }
     },
-    "afa08232c9084cc0c2e5f1b08ec0062b89a124ab96f8fbc883dd04bb0439dbf2": {
-      "created_at": "2026-06-26T20:08:19Z",
-      "payload": {
-        "facebook": "The New York Times has alleged that Microsoft built a supercomputer to assist OpenAI in infringing copyrights. This development comes after the SCOTUS ruling against Sony, which may have implications for AI companies. #AIethics #copyrightinfringement #techpolicy",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Microsoft Supercomputer Allegations\nThe New York Times has alleged that Microsoft built a supercomputer to assist OpenAI in infringing copyrights, following the SCOTUS ruling against Sony.\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AIethics #copyrightinfringement #techpolicy\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "NYT alleged that Microsoft's supercomputer was used to help OpenAI infringe copyrights, @OpenAI, this comes after the recent SCOTUS ruling #AIethics",
-        "twitter": "Microsoft's supercomputer allegedly helped OpenAI infringe copyrights, claims NYT, @OpenAI #AIethics"
-      }
-    },
     "b54abf50ffa6a42df488fcf297f729e994eef77b4e9d0dbfb1b69de00f6307f0": {
       "created_at": "2026-06-27T13:23:50Z",
       "payload": {
@@ -1689,12 +1721,6 @@
       "created_at": "2026-06-30T20:23:51Z",
       "status": "scoring_attempted",
       "title": "New attack provides one more reason why AI browsers are a bad idea"
-    },
-    "https://arstechnica.com/tech-policy/2026/06/microsoft-built-supercomputer-to-help-openai-infringe-copyrights-nyt-alleged": {
-      "canonical_url": "https://arstechnica.com/tech-policy/2026/06/microsoft-built-supercomputer-to-help-openai-infringe-copyrights-nyt-alleged",
-      "created_at": "2026-06-26T20:08:19Z",
-      "status": "scoring_attempted",
-      "title": "Microsoft built supercomputer to help OpenAI infringe copyrights, NYT alleged"
     },
     "https://arstechnica.com/tech-policy/2026/06/spacex-may-donate-stock-to-trumps-savings-accounts-for-kids-report-says": {
       "canonical_url": "https://arstechnica.com/tech-policy/2026/06/spacex-may-donate-stock-to-trumps-savings-accounts-for-kids-report-says",
@@ -2386,6 +2412,12 @@
       "status": "scoring_attempted",
       "title": "Reduce GVisor Cold Starts with GPU Snapshotting"
     },
+    "https://citizenlab.ca/research/member-of-committee-investigating-spyware-hacked-with-pegasus": {
+      "canonical_url": "https://citizenlab.ca/research/member-of-committee-investigating-spyware-hacked-with-pegasus",
+      "created_at": "2026-07-03T21:21:34Z",
+      "status": "scoring_attempted",
+      "title": "Espionage Against the European Parliament"
+    },
     "https://clashreport.com/world/articles/spain-orders-blacklist-of-us-tech-giant-palantir-from-public-and-private-companies-fsnc2z17gjv": {
       "canonical_url": "https://clashreport.com/world/articles/spain-orders-blacklist-of-us-tech-giant-palantir-from-public-and-private-companies-fsnc2z17gjv",
       "created_at": "2026-07-02T18:00:22Z",
@@ -2650,6 +2682,12 @@
       "status": "scoring_attempted",
       "title": "No LLM Code in Dependencies"
     },
+    "https://kagi.com/changelog": {
+      "canonical_url": "https://kagi.com/changelog",
+      "created_at": "2026-07-03T21:21:34Z",
+      "status": "scoring_attempted",
+      "title": "Kagi Changelog (July 2): Heads, tails, and an AI toggle"
+    },
     "https://mailmemories.com": {
       "canonical_url": "https://mailmemories.com",
       "created_at": "2026-07-02T16:04:35Z",
@@ -2752,6 +2790,12 @@
       "status": "scoring_attempted",
       "title": "US Grid Constraints: Towards 40GW+ of Behind-the-Meter Datacenter by 2028?"
     },
+    "https://oak.space": {
+      "canonical_url": "https://oak.space",
+      "created_at": "2026-07-03T21:21:34Z",
+      "status": "scoring_attempted",
+      "title": "Oak: Git for Agents"
+    },
     "https://okaneland.com/study/ai-productivity-roi-at-work": {
       "canonical_url": "https://okaneland.com/study/ai-productivity-roi-at-work",
       "created_at": "2026-07-03T18:45:09Z",
@@ -2847,12 +2891,6 @@
       "created_at": "2026-07-03T15:53:16Z",
       "status": "scoring_attempted",
       "title": "Show HN: TaskPeace \u2013 a task queue my AI coding agents pull work from over MCP"
-    },
-    "https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s": {
-      "canonical_url": "https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s",
-      "created_at": "2026-06-26T20:08:19Z",
-      "status": "scoring_attempted",
-      "title": "OpenAI poaches Uber India chief to lead its biggest market outside the US"
     },
     "https://techcrunch.com/2026/06/26/trump-admin-releases-anthropic-mythos-to-be-used-by-more-than-100-us-companies-agencies": {
       "canonical_url": "https://techcrunch.com/2026/06/26/trump-admin-releases-anthropic-mythos-to-be-used-by-more-than-100-us-companies-agencies",
@@ -3111,6 +3149,12 @@
       "created_at": "2026-07-02T14:31:05Z",
       "status": "scoring_attempted",
       "title": "Yep, we\u2019re using OpenClaw to date now"
+    },
+    "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms": {
+      "canonical_url": "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms",
+      "created_at": "2026-07-03T21:21:34Z",
+      "status": "scoring_attempted",
+      "title": "The only AI glossary you\u2019ll need this year"
     },
     "https://techcrunch.com/2026/07/03/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026": {
       "canonical_url": "https://techcrunch.com/2026/07/03/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026",
@@ -3477,18 +3521,6 @@
       "created_at": "2026-06-27T01:59:03Z",
       "status": "scoring_attempted",
       "title": "Cursor Study Finds Reward Hacking Inflates Coding-Agent Benchmark Scores on SWE-bench Pro"
-    },
-    "https://www.marktechpost.com/2026/06/26/openai-previews-gpt-5-6-with-sol-terra-and-luna-tiered-models-new-reasoning-modes-limited-access": {
-      "canonical_url": "https://www.marktechpost.com/2026/06/26/openai-previews-gpt-5-6-with-sol-terra-and-luna-tiered-models-new-reasoning-modes-limited-access",
-      "created_at": "2026-06-26T20:08:19Z",
-      "status": "scoring_attempted",
-      "title": "OpenAI Previews GPT-5.6 With Sol, Terra, and Luna: Tiered Models, New Reasoning Modes, Limited Access"
-    },
-    "https://www.marktechpost.com/2026/06/26/perplexity-launches-computer-for-counsel-a-multi-model-agentic-layer-for-legal-workflows": {
-      "canonical_url": "https://www.marktechpost.com/2026/06/26/perplexity-launches-computer-for-counsel-a-multi-model-agentic-layer-for-legal-workflows",
-      "created_at": "2026-06-26T20:08:19Z",
-      "status": "scoring_attempted",
-      "title": "Perplexity Launches Computer for Counsel: A Multi-Model Agentic Layer for Legal Workflows"
     },
     "https://www.marktechpost.com/2026/06/27/deepseek-releases-dspark-a-speculative-decoding-framework-that-accelerates-deepseek-v4-per-user-generation-60-85-over-mtp-1": {
       "canonical_url": "https://www.marktechpost.com/2026/06/27/deepseek-releases-dspark-a-speculative-decoding-framework-that-accelerates-deepseek-v4-per-user-generation-60-85-over-mtp-1",
@@ -4053,12 +4085,6 @@
       "created_at": "2026-07-02T14:31:05Z",
       "status": "scoring_attempted",
       "title": "Tesla&#8217;s Q2 sales jump 25 percent"
-    },
-    "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model": {
-      "canonical_url": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model",
-      "created_at": "2026-06-26T20:08:19Z",
-      "status": "scoring_attempted",
-      "title": "U.S. government will decide who gets to use GPT-5.6"
     },
     "https://www.weaverobotics.com/isaac-1": {
       "canonical_url": "https://www.weaverobotics.com/isaac-1",
