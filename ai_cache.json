@@ -58,6 +58,29 @@
         "social_posts": {}
       }
     },
+    "07216633e7b728ab86f36f731a6d9fed60245f9fef57148aa9019e0f29a25c5a": {
+      "created_at": "2026-07-03T22:31:22Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "New vulnerabilities tied to a major AI model release, but source is Tier C.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "New serious vulnerabilities spiked around release of Claude Mythos Preview",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "087bf96fcd3c2129c69850b65a2303985e1de1d3cf66bfe3530a7ae5d9192f43": {
       "created_at": "2026-07-03T01:04:17Z",
       "payload": {
@@ -174,29 +197,6 @@
         ],
         "best_index": 1,
         "best_score": 6.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "281d7899c1671a2b05edf44f96fb707142dff5643eeac09f141ff5d69efb1cf0": {
-      "created_at": "2026-07-02T21:53:01Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.5,
-            "index": 1,
-            "novelty_score": 0.2,
-            "reason": "Tutorial-style article with limited novelty and impact.",
-            "red_flag": true,
-            "red_flag_reason": "tutorial",
-            "source_score": 0.5,
-            "title": "The Short Leash AI Coding Method for Beating Fable",
-            "total_score": 2.2
-          }
-        ],
-        "best_index": 1,
-        "best_score": 2.2,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -502,34 +502,6 @@
         "social_posts": {}
       }
     },
-    "75a4a54519f9c4cf4b328f8b032eeb2953d0eaabce455b773f743dea878ede59": {
-      "created_at": "2026-07-02T21:53:01Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Meta's new AI-focused Pocket app introduces interactive \"gizmos\" built from AI prompts, marking a significant shift from the original read-it-later service.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Meta has a new app called Pocket that is absolutely nothing like the old Pocket",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Meta has launched a new app called Pocket, but it's not the read-it-later service you might remember. This version focuses on AI, allowing users to create and share interactive \"gizmos\" from prompts. It's a significant shift from the original Pocket app that Mozilla shut down last year.\nLink: https://www.theverge.com/tech/961086/meta-pocket-app-gizmo-ai",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\ud83d\udd25 *Meta launches new AI-focused Pocket app*\n\nMeta has introduced a new app called Pocket, but it's not the read-it-later service you might remember. This version focuses on AI, allowing users to create and share interactive \"gizmos\" from prompts. It's a significant shift from the original Pocket app that Mozilla shut down last year.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/tech/961086/meta-pocket-app-gizmo-ai\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Meta's new Pocket app is nothing like the old one. It's an AI-powered tool for creating and sharing interactive \"gizmos\" from prompts.\nhttps://www.theverge.com/tech/961086/meta-pocket-app-gizmo-ai",
-          "twitter": "Meta's new Pocket app lets users create AI-powered \"gizmos\" from prompts, a stark departure from the original read-it-later service.\nhttps://www.theverge.com/tech/961086/meta-pocket-app-gizmo-ai"
-        }
-      }
-    },
     "8104f6baaad64da7fd724bf322b7ff42709d3221d14054aeda717a01964645f9": {
       "created_at": "2026-07-03T18:45:09Z",
       "payload": {
@@ -632,29 +604,6 @@
         ],
         "best_index": 7,
         "best_score": 7,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "8989fc7832ecaa21332840b4ecd13b9d55e355bcc901ef8d8a74bb71c4f726c4": {
-      "created_at": "2026-07-02T21:53:01Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "Interesting concept but limited impact and from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Claude-real-video \u2013 any LLM can watch a video",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 2,
-        "best_score": 5.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -2358,12 +2307,6 @@
       "status": "scoring_attempted",
       "title": "Matrix Orthogonalization Improves Memory in Recurrent Models"
     },
-    "https://blog.doubleword.ai/frontier-os-llm": {
-      "canonical_url": "https://blog.doubleword.ai/frontier-os-llm",
-      "created_at": "2026-06-26T21:40:00Z",
-      "status": "scoring_attempted",
-      "title": "Prediction: A Frontier open-source LLM Will Be Released On 3rd December 2026"
-    },
     "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers": {
       "canonical_url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers",
       "created_at": "2026-06-30T08:18:38Z",
@@ -2453,6 +2396,12 @@
       "created_at": "2026-06-28T21:43:22Z",
       "status": "scoring_attempted",
       "title": "Professor denounces mass AI fraud on an exam at Brown"
+    },
+    "https://epoch.ai/data-insights/cve-severity-spike": {
+      "canonical_url": "https://epoch.ai/data-insights/cve-severity-spike",
+      "created_at": "2026-07-03T22:31:22Z",
+      "status": "scoring_attempted",
+      "title": "New serious vulnerabilities spiked around release of Claude Mythos Preview"
     },
     "https://forms.cloud.microsoft/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR6G-c11n8yFDlQmk4B-QjDxUQkdTTjZLU0EyTFFRV1E3NVRTVTRTWjRHMy4u&route=shorturl": {
       "canonical_url": "https://forms.cloud.microsoft/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR6G-c11n8yFDlQmk4B-QjDxUQkdTTjZLU0EyTFFRV1E3NVRTVTRTWjRHMy4u&route=shorturl",
@@ -2603,12 +2552,6 @@
       "created_at": "2026-07-02T19:44:21Z",
       "status": "scoring_attempted",
       "title": "Vulkan is now available on NetBSD"
-    },
-    "https://github.com/skx/slisp": {
-      "canonical_url": "https://github.com/skx/slisp",
-      "created_at": "2026-06-26T21:40:00Z",
-      "status": "scoring_attempted",
-      "title": "Slisp: Simple Lisp compiler (Linux/amd64)"
     },
     "https://github.com/teamchong/pxpipe": {
       "canonical_url": "https://github.com/teamchong/pxpipe",
