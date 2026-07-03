@@ -201,29 +201,6 @@
         "social_posts": {}
       }
     },
-    "3cb602aacee29ad5b6c715b800c72ae0a0906c868bd64b9aa7bef18e0a73b6fc": {
-      "created_at": "2026-07-02T22:57:31Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Alibaba's Page Agent is a novel approach to controlling web interfaces with natural language through the DOM, impacting developers working with web automation.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Meet Alibaba\u2019s Page Agent: A JavaScript In-Page GUI Agent That Controls Web Interfaces With Natural Language Through the DOM",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "4b5e7a84ba21cebd52b0dd0ef6137cceb7be8f4f8d89398c106bb53087d3b49f": {
       "created_at": "2026-07-03T12:06:05Z",
       "payload": {
@@ -712,6 +689,29 @@
         "social_posts": {}
       }
     },
+    "a2f3566fbe5ae9321dcfeb50228b209e48bdcf4651587c07fd78c1150300e8e4": {
+      "created_at": "2026-07-03T22:58:39Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.5,
+            "index": 1,
+            "novelty_score": 0.2,
+            "reason": "Tutorial-style article with limited impact and from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Software, from First Principles",
+            "total_score": 2.2
+          }
+        ],
+        "best_index": 1,
+        "best_score": 2.2,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "a59c32fbf450501994d42a6a12f9c6aae3347dc831bc1db7756675201fabeeab": {
       "created_at": "2026-07-03T21:21:34Z",
       "payload": {
@@ -996,29 +996,6 @@
         "social_posts": {}
       }
     },
-    "d60057e6e0263aebb4ea6564f6ba8a400700faaf2e06c2fb3b829a02311feb79": {
-      "created_at": "2026-07-02T22:57:31Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 0.2,
-            "reason": "Tutorial-style content with niche impact and a C-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Simple, beautiful Emacs modeline: modusregel",
-            "total_score": 3.2
-          }
-        ],
-        "best_index": 0,
-        "best_score": 3.2,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "d6818b823d0a7f58bf02e9abbd1dccb70234834ee0206da7b87860c3898cdcf7": {
       "created_at": "2026-07-03T09:53:21Z",
       "payload": {
@@ -1221,6 +1198,34 @@
         "best_score": 5.5,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "fe78d9d26c8203c2d747c563a5fc7a634de4b657e8cf9b6b0afd206c059e8c37": {
+      "created_at": "2026-07-03T22:58:39Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 3.0,
+            "reason": "Mistral AI released Leanstral 1.5, a significant new code agent model for Lean 4, with impressive benchmarks.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Mistral AI Releases Leanstral 1.5: An Apache-2.0 Lean 4 Code Agent Model Solving 587 of 672 PutnamBench Problems",
+            "total_score": 9.0
+          }
+        ],
+        "best_index": 0,
+        "best_score": 9.0,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Mistral AI just released Leanstral 1.5, a free Apache-2.0 code agent model for Lean 4. It's impressive: solves 587 of 672 PutnamBench problems and saturates miniF2F. The 119B mixture-of-experts model activates 6.5B parameters per token. This is a big deal for formal verification and theorem proving. Link: https://www.marktechpost.com/2026/07/03/mistral-ai-releases-leanstral-1-5-an-apache-2-0-lean-4-code-agent-model-solving-587-of-672-putnambench-problems/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Mistral AI Releases Leanstral 1.5: An Apache-2.0 Lean 4 Code Agent Model Solving 587 of 672 PutnamBench Problems*\n\nMistral AI released Leanstral 1.5, a free Apache-2.0 code agent model for Lean 4. It saturates miniF2F and solves 587 of 672 PutnamBench problems. The 119B mixture-of-experts model activates 6.5B parameters per token.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/07/03/mistral-ai-releases-leanstral-1-5-an-apache-2-0-lean-4-code-agent-model-solving-587-of-672-putnambench-problems/",
+          "threads": "Mistral AI's Leanstral 1.5 is a new Apache-2.0 Lean 4 code agent model that solves 587 of 672 PutnamBench problems and saturates miniF2F. The 119B mixture-of-experts model activates 6.5B parameters per token. https://www.marktechpost.com/2026/07/03/mistral-ai-releases-leanstral-1-5-an-apache-2-0-lean-4-code-agent-model-solving-587-of-672-putnambench-problems/",
+          "twitter": "Mistral AI's Leanstral 1.5 solves 587 of 672 PutnamBench problems, saturates miniF2F, and is Apache-2.0 licensed.\nhttps://www.marktechpost.com/2026/07/03/mistral-ai-releases-leanstral-1-5-an-apache-2-0-lean-4-code-agent-model-solving-587-of-672-putnambench-problems/"
+        }
       }
     }
   },
@@ -1450,6 +1455,15 @@
         "twitter": "A new transformer model is making waves in AI research, capable of handling density and score across distributions, says @HuggingFace #AI"
       }
     },
+    "948dd99f05cdeffa36ed0e57572c2a80b2bb865467d27dd1a63da8a31ca5a2a5": {
+      "created_at": "2026-07-03T22:58:39Z",
+      "payload": {
+        "facebook": "The latest development in code agent models is here. Mistral AI's Leanstral 1.5 model has shown remarkable capabilities, solving a significant portion of PutnamBench problems. This breakthrough has the potential to impact the field of artificial intelligence. #AI #CodeAgentModels #Lean4",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Mistral AI Releases Leanstral 1.5 Model\nMistral AI's Leanstral 1.5 model has achieved impressive results, solving 587 of 672 PutnamBench problems. The model's architecture and benchmarks are being closely examined.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9/10\n#AI #CodeAgentModels #Lean4\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Mistral AI's Leanstral 1.5 model is making waves with its ability to solve complex problems. The model's performance on PutnamBench is particularly noteworthy @MistralAI #AI",
+        "twitter": "Mistral AI's Leanstral 1.5 model achieves impressive results, solving 587 of 672 PutnamBench problems @MistralAI #AI"
+      }
+    },
     "9b555fa20109338a479c7e071a5995d1beebef1bbe8cde77c3f3476b78db482f": {
       "created_at": "2026-06-29T11:56:09Z",
       "payload": {
@@ -1640,12 +1654,6 @@
       "created_at": "2026-06-30T20:23:51Z",
       "status": "scoring_attempted",
       "title": "Google's new Nano Banana 2 Lite image model is its fastest and cheapest yet"
-    },
-    "https://arstechnica.com/ai/2026/06/south-korea-plans-to-train-entire-military-as-drone-warriors": {
-      "canonical_url": "https://arstechnica.com/ai/2026/06/south-korea-plans-to-train-entire-military-as-drone-warriors",
-      "created_at": "2026-06-26T22:50:31Z",
-      "status": "scoring_attempted",
-      "title": "South Korea plans to train entire military as \"drone warriors\""
     },
     "https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots": {
       "canonical_url": "https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots",
@@ -2403,6 +2411,12 @@
       "status": "scoring_attempted",
       "title": "New serious vulnerabilities spiked around release of Claude Mythos Preview"
     },
+    "https://fazamhd.com/mental-models/software": {
+      "canonical_url": "https://fazamhd.com/mental-models/software",
+      "created_at": "2026-07-03T22:58:39Z",
+      "status": "scoring_attempted",
+      "title": "Software, from First Principles"
+    },
     "https://forms.cloud.microsoft/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR6G-c11n8yFDlQmk4B-QjDxUQkdTTjZLU0EyTFFRV1E3NVRTVTRTWjRHMy4u&route=shorturl": {
       "canonical_url": "https://forms.cloud.microsoft/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR6G-c11n8yFDlQmk4B-QjDxUQkdTTjZLU0EyTFFRV1E3NVRTVTRTWjRHMy4u&route=shorturl",
       "created_at": "2026-07-03T01:04:17Z",
@@ -2702,12 +2716,6 @@
       "created_at": "2026-07-01T21:55:17Z",
       "status": "scoring_attempted",
       "title": "MIT in the media: Innovating and educating for the next 250 years of America"
-    },
-    "https://news.ycombinator.com/item?id=48692474": {
-      "canonical_url": "https://news.ycombinator.com/item?id=48692474",
-      "created_at": "2026-06-26T22:50:31Z",
-      "status": "scoring_attempted",
-      "title": "The open source DOCX editor submitted to HN a few weeks ago has been deleted"
     },
     "https://news.ycombinator.com/item?id=48694802": {
       "canonical_url": "https://news.ycombinator.com/item?id=48694802",
@@ -3561,6 +3569,12 @@
       "status": "scoring_attempted",
       "title": "The Google Health API Got a CLI: ghealth is an Open-Source Tool for Your Fitbit Air Data"
     },
+    "https://www.marktechpost.com/2026/07/03/mistral-ai-releases-leanstral-1-5-an-apache-2-0-lean-4-code-agent-model-solving-587-of-672-putnambench-problems": {
+      "canonical_url": "https://www.marktechpost.com/2026/07/03/mistral-ai-releases-leanstral-1-5-an-apache-2-0-lean-4-code-agent-model-solving-587-of-672-putnambench-problems",
+      "created_at": "2026-07-03T22:58:39Z",
+      "status": "scoring_attempted",
+      "title": "Mistral AI Releases Leanstral 1.5: An Apache-2.0 Lean 4 Code Agent Model Solving 587 of 672 PutnamBench Problems"
+    },
     "https://www.niemanlab.org/2026/07/now-were-getting-ai-fake-news-complaining-about-how-ai-fake-news-is-the-death-of-real-news": {
       "canonical_url": "https://www.niemanlab.org/2026/07/now-were-getting-ai-fake-news-complaining-about-how-ai-fake-news-is-the-death-of-real-news",
       "created_at": "2026-07-02T14:31:05Z",
@@ -3746,12 +3760,6 @@
       "created_at": "2026-06-30T20:23:51Z",
       "status": "scoring_attempted",
       "title": "LG\u2019s 27-inch Tandem OLED gaming monitor is cheaper than ever"
-    },
-    "https://www.theverge.com/gadgets/958179/prime-day-what-i-bought-vampliers-stripped-screw-extractor": {
-      "canonical_url": "https://www.theverge.com/gadgets/958179/prime-day-what-i-bought-vampliers-stripped-screw-extractor",
-      "created_at": "2026-06-26T22:50:31Z",
-      "status": "scoring_attempted",
-      "title": "After covering Prime Day for 36 hours over four days, this is the one thing I bought"
     },
     "https://www.theverge.com/gadgets/959264/bose-soundlink-max-wd-black-deal-sale": {
       "canonical_url": "https://www.theverge.com/gadgets/959264/bose-soundlink-max-wd-black-deal-sale",
