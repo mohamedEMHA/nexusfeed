@@ -97,29 +97,6 @@
         "social_posts": {}
       }
     },
-    "1b69bb3e5ff1b351ddfc41f895eb95edaa49229c7cc85137d5359971f2883802": {
-      "created_at": "2026-07-02T08:33:12Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "New release of Kimi K2.7 in GitHub Copilot, but source is Hacker News (Tier C).",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Kimi K2.7 Code is generally available in GitHub Copilot",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "1b8555d411693f632e536d1e101e04ef9867c0ea151a298a92af09440941dcf3": {
       "created_at": "2026-07-02T19:44:21Z",
       "payload": {
@@ -445,29 +422,6 @@
         }
       }
     },
-    "6653126fff88011124b858b3a32230916dfa81e7d1b48c3eb9b5e73a995f2c06": {
-      "created_at": "2026-07-02T08:33:12Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "New AI office suite from a well-funded entrepreneur targeting a massive market.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Indian tech tycoon bets $30M of his own money to build AI alternative to Microsoft Office",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "679f6513483a8026816ae764a858149f5104f529c012417650b733ff3b92a648": {
       "created_at": "2026-07-02T20:45:32Z",
       "payload": {
@@ -786,6 +740,29 @@
         "social_posts": {}
       }
     },
+    "98402bd10b2a85a0e2b3f0a29752efe0866fe49843163c7773bc03e6087f08c6": {
+      "created_at": "2026-07-03T09:53:21Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "Alibaba's move to ban Claude Code is notable but lacks concrete evidence and is sourced from Hacker News.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Alibaba to ban Claude Code in workplace over alleged backdoor risks, source says",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "9a3f121fc0fd854d5f65d903bcf38e4866d12db9b4b76ba363a6f46e54da4395": {
       "created_at": "2026-07-02T14:31:05Z",
       "payload": {
@@ -1084,6 +1061,29 @@
         ],
         "best_index": 0,
         "best_score": 3.2,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "d6818b823d0a7f58bf02e9abbd1dccb70234834ee0206da7b87860c3898cdcf7": {
+      "created_at": "2026-07-03T09:53:21Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "OpenAI's Agent RFT platform for fine-tuning reasoning models via real-time tool interactions and custom reward signals is a significant development in enterprise AI applications.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Presentation: Fine Tuning the Enterprise: Reinforcement Learning in Practice",
+            "total_score": 8
+          }
+        ],
+        "best_index": 0,
+        "best_score": 8,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1825,23 +1825,11 @@
       "status": "scoring_attempted",
       "title": "Reflections on Software Engineering in the Age of AI"
     },
-    "https://aditya.patadia.org/p/ai-and-cloud-costs": {
-      "canonical_url": "https://aditya.patadia.org/p/ai-and-cloud-costs",
-      "created_at": "2026-06-26T08:58:02Z",
-      "status": "scoring_attempted",
-      "title": "Why current LLM costs are not sustainable"
-    },
     "https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/?_fb_noscript=1": {
       "canonical_url": "https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/?_fb_noscript=1",
       "created_at": "2026-06-30T21:53:40Z",
       "status": "scoring_attempted",
       "title": "Meta's brain-scanning system reads sentences non-invasively, code open source"
-    },
-    "https://akrites.org/letter": {
-      "canonical_url": "https://akrites.org/letter",
-      "created_at": "2026-06-26T08:58:02Z",
-      "status": "scoring_attempted",
-      "title": "We All Depend on Open Source. We Will Defend It Together"
     },
     "https://alephneuro.com/blog/ultrasound-brain": {
       "canonical_url": "https://alephneuro.com/blog/ultrasound-brain",
@@ -3673,6 +3661,12 @@
       "status": "scoring_attempted",
       "title": "Presentation: Graph RAG: Building Smarter Retrieval Workflows with Knowledge Graphs"
     },
+    "https://www.infoq.com/presentations/rft-openai-model": {
+      "canonical_url": "https://www.infoq.com/presentations/rft-openai-model",
+      "created_at": "2026-07-03T09:53:21Z",
+      "status": "scoring_attempted",
+      "title": "Presentation: Fine Tuning the Enterprise: Reinforcement Learning in Practice"
+    },
     "https://www.infoq.com/presentations/service-level-prioritized-load-shedding": {
       "canonical_url": "https://www.infoq.com/presentations/service-level-prioritized-load-shedding",
       "created_at": "2026-07-02T09:58:07Z",
@@ -3828,6 +3822,12 @@
       "created_at": "2026-07-01T16:24:45Z",
       "status": "scoring_attempted",
       "title": "Meta loses bid to dismiss US states' claims that FB, Instagram addict children"
+    },
+    "https://www.reuters.com/world/china/alibaba-ban-claude-code-workplace-over-alleged-backdoor-risks-source-says-2026-07-03": {
+      "canonical_url": "https://www.reuters.com/world/china/alibaba-ban-claude-code-workplace-over-alleged-backdoor-risks-source-says-2026-07-03",
+      "created_at": "2026-07-03T09:53:21Z",
+      "status": "scoring_attempted",
+      "title": "Alibaba to ban Claude Code in workplace over alleged backdoor risks, source says"
     },
     "https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies": {
       "canonical_url": "https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies",
@@ -4164,12 +4164,6 @@
       "created_at": "2026-06-30T18:17:43Z",
       "status": "scoring_attempted",
       "title": "Netflix is using an AI-generated Gene Wilder voice in its Willy Wonka reality show"
-    },
-    "https://www.theverge.com/tech/957521/trump-mobile-t1-phone-open-sale-no-deposit": {
-      "canonical_url": "https://www.theverge.com/tech/957521/trump-mobile-t1-phone-open-sale-no-deposit",
-      "created_at": "2026-06-26T08:58:02Z",
-      "status": "scoring_attempted",
-      "title": "Trump Mobile will take your $499 right now"
     },
     "https://www.theverge.com/tech/957561/apple-m6-m7-ai-chip-release-timeline-gurman": {
       "canonical_url": "https://www.theverge.com/tech/957561/apple-m6-m7-ai-chip-release-timeline-gurman",
