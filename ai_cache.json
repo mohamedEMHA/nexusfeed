@@ -1,5 +1,63 @@
 {
   "cerebras_scoring": {
+    "04446340a676891b76ee7b60f73a828bd42454bebc89760223c4d64d669a5b49": {
+      "created_at": "2026-07-03T15:53:16Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 4,
+            "novelty_score": 2.0,
+            "reason": "Legal response to a lawsuit is not directly relevant to software engineers or AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Jon Prosser responds to Apple lawsuit by blaming the other guy",
+            "total_score": 5.0
+          }
+        ],
+        "best_index": 4,
+        "best_score": 5.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "0690960be8794b42de785580aa25ad5ebb85fe54673579aea4fc32044c2685c2": {
+      "created_at": "2026-07-03T15:53:16Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 1.5,
+            "reason": "Consumer tech with limited relevance to software engineers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "This slim camera has a transparent LCD screen for a viewfinder",
+            "total_score": 4.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "Cloudflare's unified data platform and AI analytics agent are relevant to software engineers and AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Cloudflare Details Unified Data Platform Where Billing Workloads Account for 53% of Queries",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "087bf96fcd3c2129c69850b65a2303985e1de1d3cf66bfe3530a7ae5d9192f43": {
       "created_at": "2026-07-03T01:04:17Z",
       "payload": {
@@ -316,6 +374,29 @@
         }
       }
     },
+    "58f717515dec9f5fb3e88a4d09c1ae96226dfde6c8761fa2e2266398581ae05b": {
+      "created_at": "2026-07-03T15:53:16Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.0,
+            "index": 6,
+            "novelty_score": 0.0,
+            "reason": "This is a retrospective list, which is a red flag.",
+            "red_flag": true,
+            "red_flag_reason": "retrospective",
+            "source_score": 1.5,
+            "title": "The Verge\u2019s annual summer \u2018in\u2019 and \u2018out\u2019 list",
+            "total_score": 0.0
+          }
+        ],
+        "best_index": 6,
+        "best_score": 0.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "5e487873824fe654ad86fadb10dac687c92cfa3c9d8b6572606b9b111f7354f4": {
       "created_at": "2026-07-03T05:00:11Z",
       "payload": {
@@ -578,41 +659,6 @@
         "social_posts": {}
       }
     },
-    "87fd17a0374c0afb28bf9097f79e62e6c59d2df6919a1031ba4cbc1f363af955": {
-      "created_at": "2026-07-02T14:31:05Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 2,
-            "novelty_score": 2.0,
-            "reason": "Microsoft's new AI deployment group is a significant industry move with substantial funding.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Microsoft launches its own AI deployment company with $2.5 billion commitment",
-            "total_score": 8.0
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.0,
-            "index": 3,
-            "novelty_score": 0.0,
-            "reason": "This article is an opinion piece and does not provide substantial technical or industry insights.",
-            "red_flag": true,
-            "red_flag_reason": "opinion",
-            "source_score": 0.5,
-            "title": "AI fake news complaining about how AI fake news is the death of real news",
-            "total_score": 2.0
-          }
-        ],
-        "best_index": 2,
-        "best_score": 8.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "8989fc7832ecaa21332840b4ecd13b9d55e355bcc901ef8d8a74bb71c4f726c4": {
       "created_at": "2026-07-02T21:53:01Z",
       "payload": {
@@ -632,64 +678,6 @@
         ],
         "best_index": 2,
         "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "920825d86cc34f803b81eaef078366fe9fd09b0babe3794e24b05943fdfcb6ab": {
-      "created_at": "2026-07-02T14:31:05Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 6,
-            "novelty_score": 2.5,
-            "reason": "Novelty is moderate as it's a creative use case of OpenClaw, impact is niche, and freshness is good.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Yep, we\u2019re using OpenClaw to date now",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 6,
-        "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "93081a556fb17f83bf61a963f03ccc069aab8863b2270d80c2d92b4b3fa85d78": {
-      "created_at": "2026-07-02T14:31:05Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 1.5,
-            "reason": "Update on Tesla's Q2 sales performance, relevant to tech and automotive industries.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Tesla\u2019s Q2 sales jump 25 percent",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 1,
-            "novelty_score": 0.5,
-            "reason": "Opinion piece on AI in advertising, niche impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "AI won\u2019t save advertising, says Digitas\u2019 Amy Lanzi",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -771,29 +759,6 @@
         ],
         "best_index": 1,
         "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "9a3f121fc0fd854d5f65d903bcf38e4866d12db9b4b76ba363a6f46e54da4395": {
-      "created_at": "2026-07-02T14:31:05Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 4,
-            "novelty_score": 2.5,
-            "reason": "Research on transformer layers in RL training, but low impact and source tier.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Is One Layer Enough? A Single Transformer Layer Matches Full-Parameter RL Training",
-            "total_score": 6.0
-          }
-        ],
-        "best_index": 4,
-        "best_score": 6.0,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1010,6 +975,41 @@
         ],
         "best_index": 0,
         "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "d324dcda8532a28b76ba25edcc5ecc424730586519792459564f5d11a6a3f425": {
+      "created_at": "2026-07-03T15:53:16Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "Interesting niche tool but limited impact and low-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Show HN: TaskPeace \u2013 a task queue my AI coding agents pull work from over MCP",
+            "total_score": 5.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "Anthropic's move into drug development is significant but not groundbreaking enough to warrant a higher score.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Anthropic wants to develop its own drugs",
+            "total_score": 8.0
+          }
+        ],
+        "best_index": 3,
+        "best_score": 8.0,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1455,15 +1455,6 @@
         "twitter": "Google's latest image model Nano Banana 2 Lite generates images in seconds @GoogleAI #AI"
       }
     },
-    "10f4c3338de5e454687e2f74fe69027e0b3d52347a93f539758b2abe5a3449d5": {
-      "created_at": "2026-06-26T15:14:45Z",
-      "payload": {
-        "facebook": "The European continent is taking steps towards creating its own AI, possibly capitalizing on the changes brought about by the Trump administration. This development could have significant implications for the global AI landscape. #AI #EuropeanTech #ArtificialIntelligence",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Europe's AI Ambitions\nEuropean nations are pursuing independent AI development, potentially leveraging the aftermath of Donald Trump's presidency.\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #EuropeanTech #ArtificialIntelligence\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Europe is moving to develop its own AI, potentially using the post-Trump era to its advantage, @Wired #AI",
-        "twitter": "European nations seek to develop their own AI capabilities, potentially leveraging the aftermath of Donald Trump's presidency, @Wired @EU_Commission #AI"
-      }
-    },
     "1a2d715b32bd547e58ebc56cb6554c52e8fb461fd51c732ca58e5670121fa2b3": {
       "created_at": "2026-07-03T01:04:17Z",
       "payload": {
@@ -1837,12 +1828,6 @@
       "created_at": "2026-06-30T21:53:40Z",
       "status": "scoring_attempted",
       "title": "Meta's brain-scanning system reads sentences non-invasively, code open source"
-    },
-    "https://alephneuro.com/blog/ultrasound-brain": {
-      "canonical_url": "https://alephneuro.com/blog/ultrasound-brain",
-      "created_at": "2026-06-26T15:14:45Z",
-      "status": "scoring_attempted",
-      "title": "Ultrasound Imaging of the Brain"
     },
     "https://antoine.fi/mri-analysis-using-claude-code-opus": {
       "canonical_url": "https://antoine.fi/mri-analysis-using-claude-code-opus",
@@ -2888,12 +2873,6 @@
       "status": "scoring_attempted",
       "title": "Nintendo has raised its employees base salary by 10%"
     },
-    "https://nesbitt.io/2026/06/26/incident-report-cve-2026-lgtm.html": {
-      "canonical_url": "https://nesbitt.io/2026/06/26/incident-report-cve-2026-lgtm.html",
-      "created_at": "2026-06-26T15:14:45Z",
-      "status": "scoring_attempted",
-      "title": "Incident CVE-2026-LGTM"
-    },
     "https://news.microsoft.com/signal/articles/ai-theodore-roosevelt-presidential-library": {
       "canonical_url": "https://news.microsoft.com/signal/articles/ai-theodore-roosevelt-presidential-library",
       "created_at": "2026-07-01T16:03:57Z",
@@ -2917,12 +2896,6 @@
       "created_at": "2026-06-29T20:54:48Z",
       "status": "scoring_attempted",
       "title": "Inaugural Music Technology Research Showcase celebrates work of new graduate program\u2019s initial students"
-    },
-    "https://news.mit.edu/2026/llms-help-robots-understand-vague-instructions-and-focus-key-details-0626": {
-      "canonical_url": "https://news.mit.edu/2026/llms-help-robots-understand-vague-instructions-and-focus-key-details-0626",
-      "created_at": "2026-06-26T15:14:45Z",
-      "status": "scoring_attempted",
-      "title": "LLMs help robots understand vague instructions and focus on key details"
     },
     "https://news.mit.edu/2026/mit-media-innovating-and-educating-next-250-years-america": {
       "canonical_url": "https://news.mit.edu/2026/mit-media-innovating-and-educating-next-250-years-america",
@@ -3044,11 +3017,11 @@
       "status": "scoring_attempted",
       "title": "Claude Fable 5 Promotional Access"
     },
-    "https://techcrunch.com/2026/06/26/early-bird-pricing-ends-tonight-for-techcrunch-founder-summit": {
-      "canonical_url": "https://techcrunch.com/2026/06/26/early-bird-pricing-ends-tonight-for-techcrunch-founder-summit",
-      "created_at": "2026-06-26T15:14:45Z",
+    "https://taskpeace.com": {
+      "canonical_url": "https://taskpeace.com",
+      "created_at": "2026-07-03T15:53:16Z",
       "status": "scoring_attempted",
-      "title": "Early Bird pricing ends tonight for TechCrunch Founder Summit"
+      "title": "Show HN: TaskPeace \u2013 a task queue my AI coding agents pull work from over MCP"
     },
     "https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore": {
       "canonical_url": "https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore",
@@ -3458,12 +3431,6 @@
       "status": "scoring_attempted",
       "title": "NVIDIA BioNeMo accelerates Anthropic Claude Science"
     },
-    "https://www.artificialintelligence-news.com/news/sap-aligns-commerce-data-for-ai-personalisation": {
-      "canonical_url": "https://www.artificialintelligence-news.com/news/sap-aligns-commerce-data-for-ai-personalisation",
-      "created_at": "2026-06-26T15:14:45Z",
-      "status": "scoring_attempted",
-      "title": "SAP aligns commerce data for AI personalisation"
-    },
     "https://www.artificialintelligence-news.com/news/scam-ai-announces-qualcomm-partnership-launches-halo-deepfake-detection-model-at-computex-2026": {
       "canonical_url": "https://www.artificialintelligence-news.com/news/scam-ai-announces-qualcomm-partnership-launches-halo-deepfake-detection-model-at-computex-2026",
       "created_at": "2026-06-29T10:00:33Z",
@@ -3626,6 +3593,12 @@
       "status": "scoring_attempted",
       "title": "Apple Extends Private Cloud Compute to Google Cloud for the First Time"
     },
+    "https://www.infoq.com/news/2026/07/cloudflare-unified-data-platform": {
+      "canonical_url": "https://www.infoq.com/news/2026/07/cloudflare-unified-data-platform",
+      "created_at": "2026-07-03T15:53:16Z",
+      "status": "scoring_attempted",
+      "title": "Cloudflare Details Unified Data Platform Where Billing Workloads Account for 53% of Queries"
+    },
     "https://www.infoq.com/news/2026/07/google-a2ui-genui": {
       "canonical_url": "https://www.infoq.com/news/2026/07/google-a2ui-genui",
       "created_at": "2026-07-03T08:17:20Z",
@@ -3679,12 +3652,6 @@
       "created_at": "2026-07-01T13:22:53Z",
       "status": "scoring_attempted",
       "title": "Presentation: The Infrastructure Challenge Behind Production AI"
-    },
-    "https://www.infoq.com/presentations/ai-sdlc-pull-request": {
-      "canonical_url": "https://www.infoq.com/presentations/ai-sdlc-pull-request",
-      "created_at": "2026-06-26T15:14:45Z",
-      "status": "scoring_attempted",
-      "title": "Presentation: AI Works, Pull Requests Don\u2019t: How AI Is Breaking the SDLC and What To Do About It"
     },
     "https://www.infoq.com/presentations/document-infrastructure-rust-typst": {
       "canonical_url": "https://www.infoq.com/presentations/document-infrastructure-rust-typst",
@@ -3890,12 +3857,6 @@
       "status": "scoring_attempted",
       "title": "OpenAI: In early talks to give 5% stake to US Government"
     },
-    "https://www.theverge.com/ai-artificial-intelligence/957327/anthropic-mythos-fable-ai-trump-administration-negotiations": {
-      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/957327/anthropic-mythos-fable-ai-trump-administration-negotiations",
-      "created_at": "2026-06-26T15:14:45Z",
-      "status": "scoring_attempted",
-      "title": "Anthropic&#8217;s Mythos mess is only getting worse"
-    },
     "https://www.theverge.com/ai-artificial-intelligence/957845/openai-gpt-5-6-trump-administration-ai-preview": {
       "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/957845/openai-gpt-5-6-trump-administration-ai-preview",
       "created_at": "2026-06-26T18:08:12Z",
@@ -3956,6 +3917,12 @@
       "status": "scoring_attempted",
       "title": "A behind-the-scenes look at Midjourney\u2019s medical scanner leaves many questions unanswered"
     },
+    "https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development": {
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development",
+      "created_at": "2026-07-03T15:53:16Z",
+      "status": "scoring_attempted",
+      "title": "Anthropic wants to develop its own drugs"
+    },
     "https://www.theverge.com/column/959270/elon-musk-open-ai-bill-savitt-twitter": {
       "canonical_url": "https://www.theverge.com/column/959270/elon-musk-open-ai-bill-savitt-twitter",
       "created_at": "2026-06-30T12:30:40Z",
@@ -3992,6 +3959,12 @@
       "status": "scoring_attempted",
       "title": "Mystery box shows are complicated for everyone \u2014 even the actors"
     },
+    "https://www.theverge.com/entertainment/960665/the-verge-2026-summer-in-out-list": {
+      "canonical_url": "https://www.theverge.com/entertainment/960665/the-verge-2026-summer-in-out-list",
+      "created_at": "2026-07-03T15:53:16Z",
+      "status": "scoring_attempted",
+      "title": "The Verge\u2019s annual summer \u2018in\u2019 and \u2018out\u2019 list"
+    },
     "https://www.theverge.com/entertainment/960985/apple-tv-hits-2026": {
       "canonical_url": "https://www.theverge.com/entertainment/960985/apple-tv-hits-2026",
       "created_at": "2026-07-03T12:06:05Z",
@@ -4009,12 +3982,6 @@
       "created_at": "2026-06-26T16:20:07Z",
       "status": "scoring_attempted",
       "title": "Xreal\u2019s best USB-C smart glasses are $50 off, but not for long"
-    },
-    "https://www.theverge.com/gadgets/957605/apple-airpods-max-2-headphones-prime-day-deal-sale": {
-      "canonical_url": "https://www.theverge.com/gadgets/957605/apple-airpods-max-2-headphones-prime-day-deal-sale",
-      "created_at": "2026-06-26T15:14:45Z",
-      "status": "scoring_attempted",
-      "title": "Apple&#8217;s AirPods Max 2 headphones are still $150 off \u2014 for now"
     },
     "https://www.theverge.com/gadgets/957791/birdbuddy-pro-solar-prime-day-deal-sale": {
       "canonical_url": "https://www.theverge.com/gadgets/957791/birdbuddy-pro-solar-prime-day-deal-sale",
@@ -4135,12 +4102,6 @@
       "created_at": "2026-06-30T15:17:12Z",
       "status": "scoring_attempted",
       "title": "The Supreme Court stops Trump&#8217;s attempt to end birthright citizenship"
-    },
-    "https://www.theverge.com/podcast/957673/meta-polymarket-apple-prices-vergecast": {
-      "canonical_url": "https://www.theverge.com/podcast/957673/meta-polymarket-apple-prices-vergecast",
-      "created_at": "2026-06-26T15:14:45Z",
-      "status": "scoring_attempted",
-      "title": "Of course Meta thinks gambling is the future"
     },
     "https://www.theverge.com/podcast/958735/nest-thermostat-version-history": {
       "canonical_url": "https://www.theverge.com/podcast/958735/nest-thermostat-version-history",
@@ -4310,6 +4271,18 @@
       "status": "scoring_attempted",
       "title": "Meta has a new app called Pocket that is absolutely nothing like the old Pocket"
     },
+    "https://www.theverge.com/tech/961285/jon-prosser-apple-lawsuit-response-ios-leak": {
+      "canonical_url": "https://www.theverge.com/tech/961285/jon-prosser-apple-lawsuit-response-ios-leak",
+      "created_at": "2026-07-03T15:53:16Z",
+      "status": "scoring_attempted",
+      "title": "Jon Prosser responds to Apple lawsuit by blaming the other guy"
+    },
+    "https://www.theverge.com/tech/961362/godox-c100-digital-camera-transparent-lcd-screen": {
+      "canonical_url": "https://www.theverge.com/tech/961362/godox-c100-digital-camera-transparent-lcd-screen",
+      "created_at": "2026-07-03T15:53:16Z",
+      "status": "scoring_attempted",
+      "title": "This slim camera has a transparent LCD screen for a viewfinder"
+    },
     "https://www.theverge.com/transportation/957685/tesla-q2-2026-sales-production-delivery-report": {
       "canonical_url": "https://www.theverge.com/transportation/957685/tesla-q2-2026-sales-production-delivery-report",
       "created_at": "2026-07-02T14:31:05Z",
@@ -4357,12 +4330,6 @@
       "created_at": "2026-07-01T10:17:12Z",
       "status": "scoring_attempted",
       "title": "Claude Helped a Hacker Find a Way to Issue Tickets to Almost Every US Music Festival"
-    },
-    "https://www.wired.com/story/europe-is-fed-up-and-wants-its-own-ai": {
-      "canonical_url": "https://www.wired.com/story/europe-is-fed-up-and-wants-its-own-ai",
-      "created_at": "2026-06-26T15:14:45Z",
-      "status": "scoring_attempted",
-      "title": "Europe Is Fed Up and Wants Its Own AI"
     },
     "https://www.wired.com/story/flare-website-ai-flaw-reporting-safety": {
       "canonical_url": "https://www.wired.com/story/flare-website-ai-flaw-reporting-safety",
