@@ -243,29 +243,6 @@
         "social_posts": {}
       }
     },
-    "2702c03b0c7b00e3f6ac9f09065f3e1b3751f514ebb6b88557e8b59212820f92": {
-      "created_at": "2026-07-02T01:26:31Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.0,
-            "reason": "Meta's internal AI token spending cap is a significant industry move with broad impact, but the source is a lower-tier outlet.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Meta Caps Internal AI Token Spending After Costs Approach Billions in 2026",
-            "total_score": 7.0
-          }
-        ],
-        "best_index": 1,
-        "best_score": 7.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "281d7899c1671a2b05edf44f96fb707142dff5643eeac09f141ff5d69efb1cf0": {
       "created_at": "2026-07-02T21:53:01Z",
       "payload": {
@@ -563,6 +540,94 @@
         }
       }
     },
+    "5e487873824fe654ad86fadb10dac687c92cfa3c9d8b6572606b9b111f7354f4": {
+      "created_at": "2026-07-03T05:00:11Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 13,
+            "novelty_score": 2.5,
+            "reason": "New research on semi-supervised chain-of-thought learning in LLMs, but impact is niche.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Revisiting Chain-of-Thought Reasoning under Limited Supervision: Semi-supervised Chain-of-Thought Learning",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 14,
+            "novelty_score": 2.5,
+            "reason": "New approach to world modeling for agents, but impact is niche.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "OPINE-World: Programmatic World Modeling with Ontology-error-Prioritized Interactive Exploration",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 15,
+            "novelty_score": 2.5,
+            "reason": "New research on lie detectors for LLM oversight, but impact is niche.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Scaling Trends for Lie Detector Oversight in Preference Learning",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 16,
+            "novelty_score": 2.5,
+            "reason": "New pipeline for Earth observation hypothesis generation, but impact is niche.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "EO-Agents: A Three-Agent LLM Pipeline for Earth Observation Hypothesis Generation",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 17,
+            "novelty_score": 2.5,
+            "reason": "New method for high-performance NPU kernel generation with broader industry impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Hawk: Harnessing Hardware-Aware Knowledge for High-Performance NPU Kernel Generation",
+            "total_score": 8
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 18,
+            "novelty_score": 2.5,
+            "reason": "New approach to cloud healing with LLMs, but impact is niche.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Safe and Adaptive Cloud Healing: Verifying LLM-Generated Recovery Plans with a Neural-Symbolic World Model",
+            "total_score": 7
+          }
+        ],
+        "best_index": 17,
+        "best_score": 8,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "A new approach to high-performance NPU kernel generation using hardware-aware knowledge. This research could significantly impact the development of efficient AI hardware. Link: https://arxiv.org/abs/2607.01590",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Hawk: Harnessing Hardware-Aware Knowledge for High-Performance NPU Kernel Generation*\n\nNew research on high-performance NPU kernel generation using hardware-aware knowledge.\n\n\ud83c\udfdb\ufe0f Source: arXiv cs.AI (C)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8/10\n\n\ud83d\udd17 https://arxiv.org/abs/2607.01590\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "New research on high-performance NPU kernel generation using hardware-aware knowledge. This could be a game-changer for AI hardware development. https://arxiv.org/abs/2607.01590",
+          "twitter": "New research from arXiv on Hawk: Harnessing Hardware-Aware Knowledge for High-Performance NPU Kernel Generation. https://arxiv.org/abs/2607.01590"
+        }
+      }
+    },
     "6653126fff88011124b858b3a32230916dfa81e7d1b48c3eb9b5e73a995f2c06": {
       "created_at": "2026-07-02T08:33:12Z",
       "payload": {
@@ -813,6 +878,89 @@
         "social_posts": {}
       }
     },
+    "8702c905dffe73d1556078a623cc62142ec708371b5181c03bcdc52bf1ce8b73": {
+      "created_at": "2026-07-03T05:00:11Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 7,
+            "novelty_score": 2.5,
+            "reason": "New research on diffusion language models for radiology reports, but niche impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Discrete Diffusion Language Models for Interactive Radiology Report Drafting",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 8,
+            "novelty_score": 2.5,
+            "reason": "New research on RLVR for tool-use agents, but niche impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Beyond Next-Token Prediction: An RLVR Proof of Concept for Tool-Use Agents on Atlassian Workflows",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 9,
+            "novelty_score": 2.5,
+            "reason": "New research on RL in FHIR environments, but niche impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "World Feedback for Clinical Agents: Diagnosing RL in FHIR Environments",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 10,
+            "novelty_score": 2.5,
+            "reason": "New research on procedural memory distillation, but niche impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Procedural Memory Distillation: Online Reflection for Self-Improving Language Models",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 11,
+            "novelty_score": 2.5,
+            "reason": "New research on analytical variation in AI agents, but niche impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "The Agentic Garden of Forking Paths",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 12,
+            "novelty_score": 2.5,
+            "reason": "New research on user-involved agentic permission management, but niche impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Janus: a Playground for User-Involved Agentic Permission Management",
+            "total_score": 7
+          }
+        ],
+        "best_index": 7,
+        "best_score": 7,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "87fd17a0374c0afb28bf9097f79e62e6c59d2df6919a1031ba4cbc1f363af955": {
       "created_at": "2026-07-02T14:31:05Z",
       "payload": {
@@ -1015,29 +1163,6 @@
         "social_posts": {}
       }
     },
-    "acc33394faa102f86dd2a9e1e46cc75596316a9fcd84d4fd221969753aaecc75": {
-      "created_at": "2026-07-02T01:26:31Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Interesting open-source robot vacuum project, but niche impact and lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Building an Open-Source Robot Vacuum \u2013 Meet Oomwoo",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "b44225bb651d3ac11d6eb34967e41a7e74405814fa01e7a8d55fdd99a3244d90": {
       "created_at": "2026-07-02T16:04:35Z",
       "payload": {
@@ -1125,6 +1250,89 @@
         }
       }
     },
+    "bbf10c89896c0fba76bfcb5143c976172039ef5cc9fdf2d1fe4d536b8f92d30f": {
+      "created_at": "2026-07-03T05:00:11Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 19,
+            "novelty_score": 2.5,
+            "reason": "New research on semantic hashing for document deduplication, but niche impact and lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "SemHash-LLM: A Multi-Granularity Semantic Hashing Framework for Document Deduplication",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 20,
+            "novelty_score": 2.5,
+            "reason": "Interesting case study on counterfactual explanations, but niche impact and lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Profit-Based Counterfactual Explanations for Product Improvement: A Case Study of Manga Sales in Japan",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2,
+            "index": 21,
+            "novelty_score": 2.5,
+            "reason": "New research on LLM confidence calibration, moderate impact, but lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Scaling with Confidence: Calibrating Confidence of LLMs for Adaptive Test Time Scaling",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 22,
+            "novelty_score": 2.5,
+            "reason": "New research on rainfall reconstruction, but niche impact and lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Spatial Support Matters: Geometry-Aware Graph Fusion for Rainfall Field Reconstruction",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2,
+            "index": 23,
+            "novelty_score": 2.5,
+            "reason": "New research on AI-driven traffic law discovery, moderate impact, but lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Autonomous discovery of traffic laws with AI traffic scientists",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2,
+            "index": 24,
+            "novelty_score": 2.5,
+            "reason": "New research on multi-agent deliberation for forecasting, moderate impact, but lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Diverse Evidence, Better Forecasts: Multi-Agent Deliberation Under Information Asymmetry",
+            "total_score": 7
+          }
+        ],
+        "best_index": 24,
+        "best_score": 7,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "c4360e34dc25915143ddc98a1b0a85b86679ed1b9ccfae079abd81ea566417f2": {
       "created_at": "2026-07-02T12:10:20Z",
       "payload": {
@@ -1207,6 +1415,101 @@
         ],
         "best_index": 0,
         "best_score": 3.2,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "dceedf06f52764bad05acc2c95bf7290f160fd9588c79c854da3776f8e9f5cb9": {
+      "created_at": "2026-07-03T05:00:11Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 2.0,
+            "reason": "Industry move with niche impact from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Wasmer: Fast, secure, lightweight containers based on WebAssembly",
+            "total_score": 6.0
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.0,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "New research with moderate impact from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "PACE: A Neuro-Symbolic Framework for Plausible and Actionable Counterfactual Explanations",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.0,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "New research with moderate impact from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Auto-FL-Research: Agentic Search for Federated Learning Algorithms",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "New research with significant impact from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "The Wiola Architecture for Efficient Small Language Models",
+            "total_score": 7.0
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.0,
+            "index": 4,
+            "novelty_score": 2.5,
+            "reason": "New research with moderate impact from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Agent4cs: A Multi-agent System for Code Summarization in Large Hierarchical Codebases",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 5,
+            "novelty_score": 2.5,
+            "reason": "New research with niche impact from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "When Should Service Agents Reconsider? Difficulty-Routed Control in Customer-Service Operations",
+            "total_score": 6.0
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.0,
+            "index": 6,
+            "novelty_score": 2.5,
+            "reason": "New research with moderate impact from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "CreativityNeuro: Steering Language Model Weights to Improve Divergent Thinking and Reduce Mode Collapse",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 3,
+        "best_score": 7.0,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1600,15 +1903,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 South Korea Invests in AI Infrastructure\nSouth Korea is investing heavily in AI infrastructure and humanoid robots, aiming for a physical AI lead by 2028.\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n#AI #Robotics #SouthKorea\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "South Korea is investing $1T in memory chip production and humanoid robots, aiming for a physical AI lead by 2028, @ArsTechnica #AI",
         "twitter": "South Korea invests heavily in AI infrastructure and humanoid robots, aiming for a physical AI lead by 2028, @ArsTechnica reports #AI"
-      }
-    },
-    "5bbd69eeaef7082a1ff53dc9b8d0513aeddc20762e2b67e60ea726ecb82f981a": {
-      "created_at": "2026-06-26T01:32:02Z",
-      "payload": {
-        "facebook": "The development of safe AI is a pressing concern, and Anthropic believes its own success is crucial to achieving this goal. Critics argue that the company's rapid accumulation of power is a cause for concern. #AI #ArtificialIntelligence #Tech",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Anthropic's Stance on AI Safety\nAnthropic believes its success is crucial for developing safe AI, but critics argue this approach is problematic.\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #ArtificialIntelligence #Tech\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Anthropic thinks its success is key to making AI safe, but critics argue it's accumulating too much power @Wired #AI",
-        "twitter": "Anthropic's rapid growth sparks debate over responsible AI development, says its success is key to making AI safe @Wired @AI"
       }
     },
     "5f74d725b8b084eb2f4d0943518b14dccbdc620e5d6a55a51b438cfc3b402104": {
@@ -2576,6 +2870,150 @@
       "status": "scoring_attempted",
       "title": "Is One Layer Enough? A Single Transformer Layer Matches Full-Parameter RL Train"
     },
+    "https://arxiv.org/abs/2607.01306": {
+      "canonical_url": "https://arxiv.org/abs/2607.01306",
+      "created_at": "2026-07-03T05:00:11Z",
+      "status": "scoring_attempted",
+      "title": "PACE: A Neuro-Symbolic Framework for Plausible and Actionable Counterfactual Explanations"
+    },
+    "https://arxiv.org/abs/2607.01366": {
+      "canonical_url": "https://arxiv.org/abs/2607.01366",
+      "created_at": "2026-07-03T05:00:11Z",
+      "status": "scoring_attempted",
+      "title": "Auto-FL-Research: Agentic Search for Federated Learning Algorithms"
+    },
+    "https://arxiv.org/abs/2607.01394": {
+      "canonical_url": "https://arxiv.org/abs/2607.01394",
+      "created_at": "2026-07-03T05:00:11Z",
+      "status": "scoring_attempted",
+      "title": "The Wiola Architecture for Efficient Small Language Models"
+    },
+    "https://arxiv.org/abs/2607.01425": {
+      "canonical_url": "https://arxiv.org/abs/2607.01425",
+      "created_at": "2026-07-03T05:00:11Z",
+      "status": "scoring_attempted",
+      "title": "Agent4cs: A Multi-agent System for Code Summarization in Large Hierarchical Codebases"
+    },
+    "https://arxiv.org/abs/2607.01426": {
+      "canonical_url": "https://arxiv.org/abs/2607.01426",
+      "created_at": "2026-07-03T05:00:11Z",
+      "status": "scoring_attempted",
+      "title": "When Should Service Agents Reconsider? Difficulty-Routed Control in Customer-Service Operations"
+    },
+    "https://arxiv.org/abs/2607.01433": {
+      "canonical_url": "https://arxiv.org/abs/2607.01433",
+      "created_at": "2026-07-03T05:00:11Z",
+      "status": "scoring_attempted",
+      "title": "CreativityNeuro: Steering Language Model Weights to Improve Divergent Thinking and Reduce Mode Collapse"
+    },
+    "https://arxiv.org/abs/2607.01436": {
+      "canonical_url": "https://arxiv.org/abs/2607.01436",
+      "created_at": "2026-07-03T05:00:11Z",
+      "status": "scoring_attempted",
+      "title": "Discrete Diffusion Language Models for Interactive Radiology Report Drafting"
+    },
+    "https://arxiv.org/abs/2607.01465": {
+      "canonical_url": "https://arxiv.org/abs/2607.01465",
+      "created_at": "2026-07-03T05:00:11Z",
+      "status": "scoring_attempted",
+      "title": "Beyond Next-Token Prediction: An RLVR Proof of Concept for Tool-Use Agents on Atlassian Workflows"
+    },
+    "https://arxiv.org/abs/2607.01470": {
+      "canonical_url": "https://arxiv.org/abs/2607.01470",
+      "created_at": "2026-07-03T05:00:11Z",
+      "status": "scoring_attempted",
+      "title": "World Feedback for Clinical Agents: Diagnosing RL in FHIR Environments"
+    },
+    "https://arxiv.org/abs/2607.01480": {
+      "canonical_url": "https://arxiv.org/abs/2607.01480",
+      "created_at": "2026-07-03T05:00:11Z",
+      "status": "scoring_attempted",
+      "title": "Procedural Memory Distillation: Online Reflection for Self-Improving Language Models"
+    },
+    "https://arxiv.org/abs/2607.01507": {
+      "canonical_url": "https://arxiv.org/abs/2607.01507",
+      "created_at": "2026-07-03T05:00:11Z",
+      "status": "scoring_attempted",
+      "title": "The Agentic Garden of Forking Paths"
+    },
+    "https://arxiv.org/abs/2607.01510": {
+      "canonical_url": "https://arxiv.org/abs/2607.01510",
+      "created_at": "2026-07-03T05:00:11Z",
+      "status": "scoring_attempted",
+      "title": "Janus: a Playground for User-Involved Agentic Permission Management"
+    },
+    "https://arxiv.org/abs/2607.01511": {
+      "canonical_url": "https://arxiv.org/abs/2607.01511",
+      "created_at": "2026-07-03T05:00:11Z",
+      "status": "scoring_attempted",
+      "title": "Revisiting Chain-of-Thought Reasoning under Limited Supervision: Semi-supervised Chain-of-Thought Learning"
+    },
+    "https://arxiv.org/abs/2607.01531": {
+      "canonical_url": "https://arxiv.org/abs/2607.01531",
+      "created_at": "2026-07-03T05:00:11Z",
+      "status": "scoring_attempted",
+      "title": "OPINE-World: Programmatic World Modeling with Ontology-error-Prioritized Interactive Exploration"
+    },
+    "https://arxiv.org/abs/2607.01567": {
+      "canonical_url": "https://arxiv.org/abs/2607.01567",
+      "created_at": "2026-07-03T05:00:11Z",
+      "status": "scoring_attempted",
+      "title": "Scaling Trends for Lie Detector Oversight in Preference Learning"
+    },
+    "https://arxiv.org/abs/2607.01584": {
+      "canonical_url": "https://arxiv.org/abs/2607.01584",
+      "created_at": "2026-07-03T05:00:11Z",
+      "status": "scoring_attempted",
+      "title": "EO-Agents: A Three-Agent LLM Pipeline for Earth Observation Hypothesis Generation"
+    },
+    "https://arxiv.org/abs/2607.01590": {
+      "canonical_url": "https://arxiv.org/abs/2607.01590",
+      "created_at": "2026-07-03T05:00:11Z",
+      "status": "scoring_attempted",
+      "title": "Hawk: Harnessing Hardware-Aware Knowledge for High-Performance NPU Kernel Generation"
+    },
+    "https://arxiv.org/abs/2607.01595": {
+      "canonical_url": "https://arxiv.org/abs/2607.01595",
+      "created_at": "2026-07-03T05:00:11Z",
+      "status": "scoring_attempted",
+      "title": "Safe and Adaptive Cloud Healing: Verifying LLM-Generated Recovery Plans with a Neural-Symbolic World Model"
+    },
+    "https://arxiv.org/abs/2607.01601": {
+      "canonical_url": "https://arxiv.org/abs/2607.01601",
+      "created_at": "2026-07-03T05:00:11Z",
+      "status": "scoring_attempted",
+      "title": "SemHash-LLM: A Multi-Granularity Semantic Hashing Framework for Document Deduplication"
+    },
+    "https://arxiv.org/abs/2607.01610": {
+      "canonical_url": "https://arxiv.org/abs/2607.01610",
+      "created_at": "2026-07-03T05:00:11Z",
+      "status": "scoring_attempted",
+      "title": "Profit-Based Counterfactual Explanations for Product Improvement: A Case Study of Manga Sales in Japan"
+    },
+    "https://arxiv.org/abs/2607.01612": {
+      "canonical_url": "https://arxiv.org/abs/2607.01612",
+      "created_at": "2026-07-03T05:00:11Z",
+      "status": "scoring_attempted",
+      "title": "Scaling with Confidence: Calibrating Confidence of LLMs for Adaptive Test Time Scaling"
+    },
+    "https://arxiv.org/abs/2607.01621": {
+      "canonical_url": "https://arxiv.org/abs/2607.01621",
+      "created_at": "2026-07-03T05:00:11Z",
+      "status": "scoring_attempted",
+      "title": "Spatial Support Matters: Geometry-Aware Graph Fusion for Rainfall Field Reconstruction"
+    },
+    "https://arxiv.org/abs/2607.01639": {
+      "canonical_url": "https://arxiv.org/abs/2607.01639",
+      "created_at": "2026-07-03T05:00:11Z",
+      "status": "scoring_attempted",
+      "title": "Autonomous discovery of traffic laws with AI traffic scientists"
+    },
+    "https://arxiv.org/abs/2607.01661": {
+      "canonical_url": "https://arxiv.org/abs/2607.01661",
+      "created_at": "2026-07-03T05:00:11Z",
+      "status": "scoring_attempted",
+      "title": "Diverse Evidence, Better Forecasts: Multi-Agent Deliberation Under Information Asymmetry"
+    },
     "https://ayushtambde.com/blog/matrix-orthogonalization-improves-memory-in-recurrent-models": {
       "canonical_url": "https://ayushtambde.com/blog/matrix-orthogonalization-improves-memory-in-recurrent-models",
       "created_at": "2026-07-01T06:08:53Z",
@@ -2864,12 +3302,6 @@
       "status": "scoring_attempted",
       "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration"
     },
-    "https://huggingface.co/blog/vllm-jobs": {
-      "canonical_url": "https://huggingface.co/blog/vllm-jobs",
-      "created_at": "2026-06-26T01:32:02Z",
-      "status": "scoring_attempted",
-      "title": "Run a vLLM Server on HF Jobs in One Command"
-    },
     "https://japannews.yomiuri.co.jp/science-nature/technology/20260306-314930": {
       "canonical_url": "https://japannews.yomiuri.co.jp/science-nature/technology/20260306-314930",
       "created_at": "2026-07-02T16:04:35Z",
@@ -3091,12 +3523,6 @@
       "created_at": "2026-07-01T20:21:20Z",
       "status": "scoring_attempted",
       "title": "Claude Fable 5 Promotional Access"
-    },
-    "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns": {
-      "canonical_url": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns",
-      "created_at": "2026-06-26T01:32:02Z",
-      "status": "scoring_attempted",
-      "title": "The White House is asking OpenAI to slow roll the release of its new model over safety concerns"
     },
     "https://techcrunch.com/2026/06/26/early-bird-pricing-ends-tonight-for-techcrunch-founder-summit": {
       "canonical_url": "https://techcrunch.com/2026/06/26/early-bird-pricing-ends-tonight-for-techcrunch-founder-summit",
@@ -3440,6 +3866,12 @@
       "status": "scoring_attempted",
       "title": "Most Arguments Are About Ego, Not Ideas"
     },
+    "https://wasmer.io": {
+      "canonical_url": "https://wasmer.io",
+      "created_at": "2026-07-03T05:00:11Z",
+      "status": "scoring_attempted",
+      "title": "Wasmer: Fast, secure, lightweight containers based on WebAssembly"
+    },
     "https://wtf.korridzy.com/twilight-of-the-gods": {
       "canonical_url": "https://wtf.korridzy.com/twilight-of-the-gods",
       "created_at": "2026-07-02T16:04:35Z",
@@ -3535,12 +3967,6 @@
       "created_at": "2026-06-26T16:20:07Z",
       "status": "scoring_attempted",
       "title": "The AI industry is pouring millions into US elections"
-    },
-    "https://www.bloomberg.com/news/articles/2026-06-25/apple-to-skip-high-end-m6-mac-chips-to-launch-m7-pro-m7-max-m7-ultra-instead?embedded-checkout=true": {
-      "canonical_url": "https://www.bloomberg.com/news/articles/2026-06-25/apple-to-skip-high-end-m6-mac-chips-to-launch-m7-pro-m7-max-m7-ultra-instead?embedded-checkout=true",
-      "created_at": "2026-06-26T01:32:02Z",
-      "status": "scoring_attempted",
-      "title": "Apple to skip high-end M6 Mac chips in favor of AI-focused M7 line"
     },
     "https://www.cbc.ca/radio/ideas/humboldt-education-system-bildung-1.7172093": {
       "canonical_url": "https://www.cbc.ca/radio/ideas/humboldt-education-system-bildung-1.7172093",
@@ -4376,12 +4802,6 @@
       "status": "scoring_attempted",
       "title": "Trump Administration Allows Anthropic to Release Mythos to Select US Organizations"
     },
-    "https://www.wired.com/story/anthropic-thinks-ai-can-only-be-safe-under-its-control": {
-      "canonical_url": "https://www.wired.com/story/anthropic-thinks-ai-can-only-be-safe-under-its-control",
-      "created_at": "2026-06-26T01:32:02Z",
-      "status": "scoring_attempted",
-      "title": "Anthropic Thinks Its Own Success Is Key to Making AI Safe"
-    },
     "https://www.wired.com/story/can-cursor-remain-an-open-platform-inside-of-spacex": {
       "canonical_url": "https://www.wired.com/story/can-cursor-remain-an-open-platform-inside-of-spacex",
       "created_at": "2026-07-02T19:44:21Z",
@@ -4447,12 +4867,6 @@
       "created_at": "2026-07-01T01:34:16Z",
       "status": "scoring_attempted",
       "title": "The Trump Administration Is Lifting Its Export Controls on Anthropic\u2019s Mythos and Fable AI Models"
-    },
-    "https://www.wired.com/story/uncanny-valley-podcast-amazon-mgm-openai-movie-data-center-workers-fight-back-meta-leaks-employee-data": {
-      "canonical_url": "https://www.wired.com/story/uncanny-valley-podcast-amazon-mgm-openai-movie-data-center-workers-fight-back-meta-leaks-employee-data",
-      "created_at": "2026-06-26T01:32:02Z",
-      "status": "scoring_attempted",
-      "title": "Why Amazon Dropped Its OpenAI Movie, Data Center Workers Fight Back, and Meta Leaks Employee Data"
     },
     "https://www.wired.com/story/why-meta-is-charging-a-subscription-for-on-device-smart-glasses-features": {
       "canonical_url": "https://www.wired.com/story/why-meta-is-charging-a-subscription-for-on-device-smart-glasses-features",
