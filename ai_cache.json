@@ -51,29 +51,6 @@
         "social_posts": {}
       }
     },
-    "16d5e21eee6b92c55931b524b9ff994cb179ada443b996d6b742f4ee03521487": {
-      "created_at": "2026-07-02T12:10:20Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 6,
-            "novelty_score": 2.5,
-            "reason": "Apple's move to Google Cloud for Private Cloud Compute is significant but not groundbreaking.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Apple Extends Private Cloud Compute to Google Cloud for the First Time",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 6,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "1b8555d411693f632e536d1e101e04ef9867c0ea151a298a92af09440941dcf3": {
       "created_at": "2026-07-02T19:44:21Z",
       "payload": {
@@ -93,6 +70,29 @@
         ],
         "best_index": 13,
         "best_score": 5.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "1cc0f70aae7397a2cc05543f7f59df100ccd7c04055b71dd7f16d19556e5f57a": {
+      "created_at": "2026-07-03T14:29:08Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 0.5,
+            "reason": "Opinion piece on AI confidence with niche impact from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Please stop the AI confidence theater",
+            "total_score": 3.5
+          }
+        ],
+        "best_index": 2,
+        "best_score": 3.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -286,41 +286,6 @@
           "threads": "OpenTelemetry just hit CNCF's highest maturity level, officially production-ready for enterprise use. Big news for cloud-native development.\nhttps://www.infoq.com/news/2026/07/opentelemetry-cncf-maturity/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "twitter": "OpenTelemetry just graduated to CNCF's highest maturity level, marking it as production-ready for enterprise use.\nhttps://www.infoq.com/news/2026/07/opentelemetry-cncf-maturity/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
         }
-      }
-    },
-    "4c7d74ae4394f47b9870db1abafc80672ba814e015155017d5ccc968c59795f2": {
-      "created_at": "2026-07-02T12:10:20Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 0.5,
-            "index": 0,
-            "novelty_score": 0.2,
-            "reason": "Entertainment piece with low relevance to software engineers and AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Mystery box shows are complicated for everyone \u2014 even the actors",
-            "total_score": 4.2
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "High novelty and impact for software engineers, but source tier is B.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.0,
-            "title": "Shifting Platform Development from Projects to Products",
-            "total_score": 8.0
-          }
-        ],
-        "best_index": 1,
-        "best_score": 8.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "57accadd448b40b6afc9cd9feeca6847933cf2abdb6e8fc1392bf7a0efe6b042": {
@@ -671,46 +636,6 @@
         "social_posts": {}
       }
     },
-    "89dce41cb61444654eb415f6b3d13fb1f96a74240a440bc46b90ab4d9333eb7f": {
-      "created_at": "2026-07-02T12:10:20Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "Potential government stake in OpenAI is significant but lacks concrete details.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "OpenAI: In early talks to give 5% stake to US Government",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 3,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "Google's AI infrastructure growth and its environmental impact are critical topics.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Google\u2019s AI buildout drove 37% increase in electricity use in 2025",
-            "total_score": 9
-          }
-        ],
-        "best_index": 3,
-        "best_score": 9,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Google's aggressive AI buildout led to a 37% increase in electricity consumption in 2025. The company is now trying to balance this growth with clean energy initiatives. Link: https://arstechnica.com/ai/2026/07/googles-ai-buildout-drove-37-increase-in-electricity-use-in-2025/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Google\u2019s AI buildout drove 37% increase in electricity use in 2025*\n\nGoogle's aggressive AI infrastructure expansion led to a significant rise in electricity consumption, prompting efforts to balance growth with clean energy initiatives.\n\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9/10\n\n\ud83d\udd17 https://arstechnica.com/ai/2026/07/googles-ai-buildout-drove-37-increase-in-electricity-use-in-2025/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Google's AI infrastructure grew so fast last year it drove a 37% increase in electricity use. The company is now trying to balance this growth with clean energy initiatives. https://arstechnica.com/ai/2026/07/googles-ai-buildout-drove-37-increase-in-electricity-use-in-2025/",
-          "twitter": "Google's AI infrastructure expansion drove a 37% surge in electricity use last year. https://arstechnica.com/ai/2026/07/googles-ai-buildout-drove-37-increase-in-electricity-use-in-2025/"
-        }
-      }
-    },
     "920825d86cc34f803b81eaef078366fe9fd09b0babe3794e24b05943fdfcb6ab": {
       "created_at": "2026-07-02T14:31:05Z",
       "payload": {
@@ -960,6 +885,29 @@
         }
       }
     },
+    "bbd506cfcbdeb1017faf72b7800b316087a79e3a8522232608f90306467430f5": {
+      "created_at": "2026-07-03T14:29:08Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "Google is shutting down Gemini Code Assist, a significant move for developers using the tool.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Gemini Code Assist will be shut down on July 17",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "bbf10c89896c0fba76bfcb5143c976172039ef5cc9fdf2d1fe4d536b8f92d30f": {
       "created_at": "2026-07-03T05:00:11Z",
       "payload": {
@@ -1041,46 +989,6 @@
         "best_score": 7,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "c4360e34dc25915143ddc98a1b0a85b86679ed1b9ccfae079abd81ea566417f2": {
-      "created_at": "2026-07-02T12:10:20Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 4,
-            "novelty_score": 0.2,
-            "reason": "Recap of BitTorrent's history lacks novelty for software engineers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "BitTorrent\u2019s disastrous, legendary, and controversial story",
-            "total_score": 3.7
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 3,
-            "index": 5,
-            "novelty_score": 2.5,
-            "reason": "OpenAI's potential stake offer to the US government is a significant industry move.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "OpenAI floats giving Trump administration 5 percent cut of AI boom",
-            "total_score": 9
-          }
-        ],
-        "best_index": 5,
-        "best_score": 9,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "OpenAI is considering offering the US government a 5% stake in its AI operations to mitigate political tensions. This move could set a precedent for how AI companies navigate regulatory challenges. Link: https://www.theverge.com/ai-artificial-intelligence/960588/openai-government-5-percent-stake-trump",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *OpenAI proposes giving the US government a 5% stake in its AI operations*\n\nOpenAI's CEO Sam Altman suggests this move to ease tensions with the Trump administration and address public backlash against AI.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9/10\n\n\ud83d\udd17 https://www.theverge.com/ai-artificial-intelligence/960588/openai-government-5-percent-stake-trump\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "OpenAI's proposal to give the US government a 5% stake in its AI operations is a bold move to ease political tensions. This could reshape how tech companies interact with regulators. https://www.theverge.com/ai-artificial-intelligence/960588/openai-government-5-percent-stake-trump",
-          "twitter": "OpenAI proposes giving the US government a 5% stake in its AI boom to ease tensions with the Trump administration. https://www.theverge.com/ai-artificial-intelligence/960588/openai-government-5-percent-stake-trump"
-        }
       }
     },
     "c7eec26047a8cb4f7c8024bd93fb1d5f2ab8df65e9612dc11a41d0dbaf6e79c5": {
@@ -1396,6 +1304,29 @@
           "threads": "Midjourney's medical scanner gets a behind-the-scenes reveal, but can it actually transform medicine? The AI startup, known for image generation, released a video of its dunk-tank ultrasound scanner. https://www.theverge.com/ai-artificial-intelligence/961265/midjourney-medical-ultrasound-scanner-behind-the-scenes-video",
           "twitter": "Midjourney's medical scanner gets a behind-the-scenes reveal, but can it actually transform medicine?\nhttps://www.theverge.com/ai-artificial-intelligence/961265/midjourney-medical-ultrasound-scanner-behind-the-scenes-video"
         }
+      }
+    },
+    "e9b2efe06057e8883df46646a44f2166c1362fc81fa7320c23e44cc9e7625c72": {
+      "created_at": "2026-07-03T14:29:08Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Valve open-sourcing their Steam Machine e-ink screen is a notable move for hardware enthusiasts.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Valve open source the Steam Machine e-ink screen so you can make your own",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "eebda7ce1633c6cb7523ad116e50d05ec824378bba9f32189f1bd521423d727b": {
@@ -1738,15 +1669,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Proposed Rule Change Threatens US Scientific Research\nA recent proposal to revise federal financial assistance has sparked concerns among the scientific community, with many calling for action to prevent the proposed changes.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#USscience #scientificresearch #funding\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "The US scientific research community is sounding the alarm over proposed revisions to federal financial assistance, which could have severe implications for the future of science, notes @TheVerge #USscience",
         "twitter": "Proposed federal financial assistance revisions could severely impact US scientific research, warns @TheVerge, with significant implications for the future of science #USscience"
-      }
-    },
-    "9ea7521c866808d209b79c1a87f554e1e1d83731d937c7f01237a0441ac52fef": {
-      "created_at": "2026-06-26T12:30:41Z",
-      "payload": {
-        "facebook": "The latest release of Dapr introduces Verifiable Execution, a new set of capabilities designed to bring cryptographic trust and provenance to distributed applications and AI agents. This development is significant for the future of AI and workflow management. #AI #Dapr #CryptographicTrust",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Dapr 1.18 Introduces Verifiable Execution\nDapr's latest release brings cryptographic trust and provenance to distributed applications and AI agents.\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (B)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #Dapr #CryptographicTrust\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Dapr 1.18 introduces Verifiable Execution, bringing cryptographic trust to AI agents and workflows @Diagrid #AI",
-        "twitter": "Dapr 1.18 brings cryptographic trust to AI agents with Verifiable Execution @Diagrid #AI"
       }
     },
     "9f705b3789ac6d1b3d24af44c4d996a13792038ca4f4475337892bd27d0a3247": {
@@ -2690,6 +2612,12 @@
       "status": "scoring_attempted",
       "title": "The CEO of Mullvad is the main financer of the Swedish \u00d6rebro party"
     },
+    "https://docs.cloud.google.com/gemini/docs/code-review/review-repo-code": {
+      "canonical_url": "https://docs.cloud.google.com/gemini/docs/code-review/review-repo-code",
+      "created_at": "2026-07-03T14:29:08Z",
+      "status": "scoring_attempted",
+      "title": "Gemini Code Assist will be shut down on July 17"
+    },
     "https://english.elpais.com/education/2026-06-28/ai-fraud-at-brown-university-academic-integrity-is-at-risk.html": {
       "canonical_url": "https://english.elpais.com/education/2026-06-28/ai-fraud-at-brown-university-academic-integrity-is-at-risk.html",
       "created_at": "2026-06-28T21:43:22Z",
@@ -3596,6 +3524,18 @@
       "status": "scoring_attempted",
       "title": "Mystery identity of 'Green Boots' climber is finally solved after DNA test"
     },
+    "https://www.elenaverna.com/p/please-stop-the-ai-confidence-theater": {
+      "canonical_url": "https://www.elenaverna.com/p/please-stop-the-ai-confidence-theater",
+      "created_at": "2026-07-03T14:29:08Z",
+      "status": "scoring_attempted",
+      "title": "Please stop the AI confidence theater"
+    },
+    "https://www.gamingonlinux.com/2026/07/valve-open-source-the-steam-machine-e-ink-screen-so-you-can-make-your-own": {
+      "canonical_url": "https://www.gamingonlinux.com/2026/07/valve-open-source-the-steam-machine-e-ink-screen-so-you-can-make-your-own",
+      "created_at": "2026-07-03T14:29:08Z",
+      "status": "scoring_attempted",
+      "title": "Valve open source the Steam Machine e-ink screen so you can make your own"
+    },
     "https://www.goldmansachs.com/static-libs/pdf-redirect/prod/index.html?path=%2Fpdfs%2Finsights%2Fgoldman-sachs-research%2Fan-ai-job-apocalypse%2Freport.pdf&originalQuery=&referrer=": {
       "canonical_url": "https://www.goldmansachs.com/static-libs/pdf-redirect/prod/index.html?path=%2Fpdfs%2Finsights%2Fgoldman-sachs-research%2Fan-ai-job-apocalypse%2Freport.pdf&originalQuery=&referrer=",
       "created_at": "2026-07-03T01:04:17Z",
@@ -3626,12 +3566,6 @@
       "status": "scoring_attempted",
       "title": "AI Tools Accelerates Coding, but Not Overall Software Delivery, GitLab Research Finds"
     },
-    "https://www.infoq.com/news/2026/06/argocd-supply-chain-security": {
-      "canonical_url": "https://www.infoq.com/news/2026/06/argocd-supply-chain-security",
-      "created_at": "2026-06-26T12:30:41Z",
-      "status": "scoring_attempted",
-      "title": "Argo CD 3.5 Tightens Supply Chain Security with Internal mTLS and Source Integrity"
-    },
     "https://www.infoq.com/news/2026/06/aws-credentials-provider": {
       "canonical_url": "https://www.infoq.com/news/2026/06/aws-credentials-provider",
       "created_at": "2026-06-27T11:57:53Z",
@@ -3655,12 +3589,6 @@
       "created_at": "2026-06-30T12:30:40Z",
       "status": "scoring_attempted",
       "title": "Microsoft Brings AI-Powered Vulnerability Remediation to Azure DevOps with Copilot Autofix"
-    },
-    "https://www.infoq.com/news/2026/06/dapr-1-18-cryptographic-ai": {
-      "canonical_url": "https://www.infoq.com/news/2026/06/dapr-1-18-cryptographic-ai",
-      "created_at": "2026-06-26T12:30:41Z",
-      "status": "scoring_attempted",
-      "title": "Dapr 1.18 Introduces Verifiable Execution, Bringing Cryptographic Trust to AI Agents and Workflows"
     },
     "https://www.infoq.com/news/2026/06/elastic-atlas-agent-memory": {
       "canonical_url": "https://www.infoq.com/news/2026/06/elastic-atlas-agent-memory",
@@ -4040,12 +3968,6 @@
       "status": "scoring_attempted",
       "title": "Range anxiety"
     },
-    "https://www.theverge.com/entertainment/957288/gta-6-xbox-ps5-price-hikes": {
-      "canonical_url": "https://www.theverge.com/entertainment/957288/gta-6-xbox-ps5-price-hikes",
-      "created_at": "2026-06-26T12:30:41Z",
-      "status": "scoring_attempted",
-      "title": "With GTA looming, consoles are getting expensive at the worst possible time"
-    },
     "https://www.theverge.com/entertainment/957679/indie-developers-star-fox-games": {
       "canonical_url": "https://www.theverge.com/entertainment/957679/indie-developers-star-fox-games",
       "created_at": "2026-06-27T15:03:26Z",
@@ -4087,12 +4009,6 @@
       "created_at": "2026-06-26T16:20:07Z",
       "status": "scoring_attempted",
       "title": "Xreal\u2019s best USB-C smart glasses are $50 off, but not for long"
-    },
-    "https://www.theverge.com/gadgets/957435/prime-day-2026-best-tech-deals-sale-day-four": {
-      "canonical_url": "https://www.theverge.com/gadgets/957435/prime-day-2026-best-tech-deals-sale-day-four",
-      "created_at": "2026-06-26T12:30:41Z",
-      "status": "scoring_attempted",
-      "title": "It\u2019s the last day of Prime Day \u2014 here are over 130 great deals to choose from"
     },
     "https://www.theverge.com/gadgets/957605/apple-airpods-max-2-headphones-prime-day-deal-sale": {
       "canonical_url": "https://www.theverge.com/gadgets/957605/apple-airpods-max-2-headphones-prime-day-deal-sale",
@@ -4285,18 +4201,6 @@
       "created_at": "2026-06-30T18:17:43Z",
       "status": "scoring_attempted",
       "title": "Netflix is using an AI-generated Gene Wilder voice in its Willy Wonka reality show"
-    },
-    "https://www.theverge.com/tech/957561/apple-m6-m7-ai-chip-release-timeline-gurman": {
-      "canonical_url": "https://www.theverge.com/tech/957561/apple-m6-m7-ai-chip-release-timeline-gurman",
-      "created_at": "2026-06-26T12:30:41Z",
-      "status": "scoring_attempted",
-      "title": "Apple\u2019s most powerful Macs might be waiting until 2027 for big processor upgrades"
-    },
-    "https://www.theverge.com/tech/957597/samsung-smartthings-api-charges": {
-      "canonical_url": "https://www.theverge.com/tech/957597/samsung-smartthings-api-charges",
-      "created_at": "2026-06-26T12:30:41Z",
-      "status": "scoring_attempted",
-      "title": "Samsung will soon start charging to access its smart home API"
     },
     "https://www.theverge.com/tech/957603/tmd-smart-keyless-bike-lock-review": {
       "canonical_url": "https://www.theverge.com/tech/957603/tmd-smart-keyless-bike-lock-review",
