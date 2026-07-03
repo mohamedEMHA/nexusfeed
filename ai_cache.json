@@ -1,28 +1,5 @@
 {
   "cerebras_scoring": {
-    "021ad46fac3f65c1fd47f72bc0a6a45d1305343a931fe2a8b68022dc24b20bc8": {
-      "created_at": "2026-07-02T09:58:07Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Netflix's architecture for handling extreme traffic spikes is relevant to many engineers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Presentation: Enhancing Reliability Using Service-Level Prioritized Load Shedding at Netflix",
-            "total_score": 8
-          }
-        ],
-        "best_index": 1,
-        "best_score": 8,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "087bf96fcd3c2129c69850b65a2303985e1de1d3cf66bfe3530a7ae5d9192f43": {
       "created_at": "2026-07-03T01:04:17Z",
       "payload": {
@@ -271,6 +248,46 @@
         "social_posts": {}
       }
     },
+    "4b5e7a84ba21cebd52b0dd0ef6137cceb7be8f4f8d89398c106bb53087d3b49f": {
+      "created_at": "2026-07-03T12:06:05Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 0.2,
+            "reason": "Recap of Apple TV's strategy with no new technical developments.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Apple TV is hitting its stride",
+            "total_score": 5.2
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 3.0,
+            "reason": "Major milestone for OpenTelemetry with broad impact on cloud-native development.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.0,
+            "title": "OpenTelemetry Graduates to CNCF's Highest Maturity Level",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "OpenTelemetry has reached a significant milestone by graduating to the Cloud Native Computing Foundation's highest maturity level. This recognition solidifies its status as production-ready for enterprise use, a major step forward for cloud-native development.\nLink: https://www.infoq.com/news/2026/07/opentelemetry-cncf-maturity/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *OpenTelemetry Graduates to CNCF's Highest Maturity Level*\n\nThe Cloud Native Computing Foundation (CNCF) has announced the graduation of OpenTelemetry, elevating the project to the foundation's highest level of maturity and formally recognizing it as production-ready for enterprise use.\n\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (B)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.infoq.com/news/2026/07/opentelemetry-cncf-maturity/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "OpenTelemetry just hit CNCF's highest maturity level, officially production-ready for enterprise use. Big news for cloud-native development.\nhttps://www.infoq.com/news/2026/07/opentelemetry-cncf-maturity/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "twitter": "OpenTelemetry just graduated to CNCF's highest maturity level, marking it as production-ready for enterprise use.\nhttps://www.infoq.com/news/2026/07/opentelemetry-cncf-maturity/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+        }
+      }
+    },
     "4c7d74ae4394f47b9870db1abafc80672ba814e015155017d5ccc968c59795f2": {
       "created_at": "2026-07-02T12:10:20Z",
       "payload": {
@@ -420,6 +437,41 @@
           "threads": "New research on high-performance NPU kernel generation using hardware-aware knowledge. This could be a game-changer for AI hardware development. https://arxiv.org/abs/2607.01590",
           "twitter": "New research from arXiv on Hawk: Harnessing Hardware-Aware Knowledge for High-Performance NPU Kernel Generation. https://arxiv.org/abs/2607.01590"
         }
+      }
+    },
+    "62e54db9a56dfce3a50ab46f9e1301d801fde5310641bf00e81d8807a819221a": {
+      "created_at": "2026-07-03T12:06:05Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 4,
+            "novelty_score": 2.5,
+            "reason": "Industry trend analysis but not a new release or research.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Mini book: Agentic AI Architecture",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 5,
+            "novelty_score": 2,
+            "reason": "Significant industry move affecting cloud users.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Oracle Quietly Halves Free Tier Ampere A1 Compute Limits with No Public Announcement",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 5,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "679f6513483a8026816ae764a858149f5104f529c012417650b733ff3b92a648": {
@@ -713,6 +765,41 @@
         ],
         "best_index": 0,
         "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "95f856fbf0f62588b69e078fc2b2a534102efad1eb7ff5d0d2d98f49dcbe917d": {
+      "created_at": "2026-07-03T12:06:05Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 6,
+            "novelty_score": 2.0,
+            "reason": "Industry collaboration with significant financial backing but limited novelty in AI drug discovery space.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.0,
+            "title": "Takeda signs US$600M AI drug discovery deal with Insilico",
+            "total_score": 5.0
+          },
+          {
+            "freshness_score": 1.0,
+            "impact_score": 2.5,
+            "index": 10,
+            "novelty_score": 2.5,
+            "reason": "Open-source AI browser agent with significant potential for developers but slightly older than ideal.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Meet WebBrain: An Open-Source, Local-First AI Browser Agent That Reads Pages and Automates Tasks in Chrome and Firefox",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 10,
+        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1019,29 +1106,6 @@
         "social_posts": {}
       }
     },
-    "cd99ae29776649017aec0491923e24e2074c621dbc5b595d4e0159a8cdc86e1e": {
-      "created_at": "2026-07-02T09:58:07Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "Community project, not an official Google release.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "The Google Health API Got a CLI: ghealth is an Open-Source Tool for Your Fitbit Air Data",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 2,
-        "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "d60057e6e0263aebb4ea6564f6ba8a400700faaf2e06c2fb3b829a02311feb79": {
       "created_at": "2026-07-02T22:57:31Z",
       "payload": {
@@ -1294,6 +1358,46 @@
         "social_posts": {}
       }
     },
+    "e834eda2b007141314bd0a7bf22ff27837722fce01e6d850ca858950c95d550b": {
+      "created_at": "2026-07-03T12:06:05Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "Midjourney's medical scanner is a significant move, but proof of its effectiveness remains unclear.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "A behind-the-scenes look at Midjourney\u2019s medical scanner leaves many questions unanswered",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 3,
+            "novelty_score": 0.5,
+            "reason": "Opinion piece with limited novelty and impact, from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Ed Zitron on CNBC: GenAI Doesn't Work, and Big Tech Is Out of Hypergrowth Ideas",
+            "total_score": 3.5
+          }
+        ],
+        "best_index": 2,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Midjourney has released a behind-the-scenes video of its medical scanner, which it plans to deploy in spas. The video raises more questions than answers about the scanner's effectiveness. Midjourney is best known for its image generation AI. Link: https://www.theverge.com/ai-artificial-intelligence/961265/midjourney-medical-ultrasound-scanner-behind-the-scenes-video",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *A behind-the-scenes look at Midjourney\u2019s medical scanner leaves many questions unanswered*\n\nMidjourney has released a behind-the-scenes video of its medical scanner, which it plans to deploy in spas. The video raises more questions than answers about the scanner's effectiveness.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/ai-artificial-intelligence/961265/midjourney-medical-ultrasound-scanner-behind-the-scenes-video\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Midjourney's medical scanner gets a behind-the-scenes reveal, but can it actually transform medicine? The AI startup, known for image generation, released a video of its dunk-tank ultrasound scanner. https://www.theverge.com/ai-artificial-intelligence/961265/midjourney-medical-ultrasound-scanner-behind-the-scenes-video",
+          "twitter": "Midjourney's medical scanner gets a behind-the-scenes reveal, but can it actually transform medicine?\nhttps://www.theverge.com/ai-artificial-intelligence/961265/midjourney-medical-ultrasound-scanner-behind-the-scenes-video"
+        }
+      }
+    },
     "eebda7ce1633c6cb7523ad116e50d05ec824378bba9f32189f1bd521423d727b": {
       "created_at": "2026-07-02T18:00:22Z",
       "payload": {
@@ -1315,34 +1419,6 @@
         "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "f82453ed0a0756fcfde2b8409531c0ab5025d6625b599b69132d2dd8f81225ed": {
-      "created_at": "2026-07-02T09:58:07Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Meta's shift to subscription-based smart glasses features marks a significant industry move with broad implications for consumer tech.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Meta Is Charging a Subscription for Smart Glasses Features. Welcome to the New Era of Consumer Tech",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Meta's decision to charge subscriptions for advanced smart glasses features could redefine how we pay for consumer tech. This move blurs the line between hardware and software revenue models.\nLink: https://www.wired.com/story/why-meta-is-charging-a-subscription-for-on-device-smart-glasses-features/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Meta Is Charging a Subscription for Smart Glasses Features. Welcome to the New Era of Consumer Tech*\n\nMeta now charges subscriptions for advanced smart glasses features, marking a significant shift in consumer tech pricing models.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.wired.com/story/why-meta-is-charging-a-subscription-for-on-device-smart-glasses-features/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Meta is charging subscriptions for advanced smart glasses features, a significant shift in consumer tech. This could set a precedent for other hardware companies.\nhttps://www.wired.com/story/why-meta-is-charging-a-subscription-for-on-device-smart-glasses-features/",
-          "twitter": "Meta is now charging subscriptions for advanced smart glasses features, signaling a new era in consumer tech pricing models.\nhttps://www.wired.com/story/why-meta-is-charging-a-subscription-for-on-device-smart-glasses-features/"
-        }
       }
     },
     "faa683bb9a19e59e0ece8fe51bb6cfe3430a436d1f3f08f0113a77e9cb12ba10": {
@@ -1572,6 +1648,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 South Korea Invests in AI Infrastructure\nSouth Korea is investing heavily in AI infrastructure and humanoid robots, aiming for a physical AI lead by 2028.\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n#AI #Robotics #SouthKorea\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "South Korea is investing $1T in memory chip production and humanoid robots, aiming for a physical AI lead by 2028, @ArsTechnica #AI",
         "twitter": "South Korea invests heavily in AI infrastructure and humanoid robots, aiming for a physical AI lead by 2028, @ArsTechnica reports #AI"
+      }
+    },
+    "5f74083fcc15bee7945e4107ca6e6b6161943ff269e92bd9d03a10da0f130891": {
+      "created_at": "2026-07-03T12:06:05Z",
+      "payload": {
+        "facebook": "The Cloud Native Computing Foundation has announced the graduation of OpenTelemetry, a significant milestone that recognizes the project as production-ready for enterprise use. This elevation to the foundation's highest level of maturity is a testament to OpenTelemetry's capabilities and potential impact on cloud-native development. #OpenTelemetry #CloudNative #CNCF",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 OpenTelemetry Reaches New Heights\nThe Cloud Native Computing Foundation has announced the graduation of OpenTelemetry, recognizing it as production-ready for enterprise use.\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (B)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#OpenTelemetry #CloudNative #CNCF\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "OpenTelemetry has graduated to the Cloud Native Computing Foundation's highest maturity level, solidifying its position as a production-ready solution for enterprise use @cncf #OpenTelemetry",
+        "twitter": "OpenTelemetry reaches new heights with CNCF graduation, now production-ready for enterprise use @cncf #OpenTelemetry"
       }
     },
     "5f74d725b8b084eb2f4d0943518b14dccbdc620e5d6a55a51b438cfc3b402104": {
@@ -3457,6 +3542,12 @@
       "status": "scoring_attempted",
       "title": "Scam.ai Announces Qualcomm Partnership, Launches Halo Deepfake Detection Model at Computex 2026"
     },
+    "https://www.artificialintelligence-news.com/news/takeda-insilico-ai-drug-discovery-deal": {
+      "canonical_url": "https://www.artificialintelligence-news.com/news/takeda-insilico-ai-drug-discovery-deal",
+      "created_at": "2026-07-03T12:06:05Z",
+      "status": "scoring_attempted",
+      "title": "Takeda signs US$600M AI drug discovery deal with Insilico"
+    },
     "https://www.artificialintelligence-news.com/news/wimbledon-ibm-ai-tools-live-match-coverage": {
       "canonical_url": "https://www.artificialintelligence-news.com/news/wimbledon-ibm-ai-tools-live-match-coverage",
       "created_at": "2026-06-29T10:00:33Z",
@@ -3522,6 +3613,12 @@
       "created_at": "2026-06-30T10:29:55Z",
       "status": "scoring_attempted",
       "title": "Article: Scaling Java-Based Real-Time Systems: The Hidden Tradeoffs of Event-Driven Design"
+    },
+    "https://www.infoq.com/minibooks/agentic-ai-architecture": {
+      "canonical_url": "https://www.infoq.com/minibooks/agentic-ai-architecture",
+      "created_at": "2026-07-03T12:06:05Z",
+      "status": "scoring_attempted",
+      "title": "Mini book: Agentic AI Architecture"
     },
     "https://www.infoq.com/news/2026/06/ai-coding-outpaces-governance": {
       "canonical_url": "https://www.infoq.com/news/2026/06/ai-coding-outpaces-governance",
@@ -3619,6 +3716,18 @@
       "status": "scoring_attempted",
       "title": "Instacart Scales Personalized Marketing via Configuration-Driven Multi-Tenant Platform"
     },
+    "https://www.infoq.com/news/2026/07/opentelemetry-cncf-maturity": {
+      "canonical_url": "https://www.infoq.com/news/2026/07/opentelemetry-cncf-maturity",
+      "created_at": "2026-07-03T12:06:05Z",
+      "status": "scoring_attempted",
+      "title": "OpenTelemetry Graduates to CNCF's Highest Maturity Level"
+    },
+    "https://www.infoq.com/news/2026/07/oracle-cloud-free-tier-limits": {
+      "canonical_url": "https://www.infoq.com/news/2026/07/oracle-cloud-free-tier-limits",
+      "created_at": "2026-07-03T12:06:05Z",
+      "status": "scoring_attempted",
+      "title": "Oracle Quietly Halves Free Tier Ampere A1 Compute Limits with No Public Announcement"
+    },
     "https://www.infoq.com/news/2026/07/platform-projects-products": {
       "canonical_url": "https://www.infoq.com/news/2026/07/platform-projects-products",
       "created_at": "2026-07-02T12:10:20Z",
@@ -3678,12 +3787,6 @@
       "created_at": "2026-06-27T01:59:03Z",
       "status": "scoring_attempted",
       "title": "Cursor Study Finds Reward Hacking Inflates Coding-Agent Benchmark Scores on SWE-bench Pro"
-    },
-    "https://www.marktechpost.com/2026/06/26/meet-container-apples-open-source-swift-tool-for-running-linux-containers-as-lightweight-vms-on-apple-silicon": {
-      "canonical_url": "https://www.marktechpost.com/2026/06/26/meet-container-apples-open-source-swift-tool-for-running-linux-containers-as-lightweight-vms-on-apple-silicon",
-      "created_at": "2026-06-26T10:20:25Z",
-      "status": "scoring_attempted",
-      "title": "Meet container: Apple\u2019s Open-Source Swift Tool for Running Linux Containers as Lightweight VMs on Apple Silicon"
     },
     "https://www.marktechpost.com/2026/06/26/openai-previews-gpt-5-6-with-sol-terra-and-luna-tiered-models-new-reasoning-modes-limited-access": {
       "canonical_url": "https://www.marktechpost.com/2026/06/26/openai-previews-gpt-5-6-with-sol-terra-and-luna-tiered-models-new-reasoning-modes-limited-access",
@@ -3780,6 +3883,12 @@
       "created_at": "2026-07-02T22:57:31Z",
       "status": "scoring_attempted",
       "title": "Meet Alibaba\u2019s Page Agent: A JavaScript In-Page GUI Agent That Controls Web Interfaces With Natural Language Through the DOM"
+    },
+    "https://www.marktechpost.com/2026/07/02/meet-webbrain-an-open-source-local-first-ai-browser-agent-that-reads-pages-and-automates-tasks-in-chrome-and-firefox": {
+      "canonical_url": "https://www.marktechpost.com/2026/07/02/meet-webbrain-an-open-source-local-first-ai-browser-agent-that-reads-pages-and-automates-tasks-in-chrome-and-firefox",
+      "created_at": "2026-07-03T12:06:05Z",
+      "status": "scoring_attempted",
+      "title": "Meet WebBrain: An Open-Source, Local-First AI Browser Agent That Reads Pages and Automates Tasks in Chrome and Firefox"
     },
     "https://www.marktechpost.com/2026/07/02/the-google-health-api-got-a-cli-ghealth-is-an-open-source-tool-for-your-fitbit-air-data": {
       "canonical_url": "https://www.marktechpost.com/2026/07/02/the-google-health-api-got-a-cli-ghealth-is-an-open-source-tool-for-your-fitbit-air-data",
@@ -3913,6 +4022,12 @@
       "status": "scoring_attempted",
       "title": "OpenAI floats giving Trump administration 5 percent cut of AI boom"
     },
+    "https://www.theverge.com/ai-artificial-intelligence/961265/midjourney-medical-ultrasound-scanner-behind-the-scenes-video": {
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/961265/midjourney-medical-ultrasound-scanner-behind-the-scenes-video",
+      "created_at": "2026-07-03T12:06:05Z",
+      "status": "scoring_attempted",
+      "title": "A behind-the-scenes look at Midjourney\u2019s medical scanner leaves many questions unanswered"
+    },
     "https://www.theverge.com/column/959270/elon-musk-open-ai-bill-savitt-twitter": {
       "canonical_url": "https://www.theverge.com/column/959270/elon-musk-open-ai-bill-savitt-twitter",
       "created_at": "2026-06-30T12:30:40Z",
@@ -3954,6 +4069,12 @@
       "created_at": "2026-07-02T12:10:20Z",
       "status": "scoring_attempted",
       "title": "Mystery box shows are complicated for everyone \u2014 even the actors"
+    },
+    "https://www.theverge.com/entertainment/960985/apple-tv-hits-2026": {
+      "canonical_url": "https://www.theverge.com/entertainment/960985/apple-tv-hits-2026",
+      "created_at": "2026-07-03T12:06:05Z",
+      "status": "scoring_attempted",
+      "title": "Apple TV is hitting its stride"
     },
     "https://www.theverge.com/gadgets/906880/lg-ultragear-tandem-oled-1440p-gaming-monitor-deal-sale": {
       "canonical_url": "https://www.theverge.com/gadgets/906880/lg-ultragear-tandem-oled-1440p-gaming-monitor-deal-sale",
@@ -4351,12 +4472,6 @@
       "status": "scoring_attempted",
       "title": "Goose, a New Gay Dating App, Appears to Be a Psyop"
     },
-    "https://www.wired.com/story/how-qatar-became-fifas-technology-test-lab": {
-      "canonical_url": "https://www.wired.com/story/how-qatar-became-fifas-technology-test-lab",
-      "created_at": "2026-06-26T10:20:25Z",
-      "status": "scoring_attempted",
-      "title": "How Qatar Became FIFA\u2019s Technology Test Lab"
-    },
     "https://www.wired.com/story/meta-contractors-pretending-to-be-teens-chatbot-testing": {
       "canonical_url": "https://www.wired.com/story/meta-contractors-pretending-to-be-teens-chatbot-testing",
       "created_at": "2026-06-29T22:07:05Z",
@@ -4410,6 +4525,12 @@
       "created_at": "2026-07-01T16:03:57Z",
       "status": "scoring_attempted",
       "title": "Manufact (YC S25) Is Hiring a Developer Advocate in SF"
+    },
+    "https://www.youtube.com/watch?v=TtmPccUTDP8": {
+      "canonical_url": "https://www.youtube.com/watch?v=TtmPccUTDP8",
+      "created_at": "2026-07-03T12:06:05Z",
+      "status": "scoring_attempted",
+      "title": "Ed Zitron on CNBC: GenAI Doesn't Work, and Big Tech Is Out of Hypergrowth Ideas"
     },
     "https://zcode.z.ai/cn": {
       "canonical_url": "https://zcode.z.ai/cn",
