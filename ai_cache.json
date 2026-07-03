@@ -132,29 +132,6 @@
         "social_posts": {}
       }
     },
-    "1b8555d411693f632e536d1e101e04ef9867c0ea151a298a92af09440941dcf3": {
-      "created_at": "2026-07-02T19:44:21Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1,
-            "impact_score": 1.5,
-            "index": 13,
-            "novelty_score": 2.5,
-            "reason": "Opinion piece on LLM code in dependencies with moderate impact and freshness.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "No LLM Code in Dependencies",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 13,
-        "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "1cc0f70aae7397a2cc05543f7f59df100ccd7c04055b71dd7f16d19556e5f57a": {
       "created_at": "2026-07-03T14:29:08Z",
       "payload": {
@@ -270,41 +247,6 @@
         "social_posts": {}
       }
     },
-    "4763d3c67a85e692e5787fcbac21d8101f32204ac4281910fa4477060a7bb03b": {
-      "created_at": "2026-07-02T19:44:21Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "Vulkan support on NetBSD is notable but niche.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Vulkan is now available on NetBSD",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "Anthropic's potential custom chip with Samsung could reshape AI hardware.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Anthropic is discussing a new custom chip with Samsung",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 3,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "4b5e7a84ba21cebd52b0dd0ef6137cceb7be8f4f8d89398c106bb53087d3b49f": {
       "created_at": "2026-07-03T12:06:05Z",
       "payload": {
@@ -343,6 +285,52 @@
           "threads": "OpenTelemetry just hit CNCF's highest maturity level, officially production-ready for enterprise use. Big news for cloud-native development.\nhttps://www.infoq.com/news/2026/07/opentelemetry-cncf-maturity/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "twitter": "OpenTelemetry just graduated to CNCF's highest maturity level, marking it as production-ready for enterprise use.\nhttps://www.infoq.com/news/2026/07/opentelemetry-cncf-maturity/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
         }
+      }
+    },
+    "4d4d5371f0d13d17b5b2eb88c8b4540951f548c585ddb71829e7d1035e8de197": {
+      "created_at": "2026-07-03T20:05:23Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 0.0,
+            "impact_score": 0.0,
+            "index": 16,
+            "novelty_score": 0.0,
+            "reason": "Comments-only post with no substantive content.",
+            "red_flag": true,
+            "red_flag_reason": "Comments",
+            "source_score": 0.5,
+            "title": "Ask HN: Is anyone experimenting with different ways of using LLMs for coding?",
+            "total_score": 0.5
+          }
+        ],
+        "best_index": 16,
+        "best_score": 0.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "564589730475c95d2169bd5a76f278236c60cea1c9ed63b64b152bd115b53191": {
+      "created_at": "2026-07-03T20:05:23Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1,
+            "impact_score": 1.5,
+            "index": 6,
+            "novelty_score": 1.5,
+            "reason": "Opinion piece on AI in education with moderate impact and freshness, but low novelty and source tier.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Instead of banning AI, I made a classroom contract with my students",
+            "total_score": 4.5
+          }
+        ],
+        "best_index": 6,
+        "best_score": 4.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "58f717515dec9f5fb3e88a4d09c1ae96226dfde6c8761fa2e2266398581ae05b": {
@@ -826,46 +814,6 @@
         "social_posts": {}
       }
     },
-    "ba4b668e9d75b09700c55442a771427b10218d2b2808c12d8480841d444abe37": {
-      "created_at": "2026-07-02T19:44:21Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 3.0,
-            "reason": "Meta's new AI gaming app Pocket is a significant release with broad appeal.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Meta quietly launches vibe-coded gaming app Pocket",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 0.0,
-            "index": 1,
-            "novelty_score": 0.0,
-            "reason": "This is just a comment thread, not a substantive article.",
-            "red_flag": true,
-            "red_flag_reason": "Comments",
-            "source_score": 0.5,
-            "title": "Claude's AskUserQuestion: \"No response after 60s \u2013 continued without an answer\"",
-            "total_score": 2.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Meta has quietly released Pocket, an experimental AI app that allows users to generate and share interactive mini-games using text prompts. This could be a significant move in the gaming space. Link: https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Meta quietly launches vibe-coded gaming app Pocket*\n\nMeta has quietly launched Pocket, an experimental AI app that lets users generate and share interactive mini games using text prompts.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Meta's new Pocket app lets users create and share interactive mini-games with text prompts. This is a quiet but potentially significant release. https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/",
-          "twitter": "Meta just launched Pocket, an AI app that lets users create and share interactive mini-games with text prompts. https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/"
-        }
-      }
-    },
     "bbd506cfcbdeb1017faf72b7800b316087a79e3a8522232608f90306467430f5": {
       "created_at": "2026-07-03T14:29:08Z",
       "payload": {
@@ -1283,34 +1231,6 @@
         "best_score": 5.5,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "ffea47876d420c2e2c9c2fc995f3c9cc29867d204bd1bf6ce0de9d5254376367": {
-      "created_at": "2026-07-02T19:44:21Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 4,
-            "novelty_score": 2.5,
-            "reason": "Cursor's acquisition by SpaceX raises questions about the future of third-party AI models on its platform.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Can Cursor Remain a Platform for OpenAI and Anthropic\u2019s Models Inside SpaceX?",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 4,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Cursor's acquisition by SpaceX raises questions about whether it will continue to support third-party AI models from OpenAI and Anthropic. This move could reshape the AI landscape.\nLink: https://www.wired.com/story/can-cursor-remain-an-open-platform-inside-of-spacex/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Can Cursor Remain a Platform for OpenAI and Anthropic\u2019s Models Inside SpaceX?*\n\nCursor's future as an open platform for OpenAI and Anthropic models is in question after SpaceX acquisition.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.wired.com/story/can-cursor-remain-an-open-platform-inside-of-spacex/",
-          "threads": "Cursor's future as an open platform for OpenAI and Anthropic models is in question after SpaceX acquisition. This could reshape the AI landscape.\nhttps://www.wired.com/story/can-cursor-remain-an-open-platform-inside-of-spacex/",
-          "twitter": "Cursor's future as an open platform for OpenAI and Anthropic models is in question after SpaceX acquisition.\nhttps://www.wired.com/story/can-cursor-remain-an-open-platform-inside-of-spacex/"
-        }
       }
     }
   },
@@ -2820,6 +2740,12 @@
       "status": "scoring_attempted",
       "title": "Launch HN: Parsewise (YC P25) \u2013 Reason Across Documents with an API"
     },
+    "https://news.ycombinator.com/item?id=48771515": {
+      "canonical_url": "https://news.ycombinator.com/item?id=48771515",
+      "created_at": "2026-07-03T20:05:23Z",
+      "status": "scoring_attempted",
+      "title": "Ask HN: Is anyone experimenting with different ways of using LLMs for coding?"
+    },
     "https://newsletter.semianalysis.com/p/us-grid-constraints-towards-40gw": {
       "canonical_url": "https://newsletter.semianalysis.com/p/us-grid-constraints-towards-40gw",
       "created_at": "2026-06-29T10:00:33Z",
@@ -3701,6 +3627,12 @@
       "created_at": "2026-07-03T09:53:21Z",
       "status": "scoring_attempted",
       "title": "Alibaba to ban Claude Code in workplace over alleged backdoor risks, source says"
+    },
+    "https://www.science.org/content/article/instead-banning-ai-i-made-classroom-contract-my-students": {
+      "canonical_url": "https://www.science.org/content/article/instead-banning-ai-i-made-classroom-contract-my-students",
+      "created_at": "2026-07-03T20:05:23Z",
+      "status": "scoring_attempted",
+      "title": "Instead of banning AI, I made a classroom contract with my students"
     },
     "https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies": {
       "canonical_url": "https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies",
