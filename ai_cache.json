@@ -23,29 +23,6 @@
         "social_posts": {}
       }
     },
-    "07216633e7b728ab86f36f731a6d9fed60245f9fef57148aa9019e0f29a25c5a": {
-      "created_at": "2026-07-03T22:31:22Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "New vulnerabilities tied to a major AI model release, but source is Tier C.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "New serious vulnerabilities spiked around release of Claude Mythos Preview",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "16a64b427431a889c08e7defebeb3150b8c3ccc9b261f7caa944d1bb22db0165": {
       "created_at": "2026-07-04T16:50:09Z",
       "payload": {
@@ -305,6 +282,29 @@
         ],
         "best_index": 1,
         "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "7d1c7be86d2ce0d688e7642d1827065eeb11ad6d33cf68485ea5d10fc40faea6": {
+      "created_at": "2026-07-04T22:55:26Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "Research on vulnerabilities in AirDrop and Quick Share, but limited impact and lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Protocol Prying: Vulnerability Research in AirDrop and Quick Share",
+            "total_score": 5.5
+          }
+        ],
+        "best_index": 2,
+        "best_score": 5.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1155,6 +1155,12 @@
       "status": "scoring_attempted",
       "title": "Are readers generating fiction with AI models?"
     },
+    "https://arxiv.org/abs/2606.26967": {
+      "canonical_url": "https://arxiv.org/abs/2606.26967",
+      "created_at": "2026-07-04T22:55:26Z",
+      "status": "scoring_attempted",
+      "title": "Protocol Prying: Vulnerability Research in AirDrop and Quick Share"
+    },
     "https://arxiv.org/abs/2606.27379": {
       "canonical_url": "https://arxiv.org/abs/2606.27379",
       "created_at": "2026-06-29T05:01:58Z",
@@ -1868,12 +1874,6 @@
       "created_at": "2026-07-03T01:04:17Z",
       "status": "scoring_attempted",
       "title": "GitHub is proud to announce that you can now obtain your public repo on CD-ROM"
-    },
-    "https://fortune.com/2026/06/26/meta-wynn-williams-surveillance-gag-order-lawsuit-2026": {
-      "canonical_url": "https://fortune.com/2026/06/26/meta-wynn-williams-surveillance-gag-order-lawsuit-2026",
-      "created_at": "2026-06-27T22:31:55Z",
-      "status": "scoring_attempted",
-      "title": "'Careless People' author claims Meta surveilled her for 12mos to enforce silence"
     },
     "https://frondruntime.dev": {
       "canonical_url": "https://frondruntime.dev",
@@ -3140,12 +3140,6 @@
       "created_at": "2026-07-01T13:22:53Z",
       "status": "scoring_attempted",
       "title": "Range anxiety"
-    },
-    "https://www.theverge.com/entertainment/958723/teenage-engineering-os-25-ep-133-ko-ii-sampler": {
-      "canonical_url": "https://www.theverge.com/entertainment/958723/teenage-engineering-os-25-ep-133-ko-ii-sampler",
-      "created_at": "2026-06-27T22:31:55Z",
-      "status": "scoring_attempted",
-      "title": "Teenage Engineering adds lo-fi mode, USB audio, and more to its KO II sampler"
     },
     "https://www.theverge.com/entertainment/960260/the-odyssey-christopher-nolan-influencers-screenings": {
       "canonical_url": "https://www.theverge.com/entertainment/960260/the-odyssey-christopher-nolan-influencers-screenings",
