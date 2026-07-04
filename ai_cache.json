@@ -328,92 +328,27 @@
         "social_posts": {}
       }
     },
-    "5e487873824fe654ad86fadb10dac687c92cfa3c9d8b6572606b9b111f7354f4": {
-      "created_at": "2026-07-03T05:00:11Z",
+    "5e23b12370457a3bf07620dd73ecdc3b2ef79af5c60dc7050e5dc6a3869b2608": {
+      "created_at": "2026-07-04T05:34:49Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 13,
-            "novelty_score": 2.5,
-            "reason": "New research on semi-supervised chain-of-thought learning in LLMs, but impact is niche.",
+            "freshness_score": 2.0,
+            "impact_score": 0.5,
+            "index": 0,
+            "novelty_score": 0.2,
+            "reason": "Comments section from a niche source with low impact.",
             "red_flag": false,
             "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Revisiting Chain-of-Thought Reasoning under Limited Supervision: Semi-supervised Chain-of-Thought Learning",
-            "total_score": 7
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 14,
-            "novelty_score": 2.5,
-            "reason": "New approach to world modeling for agents, but impact is niche.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "OPINE-World: Programmatic World Modeling with Ontology-error-Prioritized Interactive Exploration",
-            "total_score": 7
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 15,
-            "novelty_score": 2.5,
-            "reason": "New research on lie detectors for LLM oversight, but impact is niche.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Scaling Trends for Lie Detector Oversight in Preference Learning",
-            "total_score": 7
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 16,
-            "novelty_score": 2.5,
-            "reason": "New pipeline for Earth observation hypothesis generation, but impact is niche.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "EO-Agents: A Three-Agent LLM Pipeline for Earth Observation Hypothesis Generation",
-            "total_score": 7
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 17,
-            "novelty_score": 2.5,
-            "reason": "New method for high-performance NPU kernel generation with broader industry impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Hawk: Harnessing Hardware-Aware Knowledge for High-Performance NPU Kernel Generation",
-            "total_score": 8
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 18,
-            "novelty_score": 2.5,
-            "reason": "New approach to cloud healing with LLMs, but impact is niche.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Safe and Adaptive Cloud Healing: Verifying LLM-Generated Recovery Plans with a Neural-Symbolic World Model",
-            "total_score": 7
+            "source_score": 0.5,
+            "title": "Agentic coding notes from Galapogos Island",
+            "total_score": 3.2
           }
         ],
-        "best_index": 17,
-        "best_score": 8,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "A new approach to high-performance NPU kernel generation using hardware-aware knowledge. This research could significantly impact the development of efficient AI hardware. Link: https://arxiv.org/abs/2607.01590",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Hawk: Harnessing Hardware-Aware Knowledge for High-Performance NPU Kernel Generation*\n\nNew research on high-performance NPU kernel generation using hardware-aware knowledge.\n\n\ud83c\udfdb\ufe0f Source: arXiv cs.AI (C)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8/10\n\n\ud83d\udd17 https://arxiv.org/abs/2607.01590\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "New research on high-performance NPU kernel generation using hardware-aware knowledge. This could be a game-changer for AI hardware development. https://arxiv.org/abs/2607.01590",
-          "twitter": "New research from arXiv on Hawk: Harnessing Hardware-Aware Knowledge for High-Performance NPU Kernel Generation. https://arxiv.org/abs/2607.01590"
-        }
+        "best_index": 0,
+        "best_score": 3.2,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "5f0d0b384950b2ab18cfd6b2bef82ab87b4c256f74af2375ccd62df8dfd408c3": {
@@ -516,89 +451,6 @@
         ],
         "best_index": 0,
         "best_score": 0.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "8702c905dffe73d1556078a623cc62142ec708371b5181c03bcdc52bf1ce8b73": {
-      "created_at": "2026-07-03T05:00:11Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 7,
-            "novelty_score": 2.5,
-            "reason": "New research on diffusion language models for radiology reports, but niche impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Discrete Diffusion Language Models for Interactive Radiology Report Drafting",
-            "total_score": 7
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 8,
-            "novelty_score": 2.5,
-            "reason": "New research on RLVR for tool-use agents, but niche impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Beyond Next-Token Prediction: An RLVR Proof of Concept for Tool-Use Agents on Atlassian Workflows",
-            "total_score": 7
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 9,
-            "novelty_score": 2.5,
-            "reason": "New research on RL in FHIR environments, but niche impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "World Feedback for Clinical Agents: Diagnosing RL in FHIR Environments",
-            "total_score": 7
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 10,
-            "novelty_score": 2.5,
-            "reason": "New research on procedural memory distillation, but niche impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Procedural Memory Distillation: Online Reflection for Self-Improving Language Models",
-            "total_score": 7
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 11,
-            "novelty_score": 2.5,
-            "reason": "New research on analytical variation in AI agents, but niche impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "The Agentic Garden of Forking Paths",
-            "total_score": 7
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 12,
-            "novelty_score": 2.5,
-            "reason": "New research on user-involved agentic permission management, but niche impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Janus: a Playground for User-Involved Agentic Permission Management",
-            "total_score": 7
-          }
-        ],
-        "best_index": 7,
-        "best_score": 7,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -822,89 +674,6 @@
         "social_posts": {}
       }
     },
-    "bbf10c89896c0fba76bfcb5143c976172039ef5cc9fdf2d1fe4d536b8f92d30f": {
-      "created_at": "2026-07-03T05:00:11Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 19,
-            "novelty_score": 2.5,
-            "reason": "New research on semantic hashing for document deduplication, but niche impact and lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "SemHash-LLM: A Multi-Granularity Semantic Hashing Framework for Document Deduplication",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 20,
-            "novelty_score": 2.5,
-            "reason": "Interesting case study on counterfactual explanations, but niche impact and lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Profit-Based Counterfactual Explanations for Product Improvement: A Case Study of Manga Sales in Japan",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2,
-            "index": 21,
-            "novelty_score": 2.5,
-            "reason": "New research on LLM confidence calibration, moderate impact, but lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Scaling with Confidence: Calibrating Confidence of LLMs for Adaptive Test Time Scaling",
-            "total_score": 7
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 22,
-            "novelty_score": 2.5,
-            "reason": "New research on rainfall reconstruction, but niche impact and lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Spatial Support Matters: Geometry-Aware Graph Fusion for Rainfall Field Reconstruction",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2,
-            "index": 23,
-            "novelty_score": 2.5,
-            "reason": "New research on AI-driven traffic law discovery, moderate impact, but lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Autonomous discovery of traffic laws with AI traffic scientists",
-            "total_score": 7
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2,
-            "index": 24,
-            "novelty_score": 2.5,
-            "reason": "New research on multi-agent deliberation for forecasting, moderate impact, but lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Diverse Evidence, Better Forecasts: Multi-Agent Deliberation Under Information Asymmetry",
-            "total_score": 7
-          }
-        ],
-        "best_index": 24,
-        "best_score": 7,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "c7eec26047a8cb4f7c8024bd93fb1d5f2ab8df65e9612dc11a41d0dbaf6e79c5": {
       "created_at": "2026-07-03T08:17:20Z",
       "payload": {
@@ -1010,101 +779,6 @@
         ],
         "best_index": 0,
         "best_score": 8,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "dceedf06f52764bad05acc2c95bf7290f160fd9588c79c854da3776f8e9f5cb9": {
-      "created_at": "2026-07-03T05:00:11Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 2.0,
-            "reason": "Industry move with niche impact from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Wasmer: Fast, secure, lightweight containers based on WebAssembly",
-            "total_score": 6.0
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.0,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "New research with moderate impact from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "PACE: A Neuro-Symbolic Framework for Plausible and Actionable Counterfactual Explanations",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.0,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "New research with moderate impact from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Auto-FL-Research: Agentic Search for Federated Learning Algorithms",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "New research with significant impact from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "The Wiola Architecture for Efficient Small Language Models",
-            "total_score": 7.0
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.0,
-            "index": 4,
-            "novelty_score": 2.5,
-            "reason": "New research with moderate impact from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Agent4cs: A Multi-agent System for Code Summarization in Large Hierarchical Codebases",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 5,
-            "novelty_score": 2.5,
-            "reason": "New research with niche impact from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "When Should Service Agents Reconsider? Difficulty-Routed Control in Customer-Service Operations",
-            "total_score": 6.0
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.0,
-            "index": 6,
-            "novelty_score": 2.5,
-            "reason": "New research with moderate impact from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "CreativityNeuro: Steering Language Model Weights to Improve Divergent Thinking and Reduce Mode Collapse",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 3,
-        "best_score": 7.0,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -2355,6 +2029,12 @@
       "created_at": "2026-07-02T22:57:31Z",
       "status": "scoring_attempted",
       "title": "Simple, beautiful Emacs modeline: modusregel"
+    },
+    "https://danluu.com/ai-coding": {
+      "canonical_url": "https://danluu.com/ai-coding",
+      "created_at": "2026-07-04T05:34:49Z",
+      "status": "scoring_attempted",
+      "title": "Agentic coding notes from Galapogos Island"
     },
     "https://det.social/@lostgen/116820546568940358": {
       "canonical_url": "https://det.social/@lostgen/116820546568940358",
