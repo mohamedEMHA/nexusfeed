@@ -115,6 +115,29 @@
         "social_posts": {}
       }
     },
+    "2f7ee427ee0cc1424b3b948731b599d4fe1bc388da6ef6f18e487ba59d3ea750": {
+      "created_at": "2026-07-04T21:13:52Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "Zig's package management shift is notable but impacts a niche audience, and the source is a community forum.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Zig: All Package Management Functionality Moved from Compiler to Build System",
+            "total_score": 5.5
+          }
+        ],
+        "best_index": 3,
+        "best_score": 5.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "4a835cc72b60eb0faa75b533b1ef7848421695fdaa6201116b5b7c84c57be7a7": {
       "created_at": "2026-07-04T17:54:01Z",
       "payload": {
@@ -141,52 +164,6 @@
           "threads": "Anthropic's Claude Science Beta introduces a multi-agent AI workbench for reproducible scientific pipelines. This could be a game-changer for genomics, proteomics, and cheminformatics research. https://www.marktechpost.com/2026/07/04/anthropic-launches-claude-science-beta/",
           "twitter": "Anthropic's Claude Science Beta brings multi-agent AI to genomics, proteomics, and cheminformatics pipelines. https://www.marktechpost.com/2026/07/04/anthropic-launches-claude-science-beta/"
         }
-      }
-    },
-    "4d4d5371f0d13d17b5b2eb88c8b4540951f548c585ddb71829e7d1035e8de197": {
-      "created_at": "2026-07-03T20:05:23Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 0.0,
-            "impact_score": 0.0,
-            "index": 16,
-            "novelty_score": 0.0,
-            "reason": "Comments-only post with no substantive content.",
-            "red_flag": true,
-            "red_flag_reason": "Comments",
-            "source_score": 0.5,
-            "title": "Ask HN: Is anyone experimenting with different ways of using LLMs for coding?",
-            "total_score": 0.5
-          }
-        ],
-        "best_index": 16,
-        "best_score": 0.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "564589730475c95d2169bd5a76f278236c60cea1c9ed63b64b152bd115b53191": {
-      "created_at": "2026-07-03T20:05:23Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1,
-            "impact_score": 1.5,
-            "index": 6,
-            "novelty_score": 1.5,
-            "reason": "Opinion piece on AI in education with moderate impact and freshness, but low novelty and source tier.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Instead of banning AI, I made a classroom contract with my students",
-            "total_score": 4.5
-          }
-        ],
-        "best_index": 6,
-        "best_score": 4.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "57d8ca2a5df46f3cdd54d0475d6f002861731550e8f4d9f79343ef776a71dfe6": {
@@ -626,6 +603,29 @@
           "threads": "The White House deleted thousands of energy conservation pages during a heatwave. The timing is suspect, following Republican backlash over grid strain reduction requests.\nhttps://www.theverge.com/policy/961449/white-house-mamdani-heatwave-deletion",
           "twitter": "The White House deleted thousands of energy conservation pages as a heatwave hits the US. Timing raises eyebrows.\nhttps://www.theverge.com/policy/961449/white-house-mamdani-heatwave-deletion"
         }
+      }
+    },
+    "e78d0ed0db42edfa848b361d28fb113d0b20a09961948f120d80c30f0067b1f5": {
+      "created_at": "2026-07-04T21:13:52Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 1.5,
+            "reason": "While timely and from a reputable source, this is a marketing piece rather than a technical or research announcement.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "New Google commercial imagines a Declaration of Independence written with help from AI",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "efb22084319cc6f091fc2acfe9d2944bc85511d64d5f519015ac5600a6f04b63": {
@@ -1930,12 +1930,6 @@
       "status": "scoring_attempted",
       "title": "'Careless People' author claims Meta surveilled her for 12mos to enforce silence"
     },
-    "https://foxmoss.com/blog/radish": {
-      "canonical_url": "https://foxmoss.com/blog/radish",
-      "created_at": "2026-06-27T20:02:18Z",
-      "status": "scoring_attempted",
-      "title": "Running a software jam in a world of slop"
-    },
     "https://frondruntime.dev": {
       "canonical_url": "https://frondruntime.dev",
       "created_at": "2026-07-01T16:03:57Z",
@@ -2577,6 +2571,12 @@
       "created_at": "2026-07-04T18:52:19Z",
       "status": "scoring_attempted",
       "title": "Midjourney wants Hollywood studios to reveal the details of their AI usage"
+    },
+    "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai": {
+      "canonical_url": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai",
+      "created_at": "2026-07-04T21:13:52Z",
+      "status": "scoring_attempted",
+      "title": "New Google commercial imagines a Declaration of Independence written with help from AI"
     },
     "https://thereallo.dev/blog/claude-code-prompt-steganography": {
       "canonical_url": "https://thereallo.dev/blog/claude-code-prompt-steganography",
@@ -3597,6 +3597,12 @@
       "created_at": "2026-07-01T20:21:20Z",
       "status": "scoring_attempted",
       "title": "ZCode: Claude Code from the Makers of GLM"
+    },
+    "https://ziglang.org/devlog/2026": {
+      "canonical_url": "https://ziglang.org/devlog/2026",
+      "created_at": "2026-07-04T21:13:52Z",
+      "status": "scoring_attempted",
+      "title": "Zig: All Package Management Functionality Moved from Compiler to Build System"
     }
   },
   "version": 1
