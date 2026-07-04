@@ -365,29 +365,6 @@
         }
       }
     },
-    "a2f3566fbe5ae9321dcfeb50228b209e48bdcf4651587c07fd78c1150300e8e4": {
-      "created_at": "2026-07-03T22:58:39Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.5,
-            "index": 1,
-            "novelty_score": 0.2,
-            "reason": "Tutorial-style article with limited impact and from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Software, from First Principles",
-            "total_score": 2.2
-          }
-        ],
-        "best_index": 1,
-        "best_score": 2.2,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "ac0eed9c8a967a3b25f95fc0cd4dc71e0f5a5787a11d42ff4f9a59dfb6ca8a34": {
       "created_at": "2026-07-04T07:17:30Z",
       "payload": {
@@ -626,34 +603,6 @@
         "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "fe78d9d26c8203c2d747c563a5fc7a634de4b657e8cf9b6b0afd206c059e8c37": {
-      "created_at": "2026-07-03T22:58:39Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 3.0,
-            "reason": "Mistral AI released Leanstral 1.5, a significant new code agent model for Lean 4, with impressive benchmarks.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Mistral AI Releases Leanstral 1.5: An Apache-2.0 Lean 4 Code Agent Model Solving 587 of 672 PutnamBench Problems",
-            "total_score": 9.0
-          }
-        ],
-        "best_index": 0,
-        "best_score": 9.0,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Mistral AI just released Leanstral 1.5, a free Apache-2.0 code agent model for Lean 4. It's impressive: solves 587 of 672 PutnamBench problems and saturates miniF2F. The 119B mixture-of-experts model activates 6.5B parameters per token. This is a big deal for formal verification and theorem proving. Link: https://www.marktechpost.com/2026/07/03/mistral-ai-releases-leanstral-1-5-an-apache-2-0-lean-4-code-agent-model-solving-587-of-672-putnambench-problems/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Mistral AI Releases Leanstral 1.5: An Apache-2.0 Lean 4 Code Agent Model Solving 587 of 672 PutnamBench Problems*\n\nMistral AI released Leanstral 1.5, a free Apache-2.0 code agent model for Lean 4. It saturates miniF2F and solves 587 of 672 PutnamBench problems. The 119B mixture-of-experts model activates 6.5B parameters per token.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/07/03/mistral-ai-releases-leanstral-1-5-an-apache-2-0-lean-4-code-agent-model-solving-587-of-672-putnambench-problems/",
-          "threads": "Mistral AI's Leanstral 1.5 is a new Apache-2.0 Lean 4 code agent model that solves 587 of 672 PutnamBench problems and saturates miniF2F. The 119B mixture-of-experts model activates 6.5B parameters per token. https://www.marktechpost.com/2026/07/03/mistral-ai-releases-leanstral-1-5-an-apache-2-0-lean-4-code-agent-model-solving-587-of-672-putnambench-problems/",
-          "twitter": "Mistral AI's Leanstral 1.5 solves 587 of 672 PutnamBench problems, saturates miniF2F, and is Apache-2.0 licensed.\nhttps://www.marktechpost.com/2026/07/03/mistral-ai-releases-leanstral-1-5-an-apache-2-0-lean-4-code-agent-model-solving-587-of-672-putnambench-problems/"
-        }
       }
     }
   },
