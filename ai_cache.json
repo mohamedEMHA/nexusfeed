@@ -628,6 +628,29 @@
         "social_posts": {}
       }
     },
+    "ac0eed9c8a967a3b25f95fc0cd4dc71e0f5a5787a11d42ff4f9a59dfb6ca8a34": {
+      "created_at": "2026-07-04T07:17:30Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Interesting research on CO2 levels affecting decision-making, but niche impact and lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "The bottleneck might be the air in the room",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "b73613000beeb414a6b97666a16f2181a79835ae7ef26534256fbc1d8de8dbff": {
       "created_at": "2026-07-03T21:21:34Z",
       "payload": {
@@ -647,6 +670,29 @@
         ],
         "best_index": 2,
         "best_score": 5.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "bbb61fd8b72d833b6bed0eda08047da36f391003fec19ce88ebbaa6a6e55212f": {
+      "created_at": "2026-07-04T07:17:30Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.0,
+            "index": 1,
+            "novelty_score": 0.0,
+            "reason": "Retrospective content with low novelty and impact.",
+            "red_flag": true,
+            "red_flag_reason": "retrospective",
+            "source_score": 0.5,
+            "title": "2026 Unslop AI-Written Fiction Contest Results",
+            "total_score": 2.0
+          }
+        ],
+        "best_index": 1,
+        "best_score": 2.0,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -842,6 +888,29 @@
         ],
         "best_index": 0,
         "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "efb22084319cc6f091fc2acfe9d2944bc85511d64d5f519015ac5600a6f04b63": {
+      "created_at": "2026-07-04T07:17:30Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 0,
+            "impact_score": 1.5,
+            "index": 12,
+            "novelty_score": 2.5,
+            "reason": "Version 1.0 release of Hardwood, a new Java library for Parquet file processing.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Hardwood Promises High-Speed JVM Apache Parquet Processing with Zero Mandatory Dependencies",
+            "total_score": 5.0
+          }
+        ],
+        "best_index": 12,
+        "best_score": 5.0,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1976,6 +2045,12 @@
       "status": "scoring_attempted",
       "title": "New York City educators and industry leaders gathered at Google\u2019s offices to shape the future of AI in classrooms."
     },
+    "https://blog.mikebowler.ca/2026/07/03/co2-and-decision-making": {
+      "canonical_url": "https://blog.mikebowler.ca/2026/07/03/co2-and-decision-making",
+      "created_at": "2026-07-04T07:17:30Z",
+      "status": "scoring_attempted",
+      "title": "The bottleneck might be the air in the room"
+    },
     "https://blog.okturtles.org/2026/07/short-leash-ai-method": {
       "canonical_url": "https://blog.okturtles.org/2026/07/short-leash-ai-method",
       "created_at": "2026-07-02T21:53:01Z",
@@ -2210,12 +2285,6 @@
       "status": "scoring_attempted",
       "title": "Show HN: CLI tool for detecting non-exact code duplication with embedding models"
     },
-    "https://github.com/schlae/IBM_MCGA": {
-      "canonical_url": "https://github.com/schlae/IBM_MCGA",
-      "created_at": "2026-06-27T05:53:01Z",
-      "status": "scoring_attempted",
-      "title": "IBM MCGA Gate Array Reverse Engineering"
-    },
     "https://github.com/segaboy/vulkan-netbsd": {
       "canonical_url": "https://github.com/segaboy/vulkan-netbsd",
       "created_at": "2026-07-02T19:44:21Z",
@@ -2227,12 +2296,6 @@
       "created_at": "2026-07-03T17:21:44Z",
       "status": "scoring_attempted",
       "title": "60% Fable cost cut by converting code to images and having the model OCR it"
-    },
-    "https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack": {
-      "canonical_url": "https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack",
-      "created_at": "2026-06-27T05:35:51Z",
-      "status": "scoring_attempted",
-      "title": "Anatomy of a Failed (Nation-State?) Attack"
     },
     "https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain": {
       "canonical_url": "https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain",
@@ -2372,12 +2435,6 @@
       "status": "scoring_attempted",
       "title": "MIT in the media: Innovating and educating for the next 250 years of America"
     },
-    "https://news.ycombinator.com/item?id=48694802": {
-      "canonical_url": "https://news.ycombinator.com/item?id=48694802",
-      "created_at": "2026-06-27T05:35:51Z",
-      "status": "scoring_attempted",
-      "title": "Ask HN: MacBook vs. Dedicated GPU for LLM"
-    },
     "https://news.ycombinator.com/item?id=48746752": {
       "canonical_url": "https://news.ycombinator.com/item?id=48746752",
       "created_at": "2026-07-01T16:03:57Z",
@@ -2431,12 +2488,6 @@
       "created_at": "2026-06-29T22:53:12Z",
       "status": "scoring_attempted",
       "title": "Scientists find molecular-level evidence for two structures in liquid water"
-    },
-    "https://popflame.quickish.space/hn-flipboard": {
-      "canonical_url": "https://popflame.quickish.space/hn-flipboard",
-      "created_at": "2026-06-27T05:35:51Z",
-      "status": "scoring_attempted",
-      "title": "Show HN: Hacker News on a train station-style flip board"
     },
     "https://queue.acm.org/detail.cfm?id=3819084": {
       "canonical_url": "https://queue.acm.org/detail.cfm?id=3819084",
@@ -2954,6 +3005,12 @@
       "status": "scoring_attempted",
       "title": "\"An AI Job Apocalypse?\" \u2013 Goldman Sachs Report [pdf]"
     },
+    "https://www.hyperstitionai.com/unslop-results": {
+      "canonical_url": "https://www.hyperstitionai.com/unslop-results",
+      "created_at": "2026-07-04T07:17:30Z",
+      "status": "scoring_attempted",
+      "title": "2026 Unslop AI-Written Fiction Contest Results"
+    },
     "https://www.infoq.com/articles/security-ai-threat-evolution": {
       "canonical_url": "https://www.infoq.com/articles/security-ai-threat-evolution",
       "created_at": "2026-06-29T11:56:09Z",
@@ -3043,6 +3100,12 @@
       "created_at": "2026-07-03T08:17:20Z",
       "status": "scoring_attempted",
       "title": "Google Releases A2UI v0.9: Portable, Framework-Agnostic Generative UI"
+    },
+    "https://www.infoq.com/news/2026/07/hardwood-java-parquet": {
+      "canonical_url": "https://www.infoq.com/news/2026/07/hardwood-java-parquet",
+      "created_at": "2026-07-04T07:17:30Z",
+      "status": "scoring_attempted",
+      "title": "Hardwood Promises High-Speed JVM Apache Parquet Processing with Zero Mandatory Dependencies"
     },
     "https://www.infoq.com/news/2026/07/heroui-v3-rewrite": {
       "canonical_url": "https://www.infoq.com/news/2026/07/heroui-v3-rewrite",
@@ -3265,12 +3328,6 @@
       "created_at": "2026-07-03T20:05:23Z",
       "status": "scoring_attempted",
       "title": "Instead of banning AI, I made a classroom contract with my students"
-    },
-    "https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies": {
-      "canonical_url": "https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies",
-      "created_at": "2026-06-27T05:35:51Z",
-      "status": "scoring_attempted",
-      "title": "U.S. allows Anthropic to release Mythos AI to \u2018trusted\u2019 US organizations"
     },
     "https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html": {
       "canonical_url": "https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html",
