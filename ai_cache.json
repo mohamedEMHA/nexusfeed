@@ -1,5 +1,28 @@
 {
   "cerebras_scoring": {
+    "018bb9d7fbdd652c21a54a2a7c4eaaba0a9c0b87859a48af3b13a20e98675bf5": {
+      "created_at": "2026-07-04T00:09:57Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 0.2,
+            "reason": "Novelty is low as it's a tutorial-style tool, impact is niche, and source is a C-tier platform.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "GitFut \u2013 Your GitHub stats turned into a World-Cup-style player card",
+            "total_score": 3.2
+          }
+        ],
+        "best_index": 2,
+        "best_score": 3.2,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "04446340a676891b76ee7b60f73a828bd42454bebc89760223c4d64d669a5b49": {
       "created_at": "2026-07-03T15:53:16Z",
       "payload": {
@@ -197,6 +220,29 @@
         ],
         "best_index": 1,
         "best_score": 6.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "2de61e6ebbb2695f83f07bf8ccdbdee40d10781d2683845179d0697c93d7a7b2": {
+      "created_at": "2026-07-04T00:09:57Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Interesting research on brain circuits but not directly relevant to software engineers or AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "The circuit that lets your brain think and see",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -419,6 +465,29 @@
           "threads": "New research on high-performance NPU kernel generation using hardware-aware knowledge. This could be a game-changer for AI hardware development. https://arxiv.org/abs/2607.01590",
           "twitter": "New research from arXiv on Hawk: Harnessing Hardware-Aware Knowledge for High-Performance NPU Kernel Generation. https://arxiv.org/abs/2607.01590"
         }
+      }
+    },
+    "5f0d0b384950b2ab18cfd6b2bef82ab87b4c256f74af2375ccd62df8dfd408c3": {
+      "created_at": "2026-07-04T00:09:57Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "Research on embedding condensation in small language models, but from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Dispersion loss counteracts embedding condensation in small language models",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "62e54db9a56dfce3a50ab46f9e1301d801fde5310641bf00e81d8807a819221a": {
@@ -2363,6 +2432,12 @@
       "status": "scoring_attempted",
       "title": "Reduce GVisor Cold Starts with GPU Snapshotting"
     },
+    "https://chenliu-1996.github.io/projects/LM-Dispersion": {
+      "canonical_url": "https://chenliu-1996.github.io/projects/LM-Dispersion",
+      "created_at": "2026-07-04T00:09:57Z",
+      "status": "scoring_attempted",
+      "title": "Dispersion loss counteracts embedding condensation in small language models"
+    },
     "https://citizenlab.ca/research/member-of-committee-investigating-spyware-hacked-with-pegasus": {
       "canonical_url": "https://citizenlab.ca/research/member-of-committee-investigating-spyware-hacked-with-pegasus",
       "created_at": "2026-07-03T21:21:34Z",
@@ -2440,6 +2515,12 @@
       "created_at": "2026-07-01T16:03:57Z",
       "status": "scoring_attempted",
       "title": "Show HN: Frond \u2013 a frontend runtime for your app's dependency graph"
+    },
+    "https://gitfut.com": {
+      "canonical_url": "https://gitfut.com",
+      "created_at": "2026-07-04T00:09:57Z",
+      "status": "scoring_attempted",
+      "title": "GitFut \u2013 Your GitHub stats turned into a World-Cup-style player card"
     },
     "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot": {
       "canonical_url": "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot",
@@ -3292,6 +3373,12 @@
       "created_at": "2026-07-03T14:29:08Z",
       "status": "scoring_attempted",
       "title": "Please stop the AI confidence theater"
+    },
+    "https://www.engineering.columbia.edu/about/news/circuit-lets-your-brain-think-and-see": {
+      "canonical_url": "https://www.engineering.columbia.edu/about/news/circuit-lets-your-brain-think-and-see",
+      "created_at": "2026-07-04T00:09:57Z",
+      "status": "scoring_attempted",
+      "title": "The circuit that lets your brain think and see"
     },
     "https://www.gamingonlinux.com/2026/07/valve-open-source-the-steam-machine-e-ink-screen-so-you-can-make-your-own": {
       "canonical_url": "https://www.gamingonlinux.com/2026/07/valve-open-source-the-steam-machine-e-ink-screen-so-you-can-make-your-own",
