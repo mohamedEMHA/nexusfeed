@@ -521,6 +521,29 @@
         "social_posts": {}
       }
     },
+    "afc056cb6d5dc5968756d44054c8e87fb96ad268be8b11e2c51bf382e8f5024b": {
+      "created_at": "2026-07-05T11:48:02Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.5,
+            "index": 1,
+            "novelty_score": 0.2,
+            "reason": "Tutorial-style content with limited impact and from a lower-tier source.",
+            "red_flag": true,
+            "red_flag_reason": "tutorial",
+            "source_score": 0.5,
+            "title": "Claude Design System Prompt",
+            "total_score": 2.2
+          }
+        ],
+        "best_index": 1,
+        "best_score": 2.2,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "bec694769fb63bfbdadfe8104ab1a04abd0a235813a9d3b95175e2a31e0a2c5f": {
       "created_at": "2026-07-05T10:01:23Z",
       "payload": {
@@ -1993,6 +2016,12 @@
       "created_at": "2026-06-28T20:37:29Z",
       "status": "scoring_attempted",
       "title": "Show HN: NanoEuler \u2013 GPT-2 scale model in pure C/CUDA from scratch"
+    },
+    "https://github.com/Trystan-SA/claude-design-system-prompt": {
+      "canonical_url": "https://github.com/Trystan-SA/claude-design-system-prompt",
+      "created_at": "2026-07-05T11:48:02Z",
+      "status": "scoring_attempted",
+      "title": "Claude Design System Prompt"
     },
     "https://github.com/anthropics/claude-code/issues/73125": {
       "canonical_url": "https://github.com/anthropics/claude-code/issues/73125",
