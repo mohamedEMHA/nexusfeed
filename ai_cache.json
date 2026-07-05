@@ -1,5 +1,63 @@
 {
   "cerebras_scoring": {
+    "046f211ccbe58479a1a92978c0f4de4d7c5d1a30f7ba86ef77f2c8f728f818d9": {
+      "created_at": "2026-07-05T14:53:15Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 5,
+            "novelty_score": 2.5,
+            "reason": "Interesting niche project but limited impact and source tier.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Spain's cadastre API is SOAP from 2003, so I built a JSON wrapper (+MCP)",
+            "total_score": 5.5
+          }
+        ],
+        "best_index": 5,
+        "best_score": 5.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "162ac5b963fbf7b63b9e00205d79451c41793428e392a2f848ecfdd62bd96960": {
+      "created_at": "2026-07-05T14:53:15Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 1.5,
+            "reason": "Cultural commentary on AI adoption with moderate novelty and impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Infuriating Google commercial imagines the founding fathers embracing AI",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 0.5,
+            "index": 1,
+            "novelty_score": 0.2,
+            "reason": "Consumer gadget review with low novelty and impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "The Sourdough Sidekick automates the boring bit of baking",
+            "total_score": 4.2
+          }
+        ],
+        "best_index": 0,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "16a64b427431a889c08e7defebeb3150b8c3ccc9b261f7caa944d1bb22db0165": {
       "created_at": "2026-07-04T16:50:09Z",
       "payload": {
@@ -664,6 +722,29 @@
         }
       }
     },
+    "df32a76761462c153a802e8b40c7d3672167059c3e5773a0590736ac645704a9": {
+      "created_at": "2026-07-05T14:53:15Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 0.0,
+            "impact_score": 0.0,
+            "index": 17,
+            "novelty_score": 0.0,
+            "reason": "No clear relevance to software engineers or AI researchers",
+            "red_flag": true,
+            "red_flag_reason": "No clear relevance to software engineers or AI researchers",
+            "source_score": 0.5,
+            "title": "Airplane Boneyards List and Map",
+            "total_score": 0.5
+          }
+        ],
+        "best_index": 17,
+        "best_score": 0.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "e57db29aad568ee25bea24d19be49f7a13edf48e285a4000033b63d1dc35814a": {
       "created_at": "2026-07-04T22:11:24Z",
       "payload": {
@@ -732,6 +813,41 @@
         "recommendation": "SKIP",
         "social_posts": {}
       }
+    },
+    "f58f933acdf404460ede4689809035d0bf3c25b2f5828684150c9c54b361edcd": {
+      "created_at": "2026-07-05T14:53:15Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 0.5,
+            "reason": "Opinion piece on coffee culture, not directly relevant to software engineers or AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "How Keurig saved \u2014 and ruined \u2014 your coffee",
+            "total_score": 4.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 4,
+            "novelty_score": 0.2,
+            "reason": "Tutorial on compilers, not a new release or research.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Introduction to Compilers and Language Design",
+            "total_score": 3.7
+          }
+        ],
+        "best_index": 2,
+        "best_score": 4.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
     }
   },
   "groq_social_posts": {
@@ -778,15 +894,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 The Video Game Disc Era Is Ending\nThe physical game disc is no longer the primary way to play games, as digital distribution takes over.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n#gaming #videogames #digitaldistribution\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "The physical game disc is becoming obsolete, marking a significant change in the way we play games, thanks to advancements in digital distribution @TheVerge #gaming",
         "twitter": "The end of an era for gamers as physical game discs become a thing of the past @TheVerge #gaming"
-      }
-    },
-    "1fc65f024b8c331b5fc3d68c8e8e0261f83c42864883fbcdc96d13f315fd469c": {
-      "created_at": "2026-06-28T14:16:42Z",
-      "payload": {
-        "facebook": "The use of AI-generated data as evidence in court is becoming more prevalent, with prosecutors in the Palisades fire trial using ChatGPT logs to build their case. This raises important questions about the role of AI in legal proceedings. #AIinLaw #LegalTech #ChatGPT",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Prosecutors use ChatGPT logs as evidence in the Palisades fire trial\nProsecutors have turned to ChatGPT logs as part of their evidence in the trial of Jonathan Rinderknecht, accused of arson in one of the deadliest wildfires in LA history.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AIinLaw #LegalTech #ChatGPT\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "ChatGPT logs are being used as evidence in the Palisades fire trial, a significant development in the use of AI in legal proceedings, @TheVerge #AIinLaw",
-        "twitter": "Prosecutors are leveraging AI logs as evidence in court, with ChatGPT data being used in the Palisades fire trial, @TheVerge reports #AIinLaw"
       }
     },
     "230ff526468fa2e66bd4b6c677bd78d84b9f406b4911baf929b4d476bd2a4572": {
@@ -1141,6 +1248,12 @@
       "created_at": "2026-06-30T21:53:40Z",
       "status": "scoring_attempted",
       "title": "Meta's brain-scanning system reads sentences non-invasively, code open source"
+    },
+    "https://airplaneboneyards.com/airplane-boneyards-list-and-map.htm": {
+      "canonical_url": "https://airplaneboneyards.com/airplane-boneyards-list-and-map.htm",
+      "created_at": "2026-07-05T14:53:15Z",
+      "status": "scoring_attempted",
+      "title": "Airplane Boneyards List and Map"
     },
     "https://antoine.fi/mri-analysis-using-claude-code-opus": {
       "canonical_url": "https://antoine.fi/mri-analysis-using-claude-code-opus",
@@ -1940,6 +2053,12 @@
       "status": "scoring_attempted",
       "title": "Gemini Code Assist will be shut down on July 17"
     },
+    "https://dthain.github.io/books/compiler": {
+      "canonical_url": "https://dthain.github.io/books/compiler",
+      "created_at": "2026-07-05T14:53:15Z",
+      "status": "scoring_attempted",
+      "title": "Introduction to Compilers and Language Design"
+    },
     "https://ekinertac.com/blog/i-dont-know-rust-my-ai-is-rewriting-php-in-it": {
       "canonical_url": "https://ekinertac.com/blog/i-dont-know-rust-my-ai-is-rewriting-php-in-it",
       "created_at": "2026-07-04T23:59:25Z",
@@ -2059,12 +2178,6 @@
       "created_at": "2026-06-28T15:41:27Z",
       "status": "scoring_attempted",
       "title": "EU Open Sources Ten-Year Network Development Planning Tools"
-    },
-    "https://github.com/openai/codex/issues/2847": {
-      "canonical_url": "https://github.com/openai/codex/issues/2847",
-      "created_at": "2026-06-28T14:16:42Z",
-      "status": "scoring_attempted",
-      "title": "A way to exclude sensitive files issue still open for OpenAI Codex"
     },
     "https://github.com/openai/codex/issues/30364": {
       "canonical_url": "https://github.com/openai/codex/issues/30364",
@@ -2299,6 +2412,12 @@
       "created_at": "2026-06-29T22:53:12Z",
       "status": "scoring_attempted",
       "title": "Scientists find molecular-level evidence for two structures in liquid water"
+    },
+    "https://prediohq.com": {
+      "canonical_url": "https://prediohq.com",
+      "created_at": "2026-07-05T14:53:15Z",
+      "status": "scoring_attempted",
+      "title": "Spain's cadastre API is SOAP from 2003, so I built a JSON wrapper (+MCP)"
     },
     "https://queue.acm.org/detail.cfm?id=3819084": {
       "canonical_url": "https://queue.acm.org/detail.cfm?id=3819084",
@@ -2786,18 +2905,6 @@
       "status": "scoring_attempted",
       "title": "xFusion scales enterprise AI from edge workstations to liquid-cooled data centres"
     },
-    "https://www.cbc.ca/radio/ideas/humboldt-education-system-bildung-1.7172093": {
-      "canonical_url": "https://www.cbc.ca/radio/ideas/humboldt-education-system-bildung-1.7172093",
-      "created_at": "2026-06-28T14:16:42Z",
-      "status": "scoring_attempted",
-      "title": "The origins of the school system aimed to produce independent, critical thinkers"
-    },
-    "https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html": {
-      "canonical_url": "https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html",
-      "created_at": "2026-06-28T14:16:42Z",
-      "status": "scoring_attempted",
-      "title": "Google limits Meta's use of its Gemini AI models"
-    },
     "https://www.dailymail.com/news/article-15943905/Mystery-identity-Green-Boots-climber-macabre-landmark-frozen-ice-dying-Everest-finally-solved-DNA-test.html": {
       "canonical_url": "https://www.dailymail.com/news/article-15943905/Mystery-identity-Green-Boots-climber-macabre-landmark-frozen-ice-dying-Everest-finally-solved-DNA-test.html",
       "created_at": "2026-07-03T01:04:17Z",
@@ -3176,12 +3283,6 @@
       "status": "scoring_attempted",
       "title": "OpenAI: In early talks to give 5% stake to US Government"
     },
-    "https://www.theverge.com/ai-artificial-intelligence/958751/prosecutors-chatgpt-palisades-wildfire-arson-mistrial": {
-      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/958751/prosecutors-chatgpt-palisades-wildfire-arson-mistrial",
-      "created_at": "2026-06-28T14:16:42Z",
-      "status": "scoring_attempted",
-      "title": "Prosecutors used ChatGPT logs as evidence in the Palisades fire trial"
-    },
     "https://www.theverge.com/ai-artificial-intelligence/958801/suno-launches-spark-incubator-program-to-feed-independent-artists-to-its-ai-machine": {
       "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/958801/suno-launches-spark-incubator-program-to-feed-independent-artists-to-its-ai-machine",
       "created_at": "2026-06-28T20:37:29Z",
@@ -3229,6 +3330,12 @@
       "created_at": "2026-07-03T15:53:16Z",
       "status": "scoring_attempted",
       "title": "Anthropic wants to develop its own drugs"
+    },
+    "https://www.theverge.com/ai-artificial-intelligence/961468/google-ai-commercial-founding-fathers-declaration-of-independence": {
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/961468/google-ai-commercial-founding-fathers-declaration-of-independence",
+      "created_at": "2026-07-05T14:53:15Z",
+      "status": "scoring_attempted",
+      "title": "Infuriating Google commercial imagines the founding fathers embracing AI"
     },
     "https://www.theverge.com/column/959270/elon-musk-open-ai-bill-savitt-twitter": {
       "canonical_url": "https://www.theverge.com/column/959270/elon-musk-open-ai-bill-savitt-twitter",
@@ -3398,6 +3505,12 @@
       "status": "scoring_attempted",
       "title": "The video game disc is dead"
     },
+    "https://www.theverge.com/podcast/961470/keurig-coffee-k-up-version-history": {
+      "canonical_url": "https://www.theverge.com/podcast/961470/keurig-coffee-k-up-version-history",
+      "created_at": "2026-07-05T14:53:15Z",
+      "status": "scoring_attempted",
+      "title": "How Keurig saved \u2014 and ruined \u2014 your coffee"
+    },
     "https://www.theverge.com/policy/958974/supreme-court-slaughter-trump-decision-ftc-agency-independence": {
       "canonical_url": "https://www.theverge.com/policy/958974/supreme-court-slaughter-trump-decision-ftc-agency-independence",
       "created_at": "2026-06-29T15:42:29Z",
@@ -3469,6 +3582,12 @@
       "created_at": "2026-07-01T13:22:53Z",
       "status": "scoring_attempted",
       "title": "Google built a great smart speaker, but Gemini isn\u2019t ready for it"
+    },
+    "https://www.theverge.com/tech/959604/sourdough-sidekick-review-king-arthur-starter": {
+      "canonical_url": "https://www.theverge.com/tech/959604/sourdough-sidekick-review-king-arthur-starter",
+      "created_at": "2026-07-05T14:53:15Z",
+      "status": "scoring_attempted",
+      "title": "The Sourdough Sidekick automates the boring bit of baking"
     },
     "https://www.theverge.com/tech/959658/google-tenor-api-shutdown-gif-picker": {
       "canonical_url": "https://www.theverge.com/tech/959658/google-tenor-api-shutdown-gif-picker",
