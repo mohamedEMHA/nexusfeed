@@ -722,6 +722,29 @@
         }
       }
     },
+    "d7946ddfb1b81ad4f149016734b9be22a39ecfbffda7528b26a6c267fdb68100": {
+      "created_at": "2026-07-05T15:58:56Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Novelty in running transformers on Apple's Neural Engine, but limited impact and lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Train and run transformers directly on Apple's Neural Engine",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "df32a76761462c153a802e8b40c7d3672167059c3e5773a0590736ac645704a9": {
       "created_at": "2026-07-05T14:53:15Z",
       "payload": {
@@ -786,6 +809,29 @@
           }
         ],
         "best_index": 0,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "e86385e54cfcbdd35057af836f33ccae7abebcd42cdda6e422248284f8472f21": {
+      "created_at": "2026-07-05T15:58:56Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "Interesting industry move but not directly relevant to software engineers or AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Solar rail could become common in Europe after successful trial in Switzerland",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 1,
         "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
@@ -984,15 +1030,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 OpenTelemetry Reaches New Heights\nThe Cloud Native Computing Foundation has announced the graduation of OpenTelemetry, recognizing it as production-ready for enterprise use.\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (B)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#OpenTelemetry #CloudNative #CNCF\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "OpenTelemetry has graduated to the Cloud Native Computing Foundation's highest maturity level, solidifying its position as a production-ready solution for enterprise use @cncf #OpenTelemetry",
         "twitter": "OpenTelemetry reaches new heights with CNCF graduation, now production-ready for enterprise use @cncf #OpenTelemetry"
-      }
-    },
-    "5f74d725b8b084eb2f4d0943518b14dccbdc620e5d6a55a51b438cfc3b402104": {
-      "created_at": "2026-06-28T15:41:27Z",
-      "payload": {
-        "facebook": "Investors are looking for the next Nvidia and they think they've found it in Micron, a US memory maker with potential for growth in the AI sector. This shift in focus is notable for investors and tech watchers, as it could signal a new wave of innovation in the industry. #AI #TechInvestments #Micron",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Micron's Rise to Prominence\nInvestors are looking to Micron as the next big AI player, following Nvidia's success. The US memory maker is seen as a potential winner in the AI sector.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #TechInvestments #Micron\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Micron is being touted as the next Nvidia by Wall Street investors, who see potential for the US memory maker to make big gains in the AI sector @TechCrunch #AI",
-        "twitter": "Wall Street investors are betting on Micron as the next big AI player, following in Nvidia's footsteps @TechCrunch #AI"
       }
     },
     "607fa92aa06c2f13773b070e9160a9bc2895bb573c5802c4b268aefbc4996986": {
@@ -2143,6 +2180,12 @@
       "status": "scoring_attempted",
       "title": "Claude's AskUserQuestion: \"No response after 60s \u2013 continued without an answer\""
     },
+    "https://github.com/christopherkarani/Espresso": {
+      "canonical_url": "https://github.com/christopherkarani/Espresso",
+      "created_at": "2026-07-05T15:58:56Z",
+      "status": "scoring_attempted",
+      "title": "Train and run transformers directly on Apple's Neural Engine"
+    },
     "https://github.com/deepreinforce-ai/Ornith-1": {
       "canonical_url": "https://github.com/deepreinforce-ai/Ornith-1",
       "created_at": "2026-06-29T19:03:34Z",
@@ -2172,12 +2215,6 @@
       "created_at": "2026-06-29T10:00:33Z",
       "status": "scoring_attempted",
       "title": "Herdr: Agent multiplexer that lives in your terminal"
-    },
-    "https://github.com/open-energy-transition/open-tyndp": {
-      "canonical_url": "https://github.com/open-energy-transition/open-tyndp",
-      "created_at": "2026-06-28T15:41:27Z",
-      "status": "scoring_attempted",
-      "title": "EU Open Sources Ten-Year Network Development Planning Tools"
     },
     "https://github.com/openai/codex/issues/30364": {
       "canonical_url": "https://github.com/openai/codex/issues/30364",
@@ -2502,12 +2539,6 @@
       "created_at": "2026-06-28T20:37:29Z",
       "status": "scoring_attempted",
       "title": "Ford rehires \u2018gray beard\u2019 engineers after AI falls short"
-    },
-    "https://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia": {
-      "canonical_url": "https://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia",
-      "created_at": "2026-06-28T15:41:27Z",
-      "status": "scoring_attempted",
-      "title": "Why Wall Street thinks US memory maker Micron is the next Nvidia"
     },
     "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price": {
       "canonical_url": "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price",
@@ -2928,6 +2959,12 @@
       "created_at": "2026-07-04T18:52:19Z",
       "status": "scoring_attempted",
       "title": "No more than 100 000 faint satellites should orbit Earth"
+    },
+    "https://www.euronews.com/2026/07/05/italy-could-be-the-next-country-to-build-a-solar-railway-after-switzerlands-successful-tri": {
+      "canonical_url": "https://www.euronews.com/2026/07/05/italy-could-be-the-next-country-to-build-a-solar-railway-after-switzerlands-successful-tri",
+      "created_at": "2026-07-05T15:58:56Z",
+      "status": "scoring_attempted",
+      "title": "Solar rail could become common in Europe after successful trial in Switzerland"
     },
     "https://www.gamingonlinux.com/2026/07/valve-open-source-the-steam-machine-e-ink-screen-so-you-can-make-your-own": {
       "canonical_url": "https://www.gamingonlinux.com/2026/07/valve-open-source-the-steam-machine-e-ink-screen-so-you-can-make-your-own",
