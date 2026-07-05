@@ -196,6 +196,29 @@
         "social_posts": {}
       }
     },
+    "58b85cf657b83da8951ab64a806743f914fa24fcd00e550dd53b78dd6fae879f": {
+      "created_at": "2026-07-05T23:54:04Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 0.2,
+            "reason": "This is a tutorial-style article about composite video on the NES, which is a niche topic and not directly relevant to software engineers or AI researchers.",
+            "red_flag": true,
+            "red_flag_reason": "tutorial",
+            "source_score": 0.5,
+            "title": "Composite Video on the NES: Why's it so wobbly?",
+            "total_score": 3.2
+          }
+        ],
+        "best_index": 0,
+        "best_score": 3.2,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "5963c81a46f6bad0779514a92ac5266d9355862b10f781b96ec5ee08dbf0e3a1": {
       "created_at": "2026-07-05T04:11:21Z",
       "payload": {
@@ -2338,6 +2361,12 @@
       "created_at": "2026-06-29T10:00:33Z",
       "status": "scoring_attempted",
       "title": "US Grid Constraints: Towards 40GW+ of Behind-the-Meter Datacenter by 2028?"
+    },
+    "https://nicole.express/2026/phase-altering-by-line.html": {
+      "canonical_url": "https://nicole.express/2026/phase-altering-by-line.html",
+      "created_at": "2026-07-05T23:54:04Z",
+      "status": "scoring_attempted",
+      "title": "Composite Video on the NES: Why's it so wobbly?"
     },
     "https://oak.space": {
       "canonical_url": "https://oak.space",
