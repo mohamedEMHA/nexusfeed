@@ -81,29 +81,6 @@
         "social_posts": {}
       }
     },
-    "2bddeb99a08ccc4899913d440757f2018d9e5624ab08590bd5ae3a07b66102f7": {
-      "created_at": "2026-07-04T18:52:19Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.5,
-            "index": 2,
-            "novelty_score": 0.2,
-            "reason": "Tutorial-style content with limited impact and from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Plein Air",
-            "total_score": 2.2
-          }
-        ],
-        "best_index": 2,
-        "best_score": 2.2,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "2d45586d860e4b12f6c8d277c3f8a4d45da9628c34a49b52620386441d4192f6": {
       "created_at": "2026-07-05T13:02:49Z",
       "payload": {
@@ -288,32 +265,27 @@
         "social_posts": {}
       }
     },
-    "6b9fdf1d9bbf2c29cb3c31f908aa9563b9f9d6cedab2992e1e57c0e8f8158d80": {
-      "created_at": "2026-07-04T18:52:19Z",
+    "5f1ca067d22832eb3087dcb192e51a0a046550900c832891bd2453d0158f8c37": {
+      "created_at": "2026-07-05T20:44:28Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 0,
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 1,
             "novelty_score": 2.5,
-            "reason": "Midjourney's legal move against Hollywood studios highlights growing tensions in AI usage and intellectual property.",
+            "reason": "Research on AI-driven smart home security, but limited impact and lower-tier source.",
             "red_flag": false,
             "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Midjourney wants Hollywood studios to reveal the details of their AI usage",
-            "total_score": 8.5
+            "source_score": 0.5,
+            "title": "A sociotechnical threat model for AI-driven smart home devices",
+            "total_score": 6.0
           }
         ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Midjourney is taking Hollywood studios to court, demanding they reveal their AI usage. This legal battle could set important precedents for AI in creative industries. Link: https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\ud83d\udd25 *Midjourney wants Hollywood studios to reveal the details of their AI usage*\n\nMidjourney is suing Hollywood studios to force them to disclose their AI usage in an ongoing legal dispute.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
-          "threads": "Midjourney is suing Hollywood studios to force them to disclose their AI usage. This could be a major turning point in AI and intellectual property law. https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
-          "twitter": "Midjourney is forcing Hollywood studios to disclose their AI usage in a high-stakes legal battle. https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/"
-        }
+        "best_index": 1,
+        "best_score": 6.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "6c63f6a151ea8905d9cd215b9045dbfb0115502bfece798b3c55fa2466bffc32": {
@@ -334,29 +306,6 @@
           }
         ],
         "best_index": 0,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "75bca0cc9acfc939587effde80c4fa14d4c50f05cc3e2110eeb1951038a01eb2": {
-      "created_at": "2026-07-04T18:52:19Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Industry move with moderate impact, fresh, but from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "No more than 100 000 faint satellites should orbit Earth",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 1,
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
@@ -749,6 +698,29 @@
         ],
         "best_index": 1,
         "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "ec325c8c6a1b6b45061f13c66b1fcb9b6ccd04520795511f854db3831aa74fa0": {
+      "created_at": "2026-07-05T20:44:28Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Research on AI tutor's effectiveness in a Dartmouth course, but source is Hacker News (Tier C).",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "New AI tutor achieves 0.71-1.30 SD effect size in Dartmouth course [pdf]",
+            "total_score": 7.0
+          }
+        ],
+        "best_index": 0,
+        "best_score": 7.0,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1207,12 +1179,6 @@
       "status": "scoring_attempted",
       "title": "Airplane Boneyards List and Map"
     },
-    "https://archive.org/details/colby1968-computer-aided-language-development-in-non-speaking-children": {
-      "canonical_url": "https://archive.org/details/colby1968-computer-aided-language-development-in-non-speaking-children",
-      "created_at": "2026-06-28T20:37:29Z",
-      "status": "scoring_attempted",
-      "title": "Computer-Aided Language Development in Nonspeaking Children (1968) [pdf]"
-    },
     "https://arstechnica.com/ai/2026/06/googles-new-nano-banana-2-lite-image-model-is-its-fastest-and-cheapest-yet": {
       "canonical_url": "https://arstechnica.com/ai/2026/06/googles-new-nano-banana-2-lite-image-model-is-its-fastest-and-cheapest-yet",
       "created_at": "2026-06-30T20:23:51Z",
@@ -1284,6 +1250,12 @@
       "created_at": "2026-06-29T05:01:58Z",
       "status": "scoring_attempted",
       "title": "DataStates-LLM: Scalable Checkpointing for Transformer Models Using Composable State Providers"
+    },
+    "https://arxiv.org/abs/2602.09239": {
+      "canonical_url": "https://arxiv.org/abs/2602.09239",
+      "created_at": "2026-07-05T20:44:28Z",
+      "status": "scoring_attempted",
+      "title": "A sociotechnical threat model for AI-driven smart home devices"
     },
     "https://arxiv.org/abs/2605.21997": {
       "canonical_url": "https://arxiv.org/abs/2605.21997",
@@ -2077,12 +2049,6 @@
       "status": "scoring_attempted",
       "title": "Claude-real-video \uff0d any LLM can watch a video"
     },
-    "https://github.com/JustVugg/nanoeuler": {
-      "canonical_url": "https://github.com/JustVugg/nanoeuler",
-      "created_at": "2026-06-28T20:37:29Z",
-      "status": "scoring_attempted",
-      "title": "Show HN: NanoEuler \u2013 GPT-2 scale model in pure C/CUDA from scratch"
-    },
     "https://github.com/Trystan-SA/claude-design-system-prompt": {
       "canonical_url": "https://github.com/Trystan-SA/claude-design-system-prompt",
       "created_at": "2026-07-05T11:48:02Z",
@@ -2107,23 +2073,11 @@
       "status": "scoring_attempted",
       "title": "Ornith-1.0: self-improving open-source models for agentic coding"
     },
-    "https://github.com/kamaludu/bash4llm": {
-      "canonical_url": "https://github.com/kamaludu/bash4llm",
-      "created_at": "2026-06-28T20:37:29Z",
-      "status": "scoring_attempted",
-      "title": "Show HN: Bash4LLM+ \u2013 A lightweight, dependency-free Bash wrapper for LLM APIs"
-    },
     "https://github.com/kerlenton/mcpsnoop": {
       "canonical_url": "https://github.com/kerlenton/mcpsnoop",
       "created_at": "2026-07-03T18:45:09Z",
       "status": "scoring_attempted",
       "title": "Show HN: Mcpsnoop \u2013 Wireshark for MCP (transparent proxy and live TUI)"
-    },
-    "https://github.com/librepods-org/librepods": {
-      "canonical_url": "https://github.com/librepods-org/librepods",
-      "created_at": "2026-06-28T20:37:29Z",
-      "status": "scoring_attempted",
-      "title": "Librepods: AirPods liberated from Apple's ecosystem"
     },
     "https://github.com/ogulcancelik/herdr": {
       "canonical_url": "https://github.com/ogulcancelik/herdr",
@@ -2202,6 +2156,12 @@
       "created_at": "2026-07-03T18:45:09Z",
       "status": "scoring_attempted",
       "title": "I Wasn't Allowed Prompting ChatGPT During My Chalk Talk: This Is Discrimination"
+    },
+    "https://intextbooks.science.uu.nl/workshop2026/files/itb26_s1s2.pdf": {
+      "canonical_url": "https://intextbooks.science.uu.nl/workshop2026/files/itb26_s1s2.pdf",
+      "created_at": "2026-07-05T20:44:28Z",
+      "status": "scoring_attempted",
+      "title": "New AI tutor achieves 0.71-1.30 SD effect size in Dartmouth course [pdf]"
     },
     "https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2846478": {
       "canonical_url": "https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2846478",
@@ -2413,12 +2373,6 @@
       "status": "scoring_attempted",
       "title": "Weave Robotics launches Isaac 1, a $7,999 home robot with fall 2026 deliveries"
     },
-    "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks": {
-      "canonical_url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks",
-      "created_at": "2026-06-28T20:37:29Z",
-      "status": "scoring_attempted",
-      "title": "Semgrep: GLM 5.2 beats Claude in our Cyber Benchmarks"
-    },
     "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable": {
       "canonical_url": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable",
       "created_at": "2026-07-05T07:40:23Z",
@@ -2448,12 +2402,6 @@
       "created_at": "2026-07-03T15:53:16Z",
       "status": "scoring_attempted",
       "title": "Show HN: TaskPeace \u2013 a task queue my AI coding agents pull work from over MCP"
-    },
-    "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short": {
-      "canonical_url": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short",
-      "created_at": "2026-06-28T20:37:29Z",
-      "status": "scoring_attempted",
-      "title": "Ford rehires \u2018gray beard\u2019 engineers after AI falls short"
     },
     "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price": {
       "canonical_url": "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price",
@@ -3240,12 +3188,6 @@
       "created_at": "2026-07-02T12:10:20Z",
       "status": "scoring_attempted",
       "title": "OpenAI: In early talks to give 5% stake to US Government"
-    },
-    "https://www.theverge.com/ai-artificial-intelligence/958801/suno-launches-spark-incubator-program-to-feed-independent-artists-to-its-ai-machine": {
-      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/958801/suno-launches-spark-incubator-program-to-feed-independent-artists-to-its-ai-machine",
-      "created_at": "2026-06-28T20:37:29Z",
-      "status": "scoring_attempted",
-      "title": "Suno launches Spark incubator program to feed independent artists to its AI machine"
     },
     "https://www.theverge.com/ai-artificial-intelligence/958804/chinas-z-ai-glm-52-mythos-cybersecurity": {
       "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/958804/chinas-z-ai-glm-52-mythos-cybersecurity",
