@@ -92,6 +92,29 @@
         "social_posts": {}
       }
     },
+    "31c1a4e860d00830961e56bcb700619ada50b3ddb3c963b99fac0c473bf341ab": {
+      "created_at": "2026-07-05T04:30:02Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.0,
+            "index": 2,
+            "novelty_score": 0.0,
+            "reason": "This article is about a sports achievement and is not relevant to software engineers or AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Record-breaking solo rower Kelsey Pfendler arrives in Hawaii",
+            "total_score": 2.0
+          }
+        ],
+        "best_index": 2,
+        "best_score": 2.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "3cbfbf1ec215a1f518496c8822dac0db5e6f5881fd5e8a62603ff940c7ebd872": {
       "created_at": "2026-07-04T23:59:25Z",
       "payload": {
@@ -358,6 +381,29 @@
           "threads": "NVIDIA's ASPIRE framework hits 31% zero-shot on LIBERO-Pro long tasks, a big step forward in robotics. It writes and refines control programs, then distills repairs into a reusable skill library. https://www.marktechpost.com/2026/07/03/nvidia-ai-introduces-aspire-a-self-improving-robotics-framework-reaching-31-zero-shot-on-libero-pro-long-tasks/",
           "twitter": "NVIDIA's ASPIRE framework achieves 31% zero-shot performance on LIBERO-Pro long tasks, a significant leap in robotics.\nhttps://www.marktechpost.com/2026/07/03/nvidia-ai-introduces-aspire-a-self-improving-robotics-framework-reaching-31-zero-shot-on-libero-pro-long-tasks/"
         }
+      }
+    },
+    "9b35448a853b8c1a2077349f718cbda6726e7f4329ca2aa3f0a9e5737c362ca6": {
+      "created_at": "2026-07-05T04:30:02Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Insightful analysis from a former lead of Qwen on the evolution of AI models and agents.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Qwen\u2019s Former Lead on What Hybrid Thinking Got Wrong \u2014 and Why He Now Backs Agents",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "a0fc0bd4bf1ca276083d75c41282083d8b42273059abf353f4d4c940638dff67": {
@@ -2723,6 +2769,12 @@
       "status": "scoring_attempted",
       "title": "\"An AI Job Apocalypse?\" \u2013 Goldman Sachs Report [pdf]"
     },
+    "https://www.hawaiinewsnow.com/2026/07/04/record-breaking-solo-rower-kelsey-pfendler-arrives-hawaii": {
+      "canonical_url": "https://www.hawaiinewsnow.com/2026/07/04/record-breaking-solo-rower-kelsey-pfendler-arrives-hawaii",
+      "created_at": "2026-07-05T04:30:02Z",
+      "status": "scoring_attempted",
+      "title": "Record-breaking solo rower Kelsey Pfendler arrives in Hawaii"
+    },
     "https://www.hyperstitionai.com/unslop-results": {
       "canonical_url": "https://www.hyperstitionai.com/unslop-results",
       "created_at": "2026-07-04T07:17:30Z",
@@ -3004,6 +3056,12 @@
       "created_at": "2026-07-04T17:54:01Z",
       "status": "scoring_attempted",
       "title": "NVIDIA HORIZON: A Hands-Free Agent that Evolves Git Worktrees and Hits 100% RTL Benchmark Completion"
+    },
+    "https://www.marktechpost.com/2026/07/04/qwens-former-lead-on-what-hybrid-thinking-got-wrong-and-why-he-now-backs-agents": {
+      "canonical_url": "https://www.marktechpost.com/2026/07/04/qwens-former-lead-on-what-hybrid-thinking-got-wrong-and-why-he-now-backs-agents",
+      "created_at": "2026-07-05T04:30:02Z",
+      "status": "scoring_attempted",
+      "title": "Qwen\u2019s Former Lead on What Hybrid Thinking Got Wrong \u2014 and Why He Now Backs Agents"
     },
     "https://www.niemanlab.org/2026/07/now-were-getting-ai-fake-news-complaining-about-how-ai-fake-news-is-the-death-of-real-news": {
       "canonical_url": "https://www.niemanlab.org/2026/07/now-were-getting-ai-fake-news-complaining-about-how-ai-fake-news-is-the-death-of-real-news",
