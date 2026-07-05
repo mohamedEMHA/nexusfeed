@@ -104,29 +104,6 @@
         "social_posts": {}
       }
     },
-    "2f7ee427ee0cc1424b3b948731b599d4fe1bc388da6ef6f18e487ba59d3ea750": {
-      "created_at": "2026-07-04T21:13:52Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "Zig's package management shift is notable but impacts a niche audience, and the source is a community forum.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Zig: All Package Management Functionality Moved from Compiler to Build System",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 3,
-        "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "31c1a4e860d00830961e56bcb700619ada50b3ddb3c963b99fac0c473bf341ab": {
       "created_at": "2026-07-05T04:30:02Z",
       "payload": {
@@ -426,6 +403,29 @@
         "social_posts": {}
       }
     },
+    "939dab393781367d10db31d92277901e37dc1a1e5d22ba373d9d6803ddfe8c06": {
+      "created_at": "2026-07-05T21:48:45Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 0.5,
+            "index": 0,
+            "novelty_score": 0.2,
+            "reason": "Tutorial on a paper printer, not relevant to software engineers or AI researchers.",
+            "red_flag": true,
+            "red_flag_reason": "tutorial",
+            "source_score": 0.5,
+            "title": "Reparaible and open source paper printer",
+            "total_score": 2.7
+          }
+        ],
+        "best_index": 0,
+        "best_score": 2.7,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "96c86b6f49cc5c459fd7bed4a54916e7a10204198faeea18265a379880b8c946": {
       "created_at": "2026-07-05T17:08:00Z",
       "payload": {
@@ -445,6 +445,29 @@
         ],
         "best_index": 2,
         "best_score": 5.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "9941c82ee2fdd294322318aeb6037d2048a2e9b6127e96f63768e808b2d25394": {
+      "created_at": "2026-07-05T21:48:45Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 0.2,
+            "reason": "Tutorial content with low novelty and impact.",
+            "red_flag": true,
+            "red_flag_reason": "tutorial",
+            "source_score": 0.5,
+            "title": "The full stack of terminals explained",
+            "total_score": 3.2
+          }
+        ],
+        "best_index": 2,
+        "best_score": 3.2,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -491,6 +514,29 @@
         ],
         "best_index": 3,
         "best_score": 3.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "ab79880ff6a3ee7a93ce5f4757ccff917636beff1d1311d2bf139c3b21444307": {
+      "created_at": "2026-07-05T21:48:45Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "New OSINT tool release with moderate impact and freshness, but low source tier.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Show HN: Osint tool that finds exposed files on domains",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -652,29 +698,6 @@
         ],
         "best_index": 0,
         "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "e78d0ed0db42edfa848b361d28fb113d0b20a09961948f120d80c30f0067b1f5": {
-      "created_at": "2026-07-04T21:13:52Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 1.5,
-            "reason": "While timely and from a reputable source, this is a marketing piece rather than a technical or research announcement.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "New Google commercial imagines a Declaration of Independence written with help from AI",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1114,15 +1137,6 @@
         "twitter": "Elon Musk's courtroom battles have been making headlines, with lawyer Bill Savitt successfully defending against him twice, @BillSavitt #AIlaw"
       }
     },
-    "ca856c242780256d7b27e07ce3e0d820b55e1ba87f73dcafdaf7b996fbef419a": {
-      "created_at": "2026-06-28T21:43:22Z",
-      "payload": {
-        "facebook": "China's Z.ai has made a notable breakthrough in cybersecurity with its GLM-5.2 model, which some researchers claim can match the capabilities of Mythos in specific bug-finding and cybersecurity scenarios. This development highlights China's growing presence in the AI landscape. #cybersecurity #AIresearch #technologyleadership",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 China's Z.ai makes a breakthrough in cybersecurity with its GLM-5.2 model, reportedly matching Mythos in specific tasks.\nThe model shows promise in bug-finding and cybersecurity scenarios, although it lags behind in more general tasks.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#cybersecurity #AIresearch #technologyleadership\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "China's Z.ai has released its GLM-5.2 model, which reportedly matches Mythos in certain cybersecurity tasks, a significant step for the country's AI development @TheVerge #cybersecurity",
-        "twitter": "China's Z.ai claims its GLM-5.2 model can match Mythos in certain cybersecurity tasks, a significant step for the country's AI development @TheVerge #cybersecurity"
-      }
-    },
     "d25782c3cc28a7c4da57795de9efa6a0e3818c6a20d788b8e503e87d6b8c1cb6": {
       "created_at": "2026-07-04T18:52:19Z",
       "payload": {
@@ -1166,6 +1180,12 @@
       "created_at": "2026-07-03T17:21:44Z",
       "status": "scoring_attempted",
       "title": "Claude, please stop trying to memorize random crap"
+    },
+    "https://ahmadawais.com/the-full-stack-of-terminals-explained-terminal-shell-tty-console-posix-ansi-escapes-ptys": {
+      "canonical_url": "https://ahmadawais.com/the-full-stack-of-terminals-explained-terminal-shell-tty-console-posix-ansi-escapes-ptys",
+      "created_at": "2026-07-05T21:48:45Z",
+      "status": "scoring_attempted",
+      "title": "The full stack of terminals explained"
     },
     "https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/?_fb_noscript=1": {
       "canonical_url": "https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/?_fb_noscript=1",
@@ -1899,12 +1919,6 @@
       "status": "scoring_attempted",
       "title": "The Short Leash AI Coding Method for Beating Fable"
     },
-    "https://blog.pascalschuster.de/article/do-llms-pass-the-mirror-test": {
-      "canonical_url": "https://blog.pascalschuster.de/article/do-llms-pass-the-mirror-test",
-      "created_at": "2026-06-28T21:43:22Z",
-      "status": "scoring_attempted",
-      "title": "Do LLMs pass the mirror test?"
-    },
     "https://box2d.org/posts/2026/06/announcing-box3d": {
       "canonical_url": "https://box2d.org/posts/2026/06/announcing-box3d",
       "created_at": "2026-07-01T18:23:15Z",
@@ -1988,12 +2002,6 @@
       "created_at": "2026-07-04T23:59:25Z",
       "status": "scoring_attempted",
       "title": "My AI-built PHP engine in Rust passes 17% of PHP-src tests, renders WordPress"
-    },
-    "https://english.elpais.com/education/2026-06-28/ai-fraud-at-brown-university-academic-integrity-is-at-risk.html": {
-      "canonical_url": "https://english.elpais.com/education/2026-06-28/ai-fraud-at-brown-university-academic-integrity-is-at-risk.html",
-      "created_at": "2026-06-28T21:43:22Z",
-      "status": "scoring_attempted",
-      "title": "Professor denounces mass AI fraud on an exam at Brown"
     },
     "https://epoch.ai/data-insights/cve-severity-spike": {
       "canonical_url": "https://epoch.ai/data-insights/cve-severity-spike",
@@ -2372,6 +2380,12 @@
       "created_at": "2026-07-01T20:21:20Z",
       "status": "scoring_attempted",
       "title": "Weave Robotics launches Isaac 1, a $7,999 home robot with fall 2026 deliveries"
+    },
+    "https://search.cerast-intelligence.com": {
+      "canonical_url": "https://search.cerast-intelligence.com",
+      "created_at": "2026-07-05T21:48:45Z",
+      "status": "scoring_attempted",
+      "title": "Show HN: Osint tool that finds exposed files on domains"
     },
     "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable": {
       "canonical_url": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable",
@@ -3147,6 +3161,12 @@
       "status": "scoring_attempted",
       "title": "AI fake news complaining about how AI fake news is the death of real news"
     },
+    "https://www.opentools.studio": {
+      "canonical_url": "https://www.opentools.studio",
+      "created_at": "2026-07-05T21:48:45Z",
+      "status": "scoring_attempted",
+      "title": "Reparaible and open source paper printer"
+    },
     "https://www.pcgamer.com/gaming-industry/open-source-game-engine-godot-will-no-longer-accept-ai-authored-code-contributions-we-cant-trust-heavy-users-of-ai-to-understand-their-code-enough-to-fix-it": {
       "canonical_url": "https://www.pcgamer.com/gaming-industry/open-source-game-engine-godot-will-no-longer-accept-ai-authored-code-contributions-we-cant-trust-heavy-users-of-ai-to-understand-their-code-enough-to-fix-it",
       "created_at": "2026-07-01T10:17:12Z",
@@ -3188,12 +3208,6 @@
       "created_at": "2026-07-02T12:10:20Z",
       "status": "scoring_attempted",
       "title": "OpenAI: In early talks to give 5% stake to US Government"
-    },
-    "https://www.theverge.com/ai-artificial-intelligence/958804/chinas-z-ai-glm-52-mythos-cybersecurity": {
-      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/958804/chinas-z-ai-glm-52-mythos-cybersecurity",
-      "created_at": "2026-06-28T21:43:22Z",
-      "status": "scoring_attempted",
-      "title": "China\u2019s Z.ai claims it can match Mythos on cybersecurity"
     },
     "https://www.theverge.com/ai-artificial-intelligence/958964/anthropic-claude-fable-5-is-back": {
       "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/958964/anthropic-claude-fable-5-is-back",
