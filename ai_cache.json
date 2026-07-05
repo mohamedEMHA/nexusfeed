@@ -309,6 +309,29 @@
         }
       }
     },
+    "6c63f6a151ea8905d9cd215b9045dbfb0115502bfece798b3c55fa2466bffc32": {
+      "created_at": "2026-07-05T10:01:23Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "AWS S3 Annotations is a new feature that adds significant value to S3 object management.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "AWS Introduces Amazon S3 Annotations",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "75bca0cc9acfc939587effde80c4fa14d4c50f05cc3e2110eeb1951038a01eb2": {
       "created_at": "2026-07-04T18:52:19Z",
       "payload": {
@@ -378,32 +401,27 @@
         "social_posts": {}
       }
     },
-    "925551437e28c2304fa94470b29f17ac6b1608841279af7c16bd9976dc4ecccb": {
-      "created_at": "2026-07-04T08:12:56Z",
+    "827c3972a1bf826a3e015dc1fe2a39bd2441e95dd7a7cb60c10d9fb53ac363b9": {
+      "created_at": "2026-07-05T10:01:23Z",
       "payload": {
         "articles": [
           {
             "freshness_score": 1.5,
             "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 3.0,
-            "reason": "NVIDIA's ASPIRE framework shows significant improvement in robotics with 31% zero-shot performance on LIBERO-Pro long tasks.",
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "Important industry move with significant impact on European enterprises, but not groundbreaking.",
             "red_flag": false,
             "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "NVIDIA AI Introduces ASPIRE: A Self-Improving Robotics Framework Reaching 31% Zero-Shot on LIBERO-Pro Long Tasks",
-            "total_score": 8.5
+            "source_score": 1,
+            "title": "Claude Reaches GA on Microsoft Foundry: European Enterprises Cannot Deploy It",
+            "total_score": 7.5
           }
         ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "NVIDIA has introduced ASPIRE, a self-improving robotics framework that reaches 31% zero-shot performance on LIBERO-Pro long tasks. This marks a substantial advancement in robotics capabilities. Link: https://www.marktechpost.com/2026/07/03/nvidia-ai-introduces-aspire-a-self-improving-robotics-framework-reaching-31-zero-shot-on-libero-pro-long-tasks/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *NVIDIA AI Introduces ASPIRE: A Self-Improving Robotics Framework Reaching 31% Zero-Shot on LIBERO-Pro Long Tasks*\n\nNVIDIA's ASPIRE writes and refines robot control programs, then distills validated repairs into a reusable skill library. It gains up to 77 points on LIBERO-Pro and transfers zero-shot to unseen long-horizon tasks.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/07/03/nvidia-ai-introduces-aspire-a-self-improving-robotics-framework-reaching-31-zero-shot-on-libero-pro-long-tasks/",
-          "threads": "NVIDIA's ASPIRE framework hits 31% zero-shot on LIBERO-Pro long tasks, a big step forward in robotics. It writes and refines control programs, then distills repairs into a reusable skill library. https://www.marktechpost.com/2026/07/03/nvidia-ai-introduces-aspire-a-self-improving-robotics-framework-reaching-31-zero-shot-on-libero-pro-long-tasks/",
-          "twitter": "NVIDIA's ASPIRE framework achieves 31% zero-shot performance on LIBERO-Pro long tasks, a significant leap in robotics.\nhttps://www.marktechpost.com/2026/07/03/nvidia-ai-introduces-aspire-a-self-improving-robotics-framework-reaching-31-zero-shot-on-libero-pro-long-tasks/"
-        }
+        "best_index": 1,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "9b35448a853b8c1a2077349f718cbda6726e7f4329ca2aa3f0a9e5737c362ca6": {
@@ -425,6 +443,29 @@
         ],
         "best_index": 0,
         "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "a06b334080b4b33715d4df9559311ffe8b4e586f7b47ab393048ffbede26efcb": {
+      "created_at": "2026-07-05T10:01:23Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 3,
+            "novelty_score": 0.5,
+            "reason": "Opinion piece on software development philosophy from a respected source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Fast Software, the Best Software",
+            "total_score": 3.5
+          }
+        ],
+        "best_index": 3,
+        "best_score": 3.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -476,6 +517,29 @@
         ],
         "best_index": 2,
         "best_score": 5.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "bec694769fb63bfbdadfe8104ab1a04abd0a235813a9d3b95175e2a31e0a2c5f": {
+      "created_at": "2026-07-05T10:01:23Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "LlamaIndex\u2019s legal-kb is a public reference app that gives agents filesystem-style access to a document knowledge base on Index v2.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "LlamaIndex \u2018legal-kb\u2019: Agentic Retrieval over Index v2 with retrieve, find, read, and grep Tools",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 2,
+        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1834,6 +1898,12 @@
       "status": "scoring_attempted",
       "title": "Simple, beautiful Emacs modeline: modusregel"
     },
+    "https://craigmod.com/essays/fast_software": {
+      "canonical_url": "https://craigmod.com/essays/fast_software",
+      "created_at": "2026-07-05T10:01:23Z",
+      "status": "scoring_attempted",
+      "title": "Fast Software, the Best Software"
+    },
     "https://danluu.com/ai-coding": {
       "canonical_url": "https://danluu.com/ai-coding",
       "created_at": "2026-07-04T05:34:49Z",
@@ -2782,12 +2852,6 @@
       "status": "scoring_attempted",
       "title": "AI Tools Accelerates Coding, but Not Overall Software Delivery, GitLab Research Finds"
     },
-    "https://www.infoq.com/news/2026/06/aws-finops-agent": {
-      "canonical_url": "https://www.infoq.com/news/2026/06/aws-finops-agent",
-      "created_at": "2026-06-28T08:18:52Z",
-      "status": "scoring_attempted",
-      "title": "AWS Previews FinOps Agent for Cost Analysis and Optimization"
-    },
     "https://www.infoq.com/news/2026/06/aws-lambda-microvms": {
       "canonical_url": "https://www.infoq.com/news/2026/06/aws-lambda-microvms",
       "created_at": "2026-06-30T10:29:55Z",
@@ -2812,12 +2876,6 @@
       "status": "scoring_attempted",
       "title": "Eliya 25 Brings a JVM-Level Diagnostic Profile to OpenJDK 25 LTS"
     },
-    "https://www.infoq.com/news/2026/06/swift-6-4-beta-features": {
-      "canonical_url": "https://www.infoq.com/news/2026/06/swift-6-4-beta-features",
-      "created_at": "2026-06-28T08:18:52Z",
-      "status": "scoring_attempted",
-      "title": "Swift 6.4 Brings New Language Features and Swift Testing/XCTest Interop"
-    },
     "https://www.infoq.com/news/2026/06/target-ai-campaign-forecasting": {
       "canonical_url": "https://www.infoq.com/news/2026/06/target-ai-campaign-forecasting",
       "created_at": "2026-06-29T15:42:29Z",
@@ -2829,6 +2887,18 @@
       "created_at": "2026-07-02T12:10:20Z",
       "status": "scoring_attempted",
       "title": "Apple Extends Private Cloud Compute to Google Cloud for the First Time"
+    },
+    "https://www.infoq.com/news/2026/07/aws-s3-annotations": {
+      "canonical_url": "https://www.infoq.com/news/2026/07/aws-s3-annotations",
+      "created_at": "2026-07-05T10:01:23Z",
+      "status": "scoring_attempted",
+      "title": "AWS Introduces Amazon S3 Annotations"
+    },
+    "https://www.infoq.com/news/2026/07/claude-foundry-ga-europe": {
+      "canonical_url": "https://www.infoq.com/news/2026/07/claude-foundry-ga-europe",
+      "created_at": "2026-07-05T10:01:23Z",
+      "status": "scoring_attempted",
+      "title": "Claude Reaches GA on Microsoft Foundry: European Enterprises Cannot Deploy It"
     },
     "https://www.infoq.com/news/2026/07/cloudflare-unified-data-platform": {
       "canonical_url": "https://www.infoq.com/news/2026/07/cloudflare-unified-data-platform",
@@ -2919,12 +2989,6 @@
       "created_at": "2026-07-02T09:58:07Z",
       "status": "scoring_attempted",
       "title": "Presentation: Enhancing Reliability Using Service-Level Prioritized Load Shedding at Netflix"
-    },
-    "https://www.marktechpost.com/2026/06/27/liquid-ai-ships-lfm2-5-230m-with-llama-cpp-mlx-vllm-sglang-and-onnx-support-for-on-device-inference": {
-      "canonical_url": "https://www.marktechpost.com/2026/06/27/liquid-ai-ships-lfm2-5-230m-with-llama-cpp-mlx-vllm-sglang-and-onnx-support-for-on-device-inference",
-      "created_at": "2026-06-28T08:18:52Z",
-      "status": "scoring_attempted",
-      "title": "Liquid AI Ships LFM2.5-230M with llama.cpp, MLX, vLLM, SGLang, and ONNX Support for On-Device Inference"
     },
     "https://www.marktechpost.com/2026/06/29/meet-everos-an-open-source-markdown-first-agent-memory-runtime-with-hybrid-bm25-vector-retrieval-and-self-evolving-skills": {
       "canonical_url": "https://www.marktechpost.com/2026/06/29/meet-everos-an-open-source-markdown-first-agent-memory-runtime-with-hybrid-bm25-vector-retrieval-and-self-evolving-skills",
@@ -3033,6 +3097,12 @@
       "created_at": "2026-07-05T04:30:02Z",
       "status": "scoring_attempted",
       "title": "Qwen\u2019s Former Lead on What Hybrid Thinking Got Wrong \u2014 and Why He Now Backs Agents"
+    },
+    "https://www.marktechpost.com/2026/07/05/llamaindex-legal-kb-agentic-retrieval-over-index-v2-with-retrieve-find-read-and-grep-tools": {
+      "canonical_url": "https://www.marktechpost.com/2026/07/05/llamaindex-legal-kb-agentic-retrieval-over-index-v2-with-retrieve-find-read-and-grep-tools",
+      "created_at": "2026-07-05T10:01:23Z",
+      "status": "scoring_attempted",
+      "title": "LlamaIndex \u2018legal-kb\u2019: Agentic Retrieval over Index v2 with retrieve, find, read, and grep Tools"
     },
     "https://www.niemanlab.org/2026/07/now-were-getting-ai-fake-news-complaining-about-how-ai-fake-news-is-the-death-of-real-news": {
       "canonical_url": "https://www.niemanlab.org/2026/07/now-were-getting-ai-fake-news-complaining-about-how-ai-fake-news-is-the-death-of-real-news",
@@ -3339,12 +3409,6 @@
       "created_at": "2026-06-30T18:17:43Z",
       "status": "scoring_attempted",
       "title": "Netflix is using an AI-generated Gene Wilder voice in its Willy Wonka reality show"
-    },
-    "https://www.theverge.com/tech/957603/tmd-smart-keyless-bike-lock-review": {
-      "canonical_url": "https://www.theverge.com/tech/957603/tmd-smart-keyless-bike-lock-review",
-      "created_at": "2026-06-28T08:18:52Z",
-      "status": "scoring_attempted",
-      "title": "TMD\u2019s keyless bike lock is a $280 solution to a $60 problem"
     },
     "https://www.theverge.com/tech/957784/flipper-devices-busy-bar-productivity-multitool-timer-led-display-presale": {
       "canonical_url": "https://www.theverge.com/tech/957784/flipper-devices-busy-bar-productivity-multitool-timer-led-display-presale",
