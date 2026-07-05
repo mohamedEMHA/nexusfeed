@@ -69,6 +69,29 @@
         "social_posts": {}
       }
     },
+    "2d45586d860e4b12f6c8d277c3f8a4d45da9628c34a49b52620386441d4192f6": {
+      "created_at": "2026-07-05T13:02:49Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 0.5,
+            "reason": "Weekly recap with no new information.",
+            "red_flag": true,
+            "red_flag_reason": "weekly recap",
+            "source_score": 1.5,
+            "title": "Xbox is a disaster",
+            "total_score": 3.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 3.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "2f7ee427ee0cc1424b3b948731b599d4fe1bc388da6ef6f18e487ba59d3ea750": {
       "created_at": "2026-07-04T21:13:52Z",
       "payload": {
@@ -468,34 +491,6 @@
         "best_score": 3.5,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "a0fc0bd4bf1ca276083d75c41282083d8b42273059abf353f4d4c940638dff67": {
-      "created_at": "2026-07-04T12:55:30Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "The fanfiction community's conflict with AI tools like Claude and ChatGPT is a significant cultural shift with implications for creative industries.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "The fanfiction community is at war with AI \u2014 and itself",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "The fanfiction community is at odds with AI tools like Claude and ChatGPT, sparking a movement to root out AI-generated works. However, the detection methods being used are raising concerns about false positives. This cultural shift has significant implications for creative industries. Link: https://www.theverge.com/tech/960854/ai-fanfiction-ao3-claude-detector",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *The fanfiction community is at war with AI \u2014 and itself*\n\nThe fanfiction community is cracking down on AI-generated works, but the detection methods may ensnare innocent writers.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/tech/960854/ai-fanfiction-ao3-claude-detector\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "The fanfiction community is in turmoil over AI-generated works, with a new movement aiming to detect and remove them. But the methods used could accidentally target innocent writers. https://www.theverge.com/tech/960854/ai-fanfiction-ao3-claude-detector",
-          "twitter": "The fanfiction community is cracking down on AI-generated works, but the detection methods may ensnare innocent writers. https://www.theverge.com/tech/960854/ai-fanfiction-ao3-claude-detector"
-        }
       }
     },
     "ae56e1d104a958b134928d7efde0ee9820b02fb4a6090e1103c73b07611ab702": {
@@ -2797,12 +2792,6 @@
       "status": "scoring_attempted",
       "title": "The origins of the school system aimed to produce independent, critical thinkers"
     },
-    "https://www.cbc.ca/radio/quirks/more-evidence-of-life-on-mars-but-still-no-life-1.7649645": {
-      "canonical_url": "https://www.cbc.ca/radio/quirks/more-evidence-of-life-on-mars-but-still-no-life-1.7649645",
-      "created_at": "2026-06-28T12:14:15Z",
-      "status": "scoring_attempted",
-      "title": "More evidence of life on Mars but still no life"
-    },
     "https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html": {
       "canonical_url": "https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html",
       "created_at": "2026-06-28T14:16:42Z",
@@ -3247,6 +3236,12 @@
       "status": "scoring_attempted",
       "title": "Meet the lawyer who beat Elon Musk \u2014 twice"
     },
+    "https://www.theverge.com/column/960600/xbox-is-a-disaster": {
+      "canonical_url": "https://www.theverge.com/column/960600/xbox-is-a-disaster",
+      "created_at": "2026-07-05T13:02:49Z",
+      "status": "scoring_attempted",
+      "title": "Xbox is a disaster"
+    },
     "https://www.theverge.com/cs/features/938196/rivian-r2-ev-factory-supply-chain": {
       "canonical_url": "https://www.theverge.com/cs/features/938196/rivian-r2-ev-factory-supply-chain",
       "created_at": "2026-07-01T13:22:53Z",
@@ -3390,12 +3385,6 @@
       "created_at": "2026-06-30T15:17:12Z",
       "status": "scoring_attempted",
       "title": "The Supreme Court stops Trump&#8217;s attempt to end birthright citizenship"
-    },
-    "https://www.theverge.com/podcast/958735/nest-thermostat-version-history": {
-      "canonical_url": "https://www.theverge.com/podcast/958735/nest-thermostat-version-history",
-      "created_at": "2026-06-28T12:14:15Z",
-      "status": "scoring_attempted",
-      "title": "Nest&#8217;s quest to fix your thermostat"
     },
     "https://www.theverge.com/podcast/959792/digitas-ceo-amy-lanzi-cannes-ad-industry-marketing-ai-creators": {
       "canonical_url": "https://www.theverge.com/podcast/959792/digitas-ceo-amy-lanzi-cannes-ad-industry-marketing-ai-creators",
