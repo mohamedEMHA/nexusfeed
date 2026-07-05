@@ -115,6 +115,29 @@
         "social_posts": {}
       }
     },
+    "42b047d4dd4887cbe700922af394f9a6bd661c49d3f1178684e09887fa45356d": {
+      "created_at": "2026-07-05T04:11:21Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Research on psilocybin's efficacy in treating depression is novel but niche in impact and from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Efficacy and Safety of Psilocybin in Treatment-Resistant Major Depression",
+            "total_score": 6.0
+          }
+        ],
+        "best_index": 0,
+        "best_score": 6.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "43a88ab3533a112561e81c0853a27367b972217bc5c557740289cf3e21bc629a": {
       "created_at": "2026-07-04T22:11:24Z",
       "payload": {
@@ -164,6 +187,29 @@
           "threads": "Anthropic's Claude Science Beta introduces a multi-agent AI workbench for reproducible scientific pipelines. This could be a game-changer for genomics, proteomics, and cheminformatics research. https://www.marktechpost.com/2026/07/04/anthropic-launches-claude-science-beta/",
           "twitter": "Anthropic's Claude Science Beta brings multi-agent AI to genomics, proteomics, and cheminformatics pipelines. https://www.marktechpost.com/2026/07/04/anthropic-launches-claude-science-beta/"
         }
+      }
+    },
+    "5963c81a46f6bad0779514a92ac5266d9355862b10f781b96ec5ee08dbf0e3a1": {
+      "created_at": "2026-07-05T04:11:21Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "Interesting approach to optimizing LLM performance but niche impact and low-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Mapping with In-Memory Layers to Reduce LLM Overload",
+            "total_score": 5.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 5.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "5e23b12370457a3bf07620dd73ecdc3b2ef79af5c60dc7050e5dc6a3869b2608": {
@@ -1975,6 +2021,12 @@
       "status": "scoring_attempted",
       "title": "I Wasn't Allowed Prompting ChatGPT During My Chalk Talk: This Is Discrimination"
     },
+    "https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2846478": {
+      "canonical_url": "https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2846478",
+      "created_at": "2026-07-05T04:11:21Z",
+      "status": "scoring_attempted",
+      "title": "Efficacy and Safety of Psilocybin in Treatment-Resistant Major Depression"
+    },
     "https://japannews.yomiuri.co.jp/science-nature/technology/20260306-314930": {
       "canonical_url": "https://japannews.yomiuri.co.jp/science-nature/technology/20260306-314930",
       "created_at": "2026-07-02T16:04:35Z",
@@ -2166,6 +2218,12 @@
       "created_at": "2026-06-30T23:04:26Z",
       "status": "scoring_attempted",
       "title": "TabFM: A zero-shot foundation model for tabular data"
+    },
+    "https://ridgetext.com/blog/mapbox-llm-composition": {
+      "canonical_url": "https://ridgetext.com/blog/mapbox-llm-composition",
+      "created_at": "2026-07-05T04:11:21Z",
+      "status": "scoring_attempted",
+      "title": "Mapping with In-Memory Layers to Reduce LLM Overload"
     },
     "https://runtimewire.com/article/weave-robotics-isaac-1-home-robot-launch": {
       "canonical_url": "https://runtimewire.com/article/weave-robotics-isaac-1-home-robot-launch",
@@ -2964,12 +3022,6 @@
       "created_at": "2026-07-01T10:17:12Z",
       "status": "scoring_attempted",
       "title": "Godot will no longer accept AI-authored code contributions"
-    },
-    "https://www.psychologytoday.com/au/blog/mood-by-microbe/202606/what-ozempic-does-to-the-gut-brain-axis": {
-      "canonical_url": "https://www.psychologytoday.com/au/blog/mood-by-microbe/202606/what-ozempic-does-to-the-gut-brain-axis",
-      "created_at": "2026-06-28T01:36:53Z",
-      "status": "scoring_attempted",
-      "title": "What Ozempic does to the gut-brain axis"
     },
     "https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701": {
       "canonical_url": "https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701",
