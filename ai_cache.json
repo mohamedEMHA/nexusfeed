@@ -1,28 +1,5 @@
 {
   "cerebras_scoring": {
-    "018bb9d7fbdd652c21a54a2a7c4eaaba0a9c0b87859a48af3b13a20e98675bf5": {
-      "created_at": "2026-07-04T00:09:57Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 2,
-            "novelty_score": 0.2,
-            "reason": "Novelty is low as it's a tutorial-style tool, impact is niche, and source is a C-tier platform.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "GitFut \u2013 Your GitHub stats turned into a World-Cup-style player card",
-            "total_score": 3.2
-          }
-        ],
-        "best_index": 2,
-        "best_score": 3.2,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "16a64b427431a889c08e7defebeb3150b8c3ccc9b261f7caa944d1bb22db0165": {
       "created_at": "2026-07-04T16:50:09Z",
       "payload": {
@@ -88,29 +65,6 @@
         ],
         "best_index": 2,
         "best_score": 2.2,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "2de61e6ebbb2695f83f07bf8ccdbdee40d10781d2683845179d0697c93d7a7b2": {
-      "created_at": "2026-07-04T00:09:57Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Interesting research on brain circuits but not directly relevant to software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "The circuit that lets your brain think and see",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -231,29 +185,6 @@
         ],
         "best_index": 0,
         "best_score": 3.2,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "5f0d0b384950b2ab18cfd6b2bef82ab87b4c256f74af2375ccd62df8dfd408c3": {
-      "created_at": "2026-07-04T00:09:57Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Research on embedding condensation in small language models, but from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Dispersion loss counteracts embedding condensation in small language models",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
