@@ -197,6 +197,29 @@
         }
       }
     },
+    "4091b15881ccc301d402d69da12df5d7338f9e6e28a1dca495762f1e3e9c7b04": {
+      "created_at": "2026-07-06T22:03:51Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 0.5,
+            "reason": "Opinion piece on AI ROI outside tech sector.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "AI: The ROI Runway Could Be Long Outside the Tech Sector",
+            "total_score": 4.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 4.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "40fb1653d385d9a8997e1dfc6ec6334c3fce0c02037d5042ba32fcf12a4402cb": {
       "created_at": "2026-07-06T00:12:28Z",
       "payload": {
@@ -239,6 +262,29 @@
         ],
         "best_index": 2,
         "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "5428d07e77158b0779619c508ed1161787956550cb0bf7477838436eb3ee50d0": {
+      "created_at": "2026-07-06T22:03:51Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 0.5,
+            "index": 1,
+            "novelty_score": 0.2,
+            "reason": "Tutorial-style content with limited impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Taiganet.com, Home of the WS4000 Simulator",
+            "total_score": 3.2
+          }
+        ],
+        "best_index": 1,
+        "best_score": 3.2,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -461,52 +507,6 @@
         "social_posts": {}
       }
     },
-    "939dab393781367d10db31d92277901e37dc1a1e5d22ba373d9d6803ddfe8c06": {
-      "created_at": "2026-07-05T21:48:45Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 0.5,
-            "index": 0,
-            "novelty_score": 0.2,
-            "reason": "Tutorial on a paper printer, not relevant to software engineers or AI researchers.",
-            "red_flag": true,
-            "red_flag_reason": "tutorial",
-            "source_score": 0.5,
-            "title": "Reparaible and open source paper printer",
-            "total_score": 2.7
-          }
-        ],
-        "best_index": 0,
-        "best_score": 2.7,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "9941c82ee2fdd294322318aeb6037d2048a2e9b6127e96f63768e808b2d25394": {
-      "created_at": "2026-07-05T21:48:45Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 2,
-            "novelty_score": 0.2,
-            "reason": "Tutorial content with low novelty and impact.",
-            "red_flag": true,
-            "red_flag_reason": "tutorial",
-            "source_score": 0.5,
-            "title": "The full stack of terminals explained",
-            "total_score": 3.2
-          }
-        ],
-        "best_index": 2,
-        "best_score": 3.2,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "99b75a09231651c3e2de48dcd48aaff527aaaf080d83cfcc6ea5c9f7ccd88ea5": {
       "created_at": "2026-07-06T20:45:37Z",
       "payload": {
@@ -681,29 +681,6 @@
         ],
         "best_index": 3,
         "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "ab79880ff6a3ee7a93ce5f4757ccff917636beff1d1311d2bf139c3b21444307": {
-      "created_at": "2026-07-05T21:48:45Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "New OSINT tool release with moderate impact and freshness, but low source tier.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Show HN: Osint tool that finds exposed files on domains",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1388,15 +1365,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Mistral AI Releases Leanstral 1.5 Model\nMistral AI's Leanstral 1.5 model has achieved impressive results, solving 587 of 672 PutnamBench problems. The model's architecture and benchmarks are being closely examined.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9/10\n#AI #CodeAgentModels #Lean4\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Mistral AI's Leanstral 1.5 model is making waves with its ability to solve complex problems. The model's performance on PutnamBench is particularly noteworthy @MistralAI #AI",
         "twitter": "Mistral AI's Leanstral 1.5 model achieves impressive results, solving 587 of 672 PutnamBench problems @MistralAI #AI"
-      }
-    },
-    "a15ec80cd146bbf4e124c12b1695fd482a163434a14f35494304ab35556b672a": {
-      "created_at": "2026-06-29T20:54:48Z",
-      "payload": {
-        "facebook": "Google is expanding its Gemini AI image generation capabilities to eligible free users in the US, allowing for personalized images based on user interests and data from connected Google apps. This move marks a significant development in AI-powered image creation. #AI #ImageGeneration #Google",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Google Expands Gemini AI Image Generation\nGoogle's Gemini AI now generates personalized images for free US users based on their interests.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #ImageGeneration #Google\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Google's Gemini AI can now create personalized images for free US users based on their interests, leveraging data from connected Google apps @Google #AI",
-        "twitter": "Google's Gemini AI now generates personalized images for free US users based on their interests @Google #AI"
       }
     },
     "a1ac4939ad89e3554e0f140ea32c8158e4835c7fea6dc9cb4569bf1c3c315e0e": {
@@ -2328,12 +2296,6 @@
       "status": "scoring_attempted",
       "title": "Lean Software Scaling Laws"
     },
-    "https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain": {
-      "canonical_url": "https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain",
-      "created_at": "2026-06-29T20:54:48Z",
-      "status": "scoring_attempted",
-      "title": "Announcing .self: A New Top-Level Domain Designed to Support Self-Hosting"
-    },
     "https://hic-ai.com": {
       "canonical_url": "https://hic-ai.com",
       "created_at": "2026-07-05T07:40:23Z",
@@ -2484,12 +2446,6 @@
       "status": "scoring_attempted",
       "title": "New AI-powered library lets people meet Theodore Roosevelt in a whole new way"
     },
-    "https://news.mit.edu/2026/inaugural-mit-music-technology-research-showcase-celebrates-work-students-0629": {
-      "canonical_url": "https://news.mit.edu/2026/inaugural-mit-music-technology-research-showcase-celebrates-work-students-0629",
-      "created_at": "2026-06-29T20:54:48Z",
-      "status": "scoring_attempted",
-      "title": "Inaugural Music Technology Research Showcase celebrates work of new graduate program\u2019s initial students"
-    },
     "https://news.mit.edu/2026/mit-media-innovating-and-educating-next-250-years-america": {
       "canonical_url": "https://news.mit.edu/2026/mit-media-innovating-and-educating-next-250-years-america",
       "created_at": "2026-07-01T21:55:17Z",
@@ -2633,12 +2589,6 @@
       "created_at": "2026-07-03T15:53:16Z",
       "status": "scoring_attempted",
       "title": "Show HN: TaskPeace \u2013 a task queue my AI coding agents pull work from over MCP"
-    },
-    "https://techcrunch.com/2026/06/29/geminis-personalized-ai-image-generation-is-now-free-for-u-s-users": {
-      "canonical_url": "https://techcrunch.com/2026/06/29/geminis-personalized-ai-image-generation-is-now-free-for-u-s-users",
-      "created_at": "2026-06-29T20:54:48Z",
-      "status": "scoring_attempted",
-      "title": "Gemini\u2019s personalized AI image generation is now free for US users"
     },
     "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier": {
       "canonical_url": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier",
@@ -2916,12 +2866,6 @@
       "status": "scoring_attempted",
       "title": "Rob Pike \u2013 'Concurrency Is Not Parallelism' [video]"
     },
-    "https://vllm.ai/blog/2026-06-29-micro-agent-frontier-models": {
-      "canonical_url": "https://vllm.ai/blog/2026-06-29-micro-agent-frontier-models",
-      "created_at": "2026-06-29T20:54:48Z",
-      "status": "scoring_attempted",
-      "title": "Micro-Agent: Beat Frontier Models with Collaboration Inside Model API"
-    },
     "https://vosen.github.io/ZLUDA/blog/zluda-update-q1q2-2026": {
       "canonical_url": "https://vosen.github.io/ZLUDA/blog/zluda-update-q1q2-2026",
       "created_at": "2026-06-30T15:17:12Z",
@@ -2969,6 +2913,12 @@
       "created_at": "2026-07-06T20:45:37Z",
       "status": "scoring_attempted",
       "title": "A global workspace in language models"
+    },
+    "https://www.apollo.com/wealth/insights-news/insights/daily-spark/ai-the-roi-runway-could-be-long-outside-the-tech-sector": {
+      "canonical_url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/ai-the-roi-runway-could-be-long-outside-the-tech-sector",
+      "created_at": "2026-07-06T22:03:51Z",
+      "status": "scoring_attempted",
+      "title": "AI: The ROI Runway Could Be Long Outside the Tech Sector"
     },
     "https://www.artificialintelligence-news.com/news/anthropic-deploys-claude-sonnet-5-fable-and-mythos-restored": {
       "canonical_url": "https://www.artificialintelligence-news.com/news/anthropic-deploys-claude-sonnet-5-fable-and-mythos-restored",
@@ -3444,6 +3394,12 @@
       "status": "scoring_attempted",
       "title": "Instead of banning AI, I made a classroom contract with my students"
     },
+    "https://www.taiganet.com": {
+      "canonical_url": "https://www.taiganet.com",
+      "created_at": "2026-07-06T22:03:51Z",
+      "status": "scoring_attempted",
+      "title": "Taiganet.com, Home of the WS4000 Simulator"
+    },
     "https://www.thebignewsletter.com/p/crime-pays-the-egg-bandits-made-a": {
       "canonical_url": "https://www.thebignewsletter.com/p/crime-pays-the-egg-bandits-made-a",
       "created_at": "2026-07-02T16:04:35Z",
@@ -3606,12 +3562,6 @@
       "status": "scoring_attempted",
       "title": "The DJI Osmo Pocket 3 lookalike is down to $329"
     },
-    "https://www.theverge.com/games/959191/sony-next-generation-playstation-ps6-beyond-the-living-room": {
-      "canonical_url": "https://www.theverge.com/games/959191/sony-next-generation-playstation-ps6-beyond-the-living-room",
-      "created_at": "2026-06-29T20:54:48Z",
-      "status": "scoring_attempted",
-      "title": "Sony&#8217;s next-gen PlayStation will go \u2018beyond the living room\u2019"
-    },
     "https://www.theverge.com/games/959668/rockstar-games-workers-union-gta-vi": {
       "canonical_url": "https://www.theverge.com/games/959668/rockstar-games-workers-union-gta-vi",
       "created_at": "2026-06-30T18:17:43Z",
@@ -3725,12 +3675,6 @@
       "created_at": "2026-06-30T18:17:43Z",
       "status": "scoring_attempted",
       "title": "Netflix is using an AI-generated Gene Wilder voice in its Willy Wonka reality show"
-    },
-    "https://www.theverge.com/tech/959211/tidal-ai-music-policy-demonetizingdetect-label": {
-      "canonical_url": "https://www.theverge.com/tech/959211/tidal-ai-music-policy-demonetizingdetect-label",
-      "created_at": "2026-06-29T20:54:48Z",
-      "status": "scoring_attempted",
-      "title": "Tidal won\u2019t pay royalties on AI-generated music but isn\u2019t banning it outright"
     },
     "https://www.theverge.com/tech/959372/samsung-galaxy-z-fold-wide-image-leaks": {
       "canonical_url": "https://www.theverge.com/tech/959372/samsung-galaxy-z-fold-wide-image-leaks",
