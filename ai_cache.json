@@ -1,5 +1,28 @@
 {
   "cerebras_scoring": {
+    "0186c0330ab8bd1c7946bac430cbe3c7d294ab3f6777a5e193cc0db82b13239e": {
+      "created_at": "2026-07-06T11:24:55Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "Interesting niche tool for rail enthusiasts, but limited impact beyond that.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Real-time map of Great Britain's rail network",
+            "total_score": 5.5
+          }
+        ],
+        "best_index": 2,
+        "best_score": 5.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "03a86d2f6ae31c2e00b0ba6a131751be60619ab92d19c35b8d9fa1108debfcde": {
       "created_at": "2026-07-06T00:12:28Z",
       "payload": {
@@ -201,6 +224,29 @@
         "social_posts": {}
       }
     },
+    "64e4c8b74751a6afb8718037526aeb60ba2e85bdc09897193ebf245fb04f0167": {
+      "created_at": "2026-07-06T11:24:55Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "Rust's robustness features beyond memory safety are highly relevant to systems engineering.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Presentation: Practical Robustness: Going Beyond Memory Safety in Rust",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 3,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "6c1d795208b02876fcbdb636870e9f76fb94cf9dd323c282a4a51747e45d0cb0": {
       "created_at": "2026-07-06T04:43:13Z",
       "payload": {
@@ -227,52 +273,6 @@
           "threads": "HuggingFace just revamped Kernels with major updates that could reshape how developers interact with AI models. The changes focus on performance and ease of use, making it easier to deploy and run models. https://huggingface.co/blog/revamped-kernels",
           "twitter": "HuggingFace just revamped Kernels with major updates that could reshape how developers interact with AI models. https://huggingface.co/blog/revamped-kernels"
         }
-      }
-    },
-    "6c63f6a151ea8905d9cd215b9045dbfb0115502bfece798b3c55fa2466bffc32": {
-      "created_at": "2026-07-05T10:01:23Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "AWS S3 Annotations is a new feature that adds significant value to S3 object management.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "AWS Introduces Amazon S3 Annotations",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "827c3972a1bf826a3e015dc1fe2a39bd2441e95dd7a7cb60c10d9fb53ac363b9": {
-      "created_at": "2026-07-05T10:01:23Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Important industry move with significant impact on European enterprises, but not groundbreaking.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Claude Reaches GA on Microsoft Foundry: European Enterprises Cannot Deploy It",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "83e7b1c37ac0d7d6273f15470157398cb6b05b7c2fd0c2ff5a88e4159e5d4db5": {
@@ -471,25 +471,25 @@
         "social_posts": {}
       }
     },
-    "a06b334080b4b33715d4df9559311ffe8b4e586f7b47ab393048ffbede26efcb": {
-      "created_at": "2026-07-05T10:01:23Z",
+    "a1a201054642e2171d08c32e746f9a9cfbdc75fd1189faf4aa4f1d8669a6326a": {
+      "created_at": "2026-07-06T11:24:55Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 3,
-            "novelty_score": 0.5,
-            "reason": "Opinion piece on software development philosophy from a respected source.",
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "China's regulatory moves on AI companions impact global AI development and deployment.",
             "red_flag": false,
             "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Fast Software, the Best Software",
-            "total_score": 3.5
+            "source_score": 1.0,
+            "title": "China\u2019s AI companion rules: what Beijing is really going after",
+            "total_score": 8.0
           }
         ],
-        "best_index": 3,
-        "best_score": 3.5,
+        "best_index": 1,
+        "best_score": 8.0,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -677,25 +677,25 @@
         }
       }
     },
-    "bec694769fb63bfbdadfe8104ab1a04abd0a235813a9d3b95175e2a31e0a2c5f": {
-      "created_at": "2026-07-05T10:01:23Z",
+    "c567afc75cbe93bd3dbfd729b55c7e44d407ecdc441dca63a265c1310a2c758c": {
+      "created_at": "2026-07-06T11:24:55Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 1.5,
+            "freshness_score": 2.0,
             "impact_score": 2.5,
-            "index": 2,
+            "index": 0,
             "novelty_score": 2.5,
-            "reason": "LlamaIndex\u2019s legal-kb is a public reference app that gives agents filesystem-style access to a document knowledge base on Index v2.",
+            "reason": "Interesting philosophy for cloud security in AI-native era, but not groundbreaking.",
             "red_flag": false,
             "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "LlamaIndex \u2018legal-kb\u2019: Agentic Retrieval over Index v2 with retrieve, find, read, and grep Tools",
-            "total_score": 7.5
+            "source_score": 1.0,
+            "title": "Podcast: Spite-Driven Engineering: A New Blueprint for Cloud Security in the AI Native Era",
+            "total_score": 8.0
           }
         ],
-        "best_index": 2,
-        "best_score": 7.5,
+        "best_index": 0,
+        "best_score": 8.0,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -2051,12 +2051,6 @@
       "status": "scoring_attempted",
       "title": "Show HN: Mcpsnoop \u2013 Wireshark for MCP (transparent proxy and live TUI)"
     },
-    "https://github.com/ogulcancelik/herdr": {
-      "canonical_url": "https://github.com/ogulcancelik/herdr",
-      "created_at": "2026-06-29T10:00:33Z",
-      "status": "scoring_attempted",
-      "title": "Herdr: Agent multiplexer that lives in your terminal"
-    },
     "https://github.com/openai/codex/issues/30364": {
       "canonical_url": "https://github.com/openai/codex/issues/30364",
       "created_at": "2026-07-04T22:11:24Z",
@@ -2272,12 +2266,6 @@
       "created_at": "2026-07-03T20:05:23Z",
       "status": "scoring_attempted",
       "title": "Ask HN: Is anyone experimenting with different ways of using LLMs for coding?"
-    },
-    "https://newsletter.semianalysis.com/p/us-grid-constraints-towards-40gw": {
-      "canonical_url": "https://newsletter.semianalysis.com/p/us-grid-constraints-towards-40gw",
-      "created_at": "2026-06-29T10:00:33Z",
-      "status": "scoring_attempted",
-      "title": "US Grid Constraints: Towards 40GW+ of Behind-the-Meter Datacenter by 2028?"
     },
     "https://nicole.express/2026/phase-altering-by-line.html": {
       "canonical_url": "https://nicole.express/2026/phase-altering-by-line.html",
@@ -2735,12 +2723,6 @@
       "status": "scoring_attempted",
       "title": "Introducing Claude Sonnet 5"
     },
-    "https://www.artificialintelligence-news.com/news/advances-in-natural-language-processing-are-changing-professional-networking": {
-      "canonical_url": "https://www.artificialintelligence-news.com/news/advances-in-natural-language-processing-are-changing-professional-networking",
-      "created_at": "2026-06-29T10:00:33Z",
-      "status": "scoring_attempted",
-      "title": "Advances in Natural Language Processing Are Changing Professional Networking"
-    },
     "https://www.artificialintelligence-news.com/news/anthropic-deploys-claude-sonnet-5-fable-and-mythos-restored": {
       "canonical_url": "https://www.artificialintelligence-news.com/news/anthropic-deploys-claude-sonnet-5-fable-and-mythos-restored",
       "created_at": "2026-07-01T10:17:12Z",
@@ -2753,11 +2735,11 @@
       "status": "scoring_attempted",
       "title": "Bank of England reviews AI rules for agentic AI in finance"
     },
-    "https://www.artificialintelligence-news.com/news/best-automated-security-testing-tools-for-modern-devsecops": {
-      "canonical_url": "https://www.artificialintelligence-news.com/news/best-automated-security-testing-tools-for-modern-devsecops",
-      "created_at": "2026-06-29T10:00:33Z",
+    "https://www.artificialintelligence-news.com/news/china-ai-companion-rules": {
+      "canonical_url": "https://www.artificialintelligence-news.com/news/china-ai-companion-rules",
+      "created_at": "2026-07-06T11:24:55Z",
       "status": "scoring_attempted",
-      "title": "Best Automated Security Testing Tools for Modern DevSecOps"
+      "title": "China\u2019s AI companion rules: what Beijing is really going after"
     },
     "https://www.artificialintelligence-news.com/news/deploying-retail-ai-to-scale-personalisation-customer-insight": {
       "canonical_url": "https://www.artificialintelligence-news.com/news/deploying-retail-ai-to-scale-personalisation-customer-insight",
@@ -2783,29 +2765,11 @@
       "status": "scoring_attempted",
       "title": "NVIDIA BioNeMo accelerates Anthropic Claude Science"
     },
-    "https://www.artificialintelligence-news.com/news/scam-ai-announces-qualcomm-partnership-launches-halo-deepfake-detection-model-at-computex-2026": {
-      "canonical_url": "https://www.artificialintelligence-news.com/news/scam-ai-announces-qualcomm-partnership-launches-halo-deepfake-detection-model-at-computex-2026",
-      "created_at": "2026-06-29T10:00:33Z",
-      "status": "scoring_attempted",
-      "title": "Scam.ai Announces Qualcomm Partnership, Launches Halo Deepfake Detection Model at Computex 2026"
-    },
     "https://www.artificialintelligence-news.com/news/takeda-insilico-ai-drug-discovery-deal": {
       "canonical_url": "https://www.artificialintelligence-news.com/news/takeda-insilico-ai-drug-discovery-deal",
       "created_at": "2026-07-03T12:06:05Z",
       "status": "scoring_attempted",
       "title": "Takeda signs US$600M AI drug discovery deal with Insilico"
-    },
-    "https://www.artificialintelligence-news.com/news/wimbledon-ibm-ai-tools-live-match-coverage": {
-      "canonical_url": "https://www.artificialintelligence-news.com/news/wimbledon-ibm-ai-tools-live-match-coverage",
-      "created_at": "2026-06-29T10:00:33Z",
-      "status": "scoring_attempted",
-      "title": "Wimbledon adds IBM AI tools for live match coverage"
-    },
-    "https://www.artificialintelligence-news.com/news/xfusion-scales-enterprise-ai-from-edge-workstations-to-liquid-cooled-data-centres": {
-      "canonical_url": "https://www.artificialintelligence-news.com/news/xfusion-scales-enterprise-ai-from-edge-workstations-to-liquid-cooled-data-centres",
-      "created_at": "2026-06-29T10:00:33Z",
-      "status": "scoring_attempted",
-      "title": "xFusion scales enterprise AI from edge workstations to liquid-cooled data centres"
     },
     "https://www.dailymail.com/news/article-15943905/Mystery-identity-Green-Boots-climber-macabre-landmark-frozen-ice-dying-Everest-finally-solved-DNA-test.html": {
       "canonical_url": "https://www.dailymail.com/news/article-15943905/Mystery-identity-Green-Boots-climber-macabre-landmark-frozen-ice-dying-Everest-finally-solved-DNA-test.html",
@@ -2884,12 +2848,6 @@
       "created_at": "2026-07-03T12:06:05Z",
       "status": "scoring_attempted",
       "title": "Mini book: Agentic AI Architecture"
-    },
-    "https://www.infoq.com/news/2026/06/ai-coding-outpaces-governance": {
-      "canonical_url": "https://www.infoq.com/news/2026/06/ai-coding-outpaces-governance",
-      "created_at": "2026-06-29T10:00:33Z",
-      "status": "scoring_attempted",
-      "title": "AI Tools Accelerates Coding, but Not Overall Software Delivery, GitLab Research Finds"
     },
     "https://www.infoq.com/news/2026/06/aws-lambda-microvms": {
       "canonical_url": "https://www.infoq.com/news/2026/06/aws-lambda-microvms",
@@ -3011,6 +2969,12 @@
       "status": "scoring_attempted",
       "title": "Podcast: Architectural Patterns: Moving Beyond Cloud-Native to Local-First - Insights from Adam Wiggins"
     },
+    "https://www.infoq.com/podcasts/new-blueprint-cloud-security": {
+      "canonical_url": "https://www.infoq.com/podcasts/new-blueprint-cloud-security",
+      "created_at": "2026-07-06T11:24:55Z",
+      "status": "scoring_attempted",
+      "title": "Podcast: Spite-Driven Engineering: A New Blueprint for Cloud Security in the AI Native Era"
+    },
     "https://www.infoq.com/presentations/ai-infrastructure-scaling-architecture": {
       "canonical_url": "https://www.infoq.com/presentations/ai-infrastructure-scaling-architecture",
       "created_at": "2026-07-01T13:22:53Z",
@@ -3035,11 +2999,23 @@
       "status": "scoring_attempted",
       "title": "Presentation: Fine Tuning the Enterprise: Reinforcement Learning in Practice"
     },
+    "https://www.infoq.com/presentations/rust-autonomous-mobile-robots": {
+      "canonical_url": "https://www.infoq.com/presentations/rust-autonomous-mobile-robots",
+      "created_at": "2026-07-06T11:24:55Z",
+      "status": "scoring_attempted",
+      "title": "Presentation: Practical Robustness: Going Beyond Memory Safety in Rust"
+    },
     "https://www.infoq.com/presentations/service-level-prioritized-load-shedding": {
       "canonical_url": "https://www.infoq.com/presentations/service-level-prioritized-load-shedding",
       "created_at": "2026-07-02T09:58:07Z",
       "status": "scoring_attempted",
       "title": "Presentation: Enhancing Reliability Using Service-Level Prioritized Load Shedding at Netflix"
+    },
+    "https://www.map.signalbox.io": {
+      "canonical_url": "https://www.map.signalbox.io",
+      "created_at": "2026-07-06T11:24:55Z",
+      "status": "scoring_attempted",
+      "title": "Real-time map of Great Britain's rail network"
     },
     "https://www.marktechpost.com/2026/06/29/meet-everos-an-open-source-markdown-first-agent-memory-runtime-with-hybrid-bm25-vector-retrieval-and-self-evolving-skills": {
       "canonical_url": "https://www.marktechpost.com/2026/06/29/meet-everos-an-open-source-markdown-first-agent-memory-runtime-with-hybrid-bm25-vector-retrieval-and-self-evolving-skills",
@@ -3664,12 +3640,6 @@
       "created_at": "2026-06-30T12:30:40Z",
       "status": "scoring_attempted",
       "title": "Bernie Sanders Saw This Coming"
-    },
-    "https://www.wired.com/story/this-robot-is-going-to-replace-your-interns-flexion": {
-      "canonical_url": "https://www.wired.com/story/this-robot-is-going-to-replace-your-interns-flexion",
-      "created_at": "2026-06-29T10:00:33Z",
-      "status": "scoring_attempted",
-      "title": "This Humanoid Robot Is a Terrifyingly Competent Office Intern"
     },
     "https://www.wired.com/story/trump-administration-lifts-export-controls-on-anthropics-mythos-and-fable-ai-models": {
       "canonical_url": "https://www.wired.com/story/trump-administration-lifts-export-controls-on-anthropics-mythos-and-fable-ai-models",
