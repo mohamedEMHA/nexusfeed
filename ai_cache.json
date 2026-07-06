@@ -104,29 +104,6 @@
         "social_posts": {}
       }
     },
-    "2d45586d860e4b12f6c8d277c3f8a4d45da9628c34a49b52620386441d4192f6": {
-      "created_at": "2026-07-05T13:02:49Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 0.5,
-            "reason": "Weekly recap with no new information.",
-            "red_flag": true,
-            "red_flag_reason": "weekly recap",
-            "source_score": 1.5,
-            "title": "Xbox is a disaster",
-            "total_score": 3.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 3.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "40fb1653d385d9a8997e1dfc6ec6334c3fce0c02037d5042ba32fcf12a4402cb": {
       "created_at": "2026-07-06T00:12:28Z",
       "payload": {
@@ -146,6 +123,41 @@
         ],
         "best_index": 8,
         "best_score": 5.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "55312bce7eb2bbf674f070f8b0cd0aa754312be9347cab1dff01fda83a4ea71d": {
+      "created_at": "2026-07-06T14:42:06Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 8,
+            "novelty_score": 2.5,
+            "reason": "New cohort for AI security and privacy engineering in regulated industries.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "InfoQ Opens AI Security & Privacy Engineering Cohort for Regulated Industries",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 9,
+            "novelty_score": 0.2,
+            "reason": "Opinion piece on C programming readability, not highly impactful.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "C programmers commit fresh crimes against readability",
+            "total_score": 3.7
+          }
+        ],
+        "best_index": 8,
+        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -591,29 +603,6 @@
         "social_posts": {}
       }
     },
-    "afc056cb6d5dc5968756d44054c8e87fb96ad268be8b11e2c51bf382e8f5024b": {
-      "created_at": "2026-07-05T11:48:02Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.5,
-            "index": 1,
-            "novelty_score": 0.2,
-            "reason": "Tutorial-style content with limited impact and from a lower-tier source.",
-            "red_flag": true,
-            "red_flag_reason": "tutorial",
-            "source_score": 0.5,
-            "title": "Claude Design System Prompt",
-            "total_score": 2.2
-          }
-        ],
-        "best_index": 1,
-        "best_score": 2.2,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "b1cc70bcf0726505f0fe8588078deee911f2788a843b6ac11ef684175e8c0134": {
       "created_at": "2026-07-06T08:58:39Z",
       "payload": {
@@ -677,6 +666,53 @@
         }
       }
     },
+    "bb5e09e0216a94275da312a15f96e5dec73b582de9399a95ce26589853dc120c": {
+      "created_at": "2026-07-06T14:42:06Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 3,
+            "novelty_score": 2.0,
+            "reason": "Microsoft's layoffs impact a significant portion of its workforce, but the novelty is lower as layoffs are a recurring theme.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Microsoft is laying off 4,800 employees",
+            "total_score": 8.0
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.0,
+            "index": 4,
+            "novelty_score": 1.5,
+            "reason": "A real-time map of France's rail network is niche and has limited impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Real time map of France's rail network",
+            "total_score": 5.0
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.0,
+            "index": 5,
+            "novelty_score": 2.5,
+            "reason": "A tool to scan AI agents for dangerous capabilities is novel and impactful, but the source is a lower-tier.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Show HN: Scan your AI agents for dangerous capabilities",
+            "total_score": 7.0
+          }
+        ],
+        "best_index": 3,
+        "best_score": 8.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "c567afc75cbe93bd3dbfd729b55c7e44d407ecdc441dca63a265c1310a2c758c": {
       "created_at": "2026-07-06T11:24:55Z",
       "payload": {
@@ -698,6 +734,58 @@
         "best_score": 8.0,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "d59a178bdaa6c78b7555e3cb245f4029020bc490c5c75e9acb464fedf76bd09c": {
+      "created_at": "2026-07-06T14:42:06Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 0.5,
+            "reason": "Opinion piece on creator economy with limited technical relevance.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Inside the big business of the creator economy, with the agents making it happen",
+            "total_score": 4.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "Netflix's dynamic partition splitting for Cassandra is a significant engineering achievement with broad relevance to distributed systems engineers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.0,
+            "title": "Netflix Cuts Cassandra Read Latency from Seconds to Milliseconds with Dynamic Partition Splitting",
+            "total_score": 8.0
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.0,
+            "index": 2,
+            "novelty_score": 2.0,
+            "reason": "Regulatory concerns about AI in financial services, relevant to AI ethics and compliance professionals.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "UK regulator warns of \"arms race\" to keep up with AI use in financial services",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 8.0,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Netflix engineers have reduced Cassandra read latency dramatically using dynamic partition splitting. This approach detects oversized partitions, splits them into smaller units, and routes reads across child partitions. The result is a significant performance boost for time series workloads. Link: https://www.infoq.com/news/2026/07/netflix-cassandra-partition/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Netflix Cuts Cassandra Read Latency from Seconds to Milliseconds with Dynamic Partition Splitting*\n\nNetflix engineers introduced dynamic partition splitting for Cassandra to address wide partitions in time series workloads. The metadata-driven approach detects oversized partitions, splits them into smaller units, and routes reads across child partitions. Netflix reported lower read latency from seconds to milliseconds.\n\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (B)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.0/10\n\n\ud83d\udd17 https://www.infoq.com/news/2026/07/netflix-cassandra-partition/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Netflix just cut Cassandra read latency from seconds to milliseconds with dynamic partition splitting. A clever metadata-driven approach that's worth a look for distributed systems engineers.\nhttps://www.infoq.com/news/2026/07/netflix-cassandra-partition/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "twitter": "Netflix slashed Cassandra read latency from seconds to milliseconds with dynamic partition splitting. Here's how they did it.\nhttps://www.infoq.com/news/2026/07/netflix-cassandra-partition/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+        }
       }
     },
     "d5d44a09e41aca49e2d9d6ea3a6e4feefb7294599379e5da767139498991a70f": {
@@ -810,6 +898,41 @@
           }
         ],
         "best_index": 1,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "eaa601fa299e303a56b6ebca176d7138da1b9b89fcaea1b1209d43a00948b98c": {
+      "created_at": "2026-07-06T14:42:06Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 6,
+            "novelty_score": 2.0,
+            "reason": "Industry move with moderate impact and freshness.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Station F ramps up as a launchpad for Europe\u2019s hottest AI startups",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 7,
+            "novelty_score": 2.5,
+            "reason": "Opinion piece with moderate novelty and impact, but low source tier.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "The AI Marketing Backlash: Why 'AI-First' Brands Are Starting to Fall Flat",
+            "total_score": 6.0
+          }
+        ],
+        "best_index": 6,
         "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
@@ -1164,15 +1287,6 @@
         "twitter": "Mistral AI's Leanstral 1.5 model achieves impressive results, solving 587 of 672 PutnamBench problems @MistralAI #AI"
       }
     },
-    "9b555fa20109338a479c7e071a5995d1beebef1bbe8cde77c3f3476b78db482f": {
-      "created_at": "2026-06-29T11:56:09Z",
-      "payload": {
-        "facebook": "A recent proposal to revise federal financial assistance has the potential to severely impact scientific research in the United States. The proposed changes could have significant implications for the future of science and research in the country. This development has sparked concerns among the scientific community, with many calling for action to prevent the proposed changes #USscience #scientificresearch #funding",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Proposed Rule Change Threatens US Scientific Research\nA recent proposal to revise federal financial assistance has sparked concerns among the scientific community, with many calling for action to prevent the proposed changes.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#USscience #scientificresearch #funding\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "The US scientific research community is sounding the alarm over proposed revisions to federal financial assistance, which could have severe implications for the future of science, notes @TheVerge #USscience",
-        "twitter": "Proposed federal financial assistance revisions could severely impact US scientific research, warns @TheVerge, with significant implications for the future of science #USscience"
-      }
-    },
     "9f705b3789ac6d1b3d24af44c4d996a13792038ca4f4475337892bd27d0a3247": {
       "created_at": "2026-06-29T16:55:11Z",
       "payload": {
@@ -1324,6 +1438,12 @@
       "created_at": "2026-07-02T12:10:20Z",
       "status": "scoring_attempted",
       "title": "Google\u2019s AI buildout drove 37% increase in electricity use in 2025"
+    },
+    "https://arstechnica.com/ai/2026/07/uk-regulator-warns-of-arms-race-to-keep-up-with-ai-use-in-financial-services": {
+      "canonical_url": "https://arstechnica.com/ai/2026/07/uk-regulator-warns-of-arms-race-to-keep-up-with-ai-use-in-financial-services",
+      "created_at": "2026-07-06T14:42:06Z",
+      "status": "scoring_attempted",
+      "title": "UK regulator warns of \"arms race\" to keep up with AI use in financial services"
     },
     "https://arstechnica.com/security/2026/06/ai-browsers-can-be-lulled-into-a-dream-world-where-guardrails-no-longer-apply": {
       "canonical_url": "https://arstechnica.com/security/2026/06/ai-browsers-can-be-lulled-into-a-dream-world-where-guardrails-no-longer-apply",
@@ -1883,6 +2003,12 @@
       "status": "scoring_attempted",
       "title": "Box3D, an open source 3D physics engine"
     },
+    "https://carto.tchoo.net": {
+      "canonical_url": "https://carto.tchoo.net",
+      "created_at": "2026-07-06T14:42:06Z",
+      "status": "scoring_attempted",
+      "title": "Real time map of France's rail network"
+    },
     "https://cerebrium.ai/blog/reducing-gpu-cold-starts-with-memory-snapshots-restoring-cuda-workloads-in-second": {
       "canonical_url": "https://cerebrium.ai/blog/reducing-gpu-cold-starts-with-memory-snapshots-restoring-cuda-workloads-in-second",
       "created_at": "2026-07-01T18:23:15Z",
@@ -2050,6 +2176,12 @@
       "created_at": "2026-07-03T18:45:09Z",
       "status": "scoring_attempted",
       "title": "Show HN: Mcpsnoop \u2013 Wireshark for MCP (transparent proxy and live TUI)"
+    },
+    "https://github.com/makerchecker/MakerChecker": {
+      "canonical_url": "https://github.com/makerchecker/MakerChecker",
+      "created_at": "2026-07-06T14:42:06Z",
+      "status": "scoring_attempted",
+      "title": "Show HN: Scan your AI agents for dangerous capabilities"
     },
     "https://github.com/openai/codex/issues/30364": {
       "canonical_url": "https://github.com/openai/codex/issues/30364",
@@ -2290,12 +2422,6 @@
       "created_at": "2026-06-30T16:22:34Z",
       "status": "scoring_attempted",
       "title": "How ChatGPT adoption has expanded"
-    },
-    "https://openai.com/index/mapping-ai-jobs-transition-eu": {
-      "canonical_url": "https://openai.com/index/mapping-ai-jobs-transition-eu",
-      "created_at": "2026-06-29T11:56:09Z",
-      "status": "scoring_attempted",
-      "title": "Mapping Europe\u2019s AI Workforce Opportunity"
     },
     "https://phys.org/news/2026-06-scientists-molecular-evidence-liquid.html": {
       "canonical_url": "https://phys.org/news/2026-06-scientists-molecular-evidence-liquid.html",
@@ -2639,6 +2765,12 @@
       "status": "scoring_attempted",
       "title": "Amazon will stop accepting new customers for Mechanical Turk"
     },
+    "https://techcrunch.com/2026/07/06/station-f-ramps-up-as-a-launchpad-for-europes-hottest-ai-startups": {
+      "canonical_url": "https://techcrunch.com/2026/07/06/station-f-ramps-up-as-a-launchpad-for-europes-hottest-ai-startups",
+      "created_at": "2026-07-06T14:42:06Z",
+      "status": "scoring_attempted",
+      "title": "Station F ramps up as a launchpad for Europe\u2019s hottest AI startups"
+    },
     "https://thereallo.dev/blog/claude-code-prompt-steganography": {
       "canonical_url": "https://thereallo.dev/blog/claude-code-prompt-steganography",
       "created_at": "2026-06-30T16:22:34Z",
@@ -2771,6 +2903,12 @@
       "status": "scoring_attempted",
       "title": "Takeda signs US$600M AI drug discovery deal with Insilico"
     },
+    "https://www.breef.com/breefingroom/articles/the-ai-marketing-backlash-why-ai-first-brands-are-starting-to-fall-flat": {
+      "canonical_url": "https://www.breef.com/breefingroom/articles/the-ai-marketing-backlash-why-ai-first-brands-are-starting-to-fall-flat",
+      "created_at": "2026-07-06T14:42:06Z",
+      "status": "scoring_attempted",
+      "title": "The AI Marketing Backlash: Why 'AI-First' Brands Are Starting to Fall Flat"
+    },
     "https://www.dailymail.com/news/article-15943905/Mystery-identity-Green-Boots-climber-macabre-landmark-frozen-ice-dying-Everest-finally-solved-DNA-test.html": {
       "canonical_url": "https://www.dailymail.com/news/article-15943905/Mystery-identity-Green-Boots-climber-macabre-landmark-frozen-ice-dying-Everest-finally-solved-DNA-test.html",
       "created_at": "2026-07-03T01:04:17Z",
@@ -2830,12 +2968,6 @@
       "created_at": "2026-07-04T07:17:30Z",
       "status": "scoring_attempted",
       "title": "2026 Unslop AI-Written Fiction Contest Results"
-    },
-    "https://www.infoq.com/articles/security-ai-threat-evolution": {
-      "canonical_url": "https://www.infoq.com/articles/security-ai-threat-evolution",
-      "created_at": "2026-06-29T11:56:09Z",
-      "status": "scoring_attempted",
-      "title": "Article: Virtual panel: Security in the Machine Age: Expert Insights on AI Threat Evolution"
     },
     "https://www.infoq.com/articles/tradeoffs-event-driven-design": {
       "canonical_url": "https://www.infoq.com/articles/tradeoffs-event-driven-design",
@@ -2939,6 +3071,18 @@
       "status": "scoring_attempted",
       "title": "AI Model Context Protocol Adds Centralised Auth for Enterprise"
     },
+    "https://www.infoq.com/news/2026/07/netflix-cassandra-partition": {
+      "canonical_url": "https://www.infoq.com/news/2026/07/netflix-cassandra-partition",
+      "created_at": "2026-07-06T14:42:06Z",
+      "status": "scoring_attempted",
+      "title": "Netflix Cuts Cassandra Read Latency from Seconds to Milliseconds with Dynamic Partition Splitting"
+    },
+    "https://www.infoq.com/news/2026/07/online-cohort-ai-security": {
+      "canonical_url": "https://www.infoq.com/news/2026/07/online-cohort-ai-security",
+      "created_at": "2026-07-06T14:42:06Z",
+      "status": "scoring_attempted",
+      "title": "InfoQ Opens AI Security & Privacy Engineering Cohort for Regulated Industries"
+    },
     "https://www.infoq.com/news/2026/07/opentelemetry-cncf-maturity": {
       "canonical_url": "https://www.infoq.com/news/2026/07/opentelemetry-cncf-maturity",
       "created_at": "2026-07-03T12:06:05Z",
@@ -2962,12 +3106,6 @@
       "created_at": "2026-07-02T16:04:35Z",
       "status": "scoring_attempted",
       "title": "SwiftUI Adds New Document Protocol, Improves Performance, and More"
-    },
-    "https://www.infoq.com/podcasts/natural-evolution-cloud-native": {
-      "canonical_url": "https://www.infoq.com/podcasts/natural-evolution-cloud-native",
-      "created_at": "2026-06-29T11:56:09Z",
-      "status": "scoring_attempted",
-      "title": "Podcast: Architectural Patterns: Moving Beyond Cloud-Native to Local-First - Insights from Adam Wiggins"
     },
     "https://www.infoq.com/podcasts/new-blueprint-cloud-security": {
       "canonical_url": "https://www.infoq.com/podcasts/new-blueprint-cloud-security",
@@ -3016,12 +3154,6 @@
       "created_at": "2026-07-06T11:24:55Z",
       "status": "scoring_attempted",
       "title": "Real-time map of Great Britain's rail network"
-    },
-    "https://www.marktechpost.com/2026/06/29/meet-everos-an-open-source-markdown-first-agent-memory-runtime-with-hybrid-bm25-vector-retrieval-and-self-evolving-skills": {
-      "canonical_url": "https://www.marktechpost.com/2026/06/29/meet-everos-an-open-source-markdown-first-agent-memory-runtime-with-hybrid-bm25-vector-retrieval-and-self-evolving-skills",
-      "created_at": "2026-06-29T11:56:09Z",
-      "status": "scoring_attempted",
-      "title": "Meet EverOS: An Open Source Markdown-First Agent Memory Runtime With Hybrid BM25 + Vector Retrieval and Self-Evolving Skills"
     },
     "https://www.marktechpost.com/2026/06/29/nvidia-bionemo-agent-toolkit-turns-biomolecular-models-into-callable-skills-for-ai-agents-in-drug-discovery": {
       "canonical_url": "https://www.marktechpost.com/2026/06/29/nvidia-bionemo-agent-toolkit-turns-biomolecular-models-into-callable-skills-for-ai-agents-in-drug-discovery",
@@ -3220,6 +3352,12 @@
       "created_at": "2026-07-02T12:10:20Z",
       "status": "scoring_attempted",
       "title": "OpenAI: In early talks to give 5% stake to US Government"
+    },
+    "https://www.theregister.com/offbeat/2026/07/05/c-programmers-commit-fresh-crimes-against-readability/5265981": {
+      "canonical_url": "https://www.theregister.com/offbeat/2026/07/05/c-programmers-commit-fresh-crimes-against-readability/5265981",
+      "created_at": "2026-07-06T14:42:06Z",
+      "status": "scoring_attempted",
+      "title": "C programmers commit fresh crimes against readability"
     },
     "https://www.theverge.com/ai-artificial-intelligence/958964/anthropic-claude-fable-5-is-back": {
       "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/958964/anthropic-claude-fable-5-is-back",
@@ -3431,6 +3569,12 @@
       "status": "scoring_attempted",
       "title": "The Supreme Court stops Trump&#8217;s attempt to end birthright citizenship"
     },
+    "https://www.theverge.com/news/961528/microsoft-layoffs-july-2026-sales-xbox": {
+      "canonical_url": "https://www.theverge.com/news/961528/microsoft-layoffs-july-2026-sales-xbox",
+      "created_at": "2026-07-06T14:42:06Z",
+      "status": "scoring_attempted",
+      "title": "Microsoft is laying off 4,800 employees"
+    },
     "https://www.theverge.com/podcast/959792/digitas-ceo-amy-lanzi-cannes-ad-industry-marketing-ai-creators": {
       "canonical_url": "https://www.theverge.com/podcast/959792/digitas-ceo-amy-lanzi-cannes-ad-industry-marketing-ai-creators",
       "created_at": "2026-07-02T14:31:05Z",
@@ -3449,6 +3593,12 @@
       "status": "scoring_attempted",
       "title": "How Keurig saved \u2014 and ruined \u2014 your coffee"
     },
+    "https://www.theverge.com/podcast/961603/raina-penchansky-ali-berman-dba-uta-influencer-cliff-marketing": {
+      "canonical_url": "https://www.theverge.com/podcast/961603/raina-penchansky-ali-berman-dba-uta-influencer-cliff-marketing",
+      "created_at": "2026-07-06T14:42:06Z",
+      "status": "scoring_attempted",
+      "title": "Inside the big business of the creator economy, with the agents making it happen"
+    },
     "https://www.theverge.com/policy/958974/supreme-court-slaughter-trump-decision-ftc-agency-independence": {
       "canonical_url": "https://www.theverge.com/policy/958974/supreme-court-slaughter-trump-decision-ftc-agency-independence",
       "created_at": "2026-06-29T15:42:29Z",
@@ -3460,12 +3610,6 @@
       "created_at": "2026-07-04T16:50:09Z",
       "status": "scoring_attempted",
       "title": "White House deletes thousands of web pages about energy conservation as heatwave slams US"
-    },
-    "https://www.theverge.com/science/957630/omb-killing-science-budget-grants-research": {
-      "canonical_url": "https://www.theverge.com/science/957630/omb-killing-science-budget-grants-research",
-      "created_at": "2026-06-29T11:56:09Z",
-      "status": "scoring_attempted",
-      "title": "The war against &#8216;woke&#8217; could end US science as we know it"
     },
     "https://www.theverge.com/science/960442/spacex-phone-prototype-elon-musk": {
       "canonical_url": "https://www.theverge.com/science/960442/spacex-phone-prototype-elon-musk",
@@ -3484,12 +3628,6 @@
       "created_at": "2026-06-29T15:42:29Z",
       "status": "scoring_attempted",
       "title": "The Flipper Zero creators\u2019 Busy Bar productivity display will go on sale next month"
-    },
-    "https://www.theverge.com/tech/958849/comcast-nbcuniversal-company-spinoff-announcement": {
-      "canonical_url": "https://www.theverge.com/tech/958849/comcast-nbcuniversal-company-spinoff-announcement",
-      "created_at": "2026-06-29T11:56:09Z",
-      "status": "scoring_attempted",
-      "title": "Comcast is splitting in two"
     },
     "https://www.theverge.com/tech/959211/tidal-ai-music-policy-demonetizingdetect-label": {
       "canonical_url": "https://www.theverge.com/tech/959211/tidal-ai-music-policy-demonetizingdetect-label",
