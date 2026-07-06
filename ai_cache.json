@@ -104,29 +104,6 @@
         "social_posts": {}
       }
     },
-    "31c1a4e860d00830961e56bcb700619ada50b3ddb3c963b99fac0c473bf341ab": {
-      "created_at": "2026-07-05T04:30:02Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.0,
-            "index": 2,
-            "novelty_score": 0.0,
-            "reason": "This article is about a sports achievement and is not relevant to software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Record-breaking solo rower Kelsey Pfendler arrives in Hawaii",
-            "total_score": 2.0
-          }
-        ],
-        "best_index": 2,
-        "best_score": 2.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "40fb1653d385d9a8997e1dfc6ec6334c3fce0c02037d5042ba32fcf12a4402cb": {
       "created_at": "2026-07-06T00:12:28Z",
       "payload": {
@@ -146,29 +123,6 @@
         ],
         "best_index": 8,
         "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "42b047d4dd4887cbe700922af394f9a6bd661c49d3f1178684e09887fa45356d": {
-      "created_at": "2026-07-05T04:11:21Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Research on psilocybin's efficacy in treating depression is novel but niche in impact and from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Efficacy and Safety of Psilocybin in Treatment-Resistant Major Depression",
-            "total_score": 6.0
-          }
-        ],
-        "best_index": 0,
-        "best_score": 6.0,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -219,27 +173,32 @@
         "social_posts": {}
       }
     },
-    "5963c81a46f6bad0779514a92ac5266d9355862b10f781b96ec5ee08dbf0e3a1": {
-      "created_at": "2026-07-05T04:11:21Z",
+    "5d2cda8862f6b2cc4566cefd1e34a0b4b825f94f3f0a95627ea64943683c5b02": {
+      "created_at": "2026-07-06T04:43:13Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 1,
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 0,
             "novelty_score": 2.5,
-            "reason": "Interesting approach to optimizing LLM performance but niche impact and low-tier source.",
+            "reason": "Detailed technical implementation of structured mathematical reasoning with Gemma-3 using GRPO and LoRA adapters.",
             "red_flag": false,
             "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Mapping with In-Memory Layers to Reduce LLM Overload",
-            "total_score": 5.5
+            "source_score": 1.5,
+            "title": "Training Gemma-3 for Structured Mathematical Reasoning with Tunix GRPO, LoRA Adapters, and GSM8K Rewards",
+            "total_score": 8.5
           }
         ],
-        "best_index": 1,
-        "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
+        "best_index": 0,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "A new technical implementation trains Gemma-3 for structured mathematical reasoning using GRPO and LoRA adapters. The approach targets GSM8K problems and provides a detailed workflow. Link: https://www.marktechpost.com/2026/07/05/training-gemma-3-for-structured-mathematical-reasoning-with-tunix-grpo-lora-adapters-and-gsm8k-rewards/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Training Gemma-3 for Structured Mathematical Reasoning with Tunix GRPO, LoRA Adapters, and GSM8K Rewards*\n\nResearchers train Gemma-3 for structured math reasoning using GRPO and LoRA adapters, targeting GSM8K problems.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/07/05/training-gemma-3-for-structured-mathematical-reasoning-with-tunix-grpo-lora-adapters-and-gsm8k-rewards/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Gemma-3 trained for structured math reasoning with GRPO and LoRA adapters, focusing on GSM8K problems. Detailed workflow provided. https://www.marktechpost.com/2026/07/05/training-gemma-3-for-structured-mathematical-reasoning-with-tunix-grpo-lora-adapters-and-gsm8k-rewards/",
+          "twitter": "Researchers train Gemma-3 for structured math reasoning using GRPO and LoRA adapters, targeting GSM8K problems. https://www.marktechpost.com/2026/07/05/training-gemma-3-for-structured-mathematical-reasoning-with-tunix-grpo-lora-adapters-and-gsm8k-rewards/"
+        }
       }
     },
     "5f1ca067d22832eb3087dcb192e51a0a046550900c832891bd2453d0158f8c37": {
@@ -263,6 +222,34 @@
         "best_score": 6.0,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "6c1d795208b02876fcbdb636870e9f76fb94cf9dd323c282a4a51747e45d0cb0": {
+      "created_at": "2026-07-06T04:43:13Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "HuggingFace announces major updates to Kernels, impacting all developers working with AI models.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 2,
+            "title": "\ud83d\ude80 Kernels: Major Updates",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 2,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "HuggingFace has announced significant updates to Kernels, their platform for running AI models. This could be a game-changer for developers working with large language models. Link: https://huggingface.co/blog/revamped-kernels",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *\ud83d\ude80 Kernels: Major Updates*\n\nHuggingFace has announced significant updates to Kernels, their platform for running AI models. This could be a game-changer for developers working with large language models.\n\n\ud83c\udfdb\ufe0f Source: HuggingFace (S)\n\u23f0 Published: 4 hours ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://huggingface.co/blog/revamped-kernels\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "HuggingFace just revamped Kernels with major updates that could reshape how developers interact with AI models. The changes focus on performance and ease of use, making it easier to deploy and run models. https://huggingface.co/blog/revamped-kernels",
+          "twitter": "HuggingFace just revamped Kernels with major updates that could reshape how developers interact with AI models. https://huggingface.co/blog/revamped-kernels"
+        }
       }
     },
     "6c63f6a151ea8905d9cd215b9045dbfb0115502bfece798b3c55fa2466bffc32": {
@@ -472,29 +459,6 @@
         "social_posts": {}
       }
     },
-    "9b35448a853b8c1a2077349f718cbda6726e7f4329ca2aa3f0a9e5737c362ca6": {
-      "created_at": "2026-07-05T04:30:02Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Insightful analysis from a former lead of Qwen on the evolution of AI models and agents.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Qwen\u2019s Former Lead on What Hybrid Thinking Got Wrong \u2014 and Why He Now Backs Agents",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "9fdf49722a49116b0d4823ba875b8e4791a4dd9bfa70087a469f22e194827b8d": {
       "created_at": "2026-07-05T22:47:58Z",
       "payload": {
@@ -567,6 +531,29 @@
           "threads": "Wealthy families are turning to AI to teach their kids instead of traditional schools. This trend is led by companies like Forge Prep. https://www.theverge.com/ai-artificial-intelligence/961505/wealthy-ai-schools-alpha-forge-prep",
           "twitter": "Wealthy families are bypassing traditional schools and using AI to educate their kids. https://www.theverge.com/ai-artificial-intelligence/961505/wealthy-ai-schools-alpha-forge-prep"
         }
+      }
+    },
+    "aa5deeb91b20384ebf6f3b0060fdb3e78d47778fb71e3350f2d80d3a25029e96": {
+      "created_at": "2026-07-06T04:43:13Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1,
+            "impact_score": 1.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "Research on code cleanliness and coding agents is niche but relevant to developers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Does Code Cleanliness Affect Coding Agents?",
+            "total_score": 5.5
+          }
+        ],
+        "best_index": 3,
+        "best_score": 5.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "ab79880ff6a3ee7a93ce5f4757ccff917636beff1d1311d2bf139c3b21444307": {
@@ -1013,6 +1000,15 @@
         "twitter": "South Korea invests heavily in AI infrastructure and humanoid robots, aiming for a physical AI lead by 2028, @ArsTechnica reports #AI"
       }
     },
+    "572636db56fd6645eb3b076b6fddca20aa89f960f07358405959ff1699d92dd9": {
+      "created_at": "2026-07-06T04:43:13Z",
+      "payload": {
+        "facebook": "Researchers have made a breakthrough in teaching Gemma-3 to reason through complex math problems using GRPO and LoRA adapters. This end-to-end training workflow has the potential to greatly improve AI's ability to solve mathematical problems. #AI #Mathematics #Gemma3",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Gemma-3 Trained for Structured Math Reasoning\nGemma-3 achieves structured mathematical reasoning with Tunix GRPO and LoRA adapters. This breakthrough has significant implications for AI problem-solving.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #Mathematics #Gemma3\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Gemma-3 is now capable of structured mathematical reasoning thanks to Tunix GRPO and LoRA adapters, a major advancement in AI research @MarkTechPost #AI",
+        "twitter": "Gemma-3 achieves structured mathematical reasoning with Tunix GRPO and LoRA adapters, a significant step forward in AI problem-solving @MarkTechPost #AI"
+      }
+    },
     "5f74083fcc15bee7945e4107ca6e6b6161943ff269e92bd9d03a10da0f130891": {
       "created_at": "2026-07-03T12:06:05Z",
       "payload": {
@@ -1335,6 +1331,12 @@
       "created_at": "2026-07-05T20:44:28Z",
       "status": "scoring_attempted",
       "title": "A sociotechnical threat model for AI-driven smart home devices"
+    },
+    "https://arxiv.org/abs/2605.20049": {
+      "canonical_url": "https://arxiv.org/abs/2605.20049",
+      "created_at": "2026-07-06T04:43:13Z",
+      "status": "scoring_attempted",
+      "title": "Does Code Cleanliness Affect Coding Agents?"
     },
     "https://arxiv.org/abs/2605.21997": {
       "canonical_url": "https://arxiv.org/abs/2605.21997",
@@ -2230,6 +2232,12 @@
       "status": "scoring_attempted",
       "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration"
     },
+    "https://huggingface.co/blog/revamped-kernels": {
+      "canonical_url": "https://huggingface.co/blog/revamped-kernels",
+      "created_at": "2026-07-06T04:43:13Z",
+      "status": "scoring_attempted",
+      "title": "\ud83e\udd17 Kernels: Major Updates"
+    },
     "https://inpreparation.substack.com/p/opinion-i-was-not-allowed-to-type": {
       "canonical_url": "https://inpreparation.substack.com/p/opinion-i-was-not-allowed-to-type",
       "created_at": "2026-07-03T18:45:09Z",
@@ -2391,12 +2399,6 @@
       "created_at": "2026-06-30T16:22:34Z",
       "status": "scoring_attempted",
       "title": "How ChatGPT adoption has expanded"
-    },
-    "https://openai.com/index/hp-frontier-partnership": {
-      "canonical_url": "https://openai.com/index/hp-frontier-partnership",
-      "created_at": "2026-06-29T00:15:25Z",
-      "status": "scoring_attempted",
-      "title": "HP Inc. launches Frontier strategic partnership with OpenAI"
     },
     "https://openai.com/index/mapping-ai-jobs-transition-eu": {
       "canonical_url": "https://openai.com/index/mapping-ai-jobs-transition-eu",
@@ -3237,6 +3239,12 @@
       "created_at": "2026-07-05T22:47:58Z",
       "status": "scoring_attempted",
       "title": "Meituan Releases LongCat-2.0: A 1.6T-Parameter Open MoE Model with Native 1M Context and LongCat Sparse Attention"
+    },
+    "https://www.marktechpost.com/2026/07/05/training-gemma-3-for-structured-mathematical-reasoning-with-tunix-grpo-lora-adapters-and-gsm8k-rewards": {
+      "canonical_url": "https://www.marktechpost.com/2026/07/05/training-gemma-3-for-structured-mathematical-reasoning-with-tunix-grpo-lora-adapters-and-gsm8k-rewards",
+      "created_at": "2026-07-06T04:43:13Z",
+      "status": "scoring_attempted",
+      "title": "Training Gemma-3 for Structured Mathematical Reasoning with Tunix GRPO, LoRA Adapters, and GSM8K Rewards"
     },
     "https://www.nbcchicago.com/news/local/delta-flight-hit-by-firework-while-landing-at-midway-airport-on-fourth-of-july/3957451": {
       "canonical_url": "https://www.nbcchicago.com/news/local/delta-flight-hit-by-firework-while-landing-at-midway-airport-on-fourth-of-july/3957451",
