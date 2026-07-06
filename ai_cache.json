@@ -1,5 +1,28 @@
 {
   "cerebras_scoring": {
+    "03a86d2f6ae31c2e00b0ba6a131751be60619ab92d19c35b8d9fa1108debfcde": {
+      "created_at": "2026-07-06T00:12:28Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Opinion piece on Canada's AI strategy with moderate novelty and impact, but from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Al Vigier: Canada's AI strategy shouldn't include secret Palantir bills",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "046f211ccbe58479a1a92978c0f4de4d7c5d1a30f7ba86ef77f2c8f728f818d9": {
       "created_at": "2026-07-05T14:53:15Z",
       "payload": {
@@ -58,29 +81,6 @@
         "social_posts": {}
       }
     },
-    "2060871ed365a6885630df3a85c328189f8e9749135c95aa1442c716feeeb31a": {
-      "created_at": "2026-07-04T23:59:25Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "Interesting niche project but limited impact and source tier.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "My AI-built PHP engine in Rust passes 17% of PHP-src tests, renders WordPress",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 2,
-        "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "2d45586d860e4b12f6c8d277c3f8a4d45da9628c34a49b52620386441d4192f6": {
       "created_at": "2026-07-05T13:02:49Z",
       "payload": {
@@ -127,25 +127,25 @@
         "social_posts": {}
       }
     },
-    "3cbfbf1ec215a1f518496c8822dac0db5e6f5881fd5e8a62603ff940c7ebd872": {
-      "created_at": "2026-07-04T23:59:25Z",
+    "40fb1653d385d9a8997e1dfc6ec6334c3fce0c02037d5042ba32fcf12a4402cb": {
+      "created_at": "2026-07-06T00:12:28Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 2.0,
+            "freshness_score": 1,
             "impact_score": 1.5,
-            "index": 0,
+            "index": 8,
             "novelty_score": 2.5,
-            "reason": "Interesting research but not directly relevant to software engineers or AI researchers.",
+            "reason": "Interesting discussion on software scaling laws but lacks novelty and impact.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 0.5,
-            "title": "Scientists reverse brain aging, with a nasal spray",
-            "total_score": 6.5
+            "title": "Lean Software Scaling Laws",
+            "total_score": 5.5
           }
         ],
-        "best_index": 0,
-        "best_score": 6.5,
+        "best_index": 8,
+        "best_score": 5.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -2182,6 +2182,12 @@
       "status": "scoring_attempted",
       "title": "60% Fable cost cut by converting code to images and having the model OCR it"
     },
+    "https://gwern.net/lean-scaling": {
+      "canonical_url": "https://gwern.net/lean-scaling",
+      "created_at": "2026-07-06T00:12:28Z",
+      "status": "scoring_attempted",
+      "title": "Lean Software Scaling Laws"
+    },
     "https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain": {
       "canonical_url": "https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain",
       "created_at": "2026-06-29T20:54:48Z",
@@ -3261,6 +3267,12 @@
       "created_at": "2026-07-01T16:03:57Z",
       "status": "scoring_attempted",
       "title": "For first time, a cell built from scratch grows and divides"
+    },
+    "https://www.readtheline.ca/p/al-vigier-canadas-ai-strategy-shouldnt": {
+      "canonical_url": "https://www.readtheline.ca/p/al-vigier-canadas-ai-strategy-shouldnt",
+      "created_at": "2026-07-06T00:12:28Z",
+      "status": "scoring_attempted",
+      "title": "Al Vigier: Canada's AI strategy shouldn't include secret Palantir bills"
     },
     "https://www.reuters.com/legal/government/meta-loses-bid-dismiss-us-states-claims-that-facebook-instagram-addict-children-2026-06-30": {
       "canonical_url": "https://www.reuters.com/legal/government/meta-loses-bid-dismiss-us-states-claims-that-facebook-instagram-addict-children-2026-06-30",
