@@ -1,28 +1,5 @@
 {
   "cerebras_scoring": {
-    "0186c0330ab8bd1c7946bac430cbe3c7d294ab3f6777a5e193cc0db82b13239e": {
-      "created_at": "2026-07-06T11:24:55Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "Interesting niche tool for rail enthusiasts, but limited impact beyond that.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Real-time map of Great Britain's rail network",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 2,
-        "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "18a7f212a37d1946bd4fd0a6b5461780a007c0abda52c7d91dc8c8b67f6f41ca": {
       "created_at": "2026-07-07T01:09:45Z",
       "payload": {
@@ -215,6 +192,29 @@
         ],
         "best_index": 3,
         "best_score": 6.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "335a5ad0a04c9dc353db4a388956d52e2c2129f0b1111925b3feb22d5ea6ab82": {
+      "created_at": "2026-07-07T12:41:43Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.5,
+            "index": 5,
+            "novelty_score": 1.5,
+            "reason": "New product announcement but limited impact beyond niche audience.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Nothing\u2019s new earbuds can record calls and what you\u2019re listening to",
+            "total_score": 3.5
+          }
+        ],
+        "best_index": 5,
+        "best_score": 3.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -421,6 +421,46 @@
         "social_posts": {}
       }
     },
+    "596777d089c966dc360410f06dd0bb07fbe3bbb2da540fe0fa6fab8a3f2f4209": {
+      "created_at": "2026-07-07T12:41:43Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 1.5,
+            "reason": "Product update with niche impact and solid source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Marshall upgrades the bass and repairability of two wireless speakers",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.0,
+            "reason": "Industry move with broad impact and solid source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Xbox\u2019s bold plan for the future sounds nearly impossible",
+            "total_score": 8.0
+          }
+        ],
+        "best_index": 1,
+        "best_score": 8.0,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Xbox's new strategy aims for 1 billion users by 2030, a goal that seems nearly impossible given recent layoffs. The Verge breaks down the challenges ahead. Link: https://www.theverge.com/entertainment/961924/xbox-billion-users",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Xbox\u2019s bold plan for the future sounds nearly impossible*\n\nXbox aims to reach 1 billion users by 2030, despite recent layoffs. The Verge examines the challenges.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.0/10\n\n\ud83d\udd17 https://www.theverge.com/entertainment/961924/xbox-billion-users\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Xbox wants to reach 1 billion users by 2030. The Verge examines why this goal might be unattainable after recent layoffs.\nhttps://www.theverge.com/entertainment/961924/xbox-billion-users",
+          "twitter": "Xbox outlines a radical plan to reach 1 billion users by 2030, despite massive layoffs. The math doesn't add up.\nhttps://www.theverge.com/entertainment/961924/xbox-billion-users"
+        }
+      }
+    },
     "59de28d0777eca07e3440a54ab369794266e5e304dff0f43ee2c07e705f7cf4e": {
       "created_at": "2026-07-07T01:09:45Z",
       "payload": {
@@ -567,27 +607,44 @@
         "social_posts": {}
       }
     },
-    "64e4c8b74751a6afb8718037526aeb60ba2e85bdc09897193ebf245fb04f0167": {
-      "created_at": "2026-07-06T11:24:55Z",
+    "635ba5ca5b8f58f08a6f4a95103c2fd80efb2c5f2469c5acb47f78a8547415f0": {
+      "created_at": "2026-07-07T12:41:43Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 1.5,
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "New app launch with seed funding, but impact is niche and novelty is not groundbreaking.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Savi\u2019s app aims to protect consumers from realistic AI scams like kidnappers demanding ransom",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 2,
             "impact_score": 2.5,
             "index": 3,
             "novelty_score": 2.5,
-            "reason": "Rust's robustness features beyond memory safety are highly relevant to systems engineering.",
+            "reason": "AWS introduces AI-powered release management, impacting all developers using AWS DevOps.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 1,
-            "title": "Presentation: Practical Robustness: Going Beyond Memory Safety in Rust",
-            "total_score": 7.5
+            "title": "AWS Expands DevOps Agent with AI-Powered Release Management to Validate Code Before Production",
+            "total_score": 8
           }
         ],
         "best_index": 3,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
+        "best_score": 8,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "AWS has expanded its DevOps Agent with AI-powered release management, designed to validate code changes before they reach production. This new feature autonomously tests software, potentially streamlining the development process for AWS users. Link: https://www.infoq.com/news/2026/07/aws-devops-ai-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *AWS Expands DevOps Agent with AI-Powered Release Management to Validate Code Before Production*\n\nAWS has introduced AI-powered release management to its DevOps Agent, autonomously testing code changes before production.\n\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (B)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.0/10\n\n\ud83d\udd17 https://www.infoq.com/news/2026/07/aws-devops-ai-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "AWS DevOps Agent now includes AI-powered release management to validate code before production. This could be a game-changer for AWS developers.\nhttps://www.infoq.com/news/2026/07/aws-devops-ai-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "twitter": "AWS just added AI-powered release management to its DevOps Agent, autonomously testing code before production.\nhttps://www.infoq.com/news/2026/07/aws-devops-ai-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+        }
       }
     },
     "8373adfc744242307e02883ac51db0739706bbe6f1b83747177cbc6b345b6c18": {
@@ -835,29 +892,6 @@
         }
       }
     },
-    "a1a201054642e2171d08c32e746f9a9cfbdc75fd1189faf4aa4f1d8669a6326a": {
-      "created_at": "2026-07-06T11:24:55Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "China's regulatory moves on AI companions impact global AI development and deployment.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.0,
-            "title": "China\u2019s AI companion rules: what Beijing is really going after",
-            "total_score": 8.0
-          }
-        ],
-        "best_index": 1,
-        "best_score": 8.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "a4085af0b0be69fc1bfdbb3a4f4da092995b6f5580e0537f46d1f5e27be51a70": {
       "created_at": "2026-07-06T16:50:48Z",
       "payload": {
@@ -891,6 +925,34 @@
         "best_score": 6.0,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "b05b82eb8126d3f2655e44f3961fff4d55499148d31994d3711b5c5199158de9": {
+      "created_at": "2026-07-07T12:41:43Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 4,
+            "novelty_score": 2.5,
+            "reason": "Top robotics researchers and founders explain how robot autonomy is evolving.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "How AI could enable autonomous robot workers in workplaces\u2014and maybe homes",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 4,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Top robotics researchers and founders explain how robot autonomy is evolving. This article dives into how AI could enable autonomous robot workers in workplaces\u2014and maybe homes. Link: https://arstechnica.com/features/2026/07/robot-workers-rising-how-ai-may-drive-general-purpose-autonomy-in-robotics/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *How AI could enable autonomous robot workers in workplaces\u2014and maybe homes*\n\nTop robotics researchers and founders explain how robot autonomy is evolving.\n\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://arstechnica.com/features/2026/07/robot-workers-rising-how-ai-may-drive-general-purpose-autonomy-in-robotics/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Top robotics researchers explain how AI is driving general-purpose autonomy in robotics. This article dives into how AI could enable autonomous robot workers in workplaces\u2014and maybe homes. https://arstechnica.com/features/2026/07/robot-workers-rising-how-ai-may-drive-general-purpose-autonomy-in-robotics/",
+          "twitter": "Top robotics researchers explain how AI is driving general-purpose autonomy in robotics. https://arstechnica.com/features/2026/07/robot-workers-rising-how-ai-may-drive-general-purpose-autonomy-in-robotics/"
+        }
       }
     },
     "b0f803e439d311b7515b9ed906450142818995cc7043233e22538ce5b8b7d463": {
@@ -982,29 +1044,6 @@
         ],
         "best_index": 2,
         "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "c567afc75cbe93bd3dbfd729b55c7e44d407ecdc441dca63a265c1310a2c758c": {
-      "created_at": "2026-07-06T11:24:55Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Interesting philosophy for cloud security in AI-native era, but not groundbreaking.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.0,
-            "title": "Podcast: Spite-Driven Engineering: A New Blueprint for Cloud Security in the AI Native Era",
-            "total_score": 8.0
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.0,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1371,15 +1410,6 @@
     }
   },
   "groq_social_posts": {
-    "083ca5a5a13bdd5183d5e1c87051d7dfd865fb43e6f0e352434951f86062a2d5": {
-      "created_at": "2026-06-30T10:29:55Z",
-      "payload": {
-        "facebook": "The crypto exchange OKX is developing a marketplace where AI agents can interact with each other, including hiring and paying one another. This innovative approach combines payments, identity, and reputation, #AI #OKX #CryptoExchange",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 AI Agents Marketplace\nOKX is bringing together payments, identity and reputation into a marketplace for AI agents to hire and pay each other.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n#AI #OKX #CryptoExchange\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "OKX is creating a marketplace for AI agents to hire and pay each other, @OKX reports, this combines payments, identity, and reputation in one place, #AIagents",
-        "twitter": "AI agents may soon hire and pay each other thanks to OKX's new marketplace, @TechCrunch reports, #AIagents #OKX"
-      }
-    },
     "0f23bafbf8fd27685d635587f51a6db022e8fc7c1e214169d5889ffd6f39c572": {
       "created_at": "2026-06-30T20:23:51Z",
       "payload": {
@@ -1569,6 +1599,15 @@
         "twitter": "Meta's new rate limits on smart glasses will restrict AI features to 3 hours/month without a $20/month subscription, a move that could change the industry @TheVerge #AI"
       }
     },
+    "8ce7486bc0736926668a9bfec339955858e12fe99704696919a6cd178693848b": {
+      "created_at": "2026-07-07T12:41:43Z",
+      "payload": {
+        "facebook": "The future of work may involve autonomous robot workers, with top researchers and founders explaining how AI is driving this evolution. As robotics continues to advance, we can expect to see significant changes in various industries. #AI #Robotics #Autonomy",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Autonomous robots are on the rise\nRobot autonomy is advancing rapidly thanks to AI, with potential applications in workplaces and homes.\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n#AI #Robotics #Autonomy\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "AI is enabling autonomous robot workers to take on more complex tasks, according to experts, with potential applications in workplaces and homes @ArsTechnica #AI",
+        "twitter": "Robot autonomy is advancing rapidly thanks to AI, says @ArsTechnica, with potential applications in workplaces and homes #AI"
+      }
+    },
     "8f24fca10df505e4a883c9c6bb515160ed9d9321b74edee35468fe82c83a695a": {
       "created_at": "2026-07-04T16:50:09Z",
       "payload": {
@@ -1639,15 +1678,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Cloudflare Introduces New Policy for AI Companies\nCloudflare is giving AI companies an ultimatum to pay for publishers' content or risk being blocked by default on many publisher sites.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #Cloudflare #Publishing\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Cloudflare is changing the rules for AI companies, requiring them to pay for publishers' content by September 15, @Cloudflare is leading this charge #AI",
         "twitter": "Cloudflare's new policy requires AI companies to pay for publishers' content, @Cloudflare is giving them until September 15 to comply #AI #Cloudflare"
-      }
-    },
-    "b9d7d0ba4156eb5511f7284dca801d5fc93c45b09d33b958f778770aa93634a0": {
-      "created_at": "2026-06-30T12:30:40Z",
-      "payload": {
-        "facebook": "The recent case of Elon Musk suing OpenAI and Sam Altman has brought attention to the lawyer who defended them, Bill Savitt. Savitt's strategy in the courtroom has been notable, and his success against Musk is a significant development in the AI industry. #AI #law #technology",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Lawyer Beats Elon Musk Twice\nBill Savitt has successfully defended against Elon Musk in two high-profile cases, including the recent lawsuit against OpenAI and Sam Altman.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #law #technology\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Lawyer Bill Savitt has made a name for himself by defending against Elon Musk in court, not once but twice, @BillSavitt #AI",
-        "twitter": "Elon Musk's courtroom battles have been making headlines, with lawyer Bill Savitt successfully defending against him twice, @BillSavitt #AIlaw"
       }
     },
     "c987c2bebed5b0390cf120cf21a4e9185b2428857019bace1a72403dce6035a7": {
@@ -1747,6 +1777,12 @@
       "created_at": "2026-07-06T14:42:06Z",
       "status": "scoring_attempted",
       "title": "UK regulator warns of \"arms race\" to keep up with AI use in financial services"
+    },
+    "https://arstechnica.com/features/2026/07/robot-workers-rising-how-ai-may-drive-general-purpose-autonomy-in-robotics": {
+      "canonical_url": "https://arstechnica.com/features/2026/07/robot-workers-rising-how-ai-may-drive-general-purpose-autonomy-in-robotics",
+      "created_at": "2026-07-07T12:41:43Z",
+      "status": "scoring_attempted",
+      "title": "How AI could enable autonomous robot workers in workplaces\u2014and maybe homes"
     },
     "https://arstechnica.com/security/2026/06/ai-browsers-can-be-lulled-into-a-dream-world-where-guardrails-no-longer-apply": {
       "canonical_url": "https://arstechnica.com/security/2026/06/ai-browsers-can-be-lulled-into-a-dream-world-where-guardrails-no-longer-apply",
@@ -2978,12 +3014,6 @@
       "status": "scoring_attempted",
       "title": "Anthropic\u2019s Claude Science bets on workflow, not a new model, to win over scientists"
     },
-    "https://techcrunch.com/2026/06/30/crypto-exchange-okx-wants-ai-agents-to-hire-and-pay-each-other": {
-      "canonical_url": "https://techcrunch.com/2026/06/30/crypto-exchange-okx-wants-ai-agents-to-hire-and-pay-each-other",
-      "created_at": "2026-06-30T10:29:55Z",
-      "status": "scoring_attempted",
-      "title": "Crypto exchange OKX wants AI agents to hire and pay each other"
-    },
     "https://techcrunch.com/2026/06/30/google-introduces-a-faster-cheaper-image-generator-with-nano-banana-2-lite": {
       "canonical_url": "https://techcrunch.com/2026/06/30/google-introduces-a-faster-cheaper-image-generator-with-nano-banana-2-lite",
       "created_at": "2026-06-30T20:23:51Z",
@@ -3193,6 +3223,12 @@
       "created_at": "2026-07-06T20:45:37Z",
       "status": "scoring_attempted",
       "title": "You can now customize Siri\u2019s pace and expressivity in the latest iOS 27 beta"
+    },
+    "https://techcrunch.com/2026/07/07/savis-app-aims-to-protect-consumers-from-realistic-ai-scams-like-kidnappers-demanding-ransom": {
+      "canonical_url": "https://techcrunch.com/2026/07/07/savis-app-aims-to-protect-consumers-from-realistic-ai-scams-like-kidnappers-demanding-ransom",
+      "created_at": "2026-07-07T12:41:43Z",
+      "status": "scoring_attempted",
+      "title": "Savi\u2019s app aims to protect consumers from realistic AI scams like kidnappers demanding ransom"
     },
     "https://techcrunch.com/2026/07/07/the-first-american-autonomous-ground-vehicles-are-fighting-in-ukraine": {
       "canonical_url": "https://techcrunch.com/2026/07/07/the-first-american-autonomous-ground-vehicles-are-fighting-in-ukraine",
@@ -3410,29 +3446,11 @@
       "status": "scoring_attempted",
       "title": "2026 Unslop AI-Written Fiction Contest Results"
     },
-    "https://www.infoq.com/articles/tradeoffs-event-driven-design": {
-      "canonical_url": "https://www.infoq.com/articles/tradeoffs-event-driven-design",
-      "created_at": "2026-06-30T10:29:55Z",
-      "status": "scoring_attempted",
-      "title": "Article: Scaling Java-Based Real-Time Systems: The Hidden Tradeoffs of Event-Driven Design"
-    },
     "https://www.infoq.com/minibooks/agentic-ai-architecture": {
       "canonical_url": "https://www.infoq.com/minibooks/agentic-ai-architecture",
       "created_at": "2026-07-03T12:06:05Z",
       "status": "scoring_attempted",
       "title": "Mini book: Agentic AI Architecture"
-    },
-    "https://www.infoq.com/news/2026/06/aws-lambda-microvms": {
-      "canonical_url": "https://www.infoq.com/news/2026/06/aws-lambda-microvms",
-      "created_at": "2026-06-30T10:29:55Z",
-      "status": "scoring_attempted",
-      "title": "AWS Launches Lambda MicroVMs for Isolated Agent and User Code Execution"
-    },
-    "https://www.infoq.com/news/2026/06/azuredevops-copilot-autofix": {
-      "canonical_url": "https://www.infoq.com/news/2026/06/azuredevops-copilot-autofix",
-      "created_at": "2026-06-30T12:30:40Z",
-      "status": "scoring_attempted",
-      "title": "Microsoft Brings AI-Powered Vulnerability Remediation to Azure DevOps with Copilot Autofix"
     },
     "https://www.infoq.com/news/2026/06/elastic-atlas-agent-memory": {
       "canonical_url": "https://www.infoq.com/news/2026/06/elastic-atlas-agent-memory",
@@ -3445,6 +3463,12 @@
       "created_at": "2026-07-02T12:10:20Z",
       "status": "scoring_attempted",
       "title": "Apple Extends Private Cloud Compute to Google Cloud for the First Time"
+    },
+    "https://www.infoq.com/news/2026/07/aws-devops-ai-agent": {
+      "canonical_url": "https://www.infoq.com/news/2026/07/aws-devops-ai-agent",
+      "created_at": "2026-07-07T12:41:43Z",
+      "status": "scoring_attempted",
+      "title": "AWS Expands DevOps Agent with AI-Powered Release Management to Validate Code Before Production"
     },
     "https://www.infoq.com/news/2026/07/aws-s3-annotations": {
       "canonical_url": "https://www.infoq.com/news/2026/07/aws-s3-annotations",
@@ -3607,12 +3631,6 @@
       "created_at": "2026-06-30T23:04:26Z",
       "status": "scoring_attempted",
       "title": "Linq\u2019s iMessage Apps Bring Payments, Tickets, Flights, and Games Into the iMessage Bubble Through the imessage_app Part"
-    },
-    "https://www.marktechpost.com/2026/06/30/meta-ai-releases-brain2qwerty-v2-a-non-invasive-meg-brain-to-text-pipeline-decoding-typed-sentences-at-61-word-accuracy": {
-      "canonical_url": "https://www.marktechpost.com/2026/06/30/meta-ai-releases-brain2qwerty-v2-a-non-invasive-meg-brain-to-text-pipeline-decoding-typed-sentences-at-61-word-accuracy",
-      "created_at": "2026-06-30T10:29:55Z",
-      "status": "scoring_attempted",
-      "title": "Meta AI Releases Brain2Qwerty v2: A Non-Invasive MEG Brain-to-Text Pipeline Decoding Typed Sentences at 61% Word Accuracy"
     },
     "https://www.marktechpost.com/2026/07/01/anthropic-redeploys-claude-fable-5-on-july-1-after-us-export-controls-lift-adds-new-cybersecurity-classifier": {
       "canonical_url": "https://www.marktechpost.com/2026/07/01/anthropic-redeploys-claude-fable-5-on-july-1-after-us-export-controls-lift-adds-new-cybersecurity-classifier",
@@ -3830,12 +3848,6 @@
       "status": "scoring_attempted",
       "title": "Some of the nation\u2019s rich are letting AI teach their kids"
     },
-    "https://www.theverge.com/column/959270/elon-musk-open-ai-bill-savitt-twitter": {
-      "canonical_url": "https://www.theverge.com/column/959270/elon-musk-open-ai-bill-savitt-twitter",
-      "created_at": "2026-06-30T12:30:40Z",
-      "status": "scoring_attempted",
-      "title": "Meet the lawyer who beat Elon Musk \u2014 twice"
-    },
     "https://www.theverge.com/column/960600/xbox-is-a-disaster": {
       "canonical_url": "https://www.theverge.com/column/960600/xbox-is-a-disaster",
       "created_at": "2026-07-05T13:02:49Z",
@@ -3877,6 +3889,12 @@
       "created_at": "2026-07-03T12:06:05Z",
       "status": "scoring_attempted",
       "title": "Apple TV is hitting its stride"
+    },
+    "https://www.theverge.com/entertainment/961924/xbox-billion-users": {
+      "canonical_url": "https://www.theverge.com/entertainment/961924/xbox-billion-users",
+      "created_at": "2026-07-07T12:41:43Z",
+      "status": "scoring_attempted",
+      "title": "Xbox\u2019s bold plan for the future sounds nearly impossible"
     },
     "https://www.theverge.com/gadgets/906880/lg-ultragear-tandem-oled-1440p-gaming-monitor-deal-sale": {
       "canonical_url": "https://www.theverge.com/gadgets/906880/lg-ultragear-tandem-oled-1440p-gaming-monitor-deal-sale",
@@ -3980,12 +3998,6 @@
       "status": "scoring_attempted",
       "title": "The funeral for PlayStation discs has begun"
     },
-    "https://www.theverge.com/news/959382/avinox-mg-concept-gobao-mgu-ecvt": {
-      "canonical_url": "https://www.theverge.com/news/959382/avinox-mg-concept-gobao-mgu-ecvt",
-      "created_at": "2026-06-30T12:30:40Z",
-      "status": "scoring_attempted",
-      "title": "This motor could be the future of e-bikes"
-    },
     "https://www.theverge.com/news/959487/supreme-court-birthright-citizenship-trump": {
       "canonical_url": "https://www.theverge.com/news/959487/supreme-court-birthright-citizenship-trump",
       "created_at": "2026-06-30T15:17:12Z",
@@ -4051,12 +4063,6 @@
       "created_at": "2026-06-30T18:17:43Z",
       "status": "scoring_attempted",
       "title": "Netflix is using an AI-generated Gene Wilder voice in its Willy Wonka reality show"
-    },
-    "https://www.theverge.com/tech/959372/samsung-galaxy-z-fold-wide-image-leaks": {
-      "canonical_url": "https://www.theverge.com/tech/959372/samsung-galaxy-z-fold-wide-image-leaks",
-      "created_at": "2026-06-30T10:29:55Z",
-      "status": "scoring_attempted",
-      "title": "This could be our best look yet at Samsung\u2019s new wide foldable"
     },
     "https://www.theverge.com/tech/959474/iphone-18-pro-leaked-videos-pulled": {
       "canonical_url": "https://www.theverge.com/tech/959474/iphone-18-pro-leaked-videos-pulled",
@@ -4130,6 +4136,18 @@
       "status": "scoring_attempted",
       "title": "This slim camera has a transparent LCD screen for a viewfinder"
     },
+    "https://www.theverge.com/tech/961601/marshall-acton-stanmore-iv-bluetooth-wireless-speakers-repair": {
+      "canonical_url": "https://www.theverge.com/tech/961601/marshall-acton-stanmore-iv-bluetooth-wireless-speakers-repair",
+      "created_at": "2026-07-07T12:41:43Z",
+      "status": "scoring_attempted",
+      "title": "Marshall upgrades the bass and repairability of two wireless speakers"
+    },
+    "https://www.theverge.com/tech/961845/nothing-ear-3a-wireless-earbuds-call-recording-price-availability": {
+      "canonical_url": "https://www.theverge.com/tech/961845/nothing-ear-3a-wireless-earbuds-call-recording-price-availability",
+      "created_at": "2026-07-07T12:41:43Z",
+      "status": "scoring_attempted",
+      "title": "Nothing\u2019s new earbuds can record calls and what you\u2019re listening to"
+    },
     "https://www.theverge.com/transportation/957685/tesla-q2-2026-sales-production-delivery-report": {
       "canonical_url": "https://www.theverge.com/transportation/957685/tesla-q2-2026-sales-production-delivery-report",
       "created_at": "2026-07-02T14:31:05Z",
@@ -4201,12 +4219,6 @@
       "created_at": "2026-07-01T21:55:17Z",
       "status": "scoring_attempted",
       "title": "Goose, a New Gay Dating App, Appears to Be a Psyop"
-    },
-    "https://www.wired.com/story/the-big-interview-podcast-senator-bernie-sanders": {
-      "canonical_url": "https://www.wired.com/story/the-big-interview-podcast-senator-bernie-sanders",
-      "created_at": "2026-06-30T12:30:40Z",
-      "status": "scoring_attempted",
-      "title": "Bernie Sanders Saw This Coming"
     },
     "https://www.wired.com/story/trump-administration-lifts-export-controls-on-anthropics-mythos-and-fable-ai-models": {
       "canonical_url": "https://www.wired.com/story/trump-administration-lifts-export-controls-on-anthropics-mythos-and-fable-ai-models",
