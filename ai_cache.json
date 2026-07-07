@@ -1,5 +1,57 @@
 {
   "cerebras_scoring": {
+    "03394efaf1ca03bbd08a76bd3152c6ba2565e8463d7e86bf90346d42e052d723": {
+      "created_at": "2026-07-07T20:28:28Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 0.0,
+            "index": 0,
+            "novelty_score": 0.0,
+            "reason": "Comments are not a primary source of news.",
+            "red_flag": true,
+            "red_flag_reason": "Comments",
+            "source_score": 0.5,
+            "title": "Re: I'm Begging You to Leave Your AI Note-Taker at Home",
+            "total_score": 2.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "Analysis of open-source AI's impact on frontier labs provides valuable insights for AI researchers and developers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Why the rise of open source AI isn\u2019t hurting Anthropic\u2026 yet",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "Case study on database migration offers practical insights for software engineers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.0,
+            "title": "Switching from PostgreSQL to ClickHouse for Improved Performance and Scalability",
+            "total_score": 7.0
+          }
+        ],
+        "best_index": 1,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Open-source AI models are thriving without directly hurting companies like Anthropic. The key insight is that they serve different phases of the AI lifecycle. This analysis from TechCrunch explains why. Link: https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Why the rise of open source AI isn\u2019t hurting Anthropic\u2026 yet*\n\nOpen-source models\u2019 success isn\u2019t coming at the expense of frontier labs. Instead, they each seem to capture two phases of the same life-cycle.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Open-source AI isn't eating into Anthropic's market\u2014it's serving different needs. TechCrunch breaks down why these models coexist. https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet/",
+          "twitter": "Open-source AI growth isn't cannibalizing frontier labs\u2014it's capturing different phases of the same lifecycle. https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet/"
+        }
+      }
+    },
     "0e359988b1792f322e7e875efcd00282f45f71142edd55b29790ba38ddea54e8": {
       "created_at": "2026-07-07T16:28:08Z",
       "payload": {
@@ -137,53 +189,6 @@
         "social_posts": {}
       }
     },
-    "28c994afcdfbde200b5ed10862200190fec3e07af0d8257ecf5d9f058861e3da": {
-      "created_at": "2026-07-06T18:47:50Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 0.5,
-            "reason": "Opinion piece on free speech with moderate impact and high freshness.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "America\u2019s greatest idea is still under threat",
-            "total_score": 4.5
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 1.5,
-            "reason": "Update on tech layoffs with AI as a factor, relevant to all devs.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "The running list: major tech layoffs in 2026 where employers cited AI",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "Research on cognitive architecture with niche impact and moderate freshness.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Fable Built a 3D Model of Aristotle's Cognitive Architecture",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "3264138af97cb0a60319ea7f0e7209d77dbf007b4031be923ec128523813fb41": {
       "created_at": "2026-07-07T01:09:45Z",
       "payload": {
@@ -228,58 +233,6 @@
         "best_score": 3.5,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "3ba09577568149723323545af32b6369a428470b8c0fe9010aaca7356f35f35d": {
-      "created_at": "2026-07-06T18:47:50Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "Industry shift on AI jobs with significant impact but from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Big Tech Has Suddenly Flipped on the AI Jobs Wipeout Scenario",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 4,
-            "novelty_score": 0.5,
-            "reason": "Opinion piece with moderate impact but low novelty.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Five questions for Dr. Rubin, who\u2019s armed with a mic and a bowtie",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 5,
-            "novelty_score": 3,
-            "reason": "New tool for AI agents to interact with Office files, high novelty and impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "OfficeCLI: Office suite for AI agents to read and edit Microsoft Office files",
-            "total_score": 8
-          }
-        ],
-        "best_index": 5,
-        "best_score": 8,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "A new tool called OfficeCLI enables AI agents to read and edit Microsoft Office files. This could significantly streamline automation workflows. Link: https://github.com/iOfficeAI/OfficeCLI",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *OfficeCLI: Office suite for AI agents to read and edit Microsoft Office files*\n\nOfficeCLI enables AI agents to interact with Microsoft Office files, potentially streamlining automation workflows.\n\n\ud83c\udfdb\ufe0f Source: Hacker News (C)\n\u23f0 Published: 2 hours ago\n\u2b50 Score: 8.0/10\n\n\ud83d\udd17 https://github.com/iOfficeAI/OfficeCLI\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "OfficeCLI just dropped, letting AI agents read and edit Office files. Big step for automation. https://github.com/iOfficeAI/OfficeCLI",
-          "twitter": "OfficeCLI lets AI agents read and edit Microsoft Office files. A game-changer for automation workflows.\nhttps://github.com/iOfficeAI/OfficeCLI"
-        }
       }
     },
     "3d0ed02b88fc7980f0cc8be2f807f64d9da557c1c9c8a9afa67d4824e4865f6a": {
@@ -347,6 +300,53 @@
         ],
         "best_index": 2,
         "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "48e0d207dbf7a54bf4df416c0ddfd9b2bd928af7b17da78dca549f05de62058e": {
+      "created_at": "2026-07-07T20:28:28Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 6,
+            "novelty_score": 2.5,
+            "reason": "Interesting research on AI in cryptography but niche impact and lower tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "AI Meets Cryptography 1: What AI Found in Cloudflare's Circl",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 8,
+            "novelty_score": 3,
+            "reason": "New tool with significant impact but lower tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Show HN: Docx-CLI: agents read/edit Word docs using 1/2 the time and tokens",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 9,
+            "novelty_score": 0.5,
+            "reason": "Opinion piece on software quality with moderate impact but low novelty.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Notes on Software Quality",
+            "total_score": 3.5
+          }
+        ],
+        "best_index": 8,
+        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -560,6 +560,41 @@
         "social_posts": {}
       }
     },
+    "61112f626064339f849ce1c4e65f5332dd08da7654b35eb1c1a049794377d5fe": {
+      "created_at": "2026-07-07T20:28:28Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 10,
+            "novelty_score": 2.5,
+            "reason": "New runtime for k and q, but niche impact and lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "l: A new runtime for k and q",
+            "total_score": 6.0
+          },
+          {
+            "freshness_score": 1.0,
+            "impact_score": 2.5,
+            "index": 17,
+            "novelty_score": 3.0,
+            "reason": "Open-source alternative to Claude Desktop, but lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Show HN: Rowboat \u2013 Open-source, local-first alternative to Claude Desktop",
+            "total_score": 7.0
+          }
+        ],
+        "best_index": 17,
+        "best_score": 7.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "6271b596d2a4af14a41af0e51970588392a64d59e7cd4226be3ca70275fe2b90": {
       "created_at": "2026-07-06T20:45:37Z",
       "payload": {
@@ -672,6 +707,58 @@
           "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Hugging Face Models on Foundry Managed Compute*\n\nHugging Face has introduced a new managed compute service for models, streamlining deployment for developers.\n\n\ud83c\udfdb\ufe0f Source: HuggingFace (S)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9/10\n\n\ud83d\udd17 https://huggingface.co/blog/microsoft/foundry-managed-compute\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
           "threads": "Hugging Face just launched managed compute for models, simplifying deployment for developers. A big step for AI infrastructure.\nhttps://huggingface.co/blog/microsoft/foundry-managed-compute",
           "twitter": "Hugging Face launches managed compute for models, streamlining deployment for developers.\nhttps://huggingface.co/blog/microsoft/foundry-managed-compute"
+        }
+      }
+    },
+    "7c2b7b4b9bb70350c37e02eeaf3fc5f5d458a6b380de312691ca3b53852455d9": {
+      "created_at": "2026-07-07T20:28:28Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 3,
+            "novelty_score": 2.0,
+            "reason": "Microsoft's shift in AI spending strategy impacts the broader tech industry.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Microsoft joins AI cost-cutting trend by relying more on its own models",
+            "total_score": 8.0
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 4,
+            "novelty_score": 2.5,
+            "reason": "Discord's AI moderation bug affecting user accounts is a significant issue in AI reliability.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Discord admits AI moderation bug wrongfully banned users over harmless images",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.0,
+            "index": 5,
+            "novelty_score": 2.5,
+            "reason": "A new UI for Apple Containers is niche and from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Show HN: Davit, a Apple Containers UI",
+            "total_score": 5.5
+          }
+        ],
+        "best_index": 4,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Discord has admitted that a bug in its AI moderation system wrongfully banned users over harmless images. The issue has been affecting accounts since May, with an additional 200 users banned over the weekend before the problem was identified and fixed. Link: https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Discord admits AI moderation bug wrongfully banned users over harmless images*\n\nDiscord's AI moderation bug wrongfully banned users over harmless images, affecting accounts since May. The issue was fixed after an additional 200 users were banned over the weekend.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images/",
+          "threads": "Discord's AI moderation bug wrongfully banned users over harmless images, affecting accounts since May. The issue was fixed after an additional 200 users were banned over the weekend. https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images/",
+          "twitter": "Discord's AI moderation bug wrongfully banned users over harmless images, affecting accounts since May. https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images/"
         }
       }
     },
@@ -1481,76 +1568,6 @@
         "recommendation": "SKIP",
         "social_posts": {}
       }
-    },
-    "fcc061edb6e7154a054b705fff33a9629286e9a5ffcb5528355da923b00f16c9": {
-      "created_at": "2026-07-06T18:47:50Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 13,
-            "novelty_score": 2.5,
-            "reason": "Interesting technical implementation but niche impact and lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "CS2 Fog Of War: Server-sided anti-wallhack occlusion culling for CS2 servers",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 14,
-            "novelty_score": 2.5,
-            "reason": "Reddit's use of LLMs to combat LLM-generated spam is a notable industry move with broad implications.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Reddit is using LLMs to solve a problem LLMs largely created",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 14,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "ff287593ac3b84409218cfe719e2d0494d1c4df3a3f7578c2752cb36625fc6ae": {
-      "created_at": "2026-07-06T18:47:50Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 9,
-            "novelty_score": 2.5,
-            "reason": "New tool for Rust developers but limited impact and source tier.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Kani: A Model Checker for Rust",
-            "total_score": 6.0
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 10,
-            "novelty_score": 2.5,
-            "reason": "Interesting research on AI forecasting but limited by source tier.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "The AI Superforecasters Are Here",
-            "total_score": 7.0
-          }
-        ],
-        "best_index": 10,
-        "best_score": 7.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
     }
   },
   "groq_social_posts": {
@@ -1561,15 +1578,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Hugging Face Models Now on Foundry Managed Compute\nHugging Face has introduced a new managed compute service for models on Foundry, simplifying deployment for developers.\n\ud83c\udfdb\ufe0f Source: HuggingFace (S)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n#AI #MachineLearning #HuggingFace\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Hugging Face is making waves with its new managed compute service on Foundry, streamlining model deployment for developers, and @HuggingFace is at the forefront of this innovation #AI",
         "twitter": "Hugging Face expands its offerings with managed compute services on Foundry, simplifying model deployment for developers @HuggingFace #AI"
-      }
-    },
-    "0f23bafbf8fd27685d635587f51a6db022e8fc7c1e214169d5889ffd6f39c572": {
-      "created_at": "2026-06-30T20:23:51Z",
-      "payload": {
-        "facebook": "The newest development in AI image generation is here. Google's Nano Banana 2 Lite model can create images in just a few seconds, making it the fastest and cheapest option yet. This could have significant implications for the field of artificial intelligence #AI #ImageGeneration #Google",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Google Unveils Faster and Cheaper Image Model\nGoogle's Nano Banana 2 Lite model can generate images in just a few seconds, marking a significant improvement in speed and cost.\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9/10\n#AI #ImageGeneration #Google\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Google's Nano Banana 2 Lite image model is a significant step forward in AI image generation, producing images in seconds @GoogleAI #AI",
-        "twitter": "Google's latest image model Nano Banana 2 Lite generates images in seconds @GoogleAI #AI"
       }
     },
     "1a2d715b32bd547e58ebc56cb6554c52e8fb461fd51c732ca58e5670121fa2b3": {
@@ -1696,6 +1704,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Autonomous Ground Vehicles In Combat\nForterra has deployed over 100 autonomous ground vehicles in Ukraine, a significant development in the use of AI in military operations.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9/10\n#AIinWarfare #AutonomousVehicles #MilitaryTech\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Forterra's autonomous ground vehicles are being used in combat in Ukraine, a significant milestone for AI in military operations, according to reports from @TechCrunch #AIinWarfare",
         "twitter": "Autonomous ground vehicles from Forterra are now in combat in Ukraine, marking a new era in military tech @TechCrunch #AIinWarfare"
+      }
+    },
+    "67e627423c2aaebd0862be92741074a439d0e9db4a0e4d7015f89c97ca2eb172": {
+      "created_at": "2026-07-07T20:28:28Z",
+      "payload": {
+        "facebook": "The rise of open-source AI models isn't coming at the expense of cutting-edge labs, instead they seem to be serving different phases of development. This trend has significant implications for the future of AI research and development. #AI #OpenSource #Tech",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Open-source AI on the rise\nOpen-source AI models are succeeding without impacting frontier labs, as each serves a distinct phase of development.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #OpenSource #Tech\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "The success of open-source AI models isn't hurting Anthropic, as they capture different phases of the life-cycle, @TechCrunch reports, highlighting the complexity of the AI ecosystem #AI",
+        "twitter": "Open-source AI models are thriving without cannibalizing frontier labs like Anthropic, says @TechCrunch, as each captures different phases of the life-cycle #AI"
       }
     },
     "6b37d15d468e0c9b71663a150fb34219deae7d648ad8fd4d7ad5e066d2475379": {
@@ -1913,11 +1930,11 @@
       "status": "scoring_attempted",
       "title": "Airplane Boneyards List and Map"
     },
-    "https://arstechnica.com/ai/2026/06/googles-new-nano-banana-2-lite-image-model-is-its-fastest-and-cheapest-yet": {
-      "canonical_url": "https://arstechnica.com/ai/2026/06/googles-new-nano-banana-2-lite-image-model-is-its-fastest-and-cheapest-yet",
-      "created_at": "2026-06-30T20:23:51Z",
+    "https://anthonyhobday.com/blog/20260410": {
+      "canonical_url": "https://anthonyhobday.com/blog/20260410",
+      "created_at": "2026-07-07T20:28:28Z",
       "status": "scoring_attempted",
-      "title": "Google's new Nano Banana 2 Lite image model is its fastest and cheapest yet"
+      "title": "Notes on Software Quality"
     },
     "https://arstechnica.com/ai/2026/07/facing-us-export-controls-chinas-deepseek-plans-to-make-its-own-chips": {
       "canonical_url": "https://arstechnica.com/ai/2026/07/facing-us-export-controls-chinas-deepseek-plans-to-make-its-own-chips",
@@ -1942,12 +1959,6 @@
       "created_at": "2026-07-07T12:41:43Z",
       "status": "scoring_attempted",
       "title": "How AI could enable autonomous robot workers in workplaces\u2014and maybe homes"
-    },
-    "https://arstechnica.com/security/2026/06/ai-browsers-can-be-lulled-into-a-dream-world-where-guardrails-no-longer-apply": {
-      "canonical_url": "https://arstechnica.com/security/2026/06/ai-browsers-can-be-lulled-into-a-dream-world-where-guardrails-no-longer-apply",
-      "created_at": "2026-06-30T20:23:51Z",
-      "status": "scoring_attempted",
-      "title": "New attack provides one more reason why AI browsers are a bad idea"
     },
     "https://arstechnica.com/tech-policy/2026/07/after-spooking-trump-into-safety-testing-anthropic-ai-models-get-global-release": {
       "canonical_url": "https://arstechnica.com/tech-policy/2026/07/after-spooking-trump-into-safety-testing-anthropic-ai-models-get-global-release",
@@ -2639,6 +2650,12 @@
       "status": "scoring_attempted",
       "title": "The Short Leash AI Coding Method for Beating Fable"
     },
+    "https://blog.zksecurity.xyz/posts/circl-bugs": {
+      "canonical_url": "https://blog.zksecurity.xyz/posts/circl-bugs",
+      "created_at": "2026-07-07T20:28:28Z",
+      "status": "scoring_attempted",
+      "title": "AI Meets Cryptography 1: What AI Found in Cloudflare's Circl"
+    },
     "https://box2d.org/posts/2026/06/announcing-box3d": {
       "canonical_url": "https://box2d.org/posts/2026/06/announcing-box3d",
       "created_at": "2026-07-01T18:23:15Z",
@@ -2705,6 +2722,12 @@
       "status": "scoring_attempted",
       "title": "Agentic coding notes from Galapogos Island"
     },
+    "https://davit.app": {
+      "canonical_url": "https://davit.app",
+      "created_at": "2026-07-07T20:28:28Z",
+      "status": "scoring_attempted",
+      "title": "Show HN: Davit, a Apple Containers UI"
+    },
     "https://dmarcwise.io/blog/dmarc-np-incompatibility-with-dnssec": {
       "canonical_url": "https://dmarcwise.io/blog/dmarc-np-incompatibility-with-dnssec",
       "created_at": "2026-07-05T17:08:00Z",
@@ -2746,6 +2769,12 @@
       "created_at": "2026-07-07T18:30:58Z",
       "status": "scoring_attempted",
       "title": "Chat Control 1.0 and 2.0 Explained"
+    },
+    "https://firesphere.dev/articles/yes-actually-i-do-fucking-mind": {
+      "canonical_url": "https://firesphere.dev/articles/yes-actually-i-do-fucking-mind",
+      "created_at": "2026-07-07T20:28:28Z",
+      "status": "scoring_attempted",
+      "title": "Re: I'm Begging You to Leave Your AI Note-Taker at Home"
     },
     "https://forms.cloud.microsoft/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR6G-c11n8yFDlQmk4B-QjDxUQkdTTjZLU0EyTFFRV1E3NVRTVTRTWjRHMy4u&route=shorturl": {
       "canonical_url": "https://forms.cloud.microsoft/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR6G-c11n8yFDlQmk4B-QjDxUQkdTTjZLU0EyTFFRV1E3NVRTVTRTWjRHMy4u&route=shorturl",
@@ -2837,6 +2866,12 @@
       "status": "scoring_attempted",
       "title": "Show HN: Mcpsnoop \u2013 Wireshark for MCP (transparent proxy and live TUI)"
     },
+    "https://github.com/kklimuk/docx-cli": {
+      "canonical_url": "https://github.com/kklimuk/docx-cli",
+      "created_at": "2026-07-07T20:28:28Z",
+      "status": "scoring_attempted",
+      "title": "Show HN: Docx-CLI: agents read/edit Word docs using 1/2 the time and tokens"
+    },
     "https://github.com/makerchecker/MakerChecker": {
       "canonical_url": "https://github.com/makerchecker/MakerChecker",
       "created_at": "2026-07-06T14:42:06Z",
@@ -2854,6 +2889,12 @@
       "created_at": "2026-07-02T16:04:35Z",
       "status": "scoring_attempted",
       "title": "Show HN: CLI tool for detecting non-exact code duplication with embedding models"
+    },
+    "https://github.com/rowboatlabs/rowboat": {
+      "canonical_url": "https://github.com/rowboatlabs/rowboat",
+      "created_at": "2026-07-07T20:28:28Z",
+      "status": "scoring_attempted",
+      "title": "Show HN: Rowboat \u2013 Open-source, local-first alternative to Claude Desktop"
     },
     "https://github.com/segaboy/vulkan-netbsd": {
       "canonical_url": "https://github.com/segaboy/vulkan-netbsd",
@@ -2884,12 +2925,6 @@
       "created_at": "2026-07-06T16:50:48Z",
       "status": "scoring_attempted",
       "title": "PRX Part 4: Our Data Strategy"
-    },
-    "https://huggingface.co/blog/ibm-research/scarfbench": {
-      "canonical_url": "https://huggingface.co/blog/ibm-research/scarfbench",
-      "created_at": "2026-06-30T20:23:51Z",
-      "status": "scoring_attempted",
-      "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration"
     },
     "https://huggingface.co/blog/lerobot-release-v060": {
       "canonical_url": "https://huggingface.co/blog/lerobot-release-v060",
@@ -2962,6 +2997,12 @@
       "created_at": "2026-07-04T22:11:24Z",
       "status": "scoring_attempted",
       "title": "Better Models: Worse Tools"
+    },
+    "https://lv1.sh": {
+      "canonical_url": "https://lv1.sh",
+      "created_at": "2026-07-07T20:28:28Z",
+      "status": "scoring_attempted",
+      "title": "l: A new runtime for k and q"
     },
     "https://mailmemories.com": {
       "canonical_url": "https://mailmemories.com",
@@ -3155,12 +3196,6 @@
       "status": "scoring_attempted",
       "title": "Show HN: TaskPeace \u2013 a task queue my AI coding agents pull work from over MCP"
     },
-    "https://techcrunch.com/2026/06/30/google-introduces-a-faster-cheaper-image-generator-with-nano-banana-2-lite": {
-      "canonical_url": "https://techcrunch.com/2026/06/30/google-introduces-a-faster-cheaper-image-generator-with-nano-banana-2-lite",
-      "created_at": "2026-06-30T20:23:51Z",
-      "status": "scoring_attempted",
-      "title": "Google introduces a faster, cheaper image generator with Nano Banana 2 Lite"
-    },
     "https://techcrunch.com/2026/06/30/openclaw-is-finally-available-on-android-and-ios": {
       "canonical_url": "https://techcrunch.com/2026/06/30/openclaw-is-finally-available-on-android-and-ios",
       "created_at": "2026-06-30T21:53:40Z",
@@ -3341,6 +3376,18 @@
       "status": "scoring_attempted",
       "title": "You can now customize Siri\u2019s pace and expressivity in the latest iOS 27 beta"
     },
+    "https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images": {
+      "canonical_url": "https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images",
+      "created_at": "2026-07-07T20:28:28Z",
+      "status": "scoring_attempted",
+      "title": "Discord admits AI moderation bug wrongfully banned users over harmless images"
+    },
+    "https://techcrunch.com/2026/07/07/microsoft-joins-ai-cost-cutting-trend-by-relying-more-on-its-own-models": {
+      "canonical_url": "https://techcrunch.com/2026/07/07/microsoft-joins-ai-cost-cutting-trend-by-relying-more-on-its-own-models",
+      "created_at": "2026-07-07T20:28:28Z",
+      "status": "scoring_attempted",
+      "title": "Microsoft joins AI cost-cutting trend by relying more on its own models"
+    },
     "https://techcrunch.com/2026/07/07/savis-app-aims-to-protect-consumers-from-realistic-ai-scams-like-kidnappers-demanding-ransom": {
       "canonical_url": "https://techcrunch.com/2026/07/07/savis-app-aims-to-protect-consumers-from-realistic-ai-scams-like-kidnappers-demanding-ransom",
       "created_at": "2026-07-07T12:41:43Z",
@@ -3358,6 +3405,12 @@
       "created_at": "2026-07-07T10:22:26Z",
       "status": "scoring_attempted",
       "title": "The first American autonomous ground vehicles are fighting in Ukraine"
+    },
+    "https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet": {
+      "canonical_url": "https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet",
+      "created_at": "2026-07-07T20:28:28Z",
+      "status": "scoring_attempted",
+      "title": "Why the rise of open source AI isn\u2019t hurting Anthropic \u2026 yet"
     },
     "https://ternlight-demo.vercel.app": {
       "canonical_url": "https://ternlight-demo.vercel.app",
@@ -3634,6 +3687,12 @@
       "created_at": "2026-07-06T08:58:39Z",
       "status": "scoring_attempted",
       "title": "AI Model Context Protocol Adds Centralised Auth for Enterprise"
+    },
+    "https://www.infoq.com/news/2026/07/momentic-postgres-clickhouse": {
+      "canonical_url": "https://www.infoq.com/news/2026/07/momentic-postgres-clickhouse",
+      "created_at": "2026-07-07T20:28:28Z",
+      "status": "scoring_attempted",
+      "title": "Switching from PostgreSQL to ClickHouse for Improved Performance and Scalability"
     },
     "https://www.infoq.com/news/2026/07/netflix-cassandra-partition": {
       "canonical_url": "https://www.infoq.com/news/2026/07/netflix-cassandra-partition",
@@ -4013,18 +4072,6 @@
       "status": "scoring_attempted",
       "title": "Xbox\u2019s bold plan for the future sounds nearly impossible"
     },
-    "https://www.theverge.com/gadgets/906880/lg-ultragear-tandem-oled-1440p-gaming-monitor-deal-sale": {
-      "canonical_url": "https://www.theverge.com/gadgets/906880/lg-ultragear-tandem-oled-1440p-gaming-monitor-deal-sale",
-      "created_at": "2026-06-30T20:23:51Z",
-      "status": "scoring_attempted",
-      "title": "LG\u2019s 27-inch Tandem OLED gaming monitor is cheaper than ever"
-    },
-    "https://www.theverge.com/gadgets/959687/acer-swift-go-16-ai-deal-sale": {
-      "canonical_url": "https://www.theverge.com/gadgets/959687/acer-swift-go-16-ai-deal-sale",
-      "created_at": "2026-06-30T20:23:51Z",
-      "status": "scoring_attempted",
-      "title": "Acer&#8217;s Swift Go 16 is a lot of laptop for $900"
-    },
     "https://www.theverge.com/gadgets/959899/meta-ai-glasses-paywall-rate-limit": {
       "canonical_url": "https://www.theverge.com/gadgets/959899/meta-ai-glasses-paywall-rate-limit",
       "created_at": "2026-07-01T01:34:16Z",
@@ -4180,12 +4227,6 @@
       "created_at": "2026-07-05T14:53:15Z",
       "status": "scoring_attempted",
       "title": "The Sourdough Sidekick automates the boring bit of baking"
-    },
-    "https://www.theverge.com/tech/959778/google-notebooklm-ai-clips": {
-      "canonical_url": "https://www.theverge.com/tech/959778/google-notebooklm-ai-clips",
-      "created_at": "2026-06-30T20:23:51Z",
-      "status": "scoring_attempted",
-      "title": "Google\u2019s NotebookLM can sum up your research in a TikTok-style clip"
     },
     "https://www.theverge.com/tech/959847/amazon-ftc-identity-theft-fine": {
       "canonical_url": "https://www.theverge.com/tech/959847/amazon-ftc-identity-theft-fine",
