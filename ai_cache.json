@@ -98,6 +98,29 @@
         }
       }
     },
+    "288edfe6e705a1491e0ef57f8a370b7fb6a2665ef0b982655485ea2a14aff5ac": {
+      "created_at": "2026-07-07T08:45:45Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 3.0,
+            "reason": "Tencent's Hy3 is a significant release with a large model size and open licensing, but it's not groundbreaking enough to warrant a higher score.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Tencent Releases Hy3: An Open 295B Mixture-of-Experts (MoE) Model with 21B Active Parameters and 256K Context",
+            "total_score": 8.0
+          }
+        ],
+        "best_index": 2,
+        "best_score": 8.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "28c994afcdfbde200b5ed10862200190fec3e07af0d8257ecf5d9f058861e3da": {
       "created_at": "2026-07-06T18:47:50Z",
       "payload": {
@@ -599,6 +622,34 @@
         "social_posts": {}
       }
     },
+    "86df233af83dfbb1c10f851ad318943c1bd4c34d82f59d4fe566dfb4c3d9fcd0": {
+      "created_at": "2026-07-07T08:45:45Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "Node.js 26 release with Temporal API enabled by default and V8 14.6 update impacts all Node.js developers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Node.js 26: Temporal API Enabled by Default, V8 14.6, and a Round of Deprecations",
+            "total_score": 8
+          }
+        ],
+        "best_index": 1,
+        "best_score": 8,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Node.js 26 has been released with the Temporal API enabled by default, V8 14.6, and several deprecations. Developers should take note of the migration points related to NODE_MODULE_VERSION changes. This update impacts all Node.js developers and includes significant updates to the Undici HTTP client. Link: https://www.infoq.com/news/2026/07/nodejs-26-temporal/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Node.js 26: Temporal API Enabled by Default, V8 14.6, and a Round of Deprecations*\n\nNode.js 26 has been released, featuring the Temporal API enabled by default, an updated V8 engine to version 14.6, and the Undici HTTP client upgraded to 8.0. The release also removes deprecated legacy APIs.\n\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (B)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8/10\n\n\ud83d\udd17 https://www.infoq.com/news/2026/07/nodejs-26-temporal/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Node.js 26 just shipped with Temporal API enabled by default, V8 14.6, and a round of deprecations. Legacy APIs are being phased out, so developers should check migration notes. https://www.infoq.com/news/2026/07/nodejs-26-temporal/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "twitter": "Node.js 26 lands with Temporal API enabled by default and V8 14.6. Deprecations loom for legacy APIs.\nhttps://www.infoq.com/news/2026/07/nodejs-26-temporal/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+        }
+      }
+    },
     "8ca264333d3cfd8ef14b5090a15ad1ac8112620c80e282702cdc07e07142f30f": {
       "created_at": "2026-07-07T05:09:54Z",
       "payload": {
@@ -817,6 +868,29 @@
         ],
         "best_index": 4,
         "best_score": 8.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "b0f803e439d311b7515b9ed906450142818995cc7043233e22538ce5b8b7d463": {
+      "created_at": "2026-07-07T08:45:45Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "HubSpot's scaling of semantic search to 20 billion vectors is a significant industry move with broad implications for SaaS platforms.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "How HubSpot Scaled Semantic Search to 20 Billion Vectors",
+            "total_score": 8
+          }
+        ],
+        "best_index": 0,
+        "best_score": 8,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1368,15 +1442,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 The Video Game Disc Era Is Ending\nThe physical game disc is no longer the primary way to play games, as digital distribution takes over.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n#gaming #videogames #digitaldistribution\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "The physical game disc is becoming obsolete, marking a significant change in the way we play games, thanks to advancements in digital distribution @TheVerge #gaming",
         "twitter": "The end of an era for gamers as physical game discs become a thing of the past @TheVerge #gaming"
-      }
-    },
-    "230ff526468fa2e66bd4b6c677bd78d84b9f406b4911baf929b4d476bd2a4572": {
-      "created_at": "2026-06-30T08:18:38Z",
-      "payload": {
-        "facebook": "The UK is on the cusp of a major productivity boost driven by AI adoption. This shift is expected to significantly impact the workforce, as companies like Google outline their strategic vision for the country's future. #AIadoption #Productivity #WorkforceTransformation",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 AI Adoption in the UK\nGoogle AI has outlined a strategic vision for AI adoption in the UK, which is expected to drive a new era of productivity and transform the workforce.\n\ud83c\udfdb\ufe0f Source: Google AI (S)\n\u23f0 Published: 2 hours ago\n\u2b50 Score: 8.5/10\n#AIadoption #Productivity #WorkforceTransformation\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "The UK's next era of productivity is being driven by AI, with companies like @Google leading the charge, this could have a significant impact on the nation's workforce #AIadoption",
-        "twitter": "Britain is poised to unlock a new era of productivity with AI, says @Google, which could transform the nation's workforce #AIadoption #Productivity"
       }
     },
     "2555638f2542d7ef14cabbd24884588ea5d8296c0359d608c048bdfb0e6e3d8e": {
@@ -2395,12 +2460,6 @@
       "status": "scoring_attempted",
       "title": "NSA and IETF: Fairness"
     },
-    "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers": {
-      "canonical_url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers",
-      "created_at": "2026-06-30T08:18:38Z",
-      "status": "scoring_attempted",
-      "title": "Unlocking Britain\u2019s next era of productivity: Building a nation of AI trailblazers"
-    },
     "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026": {
       "canonical_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026",
       "created_at": "2026-07-01T18:23:15Z",
@@ -2772,12 +2831,6 @@
       "created_at": "2026-07-02T01:26:31Z",
       "status": "scoring_attempted",
       "title": "Meta Caps Internal AI Token Spending After Costs Approach Billions in 2026"
-    },
-    "https://moondream.ai/blog/popping-the-gpu-bubble": {
-      "canonical_url": "https://moondream.ai/blog/popping-the-gpu-bubble",
-      "created_at": "2026-06-30T08:18:38Z",
-      "status": "scoring_attempted",
-      "title": "Popping the GPU Bubble"
     },
     "https://mynintendonews.com/2026/06/26/nintendo-has-raised-its-employees-base-salary-by-10": {
       "canonical_url": "https://mynintendonews.com/2026/06/26/nintendo-has-raised-its-employees-base-salary-by-10",
@@ -3457,6 +3510,12 @@
       "status": "scoring_attempted",
       "title": "HeroUI v3 Lands as a Ground-Up Rewrite for React and React Native, Built on Tailwind CSS v4"
     },
+    "https://www.infoq.com/news/2026/07/hubspot-semantic-vector-search": {
+      "canonical_url": "https://www.infoq.com/news/2026/07/hubspot-semantic-vector-search",
+      "created_at": "2026-07-07T08:45:45Z",
+      "status": "scoring_attempted",
+      "title": "How HubSpot Scaled Semantic Search to 20 Billion Vectors"
+    },
     "https://www.infoq.com/news/2026/07/instacart-multi-tenant-marketing": {
       "canonical_url": "https://www.infoq.com/news/2026/07/instacart-multi-tenant-marketing",
       "created_at": "2026-07-01T16:03:57Z",
@@ -3474,6 +3533,12 @@
       "created_at": "2026-07-06T14:42:06Z",
       "status": "scoring_attempted",
       "title": "Netflix Cuts Cassandra Read Latency from Seconds to Milliseconds with Dynamic Partition Splitting"
+    },
+    "https://www.infoq.com/news/2026/07/nodejs-26-temporal": {
+      "canonical_url": "https://www.infoq.com/news/2026/07/nodejs-26-temporal",
+      "created_at": "2026-07-07T08:45:45Z",
+      "status": "scoring_attempted",
+      "title": "Node.js 26: Temporal API Enabled by Default, V8 14.6, and a Round of Deprecations"
     },
     "https://www.infoq.com/news/2026/07/online-cohort-ai-security": {
       "canonical_url": "https://www.infoq.com/news/2026/07/online-cohort-ai-security",
@@ -3666,6 +3731,12 @@
       "created_at": "2026-07-06T04:43:13Z",
       "status": "scoring_attempted",
       "title": "Training Gemma-3 for Structured Mathematical Reasoning with Tunix GRPO, LoRA Adapters, and GSM8K Rewards"
+    },
+    "https://www.marktechpost.com/2026/07/06/tencent-releases-hy3-open-295b-moe-model": {
+      "canonical_url": "https://www.marktechpost.com/2026/07/06/tencent-releases-hy3-open-295b-moe-model",
+      "created_at": "2026-07-07T08:45:45Z",
+      "status": "scoring_attempted",
+      "title": "Tencent Releases Hy3: An Open 295B Mixture-of-Experts (MoE) Model with 21B Active Parameters and 256K Context"
     },
     "https://www.nbcchicago.com/news/local/delta-flight-hit-by-firework-while-landing-at-midway-airport-on-fourth-of-july/3957451": {
       "canonical_url": "https://www.nbcchicago.com/news/local/delta-flight-hit-by-firework-while-landing-at-midway-airport-on-fourth-of-july/3957451",
