@@ -23,25 +23,25 @@
         "social_posts": {}
       }
     },
-    "03a86d2f6ae31c2e00b0ba6a131751be60619ab92d19c35b8d9fa1108debfcde": {
-      "created_at": "2026-07-06T00:12:28Z",
+    "18a7f212a37d1946bd4fd0a6b5461780a007c0abda52c7d91dc8c8b67f6f41ca": {
+      "created_at": "2026-07-07T01:09:45Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 2.0,
+            "freshness_score": 1.5,
             "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Opinion piece on Canada's AI strategy with moderate novelty and impact, but from a lower-tier source.",
+            "index": 2,
+            "novelty_score": 2,
+            "reason": "SK Hynix's IPO is notable but not transformative for AI developers.",
             "red_flag": false,
             "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Al Vigier: Canada's AI strategy shouldn't include secret Palantir bills",
-            "total_score": 7.5
+            "source_score": 1.5,
+            "title": "US investors will soon get access to SK Hynix, another memory maker riding the AI boom",
+            "total_score": 7
           }
         ],
-        "best_index": 0,
-        "best_score": 7.5,
+        "best_index": 2,
+        "best_score": 7,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -145,6 +145,29 @@
         "social_posts": {}
       }
     },
+    "3264138af97cb0a60319ea7f0e7209d77dbf007b4031be923ec128523813fb41": {
+      "created_at": "2026-07-07T01:09:45Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "Novelty of a 7 MB embedding model is high, but impact is limited to niche use cases and source is a C-tier.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Ternlight \u2013 7 MB embedding model that runs in browser (WASM)",
+            "total_score": 6.0
+          }
+        ],
+        "best_index": 3,
+        "best_score": 6.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "3ba09577568149723323545af32b6369a428470b8c0fe9010aaca7356f35f35d": {
       "created_at": "2026-07-06T18:47:50Z",
       "payload": {
@@ -220,29 +243,6 @@
         "social_posts": {}
       }
     },
-    "40fb1653d385d9a8997e1dfc6ec6334c3fce0c02037d5042ba32fcf12a4402cb": {
-      "created_at": "2026-07-06T00:12:28Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1,
-            "impact_score": 1.5,
-            "index": 8,
-            "novelty_score": 2.5,
-            "reason": "Interesting discussion on software scaling laws but lacks novelty and impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Lean Software Scaling Laws",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 8,
-        "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "44087f3bebd94a7ebd5a9e42c1810d9cec4e7d55f46cd1144f809be0c31883b2": {
       "created_at": "2026-07-06T20:45:37Z",
       "payload": {
@@ -262,6 +262,29 @@
         ],
         "best_index": 2,
         "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "5237f75ed05116b8d0ca50efcd392ba06f5582f21bdf3c3d77f8582b83e36e7f": {
+      "created_at": "2026-07-07T01:09:45Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 1,
+            "novelty_score": 1.5,
+            "reason": "Comments on fairness in standards bodies lack novelty and impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "NSA and IETF: Fairness",
+            "total_score": 4.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 4.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -324,27 +347,32 @@
         "social_posts": {}
       }
     },
-    "58b85cf657b83da8951ab64a806743f914fa24fcd00e550dd53b78dd6fae879f": {
-      "created_at": "2026-07-05T23:54:04Z",
+    "59de28d0777eca07e3440a54ab369794266e5e304dff0f43ee2c07e705f7cf4e": {
+      "created_at": "2026-07-07T01:09:45Z",
       "payload": {
         "articles": [
           {
             "freshness_score": 1.5,
-            "impact_score": 1.5,
+            "impact_score": 2.5,
             "index": 0,
-            "novelty_score": 0.2,
-            "reason": "This is a tutorial-style article about composite video on the NES, which is a niche topic and not directly relevant to software engineers or AI researchers.",
-            "red_flag": true,
-            "red_flag_reason": "tutorial",
-            "source_score": 0.5,
-            "title": "Composite Video on the NES: Why's it so wobbly?",
-            "total_score": 3.2
+            "novelty_score": 3.0,
+            "reason": "New release of LeRobot with significant improvements in functionality.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 2.0,
+            "title": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
+            "total_score": 8.5
           }
         ],
         "best_index": 0,
-        "best_score": 3.2,
-        "recommendation": "SKIP",
-        "social_posts": {}
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "LeRobot v0.6.0 is out with a new workflow called Imagine, Evaluate, Improve. This update enhances agentic reasoning and task automation, making it a significant release for developers working with AI agents. Link: https://huggingface.co/blog/lerobot-release-v060",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *LeRobot v0.6.0: Imagine, Evaluate, Improve*\n\nLeRobot v0.6.0 introduces a new workflow called Imagine, Evaluate, Improve, enhancing agentic reasoning and task automation.\n\n\ud83c\udfdb\ufe0f Source: HuggingFace (S)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://huggingface.co/blog/lerobot-release-v060\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "LeRobot v0.6.0 just dropped with Imagine, Evaluate, Improve workflows. Big step forward for agentic reasoning and task automation. https://huggingface.co/blog/lerobot-release-v060",
+          "twitter": "LeRobot v0.6.0 introduces Imagine, Evaluate, Improve workflows. Hugging Face's latest release boosts agentic reasoning and task automation.\nhttps://huggingface.co/blog/lerobot-release-v060"
+        }
       }
     },
     "5d2cda8862f6b2cc4566cefd1e34a0b4b825f94f3f0a95627ea64943683c5b02": {
@@ -1036,15 +1064,6 @@
     }
   },
   "groq_social_posts": {
-    "0743e66980dbd272be0fcae870be21dc9ec952a0020953b301c188e1a834592a": {
-      "created_at": "2026-06-30T00:00:39Z",
-      "payload": {
-        "facebook": "The latest development in local-first AI is here, with OpenClaw's iOS and Android apps connecting phones to self-hosted AI agent gateways, adding device hardware capabilities. This move is expected to enhance AI development. #AI #LocalFirstAI #SelfHostedAI",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 OpenClaw Enhances Local-First AI Development\nOpenClaw's new iOS and Android apps connect phones to self-hosted AI agent gateways, enabling device hardware integration. This development is a significant step for local-first AI.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #LocalFirstAI #SelfHostedAI\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "OpenClaw's mobile apps pair phones with self-hosted AI gateways over WebSocket, integrating device hardware like cameras and voice. This is a significant step for local-first AI development @OpenClaw #AI",
-        "twitter": "OpenClaw's new mobile apps bring device hardware to self-hosted AI agents over WebSocket, a significant step for local-first AI @OpenClaw #AI"
-      }
-    },
     "083ca5a5a13bdd5183d5e1c87051d7dfd865fb43e6f0e352434951f86062a2d5": {
       "created_at": "2026-06-30T10:29:55Z",
       "payload": {
@@ -1358,6 +1377,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Anthropic Introduces New Security Measures\nThe US government has removed restrictions on Anthropic's AI models after the company added new security protocols, a move that highlights the complex relationship between AI and national security.\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #ArtificialIntelligence #SecurityMeasures\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Anthropic's AI models are back in the clear with the US government after introducing new security measures, a significant development for the industry @AnthropicAI #AIsecurity",
         "twitter": "Anthropic's AI models get government clearance after adding new security measures @AnthropicAI #AIsecurity"
+      }
+    },
+    "e79c0f9e6e4331735cf29d238452a6a576c69a2b730434ee906290f056002300": {
+      "created_at": "2026-07-07T01:09:45Z",
+      "payload": {
+        "facebook": "The latest version of LeRobot has been released, offering enhanced functionality and capabilities. This update is a notable step forward for the AI community, with potential applications in various fields. #AI #MachineLearning #HuggingFace",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 LeRobot v0.6.0 Released\nThe latest version of LeRobot has been released, offering enhanced functionality and capabilities.\n\ud83c\udfdb\ufe0f Source: HuggingFace (S)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n#AI #MachineLearning #HuggingFace\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "LeRobot's new update is a significant step forward for AI development, offering improved functionality and capabilities, @HuggingFace is leading the charge #AI",
+        "twitter": "HuggingFace's latest LeRobot update brings significant improvements, @HuggingFace is pushing the boundaries of AI development #AI"
       }
     },
     "ea6749e278b7363ef70013f518753e582ec85236ad5431dd4547c8024bbb0905": {
@@ -1950,6 +1978,12 @@
       "status": "scoring_attempted",
       "title": "Matrix Orthogonalization Improves Memory in Recurrent Models"
     },
+    "https://blog.cr.yp.to/20260706-fairness.html": {
+      "canonical_url": "https://blog.cr.yp.to/20260706-fairness.html",
+      "created_at": "2026-07-07T01:09:45Z",
+      "status": "scoring_attempted",
+      "title": "NSA and IETF: Fairness"
+    },
     "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers": {
       "canonical_url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers",
       "created_at": "2026-06-30T08:18:38Z",
@@ -2226,6 +2260,12 @@
       "status": "scoring_attempted",
       "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration"
     },
+    "https://huggingface.co/blog/lerobot-release-v060": {
+      "canonical_url": "https://huggingface.co/blog/lerobot-release-v060",
+      "created_at": "2026-07-07T01:09:45Z",
+      "status": "scoring_attempted",
+      "title": "LeRobot v0.6.0: Imagine, Evaluate, Improve"
+    },
     "https://huggingface.co/blog/revamped-kernels": {
       "canonical_url": "https://huggingface.co/blog/revamped-kernels",
       "created_at": "2026-07-06T04:43:13Z",
@@ -2405,12 +2445,6 @@
       "created_at": "2026-07-05T14:53:15Z",
       "status": "scoring_attempted",
       "title": "Spain's cadastre API is SOAP from 2003, so I built a JSON wrapper (+MCP)"
-    },
-    "https://queue.acm.org/detail.cfm?id=3819084": {
-      "canonical_url": "https://queue.acm.org/detail.cfm?id=3819084",
-      "created_at": "2026-06-30T00:00:39Z",
-      "status": "scoring_attempted",
-      "title": "What can you confidently guarantee about your software?"
     },
     "https://ramp.com/data/ai-jobs-impact": {
       "canonical_url": "https://ramp.com/data/ai-jobs-impact",
@@ -2712,6 +2746,12 @@
       "status": "scoring_attempted",
       "title": "The running list: major tech layoffs in 2026 where employers cited AI"
     },
+    "https://techcrunch.com/2026/07/06/us-investors-will-soon-get-access-to-sk-hynix-another-memory-maker-riding-the-ai-boom": {
+      "canonical_url": "https://techcrunch.com/2026/07/06/us-investors-will-soon-get-access-to-sk-hynix-another-memory-maker-riding-the-ai-boom",
+      "created_at": "2026-07-07T01:09:45Z",
+      "status": "scoring_attempted",
+      "title": "US investors will soon get access to SK Hynix, another memory maker riding the AI boom"
+    },
     "https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents": {
       "canonical_url": "https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents",
       "created_at": "2026-07-06T20:45:37Z",
@@ -2723,6 +2763,12 @@
       "created_at": "2026-07-06T20:45:37Z",
       "status": "scoring_attempted",
       "title": "You can now customize Siri\u2019s pace and expressivity in the latest iOS 27 beta"
+    },
+    "https://ternlight-demo.vercel.app": {
+      "canonical_url": "https://ternlight-demo.vercel.app",
+      "created_at": "2026-07-07T01:09:45Z",
+      "status": "scoring_attempted",
+      "title": "Ternlight \u2013 7 MB embedding model that runs in browser (WASM)"
     },
     "https://thereallo.dev/blog/claude-code-prompt-steganography": {
       "canonical_url": "https://thereallo.dev/blog/claude-code-prompt-steganography",
@@ -3101,12 +3147,6 @@
       "created_at": "2026-07-06T11:24:55Z",
       "status": "scoring_attempted",
       "title": "Real-time map of Great Britain's rail network"
-    },
-    "https://www.marktechpost.com/2026/06/29/openclaw-releases-ios-and-android-companion-node-apps-that-connect-a-phone-to-a-self-hosted-ai-agent-gateway": {
-      "canonical_url": "https://www.marktechpost.com/2026/06/29/openclaw-releases-ios-and-android-companion-node-apps-that-connect-a-phone-to-a-self-hosted-ai-agent-gateway",
-      "created_at": "2026-06-30T00:00:39Z",
-      "status": "scoring_attempted",
-      "title": "OpenClaw Releases iOS and Android Companion Node Apps That Connect a Phone to a Self-Hosted AI Agent Gateway"
     },
     "https://www.marktechpost.com/2026/06/30/anthropic-claude-sonnet-5-vs-sonnet-4-6-vs-opus-4-8-agentic-coding-benchmarks-api-pricing-and-cost-performance-tradeoffs-compared": {
       "canonical_url": "https://www.marktechpost.com/2026/06/30/anthropic-claude-sonnet-5-vs-sonnet-4-6-vs-opus-4-8-agentic-coding-benchmarks-api-pricing-and-cost-performance-tradeoffs-compared",
