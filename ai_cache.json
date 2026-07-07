@@ -1,5 +1,45 @@
 {
   "cerebras_scoring": {
+    "0e359988b1792f322e7e875efcd00282f45f71142edd55b29790ba38ddea54e8": {
+      "created_at": "2026-07-07T16:28:08Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 1.5,
+            "reason": "Anthropic's Claude Cowork expanding to mobile and web is a significant update for Max subscribers, but not a groundbreaking novelty.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Claude Cowork expands to mobile and web",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 3,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "DeepSeek's plan to make its own chips due to US export controls is a major industry move with significant implications.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Facing US export controls, China's DeepSeek plans to make its own chips",
+            "total_score": 9
+          }
+        ],
+        "best_index": 1,
+        "best_score": 9.0,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "DeepSeek, a major Chinese AI company, is planning to make its own chips to reduce dependency on Nvidia and Huawei due to US export controls. This is a significant move in the AI hardware space. Link: https://arstechnica.com/ai/2026/07/facing-us-export-controls-chinas-deepseek-plans-to-make-its-own-chips/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Facing US export controls, China's DeepSeek plans to make its own chips*\n\nDeepSeek is planning to make its own chips to reduce dependency on Nvidia and Huawei due to US export controls. This is a significant move in the AI hardware space.\n\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://arstechnica.com/ai/2026/07/facing-us-export-controls-chinas-deepseek-plans-to-make-its-own-chips/",
+          "threads": "DeepSeek is planning to make its own chips to reduce dependency on Nvidia and Huawei due to US export controls. This is a major industry move. https://arstechnica.com/ai/2026/07/facing-us-export-controls-chinas-deepseek-plans-to-make-its-own-chips/",
+          "twitter": "China's DeepSeek is planning to make its own chips to reduce dependency on Nvidia and Huawei due to US export controls. https://arstechnica.com/ai/2026/07/facing-us-export-controls-chinas-deepseek-plans-to-make-its-own-chips/"
+        }
+      }
+    },
     "18a7f212a37d1946bd4fd0a6b5461780a007c0abda52c7d91dc8c8b67f6f41ca": {
       "created_at": "2026-07-07T01:09:45Z",
       "payload": {
@@ -49,6 +89,29 @@
           "threads": "British startup sends AI longevity lab to space to study protein behavior in aging and diseases. Early data could reshape medical AI. https://www.wired.com/story/british-space-startup-launches-longevity-lab-into-orbit/",
           "twitter": "A British startup just launched a space lab to train AI models on protein behavior linked to aging and diseases like Alzheimer's. https://www.wired.com/story/british-space-startup-launches-longevity-lab-into-orbit/"
         }
+      }
+    },
+    "1ac5620b557190d327df7e72c76d72a92a1ca53c6ad1b16b8e787ae50289977f": {
+      "created_at": "2026-07-07T16:28:08Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.0,
+            "impact_score": 1.5,
+            "index": 20,
+            "novelty_score": 2.0,
+            "reason": "Industry move with moderate impact and freshness from a B-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.0,
+            "title": "L\u2019Oreal, Mondelez, and Nestle use AI to speed product development",
+            "total_score": 5.5
+          }
+        ],
+        "best_index": 20,
+        "best_score": 5.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "22aef238165b06a12a2962a879682eeaaa906513484ed73803febed2eef77929": {
@@ -881,6 +944,46 @@
         "social_posts": {}
       }
     },
+    "9ad6bcef72f213f8d1af658c0d1196e21542da701c551460c95e0117337342b5": {
+      "created_at": "2026-07-07T16:28:08Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 2.0,
+            "reason": "Industry move with significant impact on game development community.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Doom developer id reportedly cut in half as part of Xbox layoffs",
+            "total_score": 6.0
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "New feature from a major AI company with broad implications for productivity.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Shut Those Laptops! Anthropic Puts Its Claude Cowork Agent on Your Phone",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 3,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Anthropic has extended Claude Cowork to run tasks even after you close your laptop, now controllable from your phone. This move could significantly change how we interact with AI assistants. Link: https://www.wired.com/story/shut-those-laptops-anthropic-puts-its-claude-cowork-agent-on-your-phone/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Shut Those Laptops! Anthropic Puts Its Claude Cowork Agent on Your Phone*\n\nClaude Cowork now keeps working on tasks even after you close your laptop. It\u2019s part of a larger push toward smartphone-controlled agents.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.wired.com/story/shut-those-laptops-anthropic-puts-its-claude-cowork-agent-on-your-phone/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Anthropic's Claude Cowork now keeps working after you close your laptop, with smartphone control. This could be a game-changer for productivity. https://www.wired.com/story/shut-those-laptops-anthropic-puts-its-claude-cowork-agent-on-your-phone/",
+          "twitter": "Anthropic's Claude Cowork now runs tasks even after you close your laptop, expanding to smartphone control. https://www.wired.com/story/shut-those-laptops-anthropic-puts-its-claude-cowork-agent-on-your-phone/"
+        }
+      }
+    },
     "9ef74da63e468969126bc5ae4f594c58ad793dd9252b1f84c8736fdf45904a3f": {
       "created_at": "2026-07-07T10:22:26Z",
       "payload": {
@@ -1209,6 +1312,41 @@
           "threads": "Oyster-II uses reinforcement learning to improve safety alignment in LLMs. A significant step forward in making these models more reliable. https://arxiv.org/abs/2607.02914",
           "twitter": "Oyster-II introduces reinforcement learning for constructive safety alignment in LLMs. https://arxiv.org/abs/2607.02914"
         }
+      }
+    },
+    "d251462a9f9733855bca9d90b260721279d781c6e462556b9c649f3ab2482911": {
+      "created_at": "2026-07-07T16:28:08Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 0.5,
+            "index": 4,
+            "novelty_score": 0.2,
+            "reason": "This is a comments section, not a news article.",
+            "red_flag": true,
+            "red_flag_reason": "Comments",
+            "source_score": 0.5,
+            "title": "Microsoft Fire IdTech Team at Id Software",
+            "total_score": 3.2
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 8,
+            "novelty_score": 2.5,
+            "reason": "Significant advancement in AI-driven drug discovery with empirical test cases.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.0,
+            "title": "Insilico Medicine advances AI drug for IPF to Phase III trials",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 8,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "d7f5e667c25ad3a9e5707838675af366ee7025edc8ce390acaefe4c49dae2e33": {
@@ -1635,6 +1773,15 @@
         "twitter": "Mistral AI's Leanstral 1.5 model achieves impressive results, solving 587 of 672 PutnamBench problems @MistralAI #AI"
       }
     },
+    "98a16a117d580c37346b7308fb37ab37f08f2804428d45057cc06531cb44e5d4": {
+      "created_at": "2026-07-07T16:28:08Z",
+      "payload": {
+        "facebook": "As US export controls take hold, China's DeepSeek is taking a significant step towards self-sufficiency by planning to make its own chips, aiming to reduce its reliance on major players like Nvidia and Huawei. This move could have major implications for the industry. #AI #ChipProduction #USExportControls",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 China's DeepSeek Plans to Make Its Own Chips\nChina's DeepSeek is planning to develop its own chips due to US export controls, aiming to reduce dependency on major players.\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n#AI #ChipProduction #USExportControls\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "China's DeepSeek is moving to develop its own chips to mitigate the impact of US export controls, aiming to reduce its dependency on Nvidia and Huawei @ArsTechnica #AI",
+        "twitter": "China's DeepSeek is planning to develop its own chips to reduce dependency on Nvidia and Huawei due to US export controls @ArsTechnica #AI"
+      }
+    },
     "a1ac4939ad89e3554e0f140ea32c8158e4835c7fea6dc9cb4569bf1c3c315e0e": {
       "created_at": "2026-07-01T10:17:12Z",
       "payload": {
@@ -1766,6 +1913,12 @@
       "status": "scoring_attempted",
       "title": "Google's new Nano Banana 2 Lite image model is its fastest and cheapest yet"
     },
+    "https://arstechnica.com/ai/2026/07/facing-us-export-controls-chinas-deepseek-plans-to-make-its-own-chips": {
+      "canonical_url": "https://arstechnica.com/ai/2026/07/facing-us-export-controls-chinas-deepseek-plans-to-make-its-own-chips",
+      "created_at": "2026-07-07T16:28:08Z",
+      "status": "scoring_attempted",
+      "title": "Facing US export controls, China's DeepSeek plans to make its own chips"
+    },
     "https://arstechnica.com/ai/2026/07/googles-ai-buildout-drove-37-increase-in-electricity-use-in-2025": {
       "canonical_url": "https://arstechnica.com/ai/2026/07/googles-ai-buildout-drove-37-increase-in-electricity-use-in-2025",
       "created_at": "2026-07-02T12:10:20Z",
@@ -1789,12 +1942,6 @@
       "created_at": "2026-06-30T20:23:51Z",
       "status": "scoring_attempted",
       "title": "New attack provides one more reason why AI browsers are a bad idea"
-    },
-    "https://arstechnica.com/tech-policy/2026/06/spacex-may-donate-stock-to-trumps-savings-accounts-for-kids-report-says": {
-      "canonical_url": "https://arstechnica.com/tech-policy/2026/06/spacex-may-donate-stock-to-trumps-savings-accounts-for-kids-report-says",
-      "created_at": "2026-06-30T16:22:34Z",
-      "status": "scoring_attempted",
-      "title": "Trump asked Musk for SpaceX stock to seed US kids\u2019 savings accounts, report says"
     },
     "https://arstechnica.com/tech-policy/2026/06/trumps-plan-to-redesign-every-gov-website-leads-to-ai-designed-horrors": {
       "canonical_url": "https://arstechnica.com/tech-policy/2026/06/trumps-plan-to-redesign-every-gov-website-leads-to-ai-designed-horrors",
@@ -2606,6 +2753,12 @@
       "status": "scoring_attempted",
       "title": "Show HN: Frond \u2013 a frontend runtime for your app's dependency graph"
     },
+    "https://gamefromscratch.com/microsoft-fire-idtech-team-at-id-software": {
+      "canonical_url": "https://gamefromscratch.com/microsoft-fire-idtech-team-at-id-software",
+      "created_at": "2026-07-07T16:28:08Z",
+      "status": "scoring_attempted",
+      "title": "Microsoft Fire IdTech Team at Id Software"
+    },
     "https://gitfut.com": {
       "canonical_url": "https://gitfut.com",
       "created_at": "2026-07-04T00:09:57Z",
@@ -2912,12 +3065,6 @@
       "status": "scoring_attempted",
       "title": "AI saves about 3% of your hours, and almost none of it reaches the money"
     },
-    "https://openai.com/index/how-chatgpt-adoption-has-expanded": {
-      "canonical_url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
-      "created_at": "2026-06-30T16:22:34Z",
-      "status": "scoring_attempted",
-      "title": "How ChatGPT adoption has expanded"
-    },
     "https://prediohq.com": {
       "canonical_url": "https://prediohq.com",
       "created_at": "2026-07-05T14:53:15Z",
@@ -3025,12 +3172,6 @@
       "created_at": "2026-06-30T21:53:40Z",
       "status": "scoring_attempted",
       "title": "OpenClaw is finally available on Android and iOS"
-    },
-    "https://techcrunch.com/2026/06/30/podcasting-platform-riverside-enters-the-newsletter-publishing-game": {
-      "canonical_url": "https://techcrunch.com/2026/06/30/podcasting-platform-riverside-enters-the-newsletter-publishing-game",
-      "created_at": "2026-06-30T16:22:34Z",
-      "status": "scoring_attempted",
-      "title": "Podcasting platform Riverside enters the newsletter publishing game"
     },
     "https://techcrunch.com/2026/06/30/the-deepmind-trio-who-built-a-poker-ai-are-now-making-money-for-quant-hedge-funds": {
       "canonical_url": "https://techcrunch.com/2026/06/30/the-deepmind-trio-who-built-a-poker-ai-are-now-making-money-for-quant-hedge-funds",
@@ -3212,6 +3353,12 @@
       "status": "scoring_attempted",
       "title": "Savi\u2019s app aims to protect consumers from realistic AI scams like kidnappers demanding ransom"
     },
+    "https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork": {
+      "canonical_url": "https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork",
+      "created_at": "2026-07-07T16:28:08Z",
+      "status": "scoring_attempted",
+      "title": "Claude Cowork expands to mobile and web"
+    },
     "https://techcrunch.com/2026/07/07/the-first-american-autonomous-ground-vehicles-are-fighting-in-ukraine": {
       "canonical_url": "https://techcrunch.com/2026/07/07/the-first-american-autonomous-ground-vehicles-are-fighting-in-ukraine",
       "created_at": "2026-07-07T10:22:26Z",
@@ -3223,12 +3370,6 @@
       "created_at": "2026-07-07T01:09:45Z",
       "status": "scoring_attempted",
       "title": "Ternlight \u2013 7 MB embedding model that runs in browser (WASM)"
-    },
-    "https://thereallo.dev/blog/claude-code-prompt-steganography": {
-      "canonical_url": "https://thereallo.dev/blog/claude-code-prompt-steganography",
-      "created_at": "2026-06-30T16:22:34Z",
-      "status": "scoring_attempted",
-      "title": "Claude Code Is Steganographically Marking Requests"
     },
     "https://tomtunguz.com/ai-spend-breakeven-2029": {
       "canonical_url": "https://tomtunguz.com/ai-spend-breakeven-2029",
@@ -3278,12 +3419,6 @@
       "status": "scoring_attempted",
       "title": "Comparing Fable and 10 other LLMs on refactoring a LangGraph god node"
     },
-    "https://www.404media.co/scammers-sell-seeds-for-exotic-ai-generated-flowers-that-dont-exist": {
-      "canonical_url": "https://www.404media.co/scammers-sell-seeds-for-exotic-ai-generated-flowers-that-dont-exist",
-      "created_at": "2026-06-30T16:22:34Z",
-      "status": "scoring_attempted",
-      "title": "Scammers Sell Seeds for Exotic AI-Generated Flowers That Don't Exist"
-    },
     "https://www.anthropic.com/news/claude-sonnet-5": {
       "canonical_url": "https://www.anthropic.com/news/claude-sonnet-5",
       "created_at": "2026-06-30T18:17:43Z",
@@ -3301,6 +3436,12 @@
       "created_at": "2026-07-06T22:03:51Z",
       "status": "scoring_attempted",
       "title": "AI: The ROI Runway Could Be Long Outside the Tech Sector"
+    },
+    "https://www.artificialintelligence-news.com/news/ai-product-development-loreal-mondelez-nestle": {
+      "canonical_url": "https://www.artificialintelligence-news.com/news/ai-product-development-loreal-mondelez-nestle",
+      "created_at": "2026-07-07T16:28:08Z",
+      "status": "scoring_attempted",
+      "title": "L\u2019Oreal, Mondelez, and Nestle use AI to speed product development"
     },
     "https://www.artificialintelligence-news.com/news/anthropic-deploys-claude-sonnet-5-fable-and-mythos-restored": {
       "canonical_url": "https://www.artificialintelligence-news.com/news/anthropic-deploys-claude-sonnet-5-fable-and-mythos-restored",
@@ -3325,6 +3466,12 @@
       "created_at": "2026-07-01T16:24:45Z",
       "status": "scoring_attempted",
       "title": "Deploying retail AI to scale personalisation and customer insight"
+    },
+    "https://www.artificialintelligence-news.com/news/insilico-medicine-advances-ai-drug-for-ipf-to-phase-iii-trials": {
+      "canonical_url": "https://www.artificialintelligence-news.com/news/insilico-medicine-advances-ai-drug-for-ipf-to-phase-iii-trials",
+      "created_at": "2026-07-07T16:28:08Z",
+      "status": "scoring_attempted",
+      "title": "Insilico Medicine advances AI drug for IPF to Phase III trials"
     },
     "https://www.artificialintelligence-news.com/news/japan-ai-robots-2040-national-ai-model": {
       "canonical_url": "https://www.artificialintelligence-news.com/news/japan-ai-robots-2040-national-ai-model",
@@ -3866,12 +4013,6 @@
       "status": "scoring_attempted",
       "title": "LG\u2019s 27-inch Tandem OLED gaming monitor is cheaper than ever"
     },
-    "https://www.theverge.com/gadgets/959264/bose-soundlink-max-wd-black-deal-sale": {
-      "canonical_url": "https://www.theverge.com/gadgets/959264/bose-soundlink-max-wd-black-deal-sale",
-      "created_at": "2026-06-30T16:22:34Z",
-      "status": "scoring_attempted",
-      "title": "The Bose Soundlink Max is $120 off ahead of the July 4th weekend"
-    },
     "https://www.theverge.com/gadgets/959657/moto-tag-2-deal-sale": {
       "canonical_url": "https://www.theverge.com/gadgets/959657/moto-tag-2-deal-sale",
       "created_at": "2026-06-30T18:17:43Z",
@@ -3973,6 +4114,12 @@
       "created_at": "2026-07-07T15:36:30Z",
       "status": "scoring_attempted",
       "title": "Discord accidentally banned over 8,000 people for posting grids and other &#8216;benign&#8217; images"
+    },
+    "https://www.theverge.com/games/962223/doom-id-software-xbox-layoffs": {
+      "canonical_url": "https://www.theverge.com/games/962223/doom-id-software-xbox-layoffs",
+      "created_at": "2026-07-07T16:28:08Z",
+      "status": "scoring_attempted",
+      "title": "Doom developer id reportedly cut in half as part of Xbox layoffs"
     },
     "https://www.theverge.com/news/961528/microsoft-layoffs-july-2026-sales-xbox": {
       "canonical_url": "https://www.theverge.com/news/961528/microsoft-layoffs-july-2026-sales-xbox",
@@ -4207,6 +4354,12 @@
       "created_at": "2026-07-01T21:55:17Z",
       "status": "scoring_attempted",
       "title": "Goose, a New Gay Dating App, Appears to Be a Psyop"
+    },
+    "https://www.wired.com/story/shut-those-laptops-anthropic-puts-its-claude-cowork-agent-on-your-phone": {
+      "canonical_url": "https://www.wired.com/story/shut-those-laptops-anthropic-puts-its-claude-cowork-agent-on-your-phone",
+      "created_at": "2026-07-07T16:28:08Z",
+      "status": "scoring_attempted",
+      "title": "Shut Those Laptops! Anthropic Puts Its Claude Cowork Agent on Your Phone"
     },
     "https://www.wired.com/story/these-new-smart-glasses-from-solos-come-with-a-privacy-shield-for-the-cameras": {
       "canonical_url": "https://www.wired.com/story/these-new-smart-glasses-from-solos-come-with-a-privacy-shield-for-the-cameras",
