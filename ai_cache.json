@@ -188,6 +188,41 @@
         }
       }
     },
+    "2a0b6125e4bd9f6c8b5d8d442a7af41bedd979ef285e897ed90e64cd5fff4828": {
+      "created_at": "2026-07-08T18:59:09Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 4,
+            "novelty_score": 2.5,
+            "reason": "Interesting perspective on AGI training data but not a major industry move.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Why this CEO thinks video games make better training data than the internet",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 5,
+            "novelty_score": 3,
+            "reason": "New tool from Microsoft but source tier is low.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Show HN: Microsoft releases Flint, a visualization language for AI agents",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 5,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "3cc94170e501ad93d3693724c4c262c7dcb6574de0f571332fe3bb9df3592bd2": {
       "created_at": "2026-07-08T15:26:56Z",
       "payload": {
@@ -650,6 +685,46 @@
         }
       }
     },
+    "7ea9cd7ba413c9f436149c248ab8a0e794c01ecb685fd1940b0a4102e4f2d39b": {
+      "created_at": "2026-07-08T18:59:09Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "New AI feature in Google Photos with moderate impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Google Photos adds a new AI 'Video Remix' tool",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 3,
+            "novelty_score": 3,
+            "reason": "New full-duplex voice models from OpenAI with significant impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "OpenAI Releases GPT-Live and GPT-Live-1 mini: Full-Duplex Voice Models That Delegate Deeper Reasoning to GPT-5.5",
+            "total_score": 9
+          }
+        ],
+        "best_index": 3,
+        "best_score": 9,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "OpenAI has released GPT-Live, a new generation of voice models that can listen and speak simultaneously. These models use a full-duplex architecture and delegate deeper reasoning tasks to GPT-5.5. This development could significantly enhance real-time voice interactions in AI applications. Link: https://www.marktechpost.com/2026/07/08/openai-releases-gpt-live-and-gpt-live-1-mini-full-duplex-voice-models-that-delegate-deeper-reasoning-to-gpt-5-5/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *OpenAI Releases GPT-Live and GPT-Live-1 mini: Full-Duplex Voice Models That Delegate Deeper Reasoning to GPT-5.5*\n\nOpenAI's new GPT-Live models enable full-duplex voice conversations, delegating complex reasoning to GPT-5.5.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/07/08/openai-releases-gpt-live-and-gpt-live-1-mini-full-duplex-voice-models-that-delegate-deeper-reasoning-to-gpt-5-5/",
+          "threads": "OpenAI's GPT-Live models bring full-duplex voice capabilities to ChatGPT, offloading complex reasoning to GPT-5.5. This could change how we interact with AI voice assistants.\nhttps://www.marktechpost.com/2026/07/08/openai-releases-gpt-live-and-gpt-live-1-mini-full-duplex-voice-models-that-delegate-deeper-reasoning-to-gpt-5-5/",
+          "twitter": "OpenAI's GPT-Live models enable full-duplex voice conversations, delegating complex reasoning to GPT-5.5.\nhttps://www.marktechpost.com/2026/07/08/openai-releases-gpt-live-and-gpt-live-1-mini-full-duplex-voice-models-that-delegate-deeper-reasoning-to-gpt-5-5/"
+        }
+      }
+    },
     "84aa6d47da7fa3d247e47766a4f90461f9c8c4dfbce595103a821c3ef9ab7f47": {
       "created_at": "2026-07-08T16:01:10Z",
       "payload": {
@@ -669,6 +744,41 @@
         ],
         "best_index": 0,
         "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "85badb6e9ef736acb8b13c0a2039c5ba047d82563d5600f661b5388e493bed81": {
+      "created_at": "2026-07-08T18:59:09Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 0.0,
+            "index": 6,
+            "novelty_score": 0.0,
+            "reason": "Red flag triggered by 'What Do We Know About' in the title.",
+            "red_flag": true,
+            "red_flag_reason": "What is",
+            "source_score": 0.5,
+            "title": "What Do We Know About the Microplastics Inside Us?",
+            "total_score": 2.5
+          },
+          {
+            "freshness_score": 1.0,
+            "impact_score": 2.5,
+            "index": 20,
+            "novelty_score": 2.5,
+            "reason": "Interesting industry move but not groundbreaking enough to warrant a POST_NOW decision.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Your gaming data could be the secret to AGI, according to this Bezos-backed startup",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 20,
+        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -714,53 +824,6 @@
           }
         ],
         "best_index": 0,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "a05f511fa6926e97f2a9dff9871121bd913fbd47917843b5e2fe2c1c1894a6d2": {
-      "created_at": "2026-07-07T18:30:58Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 6,
-            "novelty_score": 2.5,
-            "reason": "New research on reducing doom loops in reasoning models, but impact is niche and source is mid-tier.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Liquid AI Open-Sources Antidoom: A Final Token Preference Optimization (FTPO) Method that Reduces Doom Loops in Reasoning Models",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.5,
-            "index": 10,
-            "novelty_score": 0.5,
-            "reason": "Opinion piece with low novelty and impact, from a low-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Software Bonkers",
-            "total_score": 2.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.5,
-            "index": 12,
-            "novelty_score": 0.5,
-            "reason": "Opinion piece with low novelty and impact, from a low-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Automating AI Away",
-            "total_score": 2.5
-          }
-        ],
-        "best_index": 6,
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
@@ -894,53 +957,6 @@
           }
         ],
         "best_index": 1,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "c188f3613f8e26c6ca65d12a3b1027965d348f46b67a93c51adfc3bd3acdc96a": {
-      "created_at": "2026-07-07T18:30:58Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.0,
-            "reason": "Red flag triggered by 'top accounts' in the title.",
-            "red_flag": true,
-            "red_flag_reason": "top accounts",
-            "source_score": 1.5,
-            "title": "X says top accounts steal videos from other users as it announces new video tools",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 0.0,
-            "index": 1,
-            "novelty_score": 0.0,
-            "reason": "Not relevant to software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "The \u2018G-Wagen of golf carts\u2019 could be the ideal second car",
-            "total_score": 3.5
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 0.0,
-            "index": 2,
-            "novelty_score": 0.0,
-            "reason": "Not relevant to software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "ABC tells the government to get out of its newsrooms",
-            "total_score": 3.5
-          }
-        ],
-        "best_index": 0,
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
@@ -1094,90 +1110,44 @@
         }
       }
     },
-    "c9b71388c6bf6b9bcb945a655e3731c487ab631b8f738785b6233b06a32d80b4": {
-      "created_at": "2026-07-07T18:30:58Z",
+    "cecb94f6cb661b5e549cdf01f6fdee62fcc49b88626bda2c4653b189daf6a53f": {
+      "created_at": "2026-07-08T18:59:09Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 2,
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 2.0,
+            "reason": "Industry move with moderate impact on developers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Microsoft\u2019s Xbox reset is pivoting Obsidian to make Fallout instead of Avowed",
+            "total_score": 6.0
+          },
+          {
+            "freshness_score": 2.0,
             "impact_score": 2.5,
-            "index": 3,
+            "index": 1,
             "novelty_score": 2.5,
-            "reason": "Anthropic's Claude Cowork AI platform expanding to mobile and web is a significant move for AI accessibility.",
+            "reason": "New feature in Google AI Studio that directly impacts developers.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 1.5,
-            "title": "Anthropic is launching Claude Cowork on mobile and web",
+            "title": "Google AI Studio Adds \u2018Import from GitHub\u2019 to Build Mode, Turning an Existing Repo Into an Editable, Deployable App",
             "total_score": 8.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 4,
-            "novelty_score": 2,
-            "reason": "The title contains 'how to' which is a red flag.",
-            "red_flag": true,
-            "red_flag_reason": "How to",
-            "source_score": 1,
-            "title": "How novice coders can develop AI programs for military applications",
-            "total_score": 6
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 5,
-            "novelty_score": 1.5,
-            "reason": "Google's Pixel 11 launch event announcement is relevant but not as impactful for AI researchers and software engineers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Google announces Pixel 11 launch event in August",
-            "total_score": 6
           }
         ],
-        "best_index": 3,
+        "best_index": 1,
         "best_score": 8.5,
         "recommendation": "POST_NOW",
         "social_posts": {
-          "facebook": "Anthropic is expanding its Claude Cowork AI platform to mobile and web, starting with Max subscribers. This move could significantly increase accessibility to AI tools for a broader audience. Link: https://www.theverge.com/ai-artificial-intelligence/961978/anthropic-claude-cowork-mobile-web",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\ud83d\udd25 *Anthropic is launching Claude Cowork on mobile and web* \n\nAnthropic's Claude Cowork AI platform is now available on mobile and web, starting with Max subscribers. This move could significantly increase accessibility to AI tools for a broader audience. \n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/ai-artificial-intelligence/961978/anthropic-claude-cowork-mobile-web\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Anthropic's Claude Cowork AI platform is now available on mobile and web, starting with Max subscribers. This is a significant step in making AI more accessible. https://www.theverge.com/ai-artificial-intelligence/961978/anthropic-claude-cowork-mobile-web",
-          "twitter": "Anthropic's Claude Cowork AI platform is now available on mobile and web, starting with Max subscribers. https://www.theverge.com/ai-artificial-intelligence/961978/anthropic-claude-cowork-mobile-web"
+          "facebook": "Google AI Studio has added a new feature that allows developers to import GitHub repositories directly into Build mode, making them editable and deployable. This is a significant update for developers working with AI and cloud-based applications. Link: https://www.marktechpost.com/2026/07/08/google-ai-studio-adds-import-from-github-to-build-mode/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Google AI Studio Adds \u2018Import from GitHub\u2019 to Build Mode*\n\nGoogle AI Studio now lets developers import GitHub repositories directly into Build mode, making them editable and deployable.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/07/08/google-ai-studio-adds-import-from-github-to-build-mode/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Google AI Studio now supports importing GitHub repos directly into Build mode, turning them into deployable apps. This is a game-changer for developers. https://www.marktechpost.com/2026/07/08/google-ai-studio-adds-import-from-github-to-build-mode/",
+          "twitter": "Google AI Studio now lets you import GitHub repos directly into Build mode, turning them into deployable apps. https://www.marktechpost.com/2026/07/08/google-ai-studio-adds-import-from-github-to-build-mode/"
         }
-      }
-    },
-    "cc637bc04a46e4a637dc5a29b67b185658fe9d4bcfc506a2390ba9bdc26fb810": {
-      "created_at": "2026-07-07T18:30:58Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.5,
-            "index": 16,
-            "novelty_score": 0.2,
-            "reason": "Tutorial-style content with low novelty and impact.",
-            "red_flag": true,
-            "red_flag_reason": "tutorial",
-            "source_score": 0.5,
-            "title": "Chat Control 1.0 and 2.0 Explained",
-            "total_score": 2.2
-          },
-          {
-            "freshness_score": 1,
-            "impact_score": 1.5,
-            "index": 23,
-            "novelty_score": 1.5,
-            "reason": "Interesting but not directly relevant to software engineers or AI researchers.",
-            "red_flag": false,
-            "source_score": 0.5,
-            "title": "Why skilled workers come to Germany and then leave again",
-            "total_score": 4.5
-          }
-        ],
-        "best_index": 23,
-        "best_score": 4.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "db93a9968f52f614026b35e8f62b26ca31e88fa2325d02cf47a919446cc238bd": {
@@ -1624,6 +1594,15 @@
         "twitter": "Hugging Face expands its offerings with managed compute services on Foundry, simplifying model deployment for developers @HuggingFace #AI"
       }
     },
+    "0a7e9437cbc26a06667ace10c5ce4e7fb0326ddcda575d6ef92206157e1e6aa2": {
+      "created_at": "2026-07-08T18:59:09Z",
+      "payload": {
+        "facebook": "The latest development in voice models is here, with OpenAI's GPT-Live and GPT-Live-1 mini now capable of full-duplex conversations, making them more human-like in their interactions. This technology has the potential to significantly improve voice assistants. #AI #VoiceModels #GPT",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 OpenAI Introduces Full-Duplex Voice Models\nGPT-Live models can now engage in simultaneous conversations, with GPT-5.5 handling complex reasoning tasks.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n#AI #VoiceTechnology #GPT\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "OpenAI has released GPT-Live, a new generation of voice models that can listen and speak simultaneously, with GPT-5.5 handling deeper reasoning tasks @OpenAI #AI",
+        "twitter": "OpenAI's new GPT-Live models enable full-duplex voice conversations, leveraging GPT-5.5 for deeper reasoning @OpenAI #AI"
+      }
+    },
     "1a2d715b32bd547e58ebc56cb6554c52e8fb461fd51c732ca58e5670121fa2b3": {
       "created_at": "2026-07-03T01:04:17Z",
       "payload": {
@@ -1867,15 +1846,6 @@
         "twitter": "Elon Musk denies SpaceX is working on an AI phone prototype @elonmusk #SpaceX"
       }
     },
-    "add7c693f468be53a7029aec9afdeb6e7ac6434bd0db5cc74d20d0d3dd628abd": {
-      "created_at": "2026-07-01T18:23:15Z",
-      "payload": {
-        "facebook": "A significant shift is happening in the AI industry as Cloudflare introduces a new policy that pushes AI companies to pay for publishers' content. This move is expected to impact many companies and publishers, and they have until September 15 to separate their web crawlers. #AI #Cloudflare #Publishing",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Cloudflare Introduces New Policy for AI Companies\nCloudflare is giving AI companies an ultimatum to pay for publishers' content or risk being blocked by default on many publisher sites.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #Cloudflare #Publishing\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Cloudflare is changing the rules for AI companies, requiring them to pay for publishers' content by September 15, @Cloudflare is leading this charge #AI",
-        "twitter": "Cloudflare's new policy requires AI companies to pay for publishers' content, @Cloudflare is giving them until September 15 to comply #AI #Cloudflare"
-      }
-    },
     "c987c2bebed5b0390cf120cf21a4e9185b2428857019bace1a72403dce6035a7": {
       "created_at": "2026-07-06T20:45:37Z",
       "payload": {
@@ -2010,12 +1980,6 @@
       "status": "scoring_attempted",
       "title": "Hackers can use 9 of the most popular AI tools to assemble massive botnets"
     },
-    "https://arstechnica.com/tech-policy/2026/07/after-spooking-trump-into-safety-testing-anthropic-ai-models-get-global-release": {
-      "canonical_url": "https://arstechnica.com/tech-policy/2026/07/after-spooking-trump-into-safety-testing-anthropic-ai-models-get-global-release",
-      "created_at": "2026-07-01T18:23:15Z",
-      "status": "scoring_attempted",
-      "title": "After spooking Trump into safety testing, Anthropic AI models get global release"
-    },
     "https://arstechnica.com/tech-policy/2026/07/anthropic-outed-for-claude-tracker-that-secretly-monitored-chinese-users": {
       "canonical_url": "https://arstechnica.com/tech-policy/2026/07/anthropic-outed-for-claude-tracker-that-secretly-monitored-chinese-users",
       "created_at": "2026-07-06T16:50:48Z",
@@ -2063,12 +2027,6 @@
       "created_at": "2026-07-05T07:40:23Z",
       "status": "scoring_attempted",
       "title": "The Log Is the Agent"
-    },
-    "https://arxiv.org/abs/2606.22748": {
-      "canonical_url": "https://arxiv.org/abs/2606.22748",
-      "created_at": "2026-07-01T18:23:15Z",
-      "status": "scoring_attempted",
-      "title": "Are readers generating fiction with AI models?"
     },
     "https://arxiv.org/abs/2606.26967": {
       "canonical_url": "https://arxiv.org/abs/2606.26967",
@@ -2688,12 +2646,6 @@
       "status": "scoring_attempted",
       "title": "NSA and IETF: Fairness"
     },
-    "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026": {
-      "canonical_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026",
-      "created_at": "2026-07-01T18:23:15Z",
-      "status": "scoring_attempted",
-      "title": "The latest AI news we announced in June 2026"
-    },
     "https://blog.mikebowler.ca/2026/07/03/co2-and-decision-making": {
       "canonical_url": "https://blog.mikebowler.ca/2026/07/03/co2-and-decision-making",
       "created_at": "2026-07-04T07:17:30Z",
@@ -2712,23 +2664,11 @@
       "status": "scoring_attempted",
       "title": "AI Meets Cryptography 1: What AI Found in Cloudflare's Circl"
     },
-    "https://box2d.org/posts/2026/06/announcing-box3d": {
-      "canonical_url": "https://box2d.org/posts/2026/06/announcing-box3d",
-      "created_at": "2026-07-01T18:23:15Z",
-      "status": "scoring_attempted",
-      "title": "Box3D, an open source 3D physics engine"
-    },
     "https://carto.tchoo.net": {
       "canonical_url": "https://carto.tchoo.net",
       "created_at": "2026-07-06T14:42:06Z",
       "status": "scoring_attempted",
       "title": "Real time map of France's rail network"
-    },
-    "https://cerebrium.ai/blog/reducing-gpu-cold-starts-with-memory-snapshots-restoring-cuda-workloads-in-second": {
-      "canonical_url": "https://cerebrium.ai/blog/reducing-gpu-cold-starts-with-memory-snapshots-restoring-cuda-workloads-in-second",
-      "created_at": "2026-07-01T18:23:15Z",
-      "status": "scoring_attempted",
-      "title": "Reduce GVisor Cold Starts with GPU Snapshotting"
     },
     "https://chenliu-1996.github.io/projects/LM-Dispersion": {
       "canonical_url": "https://chenliu-1996.github.io/projects/LM-Dispersion",
@@ -2801,6 +2741,12 @@
       "created_at": "2026-07-05T14:53:15Z",
       "status": "scoring_attempted",
       "title": "Introduction to Compilers and Language Design"
+    },
+    "https://e360.yale.edu/features/cassandra-rauert-interview": {
+      "canonical_url": "https://e360.yale.edu/features/cassandra-rauert-interview",
+      "created_at": "2026-07-08T18:59:09Z",
+      "status": "scoring_attempted",
+      "title": "What Do We Know About the Microplastics Inside Us?"
     },
     "https://ekinertac.com/blog/i-dont-know-rust-my-ai-is-rewriting-php-in-it": {
       "canonical_url": "https://ekinertac.com/blog/i-dont-know-rust-my-ai-is-rewriting-php-in-it",
@@ -3120,6 +3066,12 @@
       "status": "scoring_attempted",
       "title": "The primary purpose of code review is to find code that will be hard to maintain"
     },
+    "https://microsoft.github.io/flint-chart": {
+      "canonical_url": "https://microsoft.github.io/flint-chart",
+      "created_at": "2026-07-08T18:59:09Z",
+      "status": "scoring_attempted",
+      "title": "Show HN: Microsoft releases Flint, a visualization language for AI agents"
+    },
     "https://mistral.ai/news/robostral-navigate": {
       "canonical_url": "https://mistral.ai/news/robostral-navigate",
       "created_at": "2026-07-08T15:26:56Z",
@@ -3281,12 +3233,6 @@
       "created_at": "2026-07-01T20:21:20Z",
       "status": "scoring_attempted",
       "title": "Ashton Kutcher leaving Sound Ventures to launch new VC firm with Morgan Beller"
-    },
-    "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content": {
-      "canonical_url": "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content",
-      "created_at": "2026-07-01T18:23:15Z",
-      "status": "scoring_attempted",
-      "title": "Cloudflare\u2019s new policy pushes AI companies to pay for publishers\u2019 content"
     },
     "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office": {
       "canonical_url": "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office",
@@ -3468,6 +3414,12 @@
       "status": "scoring_attempted",
       "title": "Former OpenAI exec Kevin Weil is now on the board of Stoke Space"
     },
+    "https://techcrunch.com/2026/07/08/google-photos-adds-a-new-ai-video-remix-tool": {
+      "canonical_url": "https://techcrunch.com/2026/07/08/google-photos-adds-a-new-ai-video-remix-tool",
+      "created_at": "2026-07-08T18:59:09Z",
+      "status": "scoring_attempted",
+      "title": "Google Photos adds a new AI \u2018Video Remix\u2019 tool"
+    },
     "https://techcrunch.com/2026/07/08/hot-french-startup-zml-releases-free-product-to-speed-inference-across-lots-of-ai-chips": {
       "canonical_url": "https://techcrunch.com/2026/07/08/hot-french-startup-zml-releases-free-product-to-speed-inference-across-lots-of-ai-chips",
       "created_at": "2026-07-08T08:46:18Z",
@@ -3497,6 +3449,18 @@
       "created_at": "2026-07-08T16:01:10Z",
       "status": "scoring_attempted",
       "title": "These AI startups are growing revenue at faster and faster rates"
+    },
+    "https://techcrunch.com/podcast/your-gaming-data-could-be-the-secret-to-agi-according-to-this-bezos-backed-startup": {
+      "canonical_url": "https://techcrunch.com/podcast/your-gaming-data-could-be-the-secret-to-agi-according-to-this-bezos-backed-startup",
+      "created_at": "2026-07-08T18:59:09Z",
+      "status": "scoring_attempted",
+      "title": "Your gaming data could be the secret to AGI, according to this Bezos-backed startup"
+    },
+    "https://techcrunch.com/video/why-this-ceo-thinks-video-games-make-better-training-data-than-the-internet": {
+      "canonical_url": "https://techcrunch.com/video/why-this-ceo-thinks-video-games-make-better-training-data-than-the-internet",
+      "created_at": "2026-07-08T18:59:09Z",
+      "status": "scoring_attempted",
+      "title": "Why this CEO thinks video games make better training data than the internet"
     },
     "https://ternlight-demo.vercel.app": {
       "canonical_url": "https://ternlight-demo.vercel.app",
@@ -3936,6 +3900,18 @@
       "status": "scoring_attempted",
       "title": "NVIDIA Releases Audex (Nemotron-Labs-Audex-30B-A3B): A Unified Audio-Text LLM That Preserves the Text Intelligence of Its Backbone"
     },
+    "https://www.marktechpost.com/2026/07/08/google-ai-studio-adds-import-from-github-to-build-mode": {
+      "canonical_url": "https://www.marktechpost.com/2026/07/08/google-ai-studio-adds-import-from-github-to-build-mode",
+      "created_at": "2026-07-08T18:59:09Z",
+      "status": "scoring_attempted",
+      "title": "Google AI Studio Adds \u2018Import from GitHub\u2019 to Build Mode, Turning an Existing Repo Into an Editable, Deployable App"
+    },
+    "https://www.marktechpost.com/2026/07/08/openai-releases-gpt-live-and-gpt-live-1-mini-full-duplex-voice-models-that-delegate-deeper-reasoning-to-gpt-5-5": {
+      "canonical_url": "https://www.marktechpost.com/2026/07/08/openai-releases-gpt-live-and-gpt-live-1-mini-full-duplex-voice-models-that-delegate-deeper-reasoning-to-gpt-5-5",
+      "created_at": "2026-07-08T18:59:09Z",
+      "status": "scoring_attempted",
+      "title": "OpenAI Releases GPT-Live and GPT-Live-1 mini: Full-Duplex Voice Models That Delegate Deeper Reasoning to GPT-5.5"
+    },
     "https://www.nbcchicago.com/news/local/delta-flight-hit-by-firework-while-landing-at-midway-airport-on-fourth-of-july/3957451": {
       "canonical_url": "https://www.nbcchicago.com/news/local/delta-flight-hit-by-firework-while-landing-at-midway-airport-on-fourth-of-july/3957451",
       "created_at": "2026-07-05T22:47:58Z",
@@ -4086,12 +4062,6 @@
       "status": "scoring_attempted",
       "title": "Of course viewers are giving up on Netflix shows"
     },
-    "https://www.theverge.com/gadgets/960282/kobo-libra-colour-july-fourth-sale-deal-sale": {
-      "canonical_url": "https://www.theverge.com/gadgets/960282/kobo-libra-colour-july-fourth-sale-deal-sale",
-      "created_at": "2026-07-01T18:23:15Z",
-      "status": "scoring_attempted",
-      "title": "My favorite Kindle alternative is $30 off after a recent price increase"
-    },
     "https://www.theverge.com/gadgets/960558/weber-july-4th-grill-griddle-sale-deal": {
       "canonical_url": "https://www.theverge.com/gadgets/960558/weber-july-4th-grill-griddle-sale-deal",
       "created_at": "2026-07-02T20:45:32Z",
@@ -4146,12 +4116,6 @@
       "status": "scoring_attempted",
       "title": "Xbox\u2019s \u2018reset\u2019: all the news about Microsoft&#8217;s looming layoffs and studio closures"
     },
-    "https://www.theverge.com/games/960354/krafton-subnautica-2-settlement-bonuses-unknown-worlds": {
-      "canonical_url": "https://www.theverge.com/games/960354/krafton-subnautica-2-settlement-bonuses-unknown-worlds",
-      "created_at": "2026-07-01T18:23:15Z",
-      "status": "scoring_attempted",
-      "title": "Krafton settles with Subnautica 2 developer after drawn-out dispute over $250 million"
-    },
     "https://www.theverge.com/games/960476/playstation-physical-games-discs-stop-production-preservation-retail-stores": {
       "canonical_url": "https://www.theverge.com/games/960476/playstation-physical-games-discs-stop-production-preservation-retail-stores",
       "created_at": "2026-07-01T23:11:04Z",
@@ -4169,6 +4133,12 @@
       "created_at": "2026-07-07T16:28:08Z",
       "status": "scoring_attempted",
       "title": "Doom developer id reportedly cut in half as part of Xbox layoffs"
+    },
+    "https://www.theverge.com/games/963024/microsoft-xbox-reset-obsidian-fallout-layoffs": {
+      "canonical_url": "https://www.theverge.com/games/963024/microsoft-xbox-reset-obsidian-fallout-layoffs",
+      "created_at": "2026-07-08T18:59:09Z",
+      "status": "scoring_attempted",
+      "title": "Microsoft&#8217;s Xbox reset is pivoting Obsidian to make Fallout instead of Avowed"
     },
     "https://www.theverge.com/news/961528/microsoft-layoffs-july-2026-sales-xbox": {
       "canonical_url": "https://www.theverge.com/news/961528/microsoft-layoffs-july-2026-sales-xbox",
@@ -4397,12 +4367,6 @@
       "created_at": "2026-07-07T10:22:26Z",
       "status": "scoring_attempted",
       "title": "Erling Haaland Is Everywhere at the World Cup. Most of It Is AI"
-    },
-    "https://www.wired.com/story/flare-website-ai-flaw-reporting-safety": {
-      "canonical_url": "https://www.wired.com/story/flare-website-ai-flaw-reporting-safety",
-      "created_at": "2026-07-01T18:23:15Z",
-      "status": "scoring_attempted",
-      "title": "You Can Now Sound the Alarm on AI Behaving Badly"
     },
     "https://www.wired.com/story/google-deepmind-unionization-talks-are-off-to-a-rocky-start": {
       "canonical_url": "https://www.wired.com/story/google-deepmind-unionization-talks-are-off-to-a-rocky-start",
