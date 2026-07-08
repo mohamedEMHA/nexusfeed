@@ -575,56 +575,27 @@
         "social_posts": {}
       }
     },
-    "74647a4281aa23fc6fb19dd992f03a0681e13c4f412f7733d36701d24e2529e2": {
-      "created_at": "2026-07-07T15:36:30Z",
+    "6d704235216de2c170c7d3c8ba328527816b683f6b317100e15a96e9a4c7c3bc": {
+      "created_at": "2026-07-08T16:01:10Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Hugging Face announces new managed compute service for models, impacting all developers using their platform.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 2,
-            "title": "Hugging Face Models on Foundry Managed Compute",
-            "total_score": 9
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2,
-            "reason": "Discord's AI safety system bug caused mass bans, affecting thousands of users.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Discord accidentally banned over 8,000 people for posting grids and other \u2018benign\u2019 images",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1,
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
             "index": 2,
-            "novelty_score": 1.5,
-            "reason": "Academic appointment with limited direct impact on software engineers or AI researchers.",
+            "novelty_score": 2.5,
+            "reason": "Chatto's open sourcing is notable but niche impact and low-tier source limit its score.",
             "red_flag": false,
             "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Jesse Thaler named director of the Laboratory for Nuclear Science",
-            "total_score": 5.5
+            "source_score": 0.5,
+            "title": "Chatto is now Open Source",
+            "total_score": 6.5
           }
         ],
-        "best_index": 0,
-        "best_score": 9,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Hugging Face has introduced a new managed compute service for models, making it easier for developers to deploy and scale their AI applications. This move could significantly impact how developers interact with Hugging Face's platform.\nLink: https://huggingface.co/blog/microsoft/foundry-managed-compute",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Hugging Face Models on Foundry Managed Compute*\n\nHugging Face has introduced a new managed compute service for models, streamlining deployment for developers.\n\n\ud83c\udfdb\ufe0f Source: HuggingFace (S)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9/10\n\n\ud83d\udd17 https://huggingface.co/blog/microsoft/foundry-managed-compute\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Hugging Face just launched managed compute for models, simplifying deployment for developers. A big step for AI infrastructure.\nhttps://huggingface.co/blog/microsoft/foundry-managed-compute",
-          "twitter": "Hugging Face launches managed compute for models, streamlining deployment for developers.\nhttps://huggingface.co/blog/microsoft/foundry-managed-compute"
-        }
+        "best_index": 2,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "78b4ad1eabb8caaa0f0b9b1b1aa275a583282bbcd19e6b960bc1c6790dce3038": {
@@ -700,6 +671,29 @@
           "threads": "Discord's AI moderation bug wrongfully banned users over harmless images, affecting accounts since May. The issue was fixed after an additional 200 users were banned over the weekend. https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images/",
           "twitter": "Discord's AI moderation bug wrongfully banned users over harmless images, affecting accounts since May. https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images/"
         }
+      }
+    },
+    "84aa6d47da7fa3d247e47766a4f90461f9c8c4dfbce595103a821c3ef9ab7f47": {
+      "created_at": "2026-07-08T16:01:10Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 1.5,
+            "reason": "Interesting but not groundbreaking; lacks specific technical details.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "These AI startups are growing revenue at faster and faster rates",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "8a606746dea5156a10baba722315d4bd3f1da00f1ad5a4655e7e5e9c40705658": {
@@ -870,41 +864,6 @@
         "social_posts": {}
       }
     },
-    "b8bedcbf6cbfd64f9f4ce4414ad9b96b56aa6e8cb7b0818706372b76dc37f66a": {
-      "created_at": "2026-07-07T15:36:30Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 6,
-            "novelty_score": 2.5,
-            "reason": "New feature in Google Search Console for content creators and website owners.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Google Search lets creators know more about their reach",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 7,
-            "novelty_score": 2.5,
-            "reason": "New smart glasses with a privacy feature for cameras.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "These New Smart Glasses From Solos Come With a Privacy Shield for the Cameras",
-            "total_score": 7.0
-          }
-        ],
-        "best_index": 6,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "ba2b675e55591b300ba266d1c2185aebf9845343b1e51b0cf9429c092794e953": {
       "created_at": "2026-07-07T21:55:05Z",
       "payload": {
@@ -1046,41 +1005,6 @@
         ],
         "best_index": 0,
         "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "c5325467507ea5a2421cf40c64cd1df473988dcf0d3e288aa64606edd092e87c": {
-      "created_at": "2026-07-07T15:36:30Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 8,
-            "novelty_score": 2,
-            "reason": "New product announcement but limited impact for software engineers and AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "iFixit has a new toolkit for fixing appliances, building furniture, and household repairs",
-            "total_score": 6
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0,
-            "index": 9,
-            "novelty_score": 0,
-            "reason": "Lifestyle tip with no relevance to software engineering or AI research.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "A better way to tie your gym shorts. (Or any drawstring) [video]",
-            "total_score": 2
-          }
-        ],
-        "best_index": 8,
-        "best_score": 6,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1588,6 +1512,29 @@
         "social_posts": {}
       }
     },
+    "f4cf5e1271f117add03523b2528ad4e7f35c585cd8d900d67e3ef53f2bfa95b1": {
+      "created_at": "2026-07-08T16:01:10Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "New tool for AI agent specification, niche impact, fresh, low-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Show HN: Kastor \u2013 Terraform-style specs for AI agents",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "f724a38ef76cf58397faa2e2fe36ab0855b000ce7ecd4b0b795e3f46d1cd9c40": {
       "created_at": "2026-07-07T22:57:38Z",
       "payload": {
@@ -1614,53 +1561,6 @@
           "threads": "Meta's new Muse AI image generator looks promising for advertising and creative fields. Worth keeping an eye on. https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/",
           "twitter": "Meta just launched Muse, an AI image generator that could reshape advertising and creative work. https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/"
         }
-      }
-    },
-    "fa9d3e9b9b3367df4b14c05957782b867ea0b57f432c4300f72ae67f00d97818": {
-      "created_at": "2026-07-07T15:36:30Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.5,
-            "index": 3,
-            "novelty_score": 1.5,
-            "reason": "Product discount article with limited relevance to software engineers and AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Anker\u2019s noise-blocking earbuds for sleeping are nearly half off",
-            "total_score": 3.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.5,
-            "index": 4,
-            "novelty_score": 2,
-            "reason": "Product announcement with limited relevance to software engineers and AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "iRobot\u2019s newest floor cleaner isn\u2019t a robot",
-            "total_score": 5.0
-          },
-          {
-            "freshness_score": 1,
-            "impact_score": 1.5,
-            "index": 5,
-            "novelty_score": 2.5,
-            "reason": "New hardware product with some relevance to AI researchers but not groundbreaking.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Solos debuts an even lighter version of its camera-less smart glasses",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 5,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "fab3627587f374b198f2aefa329911fbc415d0763e1da3201470fb2b81f124db": {
@@ -3054,6 +2954,12 @@
       "status": "scoring_attempted",
       "title": "Show HN: Fortress \u2013 a stealth Chromium so your agents stop getting blocked"
     },
+    "https://github.com/weirdGuy/kastor": {
+      "canonical_url": "https://github.com/weirdGuy/kastor",
+      "created_at": "2026-07-08T16:01:10Z",
+      "status": "scoring_attempted",
+      "title": "Show HN: Kastor \u2013 Terraform-style specs for AI agents"
+    },
     "https://gwern.net/lean-scaling": {
       "canonical_url": "https://gwern.net/lean-scaling",
       "created_at": "2026-07-06T00:12:28Z",
@@ -3588,6 +3494,12 @@
       "status": "scoring_attempted",
       "title": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round"
     },
+    "https://techcrunch.com/2026/07/08/these-ai-startups-are-growing-revenue-at-faster-and-faster-rates": {
+      "canonical_url": "https://techcrunch.com/2026/07/08/these-ai-startups-are-growing-revenue-at-faster-and-faster-rates",
+      "created_at": "2026-07-08T16:01:10Z",
+      "status": "scoring_attempted",
+      "title": "These AI startups are growing revenue at faster and faster rates"
+    },
     "https://ternlight-demo.vercel.app": {
       "canonical_url": "https://ternlight-demo.vercel.app",
       "created_at": "2026-07-07T01:09:45Z",
@@ -3761,6 +3673,12 @@
       "created_at": "2026-07-05T04:30:02Z",
       "status": "scoring_attempted",
       "title": "Record-breaking solo rower Kelsey Pfendler arrives in Hawaii"
+    },
+    "https://www.hmans.dev/blog/chatto-is-open-source": {
+      "canonical_url": "https://www.hmans.dev/blog/chatto-is-open-source",
+      "created_at": "2026-07-08T16:01:10Z",
+      "status": "scoring_attempted",
+      "title": "Chatto is now Open Source"
     },
     "https://www.hyperstitionai.com/unslop-results": {
       "canonical_url": "https://www.hyperstitionai.com/unslop-results",
