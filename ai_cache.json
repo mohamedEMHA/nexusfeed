@@ -171,27 +171,44 @@
         }
       }
     },
-    "288edfe6e705a1491e0ef57f8a370b7fb6a2665ef0b982655485ea2a14aff5ac": {
-      "created_at": "2026-07-07T08:45:45Z",
+    "2430bc222d991f12ec7f1991f8967d30a6005fb0bdfd93f792d761e4f3792083": {
+      "created_at": "2026-07-08T08:46:18Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 2,
-            "novelty_score": 3.0,
-            "reason": "Tencent's Hy3 is a significant release with a large model size and open licensing, but it's not groundbreaking enough to warrant a higher score.",
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 1.5,
+            "reason": "Product announcement with moderate novelty and impact.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 1.5,
-            "title": "Tencent Releases Hy3: An Open 295B Mixture-of-Experts (MoE) Model with 21B Active Parameters and 256K Context",
-            "total_score": 8.0
+            "title": "Samsung will launch its new wide foldable on July 22nd",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "New AI inference software release with significant impact on developers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Hot French startup ZML releases free product to speed inference across lots of AI chips",
+            "total_score": 8.5
           }
         ],
-        "best_index": 2,
-        "best_score": 8.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
+        "best_index": 1,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "ZML, a French AI startup endorsed by Turing Award winner Yann LeCun, has released ZML/LLMD, software designed to make running AI less costly. This could significantly impact developers working with AI inference. Link: https://techcrunch.com/2026/07/08/hot-french-startup-zml-releases-free-product-to-speed-inference-across-lots-of-ai-chips/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Hot French startup ZML releases free product to speed inference across lots of AI chips*\n\nZML, backed by Yann LeCun, has released ZML/LLMD, software designed to make running AI less costly.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/08/hot-french-startup-zml-releases-free-product-to-speed-inference-across-lots-of-ai-chips/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "ZML, backed by Yann LeCun, just released ZML/LLMD to speed AI inference across multiple chips. This could be a game-changer for developers. https://techcrunch.com/2026/07/08/hot-french-startup-zml-releases-free-product-to-speed-inference-across-lots-of-ai-chips/",
+          "twitter": "ZML, backed by Yann LeCun, just released ZML/LLMD to speed AI inference across multiple chips. https://techcrunch.com/2026/07/08/hot-french-startup-zml-releases-free-product-to-speed-inference-across-lots-of-ai-chips/"
+        }
       }
     },
     "335a5ad0a04c9dc353db4a388956d52e2c2129f0b1111925b3feb22d5ea6ab82": {
@@ -366,6 +383,29 @@
         ],
         "best_index": 8,
         "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "4a0fd87c363ae824cf6bc25d28007d14a51050631dbb0cf18cbc76498c230ebc": {
+      "created_at": "2026-07-08T08:46:18Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 4,
+            "novelty_score": 2.5,
+            "reason": "Security researchers exposed a vulnerability in GitHub's AI agent that could leak private repositories.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos",
+            "total_score": 7.0
+          }
+        ],
+        "best_index": 4,
+        "best_score": 7.0,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -719,34 +759,6 @@
         }
       }
     },
-    "86df233af83dfbb1c10f851ad318943c1bd4c34d82f59d4fe566dfb4c3d9fcd0": {
-      "created_at": "2026-07-07T08:45:45Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Node.js 26 release with Temporal API enabled by default and V8 14.6 update impacts all Node.js developers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Node.js 26: Temporal API Enabled by Default, V8 14.6, and a Round of Deprecations",
-            "total_score": 8
-          }
-        ],
-        "best_index": 1,
-        "best_score": 8,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Node.js 26 has been released with the Temporal API enabled by default, V8 14.6, and several deprecations. Developers should take note of the migration points related to NODE_MODULE_VERSION changes. This update impacts all Node.js developers and includes significant updates to the Undici HTTP client. Link: https://www.infoq.com/news/2026/07/nodejs-26-temporal/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Node.js 26: Temporal API Enabled by Default, V8 14.6, and a Round of Deprecations*\n\nNode.js 26 has been released, featuring the Temporal API enabled by default, an updated V8 engine to version 14.6, and the Undici HTTP client upgraded to 8.0. The release also removes deprecated legacy APIs.\n\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (B)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8/10\n\n\ud83d\udd17 https://www.infoq.com/news/2026/07/nodejs-26-temporal/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Node.js 26 just shipped with Temporal API enabled by default, V8 14.6, and a round of deprecations. Legacy APIs are being phased out, so developers should check migration notes. https://www.infoq.com/news/2026/07/nodejs-26-temporal/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "twitter": "Node.js 26 lands with Temporal API enabled by default and V8 14.6. Deprecations loom for legacy APIs.\nhttps://www.infoq.com/news/2026/07/nodejs-26-temporal/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
-        }
-      }
-    },
     "9ad6bcef72f213f8d1af658c0d1196e21542da701c551460c95e0117337342b5": {
       "created_at": "2026-07-07T16:28:08Z",
       "payload": {
@@ -888,29 +900,6 @@
           "threads": "Top robotics researchers explain how AI is driving general-purpose autonomy in robotics. This article dives into how AI could enable autonomous robot workers in workplaces\u2014and maybe homes. https://arstechnica.com/features/2026/07/robot-workers-rising-how-ai-may-drive-general-purpose-autonomy-in-robotics/",
           "twitter": "Top robotics researchers explain how AI is driving general-purpose autonomy in robotics. https://arstechnica.com/features/2026/07/robot-workers-rising-how-ai-may-drive-general-purpose-autonomy-in-robotics/"
         }
-      }
-    },
-    "b0f803e439d311b7515b9ed906450142818995cc7043233e22538ce5b8b7d463": {
-      "created_at": "2026-07-07T08:45:45Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "HubSpot's scaling of semantic search to 20 billion vectors is a significant industry move with broad implications for SaaS platforms.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "How HubSpot Scaled Semantic Search to 20 Billion Vectors",
-            "total_score": 8
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "b8bedcbf6cbfd64f9f4ce4414ad9b96b56aa6e8cb7b0818706372b76dc37f66a": {
@@ -1368,6 +1357,29 @@
         "social_posts": {}
       }
     },
+    "eaa88b90c69bdb3b8d838009dbd1a6421aeff0989c00332f84236c5397d8b545": {
+      "created_at": "2026-07-08T08:46:18Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "New research on AI tool vulnerabilities with significant impact on security practices.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Hackers can use 9 of the most popular AI tools to assemble massive botnets",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 3,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "eabc2c82b7fc2493bb64c892845490f369c364d02ab42878477aacab061dace9": {
       "created_at": "2026-07-08T06:14:54Z",
       "payload": {
@@ -1636,6 +1648,34 @@
         "recommendation": "SKIP",
         "social_posts": {}
       }
+    },
+    "fab3627587f374b198f2aefa329911fbc415d0763e1da3201470fb2b81f124db": {
+      "created_at": "2026-07-08T08:46:18Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "SambaNova's $1B raise at $11B valuation is a significant industry move with broad implications for AI hardware.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 2,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "AI chip maker SambaNova has raised $1B at an $11B valuation, just five months after its last mega round. This comes as Intel was rumored to be trying to buy it for about $1.6 billion. Link: https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round*\n\nSambaNova has raised $1B at an $11B valuation, just five months after its last mega round, as Intel was rumored to be trying to buy it for about $1.6 billion.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "SambaNova just raised $1B at an $11B valuation, defying Intel's rumored $1.6B acquisition offer. This is a major move in the AI hardware space. https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/",
+          "twitter": "SambaNova just raised $1B at an $11B valuation, defying Intel's rumored $1.6B acquisition offer. https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/"
+        }
+      }
     }
   },
   "groq_social_posts": {
@@ -1855,6 +1895,15 @@
         "twitter": "China's DeepSeek is planning to develop its own chips to reduce dependency on Nvidia and Huawei due to US export controls @ArsTechnica #AI"
       }
     },
+    "9aa9f279251fd0fd097a1de929f7933c1d2660836da8b45c2b333134d82ddf4a": {
+      "created_at": "2026-07-08T08:46:18Z",
+      "payload": {
+        "facebook": "A new development in AI could make running artificial intelligence less costly, thanks to ZML's new software release. This move is expected to have significant implications for developers. #AI #MachineLearning #TechNews",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 ZML Releases Free AI Inference Software\nZML, a French AI startup, has released software to speed AI inference, making it less costly.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #MachineLearning #TechNews\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "ZML's new software release could make AI inference faster and less costly, a significant development for the field @TechCrunch #AI",
+        "twitter": "French startup ZML endorsed by Yann LeCun releases free software to speed AI inference @TechCrunch #AI"
+      }
+    },
     "a1ac4939ad89e3554e0f140ea32c8158e4835c7fea6dc9cb4569bf1c3c315e0e": {
       "created_at": "2026-07-01T10:17:12Z",
       "payload": {
@@ -2021,6 +2070,12 @@
       "created_at": "2026-07-07T12:41:43Z",
       "status": "scoring_attempted",
       "title": "How AI could enable autonomous robot workers in workplaces\u2014and maybe homes"
+    },
+    "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets": {
+      "canonical_url": "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets",
+      "created_at": "2026-07-08T08:46:18Z",
+      "status": "scoring_attempted",
+      "title": "Hackers can use 9 of the most popular AI tools to assemble massive botnets"
     },
     "https://arstechnica.com/tech-policy/2026/07/after-spooking-trump-into-safety-testing-anthropic-ai-models-get-global-release": {
       "canonical_url": "https://arstechnica.com/tech-policy/2026/07/after-spooking-trump-into-safety-testing-anthropic-ai-models-get-global-release",
@@ -3204,6 +3259,12 @@
       "status": "scoring_attempted",
       "title": "Composite Video on the NES: Why's it so wobbly?"
     },
+    "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos": {
+      "canonical_url": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos",
+      "created_at": "2026-07-08T08:46:18Z",
+      "status": "scoring_attempted",
+      "title": "GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos"
+    },
     "https://oak.space": {
       "canonical_url": "https://oak.space",
       "created_at": "2026-07-03T21:21:34Z",
@@ -3497,6 +3558,18 @@
       "created_at": "2026-07-07T20:28:28Z",
       "status": "scoring_attempted",
       "title": "Why the rise of open source AI isn\u2019t hurting Anthropic \u2026 yet"
+    },
+    "https://techcrunch.com/2026/07/08/hot-french-startup-zml-releases-free-product-to-speed-inference-across-lots-of-ai-chips": {
+      "canonical_url": "https://techcrunch.com/2026/07/08/hot-french-startup-zml-releases-free-product-to-speed-inference-across-lots-of-ai-chips",
+      "created_at": "2026-07-08T08:46:18Z",
+      "status": "scoring_attempted",
+      "title": "Hot French startup ZML releases free product to speed inference across lots of AI chips"
+    },
+    "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close": {
+      "canonical_url": "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close",
+      "created_at": "2026-07-08T08:46:18Z",
+      "status": "scoring_attempted",
+      "title": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round"
     },
     "https://ternlight-demo.vercel.app": {
       "canonical_url": "https://ternlight-demo.vercel.app",
@@ -4397,6 +4470,12 @@
       "created_at": "2026-07-07T21:55:05Z",
       "status": "scoring_attempted",
       "title": "Meta\u2019s new Muse Image model can pull other Instagram users into AI photos"
+    },
+    "https://www.theverge.com/tech/962658/samsung-galaxy-unpacked-wide-foldable-watch-july": {
+      "canonical_url": "https://www.theverge.com/tech/962658/samsung-galaxy-unpacked-wide-foldable-watch-july",
+      "created_at": "2026-07-08T08:46:18Z",
+      "status": "scoring_attempted",
+      "title": "Samsung will launch its new wide foldable on July 22nd"
     },
     "https://www.theverge.com/transportation/957685/tesla-q2-2026-sales-production-delivery-report": {
       "canonical_url": "https://www.theverge.com/transportation/957685/tesla-q2-2026-sales-production-delivery-report",
