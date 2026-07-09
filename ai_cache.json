@@ -1,5 +1,57 @@
 {
   "cerebras_scoring": {
+    "1cef370e9e7bf5912d6a793f350e5e72aba9dc46e9a97e1e1e71fd2bfb12514d": {
+      "created_at": "2026-07-09T20:10:00Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 6,
+            "novelty_score": 2.5,
+            "reason": "Anthropic's shift to usage-based fees for Claude Fable 5 signals a major industry move with broad implications.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Anthropic Wants You to Pay Up for Claude Fable 5",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 7,
+            "novelty_score": 2,
+            "reason": "The article explores the opaque process of government approval for AI model releases, which is highly relevant to the industry.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "How did the government decide OpenAI\u2019s frontier model was safe to release?",
+            "total_score": 8
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2,
+            "index": 10,
+            "novelty_score": 2,
+            "reason": "Microsoft's use of AI to identify security issues earlier is a notable industry move, but it's not as impactful as the other articles.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Microsoft\u2019s patch Tuesdays are about to get bigger",
+            "total_score": 7
+          }
+        ],
+        "best_index": 6,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Anthropic is moving away from flat-rate subscriptions for Claude Fable 5, introducing usage-based fees. This marks a significant shift in the AI industry, signaling the end of the golden era of AI subscriptions. Link: https://www.wired.com/story/model-behavior-anthropic-will-charge-consumers-extra-to-use-claude-fable-5/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Anthropic Wants You to Pay Up for Claude Fable 5*\n\nClaude subscribers must soon pay usage-based fees to access Anthropic\u2019s best consumer AI model\u2014a sign that the golden era of AI subscriptions is ending.\n\n\ud83c\udfdb\ufe0f Source: Wired (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.wired.com/story/model-behavior-anthropic-will-charge-consumers-extra-to-use-claude-fable-5/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Anthropic is ending the golden era of AI subscriptions by introducing usage-based fees for Claude Fable 5. This is a major shift in the industry. https://www.wired.com/story/model-behavior-anthropic-will-charge-consumers-extra-to-use-claude-fable-5/",
+          "twitter": "Anthropic is ending the golden era of AI subscriptions by introducing usage-based fees for Claude Fable 5. https://www.wired.com/story/model-behavior-anthropic-will-charge-consumers-extra-to-use-claude-fable-5/"
+        }
+      }
+    },
     "1fe057737641f26a4c8409f76ce27dac512e88bdc84f2f3210dc0d207103ce28": {
       "created_at": "2026-07-08T21:39:52Z",
       "payload": {
@@ -89,41 +141,6 @@
           }
         ],
         "best_index": 6,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "2a0b6125e4bd9f6c8b5d8d442a7af41bedd979ef285e897ed90e64cd5fff4828": {
-      "created_at": "2026-07-08T18:59:09Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 4,
-            "novelty_score": 2.5,
-            "reason": "Interesting perspective on AGI training data but not a major industry move.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Why this CEO thinks video games make better training data than the internet",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 5,
-            "novelty_score": 3,
-            "reason": "New tool from Microsoft but source tier is low.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Show HN: Microsoft releases Flint, a visualization language for AI agents",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 5,
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
@@ -867,43 +884,55 @@
         }
       }
     },
-    "7ea9cd7ba413c9f436149c248ab8a0e794c01ecb685fd1940b0a4102e4f2d39b": {
-      "created_at": "2026-07-08T18:59:09Z",
+    "708817097a82e72b07dd74e16faf7c48cf433c5e9a1c471af777dd7648621476": {
+      "created_at": "2026-07-09T20:10:00Z",
       "payload": {
         "articles": [
           {
             "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 2,
+            "impact_score": 2.5,
+            "index": 3,
             "novelty_score": 2.5,
-            "reason": "New AI feature in Google Photos with moderate impact.",
+            "reason": "OpenAI's legal strategy in the NYT copyright case could have significant implications for AI training data practices.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 1.5,
-            "title": "Google Photos adds a new AI 'Video Remix' tool",
+            "title": "OpenAI may have made a fatal misstep in copyright fight with news orgs",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2,
+            "index": 4,
+            "novelty_score": 2,
+            "reason": "Google's new AI ad disclosure policy affects all ads, not just election ads, marking a significant shift in transparency.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Google will now disclose which ads are made with AI",
             "total_score": 7.5
           },
           {
             "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 3,
-            "novelty_score": 3,
-            "reason": "New full-duplex voice models from OpenAI with significant impact.",
+            "impact_score": 1.5,
+            "index": 5,
+            "novelty_score": 2,
+            "reason": "Gradium's funding round is notable but primarily impacts the AI voice startup ecosystem.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 1.5,
-            "title": "OpenAI Releases GPT-Live and GPT-Live-1 mini: Full-Duplex Voice Models That Delegate Deeper Reasoning to GPT-5.5",
-            "total_score": 9
+            "title": "Paris-based AI voice startup Gradium raises $100M seed, backed by Nvidia",
+            "total_score": 7
           }
         ],
         "best_index": 3,
-        "best_score": 9,
+        "best_score": 8.5,
         "recommendation": "POST_NOW",
         "social_posts": {
-          "facebook": "OpenAI has released GPT-Live, a new generation of voice models that can listen and speak simultaneously. These models use a full-duplex architecture and delegate deeper reasoning tasks to GPT-5.5. This development could significantly enhance real-time voice interactions in AI applications. Link: https://www.marktechpost.com/2026/07/08/openai-releases-gpt-live-and-gpt-live-1-mini-full-duplex-voice-models-that-delegate-deeper-reasoning-to-gpt-5-5/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *OpenAI Releases GPT-Live and GPT-Live-1 mini: Full-Duplex Voice Models That Delegate Deeper Reasoning to GPT-5.5*\n\nOpenAI's new GPT-Live models enable full-duplex voice conversations, delegating complex reasoning to GPT-5.5.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/07/08/openai-releases-gpt-live-and-gpt-live-1-mini-full-duplex-voice-models-that-delegate-deeper-reasoning-to-gpt-5-5/",
-          "threads": "OpenAI's GPT-Live models bring full-duplex voice capabilities to ChatGPT, offloading complex reasoning to GPT-5.5. This could change how we interact with AI voice assistants.\nhttps://www.marktechpost.com/2026/07/08/openai-releases-gpt-live-and-gpt-live-1-mini-full-duplex-voice-models-that-delegate-deeper-reasoning-to-gpt-5-5/",
-          "twitter": "OpenAI's GPT-Live models enable full-duplex voice conversations, delegating complex reasoning to GPT-5.5.\nhttps://www.marktechpost.com/2026/07/08/openai-releases-gpt-live-and-gpt-live-1-mini-full-duplex-voice-models-that-delegate-deeper-reasoning-to-gpt-5-5/"
+          "facebook": "OpenAI may be sanctioned for allegedly hiding and deleting ChatGPT logs during its copyright fight with The New York Times. This development could have significant implications for how AI companies handle training data. Link: https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *OpenAI may have made a fatal misstep in copyright fight with news orgs*\n\nOpenAI faces potential sanctions for allegedly hiding and deleting ChatGPT logs during its copyright battle with The New York Times.\n\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "OpenAI is in hot water for allegedly hiding ChatGPT logs in its copyright battle with NYT. This could set a precedent for AI training data practices. https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/",
+          "twitter": "OpenAI faces potential sanctions for allegedly hiding ChatGPT logs in its copyright battle with NYT. https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/"
         }
       }
     },
@@ -926,41 +955,6 @@
         ],
         "best_index": 2,
         "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "85badb6e9ef736acb8b13c0a2039c5ba047d82563d5600f661b5388e493bed81": {
-      "created_at": "2026-07-08T18:59:09Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 0.0,
-            "index": 6,
-            "novelty_score": 0.0,
-            "reason": "Red flag triggered by 'What Do We Know About' in the title.",
-            "red_flag": true,
-            "red_flag_reason": "What is",
-            "source_score": 0.5,
-            "title": "What Do We Know About the Microplastics Inside Us?",
-            "total_score": 2.5
-          },
-          {
-            "freshness_score": 1.0,
-            "impact_score": 2.5,
-            "index": 20,
-            "novelty_score": 2.5,
-            "reason": "Interesting industry move but not groundbreaking enough to warrant a POST_NOW decision.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Your gaming data could be the secret to AGI, according to this Bezos-backed startup",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 20,
-        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1355,46 +1349,6 @@
         }
       }
     },
-    "cecb94f6cb661b5e549cdf01f6fdee62fcc49b88626bda2c4653b189daf6a53f": {
-      "created_at": "2026-07-08T18:59:09Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 2.0,
-            "reason": "Industry move with moderate impact on developers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Microsoft\u2019s Xbox reset is pivoting Obsidian to make Fallout instead of Avowed",
-            "total_score": 6.0
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "New feature in Google AI Studio that directly impacts developers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Google AI Studio Adds \u2018Import from GitHub\u2019 to Build Mode, Turning an Existing Repo Into an Editable, Deployable App",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Google AI Studio has added a new feature that allows developers to import GitHub repositories directly into Build mode, making them editable and deployable. This is a significant update for developers working with AI and cloud-based applications. Link: https://www.marktechpost.com/2026/07/08/google-ai-studio-adds-import-from-github-to-build-mode/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Google AI Studio Adds \u2018Import from GitHub\u2019 to Build Mode*\n\nGoogle AI Studio now lets developers import GitHub repositories directly into Build mode, making them editable and deployable.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/07/08/google-ai-studio-adds-import-from-github-to-build-mode/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Google AI Studio now supports importing GitHub repos directly into Build mode, turning them into deployable apps. This is a game-changer for developers. https://www.marktechpost.com/2026/07/08/google-ai-studio-adds-import-from-github-to-build-mode/",
-          "twitter": "Google AI Studio now lets you import GitHub repos directly into Build mode, turning them into deployable apps. https://www.marktechpost.com/2026/07/08/google-ai-studio-adds-import-from-github-to-build-mode/"
-        }
-      }
-    },
     "d744b5852de7cdd055cfd211939f20283d20a367c3bc00b6a9694ac8efba2524": {
       "created_at": "2026-07-08T21:39:52Z",
       "payload": {
@@ -1432,6 +1386,58 @@
           "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Netflix AI Team Cuts Wide-Partition Read Latency from Seconds to Milliseconds by Splitting Cassandra Partitions Per ID*\n\nNetflix engineers detailed how they handle wide partitions in Apache Cassandra for the TimeSeries Abstraction. Two approaches work together: Time Slice re-partitioning tunes future partitions at the table level, while dynamic partitioning detects and splits oversized partitions per TimeSeries ID.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/07/08/netflix-ai-team-cuts-wide-partition-read-latency-from-seconds-to-milliseconds-by-splitting-cassandra-partitions-per-id/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
           "threads": "Netflix AI team cuts wide-partition read latency from seconds to milliseconds by splitting Cassandra partitions per ID. Two approaches work together: Time Slice re-partitioning and dynamic partitioning.\nhttps://www.marktechpost.com/2026/07/08/netflix-ai-team-cuts-wide-partition-read-latency-from-seconds-to-milliseconds-by-splitting-cassandra-partitions-per-id/",
           "twitter": "Netflix AI team slashes Cassandra read latency from seconds to milliseconds with a clever partitioning strategy. Here's how they did it.\nhttps://www.marktechpost.com/2026/07/08/netflix-ai-team-cuts-wide-partition-read-latency-from-seconds-to-milliseconds-by-splitting-cassandra-partitions-per-id/"
+        }
+      }
+    },
+    "d83998e1d5e78d3878478ae71dee21ab678e72c4b8910a04ae6cb611defba268": {
+      "created_at": "2026-07-09T20:10:00Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 3.0,
+            "index": 11,
+            "novelty_score": 3.0,
+            "reason": "OpenAI's GPT-5.6 public rollout is a major industry move with broad impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "OpenAI rolls out GPT-5.6 after government greenlight \u2014 and announces \u2018ChatGPT Work\u2019",
+            "total_score": 9.0
+          },
+          {
+            "freshness_score": 1.0,
+            "impact_score": 1.5,
+            "index": 16,
+            "novelty_score": 2.5,
+            "reason": "Policy enforcement tools for AI code assistants are useful but niche.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Show HN: Policy enforcement for Claude Code, Cursor, and Codex",
+            "total_score": 5.5
+          },
+          {
+            "freshness_score": 1.0,
+            "impact_score": 2.5,
+            "index": 20,
+            "novelty_score": 2.0,
+            "reason": "Opinion piece on AI infrastructure trends, relevant but not groundbreaking.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Why the Next Era of AI Is About Infrastructure, Not Just Models",
+            "total_score": 6.0
+          }
+        ],
+        "best_index": 11,
+        "best_score": 9.0,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "OpenAI has received the greenlight for a public rollout of GPT-5.6, marking a significant milestone in AI development. The company also announced 'ChatGPT Work,' a new offering aimed at professional users. This move comes after a period of regulatory scrutiny and a limited preview phase. Link: https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *OpenAI rolls out GPT-5.6 after government greenlight \u2014 and announces \u2018ChatGPT Work\u2019*\n\nOpenAI's GPT-5.6 is now publicly available after regulatory approval, along with a new 'ChatGPT Work' offering. This follows a limited preview period.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: 3 hours ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "OpenAI's GPT-5.6 is now publicly available, along with a new 'ChatGPT Work' offering. This follows regulatory approval after a limited preview period. https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
+          "twitter": "OpenAI's GPT-5.6 is now publicly available after regulatory approval, along with a new 'ChatGPT Work' offering.\nhttps://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work"
         }
       }
     },
@@ -1624,6 +1630,58 @@
           "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Meta\u2019s new AI chips will begin production in September*\n\nMeta is taking a modular approach to designing these chips, anticipating that their needs will change as AI evolves rapidly by the time the chips are in production.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/09/metas-new-ai-chips-will-begin-production-in-september/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
           "threads": "Meta's new AI chips, set for September production, are designed with a modular approach to keep up with rapid AI evolution. https://techcrunch.com/2026/07/09/metas-new-ai-chips-will-begin-production-in-september/",
           "twitter": "Meta is starting production on new AI chips in September, designed to adapt as AI evolves. https://techcrunch.com/2026/07/09/metas-new-ai-chips-will-begin-production-in-september/"
+        }
+      }
+    },
+    "ebe2bd5306a34f45564a4090ea18c2011b70d84a6ef95cf22ac46e55e6b23942": {
+      "created_at": "2026-07-09T20:10:00Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Meta's new AI coding tool targets enterprise automation, a growing market.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Meta enters the crowded AI coding battle with Muse Spark 1.1",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 3,
+            "reason": "NVIDIA's compressed hybrid MoE LLM offers significant server throughput improvements.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Meet Nemotron Labs 3 Puzzle 75B A9B: A Compressed Hybrid MoE LLM Delivering 2.03x Server Throughput",
+            "total_score": 9
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "Legal developments in the OpenAI copyright case could have broad industry implications.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "New York Times says OpenAI hid evidence in ChatGPT copyright trial",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 9,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "NVIDIA has released Nemotron Labs 3 Puzzle 75B A9B, a compressed variant of Nemotron-3-Super. The model offers significant server throughput improvements through iterative hardware-aware structural compression and knowledge distillation recovery phases. This could be a game-changer for large-scale AI deployments.\nLink: https://www.marktechpost.com/2026/07/09/meet-nemotron-labs-3-puzzle-75b-a9b/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\ud83d\udd25 *NVIDIA releases Nemotron Labs 3 Puzzle 75B A9B: A Compressed Hybrid MoE LLM Delivering 2.03x Server Throughput*\n\nNVIDIA has released Nemotron Labs 3 Puzzle 75B A9B, a compressed variant of Nemotron-3-Super. The model offers significant server throughput improvements through iterative hardware-aware structural compression and knowledge distillation recovery phases.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/07/09/meet-nemotron-labs-3-puzzle-75b-a9b/",
+          "threads": "NVIDIA's Nemotron Labs 3 Puzzle 75B A9B achieves 2.03x server throughput with compressed hybrid MoE LLM. The model reduces parameters significantly while improving performance. This is a notable advancement in AI model efficiency.\nhttps://www.marktechpost.com/2026/07/09/meet-nemotron-labs-3-puzzle-75b-a9b/",
+          "twitter": "NVIDIA's Nemotron Labs 3 Puzzle 75B A9B delivers 2.03x server throughput with compressed hybrid MoE LLM.\nhttps://www.marktechpost.com/2026/07/09/meet-nemotron-labs-3-puzzle-75b-a9b/"
         }
       }
     },
@@ -1913,6 +1971,15 @@
         "twitter": "Netflix's AI team reduces read latency from seconds to milliseconds by splitting Cassandra partitions per ID, a significant improvement for TimeSeries data @NetflixEng #CassandraOptimization"
       }
     },
+    "c6a1d61c9353c221354ff3898d4dc9a32a8d5c0f3d5d24c1e1ab4d978b327337": {
+      "created_at": "2026-07-09T20:10:00Z",
+      "payload": {
+        "facebook": "NVIDIA has introduced a compressed variant of its Nemotron-3-Super model, delivering significant server throughput improvements. This new model, Nemotron Labs 3 Puzzle 75B A9B, reduces parameters while increasing efficiency. #AI #MachineLearning #NVIDIA",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 NVIDIA Releases Compressed Hybrid MoE LLM\nNVIDIA's Nemotron Labs 3 Puzzle 75B A9B model reduces parameters from 120.7B to 75.3B while increasing server throughput by 2.03x.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n#AI #MachineLearning #NVIDIA\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "NVIDIA's Nemotron Labs 3 Puzzle 75B A9B model achieves 2.03x server throughput @NVIDIA with a compressed hybrid MoE approach #AI",
+        "twitter": "NVIDIA's new Nemotron Labs 3 Puzzle 75B A9B model boosts server throughput by 2.03x @NVIDIA #AI"
+      }
+    },
     "c987c2bebed5b0390cf120cf21a4e9185b2428857019bace1a72403dce6035a7": {
       "created_at": "2026-07-06T20:45:37Z",
       "payload": {
@@ -1965,15 +2032,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Meta Introduces New AI-Focused Pocket App\nMeta's new Pocket app lets users create and share interactive gizmos built from AI prompts, a stark departure from the original read-it-later service.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #Meta #Tech\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Meta's new Pocket app introduces interactive gizmos built from AI prompts, a significant shift from the original service, @Meta, #AI",
         "twitter": "Meta's new Pocket app lets users create interactive gizmos from AI prompts, a stark departure from the original read-it-later service, @Meta, #AI"
-      }
-    },
-    "eade5cdce1060552c8a60771f34f6412d600e7cccc2b2d43cc2eb763b12e0209": {
-      "created_at": "2026-07-02T19:44:21Z",
-      "payload": {
-        "facebook": "Meta has introduced an experimental AI app called Pocket, which enables users to create and share interactive mini games using text prompts. This move marks a notable shift in the gaming landscape, with potential implications for the industry. #AIgaming #Meta #gamedevelopment",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Meta Launches AI Gaming App Pocket\nMeta has quietly launched an experimental AI app that lets users generate and share interactive mini games using text prompts.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n#AIgaming #Meta #gamedevelopment\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Meta's new AI gaming app Pocket is a significant development, allowing users to generate interactive mini games using text prompts, a notable step forward in gaming technology @Meta #AIgaming",
-        "twitter": "Meta's new AI gaming app Pocket allows users to generate interactive mini games using text prompts, a significant development in gaming @Meta #AIgaming"
       }
     },
     "ec90a51cd9637d0e5baa74db9b5556894a5bb08b871084ab1339872068ad1814": {
@@ -2085,6 +2143,12 @@
       "created_at": "2026-07-08T20:25:01Z",
       "status": "scoring_attempted",
       "title": "Lawsuit: Man used Grok to make 7K sex images of stepdaughter, then shot himself"
+    },
+    "https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says": {
+      "canonical_url": "https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says",
+      "created_at": "2026-07-09T20:10:00Z",
+      "status": "scoring_attempted",
+      "title": "OpenAI may have made a fatal misstep in copyright fight with news orgs"
     },
     "https://arstechnica.com/tech-policy/2026/07/us-manufacturers-energy-costs-soar-because-of-ai-data-center-demand": {
       "canonical_url": "https://arstechnica.com/tech-policy/2026/07/us-manufacturers-energy-costs-soar-because-of-ai-data-center-demand",
@@ -2734,6 +2798,12 @@
       "status": "scoring_attempted",
       "title": "The bottleneck might be the air in the room"
     },
+    "https://blog.mozilla.ai/the-control-layer-why-the-next-era-of-ai-is-about-infrastructure-not-just-models": {
+      "canonical_url": "https://blog.mozilla.ai/the-control-layer-why-the-next-era-of-ai-is-about-infrastructure-not-just-models",
+      "created_at": "2026-07-09T20:10:00Z",
+      "status": "scoring_attempted",
+      "title": "Why the Next Era of AI Is About Infrastructure, Not Just Models"
+    },
     "https://blog.okturtles.org/2026/07/short-leash-ai-method": {
       "canonical_url": "https://blog.okturtles.org/2026/07/short-leash-ai-method",
       "created_at": "2026-07-02T21:53:01Z",
@@ -2920,12 +2990,6 @@
       "status": "scoring_attempted",
       "title": "Show HN: Onboard-CLI, a LLM powered and AST-based tool to visualize codebase"
     },
-    "https://github.com/anthropics/claude-code/issues/73125": {
-      "canonical_url": "https://github.com/anthropics/claude-code/issues/73125",
-      "created_at": "2026-07-02T19:44:21Z",
-      "status": "scoring_attempted",
-      "title": "Claude's AskUserQuestion: \"No response after 60s \u2013 continued without an answer\""
-    },
     "https://github.com/christopherkarani/Espresso": {
       "canonical_url": "https://github.com/christopherkarani/Espresso",
       "created_at": "2026-07-05T15:58:56Z",
@@ -2991,12 +3055,6 @@
       "created_at": "2026-07-07T20:28:28Z",
       "status": "scoring_attempted",
       "title": "Show HN: Rowboat \u2013 Open-source, local-first alternative to Claude Desktop"
-    },
-    "https://github.com/segaboy/vulkan-netbsd": {
-      "canonical_url": "https://github.com/segaboy/vulkan-netbsd",
-      "created_at": "2026-07-02T19:44:21Z",
-      "status": "scoring_attempted",
-      "title": "Vulkan is now available on NetBSD"
     },
     "https://github.com/teamchong/pxpipe": {
       "canonical_url": "https://github.com/teamchong/pxpipe",
@@ -3088,17 +3146,17 @@
       "status": "scoring_attempted",
       "title": "Leaking YouTube creators' private videos"
     },
-    "https://joeyh.name/blog/entry/no_LLM_code_in_dependencies": {
-      "canonical_url": "https://joeyh.name/blog/entry/no_LLM_code_in_dependencies",
-      "created_at": "2026-07-02T19:44:21Z",
-      "status": "scoring_attempted",
-      "title": "No LLM Code in Dependencies"
-    },
     "https://kagi.com/changelog": {
       "canonical_url": "https://kagi.com/changelog",
       "created_at": "2026-07-03T21:21:34Z",
       "status": "scoring_attempted",
       "title": "Kagi Changelog (July 2): Heads, tails, and an AI toggle"
+    },
+    "https://kastra.ai": {
+      "canonical_url": "https://kastra.ai",
+      "created_at": "2026-07-09T20:10:00Z",
+      "status": "scoring_attempted",
+      "title": "Show HN: Policy enforcement for Claude Code, Cursor, and Codex"
     },
     "https://kb.cert.org/vuls/id/213560": {
       "canonical_url": "https://kb.cert.org/vuls/id/213560",
@@ -3310,12 +3368,6 @@
       "status": "scoring_attempted",
       "title": "Show HN: TaskPeace \u2013 a task queue my AI coding agents pull work from over MCP"
     },
-    "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung": {
-      "canonical_url": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung",
-      "created_at": "2026-07-02T19:44:21Z",
-      "status": "scoring_attempted",
-      "title": "Anthropic is discussing a new custom chip with Samsung"
-    },
     "https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become": {
       "canonical_url": "https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become",
       "created_at": "2026-07-02T20:45:32Z",
@@ -3327,12 +3379,6 @@
       "created_at": "2026-07-03T01:04:17Z",
       "status": "scoring_attempted",
       "title": "Mark Zuckerberg tells staff that AI agents haven\u2019t progressed as quickly as he\u2019d hoped"
-    },
-    "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket": {
-      "canonical_url": "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket",
-      "created_at": "2026-07-02T19:44:21Z",
-      "status": "scoring_attempted",
-      "title": "Meta quietly launches vibe-coded gaming app Pocket"
     },
     "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms": {
       "canonical_url": "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms",
@@ -3538,6 +3584,24 @@
       "status": "scoring_attempted",
       "title": "Character.AI enters the microdrama arena with its own productions, but there\u2019s a twist"
     },
+    "https://techcrunch.com/2026/07/09/google-will-now-disclose-which-ads-are-made-with-ai": {
+      "canonical_url": "https://techcrunch.com/2026/07/09/google-will-now-disclose-which-ads-are-made-with-ai",
+      "created_at": "2026-07-09T20:10:00Z",
+      "status": "scoring_attempted",
+      "title": "Google will now disclose which ads are made with AI"
+    },
+    "https://techcrunch.com/2026/07/09/how-did-the-government-decide-openais-frontier-model-was-safe-to-release": {
+      "canonical_url": "https://techcrunch.com/2026/07/09/how-did-the-government-decide-openais-frontier-model-was-safe-to-release",
+      "created_at": "2026-07-09T20:10:00Z",
+      "status": "scoring_attempted",
+      "title": "How did the government decide OpenAI\u2019s frontier model was safe to release?"
+    },
+    "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1": {
+      "canonical_url": "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1",
+      "created_at": "2026-07-09T20:10:00Z",
+      "status": "scoring_attempted",
+      "title": "Meta enters the crowded AI coding battle with Muse Spark 1.1"
+    },
     "https://techcrunch.com/2026/07/09/metas-new-ai-chips-will-begin-production-in-september": {
       "canonical_url": "https://techcrunch.com/2026/07/09/metas-new-ai-chips-will-begin-production-in-september",
       "created_at": "2026-07-09T18:16:40Z",
@@ -3550,11 +3614,23 @@
       "status": "scoring_attempted",
       "title": "Nandan Nilekani leaves GP role at Fundamentum as it launches $200M third fund"
     },
+    "https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial": {
+      "canonical_url": "https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial",
+      "created_at": "2026-07-09T20:10:00Z",
+      "status": "scoring_attempted",
+      "title": "New York Times says OpenAI hid evidence in ChatGPT copyright trial"
+    },
     "https://techcrunch.com/2026/07/09/nvidia-is-a-victim-of-the-compute-marketplace-it-created": {
       "canonical_url": "https://techcrunch.com/2026/07/09/nvidia-is-a-victim-of-the-compute-marketplace-it-created",
       "created_at": "2026-07-09T18:16:40Z",
       "status": "scoring_attempted",
       "title": "Nvidia is a victim of the compute marketplace it created"
+    },
+    "https://techcrunch.com/2026/07/09/paris-based-ai-voice-startup-gradium-raises-100m-seed-backed-by-nvidia": {
+      "canonical_url": "https://techcrunch.com/2026/07/09/paris-based-ai-voice-startup-gradium-raises-100m-seed-backed-by-nvidia",
+      "created_at": "2026-07-09T20:10:00Z",
+      "status": "scoring_attempted",
+      "title": "Paris-based AI voice startup Gradium raises $100M seed, backed by Nvidia"
     },
     "https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users": {
       "canonical_url": "https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users",
@@ -4054,6 +4130,12 @@
       "status": "scoring_attempted",
       "title": "Google AI Studio Adds Import from GitHub to Build a Deployable App"
     },
+    "https://www.marktechpost.com/2026/07/09/meet-nemotron-labs-3-puzzle-75b-a9b": {
+      "canonical_url": "https://www.marktechpost.com/2026/07/09/meet-nemotron-labs-3-puzzle-75b-a9b",
+      "created_at": "2026-07-09T20:10:00Z",
+      "status": "scoring_attempted",
+      "title": "Meet Nemotron Labs 3 Puzzle 75B A9B: A Compressed Hybrid MoE LLM Delivering 2.03x Server Throughput"
+    },
     "https://www.marktechpost.com/2026/07/09/nvidia-releases-nemotron-labs-3-puzzle-75b-a9b-a-compressed-hybrid-moe-llm-delivering-2-03x-server-throughput-at-matched-user-throughput": {
       "canonical_url": "https://www.marktechpost.com/2026/07/09/nvidia-releases-nemotron-labs-3-puzzle-75b-a9b-a-compressed-hybrid-moe-llm-delivering-2-03x-server-throughput-at-matched-user-throughput",
       "created_at": "2026-07-09T08:47:58Z",
@@ -4161,6 +4243,12 @@
       "created_at": "2026-07-09T16:13:09Z",
       "status": "scoring_attempted",
       "title": "Meta says its new AI model is ready to compete on coding"
+    },
+    "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work": {
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
+      "created_at": "2026-07-09T20:10:00Z",
+      "status": "scoring_attempted",
+      "title": "OpenAI rolls out GPT-5.6 after government greenlight \u2014 and announces \u2018ChatGPT Work\u2019"
     },
     "https://www.theverge.com/column/960600/xbox-is-a-disaster": {
       "canonical_url": "https://www.theverge.com/column/960600/xbox-is-a-disaster",
@@ -4456,6 +4544,12 @@
       "status": "scoring_attempted",
       "title": "Meta is reportedly working on smart glasses that would be recording all the time"
     },
+    "https://www.theverge.com/tech/963307/microsoft-patch-tuesday-ai-security-updates": {
+      "canonical_url": "https://www.theverge.com/tech/963307/microsoft-patch-tuesday-ai-security-updates",
+      "created_at": "2026-07-09T20:10:00Z",
+      "status": "scoring_attempted",
+      "title": "Microsoft\u2019s patch Tuesdays are about to get bigger"
+    },
     "https://www.theverge.com/transportation/962187/amble-golf-cart-moon-buggy-ev-design-price-specs": {
       "canonical_url": "https://www.theverge.com/transportation/962187/amble-golf-cart-moon-buggy-ev-design-price-specs",
       "created_at": "2026-07-07T18:30:58Z",
@@ -4486,12 +4580,6 @@
       "status": "scoring_attempted",
       "title": "British Space Startup Launches Longevity Lab Into Orbit"
     },
-    "https://www.wired.com/story/can-cursor-remain-an-open-platform-inside-of-spacex": {
-      "canonical_url": "https://www.wired.com/story/can-cursor-remain-an-open-platform-inside-of-spacex",
-      "created_at": "2026-07-02T19:44:21Z",
-      "status": "scoring_attempted",
-      "title": "Can Cursor Remain a Platform for OpenAI and Anthropic\u2019s Models Inside SpaceX?"
-    },
     "https://www.wired.com/story/erling-haaland-is-everywhere-at-the-world-cup-most-of-it-is-ai": {
       "canonical_url": "https://www.wired.com/story/erling-haaland-is-everywhere-at-the-world-cup-most-of-it-is-ai",
       "created_at": "2026-07-07T10:22:26Z",
@@ -4521,6 +4609,12 @@
       "created_at": "2026-07-07T22:57:38Z",
       "status": "scoring_attempted",
       "title": "Meta Now Lets Anyone Use Your Instagram Photos in AI Images\u2014Unless You Opt Out"
+    },
+    "https://www.wired.com/story/model-behavior-anthropic-will-charge-consumers-extra-to-use-claude-fable-5": {
+      "canonical_url": "https://www.wired.com/story/model-behavior-anthropic-will-charge-consumers-extra-to-use-claude-fable-5",
+      "created_at": "2026-07-09T20:10:00Z",
+      "status": "scoring_attempted",
+      "title": "Anthropic Wants You to Pay Up for Claude Fable 5"
     },
     "https://www.wired.com/story/openai-chief-futurist-joshua-achiam-is-leaving-the-company": {
       "canonical_url": "https://www.wired.com/story/openai-chief-futurist-joshua-achiam-is-leaving-the-company",
