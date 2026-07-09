@@ -206,6 +206,29 @@
         }
       }
     },
+    "3548c411322109e494d48c2c94733fe24c3671605ce3deebe98adff877131d36": {
+      "created_at": "2026-07-09T01:03:48Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "Industry move with moderate impact on a niche audience.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "John Deere owners will get the right to repair equipment under FTC settlement",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "3cc94170e501ad93d3693724c4c262c7dcb6574de0f571332fe3bb9df3592bd2": {
       "created_at": "2026-07-08T15:26:56Z",
       "payload": {
@@ -462,6 +485,29 @@
         "social_posts": {}
       }
     },
+    "57e1c6b8a14760ff58d28c432a3abc869d470cf74e84a3b9bc0397883cb1c45e": {
+      "created_at": "2026-07-09T01:03:48Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Research on interactive world models for multiplayer games is novel but niche in impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "MIRA: Multiplayer Interactive World Models Trained on Rocket League",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "5d77e5c2a0b75b53ebc32639221f8b36d5611d2d81c2bcd3b1694855ac045db1": {
       "created_at": "2026-07-08T06:14:54Z",
       "payload": {
@@ -692,6 +738,29 @@
           "threads": "OpenAI's GPT-Live models bring full-duplex voice capabilities to ChatGPT, offloading complex reasoning to GPT-5.5. This could change how we interact with AI voice assistants.\nhttps://www.marktechpost.com/2026/07/08/openai-releases-gpt-live-and-gpt-live-1-mini-full-duplex-voice-models-that-delegate-deeper-reasoning-to-gpt-5-5/",
           "twitter": "OpenAI's GPT-Live models enable full-duplex voice conversations, delegating complex reasoning to GPT-5.5.\nhttps://www.marktechpost.com/2026/07/08/openai-releases-gpt-live-and-gpt-live-1-mini-full-duplex-voice-models-that-delegate-deeper-reasoning-to-gpt-5-5/"
         }
+      }
+    },
+    "8008819a0a3fd5708256e315f4be5bba650dbd09165a3540ab9e8d864429dfd0": {
+      "created_at": "2026-07-09T01:03:48Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "Comparative analysis of AI models building apps, but source is low-tier.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "We made Grok 4.5, GPT-5.5, and Claude build the same apps",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 2,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "84aa6d47da7fa3d247e47766a4f90461f9c8c4dfbce595103a821c3ef9ab7f47": {
@@ -1889,6 +1958,12 @@
       "status": "scoring_attempted",
       "title": "Notes on Software Quality"
     },
+    "https://apnews.com/article/john-deere-right-to-repair-agriculture-equipment-cb7514ffedb95c130a976af661f2bc02": {
+      "canonical_url": "https://apnews.com/article/john-deere-right-to-repair-agriculture-equipment-cb7514ffedb95c130a976af661f2bc02",
+      "created_at": "2026-07-09T01:03:48Z",
+      "status": "scoring_attempted",
+      "title": "John Deere owners will get the right to repair equipment under FTC settlement"
+    },
     "https://arstechnica.com/ai/2026/07/facing-us-export-controls-chinas-deepseek-plans-to-make-its-own-chips": {
       "canonical_url": "https://arstechnica.com/ai/2026/07/facing-us-export-controls-chinas-deepseek-plans-to-make-its-own-chips",
       "created_at": "2026-07-07T16:28:08Z",
@@ -3035,6 +3110,12 @@
       "status": "scoring_attempted",
       "title": "Show HN: Microsoft releases Flint, a visualization language for AI agents"
     },
+    "https://mira-wm.com": {
+      "canonical_url": "https://mira-wm.com",
+      "created_at": "2026-07-09T01:03:48Z",
+      "status": "scoring_attempted",
+      "title": "MIRA: Multiplayer Interactive World Models Trained on Rocket League"
+    },
     "https://mistral.ai/news/robostral-navigate": {
       "canonical_url": "https://mistral.ai/news/robostral-navigate",
       "created_at": "2026-07-08T15:26:56Z",
@@ -4079,12 +4160,6 @@
       "status": "scoring_attempted",
       "title": "Twelve South\u2019s AirFly Pro is a great travel companion, and it&#8217;s on sale for $40"
     },
-    "https://www.theverge.com/games/960476/playstation-physical-games-discs-stop-production-preservation-retail-stores": {
-      "canonical_url": "https://www.theverge.com/games/960476/playstation-physical-games-discs-stop-production-preservation-retail-stores",
-      "created_at": "2026-07-01T23:11:04Z",
-      "status": "scoring_attempted",
-      "title": "The funeral for PlayStation discs has begun"
-    },
     "https://www.theverge.com/games/962156/discord-accidental-bans-grid-images": {
       "canonical_url": "https://www.theverge.com/games/962156/discord-accidental-bans-grid-images",
       "created_at": "2026-07-07T15:36:30Z",
@@ -4300,6 +4375,12 @@
       "created_at": "2026-07-06T16:50:48Z",
       "status": "scoring_attempted",
       "title": "Electric anti-aircraft interceptor drone breaks world air speed record at 434mph"
+    },
+    "https://www.tryai.dev/blog/grok-4.5-vs-gpt-5.5-vs-claude-build-off": {
+      "canonical_url": "https://www.tryai.dev/blog/grok-4.5-vs-gpt-5.5-vs-claude-build-off",
+      "created_at": "2026-07-09T01:03:48Z",
+      "status": "scoring_attempted",
+      "title": "We made Grok 4.5, GPT-5.5, and Claude build the same apps"
     },
     "https://www.wired.com/story/british-space-startup-launches-longevity-lab-into-orbit": {
       "canonical_url": "https://www.wired.com/story/british-space-startup-launches-longevity-lab-into-orbit",
