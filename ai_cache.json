@@ -163,6 +163,46 @@
         "social_posts": {}
       }
     },
+    "257ff6473e2dfd7e19114f372503f1a5263bb5d09433052b226fcdb24d997fec": {
+      "created_at": "2026-07-09T22:57:15Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 3.0,
+            "reason": "New model release with broad impact, fresh, and from a top-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "OpenAI launches its new family of models with GPT-5.6",
+            "total_score": 9.0
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 0.0,
+            "index": 1,
+            "novelty_score": 0.0,
+            "reason": "Not relevant to software engineers or AI researchers.",
+            "red_flag": true,
+            "red_flag_reason": "Not relevant to software engineers or AI researchers.",
+            "source_score": 0.5,
+            "title": "Why American ambulance rides are so expensive",
+            "total_score": 2.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 9.0,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "OpenAI has released its latest family of models, including GPT-5.6, with enhancements in cybersecurity and other areas. This is a significant update for developers and researchers working with AI. Link: https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *OpenAI launches its new family of models with GPT-5.6*\n\nOpenAI's latest family of models promise improvements across a range of areas, including cybersecurity.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "OpenAI's new GPT-5.6 model is out, with improvements in cybersecurity and other areas. This is a big deal for AI developers. https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
+          "twitter": "OpenAI just launched GPT-5.6 with improvements across cybersecurity and more. https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/"
+        }
+      }
+    },
     "353183fdf333fc6e0d91238562ad8188309eac8d0db70bd6f40be05b1cee030f": {
       "created_at": "2026-07-09T18:16:40Z",
       "payload": {
@@ -325,29 +365,6 @@
         }
       }
     },
-    "429c299ad2c4d058a59feb49c45010a09c10bee0edcc39a901aa2e2ebe2409f9": {
-      "created_at": "2026-07-08T22:43:06Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 2.0,
-            "reason": "Industry move with moderate impact and high freshness.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Lovable reportedly in talks to double its valuation to $13.2B",
-            "total_score": 7.0
-          }
-        ],
-        "best_index": 0,
-        "best_score": 7.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "4460601d73c695288ebbb553464df32ce0236d5d8080eb4eeadaa414de608f3d": {
       "created_at": "2026-07-09T08:47:58Z",
       "payload": {
@@ -386,29 +403,6 @@
           "threads": "NVIDIA's new Nemotron-Labs-3-Puzzle-75B-A9B model compresses parameters while boosting server throughput by 2.03x. The iterative Puzzle process alternates hardware-aware structural compression with short knowledge distillation recovery phases. https://www.marktechpost.com/2026/07/09/nvidia-releases-nemotron-labs-3-puzzle-75b-a9b-a-compressed-hybrid-moe-llm-delivering-2-03x-server-throughput-at-matched-user-throughput/",
           "twitter": "NVIDIA's new Nemotron-Labs-3-Puzzle-75B-A9B model compresses parameters while boosting server throughput by 2.03x. https://www.marktechpost.com/2026/07/09/nvidia-releases-nemotron-labs-3-puzzle-75b-a9b-a-compressed-hybrid-moe-llm-delivering-2-03x-server-throughput-at-matched-user-throughput/"
         }
-      }
-    },
-    "4938f70bb36cb1ec56c428e3a241f400e0bd95afd04cb8e17a1f52aae96aad2a": {
-      "created_at": "2026-07-08T22:43:06Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "Open source bar inventory software is niche and not directly relevant to software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Open Source Barware: free, local-first bar inventory software (GPLv3)",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 2,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "4b5e0fe484125c6b90560d0c786745688f7e61e9db6a41b0f7ceee1923e349cf": {
@@ -604,29 +598,6 @@
         "social_posts": {}
       }
     },
-    "5f6addd8036533f4818fc4481667e7f0038e3e55687ff665bd818c77b5c0845a": {
-      "created_at": "2026-07-08T22:43:06Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "Impactful but not novel enough to justify a higher score.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Suspecting AI cheating, Ivy League prof ordered an in-person final; scores fell 50%",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 3,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "668307203e196db8fa131dc6c4c2fce7875a1429c81bf5edf5082c8629dcdae2": {
       "created_at": "2026-07-09T13:28:46Z",
       "payload": {
@@ -660,34 +631,6 @@
         "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "69ecc5c0ca24d75644402156e0202e759e61b45f6d60814b7edaca84fdf8685a": {
-      "created_at": "2026-07-08T22:43:06Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Meta's development of always-on AI smart glasses is a significant industry move with broad implications for privacy and AI integration.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Meta is reportedly working on smart glasses that would be recording all the time",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Meta is reportedly working on prototype smart glasses that would be recording all the time. The device would continuously capture audio and photos, allowing users to ask Meta AI about their surroundings. This raises significant privacy concerns and highlights the growing integration of AI in wearables.\nLink: https://www.theverge.com/tech/963138/meta-smart-glasses-recording-super-sensing-ai",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Meta is reportedly working on smart glasses that would be recording all the time*\n\nMeta is developing prototype \"super sensing\" always-aware smart glasses that could continuously record audio and snap photos \"every few seconds.\" The wearer could then ask Meta AI about the captured data.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/tech/963138/meta-smart-glasses-recording-super-sensing-ai\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Meta is building always-on AI smart glasses that record audio and take photos continuously. Users can then ask Meta AI about their surroundings. This is a significant step in AI wearables.\nhttps://www.theverge.com/tech/963138/meta-smart-glasses-recording-super-sensing-ai",
-          "twitter": "Meta is developing always-on AI smart glasses that continuously record audio and take photos. The wearer can query Meta AI about their surroundings.\nhttps://www.theverge.com/tech/963138/meta-smart-glasses-recording-super-sensing-ai"
-        }
       }
     },
     "6b6a34bc7c1347c8117c05cbf6e28ef594e49b78039255c3471d7dec279bd59b": {
@@ -1059,6 +1002,74 @@
         "social_posts": {}
       }
     },
+    "8f0d4c65c87c0fdd7947e81122e7170bc4d4e31d3176a3c736e2b0493570c06e": {
+      "created_at": "2026-07-09T22:57:15Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "Lyzr's AI agent successfully raised $100 million, demonstrating real-world application of AI agents in enterprise.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "An AI agent startup just let its agent run its $100 million fundraise",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 3,
+            "novelty_score": 2,
+            "reason": "OpenAI is pivoting its AI browser features to a desktop app and Chrome extension, showing strategic shifts in AI integration.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "OpenAI is shutting down Atlas, but its AI browser ambitions are still growing",
+            "total_score": 8
+          }
+        ],
+        "best_index": 2,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Lyzr, an AI agent startup, used its own AI agent to raise a $100 million round. This move not only demonstrates the capability of their product but also sets a new standard for AI-driven enterprise solutions. Link: https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *An AI agent startup just let its agent run its $100 million fundraise*\n\nLyzr, an AI agent startup, used its own AI agent to raise a $100 million round, demonstrating the product's real-world application.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Lyzr's AI agent successfully raised $100 million for the company, a bold move that validates its enterprise AI agent technology. https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/",
+          "twitter": "Lyzr's AI agent just raised $100 million for the company, proving its own product works. https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/"
+        }
+      }
+    },
+    "9c78038b8ff3d537d5391bdfff4c6c723942c8ea99bda39914712e0ee1856efc": {
+      "created_at": "2026-07-09T22:57:15Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 4,
+            "novelty_score": 2.5,
+            "reason": "Elon Musk's public stance on hosting Anthropic's models is a significant industry move with potential financial implications.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Elon Musk praises Mythos/Fable, promises not to \u2018cut off\u2019 Anthropic",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 4,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Elon Musk has publicly promised not to cut off Anthropic's access to his infrastructure, a move that could secure $40 billion in revenue. The statement comes amid growing tensions between the two companies. Link: https://techcrunch.com/2026/07/09/elon-musk-praises-mythos-fable-promises-not-to-cut-off-anthropic/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\ud83d\udd25 *Elon Musk praises Mythos/Fable, promises not to \u2018cut off\u2019 Anthropic*\n\nElon Musk has publicly promised not to cut off Anthropic's access to his infrastructure, a move that could secure $40 billion in revenue. The statement comes amid growing tensions between the two companies.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/09/elon-musk-praises-mythos-fable-promises-not-to-cut-off-anthropic/",
+          "threads": "Elon Musk just promised to keep Anthropic's models online, despite their $40B revenue at stake. This is a significant move in the AI infrastructure landscape. https://techcrunch.com/2026/07/09/elon-musk-praises-mythos-fable-promises-not-to-cut-off-anthropic/",
+          "twitter": "Elon Musk pledges to keep Anthropic's models online, despite their $40B revenue at stake. https://techcrunch.com/2026/07/09/elon-musk-praises-mythos-fable-promises-not-to-cut-off-anthropic/"
+        }
+      }
+    },
     "afa359e8602c2a156ddb76a67a50f7cbe225043d18d9c0b5a08d4133c3182f99": {
       "created_at": "2026-07-09T18:16:40Z",
       "payload": {
@@ -1150,6 +1161,34 @@
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "b75b5ff5ccd0f4ca36391e0f49befbd5d60afe7d86d467ef124570df40336548": {
+      "created_at": "2026-07-09T22:57:15Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 3,
+            "index": 5,
+            "novelty_score": 2.5,
+            "reason": "High-impact analysis of AI's economic potential with strong novelty and freshness.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Can AI answer the $3 trillion question?",
+            "total_score": 9
+          }
+        ],
+        "best_index": 5,
+        "best_score": 9,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "TechCrunch examines if AI can deliver on its $3 trillion promise. The economic implications are massive, and the debate is heating up. Link: https://techcrunch.com/2026/07/09/can-ai-answer-the-3-trillion-question/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Can AI answer the $3 trillion question?*\n\nTechCrunch examines whether AI can justify its $3 trillion valuation, with significant economic implications.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/09/can-ai-answer-the-3-trillion-question/",
+          "threads": "TechCrunch asks: Can AI justify its $3 trillion valuation? The economic debate is back, and the numbers are bigger than ever. https://techcrunch.com/2026/07/09/can-ai-answer-the-3-trillion-question/",
+          "twitter": "TechCrunch dives into whether AI can justify its $3 trillion valuation. The stakes have never been higher.\nhttps://techcrunch.com/2026/07/09/can-ai-answer-the-3-trillion-question/"
+        }
       }
     },
     "c2025ca8dcf666484ddb3df0280bbbdf3db937f50b191c97b76ce4580ca7bdef": {
@@ -1931,6 +1970,15 @@
         "twitter": "Allegations against X for shielding child predators surface as lawsuit reveals Grok user created 7K sex images of stepdaughter @ArsTechnica #CSAM"
       }
     },
+    "e321b177c115a483647510db6f299d13ff9ab265d6d41b6f3b09c8ac0dc7bef0": {
+      "created_at": "2026-07-09T22:57:15Z",
+      "payload": {
+        "facebook": "The latest development from OpenAI introduces a new family of models, including GPT-5.6, which is expected to bring improvements in various areas such as cybersecurity. This could have significant implications for the tech industry. #AI #Cybersecurity #Tech",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 New AI Models Released\nOpenAI's latest model family, including GPT-5.6, promises improvements in areas like cybersecurity.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9/10\n#AI #Cybersecurity #Tech\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "OpenAI has launched its new family of models, featuring GPT-5.6, which promises to enhance cybersecurity capabilities @OpenAI #AI",
+        "twitter": "OpenAI's new model family promises enhanced cybersecurity capabilities, a significant step forward @OpenAI #AI"
+      }
+    },
     "e79c0f9e6e4331735cf29d238452a6a576c69a2b730434ee906290f056002300": {
       "created_at": "2026-07-07T01:09:45Z",
       "payload": {
@@ -1938,15 +1986,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 LeRobot v0.6.0 Released\nThe latest version of LeRobot has been released, offering enhanced functionality and capabilities.\n\ud83c\udfdb\ufe0f Source: HuggingFace (S)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n#AI #MachineLearning #HuggingFace\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "LeRobot's new update is a significant step forward for AI development, offering improved functionality and capabilities, @HuggingFace is leading the charge #AI",
         "twitter": "HuggingFace's latest LeRobot update brings significant improvements, @HuggingFace is pushing the boundaries of AI development #AI"
-      }
-    },
-    "ea6749e278b7363ef70013f518753e582ec85236ad5431dd4547c8024bbb0905": {
-      "created_at": "2026-07-02T21:53:01Z",
-      "payload": {
-        "facebook": "The Pocket app is back, but not as you knew it. Meta has launched a new app with the same name, focusing on creating and sharing interactive gizmos built from AI prompts. This shift marks a significant change from the original read-it-later service, #AI #Meta #Tech",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Meta Introduces New AI-Focused Pocket App\nMeta's new Pocket app lets users create and share interactive gizmos built from AI prompts, a stark departure from the original read-it-later service.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #Meta #Tech\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Meta's new Pocket app introduces interactive gizmos built from AI prompts, a significant shift from the original service, @Meta, #AI",
-        "twitter": "Meta's new Pocket app lets users create interactive gizmos from AI prompts, a stark departure from the original read-it-later service, @Meta, #AI"
       }
     },
     "ec90a51cd9637d0e5baa74db9b5556894a5bb08b871084ab1339872068ad1814": {
@@ -2731,12 +2770,6 @@
       "status": "scoring_attempted",
       "title": "Why the Next Era of AI Is About Infrastructure, Not Just Models"
     },
-    "https://blog.okturtles.org/2026/07/short-leash-ai-method": {
-      "canonical_url": "https://blog.okturtles.org/2026/07/short-leash-ai-method",
-      "created_at": "2026-07-02T21:53:01Z",
-      "status": "scoring_attempted",
-      "title": "The Short Leash AI Coding Method for Beating Fable"
-    },
     "https://blog.zksecurity.xyz/posts/circl-bugs": {
       "canonical_url": "https://blog.zksecurity.xyz/posts/circl-bugs",
       "created_at": "2026-07-07T20:28:28Z",
@@ -2802,6 +2835,12 @@
       "created_at": "2026-07-04T05:34:49Z",
       "status": "scoring_attempted",
       "title": "Agentic coding notes from Galapogos Island"
+    },
+    "https://davidoks.blog/p/why-american-ambulance-rides-are": {
+      "canonical_url": "https://davidoks.blog/p/why-american-ambulance-rides-are",
+      "created_at": "2026-07-09T22:57:15Z",
+      "status": "scoring_attempted",
+      "title": "Why American ambulance rides are so expensive"
     },
     "https://davit.app": {
       "canonical_url": "https://davit.app",
@@ -2898,12 +2937,6 @@
       "created_at": "2026-07-09T21:43:18Z",
       "status": "scoring_attempted",
       "title": "How GitHub gave every repository a durable owner"
-    },
-    "https://github.com/HUANGCHIHHUNGLeo/claude-real-video": {
-      "canonical_url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video",
-      "created_at": "2026-07-02T21:53:01Z",
-      "status": "scoring_attempted",
-      "title": "Claude-real-video \uff0d any LLM can watch a video"
     },
     "https://github.com/PostHog/posthog-foss": {
       "canonical_url": "https://github.com/PostHog/posthog-foss",
@@ -3499,6 +3532,12 @@
       "status": "scoring_attempted",
       "title": "This startup thinks robotics is about to have its ChatGPT moment"
     },
+    "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise": {
+      "canonical_url": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise",
+      "created_at": "2026-07-09T22:57:15Z",
+      "status": "scoring_attempted",
+      "title": "An AI agent startup just let its agent run its $100 million fundraise"
+    },
     "https://techcrunch.com/2026/07/09/anthropic-openai-and-spacex-are-bigger-than-the-last-25-years-of-tech-exits": {
       "canonical_url": "https://techcrunch.com/2026/07/09/anthropic-openai-and-spacex-are-bigger-than-the-last-25-years-of-tech-exits",
       "created_at": "2026-07-09T16:13:09Z",
@@ -3511,11 +3550,23 @@
       "status": "scoring_attempted",
       "title": "Anthropic\u2019s new Claude feature is quietly selling you on AI"
     },
+    "https://techcrunch.com/2026/07/09/can-ai-answer-the-3-trillion-question": {
+      "canonical_url": "https://techcrunch.com/2026/07/09/can-ai-answer-the-3-trillion-question",
+      "created_at": "2026-07-09T22:57:15Z",
+      "status": "scoring_attempted",
+      "title": "Can AI answer the $3 trillion question?"
+    },
     "https://techcrunch.com/2026/07/09/character-ai-enters-the-microdrama-arena-with-its-own-productions-but-with-a-twist": {
       "canonical_url": "https://techcrunch.com/2026/07/09/character-ai-enters-the-microdrama-arena-with-its-own-productions-but-with-a-twist",
       "created_at": "2026-07-09T13:28:46Z",
       "status": "scoring_attempted",
       "title": "Character.AI enters the microdrama arena with its own productions, but there\u2019s a twist"
+    },
+    "https://techcrunch.com/2026/07/09/elon-musk-praises-mythos-fable-promises-not-to-cut-off-anthropic": {
+      "canonical_url": "https://techcrunch.com/2026/07/09/elon-musk-praises-mythos-fable-promises-not-to-cut-off-anthropic",
+      "created_at": "2026-07-09T22:57:15Z",
+      "status": "scoring_attempted",
+      "title": "Elon Musk praises Mythos/Fable, promises not to \u2018cut off\u2019 Anthropic"
     },
     "https://techcrunch.com/2026/07/09/google-will-now-disclose-which-ads-are-made-with-ai": {
       "canonical_url": "https://techcrunch.com/2026/07/09/google-will-now-disclose-which-ads-are-made-with-ai",
@@ -3558,6 +3609,18 @@
       "created_at": "2026-07-09T18:16:40Z",
       "status": "scoring_attempted",
       "title": "Nvidia is a victim of the compute marketplace it created"
+    },
+    "https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing": {
+      "canonical_url": "https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing",
+      "created_at": "2026-07-09T22:57:15Z",
+      "status": "scoring_attempted",
+      "title": "OpenAI is shutting down Atlas, but its AI browser ambitions are still growing"
+    },
+    "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6": {
+      "canonical_url": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6",
+      "created_at": "2026-07-09T22:57:15Z",
+      "status": "scoring_attempted",
+      "title": "OpenAI launches its new family of models with GPT-5.6"
     },
     "https://techcrunch.com/2026/07/09/paris-based-ai-voice-startup-gradium-raises-100m-seed-backed-by-nvidia": {
       "canonical_url": "https://techcrunch.com/2026/07/09/paris-based-ai-voice-startup-gradium-raises-100m-seed-backed-by-nvidia",
@@ -4380,12 +4443,6 @@
       "created_at": "2026-07-04T12:55:30Z",
       "status": "scoring_attempted",
       "title": "The fanfiction community is at war with AI \u2014 and itself"
-    },
-    "https://www.theverge.com/tech/961086/meta-pocket-app-gizmo-ai": {
-      "canonical_url": "https://www.theverge.com/tech/961086/meta-pocket-app-gizmo-ai",
-      "created_at": "2026-07-02T21:53:01Z",
-      "status": "scoring_attempted",
-      "title": "Meta has a new app called Pocket that is absolutely nothing like the old Pocket"
     },
     "https://www.theverge.com/tech/961285/jon-prosser-apple-lawsuit-response-ios-leak": {
       "canonical_url": "https://www.theverge.com/tech/961285/jon-prosser-apple-lawsuit-response-ios-leak",
