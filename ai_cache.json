@@ -1,33 +1,5 @@
 {
   "cerebras_scoring": {
-    "0121e847458cee2da616296610e8b1806fd70708955efaaf2972ae517671b84b": {
-      "created_at": "2026-07-08T11:21:39Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "New regulatory development with significant impact on autonomous vehicle industry.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "The robotaxi law that could ban Tesla",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "New Jersey is considering a robotaxi law that could ban Tesla's driverless cars. The bill requires additional sensors like lidar and radar, challenging Tesla's camera-only approach. This could reshape the autonomous vehicle industry.\nLink: https://www.theverge.com/transportation/962309/new-jersey-robotaxi-bill-lidar-tesla",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *New Jersey considers robotaxi law that could ban Tesla's driverless cars*\n\nNew Jersey is considering a bill that would require robotaxis to use lidar and radar sensors, challenging Tesla's camera-only approach.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/transportation/962309/new-jersey-robotaxi-bill-lidar-tesla\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "New Jersey's proposed robotaxi law could ban Tesla's driverless cars, demanding lidar and radar sensors. This could reshape the autonomous vehicle industry.\nhttps://www.theverge.com/transportation/962309/new-jersey-robotaxi-bill-lidar-tesla",
-          "twitter": "New Jersey's robotaxi bill could ban Tesla's driverless cars, demanding lidar and radar sensors. The battle for autonomous vehicle supremacy heats up.\nhttps://www.theverge.com/transportation/962309/new-jersey-robotaxi-bill-lidar-tesla"
-        }
-      }
-    },
     "10ac893b8f8058de4d587cfb3fc6fb51a888df7ea9917cd7b0b58b237062b250": {
       "created_at": "2026-07-08T17:48:01Z",
       "payload": {
@@ -212,29 +184,6 @@
         "social_posts": {}
       }
     },
-    "4218e66679be7ccaf603f154547cb6c8a47eb0218cb10b504c5e3b1532400d40": {
-      "created_at": "2026-07-08T11:21:39Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "New geospatial data skill for Claude/Codex, but limited impact and lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Geosql: A Claude/Codex skill for geospatial data",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 2,
-        "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "429c299ad2c4d058a59feb49c45010a09c10bee0edcc39a901aa2e2ebe2409f9": {
       "created_at": "2026-07-08T22:43:06Z",
       "payload": {
@@ -407,6 +356,53 @@
         "social_posts": {}
       }
     },
+    "58470e3c45f9e5543891c541b0040d28471ef2ae70896cd7810cd3de3a9d330b": {
+      "created_at": "2026-07-09T13:28:46Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "New tool for code exploration but limited impact and source tier.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Show HN: Arcaide \u2013 Explore code with multi-level call graphs",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 4,
+            "novelty_score": 2.0,
+            "reason": "Important accessibility findings but limited by source tier.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Show HN: 92% of US city websites fail ADA accessibility",
+            "total_score": 7.0
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.0,
+            "index": 5,
+            "novelty_score": 2.5,
+            "reason": "Interesting perspective on version control but limited by source tier.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "How Version Control Will Evolve for the Agent Boom",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 4,
+        "best_score": 7.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "5ee11c9f1aabc5498524e0294ba397a3e72921b149afa43c8db78785e7e8d93f": {
       "created_at": "2026-07-09T05:09:29Z",
       "payload": {
@@ -509,6 +505,41 @@
         ],
         "best_index": 3,
         "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "668307203e196db8fa131dc6c4c2fce7875a1429c81bf5edf5082c8629dcdae2": {
+      "created_at": "2026-07-09T13:28:46Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.0,
+            "index": 6,
+            "novelty_score": 0.0,
+            "reason": "Job posting with no relevance to software engineering or AI research.",
+            "red_flag": true,
+            "red_flag_reason": "Job posting",
+            "source_score": 0.5,
+            "title": "TrueBiz (YC S22) \u2013 Senior Software Engineer \u2013 Remote (US) \u2013 Full-Time",
+            "total_score": 2.0
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 7,
+            "novelty_score": 2.0,
+            "reason": "Industry move with moderate impact on AI and fintech startups in India.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Nandan Nilekani leaves GP role at Fundamentum as it launches $200M third fund",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 7,
+        "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -803,29 +834,6 @@
         "social_posts": {}
       }
     },
-    "8a606746dea5156a10baba722315d4bd3f1da00f1ad5a4655e7e5e9c40705658": {
-      "created_at": "2026-07-08T12:59:22Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.0,
-            "reason": "Kevin Weil's move to Stoke Space highlights the growing interest in reusable rockets in Silicon Valley.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Former OpenAI exec Kevin Weil is now on the board of Stoke Space",
-            "total_score": 8.0
-          }
-        ],
-        "best_index": 1,
-        "best_score": 8.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "8e74122576c7016378a856df38f821f80614d3ce3e202d8095590892fe1caa4b": {
       "created_at": "2026-07-09T05:09:29Z",
       "payload": {
@@ -905,29 +913,6 @@
         ],
         "best_index": 13,
         "best_score": 8.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "95d0cc04abab25efe0261963ccd2bed890f6fbff2cc77ae7c210dfa426ab770a": {
-      "created_at": "2026-07-08T12:59:22Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "New product release with niche impact and high freshness.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "First look: Fi Ultra Starlink pet tracker",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1116,29 +1101,6 @@
         }
       }
     },
-    "c00d1395c609eefb8282cd9c9930e2ba2af6085e2dbd18c6cc4fdd20ea04100a": {
-      "created_at": "2026-07-08T11:21:39Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Opinion piece from a former DeepMind exec on AI arms race risks, relevant to AI researchers and policymakers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "This Former DeepMind Exec Thinks the AI Arms Race Could End in Disaster",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "c2025ca8dcf666484ddb3df0280bbbdf3db937f50b191c97b76ce4580ca7bdef": {
       "created_at": "2026-07-09T05:09:29Z",
       "payload": {
@@ -1302,6 +1264,58 @@
         }
       }
     },
+    "c84f241277d4e0201354970859b5187d13cba2a94429d019ceaedffb2b1d0fc3": {
+      "created_at": "2026-07-09T13:28:46Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "New product launch with moderate impact on niche audience.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Character.AI wants a piece of the microdrama pie",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "Significant funding round and user growth for a widely used developer tool.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Popular open source AI developer tool Ollama raises $65M, grows to nearly 9M users",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "New product launch with moderate impact on niche audience.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Character.AI enters the microdrama arena with its own productions, but there\u2019s a twist",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Ollama, the popular open-source AI tool for developers, has raised $65M and grown to nearly 9M users. This is a significant milestone for a tool that helps developers easily run AI on their PCs. Link: https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Ollama raises $65M, hits 9M users*\n\nOllama, the open-source AI tool for developers, has raised $65M and grown to nearly 9M users. The tool helps developers easily run AI on their PCs.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Ollama, the open-source AI tool for developers, just raised $65M and hit 9M users. It's a big move for a tool that's become essential for running AI on local machines. https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/",
+          "twitter": "Ollama, the open-source AI tool for developers, just raised $65M and hit 9M users. https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/"
+        }
+      }
+    },
     "cecb94f6cb661b5e549cdf01f6fdee62fcc49b88626bda2c4653b189daf6a53f": {
       "created_at": "2026-07-08T18:59:09Z",
       "payload": {
@@ -1401,6 +1415,41 @@
         ],
         "best_index": 2,
         "best_score": 7,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "ddf1cd85a62fe99259f7158d5106fbab0f2370fd6da817ccaee7ce8f0c2afc24": {
+      "created_at": "2026-07-09T13:28:46Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 8,
+            "novelty_score": 0.5,
+            "reason": "Opinion piece on open source collaboration with niche impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.0,
+            "title": "How Open Source Enables Collaboration in Creating a Platform",
+            "total_score": 5.0
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 9,
+            "novelty_score": 2.5,
+            "reason": "OpenAI's novel debugging approach for a critical infrastructure bug.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.0,
+            "title": "OpenAI Fixes 18-Year-Old GNU libunwind Bug by Treating Crash Debugging Like Epidemiology",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 9,
+        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1624,15 +1673,6 @@
         "twitter": "Anthropic expands Claude Cowork AI to mobile and web, increasing accessibility for Max subscribers and beyond @AnthropicAI #AIaccess"
       }
     },
-    "4a95bd664c850a26656ae584cd5dc7ba38512779be441504fc8b4db1fe8ec774": {
-      "created_at": "2026-07-02T12:10:20Z",
-      "payload": {
-        "facebook": "The rapid growth of Google's AI infrastructure has resulted in a significant increase in electricity use, posing a challenge for the company's clean energy efforts. As the demand for AI computing power continues to rise, finding sustainable solutions is crucial. #AI #Sustainability #Google",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Google's AI Infrastructure Growth\nGoogle's AI expansion has led to a significant increase in electricity use, posing a challenge for the company's clean energy efforts.\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9/10\n#AI #Sustainability #Google\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Google's AI buildout has driven a 37% increase in electricity use in 2025, underscoring the need for sustainable data center solutions @Google #AI",
-        "twitter": "Google's AI expansion led to a 37% surge in electricity use in 2025, highlighting the challenge of balancing data center emissions with clean energy @Google #AI"
-      }
-    },
     "572636db56fd6645eb3b076b6fddca20aa89f960f07358405959ff1699d92dd9": {
       "created_at": "2026-07-06T04:43:13Z",
       "payload": {
@@ -1640,6 +1680,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Gemma-3 Trained for Structured Math Reasoning\nGemma-3 achieves structured mathematical reasoning with Tunix GRPO and LoRA adapters. This breakthrough has significant implications for AI problem-solving.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #Mathematics #Gemma3\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Gemma-3 is now capable of structured mathematical reasoning thanks to Tunix GRPO and LoRA adapters, a major advancement in AI research @MarkTechPost #AI",
         "twitter": "Gemma-3 achieves structured mathematical reasoning with Tunix GRPO and LoRA adapters, a significant step forward in AI problem-solving @MarkTechPost #AI"
+      }
+    },
+    "59f7c13dfd58a3fb581e65f83adc1db7dbab0fb349a575ce4ba100ca17eabdf5": {
+      "created_at": "2026-07-09T13:28:46Z",
+      "payload": {
+        "facebook": "The popularity of open source AI developer tools is on the rise, with Ollama raising $65M and growing its user base to nearly 9M. This significant funding round and user growth underscore the tool's value in helping developers easily run AI on their PCs. #AI #Ollama #DeveloperTools",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Ollama Raises $65M in Funding\nOllama's user base has grown to nearly 9M, a significant milestone for the open source AI developer tool.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #Ollama #DeveloperTools\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Ollama has become a go-to tool for developers looking to run AI on their PCs, with nearly 9M users and $65M in funding, @Ollama #AIdevelopment",
+        "twitter": "Ollama's massive user base of nearly 9M is a testament to its ease of use for running AI on PCs, @TechCrunch reports, #AIdevelopment"
       }
     },
     "5f74083fcc15bee7945e4107ca6e6b6161943ff269e92bd9d03a10da0f130891": {
@@ -1866,6 +1915,12 @@
       "status": "scoring_attempted",
       "title": "Claude, please stop trying to memorize random crap"
     },
+    "https://accesslumens.com/research/state-of-us-local-government-accessibility-2026": {
+      "canonical_url": "https://accesslumens.com/research/state-of-us-local-government-accessibility-2026",
+      "created_at": "2026-07-09T13:28:46Z",
+      "status": "scoring_attempted",
+      "title": "Show HN: 92% of US city websites fail ADA accessibility"
+    },
     "https://ahmadawais.com/the-full-stack-of-terminals-explained-terminal-shell-tty-console-posix-ansi-escapes-ptys": {
       "canonical_url": "https://ahmadawais.com/the-full-stack-of-terminals-explained-terminal-shell-tty-console-posix-ansi-escapes-ptys",
       "created_at": "2026-07-05T21:48:45Z",
@@ -1890,17 +1945,17 @@
       "status": "scoring_attempted",
       "title": "John Deere owners will get the right to repair equipment under FTC settlement"
     },
+    "https://arcaide.foo": {
+      "canonical_url": "https://arcaide.foo",
+      "created_at": "2026-07-09T13:28:46Z",
+      "status": "scoring_attempted",
+      "title": "Show HN: Arcaide \u2013 Explore code with multi-level call graphs"
+    },
     "https://arstechnica.com/ai/2026/07/facing-us-export-controls-chinas-deepseek-plans-to-make-its-own-chips": {
       "canonical_url": "https://arstechnica.com/ai/2026/07/facing-us-export-controls-chinas-deepseek-plans-to-make-its-own-chips",
       "created_at": "2026-07-07T16:28:08Z",
       "status": "scoring_attempted",
       "title": "Facing US export controls, China's DeepSeek plans to make its own chips"
-    },
-    "https://arstechnica.com/ai/2026/07/googles-ai-buildout-drove-37-increase-in-electricity-use-in-2025": {
-      "canonical_url": "https://arstechnica.com/ai/2026/07/googles-ai-buildout-drove-37-increase-in-electricity-use-in-2025",
-      "created_at": "2026-07-02T12:10:20Z",
-      "status": "scoring_attempted",
-      "title": "Google\u2019s AI buildout drove 37% increase in electricity use in 2025"
     },
     "https://arstechnica.com/ai/2026/07/uk-regulator-warns-of-arms-race-to-keep-up-with-ai-use-in-financial-services": {
       "canonical_url": "https://arstechnica.com/ai/2026/07/uk-regulator-warns-of-arms-race-to-keep-up-with-ai-use-in-financial-services",
@@ -2724,6 +2779,12 @@
       "status": "scoring_attempted",
       "title": "My AI-built PHP engine in Rust passes 17% of PHP-src tests, renders WordPress"
     },
+    "https://entire.io/blog/how-version-control-will-evolve-for-the-agent-boom": {
+      "canonical_url": "https://entire.io/blog/how-version-control-will-evolve-for-the-agent-boom",
+      "created_at": "2026-07-09T13:28:46Z",
+      "status": "scoring_attempted",
+      "title": "How Version Control Will Evolve for the Agent Boom"
+    },
     "https://epoch.ai/data-insights/cve-severity-spike": {
       "canonical_url": "https://epoch.ai/data-insights/cve-severity-spike",
       "created_at": "2026-07-03T22:31:22Z",
@@ -3084,6 +3145,12 @@
       "status": "scoring_attempted",
       "title": "Stealth robotics startup (YC S26) is hiring principal engineers (Palo Alto)"
     },
+    "https://news.ycombinator.com/item?id=48844517": {
+      "canonical_url": "https://news.ycombinator.com/item?id=48844517",
+      "created_at": "2026-07-09T13:28:46Z",
+      "status": "scoring_attempted",
+      "title": "TrueBiz (YC S22) \u2013 Senior Software Engineer \u2013 Remote (US) \u2013 Full-Time"
+    },
     "https://nicole.express/2026/phase-altering-by-line.html": {
       "canonical_url": "https://nicole.express/2026/phase-altering-by-line.html",
       "created_at": "2026-07-05T23:54:04Z",
@@ -3408,6 +3475,24 @@
       "status": "scoring_attempted",
       "title": "This startup thinks robotics is about to have its ChatGPT moment"
     },
+    "https://techcrunch.com/2026/07/09/character-ai-enters-the-microdrama-arena-with-its-own-productions-but-with-a-twist": {
+      "canonical_url": "https://techcrunch.com/2026/07/09/character-ai-enters-the-microdrama-arena-with-its-own-productions-but-with-a-twist",
+      "created_at": "2026-07-09T13:28:46Z",
+      "status": "scoring_attempted",
+      "title": "Character.AI enters the microdrama arena with its own productions, but there\u2019s a twist"
+    },
+    "https://techcrunch.com/2026/07/09/nandan-nilekani-leaves-gp-role-at-his-vc-firm-as-it-launches-third-200m-fund": {
+      "canonical_url": "https://techcrunch.com/2026/07/09/nandan-nilekani-leaves-gp-role-at-his-vc-firm-as-it-launches-third-200m-fund",
+      "created_at": "2026-07-09T13:28:46Z",
+      "status": "scoring_attempted",
+      "title": "Nandan Nilekani leaves GP role at Fundamentum as it launches $200M third fund"
+    },
+    "https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users": {
+      "canonical_url": "https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users",
+      "created_at": "2026-07-09T13:28:46Z",
+      "status": "scoring_attempted",
+      "title": "Popular open source AI developer tool Ollama raises $65M, grows to nearly 9M users"
+    },
     "https://techcrunch.com/podcast/your-gaming-data-could-be-the-secret-to-agi-according-to-this-bezos-backed-startup": {
       "canonical_url": "https://techcrunch.com/podcast/your-gaming-data-could-be-the-secret-to-agi-according-to-this-bezos-backed-startup",
       "created_at": "2026-07-08T18:59:09Z",
@@ -3612,12 +3697,6 @@
       "status": "scoring_attempted",
       "title": "AlloyDB Ships Proxy Models That Replace LLM Calls with Local Inference Inside the Database"
     },
-    "https://www.infoq.com/news/2026/07/apple-pcc-google-cloud": {
-      "canonical_url": "https://www.infoq.com/news/2026/07/apple-pcc-google-cloud",
-      "created_at": "2026-07-02T12:10:20Z",
-      "status": "scoring_attempted",
-      "title": "Apple Extends Private Cloud Compute to Google Cloud for the First Time"
-    },
     "https://www.infoq.com/news/2026/07/aws-devops-ai-agent": {
       "canonical_url": "https://www.infoq.com/news/2026/07/aws-devops-ai-agent",
       "created_at": "2026-07-07T12:41:43Z",
@@ -3708,6 +3787,18 @@
       "status": "scoring_attempted",
       "title": "InfoQ Opens AI Security & Privacy Engineering Cohort for Regulated Industries"
     },
+    "https://www.infoq.com/news/2026/07/open-source-platform": {
+      "canonical_url": "https://www.infoq.com/news/2026/07/open-source-platform",
+      "created_at": "2026-07-09T13:28:46Z",
+      "status": "scoring_attempted",
+      "title": "How Open Source Enables Collaboration in Creating a Platform"
+    },
+    "https://www.infoq.com/news/2026/07/openai-libunwind-core-dumps": {
+      "canonical_url": "https://www.infoq.com/news/2026/07/openai-libunwind-core-dumps",
+      "created_at": "2026-07-09T13:28:46Z",
+      "status": "scoring_attempted",
+      "title": "OpenAI Fixes 18-Year-Old GNU libunwind Bug by Treating Crash Debugging Like Epidemiology"
+    },
     "https://www.infoq.com/news/2026/07/opentelemetry-cncf-maturity": {
       "canonical_url": "https://www.infoq.com/news/2026/07/opentelemetry-cncf-maturity",
       "created_at": "2026-07-03T12:06:05Z",
@@ -3719,12 +3810,6 @@
       "created_at": "2026-07-03T12:06:05Z",
       "status": "scoring_attempted",
       "title": "Oracle Quietly Halves Free Tier Ampere A1 Compute Limits with No Public Announcement"
-    },
-    "https://www.infoq.com/news/2026/07/platform-projects-products": {
-      "canonical_url": "https://www.infoq.com/news/2026/07/platform-projects-products",
-      "created_at": "2026-07-02T12:10:20Z",
-      "status": "scoring_attempted",
-      "title": "Shifting Platform Development from Projects to Products"
     },
     "https://www.infoq.com/news/2026/07/sitar-agent-sidecar-config": {
       "canonical_url": "https://www.infoq.com/news/2026/07/sitar-agent-sidecar-config",
@@ -3954,23 +4039,11 @@
       "status": "scoring_attempted",
       "title": "The Egg Bandits Made a Thousand Times the Fine They Just Paid for Price Fixing"
     },
-    "https://www.theguardian.com/technology/2026/jul/02/openai-stake-us-government-ai-sam-altman": {
-      "canonical_url": "https://www.theguardian.com/technology/2026/jul/02/openai-stake-us-government-ai-sam-altman",
-      "created_at": "2026-07-02T12:10:20Z",
-      "status": "scoring_attempted",
-      "title": "OpenAI: In early talks to give 5% stake to US Government"
-    },
     "https://www.theregister.com/offbeat/2026/07/05/c-programmers-commit-fresh-crimes-against-readability/5265981": {
       "canonical_url": "https://www.theregister.com/offbeat/2026/07/05/c-programmers-commit-fresh-crimes-against-readability/5265981",
       "created_at": "2026-07-06T14:42:06Z",
       "status": "scoring_attempted",
       "title": "C programmers commit fresh crimes against readability"
-    },
-    "https://www.theverge.com/ai-artificial-intelligence/960588/openai-government-5-percent-stake-trump": {
-      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/960588/openai-government-5-percent-stake-trump",
-      "created_at": "2026-07-02T12:10:20Z",
-      "status": "scoring_attempted",
-      "title": "OpenAI floats giving Trump administration 5 percent cut of AI boom"
     },
     "https://www.theverge.com/ai-artificial-intelligence/961265/midjourney-medical-ultrasound-scanner-behind-the-scenes-video": {
       "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/961265/midjourney-medical-ultrasound-scanner-behind-the-scenes-video",
@@ -4026,12 +4099,6 @@
       "status": "scoring_attempted",
       "title": "Influencer screenings aren\u2019t going away"
     },
-    "https://www.theverge.com/entertainment/960265/silo-season-3-apple-tv-interview-mystery-box": {
-      "canonical_url": "https://www.theverge.com/entertainment/960265/silo-season-3-apple-tv-interview-mystery-box",
-      "created_at": "2026-07-02T12:10:20Z",
-      "status": "scoring_attempted",
-      "title": "Mystery box shows are complicated for everyone \u2014 even the actors"
-    },
     "https://www.theverge.com/entertainment/960665/the-verge-2026-summer-in-out-list": {
       "canonical_url": "https://www.theverge.com/entertainment/960665/the-verge-2026-summer-in-out-list",
       "created_at": "2026-07-03T15:53:16Z",
@@ -4055,6 +4122,12 @@
       "created_at": "2026-07-07T22:57:38Z",
       "status": "scoring_attempted",
       "title": "Of course viewers are giving up on Netflix shows"
+    },
+    "https://www.theverge.com/entertainment/962897/character-ai-series-microdrama-vertical-video": {
+      "canonical_url": "https://www.theverge.com/entertainment/962897/character-ai-series-microdrama-vertical-video",
+      "created_at": "2026-07-09T13:28:46Z",
+      "status": "scoring_attempted",
+      "title": "Character.AI wants a piece of the microdrama pie"
     },
     "https://www.theverge.com/gadgets/960558/weber-july-4th-grill-griddle-sale-deal": {
       "canonical_url": "https://www.theverge.com/gadgets/960558/weber-july-4th-grill-griddle-sale-deal",
@@ -4187,12 +4260,6 @@
       "created_at": "2026-07-05T14:53:15Z",
       "status": "scoring_attempted",
       "title": "The Sourdough Sidekick automates the boring bit of baking"
-    },
-    "https://www.theverge.com/tech/959848/bittorrent-story-25-years-piracy": {
-      "canonical_url": "https://www.theverge.com/tech/959848/bittorrent-story-25-years-piracy",
-      "created_at": "2026-07-02T12:10:20Z",
-      "status": "scoring_attempted",
-      "title": "BitTorrent&#8217;s disastrous, legendary, and controversial story"
     },
     "https://www.theverge.com/tech/960854/ai-fanfiction-ao3-claude-detector": {
       "canonical_url": "https://www.theverge.com/tech/960854/ai-fanfiction-ao3-claude-detector",
