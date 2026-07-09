@@ -63,6 +63,77 @@
         "social_posts": {}
       }
     },
+    "1fe80c1b3c166548fd6c88bebe63c8ef2d48de0de9c2d5f8811a34591862fa6f": {
+      "created_at": "2026-07-09T16:13:09Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 5,
+            "novelty_score": 2.5,
+            "reason": "New product launch with moderate impact and freshness, but lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Launch HN: Context.dev (YC S26) \u2013 API to get structured data from any website",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 6,
+            "novelty_score": 2.5,
+            "reason": "Netflix's architectural pivot is relevant to software architects, with good novelty and impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Presentation: Accelerating Netflix Data: A Cross-Team Journey from Offline to Online",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 7,
+            "novelty_score": 2.5,
+            "reason": "Anthropic's new feature has significant impact on AI users, with good novelty and source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Anthropic\u2019s new Claude feature is quietly selling you on AI",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 8,
+            "novelty_score": 2,
+            "reason": "High impact on tech industry, but slightly less novelty and freshness.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Anthropic, OpenAI, and SpaceX are bigger than the last 25 years of tech exits",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.5,
+            "index": 9,
+            "novelty_score": 0.2,
+            "reason": "Consumer product discount with low novelty and impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Sonos Ace wireless headphones are steeply discounted",
+            "total_score": 3.7
+          }
+        ],
+        "best_index": 6,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "2a0b6125e4bd9f6c8b5d8d442a7af41bedd979ef285e897ed90e64cd5fff4828": {
       "created_at": "2026-07-08T18:59:09Z",
       "payload": {
@@ -161,27 +232,80 @@
         "social_posts": {}
       }
     },
-    "3cc94170e501ad93d3693724c4c262c7dcb6574de0f571332fe3bb9df3592bd2": {
-      "created_at": "2026-07-08T15:26:56Z",
+    "4224651134ce6608dc89f3dbab3f8c57c61b5fbcf940f899ee04548a00f8e979": {
+      "created_at": "2026-07-09T16:13:09Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 4,
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 10,
             "novelty_score": 2.5,
-            "reason": "Itamar Friedman discusses how architects and engineering leaders can break through the AI productivity ceiling using adaptive multi-agent systems.",
+            "reason": "Open sourcing is notable but niche impact and low-tier source limit the score.",
             "red_flag": false,
             "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Presentation: The Multi-Agent Approach: Building Reliable and Controllable Software Development Automation",
-            "total_score": 7.5
+            "source_score": 0.5,
+            "title": "PostHog Open Sourced",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 0,
+            "index": 11,
+            "novelty_score": 0,
+            "reason": "Historical recap has no novelty or impact for modern engineers.",
+            "red_flag": true,
+            "red_flag_reason": "Recap of historical discovery",
+            "source_score": 0.5,
+            "title": "Maxwell's Equations Were Discovered [video]",
+            "total_score": 2.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.5,
+            "index": 12,
+            "novelty_score": 1.5,
+            "reason": "Camera hardware is niche for software engineers and AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Sony brings back the superzoom RX10 with a stacked sensor and a high price",
+            "total_score": 4.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.5,
+            "index": 13,
+            "novelty_score": 1.5,
+            "reason": "Media industry news has limited relevance to software engineers and AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Comcast is breaking up with NBCU. Why did it ever buy it in the first place?",
+            "total_score": 4.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 14,
+            "novelty_score": 3,
+            "reason": "New AI model for coding is highly relevant to software engineers and AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Meta says its new AI model is ready to compete on coding",
+            "total_score": 8.5
           }
         ],
-        "best_index": 4,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
+        "best_index": 14,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Meta has released Muse Spark 1.1, an AI model designed for coding tasks. The company claims significant improvements over the previous generation, making it a strong competitor in the AI coding space. Link: https://www.theverge.com/ai-artificial-intelligence/963193/meta-muse-spark-model-api",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Meta says its new AI model is ready to compete on coding*\n\nMeta has released Muse Spark 1.1, an AI model designed for coding tasks, with improved performance over the previous generation.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: 2 hours ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/ai-artificial-intelligence/963193/meta-muse-spark-model-api\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Meta's Muse Spark 1.1 model is now available for developers, focusing on coding tasks. Early reports suggest notable performance improvements. https://www.theverge.com/ai-artificial-intelligence/963193/meta-muse-spark-model-api",
+          "twitter": "Meta's new Muse Spark 1.1 model targets coding tasks with improved performance. https://www.theverge.com/ai-artificial-intelligence/963193/meta-muse-spark-model-api"
+        }
       }
     },
     "429c299ad2c4d058a59feb49c45010a09c10bee0edcc39a901aa2e2ebe2409f9": {
@@ -667,50 +791,80 @@
         "social_posts": {}
       }
     },
-    "6d704235216de2c170c7d3c8ba328527816b683f6b317100e15a96e9a4c7c3bc": {
-      "created_at": "2026-07-08T16:01:10Z",
+    "6c12870d07832d7e92417b5d698e9a7bff92334e2d0ff5ab30868b882dafd477": {
+      "created_at": "2026-07-09T16:13:09Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 2.0,
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 1.5,
+            "reason": "Update on a consumer robot with limited impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "The 1X Neo Robot Has Freaky Fast Fingers",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 0.5,
+            "reason": "Red flag due to 'Comments'.",
+            "red_flag": true,
+            "red_flag_reason": "Comments",
+            "source_score": 0.5,
+            "title": "AI Content Is Everywhere on Social Media, Especially LinkedIn",
+            "total_score": 5.5
+          },
+          {
+            "freshness_score": 2,
             "impact_score": 1.5,
             "index": 2,
             "novelty_score": 2.5,
-            "reason": "Chatto's open sourcing is notable but niche impact and low-tier source limit its score.",
+            "reason": "Research on aquatic robots with niche impact.",
             "red_flag": false,
             "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Chatto is now Open Source",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 2,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "78b4ad1eabb8caaa0f0b9b1b1aa275a583282bbcd19e6b960bc1c6790dce3038": {
-      "created_at": "2026-07-08T15:26:56Z",
-      "payload": {
-        "articles": [
+            "source_score": 1,
+            "title": "Tiny robot boats build floating structures",
+            "total_score": 7
+          },
           {
-            "freshness_score": 1.5,
+            "freshness_score": 2,
             "impact_score": 1.5,
             "index": 3,
-            "novelty_score": 2.5,
-            "reason": "Mistral's Robostral Navigate is a new robotics navigation model, but it's only discussed on Hacker News with no official release details.",
+            "novelty_score": 1.5,
+            "reason": "Consumer tech review with limited impact.",
             "red_flag": false,
             "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Mistral's Robostral Navigate: a state of the art robotics navigation model",
-            "total_score": 5.5
+            "source_score": 1.5,
+            "title": "Schlage\u2019s Sense Pro unlocks the door so I don\u2019t have to",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 4,
+            "novelty_score": 3,
+            "reason": "New deployment with significant impact on drug research.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "AWS GraphRAG deployment cuts drug research cycles by 87%",
+            "total_score": 8.5
           }
         ],
-        "best_index": 3,
-        "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
+        "best_index": 4,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "AWS just announced a GraphRAG deployment that cuts drug research cycles by 87%. The system integrates previously separate proprietary databases into a unified knowledge graph, significantly speeding up the research process. This is a major win for pharmaceutical companies leveraging AI. Link: https://www.artificialintelligence-news.com/news/aws-graphrag-deployment-cuts-drug-research-cycles-by-87/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\ud83d\udd25 AWS GraphRAG deployment cuts drug research cycles by 87%\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\nAWS GraphRAG deployment reduces drug research cycles by 87% by integrating proprietary databases into a unified knowledge graph.\n\n\ud83c\udfdb\ufe0f Source: AI News (B)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.artificialintelligence-news.com/news/aws-graphrag-deployment-cuts-drug-research-cycles-by-87/",
+          "threads": "AWS GraphRAG deployment reduces drug research cycles by 87% by unifying proprietary databases into a queryable knowledge graph. This is a big deal for pharma. https://www.artificialintelligence-news.com/news/aws-graphrag-deployment-cuts-drug-research-cycles-by-87/",
+          "twitter": "AWS GraphRAG deployment slashes drug research cycles by 87% by integrating proprietary databases into a unified knowledge graph. https://www.artificialintelligence-news.com/news/aws-graphrag-deployment-cuts-drug-research-cycles-by-87/"
+        }
       }
     },
     "7ea9cd7ba413c9f436149c248ab8a0e794c01ecb685fd1940b0a4102e4f2d39b": {
@@ -771,29 +925,6 @@
           }
         ],
         "best_index": 2,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "84aa6d47da7fa3d247e47766a4f90461f9c8c4dfbce595103a821c3ef9ab7f47": {
-      "created_at": "2026-07-08T16:01:10Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 1.5,
-            "reason": "Interesting but not groundbreaking; lacks specific technical details.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "These AI startups are growing revenue at faster and faster rates",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 0,
         "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
@@ -913,41 +1044,6 @@
         ],
         "best_index": 13,
         "best_score": 8.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "a991ad8e899345b50b4410c21c34623474036f54452d9c24066905fddc378af9": {
-      "created_at": "2026-07-08T15:26:56Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 1.5,
-            "reason": "Interesting consumer tech but not directly relevant to software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "This jumping $800 robot camera dog filled me with joy",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 1,
-            "novelty_score": 1.5,
-            "reason": "Consumer tech pricing news with limited impact on software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "The whole Pixel line could get more expensive this year",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1396,29 +1492,6 @@
         }
       }
     },
-    "dcc86d3f864a38f81abf4298cdcff1a77a9371c198b6864598bb10acebe2d298": {
-      "created_at": "2026-07-08T15:26:56Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "Airbnb's Sitar-agent architecture is a notable engineering achievement for Kubernetes configuration management.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Airbnb Shares Architecture Behind Sitar-Agent Dynamic Configuration Sidecar for Kubernetes Services",
-            "total_score": 7
-          }
-        ],
-        "best_index": 2,
-        "best_score": 7,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "ddf1cd85a62fe99259f7158d5106fbab0f2370fd6da817ccaee7ce8f0c2afc24": {
       "created_at": "2026-07-09T13:28:46Z",
       "payload": {
@@ -1449,6 +1522,65 @@
           }
         ],
         "best_index": 9,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "e20d97fcf1181d07d30e4b20e5769cb06b9b45133013071c936cf1dde4693c9f": {
+      "created_at": "2026-07-09T16:13:09Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 15,
+            "novelty_score": 2.5,
+            "reason": "Important issue but not directly relevant to software engineers or AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "ICE agents are making house calls for online critics",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 16,
+            "novelty_score": 2.5,
+            "reason": "Interesting feature but not groundbreaking for the field.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Say hello to Claude Wrapped",
+            "total_score": 7.0
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.0,
+            "index": 17,
+            "novelty_score": 1.5,
+            "reason": "Not relevant to software engineers or AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Syria's solar boom is redefining Middle East's energy model",
+            "total_score": 4.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.0,
+            "index": 18,
+            "novelty_score": 3.0,
+            "reason": "Interesting tool but not widely impactful yet.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.0,
+            "title": "Show HN: FableCut \u2013 A browser video editor AI agents can drive (zero deps)",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 15,
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
@@ -1496,29 +1628,6 @@
         ],
         "best_index": 0,
         "best_score": 8.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "f4cf5e1271f117add03523b2528ad4e7f35c585cd8d900d67e3ef53f2bfa95b1": {
-      "created_at": "2026-07-08T16:01:10Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "New tool for AI agent specification, niche impact, fresh, low-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Show HN: Kastor \u2013 Terraform-style specs for AI agents",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1637,15 +1746,6 @@
         "twitter": "New Jersey's robotaxi law may ban Tesla's autonomous vehicles due to sensor requirements @elonmusk #autonomousvehicles"
       }
     },
-    "3f09085692fc06e7374997cc1ad34ca09273c9324ec11fd740e736db6e54ba6e": {
-      "created_at": "2026-07-02T16:04:35Z",
-      "payload": {
-        "facebook": "A significant development in the AI industry as OpenAI proposes donating a portion of its equity to a US sovereign wealth fund. This move could have major implications for the future of AI and its financial benefits. #AI #SovereignWealthFund #TechNews",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 OpenAI Considers Public Equity Donation\nOpenAI CEO Sam Altman has proposed donating 5% of the company's equity to a US sovereign wealth fund, reviving discussions about public sharing of AI profits.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9/10\n#AI #SovereignWealthFund #TechNews\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "OpenAI CEO Sam Altman has proposed a 5% equity donation to a US sovereign wealth fund, sparking discussions about public sharing of AI profits, according to @TechCrunch #AI",
-        "twitter": "OpenAI considers donating 5% of its equity to a US sovereign wealth fund, a move that could let the public share in AI profits, says @TechCrunch #AI"
-      }
-    },
     "3f201fbb179b48c6f757095e3f2892b4693f22bd105cd7036517b89496222c96": {
       "created_at": "2026-07-04T12:55:30Z",
       "payload": {
@@ -1671,6 +1771,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Anthropic's AI Expansion\nAnthropic's Claude Cowork AI platform is launching on mobile and web, marking a significant step in AI accessibility.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #ArtificialIntelligence #TechNews\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Anthropic's Claude Cowork AI platform is now accessible on mobile and web, a move that enhances AI accessibility for users @AnthropicAI #AI",
         "twitter": "Anthropic expands Claude Cowork AI to mobile and web, increasing accessibility for Max subscribers and beyond @AnthropicAI #AIaccess"
+      }
+    },
+    "526483dac1fcef96ae34d46362657547c68681d9abe5bdd3956ced0235fcd6a6": {
+      "created_at": "2026-07-09T16:13:09Z",
+      "payload": {
+        "facebook": "The integration of previously separated proprietary databases into a unified knowledge graph has significantly accelerated pharmaceutical research. This development has reduced research cycles by 87 percent, a substantial improvement. #AI #PharmaceuticalResearch #DrugDevelopment",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Acceleration in Pharmaceutical Research\nThe deployment of AWS GraphRAG has reduced pharmaceutical research cycles by 87 percent by integrating disparate databases into a unified knowledge graph.\n\ud83c\udfdb\ufe0f Source: AI News (B)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #PharmaceuticalResearch #DrugDevelopment\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Pharmaceutical research cycles have been reduced by 87 percent with the deployment of AWS GraphRAG, which integrates disparate databases into a unified knowledge graph @AWS #AI",
+        "twitter": "AWS GraphRAG accelerates pharmaceutical research by 87% by unifying disparate databases into a queryable knowledge graph @AWS #AI"
       }
     },
     "572636db56fd6645eb3b076b6fddca20aa89f960f07358405959ff1699d92dd9": {
@@ -1999,18 +2108,6 @@
       "status": "scoring_attempted",
       "title": "Lawsuit: Man used Grok to make 7K sex images of stepdaughter, then shot himself"
     },
-    "https://arstechnica.com/tech-policy/2026/07/musks-x-poses-serious-risk-to-americans-privacy-advocates-warn-ftc": {
-      "canonical_url": "https://arstechnica.com/tech-policy/2026/07/musks-x-poses-serious-risk-to-americans-privacy-advocates-warn-ftc",
-      "created_at": "2026-07-02T16:04:35Z",
-      "status": "scoring_attempted",
-      "title": "Musk\u2019s X poses \u201cserious risk to Americans\u2019 privacy,\u201d advocates warn FTC"
-    },
-    "https://arstechnica.com/tech-policy/2026/07/openai-floats-giving-us-5-stake-to-win-over-ai-haters": {
-      "canonical_url": "https://arstechnica.com/tech-policy/2026/07/openai-floats-giving-us-5-stake-to-win-over-ai-haters",
-      "created_at": "2026-07-02T16:04:35Z",
-      "status": "scoring_attempted",
-      "title": "Trump gets OpenAI to offer US 5% stake, far lower than Sanders\u2019 target"
-    },
     "https://arstechnica.com/tech-policy/2026/07/us-manufacturers-energy-costs-soar-because-of-ai-data-center-demand": {
       "canonical_url": "https://arstechnica.com/tech-policy/2026/07/us-manufacturers-energy-costs-soar-because-of-ai-data-center-demand",
       "created_at": "2026-07-07T21:55:05Z",
@@ -2046,12 +2143,6 @@
       "created_at": "2026-07-04T22:55:26Z",
       "status": "scoring_attempted",
       "title": "Protocol Prying: Vulnerability Research in AirDrop and Quick Share"
-    },
-    "https://arxiv.org/abs/2607.01232": {
-      "canonical_url": "https://arxiv.org/abs/2607.01232",
-      "created_at": "2026-07-02T14:31:05Z",
-      "status": "scoring_attempted",
-      "title": "Is One Layer Enough? A Single Transformer Layer Matches Full-Parameter RL Train"
     },
     "https://arxiv.org/abs/2607.01306": {
       "canonical_url": "https://arxiv.org/abs/2607.01306",
@@ -2827,17 +2918,17 @@
       "status": "scoring_attempted",
       "title": "GitFut \u2013 Your GitHub stats turned into a World-Cup-style player card"
     },
-    "https://github.com/Chocobozzz/PeerTube": {
-      "canonical_url": "https://github.com/Chocobozzz/PeerTube",
-      "created_at": "2026-07-02T16:04:35Z",
-      "status": "scoring_attempted",
-      "title": "PeerTube is a free, decentralized and federated video platform"
-    },
     "https://github.com/HUANGCHIHHUNGLeo/claude-real-video": {
       "canonical_url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video",
       "created_at": "2026-07-02T21:53:01Z",
       "status": "scoring_attempted",
       "title": "Claude-real-video \uff0d any LLM can watch a video"
+    },
+    "https://github.com/PostHog/posthog-foss": {
+      "canonical_url": "https://github.com/PostHog/posthog-foss",
+      "created_at": "2026-07-09T16:13:09Z",
+      "status": "scoring_attempted",
+      "title": "PostHog Open Sourced"
     },
     "https://github.com/Trystan-SA/claude-design-system-prompt": {
       "canonical_url": "https://github.com/Trystan-SA/claude-design-system-prompt",
@@ -2911,11 +3002,11 @@
       "status": "scoring_attempted",
       "title": "GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance"
     },
-    "https://github.com/rafal-qa/slopo": {
-      "canonical_url": "https://github.com/rafal-qa/slopo",
-      "created_at": "2026-07-02T16:04:35Z",
+    "https://github.com/ronak-create/FableCut": {
+      "canonical_url": "https://github.com/ronak-create/FableCut",
+      "created_at": "2026-07-09T16:13:09Z",
       "status": "scoring_attempted",
-      "title": "Show HN: CLI tool for detecting non-exact code duplication with embedding models"
+      "title": "Show HN: FableCut \u2013 A browser video editor AI agents can drive (zero deps)"
     },
     "https://github.com/rowboatlabs/rowboat": {
       "canonical_url": "https://github.com/rowboatlabs/rowboat",
@@ -3013,12 +3104,6 @@
       "status": "scoring_attempted",
       "title": "Efficacy and Safety of Psilocybin in Treatment-Resistant Major Depression"
     },
-    "https://japannews.yomiuri.co.jp/science-nature/technology/20260306-314930": {
-      "canonical_url": "https://japannews.yomiuri.co.jp/science-nature/technology/20260306-314930",
-      "created_at": "2026-07-02T16:04:35Z",
-      "status": "scoring_attempted",
-      "title": "AI can't be listed as inventor on patent applications, Japan's top court rules"
-    },
     "https://javoriuski.com/post/youtube": {
       "canonical_url": "https://javoriuski.com/post/youtube",
       "created_at": "2026-07-04T17:54:01Z",
@@ -3061,29 +3146,11 @@
       "status": "scoring_attempted",
       "title": "l: A new runtime for k and q"
     },
-    "https://mailmemories.com": {
-      "canonical_url": "https://mailmemories.com",
-      "created_at": "2026-07-02T16:04:35Z",
-      "status": "scoring_attempted",
-      "title": "Show HN: Mail Memories \u2013 A desktop app to rescue photos from Gmail"
-    },
-    "https://manufact.com": {
-      "canonical_url": "https://manufact.com",
-      "created_at": "2026-07-02T16:04:35Z",
-      "status": "scoring_attempted",
-      "title": "Launch HN: Manufact (YC S25) \u2013 MCP Cloud"
-    },
     "https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2": {
       "canonical_url": "https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2",
       "created_at": "2026-07-06T23:03:45Z",
       "status": "scoring_attempted",
       "title": "GLM 5.2 and the coming AI margin collapse"
-    },
-    "https://mathstodon.xyz/@mjd/115096720350507897": {
-      "canonical_url": "https://mathstodon.xyz/@mjd/115096720350507897",
-      "created_at": "2026-07-02T16:04:35Z",
-      "status": "scoring_attempted",
-      "title": "The primary purpose of code review is to find code that will be hard to maintain"
     },
     "https://microsoft.github.io/flint-chart": {
       "canonical_url": "https://microsoft.github.io/flint-chart",
@@ -3126,6 +3193,12 @@
       "created_at": "2026-07-07T15:36:30Z",
       "status": "scoring_attempted",
       "title": "Jesse Thaler named director of the Laboratory for Nuclear Science"
+    },
+    "https://news.mit.edu/2026/tiny-robot-boats-build-floating-structures-0709": {
+      "canonical_url": "https://news.mit.edu/2026/tiny-robot-boats-build-floating-structures-0709",
+      "created_at": "2026-07-09T16:13:09Z",
+      "status": "scoring_attempted",
+      "title": "Tiny robot boats build floating structures"
     },
     "https://news.mit.edu/2026/toward-future-preserves-benefits-neurotechnology-for-all-0706": {
       "canonical_url": "https://news.mit.edu/2026/toward-future-preserves-benefits-neurotechnology-for-all-0706",
@@ -3270,24 +3343,6 @@
       "created_at": "2026-07-02T19:44:21Z",
       "status": "scoring_attempted",
       "title": "Meta quietly launches vibe-coded gaming app Pocket"
-    },
-    "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment": {
-      "canonical_url": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment",
-      "created_at": "2026-07-02T14:31:05Z",
-      "status": "scoring_attempted",
-      "title": "Microsoft launches its own AI deployment company with $2.5 billion commitment"
-    },
-    "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund": {
-      "canonical_url": "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund",
-      "created_at": "2026-07-02T16:04:35Z",
-      "status": "scoring_attempted",
-      "title": "OpenAI proposed donating 5% of its equity to a US sovereign wealth fund"
-    },
-    "https://techcrunch.com/2026/07/02/yep-were-using-openclaw-to-date-now": {
-      "canonical_url": "https://techcrunch.com/2026/07/02/yep-were-using-openclaw-to-date-now",
-      "created_at": "2026-07-02T14:31:05Z",
-      "status": "scoring_attempted",
-      "title": "Yep, we\u2019re using OpenClaw to date now"
     },
     "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms": {
       "canonical_url": "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms",
@@ -3475,6 +3530,18 @@
       "status": "scoring_attempted",
       "title": "This startup thinks robotics is about to have its ChatGPT moment"
     },
+    "https://techcrunch.com/2026/07/09/anthropic-openai-and-spacex-are-bigger-than-the-last-25-years-of-tech-exits": {
+      "canonical_url": "https://techcrunch.com/2026/07/09/anthropic-openai-and-spacex-are-bigger-than-the-last-25-years-of-tech-exits",
+      "created_at": "2026-07-09T16:13:09Z",
+      "status": "scoring_attempted",
+      "title": "Anthropic, OpenAI, and SpaceX are bigger than the last 25 years of tech exits"
+    },
+    "https://techcrunch.com/2026/07/09/anthropics-new-claude-feature-is-quietly-selling-you-on-ai": {
+      "canonical_url": "https://techcrunch.com/2026/07/09/anthropics-new-claude-feature-is-quietly-selling-you-on-ai",
+      "created_at": "2026-07-09T16:13:09Z",
+      "status": "scoring_attempted",
+      "title": "Anthropic\u2019s new Claude feature is quietly selling you on AI"
+    },
     "https://techcrunch.com/2026/07/09/character-ai-enters-the-microdrama-arena-with-its-own-productions-but-with-a-twist": {
       "canonical_url": "https://techcrunch.com/2026/07/09/character-ai-enters-the-microdrama-arena-with-its-own-productions-but-with-a-twist",
       "created_at": "2026-07-09T13:28:46Z",
@@ -3541,12 +3608,6 @@
       "status": "scoring_attempted",
       "title": "Wasmer: Fast, secure, lightweight containers based on WebAssembly"
     },
-    "https://wtf.korridzy.com/twilight-of-the-gods": {
-      "canonical_url": "https://wtf.korridzy.com/twilight-of-the-gods",
-      "created_at": "2026-07-02T16:04:35Z",
-      "status": "scoring_attempted",
-      "title": "Comparing Fable and 10 other LLMs on refactoring a LangGraph god node"
-    },
     "https://www.anthropic.com/research/global-workspace": {
       "canonical_url": "https://www.anthropic.com/research/global-workspace",
       "created_at": "2026-07-06T20:45:37Z",
@@ -3564,6 +3625,12 @@
       "created_at": "2026-07-07T16:28:08Z",
       "status": "scoring_attempted",
       "title": "L\u2019Oreal, Mondelez, and Nestle use AI to speed product development"
+    },
+    "https://www.artificialintelligence-news.com/news/aws-graphrag-deployment-cuts-drug-research-cycles-by-87": {
+      "canonical_url": "https://www.artificialintelligence-news.com/news/aws-graphrag-deployment-cuts-drug-research-cycles-by-87",
+      "created_at": "2026-07-09T16:13:09Z",
+      "status": "scoring_attempted",
+      "title": "AWS GraphRAG deployment cuts drug research cycles by 87%"
     },
     "https://www.artificialintelligence-news.com/news/china-ai-companion-rules": {
       "canonical_url": "https://www.artificialintelligence-news.com/news/china-ai-companion-rules",
@@ -3583,12 +3650,6 @@
       "status": "scoring_attempted",
       "title": "NHS AI blood test could reduce invasive womb cancer checks"
     },
-    "https://www.artificialintelligence-news.com/news/nvidia-bionemo-accelerates-anthropic-claude-science": {
-      "canonical_url": "https://www.artificialintelligence-news.com/news/nvidia-bionemo-accelerates-anthropic-claude-science",
-      "created_at": "2026-07-02T16:04:35Z",
-      "status": "scoring_attempted",
-      "title": "NVIDIA BioNeMo accelerates Anthropic Claude Science"
-    },
     "https://www.artificialintelligence-news.com/news/takeda-insilico-ai-drug-discovery-deal": {
       "canonical_url": "https://www.artificialintelligence-news.com/news/takeda-insilico-ai-drug-discovery-deal",
       "created_at": "2026-07-03T12:06:05Z",
@@ -3606,6 +3667,12 @@
       "created_at": "2026-07-06T14:42:06Z",
       "status": "scoring_attempted",
       "title": "The AI Marketing Backlash: Why 'AI-First' Brands Are Starting to Fall Flat"
+    },
+    "https://www.context.dev": {
+      "canonical_url": "https://www.context.dev",
+      "created_at": "2026-07-09T16:13:09Z",
+      "status": "scoring_attempted",
+      "title": "Launch HN: Context.dev (YC S26) \u2013 API to get structured data from any website"
     },
     "https://www.dailymail.com/news/article-15943905/Mystery-identity-Green-Boots-climber-macabre-landmark-frozen-ice-dying-Everest-finally-solved-DNA-test.html": {
       "canonical_url": "https://www.dailymail.com/news/article-15943905/Mystery-identity-Green-Boots-climber-macabre-landmark-frozen-ice-dying-Everest-finally-solved-DNA-test.html",
@@ -3817,12 +3884,6 @@
       "status": "scoring_attempted",
       "title": "Airbnb Shares Architecture Behind Sitar-Agent Dynamic Configuration Sidecar for Kubernetes Services"
     },
-    "https://www.infoq.com/news/2026/07/swiftui-wwdc26": {
-      "canonical_url": "https://www.infoq.com/news/2026/07/swiftui-wwdc26",
-      "created_at": "2026-07-02T16:04:35Z",
-      "status": "scoring_attempted",
-      "title": "SwiftUI Adds New Document Protocol, Improves Performance, and More"
-    },
     "https://www.infoq.com/podcasts/new-blueprint-cloud-security": {
       "canonical_url": "https://www.infoq.com/podcasts/new-blueprint-cloud-security",
       "created_at": "2026-07-06T11:24:55Z",
@@ -3834,6 +3895,12 @@
       "created_at": "2026-07-08T15:26:56Z",
       "status": "scoring_attempted",
       "title": "Presentation: The Multi-Agent Approach: Building Reliable and Controllable Software Development Automation"
+    },
+    "https://www.infoq.com/presentations/netflix-data-offline-online": {
+      "canonical_url": "https://www.infoq.com/presentations/netflix-data-offline-online",
+      "created_at": "2026-07-09T16:13:09Z",
+      "status": "scoring_attempted",
+      "title": "Presentation: Accelerating Netflix Data: A Cross-Team Journey from Offline to Online"
     },
     "https://www.infoq.com/presentations/rft-openai-model": {
       "canonical_url": "https://www.infoq.com/presentations/rft-openai-model",
@@ -3997,17 +4064,17 @@
       "status": "scoring_attempted",
       "title": "Delta flight hit by firework while landing at Midway Airport on Fourth of July"
     },
-    "https://www.niemanlab.org/2026/07/now-were-getting-ai-fake-news-complaining-about-how-ai-fake-news-is-the-death-of-real-news": {
-      "canonical_url": "https://www.niemanlab.org/2026/07/now-were-getting-ai-fake-news-complaining-about-how-ai-fake-news-is-the-death-of-real-news",
-      "created_at": "2026-07-02T14:31:05Z",
-      "status": "scoring_attempted",
-      "title": "AI fake news complaining about how AI fake news is the death of real news"
-    },
     "https://www.opentools.studio": {
       "canonical_url": "https://www.opentools.studio",
       "created_at": "2026-07-05T21:48:45Z",
       "status": "scoring_attempted",
       "title": "Reparaible and open source paper printer"
+    },
+    "https://www.pangram.com/blog/ai-in-your-feed": {
+      "canonical_url": "https://www.pangram.com/blog/ai-in-your-feed",
+      "created_at": "2026-07-09T16:13:09Z",
+      "status": "scoring_attempted",
+      "title": "AI Content Is Everywhere on Social Media, Especially LinkedIn"
     },
     "https://www.readtheline.ca/p/al-vigier-canadas-ai-strategy-shouldnt": {
       "canonical_url": "https://www.readtheline.ca/p/al-vigier-canadas-ai-strategy-shouldnt",
@@ -4033,11 +4100,11 @@
       "status": "scoring_attempted",
       "title": "Taiganet.com, Home of the WS4000 Simulator"
     },
-    "https://www.thebignewsletter.com/p/crime-pays-the-egg-bandits-made-a": {
-      "canonical_url": "https://www.thebignewsletter.com/p/crime-pays-the-egg-bandits-made-a",
-      "created_at": "2026-07-02T16:04:35Z",
+    "https://www.thenationalnews.com/business/energy/2026/07/06/syrias-solar-boom-is-redefining-middle-easts-energy-model": {
+      "canonical_url": "https://www.thenationalnews.com/business/energy/2026/07/06/syrias-solar-boom-is-redefining-middle-easts-energy-model",
+      "created_at": "2026-07-09T16:13:09Z",
       "status": "scoring_attempted",
-      "title": "The Egg Bandits Made a Thousand Times the Fine They Just Paid for Price Fixing"
+      "title": "Syria's solar boom is redefining Middle East's energy model"
     },
     "https://www.theregister.com/offbeat/2026/07/05/c-programmers-commit-fresh-crimes-against-readability/5265981": {
       "canonical_url": "https://www.theregister.com/offbeat/2026/07/05/c-programmers-commit-fresh-crimes-against-readability/5265981",
@@ -4080,6 +4147,18 @@
       "created_at": "2026-07-08T17:48:01Z",
       "status": "scoring_attempted",
       "title": "ChatGPT\u2019s upgraded voice mode is better at shutting up"
+    },
+    "https://www.theverge.com/ai-artificial-intelligence/963105/anthropic-claude-wrapped-reflection-ai-usage": {
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/963105/anthropic-claude-wrapped-reflection-ai-usage",
+      "created_at": "2026-07-09T16:13:09Z",
+      "status": "scoring_attempted",
+      "title": "Say hello to Claude Wrapped"
+    },
+    "https://www.theverge.com/ai-artificial-intelligence/963193/meta-muse-spark-model-api": {
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/963193/meta-muse-spark-model-api",
+      "created_at": "2026-07-09T16:13:09Z",
+      "status": "scoring_attempted",
+      "title": "Meta says its new AI model is ready to compete on coding"
     },
     "https://www.theverge.com/column/960600/xbox-is-a-disaster": {
       "canonical_url": "https://www.theverge.com/column/960600/xbox-is-a-disaster",
@@ -4177,6 +4256,12 @@
       "status": "scoring_attempted",
       "title": "Twelve South\u2019s AirFly Pro is a great travel companion, and it&#8217;s on sale for $40"
     },
+    "https://www.theverge.com/gadgets/963121/sonos-ace-headphones-dashpass-best-buy-apple-watch-ultra-deal-sale": {
+      "canonical_url": "https://www.theverge.com/gadgets/963121/sonos-ace-headphones-dashpass-best-buy-apple-watch-ultra-deal-sale",
+      "created_at": "2026-07-09T16:13:09Z",
+      "status": "scoring_attempted",
+      "title": "Sonos Ace wireless headphones are steeply discounted"
+    },
     "https://www.theverge.com/games/962156/discord-accidental-bans-grid-images": {
       "canonical_url": "https://www.theverge.com/games/962156/discord-accidental-bans-grid-images",
       "created_at": "2026-07-07T15:36:30Z",
@@ -4201,12 +4286,6 @@
       "status": "scoring_attempted",
       "title": "Microsoft is laying off 4,800 employees"
     },
-    "https://www.theverge.com/podcast/959792/digitas-ceo-amy-lanzi-cannes-ad-industry-marketing-ai-creators": {
-      "canonical_url": "https://www.theverge.com/podcast/959792/digitas-ceo-amy-lanzi-cannes-ad-industry-marketing-ai-creators",
-      "created_at": "2026-07-02T14:31:05Z",
-      "status": "scoring_attempted",
-      "title": "AI won\u2019t save advertising, says Digitas\u2019 Amy Lanzi"
-    },
     "https://www.theverge.com/podcast/960810/video-game-disc-dead-vergecast": {
       "canonical_url": "https://www.theverge.com/podcast/960810/video-game-disc-dead-vergecast",
       "created_at": "2026-07-02T18:00:22Z",
@@ -4225,6 +4304,12 @@
       "status": "scoring_attempted",
       "title": "Inside the big business of the creator economy, with the agents making it happen"
     },
+    "https://www.theverge.com/podcast/962994/comcast-nbc-universal-split-versant-content-plus-pipes-media-broadband": {
+      "canonical_url": "https://www.theverge.com/podcast/962994/comcast-nbc-universal-split-versant-content-plus-pipes-media-broadband",
+      "created_at": "2026-07-09T16:13:09Z",
+      "status": "scoring_attempted",
+      "title": "Comcast is breaking up with NBCU. Why did it ever buy it in the first place?"
+    },
     "https://www.theverge.com/policy/961449/white-house-mamdani-heatwave-deletion": {
       "canonical_url": "https://www.theverge.com/policy/961449/white-house-mamdani-heatwave-deletion",
       "created_at": "2026-07-04T16:50:09Z",
@@ -4242,6 +4327,12 @@
       "created_at": "2026-07-07T18:30:58Z",
       "status": "scoring_attempted",
       "title": "ABC tells the government to get out of its newsrooms"
+    },
+    "https://www.theverge.com/report/963106/ice-doxxing-office-of-professional-responsibility-free-speech": {
+      "canonical_url": "https://www.theverge.com/report/963106/ice-doxxing-office-of-professional-responsibility-free-speech",
+      "created_at": "2026-07-09T16:13:09Z",
+      "status": "scoring_attempted",
+      "title": "ICE agents are making house calls for online critics"
     },
     "https://www.theverge.com/science/961483/doctor-zachary-rubin-md-interview": {
       "canonical_url": "https://www.theverge.com/science/961483/doctor-zachary-rubin-md-interview",
@@ -4339,6 +4430,12 @@
       "status": "scoring_attempted",
       "title": "X says top accounts steal videos from other users as it announces new video tools"
     },
+    "https://www.theverge.com/tech/962439/sony-rx10v-superzoom-camera-price-specs-hands-on": {
+      "canonical_url": "https://www.theverge.com/tech/962439/sony-rx10v-superzoom-camera-price-specs-hands-on",
+      "created_at": "2026-07-09T16:13:09Z",
+      "status": "scoring_attempted",
+      "title": "Sony brings back the superzoom RX10 with a stacked sensor and a high price"
+    },
     "https://www.theverge.com/tech/962485/meta-muse-image-ai-model-instagram": {
       "canonical_url": "https://www.theverge.com/tech/962485/meta-muse-image-ai-model-instagram",
       "created_at": "2026-07-07T21:55:05Z",
@@ -4357,17 +4454,17 @@
       "status": "scoring_attempted",
       "title": "The whole Pixel line could get more expensive this year"
     },
+    "https://www.theverge.com/tech/963100/schlage-sense-pro-review-apple-home-key-uwb-handsfree-unlock": {
+      "canonical_url": "https://www.theverge.com/tech/963100/schlage-sense-pro-review-apple-home-key-uwb-handsfree-unlock",
+      "created_at": "2026-07-09T16:13:09Z",
+      "status": "scoring_attempted",
+      "title": "Schlage\u2019s Sense Pro unlocks the door so I don\u2019t have to"
+    },
     "https://www.theverge.com/tech/963138/meta-smart-glasses-recording-super-sensing-ai": {
       "canonical_url": "https://www.theverge.com/tech/963138/meta-smart-glasses-recording-super-sensing-ai",
       "created_at": "2026-07-08T22:43:06Z",
       "status": "scoring_attempted",
       "title": "Meta is reportedly working on smart glasses that would be recording all the time"
-    },
-    "https://www.theverge.com/transportation/957685/tesla-q2-2026-sales-production-delivery-report": {
-      "canonical_url": "https://www.theverge.com/transportation/957685/tesla-q2-2026-sales-production-delivery-report",
-      "created_at": "2026-07-02T14:31:05Z",
-      "status": "scoring_attempted",
-      "title": "Tesla&#8217;s Q2 sales jump 25 percent"
     },
     "https://www.theverge.com/transportation/962187/amble-golf-cart-moon-buggy-ev-design-price-specs": {
       "canonical_url": "https://www.theverge.com/transportation/962187/amble-golf-cart-moon-buggy-ev-design-price-specs",
@@ -4447,6 +4544,12 @@
       "status": "scoring_attempted",
       "title": "Shut Those Laptops! Anthropic Puts Its Claude Cowork Agent on Your Phone"
     },
+    "https://www.wired.com/story/the-1x-neo-robot-has-freaky-fast-fingers": {
+      "canonical_url": "https://www.wired.com/story/the-1x-neo-robot-has-freaky-fast-fingers",
+      "created_at": "2026-07-09T16:13:09Z",
+      "status": "scoring_attempted",
+      "title": "The 1X Neo Robot Has Freaky Fast Fingers"
+    },
     "https://www.wired.com/story/these-new-smart-glasses-from-solos-come-with-a-privacy-shield-for-the-cameras": {
       "canonical_url": "https://www.wired.com/story/these-new-smart-glasses-from-solos-come-with-a-privacy-shield-for-the-cameras",
       "created_at": "2026-07-07T15:36:30Z",
@@ -4470,6 +4573,12 @@
       "created_at": "2026-07-06T18:47:50Z",
       "status": "scoring_attempted",
       "title": "Big Tech Has Suddenly Flipped on the AI Jobs Wipeout Scenario"
+    },
+    "https://www.youtube.com/watch?v=-hua8RWopfw": {
+      "canonical_url": "https://www.youtube.com/watch?v=-hua8RWopfw",
+      "created_at": "2026-07-09T16:13:09Z",
+      "status": "scoring_attempted",
+      "title": "Maxwell's Equations Were Discovered [video]"
     },
     "https://www.youtube.com/watch?v=3R0Lp86GEBk": {
       "canonical_url": "https://www.youtube.com/watch?v=3R0Lp86GEBk",
