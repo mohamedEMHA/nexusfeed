@@ -1,5 +1,45 @@
 {
   "cerebras_scoring": {
+    "0207b87b1610abb4a3dd3e7b0fa1e31485ad534f4cc4f53cead0ed5f9342526c": {
+      "created_at": "2026-07-09T21:43:18Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 4,
+            "novelty_score": 3.0,
+            "reason": "World-first operation using humanoid robots controlled by surgeons in a preclinical trial.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Humanoid robots controlled by surgeons did world-first operation on live pigs",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 5,
+            "novelty_score": 2.5,
+            "reason": "Google adds AI-generated content labels to ads across its platforms.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Google will now tell you if an ad was made with AI",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 4,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "In a world-first, surgeons have used humanoid robots to perform operations on live pigs. This preclinical trial could revolutionize surgical procedures. Link: https://arstechnica.com/ai/2026/07/humanoid-robots-controlled-by-surgeons-did-world-first-operation-on-live-pigs/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Humanoid robots controlled by surgeons did world-first operation on live pigs*\n\nSurgeons have performed the first-ever operation using humanoid robots on live pigs in a preclinical trial.\n\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://arstechnica.com/ai/2026/07/humanoid-robots-controlled-by-surgeons-did-world-first-operation-on-live-pigs/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Surgeons just performed the first-ever operation using humanoid robots on live pigs. This preclinical trial could revolutionize surgical procedures. https://arstechnica.com/ai/2026/07/humanoid-robots-controlled-by-surgeons-did-world-first-operation-on-live-pigs/",
+          "twitter": "Surgeons just performed the first-ever operation using humanoid robots on live pigs. https://arstechnica.com/ai/2026/07/humanoid-robots-controlled-by-surgeons-did-world-first-operation-on-live-pigs/"
+        }
+      }
+    },
     "1cef370e9e7bf5912d6a793f350e5e72aba9dc46e9a97e1e1e71fd2bfb12514d": {
       "created_at": "2026-07-09T20:10:00Z",
       "payload": {
@@ -50,29 +90,6 @@
           "threads": "Anthropic is ending the golden era of AI subscriptions by introducing usage-based fees for Claude Fable 5. This is a major shift in the industry. https://www.wired.com/story/model-behavior-anthropic-will-charge-consumers-extra-to-use-claude-fable-5/",
           "twitter": "Anthropic is ending the golden era of AI subscriptions by introducing usage-based fees for Claude Fable 5. https://www.wired.com/story/model-behavior-anthropic-will-charge-consumers-extra-to-use-claude-fable-5/"
         }
-      }
-    },
-    "1fe057737641f26a4c8409f76ce27dac512e88bdc84f2f3210dc0d207103ce28": {
-      "created_at": "2026-07-08T21:39:52Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "Opinion piece on Fable model's limitations, relevant to AI researchers but not groundbreaking.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Fable is not a useful model",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 3,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "1fe80c1b3c166548fd6c88bebe63c8ef2d48de0de9c2d5f8811a34591862fa6f": {
@@ -146,46 +163,6 @@
         "social_posts": {}
       }
     },
-    "320d7779657b5afff4619aa7f815b50b589a76516de329df80e63a02973e029d": {
-      "created_at": "2026-07-08T20:25:01Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Interesting experiment in self-improving AI, but not a major breakthrough.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "I Built a Self-Improving AI, and So Can You",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 3,
-            "index": 1,
-            "novelty_score": 3,
-            "reason": "Major legal and ethical implications for AI platforms.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Lawsuit: Man used Grok to make 7K sex images of stepdaughter, then shot himself",
-            "total_score": 9.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 9.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "A disturbing case has emerged where a Grok user allegedly created 7,000 CSAM images before tragically taking his own life. The subsequent lawsuit against X highlights critical gaps in AI safety and content moderation. This incident underscores the urgent need for robust safeguards in AI platforms to prevent such horrific misuse.\nLink: https://arstechnica.com/tech-policy/2026/07/lawsuit-grok-user-made-7k-child-sex-images-xai-only-reported-one-gang-rape-prompt/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Lawsuit: Man used Grok to make 7K sex images of stepdaughter, then shot himself*\n\nA Grok user allegedly generated 7,000 CSAM images before taking his own life. The lawsuit against X raises urgent questions about AI safety and moderation.\n\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.5/10\n\n\ud83d\udd17 https://arstechnica.com/tech-policy/2026/07/lawsuit-grok-user-made-7k-child-sex-images-xai-only-reported-one-gang-rape-prompt/",
-          "threads": "A Grok user allegedly generated 7,000 CSAM images before taking his own life. The lawsuit against X raises urgent questions about AI safety and moderation. This case highlights the critical need for better safeguards in AI platforms.\nhttps://arstechnica.com/tech-policy/2026/07/lawsuit-grok-user-made-7k-child-sex-images-xai-only-reported-one-gang-rape-prompt/",
-          "twitter": "A Grok user allegedly generated 7,000 CSAM images before taking his own life. The lawsuit against X raises urgent questions about AI safety and moderation.\nhttps://arstechnica.com/tech-policy/2026/07/lawsuit-grok-user-made-7k-child-sex-images-xai-only-reported-one-gang-rape-prompt/"
-        }
-      }
-    },
     "353183fdf333fc6e0d91238562ad8188309eac8d0db70bd6f40be05b1cee030f": {
       "created_at": "2026-07-09T18:16:40Z",
       "payload": {
@@ -245,6 +222,29 @@
         ],
         "best_index": 1,
         "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "3975baa22aac4b95e7d81f16eab72051a51405688ee8726be9e4b4b957be0ec2": {
+      "created_at": "2026-07-09T21:43:18Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.0,
+            "impact_score": 1.5,
+            "index": 13,
+            "novelty_score": 2.5,
+            "reason": "Interesting tool but limited impact and from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Show HN: I built a web tool to see and edit what an AI thinks before it answers",
+            "total_score": 5.5
+          }
+        ],
+        "best_index": 13,
+        "best_score": 5.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -449,29 +449,6 @@
           "threads": "AlloyDB's new proxy models train lightweight local models from LLM outputs, then run queries at database speed without external calls. 2,400x throughput improvement. https://www.infoq.com/news/2026/07/alloydb-ai-proxy-models/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "twitter": "AlloyDB's new proxy models replace LLM calls with local inference, boosting throughput 2,400x. https://www.infoq.com/news/2026/07/alloydb-ai-proxy-models/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
         }
-      }
-    },
-    "50426014806b8bd496206f3e94d489217290e361e98e43bea124a79564c3cce1": {
-      "created_at": "2026-07-08T20:25:01Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1,
-            "impact_score": 2.5,
-            "index": 24,
-            "novelty_score": 2.5,
-            "reason": "OpenAI's analysis of SWE-Bench Pro highlights critical issues in AI coding evaluations, impacting model assessment reliability.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 2,
-            "title": "Separating signal from noise in coding evaluations",
-            "total_score": 8.0
-          }
-        ],
-        "best_index": 24,
-        "best_score": 8.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "57e1c6b8a14760ff58d28c432a3abc869d470cf74e84a3b9bc0397883cb1c45e": {
@@ -959,6 +936,46 @@
         "social_posts": {}
       }
     },
+    "82e0167e87ffcb879f6da92098faeef228e280f15100c3119e293a16560a7788": {
+      "created_at": "2026-07-09T21:43:18Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 3.0,
+            "reason": "OpenAI's release of GPT-5.6 with three distinct tiers is a significant update for developers and businesses.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "OpenAI Releases GPT-5.6 (Sol, Terra, Luna): A Three-Tier Model Family With Programmatic Tool Calling in the Responses API",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.0,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "OpenAI's decision to sunset ChatGPT Atlas is notable but less impactful than a new model release.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "The ChatGPT browser is already dead",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 2,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "OpenAI has released GPT-5.6, introducing a three-tier model family: Sol, Terra, and Luna. Each tier offers different pricing and capabilities, with Sol setting a new benchmark on the Artificial Analysis Coding Agent Index. This move is significant for developers and businesses looking to integrate advanced AI models into their workflows. Link: https://www.marktechpost.com/2026/07/09/openai-releases-gpt-5-6-a-three-tier-model-family-with-programmatic-tool-calling/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\ud83d\udd25 *OpenAI Releases GPT-5.6 (Sol, Terra, Luna): A Three-Tier Model Family With Programmatic Tool Calling in the Responses API*\n\nOpenAI has launched GPT-5.6 with three tiers: Sol, Terra, and Luna, each with distinct pricing and capabilities. Sol sets a new benchmark on the Artificial Analysis Coding Agent Index.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/07/09/openai-releases-gpt-5-6-a-three-tier-model-family-with-programmatic-tool-calling/",
+          "threads": "OpenAI's GPT-5.6 is now available with three tiers: Sol, Terra, and Luna. Sol leads with a 80 score on the Artificial Analysis Coding Agent Index, outpacing Claude Fable 5. https://www.marktechpost.com/2026/07/09/openai-releases-gpt-5-6-a-three-tier-model-family-with-programmatic-tool-calling/",
+          "twitter": "OpenAI just launched GPT-5.6 with three tiers: Sol, Terra, and Luna, each with different pricing and capabilities. https://www.marktechpost.com/2026/07/09/openai-releases-gpt-5-6-a-three-tier-model-family-with-programmatic-tool-calling/"
+        }
+      }
+    },
     "8e74122576c7016378a856df38f821f80614d3ce3e202d8095590892fe1caa4b": {
       "created_at": "2026-07-09T05:09:29Z",
       "payload": {
@@ -1135,85 +1152,6 @@
         "social_posts": {}
       }
     },
-    "b4d929429f445f665f21bdd850df2be6897ecf62f594b392eaf80c7fb3f7b2ae": {
-      "created_at": "2026-07-08T21:39:52Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 4,
-            "novelty_score": 2.5,
-            "reason": "Google's deepfake detection system played a key role in debunking a high-profile AI-generated image.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Google\u2019s deepfake detector system used to debunk McConnell hoax pic",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 4,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Google's deepfake detection system helped debunk a fake image of Senator Mitch McConnell that went viral. The system identified the AI-generated image, preventing further spread of misinformation. This is a significant real-world application of deepfake detection technology. Link: https://techcrunch.com/2026/07/08/googles-deepfake-detector-system-used-to-debunk-mcconnell-hoax-pic/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Google\u2019s deepfake detector system used to debunk McConnell hoax pic*\n\nGoogle's deepfake detection system helped debunk a fake image of Senator Mitch McConnell that went viral. The system identified the AI-generated image, preventing further spread of misinformation.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/08/googles-deepfake-detector-system-used-to-debunk-mcconnell-hoax-pic/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Google's deepfake detector just debunked a viral AI-generated image of Mitch McConnell. The system identified the fake, preventing further spread. Here's how it worked.\nhttps://techcrunch.com/2026/07/08/googles-deepfake-detector-system-used-to-debunk-mcconnell-hoax-pic/",
-          "twitter": "Google's deepfake detector just debunked a viral AI-generated image of Mitch McConnell. Here's how it worked.\nhttps://techcrunch.com/2026/07/08/googles-deepfake-detector-system-used-to-debunk-mcconnell-hoax-pic/"
-        }
-      }
-    },
-    "bd2749c474dd38e6dc4fb5e0110997a82a4a44209cf341ca8d65aaa306159a81": {
-      "created_at": "2026-07-08T20:25:01Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "Startup betting on video game data for robotics foundation models.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "This startup thinks robotics is about to have its ChatGPT moment",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 3,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "bd652cb89d49319ae53cf2e897062c5a39c7d9159aa14870dbcd41dce397e283": {
-      "created_at": "2026-07-08T20:25:01Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 2,
-            "novelty_score": 3.0,
-            "reason": "New AI model release from SpaceXAI with high novelty and impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "SpaceXAI releases Grok 4.5, which Elon describes as an \u0018Opus-class model\u0019",
-            "total_score": 9.0
-          }
-        ],
-        "best_index": 2,
-        "best_score": 9.0,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "SpaceXAI has released Grok 4.5, which Elon Musk describes as an 'Opus-class' model. The new AI promises to be a more efficient and cost-effective alternative to other powerful models. This could be a significant development in the AI space.\nLink: https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *SpaceXAI releases Grok 4.5, which Elon describes as an 'Opus-class model'\n\nElon Musk's tech company released the newest version of Grok on Wednesday, promising a cheaper, more efficient alternative to other powerful AI models.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "SpaceXAI's Grok 4.5 is out, billed as an 'Opus-class' model by Elon Musk. Claims to be cheaper and more efficient than competitors. Interesting to see how this stacks up in real-world use.\nhttps://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/",
-          "twitter": "SpaceXAI just launched Grok 4.5, Elon's new 'Opus-class' AI model. Claims cheaper, more efficient performance than competitors.\nhttps://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/"
-        }
-      }
-    },
     "c2025ca8dcf666484ddb3df0280bbbdf3db937f50b191c97b76ce4580ca7bdef": {
       "created_at": "2026-07-09T05:09:29Z",
       "payload": {
@@ -1349,43 +1287,43 @@
         }
       }
     },
-    "d744b5852de7cdd055cfd211939f20283d20a367c3bc00b6a9694ac8efba2524": {
-      "created_at": "2026-07-08T21:39:52Z",
+    "d31e7ba7fc14d68b30aa29f6dbe2ba1a3df27f0865b86540bc697147ddc11c5e": {
+      "created_at": "2026-07-09T21:43:18Z",
       "payload": {
         "articles": [
           {
             "freshness_score": 2,
-            "impact_score": 1.5,
+            "impact_score": 2.5,
             "index": 0,
-            "novelty_score": 1.5,
-            "reason": "Interesting but not directly relevant to software engineers or AI researchers.",
+            "novelty_score": 2.5,
+            "reason": "New tool rebranding with significant workflow implications for developers.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 1.5,
-            "title": "Messi and Ronaldo Are Building Tech Portfolios. Mo Salah Is Playing a Different Game",
-            "total_score": 6.5
+            "title": "OpenAI wants its new tool to do your work for you and with you",
+            "total_score": 8.5
           },
           {
             "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "Netflix's engineering team shares a novel approach to optimizing Cassandra performance, which is highly relevant to software engineers and AI researchers.",
+            "impact_score": 2,
+            "index": 1,
+            "novelty_score": 1.5,
+            "reason": "Important security update but limited novelty and impact.",
             "red_flag": false,
             "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Netflix AI Team Cuts Wide-Partition Read Latency from Seconds to Milliseconds by Splitting Cassandra Partitions Per ID",
-            "total_score": 8.5
+            "source_score": 0.5,
+            "title": "How GitHub gave every repository a durable owner",
+            "total_score": 6
           }
         ],
-        "best_index": 2,
+        "best_index": 0,
         "best_score": 8.5,
         "recommendation": "POST_NOW",
         "social_posts": {
-          "facebook": "Netflix's AI team has developed a novel approach to optimizing Cassandra performance, reducing wide-partition read latency from seconds to milliseconds. They achieved this by splitting Cassandra partitions per ID. This is a significant development for software engineers and AI researchers working with large-scale data systems.\nLink: https://www.marktechpost.com/2026/07/08/netflix-ai-team-cuts-wide-partition-read-latency-from-seconds-to-milliseconds-by-splitting-cassandra-partitions-per-id/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Netflix AI Team Cuts Wide-Partition Read Latency from Seconds to Milliseconds by Splitting Cassandra Partitions Per ID*\n\nNetflix engineers detailed how they handle wide partitions in Apache Cassandra for the TimeSeries Abstraction. Two approaches work together: Time Slice re-partitioning tunes future partitions at the table level, while dynamic partitioning detects and splits oversized partitions per TimeSeries ID.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/07/08/netflix-ai-team-cuts-wide-partition-read-latency-from-seconds-to-milliseconds-by-splitting-cassandra-partitions-per-id/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Netflix AI team cuts wide-partition read latency from seconds to milliseconds by splitting Cassandra partitions per ID. Two approaches work together: Time Slice re-partitioning and dynamic partitioning.\nhttps://www.marktechpost.com/2026/07/08/netflix-ai-team-cuts-wide-partition-read-latency-from-seconds-to-milliseconds-by-splitting-cassandra-partitions-per-id/",
-          "twitter": "Netflix AI team slashes Cassandra read latency from seconds to milliseconds with a clever partitioning strategy. Here's how they did it.\nhttps://www.marktechpost.com/2026/07/08/netflix-ai-team-cuts-wide-partition-read-latency-from-seconds-to-milliseconds-by-splitting-cassandra-partitions-per-id/"
+          "facebook": "OpenAI has rebranded Codex with a major update. The new tool can now run workflows independently for hours, potentially changing how developers interact with AI tools. Link: https://arstechnica.com/ai/2026/07/openai-wants-its-new-tool-to-do-your-work-for-you-and-with-you/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *OpenAI wants its new tool to do your work for you and with you*\n\nRebranded Codex promises independent workflows that can run \"for hours if needed.\"\n\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://arstechnica.com/ai/2026/07/openai-wants-its-new-tool-to-do-your-work-for-you-and-with-you/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "OpenAI's rebranded Codex can now run workflows for hours independently. This could significantly change how developers use AI tools. https://arstechnica.com/ai/2026/07/openai-wants-its-new-tool-to-do-your-work-for-you-and-with-you/",
+          "twitter": "OpenAI's rebranded Codex can now run workflows for hours independently. https://arstechnica.com/ai/2026/07/openai-wants-its-new-tool-to-do-your-work-for-you-and-with-you/"
         }
       }
     },
@@ -1570,29 +1508,6 @@
         "social_posts": {}
       }
     },
-    "e5030f11f10967930b5a61449ebbb7fb51b43d9ada74011b5e8db825b369ca3c": {
-      "created_at": "2026-07-08T21:39:52Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 7,
-            "novelty_score": 2.5,
-            "reason": "New tool but limited impact and from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Show HN: Onboard-CLI, a LLM powered and AST-based tool to visualize codebase",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 7,
-        "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "e5ac124200bcf41f2cf286dcdd97389f64d961c1f9b5800c226b348c73abe747": {
       "created_at": "2026-07-09T18:16:40Z",
       "payload": {
@@ -1755,6 +1670,15 @@
         "twitter": "Wealthy Americans are embracing AI-powered education for their kids, despite widespread skepticism about AI, @TheVerge reports #AIeducation #EdTech"
       }
     },
+    "30189621dbe30c28d258ede3e92acdeeef3a40ec14db081a22f65997ae9d93ef": {
+      "created_at": "2026-07-09T21:43:18Z",
+      "payload": {
+        "facebook": "The latest development from OpenAI is a rebranded Codex tool that can run independent workflows for extended periods, potentially streamlining tasks for developers. This could significantly impact how we approach workflow automation. #AI #Automation #Productivity",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 OpenAI Automates Workflows\nOpenAI's rebranded Codex tool can run independent workflows for hours, streamlining tasks for developers.\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #Automation #Productivity\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "OpenAI's new Codex tool can automate workflows for hours, promising a significant shift in how we work @OpenAI #AI",
+        "twitter": "OpenAI's rebranded Codex tool promises to automate workflows independently for hours @OpenAI #AI"
+      }
+    },
     "33cfde821215f28571d0bfd687a33f9b5c22520550c818fcb1576eabb8af70dc": {
       "created_at": "2026-07-07T22:57:38Z",
       "payload": {
@@ -1861,15 +1785,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Anthropic Launches Multi-Agent AI Workbench for Scientific Research\nAnthropic's Claude Science Beta introduces a new level of transparency to genomics and cheminformatics research with its multi-agent AI workbench.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9.0/10\n#AIinScience #GenomicsResearch #Cheminformatics\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Anthropic's Claude Science Beta is a game-changer for scientific research, providing a multi-agent AI workbench for reproducible pipelines @AnthropicAI #AIinScience",
         "twitter": "Anthropic's Claude Science Beta brings a new level of transparency to genomics and cheminformatics research with its multi-agent AI workbench @AnthropicAI #AIinScience"
-      }
-    },
-    "6d6102daae9460854b84811e7f3860788cbc351421cecba064093dd956f9fa6d": {
-      "created_at": "2026-07-02T20:45:32Z",
-      "payload": {
-        "facebook": "The recent IPO of Jersey Mike's is a prime example of how AI hype has become ubiquitous, even in the food industry. The company's IPO documents mention AI, which may seem unnecessary for a sandwich shop. This trend is worth exploring further, #AI #IPO #TechNews",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 AI Hype Reaches New Heights\nThe recent Jersey Mike's IPO has sparked debate about the role of AI in the food industry, with the company's IPO documents surprisingly mentioning AI.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #IPO #TechNews\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Jersey Mike's IPO is the latest example of AI hype, with the company mentioning AI in its IPO documents, @TechCrunch #AI",
-        "twitter": "AI hype has reached new heights with Jersey Mike's IPO mentioning AI, @TechCrunch reports, #AIhype #IPO"
       }
     },
     "6dbfefd6b25f416e38dcf3035a675589cc21cd8b1c7eea33a38d800f15236867": {
@@ -2101,6 +2016,18 @@
       "created_at": "2026-07-07T16:28:08Z",
       "status": "scoring_attempted",
       "title": "Facing US export controls, China's DeepSeek plans to make its own chips"
+    },
+    "https://arstechnica.com/ai/2026/07/humanoid-robots-controlled-by-surgeons-did-world-first-operation-on-live-pigs": {
+      "canonical_url": "https://arstechnica.com/ai/2026/07/humanoid-robots-controlled-by-surgeons-did-world-first-operation-on-live-pigs",
+      "created_at": "2026-07-09T21:43:18Z",
+      "status": "scoring_attempted",
+      "title": "Humanoid robots controlled by surgeons did world-first operation on live pigs"
+    },
+    "https://arstechnica.com/ai/2026/07/openai-wants-its-new-tool-to-do-your-work-for-you-and-with-you": {
+      "canonical_url": "https://arstechnica.com/ai/2026/07/openai-wants-its-new-tool-to-do-your-work-for-you-and-with-you",
+      "created_at": "2026-07-09T21:43:18Z",
+      "status": "scoring_attempted",
+      "title": "OpenAI wants its new tool to do your work for you and with you"
     },
     "https://arstechnica.com/ai/2026/07/uk-regulator-warns-of-arms-race-to-keep-up-with-ai-use-in-financial-services": {
       "canonical_url": "https://arstechnica.com/ai/2026/07/uk-regulator-warns-of-arms-race-to-keep-up-with-ai-use-in-financial-services",
@@ -2966,6 +2893,12 @@
       "status": "scoring_attempted",
       "title": "GitFut \u2013 Your GitHub stats turned into a World-Cup-style player card"
     },
+    "https://github.blog/security/application-security/how-github-gave-every-repository-a-durable-owner": {
+      "canonical_url": "https://github.blog/security/application-security/how-github-gave-every-repository-a-durable-owner",
+      "created_at": "2026-07-09T21:43:18Z",
+      "status": "scoring_attempted",
+      "title": "How GitHub gave every repository a durable owner"
+    },
     "https://github.com/HUANGCHIHHUNGLeo/claude-real-video": {
       "canonical_url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video",
       "created_at": "2026-07-02T21:53:01Z",
@@ -3170,6 +3103,12 @@
       "status": "scoring_attempted",
       "title": "Generate parametric, manufacturable 3D models in seconds"
     },
+    "https://lucid.earthpilot.ai": {
+      "canonical_url": "https://lucid.earthpilot.ai",
+      "created_at": "2026-07-09T21:43:18Z",
+      "status": "scoring_attempted",
+      "title": "Show HN: I built a web tool to see and edit what an AI thinks before it answers"
+    },
     "https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools": {
       "canonical_url": "https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools",
       "created_at": "2026-07-04T22:11:24Z",
@@ -3367,12 +3306,6 @@
       "created_at": "2026-07-03T15:53:16Z",
       "status": "scoring_attempted",
       "title": "Show HN: TaskPeace \u2013 a task queue my AI coding agents pull work from over MCP"
-    },
-    "https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become": {
-      "canonical_url": "https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become",
-      "created_at": "2026-07-02T20:45:32Z",
-      "status": "scoring_attempted",
-      "title": "Jersey Mike\u2019s IPO illustrates how bad the AI hype has become"
     },
     "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped": {
       "canonical_url": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped",
@@ -4142,6 +4075,12 @@
       "status": "scoring_attempted",
       "title": "NVIDIA Releases Nemotron-Labs-3-Puzzle-75B-A9B: A Compressed Hybrid MoE LLM Delivering 2.03x Server Throughput at Matched User Throughput"
     },
+    "https://www.marktechpost.com/2026/07/09/openai-releases-gpt-5-6-a-three-tier-model-family-with-programmatic-tool-calling": {
+      "canonical_url": "https://www.marktechpost.com/2026/07/09/openai-releases-gpt-5-6-a-three-tier-model-family-with-programmatic-tool-calling",
+      "created_at": "2026-07-09T21:43:18Z",
+      "status": "scoring_attempted",
+      "title": "OpenAI Releases GPT-5.6 (Sol, Terra, Luna): A Three-Tier Model Family With Programmatic Tool Calling in the Responses API"
+    },
     "https://www.nbcchicago.com/news/local/delta-flight-hit-by-firework-while-landing-at-midway-airport-on-fourth-of-july/3957451": {
       "canonical_url": "https://www.nbcchicago.com/news/local/delta-flight-hit-by-firework-while-landing-at-midway-airport-on-fourth-of-july/3957451",
       "created_at": "2026-07-05T22:47:58Z",
@@ -4250,6 +4189,18 @@
       "status": "scoring_attempted",
       "title": "OpenAI rolls out GPT-5.6 after government greenlight \u2014 and announces \u2018ChatGPT Work\u2019"
     },
+    "https://www.theverge.com/ai-artificial-intelligence/963628/google-ai-generated-ads-label": {
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/963628/google-ai-generated-ads-label",
+      "created_at": "2026-07-09T21:43:18Z",
+      "status": "scoring_attempted",
+      "title": "Google will now tell you if an ad was made with AI"
+    },
+    "https://www.theverge.com/ai-artificial-intelligence/963654/openai-chatgpt-atlas-ai-browser-shut-down-sunset": {
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/963654/openai-chatgpt-atlas-ai-browser-shut-down-sunset",
+      "created_at": "2026-07-09T21:43:18Z",
+      "status": "scoring_attempted",
+      "title": "The ChatGPT browser is already dead"
+    },
     "https://www.theverge.com/column/960600/xbox-is-a-disaster": {
       "canonical_url": "https://www.theverge.com/column/960600/xbox-is-a-disaster",
       "created_at": "2026-07-05T13:02:49Z",
@@ -4291,12 +4242,6 @@
       "created_at": "2026-07-09T13:28:46Z",
       "status": "scoring_attempted",
       "title": "Character.AI wants a piece of the microdrama pie"
-    },
-    "https://www.theverge.com/gadgets/960558/weber-july-4th-grill-griddle-sale-deal": {
-      "canonical_url": "https://www.theverge.com/gadgets/960558/weber-july-4th-grill-griddle-sale-deal",
-      "created_at": "2026-07-02T20:45:32Z",
-      "status": "scoring_attempted",
-      "title": "Weber marks down grills and griddles to their best prices ever for July 4th"
     },
     "https://www.theverge.com/gadgets/960753/matic-robot-vacuum-mop-price-increase-cost-buy": {
       "canonical_url": "https://www.theverge.com/gadgets/960753/matic-robot-vacuum-mop-price-increase-cost-buy",
