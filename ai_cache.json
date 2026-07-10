@@ -378,6 +378,41 @@
         "social_posts": {}
       }
     },
+    "658b4e4e25ffbb1a6228b06a1f31e18016be59e55256afe907b5c5f8f090b6bb": {
+      "created_at": "2026-07-10T18:08:38Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.0,
+            "index": 4,
+            "novelty_score": 0.0,
+            "reason": "Retrospective article from 2015 with no new information.",
+            "red_flag": true,
+            "red_flag_reason": "retrospective",
+            "source_score": 0.5,
+            "title": "Snails' Teeth Beats Spider Silk as Nature's Strongest Material (2015)",
+            "total_score": 2.0
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 5,
+            "novelty_score": 2.0,
+            "reason": "Interesting industry move but not directly relevant to software engineers or AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Netflix is turning into YouTube",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 5,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "6c8e459c9834a1b58f593b89a2e2a9072faf2edfe7892b18af746beb2589979e": {
       "created_at": "2026-07-10T05:10:09Z",
       "payload": {
@@ -500,6 +535,29 @@
         ],
         "best_index": 3,
         "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "742c090d0cd2ced97122eb71538201f49edbbcb21ed7be7f5d476fe9f87eeea2": {
+      "created_at": "2026-07-10T18:08:38Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 6,
+            "novelty_score": 2.5,
+            "reason": "Review of AMD Ryzen AI Halo, niche impact, and low source tier.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Hands-On with the AMD Ryzen AI Halo",
+            "total_score": 5.5
+          }
+        ],
+        "best_index": 6,
+        "best_score": 5.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1267,6 +1325,46 @@
         }
       }
     },
+    "ed4e7388dba41e8e3a004637af9819a30886e893e04e47b093120a0dafdb568e": {
+      "created_at": "2026-07-10T18:08:38Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "SK Hynix's massive IPO and potential US fab investments mark a significant industry move with broad implications for AI chip supply chains.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "SK Hynix raises $26.5B in the biggest foreign IPO in US history, is urged to build new US fabs",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 3,
+            "novelty_score": 0.5,
+            "reason": "A Hacker News thread about GitHub notices lacks novelty and impact for a specialized audience.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Anyone else get a vague GitHub shakedown notice?",
+            "total_score": 3.5
+          }
+        ],
+        "best_index": 2,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "SK Hynix just pulled off the biggest foreign IPO in US history with a $26.5B raise. Now the pressure is on to build US fabs as the AI chip boom reshapes global supply chains. This could be a major turning point for semiconductor manufacturing in America.\nLink: https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *SK Hynix raises $26.5B in the biggest foreign IPO in US history, is urged to build new US fabs*\n\nSK Hynix just raised $26.5B in the biggest foreign IPO in US history and is now being urged to build US fabs as the AI chip boom reshapes the industry.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "SK Hynix just raised $26.5B in the biggest foreign IPO in US history. Now they're being urged to build US fabs as the AI chip boom reshapes the industry.\nhttps://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/",
+          "twitter": "SK Hynix just raised $26.5B in the biggest foreign IPO in US history, now pressured to build US fabs. The AI chip boom hits Wall Street hard.\nhttps://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/"
+        }
+      }
+    },
     "ef22e7b082ffaae8dab6bc1f9ec7238a24b5818289c25f217ec3bb1ad9d378e8": {
       "created_at": "2026-07-10T08:43:54Z",
       "payload": {
@@ -1288,6 +1386,46 @@
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "fbb4c55462fc27ff8cd6f3d7679ff04432194d6b7ae5621b6f95d4ef26c19e56": {
+      "created_at": "2026-07-10T18:08:38Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 0.2,
+            "reason": "Community discussion lacks specific novelty or impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Ask HN: What was the last task where only a frontier model could do it?",
+            "total_score": 4.2
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.0,
+            "reason": "Significant industry move with high impact and freshness.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Nvidia\u2019s biggest RAM supplier just had a trillion-dollar debut on Wall Street",
+            "total_score": 8.0
+          }
+        ],
+        "best_index": 1,
+        "best_score": 8.0,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "SK Hynix, a major supplier of RAM to Nvidia, just had a massive IPO, raising $26.5 billion and becoming the largest debut of a foreign company. This move underscores the ongoing AI boom and its impact on the semiconductor industry. Link: https://www.theverge.com/tech/964121/sk-hynix-nvidia-ram-stock-market-debut",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Nvidia\u2019s biggest RAM supplier just had a trillion-dollar debut on Wall Street*\n\nSK Hynix, a major supplier of RAM to Nvidia, just raised $26.5 billion in its Wall Street debut, surpassing Alibaba's record. This move highlights the growing demand for memory chips driven by the AI boom.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.0/10\n\n\ud83d\udd17 https://www.theverge.com/tech/964121/sk-hynix-nvidia-ram-stock-market-debut\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "SK Hynix, Nvidia's biggest RAM supplier, just had a trillion-dollar debut on Wall Street, raising $26.5B. This is a huge move in the AI hardware space. https://www.theverge.com/tech/964121/sk-hynix-nvidia-ram-stock-market-debut",
+          "twitter": "SK Hynix, Nvidia's top RAM supplier, just raised $26.5B in its Wall Street debut, surpassing Alibaba's record. https://www.theverge.com/tech/964121/sk-hynix-nvidia-ram-stock-market-debut"
+        }
       }
     },
     "fbc7f44343c36591535ce24bf3f8c177eec7730287b11157e995dd2d1466a613": {
@@ -1584,13 +1722,13 @@
         "twitter": "French startup ZML endorsed by Yann LeCun releases free software to speed AI inference @TechCrunch #AI"
       }
     },
-    "a73605d8cf8a74655724358cdc814838425a73e17d489cab733f1523847454ed": {
-      "created_at": "2026-07-03T17:21:44Z",
+    "a5e5f0d7b74c921555344034d3370924172a017432a1940304b876143f2e6765": {
+      "created_at": "2026-07-10T18:08:38Z",
       "payload": {
-        "facebook": "The prospect of unionization at Google DeepMind is facing significant resistance from executives, leading to frustration among employees. This development has significant implications for the tech industry as a whole. #AIunion #techworkers #unionization",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Google DeepMind Unionization Talks Stall\nGoogle DeepMind's unionization talks have hit a roadblock due to employee frustration with executive engagement.\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AIunion #techworkers #unionization\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Google DeepMind's unionization talks have gotten off to a rocky start, with employees frustrated by what they see as a lack of engagement from executives @Google, #AIunion",
-        "twitter": "Google DeepMind's unionization talks are off to a rocky start as employees express frustration with executives @Google, #AIunion"
+        "facebook": "The AI chip industry just saw its largest foreign IPO in US history with SK Hynix raising $26.5B, now there are calls for the company to build new factories in the US. This move could have significant implications for the global AI chip supply chain. #AIChips #USInvestment #TechIndustry",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 SK Hynix Raises $26.5B in Historic IPO\nThe company's massive IPO has sparked calls for new US factories, which could significantly impact the global AI chip supply chain.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AIChips #USInvestment #TechIndustry\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "SK Hynix's massive $26.5B IPO is being seen as a major win for the AI chip industry, with many now urging the company to build new US factories @TechCrunch #AIChips",
+        "twitter": "SK Hynix's $26.5B IPO is a major milestone for AI chip development @TechCrunch #AIChips #USInvestment"
       }
     },
     "a89edfbc7cf5e74a3d395781caec8c568d4ceb3981e5ae31d0581483a90823f2": {
@@ -1730,12 +1868,6 @@
     }
   },
   "seen_article_links": {
-    "https://12gramsofcarbon.com/p/agentics-memorizing-session-transcripts": {
-      "canonical_url": "https://12gramsofcarbon.com/p/agentics-memorizing-session-transcripts",
-      "created_at": "2026-07-03T17:21:44Z",
-      "status": "scoring_attempted",
-      "title": "Claude, please stop trying to memorize random crap"
-    },
     "https://accesslumens.com/research/state-of-us-local-government-accessibility-2026": {
       "canonical_url": "https://accesslumens.com/research/state-of-us-local-government-accessibility-2026",
       "created_at": "2026-07-09T13:28:46Z",
@@ -2588,12 +2720,6 @@
       "status": "scoring_attempted",
       "title": "Show HN: Rowboat \u2013 Open-source, local-first alternative to Claude Desktop"
     },
-    "https://github.com/teamchong/pxpipe": {
-      "canonical_url": "https://github.com/teamchong/pxpipe",
-      "created_at": "2026-07-03T17:21:44Z",
-      "status": "scoring_attempted",
-      "title": "60% Fable cost cut by converting code to images and having the model OCR it"
-    },
     "https://github.com/tiliondev/fortress": {
       "canonical_url": "https://github.com/tiliondev/fortress",
       "created_at": "2026-07-08T03:28:53Z",
@@ -2708,6 +2834,12 @@
       "status": "scoring_attempted",
       "title": "Generate parametric, manufacturable 3D models in seconds"
     },
+    "https://lists.osgeo.org/pipermail/qgis-developer/2026-July/068430.html": {
+      "canonical_url": "https://lists.osgeo.org/pipermail/qgis-developer/2026-July/068430.html",
+      "created_at": "2026-07-10T18:08:38Z",
+      "status": "scoring_attempted",
+      "title": "Anyone else get a vague GitHub shakedown notice?"
+    },
     "https://lucid.earthpilot.ai": {
       "canonical_url": "https://lucid.earthpilot.ai",
       "created_at": "2026-07-09T21:43:18Z",
@@ -2809,6 +2941,12 @@
       "created_at": "2026-07-09T13:28:46Z",
       "status": "scoring_attempted",
       "title": "TrueBiz (YC S22) \u2013 Senior Software Engineer \u2013 Remote (US) \u2013 Full-Time"
+    },
+    "https://news.ycombinator.com/item?id=48863171": {
+      "canonical_url": "https://news.ycombinator.com/item?id=48863171",
+      "created_at": "2026-07-10T18:08:38Z",
+      "status": "scoring_attempted",
+      "title": "Ask HN: What was the last task where only a frontier model could do it?"
     },
     "https://nicole.express/2026/phase-altering-by-line.html": {
       "canonical_url": "https://nicole.express/2026/phase-altering-by-line.html",
@@ -3217,6 +3355,12 @@
       "created_at": "2026-07-09T13:28:46Z",
       "status": "scoring_attempted",
       "title": "Popular open source AI developer tool Ollama raises $65M, grows to nearly 9M users"
+    },
+    "https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs": {
+      "canonical_url": "https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs",
+      "created_at": "2026-07-10T18:08:38Z",
+      "status": "scoring_attempted",
+      "title": "SK Hynix raises $26.5B in the biggest foreign IPO in US history, is urged to build new US fabs"
     },
     "https://techcrunch.com/podcast/your-gaming-data-could-be-the-secret-to-agi-according-to-this-bezos-backed-startup": {
       "canonical_url": "https://techcrunch.com/podcast/your-gaming-data-could-be-the-secret-to-agi-according-to-this-bezos-backed-startup",
@@ -3734,6 +3878,12 @@
       "status": "scoring_attempted",
       "title": "Google Research Introduces SensorFM: A Wearable Health Foundation Model Pretrained on One Trillion Minutes of Sensor Data"
     },
+    "https://www.microcenter.com/site/mc-news/article/amd-ryzen-ai-halo-review.aspx": {
+      "canonical_url": "https://www.microcenter.com/site/mc-news/article/amd-ryzen-ai-halo-review.aspx",
+      "created_at": "2026-07-10T18:08:38Z",
+      "status": "scoring_attempted",
+      "title": "Hands-On with the AMD Ryzen AI Halo"
+    },
     "https://www.nbcchicago.com/news/local/delta-flight-hit-by-firework-while-landing-at-midway-airport-on-fourth-of-july/3957451": {
       "canonical_url": "https://www.nbcchicago.com/news/local/delta-flight-hit-by-firework-while-landing-at-midway-airport-on-fourth-of-july/3957451",
       "created_at": "2026-07-05T22:47:58Z",
@@ -3763,6 +3913,12 @@
       "created_at": "2026-07-03T20:05:23Z",
       "status": "scoring_attempted",
       "title": "Instead of banning AI, I made a classroom contract with my students"
+    },
+    "https://www.smithsonianmag.com/smart-news/spider-silk-loses-top-spot-natures-strongest-material-snails-teeth-180954346": {
+      "canonical_url": "https://www.smithsonianmag.com/smart-news/spider-silk-loses-top-spot-natures-strongest-material-snails-teeth-180954346",
+      "created_at": "2026-07-10T18:08:38Z",
+      "status": "scoring_attempted",
+      "title": "Snails' Teeth Beats Spider Silk as Nature's Strongest Material (2015)"
     },
     "https://www.taiganet.com": {
       "canonical_url": "https://www.taiganet.com",
@@ -3980,6 +4136,12 @@
       "status": "scoring_attempted",
       "title": "Comcast is breaking up with NBCU. Why did it ever buy it in the first place?"
     },
+    "https://www.theverge.com/podcast/964082/netflix-youtube-smart-glasses-vergecast": {
+      "canonical_url": "https://www.theverge.com/podcast/964082/netflix-youtube-smart-glasses-vergecast",
+      "created_at": "2026-07-10T18:08:38Z",
+      "status": "scoring_attempted",
+      "title": "Netflix is turning into YouTube"
+    },
     "https://www.theverge.com/policy/961449/white-house-mamdani-heatwave-deletion": {
       "canonical_url": "https://www.theverge.com/policy/961449/white-house-mamdani-heatwave-deletion",
       "created_at": "2026-07-04T16:50:09Z",
@@ -4154,6 +4316,12 @@
       "status": "scoring_attempted",
       "title": "Instagram\u2019s Adam Mosseri: If you don&#8217;t like AI, &#8216;then you shouldn&#8217;t have it in your feed&#8217;"
     },
+    "https://www.theverge.com/tech/964121/sk-hynix-nvidia-ram-stock-market-debut": {
+      "canonical_url": "https://www.theverge.com/tech/964121/sk-hynix-nvidia-ram-stock-market-debut",
+      "created_at": "2026-07-10T18:08:38Z",
+      "status": "scoring_attempted",
+      "title": "Nvidia&#8217;s biggest RAM supplier just had a trillion-dollar debut on Wall Street"
+    },
     "https://www.theverge.com/transportation/962187/amble-golf-cart-moon-buggy-ev-design-price-specs": {
       "canonical_url": "https://www.theverge.com/transportation/962187/amble-golf-cart-moon-buggy-ev-design-price-specs",
       "created_at": "2026-07-07T18:30:58Z",
@@ -4207,12 +4375,6 @@
       "created_at": "2026-07-08T20:25:01Z",
       "status": "scoring_attempted",
       "title": "I Built a Self-Improving AI, and So Can You"
-    },
-    "https://www.wired.com/story/google-deepmind-unionization-talks-are-off-to-a-rocky-start": {
-      "canonical_url": "https://www.wired.com/story/google-deepmind-unionization-talks-are-off-to-a-rocky-start",
-      "created_at": "2026-07-03T17:21:44Z",
-      "status": "scoring_attempted",
-      "title": "Google DeepMind Unionization Talks Are Off to a Rocky Start"
     },
     "https://www.wired.com/story/messi-ronaldo-tech-portfolios-salah-playing-a-different-game": {
       "canonical_url": "https://www.wired.com/story/messi-ronaldo-tech-portfolios-salah-playing-a-different-game",
