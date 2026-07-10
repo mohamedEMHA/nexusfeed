@@ -1,5 +1,33 @@
 {
   "cerebras_scoring": {
+    "011c7efbf3a96bedcd9681e17a80b63ab636786ec0604555c9d0ab493c58c976": {
+      "created_at": "2026-07-10T10:19:54Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 6,
+            "novelty_score": 2.5,
+            "reason": "Deutsche Telekom's AI transformation with OpenAI is a significant industry move with broad impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 2,
+            "title": "How Deutsche Telekom is rewiring telecommunications with AI",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 6,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Deutsche Telekom is undergoing a significant transformation into an AI-native telco. The company is leveraging OpenAI to revolutionize customer service, employee workflows, and network operations. This move highlights the growing impact of AI in the telecommunications industry.\nLink: https://openai.com/index/deutsche-telekom",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *How Deutsche Telekom is rewiring telecommunications with AI*\n\nDeutsche Telekom is becoming an AI-native telco, transforming customer service, workflows, and network operations with OpenAI.\n\n\ud83c\udfdb\ufe0f Source: OpenAI (S)\n\u23f0 Published: 3 hours ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://openai.com/index/deutsche-telekom\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Deutsche Telekom is becoming an AI-native telco, transforming customer service, workflows, and network operations with OpenAI. This is a significant industry move.\nhttps://openai.com/index/deutsche-telekom",
+          "twitter": "Deutsche Telekom is becoming an AI-native telco, transforming customer service, workflows, and network operations with OpenAI.\nhttps://openai.com/index/deutsche-telekom"
+        }
+      }
+    },
     "0207b87b1610abb4a3dd3e7b0fa1e31485ad534f4cc4f53cead0ed5f9342526c": {
       "created_at": "2026-07-09T21:43:18Z",
       "payload": {
@@ -38,6 +66,29 @@
           "threads": "Surgeons just performed the first-ever operation using humanoid robots on live pigs. This preclinical trial could revolutionize surgical procedures. https://arstechnica.com/ai/2026/07/humanoid-robots-controlled-by-surgeons-did-world-first-operation-on-live-pigs/",
           "twitter": "Surgeons just performed the first-ever operation using humanoid robots on live pigs. https://arstechnica.com/ai/2026/07/humanoid-robots-controlled-by-surgeons-did-world-first-operation-on-live-pigs/"
         }
+      }
+    },
+    "1806d1320f50352821f6172ab805b94db3528f64f5ab4f9150df8f7adb6c4cf4": {
+      "created_at": "2026-07-10T10:19:54Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "Podcast on formal methods and AI's role in lowering barriers to entry for formal specification and model-based testing.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Podcast: Formal Methods for Every Engineer in an AI-Powered Future",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 2,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "1cef370e9e7bf5912d6a793f350e5e72aba9dc46e9a97e1e1e71fd2bfb12514d": {
@@ -362,86 +413,6 @@
           "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Meta says its new AI model is ready to compete on coding*\n\nMeta has released Muse Spark 1.1, an AI model designed for coding tasks, with improved performance over the previous generation.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: 2 hours ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/ai-artificial-intelligence/963193/meta-muse-spark-model-api\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
           "threads": "Meta's Muse Spark 1.1 model is now available for developers, focusing on coding tasks. Early reports suggest notable performance improvements. https://www.theverge.com/ai-artificial-intelligence/963193/meta-muse-spark-model-api",
           "twitter": "Meta's new Muse Spark 1.1 model targets coding tasks with improved performance. https://www.theverge.com/ai-artificial-intelligence/963193/meta-muse-spark-model-api"
-        }
-      }
-    },
-    "4460601d73c695288ebbb553464df32ce0236d5d8080eb4eeadaa414de608f3d": {
-      "created_at": "2026-07-09T08:47:58Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "NVIDIA's new compressed LLM variant offers significant performance improvements, relevant to AI researchers and developers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "NVIDIA Releases Nemotron-Labs-3-Puzzle-75B-A9B: A Compressed Hybrid MoE LLM Delivering 2.03x Server Throughput at Matched User Throughput",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 1,
-            "novelty_score": 1.5,
-            "reason": "Interesting industry move but niche impact and lower source tier.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Why developers are ditching GitHub for Codeberg and self-hosting alternatives",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "NVIDIA has released a compressed variant of Nemotron-3-Super called Nemotron-Labs-3-Puzzle-75B-A9B. This model reduces parameters while improving server throughput by 2.03x. The iterative Puzzle process alternates hardware-aware structural compression with short knowledge distillation recovery phases. Link: https://www.marktechpost.com/2026/07/09/nvidia-releases-nemotron-labs-3-puzzle-75b-a9b-a-compressed-hybrid-moe-llm-delivering-2-03x-server-throughput-at-matched-user-throughput/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *NVIDIA Releases Nemotron-Labs-3-Puzzle-75B-A9B: A Compressed Hybrid MoE LLM Delivering 2.03x Server Throughput at Matched User Throughput*\n\nNVIDIA has released Nemotron-Labs-3-Puzzle-75B-A9B, a compressed variant of Nemotron-3-Super. The model reduces parameters while improving server throughput by 2.03x.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/07/09/nvidia-releases-nemotron-labs-3-puzzle-75b-a9b-a-compressed-hybrid-moe-llm-delivering-2-03x-server-throughput-at-matched-user-throughput/",
-          "threads": "NVIDIA's new Nemotron-Labs-3-Puzzle-75B-A9B model compresses parameters while boosting server throughput by 2.03x. The iterative Puzzle process alternates hardware-aware structural compression with short knowledge distillation recovery phases. https://www.marktechpost.com/2026/07/09/nvidia-releases-nemotron-labs-3-puzzle-75b-a9b-a-compressed-hybrid-moe-llm-delivering-2-03x-server-throughput-at-matched-user-throughput/",
-          "twitter": "NVIDIA's new Nemotron-Labs-3-Puzzle-75B-A9B model compresses parameters while boosting server throughput by 2.03x. https://www.marktechpost.com/2026/07/09/nvidia-releases-nemotron-labs-3-puzzle-75b-a9b-a-compressed-hybrid-moe-llm-delivering-2-03x-server-throughput-at-matched-user-throughput/"
-        }
-      }
-    },
-    "4b5e0fe484125c6b90560d0c786745688f7e61e9db6a41b0f7ceee1923e349cf": {
-      "created_at": "2026-07-09T08:47:58Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 2,
-            "novelty_score": 3.0,
-            "reason": "AlloyDB's proxy model architecture is a significant advancement in database AI integration.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.0,
-            "title": "AlloyDB Ships Proxy Models That Replace LLM Calls with Local Inference Inside the Database",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "GitHub import is a useful feature but not as impactful as AlloyDB's proxy models.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Google AI Studio Adds Import from GitHub to Build a Deployable App",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 2,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Google's AlloyDB just shipped a game-changing feature: proxy models that run LLM-like inference directly in the database. This cuts out external calls and delivers 2,400x throughput improvements. The tech trains lightweight local models from LLM outputs, then executes queries at database speed. For AI engineers working with large datasets, this could be a major productivity boost. Link: https://www.infoq.com/news/2026/07/alloydb-ai-proxy-models/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *AlloyDB Ships Proxy Models That Replace LLM Calls with Local Inference Inside the Database*\n\nGoogle shipped AlloyDB AI functions GA with a proxy model architecture that trains a lightweight local model from LLM outputs, then runs queries at database speed without external calls. Smart batching delivers 2,400x throughput improvement.\n\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (B)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.infoq.com/news/2026/07/alloydb-ai-proxy-models/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "AlloyDB's new proxy models train lightweight local models from LLM outputs, then run queries at database speed without external calls. 2,400x throughput improvement. https://www.infoq.com/news/2026/07/alloydb-ai-proxy-models/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "twitter": "AlloyDB's new proxy models replace LLM calls with local inference, boosting throughput 2,400x. https://www.infoq.com/news/2026/07/alloydb-ai-proxy-models/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
         }
       }
     },
@@ -946,72 +917,37 @@
         "social_posts": {}
       }
     },
-    "b0714a03703cfb64d06971a8d6c401c4fd603f11555972d8132652b3cbe34e63": {
-      "created_at": "2026-07-09T08:47:58Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 6,
-            "novelty_score": 2.5,
-            "reason": "Kubernetes community introduces a framework for AI-assisted maintainership with human accountability.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "The Kubernetes Approach to AI-Assisted Maintainership Prioritises Human Accountability",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 1,
-            "impact_score": 0,
-            "index": 7,
-            "novelty_score": 0,
-            "reason": "Article is about spider venom and honeybees, not relevant to software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Spider venom kills varroa mites without harming honeybees",
-            "total_score": 1.5
-          }
-        ],
-        "best_index": 6,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "b21cb68902a5c7e9414ed049098a234ed1167cff0906dfcb5ebe7d4217e32c0b": {
-      "created_at": "2026-07-09T08:47:58Z",
+    "b3c5be9996e0dc263fb4a89fd4336be0938ed75761af9f9ea3d02448c3712919": {
+      "created_at": "2026-07-10T10:19:54Z",
       "payload": {
         "articles": [
           {
             "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 4,
-            "novelty_score": 2.5,
-            "reason": "Comparative analysis of a new extraction tool against competitors.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Datalab Lift vs the Field: How a 9B Schema-First Extractor Compares with NuExtract3, LlamaExtract, Marker, and Docling",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 1.5,
             "impact_score": 2.5,
-            "index": 5,
-            "novelty_score": 2,
-            "reason": "Case study on scaling AWS Lambda functions with a real-world example.",
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "New feature release with significant impact on developer workflows.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 1,
-            "title": "AWS Details How One Customer Scaled to One Million Lambda Functions",
+            "title": "GitHub Copilot CLI Gets Tabs and No-Config-File Tool Setup in Redesigned Terminal UI",
+            "total_score": 8
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "Valuable insights for cloud architecture decisions, but slightly less fresh.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Article: Trade-Offs in Multi-Region Architectures: Latency vs. Cost",
             "total_score": 7
           }
         ],
-        "best_index": 4,
-        "best_score": 7.5,
+        "best_index": 0,
+        "best_score": 8,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1563,6 +1499,29 @@
         "recommendation": "SKIP",
         "social_posts": {}
       }
+    },
+    "fbc7f44343c36591535ce24bf3f8c177eec7730287b11157e995dd2d1466a613": {
+      "created_at": "2026-07-10T10:19:54Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "New research on a wearable health foundation model with significant data scale and academic collaboration.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Google Research Introduces SensorFM: A Wearable Health Foundation Model Pretrained on One Trillion Minutes of Sensor Data",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 3,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
     }
   },
   "groq_social_posts": {
@@ -1816,6 +1775,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Netflix Achieves Significant Reduction in Read Latency\nThe company's AI team has successfully reduced read latency from seconds to milliseconds by implementing a novel approach to handling wide partitions in Apache Cassandra.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#Cassandra #TimeSeriesData #DatabaseOptimization\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Netflix's AI team has made a major breakthrough in reducing read latency for TimeSeries data, cutting it from seconds to milliseconds by splitting Cassandra partitions per ID @NetflixEng #CassandraOptimization",
         "twitter": "Netflix's AI team reduces read latency from seconds to milliseconds by splitting Cassandra partitions per ID, a significant improvement for TimeSeries data @NetflixEng #CassandraOptimization"
+      }
+    },
+    "baee8ba20f4c542450a60e60ed71be7932fcb97af30a44c906b75c7172c68ea7": {
+      "created_at": "2026-07-10T10:19:54Z",
+      "payload": {
+        "facebook": "The telecommunications industry is undergoing a significant shift with the adoption of AI. Deutsche Telekom is leading the charge, leveraging AI to transform customer service, employee workflows, and network operations. This move is expected to have a broad impact on the industry, #AIinTelecom #TelecomTransformation #ArtificialIntelligence",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Deutsche Telekom's AI Transformation\nDeutsche Telekom is becoming an AI-native telco, transforming customer service, employee workflows, and network operations with OpenAI.\n\ud83c\udfdb\ufe0f Source: OpenAI (S)\n\u23f0 Published: 3 hours ago\n\u2b50 Score: 8.5/10\n#AIinTelecom #TelecomTransformation #ArtificialIntelligence\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Deutsche Telekom's adoption of AI is set to revolutionize the telecom industry, with impacts on customer service and network operations, @OpenAI #AIinTelecom",
+        "twitter": "Deutsche Telekom is transforming its operations with AI, impacting customer service and network operations, @OpenAI #AIinTelecom"
       }
     },
     "be40ee1e4284ff6031e8f654cfdb9b6b4ef528774de730be95b27736e15e3013": {
@@ -3050,6 +3018,12 @@
       "status": "scoring_attempted",
       "title": "ChatGPT is now a partner for your most ambitious work"
     },
+    "https://openai.com/index/deutsche-telekom": {
+      "canonical_url": "https://openai.com/index/deutsche-telekom",
+      "created_at": "2026-07-10T10:19:54Z",
+      "status": "scoring_attempted",
+      "title": "How Deutsche Telekom is rewiring telecommunications with AI"
+    },
     "https://openai.com/index/k-12-educators-practical-skills": {
       "canonical_url": "https://openai.com/index/k-12-educators-practical-skills",
       "created_at": "2026-07-08T17:48:01Z",
@@ -3596,6 +3570,12 @@
       "status": "scoring_attempted",
       "title": "2026 Unslop AI-Written Fiction Contest Results"
     },
+    "https://www.infoq.com/articles/multi-region-latency-cost-tradeoffs": {
+      "canonical_url": "https://www.infoq.com/articles/multi-region-latency-cost-tradeoffs",
+      "created_at": "2026-07-10T10:19:54Z",
+      "status": "scoring_attempted",
+      "title": "Article: Trade-Offs in Multi-Region Architectures: Latency vs. Cost"
+    },
     "https://www.infoq.com/minibooks/agentic-ai-architecture": {
       "canonical_url": "https://www.infoq.com/minibooks/agentic-ai-architecture",
       "created_at": "2026-07-03T12:06:05Z",
@@ -3643,6 +3623,12 @@
       "created_at": "2026-07-03T15:53:16Z",
       "status": "scoring_attempted",
       "title": "Cloudflare Details Unified Data Platform Where Billing Workloads Account for 53% of Queries"
+    },
+    "https://www.infoq.com/news/2026/07/copilot-cli-terminal-ga": {
+      "canonical_url": "https://www.infoq.com/news/2026/07/copilot-cli-terminal-ga",
+      "created_at": "2026-07-10T10:19:54Z",
+      "status": "scoring_attempted",
+      "title": "GitHub Copilot CLI Gets Tabs and No-Config-File Tool Setup in Redesigned Terminal UI"
     },
     "https://www.infoq.com/news/2026/07/datadog-ai-production-migration": {
       "canonical_url": "https://www.infoq.com/news/2026/07/datadog-ai-production-migration",
@@ -3734,6 +3720,12 @@
       "status": "scoring_attempted",
       "title": "WordPress 7.0 Ships with AI Foundations in Core, a Modernized Admin, and New Design Tools"
     },
+    "https://www.infoq.com/podcasts/formal-methods-ai-powered-future": {
+      "canonical_url": "https://www.infoq.com/podcasts/formal-methods-ai-powered-future",
+      "created_at": "2026-07-10T10:19:54Z",
+      "status": "scoring_attempted",
+      "title": "Podcast: Formal Methods for Every Engineer in an AI-Powered Future"
+    },
     "https://www.infoq.com/podcasts/new-blueprint-cloud-security": {
       "canonical_url": "https://www.infoq.com/podcasts/new-blueprint-cloud-security",
       "created_at": "2026-07-06T11:24:55Z",
@@ -3751,12 +3743,6 @@
       "created_at": "2026-07-09T16:13:09Z",
       "status": "scoring_attempted",
       "title": "Presentation: Accelerating Netflix Data: A Cross-Team Journey from Offline to Online"
-    },
-    "https://www.infoq.com/presentations/rft-openai-model": {
-      "canonical_url": "https://www.infoq.com/presentations/rft-openai-model",
-      "created_at": "2026-07-03T09:53:21Z",
-      "status": "scoring_attempted",
-      "title": "Presentation: Fine Tuning the Enterprise: Reinforcement Learning in Practice"
     },
     "https://www.infoq.com/presentations/rust-autonomous-mobile-robots": {
       "canonical_url": "https://www.infoq.com/presentations/rust-autonomous-mobile-robots",
@@ -3926,6 +3912,12 @@
       "status": "scoring_attempted",
       "title": "OpenAI Releases GPT-5.6 (Sol, Terra, Luna): A Three-Tier Model Family With Programmatic Tool Calling in the Responses API"
     },
+    "https://www.marktechpost.com/2026/07/10/google-research-introduces-sensorfm-a-wearable-health-foundation-model-pretrained-on-one-trillion-minutes-of-sensor-data": {
+      "canonical_url": "https://www.marktechpost.com/2026/07/10/google-research-introduces-sensorfm-a-wearable-health-foundation-model-pretrained-on-one-trillion-minutes-of-sensor-data",
+      "created_at": "2026-07-10T10:19:54Z",
+      "status": "scoring_attempted",
+      "title": "Google Research Introduces SensorFM: A Wearable Health Foundation Model Pretrained on One Trillion Minutes of Sensor Data"
+    },
     "https://www.nbcchicago.com/news/local/delta-flight-hit-by-firework-while-landing-at-midway-airport-on-fourth-of-july/3957451": {
       "canonical_url": "https://www.nbcchicago.com/news/local/delta-flight-hit-by-firework-while-landing-at-midway-airport-on-fourth-of-july/3957451",
       "created_at": "2026-07-05T22:47:58Z",
@@ -3949,12 +3941,6 @@
       "created_at": "2026-07-06T00:12:28Z",
       "status": "scoring_attempted",
       "title": "Al Vigier: Canada's AI strategy shouldn't include secret Palantir bills"
-    },
-    "https://www.reuters.com/world/china/alibaba-ban-claude-code-workplace-over-alleged-backdoor-risks-source-says-2026-07-03": {
-      "canonical_url": "https://www.reuters.com/world/china/alibaba-ban-claude-code-workplace-over-alleged-backdoor-risks-source-says-2026-07-03",
-      "created_at": "2026-07-03T09:53:21Z",
-      "status": "scoring_attempted",
-      "title": "Alibaba to ban Claude Code in workplace over alleged backdoor risks, source says"
     },
     "https://www.science.org/content/article/instead-banning-ai-i-made-classroom-contract-my-students": {
       "canonical_url": "https://www.science.org/content/article/instead-banning-ai-i-made-classroom-contract-my-students",
