@@ -214,6 +214,64 @@
         "social_posts": {}
       }
     },
+    "21a2f3465b1f2dc6977ce4f76a7e7c2fa975264faf030771a9939e8eb4733925": {
+      "created_at": "2026-07-10T15:18:40Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 0.5,
+            "index": 0,
+            "novelty_score": 1.5,
+            "reason": "Consumer tech deal with limited relevance to software engineers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Anker\u2019s 3-in-1 Qi2.2 charging station is $95 off",
+            "total_score": 5.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "New AI-driven testing approach from Slack with significant impact on UI test automation.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Slack Introduces Agent Driven End-to-End Testing to Improve Resilience in UI Test Automation",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "2336987153fb652c6778e6ffffd201f6669abe331e7a7e079926d54c9a1cc8a4": {
+      "created_at": "2026-07-10T15:18:40Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1,
+            "impact_score": 1.5,
+            "index": 8,
+            "novelty_score": 2.5,
+            "reason": "Explains technical concept but lacks novelty and impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Unified Memory, Explained: Why Mini PCs Can Run 70B Models a Big GPU Can't",
+            "total_score": 5.5
+          }
+        ],
+        "best_index": 8,
+        "best_score": 5.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "257ff6473e2dfd7e19114f372503f1a5263bb5d09433052b226fcdb24d997fec": {
       "created_at": "2026-07-09T22:57:15Z",
       "payload": {
@@ -416,53 +474,6 @@
         }
       }
     },
-    "58470e3c45f9e5543891c541b0040d28471ef2ae70896cd7810cd3de3a9d330b": {
-      "created_at": "2026-07-09T13:28:46Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "New tool for code exploration but limited impact and source tier.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Show HN: Arcaide \u2013 Explore code with multi-level call graphs",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 4,
-            "novelty_score": 2.0,
-            "reason": "Important accessibility findings but limited by source tier.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Show HN: 92% of US city websites fail ADA accessibility",
-            "total_score": 7.0
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.0,
-            "index": 5,
-            "novelty_score": 2.5,
-            "reason": "Interesting perspective on version control but limited by source tier.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "How Version Control Will Evolve for the Agent Boom",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 4,
-        "best_score": 7.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "5b95e39d6ad8c80d5665279d4b93825d3932b4fa15e375bdbd64f961d3e56063": {
       "created_at": "2026-07-09T23:08:03Z",
       "payload": {
@@ -489,41 +500,6 @@
           "threads": "Meta's Muse Spark 1.1 is out, a multimodal reasoning model with a massive 1M token context window and zero-shot generalization. https://www.marktechpost.com/2026/07/09/meta-superintelligence-labs-releases-muse-spark-1-1/",
           "twitter": "Meta just released Muse Spark 1.1, a multimodal reasoning model with a 1M token context window and zero-shot generalization. https://www.marktechpost.com/2026/07/09/meta-superintelligence-labs-releases-muse-spark-1-1/"
         }
-      }
-    },
-    "668307203e196db8fa131dc6c4c2fce7875a1429c81bf5edf5082c8629dcdae2": {
-      "created_at": "2026-07-09T13:28:46Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.0,
-            "index": 6,
-            "novelty_score": 0.0,
-            "reason": "Job posting with no relevance to software engineering or AI research.",
-            "red_flag": true,
-            "red_flag_reason": "Job posting",
-            "source_score": 0.5,
-            "title": "TrueBiz (YC S22) \u2013 Senior Software Engineer \u2013 Remote (US) \u2013 Full-Time",
-            "total_score": 2.0
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 7,
-            "novelty_score": 2.0,
-            "reason": "Industry move with moderate impact on AI and fintech startups in India.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Nandan Nilekani leaves GP role at Fundamentum as it launches $200M third fund",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 7,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "6c12870d07832d7e92417b5d698e9a7bff92334e2d0ff5ab30868b882dafd477": {
@@ -1054,6 +1030,41 @@
         }
       }
     },
+    "c594dcd9a54bbd4efcfb22a5dc57d8255abab85c5fd1f10b9944dfeecb32ac6e": {
+      "created_at": "2026-07-10T15:18:40Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.5,
+            "index": 4,
+            "novelty_score": 0.2,
+            "reason": "Tutorial-style article with low novelty and impact.",
+            "red_flag": true,
+            "red_flag_reason": "tutorial",
+            "source_score": 0.5,
+            "title": "Write code like a human will maintain it",
+            "total_score": 2.2
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 5,
+            "novelty_score": 2.5,
+            "reason": "Novel industry move with significant impact on AI infrastructure.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Would you host part of an AI data center in your home?",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 5,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "c5c54e525dd80817ec98e4443b32f81b9758316d8041bbd75fa356e596d2e8d4": {
       "created_at": "2026-07-10T01:01:43Z",
       "payload": {
@@ -1075,58 +1086,6 @@
         "best_score": 8.0,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "c84f241277d4e0201354970859b5187d13cba2a94429d019ceaedffb2b1d0fc3": {
-      "created_at": "2026-07-09T13:28:46Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "New product launch with moderate impact on niche audience.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Character.AI wants a piece of the microdrama pie",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Significant funding round and user growth for a widely used developer tool.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Popular open source AI developer tool Ollama raises $65M, grows to nearly 9M users",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "New product launch with moderate impact on niche audience.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Character.AI enters the microdrama arena with its own productions, but there\u2019s a twist",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Ollama, the popular open-source AI tool for developers, has raised $65M and grown to nearly 9M users. This is a significant milestone for a tool that helps developers easily run AI on their PCs. Link: https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Ollama raises $65M, hits 9M users*\n\nOllama, the open-source AI tool for developers, has raised $65M and grown to nearly 9M users. The tool helps developers easily run AI on their PCs.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Ollama, the open-source AI tool for developers, just raised $65M and hit 9M users. It's a big move for a tool that's become essential for running AI on local machines. https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/",
-          "twitter": "Ollama, the open-source AI tool for developers, just raised $65M and hit 9M users. https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/"
-        }
       }
     },
     "cc7e356a2b0de25fc0aa89f99e176afb6ab3cbe04be48ac5fe632c5cf9277b89": {
@@ -1315,41 +1274,6 @@
         ],
         "best_index": 3,
         "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "ddf1cd85a62fe99259f7158d5106fbab0f2370fd6da817ccaee7ce8f0c2afc24": {
-      "created_at": "2026-07-09T13:28:46Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 8,
-            "novelty_score": 0.5,
-            "reason": "Opinion piece on open source collaboration with niche impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.0,
-            "title": "How Open Source Enables Collaboration in Creating a Platform",
-            "total_score": 5.0
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 9,
-            "novelty_score": 2.5,
-            "reason": "OpenAI's novel debugging approach for a critical infrastructure bug.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.0,
-            "title": "OpenAI Fixes 18-Year-Old GNU libunwind Bug by Treating Crash Debugging Like Epidemiology",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 9,
-        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1593,6 +1517,41 @@
         ],
         "best_index": 3,
         "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "fc172546a39080ede8ba72586d1fad719280e04cd49f4b3f43071502893cc4f5": {
+      "created_at": "2026-07-10T15:18:40Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 1.5,
+            "reason": "Opinion piece from a platform leader on AI content moderation.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Instagram\u2019s Adam Mosseri: If you don\u2019t like AI, 'then you shouldn\u2019t have it in your feed'",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "Practical strategies for chaos engineering in GPU clusters, relevant to AI infrastructure.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.0,
+            "title": "Presentation: Chaos Engineering GPU Clusters",
+            "total_score": 8.0
+          }
+        ],
+        "best_index": 3,
+        "best_score": 8.0,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -2672,12 +2631,6 @@
       "status": "scoring_attempted",
       "title": "Why DMARC's new \"NP\" tag can fail with DNSSEC"
     },
-    "https://docs.cloud.google.com/gemini/docs/code-review/review-repo-code": {
-      "canonical_url": "https://docs.cloud.google.com/gemini/docs/code-review/review-repo-code",
-      "created_at": "2026-07-03T14:29:08Z",
-      "status": "scoring_attempted",
-      "title": "Gemini Code Assist will be shut down on July 17"
-    },
     "https://dthain.github.io/books/compiler": {
       "canonical_url": "https://dthain.github.io/books/compiler",
       "created_at": "2026-07-05T14:53:15Z",
@@ -3494,11 +3447,23 @@
       "status": "scoring_attempted",
       "title": "We're extending access to Fable 5 on all paid plans through July 12"
     },
+    "https://unstack.io/write-code-like-a-human-will-maintain-it": {
+      "canonical_url": "https://unstack.io/write-code-like-a-human-will-maintain-it",
+      "created_at": "2026-07-10T15:18:40Z",
+      "status": "scoring_attempted",
+      "title": "Write code like a human will maintain it"
+    },
     "https://usefeyn.com/blog/pulpie-pareto-optimal-models-for-cleaning-the-web": {
       "canonical_url": "https://usefeyn.com/blog/pulpie-pareto-optimal-models-for-cleaning-the-web",
       "created_at": "2026-07-06T16:50:48Z",
       "status": "scoring_attempted",
       "title": "Show HN: Pulpie \u2013 Models for Cleaning the Web"
+    },
+    "https://vettedconsumer.com/unified-memory-explained-why-mini-pcs-can-run-70b-models-a-big-gpu-cant-and-where-they-slow-down": {
+      "canonical_url": "https://vettedconsumer.com/unified-memory-explained-why-mini-pcs-can-run-70b-models-a-big-gpu-cant-and-where-they-slow-down",
+      "created_at": "2026-07-10T15:18:40Z",
+      "status": "scoring_attempted",
+      "title": "Unified Memory, Explained: Why Mini PCs Can Run 70B Models a Big GPU Can't"
     },
     "https://vimeo.com/49718712": {
       "canonical_url": "https://vimeo.com/49718712",
@@ -3578,12 +3543,6 @@
       "status": "scoring_attempted",
       "title": "Why skilled workers come to Germany and then leave again"
     },
-    "https://www.elenaverna.com/p/please-stop-the-ai-confidence-theater": {
-      "canonical_url": "https://www.elenaverna.com/p/please-stop-the-ai-confidence-theater",
-      "created_at": "2026-07-03T14:29:08Z",
-      "status": "scoring_attempted",
-      "title": "Please stop the AI confidence theater"
-    },
     "https://www.ello.com/blog/teaching-a-child-in-1000-ms": {
       "canonical_url": "https://www.ello.com/blog/teaching-a-child-in-1000-ms",
       "created_at": "2026-07-10T05:10:09Z",
@@ -3607,12 +3566,6 @@
       "created_at": "2026-07-05T15:58:56Z",
       "status": "scoring_attempted",
       "title": "Solar rail could become common in Europe after successful trial in Switzerland"
-    },
-    "https://www.gamingonlinux.com/2026/07/valve-open-source-the-steam-machine-e-ink-screen-so-you-can-make-your-own": {
-      "canonical_url": "https://www.gamingonlinux.com/2026/07/valve-open-source-the-steam-machine-e-ink-screen-so-you-can-make-your-own",
-      "created_at": "2026-07-03T14:29:08Z",
-      "status": "scoring_attempted",
-      "title": "Valve open source the Steam Machine e-ink screen so you can make your own"
     },
     "https://www.hawaiinewsnow.com/2026/07/04/record-breaking-solo-rower-kelsey-pfendler-arrives-hawaii": {
       "canonical_url": "https://www.hawaiinewsnow.com/2026/07/04/record-breaking-solo-rower-kelsey-pfendler-arrives-hawaii",
@@ -3770,6 +3723,12 @@
       "status": "scoring_attempted",
       "title": "Airbnb Shares Architecture Behind Sitar-Agent Dynamic Configuration Sidecar for Kubernetes Services"
     },
+    "https://www.infoq.com/news/2026/07/slack-agentic-e2e-testing-ui": {
+      "canonical_url": "https://www.infoq.com/news/2026/07/slack-agentic-e2e-testing-ui",
+      "created_at": "2026-07-10T15:18:40Z",
+      "status": "scoring_attempted",
+      "title": "Slack Introduces Agent Driven End-to-End Testing to Improve Resilience in UI Test Automation"
+    },
     "https://www.infoq.com/news/2026/07/wordpress-7-ai": {
       "canonical_url": "https://www.infoq.com/news/2026/07/wordpress-7-ai",
       "created_at": "2026-07-10T08:43:54Z",
@@ -3787,6 +3746,12 @@
       "created_at": "2026-07-06T11:24:55Z",
       "status": "scoring_attempted",
       "title": "Podcast: Spite-Driven Engineering: A New Blueprint for Cloud Security in the AI Native Era"
+    },
+    "https://www.infoq.com/presentations/chaos-engineering-gpu": {
+      "canonical_url": "https://www.infoq.com/presentations/chaos-engineering-gpu",
+      "created_at": "2026-07-10T15:18:40Z",
+      "status": "scoring_attempted",
+      "title": "Presentation: Chaos Engineering GPU Clusters"
     },
     "https://www.infoq.com/presentations/multi-agent-ai-architecture": {
       "canonical_url": "https://www.infoq.com/presentations/multi-agent-ai-architecture",
@@ -4082,6 +4047,12 @@
       "status": "scoring_attempted",
       "title": "Fidji Simo steps down from leading OpenAI\u2019s AGI work due to illness"
     },
+    "https://www.theverge.com/ai-artificial-intelligence/963930/sunrun-distributed-ai-data-center": {
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/963930/sunrun-distributed-ai-data-center",
+      "created_at": "2026-07-10T15:18:40Z",
+      "status": "scoring_attempted",
+      "title": "Would you host part of an AI data center in your home?"
+    },
     "https://www.theverge.com/column/960600/xbox-is-a-disaster": {
       "canonical_url": "https://www.theverge.com/column/960600/xbox-is-a-disaster",
       "created_at": "2026-07-05T13:02:49Z",
@@ -4165,6 +4136,12 @@
       "created_at": "2026-07-09T16:13:09Z",
       "status": "scoring_attempted",
       "title": "Sonos Ace wireless headphones are steeply discounted"
+    },
+    "https://www.theverge.com/gadgets/963665/anker-prime-wireless-charging-station-lg-oled-c6-tv-deal-sale": {
+      "canonical_url": "https://www.theverge.com/gadgets/963665/anker-prime-wireless-charging-station-lg-oled-c6-tv-deal-sale",
+      "created_at": "2026-07-10T15:18:40Z",
+      "status": "scoring_attempted",
+      "title": "Anker&#8217;s 3-in-1 Qi2.2 charging station is $95 off"
     },
     "https://www.theverge.com/games/962156/discord-accidental-bans-grid-images": {
       "canonical_url": "https://www.theverge.com/games/962156/discord-accidental-bans-grid-images",
@@ -4387,6 +4364,12 @@
       "created_at": "2026-07-10T01:01:43Z",
       "status": "scoring_attempted",
       "title": "Microsoft\u2019s carbon emissions went up 25 percent last year"
+    },
+    "https://www.theverge.com/tech/963961/instagram-adam-mosseri-ai-feed-filters": {
+      "canonical_url": "https://www.theverge.com/tech/963961/instagram-adam-mosseri-ai-feed-filters",
+      "created_at": "2026-07-10T15:18:40Z",
+      "status": "scoring_attempted",
+      "title": "Instagram\u2019s Adam Mosseri: If you don&#8217;t like AI, &#8216;then you shouldn&#8217;t have it in your feed&#8217;"
     },
     "https://www.theverge.com/transportation/962187/amble-golf-cart-moon-buggy-ev-design-price-specs": {
       "canonical_url": "https://www.theverge.com/transportation/962187/amble-golf-cart-moon-buggy-ev-design-price-specs",
