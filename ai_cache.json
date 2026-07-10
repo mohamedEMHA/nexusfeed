@@ -203,6 +203,29 @@
         }
       }
     },
+    "2ec9ca1f11ef3039757110a03c1ce8c330e59b413da4f550d28b0715810f2007": {
+      "created_at": "2026-07-10T05:10:09Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1,
+            "impact_score": 1.5,
+            "index": 20,
+            "novelty_score": 2.5,
+            "reason": "Interesting niche application of AI, but limited impact and from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Building a real-time AI tutor for 5-year-olds",
+            "total_score": 5.5
+          }
+        ],
+        "best_index": 20,
+        "best_score": 5.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "353183fdf333fc6e0d91238562ad8188309eac8d0db70bd6f40be05b1cee030f": {
       "created_at": "2026-07-09T18:16:40Z",
       "payload": {
@@ -241,29 +264,6 @@
           "threads": "ChatGPT Work from OpenAI acts as an agent to turn goals into finished work across your apps and files. It can stay with a project for hours if needed. https://openai.com/index/chatgpt-for-your-most-ambitious-work",
           "twitter": "OpenAI's ChatGPT Work turns goals into finished work across your apps and files. https://openai.com/index/chatgpt-for-your-most-ambitious-work"
         }
-      }
-    },
-    "3548c411322109e494d48c2c94733fe24c3671605ce3deebe98adff877131d36": {
-      "created_at": "2026-07-09T01:03:48Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Industry move with moderate impact on a niche audience.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "John Deere owners will get the right to repair equipment under FTC settlement",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "3975baa22aac4b95e7d81f16eab72051a51405688ee8726be9e4b4b957be0ec2": {
@@ -445,29 +445,6 @@
         }
       }
     },
-    "57e1c6b8a14760ff58d28c432a3abc869d470cf74e84a3b9bc0397883cb1c45e": {
-      "created_at": "2026-07-09T01:03:48Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Research on interactive world models for multiplayer games is novel but niche in impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "MIRA: Multiplayer Interactive World Models Trained on Rocket League",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "58470e3c45f9e5543891c541b0040d28471ef2ae70896cd7810cd3de3a9d330b": {
       "created_at": "2026-07-09T13:28:46Z",
       "payload": {
@@ -543,89 +520,6 @@
         }
       }
     },
-    "5ee11c9f1aabc5498524e0294ba397a3e72921b149afa43c8db78785e7e8d93f": {
-      "created_at": "2026-07-09T05:09:29Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 19,
-            "novelty_score": 2.5,
-            "reason": "New research on inductive multi-hop logical query answering over knowledge graphs.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "InductWave: Inductive Multi-Hop Logical Query Answering on Knowledge Graphs",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 20,
-            "novelty_score": 2.5,
-            "reason": "New research on the impact of biased judges on skill retirement in self-evolving agents.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "The Blind Curator: How a Biased Judge Silently Disables Skill Retirement in Self-Evolving Agents",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 21,
-            "novelty_score": 2.5,
-            "reason": "New research on a self-evolving LLM-based multi-agent framework for trajectory analysis.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "SpaCellAgent: A Self-Evolving LLM-Based Multi-Agent Framework for Trajectory Analysis",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 22,
-            "novelty_score": 2.5,
-            "reason": "New research on a training framework for correction-aware reasoning.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Search, Fail, Recover: A Training Framework for Correction-Aware Reasoning",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 23,
-            "novelty_score": 2.5,
-            "reason": "New research on the effectiveness of LLM-generated skills in data-science workflows.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Do LLM-Generated Skills Make Better AI Data Scientists? A Component Ablation Across Data-Science Workflows",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 24,
-            "novelty_score": 2.5,
-            "reason": "New research on RL post-training and its impact on compositional reasoning strategies.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "RL Post-Training Builds Compositional Reasoning Strategies",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 19,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "668307203e196db8fa131dc6c4c2fce7875a1429c81bf5edf5082c8629dcdae2": {
       "created_at": "2026-07-09T13:28:46Z",
       "payload": {
@@ -657,101 +551,6 @@
         ],
         "best_index": 7,
         "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "6b6a34bc7c1347c8117c05cbf6e28ef594e49b78039255c3471d7dec279bd59b": {
-      "created_at": "2026-07-09T05:09:29Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "New research on coding agent evaluation with production-assessed trajectories.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "AgentLens: Production-Assessed Trajectory Reviews for Coding Agent Evaluation",
-            "total_score": 7
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Theoretical analysis of in-context search in LLMs.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "When Does In-Context Search Help? A Sampling-Complexity Theory of Reflection-Driven Reasoning",
-            "total_score": 7
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "Explores LLM-powered reasoning in agent-based modeling for policy making.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "LLM-powered reasoning in agent-based modeling",
-            "total_score": 7
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "Introduces QANTIS for belief updates in autonomous systems.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "QANTIS: Hardware-Calibrated Sequential POMDP Belief Updates on IBM Heron",
-            "total_score": 7
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 4,
-            "novelty_score": 2.5,
-            "reason": "Discusses cost-effective agent harnesses for abstract reasoning.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Cost-Effective Agent Harnesses for Abstract Reasoning and Generalization on ARC-AGI-1",
-            "total_score": 7
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 5,
-            "novelty_score": 2.5,
-            "reason": "Evaluates SageMath-augmented LLM agents for mathematics.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Evaluating SageMath-Augmented LLM Agents for Computational and Experimental Mathematics",
-            "total_score": 7
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 6,
-            "novelty_score": 2.5,
-            "reason": "Analyzes the token economics of enterprise agentic AI.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "The Harness Effect: How Orchestration Design Sets the Token Economics of Enterprise Agentic AI",
-            "total_score": 7
-          }
-        ],
-        "best_index": 0,
-        "best_score": 7,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -832,6 +631,34 @@
         }
       }
     },
+    "6c8e459c9834a1b58f593b89a2e2a9072faf2edfe7892b18af746beb2589979e": {
+      "created_at": "2026-07-10T05:10:09Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 3.0,
+            "reason": "Robbyant's release of LingBot-World-Infinity, a 14B causal video generation model, is highly novel and impactful for AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Meet LingBot-World-Infinity: An Open Causal World Model With An Agentic Harness",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Robbyant, Ant Group's embodied-intelligence unit, has released LingBot-World-Infinity, a 14B causal video generation model that behaves as an interactive world simulator. This is a significant development for AI researchers. Link: https://www.marktechpost.com/2026/07/09/meet-lingbot-world-infinity-an-open-causal-world-model-with-an-agentic-harness",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Robbyant releases LingBot-World-Infinity, a 14B causal video generation model*\n\nRobbyant, Ant Group's embodied-intelligence unit, has released LingBot-World-Infinity, a 14B causal video generation model that behaves as an interactive world simulator.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/07/09/meet-lingbot-world-infinity-an-open-causal-world-model-with-an-agentic-harness\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Robbyant's new LingBot-World-Infinity is a 14B causal video generation model that simulates interactive worlds. It's a big deal for AI research. https://www.marktechpost.com/2026/07/09/meet-lingbot-world-infinity-an-open-causal-world-model-with-an-agentic-harness",
+          "twitter": "Robbyant just released LingBot-World-Infinity, a 14B causal video generation model that simulates interactive worlds. https://www.marktechpost.com/2026/07/09/meet-lingbot-world-infinity-an-open-causal-world-model-with-an-agentic-harness/"
+        }
+      }
+    },
     "708817097a82e72b07dd74e16faf7c48cf433c5e9a1c471af777dd7648621476": {
       "created_at": "2026-07-09T20:10:00Z",
       "payload": {
@@ -907,29 +734,6 @@
         "social_posts": {}
       }
     },
-    "8008819a0a3fd5708256e315f4be5bba650dbd09165a3540ab9e8d864429dfd0": {
-      "created_at": "2026-07-09T01:03:48Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "Comparative analysis of AI models building apps, but source is low-tier.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "We made Grok 4.5, GPT-5.5, and Claude build the same apps",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 2,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "82e0167e87ffcb879f6da92098faeef228e280f15100c3119e293a16560a7788": {
       "created_at": "2026-07-09T21:43:18Z",
       "payload": {
@@ -968,89 +772,6 @@
           "threads": "OpenAI's GPT-5.6 is now available with three tiers: Sol, Terra, and Luna. Sol leads with a 80 score on the Artificial Analysis Coding Agent Index, outpacing Claude Fable 5. https://www.marktechpost.com/2026/07/09/openai-releases-gpt-5-6-a-three-tier-model-family-with-programmatic-tool-calling/",
           "twitter": "OpenAI just launched GPT-5.6 with three tiers: Sol, Terra, and Luna, each with different pricing and capabilities. https://www.marktechpost.com/2026/07/09/openai-releases-gpt-5-6-a-three-tier-model-family-with-programmatic-tool-calling/"
         }
-      }
-    },
-    "8e74122576c7016378a856df38f821f80614d3ce3e202d8095590892fe1caa4b": {
-      "created_at": "2026-07-09T05:09:29Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 13,
-            "novelty_score": 2.5,
-            "reason": "New research on auditing chain-of-thought reasoning in AI safety evaluations.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.0,
-            "title": "Reasoning Consistency Scanning: A Framework for Auditing Chain-of-Thought Validity in AI Safety Evaluations",
-            "total_score": 8.0
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 14,
-            "novelty_score": 2.5,
-            "reason": "New research on optimizing tool use in LLM agents.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.0,
-            "title": "From Atomic Actions to Standard Operating Procedures: Iterative Tool Optimization for Self-Evolving LLM Agents",
-            "total_score": 8.0
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 15,
-            "novelty_score": 2.5,
-            "reason": "New research on agentic discovery in scientific machine learning.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.0,
-            "title": "Physics-Audited Agentic Discovery in Scientific Machine Learning",
-            "total_score": 8.0
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 16,
-            "novelty_score": 2.5,
-            "reason": "New benchmark for mathematical reasoning with minimal information.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.0,
-            "title": "MIRA-Math: A Benchmark for Minimal Information Requesting and Mathematical Reasoning",
-            "total_score": 8.0
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 17,
-            "novelty_score": 2.5,
-            "reason": "New research on agentic data environments.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.0,
-            "title": "Agentic Data Environments",
-            "total_score": 8.0
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 18,
-            "novelty_score": 2.5,
-            "reason": "New research on deterministic gates for policy violation in LLM agents.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.0,
-            "title": "Reason Less, Verify More: Deterministic Gates Recover a Silent Policy-Violation Failure Mode in Tool-Using LLM Agents",
-            "total_score": 8.0
-          }
-        ],
-        "best_index": 13,
-        "best_score": 8.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "8f0d4c65c87c0fdd7947e81122e7170bc4d4e31d3176a3c736e2b0493570c06e": {
@@ -1240,89 +961,6 @@
           "threads": "TechCrunch asks: Can AI justify its $3 trillion valuation? The economic debate is back, and the numbers are bigger than ever. https://techcrunch.com/2026/07/09/can-ai-answer-the-3-trillion-question/",
           "twitter": "TechCrunch dives into whether AI can justify its $3 trillion valuation. The stakes have never been higher.\nhttps://techcrunch.com/2026/07/09/can-ai-answer-the-3-trillion-question/"
         }
-      }
-    },
-    "c2025ca8dcf666484ddb3df0280bbbdf3db937f50b191c97b76ce4580ca7bdef": {
-      "created_at": "2026-07-09T05:09:29Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 7,
-            "novelty_score": 2.5,
-            "reason": "New research on compact world models with niche impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Grounding Spatial Relations in a Compact World Model: Instruction Leakage and a Goal-Free Dynamics Fix",
-            "total_score": 7
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 8,
-            "novelty_score": 2.5,
-            "reason": "New research on customer behavior modeling with niche impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Large Behavior Model: A Promptable Digital Twin of the Retail Customer",
-            "total_score": 7
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 9,
-            "novelty_score": 2.5,
-            "reason": "New research on human-AI coordination with niche impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Learning social norms enhances compatibility in dynamic human-AI coordination",
-            "total_score": 7
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 10,
-            "novelty_score": 2.5,
-            "reason": "New research on measuring intelligence beyond human capability with broad impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Measuring Intelligence Beyond Human Scale",
-            "total_score": 8
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 11,
-            "novelty_score": 2.5,
-            "reason": "New research on multi-agent LLM safety with niche impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Operational Reframing and Approval-Framed Delegation in Multi-Agent LLM Safety",
-            "total_score": 7
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 12,
-            "novelty_score": 2.5,
-            "reason": "New research on AI's understanding of imaging with niche impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Does AI Understand Imaging? A Systematic Benchmark of Agentic AI for Computational Imaging Tasks",
-            "total_score": 7
-          }
-        ],
-        "best_index": 10,
-        "best_score": 8,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "c5c54e525dd80817ec98e4443b32f81b9758316d8041bbd75fa356e596d2e8d4": {
@@ -1851,15 +1489,6 @@
         "twitter": "NVIDIA's new compressed LLM variant Nemotron-Labs-3-Puzzle-75B-A9B boosts server throughput by 2.03x @NVIDIA #AI"
       }
     },
-    "1a2d715b32bd547e58ebc56cb6554c52e8fb461fd51c732ca58e5670121fa2b3": {
-      "created_at": "2026-07-03T01:04:17Z",
-      "payload": {
-        "facebook": "Mark Zuckerberg recently shared his concerns with Meta staff about the pace of AI development, which has not been moving as quickly as anticipated. This candid assessment provides a rare glimpse into the company's internal expectations. #AI #Meta #Technology",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Meta CEO Mark Zuckerberg expresses disappointment with AI progress\nMeta CEO Mark Zuckerberg has shared his concerns with staff about the slow pace of AI development, which has not been moving as quickly as anticipated.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n#AI #Meta #Technology\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Mark Zuckerberg has expressed disappointment with the slow progress of AI agents, @Meta AI efforts are not meeting expectations, a significant revelation about the company's internal goals #AI",
-        "twitter": "Meta CEO Mark Zuckerberg expresses disappointment with the slow progress of AI agents, @Meta AI efforts not meeting expectations yet #AI"
-      }
-    },
     "2555638f2542d7ef14cabbd24884588ea5d8296c0359d608c048bdfb0e6e3d8e": {
       "created_at": "2026-07-05T22:47:58Z",
       "payload": {
@@ -2183,6 +1812,15 @@
         "threads": "Hugging Face and Amazon SageMaker Studio are now integrated, allowing for a seamless development experience @HuggingFace #MachineLearning",
         "twitter": "Machine learning development just got a boost with Hugging Face and Amazon SageMaker Studio integration @HuggingFace #MachineLearning"
       }
+    },
+    "fe30ac021e6efe0ab9e2330bb83f20273b96dfa76fd34e8d1e9ac1cea51bebc1": {
+      "created_at": "2026-07-10T05:10:09Z",
+      "payload": {
+        "facebook": "The latest development in AI research is the release of LingBot-World-Infinity, a 14B causal video generation model that behaves as an interactive world simulator. This technology has the potential to significantly impact the field of artificial intelligence. #AI #MachineLearning #CausalVideoGeneration",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Robbyant Releases LingBot-World-Infinity\nRobbyant's new 14B causal video generation model LingBot-World-Infinity is an interactive world simulator.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #MachineLearning #CausalVideoGeneration\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Robbyant's LingBot-World-Infinity is a 14B causal video generation model that could revolutionize interactive world simulation @MarkTechPost #AI",
+        "twitter": "Robbyant's new 14B causal video generation model LingBot-World-Infinity is set to change the game @MarkTechPost #AIresearch"
+      }
     }
   },
   "seen_article_links": {
@@ -2330,155 +1968,11 @@
       "status": "scoring_attempted",
       "title": "Protocol Prying: Vulnerability Research in AirDrop and Quick Share"
     },
-    "https://arxiv.org/abs/2607.01306": {
-      "canonical_url": "https://arxiv.org/abs/2607.01306",
-      "created_at": "2026-07-03T05:00:11Z",
-      "status": "scoring_attempted",
-      "title": "PACE: A Neuro-Symbolic Framework for Plausible and Actionable Counterfactual Explanations"
-    },
-    "https://arxiv.org/abs/2607.01366": {
-      "canonical_url": "https://arxiv.org/abs/2607.01366",
-      "created_at": "2026-07-03T05:00:11Z",
-      "status": "scoring_attempted",
-      "title": "Auto-FL-Research: Agentic Search for Federated Learning Algorithms"
-    },
-    "https://arxiv.org/abs/2607.01394": {
-      "canonical_url": "https://arxiv.org/abs/2607.01394",
-      "created_at": "2026-07-03T05:00:11Z",
-      "status": "scoring_attempted",
-      "title": "The Wiola Architecture for Efficient Small Language Models"
-    },
-    "https://arxiv.org/abs/2607.01425": {
-      "canonical_url": "https://arxiv.org/abs/2607.01425",
-      "created_at": "2026-07-03T05:00:11Z",
-      "status": "scoring_attempted",
-      "title": "Agent4cs: A Multi-agent System for Code Summarization in Large Hierarchical Codebases"
-    },
-    "https://arxiv.org/abs/2607.01426": {
-      "canonical_url": "https://arxiv.org/abs/2607.01426",
-      "created_at": "2026-07-03T05:00:11Z",
-      "status": "scoring_attempted",
-      "title": "When Should Service Agents Reconsider? Difficulty-Routed Control in Customer-Service Operations"
-    },
-    "https://arxiv.org/abs/2607.01433": {
-      "canonical_url": "https://arxiv.org/abs/2607.01433",
-      "created_at": "2026-07-03T05:00:11Z",
-      "status": "scoring_attempted",
-      "title": "CreativityNeuro: Steering Language Model Weights to Improve Divergent Thinking and Reduce Mode Collapse"
-    },
-    "https://arxiv.org/abs/2607.01436": {
-      "canonical_url": "https://arxiv.org/abs/2607.01436",
-      "created_at": "2026-07-03T05:00:11Z",
-      "status": "scoring_attempted",
-      "title": "Discrete Diffusion Language Models for Interactive Radiology Report Drafting"
-    },
-    "https://arxiv.org/abs/2607.01465": {
-      "canonical_url": "https://arxiv.org/abs/2607.01465",
-      "created_at": "2026-07-03T05:00:11Z",
-      "status": "scoring_attempted",
-      "title": "Beyond Next-Token Prediction: An RLVR Proof of Concept for Tool-Use Agents on Atlassian Workflows"
-    },
-    "https://arxiv.org/abs/2607.01470": {
-      "canonical_url": "https://arxiv.org/abs/2607.01470",
-      "created_at": "2026-07-03T05:00:11Z",
-      "status": "scoring_attempted",
-      "title": "World Feedback for Clinical Agents: Diagnosing RL in FHIR Environments"
-    },
-    "https://arxiv.org/abs/2607.01480": {
-      "canonical_url": "https://arxiv.org/abs/2607.01480",
-      "created_at": "2026-07-03T05:00:11Z",
-      "status": "scoring_attempted",
-      "title": "Procedural Memory Distillation: Online Reflection for Self-Improving Language Models"
-    },
     "https://arxiv.org/abs/2607.01504": {
       "canonical_url": "https://arxiv.org/abs/2607.01504",
       "created_at": "2026-07-06T18:47:50Z",
       "status": "scoring_attempted",
       "title": "Kani: A Model Checker for Rust"
-    },
-    "https://arxiv.org/abs/2607.01507": {
-      "canonical_url": "https://arxiv.org/abs/2607.01507",
-      "created_at": "2026-07-03T05:00:11Z",
-      "status": "scoring_attempted",
-      "title": "The Agentic Garden of Forking Paths"
-    },
-    "https://arxiv.org/abs/2607.01510": {
-      "canonical_url": "https://arxiv.org/abs/2607.01510",
-      "created_at": "2026-07-03T05:00:11Z",
-      "status": "scoring_attempted",
-      "title": "Janus: a Playground for User-Involved Agentic Permission Management"
-    },
-    "https://arxiv.org/abs/2607.01511": {
-      "canonical_url": "https://arxiv.org/abs/2607.01511",
-      "created_at": "2026-07-03T05:00:11Z",
-      "status": "scoring_attempted",
-      "title": "Revisiting Chain-of-Thought Reasoning under Limited Supervision: Semi-supervised Chain-of-Thought Learning"
-    },
-    "https://arxiv.org/abs/2607.01531": {
-      "canonical_url": "https://arxiv.org/abs/2607.01531",
-      "created_at": "2026-07-03T05:00:11Z",
-      "status": "scoring_attempted",
-      "title": "OPINE-World: Programmatic World Modeling with Ontology-error-Prioritized Interactive Exploration"
-    },
-    "https://arxiv.org/abs/2607.01567": {
-      "canonical_url": "https://arxiv.org/abs/2607.01567",
-      "created_at": "2026-07-03T05:00:11Z",
-      "status": "scoring_attempted",
-      "title": "Scaling Trends for Lie Detector Oversight in Preference Learning"
-    },
-    "https://arxiv.org/abs/2607.01584": {
-      "canonical_url": "https://arxiv.org/abs/2607.01584",
-      "created_at": "2026-07-03T05:00:11Z",
-      "status": "scoring_attempted",
-      "title": "EO-Agents: A Three-Agent LLM Pipeline for Earth Observation Hypothesis Generation"
-    },
-    "https://arxiv.org/abs/2607.01590": {
-      "canonical_url": "https://arxiv.org/abs/2607.01590",
-      "created_at": "2026-07-03T05:00:11Z",
-      "status": "scoring_attempted",
-      "title": "Hawk: Harnessing Hardware-Aware Knowledge for High-Performance NPU Kernel Generation"
-    },
-    "https://arxiv.org/abs/2607.01595": {
-      "canonical_url": "https://arxiv.org/abs/2607.01595",
-      "created_at": "2026-07-03T05:00:11Z",
-      "status": "scoring_attempted",
-      "title": "Safe and Adaptive Cloud Healing: Verifying LLM-Generated Recovery Plans with a Neural-Symbolic World Model"
-    },
-    "https://arxiv.org/abs/2607.01601": {
-      "canonical_url": "https://arxiv.org/abs/2607.01601",
-      "created_at": "2026-07-03T05:00:11Z",
-      "status": "scoring_attempted",
-      "title": "SemHash-LLM: A Multi-Granularity Semantic Hashing Framework for Document Deduplication"
-    },
-    "https://arxiv.org/abs/2607.01610": {
-      "canonical_url": "https://arxiv.org/abs/2607.01610",
-      "created_at": "2026-07-03T05:00:11Z",
-      "status": "scoring_attempted",
-      "title": "Profit-Based Counterfactual Explanations for Product Improvement: A Case Study of Manga Sales in Japan"
-    },
-    "https://arxiv.org/abs/2607.01612": {
-      "canonical_url": "https://arxiv.org/abs/2607.01612",
-      "created_at": "2026-07-03T05:00:11Z",
-      "status": "scoring_attempted",
-      "title": "Scaling with Confidence: Calibrating Confidence of LLMs for Adaptive Test Time Scaling"
-    },
-    "https://arxiv.org/abs/2607.01621": {
-      "canonical_url": "https://arxiv.org/abs/2607.01621",
-      "created_at": "2026-07-03T05:00:11Z",
-      "status": "scoring_attempted",
-      "title": "Spatial Support Matters: Geometry-Aware Graph Fusion for Rainfall Field Reconstruction"
-    },
-    "https://arxiv.org/abs/2607.01639": {
-      "canonical_url": "https://arxiv.org/abs/2607.01639",
-      "created_at": "2026-07-03T05:00:11Z",
-      "status": "scoring_attempted",
-      "title": "Autonomous discovery of traffic laws with AI traffic scientists"
-    },
-    "https://arxiv.org/abs/2607.01661": {
-      "canonical_url": "https://arxiv.org/abs/2607.01661",
-      "created_at": "2026-07-03T05:00:11Z",
-      "status": "scoring_attempted",
-      "title": "Diverse Evidence, Better Forecasts: Multi-Agent Deliberation Under Information Asymmetry"
     },
     "https://arxiv.org/abs/2607.02542": {
       "canonical_url": "https://arxiv.org/abs/2607.02542",
@@ -3086,12 +2580,6 @@
       "status": "scoring_attempted",
       "title": "Re: I'm Begging You to Leave Your AI Note-Taker at Home"
     },
-    "https://forms.cloud.microsoft/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR6G-c11n8yFDlQmk4B-QjDxUQkdTTjZLU0EyTFFRV1E3NVRTVTRTWjRHMy4u&route=shorturl": {
-      "canonical_url": "https://forms.cloud.microsoft/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR6G-c11n8yFDlQmk4B-QjDxUQkdTTjZLU0EyTFFRV1E3NVRTVTRTWjRHMy4u&route=shorturl",
-      "created_at": "2026-07-03T01:04:17Z",
-      "status": "scoring_attempted",
-      "title": "GitHub is proud to announce that you can now obtain your public repo on CD-ROM"
-    },
     "https://gamefromscratch.com/microsoft-fire-idtech-team-at-id-software": {
       "canonical_url": "https://gamefromscratch.com/microsoft-fire-idtech-team-at-id-software",
       "created_at": "2026-07-07T16:28:08Z",
@@ -3512,12 +3000,6 @@
       "status": "scoring_attempted",
       "title": "Show HN: TaskPeace \u2013 a task queue my AI coding agents pull work from over MCP"
     },
-    "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped": {
-      "canonical_url": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped",
-      "created_at": "2026-07-03T01:04:17Z",
-      "status": "scoring_attempted",
-      "title": "Mark Zuckerberg tells staff that AI agents haven\u2019t progressed as quickly as he\u2019d hoped"
-    },
     "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms": {
       "canonical_url": "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms",
       "created_at": "2026-07-03T21:21:34Z",
@@ -3860,12 +3342,6 @@
       "status": "scoring_attempted",
       "title": "Rob Pike \u2013 'Concurrency Is Not Parallelism' [video]"
     },
-    "https://wasmer.io": {
-      "canonical_url": "https://wasmer.io",
-      "created_at": "2026-07-03T05:00:11Z",
-      "status": "scoring_attempted",
-      "title": "Wasmer: Fast, secure, lightweight containers based on WebAssembly"
-    },
     "https://www.anthropic.com/research/global-workspace": {
       "canonical_url": "https://www.anthropic.com/research/global-workspace",
       "created_at": "2026-07-06T20:45:37Z",
@@ -3932,12 +3408,6 @@
       "status": "scoring_attempted",
       "title": "Launch HN: Context.dev (YC S26) \u2013 API to get structured data from any website"
     },
-    "https://www.dailymail.com/news/article-15943905/Mystery-identity-Green-Boots-climber-macabre-landmark-frozen-ice-dying-Everest-finally-solved-DNA-test.html": {
-      "canonical_url": "https://www.dailymail.com/news/article-15943905/Mystery-identity-Green-Boots-climber-macabre-landmark-frozen-ice-dying-Everest-finally-solved-DNA-test.html",
-      "created_at": "2026-07-03T01:04:17Z",
-      "status": "scoring_attempted",
-      "title": "Mystery identity of 'Green Boots' climber is finally solved after DNA test"
-    },
     "https://www.designboom.com/technology/autonomous-flying-umbrella-follows-users-rain-sunlight-i-build-stuff-01-13-2026": {
       "canonical_url": "https://www.designboom.com/technology/autonomous-flying-umbrella-follows-users-rain-sunlight-i-build-stuff-01-13-2026",
       "created_at": "2026-07-05T17:08:00Z",
@@ -3955,6 +3425,12 @@
       "created_at": "2026-07-03T14:29:08Z",
       "status": "scoring_attempted",
       "title": "Please stop the AI confidence theater"
+    },
+    "https://www.ello.com/blog/teaching-a-child-in-1000-ms": {
+      "canonical_url": "https://www.ello.com/blog/teaching-a-child-in-1000-ms",
+      "created_at": "2026-07-10T05:10:09Z",
+      "status": "scoring_attempted",
+      "title": "Building a real-time AI tutor for 5-year-olds"
     },
     "https://www.engineering.columbia.edu/about/news/circuit-lets-your-brain-think-and-see": {
       "canonical_url": "https://www.engineering.columbia.edu/about/news/circuit-lets-your-brain-think-and-see",
@@ -3979,12 +3455,6 @@
       "created_at": "2026-07-03T14:29:08Z",
       "status": "scoring_attempted",
       "title": "Valve open source the Steam Machine e-ink screen so you can make your own"
-    },
-    "https://www.goldmansachs.com/static-libs/pdf-redirect/prod/index.html?path=%2Fpdfs%2Finsights%2Fgoldman-sachs-research%2Fan-ai-job-apocalypse%2Freport.pdf&originalQuery=&referrer=": {
-      "canonical_url": "https://www.goldmansachs.com/static-libs/pdf-redirect/prod/index.html?path=%2Fpdfs%2Finsights%2Fgoldman-sachs-research%2Fan-ai-job-apocalypse%2Freport.pdf&originalQuery=&referrer=",
-      "created_at": "2026-07-03T01:04:17Z",
-      "status": "scoring_attempted",
-      "title": "\"An AI Job Apocalypse?\" \u2013 Goldman Sachs Report [pdf]"
     },
     "https://www.hawaiinewsnow.com/2026/07/04/record-breaking-solo-rower-kelsey-pfendler-arrives-hawaii": {
       "canonical_url": "https://www.hawaiinewsnow.com/2026/07/04/record-breaking-solo-rower-kelsey-pfendler-arrives-hawaii",
@@ -4303,6 +3773,12 @@
       "created_at": "2026-07-09T08:47:58Z",
       "status": "scoring_attempted",
       "title": "Google AI Studio Adds Import from GitHub to Build a Deployable App"
+    },
+    "https://www.marktechpost.com/2026/07/09/meet-lingbot-world-infinity-an-open-causal-world-model-with-an-agentic-harness": {
+      "canonical_url": "https://www.marktechpost.com/2026/07/09/meet-lingbot-world-infinity-an-open-causal-world-model-with-an-agentic-harness",
+      "created_at": "2026-07-10T05:10:09Z",
+      "status": "scoring_attempted",
+      "title": "Meet LingBot-World-Infinity: An Open Causal World Model With An Agentic Harness"
     },
     "https://www.marktechpost.com/2026/07/09/meet-nemotron-labs-3-puzzle-75b-a9b": {
       "canonical_url": "https://www.marktechpost.com/2026/07/09/meet-nemotron-labs-3-puzzle-75b-a9b",
