@@ -143,77 +143,6 @@
         }
       }
     },
-    "1fe80c1b3c166548fd6c88bebe63c8ef2d48de0de9c2d5f8811a34591862fa6f": {
-      "created_at": "2026-07-09T16:13:09Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 5,
-            "novelty_score": 2.5,
-            "reason": "New product launch with moderate impact and freshness, but lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Launch HN: Context.dev (YC S26) \u2013 API to get structured data from any website",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 6,
-            "novelty_score": 2.5,
-            "reason": "Netflix's architectural pivot is relevant to software architects, with good novelty and impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Presentation: Accelerating Netflix Data: A Cross-Team Journey from Offline to Online",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 7,
-            "novelty_score": 2.5,
-            "reason": "Anthropic's new feature has significant impact on AI users, with good novelty and source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Anthropic\u2019s new Claude feature is quietly selling you on AI",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 8,
-            "novelty_score": 2,
-            "reason": "High impact on tech industry, but slightly less novelty and freshness.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Anthropic, OpenAI, and SpaceX are bigger than the last 25 years of tech exits",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.5,
-            "index": 9,
-            "novelty_score": 0.2,
-            "reason": "Consumer product discount with low novelty and impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Sonos Ace wireless headphones are steeply discounted",
-            "total_score": 3.7
-          }
-        ],
-        "best_index": 6,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "21a2f3465b1f2dc6977ce4f76a7e7c2fa975264faf030771a9939e8eb4733925": {
       "created_at": "2026-07-10T15:18:40Z",
       "payload": {
@@ -398,82 +327,6 @@
         "social_posts": {}
       }
     },
-    "4224651134ce6608dc89f3dbab3f8c57c61b5fbcf940f899ee04548a00f8e979": {
-      "created_at": "2026-07-09T16:13:09Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 10,
-            "novelty_score": 2.5,
-            "reason": "Open sourcing is notable but niche impact and low-tier source limit the score.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "PostHog Open Sourced",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 0,
-            "index": 11,
-            "novelty_score": 0,
-            "reason": "Historical recap has no novelty or impact for modern engineers.",
-            "red_flag": true,
-            "red_flag_reason": "Recap of historical discovery",
-            "source_score": 0.5,
-            "title": "Maxwell's Equations Were Discovered [video]",
-            "total_score": 2.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.5,
-            "index": 12,
-            "novelty_score": 1.5,
-            "reason": "Camera hardware is niche for software engineers and AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Sony brings back the superzoom RX10 with a stacked sensor and a high price",
-            "total_score": 4.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.5,
-            "index": 13,
-            "novelty_score": 1.5,
-            "reason": "Media industry news has limited relevance to software engineers and AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Comcast is breaking up with NBCU. Why did it ever buy it in the first place?",
-            "total_score": 4.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 14,
-            "novelty_score": 3,
-            "reason": "New AI model for coding is highly relevant to software engineers and AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Meta says its new AI model is ready to compete on coding",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 14,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Meta has released Muse Spark 1.1, an AI model designed for coding tasks. The company claims significant improvements over the previous generation, making it a strong competitor in the AI coding space. Link: https://www.theverge.com/ai-artificial-intelligence/963193/meta-muse-spark-model-api",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Meta says its new AI model is ready to compete on coding*\n\nMeta has released Muse Spark 1.1, an AI model designed for coding tasks, with improved performance over the previous generation.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: 2 hours ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/ai-artificial-intelligence/963193/meta-muse-spark-model-api\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Meta's Muse Spark 1.1 model is now available for developers, focusing on coding tasks. Early reports suggest notable performance improvements. https://www.theverge.com/ai-artificial-intelligence/963193/meta-muse-spark-model-api",
-          "twitter": "Meta's new Muse Spark 1.1 model targets coding tasks with improved performance. https://www.theverge.com/ai-artificial-intelligence/963193/meta-muse-spark-model-api"
-        }
-      }
-    },
     "5b95e39d6ad8c80d5665279d4b93825d3932b4fa15e375bdbd64f961d3e56063": {
       "created_at": "2026-07-09T23:08:03Z",
       "payload": {
@@ -502,80 +355,27 @@
         }
       }
     },
-    "6c12870d07832d7e92417b5d698e9a7bff92334e2d0ff5ab30868b882dafd477": {
-      "created_at": "2026-07-09T16:13:09Z",
+    "5c51f7c31b2333524238c3bdee9ccdbb4a8a99d098014bfaa08ffab0bb91ab03": {
+      "created_at": "2026-07-10T16:26:36Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 2,
+            "freshness_score": 2.0,
             "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 1.5,
-            "reason": "Update on a consumer robot with limited impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "The 1X Neo Robot Has Freaky Fast Fingers",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
             "index": 1,
-            "novelty_score": 0.5,
-            "reason": "Red flag due to 'Comments'.",
-            "red_flag": true,
-            "red_flag_reason": "Comments",
-            "source_score": 0.5,
-            "title": "AI Content Is Everywhere on Social Media, Especially LinkedIn",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "Research on aquatic robots with niche impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Tiny robot boats build floating structures",
-            "total_score": 7
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 3,
-            "novelty_score": 1.5,
-            "reason": "Consumer tech review with limited impact.",
+            "novelty_score": 2.0,
+            "reason": "Disney's potential free streaming tier is a notable industry move but has limited direct impact on software engineers and AI researchers.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 1.5,
-            "title": "Schlage\u2019s Sense Pro unlocks the door so I don\u2019t have to",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 4,
-            "novelty_score": 3,
-            "reason": "New deployment with significant impact on drug research.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "AWS GraphRAG deployment cuts drug research cycles by 87%",
-            "total_score": 8.5
+            "title": "Disney Plus is reportedly looking into a free streaming tier",
+            "total_score": 6.0
           }
         ],
-        "best_index": 4,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "AWS just announced a GraphRAG deployment that cuts drug research cycles by 87%. The system integrates previously separate proprietary databases into a unified knowledge graph, significantly speeding up the research process. This is a major win for pharmaceutical companies leveraging AI. Link: https://www.artificialintelligence-news.com/news/aws-graphrag-deployment-cuts-drug-research-cycles-by-87/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\ud83d\udd25 AWS GraphRAG deployment cuts drug research cycles by 87%\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\nAWS GraphRAG deployment reduces drug research cycles by 87% by integrating proprietary databases into a unified knowledge graph.\n\n\ud83c\udfdb\ufe0f Source: AI News (B)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.artificialintelligence-news.com/news/aws-graphrag-deployment-cuts-drug-research-cycles-by-87/",
-          "threads": "AWS GraphRAG deployment reduces drug research cycles by 87% by unifying proprietary databases into a queryable knowledge graph. This is a big deal for pharma. https://www.artificialintelligence-news.com/news/aws-graphrag-deployment-cuts-drug-research-cycles-by-87/",
-          "twitter": "AWS GraphRAG deployment slashes drug research cycles by 87% by integrating proprietary databases into a unified knowledge graph. https://www.artificialintelligence-news.com/news/aws-graphrag-deployment-cuts-drug-research-cycles-by-87/"
-        }
+        "best_index": 1,
+        "best_score": 6.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "6c8e459c9834a1b58f593b89a2e2a9072faf2edfe7892b18af746beb2589979e": {
@@ -704,6 +504,34 @@
         "social_posts": {}
       }
     },
+    "7e5f5f2f1de9a6ace38adbe6605f02d295ef81eb1c07ff053e4411c808f6931f": {
+      "created_at": "2026-07-10T16:26:36Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "EU's Digital Services Act could force Meta to change platform design, affecting all users.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Disable auto-play and infinite scroll or risk massive fines, EU tells Meta",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "The EU is telling Meta to disable auto-play and infinite scroll or face massive fines under the Digital Services Act. This could force significant changes to how Facebook and Instagram work. Link: https://arstechnica.com/tech-policy/2026/07/disable-auto-play-and-infinite-scroll-or-risk-massive-fines-eu-tells-meta/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Disable auto-play and infinite scroll or risk massive fines, EU tells Meta*\n\nThe EU's Digital Services Act may force Meta to make significant changes to its platforms, including disabling auto-play and infinite scroll.\n\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://arstechnica.com/tech-policy/2026/07/disable-auto-play-and-infinite-scroll-or-risk-massive-fines-eu-tells-meta/",
+          "threads": "The EU is forcing Meta to disable auto-play and infinite scroll or face massive fines. This could change how Facebook and Instagram work for everyone. https://arstechnica.com/tech-policy/2026/07/disable-auto-play-and-infinite-scroll-or-risk-massive-fines-eu-tells-meta/",
+          "twitter": "The EU is forcing Meta to disable auto-play and infinite scroll or face massive fines. https://arstechnica.com/tech-policy/2026/07/disable-auto-play-and-infinite-scroll-or-risk-massive-fines-eu-tells-meta/"
+        }
+      }
+    },
     "82e0167e87ffcb879f6da92098faeef228e280f15100c3119e293a16560a7788": {
       "created_at": "2026-07-09T21:43:18Z",
       "payload": {
@@ -805,6 +633,29 @@
           "threads": "Lyzr's AI agent successfully raised $100 million for the company, a bold move that validates its enterprise AI agent technology. https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/",
           "twitter": "Lyzr's AI agent just raised $100 million for the company, proving its own product works. https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/"
         }
+      }
+    },
+    "945313b8dbe2a20e3800cf4ea3dc688c2a3e40aad92c4eb9a46815c4af852f33": {
+      "created_at": "2026-07-10T16:26:36Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "New feature for AI agents to deploy Cloudflare Workers without permanent accounts.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Cloudflare Introduces Temporary Accounts for Autonomous Worker Deployment",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 2,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "9c78038b8ff3d537d5391bdfff4c6c723942c8ea99bda39914712e0ee1856efc": {
@@ -1278,65 +1129,6 @@
         "social_posts": {}
       }
     },
-    "e20d97fcf1181d07d30e4b20e5769cb06b9b45133013071c936cf1dde4693c9f": {
-      "created_at": "2026-07-09T16:13:09Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 15,
-            "novelty_score": 2.5,
-            "reason": "Important issue but not directly relevant to software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "ICE agents are making house calls for online critics",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 16,
-            "novelty_score": 2.5,
-            "reason": "Interesting feature but not groundbreaking for the field.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Say hello to Claude Wrapped",
-            "total_score": 7.0
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.0,
-            "index": 17,
-            "novelty_score": 1.5,
-            "reason": "Not relevant to software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Syria's solar boom is redefining Middle East's energy model",
-            "total_score": 4.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.0,
-            "index": 18,
-            "novelty_score": 3.0,
-            "reason": "Interesting tool but not widely impactful yet.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.0,
-            "title": "Show HN: FableCut \u2013 A browser video editor AI agents can drive (zero deps)",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 15,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "e2e7faf070ef931ac594bee61db703a106ed3166cfb680a8bbb611d73c192cab": {
       "created_at": "2026-07-10T01:01:43Z",
       "payload": {
@@ -1637,6 +1429,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Amazon Mechanical Turk Shutdown\nAmazon's Mechanical Turk platform, a key player in data annotation for AI training, is shutting down and will no longer accept new customers. This move will have significant implications for the industry.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #MachineLearning #DataAnnotation\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Amazon's Mechanical Turk shutdown is a significant blow to AI training pipelines, according to @TechCrunch, and will require businesses to find alternative data annotation solutions #AI",
         "twitter": "Amazon's Mechanical Turk shutdown will impact AI training pipelines, says @TechCrunch, highlighting the service's role in data annotation #AI"
+      }
+    },
+    "44ffe2cc54a6760e8e2554d33152e51d1d969499e590eeaa239e790d7832a3fc": {
+      "created_at": "2026-07-10T16:26:36Z",
+      "payload": {
+        "facebook": "The EU's Digital Services Act is forcing Meta to reconsider its platform design, specifically auto-play and infinite scroll features, this change could impact all users, #DigitalServicesAct #Meta #EU",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 EU warns Meta to change platform design\nThe EU's Digital Services Act may force Meta to disable auto-play and infinite scroll on its platforms, affecting all users.\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#DigitalServicesAct #Meta #EU\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "The EU is taking a strong stance against Meta, warning the company to disable auto-play and infinite scroll or face massive fines, @Meta this move is part of the Digital Services Act #Meta",
+        "twitter": "Meta faces massive fines if it doesn't disable auto-play and infinite scroll on its platforms, says EU, @Meta must comply with Digital Services Act #Meta"
       }
     },
     "46aa31ca4e36780181e4947c23dbb11d6efaeeaed1fcf948af6cbb3be9aa6d99": {
@@ -2024,6 +1825,12 @@
       "created_at": "2026-07-06T16:50:48Z",
       "status": "scoring_attempted",
       "title": "Anthropic outed for Claude tracker that secretly monitored Chinese users"
+    },
+    "https://arstechnica.com/tech-policy/2026/07/disable-auto-play-and-infinite-scroll-or-risk-massive-fines-eu-tells-meta": {
+      "canonical_url": "https://arstechnica.com/tech-policy/2026/07/disable-auto-play-and-infinite-scroll-or-risk-massive-fines-eu-tells-meta",
+      "created_at": "2026-07-10T16:26:36Z",
+      "status": "scoring_attempted",
+      "title": "Disable auto-play and infinite scroll or risk massive fines, EU tells Meta"
     },
     "https://arstechnica.com/tech-policy/2026/07/lawsuit-grok-user-made-7k-child-sex-images-xai-only-reported-one-gang-rape-prompt": {
       "canonical_url": "https://arstechnica.com/tech-policy/2026/07/lawsuit-grok-user-made-7k-child-sex-images-xai-only-reported-one-gang-rape-prompt",
@@ -3111,12 +2918,6 @@
       "status": "scoring_attempted",
       "title": "The Reports of Jim Carrey's Death Are a Failure Mode"
     },
-    "https://taskpeace.com": {
-      "canonical_url": "https://taskpeace.com",
-      "created_at": "2026-07-03T15:53:16Z",
-      "status": "scoring_attempted",
-      "title": "Show HN: TaskPeace \u2013 a task queue my AI coding agents pull work from over MCP"
-    },
     "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms": {
       "canonical_url": "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms",
       "created_at": "2026-07-03T21:21:34Z",
@@ -3639,11 +3440,11 @@
       "status": "scoring_attempted",
       "title": "Cloudflare and AWS Embed x402 Agent Payments at the Edge"
     },
-    "https://www.infoq.com/news/2026/07/cloudflare-unified-data-platform": {
-      "canonical_url": "https://www.infoq.com/news/2026/07/cloudflare-unified-data-platform",
-      "created_at": "2026-07-03T15:53:16Z",
+    "https://www.infoq.com/news/2026/07/cloudflare-temp-accounts": {
+      "canonical_url": "https://www.infoq.com/news/2026/07/cloudflare-temp-accounts",
+      "created_at": "2026-07-10T16:26:36Z",
       "status": "scoring_attempted",
-      "title": "Cloudflare Details Unified Data Platform Where Billing Workloads Account for 53% of Queries"
+      "title": "Cloudflare Introduces Temporary Accounts for Autonomous Worker Deployment"
     },
     "https://www.infoq.com/news/2026/07/copilot-cli-terminal-ga": {
       "canonical_url": "https://www.infoq.com/news/2026/07/copilot-cli-terminal-ga",
@@ -3981,12 +3782,6 @@
       "status": "scoring_attempted",
       "title": "C programmers commit fresh crimes against readability"
     },
-    "https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development": {
-      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development",
-      "created_at": "2026-07-03T15:53:16Z",
-      "status": "scoring_attempted",
-      "title": "Anthropic wants to develop its own drugs"
-    },
     "https://www.theverge.com/ai-artificial-intelligence/961468/google-ai-commercial-founding-fathers-declaration-of-independence": {
       "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/961468/google-ai-commercial-founding-fathers-declaration-of-independence",
       "created_at": "2026-07-05T14:53:15Z",
@@ -4064,12 +3859,6 @@
       "created_at": "2026-07-06T16:50:48Z",
       "status": "scoring_attempted",
       "title": "I spy"
-    },
-    "https://www.theverge.com/entertainment/960665/the-verge-2026-summer-in-out-list": {
-      "canonical_url": "https://www.theverge.com/entertainment/960665/the-verge-2026-summer-in-out-list",
-      "created_at": "2026-07-03T15:53:16Z",
-      "status": "scoring_attempted",
-      "title": "The Verge\u2019s annual summer \u2018in\u2019 and \u2018out\u2019 list"
     },
     "https://www.theverge.com/entertainment/961924/xbox-billion-users": {
       "canonical_url": "https://www.theverge.com/entertainment/961924/xbox-billion-users",
@@ -4239,6 +4028,12 @@
       "status": "scoring_attempted",
       "title": "Netflix reportedly considers adding always-on channels"
     },
+    "https://www.theverge.com/streaming/964056/disney-plus-free-tier-report": {
+      "canonical_url": "https://www.theverge.com/streaming/964056/disney-plus-free-tier-report",
+      "created_at": "2026-07-10T16:26:36Z",
+      "status": "scoring_attempted",
+      "title": "Disney Plus is reportedly looking into a free streaming tier"
+    },
     "https://www.theverge.com/tech/959604/sourdough-sidekick-review-king-arthur-starter": {
       "canonical_url": "https://www.theverge.com/tech/959604/sourdough-sidekick-review-king-arthur-starter",
       "created_at": "2026-07-05T14:53:15Z",
@@ -4250,18 +4045,6 @@
       "created_at": "2026-07-04T12:55:30Z",
       "status": "scoring_attempted",
       "title": "The fanfiction community is at war with AI \u2014 and itself"
-    },
-    "https://www.theverge.com/tech/961285/jon-prosser-apple-lawsuit-response-ios-leak": {
-      "canonical_url": "https://www.theverge.com/tech/961285/jon-prosser-apple-lawsuit-response-ios-leak",
-      "created_at": "2026-07-03T15:53:16Z",
-      "status": "scoring_attempted",
-      "title": "Jon Prosser responds to Apple lawsuit by blaming the other guy"
-    },
-    "https://www.theverge.com/tech/961362/godox-c100-digital-camera-transparent-lcd-screen": {
-      "canonical_url": "https://www.theverge.com/tech/961362/godox-c100-digital-camera-transparent-lcd-screen",
-      "created_at": "2026-07-03T15:53:16Z",
-      "status": "scoring_attempted",
-      "title": "This slim camera has a transparent LCD screen for a viewfinder"
     },
     "https://www.theverge.com/tech/961601/marshall-acton-stanmore-iv-bluetooth-wireless-speakers-repair": {
       "canonical_url": "https://www.theverge.com/tech/961601/marshall-acton-stanmore-iv-bluetooth-wireless-speakers-repair",
