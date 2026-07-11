@@ -128,6 +128,29 @@
         }
       }
     },
+    "10043ce24d66a96f9ef8088152771d7de9b65c2c1bc110b1279f3bb2ac0c93e2": {
+      "created_at": "2026-07-11T05:56:07Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 24,
+            "novelty_score": 2.5,
+            "reason": "New research on cognitive functions with moderate impact and high freshness.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "A First-Principles Theory of Slow Thinking and Active Perception",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 24,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "1806d1320f50352821f6172ab805b94db3528f64f5ab4f9150df8f7adb6c4cf4": {
       "created_at": "2026-07-10T10:19:54Z",
       "payload": {
@@ -204,29 +227,6 @@
           }
         ],
         "best_index": 8,
-        "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "2ec9ca1f11ef3039757110a03c1ce8c330e59b413da4f550d28b0715810f2007": {
-      "created_at": "2026-07-10T05:10:09Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1,
-            "impact_score": 1.5,
-            "index": 20,
-            "novelty_score": 2.5,
-            "reason": "Interesting niche application of AI, but limited impact and from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Building a real-time AI tutor for 5-year-olds",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 20,
         "best_score": 5.5,
         "recommendation": "SKIP",
         "social_posts": {}
@@ -470,34 +470,6 @@
         "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "6c8e459c9834a1b58f593b89a2e2a9072faf2edfe7892b18af746beb2589979e": {
-      "created_at": "2026-07-10T05:10:09Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 3.0,
-            "reason": "Robbyant's release of LingBot-World-Infinity, a 14B causal video generation model, is highly novel and impactful for AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Meet LingBot-World-Infinity: An Open Causal World Model With An Agentic Harness",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Robbyant, Ant Group's embodied-intelligence unit, has released LingBot-World-Infinity, a 14B causal video generation model that behaves as an interactive world simulator. This is a significant development for AI researchers. Link: https://www.marktechpost.com/2026/07/09/meet-lingbot-world-infinity-an-open-causal-world-model-with-an-agentic-harness",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Robbyant releases LingBot-World-Infinity, a 14B causal video generation model*\n\nRobbyant, Ant Group's embodied-intelligence unit, has released LingBot-World-Infinity, a 14B causal video generation model that behaves as an interactive world simulator.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/07/09/meet-lingbot-world-infinity-an-open-causal-world-model-with-an-agentic-harness\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Robbyant's new LingBot-World-Infinity is a 14B causal video generation model that simulates interactive worlds. It's a big deal for AI research. https://www.marktechpost.com/2026/07/09/meet-lingbot-world-infinity-an-open-causal-world-model-with-an-agentic-harness",
-          "twitter": "Robbyant just released LingBot-World-Infinity, a 14B causal video generation model that simulates interactive worlds. https://www.marktechpost.com/2026/07/09/meet-lingbot-world-infinity-an-open-causal-world-model-with-an-agentic-harness/"
-        }
       }
     },
     "725d11061fbdf186985433c9b0e37be8863a8a0e5c5495cd40b27362059c71ef": {
@@ -2729,6 +2701,12 @@
       "status": "scoring_attempted",
       "title": "ASMR: Agentic Schema Generation for Ship Maintenance Report Writing"
     },
+    "https://arxiv.org/abs/2607.08196": {
+      "canonical_url": "https://arxiv.org/abs/2607.08196",
+      "created_at": "2026-07-11T05:56:07Z",
+      "status": "scoring_attempted",
+      "title": "A First-Principles Theory of Slow Thinking and Active Perception"
+    },
     "https://blog.cr.yp.to/20260706-fairness.html": {
       "canonical_url": "https://blog.cr.yp.to/20260706-fairness.html",
       "created_at": "2026-07-07T01:09:45Z",
@@ -2794,12 +2772,6 @@
       "created_at": "2026-07-07T18:30:58Z",
       "status": "scoring_attempted",
       "title": "Software Bonkers"
-    },
-    "https://danluu.com/ai-coding": {
-      "canonical_url": "https://danluu.com/ai-coding",
-      "created_at": "2026-07-04T05:34:49Z",
-      "status": "scoring_attempted",
-      "title": "Agentic coding notes from Galapogos Island"
     },
     "https://davidoks.blog/p/why-american-ambulance-rides-are": {
       "canonical_url": "https://davidoks.blog/p/why-american-ambulance-rides-are",
