@@ -232,6 +232,29 @@
         "social_posts": {}
       }
     },
+    "2d88d6f0c28f340f08bfe55bd8717c28b02d9b86e302fa0363fded01e564991f": {
+      "created_at": "2026-07-11T08:59:30Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Industry move with broad impact, but source is tier C.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Companies are scrambling to curtail soaring AI costs",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "3da74f61eea18cf71f17190ac474b5630eb13d42079fe1a661fad7ffeac744e7": {
       "created_at": "2026-07-10T19:50:26Z",
       "payload": {
@@ -546,29 +569,6 @@
         }
       }
     },
-    "88ad2b0e93c3da4926ade2fd1941991e0eb3afa0ef261b3774e3f5d0d98ed242": {
-      "created_at": "2026-07-10T08:43:54Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1,
-            "impact_score": 2.5,
-            "index": 14,
-            "novelty_score": 1.5,
-            "reason": "Part 3 of a series on profiling PyTorch, focusing on attention mechanisms, useful for developers working with transformers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 2,
-            "title": "Profiling in PyTorch (Part 3): Attention is all you profile",
-            "total_score": 7
-          }
-        ],
-        "best_index": 14,
-        "best_score": 7,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "89da73f713a6bb638051e023ecbe4bc4407f10f31a0f2c30b61ef3accceb355c": {
       "created_at": "2026-07-11T01:23:17Z",
       "payload": {
@@ -762,64 +762,6 @@
           }
         ],
         "best_index": 19,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "a6702d34852de9eb48835ed96f6fe52a39cc75b0a68db59dcb1fd80f157ca808": {
-      "created_at": "2026-07-10T08:43:54Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Datadog's real-world AI migration case study offers practical insights for production systems.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "How Datadog Used Claude and Cursor for Test-Driven Production Migration",
-            "total_score": 8
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Interesting research but niche impact and lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "AI-generated videos to maximally drive a target brain region",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "a71f1c576979540957b1025f4dfcffc2141ec02ce1af24e70bd397e7270187d1": {
-      "created_at": "2026-07-10T08:43:54Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "WordPress 7.0 introduces AI infrastructure and a redesigned admin interface, impacting a large developer community.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "WordPress 7.0 Ships with AI Foundations in Core, a Modernized Admin, and New Design Tools",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 2,
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
@@ -1260,29 +1202,6 @@
           "threads": "SK Hynix just raised $26.5B in the biggest foreign IPO in US history. Now they're being urged to build US fabs as the AI chip boom reshapes the industry.\nhttps://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/",
           "twitter": "SK Hynix just raised $26.5B in the biggest foreign IPO in US history, now pressured to build US fabs. The AI chip boom hits Wall Street hard.\nhttps://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/"
         }
-      }
-    },
-    "ef22e7b082ffaae8dab6bc1f9ec7238a24b5818289c25f217ec3bb1ad9d378e8": {
-      "created_at": "2026-07-10T08:43:54Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "The UN AI for Good summit discussed global governance challenges in AI, featuring live coding and Silicon Valley optimism.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Robot Dogs, Teslas, and Rescue Helicopters: The UN AI Summit Was a Lot",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 3,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "f33a1a6e42b84eb5da73b38147b153247e7136b347653fa79147a0183ae1d2a4": {
@@ -1728,15 +1647,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Alibaba bans Claude Code over security risks\nAlibaba has reportedly classified Claude Code as high-risk software, sparking concerns over AI adoption in the enterprise sector.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AIsecurity #enterprisesoftware #technews\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Alibaba's decision to ban Claude Code due to security concerns is a significant development in the AI space @TechCrunch #AIsecurity",
         "twitter": "Alibaba takes a stance on AI security by classifying Claude Code as high-risk @TechCrunch #AIsecurity"
-      }
-    },
-    "93a647c3e0860d7dc8a05e6479ecf37e62b3fdd7ece4ac5fa15a58c99b95bdd6": {
-      "created_at": "2026-07-04T08:12:56Z",
-      "payload": {
-        "facebook": "A major breakthrough in robotics has been achieved with the introduction of NVIDIA's ASPIRE framework, which has reached 31% zero-shot performance on LIBERO-Pro long tasks. This framework has the potential to greatly improve the field of robotics. #AI #Robotics #NVIDIA",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 NVIDIA's ASPIRE framework is revolutionizing robotics with significant improvements in zero-shot performance.\nThe framework has achieved 31% zero-shot performance on LIBERO-Pro long tasks, a major breakthrough in the field.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n#AI #Robotics #NVIDIA\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "NVIDIA's ASPIRE framework is making waves in the robotics community with its 31% zero-shot performance on LIBERO-Pro long tasks @NVIDIA #AI",
-        "twitter": "NVIDIA's new ASPIRE framework achieves 31% zero-shot performance on LIBERO-Pro long tasks, a significant improvement in robotics @NVIDIA #AI"
       }
     },
     "94b638a0d2591b448566cd1e7dff69fc328b37b51c4e3d360c67205d1d2cc0c6": {
@@ -3685,6 +3595,12 @@
       "status": "scoring_attempted",
       "title": "Why skilled workers come to Germany and then leave again"
     },
+    "https://www.economist.com/business/2026/06/14/companies-are-scrambling-to-curtail-soaring-ai-costs": {
+      "canonical_url": "https://www.economist.com/business/2026/06/14/companies-are-scrambling-to-curtail-soaring-ai-costs",
+      "created_at": "2026-07-11T08:59:30Z",
+      "status": "scoring_attempted",
+      "title": "Companies are scrambling to curtail soaring AI costs"
+    },
     "https://www.ello.com/blog/teaching-a-child-in-1000-ms": {
       "canonical_url": "https://www.ello.com/blog/teaching-a-child-in-1000-ms",
       "created_at": "2026-07-10T05:10:09Z",
@@ -3906,12 +3822,6 @@
       "created_at": "2026-07-06T11:24:55Z",
       "status": "scoring_attempted",
       "title": "Real-time map of Great Britain's rail network"
-    },
-    "https://www.marktechpost.com/2026/07/03/nvidia-ai-introduces-aspire-a-self-improving-robotics-framework-reaching-31-zero-shot-on-libero-pro-long-tasks": {
-      "canonical_url": "https://www.marktechpost.com/2026/07/03/nvidia-ai-introduces-aspire-a-self-improving-robotics-framework-reaching-31-zero-shot-on-libero-pro-long-tasks",
-      "created_at": "2026-07-04T08:12:56Z",
-      "status": "scoring_attempted",
-      "title": "NVIDIA AI Introduces ASPIRE: A Self-Improving Robotics Framework Reaching 31% Zero-Shot on LIBERO-Pro Long Tasks"
     },
     "https://www.marktechpost.com/2026/07/04/anthropic-launches-claude-science-beta": {
       "canonical_url": "https://www.marktechpost.com/2026/07/04/anthropic-launches-claude-science-beta",
