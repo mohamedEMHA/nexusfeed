@@ -100,6 +100,29 @@
         }
       }
     },
+    "09a1d5c2fb6b4ac9c00c1ae4a4c7acc400e8a86b930b2f00c1535e3820b735c3": {
+      "created_at": "2026-07-11T13:54:42Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 0.0,
+            "index": 1,
+            "novelty_score": 0.0,
+            "reason": "No technical content",
+            "red_flag": true,
+            "red_flag_reason": "No technical content",
+            "source_score": 1.5,
+            "title": "ICE are heavily armed killers. They\u2019re also huge losers",
+            "total_score": 3.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 3.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "10043ce24d66a96f9ef8088152771d7de9b65c2c1bc110b1279f3bb2ac0c93e2": {
       "created_at": "2026-07-11T05:56:07Z",
       "payload": {
@@ -177,6 +200,29 @@
         ],
         "best_index": 8,
         "best_score": 5.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "242792570770cee22dd4578b9dcad3f1cb82b1dedd7ba10f91fdca6a1198ab05": {
+      "created_at": "2026-07-11T13:54:42Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 0.5,
+            "index": 0,
+            "novelty_score": 0.2,
+            "reason": "The article is a 1965 PDF, not relevant to current software engineers or AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Speculations Concerning the First Ultraintelligent Machine (1965) [pdf]",
+            "total_score": 3.2
+          }
+        ],
+        "best_index": 0,
+        "best_score": 3.2,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -444,29 +490,6 @@
         "social_posts": {}
       }
     },
-    "725d11061fbdf186985433c9b0e37be8863a8a0e5c5495cd40b27362059c71ef": {
-      "created_at": "2026-07-10T12:38:28Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "Interesting but niche cultural impact, not directly technical for engineers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "A New Experiential Gallery Just Might Change Your Mind About AI Art",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 3,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "742c090d0cd2ced97122eb71538201f49edbbcb21ed7be7f5d476fe9f87eeea2": {
       "created_at": "2026-07-10T18:08:38Z",
       "payload": {
@@ -629,29 +652,6 @@
         ],
         "best_index": 14,
         "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "9f885cc9af838c9835cef66162c4a841be22115c9a2e50060d357b567de8dd5f": {
-      "created_at": "2026-07-10T12:38:28Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "New industry-wide initiative to defend critical open source software against AI-powered threats.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.0,
-            "title": "Linux Foundation Launches Akrites to Protect Critical Open Source Software from AI-Powered Threats",
-            "total_score": 8.0
-          }
-        ],
-        "best_index": 1,
-        "best_score": 8.0,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -857,34 +857,6 @@
         "best_score": 4.5,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "c2720f432e8b9d1ae65430d78e56acf80020d70a44024daa0674eaadca6db008": {
-      "created_at": "2026-07-10T12:38:28Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "Meta faces a potential $12B fine and forced redesigns of Instagram and Facebook due to EU DSA violations.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Instagram and Facebook will likely require a redesign after EU rules they\u2019re \u2018addictive\u2019",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 2,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "The EU has found Meta in breach of the Digital Services Act over the addictive design of Instagram and Facebook. The company could face a $12B fine and be forced to redesign both apps. This is a significant development in the regulation of social media platforms.\nLink: https://www.theverge.com/policy/963872/meta-eu-addictive-design-200b-fine-risk-digital-services-act-dsa",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Meta faces $12B fine and forced redesigns of Instagram and Facebook after EU rules them 'addictive'*.\n\nMeta is in breach of the EU's Digital Services Act (DSA) over the addictive design of Instagram and Facebook. The company could face a $12B fine and be forced to redesign both apps.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/policy/963872/meta-eu-addictive-design-200b-fine-risk-digital-services-act-dsa\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Meta is in breach of the EU's Digital Services Act over the addictive design of Instagram and Facebook. The company could face a $12B fine and be forced to redesign both apps. This is a significant development in the regulation of social media platforms.\nhttps://www.theverge.com/policy/963872/meta-eu-addictive-design-200b-fine-risk-digital-services-act-dsa",
-          "twitter": "Meta could face a $12B fine and forced redesigns of Instagram and Facebook after EU rules them 'addictive'.\nhttps://www.theverge.com/policy/963872/meta-eu-addictive-design-200b-fine-risk-digital-services-act-dsa"
-        }
       }
     },
     "c594dcd9a54bbd4efcfb22a5dc57d8255abab85c5fd1f10b9944dfeecb32ac6e": {
@@ -1097,29 +1069,6 @@
         ],
         "best_index": 12,
         "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "e3044d084ae544f9ef5cd0fec196de8b62a899e62beb45603c5aa1a686727701": {
-      "created_at": "2026-07-10T12:38:28Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 1.5,
-            "reason": "While the expansion is notable, it's not directly relevant to software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Doom\u2019s new expansion shows just what makes id Software special",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 5.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1431,15 +1380,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Robotaxi Law Impacts Autonomous Vehicles\nNew Jersey's recent law may ban Tesla's autonomous vehicles due to sensor requirements, sparking debate over camera-only systems.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#autonomousvehicles #robotaxi #tesla",
         "threads": "New Jersey's robotaxi law could have significant implications for Tesla's autonomous vehicle plans, requiring additional sensors like lidar and radar @elonmusk #autonomousvehicles",
         "twitter": "New Jersey's robotaxi law may ban Tesla's autonomous vehicles due to sensor requirements @elonmusk #autonomousvehicles"
-      }
-    },
-    "3f201fbb179b48c6f757095e3f2892b4693f22bd105cd7036517b89496222c96": {
-      "created_at": "2026-07-04T12:55:30Z",
-      "payload": {
-        "facebook": "The fanfiction community is grappling with the use of AI tools like Claude and ChatGPT, sparking a debate about creativity and authenticity. As a new movement emerges to root out AI-generated content, concerns arise about the detection methods being used. #AIinCreativeIndustries #FanfictionCommunity #EthicsInAI",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 The fanfiction community is at war with AI \u2014 and itself\nThe use of AI tools like Claude and ChatGPT in fanfiction has sparked a heated debate, with a new movement emerging to detect and ban AI-generated content, but the methods are questionable.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AIinCreativeIndustries #FanfictionCommunity #EthicsInAI\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "The fanfiction community is at odds over the use of AI tools, with a new movement seeking to detect and ban AI-generated content, but the methods are raising concerns @TheVerge #AIethics",
-        "twitter": "Fanfiction authors are on high alert as a new movement aims to detect and ban AI-generated content, but methods are questionable @TheVerge #AIethics #Fanfiction"
       }
     },
     "401683671264ae1d0b4332a355a86168ae161f1e2a4a81ab1d61fb2c6835c1de": {
@@ -2872,6 +2812,12 @@
       "status": "scoring_attempted",
       "title": "Generate parametric, manufacturable 3D models in seconds"
     },
+    "https://languagelog.ldc.upenn.edu/myl/Good1964.pdf": {
+      "canonical_url": "https://languagelog.ldc.upenn.edu/myl/Good1964.pdf",
+      "created_at": "2026-07-11T13:54:42Z",
+      "status": "scoring_attempted",
+      "title": "Speculations Concerning the First Ultraintelligent Machine (1965) [pdf]"
+    },
     "https://lists.osgeo.org/pipermail/qgis-developer/2026-July/068430.html": {
       "canonical_url": "https://lists.osgeo.org/pipermail/qgis-developer/2026-July/068430.html",
       "created_at": "2026-07-10T18:08:38Z",
@@ -4222,6 +4168,12 @@
       "status": "scoring_attempted",
       "title": "ICE is threatening to deport witnesses of its latest shooting"
     },
+    "https://www.theverge.com/policy/964302/ice-donald-trump-killings": {
+      "canonical_url": "https://www.theverge.com/policy/964302/ice-donald-trump-killings",
+      "created_at": "2026-07-11T13:54:42Z",
+      "status": "scoring_attempted",
+      "title": "ICE are heavily armed killers. They\u2019re also huge losers"
+    },
     "https://www.theverge.com/report/963106/ice-doxxing-office-of-professional-responsibility-free-speech": {
       "canonical_url": "https://www.theverge.com/report/963106/ice-doxxing-office-of-professional-responsibility-free-speech",
       "created_at": "2026-07-09T16:13:09Z",
@@ -4257,12 +4209,6 @@
       "created_at": "2026-07-05T14:53:15Z",
       "status": "scoring_attempted",
       "title": "The Sourdough Sidekick automates the boring bit of baking"
-    },
-    "https://www.theverge.com/tech/960854/ai-fanfiction-ao3-claude-detector": {
-      "canonical_url": "https://www.theverge.com/tech/960854/ai-fanfiction-ao3-claude-detector",
-      "created_at": "2026-07-04T12:55:30Z",
-      "status": "scoring_attempted",
-      "title": "The fanfiction community is at war with AI \u2014 and itself"
     },
     "https://www.theverge.com/tech/961601/marshall-acton-stanmore-iv-bluetooth-wireless-speakers-repair": {
       "canonical_url": "https://www.theverge.com/tech/961601/marshall-acton-stanmore-iv-bluetooth-wireless-speakers-repair",
