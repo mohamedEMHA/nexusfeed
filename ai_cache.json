@@ -192,6 +192,29 @@
         "social_posts": {}
       }
     },
+    "2288b3af1f3e409a415b8124ea1a5179ff903badf0f4d8b880e58a4f167f7b56": {
+      "created_at": "2026-07-11T23:32:54Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 1,
+            "novelty_score": 0.5,
+            "reason": "Opinion piece on LLM usage with niche impact from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Stop Telling Me to Ask an LLM",
+            "total_score": 4.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 4.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "242792570770cee22dd4578b9dcad3f1cb82b1dedd7ba10f91fdca6a1198ab05": {
       "created_at": "2026-07-11T13:54:42Z",
       "payload": {
@@ -289,29 +312,6 @@
         }
       }
     },
-    "6b70313baa0f74a1622820969641bad8d6341e8a556ba151442107edc819332a": {
-      "created_at": "2026-07-10T22:57:07Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "Industry move with significant impact, but source is tier C.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 2,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "73c146cad5ff979eac8f81652d2676ff4a0afdeb1ff6f58e4e58e2333357c751": {
       "created_at": "2026-07-11T20:41:06Z",
       "payload": {
@@ -326,6 +326,29 @@
             "red_flag_reason": null,
             "source_score": 0.5,
             "title": "Show HN: Ant \u2013 A JavaScript Runtime and Ecosystem",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "7d53f78366164f541b5dd1cf8c3c6f892eb6891d276530219775d80028093045": {
+      "created_at": "2026-07-11T23:32:54Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Mesh LLM introduces distributed AI computing, a niche but novel approach.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Mesh LLM: distributed AI computing on iroh",
             "total_score": 6.5
           }
         ],
@@ -807,29 +830,6 @@
           "threads": "OpenAI is hiring a product manager to build ChatGPT features for families and caregivers. This signals a strategic shift towards broader household adoption. https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
           "twitter": "OpenAI is hiring a product manager to build ChatGPT features for families and caregivers. https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/"
         }
-      }
-    },
-    "f33a1a6e42b84eb5da73b38147b153247e7136b347653fa79147a0183ae1d2a4": {
-      "created_at": "2026-07-10T22:57:07Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 6,
-            "novelty_score": 1.5,
-            "reason": "Update on residential proxies and scraper situation, niche impact, fresh, low-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "An update on residential proxies and the scraper situation",
-            "total_score": 4.5
-          }
-        ],
-        "best_index": 6,
-        "best_score": 4.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "f680477ac29c5d2c4910debf0a9938c56180eab10a61270ebbae78f205747c1c": {
@@ -1496,12 +1496,6 @@
       "status": "scoring_attempted",
       "title": "The Log Is the Agent"
     },
-    "https://arxiv.org/abs/2606.26967": {
-      "canonical_url": "https://arxiv.org/abs/2606.26967",
-      "created_at": "2026-07-04T22:55:26Z",
-      "status": "scoring_attempted",
-      "title": "Protocol Prying: Vulnerability Research in AirDrop and Quick Share"
-    },
     "https://arxiv.org/abs/2607.01504": {
       "canonical_url": "https://arxiv.org/abs/2607.01504",
       "created_at": "2026-07-06T18:47:50Z",
@@ -2131,6 +2125,12 @@
       "created_at": "2026-07-09T20:10:00Z",
       "status": "scoring_attempted",
       "title": "Why the Next Era of AI Is About Infrastructure, Not Just Models"
+    },
+    "https://blog.yaelwrites.com/stop-telling-me-to-ask-an-llm": {
+      "canonical_url": "https://blog.yaelwrites.com/stop-telling-me-to-ask-an-llm",
+      "created_at": "2026-07-11T23:32:54Z",
+      "status": "scoring_attempted",
+      "title": "Stop Telling Me to Ask an LLM"
     },
     "https://blog.zksecurity.xyz/posts/circl-bugs": {
       "canonical_url": "https://blog.zksecurity.xyz/posts/circl-bugs",
@@ -3307,6 +3307,12 @@
       "created_at": "2026-07-06T11:24:55Z",
       "status": "scoring_attempted",
       "title": "Presentation: Practical Robustness: Going Beyond Memory Safety in Rust"
+    },
+    "https://www.iroh.computer/blog/mesh-llm": {
+      "canonical_url": "https://www.iroh.computer/blog/mesh-llm",
+      "created_at": "2026-07-11T23:32:54Z",
+      "status": "scoring_attempted",
+      "title": "Mesh LLM: distributed AI computing on iroh"
     },
     "https://www.lttlabs.com/articles/2026/07/06/amd-ryzen-ai-halo": {
       "canonical_url": "https://www.lttlabs.com/articles/2026/07/06/amd-ryzen-ai-halo",
