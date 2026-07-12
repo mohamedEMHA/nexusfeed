@@ -1,5 +1,28 @@
 {
   "cerebras_scoring": {
+    "049d4d3e9b951957d50e28807f4471a0b69264a1efd669e1c069144101fc2275": {
+      "created_at": "2026-07-12T11:54:06Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Interesting discussion on modern coding agents but limited impact and source tier.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Old and new apps, via modern coding agents by Terry Tao",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "09a1d5c2fb6b4ac9c00c1ae4a4c7acc400e8a86b930b2f00c1535e3820b735c3": {
       "created_at": "2026-07-11T13:54:42Z",
       "payload": {
@@ -1954,12 +1977,6 @@
       "status": "scoring_attempted",
       "title": "PostHog Open Sourced"
     },
-    "https://github.com/Trystan-SA/claude-design-system-prompt": {
-      "canonical_url": "https://github.com/Trystan-SA/claude-design-system-prompt",
-      "created_at": "2026-07-05T11:48:02Z",
-      "status": "scoring_attempted",
-      "title": "Claude Design System Prompt"
-    },
     "https://github.com/animesh-94/Onboard-CLI": {
       "canonical_url": "https://github.com/animesh-94/Onboard-CLI",
       "created_at": "2026-07-08T21:39:52Z",
@@ -2661,6 +2678,12 @@
       "created_at": "2026-07-07T01:09:45Z",
       "status": "scoring_attempted",
       "title": "Ternlight \u2013 7 MB embedding model that runs in browser (WASM)"
+    },
+    "https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents": {
+      "canonical_url": "https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents",
+      "created_at": "2026-07-12T11:54:06Z",
+      "status": "scoring_attempted",
+      "title": "Old and new apps, via modern coding agents by Terry Tao"
     },
     "https://tomtunguz.com/ai-spend-breakeven-2029": {
       "canonical_url": "https://tomtunguz.com/ai-spend-breakeven-2029",
