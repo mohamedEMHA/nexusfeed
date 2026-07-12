@@ -650,6 +650,29 @@
         "social_posts": {}
       }
     },
+    "ee0625c7e01cdf4e8fe666713439414dbdad5444101ec94081c0dad82080a2ba": {
+      "created_at": "2026-07-12T22:27:33Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "New release but niche impact and low-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Show HN: Adaptive Recall, persistent memory for AI assistants over MCP",
+            "total_score": 5.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 5.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "ee8811c234886618bebde7b4a335c84ffcd218afa99e3b1d757c9f7a5e2dcd61": {
       "created_at": "2026-07-12T18:31:31Z",
       "payload": {
@@ -743,29 +766,6 @@
         ],
         "best_index": 1,
         "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "fc917bcf8f8aefee96d522b9ff9b2a368023e264d7cd316a6478ae7ae7d961f2": {
-      "created_at": "2026-07-11T21:38:00Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 0.2,
-            "reason": "Opinion piece with no new information or data.",
-            "red_flag": true,
-            "red_flag_reason": "opinion",
-            "source_score": 0.5,
-            "title": "I used to love Claude, but the latest models are slowly ruining it",
-            "total_score": 3.2
-          }
-        ],
-        "best_index": 0,
-        "best_score": 3.2,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1210,12 +1210,6 @@
       "created_at": "2026-07-09T13:28:46Z",
       "status": "scoring_attempted",
       "title": "Show HN: 92% of US city websites fail ADA accessibility"
-    },
-    "https://ahmadawais.com/the-full-stack-of-terminals-explained-terminal-shell-tty-console-posix-ansi-escapes-ptys": {
-      "canonical_url": "https://ahmadawais.com/the-full-stack-of-terminals-explained-terminal-shell-tty-console-posix-ansi-escapes-ptys",
-      "created_at": "2026-07-05T21:48:45Z",
-      "status": "scoring_attempted",
-      "title": "The full stack of terminals explained"
     },
     "https://anthonyhobday.com/blog/20260410": {
       "canonical_url": "https://anthonyhobday.com/blog/20260410",
@@ -2453,12 +2447,6 @@
       "status": "scoring_attempted",
       "title": "Automating AI Away"
     },
-    "https://search.cerast-intelligence.com": {
-      "canonical_url": "https://search.cerast-intelligence.com",
-      "created_at": "2026-07-05T21:48:45Z",
-      "status": "scoring_attempted",
-      "title": "Show HN: Osint tool that finds exposed files on domains"
-    },
     "https://spectrum.ieee.org/ai-science-research-flattens-discovery": {
       "canonical_url": "https://spectrum.ieee.org/ai-science-research-flattens-discovery",
       "created_at": "2026-07-12T14:21:31Z",
@@ -2854,6 +2842,12 @@
       "created_at": "2026-07-10T15:18:40Z",
       "status": "scoring_attempted",
       "title": "Unified Memory, Explained: Why Mini PCs Can Run 70B Models a Big GPU Can't"
+    },
+    "https://www.adaptiverecall.com": {
+      "canonical_url": "https://www.adaptiverecall.com",
+      "created_at": "2026-07-12T22:27:33Z",
+      "status": "scoring_attempted",
+      "title": "Show HN: Adaptive Recall, persistent memory for AI assistants over MCP"
     },
     "https://www.androidauthority.com/claude-latest-models-pushback-bad-3683521": {
       "canonical_url": "https://www.androidauthority.com/claude-latest-models-pushback-bad-3683521",
@@ -3346,12 +3340,6 @@
       "created_at": "2026-07-11T18:41:32Z",
       "status": "scoring_attempted",
       "title": "Who manages the agents?"
-    },
-    "https://www.opentools.studio": {
-      "canonical_url": "https://www.opentools.studio",
-      "created_at": "2026-07-05T21:48:45Z",
-      "status": "scoring_attempted",
-      "title": "Reparaible and open source paper printer"
     },
     "https://www.pangram.com/blog/ai-in-your-feed": {
       "canonical_url": "https://www.pangram.com/blog/ai-in-your-feed",
