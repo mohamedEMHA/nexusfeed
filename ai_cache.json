@@ -322,29 +322,6 @@
         "social_posts": {}
       }
     },
-    "9a1a205e78298460491e44da7e4a02860ed7adfb7ccdae35cc7bf1237b3e31c7": {
-      "created_at": "2026-07-11T12:08:12Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 0.5,
-            "index": 0,
-            "novelty_score": 0.2,
-            "reason": "This article is a tutorial and not relevant to software engineers or AI researchers.",
-            "red_flag": true,
-            "red_flag_reason": "tutorial",
-            "source_score": 1.5,
-            "title": "A tasty RPG that will make you very hungry",
-            "total_score": 3.2
-          }
-        ],
-        "best_index": 0,
-        "best_score": 3.2,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "9ad7b4719aa46316d9a368eae6e8578d951caa99aa054ef2060287f719b48628": {
       "created_at": "2026-07-11T19:57:25Z",
       "payload": {
@@ -456,6 +433,29 @@
         ],
         "best_index": 3,
         "best_score": 6.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "bcdee073bb73d1fde568471413edf88602f8c17e9e360853e9d4df029ef6c564": {
+      "created_at": "2026-07-12T12:50:21Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 1.5,
+            "reason": "Weekly recap article with limited novelty.",
+            "red_flag": true,
+            "red_flag_reason": "weekly recap",
+            "source_score": 1.5,
+            "title": "The fight against AI data centers is just beginning",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -3314,6 +3314,12 @@
       "created_at": "2026-07-06T16:50:48Z",
       "status": "scoring_attempted",
       "title": "I spy"
+    },
+    "https://www.theverge.com/column/963346/ai-data-centers-fight": {
+      "canonical_url": "https://www.theverge.com/column/963346/ai-data-centers-fight",
+      "created_at": "2026-07-12T12:50:21Z",
+      "status": "scoring_attempted",
+      "title": "The fight against AI data centers is just beginning"
     },
     "https://www.theverge.com/entertainment/961924/xbox-billion-users": {
       "canonical_url": "https://www.theverge.com/entertainment/961924/xbox-billion-users",
