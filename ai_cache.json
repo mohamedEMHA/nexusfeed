@@ -92,6 +92,52 @@
         "social_posts": {}
       }
     },
+    "250f0eaf4ca9094b86c476a19f170e4aae26fbfd1470cb5ca43b086763b90652": {
+      "created_at": "2026-07-12T20:34:06Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 0.0,
+            "index": 1,
+            "novelty_score": 0.0,
+            "reason": "Not relevant to software engineers or AI researchers",
+            "red_flag": true,
+            "red_flag_reason": "Not relevant to software engineers or AI researchers",
+            "source_score": 0.5,
+            "title": "Terrifying moment Grandpa is launched eight feet in the air by charging bison",
+            "total_score": 2.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 2.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "25f3d01cf7a429067bd2daadfd3d9c13e9ed3356eeeb6f98126c731f8a26dad5": {
+      "created_at": "2026-07-12T20:34:06Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 0.5,
+            "index": 0,
+            "novelty_score": 0.2,
+            "reason": "Celebrity opinion on AI glasses lacks technical relevance for software engineers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Lorde says Ray-Ban Meta AI glasses are 'not sexy'",
+            "total_score": 4.2
+          }
+        ],
+        "best_index": 0,
+        "best_score": 4.2,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "2bb6ac9812fe972ebacbb5f5d5d84b61f2c3b88c0bb1c6dbf86ddd1de03db441": {
       "created_at": "2026-07-12T04:40:20Z",
       "payload": {
@@ -404,29 +450,6 @@
         ],
         "best_index": 1,
         "best_score": 6.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "9ad7b4719aa46316d9a368eae6e8578d951caa99aa054ef2060287f719b48628": {
-      "created_at": "2026-07-11T19:57:25Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 5,
-            "novelty_score": 2.5,
-            "reason": "New release with novel performance improvement mechanism, but limited impact and lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Show HN: Reame \u2013 a CPU inference server that gets faster as it runs",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 5,
-        "best_score": 5.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -2887,6 +2910,12 @@
       "status": "scoring_attempted",
       "title": "Launch HN: Context.dev (YC S26) \u2013 API to get structured data from any website"
     },
+    "https://www.dailymail.com/news/article-15971065/Grandpa-launched-eight-feet-air-bison-Yellowstone.html": {
+      "canonical_url": "https://www.dailymail.com/news/article-15971065/Grandpa-launched-eight-feet-air-bison-Yellowstone.html",
+      "created_at": "2026-07-12T20:34:06Z",
+      "status": "scoring_attempted",
+      "title": "Terrifying moment Grandpa is launched eight feet in the air by charging bison"
+    },
     "https://www.dw.com/en/germany-migrants-skilled-workers-integration-labor-market-bureaucracy-language-housing/a-77853162": {
       "canonical_url": "https://www.dw.com/en/germany-migrants-skilled-workers-integration-labor-market-bureaucracy-language-housing/a-77853162",
       "created_at": "2026-07-07T18:30:58Z",
@@ -3408,6 +3437,12 @@
       "created_at": "2026-07-10T15:18:40Z",
       "status": "scoring_attempted",
       "title": "Would you host part of an AI data center in your home?"
+    },
+    "https://www.theverge.com/ai-artificial-intelligence/964539/lorde-says-ray-ban-meta-ai-glasses-are-not-sexy": {
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/964539/lorde-says-ray-ban-meta-ai-glasses-are-not-sexy",
+      "created_at": "2026-07-12T20:34:06Z",
+      "status": "scoring_attempted",
+      "title": "Lorde says Ray-Ban Meta AI glasses are \u2018not sexy\u2019"
     },
     "https://www.theverge.com/column/961707/smart-glasses-ai-wearables-meta-surveillance-privacy": {
       "canonical_url": "https://www.theverge.com/column/961707/smart-glasses-ai-wearables-meta-surveillance-privacy",
