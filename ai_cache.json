@@ -23,29 +23,6 @@
         "social_posts": {}
       }
     },
-    "09a1d5c2fb6b4ac9c00c1ae4a4c7acc400e8a86b930b2f00c1535e3820b735c3": {
-      "created_at": "2026-07-11T13:54:42Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 0.0,
-            "index": 1,
-            "novelty_score": 0.0,
-            "reason": "No technical content",
-            "red_flag": true,
-            "red_flag_reason": "No technical content",
-            "source_score": 1.5,
-            "title": "ICE are heavily armed killers. They\u2019re also huge losers",
-            "total_score": 3.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 3.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "0b2f14cdaf49eb3b93bc5ce2dde72a15ae57423e08c692ac6b627f1a7a19e348": {
       "created_at": "2026-07-11T17:44:15Z",
       "payload": {
@@ -138,29 +115,6 @@
         "social_posts": {}
       }
     },
-    "242792570770cee22dd4578b9dcad3f1cb82b1dedd7ba10f91fdca6a1198ab05": {
-      "created_at": "2026-07-11T13:54:42Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 0.5,
-            "index": 0,
-            "novelty_score": 0.2,
-            "reason": "The article is a 1965 PDF, not relevant to current software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Speculations Concerning the First Ultraintelligent Machine (1965) [pdf]",
-            "total_score": 3.2
-          }
-        ],
-        "best_index": 0,
-        "best_score": 3.2,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "2b387c572c0df4d9f5891414f802a94db8644c44d1def67ad3898b811e49f18b": {
       "created_at": "2026-07-11T15:42:25Z",
       "payload": {
@@ -226,6 +180,29 @@
         ],
         "best_index": 2,
         "best_score": 4.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "587c86cf914fe05797df8990b38965c38021284cabef40843526ec34d3418633": {
+      "created_at": "2026-07-12T14:21:31Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.5,
+            "index": 1,
+            "novelty_score": 0.2,
+            "reason": "Personal gaming experience lacks technical or industry relevance.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Blue Prince became a bonding \u2014 and learning \u2014 experience for my family",
+            "total_score": 2.2
+          }
+        ],
+        "best_index": 1,
+        "best_score": 2.2,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -502,6 +479,29 @@
         ],
         "best_index": 1,
         "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "e1b7ab72abc19d8dccdcd9f00a16e7fd951b5d29e3da39c2969105893ba9b76e": {
+      "created_at": "2026-07-12T14:21:31Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Research on AI's impact on scientific discovery, but source is Tier C.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "AI Boosts Research Careers but Flattens Scientific Discovery",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -2343,6 +2343,12 @@
       "status": "scoring_attempted",
       "title": "Show HN: Osint tool that finds exposed files on domains"
     },
+    "https://spectrum.ieee.org/ai-science-research-flattens-discovery": {
+      "canonical_url": "https://spectrum.ieee.org/ai-science-research-flattens-discovery",
+      "created_at": "2026-07-12T14:21:31Z",
+      "status": "scoring_attempted",
+      "title": "AI Boosts Research Careers but Flattens Scientific Discovery"
+    },
     "https://studyfinds.com/modern-decor-may-be-straining-peoples-brains": {
       "canonical_url": "https://studyfinds.com/modern-decor-may-be-straining-peoples-brains",
       "created_at": "2026-07-11T17:44:15Z",
@@ -3303,12 +3309,6 @@
       "status": "scoring_attempted",
       "title": "Would you host part of an AI data center in your home?"
     },
-    "https://www.theverge.com/column/960600/xbox-is-a-disaster": {
-      "canonical_url": "https://www.theverge.com/column/960600/xbox-is-a-disaster",
-      "created_at": "2026-07-05T13:02:49Z",
-      "status": "scoring_attempted",
-      "title": "Xbox is a disaster"
-    },
     "https://www.theverge.com/column/961707/smart-glasses-ai-wearables-meta-surveillance-privacy": {
       "canonical_url": "https://www.theverge.com/column/961707/smart-glasses-ai-wearables-meta-surveillance-privacy",
       "created_at": "2026-07-06T16:50:48Z",
@@ -3434,6 +3434,12 @@
       "created_at": "2026-07-10T20:58:25Z",
       "status": "scoring_attempted",
       "title": "A decade later, Pok\u00e9mon Go finally made good on its original promise"
+    },
+    "https://www.theverge.com/games/964262/blue-prince-family-bonding": {
+      "canonical_url": "https://www.theverge.com/games/964262/blue-prince-family-bonding",
+      "created_at": "2026-07-12T14:21:31Z",
+      "status": "scoring_attempted",
+      "title": "Blue Prince became a bonding \u2014 and learning \u2014 experience for my family"
     },
     "https://www.theverge.com/news/961528/microsoft-layoffs-july-2026-sales-xbox": {
       "canonical_url": "https://www.theverge.com/news/961528/microsoft-layoffs-july-2026-sales-xbox",
