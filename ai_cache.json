@@ -511,6 +511,29 @@
         "social_posts": {}
       }
     },
+    "bc67aee1d020d66af153352ff389982bb69b43577f960865370e7ddeec181604": {
+      "created_at": "2026-07-12T17:37:08Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 3.0,
+            "reason": "New release of a cross-platform GUI framework in native Go, but limited impact and source tier.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Show HN: Shirei, cross-platform GUI framework in native Go",
+            "total_score": 7.0
+          }
+        ],
+        "best_index": 0,
+        "best_score": 7.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "bcdee073bb73d1fde568471413edf88602f8c17e9e360853e9d4df029ef6c564": {
       "created_at": "2026-07-12T12:50:21Z",
       "payload": {
@@ -1943,12 +1966,6 @@
       "status": "scoring_attempted",
       "title": "Don't discontinue Gemini 2.5 Flash"
     },
-    "https://dmarcwise.io/blog/dmarc-np-incompatibility-with-dnssec": {
-      "canonical_url": "https://dmarcwise.io/blog/dmarc-np-incompatibility-with-dnssec",
-      "created_at": "2026-07-05T17:08:00Z",
-      "status": "scoring_attempted",
-      "title": "Why DMARC's new \"NP\" tag can fail with DNSSEC"
-    },
     "https://e360.yale.edu/features/cassandra-rauert-interview": {
       "canonical_url": "https://e360.yale.edu/features/cassandra-rauert-interview",
       "created_at": "2026-07-08T18:59:09Z",
@@ -2026,6 +2043,12 @@
       "created_at": "2026-07-05T22:47:58Z",
       "status": "scoring_attempted",
       "title": "Had an idea for a Rust editor with simple Vim mode for learning"
+    },
+    "https://github.com/hasenj/go-shirei": {
+      "canonical_url": "https://github.com/hasenj/go-shirei",
+      "created_at": "2026-07-12T17:37:08Z",
+      "status": "scoring_attempted",
+      "title": "Show HN: Shirei, cross-platform GUI framework in native Go"
     },
     "https://github.com/iOfficeAI/OfficeCLI": {
       "canonical_url": "https://github.com/iOfficeAI/OfficeCLI",
@@ -2813,12 +2836,6 @@
       "status": "scoring_attempted",
       "title": "Launch HN: Context.dev (YC S26) \u2013 API to get structured data from any website"
     },
-    "https://www.designboom.com/technology/autonomous-flying-umbrella-follows-users-rain-sunlight-i-build-stuff-01-13-2026": {
-      "canonical_url": "https://www.designboom.com/technology/autonomous-flying-umbrella-follows-users-rain-sunlight-i-build-stuff-01-13-2026",
-      "created_at": "2026-07-05T17:08:00Z",
-      "status": "scoring_attempted",
-      "title": "Autonomous flying umbrella follows and shields users from rain and sunlight"
-    },
     "https://www.dw.com/en/germany-migrants-skilled-workers-integration-labor-market-bureaucracy-language-housing/a-77853162": {
       "canonical_url": "https://www.dw.com/en/germany-migrants-skilled-workers-integration-labor-market-bureaucracy-language-housing/a-77853162",
       "created_at": "2026-07-07T18:30:58Z",
@@ -3376,12 +3393,6 @@
       "created_at": "2026-07-11T12:08:12Z",
       "status": "scoring_attempted",
       "title": "A tasty RPG that will make you very hungry"
-    },
-    "https://www.theverge.com/gadgets/960838/grand-theft-auto-gta-6-vi-preorder-editions-buy": {
-      "canonical_url": "https://www.theverge.com/gadgets/960838/grand-theft-auto-gta-6-vi-preorder-editions-buy",
-      "created_at": "2026-07-05T17:08:00Z",
-      "status": "scoring_attempted",
-      "title": "Where to preorder Grand Theft Auto VI"
     },
     "https://www.theverge.com/gadgets/961612/xtra-muse-dji-osmo-pocket-3-ipad-air-magic-mouse-deal-sale": {
       "canonical_url": "https://www.theverge.com/gadgets/961612/xtra-muse-dji-osmo-pocket-3-ipad-air-magic-mouse-deal-sale",
