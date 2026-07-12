@@ -362,29 +362,6 @@
         "social_posts": {}
       }
     },
-    "73c146cad5ff979eac8f81652d2676ff4a0afdeb1ff6f58e4e58e2333357c751": {
-      "created_at": "2026-07-11T20:41:06Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "New JavaScript runtime ecosystem, but niche impact and low-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Show HN: Ant \u2013 A JavaScript Runtime and Ecosystem",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "77e81a81d9a39e1979a5ac7cc732c836487694bb15930b30a842843e7391929f": {
       "created_at": "2026-07-12T19:43:24Z",
       "payload": {
@@ -747,6 +724,29 @@
         "social_posts": {}
       }
     },
+    "fafb84e7cb24c81e419ac071e99c58e1c14a8b4c2570f0a5adba5a6dd276f147": {
+      "created_at": "2026-07-12T21:27:22Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "Research on sparse attention kernels for training large models, but limited impact and from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Flash-MSA: Accelerating Million-Token Training with Sparse Attention Kernels",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "fc917bcf8f8aefee96d522b9ff9b2a368023e264d7cd316a6478ae7ae7d961f2": {
       "created_at": "2026-07-11T21:38:00Z",
       "payload": {
@@ -766,6 +766,29 @@
         ],
         "best_index": 0,
         "best_score": 3.2,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "fedaf65b23ce3336dfc22786cd557705286a3b23fcb802515439839a392a1b5a": {
+      "created_at": "2026-07-12T21:27:22Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 0.0,
+            "index": 0,
+            "novelty_score": 0.0,
+            "reason": "The article is a retrospective on MCP security, which is not novel or impactful.",
+            "red_flag": true,
+            "red_flag_reason": "retrospective",
+            "source_score": 0.5,
+            "title": "The State of MCP Security [pdf]",
+            "total_score": 2.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 2.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1295,12 +1318,6 @@
       "created_at": "2026-07-07T21:55:05Z",
       "status": "scoring_attempted",
       "title": "Data centers\u2019 energy demand threatens Trump\u2019s \u201cMade in America\u201d plan"
-    },
-    "https://arxiv.org/abs/2602.09239": {
-      "canonical_url": "https://arxiv.org/abs/2602.09239",
-      "created_at": "2026-07-05T20:44:28Z",
-      "status": "scoring_attempted",
-      "title": "A sociotechnical threat model for AI-driven smart home devices"
     },
     "https://arxiv.org/abs/2605.20049": {
       "canonical_url": "https://arxiv.org/abs/2605.20049",
@@ -2214,12 +2231,6 @@
       "status": "scoring_attempted",
       "title": "Profiling in PyTorch (Part 3): Attention is all you profile"
     },
-    "https://intextbooks.science.uu.nl/workshop2026/files/itb26_s1s2.pdf": {
-      "canonical_url": "https://intextbooks.science.uu.nl/workshop2026/files/itb26_s1s2.pdf",
-      "created_at": "2026-07-05T20:44:28Z",
-      "status": "scoring_attempted",
-      "title": "New AI tutor achieves 0.71-1.30 SD effect size in Dartmouth course [pdf]"
-    },
     "https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom": {
       "canonical_url": "https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom",
       "created_at": "2026-07-11T18:41:32Z",
@@ -2309,6 +2320,12 @@
       "created_at": "2026-07-12T04:40:20Z",
       "status": "scoring_attempted",
       "title": "Fixed three bugs that made Qwen3.5-122B a daily driver on Mac Studio"
+    },
+    "https://nanduruganesh.github.io/flash-msa": {
+      "canonical_url": "https://nanduruganesh.github.io/flash-msa",
+      "created_at": "2026-07-12T21:27:22Z",
+      "status": "scoring_attempted",
+      "title": "Flash-MSA: Accelerating Million-Token Training with Sparse Attention Kernels"
     },
     "https://nevo-project.epfl.ch": {
       "canonical_url": "https://nevo-project.epfl.ch",
@@ -2903,6 +2920,12 @@
       "created_at": "2026-07-06T14:42:06Z",
       "status": "scoring_attempted",
       "title": "The AI Marketing Backlash: Why 'AI-First' Brands Are Starting to Fall Flat"
+    },
+    "https://www.canopii.dev/State%20of%20MCP%20Security%202026.pdf": {
+      "canonical_url": "https://www.canopii.dev/State%20of%20MCP%20Security%202026.pdf",
+      "created_at": "2026-07-12T21:27:22Z",
+      "status": "scoring_attempted",
+      "title": "The State of MCP Security [pdf]"
     },
     "https://www.context.dev": {
       "canonical_url": "https://www.context.dev",
