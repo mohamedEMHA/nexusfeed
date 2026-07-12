@@ -261,6 +261,29 @@
         "social_posts": {}
       }
     },
+    "2bb6ac9812fe972ebacbb5f5d5d84b61f2c3b88c0bb1c6dbf86ddd1de03db441": {
+      "created_at": "2026-07-12T04:40:20Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "This article discusses a significant policy change affecting higher education, but it's not directly relevant to software engineers or AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Under federal rule, colleges must leave grads better off or lose financial aid",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "2d88d6f0c28f340f08bfe55bd8717c28b02d9b86e302fa0363fded01e564991f": {
       "created_at": "2026-07-11T08:59:30Z",
       "payload": {
@@ -280,6 +303,29 @@
         ],
         "best_index": 0,
         "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "3cb2db6eb0b1ebd711ffabab499fe5f6952f36caa3d0c86e160c2d184d3ac5c9": {
+      "created_at": "2026-07-12T04:40:20Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.0,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 1.5,
+            "reason": "Bug fixes are useful but not groundbreaking, and the source is not highly reputable.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Fixed three bugs that made Qwen3.5-122B a daily driver on Mac Studio",
+            "total_score": 4.5
+          }
+        ],
+        "best_index": 2,
+        "best_score": 4.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -394,6 +440,29 @@
           }
         ],
         "best_index": 5,
+        "best_score": 5.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "a2066dee729a1cc382b48cae3eeac11fd48fb56b227d6f2ee757bc2479971ddb": {
+      "created_at": "2026-07-12T04:40:20Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "Red flag triggered by 'What' in title.",
+            "red_flag": true,
+            "red_flag_reason": "What",
+            "source_score": 0.5,
+            "title": "What xAI's Grok Build CLI Actually Sends to xAI",
+            "total_score": 5.5
+          }
+        ],
+        "best_index": 1,
         "best_score": 5.5,
         "recommendation": "SKIP",
         "social_posts": {}
@@ -2214,6 +2283,12 @@
       "status": "scoring_attempted",
       "title": "AI 2040 and the Cult of Intelligence"
     },
+    "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547": {
+      "canonical_url": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
+      "created_at": "2026-07-12T04:40:20Z",
+      "status": "scoring_attempted",
+      "title": "What xAI's Grok Build CLI Actually Sends to xAI"
+    },
     "https://github.blog/security/application-security/how-github-gave-every-repository-a-durable-owner": {
       "canonical_url": "https://github.blog/security/application-security/how-github-gave-every-repository-a-durable-owner",
       "created_at": "2026-07-09T21:43:18Z",
@@ -2382,12 +2457,6 @@
       "status": "scoring_attempted",
       "title": "Nvidia, CoreWeave, and Nebius: Inside the Circular Financing of the GPU Boom"
     },
-    "https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2846478": {
-      "canonical_url": "https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2846478",
-      "created_at": "2026-07-05T04:11:21Z",
-      "status": "scoring_attempted",
-      "title": "Efficacy and Safety of Psilocybin in Treatment-Resistant Major Depression"
-    },
     "https://kastra.ai": {
       "canonical_url": "https://kastra.ai",
       "created_at": "2026-07-09T20:10:00Z",
@@ -2465,6 +2534,12 @@
       "created_at": "2026-07-08T03:28:53Z",
       "status": "scoring_attempted",
       "title": "Show HN: Free Mermaid Diagram Editor"
+    },
+    "https://mrzk.io/posts/qmlx-maximising-ai-psychosis-minmaxing-mac-studio": {
+      "canonical_url": "https://mrzk.io/posts/qmlx-maximising-ai-psychosis-minmaxing-mac-studio",
+      "created_at": "2026-07-12T04:40:20Z",
+      "status": "scoring_attempted",
+      "title": "Fixed three bugs that made Qwen3.5-122B a daily driver on Mac Studio"
     },
     "https://nevo-project.epfl.ch": {
       "canonical_url": "https://nevo-project.epfl.ch",
@@ -2591,12 +2666,6 @@
       "created_at": "2026-07-07T18:30:58Z",
       "status": "scoring_attempted",
       "title": "Automating AI Away"
-    },
-    "https://ridgetext.com/blog/mapbox-llm-composition": {
-      "canonical_url": "https://ridgetext.com/blog/mapbox-llm-composition",
-      "created_at": "2026-07-05T04:11:21Z",
-      "status": "scoring_attempted",
-      "title": "Mapping with In-Memory Layers to Reduce LLM Overload"
     },
     "https://search.cerast-intelligence.com": {
       "canonical_url": "https://search.cerast-intelligence.com",
@@ -3078,12 +3147,6 @@
       "status": "scoring_attempted",
       "title": "Solar rail could become common in Europe after successful trial in Switzerland"
     },
-    "https://www.hawaiinewsnow.com/2026/07/04/record-breaking-solo-rower-kelsey-pfendler-arrives-hawaii": {
-      "canonical_url": "https://www.hawaiinewsnow.com/2026/07/04/record-breaking-solo-rower-kelsey-pfendler-arrives-hawaii",
-      "created_at": "2026-07-05T04:30:02Z",
-      "status": "scoring_attempted",
-      "title": "Record-breaking solo rower Kelsey Pfendler arrives in Hawaii"
-    },
     "https://www.hmans.dev/blog/chatto-is-open-source": {
       "canonical_url": "https://www.hmans.dev/blog/chatto-is-open-source",
       "created_at": "2026-07-08T16:01:10Z",
@@ -3288,12 +3351,6 @@
       "status": "scoring_attempted",
       "title": "Real-time map of Great Britain's rail network"
     },
-    "https://www.marktechpost.com/2026/07/04/qwens-former-lead-on-what-hybrid-thinking-got-wrong-and-why-he-now-backs-agents": {
-      "canonical_url": "https://www.marktechpost.com/2026/07/04/qwens-former-lead-on-what-hybrid-thinking-got-wrong-and-why-he-now-backs-agents",
-      "created_at": "2026-07-05T04:30:02Z",
-      "status": "scoring_attempted",
-      "title": "Qwen\u2019s Former Lead on What Hybrid Thinking Got Wrong \u2014 and Why He Now Backs Agents"
-    },
     "https://www.marktechpost.com/2026/07/05/llamaindex-legal-kb-agentic-retrieval-over-index-v2-with-retrieve-find-read-and-grep-tools": {
       "canonical_url": "https://www.marktechpost.com/2026/07/05/llamaindex-legal-kb-agentic-retrieval-over-index-v2-with-retrieve-find-read-and-grep-tools",
       "created_at": "2026-07-05T10:01:23Z",
@@ -3449,6 +3506,12 @@
       "created_at": "2026-07-05T22:47:58Z",
       "status": "scoring_attempted",
       "title": "Delta flight hit by firework while landing at Midway Airport on Fourth of July"
+    },
+    "https://www.npr.org/2026/06/30/nx-s1-5835631/turner-camhi-do-no-harm-college-loans": {
+      "canonical_url": "https://www.npr.org/2026/06/30/nx-s1-5835631/turner-camhi-do-no-harm-college-loans",
+      "created_at": "2026-07-12T04:40:20Z",
+      "status": "scoring_attempted",
+      "title": "Under federal rule, colleges must leave grads better off or lose financial aid"
     },
     "https://www.nytimes.com/2026/07/10/technology/apple-openai-lawsuit.html": {
       "canonical_url": "https://www.nytimes.com/2026/07/10/technology/apple-openai-lawsuit.html",
