@@ -46,6 +46,29 @@
         "social_posts": {}
       }
     },
+    "0d0f42bbfe033185dff60c7a2994de702df7fc213f7a97deef0089a6bc305413": {
+      "created_at": "2026-07-12T15:37:08Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.0,
+            "index": 2,
+            "novelty_score": 0.0,
+            "reason": "Comments section with no substantive content.",
+            "red_flag": true,
+            "red_flag_reason": "Comments",
+            "source_score": 0.5,
+            "title": "Gina Gallery of International Naive Art",
+            "total_score": 2.0
+          }
+        ],
+        "best_index": 2,
+        "best_score": 2.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "1090596484b87fc4f031b3ac293b17cbdb931a9c0ddcd606d9cb796f73712599": {
       "created_at": "2026-07-11T18:41:32Z",
       "payload": {
@@ -161,6 +184,29 @@
         "social_posts": {}
       }
     },
+    "3996f4d8b85087a1b5f5e11e5786fbf4725fe2da64cc35fe7e452240223e90bf": {
+      "created_at": "2026-07-12T15:37:08Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.0,
+            "index": 4,
+            "novelty_score": 0.2,
+            "reason": "This article is a tutorial and not relevant to software engineers or AI researchers.",
+            "red_flag": true,
+            "red_flag_reason": "tutorial",
+            "source_score": 0.5,
+            "title": "Mystery behind Moana: After 1,700 years, why did Polynesians suddenly sail east?",
+            "total_score": 2.2
+          }
+        ],
+        "best_index": 4,
+        "best_score": 2.2,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "3cb2db6eb0b1ebd711ffabab499fe5f6952f36caa3d0c86e160c2d184d3ac5c9": {
       "created_at": "2026-07-12T04:40:20Z",
       "payload": {
@@ -203,6 +249,29 @@
         ],
         "best_index": 1,
         "best_score": 2.2,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "6d06e34f44f48d90ba17ffa134ab6ef31da45e0edc7710e68f07c3df900acf83": {
+      "created_at": "2026-07-12T15:37:08Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 0.0,
+            "index": 0,
+            "novelty_score": 0.0,
+            "reason": "This is a sales announcement, not relevant to software engineers or AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "One of SteelSeries\u2019 best gaming headsets is over $100 off",
+            "total_score": 3.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 3.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1089,12 +1158,6 @@
       "status": "scoring_attempted",
       "title": "The full stack of terminals explained"
     },
-    "https://airplaneboneyards.com/airplane-boneyards-list-and-map.htm": {
-      "canonical_url": "https://airplaneboneyards.com/airplane-boneyards-list-and-map.htm",
-      "created_at": "2026-07-05T14:53:15Z",
-      "status": "scoring_attempted",
-      "title": "Airplane Boneyards List and Map"
-    },
     "https://anthonyhobday.com/blog/20260410": {
       "canonical_url": "https://anthonyhobday.com/blog/20260410",
       "created_at": "2026-07-07T20:28:28Z",
@@ -1917,12 +1980,6 @@
       "status": "scoring_attempted",
       "title": "Why DMARC's new \"NP\" tag can fail with DNSSEC"
     },
-    "https://dthain.github.io/books/compiler": {
-      "canonical_url": "https://dthain.github.io/books/compiler",
-      "created_at": "2026-07-05T14:53:15Z",
-      "status": "scoring_attempted",
-      "title": "Introduction to Compilers and Language Design"
-    },
     "https://e360.yale.edu/features/cassandra-rauert-interview": {
       "canonical_url": "https://e360.yale.edu/features/cassandra-rauert-interview",
       "created_at": "2026-07-08T18:59:09Z",
@@ -2325,12 +2382,6 @@
       "status": "scoring_attempted",
       "title": "Reverse centaurs are the answer to the AI paradox"
     },
-    "https://prediohq.com": {
-      "canonical_url": "https://prediohq.com",
-      "created_at": "2026-07-05T14:53:15Z",
-      "status": "scoring_attempted",
-      "title": "Spain's cadastre API is SOAP from 2003, so I built a JSON wrapper (+MCP)"
-    },
     "https://replicated.live/blog/away": {
       "canonical_url": "https://replicated.live/blog/away",
       "created_at": "2026-07-07T18:30:58Z",
@@ -2691,6 +2742,12 @@
       "status": "scoring_attempted",
       "title": "Old and new apps, via modern coding agents by Terry Tao"
     },
+    "https://theconversation.com/the-real-mystery-behind-moana-after-1-700-years-why-did-polynesians-suddenly-sail-east-287226": {
+      "canonical_url": "https://theconversation.com/the-real-mystery-behind-moana-after-1-700-years-why-did-polynesians-suddenly-sail-east-287226",
+      "created_at": "2026-07-12T15:37:08Z",
+      "status": "scoring_attempted",
+      "title": "Mystery behind Moana: After 1,700 years, why did Polynesians suddenly sail east?"
+    },
     "https://tomtunguz.com/ai-spend-breakeven-2029": {
       "canonical_url": "https://tomtunguz.com/ai-spend-breakeven-2029",
       "created_at": "2026-07-06T08:58:39Z",
@@ -2822,6 +2879,12 @@
       "created_at": "2026-07-05T15:58:56Z",
       "status": "scoring_attempted",
       "title": "Solar rail could become common in Europe after successful trial in Switzerland"
+    },
+    "https://www.ginagallery.com": {
+      "canonical_url": "https://www.ginagallery.com",
+      "created_at": "2026-07-12T15:37:08Z",
+      "status": "scoring_attempted",
+      "title": "Gina Gallery of International Naive Art"
     },
     "https://www.hmans.dev/blog/chatto-is-open-source": {
       "canonical_url": "https://www.hmans.dev/blog/chatto-is-open-source",
@@ -3243,12 +3306,6 @@
       "status": "scoring_attempted",
       "title": "C programmers commit fresh crimes against readability"
     },
-    "https://www.theverge.com/ai-artificial-intelligence/961468/google-ai-commercial-founding-fathers-declaration-of-independence": {
-      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/961468/google-ai-commercial-founding-fathers-declaration-of-independence",
-      "created_at": "2026-07-05T14:53:15Z",
-      "status": "scoring_attempted",
-      "title": "Infuriating Google commercial imagines the founding fathers embracing AI"
-    },
     "https://www.theverge.com/ai-artificial-intelligence/961505/wealthy-ai-schools-alpha-forge-prep": {
       "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/961505/wealthy-ai-schools-alpha-forge-prep",
       "created_at": "2026-07-05T22:47:58Z",
@@ -3399,6 +3456,12 @@
       "status": "scoring_attempted",
       "title": "Anker&#8217;s 3-in-1 Qi2.2 charging station is $95 off"
     },
+    "https://www.theverge.com/gadgets/964125/steelseries-arctis-nova-pro-wireless-headset-deal-sale": {
+      "canonical_url": "https://www.theverge.com/gadgets/964125/steelseries-arctis-nova-pro-wireless-headset-deal-sale",
+      "created_at": "2026-07-12T15:37:08Z",
+      "status": "scoring_attempted",
+      "title": "One of SteelSeries&#8217; best gaming headsets is over $100 off"
+    },
     "https://www.theverge.com/gadgets/964138/nintendo-talking-flower-mario-wonder-deal-sale": {
       "canonical_url": "https://www.theverge.com/gadgets/964138/nintendo-talking-flower-mario-wonder-deal-sale",
       "created_at": "2026-07-11T15:42:25Z",
@@ -3446,12 +3509,6 @@
       "created_at": "2026-07-06T14:42:06Z",
       "status": "scoring_attempted",
       "title": "Microsoft is laying off 4,800 employees"
-    },
-    "https://www.theverge.com/podcast/961470/keurig-coffee-k-up-version-history": {
-      "canonical_url": "https://www.theverge.com/podcast/961470/keurig-coffee-k-up-version-history",
-      "created_at": "2026-07-05T14:53:15Z",
-      "status": "scoring_attempted",
-      "title": "How Keurig saved \u2014 and ruined \u2014 your coffee"
     },
     "https://www.theverge.com/podcast/961603/raina-penchansky-ali-berman-dba-uta-influencer-cliff-marketing": {
       "canonical_url": "https://www.theverge.com/podcast/961603/raina-penchansky-ali-berman-dba-uta-influencer-cliff-marketing",
@@ -3536,12 +3593,6 @@
       "created_at": "2026-07-10T16:26:36Z",
       "status": "scoring_attempted",
       "title": "Disney Plus is reportedly looking into a free streaming tier"
-    },
-    "https://www.theverge.com/tech/959604/sourdough-sidekick-review-king-arthur-starter": {
-      "canonical_url": "https://www.theverge.com/tech/959604/sourdough-sidekick-review-king-arthur-starter",
-      "created_at": "2026-07-05T14:53:15Z",
-      "status": "scoring_attempted",
-      "title": "The Sourdough Sidekick automates the boring bit of baking"
     },
     "https://www.theverge.com/tech/961601/marshall-acton-stanmore-iv-bluetooth-wireless-speakers-repair": {
       "canonical_url": "https://www.theverge.com/tech/961601/marshall-acton-stanmore-iv-bluetooth-wireless-speakers-repair",
