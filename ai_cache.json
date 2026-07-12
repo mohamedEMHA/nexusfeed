@@ -138,29 +138,6 @@
         "social_posts": {}
       }
     },
-    "2b387c572c0df4d9f5891414f802a94db8644c44d1def67ad3898b811e49f18b": {
-      "created_at": "2026-07-11T15:42:25Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1,
-            "impact_score": 1.5,
-            "index": 7,
-            "novelty_score": 2.5,
-            "reason": "Interesting concept but limited impact and from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Ghost Font: A font that humans can read but AI cannot",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 7,
-        "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "2bb6ac9812fe972ebacbb5f5d5d84b61f2c3b88c0bb1c6dbf86ddd1de03db441": {
       "created_at": "2026-07-12T04:40:20Z",
       "payload": {
@@ -230,6 +207,29 @@
         "social_posts": {}
       }
     },
+    "451d3cb215a54463857f1f96d78b602c6573673e9d064256b76d9502854d1a50": {
+      "created_at": "2026-07-12T16:31:47Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.0,
+            "index": 1,
+            "novelty_score": 0.0,
+            "reason": "The title contains a red flag phrase.",
+            "red_flag": true,
+            "red_flag_reason": "no-brainer",
+            "source_score": 0.5,
+            "title": "A no-brainer for protecting your brain",
+            "total_score": 2.0
+          }
+        ],
+        "best_index": 1,
+        "best_score": 2.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "587c86cf914fe05797df8990b38965c38021284cabef40843526ec34d3418633": {
       "created_at": "2026-07-12T14:21:31Z",
       "payload": {
@@ -251,6 +251,34 @@
         "best_score": 2.2,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "652ed33f0ed4eb6e718d34b7b94bab3aceb2a0546ca56ae1afee7a8e1a340c30": {
+      "created_at": "2026-07-12T16:31:47Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Apple's self-driving car program's failure led to advancements in AI chips, relevant to software engineers and AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Apple\u2019s failed self-driving car program left a legacy of powerful AI chips",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Apple's self-driving car program may have failed, but it left behind a legacy of powerful AI chips. The company realized early on that it needed robust on-device AI processing, which ultimately led to advancements in its silicon technology. Link: https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Apple\u2019s failed self-driving car program left a legacy of powerful AI chips*\n\nApple's self-driving car program may have failed, but it led to advancements in AI chips, particularly in on-device AI processing.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Apple's self-driving car project didn't pan out, but it supercharged its AI chip development. The Verge has the details.\nhttps://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra",
+          "twitter": "Apple's failed self-driving car project quietly turbocharged its AI chip development. Here's how.\nhttps://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra"
+        }
       }
     },
     "6d06e34f44f48d90ba17ffa134ab6ef31da45e0edc7710e68f07c3df900acf83": {
@@ -575,97 +603,6 @@
         "social_posts": {}
       }
     },
-    "e5c2920506ff9cbbc2d1443393d08d379b9dddee2ff01aace0f289370af7c540": {
-      "created_at": "2026-07-11T15:42:25Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "Harvard astrophysicist Avi Loeb will head the UAP Science Advisory Council, providing scientific reports and advice to the UAP Governing Board.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "White House taps the guy who keeps crying \u2018aliens\u2019 to run UFO group",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 2,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "The White House has appointed Harvard astrophysicist Avi Loeb to head the UAP Science Advisory Council. This council will provide scientific reports and advice to the UAP Governing Board, which includes the Pentagon, the Office of the Director of National Intelligence, the FBI, and the intelligence community. Link: https://www.theverge.com/science/964478/white-house-avi-loeb-aliens-ufo-uap-council",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *White House taps the guy who keeps crying \u2018aliens\u2019 to run UFO group*\n\nHarvard astrophysicist Avi Loeb will head the UAP Science Advisory Council, providing scientific reports and advice to the UAP Governing Board.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/science/964478/white-house-avi-loeb-aliens-ufo-uap-council\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Harvard astrophysicist Avi Loeb will lead the White House's new UFO advisory council. This council will provide scientific reports and advice to the UAP Governing Board, which includes the Pentagon, the Office of the Director of National Intelligence, the FBI, and the intelligence community. https://www.theverge.com/science/964478/white-house-avi-loeb-aliens-ufo-uap-council",
-          "twitter": "Harvard astrophysicist Avi Loeb will lead the White House's new UFO advisory council. https://www.theverge.com/science/964478/white-house-avi-loeb-aliens-ufo-uap-council"
-        }
-      }
-    },
-    "e79d7a80438568d1e1456f86d5b650e69ead2a769ae5b7a226da7015de11325a": {
-      "created_at": "2026-07-11T15:42:25Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 2.0,
-            "reason": "Interesting profile of a key figure in music software, but niche impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "FL Studio head Constantin Koehncke turns to Reddit for feedback and fun",
-            "total_score": 6.0
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 0.5,
-            "index": 1,
-            "novelty_score": 1.5,
-            "reason": "Minor price update on a niche Nintendo product with limited relevance to tech professionals.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Nintendo\u2019s Talking Flower got a small price cut",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 6.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "edd7a940b2c5ec3eeb50ec7cf89a860f7d052053d0d9118476665ab4ddfc5525": {
-      "created_at": "2026-07-11T15:42:25Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "OpenAI is expanding ChatGPT's reach into households by hiring a product manager for family-focused features.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "OpenAI bets on families as ChatGPT goes deeper into households",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 3,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "OpenAI is expanding ChatGPT's reach into households by hiring a product manager focused on families, caregivers, and older adults. This move signals a strategic shift towards broader household adoption. Link: https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *OpenAI bets on families as ChatGPT goes deeper into households*\n\nChatGPT is hiring a dedicated product manager to build experiences for families, caregivers, and older adults, according to a job posting.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "OpenAI is hiring a product manager to build ChatGPT features for families and caregivers. This signals a strategic shift towards broader household adoption. https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
-          "twitter": "OpenAI is hiring a product manager to build ChatGPT features for families and caregivers. https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/"
-        }
-      }
-    },
     "ef191f562094ae478a3609885a9da91c69dc119391d7fff8dc06184418685d47": {
       "created_at": "2026-07-12T10:57:26Z",
       "payload": {
@@ -713,6 +650,29 @@
         ],
         "best_index": 1,
         "best_score": 2.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "f70e750d415c41c8b966283a0efdf0a4a4d2a245d351de8b75c380820072f0c6": {
+      "created_at": "2026-07-12T16:31:47Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "Research discussion on Claude and constrained optimization, niche impact, fresh, lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Autoresearch, Claude and Constrained Optimization",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 3,
+        "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -785,6 +745,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 AI Takes the Classroom\nSome of America's wealthy are choosing AI-powered education for their kids over traditional schools, with companies like Forge Prep leading the charge.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AIeducation #EdTech #Innovation\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "The wealthy are increasingly using AI to educate their kids, a trend that could have significant implications for the future of education, @TheVerge #AIeducation",
         "twitter": "Wealthy Americans are embracing AI-powered education for their kids, despite widespread skepticism about AI, @TheVerge reports #AIeducation #EdTech"
+      }
+    },
+    "28750bee5cb6843b452752e9e1dee88bfc4f0e667039c86513c98c73153bd81d": {
+      "created_at": "2026-07-12T16:31:47Z",
+      "payload": {
+        "facebook": "The demise of Apple's self-driving car program may have been a blessing in disguise, as it led to significant advancements in on-device AI processing, a crucial aspect of modern device development. This legacy can be seen in the company's powerful AI chips. #AI #Apple #Tech",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Apple's Self-Driving Car Program Leaves Lasting Legacy\nThe failure of Apple's self-driving car program led to the development of powerful AI chips, now used in various devices.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #Apple #Tech\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Apple's self-driving car program may not have succeeded, but it paved the way for powerful AI chips, a testament to the company's innovative spirit @Apple #AI",
+        "twitter": "Apple's failed self-driving car program inadvertently drove innovation in AI chips, now powering devices @Apple #AI"
       }
     },
     "30189621dbe30c28d258ede3e92acdeeef3a40ec14db081a22f65997ae9d93ef": {
@@ -2040,12 +2009,6 @@
       "status": "scoring_attempted",
       "title": "Show HN: Onboard-CLI, a LLM powered and AST-based tool to visualize codebase"
     },
-    "https://github.com/christopherkarani/Espresso": {
-      "canonical_url": "https://github.com/christopherkarani/Espresso",
-      "created_at": "2026-07-05T15:58:56Z",
-      "status": "scoring_attempted",
-      "title": "Train and run transformers directly on Apple's Neural Engine"
-    },
     "https://github.com/cosmtrek/mindwalk": {
       "canonical_url": "https://github.com/cosmtrek/mindwalk",
       "created_at": "2026-07-12T08:10:36Z",
@@ -2868,17 +2831,23 @@
       "status": "scoring_attempted",
       "title": "Companies are scrambling to curtail soaring AI costs"
     },
+    "https://www.economist.com/leaders/2026/07/09/a-no-brainer-for-protecting-your-brain": {
+      "canonical_url": "https://www.economist.com/leaders/2026/07/09/a-no-brainer-for-protecting-your-brain",
+      "created_at": "2026-07-12T16:31:47Z",
+      "status": "scoring_attempted",
+      "title": "A no-brainer for protecting your brain"
+    },
+    "https://www.elliotcsmith.com/autoresearch-claude-and-constrained-optimization": {
+      "canonical_url": "https://www.elliotcsmith.com/autoresearch-claude-and-constrained-optimization",
+      "created_at": "2026-07-12T16:31:47Z",
+      "status": "scoring_attempted",
+      "title": "Autoresearch, Claude and Constrained Optimization"
+    },
     "https://www.ello.com/blog/teaching-a-child-in-1000-ms": {
       "canonical_url": "https://www.ello.com/blog/teaching-a-child-in-1000-ms",
       "created_at": "2026-07-10T05:10:09Z",
       "status": "scoring_attempted",
       "title": "Building a real-time AI tutor for 5-year-olds"
-    },
-    "https://www.euronews.com/2026/07/05/italy-could-be-the-next-country-to-build-a-solar-railway-after-switzerlands-successful-tri": {
-      "canonical_url": "https://www.euronews.com/2026/07/05/italy-could-be-the-next-country-to-build-a-solar-railway-after-switzerlands-successful-tri",
-      "created_at": "2026-07-05T15:58:56Z",
-      "status": "scoring_attempted",
-      "title": "Solar rail could become common in Europe after successful trial in Switzerland"
     },
     "https://www.ginagallery.com": {
       "canonical_url": "https://www.ginagallery.com",
@@ -3725,6 +3694,12 @@
       "created_at": "2026-07-11T01:23:17Z",
       "status": "scoring_attempted",
       "title": "No, Flock isn&#8217;t threatening people for debating surveillance"
+    },
+    "https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra": {
+      "canonical_url": "https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra",
+      "created_at": "2026-07-12T16:31:47Z",
+      "status": "scoring_attempted",
+      "title": "Apple\u2019s failed self-driving car program left a legacy of powerful AI chips"
     },
     "https://www.theverge.com/transportation/962187/amble-golf-cart-moon-buggy-ev-design-price-specs": {
       "canonical_url": "https://www.theverge.com/transportation/962187/amble-golf-cart-moon-buggy-ev-design-price-specs",
