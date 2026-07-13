@@ -173,6 +173,29 @@
         }
       }
     },
+    "1b0bfc7736da6f24400744dd846b167f7673447bc916cc8406d70bacdb82733f": {
+      "created_at": "2026-07-13T22:53:02Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 0.5,
+            "index": 1,
+            "novelty_score": 0.2,
+            "reason": "Comments section with no substantive content.",
+            "red_flag": true,
+            "red_flag_reason": "Comments",
+            "source_score": 0.5,
+            "title": "Claude is just Mr. Meeseeks",
+            "total_score": 2.7
+          }
+        ],
+        "best_index": 1,
+        "best_score": 2.7,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "21eba4dbc0de28218e13bec0310346ad38ea5569ab33f503f11cd27c42d64233": {
       "created_at": "2026-07-13T20:53:19Z",
       "payload": {
@@ -1272,6 +1295,34 @@
         "social_posts": {}
       }
     },
+    "f8f0f15a85d89b0e894afa6cc398886a64ff56e0d429f5d8cb0411ce1f524ab5": {
+      "created_at": "2026-07-13T22:53:02Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "New research release with significant impact on reinforcement learning, published within the last hour from a Tier A source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Skyfall AI Releases MORPHEUS: A Persistent Enterprise Simulation Benchmark That Makes Continual Reinforcement Learning Necessary Under Structured Non-Stationarity",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Skyfall AI has released MORPHEUS, a persistent enterprise simulation benchmark that necessitates continual reinforcement learning under structured non-stationarity. The platform features parameterizable regime shifts and a six-metric evaluation protocol, addressing the limitations of current methods like PPO, HER, EWC, and LCM. This development could significantly impact the field of reinforcement learning.\nLink: https://www.marktechpost.com/2026/07/13/skyfall-ai-releases-morpheus-a-persistent-enterprise-simulation-benchmark-that-makes-continual-reinforcement-learning-necessary-under-structured-non-stationarity/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Skyfall AI Releases MORPHEUS: A Persistent Enterprise Simulation Benchmark That Makes Continual Reinforcement Learning Necessary Under Structured Non-Stationarity*\n\nMORPHEUS from Skyfall AI is a persistent enterprise simulation platform for continual reinforcement learning. It runs worlds that never reset, using parameterisable regime shifts and a six-metric evaluation protocol.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/07/13/skyfall-ai-releases-morpheus-a-persistent-enterprise-simulation-benchmark-that-makes-continual-reinforcement-learning-necessary-under-structured-non-stationarity/",
+          "threads": "Skyfall AI's MORPHEUS benchmark introduces persistent enterprise simulations, forcing continual reinforcement learning under structured non-stationarity. The platform features parameterizable regime shifts and a six-metric evaluation protocol, addressing the limitations of current methods like PPO, HER, EWC, and LCM.\nhttps://www.marktechpost.com/2026/07/13/skyfall-ai-releases-morpheus-a-persistent-enterprise-simulation-benchmark-that-makes-continual-reinforcement-learning-necessary-under-structured-non-stationarity/",
+          "twitter": "Skyfall AI's MORPHEUS benchmark introduces persistent enterprise simulations, forcing continual reinforcement learning under structured non-stationarity.\nhttps://www.marktechpost.com/2026/07/13/skyfall-ai-releases-morpheus-a-persistent-enterprise-simulation-benchmark-that-makes-continual-reinforcement-learning-necessary-under-structured-non-stationarity/"
+        }
+      }
+    },
     "fafa3a1b1a0954b74b6bd82efa38c5fd28e18d2ff2fb382f473c768c10990d83": {
       "created_at": "2026-07-13T05:53:58Z",
       "payload": {
@@ -1464,6 +1515,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Defenders adopt prompt injection to combat hackers\nContext bombing tricks hacking agents into shutting down before they can cause harm.\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#cybersecurity #infosec #security\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Defenders are now using prompt injection to their advantage, employing a technique called context bombing to shut down hacking agents before they can do harm @ArsTechnica #cybersecurity",
         "twitter": "Defenders are turning the tables on hackers with context bombing, a technique that tricks hacking agents into shutting down @ArsTechnica #cybersecurity"
+      }
+    },
+    "2f9165a9d968f3869b6000746cfd9e96b7d68d2f52f7b7f278ac7a0491b8c51f": {
+      "created_at": "2026-07-13T22:53:02Z",
+      "payload": {
+        "facebook": "The field of reinforcement learning is advancing rapidly, with Skyfall AI's MORPHEUS platform offering a persistent enterprise simulation environment that never resets. This development has significant implications for continual learning, making it a necessary component under structured non-stationarity. #ReinforcementLearning #AI #ContinualLearning",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 MORPHEUS Platform Released\nMORPHEUS from Skyfall AI is a persistent enterprise simulation platform for continual reinforcement learning, running worlds that never reset.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#ReinforcementLearning #AI #ContinualLearning\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "MORPHEUS, the new simulation platform from Skyfall AI, is pushing the boundaries of continual reinforcement learning with its persistent worlds and regime shifts, @MarkTechPost #ReinforcementLearning",
+        "twitter": "Continual reinforcement learning gets a boost with MORPHEUS, a persistent simulation platform from Skyfall AI, @MarkTechPost #ReinforcementLearning"
       }
     },
     "30189621dbe30c28d258ede3e92acdeeef3a40ec14db081a22f65997ae9d93ef": {
@@ -2965,6 +3025,12 @@
       "status": "scoring_attempted",
       "title": "Show HN: Reame \u2013 a CPU inference server that gets faster as it runs"
     },
+    "https://github.com/thephw/claude-meseeks": {
+      "canonical_url": "https://github.com/thephw/claude-meseeks",
+      "created_at": "2026-07-13T22:53:02Z",
+      "status": "scoring_attempted",
+      "title": "Claude is just Mr. Meeseeks"
+    },
     "https://github.com/tiliondev/fortress": {
       "canonical_url": "https://github.com/tiliondev/fortress",
       "created_at": "2026-07-08T03:28:53Z",
@@ -4044,6 +4110,12 @@
       "created_at": "2026-07-13T09:18:49Z",
       "status": "scoring_attempted",
       "title": "Prime Intellect Releases Verifiers v1: Composable Tasksets, Harnesses, and Runtimes for Agentic RL Training and Evaluations"
+    },
+    "https://www.marktechpost.com/2026/07/13/skyfall-ai-releases-morpheus-a-persistent-enterprise-simulation-benchmark-that-makes-continual-reinforcement-learning-necessary-under-structured-non-stationarity": {
+      "canonical_url": "https://www.marktechpost.com/2026/07/13/skyfall-ai-releases-morpheus-a-persistent-enterprise-simulation-benchmark-that-makes-continual-reinforcement-learning-necessary-under-structured-non-stationarity",
+      "created_at": "2026-07-13T22:53:02Z",
+      "status": "scoring_attempted",
+      "title": "Skyfall AI Releases MORPHEUS: A Persistent Enterprise Simulation Benchmark That Makes Continual Reinforcement Learning Necessary Under Structured Non-Stationarity"
     },
     "https://www.marktechpost.com/2026/07/13/stanford-researchers-introduce-trace": {
       "canonical_url": "https://www.marktechpost.com/2026/07/13/stanford-researchers-introduce-trace",
