@@ -1,28 +1,5 @@
 {
   "cerebras_scoring": {
-    "0d0f42bbfe033185dff60c7a2994de702df7fc213f7a97deef0089a6bc305413": {
-      "created_at": "2026-07-12T15:37:08Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.0,
-            "index": 2,
-            "novelty_score": 0.0,
-            "reason": "Comments section with no substantive content.",
-            "red_flag": true,
-            "red_flag_reason": "Comments",
-            "source_score": 0.5,
-            "title": "Gina Gallery of International Naive Art",
-            "total_score": 2.0
-          }
-        ],
-        "best_index": 2,
-        "best_score": 2.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "0ec51ef926ba216dcc8ac223afc662b22e388cff004e777a4e66f7babb445bfe": {
       "created_at": "2026-07-13T15:36:16Z",
       "payload": {
@@ -331,29 +308,6 @@
         }
       }
     },
-    "3996f4d8b85087a1b5f5e11e5786fbf4725fe2da64cc35fe7e452240223e90bf": {
-      "created_at": "2026-07-12T15:37:08Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.0,
-            "index": 4,
-            "novelty_score": 0.2,
-            "reason": "This article is a tutorial and not relevant to software engineers or AI researchers.",
-            "red_flag": true,
-            "red_flag_reason": "tutorial",
-            "source_score": 0.5,
-            "title": "Mystery behind Moana: After 1,700 years, why did Polynesians suddenly sail east?",
-            "total_score": 2.2
-          }
-        ],
-        "best_index": 4,
-        "best_score": 2.2,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "451d3cb215a54463857f1f96d78b602c6573673e9d064256b76d9502854d1a50": {
       "created_at": "2026-07-12T16:31:47Z",
       "payload": {
@@ -594,25 +548,25 @@
         }
       }
     },
-    "6d06e34f44f48d90ba17ffa134ab6ef31da45e0edc7710e68f07c3df900acf83": {
-      "created_at": "2026-07-12T15:37:08Z",
+    "663e68024a129406ce3f641eef252983b8063afa779f1f584828161efe7a3f75": {
+      "created_at": "2026-07-13T16:30:09Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 2.0,
-            "impact_score": 0.0,
-            "index": 0,
-            "novelty_score": 0.0,
-            "reason": "This is a sales announcement, not relevant to software engineers or AI researchers.",
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 9,
+            "novelty_score": 2.0,
+            "reason": "Benchmarking older GPUs with modern workloads is useful but niche.",
             "red_flag": false,
             "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "One of SteelSeries\u2019 best gaming headsets is over $100 off",
-            "total_score": 3.5
+            "source_score": 0.5,
+            "title": "Benchmarking 15 \"E-Waste\" GPUs with Modern Workloads",
+            "total_score": 5.5
           }
         ],
-        "best_index": 0,
-        "best_score": 3.5,
+        "best_index": 9,
+        "best_score": 5.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -675,6 +629,29 @@
         "social_posts": {}
       }
     },
+    "7dd1edf251622930e5c16cf3e38efd22e435dcbd80811534841ec32d83c031ca": {
+      "created_at": "2026-07-13T16:30:09Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1,
+            "impact_score": 2.5,
+            "index": 13,
+            "novelty_score": 2.5,
+            "reason": "Expert analysis on world models, but not a new release or research.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Simulating everything, sort of: The promise and limits of world models",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 13,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "820c0d3233423ddfee2004f509e569238272f0cf5f2302d75c1c5139cd8069b3": {
       "created_at": "2026-07-13T15:36:16Z",
       "payload": {
@@ -729,6 +706,29 @@
         ],
         "best_index": 2,
         "best_score": 4.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "8ce10aa2cee168a10d158c209e3663ab74ab3697f9fcddaefa9dec5964f5388a": {
+      "created_at": "2026-07-13T16:30:09Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "New release with moderate impact, fresh, but from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Apple's new SpeechAnalyzer API, benchmarked against Whisper and its predecessor",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -944,6 +944,29 @@
           "threads": "NeuroVFM, a new neuroimaging foundation model from the University of Michigan, trained on 5.24M clinical MRI and CT volumes. It uses Vol-JEPA to learn brain anatomy and pathology without labels. https://www.marktechpost.com/2026/07/12/meet-neurovfm-a-new-neuroimaging-foundation-model-trained-with-vol-jepa-on-uncurated-clinical-mri-and-ct-volumes/",
           "twitter": "University of Michigan researchers release NeuroVFM, a neuroimaging foundation model trained on 5.24M clinical MRI and CT volumes. https://www.marktechpost.com/2026/07/12/meet-neurovfm-a-new-neuroimaging-foundation-model-trained-with-vol-jepa-on-uncurated-clinical-mri-and-ct-volumes/"
         }
+      }
+    },
+    "e3bccafc8bac490af8b7558f5a50f628e857f1f06d78c857b4b8bbea8c2397d5": {
+      "created_at": "2026-07-13T16:30:09Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "Wikipedia's status under the UK Online Safety Act is a significant development for open knowledge platforms.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Wikipedia escapes Category 1 designation under the UK Online Safety Act for now",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "edbd0dec46b4784873fe4fdf0939eb1abe913fa1f0c26b6f10807d5dd4b49ffa": {
@@ -1664,6 +1687,12 @@
       "created_at": "2026-07-09T21:43:18Z",
       "status": "scoring_attempted",
       "title": "OpenAI wants its new tool to do your work for you and with you"
+    },
+    "https://arstechnica.com/ai/2026/07/simulating-everything-sort-of-the-promise-and-limits-of-world-models": {
+      "canonical_url": "https://arstechnica.com/ai/2026/07/simulating-everything-sort-of-the-promise-and-limits-of-world-models",
+      "created_at": "2026-07-13T16:30:09Z",
+      "status": "scoring_attempted",
+      "title": "Simulating everything, sort of: The promise and limits of world models"
     },
     "https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university": {
       "canonical_url": "https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university",
@@ -2577,11 +2606,23 @@
       "status": "scoring_attempted",
       "title": "What Do We Know About the Microplastics Inside Us?"
     },
+    "https://en.wikipedia.org/wiki/Wikipedia:Wikipedia_Signpost/2026-07-13/Special_report": {
+      "canonical_url": "https://en.wikipedia.org/wiki/Wikipedia:Wikipedia_Signpost/2026-07-13/Special_report",
+      "created_at": "2026-07-13T16:30:09Z",
+      "status": "scoring_attempted",
+      "title": "Wikipedia escapes Category 1 designation under the UK Online Safety Act for now"
+    },
     "https://entire.io/blog/how-version-control-will-evolve-for-the-agent-boom": {
       "canonical_url": "https://entire.io/blog/how-version-control-will-evolve-for-the-agent-boom",
       "created_at": "2026-07-09T13:28:46Z",
       "status": "scoring_attempted",
       "title": "How Version Control Will Evolve for the Agent Boom"
+    },
+    "https://esologic.com/benchmarking-tesla-gpus": {
+      "canonical_url": "https://esologic.com/benchmarking-tesla-gpus",
+      "created_at": "2026-07-13T16:30:09Z",
+      "status": "scoring_attempted",
+      "title": "Benchmarking 15 \"E-Waste\" GPUs with Modern Workloads"
     },
     "https://fabiensanglard.net/silpheed/index.html": {
       "canonical_url": "https://fabiensanglard.net/silpheed/index.html",
@@ -2618,6 +2659,12 @@
       "created_at": "2026-07-12T19:43:24Z",
       "status": "scoring_attempted",
       "title": "I love LLMs, I hate hype"
+    },
+    "https://get-inscribe.com/blog/apple-speech-api-benchmark.html": {
+      "canonical_url": "https://get-inscribe.com/blog/apple-speech-api-benchmark.html",
+      "created_at": "2026-07-13T16:30:09Z",
+      "status": "scoring_attempted",
+      "title": "Apple's new SpeechAnalyzer API, benchmarked against Whisper and its predecessor"
     },
     "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547": {
       "canonical_url": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
