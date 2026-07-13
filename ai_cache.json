@@ -1,28 +1,5 @@
 {
   "cerebras_scoring": {
-    "049d4d3e9b951957d50e28807f4471a0b69264a1efd669e1c069144101fc2275": {
-      "created_at": "2026-07-12T11:54:06Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Interesting discussion on modern coding agents but limited impact and source tier.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Old and new apps, via modern coding agents by Terry Tao",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "0d0f42bbfe033185dff60c7a2994de702df7fc213f7a97deef0089a6bc305413": {
       "created_at": "2026-07-12T15:37:08Z",
       "payload": {
@@ -42,6 +19,29 @@
         ],
         "best_index": 2,
         "best_score": 2.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "14748ed155941eab083bbf2451d87151f1b742d526ae364036540f2b45336cc5": {
+      "created_at": "2026-07-13T12:43:58Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 1.5,
+            "reason": "Interesting niche project but limited impact and low-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "A voxel Tokyo in real Japan time \u2013 ride the Yamanote line and study Japanese",
+            "total_score": 4.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 4.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -622,6 +622,29 @@
         "social_posts": {}
       }
     },
+    "92d5f9acbc33c5a3c6c9b2ccaecab62fdd5fce2cda2464a3e981ac4cd059fedb": {
+      "created_at": "2026-07-13T12:43:58Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 1.5,
+            "reason": "Podcasts are niche and not as impactful as research or new releases.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Podcast: Governance in the Age of AI: A Conversation with Sarah Wells",
+            "total_score": 5.5
+          }
+        ],
+        "best_index": 2,
+        "best_score": 5.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "b04b13b18b36998588113fb7a663ccd8aaa74dfbe489922b74776930057cc659": {
       "created_at": "2026-07-12T19:43:24Z",
       "payload": {
@@ -892,34 +915,6 @@
         "social_posts": {}
       }
     },
-    "ef191f562094ae478a3609885a9da91c69dc119391d7fff8dc06184418685d47": {
-      "created_at": "2026-07-12T10:57:26Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Researchers demonstrate how AI and quantum computing can aid in drug development for underserved populations and rare diseases.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Scientists\u2019 Side Hustle? Using AI and Quantum Computing to Generate New Peptides",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "A new study shows how AI and quantum computing can be used to develop drugs for rare diseases and underserved populations. Researchers cobbled together funding and time to demonstrate this potential. Link: https://www.wired.com/story/scientists-using-ai-and-quantum-computing-to-generate-new-peptides",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Scientists\u2019 Side Hustle? Using AI and Quantum Computing to Generate New Peptides*\n\nResearchers demonstrate how AI and quantum computing can aid in drug development for underserved populations and rare diseases.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.wired.com/story/scientists-using-ai-and-quantum-computing-to-generate-new-peptides\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "AI and quantum computing are being used to develop drugs for rare diseases and underserved populations. Researchers show the potential in a new study.\nhttps://www.wired.com/story/scientists-using-ai-and-quantum-computing-to-generate-new-peptides",
-          "twitter": "Researchers combine AI and quantum computing to develop drugs for rare diseases and underserved populations.\nhttps://www.wired.com/story/scientists-using-ai-and-quantum-computing-to-generate-new-peptides/"
-        }
-      }
-    },
     "f70e750d415c41c8b966283a0efdf0a4a4d2a245d351de8b75c380820072f0c6": {
       "created_at": "2026-07-12T16:31:47Z",
       "payload": {
@@ -1045,6 +1040,29 @@
         ],
         "best_index": 1,
         "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "fce589399ec71b16252559a6b4e592e253172d5b65fedbac66caecf3d434a2b5": {
+      "created_at": "2026-07-13T12:43:58Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "A practical deep dive into optimizing multi-region AWS APIs with a hidden round trip discovery.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Article: Removing a Hidden Round Trip from a Multi-Region AWS API",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -2630,6 +2648,12 @@
       "status": "scoring_attempted",
       "title": "Nvidia, CoreWeave, and Nebius: Inside the Circular Financing of the GPU Boom"
     },
+    "https://jivx.com/densha": {
+      "canonical_url": "https://jivx.com/densha",
+      "created_at": "2026-07-13T12:43:58Z",
+      "status": "scoring_attempted",
+      "title": "A voxel Tokyo in real Japan time \u2013 ride the Yamanote line and study Japanese"
+    },
     "https://kastra.ai": {
       "canonical_url": "https://kastra.ai",
       "created_at": "2026-07-09T20:10:00Z",
@@ -3278,12 +3302,6 @@
       "status": "scoring_attempted",
       "title": "AWS GraphRAG deployment cuts drug research cycles by 87%"
     },
-    "https://www.artificialintelligence-news.com/news/china-ai-companion-rules": {
-      "canonical_url": "https://www.artificialintelligence-news.com/news/china-ai-companion-rules",
-      "created_at": "2026-07-06T11:24:55Z",
-      "status": "scoring_attempted",
-      "title": "China\u2019s AI companion rules: what Beijing is really going after"
-    },
     "https://www.artificialintelligence-news.com/news/insilico-medicine-advances-ai-drug-for-ipf-to-phase-iii-trials": {
       "canonical_url": "https://www.artificialintelligence-news.com/news/insilico-medicine-advances-ai-drug-for-ipf-to-phase-iii-trials",
       "created_at": "2026-07-07T16:28:08Z",
@@ -3385,6 +3403,12 @@
       "created_at": "2026-07-09T08:47:58Z",
       "status": "scoring_attempted",
       "title": "Why developers are ditching GitHub for Codeberg and self-hosting alternatives"
+    },
+    "https://www.infoq.com/articles/aws-multi-region-signing": {
+      "canonical_url": "https://www.infoq.com/articles/aws-multi-region-signing",
+      "created_at": "2026-07-13T12:43:58Z",
+      "status": "scoring_attempted",
+      "title": "Article: Removing a Hidden Round Trip from a Multi-Region AWS API"
     },
     "https://www.infoq.com/articles/multi-region-latency-cost-tradeoffs": {
       "canonical_url": "https://www.infoq.com/articles/multi-region-latency-cost-tradeoffs",
@@ -3512,11 +3536,11 @@
       "status": "scoring_attempted",
       "title": "Podcast: Formal Methods for Every Engineer in an AI-Powered Future"
     },
-    "https://www.infoq.com/podcasts/new-blueprint-cloud-security": {
-      "canonical_url": "https://www.infoq.com/podcasts/new-blueprint-cloud-security",
-      "created_at": "2026-07-06T11:24:55Z",
+    "https://www.infoq.com/podcasts/governance-age-ai": {
+      "canonical_url": "https://www.infoq.com/podcasts/governance-age-ai",
+      "created_at": "2026-07-13T12:43:58Z",
       "status": "scoring_attempted",
-      "title": "Podcast: Spite-Driven Engineering: A New Blueprint for Cloud Security in the AI Native Era"
+      "title": "Podcast: Governance in the Age of AI: A Conversation with Sarah Wells"
     },
     "https://www.infoq.com/presentations/chaos-engineering-gpu": {
       "canonical_url": "https://www.infoq.com/presentations/chaos-engineering-gpu",
@@ -3536,12 +3560,6 @@
       "status": "scoring_attempted",
       "title": "Presentation: Accelerating Netflix Data: A Cross-Team Journey from Offline to Online"
     },
-    "https://www.infoq.com/presentations/rust-autonomous-mobile-robots": {
-      "canonical_url": "https://www.infoq.com/presentations/rust-autonomous-mobile-robots",
-      "created_at": "2026-07-06T11:24:55Z",
-      "status": "scoring_attempted",
-      "title": "Presentation: Practical Robustness: Going Beyond Memory Safety in Rust"
-    },
     "https://www.iroh.computer/blog/mesh-llm": {
       "canonical_url": "https://www.iroh.computer/blog/mesh-llm",
       "created_at": "2026-07-11T23:32:54Z",
@@ -3553,12 +3571,6 @@
       "created_at": "2026-07-06T16:50:48Z",
       "status": "scoring_attempted",
       "title": "AMD Ryzen AI Halo \u2013 $4k AI Dev Kit"
-    },
-    "https://www.map.signalbox.io": {
-      "canonical_url": "https://www.map.signalbox.io",
-      "created_at": "2026-07-06T11:24:55Z",
-      "status": "scoring_attempted",
-      "title": "Real-time map of Great Britain's rail network"
     },
     "https://www.marktechpost.com/2026/07/06/tencent-releases-hy3-open-295b-moe-model": {
       "canonical_url": "https://www.marktechpost.com/2026/07/06/tencent-releases-hy3-open-295b-moe-model",
