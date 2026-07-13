@@ -46,27 +46,44 @@
         "social_posts": {}
       }
     },
-    "1e3bdf3fa7a26217cfc340a102bb6cc7af64fcec64061effa3aaa856cd4c5da4": {
-      "created_at": "2026-07-12T07:23:33Z",
+    "1a383128d123c38ef20287c46f4f84bd44a4f97c3b0cfcfe509f313d017cf87d": {
+      "created_at": "2026-07-13T09:18:49Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
             "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Important bug fix in a widely used Rust HTTP library.",
+            "novelty_score": 1.5,
+            "reason": "Industry move with moderate impact and fresh source.",
             "red_flag": false,
             "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Cloudflare Identifies Race Condition in hyper\u2019s HTTP/1 Implementation",
-            "total_score": 7.5
+            "source_score": 1.5,
+            "title": "Waze is getting a bunch of new AI-powered features",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "New research with significant impact and fresh source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Stanford Researchers Introduce TRACE: A Capability-Targeted Agentic Training System That Turns Recurrent Agent Failures Into Synthetic RL Environment",
+            "total_score": 8.5
           }
         ],
-        "best_index": 0,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
+        "best_index": 1,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Stanford researchers have developed TRACE, a system that diagnoses agent failures and creates synthetic training environments to improve LLM capabilities. This could be a significant step forward in making AI agents more reliable. Link: https://www.marktechpost.com/2026/07/13/stanford-researchers-introduce-trace/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Stanford Researchers Introduce TRACE: A Capability-Targeted Agentic Training System That Turns Recurrent Agent Failures Into Synthetic RL Environment*\n\nStanford's TRACE system diagnoses agent failures and creates synthetic training environments to improve LLM capabilities.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/07/13/stanford-researchers-introduce-trace/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Stanford's TRACE system converts agent failures into synthetic training environments, enhancing LLM capabilities. This approach could make AI agents more reliable. https://www.marktechpost.com/2026/07/13/stanford-researchers-introduce-trace/",
+          "twitter": "Stanford's TRACE system turns agent failures into synthetic training environments, improving LLM capabilities. https://www.marktechpost.com/2026/07/13/stanford-researchers-introduce-trace/"
+        }
       }
     },
     "250f0eaf4ca9094b86c476a19f170e4aae26fbfd1470cb5ca43b086763b90652": {
@@ -582,25 +599,25 @@
         "social_posts": {}
       }
     },
-    "916f99cc717ed8f36e7cac960d40fced6610eca9f2683b25847fca3444430723": {
-      "created_at": "2026-07-12T08:10:36Z",
+    "890d0f5c801410b4e7bb5f370b0b5aa171fb37959e225243e1197cbc49dfe41e": {
+      "created_at": "2026-07-13T09:18:49Z",
       "payload": {
         "articles": [
           {
             "freshness_score": 1.5,
             "impact_score": 1.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Interesting tool for visualizing coding sessions, but niche impact and lower-tier source.",
+            "index": 2,
+            "novelty_score": 1.5,
+            "reason": "Interesting but not directly relevant to software engineers or AI researchers.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 0.5,
-            "title": "Show HN: Mindwalk \u2013 Replay coding-agent sessions on a 3D map of your codebase",
-            "total_score": 6.0
+            "title": "Berkshire's $397B Bet Against an Overheated Market",
+            "total_score": 4.5
           }
         ],
-        "best_index": 1,
-        "best_score": 6.0,
+        "best_index": 2,
+        "best_score": 4.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -709,6 +726,29 @@
         "social_posts": {}
       }
     },
+    "c7612543a83dff37ab24484b8d3aace43a1edd25f7c420b5e993f32460b1696b": {
+      "created_at": "2026-07-13T09:18:49Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.5,
+            "index": 3,
+            "novelty_score": 0.2,
+            "reason": "This is a travel blog post, not relevant to software engineers or AI researchers.",
+            "red_flag": true,
+            "red_flag_reason": "tutorial",
+            "source_score": 0.5,
+            "title": "Interrail: 6,379Km and 13 Countries over 7 weeks",
+            "total_score": 2.2
+          }
+        ],
+        "best_index": 3,
+        "best_score": 2.2,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "c7f829c86df1698b575d07bba3ed88eb294308dd087448982dfe90d9f48a0375": {
       "created_at": "2026-07-12T18:31:31Z",
       "payload": {
@@ -781,6 +821,29 @@
           "threads": "NeuroVFM, a new neuroimaging foundation model from the University of Michigan, trained on 5.24M clinical MRI and CT volumes. It uses Vol-JEPA to learn brain anatomy and pathology without labels. https://www.marktechpost.com/2026/07/12/meet-neurovfm-a-new-neuroimaging-foundation-model-trained-with-vol-jepa-on-uncurated-clinical-mri-and-ct-volumes/",
           "twitter": "University of Michigan researchers release NeuroVFM, a neuroimaging foundation model trained on 5.24M clinical MRI and CT volumes. https://www.marktechpost.com/2026/07/12/meet-neurovfm-a-new-neuroimaging-foundation-model-trained-with-vol-jepa-on-uncurated-clinical-mri-and-ct-volumes/"
         }
+      }
+    },
+    "edbd0dec46b4784873fe4fdf0939eb1abe913fa1f0c26b6f10807d5dd4b49ffa": {
+      "created_at": "2026-07-13T09:18:49Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 4,
+            "novelty_score": 2.5,
+            "reason": "New release with significant architectural changes in agentic RL training and evaluation.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Prime Intellect Releases Verifiers v1: Composable Tasksets, Harnesses, and Runtimes for Agentic RL Training and Evaluations",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 4,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "ee0625c7e01cdf4e8fe666713439414dbdad5444101ec94081c0dad82080a2ba": {
@@ -1189,6 +1252,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Autonomous robots are on the rise\nRobot autonomy is advancing rapidly thanks to AI, with potential applications in workplaces and homes.\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n#AI #Robotics #Autonomy\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "AI is enabling autonomous robot workers to take on more complex tasks, according to experts, with potential applications in workplaces and homes @ArsTechnica #AI",
         "twitter": "Robot autonomy is advancing rapidly thanks to AI, says @ArsTechnica, with potential applications in workplaces and homes #AI"
+      }
+    },
+    "8dccf5e1a80bf65af2b391d0f85ecfdc7f96093b650b8057e56e474878e4d7cc": {
+      "created_at": "2026-07-13T09:18:49Z",
+      "payload": {
+        "facebook": "Researchers at Stanford have introduced TRACE, a novel training system designed to improve the capabilities of large language models by identifying and addressing their failures. This innovation has the potential to significantly enhance the performance of these models. #AI #MachineLearning #LLMs",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 New Training System for LLMs\nStanford researchers have developed TRACE, a system that identifies and addresses capability gaps in large language models, leading to improved performance.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #MachineLearning #LLMs\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Stanford's TRACE system diagnoses capability gaps in agentic LLMs and synthesizes training environments to improve their performance, @StanfordAILab #AI",
+        "twitter": "Stanford researchers develop TRACE, a system that identifies and addresses capability gaps in agentic LLMs, @StanfordAILab #AI"
       }
     },
     "94b638a0d2591b448566cd1e7dff69fc328b37b51c4e3d360c67205d1d2cc0c6": {
@@ -2570,12 +2642,6 @@
       "status": "scoring_attempted",
       "title": "Tenda firmware (multiple versions) contains hidden authentication backdoor"
     },
-    "https://kyrall.com": {
-      "canonical_url": "https://kyrall.com",
-      "created_at": "2026-07-06T08:58:39Z",
-      "status": "scoring_attempted",
-      "title": "Generate parametric, manufacturable 3D models in seconds"
-    },
     "https://languagelog.ldc.upenn.edu/myl/Good1964.pdf": {
       "canonical_url": "https://languagelog.ldc.upenn.edu/myl/Good1964.pdf",
       "created_at": "2026-07-11T13:54:42Z",
@@ -2779,6 +2845,12 @@
       "created_at": "2026-07-07T18:30:58Z",
       "status": "scoring_attempted",
       "title": "Automating AI Away"
+    },
+    "https://shkspr.mobi/blog/2026/07/another-ridiculous-interrail-holiday-6379km-and-13-countries-over-7-weeks": {
+      "canonical_url": "https://shkspr.mobi/blog/2026/07/another-ridiculous-interrail-holiday-6379km-and-13-countries-over-7-weeks",
+      "created_at": "2026-07-13T09:18:49Z",
+      "status": "scoring_attempted",
+      "title": "Interrail: 6,379Km and 13 Countries over 7 weeks"
     },
     "https://spectrum.ieee.org/ai-science-research-flattens-discovery": {
       "canonical_url": "https://spectrum.ieee.org/ai-science-research-flattens-discovery",
@@ -3146,12 +3218,6 @@
       "status": "scoring_attempted",
       "title": "Mystery behind Moana: After 1,700 years, why did Polynesians suddenly sail east?"
     },
-    "https://tomtunguz.com/ai-spend-breakeven-2029": {
-      "canonical_url": "https://tomtunguz.com/ai-spend-breakeven-2029",
-      "created_at": "2026-07-06T08:58:39Z",
-      "status": "scoring_attempted",
-      "title": "When AI Costs More Than the Engineer"
-    },
     "https://twitter.com/claudeai/status/2074548242386178258": {
       "canonical_url": "https://twitter.com/claudeai/status/2074548242386178258",
       "created_at": "2026-07-08T03:28:53Z",
@@ -3266,6 +3332,12 @@
       "status": "scoring_attempted",
       "title": "Terrifying moment Grandpa is launched eight feet in the air by charging bison"
     },
+    "https://www.disruptionbanking.com/2026/07/13/inside-berkshires-397-billion-bet-against-an-overheated-market": {
+      "canonical_url": "https://www.disruptionbanking.com/2026/07/13/inside-berkshires-397-billion-bet-against-an-overheated-market",
+      "created_at": "2026-07-13T09:18:49Z",
+      "status": "scoring_attempted",
+      "title": "Berkshire's $397B Bet Against an Overheated Market"
+    },
     "https://www.dw.com/en/germany-migrants-skilled-workers-integration-labor-market-bureaucracy-language-housing/a-77853162": {
       "canonical_url": "https://www.dw.com/en/germany-migrants-skilled-workers-integration-labor-market-bureaucracy-language-housing/a-77853162",
       "created_at": "2026-07-07T18:30:58Z",
@@ -3344,12 +3416,6 @@
       "status": "scoring_attempted",
       "title": "AWS Details How One Customer Scaled to One Million Lambda Functions"
     },
-    "https://www.infoq.com/news/2026/07/cloudflare-aws-x402-micropayment": {
-      "canonical_url": "https://www.infoq.com/news/2026/07/cloudflare-aws-x402-micropayment",
-      "created_at": "2026-07-06T08:58:39Z",
-      "status": "scoring_attempted",
-      "title": "Cloudflare and AWS Embed x402 Agent Payments at the Edge"
-    },
     "https://www.infoq.com/news/2026/07/cloudflare-hyper-bug-fix": {
       "canonical_url": "https://www.infoq.com/news/2026/07/cloudflare-hyper-bug-fix",
       "created_at": "2026-07-12T07:23:33Z",
@@ -3385,12 +3451,6 @@
       "created_at": "2026-07-09T08:47:58Z",
       "status": "scoring_attempted",
       "title": "The Kubernetes Approach to AI-Assisted Maintainership Prioritises Human Accountability"
-    },
-    "https://www.infoq.com/news/2026/07/mcp-ema-enterprise-auth": {
-      "canonical_url": "https://www.infoq.com/news/2026/07/mcp-ema-enterprise-auth",
-      "created_at": "2026-07-06T08:58:39Z",
-      "status": "scoring_attempted",
-      "title": "AI Model Context Protocol Adds Centralised Auth for Enterprise"
     },
     "https://www.infoq.com/news/2026/07/momentic-postgres-clickhouse": {
       "canonical_url": "https://www.infoq.com/news/2026/07/momentic-postgres-clickhouse",
@@ -3499,18 +3559,6 @@
       "created_at": "2026-07-06T11:24:55Z",
       "status": "scoring_attempted",
       "title": "Real-time map of Great Britain's rail network"
-    },
-    "https://www.marktechpost.com/2026/07/05/sakana-ai-launches-sakana-translate": {
-      "canonical_url": "https://www.marktechpost.com/2026/07/05/sakana-ai-launches-sakana-translate",
-      "created_at": "2026-07-06T08:58:39Z",
-      "status": "scoring_attempted",
-      "title": "Sakana AI Launches Sakana Translate, a Namazu-Powered Japanese\u2013English\u2013Chinese Translation Tool With Translate, Proofread, and Ask Modes"
-    },
-    "https://www.marktechpost.com/2026/07/05/synthetic-sciences-releases-openscience-an-open-source-model-agnostic-ai-workbench-for-machine-learning-biology-physics-and-chemistry-research": {
-      "canonical_url": "https://www.marktechpost.com/2026/07/05/synthetic-sciences-releases-openscience-an-open-source-model-agnostic-ai-workbench-for-machine-learning-biology-physics-and-chemistry-research",
-      "created_at": "2026-07-06T08:58:39Z",
-      "status": "scoring_attempted",
-      "title": "Synthetic Sciences Releases OpenScience: An Open-Source, Model-Agnostic AI Workbench for Machine Learning, Biology, Physics, and Chemistry Research"
     },
     "https://www.marktechpost.com/2026/07/06/tencent-releases-hy3-open-295b-moe-model": {
       "canonical_url": "https://www.marktechpost.com/2026/07/06/tencent-releases-hy3-open-295b-moe-model",
@@ -3625,6 +3673,18 @@
       "created_at": "2026-07-13T01:11:30Z",
       "status": "scoring_attempted",
       "title": "Meet NeuroVFM: A New Neuroimaging Foundation Model Trained With Vol-JEPA on Uncurated Clinical MRI and CT Volumes"
+    },
+    "https://www.marktechpost.com/2026/07/13/prime-intellect-releases-verifiers-v1": {
+      "canonical_url": "https://www.marktechpost.com/2026/07/13/prime-intellect-releases-verifiers-v1",
+      "created_at": "2026-07-13T09:18:49Z",
+      "status": "scoring_attempted",
+      "title": "Prime Intellect Releases Verifiers v1: Composable Tasksets, Harnesses, and Runtimes for Agentic RL Training and Evaluations"
+    },
+    "https://www.marktechpost.com/2026/07/13/stanford-researchers-introduce-trace": {
+      "canonical_url": "https://www.marktechpost.com/2026/07/13/stanford-researchers-introduce-trace",
+      "created_at": "2026-07-13T09:18:49Z",
+      "status": "scoring_attempted",
+      "title": "Stanford Researchers Introduce TRACE: A Capability-Targeted Agentic Training System That Turns Recurrent Agent Failures Into Synthetic RL Environment"
     },
     "https://www.microcenter.com/site/mc-news/article/amd-ryzen-ai-halo-review.aspx": {
       "canonical_url": "https://www.microcenter.com/site/mc-news/article/amd-ryzen-ai-halo-review.aspx",
@@ -4135,6 +4195,12 @@
       "created_at": "2026-07-08T11:21:39Z",
       "status": "scoring_attempted",
       "title": "The robotaxi law that could ban Tesla"
+    },
+    "https://www.theverge.com/transportation/964132/waze-gemini-ai-voice-commands-less-chatty": {
+      "canonical_url": "https://www.theverge.com/transportation/964132/waze-gemini-ai-voice-commands-less-chatty",
+      "created_at": "2026-07-13T09:18:49Z",
+      "status": "scoring_attempted",
+      "title": "Waze is getting a bunch of new AI-powered features"
     },
     "https://www.tomshardware.com/tech-industry/drones/electric-drone-breaks-world-air-speed-record-at-434-mph-designed-for-anti-aircraft-interceptor-roles-german-firm-convincingly-smashed-the-official-409-mph-record-hopes-to-get-stamp-of-approval-from-guinness-soon": {
       "canonical_url": "https://www.tomshardware.com/tech-industry/drones/electric-drone-breaks-world-air-speed-record-at-434-mph-designed-for-anti-aircraft-interceptor-roles-german-firm-convincingly-smashed-the-official-409-mph-record-hopes-to-get-stamp-of-approval-from-guinness-soon",
