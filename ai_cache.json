@@ -173,27 +173,44 @@
         }
       }
     },
-    "250f0eaf4ca9094b86c476a19f170e4aae26fbfd1470cb5ca43b086763b90652": {
-      "created_at": "2026-07-12T20:34:06Z",
+    "21eba4dbc0de28218e13bec0310346ad38ea5569ab33f503f11cd27c42d64233": {
+      "created_at": "2026-07-13T20:53:19Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 2.0,
-            "impact_score": 0.0,
-            "index": 1,
-            "novelty_score": 0.0,
-            "reason": "Not relevant to software engineers or AI researchers",
-            "red_flag": true,
-            "red_flag_reason": "Not relevant to software engineers or AI researchers",
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "iOS 27 public beta launch with Siri AI improvements, relevant to all iPhone users.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Siri AI is already changing how I use my iPhone",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "Neural network implementation in SQL, niche but interesting for database engineers.",
+            "red_flag": false,
+            "red_flag_reason": null,
             "source_score": 0.5,
-            "title": "Terrifying moment Grandpa is launched eight feet in the air by charging bison",
-            "total_score": 2.5
+            "title": "Show HN: I implemented a neural network in SQL",
+            "total_score": 6.5
           }
         ],
-        "best_index": 1,
-        "best_score": 2.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
+        "best_index": 2,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "The iOS 27 public beta just launched, and early hands-on tests show Siri AI making significant improvements to iPhone usability. If you're curious about what's new, The Verge has a detailed preview. Link: https://www.theverge.com/tech/964714/siri-ai-public-beta-preview-ios-27-hands-on",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\ud83d\udd25 *iOS 27's public beta is out, and Siri AI upgrades are already changing how iPhones work.*\n\nThe Verge has a hands-on preview of the new operating system, highlighting significant improvements in Siri AI.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/tech/964714/siri-ai-public-beta-preview-ios-27-hands-on\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "iOS 27's public beta is live, and Siri AI is already making a noticeable difference in how iPhones operate. The Verge has a hands-on preview worth checking out. https://www.theverge.com/tech/964714/siri-ai-public-beta-preview-ios-27-hands-on",
+          "twitter": "iOS 27's public beta is out, and Siri AI upgrades are already changing how iPhones work. https://www.theverge.com/tech/964714/siri-ai-public-beta-preview-ios-27-hands-on"
+        }
       }
     },
     "25cdd2547b5f6d9f272e5ff352a2748f652493841f0bfb2056d878bf684ed151": {
@@ -248,29 +265,6 @@
         }
       }
     },
-    "25f3d01cf7a429067bd2daadfd3d9c13e9ed3356eeeb6f98126c731f8a26dad5": {
-      "created_at": "2026-07-12T20:34:06Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 0.5,
-            "index": 0,
-            "novelty_score": 0.2,
-            "reason": "Celebrity opinion on AI glasses lacks technical relevance for software engineers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Lorde says Ray-Ban Meta AI glasses are 'not sexy'",
-            "total_score": 4.2
-          }
-        ],
-        "best_index": 0,
-        "best_score": 4.2,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "30502e10c7f3720f55ce72ddb2949f5045af1e1d03fe03df3fbad74f7c2392c2": {
       "created_at": "2026-07-13T19:54:25Z",
       "payload": {
@@ -309,6 +303,29 @@
           "threads": "Apple just sued OpenAI over alleged trade secret theft by former employees. This could reshape how tech companies collaborate on AI development. https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets/",
           "twitter": "Apple is suing OpenAI over alleged trade secret theft by ex-employees. The legal battle could reshape AI industry collaboration.\nhttps://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets/"
         }
+      }
+    },
+    "352f6aa00a36f55bb8d2c39b086cd9622e97dbb99bc6b435e4c5e7f3e5b313d8": {
+      "created_at": "2026-07-13T20:53:19Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.5,
+            "index": 6,
+            "novelty_score": 0.5,
+            "reason": "Opinion piece with low novelty and impact.",
+            "red_flag": true,
+            "red_flag_reason": "opinion",
+            "source_score": 0.5,
+            "title": "AI Is a Bad Tool",
+            "total_score": 2.5
+          }
+        ],
+        "best_index": 6,
+        "best_score": 2.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "3717a7a0f1cb7f59a786d7c3a00650f84d38d996068efec3a0b7c9a4c21507c3": {
@@ -658,6 +675,46 @@
         "social_posts": {}
       }
     },
+    "7e5c3553f2939cae89eb3fafd4a7b89335a81c221db79ec5538caf1c47150971": {
+      "created_at": "2026-07-13T20:53:19Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Apple's Siri AI integration in iOS 27 is a significant update with broad impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Apple\u2019s public betas for iOS 27 and more are out now",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 1,
+            "novelty_score": 2,
+            "reason": "This article focuses on a specific device integration, which is less impactful than the broader OS update.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Siri AI makes the Apple Watch finally feel like a wrist computer",
+            "total_score": 7
+          }
+        ],
+        "best_index": 0,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Apple has released the public beta for iOS 27, featuring Siri AI, a significant upgrade to the voice assistant. Early reports indicate it works well, keeping responses concise. This could be a game-changer for Apple's AI strategy.\nLink: https://www.theverge.com/tech/964307/apple-public-betas-ios-27-siri-ai",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Apple\u2019s public betas for iOS 27 and more are out now*\n\nApple has released public betas for iOS 27 and other major OS updates, featuring Siri AI, an AI-powered revamp to Siri that actually works.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/tech/964307/apple-public-betas-ios-27-siri-ai\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Apple's iOS 27 beta includes Siri AI, which finally delivers on the promise of a functional AI assistant. It's brief but effective, a big step forward for Apple's AI efforts.\nhttps://www.theverge.com/tech/964307/apple-public-betas-ios-27-siri-ai",
+          "twitter": "Apple's iOS 27 beta introduces Siri AI, a long-awaited upgrade that actually works. The new AI assistant keeps responses brief but effective.\nhttps://www.theverge.com/tech/964307/apple-public-betas-ios-27-siri-ai"
+        }
+      }
+    },
     "820c0d3233423ddfee2004f509e569238272f0cf5f2302d75c1c5139cd8069b3": {
       "created_at": "2026-07-13T15:36:16Z",
       "payload": {
@@ -719,6 +776,41 @@
           "threads": "TechCrunch asks: Should AI help users commit crimes if it aligns with their intent? A critical look at AI ethics. https://techcrunch.com/2026/07/13/should-ai-help-you-get-away-with-killing-your-spouse/",
           "twitter": "TechCrunch explores the ethical dilemma: Should AI assist in criminal activities if aligned with user intent?\nhttps://techcrunch.com/2026/07/13/should-ai-help-you-get-away-with-killing-your-spouse/"
         }
+      }
+    },
+    "8668c14b7bd46719ea0e2d05cf225f5689c6e77b1d2bfd74574ce8131f2dd936": {
+      "created_at": "2026-07-13T20:53:19Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 4,
+            "novelty_score": 2.5,
+            "reason": "New tool for AI coding agents, but niche impact and lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Show HN: PlanWright \u2013 A control plane for AI coding agents",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 5,
+            "novelty_score": 2,
+            "reason": "Significant industry move, but lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Telegram's t.me domain has been suspended",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 5,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "890d0f5c801410b4e7bb5f370b0b5aa171fb37959e225243e1197cbc49dfe41e": {
@@ -1370,6 +1462,15 @@
         "twitter": "Researchers introduce Infinity-Parser2, a multimodal model for end-to-end document parsing, @arxiv with #AI"
       }
     },
+    "750e2ab68900b9250587f377dd8a62099efc747fb143fcf1b77cb5dfbd4e296f": {
+      "created_at": "2026-07-13T20:53:19Z",
+      "payload": {
+        "facebook": "Apple has released public betas for its major OS updates, including iOS 27, which features a new AI-powered Siri. This update is set to launch publicly this fall and is a significant improvement to the virtual assistant. #iOS27 #Apple #SiriAI",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Apple Releases Public Betas for iOS 27 and More\nApple has just released public betas for iOS 27 and other major OS updates, featuring a new AI-powered Siri. The updates are set to launch publicly this fall.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#iOS27 #Apple #SiriAI\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Apple's iOS 27 public beta is now available, featuring a new AI-powered Siri @Apple #iOS27",
+        "twitter": "Apple's public betas for iOS 27 are out, featuring a revamped Siri with AI capabilities @Apple #iOS27"
+      }
+    },
     "78ed2d4a00f99d67f7fea59c0a3d3efe2e6978b9ba076b276e0eca7392159777": {
       "created_at": "2026-07-09T18:16:40Z",
       "payload": {
@@ -1521,15 +1622,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 NVIDIA Releases Compressed Hybrid MoE LLM\nNVIDIA's Nemotron Labs 3 Puzzle 75B A9B model reduces parameters from 120.7B to 75.3B while increasing server throughput by 2.03x.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n#AI #MachineLearning #NVIDIA\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "NVIDIA's Nemotron Labs 3 Puzzle 75B A9B model achieves 2.03x server throughput @NVIDIA with a compressed hybrid MoE approach #AI",
         "twitter": "NVIDIA's new Nemotron Labs 3 Puzzle 75B A9B model boosts server throughput by 2.03x @NVIDIA #AI"
-      }
-    },
-    "c987c2bebed5b0390cf120cf21a4e9185b2428857019bace1a72403dce6035a7": {
-      "created_at": "2026-07-06T20:45:37Z",
-      "payload": {
-        "facebook": "As companies optimize AI for production, they're forced to consider price and performance. Vercel CEO Guillermo Rauch recently discussed the technical and business challenges of separating models from agents, a crucial aspect of AI infrastructure. This shift could have significant implications for the industry #AI #MachineLearning #Tech",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 AI Optimization Challenges\nThe reality of optimizing AI for production is that companies must look at price and performance, says Vercel CEO Guillermo Rauch, highlighting the need to balance these factors.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #MachineLearning #Tech\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "The push to separate models from agents is driving a new era of optimization in AI, according to Vercel CEO Guillermo Rauch, who emphasizes the need for a price-performance balance @vercel #AI",
-        "twitter": "Optimizing AI for production means reevaluating price and performance, says @vercel CEO Guillermo Rauch, highlighting a key challenge in AI infrastructure #AI"
       }
     },
     "c9cb00cfb3cce38c9305cc338e05a0f1a19d40b30b56b66f247539540ee6bac6": {
@@ -2536,6 +2628,12 @@
       "status": "scoring_attempted",
       "title": "AI Meets Cryptography 1: What AI Found in Cloudflare's Circl"
     },
+    "https://bytecode.news/posts/2026/07/user-submission-ai-is-a-bad-tool": {
+      "canonical_url": "https://bytecode.news/posts/2026/07/user-submission-ai-is-a-bad-tool",
+      "created_at": "2026-07-13T20:53:19Z",
+      "status": "scoring_attempted",
+      "title": "AI Is a Bad Tool"
+    },
     "https://cacm.acm.org/news/can-we-understand-how-large-language-models-reason": {
       "canonical_url": "https://cacm.acm.org/news/can-we-understand-how-large-language-models-reason",
       "created_at": "2026-07-12T19:43:24Z",
@@ -2752,6 +2850,12 @@
       "status": "scoring_attempted",
       "title": "Show HN: Kastor \u2013 Terraform-style specs for AI agents"
     },
+    "https://github.com/xqlsystems/xarray-sql/blob/claude/xarray-sql-mnist-demo/benchmarks/nn.py": {
+      "canonical_url": "https://github.com/xqlsystems/xarray-sql/blob/claude/xarray-sql-mnist-demo/benchmarks/nn.py",
+      "created_at": "2026-07-13T20:53:19Z",
+      "status": "scoring_attempted",
+      "title": "Show HN: I implemented a neural network in SQL"
+    },
     "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio": {
       "canonical_url": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
       "created_at": "2026-07-07T21:55:05Z",
@@ -2920,12 +3024,6 @@
       "status": "scoring_attempted",
       "title": "Tiny robot boats build floating structures"
     },
-    "https://news.mit.edu/2026/toward-future-preserves-benefits-neurotechnology-for-all-0706": {
-      "canonical_url": "https://news.mit.edu/2026/toward-future-preserves-benefits-neurotechnology-for-all-0706",
-      "created_at": "2026-07-06T20:45:37Z",
-      "status": "scoring_attempted",
-      "title": "Toward a future that preserves benefits of neurotechnology for all"
-    },
     "https://news.ycombinator.com/item?id=48844517": {
       "canonical_url": "https://news.ycombinator.com/item?id=48844517",
       "created_at": "2026-07-09T13:28:46Z",
@@ -2998,6 +3096,12 @@
       "status": "scoring_attempted",
       "title": "Open Source Barware: free, local-first bar inventory software (GPLv3)"
     },
+    "https://planwright.tools": {
+      "canonical_url": "https://planwright.tools",
+      "created_at": "2026-07-13T20:53:19Z",
+      "status": "scoring_attempted",
+      "title": "Show HN: PlanWright \u2013 A control plane for AI coding agents"
+    },
     "https://playcode.io/blog/real-price-of-frontier-models": {
       "canonical_url": "https://playcode.io/blog/real-price-of-frontier-models",
       "created_at": "2026-07-13T19:54:25Z",
@@ -3069,18 +3173,6 @@
       "created_at": "2026-07-07T01:09:45Z",
       "status": "scoring_attempted",
       "title": "US investors will soon get access to SK Hynix, another memory maker riding the AI boom"
-    },
-    "https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents": {
-      "canonical_url": "https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents",
-      "created_at": "2026-07-06T20:45:37Z",
-      "status": "scoring_attempted",
-      "title": "Vercel CEO Guillermo Rauch on the fight to split off models from agents"
-    },
-    "https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta": {
-      "canonical_url": "https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta",
-      "created_at": "2026-07-06T20:45:37Z",
-      "status": "scoring_attempted",
-      "title": "You can now customize Siri\u2019s pace and expressivity in the latest iOS 27 beta"
     },
     "https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images": {
       "canonical_url": "https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images",
@@ -3435,12 +3527,6 @@
       "created_at": "2026-07-11T21:38:00Z",
       "status": "scoring_attempted",
       "title": "I used to love Claude, but the latest models are slowly ruining it"
-    },
-    "https://www.anthropic.com/research/global-workspace": {
-      "canonical_url": "https://www.anthropic.com/research/global-workspace",
-      "created_at": "2026-07-06T20:45:37Z",
-      "status": "scoring_attempted",
-      "title": "A global workspace in language models"
     },
     "https://www.apollo.com/wealth/insights-news/insights/daily-spark/ai-the-roi-runway-could-be-long-outside-the-tech-sector": {
       "canonical_url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/ai-the-roi-runway-could-be-long-outside-the-tech-sector",
@@ -4282,6 +4368,12 @@
       "status": "scoring_attempted",
       "title": "Nvidia&#8217;s biggest RAM supplier just had a trillion-dollar debut on Wall Street"
     },
+    "https://www.theverge.com/tech/964307/apple-public-betas-ios-27-siri-ai": {
+      "canonical_url": "https://www.theverge.com/tech/964307/apple-public-betas-ios-27-siri-ai",
+      "created_at": "2026-07-13T20:53:19Z",
+      "status": "scoring_attempted",
+      "title": "Apple\u2019s public betas for iOS 27 and more are out now"
+    },
     "https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets": {
       "canonical_url": "https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets",
       "created_at": "2026-07-10T22:12:17Z",
@@ -4305,6 +4397,18 @@
       "created_at": "2026-07-12T16:31:47Z",
       "status": "scoring_attempted",
       "title": "Apple\u2019s failed self-driving car program left a legacy of powerful AI chips"
+    },
+    "https://www.theverge.com/tech/964714/siri-ai-public-beta-preview-ios-27-hands-on": {
+      "canonical_url": "https://www.theverge.com/tech/964714/siri-ai-public-beta-preview-ios-27-hands-on",
+      "created_at": "2026-07-13T20:53:19Z",
+      "status": "scoring_attempted",
+      "title": "Siri AI is already changing how I use my iPhone"
+    },
+    "https://www.theverge.com/tech/964800/watchos-27-preview-siri-ai-apple-watch-gestures-smartwatch": {
+      "canonical_url": "https://www.theverge.com/tech/964800/watchos-27-preview-siri-ai-apple-watch-gestures-smartwatch",
+      "created_at": "2026-07-13T20:53:19Z",
+      "status": "scoring_attempted",
+      "title": "Siri AI makes the Apple Watch finally feel like a wrist computer"
     },
     "https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims": {
       "canonical_url": "https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims",
@@ -4341,6 +4445,12 @@
       "created_at": "2026-07-09T01:03:48Z",
       "status": "scoring_attempted",
       "title": "We made Grok 4.5, GPT-5.5, and Claude build the same apps"
+    },
+    "https://www.whois.com/whois/t.me": {
+      "canonical_url": "https://www.whois.com/whois/t.me",
+      "created_at": "2026-07-13T20:53:19Z",
+      "status": "scoring_attempted",
+      "title": "Telegram's t.me domain has been suspended"
     },
     "https://www.wired.com/story/a-new-experiential-gallery-just-might-change-your-mind-about-ai-art": {
       "canonical_url": "https://www.wired.com/story/a-new-experiential-gallery-just-might-change-your-mind-about-ai-art",
