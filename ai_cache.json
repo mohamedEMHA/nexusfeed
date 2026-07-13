@@ -23,6 +23,53 @@
         "social_posts": {}
       }
     },
+    "0ec51ef926ba216dcc8ac223afc662b22e388cff004e777a4e66f7babb445bfe": {
+      "created_at": "2026-07-13T15:36:16Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 3,
+            "novelty_score": 0.2,
+            "reason": "Niche topic with limited impact on software engineers and AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "The art and engineering of Sega CD Silpheed",
+            "total_score": 4.2
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 0.5,
+            "index": 4,
+            "novelty_score": 1.5,
+            "reason": "Product announcement with limited relevance to software engineers and AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "The Asus ROG Flow Z13 gaming tablet with 64GB RAM is down to $2,100",
+            "total_score": 5.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 5,
+            "novelty_score": 2.5,
+            "reason": "New AI features in a widely used app with broad impact on users.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Waze adds new AI-powered features and customization updates",
+            "total_score": 8.0
+          }
+        ],
+        "best_index": 5,
+        "best_score": 8.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "14748ed155941eab083bbf2451d87151f1b742d526ae364036540f2b45336cc5": {
       "created_at": "2026-07-13T12:43:58Z",
       "payload": {
@@ -107,6 +154,58 @@
         "best_score": 2.5,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "25cdd2547b5f6d9f272e5ff352a2748f652493841f0bfb2056d878bf684ed151": {
+      "created_at": "2026-07-13T15:36:16Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Anthropic's pricing localization is a notable move but impacts a specific market.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Anthropic starts localizing Claude pricing for India, its biggest market after the US",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 3,
+            "reason": "Defenders using prompt injection is a novel and impactful security development.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Now, defenders are embracing the prompt injection, too",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 1.5,
+            "reason": "Interesting but not as impactful as other articles.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Even Nvidia\u2019s head of automotive fights with Nvidia for compute",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Security researchers have started using prompt injection as a defensive tactic. This \"context bombing\" technique tricks hacking agents into shutting down before they can do harm. Link: https://arstechnica.com/security/2026/07/now-defenders-are-embracing-the-prompt-injection-too/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\ud83d\udd25 *Now, defenders are embracing the prompt injection, too* \n\n\"Context bombing\" tricks hacking agents into shutting down before they can do harm. \n\n\ud83c\udfdb\ufe0f Source: Ars Technica (A) \n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://arstechnica.com/security/2026/07/now-defenders-are-embracing-the-prompt-injection-too/",
+          "threads": "Defenders are now using prompt injection to shut down hacking agents before they can cause harm. This \"context bombing\" technique is a novel approach to cybersecurity. https://arstechnica.com/security/2026/07/now-defenders-are-embracing-the-prompt-injection-too/",
+          "twitter": "Defenders are now using prompt injection to shut down hacking agents before they cause harm. https://arstechnica.com/security/2026/07/now-defenders-are-embracing-the-prompt-injection-too/"
+        }
       }
     },
     "25f3d01cf7a429067bd2daadfd3d9c13e9ed3356eeeb6f98126c731f8a26dad5": {
@@ -467,29 +566,6 @@
         "social_posts": {}
       }
     },
-    "587c86cf914fe05797df8990b38965c38021284cabef40843526ec34d3418633": {
-      "created_at": "2026-07-12T14:21:31Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.5,
-            "index": 1,
-            "novelty_score": 0.2,
-            "reason": "Personal gaming experience lacks technical or industry relevance.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Blue Prince became a bonding \u2014 and learning \u2014 experience for my family",
-            "total_score": 2.2
-          }
-        ],
-        "best_index": 1,
-        "best_score": 2.2,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "652ed33f0ed4eb6e718d34b7b94bab3aceb2a0546ca56ae1afee7a8e1a340c30": {
       "created_at": "2026-07-12T16:31:47Z",
       "payload": {
@@ -595,6 +671,41 @@
         ],
         "best_index": 4,
         "best_score": 7.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "820c0d3233423ddfee2004f509e569238272f0cf5f2302d75c1c5139cd8069b3": {
+      "created_at": "2026-07-13T15:36:16Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 6,
+            "novelty_score": 2.5,
+            "reason": "DoorDash's AI shopping assistant architecture combines multiple AI techniques for higher conversion rates.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "How DoorDash Built an AI Shopping Assistant That Doesn\u2019t Rely on the LLM Alone",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2,
+            "index": 7,
+            "novelty_score": 3,
+            "reason": "Clawk provides a disposable Linux VM for coding agents, improving security and flexibility.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Show HN: Clawk \u2013 Give coding agents a disposable Linux VM, not your laptop",
+            "total_score": 7
+          }
+        ],
+        "best_index": 6,
+        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -726,29 +837,6 @@
         "social_posts": {}
       }
     },
-    "bcdee073bb73d1fde568471413edf88602f8c17e9e360853e9d4df029ef6c564": {
-      "created_at": "2026-07-12T12:50:21Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 1.5,
-            "reason": "Weekly recap article with limited novelty.",
-            "red_flag": true,
-            "red_flag_reason": "weekly recap",
-            "source_score": 1.5,
-            "title": "The fight against AI data centers is just beginning",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "c7612543a83dff37ab24484b8d3aace43a1edd25f7c420b5e993f32460b1696b": {
       "created_at": "2026-07-13T09:18:49Z",
       "payload": {
@@ -795,24 +883,36 @@
         "social_posts": {}
       }
     },
-    "e1b7ab72abc19d8dccdcd9f00a16e7fd951b5d29e3da39c2969105893ba9b76e": {
-      "created_at": "2026-07-12T14:21:31Z",
+    "c86d6251f7f6e03d2db25e14ccdb360dea2b0d92ebe6ccedbebffe20403dd26a": {
+      "created_at": "2026-07-13T15:36:16Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 2.0,
+            "freshness_score": 2,
             "impact_score": 2.5,
-            "index": 0,
+            "index": 8,
             "novelty_score": 2.5,
-            "reason": "Research on AI's impact on scientific discovery, but source is Tier C.",
+            "reason": "Potential security issue with Grok's data handling practices.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 0.5,
-            "title": "AI Boosts Research Careers but Flattens Scientific Discovery",
+            "title": "Grok uploaded my user directory to xAI's servers",
             "total_score": 7.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 9,
+            "novelty_score": 1.5,
+            "reason": "Opinion piece on software development philosophy with limited novelty and impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Control the Ideas, Not the Code",
+            "total_score": 5
           }
         ],
-        "best_index": 0,
+        "best_index": 8,
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
@@ -1135,6 +1235,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Apple's Self-Driving Car Program Leaves Lasting Legacy\nThe failure of Apple's self-driving car program led to the development of powerful AI chips, now used in various devices.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #Apple #Tech\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Apple's self-driving car program may not have succeeded, but it paved the way for powerful AI chips, a testament to the company's innovative spirit @Apple #AI",
         "twitter": "Apple's failed self-driving car program inadvertently drove innovation in AI chips, now powering devices @Apple #AI"
+      }
+    },
+    "2c45aeac972c6aee180689a548fe71738f5afed85926f54e791087d6672c2685": {
+      "created_at": "2026-07-13T15:36:16Z",
+      "payload": {
+        "facebook": "The security landscape is evolving as defenders begin to utilize prompt injection techniques to outsmart hackers. This approach, known as context bombing, tricks hacking agents into shutting down before they can cause harm. The implications of this development are significant, and it's worth keeping an eye on how it unfolds #cybersecurity #infosec #security",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Defenders adopt prompt injection to combat hackers\nContext bombing tricks hacking agents into shutting down before they can cause harm.\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#cybersecurity #infosec #security\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Defenders are now using prompt injection to their advantage, employing a technique called context bombing to shut down hacking agents before they can do harm @ArsTechnica #cybersecurity",
+        "twitter": "Defenders are turning the tables on hackers with context bombing, a technique that tricks hacking agents into shutting down @ArsTechnica #cybersecurity"
       }
     },
     "30189621dbe30c28d258ede3e92acdeeef3a40ec14db081a22f65997ae9d93ef": {
@@ -1514,6 +1623,12 @@
       "status": "scoring_attempted",
       "title": "Notes on Software Quality"
     },
+    "https://antirez.com/news/169": {
+      "canonical_url": "https://antirez.com/news/169",
+      "created_at": "2026-07-13T15:36:16Z",
+      "status": "scoring_attempted",
+      "title": "Control the Ideas, Not the Code"
+    },
     "https://antjs.org": {
       "canonical_url": "https://antjs.org",
       "created_at": "2026-07-11T20:41:06Z",
@@ -1550,12 +1665,6 @@
       "status": "scoring_attempted",
       "title": "OpenAI wants its new tool to do your work for you and with you"
     },
-    "https://arstechnica.com/ai/2026/07/uk-regulator-warns-of-arms-race-to-keep-up-with-ai-use-in-financial-services": {
-      "canonical_url": "https://arstechnica.com/ai/2026/07/uk-regulator-warns-of-arms-race-to-keep-up-with-ai-use-in-financial-services",
-      "created_at": "2026-07-06T14:42:06Z",
-      "status": "scoring_attempted",
-      "title": "UK regulator warns of \"arms race\" to keep up with AI use in financial services"
-    },
     "https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university": {
       "canonical_url": "https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university",
       "created_at": "2026-07-08T22:43:06Z",
@@ -1579,6 +1688,12 @@
       "created_at": "2026-07-08T08:46:18Z",
       "status": "scoring_attempted",
       "title": "Hackers can use 9 of the most popular AI tools to assemble massive botnets"
+    },
+    "https://arstechnica.com/security/2026/07/now-defenders-are-embracing-the-prompt-injection-too": {
+      "canonical_url": "https://arstechnica.com/security/2026/07/now-defenders-are-embracing-the-prompt-injection-too",
+      "created_at": "2026-07-13T15:36:16Z",
+      "status": "scoring_attempted",
+      "title": "Now, defenders are embracing the prompt injection, too"
     },
     "https://arstechnica.com/tech-policy/2026/07/anthropic-outed-for-claude-tracker-that-secretly-monitored-chinese-users": {
       "canonical_url": "https://arstechnica.com/tech-policy/2026/07/anthropic-outed-for-claude-tracker-that-secretly-monitored-chinese-users",
@@ -2402,12 +2517,6 @@
       "status": "scoring_attempted",
       "title": "Can We Understand How Large Language Models Reason?"
     },
-    "https://carto.tchoo.net": {
-      "canonical_url": "https://carto.tchoo.net",
-      "created_at": "2026-07-06T14:42:06Z",
-      "status": "scoring_attempted",
-      "title": "Real time map of France's rail network"
-    },
     "https://casp.ac/reports/ai-enabled-terrorism": {
       "canonical_url": "https://casp.ac/reports/ai-enabled-terrorism",
       "created_at": "2026-07-10T19:50:26Z",
@@ -2474,6 +2583,12 @@
       "status": "scoring_attempted",
       "title": "How Version Control Will Evolve for the Agent Boom"
     },
+    "https://fabiensanglard.net/silpheed/index.html": {
+      "canonical_url": "https://fabiensanglard.net/silpheed/index.html",
+      "created_at": "2026-07-13T15:36:16Z",
+      "status": "scoring_attempted",
+      "title": "The art and engineering of Sega CD Silpheed"
+    },
     "https://fightchatcontrol.eu/chat-control-overview": {
       "canonical_url": "https://fightchatcontrol.eu/chat-control-overview",
       "created_at": "2026-07-07T18:30:58Z",
@@ -2528,6 +2643,12 @@
       "status": "scoring_attempted",
       "title": "Show HN: Onboard-CLI, a LLM powered and AST-based tool to visualize codebase"
     },
+    "https://github.com/clawkwork/clawk": {
+      "canonical_url": "https://github.com/clawkwork/clawk",
+      "created_at": "2026-07-13T15:36:16Z",
+      "status": "scoring_attempted",
+      "title": "Show HN: Clawk \u2013 Give coding agents a disposable Linux VM, not your laptop"
+    },
     "https://github.com/cosmtrek/mindwalk": {
       "canonical_url": "https://github.com/cosmtrek/mindwalk",
       "created_at": "2026-07-12T08:10:36Z",
@@ -2563,12 +2684,6 @@
       "created_at": "2026-07-07T20:28:28Z",
       "status": "scoring_attempted",
       "title": "Show HN: Docx-CLI: agents read/edit Word docs using 1/2 the time and tokens"
-    },
-    "https://github.com/makerchecker/MakerChecker": {
-      "canonical_url": "https://github.com/makerchecker/MakerChecker",
-      "created_at": "2026-07-06T14:42:06Z",
-      "status": "scoring_attempted",
-      "title": "Show HN: Scan your AI agents for dangerous capabilities"
     },
     "https://github.com/ronak-create/FableCut": {
       "canonical_url": "https://github.com/ronak-create/FableCut",
@@ -2924,12 +3039,6 @@
       "status": "scoring_attempted",
       "title": "Reddit is using LLMs to solve a problem LLMs largely created"
     },
-    "https://techcrunch.com/2026/07/06/station-f-ramps-up-as-a-launchpad-for-europes-hottest-ai-startups": {
-      "canonical_url": "https://techcrunch.com/2026/07/06/station-f-ramps-up-as-a-launchpad-for-europes-hottest-ai-startups",
-      "created_at": "2026-07-06T14:42:06Z",
-      "status": "scoring_attempted",
-      "title": "Station F ramps up as a launchpad for Europe\u2019s hottest AI startups"
-    },
     "https://techcrunch.com/2026/07/06/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai": {
       "canonical_url": "https://techcrunch.com/2026/07/06/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai",
       "created_at": "2026-07-06T18:47:50Z",
@@ -3206,6 +3315,18 @@
       "status": "scoring_attempted",
       "title": "OpenAI bets on families as ChatGPT goes deeper into households"
     },
+    "https://techcrunch.com/2026/07/13/anthropic-starts-localizing-claude-pricing-for-india-its-biggest-market-after-the-us": {
+      "canonical_url": "https://techcrunch.com/2026/07/13/anthropic-starts-localizing-claude-pricing-for-india-its-biggest-market-after-the-us",
+      "created_at": "2026-07-13T15:36:16Z",
+      "status": "scoring_attempted",
+      "title": "Anthropic starts localizing Claude pricing for India, its biggest market after the US"
+    },
+    "https://techcrunch.com/2026/07/13/waze-adds-new-ai-powered-features-and-customization-updates": {
+      "canonical_url": "https://techcrunch.com/2026/07/13/waze-adds-new-ai-powered-features-and-customization-updates",
+      "created_at": "2026-07-13T15:36:16Z",
+      "status": "scoring_attempted",
+      "title": "Waze adds new AI-powered features and customization updates"
+    },
     "https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue": {
       "canonical_url": "https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue",
       "created_at": "2026-07-10T19:50:26Z",
@@ -3241,6 +3362,12 @@
       "created_at": "2026-07-12T15:37:08Z",
       "status": "scoring_attempted",
       "title": "Mystery behind Moana: After 1,700 years, why did Polynesians suddenly sail east?"
+    },
+    "https://twitter.com/a_green_being/status/2076598897779020159": {
+      "canonical_url": "https://twitter.com/a_green_being/status/2076598897779020159",
+      "created_at": "2026-07-13T15:36:16Z",
+      "status": "scoring_attempted",
+      "title": "Grok uploaded my user directory to xAI's servers"
     },
     "https://twitter.com/claudeai/status/2074548242386178258": {
       "canonical_url": "https://twitter.com/claudeai/status/2074548242386178258",
@@ -3325,12 +3452,6 @@
       "created_at": "2026-07-12T02:24:26Z",
       "status": "scoring_attempted",
       "title": "Wealthy AI workers send San Francisco house prices soaring"
-    },
-    "https://www.breef.com/breefingroom/articles/the-ai-marketing-backlash-why-ai-first-brands-are-starting-to-fall-flat": {
-      "canonical_url": "https://www.breef.com/breefingroom/articles/the-ai-marketing-backlash-why-ai-first-brands-are-starting-to-fall-flat",
-      "created_at": "2026-07-06T14:42:06Z",
-      "status": "scoring_attempted",
-      "title": "The AI Marketing Backlash: Why 'AI-First' Brands Are Starting to Fall Flat"
     },
     "https://www.canopii.dev/State%20of%20MCP%20Security%202026.pdf": {
       "canonical_url": "https://www.canopii.dev/State%20of%20MCP%20Security%202026.pdf",
@@ -3464,6 +3585,12 @@
       "status": "scoring_attempted",
       "title": "How Datadog Used Claude and Cursor for Test-Driven Production Migration"
     },
+    "https://www.infoq.com/news/2026/07/doordash-ai-ask-assistant": {
+      "canonical_url": "https://www.infoq.com/news/2026/07/doordash-ai-ask-assistant",
+      "created_at": "2026-07-13T15:36:16Z",
+      "status": "scoring_attempted",
+      "title": "How DoorDash Built an AI Shopping Assistant That Doesn\u2019t Rely on the LLM Alone"
+    },
     "https://www.infoq.com/news/2026/07/hubspot-semantic-vector-search": {
       "canonical_url": "https://www.infoq.com/news/2026/07/hubspot-semantic-vector-search",
       "created_at": "2026-07-07T08:45:45Z",
@@ -3482,23 +3609,11 @@
       "status": "scoring_attempted",
       "title": "Switching from PostgreSQL to ClickHouse for Improved Performance and Scalability"
     },
-    "https://www.infoq.com/news/2026/07/netflix-cassandra-partition": {
-      "canonical_url": "https://www.infoq.com/news/2026/07/netflix-cassandra-partition",
-      "created_at": "2026-07-06T14:42:06Z",
-      "status": "scoring_attempted",
-      "title": "Netflix Cuts Cassandra Read Latency from Seconds to Milliseconds with Dynamic Partition Splitting"
-    },
     "https://www.infoq.com/news/2026/07/nodejs-26-temporal": {
       "canonical_url": "https://www.infoq.com/news/2026/07/nodejs-26-temporal",
       "created_at": "2026-07-07T08:45:45Z",
       "status": "scoring_attempted",
       "title": "Node.js 26: Temporal API Enabled by Default, V8 14.6, and a Round of Deprecations"
-    },
-    "https://www.infoq.com/news/2026/07/online-cohort-ai-security": {
-      "canonical_url": "https://www.infoq.com/news/2026/07/online-cohort-ai-security",
-      "created_at": "2026-07-06T14:42:06Z",
-      "status": "scoring_attempted",
-      "title": "InfoQ Opens AI Security & Privacy Engineering Cohort for Regulated Industries"
     },
     "https://www.infoq.com/news/2026/07/open-source-platform": {
       "canonical_url": "https://www.infoq.com/news/2026/07/open-source-platform",
@@ -3770,12 +3885,6 @@
       "status": "scoring_attempted",
       "title": "Syria's solar boom is redefining Middle East's energy model"
     },
-    "https://www.theregister.com/offbeat/2026/07/05/c-programmers-commit-fresh-crimes-against-readability/5265981": {
-      "canonical_url": "https://www.theregister.com/offbeat/2026/07/05/c-programmers-commit-fresh-crimes-against-readability/5265981",
-      "created_at": "2026-07-06T14:42:06Z",
-      "status": "scoring_attempted",
-      "title": "C programmers commit fresh crimes against readability"
-    },
     "https://www.theverge.com/ai-artificial-intelligence/961978/anthropic-claude-cowork-mobile-web": {
       "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/961978/anthropic-claude-cowork-mobile-web",
       "created_at": "2026-07-07T18:30:58Z",
@@ -3932,6 +4041,12 @@
       "status": "scoring_attempted",
       "title": "Nintendo\u2019s Talking Flower got a small price cut"
     },
+    "https://www.theverge.com/gadgets/964652/asus-rog-flow-z13-switch-2-camera-amd-ryzen-ddr4-deal-sale": {
+      "canonical_url": "https://www.theverge.com/gadgets/964652/asus-rog-flow-z13-switch-2-camera-amd-ryzen-ddr4-deal-sale",
+      "created_at": "2026-07-13T15:36:16Z",
+      "status": "scoring_attempted",
+      "title": "The Asus ROG Flow Z13 gaming tablet with 64GB RAM is down to $2,100"
+    },
     "https://www.theverge.com/games/962156/discord-accidental-bans-grid-images": {
       "canonical_url": "https://www.theverge.com/games/962156/discord-accidental-bans-grid-images",
       "created_at": "2026-07-07T15:36:30Z",
@@ -3968,18 +4083,6 @@
       "status": "scoring_attempted",
       "title": "Blue Prince became a bonding \u2014 and learning \u2014 experience for my family"
     },
-    "https://www.theverge.com/news/961528/microsoft-layoffs-july-2026-sales-xbox": {
-      "canonical_url": "https://www.theverge.com/news/961528/microsoft-layoffs-july-2026-sales-xbox",
-      "created_at": "2026-07-06T14:42:06Z",
-      "status": "scoring_attempted",
-      "title": "Microsoft is laying off 4,800 employees"
-    },
-    "https://www.theverge.com/podcast/961603/raina-penchansky-ali-berman-dba-uta-influencer-cliff-marketing": {
-      "canonical_url": "https://www.theverge.com/podcast/961603/raina-penchansky-ali-berman-dba-uta-influencer-cliff-marketing",
-      "created_at": "2026-07-06T14:42:06Z",
-      "status": "scoring_attempted",
-      "title": "Inside the big business of the creator economy, with the agents making it happen"
-    },
     "https://www.theverge.com/podcast/962994/comcast-nbc-universal-split-versant-content-plus-pipes-media-broadband": {
       "canonical_url": "https://www.theverge.com/podcast/962994/comcast-nbc-universal-split-versant-content-plus-pipes-media-broadband",
       "created_at": "2026-07-09T16:13:09Z",
@@ -3991,6 +4094,12 @@
       "created_at": "2026-07-10T18:08:38Z",
       "status": "scoring_attempted",
       "title": "Netflix is turning into YouTube"
+    },
+    "https://www.theverge.com/podcast/964614/nvidia-auto-xinzhou-wu-ev-ai-hyperion-autonomy-cars-tesla": {
+      "canonical_url": "https://www.theverge.com/podcast/964614/nvidia-auto-xinzhou-wu-ev-ai-hyperion-autonomy-cars-tesla",
+      "created_at": "2026-07-13T15:36:16Z",
+      "status": "scoring_attempted",
+      "title": "Even Nvidia\u2019s head of automotive fights with Nvidia for compute"
     },
     "https://www.theverge.com/policy/961802/america-250-free-speech": {
       "canonical_url": "https://www.theverge.com/policy/961802/america-250-free-speech",
