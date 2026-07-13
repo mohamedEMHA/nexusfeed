@@ -115,27 +115,104 @@
         "social_posts": {}
       }
     },
-    "2bb6ac9812fe972ebacbb5f5d5d84b61f2c3b88c0bb1c6dbf86ddd1de03db441": {
-      "created_at": "2026-07-12T04:40:20Z",
+    "3717a7a0f1cb7f59a786d7c3a00650f84d38d996068efec3a0b7c9a4c21507c3": {
+      "created_at": "2026-07-13T05:53:58Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
+            "freshness_score": 2,
+            "impact_score": 2.5,
             "index": 0,
             "novelty_score": 2.5,
-            "reason": "This article discusses a significant policy change affecting higher education, but it's not directly relevant to software engineers or AI researchers.",
+            "reason": "Researchers developed an auditing technique to test generative AI models for malicious capabilities without prompting them for illegal outputs.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "New method aims to keep kids safe from illegal AI-generated content",
+            "total_score": 8
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "Theoretical framework for adversarial robustness in AI models.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 0.5,
-            "title": "Under federal rule, colleges must leave grads better off or lose financial aid",
+            "title": "Interval Certifications for Multilayered Perceptrons via Lattice Traversal",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "Framework for inference-time control in LLM systems.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "CogniConsole: Externalizing Inference-Time Control as a Formal Abstraction for Reliable LLM Interactions",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "Efficient agent planning using graph-augmented tree search.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "GATS: Graph-Augmented Tree Search with Layered World Models for Efficient Agent Planning",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 4,
+            "novelty_score": 2.5,
+            "reason": "Benchmark for testing AI agents on long-horizon terminal tasks.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Long-Horizon-Terminal-Bench: Testing the Limits of Agents on Long-Horizon Terminal Tasks with Dense Reward-Based Grading",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1,
+            "index": 5,
+            "novelty_score": 2.5,
+            "reason": "AI-assisted formalization of mathematical derivations.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "A Formalization of the Mean-Field Derivation of the Vlasov Equation: AI-Assisted Lean Formalization as a Strategy Game",
+            "total_score": 6
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 6,
+            "novelty_score": 2.5,
+            "reason": "Multi-agent framework for solving ARC AGI 2 tasks.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "ARCANA: A Reflective Multi-Agent Program Synthesis Framework for ARC-AGI-2 Reasoning",
             "total_score": 6.5
           }
         ],
         "best_index": 0,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
+        "best_score": 8,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "A new auditing technique allows researchers to test generative AI models for malicious capabilities without prompting them for illegal outputs. This could be a significant step in ensuring AI safety, especially for content aimed at children.\nLink: https://news.mit.edu/2026/new-method-keeps-kids-safe-from-illegal-ai-generated-content-0713",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *New method aims to keep kids safe from illegal AI-generated content*\n\nResearchers developed an auditing technique to test generative AI models for malicious capabilities, without prompting them for illegal outputs.\n\n\ud83c\udfdb\ufe0f Source: MIT News AI (B)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8/10\n\n\ud83d\udd17 https://news.mit.edu/2026/new-method-keeps-kids-safe-from-illegal-ai-generated-content-0713\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Researchers developed an auditing technique to test generative AI models for malicious capabilities without prompting them for illegal outputs. This could be a significant step in ensuring AI safety, especially for content aimed at children.\nhttps://news.mit.edu/2026/new-method-keeps-kids-safe-from-illegal-ai-generated-content-0713",
+          "twitter": "Researchers developed an auditing technique to test generative AI models for malicious capabilities without prompting them for illegal outputs.\nhttps://news.mit.edu/2026/new-method-keeps-kids-safe-from-illegal-ai-generated-content-0713"
+        }
       }
     },
     "3996f4d8b85087a1b5f5e11e5786fbf4725fe2da64cc35fe7e452240223e90bf": {
@@ -157,29 +234,6 @@
         ],
         "best_index": 4,
         "best_score": 2.2,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "3cb2db6eb0b1ebd711ffabab499fe5f6952f36caa3d0c86e160c2d184d3ac5c9": {
-      "created_at": "2026-07-12T04:40:20Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.0,
-            "impact_score": 1.5,
-            "index": 2,
-            "novelty_score": 1.5,
-            "reason": "Bug fixes are useful but not groundbreaking, and the source is not highly reputable.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Fixed three bugs that made Qwen3.5-122B a daily driver on Mac Studio",
-            "total_score": 4.5
-          }
-        ],
-        "best_index": 2,
-        "best_score": 4.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -225,6 +279,172 @@
           }
         ],
         "best_index": 6,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "4810b45ec8be7f63ef595a4320663e1e674b3f569484ed54814213ec340a0b3f": {
+      "created_at": "2026-07-13T05:53:58Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 19,
+            "novelty_score": 2.5,
+            "reason": "New research proposing a semantic framework for AI systems.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Ceci n'est pas une pipe: AI systems as semantic abstractions",
+            "total_score": 8
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 20,
+            "novelty_score": 2.5,
+            "reason": "New research on multimodal reward hacking in reinforcement learning.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Multimodal Reward Hacking in Reinforcement Learning",
+            "total_score": 8
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 21,
+            "novelty_score": 2.5,
+            "reason": "New research on persistent memory for agentic LLM systems.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Shared Selective Persistent Memory for Agentic LLM Systems",
+            "total_score": 8
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 22,
+            "novelty_score": 2.5,
+            "reason": "New research on self-evolving agents for multimodal survival prediction.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "SAGEAgent: A Self-Evolving Agent for Cost-Aware Modality Acquisition in Multimodal Survival Prediction",
+            "total_score": 8
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 23,
+            "novelty_score": 2.5,
+            "reason": "New research on the limitations of fixed representations in open-ended AI.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Beyond Fixed Representations: The Vocabulary and Verifier Gaps in Open-Ended AI",
+            "total_score": 8
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 24,
+            "novelty_score": 2.5,
+            "reason": "New research on knowledge graphs and explainable AI for urban mining.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Knowledge Graphs and Explainable AI as Complementary Resources for Urban Mining",
+            "total_score": 8
+          }
+        ],
+        "best_index": 19,
+        "best_score": 8,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "506ab86122a5e9bf4629db7ddfb3dc2f055a105e6467e4e4d9f9b31fc1fb9a13": {
+      "created_at": "2026-07-13T05:53:58Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 13,
+            "novelty_score": 2.5,
+            "reason": "New research on LLM-driven automated theorem proving with Lean 4 integration.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "OpenProver: Agentic and Interactive Theorem Proving with Lean 4",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 14,
+            "novelty_score": 2.5,
+            "reason": "New benchmark for evaluating LLM-based medical agents in clinical decision-making.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "LongMedBench: Benchmarking Medical Agents for Long-Horizon Clinical Decision-Making",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 15,
+            "novelty_score": 2.5,
+            "reason": "New research on efficient coordination for LLM-powered embodied agents.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Communication-Efficient Digital-Twin Coordination for Heterogeneous LLM Embodied Agents over Computing Power Networks",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 16,
+            "novelty_score": 2.5,
+            "reason": "New approach to multi-agent LLM collaboration for fictional worldbuilding.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Fictional Worldbuilding: Multi-Agent LLM Collaboration with Hierarchical Context Compression and Iterative Review",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 17,
+            "novelty_score": 2.5,
+            "reason": "New research on the limitations of Bayesian causal discovery under latent confounding.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "How Does Bayesian Causal Discovery Fail? Characterising Structural Consequences in Linear Gaussian Networks under Latent Confounding",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 18,
+            "novelty_score": 2.5,
+            "reason": "New LLM agent designed to solve open mathematical problems.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "ProofCouncil: An LLM Agent for Solving Open Mathematical Problems",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 13,
         "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
@@ -381,29 +601,6 @@
         ],
         "best_index": 1,
         "best_score": 6.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "a2066dee729a1cc382b48cae3eeac11fd48fb56b227d6f2ee757bc2479971ddb": {
-      "created_at": "2026-07-12T04:40:20Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Red flag triggered by 'What' in title.",
-            "red_flag": true,
-            "red_flag_reason": "What",
-            "source_score": 0.5,
-            "title": "What xAI's Grok Build CLI Actually Sends to xAI",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 5.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -683,6 +880,89 @@
         "social_posts": {}
       }
     },
+    "fafa3a1b1a0954b74b6bd82efa38c5fd28e18d2ff2fb382f473c768c10990d83": {
+      "created_at": "2026-07-13T05:53:58Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 7,
+            "novelty_score": 2.5,
+            "reason": "New research on LLM-powered agentic AI for security controls, but niche impact and Tier C source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Neuro-Agentic Control: A Deep Learning-based LLM-Powered Agentic AI Framework for Controlling Security Controls",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 8,
+            "novelty_score": 2.5,
+            "reason": "New research on multi-agent debate in legal reasoning, but niche impact and Tier C source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "L-MAD: A Systematic Evaluation of Multi-Agent Debate Structures in Legal Reasoning",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 9,
+            "novelty_score": 2.5,
+            "reason": "New research on multimodal benchmark for medical consultation, but niche impact and Tier C source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "MedRealMM: A Real-World Multimodal Benchmark for Chinese Online Medical Consultation",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 10,
+            "novelty_score": 2.5,
+            "reason": "New research on process reward modeling for multi-agent systems, but niche impact and Tier C source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "KV-PRM: Efficient Process Reward Modeling via KV-Cache Transfer for Multi-Agent Test-Time Scaling",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 11,
+            "novelty_score": 2.5,
+            "reason": "New research on agentic context evolution, but niche impact and Tier C source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Scoped Verification for Reliable Long-Horizon Agentic Context Evolution under Distribution Shift",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 12,
+            "novelty_score": 2.5,
+            "reason": "New research on auditable AI scientists, but niche impact and Tier C source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Toward Auditable AI Scientists: A Hypothesis Evolution Protocol for LLM Agents",
+            "total_score": 7
+          }
+        ],
+        "best_index": 7,
+        "best_score": 7,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "fafb84e7cb24c81e419ac071e99c58e1c14a8b4c2570f0a5adba5a6dd276f147": {
       "created_at": "2026-07-12T21:27:22Z",
       "payload": {
@@ -828,15 +1108,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Acceleration in Pharmaceutical Research\nThe deployment of AWS GraphRAG has reduced pharmaceutical research cycles by 87 percent by integrating disparate databases into a unified knowledge graph.\n\ud83c\udfdb\ufe0f Source: AI News (B)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #PharmaceuticalResearch #DrugDevelopment\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Pharmaceutical research cycles have been reduced by 87 percent with the deployment of AWS GraphRAG, which integrates disparate databases into a unified knowledge graph @AWS #AI",
         "twitter": "AWS GraphRAG accelerates pharmaceutical research by 87% by unifying disparate databases into a queryable knowledge graph @AWS #AI"
-      }
-    },
-    "572636db56fd6645eb3b076b6fddca20aa89f960f07358405959ff1699d92dd9": {
-      "created_at": "2026-07-06T04:43:13Z",
-      "payload": {
-        "facebook": "Researchers have made a breakthrough in teaching Gemma-3 to reason through complex math problems using GRPO and LoRA adapters. This end-to-end training workflow has the potential to greatly improve AI's ability to solve mathematical problems. #AI #Mathematics #Gemma3",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Gemma-3 Trained for Structured Math Reasoning\nGemma-3 achieves structured mathematical reasoning with Tunix GRPO and LoRA adapters. This breakthrough has significant implications for AI problem-solving.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #Mathematics #Gemma3\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Gemma-3 is now capable of structured mathematical reasoning thanks to Tunix GRPO and LoRA adapters, a major advancement in AI research @MarkTechPost #AI",
-        "twitter": "Gemma-3 achieves structured mathematical reasoning with Tunix GRPO and LoRA adapters, a significant step forward in AI problem-solving @MarkTechPost #AI"
       }
     },
     "59f7c13dfd58a3fb581e65f83adc1db7dbab0fb349a575ce4ba100ca17eabdf5": {
@@ -1248,12 +1519,6 @@
       "created_at": "2026-07-07T21:55:05Z",
       "status": "scoring_attempted",
       "title": "Data centers\u2019 energy demand threatens Trump\u2019s \u201cMade in America\u201d plan"
-    },
-    "https://arxiv.org/abs/2605.20049": {
-      "canonical_url": "https://arxiv.org/abs/2605.20049",
-      "created_at": "2026-07-06T04:43:13Z",
-      "status": "scoring_attempted",
-      "title": "Does Code Cleanliness Affect Coding Agents?"
     },
     "https://arxiv.org/abs/2607.01504": {
       "canonical_url": "https://arxiv.org/abs/2607.01504",
@@ -1873,6 +2138,150 @@
       "status": "scoring_attempted",
       "title": "A First-Principles Theory of Slow Thinking and Active Perception"
     },
+    "https://arxiv.org/abs/2607.08773": {
+      "canonical_url": "https://arxiv.org/abs/2607.08773",
+      "created_at": "2026-07-13T05:53:58Z",
+      "status": "scoring_attempted",
+      "title": "Interval Certifications for Multilayered Perceptrons via Lattice Traversal"
+    },
+    "https://arxiv.org/abs/2607.08774": {
+      "canonical_url": "https://arxiv.org/abs/2607.08774",
+      "created_at": "2026-07-13T05:53:58Z",
+      "status": "scoring_attempted",
+      "title": "CogniConsole: Externalizing Inference-Time Control as a Formal Abstraction for Reliable LLM Interactions"
+    },
+    "https://arxiv.org/abs/2607.08894": {
+      "canonical_url": "https://arxiv.org/abs/2607.08894",
+      "created_at": "2026-07-13T05:53:58Z",
+      "status": "scoring_attempted",
+      "title": "GATS: Graph-Augmented Tree Search with Layered World Models for Efficient Agent Planning"
+    },
+    "https://arxiv.org/abs/2607.08964": {
+      "canonical_url": "https://arxiv.org/abs/2607.08964",
+      "created_at": "2026-07-13T05:53:58Z",
+      "status": "scoring_attempted",
+      "title": "Long-Horizon-Terminal-Bench: Testing the Limits of Agents on Long-Horizon Terminal Tasks with Dense Reward-Based Grading"
+    },
+    "https://arxiv.org/abs/2607.08986": {
+      "canonical_url": "https://arxiv.org/abs/2607.08986",
+      "created_at": "2026-07-13T05:53:58Z",
+      "status": "scoring_attempted",
+      "title": "A Formalization of the Mean-Field Derivation of the Vlasov Equation: AI-Assisted Lean Formalization as a Strategy Game"
+    },
+    "https://arxiv.org/abs/2607.09059": {
+      "canonical_url": "https://arxiv.org/abs/2607.09059",
+      "created_at": "2026-07-13T05:53:58Z",
+      "status": "scoring_attempted",
+      "title": "ARCANA: A Reflective Multi-Agent Program Synthesis Framework for ARC-AGI-2 Reasoning"
+    },
+    "https://arxiv.org/abs/2607.09076": {
+      "canonical_url": "https://arxiv.org/abs/2607.09076",
+      "created_at": "2026-07-13T05:53:58Z",
+      "status": "scoring_attempted",
+      "title": "Neuro-Agentic Control: A Deep Learning-based LLM-Powered Agentic AI Framework for Controlling Security Controls"
+    },
+    "https://arxiv.org/abs/2607.09099": {
+      "canonical_url": "https://arxiv.org/abs/2607.09099",
+      "created_at": "2026-07-13T05:53:58Z",
+      "status": "scoring_attempted",
+      "title": "L-MAD: A Systematic Evaluation of Multi-Agent Debate Structures in Legal Reasoning"
+    },
+    "https://arxiv.org/abs/2607.09142": {
+      "canonical_url": "https://arxiv.org/abs/2607.09142",
+      "created_at": "2026-07-13T05:53:58Z",
+      "status": "scoring_attempted",
+      "title": "MedRealMM: A Real-World Multimodal Benchmark for Chinese Online Medical Consultation"
+    },
+    "https://arxiv.org/abs/2607.09153": {
+      "canonical_url": "https://arxiv.org/abs/2607.09153",
+      "created_at": "2026-07-13T05:53:58Z",
+      "status": "scoring_attempted",
+      "title": "KV-PRM: Efficient Process Reward Modeling via KV-Cache Transfer for Multi-Agent Test-Time Scaling"
+    },
+    "https://arxiv.org/abs/2607.09175": {
+      "canonical_url": "https://arxiv.org/abs/2607.09175",
+      "created_at": "2026-07-13T05:53:58Z",
+      "status": "scoring_attempted",
+      "title": "Scoped Verification for Reliable Long-Horizon Agentic Context Evolution under Distribution Shift"
+    },
+    "https://arxiv.org/abs/2607.09195": {
+      "canonical_url": "https://arxiv.org/abs/2607.09195",
+      "created_at": "2026-07-13T05:53:58Z",
+      "status": "scoring_attempted",
+      "title": "Toward Auditable AI Scientists: A Hypothesis Evolution Protocol for LLM Agents"
+    },
+    "https://arxiv.org/abs/2607.09217": {
+      "canonical_url": "https://arxiv.org/abs/2607.09217",
+      "created_at": "2026-07-13T05:53:58Z",
+      "status": "scoring_attempted",
+      "title": "OpenProver: Agentic and Interactive Theorem Proving with Lean 4"
+    },
+    "https://arxiv.org/abs/2607.09322": {
+      "canonical_url": "https://arxiv.org/abs/2607.09322",
+      "created_at": "2026-07-13T05:53:58Z",
+      "status": "scoring_attempted",
+      "title": "LongMedBench: Benchmarking Medical Agents for Long-Horizon Clinical Decision-Making"
+    },
+    "https://arxiv.org/abs/2607.09330": {
+      "canonical_url": "https://arxiv.org/abs/2607.09330",
+      "created_at": "2026-07-13T05:53:58Z",
+      "status": "scoring_attempted",
+      "title": "Communication-Efficient Digital-Twin Coordination for Heterogeneous LLM Embodied Agents over Computing Power Networks"
+    },
+    "https://arxiv.org/abs/2607.09403": {
+      "canonical_url": "https://arxiv.org/abs/2607.09403",
+      "created_at": "2026-07-13T05:53:58Z",
+      "status": "scoring_attempted",
+      "title": "Fictional Worldbuilding: Multi-Agent LLM Collaboration with Hierarchical Context Compression and Iterative Review"
+    },
+    "https://arxiv.org/abs/2607.09449": {
+      "canonical_url": "https://arxiv.org/abs/2607.09449",
+      "created_at": "2026-07-13T05:53:58Z",
+      "status": "scoring_attempted",
+      "title": "How Does Bayesian Causal Discovery Fail? Characterising Structural Consequences in Linear Gaussian Networks under Latent Confounding"
+    },
+    "https://arxiv.org/abs/2607.09474": {
+      "canonical_url": "https://arxiv.org/abs/2607.09474",
+      "created_at": "2026-07-13T05:53:58Z",
+      "status": "scoring_attempted",
+      "title": "ProofCouncil: An LLM Agent for Solving Open Mathematical Problems"
+    },
+    "https://arxiv.org/abs/2607.09489": {
+      "canonical_url": "https://arxiv.org/abs/2607.09489",
+      "created_at": "2026-07-13T05:53:58Z",
+      "status": "scoring_attempted",
+      "title": "Ceci n'est pas une pipe: AI systems as semantic abstractions"
+    },
+    "https://arxiv.org/abs/2607.09492": {
+      "canonical_url": "https://arxiv.org/abs/2607.09492",
+      "created_at": "2026-07-13T05:53:58Z",
+      "status": "scoring_attempted",
+      "title": "Multimodal Reward Hacking in Reinforcement Learning"
+    },
+    "https://arxiv.org/abs/2607.09493": {
+      "canonical_url": "https://arxiv.org/abs/2607.09493",
+      "created_at": "2026-07-13T05:53:58Z",
+      "status": "scoring_attempted",
+      "title": "Shared Selective Persistent Memory for Agentic LLM Systems"
+    },
+    "https://arxiv.org/abs/2607.09521": {
+      "canonical_url": "https://arxiv.org/abs/2607.09521",
+      "created_at": "2026-07-13T05:53:58Z",
+      "status": "scoring_attempted",
+      "title": "SAGEAgent: A Self-Evolving Agent for Cost-Aware Modality Acquisition in Multimodal Survival Prediction"
+    },
+    "https://arxiv.org/abs/2607.09560": {
+      "canonical_url": "https://arxiv.org/abs/2607.09560",
+      "created_at": "2026-07-13T05:53:58Z",
+      "status": "scoring_attempted",
+      "title": "Beyond Fixed Representations: The Vocabulary and Verifier Gaps in Open-Ended AI"
+    },
+    "https://arxiv.org/abs/2607.09578": {
+      "canonical_url": "https://arxiv.org/abs/2607.09578",
+      "created_at": "2026-07-13T05:53:58Z",
+      "status": "scoring_attempted",
+      "title": "Knowledge Graphs and Explainable AI as Complementary Resources for Urban Mining"
+    },
     "https://blog.cr.yp.to/20260706-fairness.html": {
       "canonical_url": "https://blog.cr.yp.to/20260706-fairness.html",
       "created_at": "2026-07-07T01:09:45Z",
@@ -2137,12 +2546,6 @@
       "status": "scoring_attempted",
       "title": "Data for Agents"
     },
-    "https://huggingface.co/blog/revamped-kernels": {
-      "canonical_url": "https://huggingface.co/blog/revamped-kernels",
-      "created_at": "2026-07-06T04:43:13Z",
-      "status": "scoring_attempted",
-      "title": "\ud83e\udd17 Kernels: Major Updates"
-    },
     "https://huggingface.co/blog/torch-attention-profile": {
       "canonical_url": "https://huggingface.co/blog/torch-attention-profile",
       "created_at": "2026-07-10T08:43:54Z",
@@ -2268,6 +2671,12 @@
       "created_at": "2026-07-07T15:36:30Z",
       "status": "scoring_attempted",
       "title": "Jesse Thaler named director of the Laboratory for Nuclear Science"
+    },
+    "https://news.mit.edu/2026/new-method-keeps-kids-safe-from-illegal-ai-generated-content-0713": {
+      "canonical_url": "https://news.mit.edu/2026/new-method-keeps-kids-safe-from-illegal-ai-generated-content-0713",
+      "created_at": "2026-07-13T05:53:58Z",
+      "status": "scoring_attempted",
+      "title": "New method aims to keep kids safe from illegal AI-generated content"
     },
     "https://news.mit.edu/2026/tiny-robot-boats-build-floating-structures-0709": {
       "canonical_url": "https://news.mit.edu/2026/tiny-robot-boats-build-floating-structures-0709",
@@ -3102,12 +3511,6 @@
       "created_at": "2026-07-06T08:58:39Z",
       "status": "scoring_attempted",
       "title": "Synthetic Sciences Releases OpenScience: An Open-Source, Model-Agnostic AI Workbench for Machine Learning, Biology, Physics, and Chemistry Research"
-    },
-    "https://www.marktechpost.com/2026/07/05/training-gemma-3-for-structured-mathematical-reasoning-with-tunix-grpo-lora-adapters-and-gsm8k-rewards": {
-      "canonical_url": "https://www.marktechpost.com/2026/07/05/training-gemma-3-for-structured-mathematical-reasoning-with-tunix-grpo-lora-adapters-and-gsm8k-rewards",
-      "created_at": "2026-07-06T04:43:13Z",
-      "status": "scoring_attempted",
-      "title": "Training Gemma-3 for Structured Mathematical Reasoning with Tunix GRPO, LoRA Adapters, and GSM8K Rewards"
     },
     "https://www.marktechpost.com/2026/07/06/tencent-releases-hy3-open-295b-moe-model": {
       "canonical_url": "https://www.marktechpost.com/2026/07/06/tencent-releases-hy3-open-295b-moe-model",
