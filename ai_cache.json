@@ -1,5 +1,28 @@
 {
   "cerebras_scoring": {
+    "00efac69628f1eecd68764e820fc7592aad2f7073080cc7cdc8106e8e2a70b10": {
+      "created_at": "2026-07-13T18:18:14Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.5,
+            "index": 1,
+            "novelty_score": 0.2,
+            "reason": "Job posting lacks novelty and broad impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "PgDog (YC P25) Is Hiring a Founding Software Engineer",
+            "total_score": 2.2
+          }
+        ],
+        "best_index": 1,
+        "best_score": 2.2,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "0ec51ef926ba216dcc8ac223afc662b22e388cff004e777a4e66f7babb445bfe": {
       "created_at": "2026-07-13T15:36:16Z",
       "payload": {
@@ -308,29 +331,6 @@
         }
       }
     },
-    "451d3cb215a54463857f1f96d78b602c6573673e9d064256b76d9502854d1a50": {
-      "created_at": "2026-07-12T16:31:47Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.0,
-            "index": 1,
-            "novelty_score": 0.0,
-            "reason": "The title contains a red flag phrase.",
-            "red_flag": true,
-            "red_flag_reason": "no-brainer",
-            "source_score": 0.5,
-            "title": "A no-brainer for protecting your brain",
-            "total_score": 2.0
-          }
-        ],
-        "best_index": 1,
-        "best_score": 2.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "4771befe5d0b48f3932acc6162a9dba5a677a8dec60424d811e6c10a9dcb417d": {
       "created_at": "2026-07-12T19:43:24Z",
       "payload": {
@@ -520,34 +520,6 @@
         "social_posts": {}
       }
     },
-    "652ed33f0ed4eb6e718d34b7b94bab3aceb2a0546ca56ae1afee7a8e1a340c30": {
-      "created_at": "2026-07-12T16:31:47Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Apple's self-driving car program's failure led to advancements in AI chips, relevant to software engineers and AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Apple\u2019s failed self-driving car program left a legacy of powerful AI chips",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Apple's self-driving car program may have failed, but it left behind a legacy of powerful AI chips. The company realized early on that it needed robust on-device AI processing, which ultimately led to advancements in its silicon technology. Link: https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Apple\u2019s failed self-driving car program left a legacy of powerful AI chips*\n\nApple's self-driving car program may have failed, but it led to advancements in AI chips, particularly in on-device AI processing.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Apple's self-driving car project didn't pan out, but it supercharged its AI chip development. The Verge has the details.\nhttps://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra",
-          "twitter": "Apple's failed self-driving car project quietly turbocharged its AI chip development. Here's how.\nhttps://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra"
-        }
-      }
-    },
     "663e68024a129406ce3f641eef252983b8063afa779f1f584828161efe7a3f75": {
       "created_at": "2026-07-13T16:30:09Z",
       "payload": {
@@ -687,6 +659,34 @@
         "social_posts": {}
       }
     },
+    "82fe3568c5b51ea4065686bca6eb89d4c6d4058a3e4743b9a02384bf50b4b100": {
+      "created_at": "2026-07-13T18:18:14Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 3.0,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "Ethical debate on AI alignment with user intent raises critical questions about AI development and societal impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Should AI help you get away with killing your spouse?",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 3,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "A provocative question from TechCrunch: What happens when AI is fully aligned with user intent, even for harmful actions? This article dives into the ethical implications of AI development and its potential consequences. Link: https://techcrunch.com/2026/07/13/should-ai-help-you-get-away-with-killing-your-spouse/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Should AI help you get away with killing your spouse?*\n\nTechCrunch explores the ethical dilemma of AI alignment with user intent, even for harmful actions.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/13/should-ai-help-you-get-away-with-killing-your-spouse/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "TechCrunch asks: Should AI help users commit crimes if it aligns with their intent? A critical look at AI ethics. https://techcrunch.com/2026/07/13/should-ai-help-you-get-away-with-killing-your-spouse/",
+          "twitter": "TechCrunch explores the ethical dilemma: Should AI assist in criminal activities if aligned with user intent?\nhttps://techcrunch.com/2026/07/13/should-ai-help-you-get-away-with-killing-your-spouse/"
+        }
+      }
+    },
     "890d0f5c801410b4e7bb5f370b0b5aa171fb37959e225243e1197cbc49dfe41e": {
       "created_at": "2026-07-13T09:18:49Z",
       "payload": {
@@ -756,6 +756,34 @@
         "social_posts": {}
       }
     },
+    "a2b28feea0a28a7f8295caf7c183314fa6a447eebce4071ef1ff74bdded112c8": {
+      "created_at": "2026-07-13T18:18:14Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "Apple suing OpenAI for alleged theft of unreleased product samples is a significant industry move with broad implications.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "The 6 wildest claims in Apple\u2019s lawsuit against OpenAI",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 2,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Apple has filed a lawsuit against OpenAI, alleging that the AI startup stole unreleased product samples. The lawsuit includes six wild claims, including that OpenAI asked Apple employees to bring unreleased product samples to job interviews. Link: https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\ud83d\udd25 *Apple accuses OpenAI of stealing unreleased product samples in lawsuit*\n\nApple has filed a lawsuit against OpenAI, alleging that the AI startup stole unreleased product samples. The lawsuit includes six wild claims, including that OpenAI asked Apple employees to bring unreleased product samples to job interviews.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Apple is suing OpenAI for allegedly stealing unreleased product samples. The lawsuit includes six wild claims, including that OpenAI asked Apple employees to bring unreleased product samples to job interviews. https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims",
+          "twitter": "Apple accuses OpenAI of stealing unreleased product samples in a blockbuster lawsuit. https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims"
+        }
+      }
+    },
     "b04b13b18b36998588113fb7a663ccd8aaa74dfbe489922b74776930057cc659": {
       "created_at": "2026-07-12T19:43:24Z",
       "payload": {
@@ -810,29 +838,6 @@
         ],
         "best_index": 0,
         "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "bc67aee1d020d66af153352ff389982bb69b43577f960865370e7ddeec181604": {
-      "created_at": "2026-07-12T17:37:08Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 3.0,
-            "reason": "New release of a cross-platform GUI framework in native Go, but limited impact and source tier.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Show HN: Shirei, cross-platform GUI framework in native Go",
-            "total_score": 7.0
-          }
-        ],
-        "best_index": 0,
-        "best_score": 7.0,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -913,6 +918,29 @@
           }
         ],
         "best_index": 8,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "d1e253cfd45eb4d653e8dba77d8de93996e10733a7177e4426ab70c2df41cabe": {
+      "created_at": "2026-07-13T18:18:14Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Industry move with moderate impact, fresh, and from a reputable source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Sam Altman\u2019s space data center trash talk is what most experts already believe",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 0,
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
@@ -1034,29 +1062,6 @@
         ],
         "best_index": 0,
         "best_score": 2.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "f70e750d415c41c8b966283a0efdf0a4a4d2a245d351de8b75c380820072f0c6": {
-      "created_at": "2026-07-12T16:31:47Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "Research discussion on Claude and constrained optimization, niche impact, fresh, lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Autoresearch, Claude and Constrained Optimization",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 3,
-        "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1251,6 +1256,15 @@
         "twitter": "NVIDIA's new compressed LLM variant Nemotron-Labs-3-Puzzle-75B-A9B boosts server throughput by 2.03x @NVIDIA #AI"
       }
     },
+    "1c008d995cc2842c6c5cf25f81dc3cc22b6d9f803d23f4157c6099bb5148aa4a": {
+      "created_at": "2026-07-13T18:18:14Z",
+      "payload": {
+        "facebook": "A recent lawsuit filed by Apple against OpenAI has brought to light some surprising allegations. Apparently, OpenAI's hardware head asked Apple employees to bring unreleased product samples to job interviews. This lawsuit has significant implications for the tech industry and raises important questions about ethics and competition. #AIethics #techlaw #innovation",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Apple Sues OpenAI Over Unreleased Product Samples\nThe lawsuit alleges that OpenAI's hardware head asked Apple employees to bring unreleased product samples to job interviews, sparking a heated debate about ethics and competition in the tech industry.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n#AIethics #techlaw #innovation\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Apple's lawsuit against OpenAI reveals shocking claims of stolen unreleased product samples @TheVerge #AIethics",
+        "twitter": "Apple accuses OpenAI of stealing unreleased product samples in a lawsuit @TheVerge #AIethics #techlaw"
+      }
+    },
     "28750bee5cb6843b452752e9e1dee88bfc4f0e667039c86513c98c73153bd81d": {
       "created_at": "2026-07-12T16:31:47Z",
       "payload": {
@@ -1348,15 +1362,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Open-source AI on the rise\nOpen-source AI models are succeeding without impacting frontier labs, as each serves a distinct phase of development.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #OpenSource #Tech\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "The success of open-source AI models isn't hurting Anthropic, as they capture different phases of the life-cycle, @TechCrunch reports, highlighting the complexity of the AI ecosystem #AI",
         "twitter": "Open-source AI models are thriving without cannibalizing frontier labs like Anthropic, says @TechCrunch, as each captures different phases of the life-cycle #AI"
-      }
-    },
-    "6dbfefd6b25f416e38dcf3035a675589cc21cd8b1c7eea33a38d800f15236867": {
-      "created_at": "2026-07-06T16:50:48Z",
-      "payload": {
-        "facebook": "A recent revelation has brought Anthropic under scrutiny for allegedly monitoring Chinese users without their knowledge. The company claims the experiment is now over, but this incident raises significant concerns about user privacy and data protection. #AIethics #datasecurity #techpolicy",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Anthropic accused of spying on Chinese users\nAnthropic faces accusations of secretly monitoring Chinese users, but claims the experiment is now over.\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AIethics #datasecurity #techpolicy\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Anthropic is accused of secretly monitoring Chinese users with a tracker, but the company says the experiment is over @ArsTechnica #AIethics",
-        "twitter": "Anthropic faces accusations of spying on users with a secret tracker, says the experiment is over @ArsTechnica #AIethics"
       }
     },
     "710498d5d3edcb2239f2d02cf58becfa7772979354af4edff4fb65696694ff56": {
@@ -1723,12 +1728,6 @@
       "created_at": "2026-07-13T15:36:16Z",
       "status": "scoring_attempted",
       "title": "Now, defenders are embracing the prompt injection, too"
-    },
-    "https://arstechnica.com/tech-policy/2026/07/anthropic-outed-for-claude-tracker-that-secretly-monitored-chinese-users": {
-      "canonical_url": "https://arstechnica.com/tech-policy/2026/07/anthropic-outed-for-claude-tracker-that-secretly-monitored-chinese-users",
-      "created_at": "2026-07-06T16:50:48Z",
-      "status": "scoring_attempted",
-      "title": "Anthropic outed for Claude tracker that secretly monitored Chinese users"
     },
     "https://arstechnica.com/tech-policy/2026/07/disable-auto-play-and-infinite-scroll-or-risk-massive-fines-eu-tells-meta": {
       "canonical_url": "https://arstechnica.com/tech-policy/2026/07/disable-auto-play-and-infinite-scroll-or-risk-massive-fines-eu-tells-meta",
@@ -2768,12 +2767,6 @@
       "status": "scoring_attempted",
       "title": "Show HN: Kastor \u2013 Terraform-style specs for AI agents"
     },
-    "https://huggingface.co/blog/Photoroom/prx-part4-data": {
-      "canonical_url": "https://huggingface.co/blog/Photoroom/prx-part4-data",
-      "created_at": "2026-07-06T16:50:48Z",
-      "status": "scoring_attempted",
-      "title": "PRX Part 4: Our Data Strategy"
-    },
     "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio": {
       "canonical_url": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
       "created_at": "2026-07-07T21:55:05Z",
@@ -2906,12 +2899,6 @@
       "status": "scoring_attempted",
       "title": "AI-generated videos to maximally drive a target brain region"
     },
-    "https://news.bloomberglaw.com/us-law-week/doj-closing-abbott-labs-case-spurs-wider-corporate-crime-retreat": {
-      "canonical_url": "https://news.bloomberglaw.com/us-law-week/doj-closing-abbott-labs-case-spurs-wider-corporate-crime-retreat",
-      "created_at": "2026-07-06T16:50:48Z",
-      "status": "scoring_attempted",
-      "title": "DOJ Closing Abbott Labs Case Spurs Wider Corporate Crime Retreat"
-    },
     "https://news.mit.edu/2026/how-novice-coders-can-develop-ai-programs-for-military-applications-0707": {
       "canonical_url": "https://news.mit.edu/2026/how-novice-coders-can-develop-ai-programs-for-military-applications-0707",
       "created_at": "2026-07-07T18:30:58Z",
@@ -2941,12 +2928,6 @@
       "created_at": "2026-07-06T20:45:37Z",
       "status": "scoring_attempted",
       "title": "Toward a future that preserves benefits of neurotechnology for all"
-    },
-    "https://news.ycombinator.com/item?id=48806976": {
-      "canonical_url": "https://news.ycombinator.com/item?id=48806976",
-      "created_at": "2026-07-06T16:50:48Z",
-      "status": "scoring_attempted",
-      "title": "Stealth robotics startup (YC S26) is hiring principal engineers (Palo Alto)"
     },
     "https://news.ycombinator.com/item?id=48844517": {
       "canonical_url": "https://news.ycombinator.com/item?id=48844517",
@@ -3073,12 +3054,6 @@
       "created_at": "2026-07-12T19:43:24Z",
       "status": "scoring_attempted",
       "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k"
-    },
-    "https://techcrunch.com/2026/07/06/microsoft-lays-off-nearly-5000-employees-across-xbox-commercial-sales": {
-      "canonical_url": "https://techcrunch.com/2026/07/06/microsoft-lays-off-nearly-5000-employees-across-xbox-commercial-sales",
-      "created_at": "2026-07-06T16:50:48Z",
-      "status": "scoring_attempted",
-      "title": "Microsoft lays off nearly 5,000 employees across Xbox, commercial sales"
     },
     "https://techcrunch.com/2026/07/06/reddit-is-using-llms-to-solve-a-problem-llms-largely-created": {
       "canonical_url": "https://techcrunch.com/2026/07/06/reddit-is-using-llms-to-solve-a-problem-llms-largely-created",
@@ -3368,6 +3343,18 @@
       "status": "scoring_attempted",
       "title": "Anthropic starts localizing Claude pricing for India, its biggest market after the US"
     },
+    "https://techcrunch.com/2026/07/13/sam-altmans-space-data-center-trash-talk-is-what-most-experts-already-believe": {
+      "canonical_url": "https://techcrunch.com/2026/07/13/sam-altmans-space-data-center-trash-talk-is-what-most-experts-already-believe",
+      "created_at": "2026-07-13T18:18:14Z",
+      "status": "scoring_attempted",
+      "title": "Sam Altman\u2019s space data center trash talk is what most experts already believe"
+    },
+    "https://techcrunch.com/2026/07/13/should-ai-help-you-get-away-with-killing-your-spouse": {
+      "canonical_url": "https://techcrunch.com/2026/07/13/should-ai-help-you-get-away-with-killing-your-spouse",
+      "created_at": "2026-07-13T18:18:14Z",
+      "status": "scoring_attempted",
+      "title": "Should AI help you get away with killing your spouse?"
+    },
     "https://techcrunch.com/2026/07/13/waze-adds-new-ai-powered-features-and-customization-updates": {
       "canonical_url": "https://techcrunch.com/2026/07/13/waze-adds-new-ai-powered-features-and-customization-updates",
       "created_at": "2026-07-13T15:36:16Z",
@@ -3427,12 +3414,6 @@
       "created_at": "2026-07-10T15:18:40Z",
       "status": "scoring_attempted",
       "title": "Write code like a human will maintain it"
-    },
-    "https://usefeyn.com/blog/pulpie-pareto-optimal-models-for-cleaning-the-web": {
-      "canonical_url": "https://usefeyn.com/blog/pulpie-pareto-optimal-models-for-cleaning-the-web",
-      "created_at": "2026-07-06T16:50:48Z",
-      "status": "scoring_attempted",
-      "title": "Show HN: Pulpie \u2013 Models for Cleaning the Web"
     },
     "https://vettedconsumer.com/unified-memory-explained-why-mini-pcs-can-run-70b-models-a-big-gpu-cant-and-where-they-slow-down": {
       "canonical_url": "https://vettedconsumer.com/unified-memory-explained-why-mini-pcs-can-run-70b-models-a-big-gpu-cant-and-where-they-slow-down",
@@ -3728,12 +3709,6 @@
       "status": "scoring_attempted",
       "title": "Mesh LLM: distributed AI computing on iroh"
     },
-    "https://www.lttlabs.com/articles/2026/07/06/amd-ryzen-ai-halo": {
-      "canonical_url": "https://www.lttlabs.com/articles/2026/07/06/amd-ryzen-ai-halo",
-      "created_at": "2026-07-06T16:50:48Z",
-      "status": "scoring_attempted",
-      "title": "AMD Ryzen AI Halo \u2013 $4k AI Dev Kit"
-    },
     "https://www.marktechpost.com/2026/07/06/tencent-releases-hy3-open-295b-moe-model": {
       "canonical_url": "https://www.marktechpost.com/2026/07/06/tencent-releases-hy3-open-295b-moe-model",
       "created_at": "2026-07-07T08:45:45Z",
@@ -3992,12 +3967,6 @@
       "status": "scoring_attempted",
       "title": "Lorde says Ray-Ban Meta AI glasses are \u2018not sexy\u2019"
     },
-    "https://www.theverge.com/column/961707/smart-glasses-ai-wearables-meta-surveillance-privacy": {
-      "canonical_url": "https://www.theverge.com/column/961707/smart-glasses-ai-wearables-meta-surveillance-privacy",
-      "created_at": "2026-07-06T16:50:48Z",
-      "status": "scoring_attempted",
-      "title": "I spy"
-    },
     "https://www.theverge.com/column/963346/ai-data-centers-fight": {
       "canonical_url": "https://www.theverge.com/column/963346/ai-data-centers-fight",
       "created_at": "2026-07-12T12:50:21Z",
@@ -4033,12 +4002,6 @@
       "created_at": "2026-07-11T12:08:12Z",
       "status": "scoring_attempted",
       "title": "A tasty RPG that will make you very hungry"
-    },
-    "https://www.theverge.com/gadgets/961612/xtra-muse-dji-osmo-pocket-3-ipad-air-magic-mouse-deal-sale": {
-      "canonical_url": "https://www.theverge.com/gadgets/961612/xtra-muse-dji-osmo-pocket-3-ipad-air-magic-mouse-deal-sale",
-      "created_at": "2026-07-06T16:50:48Z",
-      "status": "scoring_attempted",
-      "title": "The DJI Osmo Pocket 3 lookalike is down to $329"
     },
     "https://www.theverge.com/gadgets/961962/anker-soundcore-sleep-a20-jbl-go-5-deal-sale": {
       "canonical_url": "https://www.theverge.com/gadgets/961962/anker-soundcore-sleep-a20-jbl-go-5-deal-sale",
@@ -4352,6 +4315,12 @@
       "status": "scoring_attempted",
       "title": "Apple\u2019s failed self-driving car program left a legacy of powerful AI chips"
     },
+    "https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims": {
+      "canonical_url": "https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims",
+      "created_at": "2026-07-13T18:18:14Z",
+      "status": "scoring_attempted",
+      "title": "The 6 wildest claims in Apple&#8217;s lawsuit against OpenAI"
+    },
     "https://www.theverge.com/transportation/962187/amble-golf-cart-moon-buggy-ev-design-price-specs": {
       "canonical_url": "https://www.theverge.com/transportation/962187/amble-golf-cart-moon-buggy-ev-design-price-specs",
       "created_at": "2026-07-07T18:30:58Z",
@@ -4369,12 +4338,6 @@
       "created_at": "2026-07-13T09:18:49Z",
       "status": "scoring_attempted",
       "title": "Waze is getting a bunch of new AI-powered features"
-    },
-    "https://www.tomshardware.com/tech-industry/drones/electric-drone-breaks-world-air-speed-record-at-434-mph-designed-for-anti-aircraft-interceptor-roles-german-firm-convincingly-smashed-the-official-409-mph-record-hopes-to-get-stamp-of-approval-from-guinness-soon": {
-      "canonical_url": "https://www.tomshardware.com/tech-industry/drones/electric-drone-breaks-world-air-speed-record-at-434-mph-designed-for-anti-aircraft-interceptor-roles-german-firm-convincingly-smashed-the-official-409-mph-record-hopes-to-get-stamp-of-approval-from-guinness-soon",
-      "created_at": "2026-07-06T16:50:48Z",
-      "status": "scoring_attempted",
-      "title": "Electric anti-aircraft interceptor drone breaks world air speed record at 434mph"
     },
     "https://www.tryai.dev/blog/gpt-5.6-build-off-12-models": {
       "canonical_url": "https://www.tryai.dev/blog/gpt-5.6-build-off-12-models",
@@ -4501,6 +4464,12 @@
       "created_at": "2026-07-06T18:47:50Z",
       "status": "scoring_attempted",
       "title": "Big Tech Has Suddenly Flipped on the AI Jobs Wipeout Scenario"
+    },
+    "https://www.ycombinator.com/companies/pgdog/jobs/uWymUYy-founding-software-engineer": {
+      "canonical_url": "https://www.ycombinator.com/companies/pgdog/jobs/uWymUYy-founding-software-engineer",
+      "created_at": "2026-07-13T18:18:14Z",
+      "status": "scoring_attempted",
+      "title": "PgDog (YC P25) Is Hiring a Founding Software Engineer"
     },
     "https://www.youtube.com/watch?v=-hua8RWopfw": {
       "canonical_url": "https://www.youtube.com/watch?v=-hua8RWopfw",
