@@ -46,6 +46,41 @@
         "social_posts": {}
       }
     },
+    "06bce0b64e4ab8668a85b153d932ca72f504418500c9e8df35cbfea1d0c66e48": {
+      "created_at": "2026-07-14T02:05:35Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Anthropic's Claude Sonnet 5 vs Sonnet 4.6 vs Opus 4.8: Agentic Coding Benchmarks, API Pricing, and Cost-Performance Tradeoffs Compared",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Anthropic Claude Sonnet 5 vs Sonnet 4.6 vs Opus 4.8: Agentic Coding Benchmarks, API Pricing, and Cost-Performance Tradeoffs Compared",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2,
+            "index": 1,
+            "novelty_score": 2,
+            "reason": "Uber Chief Product Officer Sachin Kansal walks TechCrunch through the company's financial-services ambitions, its increasingly complicated relationship with Waymo, its new AV Labs data operation, and how AI is starting to show up in ways riders and drivers will actually notice.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Uber\u2019s product chief on hotels, robotaxis, and why the company doesn\u2019t want to be \u201ceverything for everyone\u201d",
+            "total_score": 7.0
+          }
+        ],
+        "best_index": 0,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "0ec51ef926ba216dcc8ac223afc662b22e388cff004e777a4e66f7babb445bfe": {
       "created_at": "2026-07-13T15:36:16Z",
       "payload": {
@@ -532,6 +567,41 @@
         "social_posts": {}
       }
     },
+    "44f8e8b7f0a3c084ee751a6c95210596978219f1d50fc4c26c654e074b49787d": {
+      "created_at": "2026-07-14T02:05:35Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 2.0,
+            "reason": "Industry move with moderate impact and freshness.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Video-generation startup PixVerse raises $439M, valuation soars past $2B",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "New release with niche impact and low-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Show HN: Sx 2.0 \u2013 Share AI skills with your team through a Dropbox folder",
+            "total_score": 6.0
+          }
+        ],
+        "best_index": 2,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "4810b45ec8be7f63ef595a4320663e1e674b3f569484ed54814213ec340a0b3f": {
       "created_at": "2026-07-13T05:53:58Z",
       "payload": {
@@ -694,6 +764,29 @@
         ],
         "best_index": 13,
         "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "55683a499d5ca661515080b541a150ddf7af58a56cf4243e1dd7ed04e4bff9da": {
+      "created_at": "2026-07-14T02:05:35Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 4,
+            "novelty_score": 2.5,
+            "reason": "New tool for shared memory in AI workflows, but niche impact and lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+            "total_score": 6.0
+          }
+        ],
+        "best_index": 4,
+        "best_score": 6.0,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1260,34 +1353,6 @@
         "social_posts": {}
       }
     },
-    "e3155e000c1866fbb30242b651e036d6917832a76c155f77e264a9a6d8d01a43": {
-      "created_at": "2026-07-13T01:11:30Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "New research on a generalist neuroimaging foundation model trained on a massive dataset of clinical MRI and CT volumes.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Meet NeuroVFM: A New Neuroimaging Foundation Model Trained With Vol-JEPA on Uncurated Clinical MRI and CT Volumes",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Researchers from the University of Michigan have developed NeuroVFM, a generalist neuroimaging foundation model trained on 5.24M clinical MRI and CT volumes. This model uses Vol-JEPA to learn brain anatomy and pathology without radiology-report labels. Link: https://www.marktechpost.com/2026/07/12/meet-neurovfm-a-new-neuroimaging-foundation-model-trained-with-vol-jepa-on-uncurated-clinical-mri-and-ct-volumes/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Meet NeuroVFM: A New Neuroimaging Foundation Model Trained With Vol-JEPA on Uncurated Clinical MRI and CT Volumes*\n\nNeuroVFM is a generalist neuroimaging foundation model from the University of Michigan, trained on 5.24M clinical MRI and CT volumes. Its Vol-JEPA base extends I-JEPA and V-JEPA to volumetric medical imaging, learning brain anatomy and pathology without radiology-report labels.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/07/12/meet-neurovfm-a-new-neuroimaging-foundation-model-trained-with-vol-jepa-on-uncurated-clinical-mri-and-ct-volumes/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "NeuroVFM, a new neuroimaging foundation model from the University of Michigan, trained on 5.24M clinical MRI and CT volumes. It uses Vol-JEPA to learn brain anatomy and pathology without labels. https://www.marktechpost.com/2026/07/12/meet-neurovfm-a-new-neuroimaging-foundation-model-trained-with-vol-jepa-on-uncurated-clinical-mri-and-ct-volumes/",
-          "twitter": "University of Michigan researchers release NeuroVFM, a neuroimaging foundation model trained on 5.24M clinical MRI and CT volumes. https://www.marktechpost.com/2026/07/12/meet-neurovfm-a-new-neuroimaging-foundation-model-trained-with-vol-jepa-on-uncurated-clinical-mri-and-ct-volumes/"
-        }
-      }
-    },
     "e3bccafc8bac490af8b7558f5a50f628e857f1f06d78c857b4b8bbea8c2397d5": {
       "created_at": "2026-07-13T16:30:09Z",
       "payload": {
@@ -1395,6 +1460,29 @@
           "threads": "Skyfall AI's MORPHEUS benchmark introduces persistent enterprise simulations, forcing continual reinforcement learning under structured non-stationarity. The platform features parameterizable regime shifts and a six-metric evaluation protocol, addressing the limitations of current methods like PPO, HER, EWC, and LCM.\nhttps://www.marktechpost.com/2026/07/13/skyfall-ai-releases-morpheus-a-persistent-enterprise-simulation-benchmark-that-makes-continual-reinforcement-learning-necessary-under-structured-non-stationarity/",
           "twitter": "Skyfall AI's MORPHEUS benchmark introduces persistent enterprise simulations, forcing continual reinforcement learning under structured non-stationarity.\nhttps://www.marktechpost.com/2026/07/13/skyfall-ai-releases-morpheus-a-persistent-enterprise-simulation-benchmark-that-makes-continual-reinforcement-learning-necessary-under-structured-non-stationarity/"
         }
+      }
+    },
+    "f9cdb243b4abcd277e9643ab59a927f091470f45972cf86fadf4beb7af181e0a": {
+      "created_at": "2026-07-14T02:05:35Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 5,
+            "novelty_score": 2.5,
+            "reason": "Interesting discussion on AI whale fall and open source, but niche impact and lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "The AI Whale Fall and Open Source",
+            "total_score": 6.0
+          }
+        ],
+        "best_index": 5,
+        "best_score": 6.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "fafa3a1b1a0954b74b6bd82efa38c5fd28e18d2ff2fb382f473c768c10990d83": {
@@ -1940,15 +2028,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 New AI Models Released\nOpenAI's latest model family, including GPT-5.6, promises improvements in areas like cybersecurity.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9/10\n#AI #Cybersecurity #Tech\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "OpenAI has launched its new family of models, featuring GPT-5.6, which promises to enhance cybersecurity capabilities @OpenAI #AI",
         "twitter": "OpenAI's new model family promises enhanced cybersecurity capabilities, a significant step forward @OpenAI #AI"
-      }
-    },
-    "e79c0f9e6e4331735cf29d238452a6a576c69a2b730434ee906290f056002300": {
-      "created_at": "2026-07-07T01:09:45Z",
-      "payload": {
-        "facebook": "The latest version of LeRobot has been released, offering enhanced functionality and capabilities. This update is a notable step forward for the AI community, with potential applications in various fields. #AI #MachineLearning #HuggingFace",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 LeRobot v0.6.0 Released\nThe latest version of LeRobot has been released, offering enhanced functionality and capabilities.\n\ud83c\udfdb\ufe0f Source: HuggingFace (S)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n#AI #MachineLearning #HuggingFace\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "LeRobot's new update is a significant step forward for AI development, offering improved functionality and capabilities, @HuggingFace is leading the charge #AI",
-        "twitter": "HuggingFace's latest LeRobot update brings significant improvements, @HuggingFace is pushing the boundaries of AI development #AI"
       }
     },
     "ec90a51cd9637d0e5baa74db9b5556894a5bb08b871084ab1339872068ad1814": {
@@ -2874,12 +2953,6 @@
       "status": "scoring_attempted",
       "title": "Knowledge Graphs and Explainable AI as Complementary Resources for Urban Mining"
     },
-    "https://blog.cr.yp.to/20260706-fairness.html": {
-      "canonical_url": "https://blog.cr.yp.to/20260706-fairness.html",
-      "created_at": "2026-07-07T01:09:45Z",
-      "status": "scoring_attempted",
-      "title": "NSA and IETF: Fairness"
-    },
     "https://blog.mozilla.ai/the-control-layer-why-the-next-era-of-ai-is-about-infrastructure-not-just-models": {
       "canonical_url": "https://blog.mozilla.ai/the-control-layer-why-the-next-era-of-ai-is-about-infrastructure-not-just-models",
       "created_at": "2026-07-09T20:10:00Z",
@@ -3144,12 +3217,6 @@
       "status": "scoring_attempted",
       "title": "From Hugging Face to Amazon SageMaker Studio in one click"
     },
-    "https://huggingface.co/blog/lerobot-release-v060": {
-      "canonical_url": "https://huggingface.co/blog/lerobot-release-v060",
-      "created_at": "2026-07-07T01:09:45Z",
-      "status": "scoring_attempted",
-      "title": "LeRobot v0.6.0: Imagine, Evaluate, Improve"
-    },
     "https://huggingface.co/blog/microsoft/foundry-managed-compute": {
       "canonical_url": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
       "created_at": "2026-07-07T15:36:30Z",
@@ -3233,6 +3300,12 @@
       "created_at": "2026-07-08T18:59:09Z",
       "status": "scoring_attempted",
       "title": "Show HN: Microsoft releases Flint, a visualization language for AI agents"
+    },
+    "https://minor.gripe/posts/2026-07-13-the_ai_whalefall_and_open_source": {
+      "canonical_url": "https://minor.gripe/posts/2026-07-13-the_ai_whalefall_and_open_source",
+      "created_at": "2026-07-14T02:05:35Z",
+      "status": "scoring_attempted",
+      "title": "The AI Whale Fall and Open Source"
     },
     "https://mira-wm.com": {
       "canonical_url": "https://mira-wm.com",
@@ -3420,6 +3493,12 @@
       "status": "scoring_attempted",
       "title": "Interrail: 6,379Km and 13 Countries over 7 weeks"
     },
+    "https://sleuth-io.github.io/sx/2026/07/10/your-dropbox-is-now-a-skill-server.html": {
+      "canonical_url": "https://sleuth-io.github.io/sx/2026/07/10/your-dropbox-is-now-a-skill-server.html",
+      "created_at": "2026-07-14T02:05:35Z",
+      "status": "scoring_attempted",
+      "title": "Show HN: Sx 2.0 \u2013 Share AI skills with your team through a Dropbox folder"
+    },
     "https://spectrum.ieee.org/ai-science-research-flattens-discovery": {
       "canonical_url": "https://spectrum.ieee.org/ai-science-research-flattens-discovery",
       "created_at": "2026-07-12T14:21:31Z",
@@ -3455,12 +3534,6 @@
       "created_at": "2026-07-12T19:43:24Z",
       "status": "scoring_attempted",
       "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k"
-    },
-    "https://techcrunch.com/2026/07/06/us-investors-will-soon-get-access-to-sk-hynix-another-memory-maker-riding-the-ai-boom": {
-      "canonical_url": "https://techcrunch.com/2026/07/06/us-investors-will-soon-get-access-to-sk-hynix-another-memory-maker-riding-the-ai-boom",
-      "created_at": "2026-07-07T01:09:45Z",
-      "status": "scoring_attempted",
-      "title": "US investors will soon get access to SK Hynix, another memory maker riding the AI boom"
     },
     "https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images": {
       "canonical_url": "https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images",
@@ -3750,6 +3823,18 @@
       "status": "scoring_attempted",
       "title": "The wildest allegations in Apple\u2019s trade secrets lawsuit against OpenAI"
     },
+    "https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone": {
+      "canonical_url": "https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone",
+      "created_at": "2026-07-14T02:05:35Z",
+      "status": "scoring_attempted",
+      "title": "Uber\u2019s product chief on hotels, robotaxis, and why the company doesn\u2019t want to be \u201ceverything for everyone\u201d"
+    },
+    "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b": {
+      "canonical_url": "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b",
+      "created_at": "2026-07-14T02:05:35Z",
+      "status": "scoring_attempted",
+      "title": "Video-generation startup PixVerse raises $439M, valuation soars past $2B"
+    },
     "https://techcrunch.com/2026/07/13/waze-adds-new-ai-powered-features-and-customization-updates": {
       "canonical_url": "https://techcrunch.com/2026/07/13/waze-adds-new-ai-powered-features-and-customization-updates",
       "created_at": "2026-07-13T15:36:16Z",
@@ -3773,12 +3858,6 @@
       "created_at": "2026-07-08T18:59:09Z",
       "status": "scoring_attempted",
       "title": "Why this CEO thinks video games make better training data than the internet"
-    },
-    "https://ternlight-demo.vercel.app": {
-      "canonical_url": "https://ternlight-demo.vercel.app",
-      "created_at": "2026-07-07T01:09:45Z",
-      "status": "scoring_attempted",
-      "title": "Ternlight \u2013 7 MB embedding model that runs in browser (WASM)"
     },
     "https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents": {
       "canonical_url": "https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents",
@@ -3869,6 +3948,12 @@
       "created_at": "2026-07-09T16:13:09Z",
       "status": "scoring_attempted",
       "title": "Launch HN: Context.dev (YC S26) \u2013 API to get structured data from any website"
+    },
+    "https://www.contextvault.dev": {
+      "canonical_url": "https://www.contextvault.dev",
+      "created_at": "2026-07-14T02:05:35Z",
+      "status": "scoring_attempted",
+      "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team"
     },
     "https://www.dailymail.com/news/article-15971065/Grandpa-launched-eight-feet-air-bison-Yellowstone.html": {
       "canonical_url": "https://www.dailymail.com/news/article-15971065/Grandpa-launched-eight-feet-air-bison-Yellowstone.html",
@@ -4199,6 +4284,12 @@
       "created_at": "2026-07-13T01:11:30Z",
       "status": "scoring_attempted",
       "title": "Meet NeuroVFM: A New Neuroimaging Foundation Model Trained With Vol-JEPA on Uncurated Clinical MRI and CT Volumes"
+    },
+    "https://www.marktechpost.com/2026/07/13/anthropic-claude-sonnet-5-vs-sonnet-4-6-vs-opus-4-8-agentic-coding-benchmarks-api-pricing-and-cost-performance-tradeoffs-compared": {
+      "canonical_url": "https://www.marktechpost.com/2026/07/13/anthropic-claude-sonnet-5-vs-sonnet-4-6-vs-opus-4-8-agentic-coding-benchmarks-api-pricing-and-cost-performance-tradeoffs-compared",
+      "created_at": "2026-07-14T02:05:35Z",
+      "status": "scoring_attempted",
+      "title": "Anthropic Claude Sonnet 5 vs Sonnet 4.6 vs Opus 4.8: Agentic Coding Benchmarks, API Pricing, and Cost-Performance Tradeoffs Compared"
     },
     "https://www.marktechpost.com/2026/07/13/prime-intellect-releases-verifiers-v1": {
       "canonical_url": "https://www.marktechpost.com/2026/07/13/prime-intellect-releases-verifiers-v1",
