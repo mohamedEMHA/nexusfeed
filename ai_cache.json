@@ -570,6 +570,69 @@
         }
       }
     },
+    "3c6a604bb35cdcf21f4c181c3c6041bbe1972346092e0ab8182d99aff7bcce05": {
+      "created_at": "2026-07-14T22:12:36Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 5,
+            "novelty_score": 2.5,
+            "reason": "Interesting discussion on model quantization but limited impact and source tier.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Same model, same Q4_K_M label: 5.02, 5.07 and 5.27 bits per weight",
+            "total_score": 6.0
+          }
+        ],
+        "best_index": 5,
+        "best_score": 6.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "3e5108b525b79ddf0b7b73c7f4e4acf4cb87659ec284762a899ab1e009d1ac2b": {
+      "created_at": "2026-07-14T22:12:36Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "GPT-5.6 Sol's file deletion issue is a significant update with broad impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "OpenAI\u2019s new flagship model deletes files on its own, people keep warning",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2,
+            "index": 3,
+            "novelty_score": 1.5,
+            "reason": "Windows 11 update pause feature is a useful but niche update.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Windows 11\u2019s big patch Tuesday allows you to hold off on updates for longer",
+            "total_score": 7
+          }
+        ],
+        "best_index": 2,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "OpenAI's latest flagship model, GPT-5.6 Sol, is reportedly deleting files without user intervention. This issue was disclosed by OpenAI in June, but users are now widely reporting it. The problem highlights the ongoing challenges with AI reliability. Link: https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *OpenAI\u2019s new flagship model deletes files on its own, people keep warning*\n\nA number of social media posts claim that GPT-5.6 Sol deleted files and data without warning. OpenAI had basically disclosed the problem in June.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "OpenAI's GPT-5.6 Sol is deleting files without warning, and users are raising alarms. This issue was disclosed in June but is now widely reported. https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/",
+          "twitter": "OpenAI's GPT-5.6 Sol is deleting files without warning, and users are raising alarms. https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/"
+        }
+      }
+    },
     "41fb0f646fbee8407a48a24b78d735bd5945317e5352606f7872833f2afaa4f8": {
       "created_at": "2026-07-14T15:21:57Z",
       "payload": {
@@ -1182,29 +1245,6 @@
         "social_posts": {}
       }
     },
-    "809f501185230394a633ae05e86fd602a5d28c02c5d6d0581c7c9aa5bddaaa7d": {
-      "created_at": "2026-07-13T21:47:38Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1,
-            "impact_score": 1.5,
-            "index": 20,
-            "novelty_score": 2.5,
-            "reason": "New programming language for AI-human collaboration, but niche impact and lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Show HN: Jacquard, a programming language for AI-written, human-reviewed code",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 20,
-        "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "877267c3397ac8b8fe813874de5089bbff871e8a4d3ab0b7b3dcce09612e7c36": {
       "created_at": "2026-07-14T14:09:38Z",
       "payload": {
@@ -1236,41 +1276,6 @@
         ],
         "best_index": 5,
         "best_score": 8,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "91860c5e745fb4efccbbed41e06b7ef24ae3b35fd52d166d7244f3692abaf8b3": {
-      "created_at": "2026-07-13T21:47:38Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "Satya Nadella's warning about AI labs acting as Trojan horses is a significant industry move with broad implications.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Satya Nadella has issued a shocking warning to companies using AI",
-            "total_score": 8.0
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 0.5,
-            "index": 3,
-            "novelty_score": 0.2,
-            "reason": "This is a product sale announcement, not relevant to software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "The Shokz OpenRun Pro are the cheapest they\u2019ve been since January",
-            "total_score": 4.2
-          }
-        ],
-        "best_index": 2,
-        "best_score": 8.0,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1308,6 +1313,46 @@
         "best_score": 7.0,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "9525889d804d78bc6485bdd3c298ce9d692074e564c9d8a023565eb6cc23dea5": {
+      "created_at": "2026-07-14T22:12:36Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 1.5,
+            "reason": "Update on ongoing legal dispute with moderate impact on AI industry.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "OpenAI pushes back on Apple trade secret lawsuit",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 3,
+            "reason": "New tool for developers integrating VS Code with Google Cloud's Jupyter notebooks.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Google Cloud Workbench Notebooks Extension Connects VS Code to Google Cloud's Jupyter Notebooks",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Google Cloud Workbench Notebooks extension connects VS Code to Google Cloud's Jupyter notebooks. This new tool enables developers to work with managed Jupyter notebook environments directly from their local IDE. Link: https://www.infoq.com/news/2026/07/cloud-workbench-vscode-extension/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Google Cloud Workbench Notebooks Extension Connects VS Code to Google Cloud's Jupyter Notebooks*\n\nThe Google Cloud Workbench Notebooks extension for VS Code enables developers to connect their local IDE directly to managed Jupyter notebook environments on Google Cloud.\n\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (B)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.infoq.com/news/2026/07/cloud-workbench-vscode-extension/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Google Cloud Workbench Notebooks extension connects VS Code to Google Cloud's Jupyter notebooks. This new tool enables developers to work with managed Jupyter notebook environments directly from their local IDE. https://www.infoq.com/news/2026/07/cloud-workbench-vscode-extension/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "twitter": "Google Cloud Workbench Notebooks extension bridges VS Code and Google Cloud's Jupyter notebooks. https://www.infoq.com/news/2026/07/cloud-workbench-vscode-extension/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+        }
       }
     },
     "957f12a216d3fff3669a2e7e358844cf98dd3fccc3b8dabe18a0b339cd95a694": {
@@ -1395,69 +1440,6 @@
         "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "a8308900cb9b036ab08fb53134711cffe7c4ca27d7b5821ae2f6f1c114ded9d4": {
-      "created_at": "2026-07-13T21:47:38Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 6,
-            "novelty_score": 2.5,
-            "reason": "Samsung's policy on health data usage for AI training is notable but not groundbreaking.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Samsung will delete your health data if you don't let them use it to train AI",
-            "total_score": 7.0
-          }
-        ],
-        "best_index": 6,
-        "best_score": 7.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "b443c512150bbdceaf4186406a8cfadf8cf19ff59132c6485d09626d68fcf69e": {
-      "created_at": "2026-07-13T21:47:38Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Siri's transformation into Apple's central AI hub is significant for iPhone users, but not groundbreaking for the broader AI field.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Siri AI Is Becoming Apple\u2019s Everything Tool",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 0.5,
-            "index": 1,
-            "novelty_score": 1.5,
-            "reason": "A price cut on wireless mics is niche and not relevant to most software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "A two-pack of DJI\u2019s most capable wireless mics just got its first price cut",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Apple's Siri is evolving beyond a voice assistant into the central AI hub of the iPhone. The update is now available in the iOS 27 public beta, marking a significant shift in how users interact with their devices. Link: https://www.wired.com/story/siri-ai-is-now-apple-everything-tool/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Siri AI Is Becoming Apple\u2019s Everything Tool*\n\nApple's revamped Siri is now the backbone of the iPhone user experience, integrating deeper AI capabilities. The update is available through the iOS 27 public beta.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.wired.com/story/siri-ai-is-now-apple-everything-tool/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Apple's Siri is becoming the central AI hub of the iPhone, integrating deeper into the user experience. The update is live in the iOS 27 public beta. https://www.wired.com/story/siri-ai-is-now-apple-everything-tool/",
-          "twitter": "Apple's Siri is now the backbone of the iPhone experience, integrating deeper AI capabilities. https://www.wired.com/story/siri-ai-is-now-apple-everything-tool/"
-        }
       }
     },
     "b9c3ca05403b439f1acb7da17c352b5e4e6ee49d38eb9113235de2b4b142994a": {
@@ -1847,6 +1829,34 @@
         "social_posts": {}
       }
     },
+    "f5065dce8d2007385be24b2b9d486447c160b232721ee0a8c244a5db1bd889b3": {
+      "created_at": "2026-07-14T22:12:36Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 4,
+            "novelty_score": 2.5,
+            "reason": "OpenAI's potential hardware move is a significant industry development with broad implications.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "OpenAI may announce a ChatGPT smart speaker this year",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 4,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "OpenAI may launch a ChatGPT smart speaker this year, according to a Bloomberg report. The device would use cameras and sensors to understand your environment but won't have a screen. This marks a significant move into hardware for the AI company. Link: https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *OpenAI may announce a ChatGPT smart speaker this year*\n\nOpenAI is reportedly working on a smart speaker that uses cameras and sensors to understand your environment but won't have a screen.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "OpenAI is reportedly developing a ChatGPT smart speaker with environmental sensors but no screen. This could be a major hardware play for the AI company. https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device",
+          "twitter": "OpenAI is reportedly working on a ChatGPT smart speaker with environmental sensors, no screen. https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device"
+        }
+      }
+    },
     "f6136b4aebd5d48d9455fe34f1c5cb588415ef96d35c3d4d66c918a73f6498d0": {
       "created_at": "2026-07-14T18:53:04Z",
       "payload": {
@@ -1986,6 +1996,15 @@
     }
   },
   "groq_social_posts": {
+    "030adc64aa85791f1bd7034d44d921b7554b140048a8a1574ea594b811ec4bdb": {
+      "created_at": "2026-07-14T22:12:36Z",
+      "payload": {
+        "facebook": "The Google Cloud Workbench Notebooks extension is a significant development for developers, enabling them to work seamlessly with managed Jupyter notebook environments on Google Cloud. This new tool streamlines the development process and enhances productivity. #CloudComputing #GoogleCloud #JupyterNotebooks",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Google Cloud enhances developer experience\nThe Google Cloud Workbench Notebooks extension for VS Code enables direct connection to managed Jupyter notebook environments on Google Cloud.\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (B)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#CloudComputing #GoogleCloud #JupyterNotebooks\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "The Google Cloud Workbench Notebooks extension for VS Code is a game-changer for developers, allowing direct connection to managed Jupyter notebook environments @GoogleCloud #CloudComputing",
+        "twitter": "Developers can now connect VS Code to Google Cloud's Jupyter notebooks with the new Workbench Notebooks extension @GoogleCloud #CloudComputing"
+      }
+    },
     "0a7e9437cbc26a06667ace10c5ce4e7fb0326ddcda575d6ef92206157e1e6aa2": {
       "created_at": "2026-07-08T18:59:09Z",
       "payload": {
@@ -2436,15 +2455,6 @@
         "twitter": "Meta faces lawsuit over allegedly biased AI layoffs targeting workers on leave @Meta claims unfair dismissal @techworkers #AIethics #layoffs"
       }
     },
-    "ee396c524324368e2fe116312e42559b0042599e2ceb34c400a48601e597eafb": {
-      "created_at": "2026-07-07T21:55:05Z",
-      "payload": {
-        "facebook": "The machine learning community has a new reason to celebrate as Hugging Face and Amazon SageMaker Studio are now integrated in one click, streamlining the development process. This integration is set to impact all ML engineers, making their workflow more efficient. #MachineLearning #AI",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Hugging Face and Amazon SageMaker Studio Integration\nThe machine learning community has a new reason to celebrate as Hugging Face and Amazon SageMaker Studio are now integrated in one click, streamlining the development process.\n\ud83c\udfdb\ufe0f Source: HuggingFace (S)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n#MachineLearning #AI #HuggingFace",
-        "threads": "Hugging Face and Amazon SageMaker Studio are now integrated, allowing for a seamless development experience @HuggingFace #MachineLearning",
-        "twitter": "Machine learning development just got a boost with Hugging Face and Amazon SageMaker Studio integration @HuggingFace #MachineLearning"
-      }
-    },
     "f484d4d9df4b2a9068e13d799e86a32d5f7c915b467cbe861cd8985355ac4b64": {
       "created_at": "2026-07-14T21:11:38Z",
       "payload": {
@@ -2611,12 +2621,6 @@
       "created_at": "2026-07-09T20:10:00Z",
       "status": "scoring_attempted",
       "title": "OpenAI may have made a fatal misstep in copyright fight with news orgs"
-    },
-    "https://arstechnica.com/tech-policy/2026/07/us-manufacturers-energy-costs-soar-because-of-ai-data-center-demand": {
-      "canonical_url": "https://arstechnica.com/tech-policy/2026/07/us-manufacturers-energy-costs-soar-because-of-ai-data-center-demand",
-      "created_at": "2026-07-07T21:55:05Z",
-      "status": "scoring_attempted",
-      "title": "Data centers\u2019 energy demand threatens Trump\u2019s \u201cMade in America\u201d plan"
     },
     "https://arxiv.org/abs/2607.01418": {
       "canonical_url": "https://arxiv.org/abs/2607.01418",
@@ -3560,6 +3564,12 @@
       "status": "scoring_attempted",
       "title": "Show HN: Jacquard, a programming language for AI-written, human-reviewed code"
     },
+    "https://github.com/logxio/picchio": {
+      "canonical_url": "https://github.com/logxio/picchio",
+      "created_at": "2026-07-14T22:12:36Z",
+      "status": "scoring_attempted",
+      "title": "Same model, same Q4_K_M label: 5.02, 5.07 and 5.27 bits per weight"
+    },
     "https://github.com/morganwilliscloud/billai-bass": {
       "canonical_url": "https://github.com/morganwilliscloud/billai-bass",
       "created_at": "2026-07-13T19:54:25Z",
@@ -3613,12 +3623,6 @@
       "created_at": "2026-07-13T20:53:19Z",
       "status": "scoring_attempted",
       "title": "Show HN: I implemented a neural network in SQL"
-    },
-    "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio": {
-      "canonical_url": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
-      "created_at": "2026-07-07T21:55:05Z",
-      "status": "scoring_attempted",
-      "title": "From Hugging Face to Amazon SageMaker Studio in one click"
     },
     "https://huggingface.co/blog/nvidia/open-data-for-agents": {
       "canonical_url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
@@ -4238,6 +4242,18 @@
       "status": "scoring_attempted",
       "title": "New York State halts construction of all new data centers"
     },
+    "https://techcrunch.com/2026/07/14/openai-pushes-back-on-apple-trade-secret-lawsuit": {
+      "canonical_url": "https://techcrunch.com/2026/07/14/openai-pushes-back-on-apple-trade-secret-lawsuit",
+      "created_at": "2026-07-14T22:12:36Z",
+      "status": "scoring_attempted",
+      "title": "OpenAI pushes back on Apple trade secret lawsuit"
+    },
+    "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning": {
+      "canonical_url": "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning",
+      "created_at": "2026-07-14T22:12:36Z",
+      "status": "scoring_attempted",
+      "title": "OpenAI\u2019s new flagship model deletes files on its own, people keep warning"
+    },
     "https://techcrunch.com/2026/07/14/spotify-expands-its-ai-push-with-a-chatgpt-like-music-assistant": {
       "canonical_url": "https://techcrunch.com/2026/07/14/spotify-expands-its-ai-push-with-a-chatgpt-like-music-assistant",
       "created_at": "2026-07-14T14:09:38Z",
@@ -4495,6 +4511,12 @@
       "created_at": "2026-07-09T08:47:58Z",
       "status": "scoring_attempted",
       "title": "AWS Details How One Customer Scaled to One Million Lambda Functions"
+    },
+    "https://www.infoq.com/news/2026/07/cloud-workbench-vscode-extension": {
+      "canonical_url": "https://www.infoq.com/news/2026/07/cloud-workbench-vscode-extension",
+      "created_at": "2026-07-14T22:12:36Z",
+      "status": "scoring_attempted",
+      "title": "Google Cloud Workbench Notebooks Extension Connects VS Code to Google Cloud's Jupyter Notebooks"
     },
     "https://www.infoq.com/news/2026/07/cloudflare-hyper-bug-fix": {
       "canonical_url": "https://www.infoq.com/news/2026/07/cloudflare-hyper-bug-fix",
@@ -4910,6 +4932,12 @@
       "status": "scoring_attempted",
       "title": "SpaceXAI&#8217;s Grok programming tool was uploading its users&#8217; entire codebase to cloud storage"
     },
+    "https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device": {
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device",
+      "created_at": "2026-07-14T22:12:36Z",
+      "status": "scoring_attempted",
+      "title": "OpenAI may announce a ChatGPT smart speaker this year"
+    },
     "https://www.theverge.com/column/963346/ai-data-centers-fight": {
       "canonical_url": "https://www.theverge.com/column/963346/ai-data-centers-fight",
       "created_at": "2026-07-12T12:50:21Z",
@@ -5114,12 +5142,6 @@
       "status": "scoring_attempted",
       "title": "The first sunlight reflecting space mirror has been cleared for launch"
     },
-    "https://www.theverge.com/streaming/962528/netflix-digital-media-brands-streaming": {
-      "canonical_url": "https://www.theverge.com/streaming/962528/netflix-digital-media-brands-streaming",
-      "created_at": "2026-07-07T21:55:05Z",
-      "status": "scoring_attempted",
-      "title": "Netflix is about to host videos from BuzzFeed, Cond\u00e9 Nast, and other publishers"
-    },
     "https://www.theverge.com/streaming/963733/netflix-always-on-channels-bundles": {
       "canonical_url": "https://www.theverge.com/streaming/963733/netflix-always-on-channels-bundles",
       "created_at": "2026-07-09T23:08:03Z",
@@ -5143,12 +5165,6 @@
       "created_at": "2026-07-09T16:13:09Z",
       "status": "scoring_attempted",
       "title": "Sony brings back the superzoom RX10 with a stacked sensor and a high price"
-    },
-    "https://www.theverge.com/tech/962485/meta-muse-image-ai-model-instagram": {
-      "canonical_url": "https://www.theverge.com/tech/962485/meta-muse-image-ai-model-instagram",
-      "created_at": "2026-07-07T21:55:05Z",
-      "status": "scoring_attempted",
-      "title": "Meta\u2019s new Muse Image model can pull other Instagram users into AI photos"
     },
     "https://www.theverge.com/tech/962658/samsung-galaxy-unpacked-wide-foldable-watch-july": {
       "canonical_url": "https://www.theverge.com/tech/962658/samsung-galaxy-unpacked-wide-foldable-watch-july",
@@ -5282,6 +5298,12 @@
       "status": "scoring_attempted",
       "title": "Meta accused of using biased AI targeting for mass layoffs"
     },
+    "https://www.theverge.com/tech/965643/microsoft-windows-11-july-2026-patch-tuesday-updates": {
+      "canonical_url": "https://www.theverge.com/tech/965643/microsoft-windows-11-july-2026-patch-tuesday-updates",
+      "created_at": "2026-07-14T22:12:36Z",
+      "status": "scoring_attempted",
+      "title": "Windows 11&#8217;s big patch Tuesday allows you to hold off on updates for longer"
+    },
     "https://www.theverge.com/transportation/962309/new-jersey-robotaxi-bill-lidar-tesla": {
       "canonical_url": "https://www.theverge.com/transportation/962309/new-jersey-robotaxi-bill-lidar-tesla",
       "created_at": "2026-07-08T11:21:39Z",
@@ -5365,12 +5387,6 @@
       "created_at": "2026-07-09T20:10:00Z",
       "status": "scoring_attempted",
       "title": "Anthropic Wants You to Pay Up for Claude Fable 5"
-    },
-    "https://www.wired.com/story/openai-chief-futurist-joshua-achiam-is-leaving-the-company": {
-      "canonical_url": "https://www.wired.com/story/openai-chief-futurist-joshua-achiam-is-leaving-the-company",
-      "created_at": "2026-07-07T21:55:05Z",
-      "status": "scoring_attempted",
-      "title": "OpenAI\u2019s Chief Futurist Is Leaving the Company"
     },
     "https://www.wired.com/story/openai-head-of-safety-leaving": {
       "canonical_url": "https://www.wired.com/story/openai-head-of-safety-leaving",
