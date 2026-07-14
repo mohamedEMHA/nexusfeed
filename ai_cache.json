@@ -104,53 +104,6 @@
         "social_posts": {}
       }
     },
-    "0ec51ef926ba216dcc8ac223afc662b22e388cff004e777a4e66f7babb445bfe": {
-      "created_at": "2026-07-13T15:36:16Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 3,
-            "novelty_score": 0.2,
-            "reason": "Niche topic with limited impact on software engineers and AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "The art and engineering of Sega CD Silpheed",
-            "total_score": 4.2
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 0.5,
-            "index": 4,
-            "novelty_score": 1.5,
-            "reason": "Product announcement with limited relevance to software engineers and AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "The Asus ROG Flow Z13 gaming tablet with 64GB RAM is down to $2,100",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 5,
-            "novelty_score": 2.5,
-            "reason": "New AI features in a widely used app with broad impact on users.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Waze adds new AI-powered features and customization updates",
-            "total_score": 8.0
-          }
-        ],
-        "best_index": 5,
-        "best_score": 8.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "1030a3f55dff5f02b107bd8bb2fbdc782613b1154c424ace6bfbf4aac5b2bd92": {
       "created_at": "2026-07-13T19:54:25Z",
       "payload": {
@@ -188,6 +141,56 @@
           "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *The wildest allegations in Apple\u2019s trade secrets lawsuit against OpenAI*\n\nApple's lawsuit against OpenAI alleges unauthorized access to its systems and trade secrets, with claims ranging from employees joking about unauthorized access to job candidates being asked to bring Apple hardware to interviews.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
           "threads": "Apple's lawsuit against OpenAI includes allegations of unauthorized access to its systems and trade secrets. The complaint details some eye-catching claims that could have significant implications for the AI industry. https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai/",
           "twitter": "Apple's lawsuit against OpenAI alleges unauthorized access to its systems and trade secrets. https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai/"
+        }
+      }
+    },
+    "14cd70931aa3f9e9bb470682137dcbd8dd4ca11f2a96f4e4d51044261014e5f1": {
+      "created_at": "2026-07-14T16:42:04Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 6,
+            "novelty_score": 0.2,
+            "reason": "This is a retrospective piece celebrating an anniversary, which is not novel or impactful for software engineers and AI researchers.",
+            "red_flag": true,
+            "red_flag_reason": "retrospective",
+            "source_score": 2,
+            "title": "Celebrating 25 years of visual search innovation",
+            "total_score": 3.7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 7,
+            "novelty_score": 2.5,
+            "reason": "This article discusses a new AI application in healthcare compliance, which is relevant and impactful for AI researchers and software engineers.",
+            "red_flag": false,
+            "source_score": 1,
+            "title": "AWS and Bluesight build AI for hospital 340B compliance",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 8,
+            "novelty_score": 2.5,
+            "reason": "This article discusses a new AI feature in a popular application, which is highly relevant and impactful for software engineers and AI researchers.",
+            "red_flag": false,
+            "source_score": 1.5,
+            "title": "Spotify is now an AI chatbot, too",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 8,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Spotify has introduced a new AI chatbot feature called 'Talk to Spotify' that allows users to interact with music, audiobooks, and podcasts through conversation. This feature is now available on the mobile app and could change how users discover and engage with content. Link: https://www.theverge.com/entertainment/965358/spotify-ai-chatbot-interface-music-audiobooks-podcasts",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\ud83d\udd25 *Spotify is now an AI chatbot, too*\n\nSpotify has introduced a new AI feature that allows Premium subscribers to play and explore music, audiobooks, and podcasts by having conversations with a chatbot. The \"Talk to Spotify\" feature appears across the Home and Now Playing view on Spotify's mobile app.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/entertainment/965358/spotify-ai-chatbot-interface-music-audiobooks-podcasts\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Spotify's new AI chatbot lets you explore music, audiobooks, and podcasts through conversation. The 'Talk to Spotify' feature is now live on mobile apps. https://www.theverge.com/entertainment/965358/spotify-ai-chatbot-interface-music-audiobooks-podcasts",
+          "twitter": "Spotify just rolled out an AI chatbot for music, audiobooks, and podcasts. The 'Talk to Spotify' feature is now in mobile apps.\nhttps://www.theverge.com/entertainment/965358/spotify-ai-chatbot-interface-music-audiobooks-podcasts"
         }
       }
     },
@@ -514,58 +517,6 @@
         "best_score": 7.0,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "25cdd2547b5f6d9f272e5ff352a2748f652493841f0bfb2056d878bf684ed151": {
-      "created_at": "2026-07-13T15:36:16Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Anthropic's pricing localization is a notable move but impacts a specific market.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Anthropic starts localizing Claude pricing for India, its biggest market after the US",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 3,
-            "reason": "Defenders using prompt injection is a novel and impactful security development.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Now, defenders are embracing the prompt injection, too",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 2,
-            "novelty_score": 1.5,
-            "reason": "Interesting but not as impactful as other articles.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Even Nvidia\u2019s head of automotive fights with Nvidia for compute",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Security researchers have started using prompt injection as a defensive tactic. This \"context bombing\" technique tricks hacking agents into shutting down before they can do harm. Link: https://arstechnica.com/security/2026/07/now-defenders-are-embracing-the-prompt-injection-too/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\ud83d\udd25 *Now, defenders are embracing the prompt injection, too* \n\n\"Context bombing\" tricks hacking agents into shutting down before they can do harm. \n\n\ud83c\udfdb\ufe0f Source: Ars Technica (A) \n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://arstechnica.com/security/2026/07/now-defenders-are-embracing-the-prompt-injection-too/",
-          "threads": "Defenders are now using prompt injection to shut down hacking agents before they can cause harm. This \"context bombing\" technique is a novel approach to cybersecurity. https://arstechnica.com/security/2026/07/now-defenders-are-embracing-the-prompt-injection-too/",
-          "twitter": "Defenders are now using prompt injection to shut down hacking agents before they cause harm. https://arstechnica.com/security/2026/07/now-defenders-are-embracing-the-prompt-injection-too/"
-        }
       }
     },
     "30502e10c7f3720f55ce72ddb2949f5045af1e1d03fe03df3fbad74f7c2392c2": {
@@ -1172,29 +1123,6 @@
         "social_posts": {}
       }
     },
-    "663e68024a129406ce3f641eef252983b8063afa779f1f584828161efe7a3f75": {
-      "created_at": "2026-07-13T16:30:09Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 9,
-            "novelty_score": 2.0,
-            "reason": "Benchmarking older GPUs with modern workloads is useful but niche.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Benchmarking 15 \"E-Waste\" GPUs with Modern Workloads",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 9,
-        "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "716e70c8b2f35e8f99731d248ef9ebc41460d4387ae4e6bbf058bffe78fd40e2": {
       "created_at": "2026-07-14T12:07:24Z",
       "payload": {
@@ -1242,29 +1170,6 @@
         ],
         "best_index": 5,
         "best_score": 5.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "7dd1edf251622930e5c16cf3e38efd22e435dcbd80811534841ec32d83c031ca": {
-      "created_at": "2026-07-13T16:30:09Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1,
-            "impact_score": 2.5,
-            "index": 13,
-            "novelty_score": 2.5,
-            "reason": "Expert analysis on world models, but not a new release or research.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Simulating everything, sort of: The promise and limits of world models",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 13,
-        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1328,41 +1233,6 @@
         ],
         "best_index": 20,
         "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "820c0d3233423ddfee2004f509e569238272f0cf5f2302d75c1c5139cd8069b3": {
-      "created_at": "2026-07-13T15:36:16Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 6,
-            "novelty_score": 2.5,
-            "reason": "DoorDash's AI shopping assistant architecture combines multiple AI techniques for higher conversion rates.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "How DoorDash Built an AI Shopping Assistant That Doesn\u2019t Rely on the LLM Alone",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2,
-            "index": 7,
-            "novelty_score": 3,
-            "reason": "Clawk provides a disposable Linux VM for coding agents, improving security and flexibility.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Show HN: Clawk \u2013 Give coding agents a disposable Linux VM, not your laptop",
-            "total_score": 7
-          }
-        ],
-        "best_index": 6,
-        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1465,29 +1335,6 @@
         "social_posts": {}
       }
     },
-    "8ce10aa2cee168a10d158c209e3663ab74ab3697f9fcddaefa9dec5964f5388a": {
-      "created_at": "2026-07-13T16:30:09Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "New release with moderate impact, fresh, but from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Apple's new SpeechAnalyzer API, benchmarked against Whisper and its predecessor",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "91860c5e745fb4efccbbed41e06b7ef24ae3b35fd52d166d7244f3692abaf8b3": {
       "created_at": "2026-07-13T21:47:38Z",
       "payload": {
@@ -1521,6 +1368,93 @@
         "best_score": 8.0,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "919ba38b9fb3d69efa2debb51bc25c48887bf3bd6631d8bb8aaa6559be3b8d54": {
+      "created_at": "2026-07-14T16:42:04Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 9,
+            "novelty_score": 0.5,
+            "reason": "Opinion piece on AI's impact on human cognition.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Are we offloading too much of our thinking to AI?",
+            "total_score": 3.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 11,
+            "novelty_score": 2.5,
+            "reason": "Research on agentic loops in AI systems.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "The Agentic Loop: Three loops in a trench coat",
+            "total_score": 7.0
+          }
+        ],
+        "best_index": 11,
+        "best_score": 7.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "957f12a216d3fff3669a2e7e358844cf98dd3fccc3b8dabe18a0b339cd95a694": {
+      "created_at": "2026-07-14T16:42:04Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 3,
+            "novelty_score": 3.0,
+            "reason": "New product launch with niche impact, high freshness, and low-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Launch HN: Agnost AI (YC S26) \u2013 Extract user feedback from agent conversations",
+            "total_score": 7.0
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 3.0,
+            "index": 4,
+            "novelty_score": 2.5,
+            "reason": "Important study on social media's role in deepfakes, high impact, fresh, and reputable source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "YouTube and X Have Become \u2018Gateways\u2019 to Nudify Apps",
+            "total_score": 9.0
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 5,
+            "novelty_score": 2.0,
+            "reason": "Significant update to a widely used service, high freshness, and reputable source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Google Images gets a Pinterest-like redesign focused on discovery",
+            "total_score": 8.0
+          }
+        ],
+        "best_index": 4,
+        "best_score": 9.0,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Research shows YouTube and X are acting as gateways to apps that create nonconsensual deepfakes for as little as $1 per image. This highlights the growing problem of AI-generated explicit content and the role social media plays in facilitating it. Link: https://www.wired.com/story/youtube-and-x-have-become-gateways-to-nudify-apps/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *YouTube and X Have Become \u2018Gateways\u2019 to Nudify Apps*\n\nA new study found that social media platforms are referring people to sites where they can create nonconsensual, sexually explicit deepfakes for as little as $1 an image.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://www.wired.com/story/youtube-and-x-have-become-gateways-to-nudify-apps\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "YouTube and X are now major referral sources for deepfake creation apps, with images available for as little as $1. https://www.wired.com/story/youtube-and-x-have-become-gateways-to-nudify-apps/",
+          "twitter": "A new study reveals how YouTube and X are driving traffic to deepfake creation sites, with images costing as little as $1. https://www.wired.com/story/youtube-and-x-have-become-gateways-to-nudify-apps/"
+        }
       }
     },
     "a18417b545a366ce0005f4ce9a2daba5da1b137b07d6f21fc3647a4384a90dde": {
@@ -1806,41 +1740,6 @@
         "social_posts": {}
       }
     },
-    "c86d6251f7f6e03d2db25e14ccdb360dea2b0d92ebe6ccedbebffe20403dd26a": {
-      "created_at": "2026-07-13T15:36:16Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 8,
-            "novelty_score": 2.5,
-            "reason": "Potential security issue with Grok's data handling practices.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Grok uploaded my user directory to xAI's servers",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 9,
-            "novelty_score": 1.5,
-            "reason": "Opinion piece on software development philosophy with limited novelty and impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Control the Ideas, Not the Code",
-            "total_score": 5
-          }
-        ],
-        "best_index": 8,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "c955e0c4dba4bf780b3560363a474d8340fbd7355f5c87a4f73441222e4ca422": {
       "created_at": "2026-07-14T15:21:57Z",
       "payload": {
@@ -1887,27 +1786,56 @@
         "social_posts": {}
       }
     },
-    "e3bccafc8bac490af8b7558f5a50f628e857f1f06d78c857b4b8bbea8c2397d5": {
-      "created_at": "2026-07-13T16:30:09Z",
+    "d5c55589ac3d4cfd1ebade00ed7900dd86d1aa248858d2e03ed5d1d6b318608c": {
+      "created_at": "2026-07-14T16:42:04Z",
       "payload": {
         "articles": [
           {
             "freshness_score": 2,
             "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Wikipedia's status under the UK Online Safety Act is a significant development for open knowledge platforms.",
+            "index": 0,
+            "novelty_score": 1.5,
+            "reason": "Update to Google's image search with AI enhancements, but not a groundbreaking release.",
             "red_flag": false,
             "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Wikipedia escapes Category 1 designation under the UK Online Safety Act for now",
+            "source_score": 1.5,
+            "title": "Google revamps image search for its 25th anniversary with more images and more AI",
             "total_score": 7.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "Industry move by Meta's head of Instagram predicting AI token budget limits for engineers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Meta\u2019s Adam Mosseri says AI token budgets could soon be capped per engineer",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 0.5,
+            "index": 2,
+            "novelty_score": 0.2,
+            "reason": "Review of a gaming device, not relevant to software engineers or AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "The OLED Xbox Ally X20 is so good, Asus will sell it solo",
+            "total_score": 4.2
           }
         ],
         "best_index": 1,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Meta's Adam Mosseri has suggested that companies will soon need to manage AI token spending like payroll. He predicts engineers could face limits on AI tool usage. This could be a significant shift in how companies approach AI budgets. Link: https://techcrunch.com/2026/07/14/metas-adam-mosseri-says-ai-token-budgets-could-soon-be-capped-per-engineer/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Meta\u2019s Adam Mosseri says AI token budgets could soon be capped per engineer*\n\nMeta's Adam Mosseri predicts companies will manage AI token spending like payroll, potentially limiting engineers' AI tool usage.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/14/metas-adam-mosseri-says-ai-token-budgets-could-soon-be-capped-per-engineer/",
+          "threads": "Meta's Adam Mosseri says AI token budgets could soon be capped per engineer, comparing it to managing payroll. This could change how companies approach AI spending. https://techcrunch.com/2026/07/14/metas-adam-mosseri-says-ai-token-budgets-could-soon-be-capped-per-engineer/",
+          "twitter": "Meta's Adam Mosseri predicts AI token budgets will soon be capped per engineer, signaling a shift in how companies manage AI spending.\nhttps://techcrunch.com/2026/07/14/metas-adam-mosseri-says-ai-token-budgets-could-soon-be-capped-per-engineer/"
+        }
       }
     },
     "ebfd346583074f3e17dd8d9d851785761da52587491b747f7bb8ca7b8202c559": {
@@ -2079,15 +2007,6 @@
     }
   },
   "groq_social_posts": {
-    "05de20920fe0c70a010cc6b98c00b5772d7726b2b216b35680125a8f9457dbdf": {
-      "created_at": "2026-07-07T15:36:30Z",
-      "payload": {
-        "facebook": "The latest development in AI model deployment is here, with Hugging Face introducing managed compute services on Foundry. This move is set to simplify the process for developers, making it easier to focus on model development. #AI #MachineLearning #HuggingFace",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Hugging Face Models Now on Foundry Managed Compute\nHugging Face has introduced a new managed compute service for models on Foundry, simplifying deployment for developers.\n\ud83c\udfdb\ufe0f Source: HuggingFace (S)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n#AI #MachineLearning #HuggingFace\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Hugging Face is making waves with its new managed compute service on Foundry, streamlining model deployment for developers, and @HuggingFace is at the forefront of this innovation #AI",
-        "twitter": "Hugging Face expands its offerings with managed compute services on Foundry, simplifying model deployment for developers @HuggingFace #AI"
-      }
-    },
     "0a7e9437cbc26a06667ace10c5ce4e7fb0326ddcda575d6ef92206157e1e6aa2": {
       "created_at": "2026-07-08T18:59:09Z",
       "payload": {
@@ -2349,15 +2268,6 @@
         "twitter": "Apple takes OpenAI to court over alleged theft of trade secrets by former employees now working for the AI company @OpenAI #ArtificialIntelligence"
       }
     },
-    "98a16a117d580c37346b7308fb37ab37f08f2804428d45057cc06531cb44e5d4": {
-      "created_at": "2026-07-07T16:28:08Z",
-      "payload": {
-        "facebook": "As US export controls take hold, China's DeepSeek is taking a significant step towards self-sufficiency by planning to make its own chips, aiming to reduce its reliance on major players like Nvidia and Huawei. This move could have major implications for the industry. #AI #ChipProduction #USExportControls",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 China's DeepSeek Plans to Make Its Own Chips\nChina's DeepSeek is planning to develop its own chips due to US export controls, aiming to reduce dependency on major players.\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n#AI #ChipProduction #USExportControls\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "China's DeepSeek is moving to develop its own chips to mitigate the impact of US export controls, aiming to reduce its dependency on Nvidia and Huawei @ArsTechnica #AI",
-        "twitter": "China's DeepSeek is planning to develop its own chips to reduce dependency on Nvidia and Huawei due to US export controls @ArsTechnica #AI"
-      }
-    },
     "9aa9f279251fd0fd097a1de929f7933c1d2660836da8b45c2b333134d82ddf4a": {
       "created_at": "2026-07-08T08:46:18Z",
       "payload": {
@@ -2520,6 +2430,15 @@
         "twitter": "OpenAI's new model family promises enhanced cybersecurity capabilities, a significant step forward @OpenAI #AI"
       }
     },
+    "e6fbb8764105bfe46b7e9d5c64c2a59126c191d19618cbd81146c50bfcb35bd1": {
+      "created_at": "2026-07-14T16:42:04Z",
+      "payload": {
+        "facebook": "A disturbing trend has emerged where social media platforms are referring users to websites that create nonconsensual, sexually explicit deepfakes for a minimal fee. This raises significant concerns about online safety and the role of social media in perpetuating such content. #Deepfakes #OnlineSafety #AI",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Deepfakes on the Rise\nSocial media platforms are inadvertently driving traffic to deepfake creation sites, with some charging as little as $1 per image.\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n#Deepfakes #OnlineSafety #AI\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "A new study reveals that social media platforms like YouTube and X are directing users to sites where they can create deepfakes, often for as little as $1 per image, @Wired #Deepfakes",
+        "twitter": "Social media platforms like YouTube and X are inadvertently driving traffic to deepfake creation sites, according to a new study, @Wired reports #Deepfakes #AI"
+      }
+    },
     "ec90a51cd9637d0e5baa74db9b5556894a5bb08b871084ab1339872068ad1814": {
       "created_at": "2026-07-08T03:28:53Z",
       "payload": {
@@ -2576,6 +2495,12 @@
       "status": "scoring_attempted",
       "title": "Show HN: 92% of US city websites fail ADA accessibility"
     },
+    "https://agnost.ai": {
+      "canonical_url": "https://agnost.ai",
+      "created_at": "2026-07-14T16:42:04Z",
+      "status": "scoring_attempted",
+      "title": "Launch HN: Agnost AI (YC S26) \u2013 Extract user feedback from agent conversations"
+    },
     "https://anthonyhobday.com/blog/20260410": {
       "canonical_url": "https://anthonyhobday.com/blog/20260410",
       "created_at": "2026-07-07T20:28:28Z",
@@ -2606,12 +2531,6 @@
       "status": "scoring_attempted",
       "title": "Show HN: Arcaide \u2013 Explore code with multi-level call graphs"
     },
-    "https://arstechnica.com/ai/2026/07/facing-us-export-controls-chinas-deepseek-plans-to-make-its-own-chips": {
-      "canonical_url": "https://arstechnica.com/ai/2026/07/facing-us-export-controls-chinas-deepseek-plans-to-make-its-own-chips",
-      "created_at": "2026-07-07T16:28:08Z",
-      "status": "scoring_attempted",
-      "title": "Facing US export controls, China's DeepSeek plans to make its own chips"
-    },
     "https://arstechnica.com/ai/2026/07/humanoid-robots-controlled-by-surgeons-did-world-first-operation-on-live-pigs": {
       "canonical_url": "https://arstechnica.com/ai/2026/07/humanoid-robots-controlled-by-surgeons-did-world-first-operation-on-live-pigs",
       "created_at": "2026-07-09T21:43:18Z",
@@ -2641,6 +2560,12 @@
       "created_at": "2026-07-08T17:48:01Z",
       "status": "scoring_attempted",
       "title": "Google updates Android Bench with new LLMs, but Gemini still lags behind"
+    },
+    "https://arstechnica.com/google/2026/07/google-revamps-image-search-for-its-25th-anniversary-with-more-images-and-more-ai": {
+      "canonical_url": "https://arstechnica.com/google/2026/07/google-revamps-image-search-for-its-25th-anniversary-with-more-images-and-more-ai",
+      "created_at": "2026-07-14T16:42:04Z",
+      "status": "scoring_attempted",
+      "title": "Google revamps image search for its 25th anniversary with more images and more AI"
     },
     "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets": {
       "canonical_url": "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets",
@@ -3458,6 +3383,12 @@
       "status": "scoring_attempted",
       "title": "From Patterns to Maze Structures: SMT-Based Path Synthesis and 2D/3D Construction"
     },
+    "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary": {
+      "canonical_url": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary",
+      "created_at": "2026-07-14T16:42:04Z",
+      "status": "scoring_attempted",
+      "title": "Celebrating 25 years of visual search innovation"
+    },
     "https://blog.mozilla.ai/the-control-layer-why-the-next-era-of-ai-is-about-infrastructure-not-just-models": {
       "canonical_url": "https://blog.mozilla.ai/the-control-layer-why-the-next-era-of-ai-is-about-infrastructure-not-just-models",
       "created_at": "2026-07-09T20:10:00Z",
@@ -3577,12 +3508,6 @@
       "created_at": "2026-07-07T20:28:28Z",
       "status": "scoring_attempted",
       "title": "Re: I'm Begging You to Leave Your AI Note-Taker at Home"
-    },
-    "https://gamefromscratch.com/microsoft-fire-idtech-team-at-id-software": {
-      "canonical_url": "https://gamefromscratch.com/microsoft-fire-idtech-team-at-id-software",
-      "created_at": "2026-07-07T16:28:08Z",
-      "status": "scoring_attempted",
-      "title": "Microsoft Fire IdTech Team at Id Software"
     },
     "https://geohot.github.io//blog/jekyll/update/2026/07/11/ai-2040.html": {
       "canonical_url": "https://geohot.github.io//blog/jekyll/update/2026/07/11/ai-2040.html",
@@ -3734,12 +3659,6 @@
       "status": "scoring_attempted",
       "title": "From Hugging Face to Amazon SageMaker Studio in one click"
     },
-    "https://huggingface.co/blog/microsoft/foundry-managed-compute": {
-      "canonical_url": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
-      "created_at": "2026-07-07T15:36:30Z",
-      "status": "scoring_attempted",
-      "title": "Hugging Face Models on Foundry Managed Compute"
-    },
     "https://huggingface.co/blog/nvidia/open-data-for-agents": {
       "canonical_url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
       "created_at": "2026-07-08T17:48:01Z",
@@ -3883,12 +3802,6 @@
       "created_at": "2026-07-07T18:30:58Z",
       "status": "scoring_attempted",
       "title": "How novice coders can develop AI programs for military applications"
-    },
-    "https://news.mit.edu/2026/jesse-thaler-named-director-laboratory-nuclear-science-0707": {
-      "canonical_url": "https://news.mit.edu/2026/jesse-thaler-named-director-laboratory-nuclear-science-0707",
-      "created_at": "2026-07-07T15:36:30Z",
-      "status": "scoring_attempted",
-      "title": "Jesse Thaler named director of the Laboratory for Nuclear Science"
     },
     "https://news.mit.edu/2026/mit-cybersecurity-clinic-preventing-cyberattacks-0713": {
       "canonical_url": "https://news.mit.edu/2026/mit-cybersecurity-clinic-preventing-cyberattacks-0713",
@@ -4075,12 +3988,6 @@
       "created_at": "2026-07-07T20:28:28Z",
       "status": "scoring_attempted",
       "title": "Microsoft joins AI cost-cutting trend by relying more on its own models"
-    },
-    "https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork": {
-      "canonical_url": "https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork",
-      "created_at": "2026-07-07T16:28:08Z",
-      "status": "scoring_attempted",
-      "title": "Claude Cowork expands to mobile and web"
     },
     "https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet": {
       "canonical_url": "https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet",
@@ -4352,6 +4259,18 @@
       "status": "scoring_attempted",
       "title": "Waze adds new AI-powered features and customization updates"
     },
+    "https://techcrunch.com/2026/07/14/google-images-gets-a-pinterest-like-redesign-focused-on-discovery": {
+      "canonical_url": "https://techcrunch.com/2026/07/14/google-images-gets-a-pinterest-like-redesign-focused-on-discovery",
+      "created_at": "2026-07-14T16:42:04Z",
+      "status": "scoring_attempted",
+      "title": "Google Images gets a Pinterest-like redesign focused on discovery"
+    },
+    "https://techcrunch.com/2026/07/14/metas-adam-mosseri-says-ai-token-budgets-could-soon-be-capped-per-engineer": {
+      "canonical_url": "https://techcrunch.com/2026/07/14/metas-adam-mosseri-says-ai-token-budgets-could-soon-be-capped-per-engineer",
+      "created_at": "2026-07-14T16:42:04Z",
+      "status": "scoring_attempted",
+      "title": "Meta\u2019s Adam Mosseri says AI token budgets could soon be capped per engineer"
+    },
     "https://techcrunch.com/2026/07/14/new-york-state-halts-construction-of-all-new-data-centers": {
       "canonical_url": "https://techcrunch.com/2026/07/14/new-york-state-halts-construction-of-all-new-data-centers",
       "created_at": "2026-07-14T15:21:57Z",
@@ -4454,23 +4373,23 @@
       "status": "scoring_attempted",
       "title": "I used to love Claude, but the latest models are slowly ruining it"
     },
-    "https://www.artificialintelligence-news.com/news/ai-product-development-loreal-mondelez-nestle": {
-      "canonical_url": "https://www.artificialintelligence-news.com/news/ai-product-development-loreal-mondelez-nestle",
-      "created_at": "2026-07-07T16:28:08Z",
+    "https://www.artfish.ai/p/offloading-thinking-to-ai": {
+      "canonical_url": "https://www.artfish.ai/p/offloading-thinking-to-ai",
+      "created_at": "2026-07-14T16:42:04Z",
       "status": "scoring_attempted",
-      "title": "L\u2019Oreal, Mondelez, and Nestle use AI to speed product development"
+      "title": "Are we offloading too much of our thinking to AI?"
+    },
+    "https://www.artificialintelligence-news.com/news/aws-and-bluesight-build-ai-for-hospital-340b-compliance": {
+      "canonical_url": "https://www.artificialintelligence-news.com/news/aws-and-bluesight-build-ai-for-hospital-340b-compliance",
+      "created_at": "2026-07-14T16:42:04Z",
+      "status": "scoring_attempted",
+      "title": "AWS and Bluesight build AI for hospital 340B compliance"
     },
     "https://www.artificialintelligence-news.com/news/aws-graphrag-deployment-cuts-drug-research-cycles-by-87": {
       "canonical_url": "https://www.artificialintelligence-news.com/news/aws-graphrag-deployment-cuts-drug-research-cycles-by-87",
       "created_at": "2026-07-09T16:13:09Z",
       "status": "scoring_attempted",
       "title": "AWS GraphRAG deployment cuts drug research cycles by 87%"
-    },
-    "https://www.artificialintelligence-news.com/news/insilico-medicine-advances-ai-drug-for-ipf-to-phase-iii-trials": {
-      "canonical_url": "https://www.artificialintelligence-news.com/news/insilico-medicine-advances-ai-drug-for-ipf-to-phase-iii-trials",
-      "created_at": "2026-07-07T16:28:08Z",
-      "status": "scoring_attempted",
-      "title": "Insilico Medicine advances AI drug for IPF to Phase III trials"
     },
     "https://www.artificialintelligence-news.com/news/nhs-ai-blood-test-womb-cancer-checks": {
       "canonical_url": "https://www.artificialintelligence-news.com/news/nhs-ai-blood-test-womb-cancer-checks",
@@ -4489,6 +4408,12 @@
       "created_at": "2026-07-14T09:01:54Z",
       "status": "scoring_attempted",
       "title": "Indian scientists produce most detailed 3D atlas of the human brainstem"
+    },
+    "https://www.bobbytables.io/p/the-agentic-loop-three-loops-in-a": {
+      "canonical_url": "https://www.bobbytables.io/p/the-agentic-loop-three-loops-in-a",
+      "created_at": "2026-07-14T16:42:04Z",
+      "status": "scoring_attempted",
+      "title": "The Agentic Loop: Three loops in a trench coat"
     },
     "https://www.canopii.dev/State%20of%20MCP%20Security%202026.pdf": {
       "canonical_url": "https://www.canopii.dev/State%20of%20MCP%20Security%202026.pdf",
@@ -5054,11 +4979,11 @@
       "status": "scoring_attempted",
       "title": "A tasty RPG that will make you very hungry"
     },
-    "https://www.theverge.com/gadgets/961962/anker-soundcore-sleep-a20-jbl-go-5-deal-sale": {
-      "canonical_url": "https://www.theverge.com/gadgets/961962/anker-soundcore-sleep-a20-jbl-go-5-deal-sale",
-      "created_at": "2026-07-07T15:36:30Z",
+    "https://www.theverge.com/entertainment/965358/spotify-ai-chatbot-interface-music-audiobooks-podcasts": {
+      "canonical_url": "https://www.theverge.com/entertainment/965358/spotify-ai-chatbot-interface-music-audiobooks-podcasts",
+      "created_at": "2026-07-14T16:42:04Z",
       "status": "scoring_attempted",
-      "title": "Anker&#8217;s noise-blocking earbuds for sleeping are nearly half off"
+      "title": "Spotify is now an AI chatbot, too"
     },
     "https://www.theverge.com/gadgets/962163/switchbot-bot-rechargeable-hands-on-review": {
       "canonical_url": "https://www.theverge.com/gadgets/962163/switchbot-bot-rechargeable-hands-on-review",
@@ -5120,18 +5045,6 @@
       "status": "scoring_attempted",
       "title": "The Shokz OpenRun Pro are the cheapest they\u2019ve been since January"
     },
-    "https://www.theverge.com/games/962156/discord-accidental-bans-grid-images": {
-      "canonical_url": "https://www.theverge.com/games/962156/discord-accidental-bans-grid-images",
-      "created_at": "2026-07-07T15:36:30Z",
-      "status": "scoring_attempted",
-      "title": "Discord accidentally banned over 8,000 people for posting grids and other &#8216;benign&#8217; images"
-    },
-    "https://www.theverge.com/games/962223/doom-id-software-xbox-layoffs": {
-      "canonical_url": "https://www.theverge.com/games/962223/doom-id-software-xbox-layoffs",
-      "created_at": "2026-07-07T16:28:08Z",
-      "status": "scoring_attempted",
-      "title": "Doom developer id reportedly cut in half as part of Xbox layoffs"
-    },
     "https://www.theverge.com/games/963024/microsoft-xbox-reset-obsidian-fallout-layoffs": {
       "canonical_url": "https://www.theverge.com/games/963024/microsoft-xbox-reset-obsidian-fallout-layoffs",
       "created_at": "2026-07-08T18:59:09Z",
@@ -5161,6 +5074,12 @@
       "created_at": "2026-07-14T14:09:38Z",
       "status": "scoring_attempted",
       "title": "EverQuest\u2019s biggest fans are leading its revival"
+    },
+    "https://www.theverge.com/games/965123/asus-rog-xbox-ally-x20-oled-preview": {
+      "canonical_url": "https://www.theverge.com/games/965123/asus-rog-xbox-ally-x20-oled-preview",
+      "created_at": "2026-07-14T16:42:04Z",
+      "status": "scoring_attempted",
+      "title": "The OLED Xbox Ally X20 is so good, Asus will sell it solo"
     },
     "https://www.theverge.com/podcast/962994/comcast-nbc-universal-split-versant-content-plus-pipes-media-broadband": {
       "canonical_url": "https://www.theverge.com/podcast/962994/comcast-nbc-universal-split-versant-content-plus-pipes-media-broadband",
@@ -5251,30 +5170,6 @@
       "created_at": "2026-07-10T16:26:36Z",
       "status": "scoring_attempted",
       "title": "Disney Plus is reportedly looking into a free streaming tier"
-    },
-    "https://www.theverge.com/tech/961711/solos-airgo-a6-smart-glasses-ai-assistant-privacy": {
-      "canonical_url": "https://www.theverge.com/tech/961711/solos-airgo-a6-smart-glasses-ai-assistant-privacy",
-      "created_at": "2026-07-07T15:36:30Z",
-      "status": "scoring_attempted",
-      "title": "Solos debuts an even lighter version of its camera-less smart glasses"
-    },
-    "https://www.theverge.com/tech/961955/google-search-console-reach-platform-properties": {
-      "canonical_url": "https://www.theverge.com/tech/961955/google-search-console-reach-platform-properties",
-      "created_at": "2026-07-07T15:36:30Z",
-      "status": "scoring_attempted",
-      "title": "Google Search lets creators know more about their reach"
-    },
-    "https://www.theverge.com/tech/962034/irobot-roomba-electro-plus-smaller-cheaper-robot-vacuums": {
-      "canonical_url": "https://www.theverge.com/tech/962034/irobot-roomba-electro-plus-smaller-cheaper-robot-vacuums",
-      "created_at": "2026-07-07T15:36:30Z",
-      "status": "scoring_attempted",
-      "title": "iRobot\u2019s newest floor cleaner isn\u2019t a robot"
-    },
-    "https://www.theverge.com/tech/962055/ifixit-megalodon-tool-kit-household-appliance-repairs": {
-      "canonical_url": "https://www.theverge.com/tech/962055/ifixit-megalodon-tool-kit-household-appliance-repairs",
-      "created_at": "2026-07-07T15:36:30Z",
-      "status": "scoring_attempted",
-      "title": "iFixit has a new toolkit for fixing appliances, building furniture, and household repairs"
     },
     "https://www.theverge.com/tech/962224/fi-ultra-dog-tracker-starlink-t-satellite-specs-price-release-date": {
       "canonical_url": "https://www.theverge.com/tech/962224/fi-ultra-dog-tracker-starlink-t-satellite-specs-price-release-date",
@@ -5540,12 +5435,6 @@
       "status": "scoring_attempted",
       "title": "Scientists\u2019 Side Hustle? Using AI and Quantum Computing to Generate New Peptides"
     },
-    "https://www.wired.com/story/shut-those-laptops-anthropic-puts-its-claude-cowork-agent-on-your-phone": {
-      "canonical_url": "https://www.wired.com/story/shut-those-laptops-anthropic-puts-its-claude-cowork-agent-on-your-phone",
-      "created_at": "2026-07-07T16:28:08Z",
-      "status": "scoring_attempted",
-      "title": "Shut Those Laptops! Anthropic Puts Its Claude Cowork Agent on Your Phone"
-    },
     "https://www.wired.com/story/siri-ai-is-now-apple-everything-tool": {
       "canonical_url": "https://www.wired.com/story/siri-ai-is-now-apple-everything-tool",
       "created_at": "2026-07-13T21:47:38Z",
@@ -5570,17 +5459,17 @@
       "status": "scoring_attempted",
       "title": "This Luddite Puppet Hopes You\u2019re Not Reading This on Your Smartphone"
     },
-    "https://www.wired.com/story/these-new-smart-glasses-from-solos-come-with-a-privacy-shield-for-the-cameras": {
-      "canonical_url": "https://www.wired.com/story/these-new-smart-glasses-from-solos-come-with-a-privacy-shield-for-the-cameras",
-      "created_at": "2026-07-07T15:36:30Z",
-      "status": "scoring_attempted",
-      "title": "These New Smart Glasses From Solos Come With a Privacy Shield for the Cameras"
-    },
     "https://www.wired.com/story/verity-harding-ai-arms-race-dangers-anthology": {
       "canonical_url": "https://www.wired.com/story/verity-harding-ai-arms-race-dangers-anthology",
       "created_at": "2026-07-08T11:21:39Z",
       "status": "scoring_attempted",
       "title": "This Former DeepMind Exec Thinks the AI Arms Race Could End in Disaster"
+    },
+    "https://www.wired.com/story/youtube-and-x-have-become-gateways-to-nudify-apps": {
+      "canonical_url": "https://www.wired.com/story/youtube-and-x-have-become-gateways-to-nudify-apps",
+      "created_at": "2026-07-14T16:42:04Z",
+      "status": "scoring_attempted",
+      "title": "YouTube and X Have Become \u2018Gateways\u2019 to Nudify Apps"
     },
     "https://www.ycombinator.com/companies/pgdog/jobs/uWymUYy-founding-software-engineer": {
       "canonical_url": "https://www.ycombinator.com/companies/pgdog/jobs/uWymUYy-founding-software-engineer",
@@ -5593,12 +5482,6 @@
       "created_at": "2026-07-09T16:13:09Z",
       "status": "scoring_attempted",
       "title": "Maxwell's Equations Were Discovered [video]"
-    },
-    "https://www.youtube.com/watch?v=3R0Lp86GEBk": {
-      "canonical_url": "https://www.youtube.com/watch?v=3R0Lp86GEBk",
-      "created_at": "2026-07-07T15:36:30Z",
-      "status": "scoring_attempted",
-      "title": "A better way to tie your gym shorts. (Or any drawstring) [video]"
     },
     "https://www.yubico.com/blog/openai-mandates-hardware-backed-passkeys-for-trusted-access-cyber-members-to-log-into-chatgpt-accounts": {
       "canonical_url": "https://www.yubico.com/blog/openai-mandates-hardware-backed-passkeys-for-trusted-access-cyber-members-to-log-into-chatgpt-accounts",
