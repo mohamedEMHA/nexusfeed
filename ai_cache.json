@@ -1,24 +1,24 @@
 {
   "cerebras_scoring": {
-    "00efac69628f1eecd68764e820fc7592aad2f7073080cc7cdc8106e8e2a70b10": {
-      "created_at": "2026-07-13T18:18:14Z",
+    "0061c6c8844b7ff605c2f60ba7ce67f5432eb1d59958a3d9217bfa4f0d5e36a4": {
+      "created_at": "2026-07-14T18:53:04Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 1.5,
-            "impact_score": 0.5,
-            "index": 1,
-            "novelty_score": 0.2,
-            "reason": "Job posting lacks novelty and broad impact.",
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "MIT students built a jet engine with AI copilots, demonstrating AI's potential in aerospace engineering.",
             "red_flag": false,
             "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "PgDog (YC P25) Is Hiring a Founding Software Engineer",
-            "total_score": 2.2
+            "source_score": 1.0,
+            "title": "Can AI build a jet engine? JARVIS Challenge tests role of AI copilots in tough-tech engineering",
+            "total_score": 8.0
           }
         ],
-        "best_index": 1,
-        "best_score": 2.2,
+        "best_index": 2,
+        "best_score": 8.0,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -482,6 +482,29 @@
           "threads": "New paper introduces 'least autonomy' principle for agentic AI, going beyond least privilege. Could reshape AI safety and control. https://arxiv.org/abs/2607.09744",
           "twitter": "New research proposes 'least autonomy' principle for agentic AI systems, extending beyond least privilege. https://arxiv.org/abs/2607.09744"
         }
+      }
+    },
+    "20d73ccf63c4bd5580b65ad131b13adfe515df30dd95704b3ddbb9ea5da82e3f": {
+      "created_at": "2026-07-14T18:53:04Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "Bonsai 27B is a significant advancement in model efficiency, but the source tier is low.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Bonsai 27B (1-bit LLM): The First 27B-Class Model to Run on a Phone",
+            "total_score": 7.0
+          }
+        ],
+        "best_index": 3,
+        "best_score": 7.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "21eba4dbc0de28218e13bec0310346ad38ea5569ab33f503f11cd27c42d64233": {
@@ -1179,6 +1202,34 @@
         }
       }
     },
+    "72b40ea6f9a151dadfe18498342b3c893088706d5c2727ce969f7a6b9bdef6b5": {
+      "created_at": "2026-07-14T18:53:04Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 3.0,
+            "reason": "First combat use of explosive drone boats by US military in conflict with Iran.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "US military sent explosive drone boats into combat for the first time",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "The US military has used explosive drone boats in combat for the first time, targeting an Iranian naval port. This marks a significant escalation in the ongoing conflict. The drones were deployed as part of a broader strategy to counter Iranian naval capabilities. Link: https://arstechnica.com/ai/2026/07/us-military-sent-explosive-drone-boats-into-combat-for-the-first-time/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *US military sent explosive drone boats into combat for the first time*\n\nUS military\u2019s drone boats struck an Iranian naval port as war heats up again.\n\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://arstechnica.com/ai/2026/07/us-military-sent-explosive-drone-boats-into-combat-for-the-first-time/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "US military just used explosive drone boats in combat for the first time, hitting an Iranian naval port. This is a major escalation in the conflict. https://arstechnica.com/ai/2026/07/us-military-sent-explosive-drone-boats-into-combat-for-the-first-time/",
+          "twitter": "US military deployed explosive drone boats in combat for the first time, striking an Iranian naval port as tensions escalate.\nhttps://arstechnica.com/ai/2026/07/us-military-sent-explosive-drone-boats-into-combat-for-the-first-time/"
+        }
+      }
+    },
     "74c3ed333edb61e5b3cde9d2afea61774163853b47abfbf570628880b9ed349c": {
       "created_at": "2026-07-14T09:01:54Z",
       "payload": {
@@ -1263,34 +1314,6 @@
         "best_score": 5.5,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "82fe3568c5b51ea4065686bca6eb89d4c6d4058a3e4743b9a02384bf50b4b100": {
-      "created_at": "2026-07-13T18:18:14Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 3.0,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "Ethical debate on AI alignment with user intent raises critical questions about AI development and societal impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Should AI help you get away with killing your spouse?",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 3,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "A provocative question from TechCrunch: What happens when AI is fully aligned with user intent, even for harmful actions? This article dives into the ethical implications of AI development and its potential consequences. Link: https://techcrunch.com/2026/07/13/should-ai-help-you-get-away-with-killing-your-spouse/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Should AI help you get away with killing your spouse?*\n\nTechCrunch explores the ethical dilemma of AI alignment with user intent, even for harmful actions.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/13/should-ai-help-you-get-away-with-killing-your-spouse/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "TechCrunch asks: Should AI help users commit crimes if it aligns with their intent? A critical look at AI ethics. https://techcrunch.com/2026/07/13/should-ai-help-you-get-away-with-killing-your-spouse/",
-          "twitter": "TechCrunch explores the ethical dilemma: Should AI assist in criminal activities if aligned with user intent?\nhttps://techcrunch.com/2026/07/13/should-ai-help-you-get-away-with-killing-your-spouse/"
-        }
       }
     },
     "8668c14b7bd46719ea0e2d05cf225f5689c6e77b1d2bfd74574ce8131f2dd936": {
@@ -1518,34 +1541,6 @@
         "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "a2b28feea0a28a7f8295caf7c183314fa6a447eebce4071ef1ff74bdded112c8": {
-      "created_at": "2026-07-13T18:18:14Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "Apple suing OpenAI for alleged theft of unreleased product samples is a significant industry move with broad implications.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "The 6 wildest claims in Apple\u2019s lawsuit against OpenAI",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 2,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Apple has filed a lawsuit against OpenAI, alleging that the AI startup stole unreleased product samples. The lawsuit includes six wild claims, including that OpenAI asked Apple employees to bring unreleased product samples to job interviews. Link: https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\ud83d\udd25 *Apple accuses OpenAI of stealing unreleased product samples in lawsuit*\n\nApple has filed a lawsuit against OpenAI, alleging that the AI startup stole unreleased product samples. The lawsuit includes six wild claims, including that OpenAI asked Apple employees to bring unreleased product samples to job interviews.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Apple is suing OpenAI for allegedly stealing unreleased product samples. The lawsuit includes six wild claims, including that OpenAI asked Apple employees to bring unreleased product samples to job interviews. https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims",
-          "twitter": "Apple accuses OpenAI of stealing unreleased product samples in a blockbuster lawsuit. https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims"
-        }
       }
     },
     "a8308900cb9b036ab08fb53134711cffe7c4ca27d7b5821ae2f6f1c114ded9d4": {
@@ -1814,29 +1809,6 @@
         "social_posts": {}
       }
     },
-    "d1e253cfd45eb4d653e8dba77d8de93996e10733a7177e4426ab70c2df41cabe": {
-      "created_at": "2026-07-13T18:18:14Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Industry move with moderate impact, fresh, and from a reputable source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Sam Altman\u2019s space data center trash talk is what most experts already believe",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "d5c55589ac3d4cfd1ebade00ed7900dd86d1aa248858d2e03ed5d1d6b318608c": {
       "created_at": "2026-07-14T16:42:04Z",
       "payload": {
@@ -1968,6 +1940,34 @@
         "best_score": 4.5,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "f6136b4aebd5d48d9455fe34f1c5cb588415ef96d35c3d4d66c918a73f6498d0": {
+      "created_at": "2026-07-14T18:53:04Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 3,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Major lawsuit against Google for AI training on copyrighted works without permission.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Google faces another AI training lawsuit from major publishers",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Hachette, Cengage, Elsevier, and other publishers are suing Google for allegedly training its AI on copyrighted works without the necessary permissions. This is a significant legal challenge for Google's AI training practices. Link: https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Google faces another AI training lawsuit from major publishers*\n\nHachette, Cengage, Elsevier, and other publishers allege that Google trained its AI on copyrighted works without the necessary permissions.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Major publishers sue Google for training AI on copyrighted works without permission. This could set a major precedent for AI training practices. https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers/",
+          "twitter": "Major publishers sue Google for training AI on copyrighted works without permission. https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers/"
+        }
       }
     },
     "f8f0f15a85d89b0e894afa6cc398886a64ff56e0d429f5d8cb0411ce1f524ab5": {
@@ -2207,15 +2207,6 @@
         "twitter": "Meta faces massive fines if it doesn't disable auto-play and infinite scroll on its platforms, says EU, @Meta must comply with Digital Services Act #Meta"
       }
     },
-    "46aa31ca4e36780181e4947c23dbb11d6efaeeaed1fcf948af6cbb3be9aa6d99": {
-      "created_at": "2026-07-07T18:30:58Z",
-      "payload": {
-        "facebook": "The AI landscape is evolving with Anthropic's Claude Cowork platform now available on mobile and web, initially for Max subscribers. This move marks a significant step in making AI more accessible to a broader audience. #AI #ArtificialIntelligence #TechAdvancements",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Anthropic's AI Expansion\nAnthropic's Claude Cowork AI platform is launching on mobile and web, marking a significant step in AI accessibility.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #ArtificialIntelligence #TechNews\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Anthropic's Claude Cowork AI platform is now accessible on mobile and web, a move that enhances AI accessibility for users @AnthropicAI #AI",
-        "twitter": "Anthropic expands Claude Cowork AI to mobile and web, increasing accessibility for Max subscribers and beyond @AnthropicAI #AIaccess"
-      }
-    },
     "526483dac1fcef96ae34d46362657547c68681d9abe5bdd3956ced0235fcd6a6": {
       "created_at": "2026-07-09T16:13:09Z",
       "payload": {
@@ -2450,6 +2441,15 @@
         "twitter": "Meta backs down on a contentious AI feature for Instagram after user pushback @TechCrunch #AIethics"
       }
     },
+    "d23f571cc8f3c83c09484ea4e0c099d91b5433472f8d93a274c8114544b31ec2": {
+      "created_at": "2026-07-14T18:53:04Z",
+      "payload": {
+        "facebook": "The debate over AI training data is heating up as several major publishers sue Google for allegedly using their copyrighted works without permission. This lawsuit raises important questions about the use of copyrighted materials in AI development and the need for clear guidelines on permissions. #AItraining #copyrightinfringement #publishing",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Google faces lawsuit over AI training on copyrighted works\nMajor publishers allege that Google used their works without necessary permissions.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AItraining #copyrightinfringement #publishing\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Google is facing another lawsuit over its AI training practices, this time from major publishers who claim the company used their copyrighted works without permission @Google #AI",
+        "twitter": "Google's AI training practices are under fire again as major publishers like Hachette and Elsevier allege copyright infringement @Google #AIethics"
+      }
+    },
     "d59af4c172a3537f0a7efc4a2a890a1c09487aa2c27e4827df31bc505f019d82": {
       "created_at": "2026-07-10T19:50:26Z",
       "payload": {
@@ -2631,6 +2631,12 @@
       "created_at": "2026-07-13T16:30:09Z",
       "status": "scoring_attempted",
       "title": "Simulating everything, sort of: The promise and limits of world models"
+    },
+    "https://arstechnica.com/ai/2026/07/us-military-sent-explosive-drone-boats-into-combat-for-the-first-time": {
+      "canonical_url": "https://arstechnica.com/ai/2026/07/us-military-sent-explosive-drone-boats-into-combat-for-the-first-time",
+      "created_at": "2026-07-14T18:53:04Z",
+      "status": "scoring_attempted",
+      "title": "US military sent explosive drone boats into combat for the first time"
     },
     "https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university": {
       "canonical_url": "https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university",
@@ -3520,12 +3526,6 @@
       "status": "scoring_attempted",
       "title": "Spider venom kills varroa mites without harming honeybees"
     },
-    "https://craigmod.com/essays/software_bonkers": {
-      "canonical_url": "https://craigmod.com/essays/software_bonkers",
-      "created_at": "2026-07-07T18:30:58Z",
-      "status": "scoring_attempted",
-      "title": "Software Bonkers"
-    },
     "https://davidoks.blog/p/why-american-ambulance-rides-are": {
       "canonical_url": "https://davidoks.blog/p/why-american-ambulance-rides-are",
       "created_at": "2026-07-09T22:57:15Z",
@@ -3579,12 +3579,6 @@
       "created_at": "2026-07-13T15:36:16Z",
       "status": "scoring_attempted",
       "title": "The art and engineering of Sega CD Silpheed"
-    },
-    "https://fightchatcontrol.eu/chat-control-overview": {
-      "canonical_url": "https://fightchatcontrol.eu/chat-control-overview",
-      "created_at": "2026-07-07T18:30:58Z",
-      "status": "scoring_attempted",
-      "title": "Chat Control 1.0 and 2.0 Explained"
     },
     "https://firesphere.dev/articles/yes-actually-i-do-fucking-mind": {
       "canonical_url": "https://firesphere.dev/articles/yes-actually-i-do-fucking-mind",
@@ -3880,11 +3874,11 @@
       "status": "scoring_attempted",
       "title": "AI agents create virtual playgrounds to help robots get crucial training data"
     },
-    "https://news.mit.edu/2026/how-novice-coders-can-develop-ai-programs-for-military-applications-0707": {
-      "canonical_url": "https://news.mit.edu/2026/how-novice-coders-can-develop-ai-programs-for-military-applications-0707",
-      "created_at": "2026-07-07T18:30:58Z",
+    "https://news.mit.edu/2026/can-ai-build-jet-engine-jarvis-challenge-tests-ai-copilots-in-tough-tech-engineering-0714": {
+      "canonical_url": "https://news.mit.edu/2026/can-ai-build-jet-engine-jarvis-challenge-tests-ai-copilots-in-tough-tech-engineering-0714",
+      "created_at": "2026-07-14T18:53:04Z",
       "status": "scoring_attempted",
-      "title": "How novice coders can develop AI programs for military applications"
+      "title": "Can AI build a jet engine? JARVIS Challenge tests role of AI copilots in tough-tech engineering"
     },
     "https://news.mit.edu/2026/mit-cybersecurity-clinic-preventing-cyberattacks-0713": {
       "canonical_url": "https://news.mit.edu/2026/mit-cybersecurity-clinic-preventing-cyberattacks-0713",
@@ -4000,11 +3994,11 @@
       "status": "scoring_attempted",
       "title": "Reverse centaurs are the answer to the AI paradox"
     },
-    "https://replicated.live/blog/away": {
-      "canonical_url": "https://replicated.live/blog/away",
-      "created_at": "2026-07-07T18:30:58Z",
+    "https://prismml.com/news/bonsai-27b": {
+      "canonical_url": "https://prismml.com/news/bonsai-27b",
+      "created_at": "2026-07-14T18:53:04Z",
       "status": "scoring_attempted",
-      "title": "Automating AI Away"
+      "title": "Bonsai 27B (1-bit LLM): The First 27B-Class Model to Run on a Phone"
     },
     "https://shkspr.mobi/blog/2026/07/another-ridiculous-interrail-holiday-6379km-and-13-countries-over-7-weeks": {
       "canonical_url": "https://shkspr.mobi/blog/2026/07/another-ridiculous-interrail-holiday-6379km-and-13-countries-over-7-weeks",
@@ -4342,6 +4336,12 @@
       "status": "scoring_attempted",
       "title": "Waze adds new AI-powered features and customization updates"
     },
+    "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers": {
+      "canonical_url": "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers",
+      "created_at": "2026-07-14T18:53:04Z",
+      "status": "scoring_attempted",
+      "title": "Google faces another AI training lawsuit from major publishers"
+    },
     "https://techcrunch.com/2026/07/14/google-images-gets-a-pinterest-like-redesign-focused-on-discovery": {
       "canonical_url": "https://techcrunch.com/2026/07/14/google-images-gets-a-pinterest-like-redesign-focused-on-discovery",
       "created_at": "2026-07-14T16:42:04Z",
@@ -4527,12 +4527,6 @@
       "created_at": "2026-07-13T09:18:49Z",
       "status": "scoring_attempted",
       "title": "Berkshire's $397B Bet Against an Overheated Market"
-    },
-    "https://www.dw.com/en/germany-migrants-skilled-workers-integration-labor-market-bureaucracy-language-housing/a-77853162": {
-      "canonical_url": "https://www.dw.com/en/germany-migrants-skilled-workers-integration-labor-market-bureaucracy-language-housing/a-77853162",
-      "created_at": "2026-07-07T18:30:58Z",
-      "status": "scoring_attempted",
-      "title": "Why skilled workers come to Germany and then leave again"
     },
     "https://www.economist.com/business/2026/06/14/companies-are-scrambling-to-curtail-soaring-ai-costs": {
       "canonical_url": "https://www.economist.com/business/2026/06/14/companies-are-scrambling-to-curtail-soaring-ai-costs",
@@ -4762,12 +4756,6 @@
       "status": "scoring_attempted",
       "title": "Ant Group\u2019s Robbyant Open-Sources LingBot-Vision: A 1B Boundary-Centric Vision Foundation Model for Dense Spatial Perception"
     },
-    "https://www.marktechpost.com/2026/07/07/liquid-ai-antidoom-doom-loops-ftpo": {
-      "canonical_url": "https://www.marktechpost.com/2026/07/07/liquid-ai-antidoom-doom-loops-ftpo",
-      "created_at": "2026-07-07T18:30:58Z",
-      "status": "scoring_attempted",
-      "title": "Liquid AI Open-Sources Antidoom: A Final Token Preference Optimization (FTPO) Method that Reduces Doom Loops in Reasoning Models"
-    },
     "https://www.marktechpost.com/2026/07/07/nvidia-releases-audex-nemotron-labs-audex-30b-a3b-a-unified-audio-text-llm-that-preserves-the-text-intelligence-of-its-backbone": {
       "canonical_url": "https://www.marktechpost.com/2026/07/07/nvidia-releases-audex-nemotron-labs-audex-30b-a3b-a-unified-audio-text-llm-that-preserves-the-text-intelligence-of-its-backbone",
       "created_at": "2026-07-08T03:28:53Z",
@@ -4965,12 +4953,6 @@
       "created_at": "2026-07-09T16:13:09Z",
       "status": "scoring_attempted",
       "title": "Syria's solar boom is redefining Middle East's energy model"
-    },
-    "https://www.theverge.com/ai-artificial-intelligence/961978/anthropic-claude-cowork-mobile-web": {
-      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/961978/anthropic-claude-cowork-mobile-web",
-      "created_at": "2026-07-07T18:30:58Z",
-      "status": "scoring_attempted",
-      "title": "Anthropic is launching Claude Cowork on mobile and web"
     },
     "https://www.theverge.com/ai-artificial-intelligence/962856/chatgpt-upgraded-voice-mode-gpt-live": {
       "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/962856/chatgpt-upgraded-voice-mode-gpt-live",
@@ -5188,12 +5170,6 @@
       "status": "scoring_attempted",
       "title": "Even Nvidia\u2019s head of automotive fights with Nvidia for compute"
     },
-    "https://www.theverge.com/policy/962342/abc-fcc-the-view-free-speech": {
-      "canonical_url": "https://www.theverge.com/policy/962342/abc-fcc-the-view-free-speech",
-      "created_at": "2026-07-07T18:30:58Z",
-      "status": "scoring_attempted",
-      "title": "ABC tells the government to get out of its newsrooms"
-    },
     "https://www.theverge.com/policy/963872/meta-eu-addictive-design-200b-fine-risk-digital-services-act-dsa": {
       "canonical_url": "https://www.theverge.com/policy/963872/meta-eu-addictive-design-200b-fine-risk-digital-services-act-dsa",
       "created_at": "2026-07-10T12:38:28Z",
@@ -5265,18 +5241,6 @@
       "created_at": "2026-07-08T12:59:22Z",
       "status": "scoring_attempted",
       "title": "First look: Fi Ultra Starlink pet tracker"
-    },
-    "https://www.theverge.com/tech/962313/made-by-google-pixel-11-launch-event": {
-      "canonical_url": "https://www.theverge.com/tech/962313/made-by-google-pixel-11-launch-event",
-      "created_at": "2026-07-07T18:30:58Z",
-      "status": "scoring_attempted",
-      "title": "Google announces Pixel 11 launch event in August"
-    },
-    "https://www.theverge.com/tech/962415/x-video-editor-recycled-content": {
-      "canonical_url": "https://www.theverge.com/tech/962415/x-video-editor-recycled-content",
-      "created_at": "2026-07-07T18:30:58Z",
-      "status": "scoring_attempted",
-      "title": "X says top accounts steal videos from other users as it announces new video tools"
     },
     "https://www.theverge.com/tech/962439/sony-rx10v-superzoom-camera-price-specs-hands-on": {
       "canonical_url": "https://www.theverge.com/tech/962439/sony-rx10v-superzoom-camera-price-specs-hands-on",
@@ -5421,12 +5385,6 @@
       "created_at": "2026-07-14T17:48:09Z",
       "status": "scoring_attempted",
       "title": "Meta accused of using biased AI targeting for mass layoffs"
-    },
-    "https://www.theverge.com/transportation/962187/amble-golf-cart-moon-buggy-ev-design-price-specs": {
-      "canonical_url": "https://www.theverge.com/transportation/962187/amble-golf-cart-moon-buggy-ev-design-price-specs",
-      "created_at": "2026-07-07T18:30:58Z",
-      "status": "scoring_attempted",
-      "title": "The \u2018G-Wagen of golf carts\u2019 could be the ideal second car"
     },
     "https://www.theverge.com/transportation/962309/new-jersey-robotaxi-bill-lidar-tesla": {
       "canonical_url": "https://www.theverge.com/transportation/962309/new-jersey-robotaxi-bill-lidar-tesla",
