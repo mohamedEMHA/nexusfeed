@@ -98,56 +98,6 @@
         }
       }
     },
-    "14cd70931aa3f9e9bb470682137dcbd8dd4ca11f2a96f4e4d51044261014e5f1": {
-      "created_at": "2026-07-14T16:42:04Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 6,
-            "novelty_score": 0.2,
-            "reason": "This is a retrospective piece celebrating an anniversary, which is not novel or impactful for software engineers and AI researchers.",
-            "red_flag": true,
-            "red_flag_reason": "retrospective",
-            "source_score": 2,
-            "title": "Celebrating 25 years of visual search innovation",
-            "total_score": 3.7
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 7,
-            "novelty_score": 2.5,
-            "reason": "This article discusses a new AI application in healthcare compliance, which is relevant and impactful for AI researchers and software engineers.",
-            "red_flag": false,
-            "source_score": 1,
-            "title": "AWS and Bluesight build AI for hospital 340B compliance",
-            "total_score": 7
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 8,
-            "novelty_score": 2.5,
-            "reason": "This article discusses a new AI feature in a popular application, which is highly relevant and impactful for software engineers and AI researchers.",
-            "red_flag": false,
-            "source_score": 1.5,
-            "title": "Spotify is now an AI chatbot, too",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 8,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Spotify has introduced a new AI chatbot feature called 'Talk to Spotify' that allows users to interact with music, audiobooks, and podcasts through conversation. This feature is now available on the mobile app and could change how users discover and engage with content. Link: https://www.theverge.com/entertainment/965358/spotify-ai-chatbot-interface-music-audiobooks-podcasts",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\ud83d\udd25 *Spotify is now an AI chatbot, too*\n\nSpotify has introduced a new AI feature that allows Premium subscribers to play and explore music, audiobooks, and podcasts by having conversations with a chatbot. The \"Talk to Spotify\" feature appears across the Home and Now Playing view on Spotify's mobile app.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/entertainment/965358/spotify-ai-chatbot-interface-music-audiobooks-podcasts\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Spotify's new AI chatbot lets you explore music, audiobooks, and podcasts through conversation. The 'Talk to Spotify' feature is now live on mobile apps. https://www.theverge.com/entertainment/965358/spotify-ai-chatbot-interface-music-audiobooks-podcasts",
-          "twitter": "Spotify just rolled out an AI chatbot for music, audiobooks, and podcasts. The 'Talk to Spotify' feature is now in mobile apps.\nhttps://www.theverge.com/entertainment/965358/spotify-ai-chatbot-interface-music-audiobooks-podcasts"
-        }
-      }
-    },
     "19504f0bc0436cbccc5d1285ca639f1c950845ad47f1d91699fb6f8d26a0a754": {
       "created_at": "2026-07-15T07:24:32Z",
       "payload": {
@@ -329,6 +279,58 @@
         "best_score": 6.0,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "3e31e8421eb076fce061355aa73c0ca94abc5e4fbd90e8671cb0cae978b359a5": {
+      "created_at": "2026-07-15T16:50:05Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 4,
+            "novelty_score": 2.5,
+            "reason": "OpenAI's first branded hardware is a significant novelty with broad impact on developers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "OpenAI's first branded hardware is... a light-up keyboard?",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 5,
+            "novelty_score": 2.5,
+            "reason": "OpenAI's hardware launch for Codex is a notable industry move with significant impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "OpenAI finally launches hardware\u2026 for Codex",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 6,
+            "novelty_score": 0.2,
+            "reason": "A tutorial-style article with limited impact and novelty.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "J-space comparisons across open models",
+            "total_score": 4.2
+          }
+        ],
+        "best_index": 4,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "OpenAI has released its first branded hardware: a light-up keyboard designed to monitor multiple agentic threads. This is a significant move for the company, as it ventures into hardware for the first time. Link: https://arstechnica.com/ai/2026/07/openais-first-branded-hardware-is-a-light-up-keyboard/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *OpenAI's first branded hardware is... a light-up keyboard?*\n\nOpenAI has released a light-up keyboard designed to monitor multiple agentic threads. This is the company's first foray into branded hardware.\n\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://arstechnica.com/ai/2026/07/openais-first-branded-hardware-is-a-light-up-keyboard/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "OpenAI's first hardware product is a light-up keyboard for monitoring multiple agentic threads. Interesting direction for the company. https://arstechnica.com/ai/2026/07/openais-first-branded-hardware-is-a-light-up-keyboard/",
+          "twitter": "OpenAI's first branded hardware is a light-up keyboard for monitoring multiple agentic threads. https://arstechnica.com/ai/2026/07/openais-first-branded-hardware-is-a-light-up-keyboard/"
+        }
       }
     },
     "3e5108b525b79ddf0b7b73c7f4e4acf4cb87659ec284762a899ab1e009d1ac2b": {
@@ -935,41 +937,6 @@
         "social_posts": {}
       }
     },
-    "919ba38b9fb3d69efa2debb51bc25c48887bf3bd6631d8bb8aaa6559be3b8d54": {
-      "created_at": "2026-07-14T16:42:04Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 9,
-            "novelty_score": 0.5,
-            "reason": "Opinion piece on AI's impact on human cognition.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Are we offloading too much of our thinking to AI?",
-            "total_score": 3.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 11,
-            "novelty_score": 2.5,
-            "reason": "Research on agentic loops in AI systems.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "The Agentic Loop: Three loops in a trench coat",
-            "total_score": 7.0
-          }
-        ],
-        "best_index": 11,
-        "best_score": 7.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "93369572b4fe4c328861e08787d1ad4c3d3e78a3b2eb92d27181afc1b1226a69": {
       "created_at": "2026-07-15T11:01:06Z",
       "payload": {
@@ -1056,58 +1023,6 @@
         }
       }
     },
-    "957f12a216d3fff3669a2e7e358844cf98dd3fccc3b8dabe18a0b339cd95a694": {
-      "created_at": "2026-07-14T16:42:04Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 3,
-            "novelty_score": 3.0,
-            "reason": "New product launch with niche impact, high freshness, and low-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Launch HN: Agnost AI (YC S26) \u2013 Extract user feedback from agent conversations",
-            "total_score": 7.0
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 3.0,
-            "index": 4,
-            "novelty_score": 2.5,
-            "reason": "Important study on social media's role in deepfakes, high impact, fresh, and reputable source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "YouTube and X Have Become \u2018Gateways\u2019 to Nudify Apps",
-            "total_score": 9.0
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 5,
-            "novelty_score": 2.0,
-            "reason": "Significant update to a widely used service, high freshness, and reputable source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Google Images gets a Pinterest-like redesign focused on discovery",
-            "total_score": 8.0
-          }
-        ],
-        "best_index": 4,
-        "best_score": 9.0,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Research shows YouTube and X are acting as gateways to apps that create nonconsensual deepfakes for as little as $1 per image. This highlights the growing problem of AI-generated explicit content and the role social media plays in facilitating it. Link: https://www.wired.com/story/youtube-and-x-have-become-gateways-to-nudify-apps/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *YouTube and X Have Become \u2018Gateways\u2019 to Nudify Apps*\n\nA new study found that social media platforms are referring people to sites where they can create nonconsensual, sexually explicit deepfakes for as little as $1 an image.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://www.wired.com/story/youtube-and-x-have-become-gateways-to-nudify-apps\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "YouTube and X are now major referral sources for deepfake creation apps, with images available for as little as $1. https://www.wired.com/story/youtube-and-x-have-become-gateways-to-nudify-apps/",
-          "twitter": "A new study reveals how YouTube and X are driving traffic to deepfake creation sites, with images costing as little as $1. https://www.wired.com/story/youtube-and-x-have-become-gateways-to-nudify-apps/"
-        }
-      }
-    },
     "9b48bb006933cab73a126000abb27d6f472a04d77487ab2ef67e94210a2299c6": {
       "created_at": "2026-07-15T09:07:14Z",
       "payload": {
@@ -1181,6 +1096,53 @@
           "threads": "The Apple FaceID co-inventor is applying AI to brain diagnostics. His startup, Hemispheric, wants to make brain scans as easy as blood tests. https://www.wired.com/story/the-apple-faceid-veteran-building-a-frontier-ai-model-for-the-human-brain/",
           "twitter": "The Apple FaceID co-inventor is building an AI model to diagnose brain conditions like a blood test. https://www.wired.com/story/the-apple-faceid-veteran-building-a-frontier-ai-model-for-the-human-brain/"
         }
+      }
+    },
+    "9e80555c4a979ccbe0142df4a48deec88b1f2bfb581a91b031b85151ebabad8f": {
+      "created_at": "2026-07-15T16:50:05Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 7,
+            "novelty_score": 3.0,
+            "reason": "New API for computer-use agents, but niche impact and lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Launch HN: Coasty (YC S26) \u2013 An API for computer-use agents",
+            "total_score": 7.0
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 8,
+            "novelty_score": 2.5,
+            "reason": "Interesting benchmark for running large models on old hardware, but niche impact and lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Running Gemma 4 26B at 5 tokens/SEC on a 13-year-old Xeon with no GPU",
+            "total_score": 7.0
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.5,
+            "index": 9,
+            "novelty_score": 1.5,
+            "reason": "Policy update with low relevance to software engineers and AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Daylight saving time is a step closer to becoming permanent in the US",
+            "total_score": 5.0
+          }
+        ],
+        "best_index": 8,
+        "best_score": 7.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "a2b8feedc3875044656426c0c78211c0b49a3960b993d92641d16df513fae840": {
@@ -1325,58 +1287,6 @@
         "social_posts": {}
       }
     },
-    "d5c55589ac3d4cfd1ebade00ed7900dd86d1aa248858d2e03ed5d1d6b318608c": {
-      "created_at": "2026-07-14T16:42:04Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 1.5,
-            "reason": "Update to Google's image search with AI enhancements, but not a groundbreaking release.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Google revamps image search for its 25th anniversary with more images and more AI",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Industry move by Meta's head of Instagram predicting AI token budget limits for engineers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Meta\u2019s Adam Mosseri says AI token budgets could soon be capped per engineer",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 0.5,
-            "index": 2,
-            "novelty_score": 0.2,
-            "reason": "Review of a gaming device, not relevant to software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "The OLED Xbox Ally X20 is so good, Asus will sell it solo",
-            "total_score": 4.2
-          }
-        ],
-        "best_index": 1,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Meta's Adam Mosseri has suggested that companies will soon need to manage AI token spending like payroll. He predicts engineers could face limits on AI tool usage. This could be a significant shift in how companies approach AI budgets. Link: https://techcrunch.com/2026/07/14/metas-adam-mosseri-says-ai-token-budgets-could-soon-be-capped-per-engineer/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Meta\u2019s Adam Mosseri says AI token budgets could soon be capped per engineer*\n\nMeta's Adam Mosseri predicts companies will manage AI token spending like payroll, potentially limiting engineers' AI tool usage.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/14/metas-adam-mosseri-says-ai-token-budgets-could-soon-be-capped-per-engineer/",
-          "threads": "Meta's Adam Mosseri says AI token budgets could soon be capped per engineer, comparing it to managing payroll. This could change how companies approach AI spending. https://techcrunch.com/2026/07/14/metas-adam-mosseri-says-ai-token-budgets-could-soon-be-capped-per-engineer/",
-          "twitter": "Meta's Adam Mosseri predicts AI token budgets will soon be capped per engineer, signaling a shift in how companies manage AI spending.\nhttps://techcrunch.com/2026/07/14/metas-adam-mosseri-says-ai-token-budgets-could-soon-be-capped-per-engineer/"
-        }
-      }
-    },
     "dae085e12894dc53f429b1b1330c4069c6c58b2381416b2769e65a23a6b3e1ee": {
       "created_at": "2026-07-14T20:05:36Z",
       "payload": {
@@ -1484,6 +1394,122 @@
         "best_score": 5.5,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "e7f82d1389518a17089d492322fc19d6112c501f37d84e32167f2f06b5fa87a4": {
+      "created_at": "2026-07-15T16:50:05Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 10,
+            "novelty_score": 2.5,
+            "reason": "Apple's expansion into China with Alibaba's Qwen AI models is a significant industry move with broad impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Apple Intelligence approved for launch in China with Alibaba\u2019s Qwen AI",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 0.5,
+            "index": 11,
+            "novelty_score": 1.5,
+            "reason": "DEA scheduling substances is relevant but not directly impactful for software engineers or AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "DEA to Temporarily Schedule 7-Oh and Related Substances to Protect Public Safety",
+            "total_score": 4.5
+          },
+          {
+            "freshness_score": 1,
+            "impact_score": 3,
+            "index": 23,
+            "novelty_score": 2.5,
+            "reason": "OpenAI's proposal for a reverse federalism approach to AI governance is highly relevant and impactful.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 2,
+            "title": "The US is advancing AI safety through state and federal action",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 23,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "OpenAI has outlined a 'reverse federalism' approach to AI governance, where state laws help build a national framework for safe, democratic AI. This proposal aims to ensure AI development aligns with public safety and democratic values, making it a significant development in AI policy.\nLink: https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *The US is advancing AI safety through state and federal action*\n\nOpenAI proposes a 'reverse federalism' approach to AI governance, leveraging state laws to build a national framework for safe, democratic AI.\n\n\ud83c\udfdb\ufe0f Source: OpenAI (S)\n\u23f0 Published: 4 hours ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://openai.com/index/advancing-ai-safety-through-state-and-federal-action\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "OpenAI's new 'reverse federalism' approach to AI governance could shape how the US regulates AI. State laws would build a national framework for safe, democratic AI.\nhttps://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+          "twitter": "OpenAI proposes a 'reverse federalism' approach to AI governance, leveraging state laws to build a national framework for safe, democratic AI.\nhttps://openai.com/index/advancing-ai-safety-through-state-and-federal-action"
+        }
+      }
+    },
+    "e84911a383a412118df2f0365abc1a17027518848c449625c113b58f0203eb6e": {
+      "created_at": "2026-07-15T16:50:05Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 0.5,
+            "index": 0,
+            "novelty_score": 0.2,
+            "reason": "Tutorial-like content with low impact and novelty.",
+            "red_flag": true,
+            "red_flag_reason": "tutorial",
+            "source_score": 0.5,
+            "title": "Primate Is the Last Great Web Framework",
+            "total_score": 3.2
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "High novelty and impact with recent publication and a reputable source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Microsoft patches record number of security vulnerabilities, citing its use of AI",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "Moderate impact and novelty with recent publication but lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Open-source memory for coding agents, synced over SSH",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 0.5,
+            "index": 3,
+            "novelty_score": 0.5,
+            "reason": "Low novelty and impact, despite recent publication and reputable source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Samsung shows off \u2018brand new shape\u2019 for Z Fold 8 in Spider-Man teaser",
+            "total_score": 4.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Microsoft's latest Patch Tuesday fixed a record 570 vulnerabilities, all discovered using AI. This marks a significant milestone in AI-driven security. Link: https://techcrunch.com/2026/07/15/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Microsoft patches record number of security vulnerabilities, citing its use of AI*\n\nMicrosoft's monthly release of security fixes, dubbed Patch Tuesday, resolved a record 570 security vulnerabilities across the company's product line, thanks to discoveries with AI.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/15/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Microsoft just patched 570 vulnerabilities in one go, all found with AI. That's a new record. https://techcrunch.com/2026/07/15/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai/",
+          "twitter": "Microsoft patched a record 570 vulnerabilities this month, all found with AI. https://techcrunch.com/2026/07/15/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai/"
+        }
       }
     },
     "eaef5ebb8eca6a8a04d86772489ebf4134bdae75dba4393c5cc261b99b1c3732": {
@@ -1910,6 +1936,15 @@
         "twitter": "Netflix's AI team reduces read latency from seconds to milliseconds by splitting Cassandra partitions per ID, a significant improvement for TimeSeries data @NetflixEng #CassandraOptimization"
       }
     },
+    "aa2ed108cac9d7031d4dbb574754de0ae92144436f8e64e5fe4565579a9abfb8": {
+      "created_at": "2026-07-15T16:50:05Z",
+      "payload": {
+        "facebook": "The latest Patch Tuesday from Microsoft has seen a record number of security vulnerabilities resolved, thanks to the company's increasing use of AI in its security operations. This development highlights the growing importance of AI in cybersecurity. #cybersecurity #AI #security",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Microsoft Patches Record Security Vulnerabilities\nMicrosoft's AI-driven security efforts have resolved a record 570 security vulnerabilities across its product line.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#cybersecurity #AI #security\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Microsoft's AI-powered security operations have led to a record 570 vulnerabilities being patched in the latest Patch Tuesday, a significant milestone for the company @Microsoft #cybersecurity",
+        "twitter": "Microsoft's use of AI leads to a record 570 security vulnerabilities patched, a significant boost to the company's security @Microsoft #cybersecurity"
+      }
+    },
     "baee8ba20f4c542450a60e60ed71be7932fcb97af30a44c906b75c7172c68ea7": {
       "created_at": "2026-07-10T10:19:54Z",
       "payload": {
@@ -2169,6 +2204,12 @@
       "created_at": "2026-07-09T21:43:18Z",
       "status": "scoring_attempted",
       "title": "OpenAI wants its new tool to do your work for you and with you"
+    },
+    "https://arstechnica.com/ai/2026/07/openais-first-branded-hardware-is-a-light-up-keyboard": {
+      "canonical_url": "https://arstechnica.com/ai/2026/07/openais-first-branded-hardware-is-a-light-up-keyboard",
+      "created_at": "2026-07-15T16:50:05Z",
+      "status": "scoring_attempted",
+      "title": "OpenAI's first branded hardware is... a light-up keyboard?"
     },
     "https://arstechnica.com/ai/2026/07/simulating-everything-sort-of-the-promise-and-limits-of-world-models": {
       "canonical_url": "https://arstechnica.com/ai/2026/07/simulating-everything-sort-of-the-promise-and-limits-of-world-models",
@@ -2902,6 +2943,12 @@
       "status": "scoring_attempted",
       "title": "How the Terrorist Group Boko Haram Uses Frontier AI"
     },
+    "https://coasty.ai/docs": {
+      "canonical_url": "https://coasty.ai/docs",
+      "created_at": "2026-07-15T16:50:05Z",
+      "status": "scoring_attempted",
+      "title": "Launch HN: Coasty (YC S26) \u2013 An API for computer-use agents"
+    },
     "https://combine-lab.github.io/blog/2026/07/07/fable-is-not-a-useful-model.html": {
       "canonical_url": "https://combine-lab.github.io/blog/2026/07/07/fable-is-not-a-useful-model.html",
       "created_at": "2026-07-08T21:39:52Z",
@@ -2949,6 +2996,12 @@
       "created_at": "2026-07-08T18:59:09Z",
       "status": "scoring_attempted",
       "title": "What Do We Know About the Microplastics Inside Us?"
+    },
+    "https://eliebak.com/viz/jspace-open-v2": {
+      "canonical_url": "https://eliebak.com/viz/jspace-open-v2",
+      "created_at": "2026-07-15T16:50:05Z",
+      "status": "scoring_attempted",
+      "title": "J-space comparisons across open models"
     },
     "https://en.wikipedia.org/wiki/Wikipedia:Wikipedia_Signpost/2026-07-13/Special_report": {
       "canonical_url": "https://en.wikipedia.org/wiki/Wikipedia:Wikipedia_Signpost/2026-07-13/Special_report",
@@ -3112,11 +3165,11 @@
       "status": "scoring_attempted",
       "title": "Claude is just Mr. Meeseeks"
     },
-    "https://github.com/weirdGuy/kastor": {
-      "canonical_url": "https://github.com/weirdGuy/kastor",
-      "created_at": "2026-07-08T16:01:10Z",
+    "https://github.com/vshulcz/deja-vu": {
+      "canonical_url": "https://github.com/vshulcz/deja-vu",
+      "created_at": "2026-07-15T16:50:05Z",
       "status": "scoring_attempted",
-      "title": "Show HN: Kastor \u2013 Terraform-style specs for AI agents"
+      "title": "Open-source memory for coding agents, synced over SSH"
     },
     "https://github.com/xqlsystems/xarray-sql/blob/claude/xarray-sql-mnist-demo/benchmarks/nn.py": {
       "canonical_url": "https://github.com/xqlsystems/xarray-sql/blob/claude/xarray-sql-mnist-demo/benchmarks/nn.py",
@@ -3232,12 +3285,6 @@
       "status": "scoring_attempted",
       "title": "MIRA: Multiplayer Interactive World Models Trained on Rocket League"
     },
-    "https://mistral.ai/news/robostral-navigate": {
-      "canonical_url": "https://mistral.ai/news/robostral-navigate",
-      "created_at": "2026-07-08T15:26:56Z",
-      "status": "scoring_attempted",
-      "title": "Mistral's Robostral Navigate: a state of the art robotics navigation model"
-    },
     "https://mrzk.io/posts/qmlx-maximising-ai-psychosis-minmaxing-mac-studio": {
       "canonical_url": "https://mrzk.io/posts/qmlx-maximising-ai-psychosis-minmaxing-mac-studio",
       "created_at": "2026-07-12T04:40:20Z",
@@ -3333,6 +3380,12 @@
       "created_at": "2026-07-13T19:54:25Z",
       "status": "scoring_attempted",
       "title": "Show HN: Nobie \u2013 an Excel-compatible runtime for agents and humans"
+    },
+    "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action": {
+      "canonical_url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+      "created_at": "2026-07-15T16:50:05Z",
+      "status": "scoring_attempted",
+      "title": "The US is advancing AI safety through state and federal action"
     },
     "https://openai.com/index/bio-bug-bounty": {
       "canonical_url": "https://openai.com/index/bio-bug-bounty",
@@ -3448,6 +3501,12 @@
       "status": "scoring_attempted",
       "title": "I Learned to Read Again"
     },
+    "https://superarch.org/theanswerisc/primate-is-the-last-great-framework.html": {
+      "canonical_url": "https://superarch.org/theanswerisc/primate-is-the-last-great-framework.html",
+      "created_at": "2026-07-15T16:50:05Z",
+      "status": "scoring_attempted",
+      "title": "Primate Is the Last Great Web Framework"
+    },
     "https://support.claude.com/en/articles/15910845-claude-code-may-july-2026-weekly-limits-promotion": {
       "canonical_url": "https://support.claude.com/en/articles/15910845-claude-code-may-july-2026-weekly-limits-promotion",
       "created_at": "2026-07-12T18:31:31Z",
@@ -3507,12 +3566,6 @@
       "created_at": "2026-07-08T20:25:01Z",
       "status": "scoring_attempted",
       "title": "SpaceXAI releases Grok 4.5, which Elon describes as an \u2018Opus-class model\u2019"
-    },
-    "https://techcrunch.com/2026/07/08/these-ai-startups-are-growing-revenue-at-faster-and-faster-rates": {
-      "canonical_url": "https://techcrunch.com/2026/07/08/these-ai-startups-are-growing-revenue-at-faster-and-faster-rates",
-      "created_at": "2026-07-08T16:01:10Z",
-      "status": "scoring_attempted",
-      "title": "These AI startups are growing revenue at faster and faster rates"
     },
     "https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment": {
       "canonical_url": "https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment",
@@ -3808,11 +3861,23 @@
       "status": "scoring_attempted",
       "title": "Anthropic, Blackstone bet the next trillion-dollar AI business is implementation, not models"
     },
+    "https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai": {
+      "canonical_url": "https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai",
+      "created_at": "2026-07-15T16:50:05Z",
+      "status": "scoring_attempted",
+      "title": "Apple Intelligence approved for launch in China with Alibaba\u2019s Qwen AI"
+    },
     "https://techcrunch.com/2026/07/15/indian-ai-coding-startup-emergent-becomes-a-unicorn-just-over-a-year-after-launch": {
       "canonical_url": "https://techcrunch.com/2026/07/15/indian-ai-coding-startup-emergent-becomes-a-unicorn-just-over-a-year-after-launch",
       "created_at": "2026-07-15T12:23:13Z",
       "status": "scoring_attempted",
       "title": "Indian AI coding startup Emergent becomes a unicorn with $130M Series C"
+    },
+    "https://techcrunch.com/2026/07/15/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai": {
+      "canonical_url": "https://techcrunch.com/2026/07/15/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai",
+      "created_at": "2026-07-15T16:50:05Z",
+      "status": "scoring_attempted",
+      "title": "Microsoft patches record number of security vulnerabilities, citing its use of AI"
     },
     "https://techcrunch.com/2026/07/15/reelfuls-ai-turns-your-camera-roll-into-short-form-videos-for-social-media": {
       "canonical_url": "https://techcrunch.com/2026/07/15/reelfuls-ai-turns-your-camera-roll-into-short-form-videos-for-social-media",
@@ -4000,6 +4065,12 @@
       "status": "scoring_attempted",
       "title": "Terrifying moment Grandpa is launched eight feet in the air by charging bison"
     },
+    "https://www.dea.gov/press-releases/2026/07/01/dea-temporarily-schedule-7-oh-and-related-substances-protect-public": {
+      "canonical_url": "https://www.dea.gov/press-releases/2026/07/01/dea-temporarily-schedule-7-oh-and-related-substances-protect-public",
+      "created_at": "2026-07-15T16:50:05Z",
+      "status": "scoring_attempted",
+      "title": "DEA to Temporarily Schedule 7-Oh and Related Substances to Protect Public Safety"
+    },
     "https://www.disruptionbanking.com/2026/07/13/inside-berkshires-397-billion-bet-against-an-overheated-market": {
       "canonical_url": "https://www.disruptionbanking.com/2026/07/13/inside-berkshires-397-billion-bet-against-an-overheated-market",
       "created_at": "2026-07-13T09:18:49Z",
@@ -4041,12 +4112,6 @@
       "created_at": "2026-07-12T15:37:08Z",
       "status": "scoring_attempted",
       "title": "Gina Gallery of International Naive Art"
-    },
-    "https://www.hmans.dev/blog/chatto-is-open-source": {
-      "canonical_url": "https://www.hmans.dev/blog/chatto-is-open-source",
-      "created_at": "2026-07-08T16:01:10Z",
-      "status": "scoring_attempted",
-      "title": "Chatto is now Open Source"
     },
     "https://www.howtogeek.com/why-developers-are-ditching-github-for-codeberg-and-self-hosting-alternatives": {
       "canonical_url": "https://www.howtogeek.com/why-developers-are-ditching-github-for-codeberg-and-self-hosting-alternatives",
@@ -4180,12 +4245,6 @@
       "status": "scoring_attempted",
       "title": "OpenAI Fixes 18-Year-Old GNU libunwind Bug by Treating Crash Debugging Like Epidemiology"
     },
-    "https://www.infoq.com/news/2026/07/sitar-agent-sidecar-config": {
-      "canonical_url": "https://www.infoq.com/news/2026/07/sitar-agent-sidecar-config",
-      "created_at": "2026-07-08T15:26:56Z",
-      "status": "scoring_attempted",
-      "title": "Airbnb Shares Architecture Behind Sitar-Agent Dynamic Configuration Sidecar for Kubernetes Services"
-    },
     "https://www.infoq.com/news/2026/07/slack-agentic-e2e-testing-ui": {
       "canonical_url": "https://www.infoq.com/news/2026/07/slack-agentic-e2e-testing-ui",
       "created_at": "2026-07-10T15:18:40Z",
@@ -4227,12 +4286,6 @@
       "created_at": "2026-07-14T14:09:38Z",
       "status": "scoring_attempted",
       "title": "Presentation: Lessons Learned in Migrating to Micro-Frontends"
-    },
-    "https://www.infoq.com/presentations/multi-agent-ai-architecture": {
-      "canonical_url": "https://www.infoq.com/presentations/multi-agent-ai-architecture",
-      "created_at": "2026-07-08T15:26:56Z",
-      "status": "scoring_attempted",
-      "title": "Presentation: The Multi-Agent Approach: Building Reliable and Controllable Software Development Automation"
     },
     "https://www.infoq.com/presentations/netflix-data-offline-online": {
       "canonical_url": "https://www.infoq.com/presentations/netflix-data-offline-online",
@@ -4414,6 +4467,12 @@
       "status": "scoring_attempted",
       "title": "Against Usefulness"
     },
+    "https://www.neomindlabs.com/2026/06/08/running-gemma-4-26b-at-5-tokens-sec-on-a-13-year-old-xeon-with-no-gpu": {
+      "canonical_url": "https://www.neomindlabs.com/2026/06/08/running-gemma-4-26b-at-5-tokens-sec-on-a-13-year-old-xeon-with-no-gpu",
+      "created_at": "2026-07-15T16:50:05Z",
+      "status": "scoring_attempted",
+      "title": "Running Gemma 4 26B at 5 tokens/SEC on a 13-year-old Xeon with no GPU"
+    },
     "https://www.npr.org/2026/06/30/nx-s1-5835631/turner-camhi-do-no-harm-college-loans": {
       "canonical_url": "https://www.npr.org/2026/06/30/nx-s1-5835631/turner-camhi-do-no-harm-college-loans",
       "created_at": "2026-07-12T04:40:20Z",
@@ -4540,6 +4599,12 @@
       "status": "scoring_attempted",
       "title": "OpenAI may announce a ChatGPT smart speaker this year"
     },
+    "https://www.theverge.com/ai-artificial-intelligence/965901/openai-hardware-codex-micro-launch": {
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/965901/openai-hardware-codex-micro-launch",
+      "created_at": "2026-07-15T16:50:05Z",
+      "status": "scoring_attempted",
+      "title": "OpenAI finally launches hardware\u2026 for Codex"
+    },
     "https://www.theverge.com/column/963346/ai-data-centers-fight": {
       "canonical_url": "https://www.theverge.com/column/963346/ai-data-centers-fight",
       "created_at": "2026-07-12T12:50:21Z",
@@ -4581,12 +4646,6 @@
       "created_at": "2026-07-08T17:48:01Z",
       "status": "scoring_attempted",
       "title": "Cockroaches will learn to fear my SwitchBot Bot Rechargeable"
-    },
-    "https://www.theverge.com/gadgets/962538/mondo-robotics-beni-robot-dog-preview": {
-      "canonical_url": "https://www.theverge.com/gadgets/962538/mondo-robotics-beni-robot-dog-preview",
-      "created_at": "2026-07-08T15:26:56Z",
-      "status": "scoring_attempted",
-      "title": "This jumping $800 robot camera dog filled me with joy"
     },
     "https://www.theverge.com/gadgets/962910/twelve-south-airfly-pro-summer-travel-gadgets-deal-sale": {
       "canonical_url": "https://www.theverge.com/gadgets/962910/twelve-south-airfly-pro-summer-travel-gadgets-deal-sale",
@@ -4738,6 +4797,12 @@
       "status": "scoring_attempted",
       "title": "Google and Epic give up fighting \u2014 third-party Android app stores are coming next week"
     },
+    "https://www.theverge.com/policy/965952/daylight-saving-time-permanent-us-house": {
+      "canonical_url": "https://www.theverge.com/policy/965952/daylight-saving-time-permanent-us-house",
+      "created_at": "2026-07-15T16:50:05Z",
+      "status": "scoring_attempted",
+      "title": "Daylight saving time is a step closer to becoming permanent in the US"
+    },
     "https://www.theverge.com/report/963106/ice-doxxing-office-of-professional-responsibility-free-speech": {
       "canonical_url": "https://www.theverge.com/report/963106/ice-doxxing-office-of-professional-responsibility-free-speech",
       "created_at": "2026-07-09T16:13:09Z",
@@ -4785,12 +4850,6 @@
       "created_at": "2026-07-09T16:13:09Z",
       "status": "scoring_attempted",
       "title": "Sony brings back the superzoom RX10 with a stacked sensor and a high price"
-    },
-    "https://www.theverge.com/tech/962781/google-pixel-11-lineup-price-increase": {
-      "canonical_url": "https://www.theverge.com/tech/962781/google-pixel-11-lineup-price-increase",
-      "created_at": "2026-07-08T15:26:56Z",
-      "status": "scoring_attempted",
-      "title": "The whole Pixel line could get more expensive this year"
     },
     "https://www.theverge.com/tech/963100/schlage-sense-pro-review-apple-home-key-uwb-handsfree-unlock": {
       "canonical_url": "https://www.theverge.com/tech/963100/schlage-sense-pro-review-apple-home-key-uwb-handsfree-unlock",
@@ -4935,6 +4994,12 @@
       "created_at": "2026-07-15T12:23:13Z",
       "status": "scoring_attempted",
       "title": "The Motorola Edge 70 Max is all about power"
+    },
+    "https://www.theverge.com/tech/965997/samsung-spider-man-galaxy-z-fold-8-teaser": {
+      "canonical_url": "https://www.theverge.com/tech/965997/samsung-spider-man-galaxy-z-fold-8-teaser",
+      "created_at": "2026-07-15T16:50:05Z",
+      "status": "scoring_attempted",
+      "title": "Samsung shows off \u2018brand new shape\u2019 for Z Fold 8 in Spider-Man teaser"
     },
     "https://www.theverge.com/transportation/964132/waze-gemini-ai-voice-commands-less-chatty": {
       "canonical_url": "https://www.theverge.com/transportation/964132/waze-gemini-ai-voice-commands-less-chatty",
