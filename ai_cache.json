@@ -98,6 +98,29 @@
         }
       }
     },
+    "08c936eef0e656241d1c912038423401d5dfa0c15a84ba9a65958e88ac94fcc4": {
+      "created_at": "2026-07-15T21:32:14Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.0,
+            "reason": "Industry move with significant impact on media landscape, published within the last hour from a Tier A source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "FCC plans to clear the way for more media consolidation",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "08f688e635faacdfb02524cfc8a35a1b06fbe3f4ff7e9af6b3bcc25d1dd28287": {
       "created_at": "2026-07-15T20:31:18Z",
       "payload": {
@@ -140,6 +163,29 @@
         ],
         "best_index": 1,
         "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "24fda65018c0b60d4e044b396c516c9d9f22e18f76898067b42c13bb501fb147": {
+      "created_at": "2026-07-15T21:32:14Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 4,
+            "novelty_score": 0.2,
+            "reason": "Tutorial-style content with low novelty and impact.",
+            "red_flag": true,
+            "red_flag_reason": "tutorial",
+            "source_score": 0.5,
+            "title": "Brainless: Shadcn components that look like Claude Code, Codex and Grok",
+            "total_score": 3.2
+          }
+        ],
+        "best_index": 4,
+        "best_score": 3.2,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -414,34 +460,6 @@
         "social_posts": {}
       }
     },
-    "51613f64b0274ba4734b697c216c61a1352960b8a68ae2ab01118d1390095313": {
-      "created_at": "2026-07-14T21:11:38Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 6,
-            "novelty_score": 2.5,
-            "reason": "SpaceXAI's Grok Build AI coding tool was uploading users' entire codebases to Google Cloud before it was reported and turned off.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "SpaceXAI\u2019s Grok programming tool was uploading its users\u2019 entire codebase to cloud storage",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 6,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "SpaceXAI's Grok Build AI coding tool was caught uploading users' entire code repositories to Google Cloud. The company has disabled the feature after it was reported. This is a significant privacy and security concern for developers using the tool.\nLink: https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *SpaceXAI\u2019s Grok programming tool was uploading its users\u2019 entire codebase to cloud storage*\n\nSpaceXAI's Grok Build AI coding tool was uploading users' entire codebases to Google Cloud before it was reported and turned off.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "SpaceXAI's Grok Build AI tool was uploading users' entire codebases to Google Cloud without their knowledge. The feature has been disabled after reports surfaced.\nhttps://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload",
-          "twitter": "SpaceXAI's Grok Build AI tool was secretly uploading users' entire codebases to Google Cloud. The company has since disabled the feature.\nhttps://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload"
-        }
-      }
-    },
     "54ec97f8712ab8c546f1f5ed0572e28cee03a8c65fba73f920ea940045ab0c5e": {
       "created_at": "2026-07-15T02:03:07Z",
       "payload": {
@@ -703,34 +721,6 @@
         "social_posts": {}
       }
     },
-    "73321b6ded7720ccc2c5bd199d66009332145b354912be70f3718f0fd1b1b4cf": {
-      "created_at": "2026-07-14T21:11:38Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 2,
-            "novelty_score": 3.0,
-            "reason": "New release with broad platform support and clear technical details.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "OpenCoreDev Releases Domain SDK 0.2.0: One TypeScript API to Add, Verify, and Remove Customer Domains Across Five Platforms",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 2,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "OpenCoreDev has released Domain SDK 0.2.0, a TypeScript client that simplifies domain management across five major platforms. The SDK covers adding, verifying, and removing customer domains with a unified API. This is a significant step forward for developers working with multiple cloud providers. Link: https://www.marktechpost.com/2026/07/14/opencoredev-releases-domain-sdk-0-2-0-one-typescript-api-to-add-verify-and-remove-customer-domains-across-five-platforms/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *OpenCoreDev Releases Domain SDK 0.2.0: One TypeScript API to Add, Verify, and Remove Customer Domains Across Five Platforms*\n\nOpenCoreDev has published Domain SDK 0.2.0, a TypeScript client for the custom domain lifecycle across Vercel, Cloudflare for SaaS, Railway, Render, and Netlify. It features an eight-value union status model with separate verification and certificate fields.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/07/14/opencoredev-releases-domain-sdk-0-2-0-one-typescript-api-to-add-verify-and-remove-customer-domains-across-five-platforms/",
-          "threads": "OpenCoreDev's new Domain SDK 0.2.0 offers a single TypeScript API for managing domains across Vercel, Cloudflare, Railway, Render, and Netlify. It models status as an eight-value union with separate verification and certificate fields. A solid tool for multi-platform SaaS development.\nhttps://www.marktechpost.com/2026/07/14/opencoredev-releases-domain-sdk-0-2-0-one-typescript-api-to-add-verify-and-remove-customer-domains-across-five-platforms/",
-          "twitter": "OpenCoreDev's Domain SDK 0.2.0 unifies domain management across Vercel, Cloudflare, Railway, Render, and Netlify with a single TypeScript API.\nhttps://www.marktechpost.com/2026/07/14/opencoredev-releases-domain-sdk-0-2-0-one-typescript-api-to-add-verify-and-remove-customer-domains-across-five-platforms/"
-        }
-      }
-    },
     "74dcbc1ced54878982ecb345e4879157722e71dbfa11155e1ece7dbd8d476909": {
       "created_at": "2026-07-15T15:24:33Z",
       "payload": {
@@ -867,6 +857,29 @@
         ],
         "best_index": 8,
         "best_score": 8.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "832a2c4a51f92d5ba2a6854d8ca68f9095db196ec2269bb44d4001a14c4ae3b5": {
+      "created_at": "2026-07-15T21:32:14Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "Grok Build open sourcing is notable but lacks broader impact due to niche audience.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Grok Build is open source",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1440,41 +1453,6 @@
         }
       }
     },
-    "bf12a92469f06a6fe2963e031b4fd8ce87f46901532e1072def82efd11ea48f9": {
-      "created_at": "2026-07-14T21:11:38Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Comparison of four agents is a red flag.",
-            "red_flag": true,
-            "red_flag_reason": "comparison of four agents",
-            "source_score": 1.5,
-            "title": "Mistral Vibe for Code vs Claude Code vs Cursor vs Codex: Four Agents Scored on One Scaffold-to-PR Task",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Research on AI decision-making with limited computational resources.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Helping AI models to meet the real world",
-            "total_score": 8
-          }
-        ],
-        "best_index": 1,
-        "best_score": 8.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "df35afd443aaec826bfab97be966efe0ab52d9ac2916767585ddbe8d1af171ee": {
       "created_at": "2026-07-15T19:24:21Z",
       "payload": {
@@ -1525,29 +1503,6 @@
           "threads": "Wired dives into why AI isn't yet as smart as a baby, hinting at future breakthroughs by studying infant brain architecture.\nhttps://www.wired.com/story/ai-isnt-smarter-than-a-baby-yet/",
           "twitter": "Wired explores why AI still can't match a baby's learning abilities, pointing to potential breakthroughs in neural architecture.\nhttps://www.wired.com/story/ai-isnt-smarter-than-a-baby-yet/"
         }
-      }
-    },
-    "dfab2e2c100f234d01ce630fdbb5eb0bd6e93becd95f22064430056798b78575": {
-      "created_at": "2026-07-14T21:11:38Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "Meta's AI usage in layoffs is a significant industry move with legal implications.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Lawsuit claims Meta's layoff decisions were made by AI, not humans",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 3,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "dfc6dbf4aa1425f9c4430beaf3a8e510b7ac29ed6fdfbbde122c837c41bbe440": {
@@ -3058,6 +3013,12 @@
       "created_at": "2026-07-11T23:32:54Z",
       "status": "scoring_attempted",
       "title": "Stop Telling Me to Ask an LLM"
+    },
+    "https://brainless.swerdlow.dev": {
+      "canonical_url": "https://brainless.swerdlow.dev",
+      "created_at": "2026-07-15T21:32:14Z",
+      "status": "scoring_attempted",
+      "title": "Brainless: Shadcn components that look like Claude Code, Codex and Grok"
     },
     "https://briarproject.org/news/2026-maintenance-mode": {
       "canonical_url": "https://briarproject.org/news/2026-maintenance-mode",
@@ -4943,6 +4904,12 @@
       "status": "scoring_attempted",
       "title": "Daylight saving time is a step closer to becoming permanent in the US"
     },
+    "https://www.theverge.com/policy/966283/fcc-broadcast-ownership-cap-brendan-carr": {
+      "canonical_url": "https://www.theverge.com/policy/966283/fcc-broadcast-ownership-cap-brendan-carr",
+      "created_at": "2026-07-15T21:32:14Z",
+      "status": "scoring_attempted",
+      "title": "FCC plans to clear the way for more media consolidation"
+    },
     "https://www.theverge.com/report/963106/ice-doxxing-office-of-professional-responsibility-free-speech": {
       "canonical_url": "https://www.theverge.com/report/963106/ice-doxxing-office-of-professional-responsibility-free-speech",
       "created_at": "2026-07-09T16:13:09Z",
@@ -5314,6 +5281,12 @@
       "created_at": "2026-07-14T15:21:57Z",
       "status": "scoring_attempted",
       "title": "OpenAI mandates hardware-backed passkeys for Trusted Access Cyber members"
+    },
+    "https://x.ai/open-source": {
+      "canonical_url": "https://x.ai/open-source",
+      "created_at": "2026-07-15T21:32:14Z",
+      "status": "scoring_attempted",
+      "title": "Grok Build is open source"
     }
   },
   "version": 1
