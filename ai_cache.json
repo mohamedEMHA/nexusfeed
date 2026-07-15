@@ -1,28 +1,5 @@
 {
   "cerebras_scoring": {
-    "0061c6c8844b7ff605c2f60ba7ce67f5432eb1d59958a3d9217bfa4f0d5e36a4": {
-      "created_at": "2026-07-14T18:53:04Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "MIT students built a jet engine with AI copilots, demonstrating AI's potential in aerospace engineering.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.0,
-            "title": "Can AI build a jet engine? JARVIS Challenge tests role of AI copilots in tough-tech engineering",
-            "total_score": 8.0
-          }
-        ],
-        "best_index": 2,
-        "best_score": 8.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "021f1403bd927c1d46d69667fec208b58a5d8598f973dcecd5b8f9a038b498e0": {
       "created_at": "2026-07-15T09:07:14Z",
       "payload": {
@@ -117,29 +94,6 @@
         ],
         "best_index": 1,
         "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "20d73ccf63c4bd5580b65ad131b13adfe515df30dd95704b3ddbb9ea5da82e3f": {
-      "created_at": "2026-07-14T18:53:04Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "Bonsai 27B is a significant advancement in model efficiency, but the source tier is low.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Bonsai 27B (1-bit LLM): The First 27B-Class Model to Run on a Phone",
-            "total_score": 7.0
-          }
-        ],
-        "best_index": 3,
-        "best_score": 7.0,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -685,34 +639,6 @@
         "social_posts": {}
       }
     },
-    "72b40ea6f9a151dadfe18498342b3c893088706d5c2727ce969f7a6b9bdef6b5": {
-      "created_at": "2026-07-14T18:53:04Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 3.0,
-            "reason": "First combat use of explosive drone boats by US military in conflict with Iran.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "US military sent explosive drone boats into combat for the first time",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "The US military has used explosive drone boats in combat for the first time, targeting an Iranian naval port. This marks a significant escalation in the ongoing conflict. The drones were deployed as part of a broader strategy to counter Iranian naval capabilities. Link: https://arstechnica.com/ai/2026/07/us-military-sent-explosive-drone-boats-into-combat-for-the-first-time/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *US military sent explosive drone boats into combat for the first time*\n\nUS military\u2019s drone boats struck an Iranian naval port as war heats up again.\n\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://arstechnica.com/ai/2026/07/us-military-sent-explosive-drone-boats-into-combat-for-the-first-time/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "US military just used explosive drone boats in combat for the first time, hitting an Iranian naval port. This is a major escalation in the conflict. https://arstechnica.com/ai/2026/07/us-military-sent-explosive-drone-boats-into-combat-for-the-first-time/",
-          "twitter": "US military deployed explosive drone boats in combat for the first time, striking an Iranian naval port as tensions escalate.\nhttps://arstechnica.com/ai/2026/07/us-military-sent-explosive-drone-boats-into-combat-for-the-first-time/"
-        }
-      }
-    },
     "73321b6ded7720ccc2c5bd199d66009332145b354912be70f3718f0fd1b1b4cf": {
       "created_at": "2026-07-14T21:11:38Z",
       "payload": {
@@ -996,6 +922,46 @@
         }
       }
     },
+    "85c433f95ea43973a38fb204cd1f3bc516820d45f6ea0ce23b56a25f618250b2": {
+      "created_at": "2026-07-15T19:24:21Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 5,
+            "novelty_score": 3.0,
+            "reason": "New open-source model with 975 billion parameters trained on video and audio.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Thinking Machines Lab Drops Its First Model",
+            "total_score": 9.0
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 6,
+            "novelty_score": 2.5,
+            "reason": "First public proof point from Thinking Machines after a year and a half of development.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Thinking Machines amps up its bet against one-size-fits-all AI with its first open model, Inkling",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 5,
+        "best_score": 9.0,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Thinking Machines Lab has released Inkling, a 975-billion-parameter open-source model designed to understand video and audio. This could help the company compete with giants like Anthropic and OpenAI. The model is a significant step in the company's journey to establish itself in the AI landscape. Link: https://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Thinking Machines Lab Drops Its First Model*\n\nThinking Machines Lab has released Inkling, a 975-billion-parameter open-source model trained to understand video and audio. This could help the company compete with giants like Anthropic and OpenAI.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Thinking Machines Lab just dropped Inkling, a 975-billion-parameter open-source model trained on video and audio. This is a big move in the AI space. https://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling/",
+          "twitter": "Thinking Machines Lab just released Inkling, a 975-billion-parameter open-source model trained on video and audio.\nhttps://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling/"
+        }
+      }
+    },
     "87e4327a65a72d4b34d5f55cda0c3abf0fb58167e0c2a8b583ef4d0584137654": {
       "created_at": "2026-07-15T17:59:26Z",
       "payload": {
@@ -1180,6 +1146,41 @@
         "social_posts": {}
       }
     },
+    "9b7875c73615c026766369abb4a244b9ebc6419629060f05987da6a85bfb3436": {
+      "created_at": "2026-07-15T19:24:21Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "No content available to evaluate.",
+            "red_flag": true,
+            "red_flag_reason": "Comments",
+            "source_score": 0.5,
+            "title": "Inkling: Our Open-Weights Model",
+            "total_score": 5.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 4,
+            "novelty_score": 2,
+            "reason": "Relevant to AI researchers and software engineers interested in the intersection of technology and finance.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "SpaceX slips below its $135 IPO price ahead of Starship launch",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 4,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "9de79a28237b2620706298840d980dc37be88df58f629f5f29456945ceca1b1b": {
       "created_at": "2026-07-15T12:23:13Z",
       "payload": {
@@ -1335,6 +1336,41 @@
         }
       }
     },
+    "afaf273c9281bef327840e91ec556d559099c001d44270f7965f0ceb705ee20d": {
+      "created_at": "2026-07-15T19:24:21Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 7,
+            "novelty_score": 2.5,
+            "reason": "Detailed technical implementation of a configurable PyTorch pipeline with Gin Config, useful for researchers and engineers working on ML experiments.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Building a Gin Config Controlled PyTorch Pipeline with Configurable MLP Variants, Cosine Scheduling, and Runtime Parameter Overrides",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 24,
+            "novelty_score": 2,
+            "reason": "Explores the business model of Ode with Anthropic, a startup focusing on AI services for enterprises, backed by major investors.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Inside Ode with Anthropic, the startup betting AI services are the future of enterprise",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 24,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "b4204f216043f1c7927605614ea2ec0ffc3b736a712360ca0cb21d5ad3b2eec5": {
       "created_at": "2026-07-15T09:07:14Z",
       "payload": {
@@ -1423,6 +1459,58 @@
           "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Anthropic\u2019s newest ad is creeping people out*\n\nAnthropic's latest ad is stirring up high emotions, which is undoubtedly what it was designed to do.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/14/anthropics-newest-ad-is-creeping-people-out/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
           "threads": "Anthropic's latest ad is designed to creep people out\u2014and it's working. The ad is stirring up high emotions, which is undoubtedly what it was designed to do. https://techcrunch.com/2026/07/14/anthropics-newest-ad-is-creeping-people-out/",
           "twitter": "Anthropic's latest ad is designed to creep people out\u2014and it's working. https://techcrunch.com/2026/07/14/anthropics-newest-ad-is-creeping-people-out/"
+        }
+      }
+    },
+    "df35afd443aaec826bfab97be966efe0ab52d9ac2916767585ddbe8d1af171ee": {
+      "created_at": "2026-07-15T19:24:21Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 0.5,
+            "reason": "Opinion piece from a notable source with limited impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Why I Left Google DeepMind",
+            "total_score": 4.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "Research-focused article from a top-tier source with broad impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "AI Isn\u2019t Smarter Than a Baby\u2014Yet",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 1.5,
+            "reason": "Industry move with moderate impact and novelty.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Something\u2019s glowing on the Pixel 11\u2019s camera bar",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "A fascinating read from Wired on why AI still can't match the learning capabilities of a baby. The article suggests that future advances in AI might come from studying the architecture of infant brains. This could open new avenues for research in neural networks and machine learning.\nLink: https://www.wired.com/story/ai-isnt-smarter-than-a-baby-yet/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *AI Isn\u2019t Smarter Than a Baby\u2014Yet*\n\nBabies are tremendous learning machines, and key advances for AI may soon be found in the architecture of their little brains.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.wired.com/story/ai-isnt-smarter-than-a-baby-yet/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Wired dives into why AI isn't yet as smart as a baby, hinting at future breakthroughs by studying infant brain architecture.\nhttps://www.wired.com/story/ai-isnt-smarter-than-a-baby-yet/",
+          "twitter": "Wired explores why AI still can't match a baby's learning abilities, pointing to potential breakthroughs in neural architecture.\nhttps://www.wired.com/story/ai-isnt-smarter-than-a-baby-yet/"
         }
       }
     },
@@ -1696,34 +1784,6 @@
           "twitter": "OpenAI is reportedly working on a ChatGPT smart speaker with environmental sensors, no screen. https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device"
         }
       }
-    },
-    "f6136b4aebd5d48d9455fe34f1c5cb588415ef96d35c3d4d66c918a73f6498d0": {
-      "created_at": "2026-07-14T18:53:04Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 3,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Major lawsuit against Google for AI training on copyrighted works without permission.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Google faces another AI training lawsuit from major publishers",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Hachette, Cengage, Elsevier, and other publishers are suing Google for allegedly training its AI on copyrighted works without the necessary permissions. This is a significant legal challenge for Google's AI training practices. Link: https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Google faces another AI training lawsuit from major publishers*\n\nHachette, Cengage, Elsevier, and other publishers allege that Google trained its AI on copyrighted works without the necessary permissions.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Major publishers sue Google for training AI on copyrighted works without permission. This could set a major precedent for AI training practices. https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers/",
-          "twitter": "Major publishers sue Google for training AI on copyrighted works without permission. https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers/"
-        }
-      }
     }
   },
   "groq_social_posts": {
@@ -1734,15 +1794,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Google Cloud enhances developer experience\nThe Google Cloud Workbench Notebooks extension for VS Code enables direct connection to managed Jupyter notebook environments on Google Cloud.\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (B)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#CloudComputing #GoogleCloud #JupyterNotebooks\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "The Google Cloud Workbench Notebooks extension for VS Code is a game-changer for developers, allowing direct connection to managed Jupyter notebook environments @GoogleCloud #CloudComputing",
         "twitter": "Developers can now connect VS Code to Google Cloud's Jupyter notebooks with the new Workbench Notebooks extension @GoogleCloud #CloudComputing"
-      }
-    },
-    "0a7e9437cbc26a06667ace10c5ce4e7fb0326ddcda575d6ef92206157e1e6aa2": {
-      "created_at": "2026-07-08T18:59:09Z",
-      "payload": {
-        "facebook": "The latest development in voice models is here, with OpenAI's GPT-Live and GPT-Live-1 mini now capable of full-duplex conversations, making them more human-like in their interactions. This technology has the potential to significantly improve voice assistants. #AI #VoiceModels #GPT",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 OpenAI Introduces Full-Duplex Voice Models\nGPT-Live models can now engage in simultaneous conversations, with GPT-5.5 handling complex reasoning tasks.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n#AI #VoiceTechnology #GPT\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "OpenAI has released GPT-Live, a new generation of voice models that can listen and speak simultaneously, with GPT-5.5 handling deeper reasoning tasks @OpenAI #AI",
-        "twitter": "OpenAI's new GPT-Live models enable full-duplex voice conversations, leveraging GPT-5.5 for deeper reasoning @OpenAI #AI"
       }
     },
     "0ac6a6f84dc7a0df8b264789097325e7d47ffa198df7bed2fe9f7049f3f08361": {
@@ -2103,6 +2154,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Meta Removes AI Feature From Instagram\nMeta has decided to remove a contentious AI feature from Instagram after receiving substantial criticism from its users.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AIethics #Technews #Socialmedia",
         "threads": "Meta has withdrawn a disputed AI feature on Instagram due to user criticism, a move that underscores the need for responsible AI implementation @Meta #AIdevelopment",
         "twitter": "Meta backs down on a contentious AI feature for Instagram after user pushback @TechCrunch #AIethics"
+      }
+    },
+    "ce60ebd1977af6685ea861b81e4b0492d16fd61d5d3222a520cffa22c245aa15": {
+      "created_at": "2026-07-15T19:24:21Z",
+      "payload": {
+        "facebook": "The AI landscape just got more competitive with Thinking Machines Lab's release of Inkling, a 975-billion-parameter open source model trained on video and audio. This move could establish the company as a major player among competitors like Anthropic and OpenAI. #AI #MachineLearning #OpenSource",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Thinking Machines Lab Releases Inkling Model\nInkling is a 975-billion-parameter open source model trained to understand video and audio, potentially helping Thinking Machines compete with Anthropic and OpenAI.\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9/10\n#AI #MachineLearning #OpenSource\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Thinking Machines Lab has unveiled Inkling, its first model with 975 billion parameters, trained to understand video and audio, which could help the company compete with Anthropic and OpenAI @Wired, #AI",
+        "twitter": "Thinking Machines Lab enters the AI fray with Inkling, a massive 975-billion-parameter model, poised to challenge Anthropic and OpenAI @Wired @AI, #AImodels"
       }
     },
     "d23f571cc8f3c83c09484ea4e0c099d91b5433472f8d93a274c8114544b31ec2": {
@@ -3073,12 +3133,6 @@
       "status": "scoring_attempted",
       "title": "OpenAI loses trademark dispute at EU court"
     },
-    "https://e360.yale.edu/features/cassandra-rauert-interview": {
-      "canonical_url": "https://e360.yale.edu/features/cassandra-rauert-interview",
-      "created_at": "2026-07-08T18:59:09Z",
-      "status": "scoring_attempted",
-      "title": "What Do We Know About the Microplastics Inside Us?"
-    },
     "https://eliebak.com/viz/jspace-open-v2": {
       "canonical_url": "https://eliebak.com/viz/jspace-open-v2",
       "created_at": "2026-07-15T16:50:05Z",
@@ -3361,12 +3415,6 @@
       "status": "scoring_attempted",
       "title": "DSLs Enable Reliable Use of LLMs"
     },
-    "https://microsoft.github.io/flint-chart": {
-      "canonical_url": "https://microsoft.github.io/flint-chart",
-      "created_at": "2026-07-08T18:59:09Z",
-      "status": "scoring_attempted",
-      "title": "Show HN: Microsoft releases Flint, a visualization language for AI agents"
-    },
     "https://minor.gripe/posts/2026-07-13-the_ai_whalefall_and_open_source": {
       "canonical_url": "https://minor.gripe/posts/2026-07-13-the_ai_whalefall_and_open_source",
       "created_at": "2026-07-14T02:05:35Z",
@@ -3624,12 +3672,6 @@
       "created_at": "2026-07-15T02:03:07Z",
       "status": "scoring_attempted",
       "title": "TS-2026-009: Insecure argument handling in Tailscale SSH permitted root access"
-    },
-    "https://techcrunch.com/2026/07/08/google-photos-adds-a-new-ai-video-remix-tool": {
-      "canonical_url": "https://techcrunch.com/2026/07/08/google-photos-adds-a-new-ai-video-remix-tool",
-      "created_at": "2026-07-08T18:59:09Z",
-      "status": "scoring_attempted",
-      "title": "Google Photos adds a new AI \u2018Video Remix\u2019 tool"
     },
     "https://techcrunch.com/2026/07/08/googles-deepfake-detector-system-used-to-debunk-mcconnell-hoax-pic": {
       "canonical_url": "https://techcrunch.com/2026/07/08/googles-deepfake-detector-system-used-to-debunk-mcconnell-hoax-pic",
@@ -3979,6 +4021,18 @@
       "status": "scoring_attempted",
       "title": "Rime picks up $24M Series A to help enterprises field customer calls"
     },
+    "https://techcrunch.com/2026/07/15/spacex-slips-below-its-135-ipo-price-ahead-of-starship-launch": {
+      "canonical_url": "https://techcrunch.com/2026/07/15/spacex-slips-below-its-135-ipo-price-ahead-of-starship-launch",
+      "created_at": "2026-07-15T19:24:21Z",
+      "status": "scoring_attempted",
+      "title": "SpaceX slips below its $135 IPO price ahead of Starship launch"
+    },
+    "https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling": {
+      "canonical_url": "https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling",
+      "created_at": "2026-07-15T19:24:21Z",
+      "status": "scoring_attempted",
+      "title": "Thinking Machines amps up its bet against one-size-fits-all AI with its first open model, Inkling"
+    },
     "https://techcrunch.com/2026/07/15/vint-cerf-is-working-on-a-plan-to-unleash-ai-agents-on-the-open-internet": {
       "canonical_url": "https://techcrunch.com/2026/07/15/vint-cerf-is-working-on-a-plan-to-unleash-ai-agents-on-the-open-internet",
       "created_at": "2026-07-15T12:23:13Z",
@@ -3997,17 +4051,11 @@
       "status": "scoring_attempted",
       "title": "Open source AI matters more than ever, according to Hugging Face\u2019s Clem Delangue"
     },
-    "https://techcrunch.com/podcast/your-gaming-data-could-be-the-secret-to-agi-according-to-this-bezos-backed-startup": {
-      "canonical_url": "https://techcrunch.com/podcast/your-gaming-data-could-be-the-secret-to-agi-according-to-this-bezos-backed-startup",
-      "created_at": "2026-07-08T18:59:09Z",
+    "https://techcrunch.com/video/inside-ode-with-anthropic-the-startup-betting-ai-services-are-the-future-of-enterprise": {
+      "canonical_url": "https://techcrunch.com/video/inside-ode-with-anthropic-the-startup-betting-ai-services-are-the-future-of-enterprise",
+      "created_at": "2026-07-15T19:24:21Z",
       "status": "scoring_attempted",
-      "title": "Your gaming data could be the secret to AGI, according to this Bezos-backed startup"
-    },
-    "https://techcrunch.com/video/why-this-ceo-thinks-video-games-make-better-training-data-than-the-internet": {
-      "canonical_url": "https://techcrunch.com/video/why-this-ceo-thinks-video-games-make-better-training-data-than-the-internet",
-      "created_at": "2026-07-08T18:59:09Z",
-      "status": "scoring_attempted",
-      "title": "Why this CEO thinks video games make better training data than the internet"
+      "title": "Inside Ode with Anthropic, the startup betting AI services are the future of enterprise"
     },
     "https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents": {
       "canonical_url": "https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents",
@@ -4020,6 +4068,18 @@
       "created_at": "2026-07-12T15:37:08Z",
       "status": "scoring_attempted",
       "title": "Mystery behind Moana: After 1,700 years, why did Polynesians suddenly sail east?"
+    },
+    "https://thinkingmachines.ai/news/introducing-inkling": {
+      "canonical_url": "https://thinkingmachines.ai/news/introducing-inkling",
+      "created_at": "2026-07-15T19:24:21Z",
+      "status": "scoring_attempted",
+      "title": "Inkling: Our Open-Weights Model"
+    },
+    "https://turntrout.com/why-i-left-google-deepmind": {
+      "canonical_url": "https://turntrout.com/why-i-left-google-deepmind",
+      "created_at": "2026-07-15T19:24:21Z",
+      "status": "scoring_attempted",
+      "title": "Why I Left Google DeepMind"
     },
     "https://twitter.com/a_green_being/status/2076598897779020159": {
       "canonical_url": "https://twitter.com/a_green_being/status/2076598897779020159",
@@ -4393,23 +4453,11 @@
       "status": "scoring_attempted",
       "title": "Mesh LLM: distributed AI computing on iroh"
     },
-    "https://www.marktechpost.com/2026/07/08/google-ai-studio-adds-import-from-github-to-build-mode": {
-      "canonical_url": "https://www.marktechpost.com/2026/07/08/google-ai-studio-adds-import-from-github-to-build-mode",
-      "created_at": "2026-07-08T18:59:09Z",
-      "status": "scoring_attempted",
-      "title": "Google AI Studio Adds \u2018Import from GitHub\u2019 to Build Mode, Turning an Existing Repo Into an Editable, Deployable App"
-    },
     "https://www.marktechpost.com/2026/07/08/netflix-ai-team-cuts-wide-partition-read-latency-from-seconds-to-milliseconds-by-splitting-cassandra-partitions-per-id": {
       "canonical_url": "https://www.marktechpost.com/2026/07/08/netflix-ai-team-cuts-wide-partition-read-latency-from-seconds-to-milliseconds-by-splitting-cassandra-partitions-per-id",
       "created_at": "2026-07-08T21:39:52Z",
       "status": "scoring_attempted",
       "title": "Netflix AI Team Cuts Wide-Partition Read Latency from Seconds to Milliseconds by Splitting Cassandra Partitions Per ID"
-    },
-    "https://www.marktechpost.com/2026/07/08/openai-releases-gpt-live-and-gpt-live-1-mini-full-duplex-voice-models-that-delegate-deeper-reasoning-to-gpt-5-5": {
-      "canonical_url": "https://www.marktechpost.com/2026/07/08/openai-releases-gpt-live-and-gpt-live-1-mini-full-duplex-voice-models-that-delegate-deeper-reasoning-to-gpt-5-5",
-      "created_at": "2026-07-08T18:59:09Z",
-      "status": "scoring_attempted",
-      "title": "OpenAI Releases GPT-Live and GPT-Live-1 mini: Full-Duplex Voice Models That Delegate Deeper Reasoning to GPT-5.5"
     },
     "https://www.marktechpost.com/2026/07/09/datalab-lift-vs-the-field-how-a-9b-schema-first-extractor-compares-with-nuextract3-llamaextract-marker-and-docling": {
       "canonical_url": "https://www.marktechpost.com/2026/07/09/datalab-lift-vs-the-field-how-a-9b-schema-first-extractor-compares-with-nuextract3-llamaextract-marker-and-docling",
@@ -4536,6 +4584,12 @@
       "created_at": "2026-07-14T22:54:59Z",
       "status": "scoring_attempted",
       "title": "PrismML Releases Bonsai 27B: 1-bit and Ternary Builds of Qwen3.6-27B That Run on Laptops and Phones"
+    },
+    "https://www.marktechpost.com/2026/07/15/building-a-gin-config-controlled-pytorch-pipeline-with-configurable-mlp-variants-cosine-scheduling-and-runtime-parameter-overrides": {
+      "canonical_url": "https://www.marktechpost.com/2026/07/15/building-a-gin-config-controlled-pytorch-pipeline-with-configurable-mlp-variants-cosine-scheduling-and-runtime-parameter-overrides",
+      "created_at": "2026-07-15T19:24:21Z",
+      "status": "scoring_attempted",
+      "title": "Building a Gin Config Controlled PyTorch Pipeline with Configurable MLP Variants, Cosine Scheduling, and Runtime Parameter Overrides"
     },
     "https://www.marktechpost.com/2026/07/15/google-releases-litert-js-a-javascript-binding-of-litert-that-runs-tflite-models-in-browsers-via-webgpu": {
       "canonical_url": "https://www.marktechpost.com/2026/07/15/google-releases-litert-js-a-javascript-binding-of-litert-that-runs-tflite-models-in-browsers-via-webgpu",
@@ -4788,12 +4842,6 @@
       "created_at": "2026-07-14T17:48:09Z",
       "status": "scoring_attempted",
       "title": "Philips Hue&#8217;s budget-friendly Essential starter kit has hit a new low price"
-    },
-    "https://www.theverge.com/games/963024/microsoft-xbox-reset-obsidian-fallout-layoffs": {
-      "canonical_url": "https://www.theverge.com/games/963024/microsoft-xbox-reset-obsidian-fallout-layoffs",
-      "created_at": "2026-07-08T18:59:09Z",
-      "status": "scoring_attempted",
-      "title": "Microsoft&#8217;s Xbox reset is pivoting Obsidian to make Fallout instead of Avowed"
     },
     "https://www.theverge.com/games/963132/sony-playstation-future-handheld-pc-business-meeting-end-of-discs": {
       "canonical_url": "https://www.theverge.com/games/963132/sony-playstation-future-handheld-pc-business-meeting-end-of-discs",
@@ -5089,6 +5137,12 @@
       "status": "scoring_attempted",
       "title": "Samsung shows off \u2018brand new shape\u2019 for Z Fold 8 in Spider-Man teaser"
     },
+    "https://www.theverge.com/tech/966120/google-pixel-11-camera-bar-teaser": {
+      "canonical_url": "https://www.theverge.com/tech/966120/google-pixel-11-camera-bar-teaser",
+      "created_at": "2026-07-15T19:24:21Z",
+      "status": "scoring_attempted",
+      "title": "Something&#8217;s glowing on the Pixel 11&#8217;s camera bar"
+    },
     "https://www.theverge.com/transportation/964132/waze-gemini-ai-voice-commands-less-chatty": {
       "canonical_url": "https://www.theverge.com/transportation/964132/waze-gemini-ai-voice-commands-less-chatty",
       "created_at": "2026-07-13T09:18:49Z",
@@ -5124,6 +5178,12 @@
       "created_at": "2026-07-10T12:38:28Z",
       "status": "scoring_attempted",
       "title": "A New Experiential Gallery Just Might Change Your Mind About AI Art"
+    },
+    "https://www.wired.com/story/ai-isnt-smarter-than-a-baby-yet": {
+      "canonical_url": "https://www.wired.com/story/ai-isnt-smarter-than-a-baby-yet",
+      "created_at": "2026-07-15T19:24:21Z",
+      "status": "scoring_attempted",
+      "title": "AI Isn\u2019t Smarter Than a Baby\u2014Yet"
     },
     "https://www.wired.com/story/apple-sues-openai-allegedly-stealing-ip-hardware": {
       "canonical_url": "https://www.wired.com/story/apple-sues-openai-allegedly-stealing-ip-hardware",
@@ -5226,6 +5286,12 @@
       "created_at": "2026-07-14T10:54:22Z",
       "status": "scoring_attempted",
       "title": "This Luddite Puppet Hopes You\u2019re Not Reading This on Your Smartphone"
+    },
+    "https://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling": {
+      "canonical_url": "https://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling",
+      "created_at": "2026-07-15T19:24:21Z",
+      "status": "scoring_attempted",
+      "title": "Thinking Machines Lab Drops Its First Model"
     },
     "https://www.wired.com/story/youtube-and-x-have-become-gateways-to-nudify-apps": {
       "canonical_url": "https://www.wired.com/story/youtube-and-x-have-become-gateways-to-nudify-apps",
