@@ -23,29 +23,6 @@
         "social_posts": {}
       }
     },
-    "05186a107535372005aed0aeca162df95927e8287114848ef5b38226075fe270": {
-      "created_at": "2026-07-13T23:51:24Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 4,
-            "novelty_score": 2.5,
-            "reason": "Speculative study about a future rollout with limited impact and a C-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "A Study of Microsoft's Early 2026 Rollout of Claude Code and GitHub Copilot CLI",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 4,
-        "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "06bce0b64e4ab8668a85b153d932ca72f504418500c9e8df35cbfea1d0c66e48": {
       "created_at": "2026-07-14T02:05:35Z",
       "payload": {
@@ -444,29 +421,6 @@
         "social_posts": {}
       }
     },
-    "22c4a1a01780525934fb2bd58768796693d103991a81db15c968e4270fa804a1": {
-      "created_at": "2026-07-13T23:51:24Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "MIT's new method for detecting AI models trained on child abuse imagery is impactful but lacks novelty in the broader AI safety space.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "MIT's New Method Flags AI Models Trained on CASM Without Generating It",
-            "total_score": 7.0
-          }
-        ],
-        "best_index": 3,
-        "best_score": 7.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "3111fddfd0680a1f0767b4c1c2b34cbcbbb85ba131e42c36163636d00e302262": {
       "created_at": "2026-07-14T14:09:38Z",
       "payload": {
@@ -821,6 +775,29 @@
         }
       }
     },
+    "54ec97f8712ab8c546f1f5ed0572e28cee03a8c65fba73f920ea940045ab0c5e": {
+      "created_at": "2026-07-15T02:03:07Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "Significant industry move with high impact but not novel enough to justify a higher novelty score.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "55683a499d5ca661515080b541a150ddf7af58a56cf4243e1dd7ed04e4bff9da": {
       "created_at": "2026-07-14T02:05:35Z",
       "payload": {
@@ -973,6 +950,29 @@
           "threads": "Hugging Face CEO says enterprises are moving to open models over frontier models. A major shift in AI strategy. https://techcrunch.com/2026/07/14/the-real-ai-race-may-no-longer-be-at-the-frontier-open-models-hugging-face/",
           "twitter": "Hugging Face CEO argues the real AI race is shifting from frontier models to open models. https://techcrunch.com/2026/07/14/the-real-ai-race-may-no-longer-be-at-the-frontier-open-models-hugging-face/"
         }
+      }
+    },
+    "60fd5161414a01050a7f47d16e2a8c6ae6157f604b0f1acf355c10fc783ee00e": {
+      "created_at": "2026-07-15T02:03:07Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Critical security vulnerability in Tailscale SSH with high novelty and impact, but from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "TS-2026-009: Insecure argument handling in Tailscale SSH permitted root access",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "6250dd107e846423b013998c176ec98c8c613c837866bdc41d593ba5e2752dc7": {
@@ -1597,34 +1597,6 @@
         "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "befe22973516dbdcdb89ede48c12a1a726a22fb3daa8272436603e578045622c": {
-      "created_at": "2026-07-13T23:51:24Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Nous Research's funding round signals significant momentum in AI agent development.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Hermes agent maker Nous Research in talks for new funding at $1.5B valuation",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Nous Research, the company behind the Hermes AI agents, is in talks for new funding at a $1.5B valuation. The round is led by Robot with significant participation from USV and other investors. This is a major move in the AI agent space. Link: https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Nous Research, the maker of Hermes agents, is raising $75M+ at a $1.5B valuation*\n\nNous Research, the company behind the Hermes AI agents, is in talks for new funding at a $1.5B valuation. The round is led by Robot with significant participation from USV and other investors.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Nous Research, the team behind Hermes AI agents, is raising $75M+ at a $1.5B valuation. Big move in the AI agent space. https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/",
-          "twitter": "Nous Research, the maker of Hermes agents, is raising $75M+ at a $1.5B valuation. https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/"
-        }
       }
     },
     "bf12a92469f06a6fe2963e031b4fd8ce87f46901532e1072def82efd11ea48f9": {
@@ -3936,6 +3908,12 @@
       "status": "scoring_attempted",
       "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k"
     },
+    "https://tailscale.com/security-bulletins": {
+      "canonical_url": "https://tailscale.com/security-bulletins",
+      "created_at": "2026-07-15T02:03:07Z",
+      "status": "scoring_attempted",
+      "title": "TS-2026-009: Insecure argument handling in Tailscale SSH permitted root access"
+    },
     "https://techcrunch.com/2026/07/08/former-openai-exec-kevin-weil-is-now-on-the-board-of-stoke-space": {
       "canonical_url": "https://techcrunch.com/2026/07/08/former-openai-exec-kevin-weil-is-now-on-the-board-of-stoke-space",
       "created_at": "2026-07-08T12:59:22Z",
@@ -4241,6 +4219,12 @@
       "created_at": "2026-07-14T22:12:36Z",
       "status": "scoring_attempted",
       "title": "OpenAI pushes back on Apple trade secret lawsuit"
+    },
+    "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b": {
+      "canonical_url": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b",
+      "created_at": "2026-07-15T02:03:07Z",
+      "status": "scoring_attempted",
+      "title": "OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B"
     },
     "https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move": {
       "canonical_url": "https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move",
