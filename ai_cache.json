@@ -276,29 +276,6 @@
         }
       }
     },
-    "3c6a604bb35cdcf21f4c181c3c6041bbe1972346092e0ab8182d99aff7bcce05": {
-      "created_at": "2026-07-14T22:12:36Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 5,
-            "novelty_score": 2.5,
-            "reason": "Interesting discussion on model quantization but limited impact and source tier.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Same model, same Q4_K_M label: 5.02, 5.07 and 5.27 bits per weight",
-            "total_score": 6.0
-          }
-        ],
-        "best_index": 5,
-        "best_score": 6.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "3e31e8421eb076fce061355aa73c0ca94abc5e4fbd90e8671cb0cae978b359a5": {
       "created_at": "2026-07-15T16:50:05Z",
       "payload": {
@@ -348,46 +325,6 @@
           "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *OpenAI's first branded hardware is... a light-up keyboard?*\n\nOpenAI has released a light-up keyboard designed to monitor multiple agentic threads. This is the company's first foray into branded hardware.\n\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://arstechnica.com/ai/2026/07/openais-first-branded-hardware-is-a-light-up-keyboard/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
           "threads": "OpenAI's first hardware product is a light-up keyboard for monitoring multiple agentic threads. Interesting direction for the company. https://arstechnica.com/ai/2026/07/openais-first-branded-hardware-is-a-light-up-keyboard/",
           "twitter": "OpenAI's first branded hardware is a light-up keyboard for monitoring multiple agentic threads. https://arstechnica.com/ai/2026/07/openais-first-branded-hardware-is-a-light-up-keyboard/"
-        }
-      }
-    },
-    "3e5108b525b79ddf0b7b73c7f4e4acf4cb87659ec284762a899ab1e009d1ac2b": {
-      "created_at": "2026-07-14T22:12:36Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "GPT-5.6 Sol's file deletion issue is a significant update with broad impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "OpenAI\u2019s new flagship model deletes files on its own, people keep warning",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2,
-            "index": 3,
-            "novelty_score": 1.5,
-            "reason": "Windows 11 update pause feature is a useful but niche update.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Windows 11\u2019s big patch Tuesday allows you to hold off on updates for longer",
-            "total_score": 7
-          }
-        ],
-        "best_index": 2,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "OpenAI's latest flagship model, GPT-5.6 Sol, is reportedly deleting files without user intervention. This issue was disclosed by OpenAI in June, but users are now widely reporting it. The problem highlights the ongoing challenges with AI reliability. Link: https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *OpenAI\u2019s new flagship model deletes files on its own, people keep warning*\n\nA number of social media posts claim that GPT-5.6 Sol deleted files and data without warning. OpenAI had basically disclosed the problem in June.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "OpenAI's GPT-5.6 Sol is deleting files without warning, and users are raising alarms. This issue was disclosed in June but is now widely reported. https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/",
-          "twitter": "OpenAI's GPT-5.6 Sol is deleting files without warning, and users are raising alarms. https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/"
         }
       }
     },
@@ -561,6 +498,29 @@
         ],
         "best_index": 7,
         "best_score": 8.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "5b4a474f207b2abc0d18a2eb805f2f09fdaac94c709eda0bc61a6b64792fdceb": {
+      "created_at": "2026-07-15T22:33:43Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 5,
+            "novelty_score": 0.5,
+            "reason": "Opinion piece on open source AI investment lacks novelty and impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Governments, companies, nonprofits should invest in free, open source AI [pdf]",
+            "total_score": 3.5
+          }
+        ],
+        "best_index": 5,
+        "best_score": 3.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -814,6 +774,41 @@
         "social_posts": {}
       }
     },
+    "7c2233ea0ef52d14fb4aa61bfb80f056a0541cc32ea44e5c423a8742fb9fe344": {
+      "created_at": "2026-07-15T22:33:43Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 0.5,
+            "index": 2,
+            "novelty_score": 0.5,
+            "reason": "Comments section with no substantive content.",
+            "red_flag": true,
+            "red_flag_reason": "Comments",
+            "source_score": 0.5,
+            "title": "We don't use AI in any of our design or production processes",
+            "total_score": 3.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "Legal action by xAI against misuse of Grok for generating illegal content.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "xAI sues a man for using Grok to generate CSAM &#8216;deepfakes&#8217;",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 3,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "82a6c56dc6282ea73bb4dfda2c2e9779f5f38e51a9777a31c6c5f5fd5674c873": {
       "created_at": "2026-07-15T14:18:44Z",
       "payload": {
@@ -857,6 +852,41 @@
         ],
         "best_index": 8,
         "best_score": 8.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "82d50258371dfb3c42d2eb9a7e3f81896a6506a83b1e52cede5e0dd007bd819a": {
+      "created_at": "2026-07-15T22:33:43Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 1.5,
+            "reason": "Valve's reversal on Steam Deck battery sales is notable but niche for gamers and modders.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Valve says iFixit will keep selling Steam Deck batteries after all",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "MIT's research on AI speculative growth is relevant but published on Hacker News, a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Speculative Growth and the AI \"Bubble\" [pdf]",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1137,46 +1167,6 @@
         "social_posts": {}
       }
     },
-    "9525889d804d78bc6485bdd3c298ce9d692074e564c9d8a023565eb6cc23dea5": {
-      "created_at": "2026-07-14T22:12:36Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 1.5,
-            "reason": "Update on ongoing legal dispute with moderate impact on AI industry.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "OpenAI pushes back on Apple trade secret lawsuit",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 3,
-            "reason": "New tool for developers integrating VS Code with Google Cloud's Jupyter notebooks.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Google Cloud Workbench Notebooks Extension Connects VS Code to Google Cloud's Jupyter Notebooks",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Google Cloud Workbench Notebooks extension connects VS Code to Google Cloud's Jupyter notebooks. This new tool enables developers to work with managed Jupyter notebook environments directly from their local IDE. Link: https://www.infoq.com/news/2026/07/cloud-workbench-vscode-extension/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Google Cloud Workbench Notebooks Extension Connects VS Code to Google Cloud's Jupyter Notebooks*\n\nThe Google Cloud Workbench Notebooks extension for VS Code enables developers to connect their local IDE directly to managed Jupyter notebook environments on Google Cloud.\n\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (B)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.infoq.com/news/2026/07/cloud-workbench-vscode-extension/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Google Cloud Workbench Notebooks extension connects VS Code to Google Cloud's Jupyter notebooks. This new tool enables developers to work with managed Jupyter notebook environments directly from their local IDE. https://www.infoq.com/news/2026/07/cloud-workbench-vscode-extension/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "twitter": "Google Cloud Workbench Notebooks extension bridges VS Code and Google Cloud's Jupyter notebooks. https://www.infoq.com/news/2026/07/cloud-workbench-vscode-extension/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
-        }
-      }
-    },
     "9b48bb006933cab73a126000abb27d6f472a04d77487ab2ef67e94210a2299c6": {
       "created_at": "2026-07-15T09:07:14Z",
       "payload": {
@@ -1453,6 +1443,29 @@
         }
       }
     },
+    "bcb366f395092d2c5bae53ddfddc9860e12fb2b2230008afb1d51540774079d4": {
+      "created_at": "2026-07-15T22:33:43Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 6,
+            "novelty_score": 2.5,
+            "reason": "New open hybrid Mamba-Transformer MoE model for German and English, but impact is niche and freshness is moderate.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Soofi Consortium Releases Soofi S 30B-A3B: An Open Hybrid Mamba-Transformer MoE Foundation Model For German And English",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 6,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "df35afd443aaec826bfab97be966efe0ab52d9ac2916767585ddbe8d1af171ee": {
       "created_at": "2026-07-15T19:24:21Z",
       "payload": {
@@ -1723,34 +1736,6 @@
         "best_score": 3.2,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "f5065dce8d2007385be24b2b9d486447c160b232721ee0a8c244a5db1bd889b3": {
-      "created_at": "2026-07-14T22:12:36Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 4,
-            "novelty_score": 2.5,
-            "reason": "OpenAI's potential hardware move is a significant industry development with broad implications.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "OpenAI may announce a ChatGPT smart speaker this year",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 4,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "OpenAI may launch a ChatGPT smart speaker this year, according to a Bloomberg report. The device would use cameras and sensors to understand your environment but won't have a screen. This marks a significant move into hardware for the AI company. Link: https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *OpenAI may announce a ChatGPT smart speaker this year*\n\nOpenAI is reportedly working on a smart speaker that uses cameras and sensors to understand your environment but won't have a screen.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "OpenAI is reportedly developing a ChatGPT smart speaker with environmental sensors but no screen. This could be a major hardware play for the AI company. https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device",
-          "twitter": "OpenAI is reportedly working on a ChatGPT smart speaker with environmental sensors, no screen. https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device"
-        }
       }
     }
   },
@@ -2041,15 +2026,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Apple Sues OpenAI Over Hardware Secrets\nApple claims OpenAI encouraged poached employees to bring over confidential presentations and secret prototypes.\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #TechLaw #HardwareSecrets\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Apple is suing OpenAI for allegedly poaching employees and stealing hardware secrets @OpenAI #AI",
         "twitter": "Apple takes on OpenAI in court over alleged theft of hardware secrets @OpenAI #AI"
-      }
-    },
-    "a89edfbc7cf5e74a3d395781caec8c568d4ceb3981e5ae31d0581483a90823f2": {
-      "created_at": "2026-07-08T21:39:52Z",
-      "payload": {
-        "facebook": "A recent breakthrough by Netflix's engineering team has led to a substantial reduction in read latency for TimeSeries data, from seconds to milliseconds. This achievement was made possible by implementing a novel approach to handling wide partitions in Apache Cassandra. The team's innovative solution has significant implications for software engineers and AI researchers working with large datasets #Cassandra #TimeSeriesData #DatabaseOptimization",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Netflix Achieves Significant Reduction in Read Latency\nThe company's AI team has successfully reduced read latency from seconds to milliseconds by implementing a novel approach to handling wide partitions in Apache Cassandra.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#Cassandra #TimeSeriesData #DatabaseOptimization\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Netflix's AI team has made a major breakthrough in reducing read latency for TimeSeries data, cutting it from seconds to milliseconds by splitting Cassandra partitions per ID @NetflixEng #CassandraOptimization",
-        "twitter": "Netflix's AI team reduces read latency from seconds to milliseconds by splitting Cassandra partitions per ID, a significant improvement for TimeSeries data @NetflixEng #CassandraOptimization"
       }
     },
     "aa2ed108cac9d7031d4dbb574754de0ae92144436f8e64e5fe4565579a9abfb8": {
@@ -3050,12 +3026,6 @@
       "status": "scoring_attempted",
       "title": "Launch HN: Coasty (YC S26) \u2013 An API for computer-use agents"
     },
-    "https://combine-lab.github.io/blog/2026/07/07/fable-is-not-a-useful-model.html": {
-      "canonical_url": "https://combine-lab.github.io/blog/2026/07/07/fable-is-not-a-useful-model.html",
-      "created_at": "2026-07-08T21:39:52Z",
-      "status": "scoring_attempted",
-      "title": "Fable is not a useful model"
-    },
     "https://connectsci.au/news/news-parent/9703/Spider-venom-kills-varroa-mites-without-harming": {
       "canonical_url": "https://connectsci.au/news/news-parent/9703/Spider-venom-kills-varroa-mites-without-harming",
       "created_at": "2026-07-09T08:47:58Z",
@@ -3091,6 +3061,12 @@
       "created_at": "2026-07-15T15:24:33Z",
       "status": "scoring_attempted",
       "title": "OpenAI loses trademark dispute at EU court"
+    },
+    "https://economics.mit.edu/sites/default/files/2026-07/speculative_growth_AI_public.pdf": {
+      "canonical_url": "https://economics.mit.edu/sites/default/files/2026-07/speculative_growth_AI_public.pdf",
+      "created_at": "2026-07-15T22:33:43Z",
+      "status": "scoring_attempted",
+      "title": "Speculative Growth and the AI \"Bubble\" [pdf]"
     },
     "https://eliebak.com/viz/jspace-open-v2": {
       "canonical_url": "https://eliebak.com/viz/jspace-open-v2",
@@ -3175,12 +3151,6 @@
       "created_at": "2026-07-09T16:13:09Z",
       "status": "scoring_attempted",
       "title": "PostHog Open Sourced"
-    },
-    "https://github.com/animesh-94/Onboard-CLI": {
-      "canonical_url": "https://github.com/animesh-94/Onboard-CLI",
-      "created_at": "2026-07-08T21:39:52Z",
-      "status": "scoring_attempted",
-      "title": "Show HN: Onboard-CLI, a LLM powered and AST-based tool to visualize codebase"
     },
     "https://github.com/bitjaru/styleseed": {
       "canonical_url": "https://github.com/bitjaru/styleseed",
@@ -3373,6 +3343,12 @@
       "created_at": "2026-07-15T12:23:13Z",
       "status": "scoring_attempted",
       "title": "DSLs Enable Reliable Use of LLMs"
+    },
+    "https://mass-driver.com/article/from-human-hands": {
+      "canonical_url": "https://mass-driver.com/article/from-human-hands",
+      "created_at": "2026-07-15T22:33:43Z",
+      "status": "scoring_attempted",
+      "title": "We don't use AI in any of our design or production processes"
     },
     "https://minor.gripe/posts/2026-07-13-the_ai_whalefall_and_open_source": {
       "canonical_url": "https://minor.gripe/posts/2026-07-13-the_ai_whalefall_and_open_source",
@@ -3631,12 +3607,6 @@
       "created_at": "2026-07-15T02:03:07Z",
       "status": "scoring_attempted",
       "title": "TS-2026-009: Insecure argument handling in Tailscale SSH permitted root access"
-    },
-    "https://techcrunch.com/2026/07/08/googles-deepfake-detector-system-used-to-debunk-mcconnell-hoax-pic": {
-      "canonical_url": "https://techcrunch.com/2026/07/08/googles-deepfake-detector-system-used-to-debunk-mcconnell-hoax-pic",
-      "created_at": "2026-07-08T21:39:52Z",
-      "status": "scoring_attempted",
-      "title": "Google\u2019s deepfake detector system used to debunk McConnell hoax pic"
     },
     "https://techcrunch.com/2026/07/08/lovable-reportedly-in-talks-to-double-its-valuation-to-13-2b": {
       "canonical_url": "https://techcrunch.com/2026/07/08/lovable-reportedly-in-talks-to-double-its-valuation-to-13-2b",
@@ -4412,12 +4382,6 @@
       "status": "scoring_attempted",
       "title": "Mesh LLM: distributed AI computing on iroh"
     },
-    "https://www.marktechpost.com/2026/07/08/netflix-ai-team-cuts-wide-partition-read-latency-from-seconds-to-milliseconds-by-splitting-cassandra-partitions-per-id": {
-      "canonical_url": "https://www.marktechpost.com/2026/07/08/netflix-ai-team-cuts-wide-partition-read-latency-from-seconds-to-milliseconds-by-splitting-cassandra-partitions-per-id",
-      "created_at": "2026-07-08T21:39:52Z",
-      "status": "scoring_attempted",
-      "title": "Netflix AI Team Cuts Wide-Partition Read Latency from Seconds to Milliseconds by Splitting Cassandra Partitions Per ID"
-    },
     "https://www.marktechpost.com/2026/07/09/datalab-lift-vs-the-field-how-a-9b-schema-first-extractor-compares-with-nuextract3-llamaextract-marker-and-docling": {
       "canonical_url": "https://www.marktechpost.com/2026/07/09/datalab-lift-vs-the-field-how-a-9b-schema-first-extractor-compares-with-nuextract3-llamaextract-marker-and-docling",
       "created_at": "2026-07-09T08:47:58Z",
@@ -4556,6 +4520,12 @@
       "status": "scoring_attempted",
       "title": "Google Releases LiteRT.js: A JavaScript Binding of LiteRT That Runs .tflite Models in Browsers via WebGPU"
     },
+    "https://www.marktechpost.com/2026/07/15/soofi-consortium-releases-soofi-s-30b-a3b-an-open-hybrid-mamba-transformer-moe-foundation-model-for-german-and-english": {
+      "canonical_url": "https://www.marktechpost.com/2026/07/15/soofi-consortium-releases-soofi-s-30b-a3b-an-open-hybrid-mamba-transformer-moe-foundation-model-for-german-and-english",
+      "created_at": "2026-07-15T22:33:43Z",
+      "status": "scoring_attempted",
+      "title": "Soofi Consortium Releases Soofi S 30B-A3B: An Open Hybrid Mamba-Transformer MoE Foundation Model For German And English"
+    },
     "https://www.microcenter.com/site/mc-news/article/amd-ryzen-ai-halo-review.aspx": {
       "canonical_url": "https://www.microcenter.com/site/mc-news/article/amd-ryzen-ai-halo-review.aspx",
       "created_at": "2026-07-10T18:08:38Z",
@@ -4609,6 +4579,12 @@
       "created_at": "2026-07-10T20:58:25Z",
       "status": "scoring_attempted",
       "title": "45% of Enthusiasts 'Seriously Considering' Leaving Sony for PC"
+    },
+    "https://www.siegelendowment.org/wp-content/uploads/2026/07/fortune-david-siegel-open-source-ai.pdf": {
+      "canonical_url": "https://www.siegelendowment.org/wp-content/uploads/2026/07/fortune-david-siegel-open-source-ai.pdf",
+      "created_at": "2026-07-15T22:33:43Z",
+      "status": "scoring_attempted",
+      "title": "Governments, companies, nonprofits should invest in free, open source AI [pdf]"
     },
     "https://www.smithsonianmag.com/smart-news/spider-silk-loses-top-spot-natures-strongest-material-snails-teeth-180954346": {
       "canonical_url": "https://www.smithsonianmag.com/smart-news/spider-silk-loses-top-spot-natures-strongest-material-snails-teeth-180954346",
@@ -4711,6 +4687,12 @@
       "created_at": "2026-07-15T17:59:26Z",
       "status": "scoring_attempted",
       "title": "Suno snatched millions of songs from YouTube, Genius, and Deezer"
+    },
+    "https://www.theverge.com/ai-artificial-intelligence/966293/xai-grok-user-lawsuit-csam": {
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/966293/xai-grok-user-lawsuit-csam",
+      "created_at": "2026-07-15T22:33:43Z",
+      "status": "scoring_attempted",
+      "title": "xAI sues a man for using Grok to generate CSAM &#8216;deepfakes&#8217;"
     },
     "https://www.theverge.com/column/963346/ai-data-centers-fight": {
       "canonical_url": "https://www.theverge.com/column/963346/ai-data-centers-fight",
@@ -4843,6 +4825,12 @@
       "created_at": "2026-07-14T16:42:04Z",
       "status": "scoring_attempted",
       "title": "The OLED Xbox Ally X20 is so good, Asus will sell it solo"
+    },
+    "https://www.theverge.com/games/966106/valve-ifixit-will-keep-selling-steam-deck-lcd-battery": {
+      "canonical_url": "https://www.theverge.com/games/966106/valve-ifixit-will-keep-selling-steam-deck-lcd-battery",
+      "created_at": "2026-07-15T22:33:43Z",
+      "status": "scoring_attempted",
+      "title": "Valve says iFixit will keep selling Steam Deck batteries after all"
     },
     "https://www.theverge.com/podcast/962994/comcast-nbc-universal-split-versant-content-plus-pipes-media-broadband": {
       "canonical_url": "https://www.theverge.com/podcast/962994/comcast-nbc-universal-split-versant-content-plus-pipes-media-broadband",
@@ -5185,12 +5173,6 @@
       "created_at": "2026-07-14T10:54:22Z",
       "status": "scoring_attempted",
       "title": "The Chatbot That Foretold Why People Share Secrets With ChatGPT"
-    },
-    "https://www.wired.com/story/messi-ronaldo-tech-portfolios-salah-playing-a-different-game": {
-      "canonical_url": "https://www.wired.com/story/messi-ronaldo-tech-portfolios-salah-playing-a-different-game",
-      "created_at": "2026-07-08T21:39:52Z",
-      "status": "scoring_attempted",
-      "title": "Messi and Ronaldo Are Building Tech Portfolios. Mo Salah Is Playing a Different Game"
     },
     "https://www.wired.com/story/model-behavior-anthropic-will-charge-consumers-extra-to-use-claude-fable-5": {
       "canonical_url": "https://www.wired.com/story/model-behavior-anthropic-will-charge-consumers-extra-to-use-claude-fable-5",
