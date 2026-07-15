@@ -190,6 +190,29 @@
         "social_posts": {}
       }
     },
+    "291db866a5b7c77776982bf61b4e439022788a746f4de3fa4d887d241abddcfb": {
+      "created_at": "2026-07-15T22:55:57Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 1.5,
+            "reason": "Industry move with moderate impact and fresh source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Apple\u2019s reportedly raising the price for AppleCare Plus on Macs and iPads",
+            "total_score": 5.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 5.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "2a8d2a27d0e39d66ffa7074fdf162b2a6246c815815b25709b847555303731bc": {
       "created_at": "2026-07-15T14:18:44Z",
       "payload": {
@@ -221,29 +244,6 @@
         ],
         "best_index": 10,
         "best_score": 5.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "386e0845735c73c33acdae7636e0e77b881a6beb6e0864069c0611180b4236c0": {
-      "created_at": "2026-07-14T22:54:59Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 3,
-            "novelty_score": 1.5,
-            "reason": "Industry analysis on AI financing trends, relevant to startups and investors.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Financing the AI boom: from cash flows to debt [pdf]",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 3,
-        "best_score": 5.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1324,62 +1324,6 @@
         "social_posts": {}
       }
     },
-    "a2b8feedc3875044656426c0c78211c0b49a3960b993d92641d16df513fae840": {
-      "created_at": "2026-07-14T22:54:59Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "PrismML's Bonsai 27B offers significant compression of Qwen3.6-27B, making it runnable on laptops and phones.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "PrismML Releases Bonsai 27B: 1-bit and Ternary Builds of Qwen3.6-27B That Run on Laptops and Phones",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "PrismML just released Bonsai 27B, a compressed version of Qwen3.6-27B that can run on laptops and phones. The model uses 1-bit and ternary weights, making it significantly smaller and more efficient. This could be a game-changer for edge AI applications. Link: https://www.marktechpost.com/2026/07/14/prismml-releases-bonsai-27b-1-bit-and-ternary-builds-of-qwen3-6-27b-that-run-on-laptops-and-phones/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *PrismML Releases Bonsai 27B: 1-bit and Ternary Builds of Qwen3.6-27B That Run on Laptops and Phones*\n\nPrismML released Bonsai 27B, a compressed version of Qwen3.6-27B using 1-bit and ternary weights, enabling it to run on laptops and phones.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/07/14/prismml-releases-bonsai-27b-1-bit-and-ternary-builds-of-qwen3-6-27b-that-run-on-laptops-and-phones/",
-          "threads": "PrismML's Bonsai 27B brings Qwen3.6-27B to laptops and phones with 1-bit and ternary weights. The model maintains the original architecture but significantly reduces size. https://www.marktechpost.com/2026/07/14/prismml-releases-bonsai-27b-1-bit-and-ternary-builds-of-qwen3-6-27b-that-run-on-laptops-and-phones/",
-          "twitter": "PrismML's Bonsai 27B shrinks Qwen3.6-27B to run on laptops and phones with 1-bit and ternary weights.\nhttps://www.marktechpost.com/2026/07/14/prismml-releases-bonsai-27b-1-bit-and-ternary-builds-of-qwen3-6-27b-that-run-on-laptops-and-phones/"
-        }
-      }
-    },
-    "ac3c39afdd61a3f5b6dba5b498ffc7f23e64eb14372cce930c02f3ac57e1e818": {
-      "created_at": "2026-07-14T22:54:59Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 3.0,
-            "reason": "OpenAI's first hardware device is a significant novelty with broad impact on AI hardware market.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "OpenAI\u2019s first hardware device is reportedly a screenless speaker that can move",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "OpenAI has reportedly launched its first hardware device: a screenless, AI-guided smart speaker that can move. This marks a significant entry into the hardware market for the AI giant. Link: https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *OpenAI\u2019s first hardware device is reportedly a screenless speaker that can move*\n\nOpenAI has reportedly launched its first hardware device: a screenless, AI-guided smart speaker that can move. This marks a significant entry into the hardware market for the AI giant.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "OpenAI's first hardware device is a screenless, AI-guided smart speaker that can move. This is a big step into hardware for the AI giant. https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/",
-          "twitter": "OpenAI's first hardware device is a screenless, AI-guided smart speaker that can move. https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/"
-        }
-      }
-    },
     "afaf273c9281bef327840e91ec556d559099c001d44270f7965f0ceb705ee20d": {
       "created_at": "2026-07-15T19:24:21Z",
       "payload": {
@@ -1956,15 +1900,6 @@
         "twitter": "Meta is set to start producing its new AI chips in September, marking a significant move in the industry, @TechCrunch #AIchips #Meta"
       }
     },
-    "7e8a4dce7a5ab0bb4c63def899fdf349b8e3787d12930ae5c4250d39dea130e2": {
-      "created_at": "2026-07-08T22:43:06Z",
-      "payload": {
-        "facebook": "The tech industry is on the cusp of a major shift with the development of always-on AI wearables. Meta is reportedly working on smart glasses that would continuously record audio and snap photos, sparking concerns about privacy and data security. #AI #SmartGlasses #Tech",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Meta Develops Always-On Smart Glasses\nMeta is working on smart glasses that record audio and photos every few seconds, raising significant privacy concerns.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #SmartGlasses #Tech\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Meta's new smart glasses could change the way we interact with AI, but at what cost to our privacy? The company is working on prototype glasses that record audio and photos every few seconds @Meta #AI",
-        "twitter": "Meta is developing smart glasses that could record audio and photos every few seconds, raising significant privacy concerns @Meta  #AI"
-      }
-    },
     "7f441bdbf8b9e3eb2f550507632cd7b4731d9cc4af28f8abd88d7fd06605c792": {
       "created_at": "2026-07-14T22:54:59Z",
       "payload": {
@@ -2305,12 +2240,6 @@
       "created_at": "2026-07-14T18:53:04Z",
       "status": "scoring_attempted",
       "title": "US military sent explosive drone boats into combat for the first time"
-    },
-    "https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university": {
-      "canonical_url": "https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university",
-      "created_at": "2026-07-08T22:43:06Z",
-      "status": "scoring_attempted",
-      "title": "Suspecting AI cheating, Ivy League prof ordered an in-person final; scores fell 50%"
     },
     "https://arstechnica.com/google/2026/07/google-revamps-image-search-for-its-25th-anniversary-with-more-images-and-more-ai": {
       "canonical_url": "https://arstechnica.com/google/2026/07/google-revamps-image-search-for-its-25th-anniversary-with-more-images-and-more-ai",
@@ -3488,12 +3417,6 @@
       "status": "scoring_attempted",
       "title": "How Deutsche Telekom is rewiring telecommunications with AI"
     },
-    "https://opensourcebarware.com": {
-      "canonical_url": "https://opensourcebarware.com",
-      "created_at": "2026-07-08T22:43:06Z",
-      "status": "scoring_attempted",
-      "title": "Open Source Barware: free, local-first bar inventory software (GPLv3)"
-    },
     "https://pantograph.com/journal/pan-1": {
       "canonical_url": "https://pantograph.com/journal/pan-1",
       "created_at": "2026-07-15T17:59:26Z",
@@ -3607,12 +3530,6 @@
       "created_at": "2026-07-15T02:03:07Z",
       "status": "scoring_attempted",
       "title": "TS-2026-009: Insecure argument handling in Tailscale SSH permitted root access"
-    },
-    "https://techcrunch.com/2026/07/08/lovable-reportedly-in-talks-to-double-its-valuation-to-13-2b": {
-      "canonical_url": "https://techcrunch.com/2026/07/08/lovable-reportedly-in-talks-to-double-its-valuation-to-13-2b",
-      "created_at": "2026-07-08T22:43:06Z",
-      "status": "scoring_attempted",
-      "title": "Lovable reportedly in talks to double its valuation to $13.2B"
     },
     "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise": {
       "canonical_url": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise",
@@ -4952,12 +4869,6 @@
       "status": "scoring_attempted",
       "title": "Schlage\u2019s Sense Pro unlocks the door so I don\u2019t have to"
     },
-    "https://www.theverge.com/tech/963138/meta-smart-glasses-recording-super-sensing-ai": {
-      "canonical_url": "https://www.theverge.com/tech/963138/meta-smart-glasses-recording-super-sensing-ai",
-      "created_at": "2026-07-08T22:43:06Z",
-      "status": "scoring_attempted",
-      "title": "Meta is reportedly working on smart glasses that would be recording all the time"
-    },
     "https://www.theverge.com/tech/963307/microsoft-patch-tuesday-ai-security-updates": {
       "canonical_url": "https://www.theverge.com/tech/963307/microsoft-patch-tuesday-ai-security-updates",
       "created_at": "2026-07-09T20:10:00Z",
@@ -5101,6 +5012,12 @@
       "created_at": "2026-07-15T19:24:21Z",
       "status": "scoring_attempted",
       "title": "Something&#8217;s glowing on the Pixel 11&#8217;s camera bar"
+    },
+    "https://www.theverge.com/tech/966219/apple-care-plus-price-increase": {
+      "canonical_url": "https://www.theverge.com/tech/966219/apple-care-plus-price-increase",
+      "created_at": "2026-07-15T22:55:57Z",
+      "status": "scoring_attempted",
+      "title": "Apple\u2019s reportedly raising the price for AppleCare Plus on Macs and iPads"
     },
     "https://www.theverge.com/transportation/964132/waze-gemini-ai-voice-commands-less-chatty": {
       "canonical_url": "https://www.theverge.com/transportation/964132/waze-gemini-ai-voice-commands-less-chatty",
