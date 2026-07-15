@@ -136,6 +136,29 @@
         }
       }
     },
+    "19504f0bc0436cbccc5d1285ca639f1c950845ad47f1d91699fb6f8d26a0a754": {
+      "created_at": "2026-07-15T07:24:32Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "Research on Claude's memory leak vulnerability.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "I tricked Claude into leaking your deepest, darkest secrets",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "1d9b49b2bbf9fc93f0d27970d38e2120ab784e6a2d9aa201da8941195b4dd60d": {
       "created_at": "2026-07-14T17:48:09Z",
       "payload": {
@@ -161,34 +184,6 @@
           "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\ud83d\udd25 *Meta accused of using biased AI targeting for mass layoffs*  \n\nA group of 26 former Meta employees is suing the company over claims that it used AI tools to unfairly target workers on leave with layoffs. \n\n\ud83c\udfdb\ufe0f Source: The Verge (A) \n\u23f0 Published: <1 hour ago \n\u2b50 Score: 8.5/10 \n\n\ud83d\udd17 https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs \n\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
           "threads": "Meta is being sued by former employees who claim its AI tools unfairly targeted workers on leave for layoffs. This case raises serious questions about AI ethics in HR. https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs",
           "twitter": "Meta faces a lawsuit alleging its AI tools unfairly targeted employees on leave for layoffs. https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs"
-        }
-      }
-    },
-    "1e35ac62bfc5e16591ec8144487edd0a9f81e6c2983f786b94399f93b049327e": {
-      "created_at": "2026-07-14T07:21:31Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Mistral AI's Robostral Navigate is a significant release in embodied AI, enabling robots to navigate using only RGB cameras.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Mistral AI Releases Robostral Navigate: An 8B Model Enabling Robots to Navigate Complex Environments Using a Single RGB Camera",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Mistral AI has released Robostral Navigate, an 8B model that enables robots to navigate complex environments using only a single RGB camera. This breakthrough eliminates the need for LiDAR or depth sensors, achieving 76.6% success on R2R-CE validation. The model uses a pointing method and prefix-caching training to interpret plain-language instructions. Link: https://www.marktechpost.com/2026/07/14/mistral-ai-releases-robostral-navigate-an-8b-model-enabling-robots-to-navigate-complex-environments-using-a-single-rgb-camera/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Mistral AI Releases Robostral Navigate: An 8B Model Enabling Robots to Navigate Complex Environments Using a Single RGB Camera*\n\nMistral AI introduced Robostral Navigate, an 8B embodied navigation model. It moves robots from a plain-language instruction using only a single RGB camera, with no LiDAR or depth sensors. The model reaches 76.6% success on R2R-CE validation unseen through a pointing method, prefix-caching training.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/07/14/mistral-ai-releases-robostral-navigate-an-8b-model-enabling-robots-to-navigate-complex-environments-using-a-single-rgb-camera/",
-          "threads": "Mistral AI's Robostral Navigate model lets robots navigate complex environments using just a single RGB camera. No LiDAR needed. https://www.marktechpost.com/2026/07/14/mistral-ai-releases-robostral-navigate-an-8b-model-enabling-robots-to-navigate-complex-environments-using-a-single-rgb-camera/",
-          "twitter": "Mistral AI's Robostral Navigate lets robots navigate complex environments using just a single RGB camera, no LiDAR needed. https://www.marktechpost.com/2026/07/14/mistral-ai-releases-robostral-navigate-an-8b-model-enabling-robots-to-navigate-complex-environments-using-a-single-rgb-camera/"
         }
       }
     },
@@ -944,6 +939,29 @@
         "social_posts": {}
       }
     },
+    "9015e1bad931038a1bfc951484e33e64d4eb1b69f643a0e46e741699850af781": {
+      "created_at": "2026-07-15T07:24:32Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.0,
+            "index": 2,
+            "novelty_score": 0.0,
+            "reason": "This is an opinion piece with no new information or research.",
+            "red_flag": true,
+            "red_flag_reason": "opinion",
+            "source_score": 0.5,
+            "title": "LinkedIn is a cesspool of scammers and identity theft",
+            "total_score": 2.0
+          }
+        ],
+        "best_index": 2,
+        "best_score": 2.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "919ba38b9fb3d69efa2debb51bc25c48887bf3bd6631d8bb8aaa6559be3b8d54": {
       "created_at": "2026-07-14T16:42:04Z",
       "payload": {
@@ -975,6 +993,29 @@
         ],
         "best_index": 11,
         "best_score": 7.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "94c72ac8d6d4b6e5ad58691321d5403f8a695a23b6fbbc3205991b9f41222aec": {
+      "created_at": "2026-07-15T07:24:32Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 2.0,
+            "reason": "New hardware release with moderate impact and high freshness.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Starlink\u2019s V5 dish is now available \u2014 here\u2019s how it compares",
+            "total_score": 6.0
+          }
+        ],
+        "best_index": 0,
+        "best_score": 6.0,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1160,29 +1201,6 @@
           "threads": "OpenAI's first hardware device is a screenless, AI-guided smart speaker that can move. This is a big step into hardware for the AI giant. https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/",
           "twitter": "OpenAI's first hardware device is a screenless, AI-guided smart speaker that can move. https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/"
         }
-      }
-    },
-    "ba39c3576d50bb738faffbd474c16df7998493358d53265ec4d7c479fb29a9f4": {
-      "created_at": "2026-07-14T07:21:31Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Industry move with significant impact but from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "OpenAI's Ad Business Is on Pace to Miss Its Own Forecast by 90%, Analyst Says",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "bf12a92469f06a6fe2963e031b4fd8ce87f46901532e1072def82efd11ea48f9": {
@@ -2192,156 +2210,6 @@
       "status": "scoring_attempted",
       "title": "Coding agents think ahead of time"
     },
-    "https://arxiv.org/abs/2607.05456": {
-      "canonical_url": "https://arxiv.org/abs/2607.05456",
-      "created_at": "2026-07-08T06:14:54Z",
-      "status": "scoring_attempted",
-      "title": "Prompt-to-Paper: Agentic AI System for Bioinformatics"
-    },
-    "https://arxiv.org/abs/2607.05563": {
-      "canonical_url": "https://arxiv.org/abs/2607.05563",
-      "created_at": "2026-07-08T06:14:54Z",
-      "status": "scoring_attempted",
-      "title": "From Graphs to Gradients: Physics-Inspired Structural Attribution for Cyber-Physical IoT Systems and Beyond"
-    },
-    "https://arxiv.org/abs/2607.05571": {
-      "canonical_url": "https://arxiv.org/abs/2607.05571",
-      "created_at": "2026-07-08T06:14:54Z",
-      "status": "scoring_attempted",
-      "title": "CSTutorBench: Benchmarking Small Language Models as Tutors for Block-Based Programming"
-    },
-    "https://arxiv.org/abs/2607.05573": {
-      "canonical_url": "https://arxiv.org/abs/2607.05573",
-      "created_at": "2026-07-08T06:14:54Z",
-      "status": "scoring_attempted",
-      "title": "Foundation Models for Automatic CAD Generation"
-    },
-    "https://arxiv.org/abs/2607.05577": {
-      "canonical_url": "https://arxiv.org/abs/2607.05577",
-      "created_at": "2026-07-08T06:14:54Z",
-      "status": "scoring_attempted",
-      "title": "Narrative World Model: Narratology-Grounded Writer Memory for Long-Form Fiction"
-    },
-    "https://arxiv.org/abs/2607.05682": {
-      "canonical_url": "https://arxiv.org/abs/2607.05682",
-      "created_at": "2026-07-08T06:14:54Z",
-      "status": "scoring_attempted",
-      "title": "FirstResearch: Auditable Question Formation for LLM Scientific Discovery Agents"
-    },
-    "https://arxiv.org/abs/2607.05690": {
-      "canonical_url": "https://arxiv.org/abs/2607.05690",
-      "created_at": "2026-07-08T06:14:54Z",
-      "status": "scoring_attempted",
-      "title": "Memory in the Loop: In-Process Retrieval as ExtendedWorking Memory for Language Agents"
-    },
-    "https://arxiv.org/abs/2607.05708": {
-      "canonical_url": "https://arxiv.org/abs/2607.05708",
-      "created_at": "2026-07-08T06:14:54Z",
-      "status": "scoring_attempted",
-      "title": "Akashic: A Low-Overhead LLM Inference Service with MemAttention"
-    },
-    "https://arxiv.org/abs/2607.05750": {
-      "canonical_url": "https://arxiv.org/abs/2607.05750",
-      "created_at": "2026-07-08T06:14:54Z",
-      "status": "scoring_attempted",
-      "title": "ArtisanCAD: An Industrial-Level CAD Agent with Expert-Grounded Knowledge Distillation"
-    },
-    "https://arxiv.org/abs/2607.05761": {
-      "canonical_url": "https://arxiv.org/abs/2607.05761",
-      "created_at": "2026-07-08T06:14:54Z",
-      "status": "scoring_attempted",
-      "title": "Synthetic Consumer Insight Generation with Large Language Models"
-    },
-    "https://arxiv.org/abs/2607.05773": {
-      "canonical_url": "https://arxiv.org/abs/2607.05773",
-      "created_at": "2026-07-08T06:14:54Z",
-      "status": "scoring_attempted",
-      "title": "Beyond Static Evaluation: Building Simulation Environments for Scalable Agentic Reinforcement Learning"
-    },
-    "https://arxiv.org/abs/2607.05775": {
-      "canonical_url": "https://arxiv.org/abs/2607.05775",
-      "created_at": "2026-07-08T06:14:54Z",
-      "status": "scoring_attempted",
-      "title": "Beyond the Leaderboard: A Synthesis of Tool-Use, Planning, and Reasoning Failures in Large Language Model Agents"
-    },
-    "https://arxiv.org/abs/2607.05790": {
-      "canonical_url": "https://arxiv.org/abs/2607.05790",
-      "created_at": "2026-07-08T06:14:54Z",
-      "status": "scoring_attempted",
-      "title": "Controlling Tool Use with Heading-Specific Activation Steering"
-    },
-    "https://arxiv.org/abs/2607.05794": {
-      "canonical_url": "https://arxiv.org/abs/2607.05794",
-      "created_at": "2026-07-08T06:14:54Z",
-      "status": "scoring_attempted",
-      "title": "From Passive Retrieval to Active Memory Navigation: Learning to Use Memory as a Structured Action Space"
-    },
-    "https://arxiv.org/abs/2607.05804": {
-      "canonical_url": "https://arxiv.org/abs/2607.05804",
-      "created_at": "2026-07-08T06:14:54Z",
-      "status": "scoring_attempted",
-      "title": "TurnOPD: Making On-Policy Distillation Turn-Aware for Efficient Long-Horizon Agent Training"
-    },
-    "https://arxiv.org/abs/2607.05805": {
-      "canonical_url": "https://arxiv.org/abs/2607.05805",
-      "created_at": "2026-07-08T06:14:54Z",
-      "status": "scoring_attempted",
-      "title": "Onnes: A Physics-Grounded Multi-Agent LLM Simulator for Cryogenic Fault Diagnosis in Quantum Computing Infrastructure"
-    },
-    "https://arxiv.org/abs/2607.05844": {
-      "canonical_url": "https://arxiv.org/abs/2607.05844",
-      "created_at": "2026-07-08T06:14:54Z",
-      "status": "scoring_attempted",
-      "title": "StateFuse: Deterministic Conflict-Preserving Memory for Multi-Agent Systems"
-    },
-    "https://arxiv.org/abs/2607.05901": {
-      "canonical_url": "https://arxiv.org/abs/2607.05901",
-      "created_at": "2026-07-08T06:14:54Z",
-      "status": "scoring_attempted",
-      "title": "Uncovering Latent Depression Severity for Binary Depression Detection via Advantage-weighting Ranking"
-    },
-    "https://arxiv.org/abs/2607.05915": {
-      "canonical_url": "https://arxiv.org/abs/2607.05915",
-      "created_at": "2026-07-08T06:14:54Z",
-      "status": "scoring_attempted",
-      "title": "PCBWorld: A Benchmark Environment for Engine-Grounded PCB Design Automation"
-    },
-    "https://arxiv.org/abs/2607.05943": {
-      "canonical_url": "https://arxiv.org/abs/2607.05943",
-      "created_at": "2026-07-08T06:14:54Z",
-      "status": "scoring_attempted",
-      "title": "SearchEyes: Towards Frontier Multimodal Deep Search Intelligence via Search World Simulation"
-    },
-    "https://arxiv.org/abs/2607.05956": {
-      "canonical_url": "https://arxiv.org/abs/2607.05956",
-      "created_at": "2026-07-08T06:14:54Z",
-      "status": "scoring_attempted",
-      "title": "Integrating knowledge graphs and multilingual scholarly corpora for domain-adaptive LLMs in SSH"
-    },
-    "https://arxiv.org/abs/2607.05985": {
-      "canonical_url": "https://arxiv.org/abs/2607.05985",
-      "created_at": "2026-07-08T06:14:54Z",
-      "status": "scoring_attempted",
-      "title": "Auto-DSM Under the Lens: A Black-Box Evaluation Framework for LLM-Based DSM Generation"
-    },
-    "https://arxiv.org/abs/2607.05999": {
-      "canonical_url": "https://arxiv.org/abs/2607.05999",
-      "created_at": "2026-07-08T06:14:54Z",
-      "status": "scoring_attempted",
-      "title": "AgoraSim: A Hybrid Agent-Based Modeling Framework"
-    },
-    "https://arxiv.org/abs/2607.06001": {
-      "canonical_url": "https://arxiv.org/abs/2607.06001",
-      "created_at": "2026-07-08T06:14:54Z",
-      "status": "scoring_attempted",
-      "title": "Information Limits and Attractor Dynamics in Economies of Frontier LLM Agents: A Pre-Registered Test"
-    },
-    "https://arxiv.org/abs/2607.06008": {
-      "canonical_url": "https://arxiv.org/abs/2607.06008",
-      "created_at": "2026-07-08T06:14:54Z",
-      "status": "scoring_attempted",
-      "title": "PolyWorkBench: Benchmarking Multilingual Long-Horizon LLM Agents"
-    },
     "https://arxiv.org/abs/2607.06624": {
       "canonical_url": "https://arxiv.org/abs/2607.06624",
       "created_at": "2026-07-09T05:09:29Z",
@@ -3350,6 +3218,12 @@
       "status": "scoring_attempted",
       "title": "Ask HN: Add flag for AI-generated articles"
     },
+    "https://news.ycombinator.com/item?id=48916375": {
+      "canonical_url": "https://news.ycombinator.com/item?id=48916375",
+      "created_at": "2026-07-15T07:24:32Z",
+      "status": "scoring_attempted",
+      "title": "LinkedIn is a cesspool of scammers and identity theft"
+    },
     "https://nobie.com": {
       "canonical_url": "https://nobie.com",
       "created_at": "2026-07-13T19:54:25Z",
@@ -3925,6 +3799,12 @@
       "created_at": "2026-07-09T10:20:54Z",
       "status": "scoring_attempted",
       "title": "NHS AI blood test could reduce invasive womb cancer checks"
+    },
+    "https://www.ayush.digital/blog/the-memory-heist": {
+      "canonical_url": "https://www.ayush.digital/blog/the-memory-heist",
+      "created_at": "2026-07-15T07:24:32Z",
+      "status": "scoring_attempted",
+      "title": "I tricked Claude into leaking your deepest, darkest secrets"
     },
     "https://www.bbc.com/news/articles/c9q29j47v9ro": {
       "canonical_url": "https://www.bbc.com/news/articles/c9q29j47v9ro",
@@ -4693,6 +4573,12 @@
       "created_at": "2026-07-14T12:07:24Z",
       "status": "scoring_attempted",
       "title": "The first sunlight reflecting space mirror has been cleared for launch"
+    },
+    "https://www.theverge.com/science/965824/starlink-v5-vs-v4-dish-comparison": {
+      "canonical_url": "https://www.theverge.com/science/965824/starlink-v5-vs-v4-dish-comparison",
+      "created_at": "2026-07-15T07:24:32Z",
+      "status": "scoring_attempted",
+      "title": "Starlink\u2019s V5 dish is now available \u2014 here\u2019s how it compares"
     },
     "https://www.theverge.com/streaming/963733/netflix-always-on-channels-bundles": {
       "canonical_url": "https://www.theverge.com/streaming/963733/netflix-always-on-channels-bundles",
