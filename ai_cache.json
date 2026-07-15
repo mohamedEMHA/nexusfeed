@@ -46,27 +46,56 @@
         "social_posts": {}
       }
     },
-    "08341aa9218c9a6bada9743663bb682e8a7eb136d75377e67a31f64e369bd4a5": {
-      "created_at": "2026-07-14T12:07:24Z",
+    "08b60b3355c2ffcb443c957af0a75cb4aad0a1c5ab75da06023f1789e330ee11": {
+      "created_at": "2026-07-15T12:23:13Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 2.0,
+            "freshness_score": 2,
             "impact_score": 2.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "Codex encrypting prompts is a significant move for security, but the impact is limited to developers using the API.",
+            "index": 3,
+            "novelty_score": 2,
+            "reason": "Emergent's unicorn status shows traction in AI coding tools, but impact is niche.",
             "red_flag": false,
             "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Codex starts encrypting prompts, uses ciphertext for inference instead",
+            "source_score": 1.5,
+            "title": "Indian AI coding startup Emergent becomes a unicorn with $130M Series C",
             "total_score": 7.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 3,
+            "index": 4,
+            "novelty_score": 3,
+            "reason": "Vint Cerf's work on AI agent standards could reshape internet infrastructure.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Vint Cerf is working on a plan to unleash AI agents on the open internet",
+            "total_score": 9.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 0.5,
+            "index": 5,
+            "novelty_score": 0.2,
+            "reason": "Halloween tech is fun but not relevant to software engineers or AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Home Depot\u2019s viral 12-foot skeleton now talks",
+            "total_score": 4.2
           }
         ],
-        "best_index": 2,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
+        "best_index": 4,
+        "best_score": 9.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Vint Cerf, the architect of TCP/IP, is now working on standards for AI agents to operate on the open internet. This initiative could fundamentally change how AI systems interact with web infrastructure. Link: https://techcrunch.com/2026/07/15/vint-cerf-is-working-on-a-plan-to-unleash-ai-agents-on-the-open-internet/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Vint Cerf is working on a plan to unleash AI agents on the open internet*\n\nVint Cerf, the architect of TCP/IP, is developing standards for AI agents to operate on the open internet.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/15/vint-cerf-is-working-on-a-plan-to-unleash-ai-agents-on-the-open-internet/",
+          "threads": "Vint Cerf is developing standards for AI agents to operate freely on the internet. This could be a big deal for AI infrastructure. https://techcrunch.com/2026/07/15/vint-cerf-is-working-on-a-plan-to-unleash-ai-agents-on-the-open-internet/",
+          "twitter": "Vint Cerf is building standards for AI agents to roam the open internet. This could redefine how AI interacts with the web.\nhttps://techcrunch.com/2026/07/15/vint-cerf-is-working-on-a-plan-to-unleash-ai-agents-on-the-open-internet/"
+        }
       }
     },
     "14cd70931aa3f9e9bb470682137dcbd8dd4ca11f2a96f4e4d51044261014e5f1": {
@@ -461,34 +490,6 @@
         }
       }
     },
-    "51fe02f27df8438c51763ae62356fe0fbf205e6cc0228fb86ffba431c1b5b705": {
-      "created_at": "2026-07-14T12:07:24Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 3.0,
-            "reason": "Linkerd 2.20 introduces significant performance and traffic management improvements, making it a notable release for Kubernetes networking.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.0,
-            "title": "Linkerd 2.20 Delivers Smarter Traffic Management and Dramatic Efficiency Gains",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "The Linkerd community has released version 2.20, featuring significant performance and traffic management enhancements. This update strengthens Linkerd's position as a lightweight service mesh for Kubernetes. Link: https://www.infoq.com/news/2026/07/linkerd-2-20-improvements/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Linkerd 2.20 Delivers Smarter Traffic Management and Dramatic Efficiency Gains*\n\nThe Linkerd community has announced the release of Linkerd 2.20, introducing a series of performance, observability, and traffic management enhancements that further strengthen the CNCF-graduated service mesh's position as a lightweight alternative for Kubernetes networking.\n\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (B)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.infoq.com/news/2026/07/linkerd-2-20-improvements/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Linkerd 2.20 is out with smarter traffic management and dramatic efficiency gains for Kubernetes networking. A solid update for service mesh users.\nhttps://www.infoq.com/news/2026/07/linkerd-2-20-improvements/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "twitter": "Linkerd 2.20 just dropped with smarter traffic management and major efficiency gains for Kubernetes networking.\nhttps://www.infoq.com/news/2026/07/linkerd-2-20-improvements/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
-        }
-      }
-    },
     "54ec97f8712ab8c546f1f5ed0572e28cee03a8c65fba73f920ea940045ab0c5e": {
       "created_at": "2026-07-15T02:03:07Z",
       "payload": {
@@ -512,32 +513,51 @@
         "social_posts": {}
       }
     },
-    "5790c7c733abb55588ab7126dfe17d78b1d9eddecda4242309fe5e2a552af6b1": {
-      "created_at": "2026-07-14T12:07:24Z",
+    "579e3969419466d09a5a2e306ea686f6de0bfeacdd94ee467ec316ffbd0dfe01": {
+      "created_at": "2026-07-15T12:23:13Z",
       "payload": {
         "articles": [
           {
             "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 3,
+            "impact_score": 1.5,
+            "index": 6,
             "novelty_score": 2.5,
-            "reason": "Reflect Orbital's space mirror launch is a novel and impactful development in space technology.",
+            "reason": "Interesting research but niche impact and lower-tier source.",
             "red_flag": false,
             "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "The first sunlight reflecting space mirror has been cleared for launch",
-            "total_score": 8.5
+            "source_score": 0.5,
+            "title": "Show HN: For 10 World Cups, my model's 2 favorites had the champion every time",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 7,
+            "novelty_score": 3,
+            "reason": "New release with significant impact on AWS users and developers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "AWS Ships Claude Apps Gateway as Self-Hosted Control Plane for Claude Code and Claude Desktop",
+            "total_score": 8.0
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 8,
+            "novelty_score": 2.5,
+            "reason": "Interesting research but niche impact and lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Floating Companion: Exploring Design Space for Soft Floating Robots in Indoor",
+            "total_score": 6.5
           }
         ],
-        "best_index": 3,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Reflect Orbital has received FCC approval to launch a prototype satellite designed to reflect sunlight back to Earth at night. This innovative project could potentially reduce the need for artificial lighting in certain areas. Link: https://www.theverge.com/science/965263/reflect-orbital-space-mirror-launch-fcc-clearance",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *The first sunlight reflecting space mirror has been cleared for launch*\n\nReflect Orbital has been given the green light to launch its first space mirror that aims to redirect sunlight down to Earth at night. The US Federal Communications Commission (FCC) has authorized the California-based startup to build and operate a single prototype satellite in low-Earth orbit late...\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/science/965263/reflect-orbital-space-mirror-launch-fcc-clearance\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "FCC just approved Reflect Orbital's sunlight-reflecting satellite. Could this be the start of artificial daylight from space? https://www.theverge.com/science/965263/reflect-orbital-space-mirror-launch-fcc-clearance",
-          "twitter": "Reflect Orbital gets FCC approval to launch a sunlight-reflecting satellite that could illuminate Earth at night. https://www.theverge.com/science/965263/reflect-orbital-space-mirror-launch-fcc-clearance"
-        }
+        "best_index": 7,
+        "best_score": 8.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "59db0340f736dc2ee83c535c3b850fb10e01eab8c1706634bdaac9ccd2f28764": {
@@ -671,32 +691,39 @@
         }
       }
     },
-    "716e70c8b2f35e8f99731d248ef9ebc41460d4387ae4e6bbf058bffe78fd40e2": {
-      "created_at": "2026-07-14T12:07:24Z",
+    "6b0034f49e402db69ee8db164891e71a8760e8a4e55e7dfab5511ee6cd3e2ecf": {
+      "created_at": "2026-07-15T12:23:13Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 2.0,
-            "impact_score": 3.0,
-            "index": 1,
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 9,
             "novelty_score": 2.5,
-            "reason": "Demis Hassabis' call for a global AI watchdog led by the US is a significant policy proposal with broad implications for AI governance.",
+            "reason": "Research on Claude's values across models and languages is novel but niche in impact.",
             "red_flag": false,
             "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Google\u2019s Demis Hassabis says it\u2019s time for a global AI watchdog \u2014 led by the US",
-            "total_score": 9.0
+            "source_score": 0.5,
+            "title": "Societal Impacts: Claude's values across models and languages",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 11,
+            "novelty_score": 2.5,
+            "reason": "Discussion on DSLs for reliable LLM use is relevant to many developers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "DSLs Enable Reliable Use of LLMs",
+            "total_score": 7.5
           }
         ],
-        "best_index": 1,
-        "best_score": 9.0,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Demis Hassabis, CEO of Google DeepMind, has proposed the creation of a global AI watchdog led by the US. In a blog post, he argues that the US is best positioned to set global standards for AI regulation. This move could significantly impact how AI is developed and deployed worldwide. Link: https://www.theverge.com/tech/965270/google-deepmind-demis-hassabis-global-ai-watchdog",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Google\u2019s Demis Hassabis says it\u2019s time for a global AI watchdog \u2014 led by the US*\n\nDemis Hassabis, CEO of Google DeepMind, has proposed a global AI watchdog led by the US, arguing that the country is best positioned to set global standards for AI regulation.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://www.theverge.com/tech/965270/google-deepmind-demis-hassabis-global-ai-watchdog\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Demis Hassabis wants a US-led global AI watchdog. The DeepMind CEO says the US should lead in setting global AI standards. https://www.theverge.com/tech/965270/google-deepmind-demis-hassabis-global-ai-watchdog",
-          "twitter": "Demis Hassabis calls for a US-led global AI watchdog to regulate frontier models. The DeepMind CEO argues the US should set global standards. https://www.theverge.com/tech/965270/google-deepmind-demis-hassabis-global-ai-watchdog"
-        }
+        "best_index": 11,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "72b40ea6f9a151dadfe18498342b3c893088706d5c2727ce969f7a6b9bdef6b5": {
@@ -1053,6 +1080,58 @@
         "best_score": 7.0,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "9de79a28237b2620706298840d980dc37be88df58f629f5f29456945ceca1b1b": {
+      "created_at": "2026-07-15T12:23:13Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 1.5,
+            "reason": "New hardware launch with niche impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "The Motorola Edge 70 Max is all about power",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 0.5,
+            "index": 1,
+            "novelty_score": 0.2,
+            "reason": "Job posting with limited impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Jiga (YC W21) is hiring the best people to make manufacturing great again",
+            "total_score": 3.2
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "New AI startup with significant potential impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "The Apple FaceID Co-Inventor Building a Frontier AI Model for the Human Brain",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 2,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Gidi Littwin, co-inventor of Apple FaceID, is developing an AI model for brain diagnostics. His startup, Hemispheric, aims to make brain scans as accessible as blood tests. Link: https://www.wired.com/story/the-apple-faceid-veteran-building-a-frontier-ai-model-for-the-human-brain/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *The Apple FaceID Co-Inventor Building a Frontier AI Model for the Human Brain*\n\nGidi Littwin's new AI startup, Hemispheric, makes diagnostic brain scans for conditions like depression, PTSD, and Parkinson\u2019s. He wants the technology to be as cheap and easy as a blood test.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.wired.com/story/the-apple-faceid-veteran-building-a-frontier-ai-model-for-the-human-brain/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "The Apple FaceID co-inventor is applying AI to brain diagnostics. His startup, Hemispheric, wants to make brain scans as easy as blood tests. https://www.wired.com/story/the-apple-faceid-veteran-building-a-frontier-ai-model-for-the-human-brain/",
+          "twitter": "The Apple FaceID co-inventor is building an AI model to diagnose brain conditions like a blood test. https://www.wired.com/story/the-apple-faceid-veteran-building-a-frontier-ai-model-for-the-human-brain/"
+        }
       }
     },
     "a18417b545a366ce0005f4ce9a2daba5da1b137b07d6f21fc3647a4384a90dde": {
@@ -1628,15 +1707,6 @@
         "twitter": "Microsoft is streamlining its Windows 11 search menu by removing ads and recommended content @Microsoft #Windows11"
       }
     },
-    "3afa747423ea2d1696a439dd13a44283a1ddbc02c3c49f3f3c2140ec30d7e3c2": {
-      "created_at": "2026-07-08T11:21:39Z",
-      "payload": {
-        "facebook": "The development of autonomous vehicles has been a topic of discussion for over a decade, with one key question remaining: are cameras enough to replace human drivers? New Jersey's recent robotaxi law may have the answer, potentially banning Tesla's autonomous vehicles. #autonomousvehicles #robotaxi",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Robotaxi Law Impacts Autonomous Vehicles\nNew Jersey's recent law may ban Tesla's autonomous vehicles due to sensor requirements, sparking debate over camera-only systems.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#autonomousvehicles #robotaxi #tesla",
-        "threads": "New Jersey's robotaxi law could have significant implications for Tesla's autonomous vehicle plans, requiring additional sensors like lidar and radar @elonmusk #autonomousvehicles",
-        "twitter": "New Jersey's robotaxi law may ban Tesla's autonomous vehicles due to sensor requirements @elonmusk #autonomousvehicles"
-      }
-    },
     "44ffe2cc54a6760e8e2554d33152e51d1d969499e590eeaa239e790d7832a3fc": {
       "created_at": "2026-07-10T16:26:36Z",
       "payload": {
@@ -1950,6 +2020,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 New AI Models Released\nOpenAI's latest model family, including GPT-5.6, promises improvements in areas like cybersecurity.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9/10\n#AI #Cybersecurity #Tech\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "OpenAI has launched its new family of models, featuring GPT-5.6, which promises to enhance cybersecurity capabilities @OpenAI #AI",
         "twitter": "OpenAI's new model family promises enhanced cybersecurity capabilities, a significant step forward @OpenAI #AI"
+      }
+    },
+    "e684a7a33d87d30ae3b8b197e10b5143a1dd7d22982733e7254a7a982a747c51": {
+      "created_at": "2026-07-15T12:23:13Z",
+      "payload": {
+        "facebook": "The father of the internet, Vint Cerf, is working on a plan to introduce AI agents to the open internet, which could reshape the way we interact online. This development has the potential to bring about significant changes to internet infrastructure. #AI #InternetInfrastructure #TechNews",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Vint Cerf Unveils AI Agent Plan\nThe creator of TCP/IP is working on a standard to identify AI agents on the open internet, potentially changing online interactions forever.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.5/10\n#AI #InternetInfrastructure #TechNews\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Vint Cerf is developing a standard for identifying AI agents on the internet, a project that could have far-reaching implications for online interactions @VintCerf #AI",
+        "twitter": "Vint Cerf's new project aims to set a standard for AI agents on the open internet, a move that could significantly impact online interactions @VintCerf #AI"
       }
     },
     "e6fbb8764105bfe46b7e9d5c64c2a59126c191d19618cbd81146c50bfcb35bd1": {
@@ -2824,6 +2903,12 @@
       "status": "scoring_attempted",
       "title": "Don't discontinue Gemini 2.5 Flash"
     },
+    "https://dl.acm.org/doi/10.1145/3800645.3813051": {
+      "canonical_url": "https://dl.acm.org/doi/10.1145/3800645.3813051",
+      "created_at": "2026-07-15T12:23:13Z",
+      "status": "scoring_attempted",
+      "title": "Floating Companion: Exploring Design Space for Soft Floating Robots in Indoor"
+    },
     "https://e360.yale.edu/features/cassandra-rauert-interview": {
       "canonical_url": "https://e360.yale.edu/features/cassandra-rauert-interview",
       "created_at": "2026-07-08T18:59:09Z",
@@ -2920,12 +3005,6 @@
       "status": "scoring_attempted",
       "title": "Show HN: Mindwalk \u2013 Replay coding-agent sessions on a 3D map of your codebase"
     },
-    "https://github.com/dekart-xyz/geosql": {
-      "canonical_url": "https://github.com/dekart-xyz/geosql",
-      "created_at": "2026-07-08T11:21:39Z",
-      "status": "scoring_attempted",
-      "title": "Geosql: A Claude/Codex skill for geospatial data"
-    },
     "https://github.com/hasenj/go-shirei": {
       "canonical_url": "https://github.com/hasenj/go-shirei",
       "created_at": "2026-07-12T17:37:08Z",
@@ -3016,6 +3095,12 @@
       "status": "scoring_attempted",
       "title": "Nvidia, CoreWeave, and Nebius: Inside the Circular Financing of the GPU Boom"
     },
+    "https://jiga.io/about-us": {
+      "canonical_url": "https://jiga.io/about-us",
+      "created_at": "2026-07-15T12:23:13Z",
+      "status": "scoring_attempted",
+      "title": "Jiga (YC W21) is hiring the best people to make manufacturing great again"
+    },
     "https://jivx.com/densha": {
       "canonical_url": "https://jivx.com/densha",
       "created_at": "2026-07-13T12:43:58Z",
@@ -3063,6 +3148,12 @@
       "created_at": "2026-07-10T22:57:07Z",
       "status": "scoring_attempted",
       "title": "An update on residential proxies and the scraper situation"
+    },
+    "https://martinfowler.com/articles/llm-and-dsls.html": {
+      "canonical_url": "https://martinfowler.com/articles/llm-and-dsls.html",
+      "created_at": "2026-07-15T12:23:13Z",
+      "status": "scoring_attempted",
+      "title": "DSLs Enable Reliable Use of LLMs"
     },
     "https://microsoft.github.io/flint-chart": {
       "canonical_url": "https://microsoft.github.io/flint-chart",
@@ -3213,6 +3304,12 @@
       "created_at": "2026-07-08T22:43:06Z",
       "status": "scoring_attempted",
       "title": "Open Source Barware: free, local-first bar inventory software (GPLv3)"
+    },
+    "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7013338": {
+      "canonical_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7013338",
+      "created_at": "2026-07-15T12:23:13Z",
+      "status": "scoring_attempted",
+      "title": "Show HN: For 10 World Cups, my model's 2 favorites had the champion every time"
     },
     "https://planwright.tools": {
       "canonical_url": "https://planwright.tools",
@@ -3634,6 +3731,18 @@
       "status": "scoring_attempted",
       "title": "The real AI race may no longer be at the frontier"
     },
+    "https://techcrunch.com/2026/07/15/indian-ai-coding-startup-emergent-becomes-a-unicorn-just-over-a-year-after-launch": {
+      "canonical_url": "https://techcrunch.com/2026/07/15/indian-ai-coding-startup-emergent-becomes-a-unicorn-just-over-a-year-after-launch",
+      "created_at": "2026-07-15T12:23:13Z",
+      "status": "scoring_attempted",
+      "title": "Indian AI coding startup Emergent becomes a unicorn with $130M Series C"
+    },
+    "https://techcrunch.com/2026/07/15/vint-cerf-is-working-on-a-plan-to-unleash-ai-agents-on-the-open-internet": {
+      "canonical_url": "https://techcrunch.com/2026/07/15/vint-cerf-is-working-on-a-plan-to-unleash-ai-agents-on-the-open-internet",
+      "created_at": "2026-07-15T12:23:13Z",
+      "status": "scoring_attempted",
+      "title": "Vint Cerf is working on a plan to unleash AI agents on the open internet"
+    },
     "https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue": {
       "canonical_url": "https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue",
       "created_at": "2026-07-10T19:50:26Z",
@@ -3705,6 +3814,12 @@
       "created_at": "2026-07-11T21:38:00Z",
       "status": "scoring_attempted",
       "title": "I used to love Claude, but the latest models are slowly ruining it"
+    },
+    "https://www.anthropic.com/research/claude-values-models-languages": {
+      "canonical_url": "https://www.anthropic.com/research/claude-values-models-languages",
+      "created_at": "2026-07-15T12:23:13Z",
+      "status": "scoring_attempted",
+      "title": "Societal Impacts: Claude's values across models and languages"
     },
     "https://www.artfish.ai/p/offloading-thinking-to-ai": {
       "canonical_url": "https://www.artfish.ai/p/offloading-thinking-to-ai",
@@ -3885,6 +4000,12 @@
       "created_at": "2026-07-09T08:47:58Z",
       "status": "scoring_attempted",
       "title": "AWS Details How One Customer Scaled to One Million Lambda Functions"
+    },
+    "https://www.infoq.com/news/2026/07/claude-apps-gateway-aws": {
+      "canonical_url": "https://www.infoq.com/news/2026/07/claude-apps-gateway-aws",
+      "created_at": "2026-07-15T12:23:13Z",
+      "status": "scoring_attempted",
+      "title": "AWS Ships Claude Apps Gateway as Self-Hosted Control Plane for Claude Code and Claude Desktop"
     },
     "https://www.infoq.com/news/2026/07/cloud-workbench-vscode-extension": {
       "canonical_url": "https://www.infoq.com/news/2026/07/cloud-workbench-vscode-extension",
@@ -4594,6 +4715,12 @@
       "status": "scoring_attempted",
       "title": "Instagram\u2019s Adam Mosseri: If you don&#8217;t like AI, &#8216;then you shouldn&#8217;t have it in your feed&#8217;"
     },
+    "https://www.theverge.com/tech/964051/home-depot-halloween-skelly-skeleton-12-foot-mobile-app-sounds": {
+      "canonical_url": "https://www.theverge.com/tech/964051/home-depot-halloween-skelly-skeleton-12-foot-mobile-app-sounds",
+      "created_at": "2026-07-15T12:23:13Z",
+      "status": "scoring_attempted",
+      "title": "Home Depot\u2019s viral 12-foot skeleton now talks"
+    },
     "https://www.theverge.com/tech/964121/sk-hynix-nvidia-ram-stock-market-debut": {
       "canonical_url": "https://www.theverge.com/tech/964121/sk-hynix-nvidia-ram-stock-market-debut",
       "created_at": "2026-07-10T18:08:38Z",
@@ -4690,11 +4817,11 @@
       "status": "scoring_attempted",
       "title": "Windows 11&#8217;s big patch Tuesday allows you to hold off on updates for longer"
     },
-    "https://www.theverge.com/transportation/962309/new-jersey-robotaxi-bill-lidar-tesla": {
-      "canonical_url": "https://www.theverge.com/transportation/962309/new-jersey-robotaxi-bill-lidar-tesla",
-      "created_at": "2026-07-08T11:21:39Z",
+    "https://www.theverge.com/tech/965884/motorola-edge-70-max-qi2-wireless-price-availability": {
+      "canonical_url": "https://www.theverge.com/tech/965884/motorola-edge-70-max-qi2-wireless-price-availability",
+      "created_at": "2026-07-15T12:23:13Z",
       "status": "scoring_attempted",
-      "title": "The robotaxi law that could ban Tesla"
+      "title": "The Motorola Edge 70 Max is all about power"
     },
     "https://www.theverge.com/transportation/964132/waze-gemini-ai-voice-commands-less-chatty": {
       "canonical_url": "https://www.theverge.com/transportation/964132/waze-gemini-ai-voice-commands-less-chatty",
@@ -4816,17 +4943,17 @@
       "status": "scoring_attempted",
       "title": "The $28 Million Mistake That Inspired Estonia\u2019s AI \u2018Fuckup Finder\u2019"
     },
+    "https://www.wired.com/story/the-apple-faceid-veteran-building-a-frontier-ai-model-for-the-human-brain": {
+      "canonical_url": "https://www.wired.com/story/the-apple-faceid-veteran-building-a-frontier-ai-model-for-the-human-brain",
+      "created_at": "2026-07-15T12:23:13Z",
+      "status": "scoring_attempted",
+      "title": "The Apple FaceID Co-Inventor Building a Frontier AI Model for the Human Brain"
+    },
     "https://www.wired.com/story/the-big-interview-podcast-summer-of-ludd-gowanus": {
       "canonical_url": "https://www.wired.com/story/the-big-interview-podcast-summer-of-ludd-gowanus",
       "created_at": "2026-07-14T10:54:22Z",
       "status": "scoring_attempted",
       "title": "This Luddite Puppet Hopes You\u2019re Not Reading This on Your Smartphone"
-    },
-    "https://www.wired.com/story/verity-harding-ai-arms-race-dangers-anthology": {
-      "canonical_url": "https://www.wired.com/story/verity-harding-ai-arms-race-dangers-anthology",
-      "created_at": "2026-07-08T11:21:39Z",
-      "status": "scoring_attempted",
-      "title": "This Former DeepMind Exec Thinks the AI Arms Race Could End in Disaster"
     },
     "https://www.wired.com/story/youtube-and-x-have-become-gateways-to-nudify-apps": {
       "canonical_url": "https://www.wired.com/story/youtube-and-x-have-become-gateways-to-nudify-apps",
