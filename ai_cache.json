@@ -23,41 +23,6 @@
         "social_posts": {}
       }
     },
-    "06bce0b64e4ab8668a85b153d932ca72f504418500c9e8df35cbfea1d0c66e48": {
-      "created_at": "2026-07-14T02:05:35Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Anthropic's Claude Sonnet 5 vs Sonnet 4.6 vs Opus 4.8: Agentic Coding Benchmarks, API Pricing, and Cost-Performance Tradeoffs Compared",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Anthropic Claude Sonnet 5 vs Sonnet 4.6 vs Opus 4.8: Agentic Coding Benchmarks, API Pricing, and Cost-Performance Tradeoffs Compared",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2,
-            "index": 1,
-            "novelty_score": 2,
-            "reason": "Uber Chief Product Officer Sachin Kansal walks TechCrunch through the company's financial-services ambitions, its increasingly complicated relationship with Waymo, its new AV Labs data operation, and how AI is starting to show up in ways riders and drivers will actually notice.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Uber\u2019s product chief on hotels, robotaxis, and why the company doesn\u2019t want to be \u201ceverything for everyone\u201d",
-            "total_score": 7.0
-          }
-        ],
-        "best_index": 0,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "08341aa9218c9a6bada9743663bb682e8a7eb136d75377e67a31f64e369bd4a5": {
       "created_at": "2026-07-14T12:07:24Z",
       "payload": {
@@ -171,89 +136,6 @@
         }
       }
     },
-    "1872567c522003201b68bfb3631b6aa63af28ae3506af9fb65d443c4ed5836f5": {
-      "created_at": "2026-07-14T05:10:39Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 19,
-            "novelty_score": 2.5,
-            "reason": "New research on battery aging data curation with potential niche impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "BatteryLake: Agentic, Physics-Grounded Curation of Heterogeneous Battery Aging Data and Benchmarking",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 20,
-            "novelty_score": 2.5,
-            "reason": "New research on optimizing multi-agent swarms with limited correctors.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "How Much Does Correctness Cost? Budgeted Placement of Strong Correctors in a Weak Multi-Agent Swarm",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 21,
-            "novelty_score": 2.5,
-            "reason": "New research on enforcing norms in multi-agent AI systems.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Norm Enforcement for AI Agents: Robustly Shaping Behavior in Multi-Agent Systems",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 22,
-            "novelty_score": 2.5,
-            "reason": "New research on verifying adaptive agentic controllers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Verification of Adaptive Agentic Controllers through Finite Rule Revision",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 23,
-            "novelty_score": 2.5,
-            "reason": "New research on online reinforcement learning for computer-use agents.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "EvoCUA-1.5: Online Reinforcement Learning for Multi-turn Computer-Use Agents",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 24,
-            "novelty_score": 2.5,
-            "reason": "New research on SMT-based path synthesis for maze construction.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "From Patterns to Maze Structures: SMT-Based Path Synthesis and 2D/3D Construction",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 19,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "1d9b49b2bbf9fc93f0d27970d38e2120ab784e6a2d9aa201da8941195b4dd60d": {
       "created_at": "2026-07-14T17:48:09Z",
       "payload": {
@@ -307,94 +189,6 @@
           "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Mistral AI Releases Robostral Navigate: An 8B Model Enabling Robots to Navigate Complex Environments Using a Single RGB Camera*\n\nMistral AI introduced Robostral Navigate, an 8B embodied navigation model. It moves robots from a plain-language instruction using only a single RGB camera, with no LiDAR or depth sensors. The model reaches 76.6% success on R2R-CE validation unseen through a pointing method, prefix-caching training.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/07/14/mistral-ai-releases-robostral-navigate-an-8b-model-enabling-robots-to-navigate-complex-environments-using-a-single-rgb-camera/",
           "threads": "Mistral AI's Robostral Navigate model lets robots navigate complex environments using just a single RGB camera. No LiDAR needed. https://www.marktechpost.com/2026/07/14/mistral-ai-releases-robostral-navigate-an-8b-model-enabling-robots-to-navigate-complex-environments-using-a-single-rgb-camera/",
           "twitter": "Mistral AI's Robostral Navigate lets robots navigate complex environments using just a single RGB camera, no LiDAR needed. https://www.marktechpost.com/2026/07/14/mistral-ai-releases-robostral-navigate-an-8b-model-enabling-robots-to-navigate-complex-environments-using-a-single-rgb-camera/"
-        }
-      }
-    },
-    "20c6a99cca19f3850921bc701560b40ec4579c9d546eab71f7de8b0aa04d6bc6": {
-      "created_at": "2026-07-14T05:10:39Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 13,
-            "novelty_score": 2.5,
-            "reason": "New research on improving strategic economic reasoning in LLMs with architecture-dependent interventions.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Scaffolding the Strategist: Architecture-Dependent Reasoning Interventions in Hotelling Spatial Markets",
-            "total_score": 7
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 14,
-            "novelty_score": 2.5,
-            "reason": "Proposes a new principle for agentic AI systems beyond least privilege.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "A Theory of Least Autonomy in AI",
-            "total_score": 8
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 15,
-            "novelty_score": 3,
-            "reason": "Introduces a new open-source library for supply chain modeling and simulation.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "SupplyNetPy: An Open-Source Python Library for High-Fidelity Modeling and Simulation of Arbitrary Supply Chain and Inventory Networks",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2,
-            "index": 16,
-            "novelty_score": 2.5,
-            "reason": "Proposes a new model for state replication in agentic distributed systems.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Replicating Belief, Not Bits: Epistemic State Replication for Agentic Systems",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 17,
-            "novelty_score": 2.5,
-            "reason": "New approach to synthetic data generation for agricultural ML tasks.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Task-Conditioned Synthetic Data Generation for Improving Machine Learning Performance in Agricultural Prediction Tasks",
-            "total_score": 7
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1,
-            "index": 18,
-            "novelty_score": 2.5,
-            "reason": "New framework for fare-transparent route planning in urban rail systems.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "LegalFarePlan: A Label-Setting Framework for Fare-Transparent Urban Rail Route Planning under Non-Additive Fare Rules",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 14,
-        "best_score": 8,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Researchers argue that the principle of least privilege is insufficient for agentic AI systems. They propose a new 'least autonomy' principle to address this gap. This could significantly impact how we design and control autonomous AI agents. Link: https://arxiv.org/abs/2607.09744",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *A Theory of Least Autonomy in AI*\n\nResearchers propose a new 'least autonomy' principle for agentic AI systems, arguing that least privilege is insufficient.\n\n\ud83c\udfdb\ufe0f Source: arXiv cs.AI (C)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8/10\n\n\ud83d\udd17 https://arxiv.org/abs/2607.09744\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "New paper introduces 'least autonomy' principle for agentic AI, going beyond least privilege. Could reshape AI safety and control. https://arxiv.org/abs/2607.09744",
-          "twitter": "New research proposes 'least autonomy' principle for agentic AI systems, extending beyond least privilege. https://arxiv.org/abs/2607.09744"
         }
       }
     },
@@ -524,6 +318,34 @@
         }
       }
     },
+    "3bd244ad245e85b8b1f75c46ba5df60062c57fe8e12ec7fc6b544b441dd84392": {
+      "created_at": "2026-07-15T05:11:03Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Major industry shift with significant impact on Android developers and users.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Google and Epic give up fighting \u2014 third-party Android app stores are coming next week",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Google and Epic Games have withdrawn their settlement attempt, paving the way for third-party Android app stores to launch next week. This is a significant development for the Android ecosystem, offering more choices for users and developers. Link: https://www.theverge.com/policy/965792/google-epic-withdraw-injunction-third-party-app-stores-coming-google-play",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Google and Epic give up fighting \u2014 third-party Android app stores are coming next week*\n\nEpic Games and Google have withdrawn their settlement attempt, allowing third-party Android app stores to launch next week.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/policy/965792/google-epic-withdraw-injunction-third-party-app-stores-coming-google-play\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Google and Epic's withdrawal means third-party Android app stores are coming next week. This is a big deal for developers and users. https://www.theverge.com/policy/965792/google-epic-withdraw-injunction-third-party-app-stores-coming-google-play",
+          "twitter": "Google and Epic's settlement withdrawal means third-party Android app stores are coming next week. This is a major shift for developers and users.\nhttps://www.theverge.com/policy/965792/google-epic-withdraw-injunction-third-party-app-stores-coming-google-play"
+        }
+      }
+    },
     "3c6a604bb35cdcf21f4c181c3c6041bbe1972346092e0ab8182d99aff7bcce05": {
       "created_at": "2026-07-14T22:12:36Z",
       "payload": {
@@ -606,41 +428,6 @@
         ],
         "best_index": 6,
         "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "44f8e8b7f0a3c084ee751a6c95210596978219f1d50fc4c26c654e074b49787d": {
-      "created_at": "2026-07-14T02:05:35Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 2,
-            "novelty_score": 2.0,
-            "reason": "Industry move with moderate impact and freshness.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Video-generation startup PixVerse raises $439M, valuation soars past $2B",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "New release with niche impact and low-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Show HN: Sx 2.0 \u2013 Share AI skills with your team through a Dropbox folder",
-            "total_score": 6.0
-          }
-        ],
-        "best_index": 2,
-        "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -794,29 +581,6 @@
         ],
         "best_index": 1,
         "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "55683a499d5ca661515080b541a150ddf7af58a56cf4243e1dd7ed04e4bff9da": {
-      "created_at": "2026-07-14T02:05:35Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 4,
-            "novelty_score": 2.5,
-            "reason": "New tool for shared memory in AI workflows, but niche impact and lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
-            "total_score": 6.0
-          }
-        ],
-        "best_index": 4,
-        "best_score": 6.0,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1013,101 +777,6 @@
           "threads": "Blume is an open-source, zero-config documentation framework that ships AI-ready docs from Markdown folders. It includes 30+ MDX components and local search. This could be a game-changer for developers looking to streamline their documentation process.\nhttps://www.marktechpost.com/2026/07/14/meet-blume-an-open-source-zero-config-documentation-framework-that-ships-ai-ready-docs-from-a-markdown-folder/",
           "twitter": "Blume turns Markdown folders into AI-ready docs with zero config. 30+ components and local search included.\nhttps://www.marktechpost.com/2026/07/14/meet-blume-an-open-source-zero-config-documentation-framework-that-ships-ai-ready-docs-from-a-markdown-folder/"
         }
-      }
-    },
-    "65475e2a95f0bd55abdc4a12df28876c777589f94af6293a8caf52258136a6ed": {
-      "created_at": "2026-07-14T05:10:39Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Interesting research on structured medical diagnosis but niche impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "From ML Predictions to Informed Diagnostic Assistance Using the Toulmin Model of Argumentation",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "New metrics for prompt wrapper robustness with broad relevance to LLM benchmarking.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Format Sensitivity Index: Token-Controlled Prompt Wrapper Robustness and Schema Compliance in LLM Benchmarking",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "Research on message format effects in agent relays but niche impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Faithful, Not Corrective: Message-Format Effects in Multi-Hop Agent Relays Are Tier-Dependent",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "Innovative approach to MapReduce but niche impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Boltzmann MapReduce: A Partition-Function Reduce for Forkable Sandboxes",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 4,
-            "novelty_score": 2.5,
-            "reason": "Interesting research on latent reasoning but niche impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Interpreting Latent CoT Reasoning as Dynamical Systems",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2,
-            "index": 5,
-            "novelty_score": 2.5,
-            "reason": "New framework for robust decision-making from natural language.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "YUKTI: From Natural-Language Situations to Robust, Verifiable Decisions An Uncertainty-Typed Proposition IR, Assumption-Robust Pareto Frontiers, and a Regret Certificate",
-            "total_score": 7
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 6,
-            "novelty_score": 2.5,
-            "reason": "Research on graph sparsification for TSP but niche impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "GES-TSP: Graph Edge Sparsification for TSP",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "716e70c8b2f35e8f99731d248ef9ebc41460d4387ae4e6bbf058bffe78fd40e2": {
@@ -1493,89 +1162,6 @@
         }
       }
     },
-    "b9c3ca05403b439f1acb7da17c352b5e4e6ee49d38eb9113235de2b4b142994a": {
-      "created_at": "2026-07-14T05:10:39Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 7,
-            "novelty_score": 2.5,
-            "reason": "New research on code generation optimization with a deterministic filter.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "The Verifier is the Curriculum: Execution-Gated Self-Distillation for Cross-Family Game Generation",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 8,
-            "novelty_score": 2.5,
-            "reason": "New research on autonomous industrial operation using AI agents.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Closed-Loop Control with Rule-Aligned Small Language Models and Multi-Agent Self-Correction",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 9,
-            "novelty_score": 2.5,
-            "reason": "New research on closed-loop coordination through abstract operators.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Feedback-Coupled Memory Systems in Continuous Time",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.0,
-            "index": 10,
-            "novelty_score": 2.5,
-            "reason": "New research on abductive expansion operation in logic.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "AGM-like Paraconsistent Partial Meet Abductive Expansion Operation",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 11,
-            "novelty_score": 2.5,
-            "reason": "New research on prompt subset selection for LLM benchmarks.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Coresets Before Score Sets: Evaluation-Unsupervised Prompt Subset Selection for LLM Benchmarks",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 12,
-            "novelty_score": 2.5,
-            "reason": "New research on lane-change prediction methods for autonomous vehicles.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "A Dynamic Scene Interaction Reasoning Framework for Scene-level Lane-Change Intention and Trajectory Prediction of Multiple Interacting Vehicles",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 7,
-        "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "ba39c3576d50bb738faffbd474c16df7998493358d53265ec4d7c479fb29a9f4": {
       "created_at": "2026-07-14T07:21:31Z",
       "payload": {
@@ -1852,6 +1438,29 @@
         "social_posts": {}
       }
     },
+    "f0d2a1b9a862b32317a6346985b3b8ef0fe84f14df01c551ad2e7416f70e8322": {
+      "created_at": "2026-07-15T05:11:03Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 1,
+            "novelty_score": 0.2,
+            "reason": "Interesting but not directly relevant to software engineers or AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Jurassic Park computers in excruciating detail",
+            "total_score": 3.2
+          }
+        ],
+        "best_index": 1,
+        "best_score": 3.2,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "f5065dce8d2007385be24b2b9d486447c160b232721ee0a8c244a5db1bd889b3": {
       "created_at": "2026-07-14T22:12:36Z",
       "payload": {
@@ -1906,29 +1515,6 @@
           "threads": "Major publishers sue Google for training AI on copyrighted works without permission. This could set a major precedent for AI training practices. https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers/",
           "twitter": "Major publishers sue Google for training AI on copyrighted works without permission. https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers/"
         }
-      }
-    },
-    "f9cdb243b4abcd277e9643ab59a927f091470f45972cf86fadf4beb7af181e0a": {
-      "created_at": "2026-07-14T02:05:35Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 5,
-            "novelty_score": 2.5,
-            "reason": "Interesting discussion on AI whale fall and open source, but niche impact and lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "The AI Whale Fall and Open Source",
-            "total_score": 6.0
-          }
-        ],
-        "best_index": 5,
-        "best_score": 6.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "fb0e8dd0e14234dc3c6eabbb3c2ab5bca8b49998151d277a8924bf1495ebd600": {
@@ -2164,6 +1750,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Apple Releases Public Betas for iOS 27 and More\nApple has just released public betas for iOS 27 and other major OS updates, featuring a new AI-powered Siri. The updates are set to launch publicly this fall.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#iOS27 #Apple #SiriAI\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Apple's iOS 27 public beta is now available, featuring a new AI-powered Siri @Apple #iOS27",
         "twitter": "Apple's public betas for iOS 27 are out, featuring a revamped Siri with AI capabilities @Apple #iOS27"
+      }
+    },
+    "75ec229c432dc0365094b0f741fae86851d5f419a82bc9f0f153933664eed208": {
+      "created_at": "2026-07-15T05:11:03Z",
+      "payload": {
+        "facebook": "A significant development in the world of Android app stores is unfolding as Google and Epic Games have withdrawn their lawsuit settlement attempt. This move is expected to lead to the introduction of third-party app stores on Android devices, changing the way apps are distributed. #Android #AppStores #Google",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Major Shift in Android App Stores\nGoogle and Epic Games have withdrawn their lawsuit settlement attempt, allowing third-party app stores to be introduced on Android devices.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n#Android #AppStores #Google\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Google and Epic Games have dropped their lawsuit settlement attempt, clearing the path for rival app stores on Android devices @EpicGames, #Android",
+        "twitter": "Google and Epic Games withdraw their lawsuit settlement attempt, paving the way for third-party Android app stores @Google, #Android"
       }
     },
     "7845d91958c2e0ef0e3574a7ec5bb5a7b9fa385fe95a911df9b6b61dfbda5e9b": {
@@ -2407,15 +2002,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Deepfakes on the Rise\nSocial media platforms are inadvertently driving traffic to deepfake creation sites, with some charging as little as $1 per image.\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n#Deepfakes #OnlineSafety #AI\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "A new study reveals that social media platforms like YouTube and X are directing users to sites where they can create deepfakes, often for as little as $1 per image, @Wired #Deepfakes",
         "twitter": "Social media platforms like YouTube and X are inadvertently driving traffic to deepfake creation sites, according to a new study, @Wired reports #Deepfakes #AI"
-      }
-    },
-    "ec90a51cd9637d0e5baa74db9b5556894a5bb08b871084ab1339872068ad1814": {
-      "created_at": "2026-07-08T03:28:53Z",
-      "payload": {
-        "facebook": "NVIDIA has released Audex, a significant development in AI technology that unifies audio understanding and text intelligence. This model builds upon the Nemotron-Cascade-2 backbone, offering a range of capabilities including speech recognition and audio generation. #AI #NVIDIA #Audex",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 NVIDIA Releases Unified Audio-Text LLM\nNVIDIA's Audex model unifies audio understanding, speech recognition, translation, TTS, and audio generation, preserving the text intelligence of its backbone.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: 2 hours ago\n\u2b50 Score: 8.5/10\n#AI #NVIDIA #Audex\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "NVIDIA's Audex model is a notable step forward in AI, combining audio and text capabilities in one model @NVIDIA #AI",
-        "twitter": "NVIDIA advances AI with Audex, a unified audio-text model preserving text intelligence @NVIDIA #AI"
       }
     },
     "ec9fb72a3654dc29fb05e8e9dfb70c513be2c005aeae45464a1c2438a5c85407": {
@@ -3452,6 +3038,12 @@
       "status": "scoring_attempted",
       "title": "Benchmarking 15 \"E-Waste\" GPUs with Modern Workloads"
     },
+    "https://fabiensanglard.net/jurrasic_park_computers/index.html": {
+      "canonical_url": "https://fabiensanglard.net/jurrasic_park_computers/index.html",
+      "created_at": "2026-07-15T05:11:03Z",
+      "status": "scoring_attempted",
+      "title": "Jurassic Park computers in excruciating detail"
+    },
     "https://fabiensanglard.net/silpheed/index.html": {
       "canonical_url": "https://fabiensanglard.net/silpheed/index.html",
       "created_at": "2026-07-13T15:36:16Z",
@@ -3578,12 +3170,6 @@
       "status": "scoring_attempted",
       "title": "Claude is just Mr. Meeseeks"
     },
-    "https://github.com/tiliondev/fortress": {
-      "canonical_url": "https://github.com/tiliondev/fortress",
-      "created_at": "2026-07-08T03:28:53Z",
-      "status": "scoring_attempted",
-      "title": "Show HN: Fortress \u2013 a stealth Chromium so your agents stop getting blocked"
-    },
     "https://github.com/weirdGuy/kastor": {
       "canonical_url": "https://github.com/weirdGuy/kastor",
       "created_at": "2026-07-08T16:01:10Z",
@@ -3631,12 +3217,6 @@
       "created_at": "2026-07-09T20:10:00Z",
       "status": "scoring_attempted",
       "title": "Show HN: Policy enforcement for Claude Code, Cursor, and Codex"
-    },
-    "https://kb.cert.org/vuls/id/213560": {
-      "canonical_url": "https://kb.cert.org/vuls/id/213560",
-      "created_at": "2026-07-08T03:28:53Z",
-      "status": "scoring_attempted",
-      "title": "Tenda firmware (multiple versions) contains hidden authentication backdoor"
     },
     "https://languagelog.ldc.upenn.edu/myl/Good1964.pdf": {
       "canonical_url": "https://languagelog.ldc.upenn.edu/myl/Good1964.pdf",
@@ -3691,12 +3271,6 @@
       "created_at": "2026-07-08T15:26:56Z",
       "status": "scoring_attempted",
       "title": "Mistral's Robostral Navigate: a state of the art robotics navigation model"
-    },
-    "https://moxiedocs.com/mermaid-diagram-editor": {
-      "canonical_url": "https://moxiedocs.com/mermaid-diagram-editor",
-      "created_at": "2026-07-08T03:28:53Z",
-      "status": "scoring_attempted",
-      "title": "Show HN: Free Mermaid Diagram Editor"
     },
     "https://mrzk.io/posts/qmlx-maximising-ai-psychosis-minmaxing-mac-studio": {
       "canonical_url": "https://mrzk.io/posts/qmlx-maximising-ai-psychosis-minmaxing-mac-studio",
@@ -3787,12 +3361,6 @@
       "created_at": "2026-07-08T08:46:18Z",
       "status": "scoring_attempted",
       "title": "GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos"
-    },
-    "https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video_galleries/video-lectures": {
-      "canonical_url": "https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video_galleries/video-lectures",
-      "created_at": "2026-07-08T03:28:53Z",
-      "status": "scoring_attempted",
-      "title": "Structure and Interpretation of Computer Programs Video Lectures (1986)"
     },
     "https://openai.com/index/bio-bug-bounty": {
       "canonical_url": "https://openai.com/index/bio-bug-bounty",
@@ -4298,12 +3866,6 @@
       "status": "scoring_attempted",
       "title": "Grok uploaded my user directory to xAI's servers"
     },
-    "https://twitter.com/claudeai/status/2074548242386178258": {
-      "canonical_url": "https://twitter.com/claudeai/status/2074548242386178258",
-      "created_at": "2026-07-08T03:28:53Z",
-      "status": "scoring_attempted",
-      "title": "We're extending access to Fable 5 on all paid plans through July 12"
-    },
     "https://twitter.com/demishassabis/status/2076957440109625718": {
       "canonical_url": "https://twitter.com/demishassabis/status/2076957440109625718",
       "created_at": "2026-07-14T15:21:57Z",
@@ -4645,18 +4207,6 @@
       "created_at": "2026-07-11T23:32:54Z",
       "status": "scoring_attempted",
       "title": "Mesh LLM: distributed AI computing on iroh"
-    },
-    "https://www.marktechpost.com/2026/07/07/ant-groups-robbyant-open-sources-lingbot-vision-a-1b-boundary-centric-vision-foundation-model-for-dense-spatial-perception": {
-      "canonical_url": "https://www.marktechpost.com/2026/07/07/ant-groups-robbyant-open-sources-lingbot-vision-a-1b-boundary-centric-vision-foundation-model-for-dense-spatial-perception",
-      "created_at": "2026-07-08T03:28:53Z",
-      "status": "scoring_attempted",
-      "title": "Ant Group\u2019s Robbyant Open-Sources LingBot-Vision: A 1B Boundary-Centric Vision Foundation Model for Dense Spatial Perception"
-    },
-    "https://www.marktechpost.com/2026/07/07/nvidia-releases-audex-nemotron-labs-audex-30b-a3b-a-unified-audio-text-llm-that-preserves-the-text-intelligence-of-its-backbone": {
-      "canonical_url": "https://www.marktechpost.com/2026/07/07/nvidia-releases-audex-nemotron-labs-audex-30b-a3b-a-unified-audio-text-llm-that-preserves-the-text-intelligence-of-its-backbone",
-      "created_at": "2026-07-08T03:28:53Z",
-      "status": "scoring_attempted",
-      "title": "NVIDIA Releases Audex (Nemotron-Labs-Audex-30B-A3B): A Unified Audio-Text LLM That Preserves the Text Intelligence of Its Backbone"
     },
     "https://www.marktechpost.com/2026/07/08/google-ai-studio-adds-import-from-github-to-build-mode": {
       "canonical_url": "https://www.marktechpost.com/2026/07/08/google-ai-studio-adds-import-from-github-to-build-mode",
@@ -5119,6 +4669,12 @@
       "created_at": "2026-07-14T09:01:54Z",
       "status": "scoring_attempted",
       "title": "New York becomes the first state to enact a data center moratorium"
+    },
+    "https://www.theverge.com/policy/965792/google-epic-withdraw-injunction-third-party-app-stores-coming-google-play": {
+      "canonical_url": "https://www.theverge.com/policy/965792/google-epic-withdraw-injunction-third-party-app-stores-coming-google-play",
+      "created_at": "2026-07-15T05:11:03Z",
+      "status": "scoring_attempted",
+      "title": "Google and Epic give up fighting \u2014 third-party Android app stores are coming next week"
     },
     "https://www.theverge.com/report/963106/ice-doxxing-office-of-professional-responsibility-free-speech": {
       "canonical_url": "https://www.theverge.com/report/963106/ice-doxxing-office-of-professional-responsibility-free-speech",
