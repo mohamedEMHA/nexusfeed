@@ -146,25 +146,25 @@
         "social_posts": {}
       }
     },
-    "08c936eef0e656241d1c912038423401d5dfa0c15a84ba9a65958e88ac94fcc4": {
-      "created_at": "2026-07-15T21:32:14Z",
+    "0bfbffbae1927052ff260f477c78c50823170d8e48f5a4df0f4e404a44e5a00c": {
+      "created_at": "2026-07-16T22:29:23Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.0,
-            "reason": "Industry move with significant impact on media landscape, published within the last hour from a Tier A source.",
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 7,
+            "novelty_score": 2.5,
+            "reason": "New tool for automating playwright script fixes, but niche impact and lower-tier source.",
             "red_flag": false,
             "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "FCC plans to clear the way for more media consolidation",
-            "total_score": 7.5
+            "source_score": 0.5,
+            "title": "Show HN: Libretto PR agents \u2013 Automatically fix failing playwright scripts",
+            "total_score": 5.5
           }
         ],
-        "best_index": 0,
-        "best_score": 7.5,
+        "best_index": 7,
+        "best_score": 5.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -387,29 +387,6 @@
           "threads": "Google's latest Search update lets you connect and pull data from third-party apps directly into results. A big step for workflow integration. https://blog.google/products-and-platforms/products/search/connected-apps/",
           "twitter": "Google just expanded Search with direct app integrations, letting users pull data from third-party services directly into results. https://blog.google/products-and-platforms/products/search/connected-apps/"
         }
-      }
-    },
-    "24fda65018c0b60d4e044b396c516c9d9f22e18f76898067b42c13bb501fb147": {
-      "created_at": "2026-07-15T21:32:14Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 4,
-            "novelty_score": 0.2,
-            "reason": "Tutorial-style content with low novelty and impact.",
-            "red_flag": true,
-            "red_flag_reason": "tutorial",
-            "source_score": 0.5,
-            "title": "Brainless: Shadcn components that look like Claude Code, Codex and Grok",
-            "total_score": 3.2
-          }
-        ],
-        "best_index": 4,
-        "best_score": 3.2,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "291db866a5b7c77776982bf61b4e439022788a746f4de3fa4d887d241abddcfb": {
@@ -874,6 +851,29 @@
         }
       }
     },
+    "74acebecbbc61d6c12b10a8fc32397e85c900197071a515b9b9b2ee95e9802a6": {
+      "created_at": "2026-07-16T22:29:23Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "New AI-powered characters in Fortnite, but impact is limited to game developers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Fortnite is getting a bunch of AI-powered \u0018personas\u0019",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 2,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "795bff52d66ea76fd949b04ec3072bc44d17f582ddc66c4e57ffef548d906b7d": {
       "created_at": "2026-07-16T11:11:06Z",
       "payload": {
@@ -1033,29 +1033,6 @@
             "red_flag_reason": null,
             "source_score": 0.5,
             "title": "Speculative Growth and the AI \"Bubble\" [pdf]",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "832a2c4a51f92d5ba2a6854d8ca68f9095db196ec2269bb44d4001a14c4ae3b5": {
-      "created_at": "2026-07-15T21:32:14Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Grok Build open sourcing is notable but lacks broader impact due to niche audience.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Grok Build is open source",
             "total_score": 7.5
           }
         ],
@@ -1817,6 +1794,52 @@
         "social_posts": {}
       }
     },
+    "dd6a88869054cbb0978ed4226607a407c6f5cddc5b941c535921b114a91b5982": {
+      "created_at": "2026-07-16T22:29:23Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "Red flag detected: 'what to know'",
+            "red_flag": true,
+            "red_flag_reason": "what to know",
+            "source_score": 1.5,
+            "title": "Why Apple Sued OpenAI, New York Takes on Data Centers, and What to Know about Cyclosporiasis",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 8.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "e51c15b63731015cbca73b7abd66320fef33f2f63c5d2a4545e3846d51ea1ca8": {
+      "created_at": "2026-07-16T22:29:23Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 0.5,
+            "index": 0,
+            "novelty_score": 0.2,
+            "reason": "Tutorial-style content with low novelty and impact.",
+            "red_flag": true,
+            "red_flag_reason": "tutorial",
+            "source_score": 0.5,
+            "title": "FIFA World Cup 2026 Data Portraits",
+            "total_score": 3.2
+          }
+        ],
+        "best_index": 0,
+        "best_score": 3.2,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "e95fa64c7117971a979f8381bdee9c05aa01d374b43435ec2c55f116a140b4c0": {
       "created_at": "2026-07-15T23:56:52Z",
       "payload": {
@@ -2031,15 +2054,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 MORPHEUS Platform Released\nMORPHEUS from Skyfall AI is a persistent enterprise simulation platform for continual reinforcement learning, running worlds that never reset.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#ReinforcementLearning #AI #ContinualLearning\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "MORPHEUS, the new simulation platform from Skyfall AI, is pushing the boundaries of continual reinforcement learning with its persistent worlds and regime shifts, @MarkTechPost #ReinforcementLearning",
         "twitter": "Continual reinforcement learning gets a boost with MORPHEUS, a persistent simulation platform from Skyfall AI, @MarkTechPost #ReinforcementLearning"
-      }
-    },
-    "30189621dbe30c28d258ede3e92acdeeef3a40ec14db081a22f65997ae9d93ef": {
-      "created_at": "2026-07-09T21:43:18Z",
-      "payload": {
-        "facebook": "The latest development from OpenAI is a rebranded Codex tool that can run independent workflows for extended periods, potentially streamlining tasks for developers. This could significantly impact how we approach workflow automation. #AI #Automation #Productivity",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 OpenAI Automates Workflows\nOpenAI's rebranded Codex tool can run independent workflows for hours, streamlining tasks for developers.\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #Automation #Productivity\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "OpenAI's new Codex tool can automate workflows for hours, promising a significant shift in how we work @OpenAI #AI",
-        "twitter": "OpenAI's rebranded Codex tool promises to automate workflows independently for hours @OpenAI #AI"
       }
     },
     "3834de998ada82cea89ea95c3c82c92cc366517ca8c107153146d102e010a91d": {
@@ -2494,23 +2508,11 @@
       "status": "scoring_attempted",
       "title": "Fear of humanoid robots spurs human workers to strike at Hyundai auto factory"
     },
-    "https://arstechnica.com/ai/2026/07/humanoid-robots-controlled-by-surgeons-did-world-first-operation-on-live-pigs": {
-      "canonical_url": "https://arstechnica.com/ai/2026/07/humanoid-robots-controlled-by-surgeons-did-world-first-operation-on-live-pigs",
-      "created_at": "2026-07-09T21:43:18Z",
-      "status": "scoring_attempted",
-      "title": "Humanoid robots controlled by surgeons did world-first operation on live pigs"
-    },
     "https://arstechnica.com/ai/2026/07/linus-torvalds-to-critics-of-ai-coding-in-linux-fork-it-or-just-walk-away": {
       "canonical_url": "https://arstechnica.com/ai/2026/07/linus-torvalds-to-critics-of-ai-coding-in-linux-fork-it-or-just-walk-away",
       "created_at": "2026-07-16T19:21:23Z",
       "status": "scoring_attempted",
       "title": "Linus Torvalds to critics of AI coding in Linux: \"Fork it. Or just walk away.\""
-    },
-    "https://arstechnica.com/ai/2026/07/openai-wants-its-new-tool-to-do-your-work-for-you-and-with-you": {
-      "canonical_url": "https://arstechnica.com/ai/2026/07/openai-wants-its-new-tool-to-do-your-work-for-you-and-with-you",
-      "created_at": "2026-07-09T21:43:18Z",
-      "status": "scoring_attempted",
-      "title": "OpenAI wants its new tool to do your work for you and with you"
     },
     "https://arstechnica.com/ai/2026/07/openais-first-branded-hardware-is-a-light-up-keyboard": {
       "canonical_url": "https://arstechnica.com/ai/2026/07/openais-first-branded-hardware-is-a-light-up-keyboard",
@@ -3370,12 +3372,6 @@
       "status": "scoring_attempted",
       "title": "What xAI's Grok Build CLI Actually Sends to xAI"
     },
-    "https://github.blog/security/application-security/how-github-gave-every-repository-a-durable-owner": {
-      "canonical_url": "https://github.blog/security/application-security/how-github-gave-every-repository-a-durable-owner",
-      "created_at": "2026-07-09T21:43:18Z",
-      "status": "scoring_attempted",
-      "title": "How GitHub gave every repository a durable owner"
-    },
     "https://github.com/Danau5tin/ai-trains-ai": {
       "canonical_url": "https://github.com/Danau5tin/ai-trains-ai",
       "created_at": "2026-07-14T14:09:38Z",
@@ -3574,6 +3570,12 @@
       "status": "scoring_attempted",
       "title": "Australian energy retailers must provide three hours of free daytime electricity"
     },
+    "https://libretto.sh/debug-agents": {
+      "canonical_url": "https://libretto.sh/debug-agents",
+      "created_at": "2026-07-16T22:29:23Z",
+      "status": "scoring_attempted",
+      "title": "Show HN: Libretto PR agents \u2013 Automatically fix failing playwright scripts"
+    },
     "https://lists.osgeo.org/pipermail/qgis-developer/2026-July/068430.html": {
       "canonical_url": "https://lists.osgeo.org/pipermail/qgis-developer/2026-July/068430.html",
       "created_at": "2026-07-10T18:08:38Z",
@@ -3585,12 +3587,6 @@
       "created_at": "2026-07-16T21:27:01Z",
       "status": "scoring_attempted",
       "title": "LM Studio Bionic: the AI agent for open models"
-    },
-    "https://lucid.earthpilot.ai": {
-      "canonical_url": "https://lucid.earthpilot.ai",
-      "created_at": "2026-07-09T21:43:18Z",
-      "status": "scoring_attempted",
-      "title": "Show HN: I built a web tool to see and edit what an AI thinks before it answers"
     },
     "https://lwn.net/SubscriberLink/1080822/990a8a5e2d379085": {
       "canonical_url": "https://lwn.net/SubscriberLink/1080822/990a8a5e2d379085",
@@ -4282,6 +4278,12 @@
       "status": "scoring_attempted",
       "title": "Unified Memory, Explained: Why Mini PCs Can Run 70B Models a Big GPU Can't"
     },
+    "https://wc26.bogachev.fr/index.html": {
+      "canonical_url": "https://wc26.bogachev.fr/index.html",
+      "created_at": "2026-07-16T22:29:23Z",
+      "status": "scoring_attempted",
+      "title": "FIFA World Cup 2026 Data Portraits"
+    },
     "https://www.adaptiverecall.com": {
       "canonical_url": "https://www.adaptiverecall.com",
       "created_at": "2026-07-12T22:27:33Z",
@@ -4636,12 +4638,6 @@
       "status": "scoring_attempted",
       "title": "Meta Superintelligence Labs Releases Muse Spark 1.1: A Multimodal Reasoning Model for Agentic Tasks on Meta Model API"
     },
-    "https://www.marktechpost.com/2026/07/09/openai-releases-gpt-5-6-a-three-tier-model-family-with-programmatic-tool-calling": {
-      "canonical_url": "https://www.marktechpost.com/2026/07/09/openai-releases-gpt-5-6-a-three-tier-model-family-with-programmatic-tool-calling",
-      "created_at": "2026-07-09T21:43:18Z",
-      "status": "scoring_attempted",
-      "title": "OpenAI Releases GPT-5.6 (Sol, Terra, Luna): A Three-Tier Model Family With Programmatic Tool Calling in the Responses API"
-    },
     "https://www.marktechpost.com/2026/07/10/google-research-introduces-sensorfm-a-wearable-health-foundation-model-pretrained-on-one-trillion-minutes-of-sensor-data": {
       "canonical_url": "https://www.marktechpost.com/2026/07/10/google-research-introduces-sensorfm-a-wearable-health-foundation-model-pretrained-on-one-trillion-minutes-of-sensor-data",
       "created_at": "2026-07-10T10:19:54Z",
@@ -4858,18 +4854,6 @@
       "status": "scoring_attempted",
       "title": "If you want Claude to speak nicely to you, try Hindi or Arabic"
     },
-    "https://www.theverge.com/ai-artificial-intelligence/963628/google-ai-generated-ads-label": {
-      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/963628/google-ai-generated-ads-label",
-      "created_at": "2026-07-09T21:43:18Z",
-      "status": "scoring_attempted",
-      "title": "Google will now tell you if an ad was made with AI"
-    },
-    "https://www.theverge.com/ai-artificial-intelligence/963654/openai-chatgpt-atlas-ai-browser-shut-down-sunset": {
-      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/963654/openai-chatgpt-atlas-ai-browser-shut-down-sunset",
-      "created_at": "2026-07-09T21:43:18Z",
-      "status": "scoring_attempted",
-      "title": "The ChatGPT browser is already dead"
-    },
     "https://www.theverge.com/ai-artificial-intelligence/963738/openai-fidji-simo-steps-down-ceo-advisor": {
       "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/963738/openai-fidji-simo-steps-down-ceo-advisor",
       "created_at": "2026-07-10T01:01:43Z",
@@ -5085,6 +5069,12 @@
       "created_at": "2026-07-16T16:52:04Z",
       "status": "scoring_attempted",
       "title": "Roblox will let people use AI to make games on their phone"
+    },
+    "https://www.theverge.com/games/966815/epic-games-fortnite-ai-powered-personas": {
+      "canonical_url": "https://www.theverge.com/games/966815/epic-games-fortnite-ai-powered-personas",
+      "created_at": "2026-07-16T22:29:23Z",
+      "status": "scoring_attempted",
+      "title": "Fortnite is getting a bunch of AI-powered \u2018personas\u2019"
     },
     "https://www.theverge.com/news/966676/trump-teleprompter-operator-kalshi-bets-mention-markets-investigation": {
       "canonical_url": "https://www.theverge.com/news/966676/trump-teleprompter-operator-kalshi-bets-mention-markets-investigation",
@@ -5517,6 +5507,12 @@
       "created_at": "2026-07-15T19:24:21Z",
       "status": "scoring_attempted",
       "title": "Thinking Machines Lab Drops Its First Model"
+    },
+    "https://www.wired.com/story/uncanny-valley-podcase-apple-sued-openai-new-york-data-center-moratorium-cyclosporiasis-outbreak": {
+      "canonical_url": "https://www.wired.com/story/uncanny-valley-podcase-apple-sued-openai-new-york-data-center-moratorium-cyclosporiasis-outbreak",
+      "created_at": "2026-07-16T22:29:23Z",
+      "status": "scoring_attempted",
+      "title": "Why Apple Sued OpenAI, New York Takes on Data Centers, and What to Know about Cyclosporiasis"
     },
     "https://www.wired.com/story/why-anthropic-is-pushing-states-to-regulate-ai-faster": {
       "canonical_url": "https://www.wired.com/story/why-anthropic-is-pushing-states-to-regulate-ai-faster",
