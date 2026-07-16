@@ -568,6 +568,29 @@
         }
       }
     },
+    "4a2421fdf171b91b911bb7e069ec3bbde542b52648ebfd0ba7fd5f5cead46d9e": {
+      "created_at": "2026-07-16T22:54:08Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 4,
+            "novelty_score": 2.5,
+            "reason": "Research on scaling zero-shot RL to a trillion parameters is novel and impactful, but the source is a lower-tier.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Ring-Zero: Scaling Zero RL to a Trillion Parameters for Emergent Reasoning",
+            "total_score": 7.0
+          }
+        ],
+        "best_index": 4,
+        "best_score": 7.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "55422890d7302060b3b98280eae7e47bce8a17b19a9d178c795c1137d610ba63": {
       "created_at": "2026-07-16T21:27:01Z",
       "payload": {
@@ -606,29 +629,6 @@
           "threads": "The EU is compelling Google to share search data and open up AI on Android, raising concerns about user privacy and security.\nhttps://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/",
           "twitter": "The EU is forcing Google to share search data and open up AI on Android, despite Google's privacy and security concerns.\nhttps://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/"
         }
-      }
-    },
-    "5b4a474f207b2abc0d18a2eb805f2f09fdaac94c709eda0bc61a6b64792fdceb": {
-      "created_at": "2026-07-15T22:33:43Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 5,
-            "novelty_score": 0.5,
-            "reason": "Opinion piece on open source AI investment lacks novelty and impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Governments, companies, nonprofits should invest in free, open source AI [pdf]",
-            "total_score": 3.5
-          }
-        ],
-        "best_index": 5,
-        "best_score": 3.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "6a105323e8234eaf7a03b1d55c35fd14d3c7682c7327e8d1a5bbe48183bdada3": {
@@ -914,37 +914,25 @@
         }
       }
     },
-    "7c2233ea0ef52d14fb4aa61bfb80f056a0541cc32ea44e5c423a8742fb9fe344": {
-      "created_at": "2026-07-15T22:33:43Z",
+    "7d12981e591bb68b2eb4e423335af83d89446e0ce26f0088d7e4bdd3bc8ade4e": {
+      "created_at": "2026-07-16T22:54:08Z",
       "payload": {
         "articles": [
           {
             "freshness_score": 2.0,
-            "impact_score": 0.5,
-            "index": 2,
-            "novelty_score": 0.5,
-            "reason": "Comments section with no substantive content.",
-            "red_flag": true,
-            "red_flag_reason": "Comments",
-            "source_score": 0.5,
-            "title": "We don't use AI in any of our design or production processes",
-            "total_score": 3.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "Legal action by xAI against misuse of Grok for generating illegal content.",
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 1.5,
+            "reason": "A personal anecdote about software regression, not a technical deep dive or industry-wide analysis.",
             "red_flag": false,
             "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "xAI sues a man for using Grok to generate CSAM &#8216;deepfakes&#8217;",
-            "total_score": 7.5
+            "source_score": 0.5,
+            "title": "My car's OTA update broke Android Auto, and it's a indictment of modern software",
+            "total_score": 5.5
           }
         ],
-        "best_index": 3,
-        "best_score": 7.5,
+        "best_index": 0,
+        "best_score": 5.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1002,41 +990,6 @@
           }
         ],
         "best_index": 7,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "82d50258371dfb3c42d2eb9a7e3f81896a6506a83b1e52cede5e0dd007bd819a": {
-      "created_at": "2026-07-15T22:33:43Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 1.5,
-            "reason": "Valve's reversal on Steam Deck battery sales is notable but niche for gamers and modders.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Valve says iFixit will keep selling Steam Deck batteries after all",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "MIT's research on AI speculative growth is relevant but published on Hacker News, a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Speculative Growth and the AI \"Bubble\" [pdf]",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 1,
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
@@ -1508,6 +1461,29 @@
         "social_posts": {}
       }
     },
+    "baf4083946138ee8f36ffb271e33210f3e4ba22b17a49bf6efd528f51c8149d5": {
+      "created_at": "2026-07-16T22:54:08Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "New release with moderate impact and high freshness but low source tier.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Show HN: ReasonGate- An explainable gate that blocks LLM prompt injection",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 2,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "bc415b6f87731f64f25a14296737312d6c878790665954e5b00c2caec36041e1": {
       "created_at": "2026-07-16T16:52:04Z",
       "payload": {
@@ -1570,29 +1546,6 @@
           "threads": "NVIDIA's Nemotron 3 Embed just took the top spot on RTEB, pushing agentic retrieval forward. This is a big deal for AI developers working on retrieval-augmented generation. https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb",
           "twitter": "NVIDIA's Nemotron 3 Embed tops RTEB benchmarks, advancing agentic retrieval. https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb"
         }
-      }
-    },
-    "bcb366f395092d2c5bae53ddfddc9860e12fb2b2230008afb1d51540774079d4": {
-      "created_at": "2026-07-15T22:33:43Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 6,
-            "novelty_score": 2.5,
-            "reason": "New open hybrid Mamba-Transformer MoE model for German and English, but impact is niche and freshness is moderate.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Soofi Consortium Releases Soofi S 30B-A3B: An Open Hybrid Mamba-Transformer MoE Foundation Model For German And English",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 6,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "bf34f4a6f98241d08e4675bb8e6e430f04241bea82824e810e5d30e5059de59b": {
@@ -3054,6 +3007,12 @@
       "status": "scoring_attempted",
       "title": "From Patterns to Maze Structures: SMT-Based Path Synthesis and 2D/3D Construction"
     },
+    "https://arxiv.org/abs/2607.12395": {
+      "canonical_url": "https://arxiv.org/abs/2607.12395",
+      "created_at": "2026-07-16T22:54:08Z",
+      "status": "scoring_attempted",
+      "title": "Ring-Zero: Scaling Zero RL to a Trillion Parameters for Emergent Reasoning"
+    },
     "https://arxiv.org/abs/2607.13037": {
       "canonical_url": "https://arxiv.org/abs/2607.13037",
       "created_at": "2026-07-16T05:26:54Z",
@@ -3384,6 +3343,12 @@
       "status": "scoring_attempted",
       "title": "Show HN: StyleSeed \u2013 a design-rules engine so AI agents stop building generic UI"
     },
+    "https://github.com/cgrtml/reasongate": {
+      "canonical_url": "https://github.com/cgrtml/reasongate",
+      "created_at": "2026-07-16T22:54:08Z",
+      "status": "scoring_attempted",
+      "title": "Show HN: ReasonGate- An explainable gate that blocks LLM prompt injection"
+    },
     "https://github.com/clawkwork/clawk": {
       "canonical_url": "https://github.com/clawkwork/clawk",
       "created_at": "2026-07-13T15:36:16Z",
@@ -3515,6 +3480,12 @@
       "created_at": "2026-07-10T08:43:54Z",
       "status": "scoring_attempted",
       "title": "Profiling in PyTorch (Part 3): Attention is all you profile"
+    },
+    "https://imdanielkendall.com/the-great-software-regress-how-move-fast-and-break-things-broke-our-lives": {
+      "canonical_url": "https://imdanielkendall.com/the-great-software-regress-how-move-fast-and-break-things-broke-our-lives",
+      "created_at": "2026-07-16T22:54:08Z",
+      "status": "scoring_attempted",
+      "title": "My car's OTA update broke Android Auto, and it's a indictment of modern software"
     },
     "https://insideai.news/news/ai-safety/mits-new-method-flags-ai-models-trained-on-child-abuse-imagery-without-generating-it/3869": {
       "canonical_url": "https://insideai.news/news/ai-safety/mits-new-method-flags-ai-models-trained-on-child-abuse-imagery-without-generating-it/3869",
