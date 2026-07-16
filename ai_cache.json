@@ -227,29 +227,6 @@
         "social_posts": {}
       }
     },
-    "19504f0bc0436cbccc5d1285ca639f1c950845ad47f1d91699fb6f8d26a0a754": {
-      "created_at": "2026-07-15T07:24:32Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Research on Claude's memory leak vulnerability.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "I tricked Claude into leaking your deepest, darkest secrets",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "24fda65018c0b60d4e044b396c516c9d9f22e18f76898067b42c13bb501fb147": {
       "created_at": "2026-07-15T21:32:14Z",
       "payload": {
@@ -750,6 +727,29 @@
         "social_posts": {}
       }
     },
+    "6ddcb0df331dc451e22913e9fa84ea0c6c7810cda6f9062ec90ae7bb2330aa3f": {
+      "created_at": "2026-07-16T07:37:37Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "Opinion piece on AI's role, not a technical announcement or research.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Stop saying that AI is just a tool and it only matters how it is used",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "74dcbc1ced54878982ecb345e4879157722e71dbfa11155e1ece7dbd8d476909": {
       "created_at": "2026-07-15T15:24:33Z",
       "payload": {
@@ -1190,29 +1190,6 @@
         "social_posts": {}
       }
     },
-    "9015e1bad931038a1bfc951484e33e64d4eb1b69f643a0e46e741699850af781": {
-      "created_at": "2026-07-15T07:24:32Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.0,
-            "index": 2,
-            "novelty_score": 0.0,
-            "reason": "This is an opinion piece with no new information or research.",
-            "red_flag": true,
-            "red_flag_reason": "opinion",
-            "source_score": 0.5,
-            "title": "LinkedIn is a cesspool of scammers and identity theft",
-            "total_score": 2.0
-          }
-        ],
-        "best_index": 2,
-        "best_score": 2.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "914737ded65011b685e4d14ba61556a2983eeb40bc5e91b2076a074682e54ec7": {
       "created_at": "2026-07-16T05:26:54Z",
       "payload": {
@@ -1314,29 +1291,6 @@
           }
         ],
         "best_index": 1,
-        "best_score": 6.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "94c72ac8d6d4b6e5ad58691321d5403f8a695a23b6fbbc3205991b9f41222aec": {
-      "created_at": "2026-07-15T07:24:32Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 2.0,
-            "reason": "New hardware release with moderate impact and high freshness.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Starlink\u2019s V5 dish is now available \u2014 here\u2019s how it compares",
-            "total_score": 6.0
-          }
-        ],
-        "best_index": 0,
         "best_score": 6.0,
         "recommendation": "SKIP",
         "social_posts": {}
@@ -1525,6 +1479,34 @@
         "best_score": 7.0,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "a538365504e703fbf788a2e8879931f7469f2acb7d81971517ebd46994f73c0d": {
+      "created_at": "2026-07-16T07:37:37Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "SpaceXAI open-sourcing Grok Build is a significant move for Rust developers and AI tooling.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "SpaceXAI Open-Sources Grok Build: The Rust Agent Harness, TUI, and Tool Layer Behind Its Coding CLI",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "SpaceXAI has open-sourced Grok Build, the Rust agent harness and tool layer behind its coding CLI. This is a significant release for developers working with AI tools. The Apache 2.0 licensed code covers the agent loop, tool dispatch, TUI, and extension system. Link: https://www.marktechpost.com/2026/07/15/spacexai-open-sources-grok-build-the-rust-agent-harness-tui-and-tool-layer-behind-its-coding-cli/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *SpaceXAI Open-Sources Grok Build: The Rust Agent Harness, TUI, and Tool Layer Behind Its Coding CLI*\n\nSpaceXAI published the Grok Build source, covering the agent loop, tool dispatch, TUI, and extension system. The Apache 2.0 Rust tree is now available.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/07/15/spacexai-open-sources-grok-build-the-rust-agent-harness-tui-and-tool-layer-behind-its-coding-cli/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "SpaceXAI open-sourced Grok Build, its Rust agent harness and tool layer. Big news for AI developers. https://www.marktechpost.com/2026/07/15/spacexai-open-sources-grok-build-the-rust-agent-harness-tui-and-tool-layer-behind-its-coding-cli/",
+          "twitter": "SpaceXAI just open-sourced Grok Build, its Rust-based agent harness and tool layer. A major move for AI developers.\nhttps://www.marktechpost.com/2026/07/15/spacexai-open-sources-grok-build-the-rust-agent-harness-tui-and-tool-layer-behind-its-coding-cli/"
+        }
       }
     },
     "a8247158bac505a24b59223b8aa9ea773fa04d35bbf162a1bb8119d15ea6361b": {
@@ -2143,6 +2125,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 EU warns Meta to change platform design\nThe EU's Digital Services Act may force Meta to disable auto-play and infinite scroll on its platforms, affecting all users.\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#DigitalServicesAct #Meta #EU\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "The EU is taking a strong stance against Meta, warning the company to disable auto-play and infinite scroll or face massive fines, @Meta this move is part of the Digital Services Act #Meta",
         "twitter": "Meta faces massive fines if it doesn't disable auto-play and infinite scroll on its platforms, says EU, @Meta must comply with Digital Services Act #Meta"
+      }
+    },
+    "48668aa887cf67a63c92bed4bd9ae205aaef6a5b480d362e04f83899f8fdf927": {
+      "created_at": "2026-07-16T07:37:37Z",
+      "payload": {
+        "facebook": "The recent open-sourcing of Grok Build by SpaceXAI provides insight into the Rust agent harness, tool dispatch, and TUI that power its coding CLI. This move is expected to have a significant impact on the Rust development community. #RustProgramming #AItooling #OpenSource",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 SpaceXAI Open-Sources Grok Build\nSpaceXAI has published the Grok Build source, covering the agent loop, tool dispatch, TUI, and extension system, all in Rust. This move is significant for Rust developers and AI tooling.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n#RustProgramming #AItooling #OpenSource\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "SpaceXAI's decision to open-source Grok Build offers a unique look at the Rust agent harness and TUI that drive its coding CLI, a significant development for Rust developers @SpaceX, #RustProgramming",
+        "twitter": "SpaceXAI's open-source Grok Build reveals the Rust agent harness and TUI behind its coding CLI, a significant move for Rust developers @SpaceX, #RustProgramming"
       }
     },
     "526483dac1fcef96ae34d46362657547c68681d9abe5bdd3956ced0235fcd6a6": {
@@ -4466,6 +4457,12 @@
       "status": "scoring_attempted",
       "title": "Building a real-time AI tutor for 5-year-olds"
     },
+    "https://www.frank.computer/blog/2025/05/just-a-tool.html": {
+      "canonical_url": "https://www.frank.computer/blog/2025/05/just-a-tool.html",
+      "created_at": "2026-07-16T07:37:37Z",
+      "status": "scoring_attempted",
+      "title": "Stop saying that AI is just a tool and it only matters how it is used"
+    },
     "https://www.ghacks.net/2026/07/12/microsoft-confirms-windows-gdid-device-identifier-that-cannot-be-disabled-documented-in-fbi-case-filing": {
       "canonical_url": "https://www.ghacks.net/2026/07/12/microsoft-confirms-windows-gdid-device-identifier-that-cannot-be-disabled-documented-in-fbi-case-filing",
       "created_at": "2026-07-15T15:24:33Z",
@@ -4807,6 +4804,12 @@
       "created_at": "2026-07-15T22:33:43Z",
       "status": "scoring_attempted",
       "title": "Soofi Consortium Releases Soofi S 30B-A3B: An Open Hybrid Mamba-Transformer MoE Foundation Model For German And English"
+    },
+    "https://www.marktechpost.com/2026/07/15/spacexai-open-sources-grok-build-the-rust-agent-harness-tui-and-tool-layer-behind-its-coding-cli": {
+      "canonical_url": "https://www.marktechpost.com/2026/07/15/spacexai-open-sources-grok-build-the-rust-agent-harness-tui-and-tool-layer-behind-its-coding-cli",
+      "created_at": "2026-07-16T07:37:37Z",
+      "status": "scoring_attempted",
+      "title": "SpaceXAI Open-Sources Grok Build: The Rust Agent Harness, TUI, and Tool Layer Behind Its Coding CLI"
     },
     "https://www.marktechpost.com/2026/07/15/thinking-machines-lab-releases-inkling-a-975b-parameter-open-weights-multimodal-moe-with-41b-active-parameters-and-controllable-thinking-effort": {
       "canonical_url": "https://www.marktechpost.com/2026/07/15/thinking-machines-lab-releases-inkling-a-975b-parameter-open-weights-multimodal-moe-with-41b-active-parameters-and-controllable-thinking-effort",
