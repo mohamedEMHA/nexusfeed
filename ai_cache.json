@@ -1042,44 +1042,27 @@
         "social_posts": {}
       }
     },
-    "85c433f95ea43973a38fb204cd1f3bc516820d45f6ea0ce23b56a25f618250b2": {
-      "created_at": "2026-07-15T19:24:21Z",
+    "89014f9bf2d0d4d1e46977f4837f664e4e66e1ddb7a8c9d48e7f5c95f6b8984d": {
+      "created_at": "2026-07-16T20:15:26Z",
       "payload": {
         "articles": [
           {
             "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 5,
-            "novelty_score": 3.0,
-            "reason": "New open-source model with 975 billion parameters trained on video and audio.",
-            "red_flag": false,
-            "red_flag_reason": null,
+            "impact_score": 0.0,
+            "index": 1,
+            "novelty_score": 0.0,
+            "reason": "Article discusses CD sales growth, unrelated to software engineering or AI research.",
+            "red_flag": true,
+            "red_flag_reason": "article is not relevant to software engineers or AI researchers",
             "source_score": 1.5,
-            "title": "Thinking Machines Lab Drops Its First Model",
-            "total_score": 9.0
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 6,
-            "novelty_score": 2.5,
-            "reason": "First public proof point from Thinking Machines after a year and a half of development.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Thinking Machines amps up its bet against one-size-fits-all AI with its first open model, Inkling",
-            "total_score": 8.5
+            "title": "Why are CD sales suddenly growing again?",
+            "total_score": 3.5
           }
         ],
-        "best_index": 5,
-        "best_score": 9.0,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Thinking Machines Lab has released Inkling, a 975-billion-parameter open-source model designed to understand video and audio. This could help the company compete with giants like Anthropic and OpenAI. The model is a significant step in the company's journey to establish itself in the AI landscape. Link: https://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Thinking Machines Lab Drops Its First Model*\n\nThinking Machines Lab has released Inkling, a 975-billion-parameter open-source model trained to understand video and audio. This could help the company compete with giants like Anthropic and OpenAI.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Thinking Machines Lab just dropped Inkling, a 975-billion-parameter open-source model trained on video and audio. This is a big move in the AI space. https://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling/",
-          "twitter": "Thinking Machines Lab just released Inkling, a 975-billion-parameter open-source model trained on video and audio.\nhttps://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling/"
-        }
+        "best_index": 1,
+        "best_score": 3.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "8cdcc739c1cefa709f74bf82d961536712ab4e80c14a441a7a2f87a44ccd04a7": {
@@ -1262,41 +1245,6 @@
         "social_posts": {}
       }
     },
-    "9b7875c73615c026766369abb4a244b9ebc6419629060f05987da6a85bfb3436": {
-      "created_at": "2026-07-15T19:24:21Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "No content available to evaluate.",
-            "red_flag": true,
-            "red_flag_reason": "Comments",
-            "source_score": 0.5,
-            "title": "Inkling: Our Open-Weights Model",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 4,
-            "novelty_score": 2,
-            "reason": "Relevant to AI researchers and software engineers interested in the intersection of technology and finance.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "SpaceX slips below its $135 IPO price ahead of Starship launch",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 4,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "9be7ec0d6327ccf89c295aed8cec7814e8fb2ee6f721e52d7cfb94d8d5e0dc09": {
       "created_at": "2026-07-15T23:56:52Z",
       "payload": {
@@ -1383,6 +1331,34 @@
         "social_posts": {}
       }
     },
+    "a2dc02611e78ce769c85ee87990ae7bf9e931cd2f105de1e330d78976fa689ef": {
+      "created_at": "2026-07-16T20:15:26Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Hyundai's plan to deploy 25,000 Atlas robots is a significant industry move with potential labor implications.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Fear of humanoid robots spurs human workers to strike at Hyundai auto factory",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Hyundai is planning to deploy 25,000 humanoid robots starting in 2028, which has sparked strikes at their auto factories. This move highlights the growing tension between automation and human labor. It's a significant development that could reshape the future of work.\nLink: https://arstechnica.com/ai/2026/07/fear-of-humanoid-robots-spurs-human-workers-to-strike-at-hyundai-auto-factory/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Fear of humanoid robots spurs human workers to strike at Hyundai auto factory*\n\nHyundai plans to deploy 25,000 Atlas robots starting with US factories in 2028, sparking worker strikes.\n\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://arstechnica.com/ai/2026/07/fear-of-humanoid-robots-spurs-human-workers-to-strike-at-hyundai-auto-factory/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Hyundai's plan to deploy 25,000 humanoid robots by 2028 is causing worker strikes. This is a major step in automation that could redefine labor dynamics.\nhttps://arstechnica.com/ai/2026/07/fear-of-humanoid-robots-spurs-human-workers-to-strike-at-hyundai-auto-factory/",
+          "twitter": "Hyundai's plan to deploy 25,000 humanoid robots sparks worker strikes. The future of labor is being written now.\nhttps://arstechnica.com/ai/2026/07/fear-of-humanoid-robots-spurs-human-workers-to-strike-at-hyundai-auto-factory/"
+        }
+      }
+    },
     "a538365504e703fbf788a2e8879931f7469f2acb7d81971517ebd46994f73c0d": {
       "created_at": "2026-07-16T07:37:37Z",
       "payload": {
@@ -1464,41 +1440,6 @@
           }
         ],
         "best_index": 0,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "afaf273c9281bef327840e91ec556d559099c001d44270f7965f0ceb705ee20d": {
-      "created_at": "2026-07-15T19:24:21Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 7,
-            "novelty_score": 2.5,
-            "reason": "Detailed technical implementation of a configurable PyTorch pipeline with Gin Config, useful for researchers and engineers working on ML experiments.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Building a Gin Config Controlled PyTorch Pipeline with Configurable MLP Variants, Cosine Scheduling, and Runtime Parameter Overrides",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 24,
-            "novelty_score": 2,
-            "reason": "Explores the business model of Ode with Anthropic, a startup focusing on AI services for enterprises, backed by major investors.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Inside Ode with Anthropic, the startup betting AI services are the future of enterprise",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 24,
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
@@ -1830,58 +1771,6 @@
         "social_posts": {}
       }
     },
-    "df35afd443aaec826bfab97be966efe0ab52d9ac2916767585ddbe8d1af171ee": {
-      "created_at": "2026-07-15T19:24:21Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 0.5,
-            "reason": "Opinion piece from a notable source with limited impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Why I Left Google DeepMind",
-            "total_score": 4.5
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Research-focused article from a top-tier source with broad impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "AI Isn\u2019t Smarter Than a Baby\u2014Yet",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 2,
-            "novelty_score": 1.5,
-            "reason": "Industry move with moderate impact and novelty.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Something\u2019s glowing on the Pixel 11\u2019s camera bar",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "A fascinating read from Wired on why AI still can't match the learning capabilities of a baby. The article suggests that future advances in AI might come from studying the architecture of infant brains. This could open new avenues for research in neural networks and machine learning.\nLink: https://www.wired.com/story/ai-isnt-smarter-than-a-baby-yet/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *AI Isn\u2019t Smarter Than a Baby\u2014Yet*\n\nBabies are tremendous learning machines, and key advances for AI may soon be found in the architecture of their little brains.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.wired.com/story/ai-isnt-smarter-than-a-baby-yet/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Wired dives into why AI isn't yet as smart as a baby, hinting at future breakthroughs by studying infant brain architecture.\nhttps://www.wired.com/story/ai-isnt-smarter-than-a-baby-yet/",
-          "twitter": "Wired explores why AI still can't match a baby's learning abilities, pointing to potential breakthroughs in neural architecture.\nhttps://www.wired.com/story/ai-isnt-smarter-than-a-baby-yet/"
-        }
-      }
-    },
     "e95fa64c7117971a979f8381bdee9c05aa01d374b43435ec2c55f116a140b4c0": {
       "created_at": "2026-07-15T23:56:52Z",
       "payload": {
@@ -2188,6 +2077,15 @@
         "twitter": "OpenAI's GPT-Red model outperformed human red-teamers 84% to 13% in prompt injection tests, @OpenAI, #AIsecurity"
       }
     },
+    "6a64d0e80a04b57d25a2fc3a42852a2886388871b7ad8051efe55741675fc4ec": {
+      "created_at": "2026-07-16T20:15:26Z",
+      "payload": {
+        "facebook": "The introduction of humanoid robots in the workforce is causing concern among human workers, with some even going on strike at Hyundai's auto factory. This move by Hyundai aims to deploy 25,000 Atlas robots starting with US factories in 2028, #AI #Automation #Robotics",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Workers Strike Over Humanoid Robots\nHuman workers at Hyundai's auto factory are on strike due to fears of being replaced by humanoid robots. The company plans to deploy 25,000 Atlas robots starting with US factories in 2028.\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #Automation #Robotics\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Human workers at Hyundai's auto factory are striking over the introduction of humanoid robots, @ArsTechnica, this could be a significant turning point in the industry's adoption of automation #AI",
+        "twitter": "Human workers at Hyundai's auto factory are on strike due to fears of being replaced by humanoid robots, @ArsTechnica reports, #AI #Automation"
+      }
+    },
     "710498d5d3edcb2239f2d02cf58becfa7772979354af4edff4fb65696694ff56": {
       "created_at": "2026-07-11T04:46:06Z",
       "payload": {
@@ -2348,15 +2246,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 NeuroVFM Developed For Clinical MRI and CT Volumes\nNeuroVFM is a neuroimaging foundation model trained on 5.24M clinical MRI and CT volumes, extending previous work in medical imaging.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#Neuroimaging #MedicalImaging #AI\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "NeuroVFM, a generalist neuroimaging foundation model, has been trained on 5.24M clinical MRI and CT volumes, extending previous work in medical imaging @MarkTechPost #Neuroimaging",
         "twitter": "Researchers at University of Michigan develop NeuroVFM, a neuroimaging foundation model trained on 5.24M clinical MRI and CT volumes @MarkTechPost #Neuroimaging"
-      }
-    },
-    "c6a1d61c9353c221354ff3898d4dc9a32a8d5c0f3d5d24c1e1ab4d978b327337": {
-      "created_at": "2026-07-09T20:10:00Z",
-      "payload": {
-        "facebook": "NVIDIA has introduced a compressed variant of its Nemotron-3-Super model, delivering significant server throughput improvements. This new model, Nemotron Labs 3 Puzzle 75B A9B, reduces parameters while increasing efficiency. #AI #MachineLearning #NVIDIA",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 NVIDIA Releases Compressed Hybrid MoE LLM\nNVIDIA's Nemotron Labs 3 Puzzle 75B A9B model reduces parameters from 120.7B to 75.3B while increasing server throughput by 2.03x.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n#AI #MachineLearning #NVIDIA\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "NVIDIA's Nemotron Labs 3 Puzzle 75B A9B model achieves 2.03x server throughput @NVIDIA with a compressed hybrid MoE approach #AI",
-        "twitter": "NVIDIA's new Nemotron Labs 3 Puzzle 75B A9B model boosts server throughput by 2.03x @NVIDIA #AI"
       }
     },
     "c7a37712ad9a53cbabe7b9e7052b518580a425d12e78849fb83d1ee9e7c0512c": {
@@ -2544,6 +2433,12 @@
       "status": "scoring_attempted",
       "title": "Show HN: Ant \u2013 A JavaScript Runtime and Ecosystem"
     },
+    "https://arstechnica.com/ai/2026/07/fear-of-humanoid-robots-spurs-human-workers-to-strike-at-hyundai-auto-factory": {
+      "canonical_url": "https://arstechnica.com/ai/2026/07/fear-of-humanoid-robots-spurs-human-workers-to-strike-at-hyundai-auto-factory",
+      "created_at": "2026-07-16T20:15:26Z",
+      "status": "scoring_attempted",
+      "title": "Fear of humanoid robots spurs human workers to strike at Hyundai auto factory"
+    },
     "https://arstechnica.com/ai/2026/07/humanoid-robots-controlled-by-surgeons-did-world-first-operation-on-live-pigs": {
       "canonical_url": "https://arstechnica.com/ai/2026/07/humanoid-robots-controlled-by-surgeons-did-world-first-operation-on-live-pigs",
       "created_at": "2026-07-09T21:43:18Z",
@@ -2621,12 +2516,6 @@
       "created_at": "2026-07-14T15:21:57Z",
       "status": "scoring_attempted",
       "title": "New York bans data center construction for a year, rattling AI industry"
-    },
-    "https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says": {
-      "canonical_url": "https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says",
-      "created_at": "2026-07-09T20:10:00Z",
-      "status": "scoring_attempted",
-      "title": "OpenAI may have made a fatal misstep in copyright fight with news orgs"
     },
     "https://arxiv.org/abs/2607.01418": {
       "canonical_url": "https://arxiv.org/abs/2607.01418",
@@ -3270,12 +3159,6 @@
       "status": "scoring_attempted",
       "title": "Detecting LLM-Generated Texts with \"Classical\" Machine Learning"
     },
-    "https://blog.mozilla.ai/the-control-layer-why-the-next-era-of-ai-is-about-infrastructure-not-just-models": {
-      "canonical_url": "https://blog.mozilla.ai/the-control-layer-why-the-next-era-of-ai-is-about-infrastructure-not-just-models",
-      "created_at": "2026-07-09T20:10:00Z",
-      "status": "scoring_attempted",
-      "title": "Why the Next Era of AI Is About Infrastructure, Not Just Models"
-    },
     "https://blog.yaelwrites.com/stop-telling-me-to-ask-an-llm": {
       "canonical_url": "https://blog.yaelwrites.com/stop-telling-me-to-ask-an-llm",
       "created_at": "2026-07-11T23:32:54Z",
@@ -3606,12 +3489,6 @@
       "status": "scoring_attempted",
       "title": "Where are YC founders now? OpenAI and Anthropic, mostly"
     },
-    "https://kastra.ai": {
-      "canonical_url": "https://kastra.ai",
-      "created_at": "2026-07-09T20:10:00Z",
-      "status": "scoring_attempted",
-      "title": "Show HN: Policy enforcement for Claude Code, Cursor, and Codex"
-    },
     "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws": {
       "canonical_url": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws",
       "created_at": "2026-07-15T09:07:14Z",
@@ -3930,30 +3807,6 @@
       "status": "scoring_attempted",
       "title": "Fidji Simo steps down from OpenAI\u2019s no. 2 role"
     },
-    "https://techcrunch.com/2026/07/09/google-will-now-disclose-which-ads-are-made-with-ai": {
-      "canonical_url": "https://techcrunch.com/2026/07/09/google-will-now-disclose-which-ads-are-made-with-ai",
-      "created_at": "2026-07-09T20:10:00Z",
-      "status": "scoring_attempted",
-      "title": "Google will now disclose which ads are made with AI"
-    },
-    "https://techcrunch.com/2026/07/09/how-did-the-government-decide-openais-frontier-model-was-safe-to-release": {
-      "canonical_url": "https://techcrunch.com/2026/07/09/how-did-the-government-decide-openais-frontier-model-was-safe-to-release",
-      "created_at": "2026-07-09T20:10:00Z",
-      "status": "scoring_attempted",
-      "title": "How did the government decide OpenAI\u2019s frontier model was safe to release?"
-    },
-    "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1": {
-      "canonical_url": "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1",
-      "created_at": "2026-07-09T20:10:00Z",
-      "status": "scoring_attempted",
-      "title": "Meta enters the crowded AI coding battle with Muse Spark 1.1"
-    },
-    "https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial": {
-      "canonical_url": "https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial",
-      "created_at": "2026-07-09T20:10:00Z",
-      "status": "scoring_attempted",
-      "title": "New York Times says OpenAI hid evidence in ChatGPT copyright trial"
-    },
     "https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing": {
       "canonical_url": "https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing",
       "created_at": "2026-07-09T22:57:15Z",
@@ -3971,12 +3824,6 @@
       "created_at": "2026-07-10T01:01:43Z",
       "status": "scoring_attempted",
       "title": "OpenAI says GPT 5.6 is the \u2018preferred model\u2019 for Microsoft Copilot 365 amid breakup chatter"
-    },
-    "https://techcrunch.com/2026/07/09/paris-based-ai-voice-startup-gradium-raises-100m-seed-backed-by-nvidia": {
-      "canonical_url": "https://techcrunch.com/2026/07/09/paris-based-ai-voice-startup-gradium-raises-100m-seed-backed-by-nvidia",
-      "created_at": "2026-07-09T20:10:00Z",
-      "status": "scoring_attempted",
-      "title": "Paris-based AI voice startup Gradium raises $100M seed, backed by Nvidia"
     },
     "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft": {
       "canonical_url": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft",
@@ -4704,12 +4551,6 @@
       "status": "scoring_attempted",
       "title": "Meet LingBot-World-Infinity: An Open Causal World Model With An Agentic Harness"
     },
-    "https://www.marktechpost.com/2026/07/09/meet-nemotron-labs-3-puzzle-75b-a9b": {
-      "canonical_url": "https://www.marktechpost.com/2026/07/09/meet-nemotron-labs-3-puzzle-75b-a9b",
-      "created_at": "2026-07-09T20:10:00Z",
-      "status": "scoring_attempted",
-      "title": "Meet Nemotron Labs 3 Puzzle 75B A9B: A Compressed Hybrid MoE LLM Delivering 2.03x Server Throughput"
-    },
     "https://www.marktechpost.com/2026/07/09/meta-superintelligence-labs-releases-muse-spark-1-1": {
       "canonical_url": "https://www.marktechpost.com/2026/07/09/meta-superintelligence-labs-releases-muse-spark-1-1",
       "created_at": "2026-07-09T23:08:03Z",
@@ -4932,12 +4773,6 @@
       "status": "scoring_attempted",
       "title": "If you want Claude to speak nicely to you, try Hindi or Arabic"
     },
-    "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work": {
-      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
-      "created_at": "2026-07-09T20:10:00Z",
-      "status": "scoring_attempted",
-      "title": "OpenAI rolls out GPT-5.6 after government greenlight \u2014 and announces \u2018ChatGPT Work\u2019"
-    },
     "https://www.theverge.com/ai-artificial-intelligence/963628/google-ai-generated-ads-label": {
       "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/963628/google-ai-generated-ads-label",
       "created_at": "2026-07-09T21:43:18Z",
@@ -5057,6 +4892,12 @@
       "created_at": "2026-07-15T17:59:26Z",
       "status": "scoring_attempted",
       "title": "Netflix tries to recapture Stranger Things magic with nostalgic re-release"
+    },
+    "https://www.theverge.com/entertainment/966726/cd-sales-vinyl-physical-media-luminate": {
+      "canonical_url": "https://www.theverge.com/entertainment/966726/cd-sales-vinyl-physical-media-luminate",
+      "created_at": "2026-07-16T20:15:26Z",
+      "status": "scoring_attempted",
+      "title": "Why are CD sales suddenly growing again?"
     },
     "https://www.theverge.com/gadgets/963665/anker-prime-wireless-charging-station-lg-oled-c6-tv-deal-sale": {
       "canonical_url": "https://www.theverge.com/gadgets/963665/anker-prime-wireless-charging-station-lg-oled-c6-tv-deal-sale",
@@ -5279,12 +5120,6 @@
       "created_at": "2026-07-10T16:26:36Z",
       "status": "scoring_attempted",
       "title": "Disney Plus is reportedly looking into a free streaming tier"
-    },
-    "https://www.theverge.com/tech/963307/microsoft-patch-tuesday-ai-security-updates": {
-      "canonical_url": "https://www.theverge.com/tech/963307/microsoft-patch-tuesday-ai-security-updates",
-      "created_at": "2026-07-09T20:10:00Z",
-      "status": "scoring_attempted",
-      "title": "Microsoft\u2019s patch Tuesdays are about to get bigger"
     },
     "https://www.theverge.com/tech/963728/microsoft-sustainability-report-2026": {
       "canonical_url": "https://www.theverge.com/tech/963728/microsoft-sustainability-report-2026",
@@ -5531,12 +5366,6 @@
       "created_at": "2026-07-14T10:54:22Z",
       "status": "scoring_attempted",
       "title": "The Chatbot That Foretold Why People Share Secrets With ChatGPT"
-    },
-    "https://www.wired.com/story/model-behavior-anthropic-will-charge-consumers-extra-to-use-claude-fable-5": {
-      "canonical_url": "https://www.wired.com/story/model-behavior-anthropic-will-charge-consumers-extra-to-use-claude-fable-5",
-      "created_at": "2026-07-09T20:10:00Z",
-      "status": "scoring_attempted",
-      "title": "Anthropic Wants You to Pay Up for Claude Fable 5"
     },
     "https://www.wired.com/story/openai-employees-donations-guardrails-alliance-leading-the-future": {
       "canonical_url": "https://www.wired.com/story/openai-employees-donations-guardrails-alliance-leading-the-future",
