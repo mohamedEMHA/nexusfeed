@@ -1,28 +1,5 @@
 {
   "cerebras_scoring": {
-    "021f1403bd927c1d46d69667fec208b58a5d8598f973dcecd5b8f9a038b498e0": {
-      "created_at": "2026-07-15T09:07:14Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 0.5,
-            "impact_score": 2.5,
-            "index": 12,
-            "novelty_score": 1.5,
-            "reason": "Important but not novel, and the source is not highly trusted.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Microsoft has released software updates to plug at least 570 security holes",
-            "total_score": 4.5
-          }
-        ],
-        "best_index": 12,
-        "best_score": 4.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "05f7012bfe8558295ed0e77e549ce57470e9e27f4a4205578ae4d17070b7e84a": {
       "created_at": "2026-07-16T05:26:54Z",
       "payload": {
@@ -544,34 +521,6 @@
         "best_score": 8.0,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "634e1b5416817fc82224cdcced83a8b55e9772edee286ad7630d2b2ae7cc0dfa": {
-      "created_at": "2026-07-15T09:07:14Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Significant industry move with high impact on AI governance and OpenAI's internal politics.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "OpenAI Staffers Are Funding a Rival Super PAC to Take on Their Boss",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "OpenAI staffers have donated over $215,000 to a political group opposing their company's president, Greg Brockman. This move highlights growing tensions within the AI industry's leadership. Link: https://www.wired.com/story/openai-employees-donations-guardrails-alliance-leading-the-future/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *OpenAI Staffers Are Funding a Rival Super PAC to Take on Their Boss*\n\nOpenAI employees have donated over $215,000 to a political effort opposing Leading the Future, a group backed by the company\u2019s president, Greg Brockman.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.wired.com/story/openai-employees-donations-guardrails-alliance-leading-the-future/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "OpenAI employees are funding a political effort to oppose their own company's leadership, donating over $215,000 to a group opposing president Greg Brockman. https://www.wired.com/story/openai-employees-donations-guardrails-alliance-leading-the-future/",
-          "twitter": "OpenAI employees are funding a political effort to oppose their own company's leadership. https://www.wired.com/story/openai-employees-donations-guardrails-alliance-leading-the-future/"
-        }
       }
     },
     "6a105323e8234eaf7a03b1d55c35fd14d3c7682c7327e8d1a5bbe48183bdada3": {
@@ -1296,29 +1245,6 @@
         "social_posts": {}
       }
     },
-    "9b48bb006933cab73a126000abb27d6f472a04d77487ab2ef67e94210a2299c6": {
-      "created_at": "2026-07-15T09:07:14Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Nokia's AI-RAN platform is a new release with potential industry impact, but it's niche and the source is tier B.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.0,
-            "title": "Nokia\u2019s AI-RAN platform: a radio comeback that runs on NVIDIA",
-            "total_score": 7.0
-          }
-        ],
-        "best_index": 1,
-        "best_score": 7.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "9b7875c73615c026766369abb4a244b9ebc6419629060f05987da6a85bfb3436": {
       "created_at": "2026-07-15T19:24:21Z",
       "payload": {
@@ -1565,34 +1491,6 @@
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "b4204f216043f1c7927605614ea2ec0ffc3b736a712360ca0cb21d5ad3b2eec5": {
-      "created_at": "2026-07-15T09:07:14Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 2,
-            "novelty_score": 3.0,
-            "reason": "New release with significant impact on browser-based ML inference.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Google Releases LiteRT.js: A JavaScript Binding of LiteRT That Runs .tflite Models in Browsers via WebGPU",
-            "total_score": 9.0
-          }
-        ],
-        "best_index": 2,
-        "best_score": 9.0,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Google has launched LiteRT.js, a JavaScript binding that allows .tflite models to run in browsers using WebGPU. This could significantly impact on-device inference. Link: https://www.marktechpost.com/2026/07/15/google-releases-litert-js-a-javascript-binding-of-litert-that-runs-tflite-models-in-browsers-via-webgpu",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Google Releases LiteRT.js: A JavaScript Binding of LiteRT That Runs .tflite Models in Browsers via WebGPU*\n\nGoogle released LiteRT.js, a JavaScript binding of LiteRT for running .tflite models in browsers via WebGPU.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/07/15/google-releases-litert-js-a-javascript-binding-of-litert-that-runs-tflite-models-in-browsers-via-webgpu\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Google's new LiteRT.js brings .tflite model inference to browsers via WebGPU. A big step for on-device ML. https://www.marktechpost.com/2026/07/15/google-releases-litert-js-a-javascript-binding-of-litert-that-runs-tflite-models-in-browsers-via-webgpu/",
-          "twitter": "Google just released LiteRT.js, a JavaScript binding for running .tflite models in browsers via WebGPU. https://www.marktechpost.com/2026/07/15/google-releases-litert-js-a-javascript-binding-of-litert-that-runs-tflite-models-in-browsers-via-webgpu/"
-        }
       }
     },
     "bcb366f395092d2c5bae53ddfddc9860e12fb2b2230008afb1d51540774079d4": {
@@ -2053,15 +1951,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 AI Agent Development Sees Significant Funding\nNous Research is raising at least $75 million in new funding, led by prominent investors, and is now valued at $1.5B. This development signals significant momentum in AI agent development.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #ArtificialIntelligence #TechNews\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Nous Research, the company behind Hermes agent maker, is in talks for new funding at a $1.5B valuation, marking a significant milestone for AI agent development @TechCrunch #AI",
         "twitter": "Nous Research is in talks for new funding at a $1.5B valuation, a significant milestone for AI agent development @TechCrunch #AI"
-      }
-    },
-    "13f636719d0f3a2bbb5130309809aa65be04be4cb751e4c811829933e369f273": {
-      "created_at": "2026-07-09T08:47:58Z",
-      "payload": {
-        "facebook": "NVIDIA has made a significant breakthrough with the release of Nemotron-Labs-3-Puzzle-75B-A9B, a compressed hybrid MoE LLM that delivers 2.03x server throughput at matched user throughput. This development has major implications for AI researchers and developers. #AI #LLM #NVIDIA",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 NVIDIA Releases Compressed Hybrid LLM\nNVIDIA's Nemotron-Labs-3-Puzzle-75B-A9B is a compressed variant of Nemotron-3-Super, offering 2.03x server throughput at matched user throughput.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #LLM #NVIDIA\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "NVIDIA's Nemotron-Labs-3-Puzzle-75B-A9B is a compressed LLM variant that offers 2.03x server throughput at matched user throughput, a significant improvement for AI applications @NVIDIA #AI",
-        "twitter": "NVIDIA's new compressed LLM variant Nemotron-Labs-3-Puzzle-75B-A9B boosts server throughput by 2.03x @NVIDIA #AI"
       }
     },
     "1c008d995cc2842c6c5cf25f81dc3cc22b6d9f803d23f4157c6099bb5148aa4a": {
@@ -3293,12 +3182,6 @@
       "status": "scoring_attempted",
       "title": "Launch HN: Coasty (YC S26) \u2013 An API for computer-use agents"
     },
-    "https://connectsci.au/news/news-parent/9703/Spider-venom-kills-varroa-mites-without-harming": {
-      "canonical_url": "https://connectsci.au/news/news-parent/9703/Spider-venom-kills-varroa-mites-without-harming",
-      "created_at": "2026-07-09T08:47:58Z",
-      "status": "scoring_attempted",
-      "title": "Spider venom kills varroa mites without harming honeybees"
-    },
     "https://davidoks.blog/p/why-american-ambulance-rides-are": {
       "canonical_url": "https://davidoks.blog/p/why-american-ambulance-rides-are",
       "created_at": "2026-07-09T22:57:15Z",
@@ -4475,12 +4358,6 @@
       "status": "scoring_attempted",
       "title": "Gina Gallery of International Naive Art"
     },
-    "https://www.howtogeek.com/why-developers-are-ditching-github-for-codeberg-and-self-hosting-alternatives": {
-      "canonical_url": "https://www.howtogeek.com/why-developers-are-ditching-github-for-codeberg-and-self-hosting-alternatives",
-      "created_at": "2026-07-09T08:47:58Z",
-      "status": "scoring_attempted",
-      "title": "Why developers are ditching GitHub for Codeberg and self-hosting alternatives"
-    },
     "https://www.infoq.com/articles/ai-speed-context-store-architecture": {
       "canonical_url": "https://www.infoq.com/articles/ai-speed-context-store-architecture",
       "created_at": "2026-07-14T09:01:54Z",
@@ -4510,18 +4387,6 @@
       "created_at": "2026-07-10T12:38:28Z",
       "status": "scoring_attempted",
       "title": "Linux Foundation Launches Akrites to Protect Critical Open Source Software from AI-Powered Threats"
-    },
-    "https://www.infoq.com/news/2026/07/alloydb-ai-proxy-models": {
-      "canonical_url": "https://www.infoq.com/news/2026/07/alloydb-ai-proxy-models",
-      "created_at": "2026-07-09T08:47:58Z",
-      "status": "scoring_attempted",
-      "title": "AlloyDB Ships Proxy Models That Replace LLM Calls with Local Inference Inside the Database"
-    },
-    "https://www.infoq.com/news/2026/07/aws-lambda-1m": {
-      "canonical_url": "https://www.infoq.com/news/2026/07/aws-lambda-1m",
-      "created_at": "2026-07-09T08:47:58Z",
-      "status": "scoring_attempted",
-      "title": "AWS Details How One Customer Scaled to One Million Lambda Functions"
     },
     "https://www.infoq.com/news/2026/07/claude-apps-gateway-aws": {
       "canonical_url": "https://www.infoq.com/news/2026/07/claude-apps-gateway-aws",
@@ -4576,12 +4441,6 @@
       "created_at": "2026-07-14T10:54:22Z",
       "status": "scoring_attempted",
       "title": "Google's Genkit Ships Agents API with Detached Turns and Human-in-the-Loop for TypeScript and Go"
-    },
-    "https://www.infoq.com/news/2026/07/kubernetes-ai-policy": {
-      "canonical_url": "https://www.infoq.com/news/2026/07/kubernetes-ai-policy",
-      "created_at": "2026-07-09T08:47:58Z",
-      "status": "scoring_attempted",
-      "title": "The Kubernetes Approach to AI-Assisted Maintainership Prioritises Human Accountability"
     },
     "https://www.infoq.com/news/2026/07/linkerd-2-20-improvements": {
       "canonical_url": "https://www.infoq.com/news/2026/07/linkerd-2-20-improvements",
@@ -4661,18 +4520,6 @@
       "status": "scoring_attempted",
       "title": "Mesh LLM: distributed AI computing on iroh"
     },
-    "https://www.marktechpost.com/2026/07/09/datalab-lift-vs-the-field-how-a-9b-schema-first-extractor-compares-with-nuextract3-llamaextract-marker-and-docling": {
-      "canonical_url": "https://www.marktechpost.com/2026/07/09/datalab-lift-vs-the-field-how-a-9b-schema-first-extractor-compares-with-nuextract3-llamaextract-marker-and-docling",
-      "created_at": "2026-07-09T08:47:58Z",
-      "status": "scoring_attempted",
-      "title": "Datalab Lift vs the Field: How a 9B Schema-First Extractor Compares with NuExtract3, LlamaExtract, Marker, and Docling"
-    },
-    "https://www.marktechpost.com/2026/07/09/google-ai-studio-adds-import-from-github": {
-      "canonical_url": "https://www.marktechpost.com/2026/07/09/google-ai-studio-adds-import-from-github",
-      "created_at": "2026-07-09T08:47:58Z",
-      "status": "scoring_attempted",
-      "title": "Google AI Studio Adds Import from GitHub to Build a Deployable App"
-    },
     "https://www.marktechpost.com/2026/07/09/meet-lingbot-world-infinity-an-open-causal-world-model-with-an-agentic-harness": {
       "canonical_url": "https://www.marktechpost.com/2026/07/09/meet-lingbot-world-infinity-an-open-causal-world-model-with-an-agentic-harness",
       "created_at": "2026-07-10T05:10:09Z",
@@ -4690,12 +4537,6 @@
       "created_at": "2026-07-09T23:08:03Z",
       "status": "scoring_attempted",
       "title": "Meta Superintelligence Labs Releases Muse Spark 1.1: A Multimodal Reasoning Model for Agentic Tasks on Meta Model API"
-    },
-    "https://www.marktechpost.com/2026/07/09/nvidia-releases-nemotron-labs-3-puzzle-75b-a9b-a-compressed-hybrid-moe-llm-delivering-2-03x-server-throughput-at-matched-user-throughput": {
-      "canonical_url": "https://www.marktechpost.com/2026/07/09/nvidia-releases-nemotron-labs-3-puzzle-75b-a9b-a-compressed-hybrid-moe-llm-delivering-2-03x-server-throughput-at-matched-user-throughput",
-      "created_at": "2026-07-09T08:47:58Z",
-      "status": "scoring_attempted",
-      "title": "NVIDIA Releases Nemotron-Labs-3-Puzzle-75B-A9B: A Compressed Hybrid MoE LLM Delivering 2.03x Server Throughput at Matched User Throughput"
     },
     "https://www.marktechpost.com/2026/07/09/openai-releases-gpt-5-6-a-three-tier-model-family-with-programmatic-tool-calling": {
       "canonical_url": "https://www.marktechpost.com/2026/07/09/openai-releases-gpt-5-6-a-three-tier-model-family-with-programmatic-tool-calling",
