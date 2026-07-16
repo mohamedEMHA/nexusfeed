@@ -374,29 +374,6 @@
         "social_posts": {}
       }
     },
-    "54ec97f8712ab8c546f1f5ed0572e28cee03a8c65fba73f920ea940045ab0c5e": {
-      "created_at": "2026-07-15T02:03:07Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Significant industry move with high impact but not novel enough to justify a higher novelty score.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "565b403258919216f2c7ae8a80049d7666b55f9a1256e354e5f4d4a529da7392": {
       "created_at": "2026-07-15T17:59:26Z",
       "payload": {
@@ -498,29 +475,6 @@
         ],
         "best_index": 5,
         "best_score": 3.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "60fd5161414a01050a7f47d16e2a8c6ae6157f604b0f1acf355c10fc783ee00e": {
-      "created_at": "2026-07-15T02:03:07Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Critical security vulnerability in Tailscale SSH with high novelty and impact, but from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "TS-2026-009: Insecure argument handling in Tailscale SSH permitted root access",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1348,6 +1302,29 @@
         ],
         "best_index": 8,
         "best_score": 7.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "a8247158bac505a24b59223b8aa9ea773fa04d35bbf162a1bb8119d15ea6361b": {
+      "created_at": "2026-07-16T02:36:37Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Microsoft's strategic move to position its AI models against competitors is notable but not groundbreaking.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Microsoft is reportedly training salespeople to talk down OpenAI and Anthropic",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -2281,12 +2258,6 @@
       "created_at": "2026-07-11T20:41:06Z",
       "status": "scoring_attempted",
       "title": "Show HN: Ant \u2013 A JavaScript Runtime and Ecosystem"
-    },
-    "https://apnews.com/article/john-deere-right-to-repair-agriculture-equipment-cb7514ffedb95c130a976af661f2bc02": {
-      "canonical_url": "https://apnews.com/article/john-deere-right-to-repair-agriculture-equipment-cb7514ffedb95c130a976af661f2bc02",
-      "created_at": "2026-07-09T01:03:48Z",
-      "status": "scoring_attempted",
-      "title": "John Deere owners will get the right to repair equipment under FTC settlement"
     },
     "https://arcaide.foo": {
       "canonical_url": "https://arcaide.foo",
@@ -3386,12 +3357,6 @@
       "status": "scoring_attempted",
       "title": "The AI Whale Fall and Open Source"
     },
-    "https://mira-wm.com": {
-      "canonical_url": "https://mira-wm.com",
-      "created_at": "2026-07-09T01:03:48Z",
-      "status": "scoring_attempted",
-      "title": "MIRA: Multiplayer Interactive World Models Trained on Rocket League"
-    },
     "https://mrzk.io/posts/qmlx-maximising-ai-psychosis-minmaxing-mac-studio": {
       "canonical_url": "https://mrzk.io/posts/qmlx-maximising-ai-psychosis-minmaxing-mac-studio",
       "created_at": "2026-07-12T04:40:20Z",
@@ -3943,6 +3908,12 @@
       "created_at": "2026-07-15T12:23:13Z",
       "status": "scoring_attempted",
       "title": "Indian AI coding startup Emergent becomes a unicorn with $130M Series C"
+    },
+    "https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic": {
+      "canonical_url": "https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic",
+      "created_at": "2026-07-16T02:36:37Z",
+      "status": "scoring_attempted",
+      "title": "Microsoft is reportedly training salespeople to talk down OpenAI and Anthropic"
     },
     "https://techcrunch.com/2026/07/15/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai": {
       "canonical_url": "https://techcrunch.com/2026/07/15/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai",
@@ -5143,12 +5114,6 @@
       "created_at": "2026-07-10T22:12:17Z",
       "status": "scoring_attempted",
       "title": "GPT-5.6, Grok 4.5, Claude, and Muse Spark build the same 4 apps"
-    },
-    "https://www.tryai.dev/blog/grok-4.5-vs-gpt-5.5-vs-claude-build-off": {
-      "canonical_url": "https://www.tryai.dev/blog/grok-4.5-vs-gpt-5.5-vs-claude-build-off",
-      "created_at": "2026-07-09T01:03:48Z",
-      "status": "scoring_attempted",
-      "title": "We made Grok 4.5, GPT-5.5, and Claude build the same apps"
     },
     "https://www.whois.com/whois/t.me": {
       "canonical_url": "https://www.whois.com/whois/t.me",
