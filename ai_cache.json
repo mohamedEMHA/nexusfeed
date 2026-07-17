@@ -177,29 +177,6 @@
         "social_posts": {}
       }
     },
-    "0bfbffbae1927052ff260f477c78c50823170d8e48f5a4df0f4e404a44e5a00c": {
-      "created_at": "2026-07-16T22:29:23Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 7,
-            "novelty_score": 2.5,
-            "reason": "New tool for automating playwright script fixes, but niche impact and lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Show HN: Libretto PR agents \u2013 Automatically fix failing playwright scripts",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 7,
-        "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "0c0b9c91245d9c291a2350332ef203b1682e6145cc2f67a4f9cc11c96cd467e9": {
       "created_at": "2026-07-17T10:56:38Z",
       "payload": {
@@ -384,6 +361,29 @@
         ],
         "best_index": 2,
         "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "29fa78475bc15c7b4be0324075abaee12048fa7116dc87f6f56b1ebd1eb772f2": {
+      "created_at": "2026-07-17T22:44:28Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Impactful but not highly novel; source is low tier.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Kaiser nurses say AI, workplace surveillance are making their jobs, care worse",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -575,29 +575,6 @@
           "threads": "Apple's lawsuit against OpenAI alleges trade secret theft by 400+ former employees, potentially disrupting OpenAI's IPO plans. https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans/",
           "twitter": "Apple's lawsuit against OpenAI could derail its IPO plans, alleging trade secret theft by over 400 former Apple employees.\nhttps://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans/"
         }
-      }
-    },
-    "74acebecbbc61d6c12b10a8fc32397e85c900197071a515b9b9b2ee95e9802a6": {
-      "created_at": "2026-07-16T22:29:23Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "New AI-powered characters in Fortnite, but impact is limited to game developers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Fortnite is getting a bunch of AI-powered \u0018personas\u0019",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 2,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "7d12981e591bb68b2eb4e423335af83d89446e0ce26f0088d7e4bdd3bc8ade4e": {
@@ -948,29 +925,6 @@
         "social_posts": {}
       }
     },
-    "dd6a88869054cbb0978ed4226607a407c6f5cddc5b941c535921b114a91b5982": {
-      "created_at": "2026-07-16T22:29:23Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Red flag detected: 'what to know'",
-            "red_flag": true,
-            "red_flag_reason": "what to know",
-            "source_score": 1.5,
-            "title": "Why Apple Sued OpenAI, New York Takes on Data Centers, and What to Know about Cyclosporiasis",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 8.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "dee7090a48a56ad030b812342842146fb7a7ed5459287d75c8fae9b9a81eac6b": {
       "created_at": "2026-07-17T19:50:46Z",
       "payload": {
@@ -1018,29 +972,6 @@
         ],
         "best_index": 0,
         "best_score": 8.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "e51c15b63731015cbca73b7abd66320fef33f2f63c5d2a4545e3846d51ea1ca8": {
-      "created_at": "2026-07-16T22:29:23Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 0.5,
-            "index": 0,
-            "novelty_score": 0.2,
-            "reason": "Tutorial-style content with low novelty and impact.",
-            "red_flag": true,
-            "red_flag_reason": "tutorial",
-            "source_score": 0.5,
-            "title": "FIFA World Cup 2026 Data Portraits",
-            "total_score": 3.2
-          }
-        ],
-        "best_index": 0,
-        "best_score": 3.2,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -2929,6 +2860,12 @@
       "created_at": "2026-07-16T21:27:01Z",
       "status": "scoring_attempted",
       "title": "LM Studio Bionic: the AI agent for open models"
+    },
+    "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse": {
+      "canonical_url": "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse",
+      "created_at": "2026-07-17T22:44:28Z",
+      "status": "scoring_attempted",
+      "title": "Kaiser nurses say AI, workplace surveillance are making their jobs, care worse"
     },
     "https://lwn.net/SubscriberLink/1080822/990a8a5e2d379085": {
       "canonical_url": "https://lwn.net/SubscriberLink/1080822/990a8a5e2d379085",
