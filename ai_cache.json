@@ -614,6 +614,34 @@
         }
       }
     },
+    "6564e1629d06036a8740848547c73db0a2944fadce76a9c2641cc793e2d485c6": {
+      "created_at": "2026-07-17T18:43:10Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Apple suing OpenAI over trade secrets could have significant implications for OpenAI's IPO plans.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "How Apple\u2019s big lawsuit could disrupt OpenAI\u2019s IPO plans",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Apple has filed a significant lawsuit against OpenAI, alleging trade secret theft by over 400 former employees. This could disrupt OpenAI's IPO plans. The complaint reaches up to OpenAI's chief hardware officer. Link: https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\ud83d\udd25 Apple\u2019s Lawsuit Against OpenAI Could Disrupt IPO Plans\n\nApple has filed a lawsuit against OpenAI, alleging trade secret theft by over 400 former employees. The complaint reaches up to OpenAI's chief hardware officer and could disrupt OpenAI's IPO plans.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans/",
+          "threads": "Apple's lawsuit against OpenAI alleges trade secret theft by 400+ former employees, potentially disrupting OpenAI's IPO plans. https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans/",
+          "twitter": "Apple's lawsuit against OpenAI could derail its IPO plans, alleging trade secret theft by over 400 former Apple employees.\nhttps://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans/"
+        }
+      }
+    },
     "6c6a63d19238ffcc227c8ef7d8f4c4436ea9c848d65e2a31ff276b1cf92e74f0": {
       "created_at": "2026-07-16T21:27:01Z",
       "payload": {
@@ -700,29 +728,6 @@
         "social_posts": {}
       }
     },
-    "804af32eb764a3fbd8cd284828329ff1cfb1d6d8f344882a3331c08f08960f22": {
-      "created_at": "2026-07-16T17:58:26Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "AI-generated unauthorized biography raises ethical and legal questions.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Someone Used AI to Write an Unauthorized Biography of Me",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 3,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "89014f9bf2d0d4d1e46977f4837f664e4e66e1ddb7a8c9d48e7f5c95f6b8984d": {
       "created_at": "2026-07-16T20:15:26Z",
       "payload": {
@@ -781,52 +786,6 @@
         "social_posts": {}
       }
     },
-    "93ac0c0d4e6e866697181030520b7ee42cf1d609f15c155d8a01299b05bd2c78": {
-      "created_at": "2026-07-16T17:58:26Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 8,
-            "novelty_score": 2.5,
-            "reason": "New tool for agent development with moderate impact and freshness, but lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Show HN: Ratel, give agents unlimited tools and skills without context bloat",
-            "total_score": 6.0
-          }
-        ],
-        "best_index": 8,
-        "best_score": 6.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "a1751c5c73c41faa0ce60268c778b040ffe9569495a814852c35549b651e9d21": {
-      "created_at": "2026-07-16T17:58:26Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "New product launch but limited impact and from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Launch HN: Traceforce (YC S26) \u2013 Company-wide security monitoring for AI apps",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 2,
-        "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "a2dc02611e78ce769c85ee87990ae7bf9e931cd2f105de1e330d78976fa689ef": {
       "created_at": "2026-07-16T20:15:26Z",
       "payload": {
@@ -853,41 +812,6 @@
           "threads": "Hyundai's plan to deploy 25,000 humanoid robots by 2028 is causing worker strikes. This is a major step in automation that could redefine labor dynamics.\nhttps://arstechnica.com/ai/2026/07/fear-of-humanoid-robots-spurs-human-workers-to-strike-at-hyundai-auto-factory/",
           "twitter": "Hyundai's plan to deploy 25,000 humanoid robots sparks worker strikes. The future of labor is being written now.\nhttps://arstechnica.com/ai/2026/07/fear-of-humanoid-robots-spurs-human-workers-to-strike-at-hyundai-auto-factory/"
         }
-      }
-    },
-    "a71d821b70038379ea3cb65fa4e01ed5f6988ebdc6af87d92df7a1699da6b842": {
-      "created_at": "2026-07-16T17:58:26Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 1.5,
-            "reason": "Price drop on consumer electronics rarely impacts software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Ecovacs\u2019 self-cleaning Deebot X11 has hit a new low price",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.0,
-            "reason": "EU's decision on Google's AI access impacts the broader AI ecosystem, but not a major shift.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Google is better at playing the AI regulations game",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "a9bfd5b20f19d1eb3f96e28eb9d3d9f9667ca27ef49851b258a692bc52ac20e4": {
@@ -1384,6 +1308,29 @@
         "social_posts": {}
       }
     },
+    "f38bf886e9b4186b38a3eacc472c51cb09844e2c9f384c6113ba80900e829674": {
+      "created_at": "2026-07-17T18:43:10Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "Research on homomorphic encryption for CIFAR-10 inference, but limited impact and lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Homomorphically encrypted CIFAR-10 inference in 200ms",
+            "total_score": 6.0
+          }
+        ],
+        "best_index": 3,
+        "best_score": 6.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "f89df9bf3a2565e3f117bae04c983b4a3c154e3702b456b36325173cfd540f2b": {
       "created_at": "2026-07-17T07:35:08Z",
       "payload": {
@@ -1755,15 +1702,6 @@
         "twitter": "China's AI landscape is about to get a boost with Moonshot's Kimi 3, expected to close the gap with Anthropic's Opus 4.8 @TechCrunch #AI"
       }
     },
-    "a5e5f0d7b74c921555344034d3370924172a017432a1940304b876143f2e6765": {
-      "created_at": "2026-07-10T18:08:38Z",
-      "payload": {
-        "facebook": "The AI chip industry just saw its largest foreign IPO in US history with SK Hynix raising $26.5B, now there are calls for the company to build new factories in the US. This move could have significant implications for the global AI chip supply chain. #AIChips #USInvestment #TechIndustry",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 SK Hynix Raises $26.5B in Historic IPO\nThe company's massive IPO has sparked calls for new US factories, which could significantly impact the global AI chip supply chain.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AIChips #USInvestment #TechIndustry\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "SK Hynix's massive $26.5B IPO is being seen as a major win for the AI chip industry, with many now urging the company to build new US factories @TechCrunch #AIChips",
-        "twitter": "SK Hynix's $26.5B IPO is a major milestone for AI chip development @TechCrunch #AIChips #USInvestment"
-      }
-    },
     "a7a30557c785c130b1e85737aa91ea43c1b7cea0d69fc3a1b55b2bcf5485a7d5": {
       "created_at": "2026-07-10T20:58:25Z",
       "payload": {
@@ -1825,6 +1763,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Meta Removes AI Feature From Instagram\nMeta has decided to remove a contentious AI feature from Instagram after receiving substantial criticism from its users.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AIethics #Technews #Socialmedia",
         "threads": "Meta has withdrawn a disputed AI feature on Instagram due to user criticism, a move that underscores the need for responsible AI implementation @Meta #AIdevelopment",
         "twitter": "Meta backs down on a contentious AI feature for Instagram after user pushback @TechCrunch #AIethics"
+      }
+    },
+    "c9df3733509fecba9f4fa3aafda2b8a233cbeec048f7e71e42ac99e631c91d80": {
+      "created_at": "2026-07-17T18:43:10Z",
+      "payload": {
+        "facebook": "A recent lawsuit filed by Apple against OpenAI alleges a pattern of misconduct and claims that many former Apple employees now work at OpenAI. This development could have significant implications for OpenAI's plans to go public. #AI #TechLaw #IPO",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Apple sues OpenAI over trade secrets, potentially disrupting IPO plans.\nThe lawsuit alleges misconduct and notes over 400 former Apple employees now work at OpenAI.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #TechLaw #IPO\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Apple's lawsuit against OpenAI over trade secrets could disrupt the company's IPO plans, especially given the large number of former Apple employees now at OpenAI @OpenAI #AI",
+        "twitter": "Apple's trade secrets lawsuit against OpenAI could jeopardize the company's IPO plans, with over 400 former Apple employees now at OpenAI @OpenAI #AI"
       }
     },
     "ce60ebd1977af6685ea861b81e4b0492d16fd61d5d3222a520cffa22c245aa15": {
@@ -3107,12 +3054,6 @@
       "status": "scoring_attempted",
       "title": "Show HN: Libretto PR agents \u2013 Automatically fix failing playwright scripts"
     },
-    "https://lists.osgeo.org/pipermail/qgis-developer/2026-July/068430.html": {
-      "canonical_url": "https://lists.osgeo.org/pipermail/qgis-developer/2026-July/068430.html",
-      "created_at": "2026-07-10T18:08:38Z",
-      "status": "scoring_attempted",
-      "title": "Anyone else get a vague GitHub shakedown notice?"
-    },
     "https://lmstudio.ai/blog/introducing-lm-studio-bionic": {
       "canonical_url": "https://lmstudio.ai/blog/introducing-lm-studio-bionic",
       "created_at": "2026-07-16T21:27:01Z",
@@ -3208,12 +3149,6 @@
       "created_at": "2026-07-16T05:26:54Z",
       "status": "scoring_attempted",
       "title": "A better way to turn 2D designs into 3D models for rapid prototyping"
-    },
-    "https://news.ycombinator.com/item?id=48863171": {
-      "canonical_url": "https://news.ycombinator.com/item?id=48863171",
-      "created_at": "2026-07-10T18:08:38Z",
-      "status": "scoring_attempted",
-      "title": "Ask HN: What was the last task where only a frontier model could do it?"
     },
     "https://news.ycombinator.com/item?id=48886741": {
       "canonical_url": "https://news.ycombinator.com/item?id=48886741",
@@ -3347,6 +3282,12 @@
       "status": "scoring_attempted",
       "title": "Privacy Incidents \u2013 Real-world examples of why your photos need protection"
     },
+    "https://sofar.belfortlabs.cloud": {
+      "canonical_url": "https://sofar.belfortlabs.cloud",
+      "created_at": "2026-07-17T18:43:10Z",
+      "status": "scoring_attempted",
+      "title": "Homomorphically encrypted CIFAR-10 inference in 200ms"
+    },
     "https://spectrum.ieee.org/ai-science-research-flattens-discovery": {
       "canonical_url": "https://spectrum.ieee.org/ai-science-research-flattens-discovery",
       "created_at": "2026-07-12T14:21:31Z",
@@ -3418,12 +3359,6 @@
       "created_at": "2026-07-10T23:58:46Z",
       "status": "scoring_attempted",
       "title": "Meta removes controversial AI feature on Instagram after backlash"
-    },
-    "https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs": {
-      "canonical_url": "https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs",
-      "created_at": "2026-07-10T18:08:38Z",
-      "status": "scoring_attempted",
-      "title": "SK Hynix raises $26.5B in the biggest foreign IPO in US history, is urged to build new US fabs"
     },
     "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households": {
       "canonical_url": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households",
@@ -3736,6 +3671,12 @@
       "created_at": "2026-07-10T19:50:26Z",
       "status": "scoring_attempted",
       "title": "Open source AI matters more than ever, according to Hugging Face\u2019s Clem Delangue"
+    },
+    "https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans": {
+      "canonical_url": "https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans",
+      "created_at": "2026-07-17T18:43:10Z",
+      "status": "scoring_attempted",
+      "title": "How Apple\u2019s big lawsuit could disrupt OpenAI\u2019s IPO plans"
     },
     "https://techcrunch.com/video/inside-ode-with-anthropic-the-startup-betting-ai-services-are-the-future-of-enterprise": {
       "canonical_url": "https://techcrunch.com/video/inside-ode-with-anthropic-the-startup-betting-ai-services-are-the-future-of-enterprise",
@@ -4253,12 +4194,6 @@
       "status": "scoring_attempted",
       "title": "NVIDIA AI Releases Nemotron 3 Embed: An Open Embedding Collection Whose 8B Checkpoint Ranks #1 on RTEB"
     },
-    "https://www.microcenter.com/site/mc-news/article/amd-ryzen-ai-halo-review.aspx": {
-      "canonical_url": "https://www.microcenter.com/site/mc-news/article/amd-ryzen-ai-halo-review.aspx",
-      "created_at": "2026-07-10T18:08:38Z",
-      "status": "scoring_attempted",
-      "title": "Hands-On with the AMD Ryzen AI Halo"
-    },
     "https://www.mixfont.com/ghost-font": {
       "canonical_url": "https://www.mixfont.com/ghost-font",
       "created_at": "2026-07-11T15:42:25Z",
@@ -4324,12 +4259,6 @@
       "created_at": "2026-07-15T22:33:43Z",
       "status": "scoring_attempted",
       "title": "Governments, companies, nonprofits should invest in free, open source AI [pdf]"
-    },
-    "https://www.smithsonianmag.com/smart-news/spider-silk-loses-top-spot-natures-strongest-material-snails-teeth-180954346": {
-      "canonical_url": "https://www.smithsonianmag.com/smart-news/spider-silk-loses-top-spot-natures-strongest-material-snails-teeth-180954346",
-      "created_at": "2026-07-10T18:08:38Z",
-      "status": "scoring_attempted",
-      "title": "Snails' Teeth Beats Spider Silk as Nature's Strongest Material (2015)"
     },
     "https://www.theatlantic.com/technology/2026/07/generative-ai-engineering-disaster/687901": {
       "canonical_url": "https://www.theatlantic.com/technology/2026/07/generative-ai-engineering-disaster/687901",
@@ -4577,12 +4506,6 @@
       "status": "scoring_attempted",
       "title": "Kalshi says it caught Trump&#8217;s teleprompter operator insider trading"
     },
-    "https://www.theverge.com/podcast/964082/netflix-youtube-smart-glasses-vergecast": {
-      "canonical_url": "https://www.theverge.com/podcast/964082/netflix-youtube-smart-glasses-vergecast",
-      "created_at": "2026-07-10T18:08:38Z",
-      "status": "scoring_attempted",
-      "title": "Netflix is turning into YouTube"
-    },
     "https://www.theverge.com/podcast/964614/nvidia-auto-xinzhou-wu-ev-ai-hyperion-autonomy-cars-tesla": {
       "canonical_url": "https://www.theverge.com/podcast/964614/nvidia-auto-xinzhou-wu-ev-ai-hyperion-autonomy-cars-tesla",
       "created_at": "2026-07-13T15:36:16Z",
@@ -4696,12 +4619,6 @@
       "created_at": "2026-07-15T12:23:13Z",
       "status": "scoring_attempted",
       "title": "Home Depot\u2019s viral 12-foot skeleton now talks"
-    },
-    "https://www.theverge.com/tech/964121/sk-hynix-nvidia-ram-stock-market-debut": {
-      "canonical_url": "https://www.theverge.com/tech/964121/sk-hynix-nvidia-ram-stock-market-debut",
-      "created_at": "2026-07-10T18:08:38Z",
-      "status": "scoring_attempted",
-      "title": "Nvidia&#8217;s biggest RAM supplier just had a trillion-dollar debut on Wall Street"
     },
     "https://www.theverge.com/tech/964307/apple-public-betas-ios-27-siri-ai": {
       "canonical_url": "https://www.theverge.com/tech/964307/apple-public-betas-ios-27-siri-ai",
