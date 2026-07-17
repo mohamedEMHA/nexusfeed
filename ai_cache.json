@@ -1,5 +1,57 @@
 {
   "cerebras_scoring": {
+    "032806afc1c4c475ba2f156bd640237c65b0b0c35c0cad01d573ebf49ea79f42": {
+      "created_at": "2026-07-17T16:36:17Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Regulatory action against major tech companies over AI ethics.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "San Francisco orders Apple, Google to remove nudify apps from app stores",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 1,
+            "novelty_score": 2,
+            "reason": "Funding round for healthcare AI, but lacks specific technical details.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Bunkerhill raises $55M to scale agentic AI across health systems",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 3,
+            "reason": "New tooling for fine-tuning video and image models at scale from a top-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 2,
+            "title": "Fine-tune video and image models at scale with NVIDIA NeMo Automodel and \ud83e\udd17 Diffusers",
+            "total_score": 9.5
+          }
+        ],
+        "best_index": 2,
+        "best_score": 9.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "NVIDIA and Hugging Face have released new tools for fine-tuning video and image models at scale. The collaboration combines NVIDIA's NeMo Automodel with Hugging Face's Diffusers, offering developers advanced capabilities for customizing generative AI models. This is a significant step forward for AI model training and deployment.\nLink: https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Fine-tune video and image models at scale with NVIDIA NeMo Automodel and \ud83e\udd17 Diffusers*\n\nNVIDIA and Hugging Face have released new tools for fine-tuning video and image models at scale. The collaboration combines NVIDIA's NeMo Automodel with Hugging Face's Diffusers, offering developers advanced capabilities for customizing generative AI models.\n\n\ud83c\udfdb\ufe0f Source: HuggingFace (S)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.5/10\n\n\ud83d\udd17 https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "NVIDIA and Hugging Face just dropped new tools for fine-tuning video and image models at scale. NeMo Automodel + Diffusers is now available.\nhttps://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
+          "twitter": "NVIDIA and Hugging Face team up to fine-tune video and image models at scale with NeMo Automodel and Diffusers.\nhttps://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel"
+        }
+      }
+    },
     "05b99a2731735a035fbd338611aae6f4cfcd70f7fed9b44b4c3e9a8dd98f2d43": {
       "created_at": "2026-07-17T05:28:54Z",
       "payload": {
@@ -323,6 +375,41 @@
         ],
         "best_index": 4,
         "best_score": 3.2,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "1a301c0e5bbc664f8c333b6a79822d57f08d07f67d23217a1c89ebc9e7133c64": {
+      "created_at": "2026-07-17T16:36:17Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 9,
+            "novelty_score": 2.5,
+            "reason": "Interesting concept but niche impact and low-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Show HN: On-chain bond market where the issuers are AI agents",
+            "total_score": 5.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 10,
+            "novelty_score": 2.5,
+            "reason": "Relevant research but low-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Kimi K3, and what we can still learn from the pelican benchmark",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 10,
+        "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -685,29 +772,6 @@
         }
       }
     },
-    "6b3f34ec2564e7770bdab9962cdb87541ee1196320602224204e364b3969471d": {
-      "created_at": "2026-07-16T15:37:17Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "Insightful interview with Proton's CTO on privacy and policy, but not a groundbreaking release or research.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "\u2018No company is going to go to jail for you\u2019: Proton\u2019s CTO on balancing privacy, policy, and trust",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 3,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "6c6a63d19238ffcc227c8ef7d8f4c4436ea9c848d65e2a31ff276b1cf92e74f0": {
       "created_at": "2026-07-16T21:27:01Z",
       "payload": {
@@ -745,34 +809,6 @@
           "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *xAI can\u2019t deny Grok makes CSAM anymore. So it\u2019s suing users.*\n\nElon Musk's xAI files first lawsuit against Grok user accused of making child sex images.\n\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
           "threads": "xAI is taking legal action against a Grok user accused of creating CSAM, setting a precedent in AI ethics. This is a major development in the ongoing debate over AI accountability. https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users/",
           "twitter": "xAI is suing users over CSAM, marking a sharp turn in AI ethics and legal accountability.\nhttps://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users/"
-        }
-      }
-    },
-    "72ac717bd7cb2871f61d22680f4ee2fa2cb2518dd9731b137a633e85d9035d96": {
-      "created_at": "2026-07-16T15:37:17Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "OpenAI's first hardware release is notable but niche in impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Why is OpenAI selling a ChatGPT basketball?",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "OpenAI has released its first piece of hardware: a ChatGPT-branded basketball. While unusual, it's a clever way to extend the brand into physical spaces. The move raises questions about OpenAI's strategy beyond software.\nLink: https://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *OpenAI releases first hardware product: ChatGPT basketball*\n\nOpenAI has launched its first piece of hardware, a ChatGPT-branded basketball. The move is unusual for an AI company but could signal a new direction in branding.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball/",
-          "threads": "OpenAI just launched a ChatGPT basketball. First hardware product from the AI giant. What's the angle here?\nhttps://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball/",
-          "twitter": "OpenAI just launched its first hardware: a ChatGPT-branded basketball. What's the play here?\nhttps://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball/"
         }
       }
     },
@@ -901,34 +937,6 @@
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "8ef9430709f71d43d0397605182754b71d8a4d9adb4784f0f661f921de13159d": {
-      "created_at": "2026-07-16T15:37:17Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Andrew Dai's insights on visual AI as the next frontier, backed by his DeepMind experience, make this a notable piece for AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Andrew Dai, a former DeepMind researcher, has raised a $300M pre-seed valuation before launching a product. He shares why he believes visual AI is the next major frontier in artificial intelligence, drawing on over a decade of experience building influential AI systems. Link: https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Andrew Dai, a former DeepMind researcher, raised a $300M pre-seed valuation before launching a product*\n\nAndrew Dai, drawing on over a decade of experience building influential AI systems, explains why he believes visual AI is one of the next major frontiers in artificial intelligence.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/",
-          "threads": "Andrew Dai, ex-DeepMind, just raised $300M pre-seed for visual AI. He explains why it's the next frontier, backed by a decade of building influential AI systems.\nhttps://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/",
-          "twitter": "Andrew Dai, ex-DeepMind, reveals why visual AI is the next frontier, backed by a $300M pre-seed valuation.\nhttps://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/"
-        }
       }
     },
     "93ac0c0d4e6e866697181030520b7ee42cf1d609f15c155d8a01299b05bd2c78": {
@@ -1391,6 +1399,41 @@
         "social_posts": {}
       }
     },
+    "e688fc3460dde1b3b70f795afc8758db9cff6101ea81f25173d6db653bd67cb8": {
+      "created_at": "2026-07-17T16:36:17Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 3,
+            "novelty_score": 1.5,
+            "reason": "Leak of Samsung's upcoming foldable phone design, but not a major technical or software engineering breakthrough.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Samsung\u2019s redesigned Z Fold 8 with a wide display just leaked",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.0,
+            "index": 4,
+            "novelty_score": 0.5,
+            "reason": "Opinion piece on a niche EV, not a significant development in software engineering or AI.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Is America ready for this quirky Jeep-looking EV that can park itself?",
+            "total_score": 5.0
+          }
+        ],
+        "best_index": 3,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "eb4c34683ae476d6d421920735a02c5af4d977087eb6285106a738a82fa37675": {
       "created_at": "2026-07-17T12:08:47Z",
       "payload": {
@@ -1435,6 +1478,46 @@
         "best_score": 5.5,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "eca12315a78f72f37d7d06445d99dec0250818adc5c617fb655a63d37d858c59": {
+      "created_at": "2026-07-17T16:36:17Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 5,
+            "novelty_score": 2.5,
+            "reason": "Interesting case of crypto theft via gaming malware, but impact is somewhat niche.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Florida man arrested for allegedly stealing over $200,000 in crypto using Steam game malware",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 6,
+            "novelty_score": 2.5,
+            "reason": "Significant move by Patreon to actively block AI scraping, impacting content creators and AI training practices.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Patreon stops asking AI bots not to scrape \u2014 and starts blocking them",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 6,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Patreon is taking a stronger stance against AI scraping by working with Cloudflare to block bots that train AI models on creators' content without permission. This move marks a significant shift from relying on robots.txt to actively preventing unauthorized AI training. Link: https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Patreon stops asking AI bots not to scrape \u2014 and starts blocking them*\n\nPatreon is now actively blocking AI bots from scraping creator content, working with Cloudflare to enforce this policy.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Patreon is now blocking AI bots from scraping creator content, a major shift in policy. They're working with Cloudflare to enforce this. https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/",
+          "twitter": "Patreon is now actively blocking AI bots from scraping creator content, a major shift from previous policies.\nhttps://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/"
+        }
       }
     },
     "ef8f4e4f959ec4620987bb71daffefe4c05e8113275afa637da578787c5998a7": {
@@ -1582,6 +1665,15 @@
         "twitter": "Nous Research is in talks for new funding at a $1.5B valuation, a significant milestone for AI agent development @TechCrunch #AI"
       }
     },
+    "16bdd1284e666d0c5cc05663b519853c3e6abef15482b8366ab3cdca3e59bdcc": {
+      "created_at": "2026-07-17T16:36:17Z",
+      "payload": {
+        "facebook": "Fine-tuning video and image models just got a significant boost with the introduction of NVIDIA NeMo Automodel and Diffusers. This development is particularly noteworthy given the potential applications in various fields. #AI #MachineLearning #ComputerVision",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Fine-tuning video and image models at scale is now possible with NVIDIA NeMo Automodel and Diffusers.\nNVIDIA's new tooling enables efficient fine-tuning of models.\n\ud83c\udfdb\ufe0f Source: HuggingFace (S)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.5/10\n#AI #MachineLearning #ComputerVision\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "NVIDIA NeMo Automodel and Diffusers are set to change the landscape of video and image model fine-tuning at scale @NVIDIA #AI",
+        "twitter": "NVIDIA NeMo Automodel and Diffusers enable large-scale fine-tuning of video and image models @NVIDIA #AI"
+      }
+    },
     "1c008d995cc2842c6c5cf25f81dc3cc22b6d9f803d23f4157c6099bb5148aa4a": {
       "created_at": "2026-07-13T18:18:14Z",
       "payload": {
@@ -1652,15 +1744,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Microsoft Streamlines Windows Search\nMicrosoft is testing a cleaner version of the Windows 11 search menu that strips it of recommended content and ads.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#Windows11 #Microsoft #TechNews\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Microsoft is testing a cleaner version of its Windows 11 search menu, removing ads and recommended content @Microsoft #Windows11",
         "twitter": "Microsoft is streamlining its Windows 11 search menu by removing ads and recommended content @Microsoft #Windows11"
-      }
-    },
-    "44ffe2cc54a6760e8e2554d33152e51d1d969499e590eeaa239e790d7832a3fc": {
-      "created_at": "2026-07-10T16:26:36Z",
-      "payload": {
-        "facebook": "The EU's Digital Services Act is forcing Meta to reconsider its platform design, specifically auto-play and infinite scroll features, this change could impact all users, #DigitalServicesAct #Meta #EU",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 EU warns Meta to change platform design\nThe EU's Digital Services Act may force Meta to disable auto-play and infinite scroll on its platforms, affecting all users.\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#DigitalServicesAct #Meta #EU\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "The EU is taking a strong stance against Meta, warning the company to disable auto-play and infinite scroll or face massive fines, @Meta this move is part of the Digital Services Act #Meta",
-        "twitter": "Meta faces massive fines if it doesn't disable auto-play and infinite scroll on its platforms, says EU, @Meta must comply with Digital Services Act #Meta"
       }
     },
     "48668aa887cf67a63c92bed4bd9ae205aaef6a5b480d362e04f83899f8fdf927": {
@@ -2118,17 +2201,17 @@
       "status": "scoring_attempted",
       "title": "Now, defenders are embracing the prompt injection, too"
     },
+    "https://arstechnica.com/tech-policy/2026/07/apple-google-must-stop-profiting-off-ai-nudify-apps-san-francisco-ag-says": {
+      "canonical_url": "https://arstechnica.com/tech-policy/2026/07/apple-google-must-stop-profiting-off-ai-nudify-apps-san-francisco-ag-says",
+      "created_at": "2026-07-17T16:36:17Z",
+      "status": "scoring_attempted",
+      "title": "San Francisco orders Apple, Google to remove nudify apps from app stores"
+    },
     "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets": {
       "canonical_url": "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets",
       "created_at": "2026-07-13T19:54:25Z",
       "status": "scoring_attempted",
       "title": "Apple sues OpenAI after ex-engineer allegedly used bug to steal trade secrets"
-    },
-    "https://arstechnica.com/tech-policy/2026/07/disable-auto-play-and-infinite-scroll-or-risk-massive-fines-eu-tells-meta": {
-      "canonical_url": "https://arstechnica.com/tech-policy/2026/07/disable-auto-play-and-infinite-scroll-or-risk-massive-fines-eu-tells-meta",
-      "created_at": "2026-07-10T16:26:36Z",
-      "status": "scoring_attempted",
-      "title": "Disable auto-play and infinite scroll or risk massive fines, EU tells Meta"
     },
     "https://arstechnica.com/tech-policy/2026/07/lawsuit-claims-metas-layoff-decisions-were-made-by-ai-not-humans": {
       "canonical_url": "https://arstechnica.com/tech-policy/2026/07/lawsuit-claims-metas-layoff-decisions-were-made-by-ai-not-humans",
@@ -3102,6 +3185,12 @@
       "status": "scoring_attempted",
       "title": "NVIDIA Nemotron 3 Embed Ranks #1 Overall on RTEB, Advancing Agentic Retrieval"
     },
+    "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel": {
+      "canonical_url": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
+      "created_at": "2026-07-17T16:36:17Z",
+      "status": "scoring_attempted",
+      "title": "Fine-tune video and image models at scale with NVIDIA NeMo Automodel and \ud83e\udd17 Diffusers"
+    },
     "https://huggingface.co/blog/real-world-voiceeq": {
       "canonical_url": "https://huggingface.co/blog/real-world-voiceeq",
       "created_at": "2026-07-15T15:24:33Z",
@@ -3378,11 +3467,23 @@
       "status": "scoring_attempted",
       "title": "Bonsai 27B (1-bit LLM): The First 27B-Class Model to Run on a Phone"
     },
+    "https://selbonds.now": {
+      "canonical_url": "https://selbonds.now",
+      "created_at": "2026-07-17T16:36:17Z",
+      "status": "scoring_attempted",
+      "title": "Show HN: On-chain bond market where the issuers are AI agents"
+    },
     "https://shkspr.mobi/blog/2026/07/another-ridiculous-interrail-holiday-6379km-and-13-countries-over-7-weeks": {
       "canonical_url": "https://shkspr.mobi/blog/2026/07/another-ridiculous-interrail-holiday-6379km-and-13-countries-over-7-weeks",
       "created_at": "2026-07-13T09:18:49Z",
       "status": "scoring_attempted",
       "title": "Interrail: 6,379Km and 13 Countries over 7 weeks"
+    },
+    "https://simonwillison.net/2026/Jul/16/kimi-k3": {
+      "canonical_url": "https://simonwillison.net/2026/Jul/16/kimi-k3",
+      "created_at": "2026-07-17T16:36:17Z",
+      "status": "scoring_attempted",
+      "title": "Kimi K3, and what we can still learn from the pelican benchmark"
     },
     "https://sleuth-io.github.io/sx/2026/07/10/your-dropbox-is-now-a-skill-server.html": {
       "canonical_url": "https://sleuth-io.github.io/sx/2026/07/10/your-dropbox-is-now-a-skill-server.html",
@@ -3768,6 +3869,12 @@
       "status": "scoring_attempted",
       "title": "Yes, you can now order DoorDash from the command line"
     },
+    "https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them": {
+      "canonical_url": "https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them",
+      "created_at": "2026-07-17T16:36:17Z",
+      "status": "scoring_attempted",
+      "title": "Patreon stops asking AI bots not to scrape \u2014 and starts blocking them"
+    },
     "https://techcrunch.com/2026/07/17/why-the-first-gpu-financiers-are-turning-to-inference-chips-in-a-400-million-deal": {
       "canonical_url": "https://techcrunch.com/2026/07/17/why-the-first-gpu-financiers-are-turning-to-inference-chips-in-a-400-million-deal",
       "created_at": "2026-07-17T12:08:47Z",
@@ -3840,18 +3947,6 @@
       "status": "scoring_attempted",
       "title": "Demis Hassabis has a plan to harness AI safely"
     },
-    "https://unstack.io/write-code-like-a-human-will-maintain-it": {
-      "canonical_url": "https://unstack.io/write-code-like-a-human-will-maintain-it",
-      "created_at": "2026-07-10T15:18:40Z",
-      "status": "scoring_attempted",
-      "title": "Write code like a human will maintain it"
-    },
-    "https://vettedconsumer.com/unified-memory-explained-why-mini-pcs-can-run-70b-models-a-big-gpu-cant-and-where-they-slow-down": {
-      "canonical_url": "https://vettedconsumer.com/unified-memory-explained-why-mini-pcs-can-run-70b-models-a-big-gpu-cant-and-where-they-slow-down",
-      "created_at": "2026-07-10T15:18:40Z",
-      "status": "scoring_attempted",
-      "title": "Unified Memory, Explained: Why Mini PCs Can Run 70B Models a Big GPU Can't"
-    },
     "https://wc26.bogachev.fr/index.html": {
       "canonical_url": "https://wc26.bogachev.fr/index.html",
       "created_at": "2026-07-16T22:29:23Z",
@@ -3893,6 +3988,12 @@
       "created_at": "2026-07-14T16:42:04Z",
       "status": "scoring_attempted",
       "title": "AWS and Bluesight build AI for hospital 340B compliance"
+    },
+    "https://www.artificialintelligence-news.com/news/bunkerhill-raises-55m-scale-agentic-ai-health-systems": {
+      "canonical_url": "https://www.artificialintelligence-news.com/news/bunkerhill-raises-55m-scale-agentic-ai-health-systems",
+      "created_at": "2026-07-17T16:36:17Z",
+      "status": "scoring_attempted",
+      "title": "Bunkerhill raises $55M to scale agentic AI across health systems"
     },
     "https://www.artificialintelligence-news.com/news/examining-google-deepmind-ai-bioresilience-push": {
       "canonical_url": "https://www.artificialintelligence-news.com/news/examining-google-deepmind-ai-bioresilience-push",
@@ -4080,12 +4181,6 @@
       "status": "scoring_attempted",
       "title": "Cloudflare Identifies Race Condition in hyper\u2019s HTTP/1 Implementation"
     },
-    "https://www.infoq.com/news/2026/07/cloudflare-temp-accounts": {
-      "canonical_url": "https://www.infoq.com/news/2026/07/cloudflare-temp-accounts",
-      "created_at": "2026-07-10T16:26:36Z",
-      "status": "scoring_attempted",
-      "title": "Cloudflare Introduces Temporary Accounts for Autonomous Worker Deployment"
-    },
     "https://www.infoq.com/news/2026/07/cncf-trustworthy-agentic-ai": {
       "canonical_url": "https://www.infoq.com/news/2026/07/cncf-trustworthy-agentic-ai",
       "created_at": "2026-07-17T12:08:47Z",
@@ -4134,12 +4229,6 @@
       "status": "scoring_attempted",
       "title": "QCon AI Boston: Production AI Moves Beyond Prompts to Platforms, Harnesses, and Evals"
     },
-    "https://www.infoq.com/news/2026/07/slack-agentic-e2e-testing-ui": {
-      "canonical_url": "https://www.infoq.com/news/2026/07/slack-agentic-e2e-testing-ui",
-      "created_at": "2026-07-10T15:18:40Z",
-      "status": "scoring_attempted",
-      "title": "Slack Introduces Agent Driven End-to-End Testing to Improve Resilience in UI Test Automation"
-    },
     "https://www.infoq.com/news/2026/07/stripe-ai-agents-benchmark": {
       "canonical_url": "https://www.infoq.com/news/2026/07/stripe-ai-agents-benchmark",
       "created_at": "2026-07-15T15:24:33Z",
@@ -4157,12 +4246,6 @@
       "created_at": "2026-07-13T12:43:58Z",
       "status": "scoring_attempted",
       "title": "Podcast: Governance in the Age of AI: A Conversation with Sarah Wells"
-    },
-    "https://www.infoq.com/presentations/chaos-engineering-gpu": {
-      "canonical_url": "https://www.infoq.com/presentations/chaos-engineering-gpu",
-      "created_at": "2026-07-10T15:18:40Z",
-      "status": "scoring_attempted",
-      "title": "Presentation: Chaos Engineering GPU Clusters"
     },
     "https://www.infoq.com/presentations/migration-micro-frontend": {
       "canonical_url": "https://www.infoq.com/presentations/migration-micro-frontend",
@@ -4422,12 +4505,6 @@
       "status": "scoring_attempted",
       "title": "If you want Claude to speak nicely to you, try Hindi or Arabic"
     },
-    "https://www.theverge.com/ai-artificial-intelligence/963930/sunrun-distributed-ai-data-center": {
-      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/963930/sunrun-distributed-ai-data-center",
-      "created_at": "2026-07-10T15:18:40Z",
-      "status": "scoring_attempted",
-      "title": "Would you host part of an AI data center in your home?"
-    },
     "https://www.theverge.com/ai-artificial-intelligence/964539/lorde-says-ray-ban-meta-ai-glasses-are-not-sexy": {
       "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/964539/lorde-says-ray-ban-meta-ai-glasses-are-not-sexy",
       "created_at": "2026-07-12T20:34:06Z",
@@ -4536,12 +4613,6 @@
       "status": "scoring_attempted",
       "title": "Why are CD sales suddenly growing again?"
     },
-    "https://www.theverge.com/gadgets/963665/anker-prime-wireless-charging-station-lg-oled-c6-tv-deal-sale": {
-      "canonical_url": "https://www.theverge.com/gadgets/963665/anker-prime-wireless-charging-station-lg-oled-c6-tv-deal-sale",
-      "created_at": "2026-07-10T15:18:40Z",
-      "status": "scoring_attempted",
-      "title": "Anker&#8217;s 3-in-1 Qi2.2 charging station is $95 off"
-    },
     "https://www.theverge.com/gadgets/964125/steelseries-arctis-nova-pro-wireless-headset-deal-sale": {
       "canonical_url": "https://www.theverge.com/gadgets/964125/steelseries-arctis-nova-pro-wireless-headset-deal-sale",
       "created_at": "2026-07-12T15:37:08Z",
@@ -4637,6 +4708,12 @@
       "created_at": "2026-07-16T22:29:23Z",
       "status": "scoring_attempted",
       "title": "Fortnite is getting a bunch of AI-powered \u2018personas\u2019"
+    },
+    "https://www.theverge.com/games/967174/steam-game-malware-cryptostealer-arrest": {
+      "canonical_url": "https://www.theverge.com/games/967174/steam-game-malware-cryptostealer-arrest",
+      "created_at": "2026-07-17T16:36:17Z",
+      "status": "scoring_attempted",
+      "title": "Florida man arrested for allegedly stealing over $200,000 in crypto using Steam game malware"
     },
     "https://www.theverge.com/news/966676/trump-teleprompter-operator-kalshi-bets-mention-markets-investigation": {
       "canonical_url": "https://www.theverge.com/news/966676/trump-teleprompter-operator-kalshi-bets-mention-markets-investigation",
@@ -4746,23 +4823,11 @@
       "status": "scoring_attempted",
       "title": "Spotify\u2019s Daniel Ek is bringing his body-scanning clinics to the US"
     },
-    "https://www.theverge.com/streaming/964056/disney-plus-free-tier-report": {
-      "canonical_url": "https://www.theverge.com/streaming/964056/disney-plus-free-tier-report",
-      "created_at": "2026-07-10T16:26:36Z",
-      "status": "scoring_attempted",
-      "title": "Disney Plus is reportedly looking into a free streaming tier"
-    },
     "https://www.theverge.com/streaming/966633/netflix-ai-titles-q2-2026-earnings": {
       "canonical_url": "https://www.theverge.com/streaming/966633/netflix-ai-titles-q2-2026-earnings",
       "created_at": "2026-07-16T21:27:01Z",
       "status": "scoring_attempted",
       "title": "Netflix says around 300 titles used generative AI"
-    },
-    "https://www.theverge.com/tech/963961/instagram-adam-mosseri-ai-feed-filters": {
-      "canonical_url": "https://www.theverge.com/tech/963961/instagram-adam-mosseri-ai-feed-filters",
-      "created_at": "2026-07-10T15:18:40Z",
-      "status": "scoring_attempted",
-      "title": "Instagram\u2019s Adam Mosseri: If you don&#8217;t like AI, &#8216;then you shouldn&#8217;t have it in your feed&#8217;"
     },
     "https://www.theverge.com/tech/964051/home-depot-halloween-skelly-skeleton-12-foot-mobile-app-sounds": {
       "canonical_url": "https://www.theverge.com/tech/964051/home-depot-halloween-skelly-skeleton-12-foot-mobile-app-sounds",
@@ -4932,6 +4997,12 @@
       "status": "scoring_attempted",
       "title": "Even Microsoft couldn\u2019t make Windows 11 work well on 8GB of RAM"
     },
+    "https://www.theverge.com/tech/967198/samsung-galaxy-z-fold-8-images-specs-leak": {
+      "canonical_url": "https://www.theverge.com/tech/967198/samsung-galaxy-z-fold-8-images-specs-leak",
+      "created_at": "2026-07-17T16:36:17Z",
+      "status": "scoring_attempted",
+      "title": "Samsung&#8217;s redesigned Z Fold 8 with a wide display just leaked"
+    },
     "https://www.theverge.com/transportation/964132/waze-gemini-ai-voice-commands-less-chatty": {
       "canonical_url": "https://www.theverge.com/transportation/964132/waze-gemini-ai-voice-commands-less-chatty",
       "created_at": "2026-07-13T09:18:49Z",
@@ -4943,6 +5014,12 @@
       "created_at": "2026-07-15T17:59:26Z",
       "status": "scoring_attempted",
       "title": "Lucid\u2019s bankruptcy rumor is a bad sign for the EV future"
+    },
+    "https://www.theverge.com/transportation/966498/chip-motors-low-speed-ev-remote-park-price": {
+      "canonical_url": "https://www.theverge.com/transportation/966498/chip-motors-low-speed-ev-remote-park-price",
+      "created_at": "2026-07-17T16:36:17Z",
+      "status": "scoring_attempted",
+      "title": "Is America ready for this quirky Jeep-looking EV that can park itself?"
     },
     "https://www.theverge.com/transportation/966563/tesla-texas-crash-ntsb-investigation": {
       "canonical_url": "https://www.theverge.com/transportation/966563/tesla-texas-crash-ntsb-investigation",
