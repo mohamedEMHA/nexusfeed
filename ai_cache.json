@@ -413,6 +413,29 @@
         }
       }
     },
+    "1e10d81109a46c5ad146aba0a610a9d82d8456a8cc120118a269aecc1ac5498f": {
+      "created_at": "2026-07-17T12:08:47Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "The title is inflammatory and not suitable for a professional audience.",
+            "red_flag": true,
+            "red_flag_reason": "The title is inflammatory and not suitable for a professional audience.",
+            "source_score": 0.5,
+            "title": "Blatant AI slop just won a 25k USD DeepMind Kaggle Grand Prize",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 2,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "30800694d518cb33681dfb0d60b9c305766c7beafa892dd31101e51c50a6c0e5": {
       "created_at": "2026-07-17T02:23:06Z",
       "payload": {
@@ -457,46 +480,6 @@
         "best_score": 7,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "36d6e286302f160b09f69a0dcfe35ac2d5f7616760f88c5eece55ba9a16041c7": {
-      "created_at": "2026-07-16T11:11:06Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Investigative report on AI in policing with significant industry impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "COMPUTER COPS: Inside the big business of selling AI to the police",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 1,
-            "novelty_score": 1.5,
-            "reason": "Interesting case study on Rust migration but niche impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Presentation: The Rust High Performance Talk You Did Not Expect",
-            "total_score": 6
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "The Verge has an investigative report on how AI is being sold to police departments. It's a fascinating look at the intersection of technology and law enforcement. Link: https://www.theverge.com/ai-artificial-intelligence/965066/ai-police-cops",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *COMPUTER COPS: Inside the big business of selling AI to the police*\n\nThe Verge investigates how AI is being sold to police departments, exploring the implications and industry dynamics.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/ai-artificial-intelligence/965066/ai-police-cops\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "The Verge dives into the big business of selling AI to police departments. A must-read for anyone interested in the future of law enforcement. https://www.theverge.com/ai-artificial-intelligence/965066/ai-police-cops",
-          "twitter": "AI is becoming a major player in policing, and The Verge has an in-depth look at the industry. https://www.theverge.com/ai-artificial-intelligence/965066/ai-police-cops"
-        }
       }
     },
     "38af49c9b36fd4dcc2eae2a3820e0002bb3c7421f5f36fa8476dc575b9f1a433": {
@@ -836,46 +819,6 @@
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "795bff52d66ea76fd949b04ec3072bc44d17f582ddc66c4e57ffef548d906b7d": {
-      "created_at": "2026-07-16T11:11:06Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "Critical security and cost management issue with AI agents in cloud environments.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "AI Agents with Cloud Credentials Are Outrunning Billing Guardrails Built for Human-Speed Mistakes",
-            "total_score": 8
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2,
-            "index": 3,
-            "novelty_score": 0.5,
-            "reason": "Opinion piece on AI opt-out defaults, not a technical or research announcement.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Please Stop Making Me Opt Out of AI",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 2,
-        "best_score": 8,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "A three-person agency got a $14,000 AWS bill in one day after AI agents exploited static access keys. This follows May's DN42 incident where an autonomous agent provisioned $6,531 of oversized infrastructure in 24 hours. Practitioners warn that current cloud guardrails are failing against AI agents. Link: https://www.infoq.com/news/2026/07/ai-agents-billing-guardrails/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *AI Agents with Cloud Credentials Are Outrunning Billing Guardrails Built for Human-Speed Mistakes*\n\nA three-person agency received a $14,000 AWS bill in one day after attackers extracted static access keys and burned Claude invocations on Bedrock. Combined with May's DN42 incident, where an autonomous agent provisioned $6,531 of oversized infrastructure in 24 hours, practitioners warn that cloud guardrails are failing against AI agents.\n\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (B)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8/10\n\n\ud83d\udd17 https://www.infoq.com/news/2026/07/ai-agents-billing-guardrails/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "AI agents are outrunning cloud billing guardrails designed for human-speed mistakes. Recent incidents show agents racking up massive unexpected bills. https://www.infoq.com/news/2026/07/ai-agents-billing-guardrails/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "twitter": "AI agents are bypassing cloud billing guardrails, racking up massive unexpected bills. Here's how it's happening and why current safeguards fail.\nhttps://www.infoq.com/news/2026/07/ai-agents-billing-guardrails/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
-        }
       }
     },
     "7d12981e591bb68b2eb4e423335af83d89446e0ce26f0088d7e4bdd3bc8ade4e": {
@@ -1385,25 +1328,25 @@
         "social_posts": {}
       }
     },
-    "c0e18f3489c38e2f875728659926c345aa64cd40aa1a4f901bf72f179aa5503e": {
-      "created_at": "2026-07-16T11:11:06Z",
+    "c645e755aa84e1f0d8016757f13f19b3c8bd3de098c2092d2f907ed44641ac88": {
+      "created_at": "2026-07-17T12:08:47Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 1.5,
+            "freshness_score": 2,
             "impact_score": 2.5,
-            "index": 4,
-            "novelty_score": 2.0,
-            "reason": "Industry move with moderate impact and freshness, but not groundbreaking.",
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "The article provides a technical analysis of how cloud-native infrastructure will support agentic AI, which is relevant to software engineers and AI researchers.",
             "red_flag": false,
             "red_flag_reason": null,
-            "source_score": 1.0,
-            "title": "Neko Health raises $700 million to expand AI body scans in the US",
-            "total_score": 6.5
+            "source_score": 1,
+            "title": "Cloud Native Infrastructure Emerges as the Foundation for Trustworthy Agentic AI",
+            "total_score": 8
           }
         ],
-        "best_index": 4,
-        "best_score": 6.5,
+        "best_index": 1,
+        "best_score": 8,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1434,29 +1377,6 @@
           "threads": "Foundation Future Industries, backed by Eric Trump, is developing humanoid robots for kinetic warfare applications. This is a notable development in military robotics. https://www.wired.com/story/humanoid-robot-soldier-eric-trump-foundation-future-industries/",
           "twitter": "Foundation Future Industries, backed by Eric Trump, is developing humanoid robots for kinetic warfare applications. https://www.wired.com/story/humanoid-robot-soldier-eric-trump-foundation-future-industries/"
         }
-      }
-    },
-    "d4021d7583280f49c10be35b06db5f2b5ee5e5e0fa8cc2108d74686ff7fb45cc": {
-      "created_at": "2026-07-16T11:11:06Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 5,
-            "novelty_score": 0.2,
-            "reason": "This is a recap of YC founders' current statuses, which is not novel or impactful enough for our audience.",
-            "red_flag": true,
-            "red_flag_reason": "recap",
-            "source_score": 0.5,
-            "title": "Where are YC founders now? OpenAI and Anthropic, mostly",
-            "total_score": 3.2
-          }
-        ],
-        "best_index": 5,
-        "best_score": 3.2,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "dd6a88869054cbb0978ed4226607a407c6f5cddc5b941c535921b114a91b5982": {
@@ -1555,6 +1475,29 @@
           "threads": "Moonshot's Kimi 3, with 2-3 trillion parameters, could be China's largest open AI model, challenging Anthropic's Opus 4.8. The FT reports on the potential impact. https://techcrunch.com/2026/07/16/moonshots-upcoming-kimi-3-is-expected-to-close-the-gap-with-anthropics-opus-4-8/",
           "twitter": "Moonshot's Kimi 3 could be China's largest open AI model, with 2-3 trillion parameters, closing the gap with Anthropic's Opus 4.8.\nhttps://techcrunch.com/2026/07/16/moonshots-upcoming-kimi-3-is-expected-to-close-the-gap-with-anthropics-opus-4-8/"
         }
+      }
+    },
+    "eb4c34683ae476d6d421920735a02c5af4d977087eb6285106a738a82fa37675": {
+      "created_at": "2026-07-17T12:08:47Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.0,
+            "reason": "Industry move with significant financial backing, but not groundbreaking novelty.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Why the first GPU financiers are turning to inference chips in a $400 million deal",
+            "total_score": 8.0
+          }
+        ],
+        "best_index": 0,
+        "best_score": 8.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "ebe656a54afd6ee7879271ac5a16b73d211a6a059d2327e136d3c01a61a982ce": {
@@ -3852,6 +3795,12 @@
       "status": "scoring_attempted",
       "title": "Yes, you can now order DoorDash from the command line"
     },
+    "https://techcrunch.com/2026/07/17/why-the-first-gpu-financiers-are-turning-to-inference-chips-in-a-400-million-deal": {
+      "canonical_url": "https://techcrunch.com/2026/07/17/why-the-first-gpu-financiers-are-turning-to-inference-chips-in-a-400-million-deal",
+      "created_at": "2026-07-17T12:08:47Z",
+      "status": "scoring_attempted",
+      "title": "Why the first GPU financiers are turning to inference chips in a $400 million deal"
+    },
     "https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue": {
       "canonical_url": "https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue",
       "created_at": "2026-07-10T19:50:26Z",
@@ -4158,6 +4107,12 @@
       "status": "scoring_attempted",
       "title": "Cloudflare Introduces Temporary Accounts for Autonomous Worker Deployment"
     },
+    "https://www.infoq.com/news/2026/07/cncf-trustworthy-agentic-ai": {
+      "canonical_url": "https://www.infoq.com/news/2026/07/cncf-trustworthy-agentic-ai",
+      "created_at": "2026-07-17T12:08:47Z",
+      "status": "scoring_attempted",
+      "title": "Cloud Native Infrastructure Emerges as the Foundation for Trustworthy Agentic AI"
+    },
     "https://www.infoq.com/news/2026/07/doordash-ai-ask-assistant": {
       "canonical_url": "https://www.infoq.com/news/2026/07/doordash-ai-ask-assistant",
       "created_at": "2026-07-13T15:36:16Z",
@@ -4247,6 +4202,12 @@
       "created_at": "2026-07-11T23:32:54Z",
       "status": "scoring_attempted",
       "title": "Mesh LLM: distributed AI computing on iroh"
+    },
+    "https://www.kaggle.com/competitions/kaggle-measuring-agi/discussion/724918": {
+      "canonical_url": "https://www.kaggle.com/competitions/kaggle-measuring-agi/discussion/724918",
+      "created_at": "2026-07-17T12:08:47Z",
+      "status": "scoring_attempted",
+      "title": "Blatant AI slop just won a 25k USD DeepMind Kaggle Grand Prize"
     },
     "https://www.latimes.com/business/story/2026-07-16/spacex-stock-erases-gains-slides-below-ipo-price-in-intraday-trading": {
       "canonical_url": "https://www.latimes.com/business/story/2026-07-16/spacex-stock-erases-gains-slides-below-ipo-price-in-intraday-trading",
