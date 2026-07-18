@@ -97,29 +97,6 @@
         }
       }
     },
-    "29fa78475bc15c7b4be0324075abaee12048fa7116dc87f6f56b1ebd1eb772f2": {
-      "created_at": "2026-07-17T22:44:28Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Impactful but not highly novel; source is low tier.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Kaiser nurses say AI, workplace surveillance are making their jobs, care worse",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "29fd30e448250ba52606810cb8dcc79603c48d79bb3876c2e8877bb7bd63f78a": {
       "created_at": "2026-07-18T17:14:22Z",
       "payload": {
@@ -300,6 +277,29 @@
         ],
         "best_index": 1,
         "best_score": 2.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "69c62205df29cad801a8121520376fd80410420074dca816216c21089f58eb6e": {
+      "created_at": "2026-07-18T23:32:02Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1,
+            "impact_score": 2.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "NVIDIA DeepStream 9.1 introduces agentic AI skills for vision AI, a significant update for developers working with video analytics.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "NVIDIA Released DeepStream 9.1: Bringing Agentic AI to Vision AI With 13 Skills and Multi-View 3D Tracking",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 3,
+        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -3364,6 +3364,12 @@
       "created_at": "2026-07-18T08:11:27Z",
       "status": "scoring_attempted",
       "title": "Google Cloud\u2019s Always-On Memory Agent Replaces RAG and Embeddings With Continuous LLM Consolidation on Gemini 3.1 Flash-Lite"
+    },
+    "https://www.marktechpost.com/2026/07/18/nvidia-released-deepstream-9-1-bringing-agentic-ai-to-vision-ai-with-13-skills-and-multi-view-3d-tracking": {
+      "canonical_url": "https://www.marktechpost.com/2026/07/18/nvidia-released-deepstream-9-1-bringing-agentic-ai-to-vision-ai-with-13-skills-and-multi-view-3d-tracking",
+      "created_at": "2026-07-18T23:32:02Z",
+      "status": "scoring_attempted",
+      "title": "NVIDIA Released DeepStream 9.1: Bringing Agentic AI to Vision AI With 13 Skills and Multi-View 3D Tracking"
     },
     "https://www.motivenotes.ai/p/against-usefulness": {
       "canonical_url": "https://www.motivenotes.ai/p/against-usefulness",
