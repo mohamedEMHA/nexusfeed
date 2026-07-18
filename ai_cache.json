@@ -80,6 +80,29 @@
         }
       }
     },
+    "07370a51c26a200740d7bed261b789325c1f0da0af40f937dc27d8983915521a": {
+      "created_at": "2026-07-18T14:13:45Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Pinecone Nexus is a new knowledge engine for AI agents that transforms enterprise data into a structured layer, making it reusable across agents and reducing token costs.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Pinecone Introduces Nexus Engine for Compiling Business Context into Structured Data for AI Agents",
+            "total_score": 8
+          }
+        ],
+        "best_index": 0,
+        "best_score": 8,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "08cb89ea715e647d02c272faeebd4ed40ae64d26fcafe293d86c72bb7c5f28f7": {
       "created_at": "2026-07-17T20:42:21Z",
       "payload": {
@@ -98,29 +121,6 @@
           }
         ],
         "best_index": 0,
-        "best_score": 7.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "09e6d8ba3eefae13f82a0d3f906d37015e3811f489b5d0021b2917dd25af11a3": {
-      "created_at": "2026-07-17T14:00:35Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 4,
-            "novelty_score": 2.5,
-            "reason": "Industry move with significant impact, but source is tier C.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Apple targets dozens of OpenAI employees with legal letters",
-            "total_score": 7.0
-          }
-        ],
-        "best_index": 4,
         "best_score": 7.0,
         "recommendation": "SKIP",
         "social_posts": {}
@@ -498,6 +498,29 @@
         "social_posts": {}
       }
     },
+    "6e328909f5d7cfafbf1a3e630ec7a4ad7bd789feeb94c15d7d42f49889505ffb": {
+      "created_at": "2026-07-18T14:13:45Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.0,
+            "index": 2,
+            "novelty_score": 0.0,
+            "reason": "This article contains a red flag term 'What' in the title.",
+            "red_flag": true,
+            "red_flag_reason": "What",
+            "source_score": 0.5,
+            "title": "What AI did to stackoverflow in a graph",
+            "total_score": 2.0
+          }
+        ],
+        "best_index": 2,
+        "best_score": 2.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "8122daec5a9c21e8cc25b83274038add8f242d84ceace01ef1df4b79e6b8e2a4": {
       "created_at": "2026-07-17T20:42:21Z",
       "payload": {
@@ -552,41 +575,6 @@
           "threads": "Google Cloud's new Always-On Memory Agent ditches RAG and embeddings for continuous LLM consolidation on Gemini 3.1 Flash-Lite. This is a big shift in how LLMs handle memory. https://www.marktechpost.com/2026/07/18/google-clouds-always-on-memory-agent-replaces-rag-and-embeddings-with-continuous-llm-consolidation-on-gemini-3-1-flash-lite/",
           "twitter": "Google Cloud replaces RAG and embeddings with Always-On Memory Agent, a continuous LLM consolidation system on Gemini 3.1 Flash-Lite. https://www.marktechpost.com/2026/07/18/google-clouds-always-on-memory-agent-replaces-rag-and-embeddings-with-continuous-llm-consolidation-on-gemini-3-1-flash-lite/"
         }
-      }
-    },
-    "8de478c1455589930babac8536b7f2ac60b16f4a4cd64e0cb0a3eef4e6221f6c": {
-      "created_at": "2026-07-17T14:00:35Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 2,
-            "novelty_score": 2,
-            "reason": "Trump Media's Truth API offers faster access to market-moving posts, impacting financial markets and social media platforms.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Trump is selling high-speed access to his market-moving Truth Social posts",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "Capital One releases VulnHunter, an AI-powered tool for code security, relevant to developers and security researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "VulnHunter: Capital One's agentic AI code security tool",
-            "total_score": 7
-          }
-        ],
-        "best_index": 2,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "8fe2d2ef9710566ab60371e8fb5a832a1bff826aba605b42d8e437139aa2d8ef": {
@@ -849,34 +837,6 @@
         "social_posts": {}
       }
     },
-    "c67c0d36a893f3606ec2717f8fa08a2febb414a6c0b879e99e6199589583bd17": {
-      "created_at": "2026-07-17T14:00:35Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 9,
-            "novelty_score": 2.5,
-            "reason": "Practical AI scorecard introduced by OpenAI's CFO to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 2,
-            "title": "A scorecard for the AI age",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 9,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "OpenAI's CFO, Sarah Friar, has introduced a practical AI scorecard designed to measure ROI through metrics like useful work, cost per successful task, dependability, and return on compute. This could be a game-changer for businesses evaluating AI investments.\nLink: https://openai.com/index/a-scorecard-for-the-ai-age",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *A scorecard for the AI age*\n\nOpenAI's CFO, Sarah Friar, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.\n\n\ud83c\udfdb\ufe0f Source: OpenAI (S)\n\u23f0 Published: 4 hours ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://openai.com/index/a-scorecard-for-the-ai-age\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "OpenAI's CFO just introduced a practical AI scorecard to measure ROI through useful work, cost per task, dependability, and return on compute. This could be a game-changer for businesses evaluating AI investments.\nhttps://openai.com/index/a-scorecard-for-the-ai-age",
-          "twitter": "OpenAI's CFO introduces a practical AI scorecard to measure ROI through useful work, cost per task, dependability, and return on compute.\nhttps://openai.com/index/a-scorecard-for-the-ai-age"
-        }
-      }
-    },
     "cdaabb750b072fdfd9730098f059377f680629d4599f495057979fa7b78b4536": {
       "created_at": "2026-07-18T02:04:56Z",
       "payload": {
@@ -896,41 +856,6 @@
         ],
         "best_index": 1,
         "best_score": 3.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "db8e8d2742d0dc7bf3a730c77bbfd0e091740c2939d8de584180ed3ffc97be40": {
-      "created_at": "2026-07-17T14:00:35Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 1.5,
-            "reason": "A detailed review of Windows 11 performance on 8GB RAM, relevant to developers and IT professionals.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Even Microsoft couldn\u2019t make Windows 11 work well on 8GB of RAM",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 0.5,
-            "index": 1,
-            "novelty_score": 0.2,
-            "reason": "A job posting with limited relevance to a broad audience of software engineers and AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Manufact (YC S25) Is Hiring a Senior infra engineer to build the MCP cloud",
-            "total_score": 3.2
-          }
-        ],
-        "best_index": 0,
-        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -2389,6 +2314,12 @@
       "status": "scoring_attempted",
       "title": "Launch HN: Coasty (YC S26) \u2013 An API for computer-use agents"
     },
+    "https://data.stackexchange.com/stackoverflow/query/1953768": {
+      "canonical_url": "https://data.stackexchange.com/stackoverflow/query/1953768",
+      "created_at": "2026-07-18T14:13:45Z",
+      "status": "scoring_attempted",
+      "title": "What AI did to stackoverflow in a graph"
+    },
     "https://developers.googleblog.com/building-scalable-ai-agents-with-modular-prompt-transpilation": {
       "canonical_url": "https://developers.googleblog.com/building-scalable-ai-agents-with-modular-prompt-transpilation",
       "created_at": "2026-07-16T16:52:04Z",
@@ -2694,12 +2625,6 @@
       "created_at": "2026-07-15T09:07:14Z",
       "status": "scoring_attempted",
       "title": "Microsoft has released software updates to plug at least 570 security holes"
-    },
-    "https://languagelog.ldc.upenn.edu/myl/Good1964.pdf": {
-      "canonical_url": "https://languagelog.ldc.upenn.edu/myl/Good1964.pdf",
-      "created_at": "2026-07-11T13:54:42Z",
-      "status": "scoring_attempted",
-      "title": "Speculations Concerning the First Ultraintelligent Machine (1965) [pdf]"
     },
     "https://lenergy.com.au/free-daytime-electricity-is-coming-heres-how-it-actually-works": {
       "canonical_url": "https://lenergy.com.au/free-daytime-electricity-is-coming-heres-how-it-actually-works",
@@ -3703,6 +3628,12 @@
       "status": "scoring_attempted",
       "title": "Meta's Noninvasive Brain\u2013Computer Interface Brain2Qwerty Achieves 61% Accuracy"
     },
+    "https://www.infoq.com/news/2026/07/pinecon-nexus-knowledge-engine": {
+      "canonical_url": "https://www.infoq.com/news/2026/07/pinecon-nexus-knowledge-engine",
+      "created_at": "2026-07-18T14:13:45Z",
+      "status": "scoring_attempted",
+      "title": "Pinecone Introduces Nexus Engine for Compiling Business Context into Structured Data for AI Agents"
+    },
     "https://www.infoq.com/news/2026/07/platform-business-users": {
       "canonical_url": "https://www.infoq.com/news/2026/07/platform-business-users",
       "created_at": "2026-07-16T12:53:14Z",
@@ -4212,12 +4143,6 @@
       "created_at": "2026-07-17T17:43:50Z",
       "status": "scoring_attempted",
       "title": "Apple\u2019s plot to crush OpenAI"
-    },
-    "https://www.theverge.com/policy/964302/ice-donald-trump-killings": {
-      "canonical_url": "https://www.theverge.com/policy/964302/ice-donald-trump-killings",
-      "created_at": "2026-07-11T13:54:42Z",
-      "status": "scoring_attempted",
-      "title": "ICE are heavily armed killers. They\u2019re also huge losers"
     },
     "https://www.theverge.com/policy/964916/paramount-warner-bros-discovery-states-lawsuit": {
       "canonical_url": "https://www.theverge.com/policy/964916/paramount-warner-bros-discovery-states-lawsuit",
