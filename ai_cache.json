@@ -189,29 +189,6 @@
         "social_posts": {}
       }
     },
-    "38151ce094b5bb830f4427f61f5c761d84e240f098d9a41ac222635e37da128b": {
-      "created_at": "2026-07-17T22:29:02Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.0,
-            "index": 3,
-            "novelty_score": 0.0,
-            "reason": "Red flag triggered by the title.",
-            "red_flag": true,
-            "red_flag_reason": "Topcoat: The full full-stack framework for Rust",
-            "source_score": 0.5,
-            "title": "Topcoat: The full full-stack framework for Rust",
-            "total_score": 0.0
-          }
-        ],
-        "best_index": 3,
-        "best_score": 0.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "4525f2ac46b3754475a3447e4ac981f78b4835199723a8f0911c79d41d29404c": {
       "created_at": "2026-07-18T17:14:22Z",
       "payload": {
@@ -346,6 +323,29 @@
         ],
         "best_index": 2,
         "best_score": 2.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "873f8374b6eac9500c46258d767b50722c5b5dbf6e7b41a18aef483b122f1a1f": {
+      "created_at": "2026-07-18T22:43:57Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 2.0,
+            "reason": "This is a notable industry move but limited to one city and not directly technical.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Mayor Mamdani Says Landlords Can't Use AI Images to Advertise",
+            "total_score": 6.0
+          }
+        ],
+        "best_index": 0,
+        "best_score": 6.0,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -627,29 +627,6 @@
         "social_posts": {}
       }
     },
-    "e4a5d7f43612d54c80e91350208fe985c4d5a05abda2467b165dc68a21303445": {
-      "created_at": "2026-07-17T22:29:02Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.0,
-            "reason": "Databricks' valuation and AI research are notable but not groundbreaking.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Databricks hits $188B valuation, extending its run as AI\u2019s favorite second act",
-            "total_score": 8.0
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "e7366209c5fc6db90f1da62e7b110d361bde591b0d3362ff11e21713edb308ad": {
       "created_at": "2026-07-17T23:48:53Z",
       "payload": {
@@ -692,29 +669,6 @@
         ],
         "best_index": 1,
         "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "fd4f7043a2cff6562dba1934ba027aa0f31d72e6536f3e64674dd3485a0bb645": {
-      "created_at": "2026-07-17T22:29:02Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 1,
-            "novelty_score": 2.0,
-            "reason": "Industry move with niche impact, fresh, but from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "FAA lets Boeing sign off on 737 MAX, 787 airworthiness certificates again",
-            "total_score": 6.0
-          }
-        ],
-        "best_index": 1,
-        "best_score": 6.0,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -2396,6 +2350,12 @@
       "created_at": "2026-07-15T12:23:13Z",
       "status": "scoring_attempted",
       "title": "Show HN: For 10 World Cups, my model's 2 favorites had the champion every time"
+    },
+    "https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties": {
+      "canonical_url": "https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties",
+      "created_at": "2026-07-18T22:43:57Z",
+      "status": "scoring_attempted",
+      "title": "Mayor Mamdani Says Landlords Can't Use AI Images to Advertise"
     },
     "https://planwright.tools": {
       "canonical_url": "https://planwright.tools",
