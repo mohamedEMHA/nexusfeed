@@ -321,6 +321,29 @@
         "social_posts": {}
       }
     },
+    "53df76b8fbeb70fcf04ef98c2f4f1577082bf7d6a7ef4a0c7211808c8deb139d": {
+      "created_at": "2026-07-19T15:17:20Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 1,
+            "novelty_score": 0.5,
+            "reason": "Opinion piece from a filmmaker, not a technical or industry perspective.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "\u2018Odyssey\u2019 director Christopher Nolan calls AI an obvious \u2018Trojan horse\u2019",
+            "total_score": 4.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 4.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "563dc7dbb1abfa5fdb4c93876458e48f713ac0d10ce6d08703d4413b2fde92cc": {
       "created_at": "2026-07-19T10:44:41Z",
       "payload": {
@@ -386,6 +409,29 @@
         ],
         "best_index": 1,
         "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "67af5c29527d21228d976b73345e5347b1aa431b3537f722008a600414e14ded": {
+      "created_at": "2026-07-19T15:17:20Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 0.5,
+            "index": 0,
+            "novelty_score": 0.2,
+            "reason": "This is a commercial product sale, not relevant to software engineers or AI researchers.",
+            "red_flag": true,
+            "red_flag_reason": "best prices",
+            "source_score": 1.5,
+            "title": "Birdfy\u2019s solar-powered smart feeder is down to one of its best prices",
+            "total_score": 4.2
+          }
+        ],
+        "best_index": 0,
+        "best_score": 4.2,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -2477,12 +2523,6 @@
       "status": "scoring_attempted",
       "title": "Homomorphically encrypted CIFAR-10 inference in 200ms"
     },
-    "https://spectrum.ieee.org/ai-science-research-flattens-discovery": {
-      "canonical_url": "https://spectrum.ieee.org/ai-science-research-flattens-discovery",
-      "created_at": "2026-07-12T14:21:31Z",
-      "status": "scoring_attempted",
-      "title": "AI Boosts Research Careers but Flattens Scientific Discovery"
-    },
     "https://stateofopensource.ai": {
       "canonical_url": "https://stateofopensource.ai",
       "created_at": "2026-07-17T15:15:00Z",
@@ -2866,6 +2906,12 @@
       "created_at": "2026-07-19T14:18:12Z",
       "status": "scoring_attempted",
       "title": "Nonprofit Current AI is racing to build the World Wide Web of AI, free for all"
+    },
+    "https://techcrunch.com/2026/07/19/odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse": {
+      "canonical_url": "https://techcrunch.com/2026/07/19/odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse",
+      "created_at": "2026-07-19T15:17:20Z",
+      "status": "scoring_attempted",
+      "title": "\u2018Odyssey\u2019 director Christopher Nolan calls AI an obvious \u2018Trojan horse\u2019"
     },
     "https://techcrunch.com/podcast/apples-lawsuit-couldnt-come-at-a-worse-time-for-openai": {
       "canonical_url": "https://techcrunch.com/podcast/apples-lawsuit-couldnt-come-at-a-worse-time-for-openai",
@@ -3665,6 +3711,12 @@
       "status": "scoring_attempted",
       "title": "GoPro&#8217;s discounted Max 2 bundle includes $100 worth of accessories"
     },
+    "https://www.theverge.com/gadgets/967336/birdfy-feeder-ai-powered-smart-bird-feeder-with-camera-deal-sale": {
+      "canonical_url": "https://www.theverge.com/gadgets/967336/birdfy-feeder-ai-powered-smart-bird-feeder-with-camera-deal-sale",
+      "created_at": "2026-07-19T15:17:20Z",
+      "status": "scoring_attempted",
+      "title": "Birdfy&#8217;s solar-powered smart feeder is down to one of its best prices"
+    },
     "https://www.theverge.com/games/961152/denshattack-review": {
       "canonical_url": "https://www.theverge.com/games/961152/denshattack-review",
       "created_at": "2026-07-18T12:44:54Z",
@@ -3676,12 +3728,6 @@
       "created_at": "2026-07-15T11:01:06Z",
       "status": "scoring_attempted",
       "title": "The PS6 sure sounds like a handheld"
-    },
-    "https://www.theverge.com/games/964262/blue-prince-family-bonding": {
-      "canonical_url": "https://www.theverge.com/games/964262/blue-prince-family-bonding",
-      "created_at": "2026-07-12T14:21:31Z",
-      "status": "scoring_attempted",
-      "title": "Blue Prince became a bonding \u2014 and learning \u2014 experience for my family"
     },
     "https://www.theverge.com/games/965112/everquest-legends-project-1999-fan-developers": {
       "canonical_url": "https://www.theverge.com/games/965112/everquest-legends-project-1999-fan-developers",
