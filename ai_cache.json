@@ -1,5 +1,28 @@
 {
   "cerebras_scoring": {
+    "051f5ac8935ae5920f61f210f8a7768a5d0ce5126a69a4e2ca8bdb857789761b": {
+      "created_at": "2026-07-19T16:12:03Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "Interesting hardware hack but limited impact and source tier.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Clever hacker fits 537,000 domains in a $5 ESP32 ad-blocking dongle",
+            "total_score": 5.5
+          }
+        ],
+        "best_index": 3,
+        "best_score": 5.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "075186a3e728d0f84fdad4fd54444c360c433cb0db6b465ef64f7e9e5ffa943b": {
       "created_at": "2026-07-19T10:44:41Z",
       "payload": {
@@ -123,29 +146,6 @@
         ],
         "best_index": 0,
         "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "21551bc29a1c9b31b15f740d867439ab8d89f37e382d31705a3dafdde87641b0": {
-      "created_at": "2026-07-18T16:11:07Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 2.0,
-            "reason": "Industry move with niche impact, fresh, and from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Traders are increasingly betting against SpaceX just weeks after IPO",
-            "total_score": 6.0
-          }
-        ],
-        "best_index": 0,
-        "best_score": 6.0,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -294,6 +294,29 @@
         ],
         "best_index": 1,
         "best_score": 5.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "48eecc8aebbf773a3ade49fd29e5716112d87184b62adf77d4262bb236e7ab2f": {
+      "created_at": "2026-07-19T16:12:03Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 0.5,
+            "index": 0,
+            "novelty_score": 0.2,
+            "reason": "Niche music gear review with limited relevance to software engineers or AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Orchid is a delightfully retro and approachable hipster synth",
+            "total_score": 4.2
+          }
+        ],
+        "best_index": 0,
+        "best_score": 4.2,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -593,29 +616,6 @@
         ],
         "best_index": 1,
         "best_score": 2.2,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "bd7d4c52fff72bd31ec7ca7482a310671dc366adeea5427ea5a8ba226e67d008": {
-      "created_at": "2026-07-18T16:11:07Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.5,
-            "index": 1,
-            "novelty_score": 1.5,
-            "reason": "Discounted hardware bundle, niche impact, fresh source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "GoPro\u2019s discounted Max 2 bundle includes $100 worth of accessories",
-            "total_score": 3.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 3.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -2937,12 +2937,6 @@
       "status": "scoring_attempted",
       "title": "German AI consortium releases Soofi S, an open 30B model that tops benchmarks"
     },
-    "https://theconversation.com/the-real-mystery-behind-moana-after-1-700-years-why-did-polynesians-suddenly-sail-east-287226": {
-      "canonical_url": "https://theconversation.com/the-real-mystery-behind-moana-after-1-700-years-why-did-polynesians-suddenly-sail-east-287226",
-      "created_at": "2026-07-12T15:37:08Z",
-      "status": "scoring_attempted",
-      "title": "Mystery behind Moana: After 1,700 years, why did Polynesians suddenly sail east?"
-    },
     "https://thenextgennexus.com/2026/05/14/google-kills-custom-search-api-on-jan-1-2027-you-have-9-months": {
       "canonical_url": "https://thenextgennexus.com/2026/05/14/google-kills-custom-search-api-on-jan-1-2027-you-have-9-months",
       "created_at": "2026-07-17T02:23:06Z",
@@ -3176,12 +3170,6 @@
       "created_at": "2026-07-15T15:24:33Z",
       "status": "scoring_attempted",
       "title": "Microsoft Confirms Windows GDID Device Identifier That Cannot Be Disabled"
-    },
-    "https://www.ginagallery.com": {
-      "canonical_url": "https://www.ginagallery.com",
-      "created_at": "2026-07-12T15:37:08Z",
-      "status": "scoring_attempted",
-      "title": "Gina Gallery of International Naive Art"
     },
     "https://www.infoq.com/articles/ai-speed-context-store-architecture": {
       "canonical_url": "https://www.infoq.com/articles/ai-speed-context-store-architecture",
@@ -3657,11 +3645,11 @@
       "status": "scoring_attempted",
       "title": "Why are CD sales suddenly growing again?"
     },
-    "https://www.theverge.com/gadgets/964125/steelseries-arctis-nova-pro-wireless-headset-deal-sale": {
-      "canonical_url": "https://www.theverge.com/gadgets/964125/steelseries-arctis-nova-pro-wireless-headset-deal-sale",
-      "created_at": "2026-07-12T15:37:08Z",
+    "https://www.theverge.com/entertainment/967485/telepathic-instruments-orchid-tame-impala-synth-review": {
+      "canonical_url": "https://www.theverge.com/entertainment/967485/telepathic-instruments-orchid-tame-impala-synth-review",
+      "created_at": "2026-07-19T16:12:03Z",
       "status": "scoring_attempted",
-      "title": "One of SteelSeries&#8217; best gaming headsets is over $100 off"
+      "title": "Orchid is a delightfully retro and approachable hipster synth"
     },
     "https://www.theverge.com/gadgets/964652/asus-rog-flow-z13-switch-2-camera-amd-ryzen-ddr4-deal-sale": {
       "canonical_url": "https://www.theverge.com/gadgets/964652/asus-rog-flow-z13-switch-2-camera-amd-ryzen-ddr4-deal-sale",
@@ -4052,6 +4040,12 @@
       "created_at": "2026-07-16T16:52:04Z",
       "status": "scoring_attempted",
       "title": "Tesla driver in fatal Texas crash overrode FSD by pressing accelerator &#8216;100 percent,&#8217; investigators confirm"
+    },
+    "https://www.tomshardware.com/networking/clever-hacker-fits-537-000-domains-in-a-tiny-usd5-esp32-ad-blocking-dongle-firmware-uses-only-around-50kb-of-ram-and-can-answer-blocked-lookups-in-10-milliseconds": {
+      "canonical_url": "https://www.tomshardware.com/networking/clever-hacker-fits-537-000-domains-in-a-tiny-usd5-esp32-ad-blocking-dongle-firmware-uses-only-around-50kb-of-ram-and-can-answer-blocked-lookups-in-10-milliseconds",
+      "created_at": "2026-07-19T16:12:03Z",
+      "status": "scoring_attempted",
+      "title": "Clever hacker fits 537,000 domains in a $5 ESP32 ad-blocking dongle"
     },
     "https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6": {
       "canonical_url": "https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6",
