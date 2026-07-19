@@ -127,25 +127,25 @@
         "social_posts": {}
       }
     },
-    "1a9b3ab306f68de0cfbe66cb6fc6c6c29a5edd2ea6fba39f4c37c059b2e61253": {
-      "created_at": "2026-07-18T22:27:21Z",
+    "1dcb93565e22a9b3f89bbf5094189564c99676f37acbdebeeed144fc67fc8601": {
+      "created_at": "2026-07-19T22:29:13Z",
       "payload": {
         "articles": [
           {
             "freshness_score": 1.5,
-            "impact_score": 1.5,
+            "impact_score": 2.5,
             "index": 0,
             "novelty_score": 2.5,
-            "reason": "New release but niche impact and low-tier source.",
+            "reason": "Interesting research on AI advice impact, but source is Tier C and novelty is not a new release.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 0.5,
-            "title": "Ada: An AI business intelligence software from CSV and Excel(yes LLMs but more)",
-            "total_score": 5.5
+            "title": "AI advice made people 3x less accurate but 2x confident, researchers found",
+            "total_score": 7.0
           }
         ],
         "best_index": 0,
-        "best_score": 5.5,
+        "best_score": 7.0,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -444,29 +444,6 @@
         ],
         "best_index": 4,
         "best_score": 3.2,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "5e5c40e37bf4deb9cf97d24e44d388a755635fb91de51b9cbdca1cafcdd009c8": {
-      "created_at": "2026-07-18T22:27:21Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Insightful perspective from a literary figure on AI's impact on creative expression.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Dave Eggers told OpenAI staff that ChatGPT was 'silencing an entire generation'",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -3029,6 +3006,12 @@
       "status": "scoring_attempted",
       "title": "Google Kills Custom Search API on Jan 1, 2027"
     },
+    "https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study": {
+      "canonical_url": "https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study",
+      "created_at": "2026-07-19T22:29:13Z",
+      "status": "scoring_attempted",
+      "title": "AI advice made people 3x less accurate but 2x confident, researchers found"
+    },
     "https://thinkingmachines.ai/news/introducing-inkling": {
       "canonical_url": "https://thinkingmachines.ai/news/introducing-inkling",
       "created_at": "2026-07-15T19:24:21Z",
@@ -3094,12 +3077,6 @@
       "created_at": "2026-07-16T22:29:23Z",
       "status": "scoring_attempted",
       "title": "FIFA World Cup 2026 Data Portraits"
-    },
-    "https://www.adaptiverecall.com": {
-      "canonical_url": "https://www.adaptiverecall.com",
-      "created_at": "2026-07-12T22:27:33Z",
-      "status": "scoring_attempted",
-      "title": "Show HN: Adaptive Recall, persistent memory for AI assistants over MCP"
     },
     "https://www.adweek.com/media/openais-ad-business-is-on-pace-to-miss-its-own-forecast-by-90-analyst-says": {
       "canonical_url": "https://www.adweek.com/media/openais-ad-business-is-on-pace-to-miss-its-own-forecast-by-90-analyst-says",
