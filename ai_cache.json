@@ -23,6 +23,41 @@
         "social_posts": {}
       }
     },
+    "075186a3e728d0f84fdad4fd54444c360c433cb0db6b465ef64f7e9e5ffa943b": {
+      "created_at": "2026-07-19T10:44:41Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Google's AlphaEvolve reaching general availability is a significant industry move with broad impact, but the source tier is only B.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Google's AlphaEvolve Reaches General Availability with Evolutionary Code Optimization as a Service",
+            "total_score": 8
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 1,
+            "novelty_score": 1.5,
+            "reason": "Claude Code using Bun written in Rust is a notable update, but the impact is niche and the source tier is C.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Claude Code uses Bun written in Rust now",
+            "total_score": 5.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 8,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "080375466ddb78e000dd50645eed2e2b8d0e80af4c11dc36c971bda2b76565a8": {
       "created_at": "2026-07-19T07:09:52Z",
       "payload": {
@@ -235,6 +270,29 @@
         "social_posts": {}
       }
     },
+    "563dc7dbb1abfa5fdb4c93876458e48f713ac0d10ce6d08703d4413b2fde92cc": {
+      "created_at": "2026-07-19T10:44:41Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "Useful tool for developers but limited impact and lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Mirror your GitHub repos to tangled.org automatically",
+            "total_score": 5.5
+          }
+        ],
+        "best_index": 2,
+        "best_score": 5.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "5e5c40e37bf4deb9cf97d24e44d388a755635fb91de51b9cbdca1cafcdd009c8": {
       "created_at": "2026-07-18T22:27:21Z",
       "payload": {
@@ -417,34 +475,6 @@
         "best_score": 6.0,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "9cfea3a5b4795a3ab1c6e54fb8fa521e74ffc054833e8ae5949a9b7322fc1204": {
-      "created_at": "2026-07-18T09:45:06Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "New research on AI security with significant impact on AI safety.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Prompt Injection Attacks Are Thwarting AI Hacking Agents",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "A new study reveals how 'context bombing' can stop AI hacking agents in their tracks. This technique tricks malicious AI into shutting down before causing harm. Link: https://www.wired.com/story/prompt-injection-attacks-are-thwarting-ai-hacking-agents/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Prompt Injection Attacks Are Thwarting AI Hacking Agents*\n\nResearchers discovered 'context bombing' to shut down malicious AI agents before they act.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.wired.com/story/prompt-injection-attacks-are-thwarting-ai-hacking-agents/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "AI security researchers found a way to stop hacking agents using 'context bombing'. The technique tricks malicious AI into shutting down before it can act. https://www.wired.com/story/prompt-injection-attacks-are-thwarting-ai-hacking-agents/",
-          "twitter": "Researchers discovered 'context bombing' to shut down malicious AI agents before they act. https://www.wired.com/story/prompt-injection-attacks-are-thwarting-ai-hacking-agents/"
-        }
       }
     },
     "a5b5f0c23f3d46331dbaefba6e44c59381b65161ff5a9939e468fe671f9a9eea": {
@@ -640,6 +670,29 @@
         "social_posts": {}
       }
     },
+    "e559592ca88227dfb27ad229137c98326c3af9f59565bce04a28e9b3fd9d205c": {
+      "created_at": "2026-07-19T10:44:41Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 5,
+            "novelty_score": 2.5,
+            "reason": "OpenAI's reduction in Codex model context size is a notable update for developers using the API.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "OpenAI reduces Codex Model Context Size from 372k to 272k",
+            "total_score": 7.0
+          }
+        ],
+        "best_index": 5,
+        "best_score": 7.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "f61a26692cfa259519a7de0eafb6af89ebbc1942847c7a1cc362af387138d231": {
       "created_at": "2026-07-18T10:54:31Z",
       "payload": {
@@ -659,6 +712,29 @@
         ],
         "best_index": 1,
         "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "fd91948790eaa910750d9a1cde9e6c5eaffdd537e3383ade0e32d483a5b1de8d": {
+      "created_at": "2026-07-19T10:44:41Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 4,
+            "novelty_score": 2.5,
+            "reason": "Ollama's announcement about open models is relevant but lacks novelty and impact for a broad audience.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Ollama: All Aboard Open Models",
+            "total_score": 5.5
+          }
+        ],
+        "best_index": 4,
+        "best_score": 5.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -2026,6 +2102,12 @@
       "status": "scoring_attempted",
       "title": "Codex starts encrypting prompts, uses ciphertext for inference instead"
     },
+    "https://github.com/openai/codex/pull/33972/files": {
+      "canonical_url": "https://github.com/openai/codex/pull/33972/files",
+      "created_at": "2026-07-19T10:44:41Z",
+      "status": "scoring_attempted",
+      "title": "OpenAI reduces Codex Model Context Size from 372k to 272k"
+    },
     "https://github.com/ratel-ai/ratel": {
       "canonical_url": "https://github.com/ratel-ai/ratel",
       "created_at": "2026-07-16T17:58:26Z",
@@ -2314,6 +2396,12 @@
       "status": "scoring_attempted",
       "title": "Show HN: Nobie \u2013 an Excel-compatible runtime for agents and humans"
     },
+    "https://ollama.com/blog/all-aboard-open-models": {
+      "canonical_url": "https://ollama.com/blog/all-aboard-open-models",
+      "created_at": "2026-07-19T10:44:41Z",
+      "status": "scoring_attempted",
+      "title": "Ollama: All Aboard Open Models"
+    },
     "https://openai.com/index/a-scorecard-for-the-ai-age": {
       "canonical_url": "https://openai.com/index/a-scorecard-for-the-ai-age",
       "created_at": "2026-07-17T14:00:35Z",
@@ -2404,6 +2492,12 @@
       "status": "scoring_attempted",
       "title": "Kimi K3, and what we can still learn from the pelican benchmark"
     },
+    "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust": {
+      "canonical_url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust",
+      "created_at": "2026-07-19T10:44:41Z",
+      "status": "scoring_attempted",
+      "title": "Claude Code uses Bun written in Rust now"
+    },
     "https://sleuth-io.github.io/sx/2026/07/10/your-dropbox-is-now-a-skill-server.html": {
       "canonical_url": "https://sleuth-io.github.io/sx/2026/07/10/your-dropbox-is-now-a-skill-server.html",
       "created_at": "2026-07-14T02:05:35Z",
@@ -2457,6 +2551,12 @@
       "created_at": "2026-07-12T18:31:31Z",
       "status": "scoring_attempted",
       "title": "Claude Code May\u2013July 2026 weekly limits promotion"
+    },
+    "https://synchub.to": {
+      "canonical_url": "https://synchub.to",
+      "created_at": "2026-07-19T10:44:41Z",
+      "status": "scoring_attempted",
+      "title": "Mirror your GitHub repos to tangled.org automatically"
     },
     "https://systima.ai/blog/claude-code-vs-opencode-token-overhead": {
       "canonical_url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
@@ -3099,6 +3199,12 @@
       "created_at": "2026-07-16T11:11:06Z",
       "status": "scoring_attempted",
       "title": "AI Agents with Cloud Credentials Are Outrunning Billing Guardrails Built for Human-Speed Mistakes"
+    },
+    "https://www.infoq.com/news/2026/07/alphaevolve-generally-available": {
+      "canonical_url": "https://www.infoq.com/news/2026/07/alphaevolve-generally-available",
+      "created_at": "2026-07-19T10:44:41Z",
+      "status": "scoring_attempted",
+      "title": "Google's AlphaEvolve Reaches General Availability with Evolutionary Code Optimization as a Service"
     },
     "https://www.infoq.com/news/2026/07/aws-continuum-code-security": {
       "canonical_url": "https://www.infoq.com/news/2026/07/aws-continuum-code-security",
