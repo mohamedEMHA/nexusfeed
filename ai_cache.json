@@ -46,6 +46,29 @@
         "social_posts": {}
       }
     },
+    "1a3daec4726068f79bf43603cae3ede627a15d21e2dfe4c0e2550b4988a8f52e": {
+      "created_at": "2026-07-19T02:21:50Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Opinion piece on AI's impact on decision-making, relevant to AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "AI Mania Is Eviscerating Global Decision-Making",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "1a9b3ab306f68de0cfbe66cb6fc6c6c29a5edd2ea6fba39f4c37c059b2e61253": {
       "created_at": "2026-07-18T22:27:21Z",
       "payload": {
@@ -185,29 +208,6 @@
         ],
         "best_index": 1,
         "best_score": 8.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "496862e3b60cd9acc1f98ddc229e7885c3c05879a72507d60a2feb407db818e6": {
-      "created_at": "2026-07-18T02:04:56Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "New release of a cross-platform Lua runtime and package manager written in Zig, but limited impact and from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Moonstone: Modern, cross-platform Lua runtime and package manager written in Zig",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -513,6 +513,29 @@
         "social_posts": {}
       }
     },
+    "bbf6a753ce545724c6a88291123d39d527d0b1d74f2fc61dbcb03b3ae2648363": {
+      "created_at": "2026-07-19T02:21:50Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.5,
+            "index": 1,
+            "novelty_score": 0.2,
+            "reason": "Tutorial content with limited impact and a C-tier source.",
+            "red_flag": true,
+            "red_flag_reason": "tutorial",
+            "source_score": 0.5,
+            "title": "Harness Engineering",
+            "total_score": 2.2
+          }
+        ],
+        "best_index": 1,
+        "best_score": 2.2,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "bd7d4c52fff72bd31ec7ca7482a310671dc366adeea5427ea5a8ba226e67d008": {
       "created_at": "2026-07-18T16:11:07Z",
       "payload": {
@@ -600,29 +623,6 @@
         ],
         "best_index": 0,
         "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "cdaabb750b072fdfd9730098f059377f680629d4599f495057979fa7b78b4536": {
-      "created_at": "2026-07-18T02:04:56Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 1,
-            "novelty_score": 0.5,
-            "reason": "Opinion piece from a niche source with limited impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "A grumpy screed about AI in software engineering",
-            "total_score": 3.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 3.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1986,6 +1986,12 @@
       "status": "scoring_attempted",
       "title": "Same model, same Q4_K_M label: 5.02, 5.07 and 5.27 bits per weight"
     },
+    "https://github.com/lopopolo/harness-engineering": {
+      "canonical_url": "https://github.com/lopopolo/harness-engineering",
+      "created_at": "2026-07-19T02:21:50Z",
+      "status": "scoring_attempted",
+      "title": "Harness Engineering"
+    },
     "https://github.com/morganwilliscloud/billai-bass": {
       "canonical_url": "https://github.com/morganwilliscloud/billai-bass",
       "created_at": "2026-07-13T19:54:25Z",
@@ -2009,12 +2015,6 @@
       "created_at": "2026-07-18T22:27:21Z",
       "status": "scoring_attempted",
       "title": "Ada: An AI business intelligence software from CSV and Excel(yes LLMs but more)"
-    },
-    "https://github.com/sqlsure/sqlsure": {
-      "canonical_url": "https://github.com/sqlsure/sqlsure",
-      "created_at": "2026-07-12T01:08:33Z",
-      "status": "scoring_attempted",
-      "title": "Show HN: Sqlsure \u2013 deterministic semantic checks for AI-generated SQL"
     },
     "https://github.com/thephw/claude-meseeks": {
       "canonical_url": "https://github.com/thephw/claude-meseeks",
@@ -2165,6 +2165,12 @@
       "created_at": "2026-07-17T22:44:28Z",
       "status": "scoring_attempted",
       "title": "Kaiser nurses say AI, workplace surveillance are making their jobs, care worse"
+    },
+    "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making": {
+      "canonical_url": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making",
+      "created_at": "2026-07-19T02:21:50Z",
+      "status": "scoring_attempted",
+      "title": "AI Mania Is Eviscerating Global Decision-Making"
     },
     "https://martinfowler.com/articles/llm-and-dsls.html": {
       "canonical_url": "https://martinfowler.com/articles/llm-and-dsls.html",
