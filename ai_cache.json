@@ -166,6 +166,29 @@
         "social_posts": {}
       }
     },
+    "2af6f604934cd7a4196d96b78fb9313561b192dc47a33fa009fdeacc4adc8ce7": {
+      "created_at": "2026-07-19T04:36:02Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "Comparative analysis of three major open MoE models with practical serving cost considerations.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Kimi K3 vs DeepSeek V4 Pro vs GLM-5.2: Open Trillion-Scale MoE Models Compared on Benchmarks, License, and Serving Cost",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "4525f2ac46b3754475a3447e4ac981f78b4835199723a8f0911c79d41d29404c": {
       "created_at": "2026-07-18T17:14:22Z",
       "payload": {
@@ -300,6 +323,29 @@
         ],
         "best_index": 2,
         "best_score": 2.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "7cdbf544073fe4b9c89b2a6a3935b53cf61b4997e5db7afdd24b755087b5e120": {
+      "created_at": "2026-07-19T04:36:02Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "New course integrating LLMs into multivariable calculus, but niche impact and lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "LLM-Integrated Multivariable Calculus Course",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1818,6 +1864,12 @@
       "status": "scoring_attempted",
       "title": "Can We Understand How Large Language Models Reason?"
     },
+    "https://calculus.academa.ai": {
+      "canonical_url": "https://calculus.academa.ai",
+      "created_at": "2026-07-19T04:36:02Z",
+      "status": "scoring_attempted",
+      "title": "LLM-Integrated Multivariable Calculus Course"
+    },
     "https://chemistry.berkeley.edu/news/meet-metal-organic-frameworks-chemistry%E2%80%99s-new-miracle-materials": {
       "canonical_url": "https://chemistry.berkeley.edu/news/meet-metal-organic-frameworks-chemistry%E2%80%99s-new-miracle-materials",
       "created_at": "2026-07-15T23:56:52Z",
@@ -2946,12 +2998,6 @@
       "status": "scoring_attempted",
       "title": "Teen hackers who live streamed cyber-attack on TfL jailed"
     },
-    "https://www.bbc.com/news/articles/c9q29j47v9ro": {
-      "canonical_url": "https://www.bbc.com/news/articles/c9q29j47v9ro",
-      "created_at": "2026-07-12T02:24:26Z",
-      "status": "scoring_attempted",
-      "title": "Wealthy AI workers send San Francisco house prices soaring"
-    },
     "https://www.bbc.com/news/articles/cg53l737v1qo": {
       "canonical_url": "https://www.bbc.com/news/articles/cg53l737v1qo",
       "created_at": "2026-07-14T09:01:54Z",
@@ -3210,12 +3256,6 @@
       "status": "scoring_attempted",
       "title": "SpaceX stock erases all its gains and slides below IPO price in intraday trading"
     },
-    "https://www.marktechpost.com/2026/07/11/mira-muratis-thinking-machines-lab-makes-the-technical-case-for-human-centered-ai-built-on-customizable-model-weights": {
-      "canonical_url": "https://www.marktechpost.com/2026/07/11/mira-muratis-thinking-machines-lab-makes-the-technical-case-for-human-centered-ai-built-on-customizable-model-weights",
-      "created_at": "2026-07-12T02:24:26Z",
-      "status": "scoring_attempted",
-      "title": "Mira Murati\u2019s Thinking Machines Lab Makes The Technical Case For Human-Centered AI Built On Customizable Model Weights"
-    },
     "https://www.marktechpost.com/2026/07/12/meet-neurovfm-a-new-neuroimaging-foundation-model-trained-with-vol-jepa-on-uncurated-clinical-mri-and-ct-volumes": {
       "canonical_url": "https://www.marktechpost.com/2026/07/12/meet-neurovfm-a-new-neuroimaging-foundation-model-trained-with-vol-jepa-on-uncurated-clinical-mri-and-ct-volumes",
       "created_at": "2026-07-13T01:11:30Z",
@@ -3341,6 +3381,12 @@
       "created_at": "2026-07-18T08:11:27Z",
       "status": "scoring_attempted",
       "title": "Google Cloud\u2019s Always-On Memory Agent Replaces RAG and Embeddings With Continuous LLM Consolidation on Gemini 3.1 Flash-Lite"
+    },
+    "https://www.marktechpost.com/2026/07/18/kimi-k3-vs-deepseek-v4-pro-vs-glm-5-2-open-trillion-scale-moe-models-compared-on-benchmarks-license-and-serving-cost": {
+      "canonical_url": "https://www.marktechpost.com/2026/07/18/kimi-k3-vs-deepseek-v4-pro-vs-glm-5-2-open-trillion-scale-moe-models-compared-on-benchmarks-license-and-serving-cost",
+      "created_at": "2026-07-19T04:36:02Z",
+      "status": "scoring_attempted",
+      "title": "Kimi K3 vs DeepSeek V4 Pro vs GLM-5.2: Open Trillion-Scale MoE Models Compared on Benchmarks, License, and Serving Cost"
     },
     "https://www.marktechpost.com/2026/07/18/nvidia-released-deepstream-9-1-bringing-agentic-ai-to-vision-ai-with-13-skills-and-multi-view-3d-tracking": {
       "canonical_url": "https://www.marktechpost.com/2026/07/18/nvidia-released-deepstream-9-1-bringing-agentic-ai-to-vision-ai-with-13-skills-and-multi-view-3d-tracking",
