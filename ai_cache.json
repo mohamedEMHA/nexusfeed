@@ -1,28 +1,5 @@
 {
   "cerebras_scoring": {
-    "07370a51c26a200740d7bed261b789325c1f0da0af40f937dc27d8983915521a": {
-      "created_at": "2026-07-18T14:13:45Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Pinecone Nexus is a new knowledge engine for AI agents that transforms enterprise data into a structured layer, making it reusable across agents and reducing token costs.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Pinecone Introduces Nexus Engine for Compiling Business Context into Structured Data for AI Agents",
-            "total_score": 8
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "075186a3e728d0f84fdad4fd54444c360c433cb0db6b465ef64f7e9e5ffa943b": {
       "created_at": "2026-07-19T10:44:41Z",
       "payload": {
@@ -173,6 +150,29 @@
         "social_posts": {}
       }
     },
+    "29e4731a37c72de429d8e87f8ba82f295def471e13f2b63616da478fe556dc7d": {
+      "created_at": "2026-07-19T14:18:12Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 0.5,
+            "index": 2,
+            "novelty_score": 0.2,
+            "reason": "Niche topic with limited relevance to software engineers and AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "The Clapper was a bad smart home gadget \u2014 and a viral sensation",
+            "total_score": 3.2
+          }
+        ],
+        "best_index": 2,
+        "best_score": 3.2,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "29fd30e448250ba52606810cb8dcc79603c48d79bb3876c2e8877bb7bd63f78a": {
       "created_at": "2026-07-18T17:14:22Z",
       "payload": {
@@ -217,6 +217,34 @@
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "2b28347e98b8058a067ea91bb06a95e44db14fe602c502e2c8b181f082db3c60": {
+      "created_at": "2026-07-19T14:18:12Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Current AI's progress in building a free, culturally inclusive AI web is notable but not groundbreaking.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Nonprofit Current AI is racing to build the World Wide Web of AI, free for all",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Current AI, a nonprofit, is making progress in building a free, culturally inclusive AI web. Their work spans devices and AI chat, aiming to leave no culture behind. Link: https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Nonprofit Current AI is racing to build the World Wide Web of AI, free for all*\n\nCurrent AI, a nonprofit, is building a free, culturally inclusive AI web across devices and AI chat.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Current AI, a nonprofit, is building a free, culturally inclusive AI web. Their progress spans devices and AI chat, aiming to leave no culture behind. https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/",
+          "twitter": "Current AI, a nonprofit, is building a free, culturally inclusive AI web across devices and chat. https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/"
+        }
       }
     },
     "385af781d3387ce9b875acf12ac118dd9b98b0c6c267fde0d0f31afe4b55e863": {
@@ -266,6 +294,29 @@
         ],
         "best_index": 1,
         "best_score": 5.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "521c1dbcfe051fab8566afb1af43c0990ac0838f1da0d3840cfc67984c98cfed": {
+      "created_at": "2026-07-19T14:18:12Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "New release from Cortex, but niche impact and lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "DRIVE \u2013 Operational Excellence for AI-accelerated engineering",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -358,29 +409,6 @@
         ],
         "best_index": 3,
         "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "6e328909f5d7cfafbf1a3e630ec7a4ad7bd789feeb94c15d7d42f49889505ffb": {
-      "created_at": "2026-07-18T14:13:45Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.0,
-            "index": 2,
-            "novelty_score": 0.0,
-            "reason": "This article contains a red flag term 'What' in the title.",
-            "red_flag": true,
-            "red_flag_reason": "What",
-            "source_score": 0.5,
-            "title": "What AI did to stackoverflow in a graph",
-            "total_score": 2.0
-          }
-        ],
-        "best_index": 2,
-        "best_score": 2.0,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -795,6 +823,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 SpaceXAI Open-Sources Grok Build\nSpaceXAI has published the Grok Build source, covering the agent loop, tool dispatch, TUI, and extension system, all in Rust. This move is significant for Rust developers and AI tooling.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n#RustProgramming #AItooling #OpenSource\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "SpaceXAI's decision to open-source Grok Build offers a unique look at the Rust agent harness and TUI that drive its coding CLI, a significant development for Rust developers @SpaceX, #RustProgramming",
         "twitter": "SpaceXAI's open-source Grok Build reveals the Rust agent harness and TUI behind its coding CLI, a significant move for Rust developers @SpaceX, #RustProgramming"
+      }
+    },
+    "4870e5be4db53fa6e211f631d64976603142671196fd564092b9b227ba9a5131": {
+      "created_at": "2026-07-19T14:18:12Z",
+      "payload": {
+        "facebook": "A nonprofit organization is working towards building a World Wide Web of AI that leaves no culture behind, making significant progress in devices and AI chat. This initiative aims to make AI accessible to everyone, promoting digital inclusivity. #AI #DigitalInclusion #TechForGood",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Current AI Progresses Towards Inclusive AI Web\nCurrent AI, a nonprofit, has made significant strides in building a free and culturally inclusive AI web, available across devices and AI chat.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #TechForGood #DigitalInclusion\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Current AI, a nonprofit, is racing to build a free and culturally inclusive AI web, @CurrentAI is leading the charge with notable progress in devices and AI chat #AI",
+        "twitter": "Current AI is making strides in creating a culturally inclusive AI web, available for free to all, @TechCrunch reports #AI #TechForGood"
       }
     },
     "4bbf11af206990ac306e454e2b92ac90fc0d29d04094e45325f2552b3d469f4c": {
@@ -2824,6 +2861,12 @@
       "status": "scoring_attempted",
       "title": "Kimi: Threat or menace?"
     },
+    "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all": {
+      "canonical_url": "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all",
+      "created_at": "2026-07-19T14:18:12Z",
+      "status": "scoring_attempted",
+      "title": "Nonprofit Current AI is racing to build the World Wide Web of AI, free for all"
+    },
     "https://techcrunch.com/podcast/apples-lawsuit-couldnt-come-at-a-worse-time-for-openai": {
       "canonical_url": "https://techcrunch.com/podcast/apples-lawsuit-couldnt-come-at-a-worse-time-for-openai",
       "created_at": "2026-07-17T17:43:50Z",
@@ -3027,6 +3070,12 @@
       "created_at": "2026-07-14T02:05:35Z",
       "status": "scoring_attempted",
       "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team"
+    },
+    "https://www.cortex.io/drive": {
+      "canonical_url": "https://www.cortex.io/drive",
+      "created_at": "2026-07-19T14:18:12Z",
+      "status": "scoring_attempted",
+      "title": "DRIVE \u2013 Operational Excellence for AI-accelerated engineering"
     },
     "https://www.dailymail.com/news/article-15971065/Grandpa-launched-eight-feet-air-bison-Yellowstone.html": {
       "canonical_url": "https://www.dailymail.com/news/article-15971065/Grandpa-launched-eight-feet-air-bison-Yellowstone.html",
@@ -3514,12 +3563,6 @@
       "status": "scoring_attempted",
       "title": "Dave Eggers told OpenAI staff that ChatGPT was \u2018silencing an entire generation\u2019"
     },
-    "https://www.theverge.com/column/963346/ai-data-centers-fight": {
-      "canonical_url": "https://www.theverge.com/column/963346/ai-data-centers-fight",
-      "created_at": "2026-07-12T12:50:21Z",
-      "status": "scoring_attempted",
-      "title": "The fight against AI data centers is just beginning"
-    },
     "https://www.theverge.com/column/967179/physical-discs-gta-vi-playstation-rockstar-games": {
       "canonical_url": "https://www.theverge.com/column/967179/physical-discs-gta-vi-playstation-rockstar-games",
       "created_at": "2026-07-19T12:46:33Z",
@@ -3699,6 +3742,12 @@
       "created_at": "2026-07-17T17:43:50Z",
       "status": "scoring_attempted",
       "title": "Apple\u2019s plot to crush OpenAI"
+    },
+    "https://www.theverge.com/podcast/967642/the-clapper-version-history": {
+      "canonical_url": "https://www.theverge.com/podcast/967642/the-clapper-version-history",
+      "created_at": "2026-07-19T14:18:12Z",
+      "status": "scoring_attempted",
+      "title": "The Clapper was a bad smart home gadget \u2014 and a viral sensation"
     },
     "https://www.theverge.com/policy/964916/paramount-warner-bros-discovery-states-lawsuit": {
       "canonical_url": "https://www.theverge.com/policy/964916/paramount-warner-bros-discovery-states-lawsuit",
