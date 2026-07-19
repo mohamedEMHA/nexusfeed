@@ -546,29 +546,6 @@
         "social_posts": {}
       }
     },
-    "c3cd09cd47ccd5a01fcc83f6b2c24da27f720d0431d71fc530e574496b81a39d": {
-      "created_at": "2026-07-18T12:44:54Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 0.2,
-            "reason": "Opinion piece on game design with limited technical relevance.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "More games should be on rails (literally)",
-            "total_score": 3.7
-          }
-        ],
-        "best_index": 0,
-        "best_score": 3.7,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "cb56a51c5c9bfac74c14f8bc1bf30f45f7c30a7ed73286b3fb6cd15765f91901": {
       "created_at": "2026-07-18T20:23:27Z",
       "payload": {
@@ -589,6 +566,29 @@
         "best_index": 0,
         "best_score": 4.2,
         "recommendation": "SKIP"
+      }
+    },
+    "cc1e928364f1cc03daba29db087086c718533b4ee9315df2c5164116f038f76c": {
+      "created_at": "2026-07-19T12:46:33Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 1.5,
+            "reason": "Weekly recap article with limited novelty and impact.",
+            "red_flag": true,
+            "red_flag_reason": "weekly recap",
+            "source_score": 1.5,
+            "title": "The future of physical games is not looking great",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "cd0b2eda6482f1f809be3a9601a5526445de2be377367bd9731a57dfcf8ba639": {
@@ -2842,12 +2842,6 @@
       "status": "scoring_attempted",
       "title": "Inside Ode with Anthropic, the startup betting AI services are the future of enterprise"
     },
-    "https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents": {
-      "canonical_url": "https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents",
-      "created_at": "2026-07-12T11:54:06Z",
-      "status": "scoring_attempted",
-      "title": "Old and new apps, via modern coding agents by Terry Tao"
-    },
     "https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german": {
       "canonical_url": "https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german",
       "created_at": "2026-07-16T19:21:23Z",
@@ -3525,6 +3519,12 @@
       "created_at": "2026-07-12T12:50:21Z",
       "status": "scoring_attempted",
       "title": "The fight against AI data centers is just beginning"
+    },
+    "https://www.theverge.com/column/967179/physical-discs-gta-vi-playstation-rockstar-games": {
+      "canonical_url": "https://www.theverge.com/column/967179/physical-discs-gta-vi-playstation-rockstar-games",
+      "created_at": "2026-07-19T12:46:33Z",
+      "status": "scoring_attempted",
+      "title": "The future of physical games is not looking great"
     },
     "https://www.theverge.com/design/967606/google-open-source-3d-emoji": {
       "canonical_url": "https://www.theverge.com/design/967606/google-open-source-3d-emoji",
