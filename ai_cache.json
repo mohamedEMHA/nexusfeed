@@ -23,6 +23,29 @@
         "social_posts": {}
       }
     },
+    "0d28fe3192534f84aec8bcaea0cf6690c27d58aed9e38521c35a4bf334e92561": {
+      "created_at": "2026-07-19T01:05:47Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.0,
+            "impact_score": 0.0,
+            "index": 5,
+            "novelty_score": 0.0,
+            "reason": "Red flag detected: 'What's the deal with'",
+            "red_flag": true,
+            "red_flag_reason": "What's the deal with",
+            "source_score": 0.5,
+            "title": "What's the deal with all the random weekly quota resets for agents lately?",
+            "total_score": 1.5
+          }
+        ],
+        "best_index": 5,
+        "best_score": 1.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "1a9b3ab306f68de0cfbe66cb6fc6c6c29a5edd2ea6fba39f4c37c059b2e61253": {
       "created_at": "2026-07-18T22:27:21Z",
       "payload": {
@@ -556,6 +579,29 @@
         "best_index": 0,
         "best_score": 4.2,
         "recommendation": "SKIP"
+      }
+    },
+    "cd0b2eda6482f1f809be3a9601a5526445de2be377367bd9731a57dfcf8ba639": {
+      "created_at": "2026-07-19T01:05:47Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Interesting but not directly relevant to software engineers or AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Popular sugar substitutes linked to faster brain aging",
+            "total_score": 5.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 5.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "cdaabb750b072fdfd9730098f059377f680629d4599f495057979fa7b78b4536": {
@@ -2132,6 +2178,12 @@
       "status": "scoring_attempted",
       "title": "We don't use AI in any of our design or production processes"
     },
+    "https://minimaxir.com/2026/07/agent-quota-reset": {
+      "canonical_url": "https://minimaxir.com/2026/07/agent-quota-reset",
+      "created_at": "2026-07-19T01:05:47Z",
+      "status": "scoring_attempted",
+      "title": "What's the deal with all the random weekly quota resets for agents lately?"
+    },
     "https://minor.gripe/posts/2026-07-13-the_ai_whalefall_and_open_source": {
       "canonical_url": "https://minor.gripe/posts/2026-07-13-the_ai_whalefall_and_open_source",
       "created_at": "2026-07-14T02:05:35Z",
@@ -3325,6 +3377,12 @@
       "created_at": "2026-07-16T21:27:01Z",
       "status": "scoring_attempted",
       "title": "Helium escaping from atmosphere of nearby rocky exoplanet in a habitable zone"
+    },
+    "https://www.sciencedaily.com/releases/2026/07/260717033213.htm": {
+      "canonical_url": "https://www.sciencedaily.com/releases/2026/07/260717033213.htm",
+      "created_at": "2026-07-19T01:05:47Z",
+      "status": "scoring_attempted",
+      "title": "Popular sugar substitutes linked to faster brain aging"
     },
     "https://www.siegelendowment.org/wp-content/uploads/2026/07/fortune-david-siegel-open-source-ai.pdf": {
       "canonical_url": "https://www.siegelendowment.org/wp-content/uploads/2026/07/fortune-david-siegel-open-source-ai.pdf",
