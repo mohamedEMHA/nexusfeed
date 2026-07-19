@@ -23,6 +23,29 @@
         "social_posts": {}
       }
     },
+    "080375466ddb78e000dd50645eed2e2b8d0e80af4c11dc36c971bda2b76565a8": {
+      "created_at": "2026-07-19T07:09:52Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "Debugging tool for Python developers, but limited impact and source tier.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "IceCream \u2013 Never use print() to debug again",
+            "total_score": 5.5
+          }
+        ],
+        "best_index": 2,
+        "best_score": 5.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "0d28fe3192534f84aec8bcaea0cf6690c27d58aed9e38521c35a4bf334e92561": {
       "created_at": "2026-07-19T01:05:47Z",
       "payload": {
@@ -318,6 +341,29 @@
         ],
         "best_index": 0,
         "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "858b4c675f981236cd757de5a1cd100c3e632d4a137321335a916a3bd1b93c71": {
+      "created_at": "2026-07-19T07:09:52Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "AWS CloudFormation Express Mode speeds up infrastructure deployments by marking operations complete once configuration is applied, not waiting for full stabilization.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "AWS Introduces CloudFormation Express Mode for Faster Infrastructure Deployments",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1986,6 +2032,12 @@
       "status": "scoring_attempted",
       "title": "Show HN: Grepathy \u2013 Claude made a decision nobody approved"
     },
+    "https://github.com/gruns/icecream": {
+      "canonical_url": "https://github.com/gruns/icecream",
+      "created_at": "2026-07-19T07:09:52Z",
+      "status": "scoring_attempted",
+      "title": "IceCream \u2013 Never use print() to debug again"
+    },
     "https://github.com/hasenj/go-shirei": {
       "canonical_url": "https://github.com/hasenj/go-shirei",
       "created_at": "2026-07-12T17:37:08Z",
@@ -3113,6 +3165,12 @@
       "created_at": "2026-07-12T07:23:33Z",
       "status": "scoring_attempted",
       "title": "Cloudflare Identifies Race Condition in hyper\u2019s HTTP/1 Implementation"
+    },
+    "https://www.infoq.com/news/2026/07/cloudformation-express-mode": {
+      "canonical_url": "https://www.infoq.com/news/2026/07/cloudformation-express-mode",
+      "created_at": "2026-07-19T07:09:52Z",
+      "status": "scoring_attempted",
+      "title": "AWS Introduces CloudFormation Express Mode for Faster Infrastructure Deployments"
     },
     "https://www.infoq.com/news/2026/07/cncf-trustworthy-agentic-ai": {
       "canonical_url": "https://www.infoq.com/news/2026/07/cncf-trustworthy-agentic-ai",
