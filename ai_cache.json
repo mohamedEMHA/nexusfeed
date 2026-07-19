@@ -235,29 +235,6 @@
         "social_posts": {}
       }
     },
-    "45728a437d9c53c220e0041194e134339712351d899fc51a2d7a884098404505": {
-      "created_at": "2026-07-18T08:11:27Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Major update to an open-source SQL database with version control adds significant new features.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.0,
-            "title": "Version Controlled SQL Database Dolt Releases 2.0 with Automatic Storage Cleanup and Compression",
-            "total_score": 8.0
-          }
-        ],
-        "best_index": 1,
-        "best_score": 8.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "5e5c40e37bf4deb9cf97d24e44d388a755635fb91de51b9cbdca1cafcdd009c8": {
       "created_at": "2026-07-18T22:27:21Z",
       "payload": {
@@ -350,6 +327,29 @@
         "social_posts": {}
       }
     },
+    "73eb07e4a3ab477173666b9be093edc8b31b900132e3553efa1d97e4535fdc10": {
+      "created_at": "2026-07-19T09:16:53Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.5,
+            "index": 0,
+            "novelty_score": 0.2,
+            "reason": "Comments section only, no substantive content.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Perforce charges $500 for training training videos.. and it's AI narrated",
+            "total_score": 2.2
+          }
+        ],
+        "best_index": 0,
+        "best_score": 2.2,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "7cdbf544073fe4b9c89b2a6a3935b53cf61b4997e5db7afdd24b755087b5e120": {
       "created_at": "2026-07-19T04:36:02Z",
       "payload": {
@@ -417,34 +417,6 @@
         "best_score": 6.0,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "890db55d2acf5ce815cfd5e5c72c006cf91ee30c1fc52031efee41469f0107a2": {
-      "created_at": "2026-07-18T08:11:27Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Google Cloud's new Always-On Memory Agent is a significant architectural shift in LLM memory management, replacing traditional RAG and embeddings with a continuous consolidation approach.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Google Cloud\u2019s Always-On Memory Agent Replaces RAG and Embeddings With Continuous LLM Consolidation on Gemini 3.1 Flash-Lite",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Google Cloud has introduced a new Always-On Memory Agent that replaces traditional RAG and embeddings with a continuous LLM consolidation system. Built on Gemini 3.1 Flash-Lite, this approach treats memory as a running process, potentially changing how LLMs manage information. Link: https://www.marktechpost.com/2026/07/18/google-clouds-always-on-memory-agent-replaces-rag-and-embeddings-with-continuous-llm-consolidation-on-gemini-3-1-flash-lite/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Google Cloud\u2019s Always-On Memory Agent Replaces RAG and Embeddings With Continuous LLM Consolidation on Gemini 3.1 Flash-Lite*\n\nGoogle Cloud's new Always-On Memory Agent replaces traditional RAG and embeddings with a continuous LLM consolidation system. Built on Gemini 3.1 Flash-Lite, it treats memory as a running process.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/07/18/google-clouds-always-on-memory-agent-replaces-rag-and-embeddings-with-continuous-llm-consolidation-on-gemini-3-1-flash-lite/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Google Cloud's new Always-On Memory Agent ditches RAG and embeddings for continuous LLM consolidation on Gemini 3.1 Flash-Lite. This is a big shift in how LLMs handle memory. https://www.marktechpost.com/2026/07/18/google-clouds-always-on-memory-agent-replaces-rag-and-embeddings-with-continuous-llm-consolidation-on-gemini-3-1-flash-lite/",
-          "twitter": "Google Cloud replaces RAG and embeddings with Always-On Memory Agent, a continuous LLM consolidation system on Gemini 3.1 Flash-Lite. https://www.marktechpost.com/2026/07/18/google-clouds-always-on-memory-agent-replaces-rag-and-embeddings-with-continuous-llm-consolidation-on-gemini-3-1-flash-lite/"
-        }
       }
     },
     "9cfea3a5b4795a3ab1c6e54fb8fa521e74ffc054833e8ae5949a9b7322fc1204": {
@@ -2006,12 +1978,6 @@
       "status": "scoring_attempted",
       "title": "Show HN: Clawk \u2013 Give coding agents a disposable Linux VM, not your laptop"
     },
-    "https://github.com/cosmtrek/mindwalk": {
-      "canonical_url": "https://github.com/cosmtrek/mindwalk",
-      "created_at": "2026-07-12T08:10:36Z",
-      "status": "scoring_attempted",
-      "title": "Show HN: Mindwalk \u2013 Replay coding-agent sessions on a 3D map of your codebase"
-    },
     "https://github.com/evansjp/grepathy": {
       "canonical_url": "https://github.com/evansjp/grepathy",
       "created_at": "2026-07-15T14:18:44Z",
@@ -2893,6 +2859,12 @@
       "created_at": "2026-07-16T21:27:01Z",
       "status": "scoring_attempted",
       "title": "Timeline Scan \u2013 AI fixes the dates on your scanned photos"
+    },
+    "https://training.perforce.com/learn/courses/535/p4-helix-core-user-basic": {
+      "canonical_url": "https://training.perforce.com/learn/courses/535/p4-helix-core-user-basic",
+      "created_at": "2026-07-19T09:16:53Z",
+      "status": "scoring_attempted",
+      "title": "Perforce charges $500 for training training videos.. and it's AI narrated"
     },
     "https://turntrout.com/why-i-left-google-deepmind": {
       "canonical_url": "https://turntrout.com/why-i-left-google-deepmind",
