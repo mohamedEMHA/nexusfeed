@@ -471,29 +471,6 @@
         "social_posts": {}
       }
     },
-    "69c62205df29cad801a8121520376fd80410420074dca816216c21089f58eb6e": {
-      "created_at": "2026-07-18T23:32:02Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1,
-            "impact_score": 2.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "NVIDIA DeepStream 9.1 introduces agentic AI skills for vision AI, a significant update for developers working with video analytics.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "NVIDIA Released DeepStream 9.1: Bringing Agentic AI to Vision AI With 13 Skills and Multi-View 3D Tracking",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 3,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "73eb07e4a3ab477173666b9be093edc8b31b900132e3553efa1d97e4535fdc10": {
       "created_at": "2026-07-19T09:16:53Z",
       "payload": {
@@ -676,6 +653,34 @@
         "best_score": 5.5,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "d07582c1996e51eebf035651ac553359fc7ef81e06510dd895192f466a5c91c3": {
+      "created_at": "2026-07-19T23:33:23Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 3.0,
+            "reason": "New model release with competitive benchmarks and unique inspection feature.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Feyn AI Releases SQRL, a Text-to-SQL Model Family That Inspects the Database Before Writing a Query",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Feyn Labs has released SQRL, a family of text-to-SQL models that inspect databases before writing queries. The flagship SQRL-35B-A3B achieves 70.6% execution accuracy on BIRD Dev, surpassing Claude Opus 4.6. The models are available in self-hostable 4B and 9B checkpoints. Link: https://www.marktechpost.com/2026/07/19/feyn-ai-releases-sqrl-a-text-to-sql-model-family-that-inspects-the-database-before-writing-a-query/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Feyn AI Releases SQRL, a Text-to-SQL Model Family That Inspects the Database Before Writing a Query*\n\nFeyn Labs has released SQRL, a family of text-to-SQL models that inspect databases before writing queries. The flagship SQRL-35B-A3B achieves 70.6% execution accuracy on BIRD Dev, surpassing Claude Opus 4.6.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/07/19/feyn-ai-releases-sqrl-a-text-to-sql-model-family-that-inspects-the-database-before-writing-a-query/",
+          "threads": "Feyn Labs' SQRL models inspect databases before writing queries, achieving 70.6% accuracy on BIRD Dev and outpacing Claude Opus 4.6. Available in 4B and 9B checkpoints. https://www.marktechpost.com/2026/07/19/feyn-ai-releases-sqrl-a-text-to-sql-model-family-that-inspects-the-database-before-writing-a-query/",
+          "twitter": "Feyn Labs' new SQRL models inspect databases before writing queries, outpacing Claude Opus 4.6 on BIRD Dev.\nhttps://www.marktechpost.com/2026/07/19/feyn-ai-releases-sqrl-a-text-to-sql-model-family-that-inspects-the-database-before-writing-a-query/"
+        }
       }
     },
     "e29fad6e392826682bf7e7c8779728dc924c8f87d7d62347cd7f53c2cf2d3324": {
@@ -1296,6 +1301,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Meta Sued Over Biased AI Layoffs\nA group of former Meta employees is suing the company over claims that it used AI tools to unfairly target workers on leave with layoffs. The lawsuit alleges Meta's AI system unfairly determined which workers to dismiss based on performance data.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AIethics #layoffs #Meta\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Meta is facing a lawsuit over its use of AI for layoffs, with former employees alleging the company's AI tools unfairly targeted workers on leave @Meta #AIethics",
         "twitter": "Meta faces lawsuit over allegedly biased AI layoffs targeting workers on leave @Meta claims unfair dismissal @techworkers #AIethics #layoffs"
+      }
+    },
+    "f1d555fa4bd20bd9a0a306d7d6ddb6fd2a3a0815ae2d9a731df890621e3dff95": {
+      "created_at": "2026-07-19T23:33:23Z",
+      "payload": {
+        "facebook": "A significant development in text-to-SQL models has been announced by Feyn Labs with the release of SQRL, a family of models that inspect databases before generating queries. This approach has yielded impressive results, including a 70.6% execution accuracy on BIRD Dev. #TextToSQL #SQLModels #AI",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Feyn AI Releases Advanced Text-to-SQL Model\nFeyn Labs has introduced SQRL, a family of text-to-SQL models that inspect databases before generating queries, with the flagship SQRL-35B-A3B achieving 70.6% execution accuracy on BIRD Dev.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n#TextToSQL #SQLModels #AI\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Feyn AI has introduced SQRL, a text-to-SQL model family that precedes query writing with database inspection, achieving a notable 70.6% execution accuracy on BIRD Dev @FeynAI #TextToSQL",
+        "twitter": "Feyn AI's new SQRL model family achieves 70.6% execution accuracy on BIRD Dev, outperforming Claude Opus 4.6 @FeynAI #TextToSQL"
       }
     },
     "f4652aed8ff4844d12d3e563cfd0ba473b093e8d8098de2f262e883008227657": {
@@ -3498,6 +3512,12 @@
       "created_at": "2026-07-18T23:32:02Z",
       "status": "scoring_attempted",
       "title": "NVIDIA Released DeepStream 9.1: Bringing Agentic AI to Vision AI With 13 Skills and Multi-View 3D Tracking"
+    },
+    "https://www.marktechpost.com/2026/07/19/feyn-ai-releases-sqrl-a-text-to-sql-model-family-that-inspects-the-database-before-writing-a-query": {
+      "canonical_url": "https://www.marktechpost.com/2026/07/19/feyn-ai-releases-sqrl-a-text-to-sql-model-family-that-inspects-the-database-before-writing-a-query",
+      "created_at": "2026-07-19T23:33:23Z",
+      "status": "scoring_attempted",
+      "title": "Feyn AI Releases SQRL, a Text-to-SQL Model Family That Inspects the Database Before Writing a Query"
     },
     "https://www.marktechpost.com/2026/07/19/perplexity-ai-releases-wandr-an-open-benchmark-evaluating-research-agents-that-must-search-wide-and-deep": {
       "canonical_url": "https://www.marktechpost.com/2026/07/19/perplexity-ai-releases-wandr-an-open-benchmark-evaluating-research-agents-that-must-search-wide-and-deep",
