@@ -609,6 +609,29 @@
         "social_posts": {}
       }
     },
+    "aa0f0ba1994ed50b115f1ab9242599db46eb377a59931e6e93531427da4dcf75": {
+      "created_at": "2026-07-19T21:28:32Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.0,
+            "reason": "Red flag detected: 'What to'",
+            "red_flag": true,
+            "red_flag_reason": "What to",
+            "source_score": 1.5,
+            "title": "What to watch for after Jensen Huang\u2019s Japan visit",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "bbf6a753ce545724c6a88291123d39d527d0b1d74f2fc61dbcb03b3ae2648363": {
       "created_at": "2026-07-19T02:21:50Z",
       "payload": {
@@ -628,6 +651,29 @@
         ],
         "best_index": 1,
         "best_score": 2.2,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "c3ae18ec5bc571e53d0c15bbf0067dd18881410d32c6e1cb4988d2f1ec1a4689": {
+      "created_at": "2026-07-19T21:28:32Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 0.5,
+            "index": 1,
+            "novelty_score": 0.2,
+            "reason": "This article is a review of a music album, not relevant to software engineers or AI researchers.",
+            "red_flag": true,
+            "red_flag_reason": "tutorial",
+            "source_score": 1.5,
+            "title": "This unpronounceable series of glyphs is an incredible side project from Kieran Hebden (aka Four Tet)",
+            "total_score": 4.2
+          }
+        ],
+        "best_index": 1,
+        "best_score": 4.2,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -673,6 +719,29 @@
           }
         ],
         "best_index": 0,
+        "best_score": 5.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "e29fad6e392826682bf7e7c8779728dc924c8f87d7d62347cd7f53c2cf2d3324": {
+      "created_at": "2026-07-19T21:28:32Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "Interesting but not directly relevant to software engineers or AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Heavy TV watching associated with smaller brain structures, study finds",
+            "total_score": 5.5
+          }
+        ],
+        "best_index": 2,
         "best_score": 5.5,
         "recommendation": "SKIP",
         "social_posts": {}
@@ -1994,6 +2063,12 @@
       "status": "scoring_attempted",
       "title": "Floating Companion: Exploring Design Space for Soft Floating Robots in Indoor"
     },
+    "https://dornsife.usc.edu/news/stories/heavy-tv-watching-associated-with-smaller-brain-structures": {
+      "canonical_url": "https://dornsife.usc.edu/news/stories/heavy-tv-watching-associated-with-smaller-brain-structures",
+      "created_at": "2026-07-19T21:28:32Z",
+      "status": "scoring_attempted",
+      "title": "Heavy TV watching associated with smaller brain structures, study finds"
+    },
     "https://dpa-international.com/economics/urn:newsml:dpa.com:20090101:260715-930-389143": {
       "canonical_url": "https://dpa-international.com/economics/urn:newsml:dpa.com:20090101:260715-930-389143",
       "created_at": "2026-07-15T15:24:33Z",
@@ -2329,12 +2404,6 @@
       "created_at": "2026-07-18T02:04:56Z",
       "status": "scoring_attempted",
       "title": "Moonstone: Modern, cross-platform Lua runtime and package manager written in Zig"
-    },
-    "https://nanduruganesh.github.io/flash-msa": {
-      "canonical_url": "https://nanduruganesh.github.io/flash-msa",
-      "created_at": "2026-07-12T21:27:22Z",
-      "status": "scoring_attempted",
-      "title": "Flash-MSA: Accelerating Million-Token Training with Sparse Attention Kernels"
     },
     "https://neow.in/cWsyMTV3": {
       "canonical_url": "https://neow.in/cWsyMTV3",
@@ -2924,6 +2993,12 @@
       "status": "scoring_attempted",
       "title": "\u2018Odyssey\u2019 director Christopher Nolan calls AI an obvious \u2018Trojan horse\u2019"
     },
+    "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit": {
+      "canonical_url": "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit",
+      "created_at": "2026-07-19T21:28:32Z",
+      "status": "scoring_attempted",
+      "title": "What to watch for after Jensen Huang\u2019s Japan visit"
+    },
     "https://techcrunch.com/podcast/apples-lawsuit-couldnt-come-at-a-worse-time-for-openai": {
       "canonical_url": "https://techcrunch.com/podcast/apples-lawsuit-couldnt-come-at-a-worse-time-for-openai",
       "created_at": "2026-07-17T17:43:50Z",
@@ -3110,12 +3185,6 @@
       "status": "scoring_attempted",
       "title": "The Agentic Loop: Three loops in a trench coat"
     },
-    "https://www.canopii.dev/State%20of%20MCP%20Security%202026.pdf": {
-      "canonical_url": "https://www.canopii.dev/State%20of%20MCP%20Security%202026.pdf",
-      "created_at": "2026-07-12T21:27:22Z",
-      "status": "scoring_attempted",
-      "title": "The State of MCP Security [pdf]"
-    },
     "https://www.capitalone.com/tech/open-source/announcing-vulnhunter": {
       "canonical_url": "https://www.capitalone.com/tech/open-source/announcing-vulnhunter",
       "created_at": "2026-07-17T14:00:35Z",
@@ -3139,12 +3208,6 @@
       "created_at": "2026-07-19T14:18:12Z",
       "status": "scoring_attempted",
       "title": "DRIVE \u2013 Operational Excellence for AI-accelerated engineering"
-    },
-    "https://www.dailymail.com/news/article-15971065/Grandpa-launched-eight-feet-air-bison-Yellowstone.html": {
-      "canonical_url": "https://www.dailymail.com/news/article-15971065/Grandpa-launched-eight-feet-air-bison-Yellowstone.html",
-      "created_at": "2026-07-12T20:34:06Z",
-      "status": "scoring_attempted",
-      "title": "Terrifying moment Grandpa is launched eight feet in the air by charging bison"
     },
     "https://www.dea.gov/press-releases/2026/07/01/dea-temporarily-schedule-7-oh-and-related-substances-protect-public": {
       "canonical_url": "https://www.dea.gov/press-releases/2026/07/01/dea-temporarily-schedule-7-oh-and-related-substances-protect-public",
@@ -3548,12 +3611,6 @@
       "status": "scoring_attempted",
       "title": "If you want Claude to speak nicely to you, try Hindi or Arabic"
     },
-    "https://www.theverge.com/ai-artificial-intelligence/964539/lorde-says-ray-ban-meta-ai-glasses-are-not-sexy": {
-      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/964539/lorde-says-ray-ban-meta-ai-glasses-are-not-sexy",
-      "created_at": "2026-07-12T20:34:06Z",
-      "status": "scoring_attempted",
-      "title": "Lorde says Ray-Ban Meta AI glasses are \u2018not sexy\u2019"
-    },
     "https://www.theverge.com/ai-artificial-intelligence/965066/ai-police-cops": {
       "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/965066/ai-police-cops",
       "created_at": "2026-07-16T11:11:06Z",
@@ -3667,6 +3724,12 @@
       "created_at": "2026-07-19T20:25:29Z",
       "status": "scoring_attempted",
       "title": "I hate that I don\u2019t hate this song made with Suno"
+    },
+    "https://www.theverge.com/entertainment/967696/four-tet-wingdings-album-review": {
+      "canonical_url": "https://www.theverge.com/entertainment/967696/four-tet-wingdings-album-review",
+      "created_at": "2026-07-19T21:28:32Z",
+      "status": "scoring_attempted",
+      "title": "This unpronounceable series of glyphs is an incredible side project from Kieran Hebden (aka Four Tet)"
     },
     "https://www.theverge.com/gadgets/964652/asus-rog-flow-z13-switch-2-camera-amd-ryzen-ddr4-deal-sale": {
       "canonical_url": "https://www.theverge.com/gadgets/964652/asus-rog-flow-z13-switch-2-camera-amd-ryzen-ddr4-deal-sale",
