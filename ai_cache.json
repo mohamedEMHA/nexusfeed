@@ -98,6 +98,58 @@
         }
       }
     },
+    "1c8b945200133f2f6bcb971704127a85e2089a5e4151cfc2efac1570d6ebbb72": {
+      "created_at": "2026-07-20T14:34:36Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Research on model compression is novel but niche in impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Lossless model compression experiment: GLM-5.2 in 25% less memory",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 1,
+            "novelty_score": 0.5,
+            "reason": "Opinion piece with limited novelty and niche impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Perfection Is Not Over-Engineering",
+            "total_score": 4.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "High novelty and impact with a strong source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "DoorDash Uses Envoy and Valkey for a 1.5M RPS Proxy Cache with 99.99999% Availability",
+            "total_score": 8.0
+          }
+        ],
+        "best_index": 2,
+        "best_score": 8.0,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "DoorDash has developed Entity Cache, a transparent proxy caching platform built on Envoy and Valkey, to reduce redundant service-to-service requests across its microservices architecture. Operating within DoorDash\u2019s service mesh, the platform serves over 1.5M requests per second with 99.99999% availability. Link: https://www.infoq.com/news/2026/07/doordash-entity-cache-proxy/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *DoorDash Uses Envoy and Valkey for a 1.5M RPS Proxy Cache with 99.99999% Availability*\n\nDoorDash has developed Entity Cache, a transparent proxy caching platform built on Envoy and Valkey to reduce redundant service-to-service requests across its microservices architecture. Operating within DoorDash\u2019s service mesh, the platform serves over 1.5M requests per second with 99.99999% availability.\n\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (B)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.0/10\n\n\ud83d\udd17 https://www.infoq.com/news/2026/07/doordash-entity-cache-proxy/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "DoorDash's new proxy cache handles 1.5M RPS with 99.99999% uptime using Envoy and Valkey. https://www.infoq.com/news/2026/07/doordash-entity-cache-proxy/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "twitter": "DoorDash built a 1.5M RPS proxy cache with 99.99999% availability using Envoy and Valkey. https://www.infoq.com/news/2026/07/doordash-entity-cache-proxy/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+        }
+      }
+    },
     "1c8bff46e0bddda205789b46600b4de2aaebb463c28c4de0b0be168346c0bc03": {
       "created_at": "2026-07-20T05:55:22Z",
       "payload": {
@@ -260,57 +312,6 @@
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "29e4731a37c72de429d8e87f8ba82f295def471e13f2b63616da478fe556dc7d": {
-      "created_at": "2026-07-19T14:18:12Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 0.5,
-            "index": 2,
-            "novelty_score": 0.2,
-            "reason": "Niche topic with limited relevance to software engineers and AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "The Clapper was a bad smart home gadget \u2014 and a viral sensation",
-            "total_score": 3.2
-          }
-        ],
-        "best_index": 2,
-        "best_score": 3.2,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "2b28347e98b8058a067ea91bb06a95e44db14fe602c502e2c8b181f082db3c60": {
-      "created_at": "2026-07-19T14:18:12Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Current AI's progress in building a free, culturally inclusive AI web is notable but not groundbreaking.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Nonprofit Current AI is racing to build the World Wide Web of AI, free for all",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Current AI, a nonprofit, is making progress in building a free, culturally inclusive AI web. Their work spans devices and AI chat, aiming to leave no culture behind. Link: https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Nonprofit Current AI is racing to build the World Wide Web of AI, free for all*\n\nCurrent AI, a nonprofit, is building a free, culturally inclusive AI web across devices and AI chat.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Current AI, a nonprofit, is building a free, culturally inclusive AI web. Their progress spans devices and AI chat, aiming to leave no culture behind. https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/",
-          "twitter": "Current AI, a nonprofit, is building a free, culturally inclusive AI web across devices and chat. https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/"
-        }
       }
     },
     "3364eb6aef145f20dde449d950c68884cd30a3563d3139623f3a513a14a1d515": {
@@ -600,29 +601,6 @@
         "social_posts": {}
       }
     },
-    "521c1dbcfe051fab8566afb1af43c0990ac0838f1da0d3840cfc67984c98cfed": {
-      "created_at": "2026-07-19T14:18:12Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "New release from Cortex, but niche impact and lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "DRIVE \u2013 Operational Excellence for AI-accelerated engineering",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "53df76b8fbeb70fcf04ef98c2f4f1577082bf7d6a7ef4a0c7211808c8deb139d": {
       "created_at": "2026-07-19T15:17:20Z",
       "payload": {
@@ -692,6 +670,41 @@
         "social_posts": {}
       }
     },
+    "752db2de8641c636a58d58a8568aae2c309e3f94b9967b4a5e08ea1f7d1c4d0e": {
+      "created_at": "2026-07-20T14:34:36Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 7,
+            "novelty_score": 1.5,
+            "reason": "Certification cohorts are useful but not groundbreaking for the AI/ML community.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.0,
+            "title": "Three InfoQ Certification Cohorts Start This August: Meet the Facilitators",
+            "total_score": 6.0
+          },
+          {
+            "freshness_score": 1.0,
+            "impact_score": 0.5,
+            "index": 10,
+            "novelty_score": 0.2,
+            "reason": "An airport simulator is not relevant to software engineers and AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Airport Simulator",
+            "total_score": 2.2
+          }
+        ],
+        "best_index": 7,
+        "best_score": 6.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "79dd99bddb0c658d862e5171c18f3f4a7d795fda125a353b6ac4f9dd149ff743": {
       "created_at": "2026-07-20T08:52:01Z",
       "payload": {
@@ -711,6 +724,41 @@
         ],
         "best_index": 2,
         "best_score": 1.7,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "9b4acb7e19fa89bd0df736bb363c87e5cd5622f02b2d3c113a7d3fd6022a7c94": {
+      "created_at": "2026-07-20T14:34:36Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.5,
+            "index": 5,
+            "novelty_score": 0.2,
+            "reason": "This is a tutorial-style article about a mod, not a software engineering or AI research topic.",
+            "red_flag": true,
+            "red_flag_reason": "tutorial",
+            "source_score": 0.5,
+            "title": "Modder Makes GTA: Vice City Playable Inside GTA 3 Inside GTA: San Andreas",
+            "total_score": 2.2
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 6,
+            "novelty_score": 2.5,
+            "reason": "This article introduces a new research model in the field of AI, which is highly relevant to AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Inertia-1: An Open Exploration to a Unified Motion Foundation Model",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 6,
+        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -738,6 +786,41 @@
         "social_posts": {}
       }
     },
+    "bd262749b479c114304351b8a5a9170fd6be5c5e65329f6553f896360547efa8": {
+      "created_at": "2026-07-20T14:34:36Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "Industry move with niche impact, fresh, and from a Tier A source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Electric air taxis go to war",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 0.5,
+            "index": 4,
+            "novelty_score": 0.2,
+            "reason": "Recap of a movie trailer, low impact on software engineers and AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Avengers: Doomsday\u2019s first trailer puts everyone on high alert",
+            "total_score": 4.2
+          }
+        ],
+        "best_index": 3,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "c3ae18ec5bc571e53d0c15bbf0067dd18881410d32c6e1cb4988d2f1ec1a4689": {
       "created_at": "2026-07-19T21:28:32Z",
       "payload": {
@@ -757,29 +840,6 @@
         ],
         "best_index": 1,
         "best_score": 4.2,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "cc1e928364f1cc03daba29db087086c718533b4ee9315df2c5164116f038f76c": {
-      "created_at": "2026-07-19T12:46:33Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 1.5,
-            "reason": "Weekly recap article with limited novelty and impact.",
-            "red_flag": true,
-            "red_flag_reason": "weekly recap",
-            "source_score": 1.5,
-            "title": "The future of physical games is not looking great",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1614,6 +1674,12 @@
       "status": "scoring_attempted",
       "title": "Launch HN: Agnost AI (YC S26) \u2013 Extract user feedback from agent conversations"
     },
+    "https://airport.apunen.com": {
+      "canonical_url": "https://airport.apunen.com",
+      "created_at": "2026-07-20T14:34:36Z",
+      "status": "scoring_attempted",
+      "title": "Airport Simulator"
+    },
     "https://antirez.com/news/169": {
       "canonical_url": "https://antirez.com/news/169",
       "created_at": "2026-07-13T15:36:16Z",
@@ -2238,6 +2304,12 @@
       "status": "scoring_attempted",
       "title": "Brainless: Shadcn components that look like Claude Code, Codex and Grok"
     },
+    "https://brianbell-x.github.io/weight-compression": {
+      "canonical_url": "https://brianbell-x.github.io/weight-compression",
+      "created_at": "2026-07-20T14:34:36Z",
+      "status": "scoring_attempted",
+      "title": "Lossless model compression experiment: GLM-5.2 in 25% less memory"
+    },
     "https://briarproject.org/news/2026-maintenance-mode": {
       "canonical_url": "https://briarproject.org/news/2026-maintenance-mode",
       "created_at": "2026-07-15T14:18:44Z",
@@ -2550,12 +2622,6 @@
       "status": "scoring_attempted",
       "title": "Jiga (YC W21) is hiring the best people to make manufacturing great again"
     },
-    "https://jivx.com/densha": {
-      "canonical_url": "https://jivx.com/densha",
-      "created_at": "2026-07-13T12:43:58Z",
-      "status": "scoring_attempted",
-      "title": "A voxel Tokyo in real Japan time \u2013 ride the Yamanote line and study Japanese"
-    },
     "https://jobs.ashbyhq.com/artie": {
       "canonical_url": "https://jobs.ashbyhq.com/artie",
       "created_at": "2026-07-15T17:59:26Z",
@@ -2573,6 +2639,12 @@
       "created_at": "2026-07-17T07:35:08Z",
       "status": "scoring_attempted",
       "title": "EEG shows brain can simultaneous encode two speech streams"
+    },
+    "https://kotaku.com/gta-vice-city-made-playable-in-gta-3-made-playable-in-gta-san-andreas-2000717510": {
+      "canonical_url": "https://kotaku.com/gta-vice-city-made-playable-in-gta-3-made-playable-in-gta-san-andreas-2000717510",
+      "created_at": "2026-07-20T14:34:36Z",
+      "status": "scoring_attempted",
+      "title": "Modder Makes GTA: Vice City Playable Inside GTA 3 Inside GTA: San Andreas"
     },
     "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws": {
       "canonical_url": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws",
@@ -3312,6 +3384,12 @@
       "status": "scoring_attempted",
       "title": "Moonshot AI suspends new subscriptions due to Kimi K3 demand"
     },
+    "https://var0.xyz/posts/perfection-is-not-over-engineering.html": {
+      "canonical_url": "https://var0.xyz/posts/perfection-is-not-over-engineering.html",
+      "created_at": "2026-07-20T14:34:36Z",
+      "status": "scoring_attempted",
+      "title": "Perfection Is Not Over-Engineering"
+    },
     "https://velvetshark.com/ai-company-logos-that-look-like-buttholes": {
       "canonical_url": "https://velvetshark.com/ai-company-logos-that-look-like-buttholes",
       "created_at": "2026-07-18T11:42:16Z",
@@ -3498,12 +3576,6 @@
       "status": "scoring_attempted",
       "title": "Article: Comprehension at AI Speed: Building a Context Store for Evolutionary Architecture"
     },
-    "https://www.infoq.com/articles/aws-multi-region-signing": {
-      "canonical_url": "https://www.infoq.com/articles/aws-multi-region-signing",
-      "created_at": "2026-07-13T12:43:58Z",
-      "status": "scoring_attempted",
-      "title": "Article: Removing a Hidden Round Trip from a Multi-Region AWS API"
-    },
     "https://www.infoq.com/news/2026/07/agentic-resource-discovery-spec": {
       "canonical_url": "https://www.infoq.com/news/2026/07/agentic-resource-discovery-spec",
       "created_at": "2026-07-14T14:09:38Z",
@@ -3564,6 +3636,12 @@
       "status": "scoring_attempted",
       "title": "How DoorDash Built an AI Shopping Assistant That Doesn\u2019t Rely on the LLM Alone"
     },
+    "https://www.infoq.com/news/2026/07/doordash-entity-cache-proxy": {
+      "canonical_url": "https://www.infoq.com/news/2026/07/doordash-entity-cache-proxy",
+      "created_at": "2026-07-20T14:34:36Z",
+      "status": "scoring_attempted",
+      "title": "DoorDash Uses Envoy and Valkey for a 1.5M RPS Proxy Cache with 99.99999% Availability"
+    },
     "https://www.infoq.com/news/2026/07/durable-document-schema": {
       "canonical_url": "https://www.infoq.com/news/2026/07/durable-document-schema",
       "created_at": "2026-07-14T09:01:54Z",
@@ -3575,6 +3653,12 @@
       "created_at": "2026-07-14T10:54:22Z",
       "status": "scoring_attempted",
       "title": "Google's Genkit Ships Agents API with Detached Turns and Human-in-the-Loop for TypeScript and Go"
+    },
+    "https://www.infoq.com/news/2026/07/infoq-online-cohorts-2026": {
+      "canonical_url": "https://www.infoq.com/news/2026/07/infoq-online-cohorts-2026",
+      "created_at": "2026-07-20T14:34:36Z",
+      "status": "scoring_attempted",
+      "title": "Three InfoQ Certification Cohorts Start This August: Meet the Facilitators"
     },
     "https://www.infoq.com/news/2026/07/linkerd-2-20-improvements": {
       "canonical_url": "https://www.infoq.com/news/2026/07/linkerd-2-20-improvements",
@@ -3629,12 +3713,6 @@
       "created_at": "2026-07-17T10:56:38Z",
       "status": "scoring_attempted",
       "title": "How Uber Builds Zone-Failure-Resilient OpenSearch Clusters"
-    },
-    "https://www.infoq.com/podcasts/governance-age-ai": {
-      "canonical_url": "https://www.infoq.com/podcasts/governance-age-ai",
-      "created_at": "2026-07-13T12:43:58Z",
-      "status": "scoring_attempted",
-      "title": "Podcast: Governance in the Age of AI: A Conversation with Sarah Wells"
     },
     "https://www.infoq.com/podcasts/strands-agents": {
       "canonical_url": "https://www.infoq.com/podcasts/strands-agents",
@@ -3989,6 +4067,12 @@
       "created_at": "2026-07-19T21:28:32Z",
       "status": "scoring_attempted",
       "title": "This unpronounceable series of glyphs is an incredible side project from Kieran Hebden (aka Four Tet)"
+    },
+    "https://www.theverge.com/entertainment/967887/avengers-doomsday-trailer-marvel-release-date": {
+      "canonical_url": "https://www.theverge.com/entertainment/967887/avengers-doomsday-trailer-marvel-release-date",
+      "created_at": "2026-07-20T14:34:36Z",
+      "status": "scoring_attempted",
+      "title": "Avengers: Doomsday\u2019s first trailer puts everyone on high alert"
     },
     "https://www.theverge.com/gadgets/964652/asus-rog-flow-z13-switch-2-camera-amd-ryzen-ddr4-deal-sale": {
       "canonical_url": "https://www.theverge.com/gadgets/964652/asus-rog-flow-z13-switch-2-camera-amd-ryzen-ddr4-deal-sale",
@@ -4386,6 +4470,12 @@
       "status": "scoring_attempted",
       "title": "Tesla driver in fatal Texas crash overrode FSD by pressing accelerator &#8216;100 percent,&#8217; investigators confirm"
     },
+    "https://www.theverge.com/transportation/967891/archer-evtol-military-anduril-air-taxi-thunder": {
+      "canonical_url": "https://www.theverge.com/transportation/967891/archer-evtol-military-anduril-air-taxi-thunder",
+      "created_at": "2026-07-20T14:34:36Z",
+      "status": "scoring_attempted",
+      "title": "Electric air taxis go to war"
+    },
     "https://www.tomshardware.com/networking/clever-hacker-fits-537-000-domains-in-a-tiny-usd5-esp32-ad-blocking-dongle-firmware-uses-only-around-50kb-of-ram-and-can-answer-blocked-lookups-in-10-milliseconds": {
       "canonical_url": "https://www.tomshardware.com/networking/clever-hacker-fits-537-000-domains-in-a-tiny-usd5-esp32-ad-blocking-dongle-firmware-uses-only-around-50kb-of-ram-and-can-answer-blocked-lookups-in-10-milliseconds",
       "created_at": "2026-07-19T16:12:03Z",
@@ -4535,6 +4625,12 @@
       "created_at": "2026-07-15T21:32:14Z",
       "status": "scoring_attempted",
       "title": "Grok Build is open source"
+    },
+    "https://yang-ai-lab.github.io/Inertia-1": {
+      "canonical_url": "https://yang-ai-lab.github.io/Inertia-1",
+      "created_at": "2026-07-20T14:34:36Z",
+      "status": "scoring_attempted",
+      "title": "Inertia-1: An Open Exploration to a Unified Motion Foundation Model"
     }
   },
   "version": 1
