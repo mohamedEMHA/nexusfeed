@@ -669,6 +669,29 @@
         }
       }
     },
+    "42d9ec0bcaed00a47b48554725e3ff9596eae8ec326ed1b92d5a5d01555be236": {
+      "created_at": "2026-07-20T19:08:17Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "Research on software delivery inefficiency, but limited impact and lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "The drivers behind software delivery inefficiency",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 3,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "4f3d966b20ed7ae4c1a4f96c915c2f1e61e00cdd0a1fc8c8285332a5c21e2c9b": {
       "created_at": "2026-07-20T05:55:22Z",
       "payload": {
@@ -750,6 +773,46 @@
         "best_score": 7,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "5d2618a5fb4632a5391d452c7f3b1246f11b8a5b8d68c930ad3fdeea854967f9": {
+      "created_at": "2026-07-20T19:08:17Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2,
+            "reason": "Industry move with significant impact on cloud AI infrastructure.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 2,
+            "title": "Microsoft expands Azure AI and HPC infrastructure with AMD",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 3,
+            "reason": "New tool for running open models locally, high novelty and impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Nativ: Run frontier open models locally on your Mac",
+            "total_score": 8
+          }
+        ],
+        "best_index": 1,
+        "best_score": 8,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Nativ is a new tool that enables running frontier open models directly on your Mac. This could be a game-changer for developers who want to experiment with large models without relying on cloud services. Link: https://blaizzy.github.io/nativ/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Nativ: Run frontier open models locally on your Mac*\n\nNativ enables running frontier open models directly on your Mac, eliminating the need for cloud services.\n\n\ud83c\udfdb\ufe0f Source: Hacker News (C)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8/10\n\n\ud83d\udd17 https://blaizzy.github.io/nativ/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Nativ brings frontier open models to your Mac. No cloud, just local compute power. Interesting for developers who want to run large models locally.\nhttps://blaizzy.github.io/nativ/",
+          "twitter": "Nativ lets you run frontier open models locally on your Mac. No cloud required, just raw compute power.\nhttps://blaizzy.github.io/nativ/"
+        }
       }
     },
     "5d63b9abfdd7d1894546c6b4f4a573eb7e308fb09d284fab3701e0f6a5236794": {
@@ -943,6 +1006,29 @@
         "social_posts": {}
       }
     },
+    "9b9708db9971a08adc82c441c5baaf9f2a69535b7bf6183e32e20f5a33c53c5a": {
+      "created_at": "2026-07-20T19:08:17Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "Interesting research on AI agent policy enforcement, but niche impact and lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "An Empirical Study: AI Agent Rules Need Context and Layered Enforcement",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 2,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "aa0f0ba1994ed50b115f1ab9242599db46eb377a59931e6e93531427da4dcf75": {
       "created_at": "2026-07-19T21:28:32Z",
       "payload": {
@@ -961,6 +1047,29 @@
           }
         ],
         "best_index": 0,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "af5553611fe4bf827ae66b717678f2f95dc5dd9c667442b61296ef0c56b0db82": {
+      "created_at": "2026-07-20T19:08:17Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 4,
+            "novelty_score": 2.5,
+            "reason": "Industry move with significant impact, but not directly relevant to software engineers or AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Judge pauses Paramount\u2019s attempt to buy Warner Bros. Discovery",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 4,
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
@@ -1154,34 +1263,6 @@
         "best_score": 8,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "e627e20aa4a35ac30de4d570403048806493173bb2ce21cbf3f1823306ad0ecf": {
-      "created_at": "2026-07-19T17:16:08Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Significant policy change with broad implications for law enforcement and civil rights.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "The FBI reportedly won\u2019t investigate ICE anymore",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "The FBI is reportedly no longer investigating confrontations involving ICE agents, according to the New York Times. The DHS and DOJ have denied this change in policy. This development follows increased scrutiny of violence by ICE agents. Link: https://www.theverge.com/policy/967674/fbi-wont-investigate-ice-assaults",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *The FBI reportedly won\u2019t investigate ICE anymore*\n\nThe FBI is reportedly no longer investigating confrontations involving ICE agents, according to the New York Times. The DHS and DOJ have denied this change in policy. This development follows increased scrutiny of violence by ICE agents.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/policy/967674/fbi-wont-investigate-ice-assaults\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "The FBI is reportedly halting investigations into ICE confrontations, despite DHS and DOJ denials. This follows increased scrutiny of ICE agent violence. https://www.theverge.com/policy/967674/fbi-wont-investigate-ice-assaults",
-          "twitter": "The FBI reportedly halts investigations into ICE confrontations, despite DHS and DOJ denials. https://www.theverge.com/policy/967674/fbi-wont-investigate-ice-assaults"
-        }
       }
     },
     "e8b85fb487992d0dd801e742e76fd78fecf2370607e24166442452f34c6c1c89": {
@@ -1411,15 +1492,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 AI Backlash and the Future\nDr. Jill Lepore discusses the need for AI backlash to shape the future, offering a unique perspective on current trends.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #ArtificialIntelligence #Technology\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Historian Dr. Jill Lepore shares her insights on the importance of AI backlash for the future, providing a fresh perspective on current trends @TheVerge #AI",
         "twitter": "Dr. Jill Lepore discusses the importance of AI backlash for the future @TheVerge #AIethics"
-      }
-    },
-    "1c008d995cc2842c6c5cf25f81dc3cc22b6d9f803d23f4157c6099bb5148aa4a": {
-      "created_at": "2026-07-13T18:18:14Z",
-      "payload": {
-        "facebook": "A recent lawsuit filed by Apple against OpenAI has brought to light some surprising allegations. Apparently, OpenAI's hardware head asked Apple employees to bring unreleased product samples to job interviews. This lawsuit has significant implications for the tech industry and raises important questions about ethics and competition. #AIethics #techlaw #innovation",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Apple Sues OpenAI Over Unreleased Product Samples\nThe lawsuit alleges that OpenAI's hardware head asked Apple employees to bring unreleased product samples to job interviews, sparking a heated debate about ethics and competition in the tech industry.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n#AIethics #techlaw #innovation\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Apple's lawsuit against OpenAI reveals shocking claims of stolen unreleased product samples @TheVerge #AIethics",
-        "twitter": "Apple accuses OpenAI of stealing unreleased product samples in a lawsuit @TheVerge #AIethics #techlaw"
       }
     },
     "2285da7ffe1561385d2a345eb581719b0540b74146ef3fe8dd054ef3055634b9": {
@@ -2462,6 +2534,12 @@
       "status": "scoring_attempted",
       "title": "SaaS *is* dead. But not because AI \"killed\" it, because AI killed it"
     },
+    "https://blaizzy.github.io/nativ": {
+      "canonical_url": "https://blaizzy.github.io/nativ",
+      "created_at": "2026-07-20T19:08:17Z",
+      "status": "scoring_attempted",
+      "title": "Nativ: Run frontier open models locally on your Mac"
+    },
     "https://blog.documentfoundation.org/blog/2026/07/17/microsofts-main-tool-for-lock-in": {
       "canonical_url": "https://blog.documentfoundation.org/blog/2026/07/17/microsofts-main-tool-for-lock-in",
       "created_at": "2026-07-20T08:52:01Z",
@@ -2509,6 +2587,12 @@
       "created_at": "2026-07-17T15:15:00Z",
       "status": "scoring_attempted",
       "title": "AI Meets Cryptography 2: What AI Found in OpenVM's ZkVM"
+    },
+    "https://blogs.microsoft.com/blog/2026/07/20/microsoft-expands-azure-ai-and-hpc-infrastructure-with-amd": {
+      "canonical_url": "https://blogs.microsoft.com/blog/2026/07/20/microsoft-expands-azure-ai-and-hpc-infrastructure-with-amd",
+      "created_at": "2026-07-20T19:08:17Z",
+      "status": "scoring_attempted",
+      "title": "Microsoft expands Azure AI and HPC infrastructure with AMD"
     },
     "https://brainless.swerdlow.dev": {
       "canonical_url": "https://brainless.swerdlow.dev",
@@ -2576,6 +2660,12 @@
       "status": "scoring_attempted",
       "title": "Floating Companion: Exploring Design Space for Soft Floating Robots in Indoor"
     },
+    "https://dl.acm.org/doi/10.1145/3800646.3800650": {
+      "canonical_url": "https://dl.acm.org/doi/10.1145/3800646.3800650",
+      "created_at": "2026-07-20T19:08:17Z",
+      "status": "scoring_attempted",
+      "title": "The drivers behind software delivery inefficiency"
+    },
     "https://dornsife.usc.edu/news/stories/heavy-tv-watching-associated-with-smaller-brain-structures": {
       "canonical_url": "https://dornsife.usc.edu/news/stories/heavy-tv-watching-associated-with-smaller-brain-structures",
       "created_at": "2026-07-19T21:28:32Z",
@@ -2599,6 +2689,12 @@
       "created_at": "2026-07-15T16:50:05Z",
       "status": "scoring_attempted",
       "title": "J-space comparisons across open models"
+    },
+    "https://eunomia.dev/blog/2026/07/15/ebpf-ai-agent-policy-enforcement": {
+      "canonical_url": "https://eunomia.dev/blog/2026/07/15/ebpf-ai-agent-policy-enforcement",
+      "created_at": "2026-07-20T19:08:17Z",
+      "status": "scoring_attempted",
+      "title": "An Empirical Study: AI Agent Rules Need Context and Layered Enforcement"
     },
     "https://fabiensanglard.net/jurrasic_park_computers/index.html": {
       "canonical_url": "https://fabiensanglard.net/jurrasic_park_computers/index.html",
@@ -3158,23 +3254,11 @@
       "status": "scoring_attempted",
       "title": "Hermes agent maker Nous Research in talks for new funding at $1.5B valuation"
     },
-    "https://techcrunch.com/2026/07/13/sam-altmans-space-data-center-trash-talk-is-what-most-experts-already-believe": {
-      "canonical_url": "https://techcrunch.com/2026/07/13/sam-altmans-space-data-center-trash-talk-is-what-most-experts-already-believe",
-      "created_at": "2026-07-13T18:18:14Z",
-      "status": "scoring_attempted",
-      "title": "Sam Altman\u2019s space data center trash talk is what most experts already believe"
-    },
     "https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai": {
       "canonical_url": "https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai",
       "created_at": "2026-07-13T21:47:38Z",
       "status": "scoring_attempted",
       "title": "Satya Nadella has issued a shocking warning to companies using AI"
-    },
-    "https://techcrunch.com/2026/07/13/should-ai-help-you-get-away-with-killing-your-spouse": {
-      "canonical_url": "https://techcrunch.com/2026/07/13/should-ai-help-you-get-away-with-killing-your-spouse",
-      "created_at": "2026-07-13T18:18:14Z",
-      "status": "scoring_attempted",
-      "title": "Should AI help you get away with killing your spouse?"
     },
     "https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai": {
       "canonical_url": "https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai",
@@ -4220,6 +4304,12 @@
       "status": "scoring_attempted",
       "title": "China delivers a one-two punch to America\u2019s AI dominance"
     },
+    "https://www.theverge.com/business/968055/paramount-wbd-merger-pause-tro": {
+      "canonical_url": "https://www.theverge.com/business/968055/paramount-wbd-merger-pause-tro",
+      "created_at": "2026-07-20T19:08:17Z",
+      "status": "scoring_attempted",
+      "title": "Judge pauses Paramount\u2019s attempt to buy Warner Bros. Discovery"
+    },
     "https://www.theverge.com/column/967179/physical-discs-gta-vi-playstation-rockstar-games": {
       "canonical_url": "https://www.theverge.com/column/967179/physical-discs-gta-vi-playstation-rockstar-games",
       "created_at": "2026-07-19T12:46:33Z",
@@ -4550,12 +4640,6 @@
       "status": "scoring_attempted",
       "title": "Siri AI makes the Apple Watch finally feel like a wrist computer"
     },
-    "https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims": {
-      "canonical_url": "https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims",
-      "created_at": "2026-07-13T18:18:14Z",
-      "status": "scoring_attempted",
-      "title": "The 6 wildest claims in Apple&#8217;s lawsuit against OpenAI"
-    },
     "https://www.theverge.com/tech/965084/oneplus-oppo-exit-us-europe": {
       "canonical_url": "https://www.theverge.com/tech/965084/oneplus-oppo-exit-us-europe",
       "created_at": "2026-07-13T22:40:12Z",
@@ -4843,12 +4927,6 @@
       "created_at": "2026-07-17T14:00:35Z",
       "status": "scoring_attempted",
       "title": "Manufact (YC S25) Is Hiring a Senior infra engineer to build the MCP cloud"
-    },
-    "https://www.ycombinator.com/companies/pgdog/jobs/uWymUYy-founding-software-engineer": {
-      "canonical_url": "https://www.ycombinator.com/companies/pgdog/jobs/uWymUYy-founding-software-engineer",
-      "created_at": "2026-07-13T18:18:14Z",
-      "status": "scoring_attempted",
-      "title": "PgDog (YC P25) Is Hiring a Founding Software Engineer"
     },
     "https://www.youtube.com/watch?v=NwhVJ7cv9B4": {
       "canonical_url": "https://www.youtube.com/watch?v=NwhVJ7cv9B4",
