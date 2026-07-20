@@ -612,6 +612,29 @@
         "social_posts": {}
       }
     },
+    "5d63b9abfdd7d1894546c6b4f4a573eb7e308fb09d284fab3701e0f6a5236794": {
+      "created_at": "2026-07-20T09:55:15Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 0.5,
+            "index": 0,
+            "novelty_score": 0.2,
+            "reason": "Gas prices are not relevant to software engineers or AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "US gas prices hit an average of $4 a gallon again",
+            "total_score": 3.2
+          }
+        ],
+        "best_index": 0,
+        "best_score": 3.2,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "67af5c29527d21228d976b73345e5347b1aa431b3537f722008a600414e14ded": {
       "created_at": "2026-07-19T15:17:20Z",
       "payload": {
@@ -631,29 +654,6 @@
         ],
         "best_index": 0,
         "best_score": 4.2,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "73eb07e4a3ab477173666b9be093edc8b31b900132e3553efa1d97e4535fdc10": {
-      "created_at": "2026-07-19T09:16:53Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.5,
-            "index": 0,
-            "novelty_score": 0.2,
-            "reason": "Comments section only, no substantive content.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Perforce charges $500 for training training videos.. and it's AI narrated",
-            "total_score": 2.2
-          }
-        ],
-        "best_index": 0,
-        "best_score": 2.2,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -799,6 +799,29 @@
           "threads": "Feyn Labs' SQRL models inspect databases before writing queries, achieving 70.6% accuracy on BIRD Dev and outpacing Claude Opus 4.6. Available in 4B and 9B checkpoints. https://www.marktechpost.com/2026/07/19/feyn-ai-releases-sqrl-a-text-to-sql-model-family-that-inspects-the-database-before-writing-a-query/",
           "twitter": "Feyn Labs' new SQRL models inspect databases before writing queries, outpacing Claude Opus 4.6 on BIRD Dev.\nhttps://www.marktechpost.com/2026/07/19/feyn-ai-releases-sqrl-a-text-to-sql-model-family-that-inspects-the-database-before-writing-a-query/"
         }
+      }
+    },
+    "d547081425b69d3a2fcba6b421daf60f31fc87ab855048fb81b51ceb6bce695e": {
+      "created_at": "2026-07-20T09:55:15Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "New open-weight model with significant parameter count, but not groundbreaking in approach.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.0,
+            "title": "Kimi K3 open-weight model: China\u2019s biggest AI is a bet on memory, not compute",
+            "total_score": 8.0
+          }
+        ],
+        "best_index": 1,
+        "best_score": 8.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "e29fad6e392826682bf7e7c8779728dc924c8f87d7d62347cd7f53c2cf2d3324": {
@@ -1347,15 +1370,6 @@
         "twitter": "Sakana AI's Error Diffusion achieves 96.7% MNIST and 61.7% CIFAR-10 accuracy without backpropagation @SakanaAI #AI"
       }
     },
-    "8dccf5e1a80bf65af2b391d0f85ecfdc7f96093b650b8057e56e474878e4d7cc": {
-      "created_at": "2026-07-13T09:18:49Z",
-      "payload": {
-        "facebook": "Researchers at Stanford have introduced TRACE, a novel training system designed to improve the capabilities of large language models by identifying and addressing their failures. This innovation has the potential to significantly enhance the performance of these models. #AI #MachineLearning #LLMs",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 New Training System for LLMs\nStanford researchers have developed TRACE, a system that identifies and addresses capability gaps in large language models, leading to improved performance.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #MachineLearning #LLMs\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Stanford's TRACE system diagnoses capability gaps in agentic LLMs and synthesizes training environments to improve their performance, @StanfordAILab #AI",
-        "twitter": "Stanford researchers develop TRACE, a system that identifies and addresses capability gaps in agentic LLMs, @StanfordAILab #AI"
-      }
-    },
     "98c591003998ac120b143d763d579cf58e9fdc5ef25f068190a32ce8ea6d9ab9": {
       "created_at": "2026-07-18T09:45:06Z",
       "payload": {
@@ -1585,6 +1599,12 @@
       "created_at": "2026-07-13T15:36:16Z",
       "status": "scoring_attempted",
       "title": "Control the Ideas, Not the Code"
+    },
+    "https://apnews.com/article/gas-prices-iran-war-4-gallon-4b82825734ec3ded192351e53a4be69e": {
+      "canonical_url": "https://apnews.com/article/gas-prices-iran-war-4-gallon-4b82825734ec3ded192351e53a4be69e",
+      "created_at": "2026-07-20T09:55:15Z",
+      "status": "scoring_attempted",
+      "title": "US gas prices hit an average of $4 a gallon again"
     },
     "https://arstechnica.com/ai/2026/07/fear-of-humanoid-robots-spurs-human-workers-to-strike-at-hyundai-auto-factory": {
       "canonical_url": "https://arstechnica.com/ai/2026/07/fear-of-humanoid-robots-spurs-human-workers-to-strike-at-hyundai-auto-factory",
@@ -2768,12 +2788,6 @@
       "status": "scoring_attempted",
       "title": "Show HN: On-chain bond market where the issuers are AI agents"
     },
-    "https://shkspr.mobi/blog/2026/07/another-ridiculous-interrail-holiday-6379km-and-13-countries-over-7-weeks": {
-      "canonical_url": "https://shkspr.mobi/blog/2026/07/another-ridiculous-interrail-holiday-6379km-and-13-countries-over-7-weeks",
-      "created_at": "2026-07-13T09:18:49Z",
-      "status": "scoring_attempted",
-      "title": "Interrail: 6,379Km and 13 Countries over 7 weeks"
-    },
     "https://simonwillison.net/2026/Jul/16/kimi-k3": {
       "canonical_url": "https://simonwillison.net/2026/Jul/16/kimi-k3",
       "created_at": "2026-07-17T16:36:17Z",
@@ -3332,6 +3346,12 @@
       "status": "scoring_attempted",
       "title": "Examining Google DeepMind\u2019s AI bioresilience push"
     },
+    "https://www.artificialintelligence-news.com/news/kimi-k3-open-weight-model-memory-compute-china": {
+      "canonical_url": "https://www.artificialintelligence-news.com/news/kimi-k3-open-weight-model-memory-compute-china",
+      "created_at": "2026-07-20T09:55:15Z",
+      "status": "scoring_attempted",
+      "title": "Kimi K3 open-weight model: China\u2019s biggest AI is a bet on memory, not compute"
+    },
     "https://www.artificialintelligence-news.com/news/neko-health-700m-ai-body-scans-us": {
       "canonical_url": "https://www.artificialintelligence-news.com/news/neko-health-700m-ai-body-scans-us",
       "created_at": "2026-07-16T11:11:06Z",
@@ -3415,12 +3435,6 @@
       "created_at": "2026-07-15T16:50:05Z",
       "status": "scoring_attempted",
       "title": "DEA to Temporarily Schedule 7-Oh and Related Substances to Protect Public Safety"
-    },
-    "https://www.disruptionbanking.com/2026/07/13/inside-berkshires-397-billion-bet-against-an-overheated-market": {
-      "canonical_url": "https://www.disruptionbanking.com/2026/07/13/inside-berkshires-397-billion-bet-against-an-overheated-market",
-      "created_at": "2026-07-13T09:18:49Z",
-      "status": "scoring_attempted",
-      "title": "Berkshire's $397B Bet Against an Overheated Market"
     },
     "https://www.frank.computer/blog/2025/05/just-a-tool.html": {
       "canonical_url": "https://www.frank.computer/blog/2025/05/just-a-tool.html",
@@ -3614,23 +3628,11 @@
       "status": "scoring_attempted",
       "title": "Anthropic Claude Sonnet 5 vs Sonnet 4.6 vs Opus 4.8: Agentic Coding Benchmarks, API Pricing, and Cost-Performance Tradeoffs Compared"
     },
-    "https://www.marktechpost.com/2026/07/13/prime-intellect-releases-verifiers-v1": {
-      "canonical_url": "https://www.marktechpost.com/2026/07/13/prime-intellect-releases-verifiers-v1",
-      "created_at": "2026-07-13T09:18:49Z",
-      "status": "scoring_attempted",
-      "title": "Prime Intellect Releases Verifiers v1: Composable Tasksets, Harnesses, and Runtimes for Agentic RL Training and Evaluations"
-    },
     "https://www.marktechpost.com/2026/07/13/skyfall-ai-releases-morpheus-a-persistent-enterprise-simulation-benchmark-that-makes-continual-reinforcement-learning-necessary-under-structured-non-stationarity": {
       "canonical_url": "https://www.marktechpost.com/2026/07/13/skyfall-ai-releases-morpheus-a-persistent-enterprise-simulation-benchmark-that-makes-continual-reinforcement-learning-necessary-under-structured-non-stationarity",
       "created_at": "2026-07-13T22:53:02Z",
       "status": "scoring_attempted",
       "title": "Skyfall AI Releases MORPHEUS: A Persistent Enterprise Simulation Benchmark That Makes Continual Reinforcement Learning Necessary Under Structured Non-Stationarity"
-    },
-    "https://www.marktechpost.com/2026/07/13/stanford-researchers-introduce-trace": {
-      "canonical_url": "https://www.marktechpost.com/2026/07/13/stanford-researchers-introduce-trace",
-      "created_at": "2026-07-13T09:18:49Z",
-      "status": "scoring_attempted",
-      "title": "Stanford Researchers Introduce TRACE: A Capability-Targeted Agentic Training System That Turns Recurrent Agent Failures Into Synthetic RL Environment"
     },
     "https://www.marktechpost.com/2026/07/14/meet-blume-an-open-source-zero-config-documentation-framework-that-ships-ai-ready-docs-from-a-markdown-folder": {
       "canonical_url": "https://www.marktechpost.com/2026/07/14/meet-blume-an-open-source-zero-config-documentation-framework-that-ships-ai-ready-docs-from-a-markdown-folder",
@@ -4303,12 +4305,6 @@
       "created_at": "2026-07-17T19:50:46Z",
       "status": "scoring_attempted",
       "title": "TikTok is testing an AI likeness detection tool"
-    },
-    "https://www.theverge.com/transportation/964132/waze-gemini-ai-voice-commands-less-chatty": {
-      "canonical_url": "https://www.theverge.com/transportation/964132/waze-gemini-ai-voice-commands-less-chatty",
-      "created_at": "2026-07-13T09:18:49Z",
-      "status": "scoring_attempted",
-      "title": "Waze is getting a bunch of new AI-powered features"
     },
     "https://www.theverge.com/transportation/965924/lucids-bankruptcy-rumor-is-a-bad-sign-for-the-ev-future": {
       "canonical_url": "https://www.theverge.com/transportation/965924/lucids-bankruptcy-rumor-is-a-bad-sign-for-the-ev-future",
