@@ -81,29 +81,6 @@
         "social_posts": {}
       }
     },
-    "0d28fe3192534f84aec8bcaea0cf6690c27d58aed9e38521c35a4bf334e92561": {
-      "created_at": "2026-07-19T01:05:47Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.0,
-            "impact_score": 0.0,
-            "index": 5,
-            "novelty_score": 0.0,
-            "reason": "Red flag detected: 'What's the deal with'",
-            "red_flag": true,
-            "red_flag_reason": "What's the deal with",
-            "source_score": 0.5,
-            "title": "What's the deal with all the random weekly quota resets for agents lately?",
-            "total_score": 1.5
-          }
-        ],
-        "best_index": 5,
-        "best_score": 1.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "1a3daec4726068f79bf43603cae3ede627a15d21e2dfe4c0e2550b4988a8f52e": {
       "created_at": "2026-07-19T02:21:50Z",
       "payload": {
@@ -331,6 +308,29 @@
           "threads": "Perplexity AI's new WANDR benchmark tests research agents on their ability to search wide and deep, with 500 evidence-heavy tasks. https://www.marktechpost.com/2026/07/19/perplexity-ai-releases-wandr-an-open-benchmark-evaluating-research-agents-that-must-search-wide-and-deep/",
           "twitter": "Perplexity AI just launched WANDR, a new benchmark for research agents that tests their ability to search wide and deep. https://www.marktechpost.com/2026/07/19/perplexity-ai-releases-wandr-an-open-benchmark-evaluating-research-agents-that-must-search-wide-and-deep/"
         }
+      }
+    },
+    "423bec1d6fcf7af7c58d114b93f076171c5d71a7fb82153a55a68dfab88c618f": {
+      "created_at": "2026-07-20T01:08:10Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.0,
+            "index": 0,
+            "novelty_score": 0.0,
+            "reason": "HN discussion about non-AI blogs is not relevant to software engineers and AI researchers.",
+            "red_flag": true,
+            "red_flag_reason": "HN discussion",
+            "source_score": 0.5,
+            "title": "Ask HN: What are your favorite blogs not about AI?",
+            "total_score": 2.0
+          }
+        ],
+        "best_index": 0,
+        "best_score": 2.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "48eecc8aebbf773a3ade49fd29e5716112d87184b62adf77d4262bb236e7ab2f": {
@@ -628,29 +628,6 @@
         ],
         "best_index": 0,
         "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "cd0b2eda6482f1f809be3a9601a5526445de2be377367bd9731a57dfcf8ba639": {
-      "created_at": "2026-07-19T01:05:47Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Interesting but not directly relevant to software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Popular sugar substitutes linked to faster brain aging",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 5.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -2450,6 +2427,12 @@
       "created_at": "2026-07-16T17:58:26Z",
       "status": "scoring_attempted",
       "title": "Launch HN: Traceforce (YC S26) \u2013 Company-wide security monitoring for AI apps"
+    },
+    "https://news.ycombinator.com/item?id=48972858": {
+      "canonical_url": "https://news.ycombinator.com/item?id=48972858",
+      "created_at": "2026-07-20T01:08:10Z",
+      "status": "scoring_attempted",
+      "title": "Ask HN: What are your favorite blogs not about AI?"
     },
     "https://nobie.com": {
       "canonical_url": "https://nobie.com",
