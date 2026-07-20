@@ -23,39 +23,79 @@
         "social_posts": {}
       }
     },
-    "075186a3e728d0f84fdad4fd54444c360c433cb0db6b465ef64f7e9e5ffa943b": {
-      "created_at": "2026-07-19T10:44:41Z",
+    "156cbcb771c2a72155d9e0576d4d5e4d44054c181552b642aaa2eb6ae5023806": {
+      "created_at": "2026-07-20T12:13:13Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Google's AlphaEvolve reaching general availability is a significant industry move with broad impact, but the source tier is only B.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Google's AlphaEvolve Reaches General Availability with Evolutionary Code Optimization as a Service",
-            "total_score": 8
-          },
-          {
-            "freshness_score": 2,
+            "freshness_score": 1.5,
             "impact_score": 1.5,
-            "index": 1,
+            "index": 4,
             "novelty_score": 1.5,
-            "reason": "Claude Code using Bun written in Rust is a notable update, but the impact is niche and the source tier is C.",
+            "reason": "Industry move with niche impact from a lower-tier source.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 0.5,
-            "title": "Claude Code uses Bun written in Rust now",
-            "total_score": 5.5
+            "title": "Airbus Takes Flight from AWS",
+            "total_score": 4.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 5,
+            "novelty_score": 3,
+            "reason": "New open-source release with significant impact on AI developers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "AWS Releases Loom, an Open-Source Reference Platform for Governing AI Agents at Enterprise Scale",
+            "total_score": 8.0
+          }
+        ],
+        "best_index": 5,
+        "best_score": 8.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "15918b445441ee1699787aed832463196daf01af791cf22b2e48c2415d488165": {
+      "created_at": "2026-07-20T12:13:13Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Opinion piece on AI coding harnesses with moderate impact and novelty.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Beyond grep: The case for a context-rich AI coding harness",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.0,
+            "index": 1,
+            "novelty_score": 2.0,
+            "reason": "Significant fine for AliExpress but not directly relevant to software engineers or AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "AliExpress fined almost $630 million over illegal product sales",
+            "total_score": 7.5
           }
         ],
         "best_index": 0,
-        "best_score": 8,
-        "recommendation": "SKIP",
-        "social_posts": {}
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Ars Technica makes a compelling case for AI coding harnesses as the next evolution beyond grep. The article dives into how these tools could transform developer workflows. Link: https://arstechnica.com/ai/2026/07/beyond-grep-the-case-for-a-context-rich-ai-coding-harness/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Beyond grep: The case for a context-rich AI coding harness*\n\nAugment Code's Vinay Perneti talks models, harnesses, and context.\n\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://arstechnica.com/ai/2026/07/beyond-grep-the-case-for-a-context-rich-ai-coding-harness\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Ars Technica argues that AI coding harnesses could outperform grep for developers. Interesting read for those looking at next-gen tools. https://arstechnica.com/ai/2026/07/beyond-grep-the-case-for-a-context-rich-ai-coding-harness/",
+          "twitter": "Ars Technica explores why AI coding harnesses could replace grep for developers. https://arstechnica.com/ai/2026/07/beyond-grep-the-case-for-a-context-rich-ai-coding-harness/"
+        }
       }
     },
     "1c8bff46e0bddda205789b46600b4de2aaebb463c28c4de0b0be168346c0bc03": {
@@ -414,6 +454,46 @@
         "social_posts": {}
       }
     },
+    "42d77e19070bc27c11718f84887fa0829085892e10be26bc26cd127388c9a806": {
+      "created_at": "2026-07-20T12:13:13Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 1.5,
+            "reason": "Podcast interview about Strands Agents SDK growth and lessons learned.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Podcast: Strands Agents with Clare Liguori",
+            "total_score": 5.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 3,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "China's AI companies release models challenging OpenAI and Anthropic.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "China delivers a one-two punch to America\u2019s AI dominance",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 3,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "China's AI companies are stepping up their game. Moonshot and Alibaba have released models that they claim can compete with the best from OpenAI and Anthropic, and at a significantly lower cost. This could tighten America's lead in the AI race. Link: https://www.theverge.com/ai-artificial-intelligence/967781/chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *China delivers a one-two punch to America\u2019s AI dominance*\n\nChina's Moonshot and Alibaba have released AI models that claim to rival OpenAI and Anthropic at a fraction of the cost, potentially tightening America's lead in the AI race.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/ai-artificial-intelligence/967781/chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Moonshot and Alibaba just launched AI models that claim to match OpenAI and Anthropic's capabilities at a fraction of the cost. This is a big deal for the AI landscape. https://www.theverge.com/ai-artificial-intelligence/967781/chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen",
+          "twitter": "China's Moonshot and Alibaba just launched models that claim to rival OpenAI and Anthropic at a fraction of the cost. https://www.theverge.com/ai-artificial-intelligence/967781/chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen"
+        }
+      }
+    },
     "48eecc8aebbf773a3ade49fd29e5716112d87184b62adf77d4262bb236e7ab2f": {
       "created_at": "2026-07-19T16:12:03Z",
       "payload": {
@@ -562,52 +642,6 @@
         ],
         "best_index": 1,
         "best_score": 4.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "563dc7dbb1abfa5fdb4c93876458e48f713ac0d10ce6d08703d4413b2fde92cc": {
-      "created_at": "2026-07-19T10:44:41Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "Useful tool for developers but limited impact and lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Mirror your GitHub repos to tangled.org automatically",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 2,
-        "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "57bbc5bfb66c560dcfd23381154d35da505f09c09082ad36fc0cdf13b799d22d": {
-      "created_at": "2026-07-19T11:47:39Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1,
-            "impact_score": 1.5,
-            "index": 4,
-            "novelty_score": 0.2,
-            "reason": "This is a tutorial on mastering complexity in science and engineering.",
-            "red_flag": true,
-            "red_flag_reason": "tutorial",
-            "source_score": 0.5,
-            "title": "The Art of Insight in Science and Engineering \u2013 Mastering Complexity(2014) [pdf]",
-            "total_score": 3.2
-          }
-        ],
-        "best_index": 4,
-        "best_score": 3.2,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -882,29 +916,6 @@
         "social_posts": {}
       }
     },
-    "e559592ca88227dfb27ad229137c98326c3af9f59565bce04a28e9b3fd9d205c": {
-      "created_at": "2026-07-19T10:44:41Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 5,
-            "novelty_score": 2.5,
-            "reason": "OpenAI's reduction in Codex model context size is a notable update for developers using the API.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "OpenAI reduces Codex Model Context Size from 372k to 272k",
-            "total_score": 7.0
-          }
-        ],
-        "best_index": 5,
-        "best_score": 7.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "e627e20aa4a35ac30de4d570403048806493173bb2ce21cbf3f1823306ad0ecf": {
       "created_at": "2026-07-19T17:16:08Z",
       "payload": {
@@ -931,6 +942,29 @@
           "threads": "The FBI is reportedly halting investigations into ICE confrontations, despite DHS and DOJ denials. This follows increased scrutiny of ICE agent violence. https://www.theverge.com/policy/967674/fbi-wont-investigate-ice-assaults",
           "twitter": "The FBI reportedly halts investigations into ICE confrontations, despite DHS and DOJ denials. https://www.theverge.com/policy/967674/fbi-wont-investigate-ice-assaults"
         }
+      }
+    },
+    "e8b85fb487992d0dd801e742e76fd78fecf2370607e24166442452f34c6c1c89": {
+      "created_at": "2026-07-20T12:13:13Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 6,
+            "novelty_score": 2.5,
+            "reason": "New initiative with significant impact on public health AI applications.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "US public health agencies to test OpenAI and Anthropic AI models",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 6,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "eeca7c038819fc8bd3b28eae1bb66bd335c22da7278500e612ea7f9dd30570a7": {
@@ -1035,29 +1069,6 @@
         ],
         "best_index": 16,
         "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "fd91948790eaa910750d9a1cde9e6c5eaffdd537e3383ade0e32d483a5b1de8d": {
-      "created_at": "2026-07-19T10:44:41Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 4,
-            "novelty_score": 2.5,
-            "reason": "Ollama's announcement about open models is relevant but lacks novelty and impact for a broad audience.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Ollama: All Aboard Open Models",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 4,
-        "best_score": 5.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1224,6 +1235,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Zyphra Releases ZUNA1.1 EEG Model\nZyphra's new EEG foundation model ZUNA1.1 can reconstruct, denoise, and upsample scalp-EEG with variable-length inputs from 0.5 to 30 seconds.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AIresearch #EEGtechnology #ApacheLicense\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Zyphra's ZUNA1.1 EEG foundation model now supports inputs ranging from 0.5 to 30 seconds, a major upgrade from its predecessor @ZyphraAI #AI",
         "twitter": "Zyphra's new EEG foundation model ZUNA1.1 supports variable-length inputs from 0.5 to 30 seconds @ZyphraAI #AIresearch"
+      }
+    },
+    "557b423eb6ac80e884d8b6e8dacdb8514def76e653e3223d917659a157d8ebef": {
+      "created_at": "2026-07-20T12:13:13Z",
+      "payload": {
+        "facebook": "The future of coding is looking more intelligent with the development of context-rich AI coding harnesses. Augment Code's Vinay Perneti discusses the potential of these tools to change the way we code. #AIcoding #SoftwareDevelopment #CodingTools",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 AI coding harnesses are becoming more context-rich\nAugment Code's Vinay Perneti discusses the potential of AI coding harnesses to improve coding efficiency.\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AIcoding #SoftwareDevelopment #CodingTools\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "The case for context-rich AI coding harnesses is being made by Augment Code's Vinay Perneti, who believes these tools can greatly improve coding efficiency @ArsTechnica #AIcoding",
+        "twitter": "AI coding tools are evolving beyond simple grep with context-rich harnesses, says Augment Code's Vinay Perneti @ArsTechnica #AIcoding #SoftwareDevelopment"
       }
     },
     "5f5fa714b854d4f09aa2b68266eb10d185379558eb8a721ea0177b0298cd6207": {
@@ -1605,6 +1625,12 @@
       "created_at": "2026-07-20T09:55:15Z",
       "status": "scoring_attempted",
       "title": "US gas prices hit an average of $4 a gallon again"
+    },
+    "https://arstechnica.com/ai/2026/07/beyond-grep-the-case-for-a-context-rich-ai-coding-harness": {
+      "canonical_url": "https://arstechnica.com/ai/2026/07/beyond-grep-the-case-for-a-context-rich-ai-coding-harness",
+      "created_at": "2026-07-20T12:13:13Z",
+      "status": "scoring_attempted",
+      "title": "Beyond grep: The case for a context-rich AI coding harness"
     },
     "https://arstechnica.com/ai/2026/07/fear-of-humanoid-robots-spurs-human-workers-to-strike-at-hyundai-auto-factory": {
       "canonical_url": "https://arstechnica.com/ai/2026/07/fear-of-humanoid-robots-spurs-human-workers-to-strike-at-hyundai-auto-factory",
@@ -3364,6 +3390,12 @@
       "status": "scoring_attempted",
       "title": "Nokia\u2019s AI-RAN platform: a radio comeback that runs on NVIDIA"
     },
+    "https://www.artificialintelligence-news.com/news/openai-anthropic-public-health-ai": {
+      "canonical_url": "https://www.artificialintelligence-news.com/news/openai-anthropic-public-health-ai",
+      "created_at": "2026-07-20T12:13:13Z",
+      "status": "scoring_attempted",
+      "title": "US public health agencies to test OpenAI and Anthropic AI models"
+    },
     "https://www.ayush.digital/blog/the-memory-heist": {
       "canonical_url": "https://www.ayush.digital/blog/the-memory-heist",
       "created_at": "2026-07-15T07:24:32Z",
@@ -3550,6 +3582,12 @@
       "status": "scoring_attempted",
       "title": "Linkerd 2.20 Delivers Smarter Traffic Management and Dramatic Efficiency Gains"
     },
+    "https://www.infoq.com/news/2026/07/loom-aws-agent-platform": {
+      "canonical_url": "https://www.infoq.com/news/2026/07/loom-aws-agent-platform",
+      "created_at": "2026-07-20T12:13:13Z",
+      "status": "scoring_attempted",
+      "title": "AWS Releases Loom, an Open-Source Reference Platform for Governing AI Agents at Enterprise Scale"
+    },
     "https://www.infoq.com/news/2026/07/meta-brain-interface": {
       "canonical_url": "https://www.infoq.com/news/2026/07/meta-brain-interface",
       "created_at": "2026-07-14T14:09:38Z",
@@ -3597,6 +3635,12 @@
       "created_at": "2026-07-13T12:43:58Z",
       "status": "scoring_attempted",
       "title": "Podcast: Governance in the Age of AI: A Conversation with Sarah Wells"
+    },
+    "https://www.infoq.com/podcasts/strands-agents": {
+      "canonical_url": "https://www.infoq.com/podcasts/strands-agents",
+      "created_at": "2026-07-20T12:13:13Z",
+      "status": "scoring_attempted",
+      "title": "Podcast: Strands Agents with Clare Liguori"
     },
     "https://www.infoq.com/presentations/migration-micro-frontend": {
       "canonical_url": "https://www.infoq.com/presentations/migration-micro-frontend",
@@ -3814,6 +3858,12 @@
       "status": "scoring_attempted",
       "title": "If you want Claude to speak nicely to you, try Hindi or Arabic"
     },
+    "https://www.theregister.com/columnists/2026/07/20/airbus-takes-flight-from-aws-what-happens-next-is-critical/5274109": {
+      "canonical_url": "https://www.theregister.com/columnists/2026/07/20/airbus-takes-flight-from-aws-what-happens-next-is-critical/5274109",
+      "created_at": "2026-07-20T12:13:13Z",
+      "status": "scoring_attempted",
+      "title": "Airbus Takes Flight from AWS"
+    },
     "https://www.theverge.com/ai-artificial-intelligence/965066/ai-police-cops": {
       "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/965066/ai-police-cops",
       "created_at": "2026-07-16T11:11:06Z",
@@ -3867,6 +3917,12 @@
       "created_at": "2026-07-18T22:27:21Z",
       "status": "scoring_attempted",
       "title": "Dave Eggers told OpenAI staff that ChatGPT was \u2018silencing an entire generation\u2019"
+    },
+    "https://www.theverge.com/ai-artificial-intelligence/967781/chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen": {
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/967781/chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen",
+      "created_at": "2026-07-20T12:13:13Z",
+      "status": "scoring_attempted",
+      "title": "China delivers a one-two punch to America\u2019s AI dominance"
     },
     "https://www.theverge.com/column/967179/physical-discs-gta-vi-playstation-rockstar-games": {
       "canonical_url": "https://www.theverge.com/column/967179/physical-discs-gta-vi-playstation-rockstar-games",
@@ -4125,6 +4181,12 @@
       "created_at": "2026-07-19T17:16:08Z",
       "status": "scoring_attempted",
       "title": "The FBI reportedly won\u2019t investigate ICE anymore"
+    },
+    "https://www.theverge.com/policy/967802/aliexpress-eu-dsa-fine-illegal-products": {
+      "canonical_url": "https://www.theverge.com/policy/967802/aliexpress-eu-dsa-fine-illegal-products",
+      "created_at": "2026-07-20T12:13:13Z",
+      "status": "scoring_attempted",
+      "title": "AliExpress fined almost $630 million over illegal product sales"
     },
     "https://www.theverge.com/science/965263/reflect-orbital-space-mirror-launch-fcc-clearance": {
       "canonical_url": "https://www.theverge.com/science/965263/reflect-orbital-space-mirror-launch-fcc-clearance",
