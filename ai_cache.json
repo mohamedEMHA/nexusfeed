@@ -1,28 +1,5 @@
 {
   "cerebras_scoring": {
-    "051f5ac8935ae5920f61f210f8a7768a5d0ce5126a69a4e2ca8bdb857789761b": {
-      "created_at": "2026-07-19T16:12:03Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "Interesting hardware hack but limited impact and source tier.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Clever hacker fits 537,000 domains in a $5 ESP32 ad-blocking dongle",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 3,
-        "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "1337a9b4d31796b406bd8c260cd3dfc4bf7be928d2d394ed356e8503451a8279": {
       "created_at": "2026-07-20T15:48:01Z",
       "payload": {
@@ -514,6 +491,121 @@
         "social_posts": {}
       }
     },
+    "3a4fa6c6e4d7d68ea59c0432804e016735129fb906a07b0b03e0a196840acfe1": {
+      "created_at": "2026-07-20T17:12:45Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 4,
+            "novelty_score": 2.5,
+            "reason": "Adobe's Indigo camera app adds generative AI tools, but it's not a major industry shift.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Adobe\u2019s \u2018natural look\u2019 camera app embraces generative AI",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 5,
+            "novelty_score": 3,
+            "reason": "NVIDIA's new Cosmos 3 Edge model is a significant release with broad implications for AI deployment.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 2,
+            "title": "Introducing Cosmos 3 Edge",
+            "total_score": 9.5
+          }
+        ],
+        "best_index": 5,
+        "best_score": 9.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "NVIDIA has released Cosmos 3 Edge, a new model designed for edge AI deployment. This could significantly impact how AI is used in real-time applications. Link: https://huggingface.co/blog/nvidia/cosmos3edge",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Introducing Cosmos 3 Edge*\n\nNVIDIA has released Cosmos 3 Edge, a new model designed for edge AI deployment, promising to bring advanced AI capabilities to edge devices.\n\n\ud83c\udfdb\ufe0f Source: HuggingFace (S)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9.5/10\n\n\ud83d\udd17 https://huggingface.co/blog/nvidia/cosmos3edge\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "NVIDIA just launched Cosmos 3 Edge, a new model optimized for edge AI. This is a big step for real-time AI applications. https://huggingface.co/blog/nvidia/cosmos3edge",
+          "twitter": "NVIDIA's Cosmos 3 Edge model is now available, promising to bring advanced AI capabilities to edge devices. https://huggingface.co/blog/nvidia/cosmos3edge"
+        }
+      }
+    },
+    "3f1911298e834b628e8ecce5dfcded88b9419a4464675915cf339c113bb89dc0": {
+      "created_at": "2026-07-20T17:12:45Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "New AI-powered learning tool for K-12, but limited impact and source tier.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Launch HN: Bloomy (YC S26) \u2013 AI-powered mastery learning for K-12",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 3,
+            "novelty_score": 2,
+            "reason": "LG monitors silently installing adware on Windows 11, affecting all users.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "LG\u2019s monitors come with an unwanted addition for Windows: McAfee pop-up ads",
+            "total_score": 8
+          }
+        ],
+        "best_index": 3,
+        "best_score": 8.0,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "LG monitors are silently installing McAfee adware on Windows 11 without user consent. This affects all users who connect their LG UltraGear monitors to a PC running Windows 11. Link: https://www.theverge.com/tech/967983/lg-monitors-mcafee-adware-gamers-nexus",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *LG\u2019s monitors come with an unwanted addition for Windows: McAfee pop-up ads*\n\nLG monitors are silently installing McAfee adware on Windows 11 without user consent. This affects all users who connect their LG UltraGear monitors to a PC running Windows 11.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.0/10\n\n\ud83d\udd17 https://www.theverge.com/tech/967983/lg-monitors-mcafee-adware-gamers-nexus\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "LG monitors are silently installing McAfee adware on Windows 11 without user consent. This affects all users who connect their LG UltraGear monitors to a PC running Windows 11. https://www.theverge.com/tech/967983/lg-monitors-mcafee-adware-gamers-nexus",
+          "twitter": "LG monitors are silently installing McAfee adware on Windows 11 without user consent. https://www.theverge.com/tech/967983/lg-monitors-mcafee-adware-gamers-nexus"
+        }
+      }
+    },
+    "3fc09138770f8187cbd7e8df96a2e108feccfa901acf1f5a818a3ce1cd73a98e": {
+      "created_at": "2026-07-20T17:12:45Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 6,
+            "novelty_score": 0.2,
+            "reason": "Interesting video but not directly relevant to software engineers or AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Cross sectioning insects in an electron microscope with a femtosecond laser [video]",
+            "total_score": 3.2
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 7,
+            "novelty_score": 2.5,
+            "reason": "Opinion piece on the impact of AI on SaaS, relevant but not groundbreaking.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "SaaS *is* dead. But not because AI \"killed\" it, because AI killed it",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 7,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "423bec1d6fcf7af7c58d114b93f076171c5d71a7fb82153a55a68dfab88c618f": {
       "created_at": "2026-07-20T01:08:10Z",
       "payload": {
@@ -575,29 +667,6 @@
           "threads": "Moonshot and Alibaba just launched AI models that claim to match OpenAI and Anthropic's capabilities at a fraction of the cost. This is a big deal for the AI landscape. https://www.theverge.com/ai-artificial-intelligence/967781/chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen",
           "twitter": "China's Moonshot and Alibaba just launched models that claim to rival OpenAI and Anthropic at a fraction of the cost. https://www.theverge.com/ai-artificial-intelligence/967781/chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen"
         }
-      }
-    },
-    "48eecc8aebbf773a3ade49fd29e5716112d87184b62adf77d4262bb236e7ab2f": {
-      "created_at": "2026-07-19T16:12:03Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 0.5,
-            "index": 0,
-            "novelty_score": 0.2,
-            "reason": "Niche music gear review with limited relevance to software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Orchid is a delightfully retro and approachable hipster synth",
-            "total_score": 4.2
-          }
-        ],
-        "best_index": 0,
-        "best_score": 4.2,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "4f3d966b20ed7ae4c1a4f96c915c2f1e61e00cdd0a1fc8c8285332a5c21e2c9b": {
@@ -1161,6 +1230,41 @@
         "social_posts": {}
       }
     },
+    "efd2dba9ddbe378ceb44a7c2e271c73ff15d4cefaac41ccf1c047c095ff5cf96": {
+      "created_at": "2026-07-20T17:12:45Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Significant trend in academic publishing but source is a C-tier",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Over 30% of new ArXiv submissions now read as AI-written",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 0.5,
+            "index": 1,
+            "novelty_score": 0.2,
+            "reason": "Consumer hardware deal with minimal relevance to software engineers",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "LG\u2019s glossy OLED gaming monitor is rare to find under $400",
+            "total_score": 4.2
+          }
+        ],
+        "best_index": 0,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "f697db78a4e4a3dd2160fbc6571a5e391ed8050292e481470eeb7405d3c2e603": {
       "created_at": "2026-07-20T05:55:22Z",
       "payload": {
@@ -1361,6 +1465,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Microsoft Streamlines Windows Search\nMicrosoft is testing a cleaner version of the Windows 11 search menu that strips it of recommended content and ads.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#Windows11 #Microsoft #TechNews\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Microsoft is testing a cleaner version of its Windows 11 search menu, removing ads and recommended content @Microsoft #Windows11",
         "twitter": "Microsoft is streamlining its Windows 11 search menu by removing ads and recommended content @Microsoft #Windows11"
+      }
+    },
+    "3ac9a5a40890d30a65eae88fa0db142d95c054d6aff73a9c5f0398b2b47973dc": {
+      "created_at": "2026-07-20T17:12:45Z",
+      "payload": {
+        "facebook": "The introduction of Cosmos 3 Edge by NVIDIA marks a significant milestone in AI development, with potential applications across various industries. This new model is expected to have broad implications for AI deployment. #AI #MachineLearning #NVIDIA",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 NVIDIA Unveils Cosmos 3 Edge\nNVIDIA's Cosmos 3 Edge model is a significant release with broad implications for AI deployment.\n\ud83c\udfdb\ufe0f Source: HuggingFace (S)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9.5/10\n#AI #MachineLearning #NVIDIA\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "NVIDIA's Cosmos 3 Edge model is poised to revolutionize AI deployment, offering new possibilities for industries @NVIDIA #AI",
+        "twitter": "NVIDIA's Cosmos 3 Edge model is set to reshape AI deployment @NVIDIA #AI"
       }
     },
     "4499783dcf14835e4fcf070911fac3ac80ea5bcae79c4435e731467637a55020": {
@@ -1820,12 +1933,6 @@
       "created_at": "2026-07-15T16:50:05Z",
       "status": "scoring_attempted",
       "title": "OpenAI's first branded hardware is... a light-up keyboard?"
-    },
-    "https://arstechnica.com/ai/2026/07/simulating-everything-sort-of-the-promise-and-limits-of-world-models": {
-      "canonical_url": "https://arstechnica.com/ai/2026/07/simulating-everything-sort-of-the-promise-and-limits-of-world-models",
-      "created_at": "2026-07-13T16:30:09Z",
-      "status": "scoring_attempted",
-      "title": "Simulating everything, sort of: The promise and limits of world models"
     },
     "https://arstechnica.com/ai/2026/07/us-military-sent-explosive-drone-boats-into-combat-for-the-first-time": {
       "canonical_url": "https://arstechnica.com/ai/2026/07/us-military-sent-explosive-drone-boats-into-combat-for-the-first-time",
@@ -2349,6 +2456,12 @@
       "status": "scoring_attempted",
       "title": "Closing the AI Trust Gap: The Case for Independent Certification for Trustworthy AI"
     },
+    "https://avivcarmi.com/saas-is-dead": {
+      "canonical_url": "https://avivcarmi.com/saas-is-dead",
+      "created_at": "2026-07-20T17:12:45Z",
+      "status": "scoring_attempted",
+      "title": "SaaS *is* dead. But not because AI \"killed\" it, because AI killed it"
+    },
     "https://blog.documentfoundation.org/blog/2026/07/17/microsofts-main-tool-for-lock-in": {
       "canonical_url": "https://blog.documentfoundation.org/blog/2026/07/17/microsofts-main-tool-for-lock-in",
       "created_at": "2026-07-20T08:52:01Z",
@@ -2487,18 +2600,6 @@
       "status": "scoring_attempted",
       "title": "J-space comparisons across open models"
     },
-    "https://en.wikipedia.org/wiki/Wikipedia:Wikipedia_Signpost/2026-07-13/Special_report": {
-      "canonical_url": "https://en.wikipedia.org/wiki/Wikipedia:Wikipedia_Signpost/2026-07-13/Special_report",
-      "created_at": "2026-07-13T16:30:09Z",
-      "status": "scoring_attempted",
-      "title": "Wikipedia escapes Category 1 designation under the UK Online Safety Act for now"
-    },
-    "https://esologic.com/benchmarking-tesla-gpus": {
-      "canonical_url": "https://esologic.com/benchmarking-tesla-gpus",
-      "created_at": "2026-07-13T16:30:09Z",
-      "status": "scoring_attempted",
-      "title": "Benchmarking 15 \"E-Waste\" GPUs with Modern Workloads"
-    },
     "https://fabiensanglard.net/jurrasic_park_computers/index.html": {
       "canonical_url": "https://fabiensanglard.net/jurrasic_park_computers/index.html",
       "created_at": "2026-07-15T05:11:03Z",
@@ -2516,12 +2617,6 @@
       "created_at": "2026-07-15T14:18:44Z",
       "status": "scoring_attempted",
       "title": "What `for x in y` hides from you \u2013 From Scratch Code"
-    },
-    "https://get-inscribe.com/blog/apple-speech-api-benchmark.html": {
-      "canonical_url": "https://get-inscribe.com/blog/apple-speech-api-benchmark.html",
-      "created_at": "2026-07-13T16:30:09Z",
-      "status": "scoring_attempted",
-      "title": "Apple's new SpeechAnalyzer API, benchmarked against Whisper and its predecessor"
     },
     "https://github.com/Danau5tin/ai-trains-ai": {
       "canonical_url": "https://github.com/Danau5tin/ai-trains-ai",
@@ -2678,6 +2773,12 @@
       "created_at": "2026-07-15T17:59:26Z",
       "status": "scoring_attempted",
       "title": "Model Routing Is Simple. Until It Isn\u2019t."
+    },
+    "https://huggingface.co/blog/nvidia/cosmos3edge": {
+      "canonical_url": "https://huggingface.co/blog/nvidia/cosmos3edge",
+      "created_at": "2026-07-20T17:12:45Z",
+      "status": "scoring_attempted",
+      "title": "Introducing Cosmos 3 Edge"
     },
     "https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb": {
       "canonical_url": "https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb",
@@ -2888,6 +2989,12 @@
       "created_at": "2026-07-20T01:08:10Z",
       "status": "scoring_attempted",
       "title": "Ask HN: What are your favorite blogs not about AI?"
+    },
+    "https://news.ycombinator.com/item?id=48981136": {
+      "canonical_url": "https://news.ycombinator.com/item?id=48981136",
+      "created_at": "2026-07-20T17:12:45Z",
+      "status": "scoring_attempted",
+      "title": "Launch HN: Bloomy (YC S26) \u2013 AI-powered mastery learning for K-12"
     },
     "https://nobie.com": {
       "canonical_url": "https://nobie.com",
@@ -3470,6 +3577,12 @@
       "created_at": "2026-07-19T20:25:29Z",
       "status": "scoring_attempted",
       "title": "Moonshot AI suspends new subscriptions due to Kimi K3 demand"
+    },
+    "https://unslop.run/blog/measuring-ai-writing-on-arxiv": {
+      "canonical_url": "https://unslop.run/blog/measuring-ai-writing-on-arxiv",
+      "created_at": "2026-07-20T17:12:45Z",
+      "status": "scoring_attempted",
+      "title": "Over 30% of new ArXiv submissions now read as AI-written"
     },
     "https://var0.xyz/posts/perfection-is-not-over-engineering.html": {
       "canonical_url": "https://var0.xyz/posts/perfection-is-not-over-engineering.html",
@@ -4239,6 +4352,12 @@
       "status": "scoring_attempted",
       "title": "The AirPods Max 2 are down to their second-best price"
     },
+    "https://www.theverge.com/gadgets/967993/lg-27-inch-ultragear-glossy-oled-gaming-monitor-deal-sale": {
+      "canonical_url": "https://www.theverge.com/gadgets/967993/lg-27-inch-ultragear-glossy-oled-gaming-monitor-deal-sale",
+      "created_at": "2026-07-20T17:12:45Z",
+      "status": "scoring_attempted",
+      "title": "LG&#8217;s glossy OLED gaming monitor is rare to find under $400"
+    },
     "https://www.theverge.com/games/961152/denshattack-review": {
       "canonical_url": "https://www.theverge.com/games/961152/denshattack-review",
       "created_at": "2026-07-18T12:44:54Z",
@@ -4557,6 +4676,18 @@
       "status": "scoring_attempted",
       "title": "TikTok is testing an AI likeness detection tool"
     },
+    "https://www.theverge.com/tech/967791/adobe-indigo-camera-app-ai-playground-update": {
+      "canonical_url": "https://www.theverge.com/tech/967791/adobe-indigo-camera-app-ai-playground-update",
+      "created_at": "2026-07-20T17:12:45Z",
+      "status": "scoring_attempted",
+      "title": "Adobe\u2019s \u2018natural look\u2019 camera app embraces generative AI"
+    },
+    "https://www.theverge.com/tech/967983/lg-monitors-mcafee-adware-gamers-nexus": {
+      "canonical_url": "https://www.theverge.com/tech/967983/lg-monitors-mcafee-adware-gamers-nexus",
+      "created_at": "2026-07-20T17:12:45Z",
+      "status": "scoring_attempted",
+      "title": "LG\u2019s monitors come with an unwanted addition for Windows: McAfee pop-up ads"
+    },
     "https://www.theverge.com/transportation/965924/lucids-bankruptcy-rumor-is-a-bad-sign-for-the-ev-future": {
       "canonical_url": "https://www.theverge.com/transportation/965924/lucids-bankruptcy-rumor-is-a-bad-sign-for-the-ev-future",
       "created_at": "2026-07-15T17:59:26Z",
@@ -4718,6 +4849,12 @@
       "created_at": "2026-07-13T18:18:14Z",
       "status": "scoring_attempted",
       "title": "PgDog (YC P25) Is Hiring a Founding Software Engineer"
+    },
+    "https://www.youtube.com/watch?v=NwhVJ7cv9B4": {
+      "canonical_url": "https://www.youtube.com/watch?v=NwhVJ7cv9B4",
+      "created_at": "2026-07-20T17:12:45Z",
+      "status": "scoring_attempted",
+      "title": "Cross sectioning insects in an electron microscope with a femtosecond laser [video]"
     },
     "https://www.yubico.com/blog/openai-mandates-hardware-backed-passkeys-for-trusted-access-cyber-members-to-log-into-chatgpt-accounts": {
       "canonical_url": "https://www.yubico.com/blog/openai-mandates-hardware-backed-passkeys-for-trusted-access-cyber-members-to-log-into-chatgpt-accounts",
