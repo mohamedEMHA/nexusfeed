@@ -23,6 +23,53 @@
         "social_posts": {}
       }
     },
+    "1337a9b4d31796b406bd8c260cd3dfc4bf7be928d2d394ed356e8503451a8279": {
+      "created_at": "2026-07-20T15:48:01Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 0.5,
+            "reason": "Retrospective article from 2023 republished in 2026.",
+            "red_flag": true,
+            "red_flag_reason": "retrospective",
+            "source_score": 0.5,
+            "title": "Jaron Lanier: there is no AI (2023)",
+            "total_score": 4.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.0,
+            "reason": "YouTube's policy update on AI-generated content impacts creators and viewers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "YouTube clarifies policies around AI slop and upsetting videos",
+            "total_score": 8.0
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.0,
+            "index": 2,
+            "novelty_score": 0.2,
+            "reason": "Guide-style article with no new information.",
+            "red_flag": true,
+            "red_flag_reason": "guide to",
+            "source_score": 0.5,
+            "title": "NYC Subway Signals: A Complete Guide",
+            "total_score": 3.7
+          }
+        ],
+        "best_index": 1,
+        "best_score": 8.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "156cbcb771c2a72155d9e0576d4d5e4d44054c181552b642aaa2eb6ae5023806": {
       "created_at": "2026-07-20T12:13:13Z",
       "payload": {
@@ -275,6 +322,41 @@
         ],
         "best_index": 4,
         "best_score": 5.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "21fd8f14c59f8b4d3b6c8492d143df3cd5d69c62c6e5dceca16f307e774e442e": {
+      "created_at": "2026-07-20T15:48:01Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 10,
+            "novelty_score": 2.0,
+            "reason": "Update to Firefox's video decoding capabilities, niche impact, and from a C-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Firefox Merges Support for Vulkan Video Decoding",
+            "total_score": 5.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 14,
+            "novelty_score": 3.0,
+            "reason": "New open-source foundation models initiative with significant potential impact, but from a C-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Soofi \u2013 Sovereign Open Source Foundation Models",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 14,
+        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -601,29 +683,6 @@
         "social_posts": {}
       }
     },
-    "53df76b8fbeb70fcf04ef98c2f4f1577082bf7d6a7ef4a0c7211808c8deb139d": {
-      "created_at": "2026-07-19T15:17:20Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 1,
-            "novelty_score": 0.5,
-            "reason": "Opinion piece from a filmmaker, not a technical or industry perspective.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "\u2018Odyssey\u2019 director Christopher Nolan calls AI an obvious \u2018Trojan horse\u2019",
-            "total_score": 4.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 4.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "5d63b9abfdd7d1894546c6b4f4a573eb7e308fb09d284fab3701e0f6a5236794": {
       "created_at": "2026-07-20T09:55:15Z",
       "payload": {
@@ -643,29 +702,6 @@
         ],
         "best_index": 0,
         "best_score": 3.2,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "67af5c29527d21228d976b73345e5347b1aa431b3537f722008a600414e14ded": {
-      "created_at": "2026-07-19T15:17:20Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 0.5,
-            "index": 0,
-            "novelty_score": 0.2,
-            "reason": "This is a commercial product sale, not relevant to software engineers or AI researchers.",
-            "red_flag": true,
-            "red_flag_reason": "best prices",
-            "source_score": 1.5,
-            "title": "Birdfy\u2019s solar-powered smart feeder is down to one of its best prices",
-            "total_score": 4.2
-          }
-        ],
-        "best_index": 0,
-        "best_score": 4.2,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -726,6 +762,81 @@
         "best_score": 1.7,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "819a0adc5482a08a9eadc09d2054bf94f9f872cfdccd63cbb9a85fb1ef465fb3": {
+      "created_at": "2026-07-20T15:48:01Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 5,
+            "novelty_score": 2.5,
+            "reason": "Research on controlling reasoning effort in LLMs, but from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Controlling Reasoning Effort in LLMs",
+            "total_score": 6.0
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 6,
+            "novelty_score": 2.0,
+            "reason": "Industry analysis on AI proprietary trends, but from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "American AI is locked down and proprietary. It's losing",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 6,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "8298f36b25a8ec9e4afa88d6d35f5da58456fb7fd0ae94de7e158a02f673e80e": {
+      "created_at": "2026-07-20T15:48:01Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "Interview with a historian on AI backlash provides unique perspective on current trends.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Dr. Jill Lepore on why AI backlash is vital for the future",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0,
+            "index": 4,
+            "novelty_score": 0,
+            "reason": "Consumer electronics deal has no relevance to software engineers or AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "The AirPods Max 2 are down to their second-best price",
+            "total_score": 3
+          }
+        ],
+        "best_index": 3,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Harvard professor Jill Lepore discusses the importance of AI backlash in her new book. Her historical perspective offers valuable insights into current debates. Link: https://www.theverge.com/podcast/967884/jill-lepore-history-ai-artificial-state-elon-musk",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Dr. Jill Lepore on why AI backlash is vital for the future*\n\nHarvard historian Jill Lepore discusses the importance of AI backlash in her new book, offering a historical perspective on current debates.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/podcast/967884/jill-lepore-history-ai-artificial-state-elon-musk\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Jill Lepore argues AI backlash might be essential for the technology's development. Her historical analysis provides a unique perspective.\nhttps://www.theverge.com/podcast/967884/jill-lepore-history-ai-artificial-state-elon-musk",
+          "twitter": "Harvard historian Jill Lepore explains why AI backlash could be crucial for the technology's future.\nhttps://www.theverge.com/podcast/967884/jill-lepore-history-ai-artificial-state-elon-musk"
+        }
       }
     },
     "9b4acb7e19fa89bd0df736bb363c87e5cd5622f02b2d3c113a7d3fd6022a7c94": {
@@ -1189,6 +1300,15 @@
         "twitter": "NVIDIA NeMo Automodel and Diffusers enable large-scale fine-tuning of video and image models @NVIDIA #AI"
       }
     },
+    "1b19877340fbe3526ca99eb6bb327460e6140719f1d8f11fc9f8cb4ddbec8194": {
+      "created_at": "2026-07-20T15:48:01Z",
+      "payload": {
+        "facebook": "The rise of AI has sparked intense debate about its impact on society. Dr. Jill Lepore's new book, The Rise and Fall of the Artificial State, offers a unique perspective on this issue, highlighting the need for AI backlash to shape the future. #AI #ArtificialIntelligence #Technology",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 AI Backlash and the Future\nDr. Jill Lepore discusses the need for AI backlash to shape the future, offering a unique perspective on current trends.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #ArtificialIntelligence #Technology\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Historian Dr. Jill Lepore shares her insights on the importance of AI backlash for the future, providing a fresh perspective on current trends @TheVerge #AI",
+        "twitter": "Dr. Jill Lepore discusses the importance of AI backlash for the future @TheVerge #AIethics"
+      }
+    },
     "1c008d995cc2842c6c5cf25f81dc3cc22b6d9f803d23f4157c6099bb5148aa4a": {
       "created_at": "2026-07-13T18:18:14Z",
       "payload": {
@@ -1223,15 +1343,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 NVIDIA Nemotron 3 Embed Achieves Top Ranking\nNVIDIA's Nemotron 3 Embed has taken the top spot on RTEB, advancing agentic retrieval capabilities.\n\ud83c\udfdb\ufe0f Source: HuggingFace (S)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.5/10\n#AI #NVIDIA #RTEB\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "NVIDIA's Nemotron 3 Embed has achieved the top ranking on RTEB, pushing the boundaries of agentic retrieval, @NVIDIA #AI",
         "twitter": "NVIDIA's Nemotron 3 Embed takes the top spot on RTEB, a significant leap for agentic retrieval, @NVIDIA #AI"
-      }
-    },
-    "2c45aeac972c6aee180689a548fe71738f5afed85926f54e791087d6672c2685": {
-      "created_at": "2026-07-13T15:36:16Z",
-      "payload": {
-        "facebook": "The security landscape is evolving as defenders begin to utilize prompt injection techniques to outsmart hackers. This approach, known as context bombing, tricks hacking agents into shutting down before they can cause harm. The implications of this development are significant, and it's worth keeping an eye on how it unfolds #cybersecurity #infosec #security",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Defenders adopt prompt injection to combat hackers\nContext bombing tricks hacking agents into shutting down before they can cause harm.\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#cybersecurity #infosec #security\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Defenders are now using prompt injection to their advantage, employing a technique called context bombing to shut down hacking agents before they can do harm @ArsTechnica #cybersecurity",
-        "twitter": "Defenders are turning the tables on hackers with context bombing, a technique that tricks hacking agents into shutting down @ArsTechnica #cybersecurity"
       }
     },
     "2f9165a9d968f3869b6000746cfd9e96b7d68d2f52f7b7f278ac7a0491b8c51f": {
@@ -1680,12 +1791,6 @@
       "status": "scoring_attempted",
       "title": "Airport Simulator"
     },
-    "https://antirez.com/news/169": {
-      "canonical_url": "https://antirez.com/news/169",
-      "created_at": "2026-07-13T15:36:16Z",
-      "status": "scoring_attempted",
-      "title": "Control the Ideas, Not the Code"
-    },
     "https://apnews.com/article/gas-prices-iran-war-4-gallon-4b82825734ec3ded192351e53a4be69e": {
       "canonical_url": "https://apnews.com/article/gas-prices-iran-war-4-gallon-4b82825734ec3ded192351e53a4be69e",
       "created_at": "2026-07-20T09:55:15Z",
@@ -1751,12 +1856,6 @@
       "created_at": "2026-07-16T16:52:04Z",
       "status": "scoring_attempted",
       "title": "Energy IPOs surge as investors hunt for ways to play AI boom"
-    },
-    "https://arstechnica.com/security/2026/07/now-defenders-are-embracing-the-prompt-injection-too": {
-      "canonical_url": "https://arstechnica.com/security/2026/07/now-defenders-are-embracing-the-prompt-injection-too",
-      "created_at": "2026-07-13T15:36:16Z",
-      "status": "scoring_attempted",
-      "title": "Now, defenders are embracing the prompt injection, too"
     },
     "https://arstechnica.com/space/2026/07/google-backed-satellites-for-wildfire-detection-launch-as-smoke-chokes-us-canada": {
       "canonical_url": "https://arstechnica.com/space/2026/07/google-backed-satellites-for-wildfire-detection-launch-as-smoke-chokes-us-canada",
@@ -2406,12 +2505,6 @@
       "status": "scoring_attempted",
       "title": "Jurassic Park computers in excruciating detail"
     },
-    "https://fabiensanglard.net/silpheed/index.html": {
-      "canonical_url": "https://fabiensanglard.net/silpheed/index.html",
-      "created_at": "2026-07-13T15:36:16Z",
-      "status": "scoring_attempted",
-      "title": "The art and engineering of Sega CD Silpheed"
-    },
     "https://fortune.com/2026/07/19/data-center-eminent-domain-public-use": {
       "canonical_url": "https://fortune.com/2026/07/19/data-center-eminent-domain-public-use",
       "created_at": "2026-07-20T05:55:22Z",
@@ -2459,12 +2552,6 @@
       "created_at": "2026-07-16T22:54:08Z",
       "status": "scoring_attempted",
       "title": "Show HN: ReasonGate- An explainable gate that blocks LLM prompt injection"
-    },
-    "https://github.com/clawkwork/clawk": {
-      "canonical_url": "https://github.com/clawkwork/clawk",
-      "created_at": "2026-07-13T15:36:16Z",
-      "status": "scoring_attempted",
-      "title": "Show HN: Clawk \u2013 Give coding agents a disposable Linux VM, not your laptop"
     },
     "https://github.com/evansjp/grepathy": {
       "canonical_url": "https://github.com/evansjp/grepathy",
@@ -2525,6 +2612,12 @@
       "created_at": "2026-07-18T22:27:21Z",
       "status": "scoring_attempted",
       "title": "Ada: An AI business intelligence software from CSV and Excel(yes LLMs but more)"
+    },
+    "https://github.com/search": {
+      "canonical_url": "https://github.com/search",
+      "created_at": "2026-07-20T15:48:01Z",
+      "status": "scoring_attempted",
+      "title": "Firefox Merges Support for Vulkan Video Decoding"
     },
     "https://github.com/thephw/claude-meseeks": {
       "canonical_url": "https://github.com/thephw/claude-meseeks",
@@ -2681,6 +2774,12 @@
       "created_at": "2026-07-19T02:21:50Z",
       "status": "scoring_attempted",
       "title": "AI Mania Is Eviscerating Global Decision-Making"
+    },
+    "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms": {
+      "canonical_url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
+      "created_at": "2026-07-20T15:48:01Z",
+      "status": "scoring_attempted",
+      "title": "Controlling Reasoning Effort in LLMs"
     },
     "https://martinfowler.com/articles/llm-and-dsls.html": {
       "canonical_url": "https://martinfowler.com/articles/llm-and-dsls.html",
@@ -2946,12 +3045,6 @@
       "status": "scoring_attempted",
       "title": "TS-2026-009: Insecure argument handling in Tailscale SSH permitted root access"
     },
-    "https://techcrunch.com/2026/07/13/anthropic-starts-localizing-claude-pricing-for-india-its-biggest-market-after-the-us": {
-      "canonical_url": "https://techcrunch.com/2026/07/13/anthropic-starts-localizing-claude-pricing-for-india-its-biggest-market-after-the-us",
-      "created_at": "2026-07-13T15:36:16Z",
-      "status": "scoring_attempted",
-      "title": "Anthropic starts localizing Claude pricing for India, its biggest market after the US"
-    },
     "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation": {
       "canonical_url": "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation",
       "created_at": "2026-07-13T23:51:24Z",
@@ -2993,12 +3086,6 @@
       "created_at": "2026-07-14T02:05:35Z",
       "status": "scoring_attempted",
       "title": "Video-generation startup PixVerse raises $439M, valuation soars past $2B"
-    },
-    "https://techcrunch.com/2026/07/13/waze-adds-new-ai-powered-features-and-customization-updates": {
-      "canonical_url": "https://techcrunch.com/2026/07/13/waze-adds-new-ai-powered-features-and-customization-updates",
-      "created_at": "2026-07-13T15:36:16Z",
-      "status": "scoring_attempted",
-      "title": "Waze adds new AI-powered features and customization updates"
     },
     "https://techcrunch.com/2026/07/14/anthropics-newest-ad-is-creeping-people-out": {
       "canonical_url": "https://techcrunch.com/2026/07/14/anthropics-newest-ad-is-creeping-people-out",
@@ -3306,6 +3393,12 @@
       "status": "scoring_attempted",
       "title": "What to watch for after Jensen Huang\u2019s Japan visit"
     },
+    "https://techcrunch.com/2026/07/20/youtube-clarifies-policies-around-ai-slop-and-upsetting-videos": {
+      "canonical_url": "https://techcrunch.com/2026/07/20/youtube-clarifies-policies-around-ai-slop-and-upsetting-videos",
+      "created_at": "2026-07-20T15:48:01Z",
+      "status": "scoring_attempted",
+      "title": "YouTube clarifies policies around AI slop and upsetting videos"
+    },
     "https://techcrunch.com/podcast/apples-lawsuit-couldnt-come-at-a-worse-time-for-openai": {
       "canonical_url": "https://techcrunch.com/podcast/apples-lawsuit-couldnt-come-at-a-worse-time-for-openai",
       "created_at": "2026-07-17T17:43:50Z",
@@ -3366,12 +3459,6 @@
       "status": "scoring_attempted",
       "title": "Why I Left Google DeepMind"
     },
-    "https://twitter.com/a_green_being/status/2076598897779020159": {
-      "canonical_url": "https://twitter.com/a_green_being/status/2076598897779020159",
-      "created_at": "2026-07-13T15:36:16Z",
-      "status": "scoring_attempted",
-      "title": "Grok uploaded my user directory to xAI's servers"
-    },
     "https://twitter.com/demishassabis/status/2076957440109625718": {
       "canonical_url": "https://twitter.com/demishassabis/status/2076957440109625718",
       "created_at": "2026-07-14T15:21:57Z",
@@ -3413,6 +3500,12 @@
       "created_at": "2026-07-16T22:29:23Z",
       "status": "scoring_attempted",
       "title": "FIFA World Cup 2026 Data Portraits"
+    },
+    "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing": {
+      "canonical_url": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing",
+      "created_at": "2026-07-20T15:48:01Z",
+      "status": "scoring_attempted",
+      "title": "American AI is locked down and proprietary. It's losing"
     },
     "https://www.adweek.com/media/openais-ad-business-is-on-pace-to-miss-its-own-forecast-by-90-analyst-says": {
       "canonical_url": "https://www.adweek.com/media/openais-ad-business-is-on-pace-to-miss-its-own-forecast-by-90-analyst-says",
@@ -3629,12 +3722,6 @@
       "created_at": "2026-07-18T08:11:27Z",
       "status": "scoring_attempted",
       "title": "Version Controlled SQL Database Dolt Releases 2.0 with Automatic Storage Cleanup and Compression"
-    },
-    "https://www.infoq.com/news/2026/07/doordash-ai-ask-assistant": {
-      "canonical_url": "https://www.infoq.com/news/2026/07/doordash-ai-ask-assistant",
-      "created_at": "2026-07-13T15:36:16Z",
-      "status": "scoring_attempted",
-      "title": "How DoorDash Built an AI Shopping Assistant That Doesn\u2019t Rely on the LLM Alone"
     },
     "https://www.infoq.com/news/2026/07/doordash-entity-cache-proxy": {
       "canonical_url": "https://www.infoq.com/news/2026/07/doordash-entity-cache-proxy",
@@ -3882,6 +3969,18 @@
       "status": "scoring_attempted",
       "title": "Running Gemma 4 26B at 5 tokens/SEC on a 13-year-old Xeon with no GPU"
     },
+    "https://www.newyorker.com/science/annals-of-artificial-intelligence/there-is-no-ai": {
+      "canonical_url": "https://www.newyorker.com/science/annals-of-artificial-intelligence/there-is-no-ai",
+      "created_at": "2026-07-20T15:48:01Z",
+      "status": "scoring_attempted",
+      "title": "Jaron Lanier: there is no AI (2023)"
+    },
+    "https://www.nycsubway.org/wiki/Subway_Signals%3A_A_Complete_Guide": {
+      "canonical_url": "https://www.nycsubway.org/wiki/Subway_Signals%3A_A_Complete_Guide",
+      "created_at": "2026-07-20T15:48:01Z",
+      "status": "scoring_attempted",
+      "title": "NYC Subway Signals: A Complete Guide"
+    },
     "https://www.nytimes.com/2026/07/16/technology/ai-slop-books-biography-amazon.html": {
       "canonical_url": "https://www.nytimes.com/2026/07/16/technology/ai-slop-books-biography-amazon.html",
       "created_at": "2026-07-16T17:58:26Z",
@@ -3911,6 +4010,12 @@
       "created_at": "2026-07-15T22:33:43Z",
       "status": "scoring_attempted",
       "title": "Governments, companies, nonprofits should invest in free, open source AI [pdf]"
+    },
+    "https://www.soofi.info": {
+      "canonical_url": "https://www.soofi.info",
+      "created_at": "2026-07-20T15:48:01Z",
+      "status": "scoring_attempted",
+      "title": "Soofi \u2013 Sovereign Open Source Foundation Models"
     },
     "https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-secures-landmark-legal-victory-lock-pornographic-website-domain-and": {
       "canonical_url": "https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-secures-landmark-legal-victory-lock-pornographic-website-domain-and",
@@ -4074,12 +4179,6 @@
       "status": "scoring_attempted",
       "title": "Avengers: Doomsday\u2019s first trailer puts everyone on high alert"
     },
-    "https://www.theverge.com/gadgets/964652/asus-rog-flow-z13-switch-2-camera-amd-ryzen-ddr4-deal-sale": {
-      "canonical_url": "https://www.theverge.com/gadgets/964652/asus-rog-flow-z13-switch-2-camera-amd-ryzen-ddr4-deal-sale",
-      "created_at": "2026-07-13T15:36:16Z",
-      "status": "scoring_attempted",
-      "title": "The Asus ROG Flow Z13 gaming tablet with 64GB RAM is down to $2,100"
-    },
     "https://www.theverge.com/gadgets/964914/dji-mic-three-bundle-deal-sale": {
       "canonical_url": "https://www.theverge.com/gadgets/964914/dji-mic-three-bundle-deal-sale",
       "created_at": "2026-07-13T21:47:38Z",
@@ -4133,6 +4232,12 @@
       "created_at": "2026-07-19T20:25:29Z",
       "status": "scoring_attempted",
       "title": "Kodak EC35 is a dirt-cheap point-and-shoot film camera"
+    },
+    "https://www.theverge.com/gadgets/967822/airpods-max-2-logitech-superstrike-kodak-charmera-deal-sale": {
+      "canonical_url": "https://www.theverge.com/gadgets/967822/airpods-max-2-logitech-superstrike-kodak-charmera-deal-sale",
+      "created_at": "2026-07-20T15:48:01Z",
+      "status": "scoring_attempted",
+      "title": "The AirPods Max 2 are down to their second-best price"
     },
     "https://www.theverge.com/games/961152/denshattack-review": {
       "canonical_url": "https://www.theverge.com/games/961152/denshattack-review",
@@ -4188,12 +4293,6 @@
       "status": "scoring_attempted",
       "title": "Kalshi says it caught Trump&#8217;s teleprompter operator insider trading"
     },
-    "https://www.theverge.com/podcast/964614/nvidia-auto-xinzhou-wu-ev-ai-hyperion-autonomy-cars-tesla": {
-      "canonical_url": "https://www.theverge.com/podcast/964614/nvidia-auto-xinzhou-wu-ev-ai-hyperion-autonomy-cars-tesla",
-      "created_at": "2026-07-13T15:36:16Z",
-      "status": "scoring_attempted",
-      "title": "Even Nvidia\u2019s head of automotive fights with Nvidia for compute"
-    },
     "https://www.theverge.com/podcast/966074/proton-cto-bart-butler-privacy-encryption-surveillance-age-verification": {
       "canonical_url": "https://www.theverge.com/podcast/966074/proton-cto-bart-butler-privacy-encryption-surveillance-age-verification",
       "created_at": "2026-07-16T15:37:17Z",
@@ -4211,6 +4310,12 @@
       "created_at": "2026-07-19T14:18:12Z",
       "status": "scoring_attempted",
       "title": "The Clapper was a bad smart home gadget \u2014 and a viral sensation"
+    },
+    "https://www.theverge.com/podcast/967884/jill-lepore-history-ai-artificial-state-elon-musk": {
+      "canonical_url": "https://www.theverge.com/podcast/967884/jill-lepore-history-ai-artificial-state-elon-musk",
+      "created_at": "2026-07-20T15:48:01Z",
+      "status": "scoring_attempted",
+      "title": "Dr. Jill Lepore on why AI backlash is vital for the future"
     },
     "https://www.theverge.com/policy/964916/paramount-warner-bros-discovery-states-lawsuit": {
       "canonical_url": "https://www.theverge.com/policy/964916/paramount-warner-bros-discovery-states-lawsuit",
