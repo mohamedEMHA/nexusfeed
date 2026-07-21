@@ -514,29 +514,6 @@
         }
       }
     },
-    "42d9ec0bcaed00a47b48554725e3ff9596eae8ec326ed1b92d5a5d01555be236": {
-      "created_at": "2026-07-20T19:08:17Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "Research on software delivery inefficiency, but limited impact and lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "The drivers behind software delivery inefficiency",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 3,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "43505bbad74e16e61bb477264a581b962da21bdd9463b66f024338c180dd0963": {
       "created_at": "2026-07-20T22:41:29Z",
       "payload": {
@@ -651,44 +628,39 @@
         "social_posts": {}
       }
     },
-    "5d2618a5fb4632a5391d452c7f3b1246f11b8a5b8d68c930ad3fdeea854967f9": {
-      "created_at": "2026-07-20T19:08:17Z",
+    "5fcef7316af33e8086bd2d3018064e49a178beabf290f4a5296ca7f88ae07036": {
+      "created_at": "2026-07-21T19:57:32Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2,
-            "reason": "Industry move with significant impact on cloud AI infrastructure.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 2,
-            "title": "Microsoft expands Azure AI and HPC infrastructure with AMD",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 3,
-            "reason": "New tool for running open models locally, high novelty and impact.",
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 8,
+            "novelty_score": 2.5,
+            "reason": "Opinion piece on AI's impact on programming, relevant but not groundbreaking.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 0.5,
-            "title": "Nativ: Run frontier open models locally on your Mac",
-            "total_score": 8
+            "title": "AI makes programming differently difficult",
+            "total_score": 6.0
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 15,
+            "novelty_score": 3,
+            "reason": "New tool for assessing AI model compatibility with hardware, useful for developers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "I built a page that tells you what AI model your laptop can run",
+            "total_score": 7.5
           }
         ],
-        "best_index": 1,
-        "best_score": 8,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Nativ is a new tool that enables running frontier open models directly on your Mac. This could be a game-changer for developers who want to experiment with large models without relying on cloud services. Link: https://blaizzy.github.io/nativ/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Nativ: Run frontier open models locally on your Mac*\n\nNativ enables running frontier open models directly on your Mac, eliminating the need for cloud services.\n\n\ud83c\udfdb\ufe0f Source: Hacker News (C)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8/10\n\n\ud83d\udd17 https://blaizzy.github.io/nativ/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Nativ brings frontier open models to your Mac. No cloud, just local compute power. Interesting for developers who want to run large models locally.\nhttps://blaizzy.github.io/nativ/",
-          "twitter": "Nativ lets you run frontier open models locally on your Mac. No cloud required, just raw compute power.\nhttps://blaizzy.github.io/nativ/"
-        }
+        "best_index": 15,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "6538c71d182009c182f946b16967b24dc142f945c3a89d43487af9f76bd65c6b": {
@@ -1095,6 +1067,41 @@
         }
       }
     },
+    "9475731ecb1d796f2537342297098ba88bb353b8b130b472531542620fdecab0": {
+      "created_at": "2026-07-21T19:57:32Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.5,
+            "index": 6,
+            "novelty_score": 0.2,
+            "reason": "Comments section with no substantive content.",
+            "red_flag": true,
+            "red_flag_reason": "Comments",
+            "source_score": 0.5,
+            "title": "AI Agent \u2013 TRMNL",
+            "total_score": 2.2
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.0,
+            "index": 7,
+            "novelty_score": 2.0,
+            "reason": "Comments section with no substantive content.",
+            "red_flag": true,
+            "red_flag_reason": "Comments",
+            "source_score": 0.5,
+            "title": "Apple has decided to compete for creativity app users",
+            "total_score": 6.0
+          }
+        ],
+        "best_index": 7,
+        "best_score": 6.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "94f7209c301289ab2b91e8a874faccad946efa701b494634b94cbbaea3af6816": {
       "created_at": "2026-07-21T09:24:48Z",
       "payload": {
@@ -1169,27 +1176,56 @@
         }
       }
     },
-    "9b9708db9971a08adc82c441c5baaf9f2a69535b7bf6183e32e20f5a33c53c5a": {
-      "created_at": "2026-07-20T19:08:17Z",
+    "9ce935672ed14099141636f19b99818effc9ef557f5ad90777704d2485014b0b": {
+      "created_at": "2026-07-21T19:57:32Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 2,
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 0,
             "novelty_score": 2.5,
-            "reason": "Interesting research on AI agent policy enforcement, but niche impact and lower-tier source.",
+            "reason": "New product launch from a notable founder targeting a growing AI-integrated workplace communication niche.",
             "red_flag": false,
             "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "An Empirical Study: AI Agent Rules Need Context and Layered Enforcement",
-            "total_score": 6.5
+            "source_score": 1.5,
+            "title": "Jack Dorsey is taking on Slack with Buzz, a group chat platform for teams and their AI agents",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2,
+            "reason": "Industry analysis on AI's impact on entertainment platforms, relevant to developers and researchers in media tech.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "AI and the rise of the universal entertainment app",
+            "total_score": 8
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "New AI detection tool in a major publishing platform, relevant to content creators and AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Substack adds an AI detector to help spot blogs written by no one",
+            "total_score": 8
           }
         ],
-        "best_index": 2,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
+        "best_index": 0,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Jack Dorsey is launching Buzz, a new group chat platform that integrates AI agents into team communications. This move could shake up the workplace collaboration tools market, offering a direct alternative to Slack. The platform aims to streamline team workflows by putting humans and their AI agents in the same conversation.\nLink: https://techcrunch.com/2026/07/21/jack-dorsey-is-taking-on-slack-with-buzz-a-group-chat-platform-for-teams-and-their-ai-agents/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Jack Dorsey is taking on Slack with Buzz, a group chat platform for teams and their AI agents*\n\nBuzz is a group chat platform for the workplace that puts humans and their AI agents in the same conversation.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/21/jack-dorsey-is-taking-on-slack-with-buzz-a-group-chat-platform-for-teams-and-their-ai-agents/",
+          "threads": "Jack Dorsey's Buzz platform integrates AI agents into team chats, taking on Slack. This could change how teams collaborate, putting humans and AI on equal footing in conversations.\nhttps://techcrunch.com/2026/07/21/jack-dorsey-is-taking-on-slack-with-buzz-a-group-chat-platform-for-teams-and-their-ai-agents/",
+          "twitter": "Jack Dorsey's new platform Buzz brings AI agents into team chats, directly challenging Slack's dominance.\nhttps://techcrunch.com/2026/07/21/jack-dorsey-is-taking-on-slack-with-buzz-a-group-chat-platform-for-teams-and-their-ai-agents/"
+        }
       }
     },
     "a9254a10fab33b8f473449d3df647a5458857639693af4ba13a1710aac5b393e": {
@@ -1257,29 +1293,6 @@
         ],
         "best_index": 1,
         "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "af5553611fe4bf827ae66b717678f2f95dc5dd9c667442b61296ef0c56b0db82": {
-      "created_at": "2026-07-20T19:08:17Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 4,
-            "novelty_score": 2.5,
-            "reason": "Industry move with significant impact, but not directly relevant to software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Judge pauses Paramount\u2019s attempt to buy Warner Bros. Discovery",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 4,
-        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1684,6 +1697,58 @@
           "twitter": "Trump's AI czar has already resigned, marking the latest shakeup in the Center for AI Standards and Innovation.\nhttps://techcrunch.com/2026/07/20/trumps-latest-ai-czar-has-already-resigned/"
         }
       }
+    },
+    "f7c127de357ea4ac5c293fdd6a5f0546c8ba5fa3759f3e4b426da6d00df53c4b": {
+      "created_at": "2026-07-21T19:57:32Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "Pat Gelsinger's initiative to use light for advancing Moore's Law is a significant industry move with potential impact on AI hardware.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "This Former Intel CEO Wants to Jumpstart Moore\u2019s Law With Light",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 4,
+            "novelty_score": 3,
+            "reason": "Android Studio Quail 2 introduces significant AI integration features that will impact Android developers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Android Studio Quail 2 Redesigns Agent Mode, Streamlines AI-Assisted Coding",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 0,
+            "index": 5,
+            "novelty_score": 0,
+            "reason": "This is an advertisement and not relevant to the target audience.",
+            "red_flag": true,
+            "red_flag_reason": "Not relevant to software engineers or AI researchers.",
+            "source_score": 0.5,
+            "title": "Advertise in ChatGPT",
+            "total_score": 2.5
+          }
+        ],
+        "best_index": 4,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Google's latest Android Studio update, Quail 2, introduces significant AI features. The redesign of Agent Mode allows for multiple AI conversations in parallel, streamlining AI-assisted coding. This update is a big step forward for Android developers looking to integrate AI into their workflows.\nLink: https://www.infoq.com/news/2026/07/android-studio-quail-2/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Android Studio Quail 2 Redesigns Agent Mode, Streamlines AI-Assisted Coding*\n\nGoogle's latest Android Studio update introduces significant AI features, including a redesigned Agent Mode that supports multiple AI conversations in parallel.\n\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (B)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.infoq.com/news/2026/07/android-studio-quail-2/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Android Studio Quail 2 just launched with a redesigned Agent Mode that supports parallel AI conversations. This is a major upgrade for AI-assisted coding in Android development.\nhttps://www.infoq.com/news/2026/07/android-studio-quail-2/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "twitter": "Android Studio Quail 2 overhauls AI Agent Mode, enabling parallel AI conversations and deeper AI integration for Android developers.\nhttps://www.infoq.com/news/2026/07/android-studio-quail-2/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+        }
+      }
     }
   },
   "groq_social_posts": {
@@ -1957,6 +2022,15 @@
         "twitter": "Sakana AI's Error Diffusion achieves 96.7% MNIST and 61.7% CIFAR-10 accuracy without backpropagation @SakanaAI #AI"
       }
     },
+    "98a556294b59fbc7eee8b8d21df5926adad3d376c1fc9972b88b617017e28c2d": {
+      "created_at": "2026-07-21T19:57:32Z",
+      "payload": {
+        "facebook": "The future of workplace communication is here with Jack Dorsey's new platform Buzz, which brings together humans and AI agents in one conversation. This could change the way teams collaborate and make decisions. #AI #WorkplaceCommunication #Innovation",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Jack Dorsey Takes On Slack With Buzz\nThe new platform integrates humans and AI agents in workplace conversations, potentially changing team collaboration.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #WorkplaceCommunication #Innovation\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Jack Dorsey is taking on Slack with Buzz, a platform that integrates humans and AI agents in the same conversation @TechCrunch #AI",
+        "twitter": "Jack Dorsey's new platform Buzz aims to integrate humans and AI agents in workplace conversations @TechCrunch #AI"
+      }
+    },
     "98c591003998ac120b143d763d579cf58e9fdc5ef25f068190a32ce8ea6d9ab9": {
       "created_at": "2026-07-18T09:45:06Z",
       "payload": {
@@ -2056,15 +2130,6 @@
         "twitter": "Trump's AI czar role is vacant again after the latest director resigned from the Center for AI Standards and Innovation @TechCrunch #AI"
       }
     },
-    "d23f571cc8f3c83c09484ea4e0c099d91b5433472f8d93a274c8114544b31ec2": {
-      "created_at": "2026-07-14T18:53:04Z",
-      "payload": {
-        "facebook": "The debate over AI training data is heating up as several major publishers sue Google for allegedly using their copyrighted works without permission. This lawsuit raises important questions about the use of copyrighted materials in AI development and the need for clear guidelines on permissions. #AItraining #copyrightinfringement #publishing",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Google faces lawsuit over AI training on copyrighted works\nMajor publishers allege that Google used their works without necessary permissions.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AItraining #copyrightinfringement #publishing\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Google is facing another lawsuit over its AI training practices, this time from major publishers who claim the company used their copyrighted works without permission @Google #AI",
-        "twitter": "Google's AI training practices are under fire again as major publishers like Hachette and Elsevier allege copyright infringement @Google #AIethics"
-      }
-    },
     "e36c855f7fd10cbb7b8b8e2403eed3b52d28c683faf72437cd9b083c7cb1278c": {
       "created_at": "2026-07-18T10:54:31Z",
       "payload": {
@@ -2157,6 +2222,12 @@
     }
   },
   "seen_article_links": {
+    "https://ads.openai.com": {
+      "canonical_url": "https://ads.openai.com",
+      "created_at": "2026-07-21T19:57:32Z",
+      "status": "scoring_attempted",
+      "title": "Advertise in ChatGPT"
+    },
     "https://ai.meta.com/blog/genesis-mission-lawrence-berkeley-national-laboratory-segment-anything-dino/?_fb_noscript=1": {
       "canonical_url": "https://ai.meta.com/blog/genesis-mission-lawrence-berkeley-national-laboratory-segment-anything-dino/?_fb_noscript=1",
       "created_at": "2026-07-21T18:21:46Z",
@@ -2168,6 +2239,12 @@
       "created_at": "2026-07-20T14:34:36Z",
       "status": "scoring_attempted",
       "title": "Airport Simulator"
+    },
+    "https://alex4d.com/notes/item/apple-competing-for-creativity-app-users": {
+      "canonical_url": "https://alex4d.com/notes/item/apple-competing-for-creativity-app-users",
+      "created_at": "2026-07-21T19:57:32Z",
+      "status": "scoring_attempted",
+      "title": "Apple has decided to compete for creativity app users"
     },
     "https://apnews.com/article/gas-prices-iran-war-4-gallon-4b82825734ec3ded192351e53a4be69e": {
       "canonical_url": "https://apnews.com/article/gas-prices-iran-war-4-gallon-4b82825734ec3ded192351e53a4be69e",
@@ -2204,12 +2281,6 @@
       "created_at": "2026-07-15T16:50:05Z",
       "status": "scoring_attempted",
       "title": "OpenAI's first branded hardware is... a light-up keyboard?"
-    },
-    "https://arstechnica.com/ai/2026/07/us-military-sent-explosive-drone-boats-into-combat-for-the-first-time": {
-      "canonical_url": "https://arstechnica.com/ai/2026/07/us-military-sent-explosive-drone-boats-into-combat-for-the-first-time",
-      "created_at": "2026-07-14T18:53:04Z",
-      "status": "scoring_attempted",
-      "title": "US military sent explosive drone boats into combat for the first time"
     },
     "https://arstechnica.com/ai/2026/07/will-ai-fix-prior-authorization-or-make-it-worse": {
       "canonical_url": "https://arstechnica.com/ai/2026/07/will-ai-fix-prior-authorization-or-make-it-worse",
@@ -2805,6 +2876,12 @@
       "status": "scoring_attempted",
       "title": "Briar Is in Maintenance Mode"
     },
+    "https://cacm.acm.org/opinion/ai-didnt-make-programming-easier-it-just-made-it-differently-difficult": {
+      "canonical_url": "https://cacm.acm.org/opinion/ai-didnt-make-programming-easier-it-just-made-it-differently-difficult",
+      "created_at": "2026-07-21T19:57:32Z",
+      "status": "scoring_attempted",
+      "title": "AI makes programming differently difficult"
+    },
     "https://calculus.academa.ai": {
       "canonical_url": "https://calculus.academa.ai",
       "created_at": "2026-07-19T04:36:02Z",
@@ -3015,6 +3092,12 @@
       "status": "scoring_attempted",
       "title": "Typing Speed Test, but for Developers"
     },
+    "https://help.trmnl.com/en/articles/14130438-ai-agent": {
+      "canonical_url": "https://help.trmnl.com/en/articles/14130438-ai-agent",
+      "created_at": "2026-07-21T19:57:32Z",
+      "status": "scoring_attempted",
+      "title": "AI Agent \u2013 TRMNL"
+    },
     "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages": {
       "canonical_url": "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages",
       "created_at": "2026-07-16T12:53:14Z",
@@ -3117,6 +3200,12 @@
       "status": "scoring_attempted",
       "title": "Kaiser nurses say AI, workplace surveillance are making their jobs, care worse"
     },
+    "https://localsotabenchmark.engineersf.dev": {
+      "canonical_url": "https://localsotabenchmark.engineersf.dev",
+      "created_at": "2026-07-21T19:57:32Z",
+      "status": "scoring_attempted",
+      "title": "I built a page that tells you what AI model your laptop can run"
+    },
     "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making": {
       "canonical_url": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making",
       "created_at": "2026-07-19T02:21:50Z",
@@ -3164,12 +3253,6 @@
       "created_at": "2026-07-15T20:31:18Z",
       "status": "scoring_attempted",
       "title": "3 Questions: Neural transparency and the future of AI design"
-    },
-    "https://news.mit.edu/2026/can-ai-build-jet-engine-jarvis-challenge-tests-ai-copilots-in-tough-tech-engineering-0714": {
-      "canonical_url": "https://news.mit.edu/2026/can-ai-build-jet-engine-jarvis-challenge-tests-ai-copilots-in-tough-tech-engineering-0714",
-      "created_at": "2026-07-14T18:53:04Z",
-      "status": "scoring_attempted",
-      "title": "Can AI build a jet engine? JARVIS Challenge tests role of AI copilots in tough-tech engineering"
     },
     "https://news.mit.edu/2026/following-questions-where-they-lead-bailey-flanigan-0717": {
       "canonical_url": "https://news.mit.edu/2026/following-questions-where-they-lead-bailey-flanigan-0717",
@@ -3285,12 +3368,6 @@
       "status": "scoring_attempted",
       "title": "Mayor Mamdani Says Landlords Can't Use AI Images to Advertise"
     },
-    "https://prismml.com/news/bonsai-27b": {
-      "canonical_url": "https://prismml.com/news/bonsai-27b",
-      "created_at": "2026-07-14T18:53:04Z",
-      "status": "scoring_attempted",
-      "title": "Bonsai 27B (1-bit LLM): The First 27B-Class Model to Run on a Phone"
-    },
     "https://qwen.ai/blog?id=qwen-image-3.0": {
       "canonical_url": "https://qwen.ai/blog?id=qwen-image-3.0",
       "created_at": "2026-07-21T09:24:48Z",
@@ -3386,12 +3463,6 @@
       "created_at": "2026-07-14T20:05:36Z",
       "status": "scoring_attempted",
       "title": "Apple opens its new Siri AI to everyone with the iOS 27 public beta"
-    },
-    "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers": {
-      "canonical_url": "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers",
-      "created_at": "2026-07-14T18:53:04Z",
-      "status": "scoring_attempted",
-      "title": "Google faces another AI training lawsuit from major publishers"
     },
     "https://techcrunch.com/2026/07/14/openai-pushes-back-on-apple-trade-secret-lawsuit": {
       "canonical_url": "https://techcrunch.com/2026/07/14/openai-pushes-back-on-apple-trade-secret-lawsuit",
@@ -3693,6 +3764,12 @@
       "status": "scoring_attempted",
       "title": "YouTube clarifies policies around AI slop and upsetting videos"
     },
+    "https://techcrunch.com/2026/07/21/ai-and-the-rise-of-the-universal-entertainment-app": {
+      "canonical_url": "https://techcrunch.com/2026/07/21/ai-and-the-rise-of-the-universal-entertainment-app",
+      "created_at": "2026-07-21T19:57:32Z",
+      "status": "scoring_attempted",
+      "title": "AI and the rise of the universal entertainment app"
+    },
     "https://techcrunch.com/2026/07/21/data-centers-expected-to-use-4x-more-electricity-by-2035": {
       "canonical_url": "https://techcrunch.com/2026/07/21/data-centers-expected-to-use-4x-more-electricity-by-2035",
       "created_at": "2026-07-21T18:21:46Z",
@@ -3710,6 +3787,12 @@
       "created_at": "2026-07-21T11:21:56Z",
       "status": "scoring_attempted",
       "title": "Gritt exits stealth with $34 million for robots to build solar plants\u2014then, everything else"
+    },
+    "https://techcrunch.com/2026/07/21/jack-dorsey-is-taking-on-slack-with-buzz-a-group-chat-platform-for-teams-and-their-ai-agents": {
+      "canonical_url": "https://techcrunch.com/2026/07/21/jack-dorsey-is-taking-on-slack-with-buzz-a-group-chat-platform-for-teams-and-their-ai-agents",
+      "created_at": "2026-07-21T19:57:32Z",
+      "status": "scoring_attempted",
+      "title": "Jack Dorsey is taking on Slack with Buzz, a group chat platform for teams and their AI agents"
     },
     "https://techcrunch.com/2026/07/21/music-streamer-deezer-says-more-than-50-of-daily-uploads-are-ai-generated": {
       "canonical_url": "https://techcrunch.com/2026/07/21/music-streamer-deezer-says-more-than-50-of-daily-uploads-are-ai-generated",
@@ -3992,6 +4075,12 @@
       "created_at": "2026-07-19T10:44:41Z",
       "status": "scoring_attempted",
       "title": "Google's AlphaEvolve Reaches General Availability with Evolutionary Code Optimization as a Service"
+    },
+    "https://www.infoq.com/news/2026/07/android-studio-quail-2": {
+      "canonical_url": "https://www.infoq.com/news/2026/07/android-studio-quail-2",
+      "created_at": "2026-07-21T19:57:32Z",
+      "status": "scoring_attempted",
+      "title": "Android Studio Quail 2 Redesigns Agent Mode, Streamlines AI-Assisted Coding"
     },
     "https://www.infoq.com/news/2026/07/aws-continuum-code-security": {
       "canonical_url": "https://www.infoq.com/news/2026/07/aws-continuum-code-security",
@@ -4412,6 +4501,12 @@
       "created_at": "2026-07-21T17:01:12Z",
       "status": "scoring_attempted",
       "title": "Anthropic\u2019s $1.5 billion book piracy settlement approved by judge"
+    },
+    "https://www.theverge.com/ai-artificial-intelligence/968855/substack-pangram-ai-detecting-tool": {
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/968855/substack-pangram-ai-detecting-tool",
+      "created_at": "2026-07-21T19:57:32Z",
+      "status": "scoring_attempted",
+      "title": "Substack adds an AI detector to help spot blogs written by no one"
     },
     "https://www.theverge.com/business/968055/paramount-wbd-merger-pause-tro": {
       "canonical_url": "https://www.theverge.com/business/968055/paramount-wbd-merger-pause-tro",
@@ -4940,6 +5035,12 @@
       "created_at": "2026-07-15T09:07:14Z",
       "status": "scoring_attempted",
       "title": "OpenAI Staffers Are Funding a Rival Super PAC to Take on Their Boss"
+    },
+    "https://www.wired.com/story/pat-gelsinger-moores-law-light-chips": {
+      "canonical_url": "https://www.wired.com/story/pat-gelsinger-moores-law-light-chips",
+      "created_at": "2026-07-21T19:57:32Z",
+      "status": "scoring_attempted",
+      "title": "This Former Intel CEO Wants to Jumpstart Moore\u2019s Law With Light"
     },
     "https://www.wired.com/story/please-stop-making-me-opt-out-of-ai": {
       "canonical_url": "https://www.wired.com/story/please-stop-making-me-opt-out-of-ai",
