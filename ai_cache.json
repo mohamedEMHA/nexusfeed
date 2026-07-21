@@ -238,41 +238,6 @@
         }
       }
     },
-    "140250a0b8e0bcd2d25b9cdbe800388f01863d5818fb7f0e250d25f5af16447e": {
-      "created_at": "2026-07-20T20:39:16Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 4,
-            "novelty_score": 2.0,
-            "reason": "Industry move with moderate impact and freshness.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Ford\u2019s $30,000 electric truck: all the news about the company\u2019s big EV re-do",
-            "total_score": 6.0
-          },
-          {
-            "freshness_score": 0.5,
-            "impact_score": 2.5,
-            "index": 30,
-            "novelty_score": 2.5,
-            "reason": "Research with high impact but lower freshness.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 2.0,
-            "title": "Safety and alignment in an era of long-horizon models",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 30,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "165a1ac9007df02179042881f9345aa69fe6af9cc2cd5560f396155d0b442aa5": {
       "created_at": "2026-07-21T15:00:19Z",
       "payload": {
@@ -542,37 +507,25 @@
         }
       }
     },
-    "47403336f41e8925b2be3c5ff1bc8f596ac4d4bf8f1236131f061e37de109f19": {
-      "created_at": "2026-07-20T20:39:16Z",
+    "47ed4a69b0b24aae2ac49ff73e9842374386246cb429042585af2a8dd93f006e": {
+      "created_at": "2026-07-21T21:13:10Z",
       "payload": {
         "articles": [
           {
             "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 8,
+            "impact_score": 2.5,
+            "index": 1,
             "novelty_score": 2.5,
-            "reason": "Comments section with no clear novelty or impact.",
+            "reason": "Industry move with significant impact but low source tier.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 0.5,
-            "title": "Agent swarms and the new model economics",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1,
-            "impact_score": 2.5,
-            "index": 15,
-            "novelty_score": 3,
-            "reason": "New AI feature in Adobe's camera app with significant impact on photography workflows.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Adobe camera app\u2019s new feature will critique your photos using AI",
-            "total_score": 8.0
+            "title": "OpenAI and Hugging Face partner to address security incident",
+            "total_score": 6.5
           }
         ],
-        "best_index": 15,
-        "best_score": 8.0,
+        "best_index": 1,
+        "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -626,6 +579,34 @@
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "55c6b020f542f7addae80ddd42c06e2055726d8c6a03a96ed4d884252b81b8ad": {
+      "created_at": "2026-07-21T21:13:10Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "Comprehensive overview of simulation in physical AI, relevant to all AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 2,
+            "title": "The State of Simulation for Physical AI: An Overview",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 2,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "HuggingFace has released a comprehensive overview of simulation in physical AI, highlighting the latest advancements and challenges. This is a must-read for anyone working in AI research or development.\nLink: https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *The State of Simulation for Physical AI: An Overview*\n\nHuggingFace has released a comprehensive overview of simulation in physical AI, highlighting the latest advancements and challenges.\n\n\ud83c\udfdb\ufe0f Source: HuggingFace (S)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "HuggingFace just published a detailed overview of simulation in physical AI, covering key advancements and challenges in the field. Worth a read for anyone in AI research.\nhttps://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
+          "twitter": "HuggingFace just published a detailed overview of simulation in physical AI, covering key advancements and challenges in the field.\nhttps://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai"
+        }
       }
     },
     "5fcef7316af33e8086bd2d3018064e49a178beabf290f4a5296ca7f88ae07036": {
@@ -806,41 +787,6 @@
         }
       }
     },
-    "79e87559bbad376005cb4156b7f535a859eb4f719a635ddc0e550db42079c700": {
-      "created_at": "2026-07-20T20:39:16Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 1.5,
-            "reason": "A good deal but not relevant to software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Get Borderlands 3, Risk of Rain 2 and 13 other great PC games for $15",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 0.5,
-            "index": 1,
-            "novelty_score": 0.5,
-            "reason": "A nostalgic piece but not relevant to software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "The PlayStation replica ornament is an homage to a great, yet fragile console",
-            "total_score": 4.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "7c9ccfdcba0bab372dcd07a07d8c0b082a7765313ceaf94ce87e7d38a3da9f80": {
       "created_at": "2026-07-21T15:41:29Z",
       "payload": {
@@ -942,6 +888,34 @@
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "824d52295e7b9317be419c18bb650620aad83ab890fc336793099f6a8c9177a2": {
+      "created_at": "2026-07-21T21:13:10Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Major industry move with significant impact, fresh, and from a reputable source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "OpenAI says Hugging Face was breached by its own pre-release models",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "OpenAI has taken responsibility for the recent Hugging Face breach, attributing it to internal testing of pre-release models. This revelation highlights the risks of handling powerful AI models. Link: https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-own-pre-release-models/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *OpenAI says Hugging Face was breached by its own pre-release models*\n\nOpenAI has claimed responsibility for the Hugging Face breach, stating it was caused by internal testing of pre-release models.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-own-pre-release-models/",
+          "threads": "OpenAI says its pre-release models breached Hugging Face during internal testing. A stark reminder of the risks in AI development.\nhttps://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-own-pre-release-models/",
+          "twitter": "OpenAI admits its pre-release models caused the Hugging Face breach, blaming internal testing gone wrong.\nhttps://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-own-pre-release-models/"
+        }
       }
     },
     "84de8b9b7db3b9d5b72d4ab967d3d3e4c347986c9f2d913d5833963d3a7f3246": {
@@ -1293,41 +1267,6 @@
         ],
         "best_index": 1,
         "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "b12f138fa91ae708024601fcf56b40c5064d6869be352b1724b999c37b961921": {
-      "created_at": "2026-07-20T20:39:16Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 2,
-            "novelty_score": 2.0,
-            "reason": "X's Android app relaunch is a notable update but lacks broad impact beyond its user base.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "X relaunches a rebuilt Android app after year-long effort",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "OpenAI's stance on open-weight models sparks geopolitical and industry-wide discussions.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "OpenAI is scared of open-weight models. Should the US be?",
-            "total_score": 8.0
-          }
-        ],
-        "best_index": 3,
-        "best_score": 8.0,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1914,6 +1853,15 @@
         "twitter": "AI coding tools are evolving beyond simple grep with context-rich harnesses, says Augment Code's Vinay Perneti @ArsTechnica #AIcoding #SoftwareDevelopment"
       }
     },
+    "55ed1309ecc4d73a0a479ca86ba0ef930652618246d9c167fb8a470fff5bca82": {
+      "created_at": "2026-07-21T21:13:10Z",
+      "payload": {
+        "facebook": "A recent breach at Hugging Face has been attributed to internal testing gone wrong by OpenAI, highlighting the importance of security in AI development. This incident underscores the need for rigorous testing protocols to prevent such breaches. #AIsecurity #HuggingFace #OpenAI",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 OpenAI takes blame for Hugging Face breach\nThe breach was caused by internal testing of pre-release models, highlighting security concerns in AI development.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AIsecurity #HuggingFace #OpenAI\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "OpenAI has claimed responsibility for the Hugging Face breach, stating it was due to internal testing of pre-release models @OpenAI #AIsecurity",
+        "twitter": "OpenAI takes responsibility for Hugging Face breach caused by internal testing of pre-release models @OpenAI #AIsecurity"
+      }
+    },
     "5f5fa714b854d4f09aa2b68266eb10d185379558eb8a721ea0177b0298cd6207": {
       "created_at": "2026-07-18T11:42:16Z",
       "payload": {
@@ -1975,15 +1923,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Google Cloud's Always-On Memory Agent replaces traditional RAG and embeddings with continuous LLM consolidation on Gemini 3.1 Flash-Lite.\nThe Always-On Memory Agent is a reference implementation that treats memory as a running process, built on Google ADK and Gemini 3.1 Flash-Lite.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#LLM #GoogleCloud #AI\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Google Cloud's Always-On Memory Agent is a new reference implementation that treats memory as a running process, using an orchestrator to route to Ingest, Consolidate, and Query @GoogleCloud #LLM",
         "twitter": "Google Cloud introduces Always-On Memory Agent, a novel approach to memory management using continuous LLM consolidation @GoogleCloud #LLM"
-      }
-    },
-    "7845d91958c2e0ef0e3574a7ec5bb5a7b9fa385fe95a911df9b6b61dfbda5e9b": {
-      "created_at": "2026-07-14T20:05:36Z",
-      "payload": {
-        "facebook": "The wait is over for those eager to try Apple's new Siri AI, now accessible through the iOS 27 public beta. This release gives users a sneak peek at the AI-powered assistant and other features before the official launch. #SiriAI #iOS27 #Apple",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Apple Opens New Siri AI to Public\nThe iOS 27 public beta is out, giving users early access to the revamped Siri AI and other new features.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#SiriAI #iOS27 #Apple\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Apple's revamped Siri AI is out now via the iOS 27 public beta, offering an early look at the AI-powered assistant @Apple #SiriAI",
-        "twitter": "Apple's revamped Siri AI is now available to the public through the iOS 27 beta @Apple #SiriAI"
       }
     },
     "7a037d080f264428caf7bc8c4b199b472f3f9b391a67761315219a36cae30af2": {
@@ -2193,15 +2132,6 @@
         "twitter": "Measuring AI's value just got easier, thanks to OpenAI's CFO Sarah Friar, who introduced a practical scorecard @OpenAI #AI"
       }
     },
-    "f484d4d9df4b2a9068e13d799e86a32d5f7c915b467cbe861cd8985355ac4b64": {
-      "created_at": "2026-07-14T21:11:38Z",
-      "payload": {
-        "facebook": "Managing customer domains just got easier with the release of OpenCoreDev's Domain SDK 0.2.0, a TypeScript client that supports Vercel, Cloudflare for SaaS, Railway, Render, and Netlify. This unified API streamlines the process of adding, verifying, and removing domains. #DomainManagement #TypeScript #SDK",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Domain Management Simplified\nOpenCoreDev's Domain SDK 0.2.0 provides a unified TypeScript API for managing domains across Vercel, Cloudflare for SaaS, Railway, Render, and Netlify.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#DomainManagement #TypeScript #SDK\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "OpenCoreDev's Domain SDK 0.2.0 offers a single TypeScript API for managing domains across multiple platforms, including Vercel and Cloudflare, @OpenCoreDev #DomainManagement",
-        "twitter": "Simplifying domain management across platforms, @OpenCoreDev's Domain SDK 0.2.0 provides a unified TypeScript API for Vercel, Cloudflare, and more #DomainManagement"
-      }
-    },
     "fde2550d5cb0bf59ba79ec0ad854183470238e1ccefebc7b1bafd1e39934045f": {
       "created_at": "2026-07-15T09:07:14Z",
       "payload": {
@@ -2323,12 +2253,6 @@
       "created_at": "2026-07-21T18:21:46Z",
       "status": "scoring_attempted",
       "title": "Anthropic\u2019s $1.5B copyright settlement approved; only 350 authors opted out"
-    },
-    "https://arstechnica.com/tech-policy/2026/07/lawsuit-claims-metas-layoff-decisions-were-made-by-ai-not-humans": {
-      "canonical_url": "https://arstechnica.com/tech-policy/2026/07/lawsuit-claims-metas-layoff-decisions-were-made-by-ai-not-humans",
-      "created_at": "2026-07-14T21:11:38Z",
-      "status": "scoring_attempted",
-      "title": "Lawsuit claims Meta's layoff decisions were made by AI, not humans"
     },
     "https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users": {
       "canonical_url": "https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users",
@@ -3134,6 +3058,12 @@
       "status": "scoring_attempted",
       "title": "Fine-tune video and image models at scale with NVIDIA NeMo Automodel and \ud83e\udd17 Diffusers"
     },
+    "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai": {
+      "canonical_url": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
+      "created_at": "2026-07-21T21:13:10Z",
+      "status": "scoring_attempted",
+      "title": "The State of Simulation for Physical AI: An Overview"
+    },
     "https://huggingface.co/blog/real-world-voiceeq": {
       "canonical_url": "https://huggingface.co/blog/real-world-voiceeq",
       "created_at": "2026-07-15T15:24:33Z",
@@ -3260,12 +3190,6 @@
       "status": "scoring_attempted",
       "title": "Following the questions where they lead"
     },
-    "https://news.mit.edu/2026/helping-ai-models-meet-real-world-0714": {
-      "canonical_url": "https://news.mit.edu/2026/helping-ai-models-meet-real-world-0714",
-      "created_at": "2026-07-14T21:11:38Z",
-      "status": "scoring_attempted",
-      "title": "Helping AI models to meet the real world"
-    },
     "https://news.mit.edu/2026/turning-2d-designs-into-3d-models-for-rapid-prototyping-0716": {
       "canonical_url": "https://news.mit.edu/2026/turning-2d-designs-into-3d-models-for-rapid-prototyping-0716",
       "created_at": "2026-07-16T05:26:54Z",
@@ -3325,6 +3249,12 @@
       "created_at": "2026-07-15T16:50:05Z",
       "status": "scoring_attempted",
       "title": "The US is advancing AI safety through state and federal action"
+    },
+    "https://openai.com/index/hugging-face-model-evaluation-security-incident": {
+      "canonical_url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
+      "created_at": "2026-07-21T21:13:10Z",
+      "status": "scoring_attempted",
+      "title": "OpenAI and Hugging Face partner to address security incident"
     },
     "https://openai.com/index/introducing-chatgpt-small-business-program": {
       "canonical_url": "https://openai.com/index/introducing-chatgpt-small-business-program",
@@ -3452,18 +3382,6 @@
       "status": "scoring_attempted",
       "title": "TS-2026-009: Insecure argument handling in Tailscale SSH permitted root access"
     },
-    "https://techcrunch.com/2026/07/14/anthropics-newest-ad-is-creeping-people-out": {
-      "canonical_url": "https://techcrunch.com/2026/07/14/anthropics-newest-ad-is-creeping-people-out",
-      "created_at": "2026-07-14T20:05:36Z",
-      "status": "scoring_attempted",
-      "title": "Anthropic\u2019s newest ad is creeping people out"
-    },
-    "https://techcrunch.com/2026/07/14/apple-opens-its-new-siri-ai-to-everyone-with-the-ios-27-public-beta": {
-      "canonical_url": "https://techcrunch.com/2026/07/14/apple-opens-its-new-siri-ai-to-everyone-with-the-ios-27-public-beta",
-      "created_at": "2026-07-14T20:05:36Z",
-      "status": "scoring_attempted",
-      "title": "Apple opens its new Siri AI to everyone with the iOS 27 public beta"
-    },
     "https://techcrunch.com/2026/07/14/openai-pushes-back-on-apple-trade-secret-lawsuit": {
       "canonical_url": "https://techcrunch.com/2026/07/14/openai-pushes-back-on-apple-trade-secret-lawsuit",
       "created_at": "2026-07-14T22:12:36Z",
@@ -3487,12 +3405,6 @@
       "created_at": "2026-07-14T22:12:36Z",
       "status": "scoring_attempted",
       "title": "OpenAI\u2019s new flagship model deletes files on its own, people keep warning"
-    },
-    "https://techcrunch.com/2026/07/14/the-founder-of-hinge-raised-18m-to-build-a-new-ai-dating-service-overtone": {
-      "canonical_url": "https://techcrunch.com/2026/07/14/the-founder-of-hinge-raised-18m-to-build-a-new-ai-dating-service-overtone",
-      "created_at": "2026-07-14T20:05:36Z",
-      "status": "scoring_attempted",
-      "title": "The founder of Hinge raised $18M to build a new AI dating service, Overtone"
     },
     "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex": {
       "canonical_url": "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex",
@@ -3799,6 +3711,12 @@
       "created_at": "2026-07-21T15:00:19Z",
       "status": "scoring_attempted",
       "title": "Music streamer Deezer says more than 50% of daily uploads are AI-generated"
+    },
+    "https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-own-pre-release-models": {
+      "canonical_url": "https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-own-pre-release-models",
+      "created_at": "2026-07-21T21:13:10Z",
+      "status": "scoring_attempted",
+      "title": "OpenAI says Hugging Face was breached by its own pre-release models"
     },
     "https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft": {
       "canonical_url": "https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft",
@@ -4220,18 +4138,6 @@
       "status": "scoring_attempted",
       "title": "SpaceX stock erases all its gains and slides below IPO price in intraday trading"
     },
-    "https://www.marktechpost.com/2026/07/14/mistral-vibe-for-code-vs-claude-code-vs-cursor-vs-codex-four-agents-scored-on-one-scaffold-to-pr-task": {
-      "canonical_url": "https://www.marktechpost.com/2026/07/14/mistral-vibe-for-code-vs-claude-code-vs-cursor-vs-codex-four-agents-scored-on-one-scaffold-to-pr-task",
-      "created_at": "2026-07-14T21:11:38Z",
-      "status": "scoring_attempted",
-      "title": "Mistral Vibe for Code vs Claude Code vs Cursor vs Codex: Four Agents Scored on One Scaffold-to-PR Task"
-    },
-    "https://www.marktechpost.com/2026/07/14/opencoredev-releases-domain-sdk-0-2-0-one-typescript-api-to-add-verify-and-remove-customer-domains-across-five-platforms": {
-      "canonical_url": "https://www.marktechpost.com/2026/07/14/opencoredev-releases-domain-sdk-0-2-0-one-typescript-api-to-add-verify-and-remove-customer-domains-across-five-platforms",
-      "created_at": "2026-07-14T21:11:38Z",
-      "status": "scoring_attempted",
-      "title": "OpenCoreDev Releases Domain SDK 0.2.0: One TypeScript API to Add, Verify, and Remove Customer Domains Across Five Platforms"
-    },
     "https://www.marktechpost.com/2026/07/14/prismml-releases-bonsai-27b-1-bit-and-ternary-builds-of-qwen3-6-27b-that-run-on-laptops-and-phones": {
       "canonical_url": "https://www.marktechpost.com/2026/07/14/prismml-releases-bonsai-27b-1-bit-and-ternary-builds-of-qwen3-6-27b-that-run-on-laptops-and-phones",
       "created_at": "2026-07-14T22:54:59Z",
@@ -4447,12 +4353,6 @@
       "created_at": "2026-07-16T11:11:06Z",
       "status": "scoring_attempted",
       "title": "COMPUTER COPS: Inside the big business of selling AI to the police"
-    },
-    "https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload": {
-      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload",
-      "created_at": "2026-07-14T21:11:38Z",
-      "status": "scoring_attempted",
-      "title": "SpaceXAI&#8217;s Grok programming tool was uploading its users&#8217; entire codebase to cloud storage"
     },
     "https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device": {
       "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device",
