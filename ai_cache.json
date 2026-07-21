@@ -146,51 +146,44 @@
         "social_posts": {}
       }
     },
-    "1337a9b4d31796b406bd8c260cd3dfc4bf7be928d2d394ed356e8503451a8279": {
-      "created_at": "2026-07-20T15:48:01Z",
+    "11842d2f25ac3bdbadd21e852e77f42e5b26e2bfd72be7a5cce49904fe7d8116": {
+      "created_at": "2026-07-21T17:01:12Z",
       "payload": {
         "articles": [
           {
             "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 0.5,
-            "reason": "Retrospective article from 2023 republished in 2026.",
-            "red_flag": true,
-            "red_flag_reason": "retrospective",
-            "source_score": 0.5,
-            "title": "Jaron Lanier: there is no AI (2023)",
-            "total_score": 4.5
-          },
-          {
-            "freshness_score": 2.0,
             "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.0,
-            "reason": "YouTube's policy update on AI-generated content impacts creators and viewers.",
+            "index": 2,
+            "novelty_score": 3.0,
+            "reason": "Major legal settlement with significant financial and industry implications.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 1.5,
-            "title": "YouTube clarifies policies around AI slop and upsetting videos",
-            "total_score": 8.0
+            "title": "Anthropic\u2019s $1.5 billion book piracy settlement approved by judge",
+            "total_score": 9.0
           },
           {
             "freshness_score": 2.0,
-            "impact_score": 1.0,
-            "index": 2,
-            "novelty_score": 0.2,
-            "reason": "Guide-style article with no new information.",
-            "red_flag": true,
-            "red_flag_reason": "guide to",
-            "source_score": 0.5,
-            "title": "NYC Subway Signals: A Complete Guide",
-            "total_score": 3.7
+            "impact_score": 2.0,
+            "index": 3,
+            "novelty_score": 2.0,
+            "reason": "New service launch with regional impact, but not as broadly significant as the legal settlement.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Tesla Robotaxis go to Florida",
+            "total_score": 7.5
           }
         ],
-        "best_index": 1,
-        "best_score": 8.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
+        "best_index": 2,
+        "best_score": 9.0,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "A federal judge has approved Anthropic's $1.5 billion settlement with authors over AI training data. This landmark decision could reshape how AI companies handle copyrighted materials. The settlement aims to address concerns about unauthorized use of copyrighted books in training AI models. Link: https://www.theverge.com/ai-artificial-intelligence/968724/anthropic-authors-settlement-ai-copyright-approved",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Anthropic\u2019s $1.5 billion book piracy settlement approved by judge*\n\nA federal judge has approved Anthropic's $1.5 billion settlement with authors over AI training data. This landmark decision could reshape how AI companies handle copyrighted materials.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://www.theverge.com/ai-artificial-intelligence/968724/anthropic-authors-settlement-ai-copyright-approved\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Anthropic's $1.5B AI copyright settlement just got court approval. This could set a major precedent for how AI companies handle training data. https://www.theverge.com/ai-artificial-intelligence/968724/anthropic-authors-settlement-ai-copyright-approved",
+          "twitter": "Anthropic's $1.5B AI copyright settlement just got court approval. What this means for AI training data and legal precedents.\nhttps://www.theverge.com/ai-artificial-intelligence/968724/anthropic-authors-settlement-ai-copyright-approved"
+        }
       }
     },
     "140250a0b8e0bcd2d25b9cdbe800388f01863d5818fb7f0e250d25f5af16447e": {
@@ -270,41 +263,6 @@
         ],
         "best_index": 1,
         "best_score": 6.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "21fd8f14c59f8b4d3b6c8492d143df3cd5d69c62c6e5dceca16f307e774e442e": {
-      "created_at": "2026-07-20T15:48:01Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 10,
-            "novelty_score": 2.0,
-            "reason": "Update to Firefox's video decoding capabilities, niche impact, and from a C-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Firefox Merges Support for Vulkan Video Decoding",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 14,
-            "novelty_score": 3.0,
-            "reason": "New open-source foundation models initiative with significant potential impact, but from a C-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Soofi \u2013 Sovereign Open Source Foundation Models",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 14,
-        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -744,6 +702,46 @@
         }
       }
     },
+    "6538c71d182009c182f946b16967b24dc142f945c3a89d43487af9f76bd65c6b": {
+      "created_at": "2026-07-21T17:01:12Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 2.0,
+            "reason": "New feature for Twitch but limited impact to software engineers and AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Twitch will let parents stop their teens going live",
+            "total_score": 6.0
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 3.0,
+            "reason": "New AI model release from Google with significant performance improvements.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Google reveals faster and cheaper Gemini 3.6 Flash, says 3.5 Pro is still in testing",
+            "total_score": 9.0
+          }
+        ],
+        "best_index": 1,
+        "best_score": 9.0,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Google has introduced Gemini 3.6 Flash, a new model that is both faster and more affordable. Meanwhile, the 3.5 Pro model is still undergoing testing. This update could have significant implications for developers and researchers working with AI. Link: https://arstechnica.com/google/2026/07/google-reveals-faster-and-cheaper-gemini-3-6-flash-says-3-5-pro-is-still-in-testing/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Google reveals faster and cheaper Gemini 3.6 Flash, says 3.5 Pro is still in testing*\n\nGoogle has launched Gemini 3.6 Flash, a new model that is faster and more affordable, while the 3.5 Pro model remains in testing.\n\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://arstechnica.com/google/2026/07/google-reveals-faster-and-cheaper-gemini-3-6-flash-says-3-5-pro-is-still-in-testing/",
+          "threads": "Google's new Gemini 3.6 Flash model is faster and cheaper, while 3.5 Pro is still in testing. Interesting developments for AI researchers. https://arstechnica.com/google/2026/07/google-reveals-faster-and-cheaper-gemini-3-6-flash-says-3-5-pro-is-still-in-testing/",
+          "twitter": "Google just launched Gemini 3.6 Flash, a faster and cheaper model, while 3.5 Pro remains in testing. https://arstechnica.com/google/2026/07/google-reveals-faster-and-cheaper-gemini-3-6-flash-says-3-5-pro-is-still-in-testing/"
+        }
+      }
+    },
     "6c7583feb540dbc3f7af027b335bbdd0868484f7cf213b1728722cb1345e03a2": {
       "created_at": "2026-07-21T12:51:13Z",
       "payload": {
@@ -765,6 +763,34 @@
         "best_score": 8,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "75a2ff6ac058f21d3cda72af21269241b88fddc74ff370040c236398f3231c7e": {
+      "created_at": "2026-07-21T17:01:12Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 4,
+            "novelty_score": 2.5,
+            "reason": "New malware targeting AI infrastructure with data theft and destruction capabilities.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "A Sneaky Hacking Tool Targeting AI Infrastructure Is Lurking in Victims\u2019 Blind Spots",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 4,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Researchers have discovered a new type of malware that can infiltrate AI systems, steal data, and even destroy files. This sophisticated tool operates in victims' blind spots, making it particularly dangerous. Link: https://www.wired.com/story/a-sneaky-hacking-tool-targeting-ai-infrastructure-is-lurking-in-victims-blind-spots/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *A Sneaky Hacking Tool Targeting AI Infrastructure Is Lurking in Victims\u2019 Blind Spots*\n\nNew malware can infiltrate AI systems, steal data, and destroy files while evading detection.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.wired.com/story/a-sneaky-hacking-tool-targeting-ai-infrastructure-is-lurking-in-victims-blind-spots/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Malware targeting AI infrastructure can steal data and destroy files while evading detection. This is a serious threat to AI systems. https://www.wired.com/story/a-sneaky-hacking-tool-targeting-ai-infrastructure-is-lurking-in-victims-blind-spots/",
+          "twitter": "New malware targets AI infrastructure, stealing data and destroying files while evading detection. https://www.wired.com/story/a-sneaky-hacking-tool-targeting-ai-infrastructure-is-lurking-in-victims-blind-spots/"
+        }
       }
     },
     "79e87559bbad376005cb4156b7f535a859eb4f719a635ddc0e550db42079c700": {
@@ -903,81 +929,6 @@
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "819a0adc5482a08a9eadc09d2054bf94f9f872cfdccd63cbb9a85fb1ef465fb3": {
-      "created_at": "2026-07-20T15:48:01Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 5,
-            "novelty_score": 2.5,
-            "reason": "Research on controlling reasoning effort in LLMs, but from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Controlling Reasoning Effort in LLMs",
-            "total_score": 6.0
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 6,
-            "novelty_score": 2.0,
-            "reason": "Industry analysis on AI proprietary trends, but from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "American AI is locked down and proprietary. It's losing",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 6,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "8298f36b25a8ec9e4afa88d6d35f5da58456fb7fd0ae94de7e158a02f673e80e": {
-      "created_at": "2026-07-20T15:48:01Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "Interview with a historian on AI backlash provides unique perspective on current trends.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Dr. Jill Lepore on why AI backlash is vital for the future",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0,
-            "index": 4,
-            "novelty_score": 0,
-            "reason": "Consumer electronics deal has no relevance to software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "The AirPods Max 2 are down to their second-best price",
-            "total_score": 3
-          }
-        ],
-        "best_index": 3,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Harvard professor Jill Lepore discusses the importance of AI backlash in her new book. Her historical perspective offers valuable insights into current debates. Link: https://www.theverge.com/podcast/967884/jill-lepore-history-ai-artificial-state-elon-musk",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Dr. Jill Lepore on why AI backlash is vital for the future*\n\nHarvard historian Jill Lepore discusses the importance of AI backlash in her new book, offering a historical perspective on current debates.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/podcast/967884/jill-lepore-history-ai-artificial-state-elon-musk\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Jill Lepore argues AI backlash might be essential for the technology's development. Her historical analysis provides a unique perspective.\nhttps://www.theverge.com/podcast/967884/jill-lepore-history-ai-artificial-state-elon-musk",
-          "twitter": "Harvard historian Jill Lepore explains why AI backlash could be crucial for the technology's future.\nhttps://www.theverge.com/podcast/967884/jill-lepore-history-ai-artificial-state-elon-musk"
-        }
       }
     },
     "84de8b9b7db3b9d5b72d4ab967d3d3e4c347986c9f2d913d5833963d3a7f3246": {
@@ -1427,6 +1378,29 @@
         }
       }
     },
+    "cdb88de4f24b4b0c0e2ef12231c06bceef5d75b943ca306da64b5aa868266431": {
+      "created_at": "2026-07-21T17:01:12Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 5,
+            "novelty_score": 1.5,
+            "reason": "Important security update but not novel enough and from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Apple Fixes Hide My Email Vulnerability After 404 Media Coverage",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 5,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "dc71eb4d7489bea622d3ece4014cc78ac08651997f88be93061b04800c05e514": {
       "created_at": "2026-07-21T05:36:43Z",
       "payload": {
@@ -1852,6 +1826,15 @@
         "twitter": "AI music generator Suno trained on millions of scraped songs from YouTube, Genius, and Deezer, raising ethical concerns @TheVerge #AImusic"
       }
     },
+    "65ee77127338ec67ba2d5ed43037fcd3006aa7627b497f68abe86300961fc2ab": {
+      "created_at": "2026-07-21T17:01:12Z",
+      "payload": {
+        "facebook": "Google has introduced new Gemini models, including the 3.6 Flash, which promises faster and more affordable performance. The company is also working on the 3.5 Pro, but it's still in testing. #AI #MachineLearning #Google",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Google Unveils Gemini 3.6 Flash\nGoogle has introduced the Gemini 3.6 Flash, a faster and more affordable AI model, and is already training the next generation Gemini 4.\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n#AI #MachineLearning #Google\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Google's new Gemini 3.6 Flash model brings faster and cheaper AI performance, @GoogleAI #AI",
+        "twitter": "Google accelerates AI development with Gemini 3.6 Flash, a faster and cheaper model, @GoogleAI #AI"
+      }
+    },
     "67f4a493215fa9593bda656afc0fc53d1095baae9102656ff58faec895bbf2bd": {
       "created_at": "2026-07-16T19:21:23Z",
       "payload": {
@@ -2059,15 +2042,6 @@
         "twitter": "Vint Cerf's new project aims to set a standard for AI agents on the open internet, a move that could significantly impact online interactions @VintCerf #AI"
       }
     },
-    "e6fbb8764105bfe46b7e9d5c64c2a59126c191d19618cbd81146c50bfcb35bd1": {
-      "created_at": "2026-07-14T16:42:04Z",
-      "payload": {
-        "facebook": "A disturbing trend has emerged where social media platforms are referring users to websites that create nonconsensual, sexually explicit deepfakes for a minimal fee. This raises significant concerns about online safety and the role of social media in perpetuating such content. #Deepfakes #OnlineSafety #AI",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Deepfakes on the Rise\nSocial media platforms are inadvertently driving traffic to deepfake creation sites, with some charging as little as $1 per image.\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n#Deepfakes #OnlineSafety #AI\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "A new study reveals that social media platforms like YouTube and X are directing users to sites where they can create deepfakes, often for as little as $1 per image, @Wired #Deepfakes",
-        "twitter": "Social media platforms like YouTube and X are inadvertently driving traffic to deepfake creation sites, according to a new study, @Wired reports #Deepfakes #AI"
-      }
-    },
     "e9ea0d82bebd496a5da35b9110169cdf74c434e2166c17bd702a5658f64a895b": {
       "created_at": "2026-07-16T12:53:14Z",
       "payload": {
@@ -2142,12 +2116,6 @@
     }
   },
   "seen_article_links": {
-    "https://agnost.ai": {
-      "canonical_url": "https://agnost.ai",
-      "created_at": "2026-07-14T16:42:04Z",
-      "status": "scoring_attempted",
-      "title": "Launch HN: Agnost AI (YC S26) \u2013 Extract user feedback from agent conversations"
-    },
     "https://airport.apunen.com": {
       "canonical_url": "https://airport.apunen.com",
       "created_at": "2026-07-20T14:34:36Z",
@@ -2208,11 +2176,11 @@
       "status": "scoring_attempted",
       "title": "It's official: EU will force Google to share search data and open up AI on Android"
     },
-    "https://arstechnica.com/google/2026/07/google-revamps-image-search-for-its-25th-anniversary-with-more-images-and-more-ai": {
-      "canonical_url": "https://arstechnica.com/google/2026/07/google-revamps-image-search-for-its-25th-anniversary-with-more-images-and-more-ai",
-      "created_at": "2026-07-14T16:42:04Z",
+    "https://arstechnica.com/google/2026/07/google-reveals-faster-and-cheaper-gemini-3-6-flash-says-3-5-pro-is-still-in-testing": {
+      "canonical_url": "https://arstechnica.com/google/2026/07/google-reveals-faster-and-cheaper-gemini-3-6-flash-says-3-5-pro-is-still-in-testing",
+      "created_at": "2026-07-21T17:01:12Z",
       "status": "scoring_attempted",
-      "title": "Google revamps image search for its 25th anniversary with more images and more AI"
+      "title": "Google reveals faster and cheaper Gemini 3.6 Flash, says 3.5 Pro is still in testing"
     },
     "https://arstechnica.com/information-technology/2026/07/energy-ipos-surge-as-investors-hunt-for-ways-to-play-ai-boom": {
       "canonical_url": "https://arstechnica.com/information-technology/2026/07/energy-ipos-surge-as-investors-hunt-for-ways-to-play-ai-boom",
@@ -2729,12 +2697,6 @@
       "created_at": "2026-07-16T16:52:04Z",
       "status": "scoring_attempted",
       "title": "Connect more of your apps to Search"
-    },
-    "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary": {
-      "canonical_url": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary",
-      "created_at": "2026-07-14T16:42:04Z",
-      "status": "scoring_attempted",
-      "title": "Celebrating 25 years of visual search innovation"
     },
     "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars": {
       "canonical_url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars",
@@ -3354,18 +3316,6 @@
       "status": "scoring_attempted",
       "title": "Google faces another AI training lawsuit from major publishers"
     },
-    "https://techcrunch.com/2026/07/14/google-images-gets-a-pinterest-like-redesign-focused-on-discovery": {
-      "canonical_url": "https://techcrunch.com/2026/07/14/google-images-gets-a-pinterest-like-redesign-focused-on-discovery",
-      "created_at": "2026-07-14T16:42:04Z",
-      "status": "scoring_attempted",
-      "title": "Google Images gets a Pinterest-like redesign focused on discovery"
-    },
-    "https://techcrunch.com/2026/07/14/metas-adam-mosseri-says-ai-token-budgets-could-soon-be-capped-per-engineer": {
-      "canonical_url": "https://techcrunch.com/2026/07/14/metas-adam-mosseri-says-ai-token-budgets-could-soon-be-capped-per-engineer",
-      "created_at": "2026-07-14T16:42:04Z",
-      "status": "scoring_attempted",
-      "title": "Meta\u2019s Adam Mosseri says AI token budgets could soon be capped per engineer"
-    },
     "https://techcrunch.com/2026/07/14/openai-pushes-back-on-apple-trade-secret-lawsuit": {
       "canonical_url": "https://techcrunch.com/2026/07/14/openai-pushes-back-on-apple-trade-secret-lawsuit",
       "created_at": "2026-07-14T22:12:36Z",
@@ -3798,23 +3748,17 @@
       "status": "scoring_attempted",
       "title": "Opaque, Interoperable Passkey Records (and a Go API)"
     },
+    "https://www.404media.co/apple-fixes-hide-my-email-vulnerability-after-404-media-coverage": {
+      "canonical_url": "https://www.404media.co/apple-fixes-hide-my-email-vulnerability-after-404-media-coverage",
+      "created_at": "2026-07-21T17:01:12Z",
+      "status": "scoring_attempted",
+      "title": "Apple Fixes Hide My Email Vulnerability After 404 Media Coverage"
+    },
     "https://www.anthropic.com/research/claude-values-models-languages": {
       "canonical_url": "https://www.anthropic.com/research/claude-values-models-languages",
       "created_at": "2026-07-15T12:23:13Z",
       "status": "scoring_attempted",
       "title": "Societal Impacts: Claude's values across models and languages"
-    },
-    "https://www.artfish.ai/p/offloading-thinking-to-ai": {
-      "canonical_url": "https://www.artfish.ai/p/offloading-thinking-to-ai",
-      "created_at": "2026-07-14T16:42:04Z",
-      "status": "scoring_attempted",
-      "title": "Are we offloading too much of our thinking to AI?"
-    },
-    "https://www.artificialintelligence-news.com/news/aws-and-bluesight-build-ai-for-hospital-340b-compliance": {
-      "canonical_url": "https://www.artificialintelligence-news.com/news/aws-and-bluesight-build-ai-for-hospital-340b-compliance",
-      "created_at": "2026-07-14T16:42:04Z",
-      "status": "scoring_attempted",
-      "title": "AWS and Bluesight build AI for hospital 340B compliance"
     },
     "https://www.artificialintelligence-news.com/news/bristol-myers-squibb-nvidia-ai-system-drug-discovery": {
       "canonical_url": "https://www.artificialintelligence-news.com/news/bristol-myers-squibb-nvidia-ai-system-drug-discovery",
@@ -3893,12 +3837,6 @@
       "created_at": "2026-07-20T05:55:22Z",
       "status": "scoring_attempted",
       "title": "Big Tech Needs to Justify AI Spending as Investors Dump Stocks"
-    },
-    "https://www.bobbytables.io/p/the-agentic-loop-three-loops-in-a": {
-      "canonical_url": "https://www.bobbytables.io/p/the-agentic-loop-three-loops-in-a",
-      "created_at": "2026-07-14T16:42:04Z",
-      "status": "scoring_attempted",
-      "title": "The Agentic Loop: Three loops in a trench coat"
     },
     "https://www.capitalone.com/tech/open-source/announcing-vulnhunter": {
       "canonical_url": "https://www.capitalone.com/tech/open-source/announcing-vulnhunter",
@@ -4368,6 +4306,12 @@
       "status": "scoring_attempted",
       "title": "China delivers a one-two punch to America\u2019s AI dominance"
     },
+    "https://www.theverge.com/ai-artificial-intelligence/968724/anthropic-authors-settlement-ai-copyright-approved": {
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/968724/anthropic-authors-settlement-ai-copyright-approved",
+      "created_at": "2026-07-21T17:01:12Z",
+      "status": "scoring_attempted",
+      "title": "Anthropic\u2019s $1.5 billion book piracy settlement approved by judge"
+    },
     "https://www.theverge.com/business/968055/paramount-wbd-merger-pause-tro": {
       "canonical_url": "https://www.theverge.com/business/968055/paramount-wbd-merger-pause-tro",
       "created_at": "2026-07-20T19:08:17Z",
@@ -4397,12 +4341,6 @@
       "created_at": "2026-07-18T17:14:22Z",
       "status": "scoring_attempted",
       "title": "Google is open-sourcing its 3D emoji"
-    },
-    "https://www.theverge.com/entertainment/965358/spotify-ai-chatbot-interface-music-audiobooks-podcasts": {
-      "canonical_url": "https://www.theverge.com/entertainment/965358/spotify-ai-chatbot-interface-music-audiobooks-podcasts",
-      "created_at": "2026-07-14T16:42:04Z",
-      "status": "scoring_attempted",
-      "title": "Spotify is now an AI chatbot, too"
     },
     "https://www.theverge.com/entertainment/965616/ash-koosha-odysseus-the-fall-foundtain-zero-tilly-norwood": {
       "canonical_url": "https://www.theverge.com/entertainment/965616/ash-koosha-odysseus-the-fall-foundtain-zero-tilly-norwood",
@@ -4529,12 +4467,6 @@
       "created_at": "2026-07-15T11:01:06Z",
       "status": "scoring_attempted",
       "title": "The PS6 sure sounds like a handheld"
-    },
-    "https://www.theverge.com/games/965123/asus-rog-xbox-ally-x20-oled-preview": {
-      "canonical_url": "https://www.theverge.com/games/965123/asus-rog-xbox-ally-x20-oled-preview",
-      "created_at": "2026-07-14T16:42:04Z",
-      "status": "scoring_attempted",
-      "title": "The OLED Xbox Ally X20 is so good, Asus will sell it solo"
     },
     "https://www.theverge.com/games/966106/valve-ifixit-will-keep-selling-steam-deck-lcd-battery": {
       "canonical_url": "https://www.theverge.com/games/966106/valve-ifixit-will-keep-selling-steam-deck-lcd-battery",
@@ -4794,6 +4726,12 @@
       "status": "scoring_attempted",
       "title": "Here are the 30,000 songs Sony is suing Udio&#8217;s AI music generator over"
     },
+    "https://www.theverge.com/tech/968480/twitch-parental-controls-block-streaming-live-dms": {
+      "canonical_url": "https://www.theverge.com/tech/968480/twitch-parental-controls-block-streaming-live-dms",
+      "created_at": "2026-07-21T17:01:12Z",
+      "status": "scoring_attempted",
+      "title": "Twitch will let parents stop their teens going live"
+    },
     "https://www.theverge.com/tech/968551/garmin-cirqa-smart-band-fitness-tracker-wearables": {
       "canonical_url": "https://www.theverge.com/tech/968551/garmin-cirqa-smart-band-fitness-tracker-wearables",
       "created_at": "2026-07-21T15:00:19Z",
@@ -4842,6 +4780,12 @@
       "status": "scoring_attempted",
       "title": "Ford&#8217;s $30,000 electric truck: all the news about the company&#8217;s big EV re-do"
     },
+    "https://www.theverge.com/transportation/968624/tesla-robotaxis-orlando-tampa-florida-earnings": {
+      "canonical_url": "https://www.theverge.com/transportation/968624/tesla-robotaxis-orlando-tampa-florida-earnings",
+      "created_at": "2026-07-21T17:01:12Z",
+      "status": "scoring_attempted",
+      "title": "Tesla Robotaxis go to Florida"
+    },
     "https://www.tomshardware.com/networking/clever-hacker-fits-537-000-domains-in-a-tiny-usd5-esp32-ad-blocking-dongle-firmware-uses-only-around-50kb-of-ram-and-can-answer-blocked-lookups-in-10-milliseconds": {
       "canonical_url": "https://www.tomshardware.com/networking/clever-hacker-fits-537-000-domains-in-a-tiny-usd5-esp32-ad-blocking-dongle-firmware-uses-only-around-50kb-of-ram-and-can-answer-blocked-lookups-in-10-milliseconds",
       "created_at": "2026-07-19T16:12:03Z",
@@ -4859,6 +4803,12 @@
       "created_at": "2026-07-17T23:48:53Z",
       "status": "scoring_attempted",
       "title": "Painting the sides of railroad rails white to reduce derailment"
+    },
+    "https://www.wired.com/story/a-sneaky-hacking-tool-targeting-ai-infrastructure-is-lurking-in-victims-blind-spots": {
+      "canonical_url": "https://www.wired.com/story/a-sneaky-hacking-tool-targeting-ai-infrastructure-is-lurking-in-victims-blind-spots",
+      "created_at": "2026-07-21T17:01:12Z",
+      "status": "scoring_attempted",
+      "title": "A Sneaky Hacking Tool Targeting AI Infrastructure Is Lurking in Victims\u2019 Blind Spots"
     },
     "https://www.wired.com/story/ai-isnt-smarter-than-a-baby-yet": {
       "canonical_url": "https://www.wired.com/story/ai-isnt-smarter-than-a-baby-yet",
@@ -4955,12 +4905,6 @@
       "created_at": "2026-07-16T19:21:23Z",
       "status": "scoring_attempted",
       "title": "Here\u2019s Why Anthropic Is Pushing States to Regulate AI Faster"
-    },
-    "https://www.wired.com/story/youtube-and-x-have-become-gateways-to-nudify-apps": {
-      "canonical_url": "https://www.wired.com/story/youtube-and-x-have-become-gateways-to-nudify-apps",
-      "created_at": "2026-07-14T16:42:04Z",
-      "status": "scoring_attempted",
-      "title": "YouTube and X Have Become \u2018Gateways\u2019 to Nudify Apps"
     },
     "https://www.ycombinator.com/companies/manufact/jobs/Dh6PYP5-senior-infrastructure-engineer": {
       "canonical_url": "https://www.ycombinator.com/companies/manufact/jobs/Dh6PYP5-senior-infrastructure-engineer",
