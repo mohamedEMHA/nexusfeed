@@ -373,6 +373,52 @@
         "social_posts": {}
       }
     },
+    "2dff7060169833d53bd1a9beaf8404d3605d5d1d9347d738b96163bcb666c1ff": {
+      "created_at": "2026-07-21T11:21:56Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "Yelp's new Training Orchestrator framework is a notable industry move, but its impact is somewhat niche.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Yelp Unifies ML Model Training with Training Orchestrator",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 2,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "35d0c99056925cb511db34fec199a9af87ed03afd23d9193bc4a7d82deec3bb3": {
+      "created_at": "2026-07-21T11:21:56Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "The Army's rapid depletion of AI tokens highlights a significant operational challenge in AI adoption.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "The Army Is Burning Through Its AI Tokens",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 3,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "3a4fa6c6e4d7d68ea59c0432804e016735129fb906a07b0b03e0a196840acfe1": {
       "created_at": "2026-07-20T17:12:45Z",
       "payload": {
@@ -411,6 +457,29 @@
           "threads": "NVIDIA just launched Cosmos 3 Edge, a new model optimized for edge AI. This is a big step for real-time AI applications. https://huggingface.co/blog/nvidia/cosmos3edge",
           "twitter": "NVIDIA's Cosmos 3 Edge model is now available, promising to bring advanced AI capabilities to edge devices. https://huggingface.co/blog/nvidia/cosmos3edge"
         }
+      }
+    },
+    "3aa25e74b4d0bdd61d2e5619c8b059697a3268c769753998d8a6f5fcbb804f17": {
+      "created_at": "2026-07-21T11:21:56Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Opinion piece on AI's environmental impact, relevant but not groundbreaking.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Who\u2019s afraid of the big, bad GPU?",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "3f1911298e834b628e8ecce5dfcded88b9419a4464675915cf339c113bb89dc0": {
@@ -703,29 +772,6 @@
           "threads": "Nativ brings frontier open models to your Mac. No cloud, just local compute power. Interesting for developers who want to run large models locally.\nhttps://blaizzy.github.io/nativ/",
           "twitter": "Nativ lets you run frontier open models locally on your Mac. No cloud required, just raw compute power.\nhttps://blaizzy.github.io/nativ/"
         }
-      }
-    },
-    "5d63b9abfdd7d1894546c6b4f4a573eb7e308fb09d284fab3701e0f6a5236794": {
-      "created_at": "2026-07-20T09:55:15Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 0.5,
-            "index": 0,
-            "novelty_score": 0.2,
-            "reason": "Gas prices are not relevant to software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "US gas prices hit an average of $4 a gallon again",
-            "total_score": 3.2
-          }
-        ],
-        "best_index": 0,
-        "best_score": 3.2,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "752db2de8641c636a58d58a8568aae2c309e3f94b9967b4a5e08ea1f7d1c4d0e": {
@@ -1344,29 +1390,6 @@
         }
       }
     },
-    "d547081425b69d3a2fcba6b421daf60f31fc87ab855048fb81b51ceb6bce695e": {
-      "created_at": "2026-07-20T09:55:15Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "New open-weight model with significant parameter count, but not groundbreaking in approach.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.0,
-            "title": "Kimi K3 open-weight model: China\u2019s biggest AI is a bet on memory, not compute",
-            "total_score": 8.0
-          }
-        ],
-        "best_index": 1,
-        "best_score": 8.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "dc71eb4d7489bea622d3ece4014cc78ac08651997f88be93061b04800c05e514": {
       "created_at": "2026-07-21T05:36:43Z",
       "payload": {
@@ -1534,6 +1557,29 @@
           "threads": "The Model Context Protocol just got a usability boost, simplifying AI interoperability for developers. This is a big deal for anyone working with AI models.\nhttps://techcrunch.com/2026/07/20/ais-most-important-protocol-is-getting-a-little-bit-easier-to-use/",
           "twitter": "The Model Context Protocol just got a major usability upgrade, making AI interoperability smoother for developers.\nhttps://techcrunch.com/2026/07/20/ais-most-important-protocol-is-getting-a-little-bit-easier-to-use/"
         }
+      }
+    },
+    "f017c0c9e5b0602dd3900f3b337effa45b20faaec98b60b6e28ce68131cf7f9c": {
+      "created_at": "2026-07-21T11:21:56Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2,
+            "reason": "Gritt's exit from stealth with $34 million funding for construction robotics is notable but not groundbreaking.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Gritt exits stealth with $34 million for robots to build solar plants\u0014then, everything else",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "f59fc4228b43a77955682a481fcb73b588faa3012fa513892bd19c0edf5f6307": {
@@ -1749,15 +1795,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 AI music generator Suno's training data exposed\nSuno's AI music generator was trained using millions of scraped songs and lyrics from online platforms like YouTube Music and Deezer, raising ethical and legal concerns.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AImusic #musictechnology #AIethics\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Suno's AI music generator was trained on millions of scraped songs from YouTube, Genius, and Deezer, sparking concerns over ethics and legality @TheVerge #AImusic",
         "twitter": "AI music generator Suno trained on millions of scraped songs from YouTube, Genius, and Deezer, raising ethical concerns @TheVerge #AImusic"
-      }
-    },
-    "60b06d0c344754f91b3fa5ad4a84f5826d4e4b0ba456dedceff8039d9837d82f": {
-      "created_at": "2026-07-14T10:54:22Z",
-      "payload": {
-        "facebook": "The concept of chatbots has been around for decades, with Joseph Weizenbaum's ELIZA setting the stage for future developments. This early chatbot's interactions with humans laid the groundwork for the AI systems we use today. #ChatbotHistory #AI #Tech",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Early Chatbot Interactions\nJoseph Weizenbaum's 1960s chatbot ELIZA set the stage for modern AI, with its conversations with humans providing valuable insights.\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#ChatbotHistory #AI #Tech\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "The 1960s chatbot ELIZA, created by Joseph Weizenbaum, was a precursor to modern AI systems, showing how humans interact with machines @Wired  #AI",
-        "twitter": "Joseph Weizenbaum's 1960s chatbot ELIZA paved the way for modern AI interactions @Wired  #ChatbotHistory #AI"
       }
     },
     "64d73f60892d8dafd9a24700ae2a7d0ac1a5bc2abfdef3b442cbd9307cc5dede": {
@@ -3637,6 +3674,12 @@
       "status": "scoring_attempted",
       "title": "YouTube clarifies policies around AI slop and upsetting videos"
     },
+    "https://techcrunch.com/2026/07/21/gritt-exits-stealth-with-34-million-for-robots-to-build-solar-plants-then-everything-else": {
+      "canonical_url": "https://techcrunch.com/2026/07/21/gritt-exits-stealth-with-34-million-for-robots-to-build-solar-plants-then-everything-else",
+      "created_at": "2026-07-21T11:21:56Z",
+      "status": "scoring_attempted",
+      "title": "Gritt exits stealth with $34 million for robots to build solar plants\u2014then, everything else"
+    },
     "https://techcrunch.com/podcast/apples-lawsuit-couldnt-come-at-a-worse-time-for-openai": {
       "canonical_url": "https://techcrunch.com/podcast/apples-lawsuit-couldnt-come-at-a-worse-time-for-openai",
       "created_at": "2026-07-17T17:43:50Z",
@@ -3955,12 +3998,6 @@
       "status": "scoring_attempted",
       "title": "DoorDash Uses Envoy and Valkey for a 1.5M RPS Proxy Cache with 99.99999% Availability"
     },
-    "https://www.infoq.com/news/2026/07/genkit-agents-api-preview": {
-      "canonical_url": "https://www.infoq.com/news/2026/07/genkit-agents-api-preview",
-      "created_at": "2026-07-14T10:54:22Z",
-      "status": "scoring_attempted",
-      "title": "Google's Genkit Ships Agents API with Detached Turns and Human-in-the-Loop for TypeScript and Go"
-    },
     "https://www.infoq.com/news/2026/07/gitlab-19-2-ai-agents": {
       "canonical_url": "https://www.infoq.com/news/2026/07/gitlab-19-2-ai-agents",
       "created_at": "2026-07-21T09:24:48Z",
@@ -4026,6 +4063,12 @@
       "created_at": "2026-07-17T10:56:38Z",
       "status": "scoring_attempted",
       "title": "How Uber Builds Zone-Failure-Resilient OpenSearch Clusters"
+    },
+    "https://www.infoq.com/news/2026/07/yelp-ai-model-training": {
+      "canonical_url": "https://www.infoq.com/news/2026/07/yelp-ai-model-training",
+      "created_at": "2026-07-21T11:21:56Z",
+      "status": "scoring_attempted",
+      "title": "Yelp Unifies ML Model Training with Training Orchestrator"
     },
     "https://www.infoq.com/podcasts/strands-agents": {
       "canonical_url": "https://www.infoq.com/podcasts/strands-agents",
@@ -4344,6 +4387,12 @@
       "created_at": "2026-07-19T12:46:33Z",
       "status": "scoring_attempted",
       "title": "The future of physical games is not looking great"
+    },
+    "https://www.theverge.com/cs/features/937356/ai-data-center-gpu-environmental-impact": {
+      "canonical_url": "https://www.theverge.com/cs/features/937356/ai-data-center-gpu-environmental-impact",
+      "created_at": "2026-07-21T11:21:56Z",
+      "status": "scoring_attempted",
+      "title": "Who\u2019s afraid of the big, bad GPU?"
     },
     "https://www.theverge.com/design/967606/google-open-source-3d-emoji": {
       "canonical_url": "https://www.theverge.com/design/967606/google-open-source-3d-emoji",
@@ -4819,12 +4868,6 @@
       "status": "scoring_attempted",
       "title": "AI Isn\u2019t Smarter Than a Baby\u2014Yet"
     },
-    "https://www.wired.com/story/doge-deployed-ai-housing-policy": {
-      "canonical_url": "https://www.wired.com/story/doge-deployed-ai-housing-policy",
-      "created_at": "2026-07-14T10:54:22Z",
-      "status": "scoring_attempted",
-      "title": "DOGE Used AI for Housing Policy. The Government Won\u2019t Say How"
-    },
     "https://www.wired.com/story/ebike-delivery-missing-when-i-tried-to-recover-it-i-ended-up-in-chatbot-hell": {
       "canonical_url": "https://www.wired.com/story/ebike-delivery-missing-when-i-tried-to-recover-it-i-ended-up-in-chatbot-hell",
       "created_at": "2026-07-15T11:01:06Z",
@@ -4842,12 +4885,6 @@
       "created_at": "2026-07-17T09:05:52Z",
       "status": "scoring_attempted",
       "title": "A Humanoid Company Backed by Eric Trump Is Preparing Its Robots for War"
-    },
-    "https://www.wired.com/story/inventing-eliza-book-excerpt-chatbot": {
-      "canonical_url": "https://www.wired.com/story/inventing-eliza-book-excerpt-chatbot",
-      "created_at": "2026-07-14T10:54:22Z",
-      "status": "scoring_attempted",
-      "title": "The Chatbot That Foretold Why People Share Secrets With ChatGPT"
     },
     "https://www.wired.com/story/openai-employees-donations-guardrails-alliance-leading-the-future": {
       "canonical_url": "https://www.wired.com/story/openai-employees-donations-guardrails-alliance-leading-the-future",
@@ -4885,11 +4922,11 @@
       "status": "scoring_attempted",
       "title": "The Apple FaceID Co-Inventor Building a Frontier AI Model for the Human Brain"
     },
-    "https://www.wired.com/story/the-big-interview-podcast-summer-of-ludd-gowanus": {
-      "canonical_url": "https://www.wired.com/story/the-big-interview-podcast-summer-of-ludd-gowanus",
-      "created_at": "2026-07-14T10:54:22Z",
+    "https://www.wired.com/story/the-army-is-burning-through-its-ai-tokens": {
+      "canonical_url": "https://www.wired.com/story/the-army-is-burning-through-its-ai-tokens",
+      "created_at": "2026-07-21T11:21:56Z",
       "status": "scoring_attempted",
-      "title": "This Luddite Puppet Hopes You\u2019re Not Reading This on Your Smartphone"
+      "title": "The Army Is Burning Through Its AI Tokens"
     },
     "https://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling": {
       "canonical_url": "https://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling",
