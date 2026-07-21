@@ -188,56 +188,27 @@
         "social_posts": {}
       }
     },
-    "1c8b945200133f2f6bcb971704127a85e2089a5e4151cfc2efac1570d6ebbb72": {
-      "created_at": "2026-07-20T14:34:36Z",
+    "165a1ac9007df02179042881f9345aa69fe6af9cc2cd5560f396155d0b442aa5": {
+      "created_at": "2026-07-21T15:00:19Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 2,
+            "freshness_score": 1.5,
             "impact_score": 1.5,
             "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Research on model compression is novel but niche in impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Lossless model compression experiment: GLM-5.2 in 25% less memory",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 1,
-            "novelty_score": 0.5,
-            "reason": "Opinion piece with limited novelty and niche impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Perfection Is Not Over-Engineering",
+            "novelty_score": 1.5,
+            "reason": "Red flag triggered by 'best' in title.",
+            "red_flag": true,
+            "red_flag_reason": "best",
+            "source_score": 1.5,
+            "title": "A touchscreen and light make the new X4 Pro the best version of Xteink\u2019s tiny e-readers",
             "total_score": 4.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "High novelty and impact with a strong source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "DoorDash Uses Envoy and Valkey for a 1.5M RPS Proxy Cache with 99.99999% Availability",
-            "total_score": 8.0
           }
         ],
-        "best_index": 2,
-        "best_score": 8.0,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "DoorDash has developed Entity Cache, a transparent proxy caching platform built on Envoy and Valkey, to reduce redundant service-to-service requests across its microservices architecture. Operating within DoorDash\u2019s service mesh, the platform serves over 1.5M requests per second with 99.99999% availability. Link: https://www.infoq.com/news/2026/07/doordash-entity-cache-proxy/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *DoorDash Uses Envoy and Valkey for a 1.5M RPS Proxy Cache with 99.99999% Availability*\n\nDoorDash has developed Entity Cache, a transparent proxy caching platform built on Envoy and Valkey to reduce redundant service-to-service requests across its microservices architecture. Operating within DoorDash\u2019s service mesh, the platform serves over 1.5M requests per second with 99.99999% availability.\n\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (B)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.0/10\n\n\ud83d\udd17 https://www.infoq.com/news/2026/07/doordash-entity-cache-proxy/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "DoorDash's new proxy cache handles 1.5M RPS with 99.99999% uptime using Envoy and Valkey. https://www.infoq.com/news/2026/07/doordash-entity-cache-proxy/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "twitter": "DoorDash built a 1.5M RPS proxy cache with 99.99999% availability using Envoy and Valkey. https://www.infoq.com/news/2026/07/doordash-entity-cache-proxy/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
-        }
+        "best_index": 0,
+        "best_score": 4.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "209d894565111fc32a2b1ffd0673ff464f945e56a782c3369e135a2969e160fd": {
@@ -319,6 +290,34 @@
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "29b75f488f09b4cf588383f51c428875db314f176fba700841f3e80acd983416": {
+      "created_at": "2026-07-21T15:00:19Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "Deezer reports over 90,000 AI-generated tracks uploaded daily, highlighting the rapid adoption of AI in music creation.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Music streamer Deezer says more than 50% of daily uploads are AI-generated",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 2,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Deezer has revealed that more than 50% of daily uploads on its platform are AI-generated, with over 90,000 tracks uploaded daily in June. This highlights the growing impact of AI in the music industry. Link: https://techcrunch.com/2026/07/21/music-streamer-deezer-says-more-than-50-of-daily-uploads-are-ai-generated/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Music streamer Deezer says more than 50% of daily uploads are AI-generated*\n\nDeezer reports over 90,000 AI-generated tracks uploaded daily, marking a significant shift in music creation.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/21/music-streamer-deezer-says-more-than-50-of-daily-uploads-are-ai-generated/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Deezer reports over 90,000 AI-generated tracks uploaded daily, marking a significant shift in music creation. This is a clear indicator of AI's growing role in the industry. https://techcrunch.com/2026/07/21/music-streamer-deezer-says-more-than-50-of-daily-uploads-are-ai-generated/",
+          "twitter": "Deezer reports over 90,000 AI-generated tracks uploaded daily, marking a significant shift in music creation. https://techcrunch.com/2026/07/21/music-streamer-deezer-says-more-than-50-of-daily-uploads-are-ai-generated/"
+        }
       }
     },
     "2dff7060169833d53bd1a9beaf8404d3605d5d1d9347d738b96163bcb666c1ff": {
@@ -728,41 +727,6 @@
         "social_posts": {}
       }
     },
-    "752db2de8641c636a58d58a8568aae2c309e3f94b9967b4a5e08ea1f7d1c4d0e": {
-      "created_at": "2026-07-20T14:34:36Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 7,
-            "novelty_score": 1.5,
-            "reason": "Certification cohorts are useful but not groundbreaking for the AI/ML community.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.0,
-            "title": "Three InfoQ Certification Cohorts Start This August: Meet the Facilitators",
-            "total_score": 6.0
-          },
-          {
-            "freshness_score": 1.0,
-            "impact_score": 0.5,
-            "index": 10,
-            "novelty_score": 0.2,
-            "reason": "An airport simulator is not relevant to software engineers and AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Airport Simulator",
-            "total_score": 2.2
-          }
-        ],
-        "best_index": 7,
-        "best_score": 6.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "79e87559bbad376005cb4156b7f535a859eb4f719a635ddc0e550db42079c700": {
       "created_at": "2026-07-20T20:39:16Z",
       "payload": {
@@ -836,6 +800,29 @@
           "threads": "Google is working on a new AI chip to boost Gemini efficiency. This could be a major step forward for AI hardware. https://techcrunch.com/2026/07/20/google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient/",
           "twitter": "Google is building a new AI chip to make Gemini more efficient. This could be a game-changer for large language models.\nhttps://techcrunch.com/2026/07/20/google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient/"
         }
+      }
+    },
+    "7d8b2c6a92713adf8dedac219413f6c46a3a0e09d6c580abf9975776ffaa4c3f": {
+      "created_at": "2026-07-21T15:00:19Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "New product release with significant impact on workplace productivity.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Halliday\u2019s New Smart Glasses Skip the Camera",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 3,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "819a0adc5482a08a9eadc09d2054bf94f9f872cfdccd63cbb9a85fb1ef465fb3": {
@@ -1070,41 +1057,6 @@
         }
       }
     },
-    "9b4acb7e19fa89bd0df736bb363c87e5cd5622f02b2d3c113a7d3fd6022a7c94": {
-      "created_at": "2026-07-20T14:34:36Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.5,
-            "index": 5,
-            "novelty_score": 0.2,
-            "reason": "This is a tutorial-style article about a mod, not a software engineering or AI research topic.",
-            "red_flag": true,
-            "red_flag_reason": "tutorial",
-            "source_score": 0.5,
-            "title": "Modder Makes GTA: Vice City Playable Inside GTA 3 Inside GTA: San Andreas",
-            "total_score": 2.2
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 6,
-            "novelty_score": 2.5,
-            "reason": "This article introduces a new research model in the field of AI, which is highly relevant to AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Inertia-1: An Open Exploration to a Unified Motion Foundation Model",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 6,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "9b9708db9971a08adc82c441c5baaf9f2a69535b7bf6183e32e20f5a33c53c5a": {
       "created_at": "2026-07-20T19:08:17Z",
       "payload": {
@@ -1174,6 +1126,29 @@
         "social_posts": {}
       }
     },
+    "ab9de4a94f635b0cf32f6ab801ba633ae8f4f57a5490cccfa15e746da4610ab4": {
+      "created_at": "2026-07-21T15:00:19Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 1,
+            "novelty_score": 2.0,
+            "reason": "New product announcement, but niche impact and not groundbreaking.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Garmin\u2019s new screen-free fitness tracker doesn\u2019t require a subscription",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "af5553611fe4bf827ae66b717678f2f95dc5dd9c667442b61296ef0c56b0db82": {
       "created_at": "2026-07-20T19:08:17Z",
       "payload": {
@@ -1228,41 +1203,6 @@
         ],
         "best_index": 3,
         "best_score": 8.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "bd262749b479c114304351b8a5a9170fd6be5c5e65329f6553f896360547efa8": {
-      "created_at": "2026-07-20T14:34:36Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "Industry move with niche impact, fresh, and from a Tier A source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Electric air taxis go to war",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 0.5,
-            "index": 4,
-            "novelty_score": 0.2,
-            "reason": "Recap of a movie trailer, low impact on software engineers and AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Avengers: Doomsday\u2019s first trailer puts everyone on high alert",
-            "total_score": 4.2
-          }
-        ],
-        "best_index": 3,
-        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1688,6 +1628,15 @@
         "twitter": "AI wealth in Silicon Valley will be redistributed says @IndexVentures co-founder Neil Rimer, a significant shift in the industry's economics #AI"
       }
     },
+    "4538cace054ff9346ebf310b4c5fb309336980abb4e4fc70ced70936f5bf8633": {
+      "created_at": "2026-07-21T15:00:19Z",
+      "payload": {
+        "facebook": "The music streaming landscape is changing rapidly, with more than 50% of daily uploads on Deezer now being AI-generated. This shift highlights the growing role of artificial intelligence in music creation, with over 90,000 AI-generated tracks being uploaded daily. #AI #Music #Streaming",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 AI-generated music is on the rise\nDeezer reports that more than 50% of daily uploads are AI-generated, with over 90,000 tracks being uploaded daily.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n#AI #Music #Streaming\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Deezer is seeing a significant influx of AI-generated music, with over 50% of daily uploads coming from AI sources, @Deezer is at the forefront of this shift #AI",
+        "twitter": "AI-generated music is flooding streaming platforms, with @Deezer reporting over 50% of daily uploads coming from AI sources #AI #Music"
+      }
+    },
     "48668aa887cf67a63c92bed4bd9ae205aaef6a5b480d362e04f83899f8fdf927": {
       "created_at": "2026-07-16T07:37:37Z",
       "payload": {
@@ -1758,15 +1707,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 New York State halts data center construction\nNew York has become the first state to temporarily halt approval of large data centers due to concerns over higher electricity costs and local control.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#DataCenters #Sustainability #AI\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "New York State has put a hold on new data center construction over concerns about electricity costs and local control, a significant policy move with broad implications @TechCrunch #DataCenters",
         "twitter": "New York State pauses new data center construction citing concerns over electricity costs and local control @TechCrunch #DataCenters"
-      }
-    },
-    "654f943a3548b0afcef490e095d186ec0ccad6203d389047f36c4ef7c0cdbbe8": {
-      "created_at": "2026-07-14T14:09:38Z",
-      "payload": {
-        "facebook": "The development of AI tools and agents is getting a significant boost with the introduction of the Agentic Resource Discovery Specification, an open standard for publishing, discovering, and verifying AI tools, APIs, and agents. This new standard is expected to improve the efficiency of AI development. #AI #MachineLearning #ARD",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Agentic Resource Discovery Specification Introduced\nThe Agentic Resource Discovery Specification is a new open standard for publishing, discovering, and verifying AI tools, APIs, and agents, enabling dynamic capability discovery.\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (B)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #MachineLearning #ARD\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Google and industry partners have announced the Agentic Resource Discovery Specification, a new open standard for AI tool discovery @GoogleAI #AI",
-        "twitter": "Google and industry partners introduce Agentic Resource Discovery Specification for AI tools and agents @GoogleAI #AI"
       }
     },
     "67f4a493215fa9593bda656afc0fc53d1095baae9102656ff58faec895bbf2bd": {
@@ -2166,12 +2106,6 @@
       "created_at": "2026-07-16T21:27:01Z",
       "status": "scoring_attempted",
       "title": "xAI can\u2019t deny Grok makes CSAM anymore. So it\u2019s suing users."
-    },
-    "https://arxiv.org/abs/2607.05188": {
-      "canonical_url": "https://arxiv.org/abs/2607.05188",
-      "created_at": "2026-07-14T14:09:38Z",
-      "status": "scoring_attempted",
-      "title": "Coding agents think ahead of time"
     },
     "https://arxiv.org/abs/2607.12395": {
       "canonical_url": "https://arxiv.org/abs/2607.12395",
@@ -2803,12 +2737,6 @@
       "status": "scoring_attempted",
       "title": "What `for x in y` hides from you \u2013 From Scratch Code"
     },
-    "https://github.com/Danau5tin/ai-trains-ai": {
-      "canonical_url": "https://github.com/Danau5tin/ai-trains-ai",
-      "created_at": "2026-07-14T14:09:38Z",
-      "status": "scoring_attempted",
-      "title": "Show HN: I RL-trained an agent that trains models with RL (for \u2013$1.3k)"
-    },
     "https://github.com/PennyLaneAI/pennylane": {
       "canonical_url": "https://github.com/PennyLaneAI/pennylane",
       "created_at": "2026-07-17T15:15:00Z",
@@ -3319,12 +3247,6 @@
       "status": "scoring_attempted",
       "title": "OpenAI\u2019s new flagship model deletes files on its own, people keep warning"
     },
-    "https://techcrunch.com/2026/07/14/spotify-expands-its-ai-push-with-a-chatgpt-like-music-assistant": {
-      "canonical_url": "https://techcrunch.com/2026/07/14/spotify-expands-its-ai-push-with-a-chatgpt-like-music-assistant",
-      "created_at": "2026-07-14T14:09:38Z",
-      "status": "scoring_attempted",
-      "title": "Spotify expands its AI push with a ChatGPT-like music assistant"
-    },
     "https://techcrunch.com/2026/07/14/superhumans-new-auto-draft-feature-almost-makes-me-like-ai-replies": {
       "canonical_url": "https://techcrunch.com/2026/07/14/superhumans-new-auto-draft-feature-almost-makes-me-like-ai-replies",
       "created_at": "2026-07-14T15:21:57Z",
@@ -3619,6 +3541,12 @@
       "status": "scoring_attempted",
       "title": "Gritt exits stealth with $34 million for robots to build solar plants\u2014then, everything else"
     },
+    "https://techcrunch.com/2026/07/21/music-streamer-deezer-says-more-than-50-of-daily-uploads-are-ai-generated": {
+      "canonical_url": "https://techcrunch.com/2026/07/21/music-streamer-deezer-says-more-than-50-of-daily-uploads-are-ai-generated",
+      "created_at": "2026-07-21T15:00:19Z",
+      "status": "scoring_attempted",
+      "title": "Music streamer Deezer says more than 50% of daily uploads are AI-generated"
+    },
     "https://techcrunch.com/podcast/apples-lawsuit-couldnt-come-at-a-worse-time-for-openai": {
       "canonical_url": "https://techcrunch.com/podcast/apples-lawsuit-couldnt-come-at-a-worse-time-for-openai",
       "created_at": "2026-07-17T17:43:50Z",
@@ -3889,12 +3817,6 @@
       "status": "scoring_attempted",
       "title": "Microsoft Confirms Windows GDID Device Identifier That Cannot Be Disabled"
     },
-    "https://www.infoq.com/news/2026/07/agentic-resource-discovery-spec": {
-      "canonical_url": "https://www.infoq.com/news/2026/07/agentic-resource-discovery-spec",
-      "created_at": "2026-07-14T14:09:38Z",
-      "status": "scoring_attempted",
-      "title": "Google and Industry Partners Announce Agentic Resource Discovery Specification for AI Agents"
-    },
     "https://www.infoq.com/news/2026/07/ai-agents-billing-guardrails": {
       "canonical_url": "https://www.infoq.com/news/2026/07/ai-agents-billing-guardrails",
       "created_at": "2026-07-16T11:11:06Z",
@@ -3973,12 +3895,6 @@
       "status": "scoring_attempted",
       "title": "AWS Releases Loom, an Open-Source Reference Platform for Governing AI Agents at Enterprise Scale"
     },
-    "https://www.infoq.com/news/2026/07/meta-brain-interface": {
-      "canonical_url": "https://www.infoq.com/news/2026/07/meta-brain-interface",
-      "created_at": "2026-07-14T14:09:38Z",
-      "status": "scoring_attempted",
-      "title": "Meta's Noninvasive Brain\u2013Computer Interface Brain2Qwerty Achieves 61% Accuracy"
-    },
     "https://www.infoq.com/news/2026/07/netflix-llm-homepage-generation": {
       "canonical_url": "https://www.infoq.com/news/2026/07/netflix-llm-homepage-generation",
       "created_at": "2026-07-19T20:25:29Z",
@@ -4026,12 +3942,6 @@
       "created_at": "2026-07-20T12:13:13Z",
       "status": "scoring_attempted",
       "title": "Podcast: Strands Agents with Clare Liguori"
-    },
-    "https://www.infoq.com/presentations/migration-micro-frontend": {
-      "canonical_url": "https://www.infoq.com/presentations/migration-micro-frontend",
-      "created_at": "2026-07-14T14:09:38Z",
-      "status": "scoring_attempted",
-      "title": "Presentation: Lessons Learned in Migrating to Micro-Frontends"
     },
     "https://www.infoq.com/presentations/rust-tps-service": {
       "canonical_url": "https://www.infoq.com/presentations/rust-tps-service",
@@ -4273,12 +4183,6 @@
       "status": "scoring_attempted",
       "title": "COMPUTER COPS: Inside the big business of selling AI to the police"
     },
-    "https://www.theverge.com/ai-artificial-intelligence/965294/openai-apple-trade-secrets-lawsuit-sam-altman-ipo": {
-      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/965294/openai-apple-trade-secrets-lawsuit-sam-altman-ipo",
-      "created_at": "2026-07-14T14:09:38Z",
-      "status": "scoring_attempted",
-      "title": "Sam Altman didn\u2019t need another lawsuit"
-    },
     "https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload": {
       "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload",
       "created_at": "2026-07-14T21:11:38Z",
@@ -4489,12 +4393,6 @@
       "status": "scoring_attempted",
       "title": "The PS6 sure sounds like a handheld"
     },
-    "https://www.theverge.com/games/965112/everquest-legends-project-1999-fan-developers": {
-      "canonical_url": "https://www.theverge.com/games/965112/everquest-legends-project-1999-fan-developers",
-      "created_at": "2026-07-14T14:09:38Z",
-      "status": "scoring_attempted",
-      "title": "EverQuest\u2019s biggest fans are leading its revival"
-    },
     "https://www.theverge.com/games/965123/asus-rog-xbox-ally-x20-oled-preview": {
       "canonical_url": "https://www.theverge.com/games/965123/asus-rog-xbox-ally-x20-oled-preview",
       "created_at": "2026-07-14T16:42:04Z",
@@ -4633,12 +4531,6 @@
       "status": "scoring_attempted",
       "title": "8BitDo\u2019s FlipPad is the most pocketable way to turn your phone into a Game Boy"
     },
-    "https://www.theverge.com/tech/965293/google-pixel-watch-5-leak-finishes": {
-      "canonical_url": "https://www.theverge.com/tech/965293/google-pixel-watch-5-leak-finishes",
-      "created_at": "2026-07-14T14:09:38Z",
-      "status": "scoring_attempted",
-      "title": "Pixel Watch 5 leak shows off four different finishes"
-    },
     "https://www.theverge.com/tech/965378/boston-dynamics-spot-robot-dog-delivery-assistant": {
       "canonical_url": "https://www.theverge.com/tech/965378/boston-dynamics-spot-robot-dog-delivery-assistant",
       "created_at": "2026-07-14T17:48:09Z",
@@ -4711,6 +4603,12 @@
       "status": "scoring_attempted",
       "title": "Samsung&#8217;s Galaxy Z Flip 8 leaks a week before launch event"
     },
+    "https://www.theverge.com/tech/966560/xteink-e-ink-e-reader-x4-pro-touchscreen-light-hands-on": {
+      "canonical_url": "https://www.theverge.com/tech/966560/xteink-e-ink-e-reader-x4-pro-touchscreen-light-hands-on",
+      "created_at": "2026-07-21T15:00:19Z",
+      "status": "scoring_attempted",
+      "title": "A touchscreen and light make the new X4 Pro the best version of Xteink\u2019s tiny e-readers"
+    },
     "https://www.theverge.com/tech/966937/microsoft-surface-laptop-13-inch-8gb-ram-2026-review": {
       "canonical_url": "https://www.theverge.com/tech/966937/microsoft-surface-laptop-13-inch-8gb-ram-2026-review",
       "created_at": "2026-07-17T14:00:35Z",
@@ -4758,6 +4656,12 @@
       "created_at": "2026-07-20T22:41:29Z",
       "status": "scoring_attempted",
       "title": "Here are the 30,000 songs Sony is suing Udio&#8217;s AI music generator over"
+    },
+    "https://www.theverge.com/tech/968551/garmin-cirqa-smart-band-fitness-tracker-wearables": {
+      "canonical_url": "https://www.theverge.com/tech/968551/garmin-cirqa-smart-band-fitness-tracker-wearables",
+      "created_at": "2026-07-21T15:00:19Z",
+      "status": "scoring_attempted",
+      "title": "Garmin\u2019s new screen-free fitness tracker doesn\u2019t require a subscription"
     },
     "https://www.theverge.com/transportation/965924/lucids-bankruptcy-rumor-is-a-bad-sign-for-the-ev-future": {
       "canonical_url": "https://www.theverge.com/transportation/965924/lucids-bankruptcy-rumor-is-a-bad-sign-for-the-ev-future",
@@ -4824,6 +4728,12 @@
       "created_at": "2026-07-21T09:24:48Z",
       "status": "scoring_attempted",
       "title": "Etsy Is In Its Flop Era, and Sellers Are Fleeing"
+    },
+    "https://www.wired.com/story/halliday-new-smart-glasses-skip-the-camera": {
+      "canonical_url": "https://www.wired.com/story/halliday-new-smart-glasses-skip-the-camera",
+      "created_at": "2026-07-21T15:00:19Z",
+      "status": "scoring_attempted",
+      "title": "Halliday\u2019s New Smart Glasses Skip the Camera"
     },
     "https://www.wired.com/story/humanoid-robot-soldier-eric-trump-foundation-future-industries": {
       "canonical_url": "https://www.wired.com/story/humanoid-robot-soldier-eric-trump-foundation-future-industries",
