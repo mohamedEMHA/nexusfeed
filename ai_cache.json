@@ -292,6 +292,29 @@
         "social_posts": {}
       }
     },
+    "209d894565111fc32a2b1ffd0673ff464f945e56a782c3369e135a2969e160fd": {
+      "created_at": "2026-07-21T02:23:40Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "Interesting research on passkey records but limited impact and from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Opaque, Interoperable Passkey Records (and a Go API)",
+            "total_score": 6.0
+          }
+        ],
+        "best_index": 1,
+        "best_score": 6.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "21fd8f14c59f8b4d3b6c8492d143df3cd5d69c62c6e5dceca16f307e774e442e": {
       "created_at": "2026-07-20T15:48:01Z",
       "payload": {
@@ -533,29 +556,6 @@
         ],
         "best_index": 7,
         "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "423bec1d6fcf7af7c58d114b93f076171c5d71a7fb82153a55a68dfab88c618f": {
-      "created_at": "2026-07-20T01:08:10Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.0,
-            "index": 0,
-            "novelty_score": 0.0,
-            "reason": "HN discussion about non-AI blogs is not relevant to software engineers and AI researchers.",
-            "red_flag": true,
-            "red_flag_reason": "HN discussion",
-            "source_score": 0.5,
-            "title": "Ask HN: What are your favorite blogs not about AI?",
-            "total_score": 2.0
-          }
-        ],
-        "best_index": 0,
-        "best_score": 2.0,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1061,6 +1061,29 @@
           "threads": "Jill Lepore argues AI backlash might be essential for the technology's development. Her historical analysis provides a unique perspective.\nhttps://www.theverge.com/podcast/967884/jill-lepore-history-ai-artificial-state-elon-musk",
           "twitter": "Harvard historian Jill Lepore explains why AI backlash could be crucial for the technology's future.\nhttps://www.theverge.com/podcast/967884/jill-lepore-history-ai-artificial-state-elon-musk"
         }
+      }
+    },
+    "9663d03d812c956769b959450f69066b36f11a0cdfb8045e2f4520f7398f5d7b": {
+      "created_at": "2026-07-21T02:23:40Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Significant legal development in AI copyright law, but not a novel technical advance.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Anthropic\u2019s landmark $1.5B copyright settlement is approved",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "9a9ab1e4f0121fe0352f3cf97babbbc07c643dc65bf34b2fbc06d9411d29e446": {
@@ -3026,12 +3049,6 @@
       "status": "scoring_attempted",
       "title": "What's the deal with all the random weekly quota resets for agents lately?"
     },
-    "https://minor.gripe/posts/2026-07-13-the_ai_whalefall_and_open_source": {
-      "canonical_url": "https://minor.gripe/posts/2026-07-13-the_ai_whalefall_and_open_source",
-      "created_at": "2026-07-14T02:05:35Z",
-      "status": "scoring_attempted",
-      "title": "The AI Whale Fall and Open Source"
-    },
     "https://mjtsai.com/blog/2026/07/17/eu-exempts-apple-watch-and-airpods-from-battery-removal-requirement": {
       "canonical_url": "https://mjtsai.com/blog/2026/07/17/eu-exempts-apple-watch-and-airpods-from-battery-removal-requirement",
       "created_at": "2026-07-20T08:52:01Z",
@@ -3200,12 +3217,6 @@
       "status": "scoring_attempted",
       "title": "Claude Code uses Bun written in Rust now"
     },
-    "https://sleuth-io.github.io/sx/2026/07/10/your-dropbox-is-now-a-skill-server.html": {
-      "canonical_url": "https://sleuth-io.github.io/sx/2026/07/10/your-dropbox-is-now-a-skill-server.html",
-      "created_at": "2026-07-14T02:05:35Z",
-      "status": "scoring_attempted",
-      "title": "Show HN: Sx 2.0 \u2013 Share AI skills with your team through a Dropbox folder"
-    },
     "https://smarterarticles.co.uk/the-three-second-theft-why-ai-voice-fraud-outruns-every-defence": {
       "canonical_url": "https://smarterarticles.co.uk/the-three-second-theft-why-ai-voice-fraud-outruns-every-defence",
       "created_at": "2026-07-15T14:18:44Z",
@@ -3247,18 +3258,6 @@
       "created_at": "2026-07-15T02:03:07Z",
       "status": "scoring_attempted",
       "title": "TS-2026-009: Insecure argument handling in Tailscale SSH permitted root access"
-    },
-    "https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone": {
-      "canonical_url": "https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone",
-      "created_at": "2026-07-14T02:05:35Z",
-      "status": "scoring_attempted",
-      "title": "Uber\u2019s product chief on hotels, robotaxis, and why the company doesn\u2019t want to be \u201ceverything for everyone\u201d"
-    },
-    "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b": {
-      "canonical_url": "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b",
-      "created_at": "2026-07-14T02:05:35Z",
-      "status": "scoring_attempted",
-      "title": "Video-generation startup PixVerse raises $439M, valuation soars past $2B"
     },
     "https://techcrunch.com/2026/07/14/anthropics-newest-ad-is-creeping-people-out": {
       "canonical_url": "https://techcrunch.com/2026/07/14/anthropics-newest-ad-is-creeping-people-out",
@@ -3578,6 +3577,12 @@
       "status": "scoring_attempted",
       "title": "AI\u2019s most important protocol is getting a little bit easier to use"
     },
+    "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved": {
+      "canonical_url": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved",
+      "created_at": "2026-07-21T02:23:40Z",
+      "status": "scoring_attempted",
+      "title": "Anthropic\u2019s landmark $1.5B copyright settlement is approved"
+    },
     "https://techcrunch.com/2026/07/20/google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient": {
       "canonical_url": "https://techcrunch.com/2026/07/20/google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient",
       "created_at": "2026-07-20T21:48:05Z",
@@ -3722,6 +3727,12 @@
       "status": "scoring_attempted",
       "title": "American AI is locked down and proprietary. It's losing"
     },
+    "https://words.filippo.io/passkey-record": {
+      "canonical_url": "https://words.filippo.io/passkey-record",
+      "created_at": "2026-07-21T02:23:40Z",
+      "status": "scoring_attempted",
+      "title": "Opaque, Interoperable Passkey Records (and a Go API)"
+    },
     "https://www.adweek.com/media/openais-ad-business-is-on-pace-to-miss-its-own-forecast-by-90-analyst-says": {
       "canonical_url": "https://www.adweek.com/media/openais-ad-business-is-on-pace-to-miss-its-own-forecast-by-90-analyst-says",
       "created_at": "2026-07-14T07:21:31Z",
@@ -3835,12 +3846,6 @@
       "created_at": "2026-07-17T22:29:02Z",
       "status": "scoring_attempted",
       "title": "FAA lets Boeing sign off on 737 MAX, 787 airworthiness certificates again"
-    },
-    "https://www.contextvault.dev": {
-      "canonical_url": "https://www.contextvault.dev",
-      "created_at": "2026-07-14T02:05:35Z",
-      "status": "scoring_attempted",
-      "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team"
     },
     "https://www.cortex.io/drive": {
       "canonical_url": "https://www.cortex.io/drive",
@@ -4045,12 +4050,6 @@
       "created_at": "2026-07-16T12:53:14Z",
       "status": "scoring_attempted",
       "title": "SpaceX stock erases all its gains and slides below IPO price in intraday trading"
-    },
-    "https://www.marktechpost.com/2026/07/13/anthropic-claude-sonnet-5-vs-sonnet-4-6-vs-opus-4-8-agentic-coding-benchmarks-api-pricing-and-cost-performance-tradeoffs-compared": {
-      "canonical_url": "https://www.marktechpost.com/2026/07/13/anthropic-claude-sonnet-5-vs-sonnet-4-6-vs-opus-4-8-agentic-coding-benchmarks-api-pricing-and-cost-performance-tradeoffs-compared",
-      "created_at": "2026-07-14T02:05:35Z",
-      "status": "scoring_attempted",
-      "title": "Anthropic Claude Sonnet 5 vs Sonnet 4.6 vs Opus 4.8: Agentic Coding Benchmarks, API Pricing, and Cost-Performance Tradeoffs Compared"
     },
     "https://www.marktechpost.com/2026/07/14/meet-blume-an-open-source-zero-config-documentation-framework-that-ships-ai-ready-docs-from-a-markdown-folder": {
       "canonical_url": "https://www.marktechpost.com/2026/07/14/meet-blume-an-open-source-zero-config-documentation-framework-that-ships-ai-ready-docs-from-a-markdown-folder",
