@@ -1,5 +1,88 @@
 {
   "cerebras_scoring": {
+    "0c30d7eaa529fc06668e68d751a9ea6571392895be42dadb703aeb529e07d858": {
+      "created_at": "2026-07-21T05:36:43Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 13,
+            "novelty_score": 2.5,
+            "reason": "New research on context reranking and pruning in RAG systems.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Shapley Context Pruning: A Cooperative Game Perspective for Context Reranking and Pruning",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 14,
+            "novelty_score": 2.5,
+            "reason": "Survey on verification of RL policies, relevant for safety-critical applications.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "A Survey on the Verification of Reinforcement Learning Policies",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 15,
+            "novelty_score": 2.5,
+            "reason": "New approach to long-term memory for LLM agents with structured storage.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Accurate and Efficient Long-Term Memory for LLM Agents",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 16,
+            "novelty_score": 2.5,
+            "reason": "New method to improve fact-checking in LLMs by addressing numerical hallucinations.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Symbolic Augmentation Closes a Canonical-Equivalence Blind Spot in Neural Fact-Checkers",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 17,
+            "novelty_score": 2.5,
+            "reason": "New technique for efficient KV cache management in LLMs.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "SelKV: Selective KV Cache Merging with Per-Token Merge-or-Drop and Attention Compensation",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 18,
+            "novelty_score": 2.5,
+            "reason": "New framework for responsible AI in LLM agents.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "RAIL Guard: Closing the Evaluation-to-Remediation Gap in Responsible AI for LLM Agents",
+            "total_score": 7
+          }
+        ],
+        "best_index": 16,
+        "best_score": 7,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "1337a9b4d31796b406bd8c260cd3dfc4bf7be928d2d394ed356e8503451a8279": {
       "created_at": "2026-07-20T15:48:01Z",
       "payload": {
@@ -1063,6 +1146,89 @@
         }
       }
     },
+    "84de8b9b7db3b9d5b72d4ab967d3d3e4c347986c9f2d913d5833963d3a7f3246": {
+      "created_at": "2026-07-21T05:36:43Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 7,
+            "novelty_score": 2.5,
+            "reason": "New research on democratizing AI with small language models, but source tier is low.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Democratizing AI with Small Language Models: Structured Benchmarking and Parameter-Efficient Fine-Tuning for Local Deployment",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 8,
+            "novelty_score": 2.5,
+            "reason": "New research on reinforcement learning with diffusion models, but source tier is low.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Masked Diffusion Language Models are Strong and Steerable Text-Based World Models for Agentic RL",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 9,
+            "novelty_score": 2.5,
+            "reason": "New research on reinforcement learning, but source tier is low.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "It Takes 8 Tokens: Weak-to-Strong Off-Policy RL via Auxiliary Branches",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 10,
+            "novelty_score": 2.5,
+            "reason": "New research on reinforcement learning, but source tier is low.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "PPO-HSC: An Exploratory Reinforcement Learning Framework Based on Wide-Area Policy Coverage Optimization",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 11,
+            "novelty_score": 2.5,
+            "reason": "New research on membership inference attacks, but source tier is low.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "JUMP: Single-Pass Membership Inference on Fine-Tuned Diffusion Language Models",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 12,
+            "novelty_score": 2.5,
+            "reason": "New research on multimodal GraphRAG, but source tier is low.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "ColGraphRAG: Late-Interaction Evidence Retrieval for Multimodal GraphRAG",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 7,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "9663d03d812c956769b959450f69066b36f11a0cdfb8045e2f4520f7398f5d7b": {
       "created_at": "2026-07-21T02:23:40Z",
       "payload": {
@@ -1288,6 +1454,106 @@
         "social_posts": {}
       }
     },
+    "c4b08dbc3fb42c4a0d05792877cdc07dc3e8b06dfafbd70d3a053a37b437ef3f": {
+      "created_at": "2026-07-21T05:36:43Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "New research on RLHF bias, but niche impact and lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Rater State Bias in RLHF Preference Data: An Audit Framework",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "New research on affective touch classification, but niche impact and lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Design and Validation of a Lightweight 1D CNN for Affective Touch Classification in Soft Plush Companions",
+            "total_score": 6
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "New research on LLM risk attitudes, moderate impact, and lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Some Large Language Models Exhibit Consistent Risk Attitudes",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 3,
+            "novelty_score": 1.5,
+            "reason": "Survey on GNN-based link prediction, moderate impact, and lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "A Survey on GNN-based Link Prediction: Techniques, Applications, and Challenges",
+            "total_score": 5.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 4,
+            "novelty_score": 3,
+            "reason": "New research on attacking multi-agent LLM systems, high impact, and lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "PlanFlip: Attacking Multi-Agent LLM Systems via Planning-Phase Prompt Injection",
+            "total_score": 8
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 5,
+            "novelty_score": 2.5,
+            "reason": "New research on deterministic replay for AI agent systems, moderate impact, and lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Deterministic Replay for AI Agent Systems",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2,
+            "index": 6,
+            "novelty_score": 2.5,
+            "reason": "New research on generative ontology induction, moderate impact, and lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Generative Ontology Induction: Domain-Agnostic Schema Discovery from Document Corpora Using Large Language Models",
+            "total_score": 7
+          }
+        ],
+        "best_index": 4,
+        "best_score": 8,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "A new study reveals how multi-agent LLM systems can be compromised through planning-phase prompt injection attacks. This research highlights a significant security risk in current AI architectures. Link: https://arxiv.org/abs/2607.16199",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\ud83d\udd25 *PlanFlip: Attacking Multi-Agent LLM Systems via Planning-Phase Prompt Injection*\n\nResearchers have identified a critical vulnerability in multi-agent LLM systems through planning-phase prompt injection attacks. This study highlights a significant security risk in current AI architectures.\n\n\ud83c\udfdb\ufe0f Source: arXiv cs.AI (C)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8/10\n\n\ud83d\udd17 https://arxiv.org/abs/2607.16199\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "PlanFlip attack exposes a critical flaw in multi-agent LLM systems by injecting prompts during the planning phase. This could have significant implications for AI security. https://arxiv.org/abs/2607.16199",
+          "twitter": "Researchers uncover a critical vulnerability in multi-agent LLM systems through planning-phase prompt injection attacks. https://arxiv.org/abs/2607.16199"
+        }
+      }
+    },
     "cc4dd3258ef3fe6d3cf79f9fb2c788acd358472dcc077ba211f1048c445c0ef9": {
       "created_at": "2026-07-20T08:52:01Z",
       "payload": {
@@ -1330,6 +1596,89 @@
         ],
         "best_index": 1,
         "best_score": 8.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "dc71eb4d7489bea622d3ece4014cc78ac08651997f88be93061b04800c05e514": {
+      "created_at": "2026-07-21T05:36:43Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.0,
+            "index": 19,
+            "novelty_score": 2.5,
+            "reason": "New research on generalist AI control with moderate impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.0,
+            "title": "Generalist AI Control: Towards Multi-purpose Adaptive Algorithms",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.0,
+            "index": 20,
+            "novelty_score": 2.5,
+            "reason": "New research on caching for diffusion-based LLMs with moderate impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.0,
+            "title": "LaCache: Exact Caching and Precision-Adaptive Inference for Diffusion Large Language Models",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.0,
+            "index": 21,
+            "novelty_score": 2.5,
+            "reason": "New research on interactive task alignment with moderate impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.0,
+            "title": "Interactive Task Alignment as a POMDP",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 22,
+            "novelty_score": 2.0,
+            "reason": "New research on Berkeley and Heiserman's architecture with niche impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.0,
+            "title": "Berkeley and Heiserman as an Unexhausted Architecture for Embodied Machine Intelligence",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.0,
+            "index": 23,
+            "novelty_score": 2.5,
+            "reason": "New research on supervised learning for energetic reasoning with moderate impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.0,
+            "title": "SEER: Supervised Learning to Control Energetic Reasoning",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.0,
+            "index": 24,
+            "novelty_score": 2.5,
+            "reason": "New research on nonuniformity principle in human-AI coworking with moderate impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.0,
+            "title": "Nonuniformity Principle in Human-AI Coworking",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 19,
+        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -2167,156 +2516,6 @@
       "status": "scoring_attempted",
       "title": "Coding agents think ahead of time"
     },
-    "https://arxiv.org/abs/2607.09664": {
-      "canonical_url": "https://arxiv.org/abs/2607.09664",
-      "created_at": "2026-07-14T05:10:39Z",
-      "status": "scoring_attempted",
-      "title": "From ML Predictions to Informed Diagnostic Assistance Using the Toulmin Model of Argumentation"
-    },
-    "https://arxiv.org/abs/2607.09665": {
-      "canonical_url": "https://arxiv.org/abs/2607.09665",
-      "created_at": "2026-07-14T05:10:39Z",
-      "status": "scoring_attempted",
-      "title": "Format Sensitivity Index: Token-Controlled Prompt Wrapper Robustness and Schema Compliance in LLM Benchmarking"
-    },
-    "https://arxiv.org/abs/2607.09678": {
-      "canonical_url": "https://arxiv.org/abs/2607.09678",
-      "created_at": "2026-07-14T05:10:39Z",
-      "status": "scoring_attempted",
-      "title": "Faithful, Not Corrective: Message-Format Effects in Multi-Hop Agent Relays Are Tier-Dependent"
-    },
-    "https://arxiv.org/abs/2607.09689": {
-      "canonical_url": "https://arxiv.org/abs/2607.09689",
-      "created_at": "2026-07-14T05:10:39Z",
-      "status": "scoring_attempted",
-      "title": "Boltzmann MapReduce: A Partition-Function Reduce for Forkable Sandboxes"
-    },
-    "https://arxiv.org/abs/2607.09698": {
-      "canonical_url": "https://arxiv.org/abs/2607.09698",
-      "created_at": "2026-07-14T05:10:39Z",
-      "status": "scoring_attempted",
-      "title": "Interpreting Latent CoT Reasoning as Dynamical Systems"
-    },
-    "https://arxiv.org/abs/2607.09706": {
-      "canonical_url": "https://arxiv.org/abs/2607.09706",
-      "created_at": "2026-07-14T05:10:39Z",
-      "status": "scoring_attempted",
-      "title": "YUKTI: From Natural-Language Situations to Robust, Verifiable Decisions An Uncertainty-Typed Proposition IR, Assumption-Robust Pareto Frontiers, and a Regret Certificate"
-    },
-    "https://arxiv.org/abs/2607.09708": {
-      "canonical_url": "https://arxiv.org/abs/2607.09708",
-      "created_at": "2026-07-14T05:10:39Z",
-      "status": "scoring_attempted",
-      "title": "GES-TSP: Graph Edge Sparsification for TSP"
-    },
-    "https://arxiv.org/abs/2607.09709": {
-      "canonical_url": "https://arxiv.org/abs/2607.09709",
-      "created_at": "2026-07-14T05:10:39Z",
-      "status": "scoring_attempted",
-      "title": "The Verifier is the Curriculum: Execution-Gated Self-Distillation for Cross-Family Game Generation"
-    },
-    "https://arxiv.org/abs/2607.09713": {
-      "canonical_url": "https://arxiv.org/abs/2607.09713",
-      "created_at": "2026-07-14T05:10:39Z",
-      "status": "scoring_attempted",
-      "title": "Closed-Loop Control with Rule-Aligned Small Language Models and Multi-Agent Self-Correction"
-    },
-    "https://arxiv.org/abs/2607.09714": {
-      "canonical_url": "https://arxiv.org/abs/2607.09714",
-      "created_at": "2026-07-14T05:10:39Z",
-      "status": "scoring_attempted",
-      "title": "Feedback-Coupled Memory Systems in Continuous Time"
-    },
-    "https://arxiv.org/abs/2607.09729": {
-      "canonical_url": "https://arxiv.org/abs/2607.09729",
-      "created_at": "2026-07-14T05:10:39Z",
-      "status": "scoring_attempted",
-      "title": "AGM-like Paraconsistent Partial Meet Abductive Expansion Operation"
-    },
-    "https://arxiv.org/abs/2607.09739": {
-      "canonical_url": "https://arxiv.org/abs/2607.09739",
-      "created_at": "2026-07-14T05:10:39Z",
-      "status": "scoring_attempted",
-      "title": "Coresets Before Score Sets: Evaluation-Unsupervised Prompt Subset Selection for LLM Benchmarks"
-    },
-    "https://arxiv.org/abs/2607.09740": {
-      "canonical_url": "https://arxiv.org/abs/2607.09740",
-      "created_at": "2026-07-14T05:10:39Z",
-      "status": "scoring_attempted",
-      "title": "A Dynamic Scene Interaction Reasoning Framework for Scene-level Lane-Change Intention and Trajectory Prediction of Multiple Interacting Vehicles"
-    },
-    "https://arxiv.org/abs/2607.09743": {
-      "canonical_url": "https://arxiv.org/abs/2607.09743",
-      "created_at": "2026-07-14T05:10:39Z",
-      "status": "scoring_attempted",
-      "title": "Scaffolding the Strategist: Architecture-Dependent Reasoning Interventions in Hotelling Spatial Markets"
-    },
-    "https://arxiv.org/abs/2607.09744": {
-      "canonical_url": "https://arxiv.org/abs/2607.09744",
-      "created_at": "2026-07-14T05:10:39Z",
-      "status": "scoring_attempted",
-      "title": "A Theory of Least Autonomy in AI"
-    },
-    "https://arxiv.org/abs/2607.09745": {
-      "canonical_url": "https://arxiv.org/abs/2607.09745",
-      "created_at": "2026-07-14T05:10:39Z",
-      "status": "scoring_attempted",
-      "title": "SupplyNetPy: An Open-Source Python Library for High-Fidelity Modeling and Simulation of Arbitrary Supply Chain and Inventory Networks"
-    },
-    "https://arxiv.org/abs/2607.09748": {
-      "canonical_url": "https://arxiv.org/abs/2607.09748",
-      "created_at": "2026-07-14T05:10:39Z",
-      "status": "scoring_attempted",
-      "title": "Replicating Belief, Not Bits: Epistemic State Replication for Agentic Systems"
-    },
-    "https://arxiv.org/abs/2607.09751": {
-      "canonical_url": "https://arxiv.org/abs/2607.09751",
-      "created_at": "2026-07-14T05:10:39Z",
-      "status": "scoring_attempted",
-      "title": "Task-Conditioned Synthetic Data Generation for Improving Machine Learning Performance in Agricultural Prediction Tasks"
-    },
-    "https://arxiv.org/abs/2607.09755": {
-      "canonical_url": "https://arxiv.org/abs/2607.09755",
-      "created_at": "2026-07-14T05:10:39Z",
-      "status": "scoring_attempted",
-      "title": "LegalFarePlan: A Label-Setting Framework for Fare-Transparent Urban Rail Route Planning under Non-Additive Fare Rules"
-    },
-    "https://arxiv.org/abs/2607.09762": {
-      "canonical_url": "https://arxiv.org/abs/2607.09762",
-      "created_at": "2026-07-14T05:10:39Z",
-      "status": "scoring_attempted",
-      "title": "BatteryLake: Agentic, Physics-Grounded Curation of Heterogeneous Battery Aging Data and Benchmarking"
-    },
-    "https://arxiv.org/abs/2607.09765": {
-      "canonical_url": "https://arxiv.org/abs/2607.09765",
-      "created_at": "2026-07-14T05:10:39Z",
-      "status": "scoring_attempted",
-      "title": "How Much Does Correctness Cost? Budgeted Placement of Strong Correctors in a Weak Multi-Agent Swarm"
-    },
-    "https://arxiv.org/abs/2607.09766": {
-      "canonical_url": "https://arxiv.org/abs/2607.09766",
-      "created_at": "2026-07-14T05:10:39Z",
-      "status": "scoring_attempted",
-      "title": "Norm Enforcement for AI Agents: Robustly Shaping Behavior in Multi-Agent Systems"
-    },
-    "https://arxiv.org/abs/2607.09770": {
-      "canonical_url": "https://arxiv.org/abs/2607.09770",
-      "created_at": "2026-07-14T05:10:39Z",
-      "status": "scoring_attempted",
-      "title": "Verification of Adaptive Agentic Controllers through Finite Rule Revision"
-    },
-    "https://arxiv.org/abs/2607.09773": {
-      "canonical_url": "https://arxiv.org/abs/2607.09773",
-      "created_at": "2026-07-14T05:10:39Z",
-      "status": "scoring_attempted",
-      "title": "EvoCUA-1.5: Online Reinforcement Learning for Multi-turn Computer-Use Agents"
-    },
-    "https://arxiv.org/abs/2607.09781": {
-      "canonical_url": "https://arxiv.org/abs/2607.09781",
-      "created_at": "2026-07-14T05:10:39Z",
-      "status": "scoring_attempted",
-      "title": "From Patterns to Maze Structures: SMT-Based Path Synthesis and 2D/3D Construction"
-    },
     "https://arxiv.org/abs/2607.12395": {
       "canonical_url": "https://arxiv.org/abs/2607.12395",
       "created_at": "2026-07-16T22:54:08Z",
@@ -2610,6 +2809,156 @@
       "created_at": "2026-07-20T05:55:22Z",
       "status": "scoring_attempted",
       "title": "Closing the AI Trust Gap: The Case for Independent Certification for Trustworthy AI"
+    },
+    "https://arxiv.org/abs/2607.16195": {
+      "canonical_url": "https://arxiv.org/abs/2607.16195",
+      "created_at": "2026-07-21T05:36:43Z",
+      "status": "scoring_attempted",
+      "title": "Rater State Bias in RLHF Preference Data: An Audit Framework"
+    },
+    "https://arxiv.org/abs/2607.16196": {
+      "canonical_url": "https://arxiv.org/abs/2607.16196",
+      "created_at": "2026-07-21T05:36:43Z",
+      "status": "scoring_attempted",
+      "title": "Design and Validation of a Lightweight 1D CNN for Affective Touch Classification in Soft Plush Companions"
+    },
+    "https://arxiv.org/abs/2607.16197": {
+      "canonical_url": "https://arxiv.org/abs/2607.16197",
+      "created_at": "2026-07-21T05:36:43Z",
+      "status": "scoring_attempted",
+      "title": "Some Large Language Models Exhibit Consistent Risk Attitudes"
+    },
+    "https://arxiv.org/abs/2607.16198": {
+      "canonical_url": "https://arxiv.org/abs/2607.16198",
+      "created_at": "2026-07-21T05:36:43Z",
+      "status": "scoring_attempted",
+      "title": "A Survey on GNN-based Link Prediction: Techniques, Applications, and Challenges"
+    },
+    "https://arxiv.org/abs/2607.16199": {
+      "canonical_url": "https://arxiv.org/abs/2607.16199",
+      "created_at": "2026-07-21T05:36:43Z",
+      "status": "scoring_attempted",
+      "title": "PlanFlip: Attacking Multi-Agent LLM Systems via Planning-Phase Prompt Injection"
+    },
+    "https://arxiv.org/abs/2607.16200": {
+      "canonical_url": "https://arxiv.org/abs/2607.16200",
+      "created_at": "2026-07-21T05:36:43Z",
+      "status": "scoring_attempted",
+      "title": "Deterministic Replay for AI Agent Systems"
+    },
+    "https://arxiv.org/abs/2607.16201": {
+      "canonical_url": "https://arxiv.org/abs/2607.16201",
+      "created_at": "2026-07-21T05:36:43Z",
+      "status": "scoring_attempted",
+      "title": "Generative Ontology Induction: Domain-Agnostic Schema Discovery from Document Corpora Using Large Language Models"
+    },
+    "https://arxiv.org/abs/2607.16202": {
+      "canonical_url": "https://arxiv.org/abs/2607.16202",
+      "created_at": "2026-07-21T05:36:43Z",
+      "status": "scoring_attempted",
+      "title": "Democratizing AI with Small Language Models: Structured Benchmarking and Parameter-Efficient Fine-Tuning for Local Deployment"
+    },
+    "https://arxiv.org/abs/2607.16204": {
+      "canonical_url": "https://arxiv.org/abs/2607.16204",
+      "created_at": "2026-07-21T05:36:43Z",
+      "status": "scoring_attempted",
+      "title": "Masked Diffusion Language Models are Strong and Steerable Text-Based World Models for Agentic RL"
+    },
+    "https://arxiv.org/abs/2607.16205": {
+      "canonical_url": "https://arxiv.org/abs/2607.16205",
+      "created_at": "2026-07-21T05:36:43Z",
+      "status": "scoring_attempted",
+      "title": "It Takes 8 Tokens: Weak-to-Strong Off-Policy RL via Auxiliary Branches"
+    },
+    "https://arxiv.org/abs/2607.16206": {
+      "canonical_url": "https://arxiv.org/abs/2607.16206",
+      "created_at": "2026-07-21T05:36:43Z",
+      "status": "scoring_attempted",
+      "title": "PPO-HSC: An Exploratory Reinforcement Learning Framework Based on Wide-Area Policy Coverage Optimization"
+    },
+    "https://arxiv.org/abs/2607.16207": {
+      "canonical_url": "https://arxiv.org/abs/2607.16207",
+      "created_at": "2026-07-21T05:36:43Z",
+      "status": "scoring_attempted",
+      "title": "JUMP: Single-Pass Membership Inference on Fine-Tuned Diffusion Language Models"
+    },
+    "https://arxiv.org/abs/2607.16208": {
+      "canonical_url": "https://arxiv.org/abs/2607.16208",
+      "created_at": "2026-07-21T05:36:43Z",
+      "status": "scoring_attempted",
+      "title": "ColGraphRAG: Late-Interaction Evidence Retrieval for Multimodal GraphRAG"
+    },
+    "https://arxiv.org/abs/2607.16209": {
+      "canonical_url": "https://arxiv.org/abs/2607.16209",
+      "created_at": "2026-07-21T05:36:43Z",
+      "status": "scoring_attempted",
+      "title": "Shapley Context Pruning: A Cooperative Game Perspective for Context Reranking and Pruning"
+    },
+    "https://arxiv.org/abs/2607.16210": {
+      "canonical_url": "https://arxiv.org/abs/2607.16210",
+      "created_at": "2026-07-21T05:36:43Z",
+      "status": "scoring_attempted",
+      "title": "A Survey on the Verification of Reinforcement Learning Policies"
+    },
+    "https://arxiv.org/abs/2607.16211": {
+      "canonical_url": "https://arxiv.org/abs/2607.16211",
+      "created_at": "2026-07-21T05:36:43Z",
+      "status": "scoring_attempted",
+      "title": "Accurate and Efficient Long-Term Memory for LLM Agents"
+    },
+    "https://arxiv.org/abs/2607.16212": {
+      "canonical_url": "https://arxiv.org/abs/2607.16212",
+      "created_at": "2026-07-21T05:36:43Z",
+      "status": "scoring_attempted",
+      "title": "Symbolic Augmentation Closes a Canonical-Equivalence Blind Spot in Neural Fact-Checkers"
+    },
+    "https://arxiv.org/abs/2607.16213": {
+      "canonical_url": "https://arxiv.org/abs/2607.16213",
+      "created_at": "2026-07-21T05:36:43Z",
+      "status": "scoring_attempted",
+      "title": "SelKV: Selective KV Cache Merging with Per-Token Merge-or-Drop and Attention Compensation"
+    },
+    "https://arxiv.org/abs/2607.16215": {
+      "canonical_url": "https://arxiv.org/abs/2607.16215",
+      "created_at": "2026-07-21T05:36:43Z",
+      "status": "scoring_attempted",
+      "title": "RAIL Guard: Closing the Evaluation-to-Remediation Gap in Responsible AI for LLM Agents"
+    },
+    "https://arxiv.org/abs/2607.16313": {
+      "canonical_url": "https://arxiv.org/abs/2607.16313",
+      "created_at": "2026-07-21T05:36:43Z",
+      "status": "scoring_attempted",
+      "title": "Generalist AI Control: Towards Multi-purpose Adaptive Algorithms"
+    },
+    "https://arxiv.org/abs/2607.16339": {
+      "canonical_url": "https://arxiv.org/abs/2607.16339",
+      "created_at": "2026-07-21T05:36:43Z",
+      "status": "scoring_attempted",
+      "title": "LaCache: Exact Caching and Precision-Adaptive Inference for Diffusion Large Language Models"
+    },
+    "https://arxiv.org/abs/2607.16412": {
+      "canonical_url": "https://arxiv.org/abs/2607.16412",
+      "created_at": "2026-07-21T05:36:43Z",
+      "status": "scoring_attempted",
+      "title": "Interactive Task Alignment as a POMDP"
+    },
+    "https://arxiv.org/abs/2607.16465": {
+      "canonical_url": "https://arxiv.org/abs/2607.16465",
+      "created_at": "2026-07-21T05:36:43Z",
+      "status": "scoring_attempted",
+      "title": "Berkeley and Heiserman as an Unexhausted Architecture for Embodied Machine Intelligence"
+    },
+    "https://arxiv.org/abs/2607.16523": {
+      "canonical_url": "https://arxiv.org/abs/2607.16523",
+      "created_at": "2026-07-21T05:36:43Z",
+      "status": "scoring_attempted",
+      "title": "SEER: Supervised Learning to Control Energetic Reasoning"
+    },
+    "https://arxiv.org/abs/2607.16530": {
+      "canonical_url": "https://arxiv.org/abs/2607.16530",
+      "created_at": "2026-07-21T05:36:43Z",
+      "status": "scoring_attempted",
+      "title": "Nonuniformity Principle in Human-AI Coworking"
     },
     "https://avivcarmi.com/saas-is-dead": {
       "canonical_url": "https://avivcarmi.com/saas-is-dead",
