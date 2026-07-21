@@ -1,5 +1,28 @@
 {
   "cerebras_scoring": {
+    "008358192e1a75fd34fe78c544e01eb86f4457e0fdede5fcae6eb6c98eb8376d": {
+      "created_at": "2026-07-21T09:24:48Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "GitLab 19.2 introduces AI agents to tackle security backlogs, a significant update for DevSecOps.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "GitLab 19.2 Puts AI Agents to Work on the Security Backlog",
+            "total_score": 8
+          }
+        ],
+        "best_index": 2,
+        "best_score": 8,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "0c30d7eaa529fc06668e68d751a9ea6571392895be42dadb703aeb529e07d858": {
       "created_at": "2026-07-21T05:36:43Z",
       "payload": {
@@ -740,29 +763,6 @@
         "social_posts": {}
       }
     },
-    "79dd99bddb0c658d862e5171c18f3f4a7d795fda125a353b6ac4f9dd149ff743": {
-      "created_at": "2026-07-20T08:52:01Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1,
-            "impact_score": 0.5,
-            "index": 2,
-            "novelty_score": 0.2,
-            "reason": "Comments section without any article.",
-            "red_flag": true,
-            "red_flag_reason": "Comments",
-            "source_score": 0.5,
-            "title": "Xiaomi-Robotics-1",
-            "total_score": 1.7
-          }
-        ],
-        "best_index": 2,
-        "best_score": 1.7,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "79e87559bbad376005cb4156b7f535a859eb4f719a635ddc0e550db42079c700": {
       "created_at": "2026-07-20T20:39:16Z",
       "payload": {
@@ -992,6 +992,29 @@
         ],
         "best_index": 7,
         "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "94f7209c301289ab2b91e8a874faccad946efa701b494634b94cbbaea3af6816": {
+      "created_at": "2026-07-21T09:24:48Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "New model release with moderate impact and high freshness but low source tier.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Qwen-Image-3.0: Rich Content, Authentic Details, Deep Knowledge",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1321,29 +1344,6 @@
         }
       }
     },
-    "cc4dd3258ef3fe6d3cf79f9fb2c788acd358472dcc077ba211f1048c445c0ef9": {
-      "created_at": "2026-07-20T08:52:01Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Microsoft's use of proprietary formats for lock-in is a notable industry move with significant impact on developers and users.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "How proprietary formats have become Microsoft\u2019s main tool for lock-in",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "d547081425b69d3a2fcba6b421daf60f31fc87ab855048fb81b51ceb6bce695e": {
       "created_at": "2026-07-20T09:55:15Z",
       "payload": {
@@ -1473,29 +1473,6 @@
         "social_posts": {}
       }
     },
-    "eeca7c038819fc8bd3b28eae1bb66bd335c22da7278500e612ea7f9dd30570a7": {
-      "created_at": "2026-07-20T08:52:01Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 2.0,
-            "reason": "Industry move with niche impact, fresh source, and low-tier publication.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "EU Exempts Apple Watch and AirPods from Battery Removal Requirements",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "efd2dba9ddbe378ceb44a7c2e271c73ff15d4cefaac41ccf1c047c095ff5cf96": {
       "created_at": "2026-07-20T17:12:45Z",
       "payload": {
@@ -1559,6 +1536,29 @@
         }
       }
     },
+    "f59fc4228b43a77955682a481fcb73b588faa3012fa513892bd19c0edf5f6307": {
+      "created_at": "2026-07-21T09:24:48Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Etsy's shift towards mass-produced goods and AI knockoffs is notable but not groundbreaking for software engineers or AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Etsy Is In Its Flop Era, and Sellers Are Fleeing",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "f72cd8e1cb7ed51d54a430c0dbe64b68e98aca1b83717efc29350ea3fe1efadf": {
       "created_at": "2026-07-20T22:41:29Z",
       "payload": {
@@ -1605,15 +1605,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Google Cloud enhances developer experience\nThe Google Cloud Workbench Notebooks extension for VS Code enables direct connection to managed Jupyter notebook environments on Google Cloud.\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (B)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#CloudComputing #GoogleCloud #JupyterNotebooks\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "The Google Cloud Workbench Notebooks extension for VS Code is a game-changer for developers, allowing direct connection to managed Jupyter notebook environments @GoogleCloud #CloudComputing",
         "twitter": "Developers can now connect VS Code to Google Cloud's Jupyter notebooks with the new Workbench Notebooks extension @GoogleCloud #CloudComputing"
-      }
-    },
-    "0bd201358a9ae2bf7f9bf6ea32354a33c7a9d566dc42dfa6c45bb481a32462b0": {
-      "created_at": "2026-07-14T09:01:54Z",
-      "payload": {
-        "facebook": "New York has become the first state to enact a data center moratorium, blocking new hyperscale developments for up to a year. This move could have significant implications for AI infrastructure and the tech industry as a whole. #DataCenterRegulation #AIInfrastructure #TechPolicy",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 New York State Blocks New Data Centers\nNew York has imposed a statewide moratorium on new hyperscale data centers, effective for up to a year. This move could significantly impact AI infrastructure development.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#DataCenterRegulation #AIInfrastructure #TechPolicy\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "New York's moratorium on new hyperscale data centers is a significant regulatory move @TheVerge, with potential implications for the broader tech industry #DataCenterRegulation",
-        "twitter": "New York imposes a statewide moratorium on new hyperscale data centers @TheVerge #DataCenterRegulation"
       }
     },
     "12b175bb344520e447621e5f8b032d59f78c91da0abf311243f2c1f06e8a590c": {
@@ -3028,12 +3019,6 @@
       "status": "scoring_attempted",
       "title": "Microsoft has released software updates to plug at least 570 security holes"
     },
-    "https://lenergy.com.au/free-daytime-electricity-is-coming-heres-how-it-actually-works": {
-      "canonical_url": "https://lenergy.com.au/free-daytime-electricity-is-coming-heres-how-it-actually-works",
-      "created_at": "2026-07-14T09:01:54Z",
-      "status": "scoring_attempted",
-      "title": "Australian energy retailers must provide three hours of free daytime electricity"
-    },
     "https://libretto.sh/debug-agents": {
       "canonical_url": "https://libretto.sh/debug-agents",
       "created_at": "2026-07-16T22:29:23Z",
@@ -3219,6 +3204,12 @@
       "created_at": "2026-07-14T18:53:04Z",
       "status": "scoring_attempted",
       "title": "Bonsai 27B (1-bit LLM): The First 27B-Class Model to Run on a Phone"
+    },
+    "https://qwen.ai/blog?id=qwen-image-3.0": {
+      "canonical_url": "https://qwen.ai/blog?id=qwen-image-3.0",
+      "created_at": "2026-07-21T09:24:48Z",
+      "status": "scoring_attempted",
+      "title": "Qwen-Image-3.0: Rich Content, Authentic Details, Deep Knowledge"
     },
     "https://robotics.xiaomi.com/xiaomi-robotics-1.html": {
       "canonical_url": "https://robotics.xiaomi.com/xiaomi-robotics-1.html",
@@ -3832,12 +3823,6 @@
       "status": "scoring_attempted",
       "title": "Teen hackers who live streamed cyber-attack on TfL jailed"
     },
-    "https://www.bbc.com/news/articles/cg53l737v1qo": {
-      "canonical_url": "https://www.bbc.com/news/articles/cg53l737v1qo",
-      "created_at": "2026-07-14T09:01:54Z",
-      "status": "scoring_attempted",
-      "title": "Indian scientists produce most detailed 3D atlas of the human brainstem"
-    },
     "https://www.benjamin-bai.com/projects/lemario": {
       "canonical_url": "https://www.benjamin-bai.com/projects/lemario",
       "created_at": "2026-07-14T23:50:53Z",
@@ -3910,12 +3895,6 @@
       "status": "scoring_attempted",
       "title": "Microsoft Confirms Windows GDID Device Identifier That Cannot Be Disabled"
     },
-    "https://www.infoq.com/articles/ai-speed-context-store-architecture": {
-      "canonical_url": "https://www.infoq.com/articles/ai-speed-context-store-architecture",
-      "created_at": "2026-07-14T09:01:54Z",
-      "status": "scoring_attempted",
-      "title": "Article: Comprehension at AI Speed: Building a Context Store for Evolutionary Architecture"
-    },
     "https://www.infoq.com/news/2026/07/agentic-resource-discovery-spec": {
       "canonical_url": "https://www.infoq.com/news/2026/07/agentic-resource-discovery-spec",
       "created_at": "2026-07-14T14:09:38Z",
@@ -3976,17 +3955,17 @@
       "status": "scoring_attempted",
       "title": "DoorDash Uses Envoy and Valkey for a 1.5M RPS Proxy Cache with 99.99999% Availability"
     },
-    "https://www.infoq.com/news/2026/07/durable-document-schema": {
-      "canonical_url": "https://www.infoq.com/news/2026/07/durable-document-schema",
-      "created_at": "2026-07-14T09:01:54Z",
-      "status": "scoring_attempted",
-      "title": "Evolutionary Data Through Schemaboi: Achieving Forward, Backwards, and Sideways Compatibility"
-    },
     "https://www.infoq.com/news/2026/07/genkit-agents-api-preview": {
       "canonical_url": "https://www.infoq.com/news/2026/07/genkit-agents-api-preview",
       "created_at": "2026-07-14T10:54:22Z",
       "status": "scoring_attempted",
       "title": "Google's Genkit Ships Agents API with Detached Turns and Human-in-the-Loop for TypeScript and Go"
+    },
+    "https://www.infoq.com/news/2026/07/gitlab-19-2-ai-agents": {
+      "canonical_url": "https://www.infoq.com/news/2026/07/gitlab-19-2-ai-agents",
+      "created_at": "2026-07-21T09:24:48Z",
+      "status": "scoring_attempted",
+      "title": "GitLab 19.2 Puts AI Agents to Work on the Security Backlog"
     },
     "https://www.infoq.com/news/2026/07/infoq-online-cohorts-2026": {
       "canonical_url": "https://www.infoq.com/news/2026/07/infoq-online-cohorts-2026",
@@ -4077,12 +4056,6 @@
       "created_at": "2026-07-16T12:53:14Z",
       "status": "scoring_attempted",
       "title": "SpaceX stock erases all its gains and slides below IPO price in intraday trading"
-    },
-    "https://www.marktechpost.com/2026/07/14/meet-blume-an-open-source-zero-config-documentation-framework-that-ships-ai-ready-docs-from-a-markdown-folder": {
-      "canonical_url": "https://www.marktechpost.com/2026/07/14/meet-blume-an-open-source-zero-config-documentation-framework-that-ships-ai-ready-docs-from-a-markdown-folder",
-      "created_at": "2026-07-14T09:01:54Z",
-      "status": "scoring_attempted",
-      "title": "Meet Blume: An Open-Source, Zero-Config Documentation Framework That Ships AI-Ready Docs From a Markdown Folder"
     },
     "https://www.marktechpost.com/2026/07/14/mistral-vibe-for-code-vs-claude-code-vs-cursor-vs-codex-four-agents-scored-on-one-scaffold-to-pr-task": {
       "canonical_url": "https://www.marktechpost.com/2026/07/14/mistral-vibe-for-code-vs-claude-code-vs-cursor-vs-codex-four-agents-scored-on-one-scaffold-to-pr-task",
@@ -4576,12 +4549,6 @@
       "status": "scoring_attempted",
       "title": "Dr. Jill Lepore on why AI backlash is vital for the future"
     },
-    "https://www.theverge.com/policy/965110/new-york-ai-data-center-moratorium": {
-      "canonical_url": "https://www.theverge.com/policy/965110/new-york-ai-data-center-moratorium",
-      "created_at": "2026-07-14T09:01:54Z",
-      "status": "scoring_attempted",
-      "title": "New York becomes the first state to enact a data center moratorium"
-    },
     "https://www.theverge.com/policy/965792/google-epic-withdraw-injunction-third-party-app-stores-coming-google-play": {
       "canonical_url": "https://www.theverge.com/policy/965792/google-epic-withdraw-injunction-third-party-app-stores-coming-google-play",
       "created_at": "2026-07-15T05:11:03Z",
@@ -4863,6 +4830,12 @@
       "created_at": "2026-07-15T11:01:06Z",
       "status": "scoring_attempted",
       "title": "My Ebike Delivery Went Missing. When I Tried to Recover It, I Ended Up in Chatbot Hell"
+    },
+    "https://www.wired.com/story/etsy-is-in-its-flop-era-and-sellers-are-fleeing": {
+      "canonical_url": "https://www.wired.com/story/etsy-is-in-its-flop-era-and-sellers-are-fleeing",
+      "created_at": "2026-07-21T09:24:48Z",
+      "status": "scoring_attempted",
+      "title": "Etsy Is In Its Flop Era, and Sellers Are Fleeing"
     },
     "https://www.wired.com/story/humanoid-robot-soldier-eric-trump-foundation-future-industries": {
       "canonical_url": "https://www.wired.com/story/humanoid-robot-soldier-eric-trump-foundation-future-industries",
