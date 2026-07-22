@@ -1,28 +1,5 @@
 {
   "cerebras_scoring": {
-    "008358192e1a75fd34fe78c544e01eb86f4457e0fdede5fcae6eb6c98eb8376d": {
-      "created_at": "2026-07-21T09:24:48Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "GitLab 19.2 introduces AI agents to tackle security backlogs, a significant update for DevSecOps.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "GitLab 19.2 Puts AI Agents to Work on the Security Backlog",
-            "total_score": 8
-          }
-        ],
-        "best_index": 2,
-        "best_score": 8,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "02e90e625093d4fafd47bd33e0d82f775962426fc157e4c4b1d68409bfce467e": {
       "created_at": "2026-07-22T02:13:23Z",
       "payload": {
@@ -136,6 +113,41 @@
           "threads": "Anthropic just blocked authors from opting out of its $1.5B copyright settlement at the last minute. This is a major shift in AI training data rights. https://arstechnica.com/tech-policy/2026/07/judge-approves-anthropics-1-5-billion-copyright-settlement-with-authors/",
           "twitter": "Anthropic just blocked authors from opting out of its $1.5B copyright settlement at the last minute. https://arstechnica.com/tech-policy/2026/07/judge-approves-anthropics-1-5-billion-copyright-settlement-with-authors/"
         }
+      }
+    },
+    "0e207fab4184cb909f525a7c39e384e796eff1566e977345719f4af4d64c700e": {
+      "created_at": "2026-07-22T11:24:23Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1,
+            "impact_score": 2.5,
+            "index": 9,
+            "novelty_score": 2.5,
+            "reason": "New model release with strong benchmark performance on a niche but important task.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Cisco Foundation AI Releases Antares: 350M and 1B Open-Weight Models That Localize Known Vulnerabilities Inside Real Codebases",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 1,
+            "impact_score": 1.5,
+            "index": 10,
+            "novelty_score": 0.5,
+            "reason": "Opinion piece on niche topic with limited impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "I graded 36 popular MCP servers on agent usability. A third got a D or F",
+            "total_score": 3.5
+          }
+        ],
+        "best_index": 9,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "11842d2f25ac3bdbadd21e852e77f42e5b26e2bfd72be7a5cce49904fe7d8116": {
@@ -252,29 +264,6 @@
         }
       }
     },
-    "2dff7060169833d53bd1a9beaf8404d3605d5d1d9347d738b96163bcb666c1ff": {
-      "created_at": "2026-07-21T11:21:56Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "Yelp's new Training Orchestrator framework is a notable industry move, but its impact is somewhat niche.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Yelp Unifies ML Model Training with Training Orchestrator",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 2,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "2f4480186c32d44c8b6b72be46cb6d1be7cbdecaa53e635db0d3642792b386e7": {
       "created_at": "2026-07-21T12:51:13Z",
       "payload": {
@@ -293,29 +282,6 @@
           }
         ],
         "best_index": 7,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "35d0c99056925cb511db34fec199a9af87ed03afd23d9193bc4a7d82deec3bb3": {
-      "created_at": "2026-07-21T11:21:56Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "The Army's rapid depletion of AI tokens highlights a significant operational challenge in AI adoption.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "The Army Is Burning Through Its AI Tokens",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 3,
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
@@ -367,27 +333,56 @@
         "social_posts": {}
       }
     },
-    "3aa25e74b4d0bdd61d2e5619c8b059697a3268c769753998d8a6f5fcbb804f17": {
-      "created_at": "2026-07-21T11:21:56Z",
+    "38e49ab7940a5636db4f4b3d94842a3b2b62212adbc9e8f1c463624c5a46c1de": {
+      "created_at": "2026-07-22T11:24:23Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
             "index": 0,
+            "novelty_score": 2.0,
+            "reason": "Industry move with moderate impact and fresh source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.0,
+            "title": "SenseTime\u2019s Galaxy Project targets domestic AI chip scale-up",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 1,
             "novelty_score": 2.5,
-            "reason": "Opinion piece on AI's environmental impact, relevant but not groundbreaking.",
+            "reason": "New release with significant impact and fresh source.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 1.5,
-            "title": "Who\u2019s afraid of the big, bad GPU?",
-            "total_score": 7.5
+            "title": "Meta made its own AI detection system. It should have just used Google\u2019s",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 1.5,
+            "reason": "Update with significant impact but lower novelty.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.0,
+            "title": "AWS Billing Bug Shows Customers Trillion-Dollar Estimates While Its Own Cost Alarms Fail to Act",
+            "total_score": 6.5
           }
         ],
-        "best_index": 0,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
+        "best_index": 1,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Meta has launched its own AI detection system, Content Seal, despite calls to use existing solutions like Google's. The system uses invisible watermarks to flag AI-generated content. This move comes after the Oversight Board urged Meta to employ its own tools to combat deceptive AI content. Link: https://www.theverge.com/tech/968680/meta-ai-detection-labeling-content-seal-watermarks-synthid",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\ud83d\udd25 *Meta made its own AI detection system. It should have just used Google\u2019s* \n\nMeta has launched Content Seal, an invisible watermarking technology that flags AI-generated content. The move follows a call from the Oversight Board to use its own tools to combat deceptive AI content.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/tech/968680/meta-ai-detection-labeling-content-seal-watermarks-synthid\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Meta launched Content Seal, its own AI detection system, instead of using Google's. The oversight board called for this, but was it the right move?\nhttps://www.theverge.com/tech/968680/meta-ai-detection-labeling-content-seal-watermarks-synthid",
+          "twitter": "Meta built its own AI detection system instead of using Google's. The oversight board called for this, but was it the right move?\nhttps://www.theverge.com/tech/968680/meta-ai-detection-labeling-content-seal-watermarks-synthid"
+        }
       }
     },
     "3cc4f2f8a61b974175f1b9d93a3a5afe77760ff1d7eafb8981352a7ffa80a4ba": {
@@ -486,6 +481,46 @@
         "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "4bd7bb1d43c2f9662601520adccaf221c0e0dae82da6f9f915a8cab35bacced8": {
+      "created_at": "2026-07-22T11:24:23Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "Industry move with significant impact on AI infrastructure and energy costs.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Utility companies promise to spare us from AI\u2019s energy bill",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 4,
+            "novelty_score": 3,
+            "reason": "New company targeting critical AI security risks with significant funding.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Glow emerges from stealth at $1.2B valuation to challenge endpoint security in the AI era",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 4,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Glow, a new company valued at $1.2 billion, is targeting a new class of endpoint risks created by the rapid adoption of AI agents and developer tools inside enterprises. This move highlights the growing importance of security in the AI era.\nLink: https://techcrunch.com/2026/07/22/glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Glow emerges from stealth at $1.2B valuation to challenge endpoint security in the AI era*\n\nGlow is targeting a new class of endpoint risks created by the rapid adoption of AI agents and developer tools inside enterprises.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/22/glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Glow, a new company valued at $1.2B, is tackling AI-era endpoint security risks. This highlights the growing importance of security in the AI era.\nhttps://techcrunch.com/2026/07/22/glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era/",
+          "twitter": "Glow emerges from stealth with $1.2B valuation to tackle AI-era endpoint security risks.\nhttps://techcrunch.com/2026/07/22/glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era/"
+        }
       }
     },
     "4ce904eed7f80995b5ce3f4a98f0485415e966a42c0ecab1425e5d199963d8f0": {
@@ -1087,29 +1122,6 @@
         "social_posts": {}
       }
     },
-    "94f7209c301289ab2b91e8a874faccad946efa701b494634b94cbbaea3af6816": {
-      "created_at": "2026-07-21T09:24:48Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "New model release with moderate impact and high freshness but low source tier.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Qwen-Image-3.0: Rich Content, Authentic Details, Deep Knowledge",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "9ce935672ed14099141636f19b99818effc9ef557f5ad90777704d2485014b0b": {
       "created_at": "2026-07-21T19:57:32Z",
       "payload": {
@@ -1160,6 +1172,41 @@
           "threads": "Jack Dorsey's Buzz platform integrates AI agents into team chats, taking on Slack. This could change how teams collaborate, putting humans and AI on equal footing in conversations.\nhttps://techcrunch.com/2026/07/21/jack-dorsey-is-taking-on-slack-with-buzz-a-group-chat-platform-for-teams-and-their-ai-agents/",
           "twitter": "Jack Dorsey's new platform Buzz brings AI agents into team chats, directly challenging Slack's dominance.\nhttps://techcrunch.com/2026/07/21/jack-dorsey-is-taking-on-slack-with-buzz-a-group-chat-platform-for-teams-and-their-ai-agents/"
         }
+      }
+    },
+    "a2c3497c09302ff1bc42245e0292ad996cdd5bfc30c2202d02f8fef544befa33": {
+      "created_at": "2026-07-22T11:24:23Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 5,
+            "novelty_score": 2.5,
+            "reason": "Comparative analysis of popular fine-tuning frameworks with practical benchmarks.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Unsloth vs Axolotl vs TRL vs LLaMA-Factory: A Fine-Tuning Framework Comparison on Speed, VRAM, and Multi-GPU",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 6,
+            "novelty_score": 2.0,
+            "reason": "Policy change on a niche platform with limited immediate impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Codeberg: ToU extension to prohibit LLM-extrusions",
+            "total_score": 5.5
+          }
+        ],
+        "best_index": 5,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "a5593085c43a1e59b731e3ae8570043513612a29a585af5a859277e7c7b923b8": {
@@ -1612,52 +1659,6 @@
         "social_posts": {}
       }
     },
-    "f017c0c9e5b0602dd3900f3b337effa45b20faaec98b60b6e28ce68131cf7f9c": {
-      "created_at": "2026-07-21T11:21:56Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2,
-            "reason": "Gritt's exit from stealth with $34 million funding for construction robotics is notable but not groundbreaking.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Gritt exits stealth with $34 million for robots to build solar plants\u0014then, everything else",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "f59fc4228b43a77955682a481fcb73b588faa3012fa513892bd19c0edf5f6307": {
-      "created_at": "2026-07-21T09:24:48Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Etsy's shift towards mass-produced goods and AI knockoffs is notable but not groundbreaking for software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Etsy Is In Its Flop Era, and Sellers Are Fleeing",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "f662fa3aa090fd5ce90a4e4833ef3a5b70dbcaa1dd68f2fe34b13dfa348c1714": {
       "created_at": "2026-07-22T09:23:53Z",
       "payload": {
@@ -1823,6 +1824,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 NVIDIA Unveils Cosmos 3 Edge\nNVIDIA's Cosmos 3 Edge model is a significant release with broad implications for AI deployment.\n\ud83c\udfdb\ufe0f Source: HuggingFace (S)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9.5/10\n#AI #MachineLearning #NVIDIA\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "NVIDIA's Cosmos 3 Edge model is poised to revolutionize AI deployment, offering new possibilities for industries @NVIDIA #AI",
         "twitter": "NVIDIA's Cosmos 3 Edge model is set to reshape AI deployment @NVIDIA #AI"
+      }
+    },
+    "40a2a048c34c3175cd7e2a1130e0c8302e794bc07a5d87a8c2ab6022eda9da81": {
+      "created_at": "2026-07-22T11:24:23Z",
+      "payload": {
+        "facebook": "The spread of deceptive generative AI content has prompted Meta to develop its own detection system, Content Seal. However, the question remains whether utilizing Google's technology would have been a more effective approach. Meta's Oversight Board has been pushing for the company to address this issue, and it will be interesting to see how Content Seal performs. #AI #Meta #ContentAuthenticity",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Meta Develops AI Detection System\nMeta has introduced Content Seal, a technology designed to combat deceptive AI content by flagging generated images. This move comes after the company's Oversight Board called for action to address the issue.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #Meta #ContentAuthenticity\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Meta's new Content Seal technology aims to flag images generated by AI, but it's unclear if this is the best solution, especially considering Google's existing capabilities @TheVerge #AI",
+        "twitter": "Meta introduces Content Seal to combat deceptive AI content, but some argue Google's solution would have been sufficient @TheVerge #AI #Meta"
       }
     },
     "43a8d226a23dbd8e99931c7f4c6caa74ee483c45fe62cd8b6fbc3cad5e059a02": {
@@ -2997,6 +3007,12 @@
       "status": "scoring_attempted",
       "title": "Launch HN: Coasty (YC S26) \u2013 An API for computer-use agents"
     },
+    "https://codeberg.org/Codeberg/org/pulls/1253": {
+      "canonical_url": "https://codeberg.org/Codeberg/org/pulls/1253",
+      "created_at": "2026-07-22T11:24:23Z",
+      "status": "scoring_attempted",
+      "title": "Codeberg: ToU extension to prohibit LLM-extrusions"
+    },
     "https://cursor.com/blog/agent-swarm-model-economics": {
       "canonical_url": "https://cursor.com/blog/agent-swarm-model-economics",
       "created_at": "2026-07-20T20:39:16Z",
@@ -3867,6 +3883,12 @@
       "status": "scoring_attempted",
       "title": "US threatens sanctions against Chinese AI models over IP theft"
     },
+    "https://techcrunch.com/2026/07/22/glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era": {
+      "canonical_url": "https://techcrunch.com/2026/07/22/glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era",
+      "created_at": "2026-07-22T11:24:23Z",
+      "status": "scoring_attempted",
+      "title": "Glow emerges from stealth at $1.2B valuation to challenge endpoint security in the AI era"
+    },
     "https://techcrunch.com/2026/07/22/synthesias-ai-training-platform-is-moving-beyond-videos-into-live-coaching": {
       "canonical_url": "https://techcrunch.com/2026/07/22/synthesias-ai-training-platform-is-moving-beyond-videos-into-live-coaching",
       "created_at": "2026-07-22T09:23:53Z",
@@ -3890,6 +3912,12 @@
       "created_at": "2026-07-15T19:24:21Z",
       "status": "scoring_attempted",
       "title": "Inside Ode with Anthropic, the startup betting AI services are the future of enterprise"
+    },
+    "https://tengli.dev/posts/mcp-servers-failing-agents.html": {
+      "canonical_url": "https://tengli.dev/posts/mcp-servers-failing-agents.html",
+      "created_at": "2026-07-22T11:24:23Z",
+      "status": "scoring_attempted",
+      "title": "I graded 36 popular MCP servers on agent usability. A third got a D or F"
     },
     "https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german": {
       "canonical_url": "https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german",
@@ -4047,6 +4075,12 @@
       "status": "scoring_attempted",
       "title": "US public health agencies to test OpenAI and Anthropic AI models"
     },
+    "https://www.artificialintelligence-news.com/news/sensetimes-galaxy-project-targets-domestic-ai-chip-scale-up": {
+      "canonical_url": "https://www.artificialintelligence-news.com/news/sensetimes-galaxy-project-targets-domestic-ai-chip-scale-up",
+      "created_at": "2026-07-22T11:24:23Z",
+      "status": "scoring_attempted",
+      "title": "SenseTime\u2019s Galaxy Project targets domestic AI chip scale-up"
+    },
     "https://www.aventos.dev/our-process?view=blog": {
       "canonical_url": "https://www.aventos.dev/our-process?view=blog",
       "created_at": "2026-07-22T02:13:23Z",
@@ -4136,6 +4170,12 @@
       "created_at": "2026-07-21T19:57:32Z",
       "status": "scoring_attempted",
       "title": "Android Studio Quail 2 Redesigns Agent Mode, Streamlines AI-Assisted Coding"
+    },
+    "https://www.infoq.com/news/2026/07/aws-billing-estimates-incident": {
+      "canonical_url": "https://www.infoq.com/news/2026/07/aws-billing-estimates-incident",
+      "created_at": "2026-07-22T11:24:23Z",
+      "status": "scoring_attempted",
+      "title": "AWS Billing Bug Shows Customers Trillion-Dollar Estimates While Its Own Cost Alarms Fail to Act"
     },
     "https://www.infoq.com/news/2026/07/aws-continuum-code-security": {
       "canonical_url": "https://www.infoq.com/news/2026/07/aws-continuum-code-security",
@@ -4365,6 +4405,12 @@
       "status": "scoring_attempted",
       "title": "Alibaba\u2019s Tongyi Lab Releases Qwen-Audio-3.0-TTS, a Hosted Text-to-Speech Model in Flash and Plus Tiers Across 16 Languages"
     },
+    "https://www.marktechpost.com/2026/07/21/cisco-foundation-ai-releases-antares-350m-and-1b-open-weight-models-that-localize-known-vulnerabilities-inside-real-codebases": {
+      "canonical_url": "https://www.marktechpost.com/2026/07/21/cisco-foundation-ai-releases-antares-350m-and-1b-open-weight-models-that-localize-known-vulnerabilities-inside-real-codebases",
+      "created_at": "2026-07-22T11:24:23Z",
+      "status": "scoring_attempted",
+      "title": "Cisco Foundation AI Releases Antares: 350M and 1B Open-Weight Models That Localize Known Vulnerabilities Inside Real Codebases"
+    },
     "https://www.marktechpost.com/2026/07/21/google-releases-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber-a-cheaper-more-token-efficient-flash-tier-built-for-agentic-workloads": {
       "canonical_url": "https://www.marktechpost.com/2026/07/21/google-releases-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber-a-cheaper-more-token-efficient-flash-tier-built-for-agentic-workloads",
       "created_at": "2026-07-21T18:21:46Z",
@@ -4388,6 +4434,12 @@
       "created_at": "2026-07-22T02:13:23Z",
       "status": "scoring_attempted",
       "title": "Poolside Releases Laguna S 2.1, an Open-Weight Agentic Coding Model Punching Above Its Weight Class on SWE-Bench Multilingual"
+    },
+    "https://www.marktechpost.com/2026/07/22/unsloth-vs-axolotl-vs-trl-vs-llama-factory-a-fine-tuning-framework-comparison-on-speed-vram-and-multi-gpu": {
+      "canonical_url": "https://www.marktechpost.com/2026/07/22/unsloth-vs-axolotl-vs-trl-vs-llama-factory-a-fine-tuning-framework-comparison-on-speed-vram-and-multi-gpu",
+      "created_at": "2026-07-22T11:24:23Z",
+      "status": "scoring_attempted",
+      "title": "Unsloth vs Axolotl vs TRL vs LLaMA-Factory: A Fine-Tuning Framework Comparison on Speed, VRAM, and Multi-GPU"
     },
     "https://www.neomindlabs.com/2026/06/08/running-gemma-4-26b-at-5-tokens-sec-on-a-13-year-old-xeon-with-no-gpu": {
       "canonical_url": "https://www.neomindlabs.com/2026/06/08/running-gemma-4-26b-at-5-tokens-sec-on-a-13-year-old-xeon-with-no-gpu",
@@ -4538,6 +4590,12 @@
       "created_at": "2026-07-21T22:12:46Z",
       "status": "scoring_attempted",
       "title": "OpenAI says it accidentally hacked Hugging Face with a new AI system"
+    },
+    "https://www.theverge.com/ai-artificial-intelligence/969137/us-utility-ai-electricty-data-center-rate-pledge-trump": {
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/969137/us-utility-ai-electricty-data-center-rate-pledge-trump",
+      "created_at": "2026-07-22T11:24:23Z",
+      "status": "scoring_attempted",
+      "title": "Utility companies promise to spare us from AI\u2019s energy bill"
     },
     "https://www.theverge.com/business/968055/paramount-wbd-merger-pause-tro": {
       "canonical_url": "https://www.theverge.com/business/968055/paramount-wbd-merger-pause-tro",
@@ -4695,12 +4753,6 @@
       "status": "scoring_attempted",
       "title": "More games should be on rails (literally)"
     },
-    "https://www.theverge.com/games/963132/sony-playstation-future-handheld-pc-business-meeting-end-of-discs": {
-      "canonical_url": "https://www.theverge.com/games/963132/sony-playstation-future-handheld-pc-business-meeting-end-of-discs",
-      "created_at": "2026-07-15T11:01:06Z",
-      "status": "scoring_attempted",
-      "title": "The PS6 sure sounds like a handheld"
-    },
     "https://www.theverge.com/games/966106/valve-ifixit-will-keep-selling-steam-deck-lcd-battery": {
       "canonical_url": "https://www.theverge.com/games/966106/valve-ifixit-will-keep-selling-steam-deck-lcd-battery",
       "created_at": "2026-07-15T22:33:43Z",
@@ -4796,12 +4848,6 @@
       "created_at": "2026-07-20T12:13:13Z",
       "status": "scoring_attempted",
       "title": "AliExpress fined almost $630 million over illegal product sales"
-    },
-    "https://www.theverge.com/science/965849/spotify-founder-ek-startup-neko-health-scanner-us-push": {
-      "canonical_url": "https://www.theverge.com/science/965849/spotify-founder-ek-startup-neko-health-scanner-us-push",
-      "created_at": "2026-07-15T11:01:06Z",
-      "status": "scoring_attempted",
-      "title": "Spotify\u2019s Daniel Ek is bringing his body-scanning clinics to the US"
     },
     "https://www.theverge.com/streaming/966633/netflix-ai-titles-q2-2026-earnings": {
       "canonical_url": "https://www.theverge.com/streaming/966633/netflix-ai-titles-q2-2026-earnings",
@@ -4953,6 +4999,12 @@
       "status": "scoring_attempted",
       "title": "Samsung can&#8217;t afford to play it safe with Apple&#8217;s first foldable looming"
     },
+    "https://www.theverge.com/tech/968680/meta-ai-detection-labeling-content-seal-watermarks-synthid": {
+      "canonical_url": "https://www.theverge.com/tech/968680/meta-ai-detection-labeling-content-seal-watermarks-synthid",
+      "created_at": "2026-07-22T11:24:23Z",
+      "status": "scoring_attempted",
+      "title": "Meta made its own AI detection system. It should have just used Google\u2019s"
+    },
     "https://www.theverge.com/transportation/965924/lucids-bankruptcy-rumor-is-a-bad-sign-for-the-ev-future": {
       "canonical_url": "https://www.theverge.com/transportation/965924/lucids-bankruptcy-rumor-is-a-bad-sign-for-the-ev-future",
       "created_at": "2026-07-15T17:59:26Z",
@@ -5024,12 +5076,6 @@
       "created_at": "2026-07-15T19:24:21Z",
       "status": "scoring_attempted",
       "title": "AI Isn\u2019t Smarter Than a Baby\u2014Yet"
-    },
-    "https://www.wired.com/story/ebike-delivery-missing-when-i-tried-to-recover-it-i-ended-up-in-chatbot-hell": {
-      "canonical_url": "https://www.wired.com/story/ebike-delivery-missing-when-i-tried-to-recover-it-i-ended-up-in-chatbot-hell",
-      "created_at": "2026-07-15T11:01:06Z",
-      "status": "scoring_attempted",
-      "title": "My Ebike Delivery Went Missing. When I Tried to Recover It, I Ended Up in Chatbot Hell"
     },
     "https://www.wired.com/story/etsy-is-in-its-flop-era-and-sellers-are-fleeing": {
       "canonical_url": "https://www.wired.com/story/etsy-is-in-its-flop-era-and-sellers-are-fleeing",
