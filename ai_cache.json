@@ -1,5 +1,52 @@
 {
   "cerebras_scoring": {
+    "0bb7d2a3a902108cdd3f4b7becb760e7aee46a8a2cd1cc4ffdb338416059bc76": {
+      "created_at": "2026-07-23T15:07:34Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 0.5,
+            "index": 3,
+            "novelty_score": 0.5,
+            "reason": "Opinion piece on writing by hand lacks technical relevance for software engineers.",
+            "red_flag": true,
+            "red_flag_reason": "opinion",
+            "source_score": 0.5,
+            "title": "Writing by Hand is Good for your Brain",
+            "total_score": 3.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 4,
+            "novelty_score": 0.2,
+            "reason": "Tutorial-style article on software rendering lacks novelty and impact for AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Software rendering in 500 lines of bare C++",
+            "total_score": 4.2
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 5,
+            "novelty_score": 2.5,
+            "reason": "Expedia's AI-driven observability platform STAR offers a novel approach to incident investigation with significant impact for software engineers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.0,
+            "title": "Expedia Uses AI Driven Service Telemetry Analyzer to Accelerate Incident Investigation",
+            "total_score": 8.0
+          }
+        ],
+        "best_index": 5,
+        "best_score": 8.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "1502d182debf2684e00438d80e9739b53456f2ef89f285fe92fb41528474176c": {
       "created_at": "2026-07-23T06:27:26Z",
       "payload": {
@@ -359,70 +406,6 @@
         }
       }
     },
-    "4c147e97820359c3d6279d46e0e0abd79f312f5f7d75a27022c4e91c2bb37645": {
-      "created_at": "2026-07-22T15:01:16Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 4,
-            "novelty_score": 2.5,
-            "reason": "The US Army's rapid depletion of AI tokens highlights real-world constraints on AI adoption.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Unlimited AI tokens aren't unlimited after all as US Army burns through supply",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 5,
-            "novelty_score": 0,
-            "reason": "The article is a listicle and contains a red flag.",
-            "red_flag": true,
-            "red_flag_reason": "top 5",
-            "source_score": 1.5,
-            "title": "The browser wars aren\u2019t about search anymore \u2014 here are the best alternatives to Chrome and Safari",
-            "total_score": 5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 6,
-            "novelty_score": 1.5,
-            "reason": "A startup raising funds is notable but not highly impactful for most software engineers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Passionfroot raises $15M to expand its B2B creator marketplace to the US",
-            "total_score": 6
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 7,
-            "novelty_score": 1.5,
-            "reason": "A product review is not highly impactful for most software engineers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Samsung\u2019s newest foldable finally feels Ultra",
-            "total_score": 6
-          }
-        ],
-        "best_index": 4,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "The US Army has rapidly depleted its AI token supply, highlighting real-world constraints on AI adoption. This is a significant development for anyone working with AI systems. Link: https://arstechnica.com/ai/2026/07/us-army-faces-ai-use-limits-after-exhausting-years-supply-of-ai-tokens/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Unlimited AI tokens aren't unlimited after all as US Army burns through supply*\n\nThe US Army has rapidly depleted its AI token supply, highlighting real-world constraints on AI adoption.\n\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://arstechnica.com/ai/2026/07/us-army-faces-ai-use-limits-after-exhausting-years-supply-of-ai-tokens/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "The US Army's AI token supply is exhausted, showing that 'unlimited' AI isn't infinite. This has major implications for AI adoption. https://arstechnica.com/ai/2026/07/us-army-faces-ai-use-limits-after-exhausting-years-supply-of-ai-tokens/",
-          "twitter": "The US Army just burned through its AI token supply, proving 'unlimited' AI isn't infinite. https://arstechnica.com/ai/2026/07/us-army-faces-ai-use-limits-after-exhausting-years-supply-of-ai-tokens/"
-        }
-      }
-    },
     "672353933c77a31ffd3d08bf54c5cc3ced711b2fcb853dcac868fef95e3f4c2f": {
       "created_at": "2026-07-22T15:38:50Z",
       "payload": {
@@ -566,53 +549,6 @@
         "social_posts": {}
       }
     },
-    "6bfaee91c97efb10e0d69d80f1b4b6752f9dbd51e67bbae06e4aed43b0c6ab6b": {
-      "created_at": "2026-07-22T15:01:16Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 11,
-            "novelty_score": 2.0,
-            "reason": "OpenAI's Project Camellia is a significant industry move with community impact, but not groundbreaking for AI infrastructure.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 2.0,
-            "title": "Building AI infrastructure with the Effingham County community",
-            "total_score": 8.0
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.0,
-            "index": 12,
-            "novelty_score": 0.0,
-            "reason": "Hacker News comments are not a reliable source for impactful news.",
-            "red_flag": true,
-            "red_flag_reason": "Comments",
-            "source_score": 0.5,
-            "title": "Businesses with ugly AI menu redesigns",
-            "total_score": 2.0
-          },
-          {
-            "freshness_score": 0.5,
-            "impact_score": 2.5,
-            "index": 23,
-            "novelty_score": 3.0,
-            "reason": "OpenAI Presence is a new enterprise AI agent platform, but the announcement is 9 hours old.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 2.0,
-            "title": "Introducing OpenAI Presence",
-            "total_score": 8.0
-          }
-        ],
-        "best_index": 11,
-        "best_score": 8.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "6e83cbcfe580fdbc575a272a524a3b749681978346cd540aee1fc22fd2580ef0": {
       "created_at": "2026-07-22T22:46:20Z",
       "payload": {
@@ -745,6 +681,41 @@
         "social_posts": {}
       }
     },
+    "835b1b7c731c6aa0b6413134e0d0404008b4ac353385ebe0517abf992ee2367e": {
+      "created_at": "2026-07-23T15:07:34Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 9,
+            "novelty_score": 2.0,
+            "reason": "Industry move with moderate impact, fresh, but from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "AI Companies Are Trying to Hide a Staggering Amount of Debt",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.0,
+            "index": 10,
+            "novelty_score": 0.5,
+            "reason": "Opinion piece on AI in sci-fi with limited impact and novelty.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "The sci-fi movie that imagines AI isn\u2019t so dystopian after all",
+            "total_score": 4.5
+          }
+        ],
+        "best_index": 9,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "87a7b74db48e48d67a1b8942acd8593ca7939248177ac9739031956fbd54c71d": {
       "created_at": "2026-07-23T11:22:42Z",
       "payload": {
@@ -861,122 +832,6 @@
         "social_posts": {}
       }
     },
-    "9becfaf497d741c54a1acb5d4801c9313b239b75a92262bac961d3b44a6a2d6d": {
-      "created_at": "2026-07-22T15:01:16Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 8,
-            "novelty_score": 1.5,
-            "reason": "Product review of a new Samsung phone model.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Samsung\u2019s wider Z Fold 8 feels just right",
-            "total_score": 4.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 9,
-            "novelty_score": 0,
-            "reason": "Recap of announcements from Samsung Galaxy Unpacked 2026.",
-            "red_flag": true,
-            "red_flag_reason": "Recap of announcements",
-            "source_score": 1.5,
-            "title": "Samsung Galaxy Unpacked 2026: The 6 biggest announcements",
-            "total_score": 3.0
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 10,
-            "novelty_score": 2.5,
-            "reason": "Google announces new AI features for Android at Samsung's Galaxy Unpacked 2026.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 2,
-            "title": "3 Google updates from Galaxy Unpacked 2026",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 10,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Google has unveiled three new AI features for Android during Samsung's Galaxy Unpacked 2026 event. These updates include new capabilities for Google Lens and other AI-powered functionalities. Check out the details here.\nLink: https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *3 Google updates from Galaxy Unpacked 2026*\n\nGoogle announced three new AI features for Android at Samsung's Galaxy Unpacked 2026, including new capabilities for Google Lens and other AI-powered functionalities.\n\n\ud83c\udfdb\ufe0f Source: Google AI (S)\n\u23f0 Published: 2 hours ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/",
-          "threads": "Google just dropped three new AI features for Android at Samsung's Galaxy Unpacked 2026. Looks like they're pushing deeper AI integration.\nhttps://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/",
-          "twitter": "Google just announced three new AI features for Android at Samsung's Galaxy Unpacked 2026.\nhttps://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/"
-        }
-      }
-    },
-    "a1957d8ea323183eccdeda8a9c08ad7604c06378f3e1deec1c7188f6a4c636b8": {
-      "created_at": "2026-07-22T15:01:16Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 1.5,
-            "reason": "Interesting but not groundbreaking for PC gamers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Microsoft is bringing original Xbox games to PC",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Major investment in AI infrastructure with significant implications for the industry.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "AMD and Anthropic reach $5 billion AI infrastructure deal",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 2,
-            "novelty_score": 1.5,
-            "reason": "Interesting but not impactful for software engineers and AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Most Americans Say \"Not in My Backyard\" to AI Data Centers",
-            "total_score": 5.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "Significant performance improvement in GitHub Issues navigation.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "GitHub Increased Instant Navigation from 4% to 22% by Rethinking Client Side Architecture",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "AMD and Anthropic have announced a $5 billion partnership to expand AI computing power. The deal includes deploying up to 2 gigawatts of AMD's Instinct MI450 AI GPUs using the chipmaker's new Helios architecture. This significant investment highlights the growing demand for advanced AI infrastructure. Link: https://www.theverge.com/ai-artificial-intelligence/969285/amd-anthropic-ai-infrastructure-deal",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *AMD and Anthropic reach $5 billion AI infrastructure deal*\n\nAMD is investing up to $5 billion in Anthropic while helping to expand the AI company's computing power. The partnership includes deploying up to 2 gigawatts of AMD's Instinct MI450 AI GPUs using the chipmaker's new Helios architecture.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/ai-artificial-intelligence/969285/amd-anthropic-ai-infrastructure-deal\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "AMD is investing $5 billion in Anthropic while expanding the AI company's computing power. The partnership includes deploying up to 2 gigawatts of AMD's Instinct MI450 AI GPUs. This is a major move in AI infrastructure. https://www.theverge.com/ai-artificial-intelligence/969285/amd-anthropic-ai-infrastructure-deal",
-          "twitter": "AMD just inked a $5 billion deal with Anthropic to supercharge AI infrastructure. The partnership includes 2 gigawatts of Instinct MI450 AI GPUs.\nhttps://www.theverge.com/ai-artificial-intelligence/969285/amd-anthropic-ai-infrastructure-deal"
-        }
-      }
-    },
     "b1585ea99ea3045741a4c506982d373a155574b5a2bcf03d3826523a9b57aba8": {
       "created_at": "2026-07-22T18:16:21Z",
       "payload": {
@@ -1044,6 +899,58 @@
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "b6110ab520375ebba8abac119d939542543c319e2681ee0e48f12d58502010f0": {
+      "created_at": "2026-07-23T15:07:34Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Etched's new AI chips and memory components could disrupt the GPU-dominated AI inference market.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 1,
+            "novelty_score": 2,
+            "reason": "Nvidia's lunar GPU deployment is novel but has limited immediate impact on software engineers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Nvidia is sending GPUs to the Moon",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "OpenAI's hacking incident raises critical questions about AI safety and training practices.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "AI arms race in line for a reckoning after OpenAI hacking incident",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Etched, founded by Harvard dropouts, has developed AI chips and memory components that could eliminate the need for GPUs in inference tasks. The startup just hit a $10.3B valuation from major investors. This could be a major shift in AI hardware.\nLink: https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors*\n\nEtched, founded by Harvard dropouts, has developed AI chips and memory components that could replace GPUs in inference tasks.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Etched, a startup founded by Harvard dropouts, just raised $10.3B for AI chips that could replace GPUs in inference tasks. This is a big deal for AI hardware.\nhttps://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/",
+          "twitter": "Etched, a Harvard dropout-founded startup, just raised $10.3B for AI chips that could replace GPUs in inference tasks.\nhttps://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/"
+        }
       }
     },
     "bf9784ff316c34ccec75b5a14474571a25740f4d2564c8cad2c1c2a3b952357e": {
@@ -1227,6 +1134,58 @@
         "best_score": 5.5,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "e7569a2f89f77b98931113d213b7886d4c40a7172b31f5d4c0b376c883fc31ed": {
+      "created_at": "2026-07-23T15:07:34Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 6,
+            "novelty_score": 2.5,
+            "reason": "Potential regulatory impact on AI development and deployment.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Lawmakers prepare bill requiring AI 'kill switch'",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2,
+            "index": 7,
+            "novelty_score": 1.5,
+            "reason": "Interesting analysis but not as impactful as regulatory news.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Apple\u2019s OpenAI lawsuit is about who gets to define the post-smartphone era",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2,
+            "index": 8,
+            "novelty_score": 2,
+            "reason": "Financial impact of AI spending but not as directly relevant to engineers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Alphabet's cash burn raises alarm for Big Tech as AI spending climbs",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 6,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Lawmakers are preparing to introduce an \"AI Kill Switch Act\" that would require AI companies to shut down or throttle their systems on orders from the Department of Homeland Security. This could have significant implications for AI development and deployment. Link: https://www.theverge.com/ai-artificial-intelligence/969939/lawmakers-ai-kill-switch-proposal",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\ud83d\udd25 *Lawmakers prepare bill requiring AI 'kill switch'*\n\nLawmakers are preparing to introduce an \"AI Kill Switch Act\" that would require AI companies to shut down or throttle their systems on orders from the Department of Homeland Security.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/ai-artificial-intelligence/969939/lawmakers-ai-kill-switch-proposal\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Lawmakers propose an AI 'kill switch' bill that could force shutdowns on DHS orders. This could have significant implications for AI development and deployment. https://www.theverge.com/ai-artificial-intelligence/969939/lawmakers-ai-kill-switch-proposal",
+          "twitter": "Lawmakers propose an AI 'kill switch' bill that could force shutdowns on DHS orders. https://www.theverge.com/ai-artificial-intelligence/969939/lawmakers-ai-kill-switch-proposal"
+        }
       }
     },
     "ef83c0225857f0ddee556f860febcd551a327190d039d8092044e59dcce3fa38": {
@@ -1524,6 +1483,15 @@
         "twitter": "FBI ends investigations into ICE agent confrontations, sparking concerns over accountability @TheVerge #ICE"
       }
     },
+    "1319e8fd96ea6f7bbf7bc888d8200e5235baf004c4c403d753a11ab98b7ab8e8": {
+      "created_at": "2026-07-23T15:07:34Z",
+      "payload": {
+        "facebook": "Etched, a startup founded by three Harvard dropouts, has created new chips and memory components that can accelerate AI inference without relying on GPUs. This development could significantly impact the AI industry and challenge the dominance of traditional GPU-based systems. #AI #ArtificialIntelligence #ChipTechnology",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 AI Chip Startup Etched Defies Skeptics\nEtched has developed innovative chips and memory components that can speed up AI inference without the need for GPUs, achieving a $10.3B valuation.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #ArtificialIntelligence #ChipTechnology\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Etched's new AI chips and memory components are poised to disrupt the GPU-dominated AI inference market, offering a potentially more efficient solution @TechCrunch #AIchips",
+        "twitter": "AI chip startup Etched achieves $10.3B valuation with innovative chips that speed up inference on any AI model @TechCrunch #AIchips #ArtificialIntelligence"
+      }
+    },
     "142f79a7d9ea50b99f03e1b1a78e0301805274764005979dfc4e711ff1d6efc2": {
       "created_at": "2026-07-21T22:12:46Z",
       "payload": {
@@ -1812,15 +1780,6 @@
         "twitter": "Moonshot AI's latest model Kimi K3 boasts 2.8 trillion parameters with Kimi Delta Attention @MoonshotAI #AI"
       }
     },
-    "a38863b6ca993d04c9b81ac7e2fa870b5ba1626860d1e27db64fc3ec7b629e76": {
-      "created_at": "2026-07-16T14:56:32Z",
-      "payload": {
-        "facebook": "The AI landscape is evolving rapidly, with Moonshot's upcoming Kimi 3 model set to close the gap with Anthropic's Opus 4.8. This development could have significant implications for the industry, particularly in China. #AI #MachineLearning #Tech",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 China's AI Landscape Evolves\nMoonshot's Kimi 3 model is expected to close the gap with Anthropic's Opus 4.8, with a parameter count between 2 trillion and 3 trillion, making it the largest open AI model from China.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9/10\n#AI #MachineLearning #Tech\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Moonshot's Kimi 3 is poised to become the largest open AI model from China, with a parameter count between 2 trillion and 3 trillion, narrowing the gap with Anthropic's Opus 4.8 @TechCrunch #AI",
-        "twitter": "China's AI landscape is about to get a boost with Moonshot's Kimi 3, expected to close the gap with Anthropic's Opus 4.8 @TechCrunch #AI"
-      }
-    },
     "b2efb3cad640c6b20796c027682c9fd4ef425bd2f56cf4de98d5c3936799f642": {
       "created_at": "2026-07-16T21:27:01Z",
       "payload": {
@@ -1981,6 +1940,12 @@
       "created_at": "2026-07-20T09:55:15Z",
       "status": "scoring_attempted",
       "title": "US gas prices hit an average of $4 a gallon again"
+    },
+    "https://arstechnica.com/ai/2026/07/ai-arms-race-in-line-for-a-reckoning-after-openai-hacking-incident": {
+      "canonical_url": "https://arstechnica.com/ai/2026/07/ai-arms-race-in-line-for-a-reckoning-after-openai-hacking-incident",
+      "created_at": "2026-07-23T15:07:34Z",
+      "status": "scoring_attempted",
+      "title": "AI arms race in line for a reckoning after OpenAI hacking incident"
     },
     "https://arstechnica.com/ai/2026/07/beyond-grep-the-case-for-a-context-rich-ai-coding-harness": {
       "canonical_url": "https://arstechnica.com/ai/2026/07/beyond-grep-the-case-for-a-context-rich-ai-coding-harness",
@@ -2720,6 +2685,12 @@
       "status": "scoring_attempted",
       "title": "New Framework Desktop Option with AMD Ryzen AI Max+ Pro 495 and 192GB Memory"
     },
+    "https://futurism.com/artificial-intelligence/ai-companies-hide-debt-off-balance-sheet": {
+      "canonical_url": "https://futurism.com/artificial-intelligence/ai-companies-hide-debt-off-balance-sheet",
+      "created_at": "2026-07-23T15:07:34Z",
+      "status": "scoring_attempted",
+      "title": "AI Companies Are Trying to Hide a Staggering Amount of Debt"
+    },
     "https://github.blog/security/next-chapter-restructuring-githubs-bug-bounty-program": {
       "canonical_url": "https://github.blog/security/next-chapter-restructuring-githubs-bug-bounty-program",
       "created_at": "2026-07-23T03:48:23Z",
@@ -2803,6 +2774,12 @@
       "created_at": "2026-07-16T16:52:04Z",
       "status": "scoring_attempted",
       "title": "Agent-talk: Enabling coding agents to work together"
+    },
+    "https://haqr.eu/tinyrenderer": {
+      "canonical_url": "https://haqr.eu/tinyrenderer",
+      "created_at": "2026-07-23T15:07:34Z",
+      "status": "scoring_attempted",
+      "title": "Software rendering in 500 lines of bare C++"
     },
     "https://hatchet.run/blog/postgres-survival-guide": {
       "canonical_url": "https://hatchet.run/blog/postgres-survival-guide",
@@ -2923,6 +2900,12 @@
       "created_at": "2026-07-18T02:04:56Z",
       "status": "scoring_attempted",
       "title": "Moonstone: Modern, cross-platform Lua runtime and package manager written in Zig"
+    },
+    "https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your": {
+      "canonical_url": "https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your",
+      "created_at": "2026-07-23T15:07:34Z",
+      "status": "scoring_attempted",
+      "title": "Writing by Hand is Good for your Brain"
     },
     "https://news.mit.edu/2026/dimitri-bertsekas-influential-computer-scientist-prolific-author-dies-0722": {
       "canonical_url": "https://news.mit.edu/2026/dimitri-bertsekas-influential-computer-scientist-prolific-author-dies-0722",
@@ -3134,12 +3117,6 @@
       "status": "scoring_attempted",
       "title": "Mirror your GitHub repos to tangled.org automatically"
     },
-    "https://techcrunch.com/2026/07/16/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai": {
-      "canonical_url": "https://techcrunch.com/2026/07/16/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai",
-      "created_at": "2026-07-16T14:56:32Z",
-      "status": "scoring_attempted",
-      "title": "Apple Intelligence approved for launch in China with Alibaba and Baidu"
-    },
     "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos": {
       "canonical_url": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos",
       "created_at": "2026-07-16T19:21:23Z",
@@ -3158,23 +3135,11 @@
       "status": "scoring_attempted",
       "title": "How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product"
     },
-    "https://techcrunch.com/2026/07/16/moonshots-upcoming-kimi-3-is-expected-to-close-the-gap-with-anthropics-opus-4-8": {
-      "canonical_url": "https://techcrunch.com/2026/07/16/moonshots-upcoming-kimi-3-is-expected-to-close-the-gap-with-anthropics-opus-4-8",
-      "created_at": "2026-07-16T14:56:32Z",
-      "status": "scoring_attempted",
-      "title": "Moonshot\u2019s upcoming Kimi 3 is expected to close the gap with Anthropic\u2019s Opus 4.8"
-    },
     "https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app": {
       "canonical_url": "https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app",
       "created_at": "2026-07-16T19:21:23Z",
       "status": "scoring_attempted",
       "title": "Roblox launches an AI-powered game creation feature in its mobile app"
-    },
-    "https://techcrunch.com/2026/07/16/why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence": {
-      "canonical_url": "https://techcrunch.com/2026/07/16/why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence",
-      "created_at": "2026-07-16T14:56:32Z",
-      "status": "scoring_attempted",
-      "title": "Why AMI Labs\u2019 Alexandre LeBrun won\u2019t call his AI \u2018AGI\u2019 or \u2018superintelligence\u2019"
     },
     "https://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball": {
       "canonical_url": "https://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball",
@@ -3452,11 +3417,23 @@
       "status": "scoring_attempted",
       "title": "Yope raises $12.3M to build a private social network without algorithms or ads"
     },
+    "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors": {
+      "canonical_url": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors",
+      "created_at": "2026-07-23T15:07:34Z",
+      "status": "scoring_attempted",
+      "title": "AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors"
+    },
     "https://techcrunch.com/2026/07/23/experts-say-exploiting-anthropics-fable-isnt-how-kimi-k3-got-so-good": {
       "canonical_url": "https://techcrunch.com/2026/07/23/experts-say-exploiting-anthropics-fable-isnt-how-kimi-k3-got-so-good",
       "created_at": "2026-07-23T12:56:24Z",
       "status": "scoring_attempted",
       "title": "Experts say exploiting Anthropic\u2019s Fable isn\u2019t how Kimi K3 got so good"
+    },
+    "https://techcrunch.com/2026/07/23/nvidia-is-sending-gpus-to-the-moon": {
+      "canonical_url": "https://techcrunch.com/2026/07/23/nvidia-is-sending-gpus-to-the-moon",
+      "created_at": "2026-07-23T15:07:34Z",
+      "status": "scoring_attempted",
+      "title": "Nvidia is sending GPUs to the Moon"
     },
     "https://techcrunch.com/podcast/apples-lawsuit-couldnt-come-at-a-worse-time-for-openai": {
       "canonical_url": "https://techcrunch.com/podcast/apples-lawsuit-couldnt-come-at-a-worse-time-for-openai",
@@ -3662,12 +3639,6 @@
       "status": "scoring_attempted",
       "title": "OpenAI says its AI went rogue and launched 'unprecedented' cyber-attack"
     },
-    "https://www.bbc.com/news/articles/c4gyg0y6yg2o": {
-      "canonical_url": "https://www.bbc.com/news/articles/c4gyg0y6yg2o",
-      "created_at": "2026-07-16T14:56:32Z",
-      "status": "scoring_attempted",
-      "title": "Teen hackers who live streamed cyber-attack on TfL jailed"
-    },
     "https://www.bloomberg.com/news/articles/2026-07-19/big-tech-needs-to-justify-ai-spending-as-investors-dump-stocks": {
       "canonical_url": "https://www.bloomberg.com/news/articles/2026-07-19/big-tech-needs-to-justify-ai-spending-as-investors-dump-stocks",
       "created_at": "2026-07-20T05:55:22Z",
@@ -3775,6 +3746,12 @@
       "created_at": "2026-07-20T14:34:36Z",
       "status": "scoring_attempted",
       "title": "DoorDash Uses Envoy and Valkey for a 1.5M RPS Proxy Cache with 99.99999% Availability"
+    },
+    "https://www.infoq.com/news/2026/07/expedia-ai-observability-star": {
+      "canonical_url": "https://www.infoq.com/news/2026/07/expedia-ai-observability-star",
+      "created_at": "2026-07-23T15:07:34Z",
+      "status": "scoring_attempted",
+      "title": "Expedia Uses AI Driven Service Telemetry Analyzer to Accelerate Incident Investigation"
     },
     "https://www.infoq.com/news/2026/07/github-issues-navigation": {
       "canonical_url": "https://www.infoq.com/news/2026/07/github-issues-navigation",
@@ -4040,6 +4017,12 @@
       "status": "scoring_attempted",
       "title": "Most Americans Say \"Not in My Backyard\" to AI Data Centers"
     },
+    "https://www.reuters.com/business/retail-consumer/alphabets-cash-burn-raises-alarm-big-tech-ai-spending-climbs-2026-07-23": {
+      "canonical_url": "https://www.reuters.com/business/retail-consumer/alphabets-cash-burn-raises-alarm-big-tech-ai-spending-climbs-2026-07-23",
+      "created_at": "2026-07-23T15:07:34Z",
+      "status": "scoring_attempted",
+      "title": "Alphabet's cash burn raises alarm for Big Tech as AI spending climbs"
+    },
     "https://www.science.org/doi/10.1126/science.aea9708": {
       "canonical_url": "https://www.science.org/doi/10.1126/science.aea9708",
       "created_at": "2026-07-16T21:27:01Z",
@@ -4069,12 +4052,6 @@
       "created_at": "2026-07-17T23:48:53Z",
       "status": "scoring_attempted",
       "title": "Texas wins court order to suspend domain name for violating age-verification law"
-    },
-    "https://www.theatlantic.com/technology/2026/07/generative-ai-engineering-disaster/687901": {
-      "canonical_url": "https://www.theatlantic.com/technology/2026/07/generative-ai-engineering-disaster/687901",
-      "created_at": "2026-07-16T14:56:32Z",
-      "status": "scoring_attempted",
-      "title": "Generative AI Is an Engineering Disaster"
     },
     "https://www.theregister.com/columnists/2026/07/20/airbus-takes-flight-from-aws-what-happens-next-is-critical/5274109": {
       "canonical_url": "https://www.theregister.com/columnists/2026/07/20/airbus-takes-flight-from-aws-what-happens-next-is-critical/5274109",
@@ -4129,6 +4106,12 @@
       "created_at": "2026-07-22T15:01:16Z",
       "status": "scoring_attempted",
       "title": "AMD and Anthropic reach $5 billion AI infrastructure deal"
+    },
+    "https://www.theverge.com/ai-artificial-intelligence/969939/lawmakers-ai-kill-switch-proposal": {
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/969939/lawmakers-ai-kill-switch-proposal",
+      "created_at": "2026-07-23T15:07:34Z",
+      "status": "scoring_attempted",
+      "title": "Lawmakers prepare bill requiring AI \u2018kill switch\u2019"
     },
     "https://www.theverge.com/business/968055/paramount-wbd-merger-pause-tro": {
       "canonical_url": "https://www.theverge.com/business/968055/paramount-wbd-merger-pause-tro",
@@ -4201,6 +4184,12 @@
       "created_at": "2026-07-21T22:12:46Z",
       "status": "scoring_attempted",
       "title": "Neill Blomkamp\u2019s new zombie AI \u2018film\u2019 is just slop warmed over"
+    },
+    "https://www.theverge.com/entertainment/969584/hirokazu-kore-eda-sheep-in-a-box-interview": {
+      "canonical_url": "https://www.theverge.com/entertainment/969584/hirokazu-kore-eda-sheep-in-a-box-interview",
+      "created_at": "2026-07-23T15:07:34Z",
+      "status": "scoring_attempted",
+      "title": "The sci-fi movie that imagines AI isn\u2019t so dystopian after all"
     },
     "https://www.theverge.com/gadgets/966478/splatoon-raiders-preorder-the-sopranos-4k-bluray-deal-sale": {
       "canonical_url": "https://www.theverge.com/gadgets/966478/splatoon-raiders-preorder-the-sopranos-4k-bluray-deal-sale",
@@ -4340,6 +4329,12 @@
       "status": "scoring_attempted",
       "title": "Dr. Jill Lepore on why AI backlash is vital for the future"
     },
+    "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive": {
+      "canonical_url": "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive",
+      "created_at": "2026-07-23T15:07:34Z",
+      "status": "scoring_attempted",
+      "title": "Apple\u2019s OpenAI lawsuit is about who gets to define the post-smartphone era"
+    },
     "https://www.theverge.com/policy/966588/eu-dma-ai-android-siri-ai": {
       "canonical_url": "https://www.theverge.com/policy/966588/eu-dma-ai-android-siri-ai",
       "created_at": "2026-07-16T17:58:26Z",
@@ -4393,30 +4388,6 @@
       "created_at": "2026-07-16T16:52:04Z",
       "status": "scoring_attempted",
       "title": "Google is renaming NotebookLM to Gemini Notebook"
-    },
-    "https://www.theverge.com/tech/966175/ninja-crispi-microwave-air-fryer-kitchen-appliance": {
-      "canonical_url": "https://www.theverge.com/tech/966175/ninja-crispi-microwave-air-fryer-kitchen-appliance",
-      "created_at": "2026-07-16T14:56:32Z",
-      "status": "scoring_attempted",
-      "title": "Ninja\u2019s microwave air fryer could be the fix for soggy reheated pizza"
-    },
-    "https://www.theverge.com/tech/966274/oneplus-never-had-a-chance-in-the-us": {
-      "canonical_url": "https://www.theverge.com/tech/966274/oneplus-never-had-a-chance-in-the-us",
-      "created_at": "2026-07-16T14:56:32Z",
-      "status": "scoring_attempted",
-      "title": "OnePlus never had a chance in the US"
-    },
-    "https://www.theverge.com/tech/966442/1password-anthropic-claude-browser-integration": {
-      "canonical_url": "https://www.theverge.com/tech/966442/1password-anthropic-claude-browser-integration",
-      "created_at": "2026-07-16T14:56:32Z",
-      "status": "scoring_attempted",
-      "title": "Claude can now use your 1Password credentials for you"
-    },
-    "https://www.theverge.com/tech/966492/samsung-galaxy-z-flip-8-design-specs-leaked": {
-      "canonical_url": "https://www.theverge.com/tech/966492/samsung-galaxy-z-flip-8-design-specs-leaked",
-      "created_at": "2026-07-16T14:56:32Z",
-      "status": "scoring_attempted",
-      "title": "Samsung&#8217;s Galaxy Z Flip 8 leaks a week before launch event"
     },
     "https://www.theverge.com/tech/966560/xteink-e-ink-e-reader-x4-pro-touchscreen-light-hands-on": {
       "canonical_url": "https://www.theverge.com/tech/966560/xteink-e-ink-e-reader-x4-pro-touchscreen-light-hands-on",
