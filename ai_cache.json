@@ -82,6 +82,29 @@
         "social_posts": {}
       }
     },
+    "05afcc17c0b9c484ee40c0db9374c373a068b43afb1d6b7029f1679d2d37c5dd": {
+      "created_at": "2026-07-23T21:14:35Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.0,
+            "reason": "AMD's new Helios AI rack-scale system is a significant industry move, but it's not a groundbreaking novelty.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "AMD takes on Nvidia with its Helios AI rack-scale system",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "0ab263d9b76e4e9ca3ab03540a6b97651408ed6ccdc7dddb2dbc244f0289dbdb": {
       "created_at": "2026-07-23T19:59:18Z",
       "payload": {
@@ -484,34 +507,6 @@
         "best_score": 6.0,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "4279b4afb11d658890d07f04f61f2bce320667cb3cc2d5ef19860e6b0fc90360": {
-      "created_at": "2026-07-22T20:49:07Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 3,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Geopolitical tensions in AI escalate as US threatens sanctions over model distillation claims.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Treasury threatens sanctions after White House claims Moonshot distilled Anthropic\u2019s Fable",
-            "total_score": 9
-          }
-        ],
-        "best_index": 0,
-        "best_score": 9,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "The US Treasury has threatened sanctions against Chinese AI companies after the White House accused Moonshot of distilling Anthropic's Fable model to develop Kimi K3. This escalation highlights growing geopolitical tensions in AI development. Link: https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Treasury threatens sanctions after White House claims Moonshot distilled Anthropic\u2019s Fable*\n\nUS Treasury warns of sanctions against Chinese AI firms after allegations of model distillation.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/",
-          "threads": "US threatens sanctions over claims Chinese firm distilled Anthropic's Fable model to create Kimi K3. This escalation highlights growing geopolitical tensions in AI development.\nhttps://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/",
-          "twitter": "US threatens sanctions over claims Chinese firm distilled Anthropic's Fable model to create Kimi K3.\nhttps://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/"
-        }
       }
     },
     "450413b19b7ce54344b8f6508d299d643190d53cff155d347e5ddba0672279bc": {
@@ -1155,6 +1150,29 @@
         }
       }
     },
+    "ba3137fc2b77ef3c6aaedd81c8984f2805f46e80170a3b21634804a91b273dfc": {
+      "created_at": "2026-07-23T21:14:35Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "Legislative proposal on AI safety with significant implications for developers and researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "AI Kill Switch Act would let Trump admin order shutdown of rogue AI systems",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 3,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "bf9784ff316c34ccec75b5a14474571a25740f4d2564c8cad2c1c2a3b952357e": {
       "created_at": "2026-07-23T12:56:24Z",
       "payload": {
@@ -1211,6 +1229,34 @@
         "best_score": 8.0,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "d40dfcbab29c06837e446b84f604d1fd186fca905bf9582a811348a81204b488": {
+      "created_at": "2026-07-23T21:14:35Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "New exploit targeting GitHub's AI workflows with significant security implications.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Indirect Prompt Injection Exploits GitHub's AI Agent to Leak Private Repository Data",
+            "total_score": 8
+          }
+        ],
+        "best_index": 1,
+        "best_score": 8,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Researchers at Noma Security discovered GitLost, an exploit that tricks GitHub's AI agents into leaking private repository data. By embedding hidden instructions in public issues, attackers can bypass security measures. Link: https://www.infoq.com/news/2026/07/gitlost-github-prompt-injection/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Indirect Prompt Injection Exploits GitHub's AI Agent to Leak Private Repository Data*\n\nGitLost is a prompt-injection exploit discovered by Noma Security that tricks GitHub's new Agentic Workflows into leaking private data. By embedding concealed instructions within public GitHub issues, attackers can circumvent security safeguards and induce AI agents to reveal confidential information.\n\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (B)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.0/10\n\n\ud83d\udd17 https://www.infoq.com/news/2026/07/gitlost-github-prompt-injection/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "GitLost exploit reveals a critical flaw in GitHub's AI agents, allowing attackers to leak private repo data through prompt injection. https://www.infoq.com/news/2026/07/gitlost-github-prompt-injection/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "twitter": "GitLost exploit tricks GitHub's AI agents into leaking private repo data via prompt injection. https://www.infoq.com/news/2026/07/gitlost-github-prompt-injection/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+        }
       }
     },
     "d51349e4db75cc72325ef2540b537813deb254aa16d8f2ef3bea273ba561c34c": {
@@ -1377,29 +1423,6 @@
         ],
         "best_index": 0,
         "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "f09c622324c7c7baebc5bdeeb672e759380ce9b1f903a9f294f0abab13206188": {
-      "created_at": "2026-07-22T20:49:07Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Significant data sharing issue between government agencies and Palantir, but source is tier C.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "ICE shared Medicaid data it wasn't supposed to have with Palantir",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1739,15 +1762,6 @@
         "twitter": "Google accelerates AI development with Gemini 3.6 Flash, a faster and cheaper model, @GoogleAI #AI"
       }
     },
-    "6a64d0e80a04b57d25a2fc3a42852a2886388871b7ad8051efe55741675fc4ec": {
-      "created_at": "2026-07-16T20:15:26Z",
-      "payload": {
-        "facebook": "The introduction of humanoid robots in the workforce is causing concern among human workers, with some even going on strike at Hyundai's auto factory. This move by Hyundai aims to deploy 25,000 Atlas robots starting with US factories in 2028, #AI #Automation #Robotics",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Workers Strike Over Humanoid Robots\nHuman workers at Hyundai's auto factory are on strike due to fears of being replaced by humanoid robots. The company plans to deploy 25,000 Atlas robots starting with US factories in 2028.\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #Automation #Robotics\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Human workers at Hyundai's auto factory are striking over the introduction of humanoid robots, @ArsTechnica, this could be a significant turning point in the industry's adoption of automation #AI",
-        "twitter": "Human workers at Hyundai's auto factory are on strike due to fears of being replaced by humanoid robots, @ArsTechnica reports, #AI #Automation"
-      }
-    },
     "7672525c4804e9340127845c1028587cb9ca1b086a4d51b6067afd4d917e1ff2": {
       "created_at": "2026-07-18T08:11:27Z",
       "payload": {
@@ -1993,12 +2007,6 @@
       "status": "scoring_attempted",
       "title": "Beyond grep: The case for a context-rich AI coding harness"
     },
-    "https://arstechnica.com/ai/2026/07/fear-of-humanoid-robots-spurs-human-workers-to-strike-at-hyundai-auto-factory": {
-      "canonical_url": "https://arstechnica.com/ai/2026/07/fear-of-humanoid-robots-spurs-human-workers-to-strike-at-hyundai-auto-factory",
-      "created_at": "2026-07-16T20:15:26Z",
-      "status": "scoring_attempted",
-      "title": "Fear of humanoid robots spurs human workers to strike at Hyundai auto factory"
-    },
     "https://arstechnica.com/ai/2026/07/firefighting-drones-in-the-works-as-wildfires-plague-us-nearly-year-round": {
       "canonical_url": "https://arstechnica.com/ai/2026/07/firefighting-drones-in-the-works-as-wildfires-plague-us-nearly-year-round",
       "created_at": "2026-07-20T22:41:29Z",
@@ -2052,6 +2060,12 @@
       "created_at": "2026-07-17T20:42:21Z",
       "status": "scoring_attempted",
       "title": "Google-backed satellites for wildfire detection launch as smoke chokes US, Canada"
+    },
+    "https://arstechnica.com/tech-policy/2026/07/ai-kill-switch-act-would-let-trump-admin-order-shutdown-of-rogue-ai-systems": {
+      "canonical_url": "https://arstechnica.com/tech-policy/2026/07/ai-kill-switch-act-would-let-trump-admin-order-shutdown-of-rogue-ai-systems",
+      "created_at": "2026-07-23T21:14:35Z",
+      "status": "scoring_attempted",
+      "title": "AI Kill Switch Act would let Trump admin order shutdown of rogue AI systems"
     },
     "https://arstechnica.com/tech-policy/2026/07/apple-google-must-stop-profiting-off-ai-nudify-apps-san-francisco-ag-says": {
       "canonical_url": "https://arstechnica.com/tech-policy/2026/07/apple-google-must-stop-profiting-off-ai-nudify-apps-san-francisco-ag-says",
@@ -3439,6 +3453,12 @@
       "status": "scoring_attempted",
       "title": "AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors"
     },
+    "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system": {
+      "canonical_url": "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system",
+      "created_at": "2026-07-23T21:14:35Z",
+      "status": "scoring_attempted",
+      "title": "AMD takes on Nvidia with its Helios AI rack-scale system"
+    },
     "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models": {
       "canonical_url": "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models",
       "created_at": "2026-07-23T19:59:18Z",
@@ -3816,6 +3836,12 @@
       "created_at": "2026-07-21T12:51:13Z",
       "status": "scoring_attempted",
       "title": "GitLab Brings Carbon Awareness to CI/CD to Measure the Environmental Cost of Software Delivery"
+    },
+    "https://www.infoq.com/news/2026/07/gitlost-github-prompt-injection": {
+      "canonical_url": "https://www.infoq.com/news/2026/07/gitlost-github-prompt-injection",
+      "created_at": "2026-07-23T21:14:35Z",
+      "status": "scoring_attempted",
+      "title": "Indirect Prompt Injection Exploits GitHub's AI Agent to Leak Private Repository Data"
     },
     "https://www.infoq.com/news/2026/07/google-gke-ai-security-blueprint": {
       "canonical_url": "https://www.infoq.com/news/2026/07/google-gke-ai-security-blueprint",
@@ -4200,12 +4226,6 @@
       "created_at": "2026-07-17T15:15:00Z",
       "status": "scoring_attempted",
       "title": "Bethesda teases Fallout 5 soon after Xbox\u2019s mass layoffs"
-    },
-    "https://www.theverge.com/entertainment/966726/cd-sales-vinyl-physical-media-luminate": {
-      "canonical_url": "https://www.theverge.com/entertainment/966726/cd-sales-vinyl-physical-media-luminate",
-      "created_at": "2026-07-16T20:15:26Z",
-      "status": "scoring_attempted",
-      "title": "Why are CD sales suddenly growing again?"
     },
     "https://www.theverge.com/entertainment/967485/telepathic-instruments-orchid-tame-impala-synth-review": {
       "canonical_url": "https://www.theverge.com/entertainment/967485/telepathic-instruments-orchid-tame-impala-synth-review",
