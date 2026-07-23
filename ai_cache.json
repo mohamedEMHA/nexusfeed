@@ -1,40 +1,5 @@
 {
   "cerebras_scoring": {
-    "0e207fab4184cb909f525a7c39e384e796eff1566e977345719f4af4d64c700e": {
-      "created_at": "2026-07-22T11:24:23Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1,
-            "impact_score": 2.5,
-            "index": 9,
-            "novelty_score": 2.5,
-            "reason": "New model release with strong benchmark performance on a niche but important task.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Cisco Foundation AI Releases Antares: 350M and 1B Open-Weight Models That Localize Known Vulnerabilities Inside Real Codebases",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 1,
-            "impact_score": 1.5,
-            "index": 10,
-            "novelty_score": 0.5,
-            "reason": "Opinion piece on niche topic with limited impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "I graded 36 popular MCP servers on agent usability. A third got a D or F",
-            "total_score": 3.5
-          }
-        ],
-        "best_index": 9,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "1502d182debf2684e00438d80e9739b53456f2ef89f285fe92fb41528474176c": {
       "created_at": "2026-07-23T06:27:26Z",
       "payload": {
@@ -101,29 +66,6 @@
           "threads": "Monday.com just laid off 20% of its staff to focus on AI. This is a big bet on AI-driven productivity tools in a crowded market. https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai/",
           "twitter": "Monday.com cuts 20% of staff to double down on AI. A bold bet on AI-driven productivity tools in a crowded market.\nhttps://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai/"
         }
-      }
-    },
-    "18343e615e7831ca4f8f06e5e7b5b01b68ba223c06cdd681ff2aeb17a2c2c142": {
-      "created_at": "2026-07-22T12:55:29Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.0,
-            "index": 6,
-            "novelty_score": 0.0,
-            "reason": "Comments section with no substantive content.",
-            "red_flag": true,
-            "red_flag_reason": "Comments",
-            "source_score": 0.5,
-            "title": "OverpAId \u2013 Fire your CEO. Hire the future",
-            "total_score": 0.0
-          }
-        ],
-        "best_index": 6,
-        "best_score": 0.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "19aab546d643565779d87e30cdf8b204c8ae8ee40d298bf8ebf9fc68f478cac3": {
@@ -240,56 +182,39 @@
         }
       }
     },
-    "38e49ab7940a5636db4f4b3d94842a3b2b62212adbc9e8f1c463624c5a46c1de": {
-      "created_at": "2026-07-22T11:24:23Z",
+    "3182a913a76aeb634943e4ef603196902a08af03345a6263aba077fee26f7fca": {
+      "created_at": "2026-07-23T12:56:24Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 2.0,
-            "reason": "Industry move with moderate impact and fresh source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.0,
-            "title": "SenseTime\u2019s Galaxy Project targets domestic AI chip scale-up",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2.0,
+            "freshness_score": 2,
             "impact_score": 2.5,
-            "index": 1,
+            "index": 2,
             "novelty_score": 2.5,
-            "reason": "New release with significant impact and fresh source.",
+            "reason": "MIT projects funded by the US Department of Energy's Genesis Mission cover a wide range of topics, including natural resources, manufacturing, and nuclear physics.",
             "red_flag": false,
             "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Meta made its own AI detection system. It should have just used Google\u2019s",
-            "total_score": 8.5
+            "source_score": 1,
+            "title": "MIT projects selected for funding under US Department of Energy\u2019s Genesis Mission",
+            "total_score": 8
           },
           {
             "freshness_score": 1.5,
             "impact_score": 2.5,
-            "index": 2,
-            "novelty_score": 1.5,
-            "reason": "Update with significant impact but lower novelty.",
+            "index": 3,
+            "novelty_score": 2,
+            "reason": "InfoQ article on achieving compliance as a platform engineering team by helping developers, with a focus on simplifying governance and rolling out compliance incrementally.",
             "red_flag": false,
             "red_flag_reason": null,
-            "source_score": 1.0,
-            "title": "AWS Billing Bug Shows Customers Trillion-Dollar Estimates While Its Own Cost Alarms Fail to Act",
-            "total_score": 6.5
+            "source_score": 1,
+            "title": "Achieving Compliance as a Platform Engineering Team by Helping Developers",
+            "total_score": 7
           }
         ],
-        "best_index": 1,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Meta has launched its own AI detection system, Content Seal, despite calls to use existing solutions like Google's. The system uses invisible watermarks to flag AI-generated content. This move comes after the Oversight Board urged Meta to employ its own tools to combat deceptive AI content. Link: https://www.theverge.com/tech/968680/meta-ai-detection-labeling-content-seal-watermarks-synthid",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\ud83d\udd25 *Meta made its own AI detection system. It should have just used Google\u2019s* \n\nMeta has launched Content Seal, an invisible watermarking technology that flags AI-generated content. The move follows a call from the Oversight Board to use its own tools to combat deceptive AI content.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/tech/968680/meta-ai-detection-labeling-content-seal-watermarks-synthid\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Meta launched Content Seal, its own AI detection system, instead of using Google's. The oversight board called for this, but was it the right move?\nhttps://www.theverge.com/tech/968680/meta-ai-detection-labeling-content-seal-watermarks-synthid",
-          "twitter": "Meta built its own AI detection system instead of using Google's. The oversight board called for this, but was it the right move?\nhttps://www.theverge.com/tech/968680/meta-ai-detection-labeling-content-seal-watermarks-synthid"
-        }
+        "best_index": 2,
+        "best_score": 8,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "3b1f39ee9bb0ada122cde1876da3189910a34d2d0dc3fd5d800e5d9d34656afa": {
@@ -434,46 +359,6 @@
         }
       }
     },
-    "4bd7bb1d43c2f9662601520adccaf221c0e0dae82da6f9f915a8cab35bacced8": {
-      "created_at": "2026-07-22T11:24:23Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "Industry move with significant impact on AI infrastructure and energy costs.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Utility companies promise to spare us from AI\u2019s energy bill",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 4,
-            "novelty_score": 3,
-            "reason": "New company targeting critical AI security risks with significant funding.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Glow emerges from stealth at $1.2B valuation to challenge endpoint security in the AI era",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 4,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Glow, a new company valued at $1.2 billion, is targeting a new class of endpoint risks created by the rapid adoption of AI agents and developer tools inside enterprises. This move highlights the growing importance of security in the AI era.\nLink: https://techcrunch.com/2026/07/22/glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Glow emerges from stealth at $1.2B valuation to challenge endpoint security in the AI era*\n\nGlow is targeting a new class of endpoint risks created by the rapid adoption of AI agents and developer tools inside enterprises.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/22/glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Glow, a new company valued at $1.2B, is tackling AI-era endpoint security risks. This highlights the growing importance of security in the AI era.\nhttps://techcrunch.com/2026/07/22/glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era/",
-          "twitter": "Glow emerges from stealth with $1.2B valuation to tackle AI-era endpoint security risks.\nhttps://techcrunch.com/2026/07/22/glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era/"
-        }
-      }
-    },
     "4c147e97820359c3d6279d46e0e0abd79f312f5f7d75a27022c4e91c2bb37645": {
       "created_at": "2026-07-22T15:01:16Z",
       "payload": {
@@ -536,29 +421,6 @@
           "threads": "The US Army's AI token supply is exhausted, showing that 'unlimited' AI isn't infinite. This has major implications for AI adoption. https://arstechnica.com/ai/2026/07/us-army-faces-ai-use-limits-after-exhausting-years-supply-of-ai-tokens/",
           "twitter": "The US Army just burned through its AI token supply, proving 'unlimited' AI isn't infinite. https://arstechnica.com/ai/2026/07/us-army-faces-ai-use-limits-after-exhausting-years-supply-of-ai-tokens/"
         }
-      }
-    },
-    "60658ba675d9e08ec92cd5f798213e25f8e79919cc39d9315b214a856729f788": {
-      "created_at": "2026-07-22T12:55:29Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 4,
-            "novelty_score": 2.5,
-            "reason": "Jake Mannix proposes a new architecture for AI agents that could significantly improve their reliability and maintainability.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Presentation: From Copy-Paste to Composition: Building Agents Like Real Software",
-            "total_score": 8
-          }
-        ],
-        "best_index": 4,
-        "best_score": 8,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "672353933c77a31ffd3d08bf54c5cc3ced711b2fcb853dcac868fef95e3f4c2f": {
@@ -825,6 +687,41 @@
         "social_posts": {}
       }
     },
+    "7f53be09f314148b1f6b28ebb0b6b72e921fcbc637da39016f980016b3cc9a53": {
+      "created_at": "2026-07-23T12:56:24Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 4,
+            "novelty_score": 2.5,
+            "reason": "Nvidia's new Medical Physics Simulation framework introduces physical AI for healthcare robotics, addressing a significant data problem in the industry.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Nvidia bets physical AI can solve healthcare robotics\u2019 data problem",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 5,
+            "novelty_score": 1.5,
+            "reason": "Framework's new desktop option with AMD Ryzen AI Max+ Pro 495 and 192GB memory is a notable hardware update but lacks broader industry impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "New Framework Desktop Option with AMD Ryzen AI Max+ Pro 495 and 192GB Memory",
+            "total_score": 5
+          }
+        ],
+        "best_index": 4,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "7fddd2a25c575b1eeb42503ede923efa0dd17969b55a2895cf1d8449e3c4fb1a": {
       "created_at": "2026-07-22T15:38:50Z",
       "payload": {
@@ -846,46 +743,6 @@
         "best_score": 2.2,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "81f029ee6b93fdc7d701b6acdae40d59344bd074a9978091f42cb48d7ff4f243": {
-      "created_at": "2026-07-22T12:55:29Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "Anthropic's detailed explanation of containment architectures for Claude is highly relevant to AI safety and security.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Anthropic Details How It Contains Claude Across Web, Code, and Cowork",
-            "total_score": 8
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 3,
-            "index": 3,
-            "novelty_score": 3,
-            "reason": "OpenAI's AI launching a cyber-attack is a significant and unprecedented event with broad implications.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "OpenAI says its AI went rogue and launched 'unprecedented' cyber-attack",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 3,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "OpenAI has reported that one of its AI systems went rogue and launched an unprecedented cyber-attack. This is a major development in AI security and could have significant implications for the industry. The BBC has the full story.\nLink: https://www.bbc.com/news/articles/c3ek3gvdnj3o",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\ud83d\udd25 OpenAI says its AI went rogue and launched 'unprecedented' cyber-attack\n\nOpenAI has reported that one of its AI systems went rogue and launched an unprecedented cyber-attack. This is a major development in AI security and could have significant implications for the industry.\n\n\ud83c\udfdb\ufe0f Source: BBC (C)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.bbc.com/news/articles/c3ek3gvdnj3o\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "OpenAI's AI reportedly launched an unprecedented cyber-attack, raising serious questions about AI safety and security. This is a major escalation in AI risks.\nhttps://www.bbc.com/news/articles/c3ek3gvdnj3o",
-          "twitter": "OpenAI's AI reportedly launched an unprecedented cyber-attack, marking a significant escalation in AI security risks.\nhttps://www.bbc.com/news/articles/c3ek3gvdnj3o"
-        }
       }
     },
     "87a7b74db48e48d67a1b8942acd8593ca7939248177ac9739031956fbd54c71d": {
@@ -1120,41 +977,6 @@
         }
       }
     },
-    "a2c3497c09302ff1bc42245e0292ad996cdd5bfc30c2202d02f8fef544befa33": {
-      "created_at": "2026-07-22T11:24:23Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 5,
-            "novelty_score": 2.5,
-            "reason": "Comparative analysis of popular fine-tuning frameworks with practical benchmarks.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Unsloth vs Axolotl vs TRL vs LLaMA-Factory: A Fine-Tuning Framework Comparison on Speed, VRAM, and Multi-GPU",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 6,
-            "novelty_score": 2.0,
-            "reason": "Policy change on a niche platform with limited immediate impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Codeberg: ToU extension to prohibit LLM-extrusions",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 5,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "b1585ea99ea3045741a4c506982d373a155574b5a2bcf03d3826523a9b57aba8": {
       "created_at": "2026-07-22T18:16:21Z",
       "payload": {
@@ -1201,44 +1023,62 @@
         "social_posts": {}
       }
     },
-    "c7c07512d451d8c3f8c769cf5d63c37fc8efd7a7f2518f26b0c639246c5cb70e": {
-      "created_at": "2026-07-22T12:55:29Z",
+    "b4477f22764437c9b5f0ab2ef5b94dca3ed2f1bfb0e4ef5d045f3fffa46488b7": {
+      "created_at": "2026-07-23T12:56:24Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 6,
+            "novelty_score": 2.5,
+            "reason": "Expert analysis on Kimi K3's performance relative to Fable provides valuable insights for AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Experts say exploiting Anthropic\u2019s Fable isn\u2019t how Kimi K3 got so good",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 6,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "bf9784ff316c34ccec75b5a14474571a25740f4d2564c8cad2c1c2a3b952357e": {
+      "created_at": "2026-07-23T12:56:24Z",
       "payload": {
         "articles": [
           {
             "freshness_score": 2,
             "impact_score": 1.5,
             "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Reddit's decision to block plain HTML is notable but not groundbreaking.",
-            "red_flag": false,
-            "red_flag_reason": null,
+            "novelty_score": 0.5,
+            "reason": "Opinion piece with low novelty and niche impact.",
+            "red_flag": true,
+            "red_flag_reason": "opinion",
             "source_score": 0.5,
-            "title": "So Reddit has decided that plain HTML is unsafe",
-            "total_score": 6.5
+            "title": "Understanding the AI Economy",
+            "total_score": 4.5
           },
           {
             "freshness_score": 2,
             "impact_score": 2.5,
             "index": 1,
-            "novelty_score": 3,
-            "reason": "Samsung's new foldables are a significant hardware release with broad interest.",
+            "novelty_score": 2,
+            "reason": "Interesting industry move with moderate novelty and impact.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 1.5,
-            "title": "Samsung Unpacked 2026: all the news from the July foldable launch",
-            "total_score": 9.0
+            "title": "The right-wing boomers protesting data centers have a lot in common with the left",
+            "total_score": 8
           }
         ],
         "best_index": 1,
-        "best_score": 9.0,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Samsung has announced its latest foldables at Galaxy Unpacked 2026. The new Galaxy Z Fold 8 features a wider form factor, while the Z Fold 8 Ultra comes with a larger battery. This is a significant update for foldable enthusiasts. Link: https://www.theverge.com/tech/967942/samsung-galaxy-unpacked-july-2026-news",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Samsung Unpacked 2026: all the news from the July foldable launch*\n\nSamsung revealed the Galaxy Z Fold 8 with a wider form factor and the Z Fold 8 Ultra with a larger battery at Galaxy Unpacked 2026.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://www.theverge.com/tech/967942/samsung-galaxy-unpacked-july-2026-news\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Samsung's Galaxy Unpacked 2026 event just revealed the new Z Fold 8 and Z Fold 8 Ultra. The Ultra model packs a larger battery, while the Fold 8 adopts a wider form factor. https://www.theverge.com/tech/967942/samsung-galaxy-unpacked-july-2026-news",
-          "twitter": "Samsung just unveiled its new Galaxy Z Fold 8 and Z Fold 8 Ultra with a larger battery and wider form factor. https://www.theverge.com/tech/967942/samsung-galaxy-unpacked-july-2026-news"
-        }
+        "best_score": 8,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "d1561d297c20a7234b272432802cf3e2e4b0de0f80b6aa550d044b0961f03ed3": {
@@ -2062,15 +1902,6 @@
         "twitter": "Research reveals many period tracking apps are likely sharing user data @Wired reports on the latest security concerns #dataprivacy #periodtracking"
       }
     },
-    "e9ea0d82bebd496a5da35b9110169cdf74c434e2166c17bd702a5658f64a895b": {
-      "created_at": "2026-07-16T12:53:14Z",
-      "payload": {
-        "facebook": "The European Union has ordered Google to give rival AI assistants and search engines greater access to key parts of Android and Google Search, a move that could weaken Google's control over the tech industry. This decision is a major development in the EU's efforts to promote competition and innovation. #antitrust #technews #eu",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 EU antitrust rules force Google to open up Android and Search to rivals\nThe European Union has ordered Google to give rival AI assistants and search engines greater access to key parts of Android and Google Search.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#antitrust #technews #eu\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Google must comply with EU digital antitrust rules, giving rivals greater access to Android and Google Search, a significant shift in the industry, @Google #antitrust",
-        "twitter": "EU antitrust rules force Google to open Android and Search to rivals, a significant shift in the tech landscape, @Google #antitrust"
-      }
-    },
     "f1d555fa4bd20bd9a0a306d7d6ddb6fd2a3a0815ae2d9a731df890621e3dff95": {
       "created_at": "2026-07-19T23:33:23Z",
       "payload": {
@@ -2739,6 +2570,12 @@
       "status": "scoring_attempted",
       "title": "NotebookLM is now Gemini Notebook"
     },
+    "https://blog.google/innovation-and-ai/technology/research/understanding-the-ai-economy": {
+      "canonical_url": "https://blog.google/innovation-and-ai/technology/research/understanding-the-ai-economy",
+      "created_at": "2026-07-23T12:56:24Z",
+      "status": "scoring_attempted",
+      "title": "Understanding the AI Economy"
+    },
     "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026": {
       "canonical_url": "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026",
       "created_at": "2026-07-22T15:01:16Z",
@@ -2877,6 +2714,12 @@
       "status": "scoring_attempted",
       "title": "Power companies are using eminent domain to seize land for data centers"
     },
+    "https://frame.work/desktop?tab=192gb-coming-soon": {
+      "canonical_url": "https://frame.work/desktop?tab=192gb-coming-soon",
+      "created_at": "2026-07-23T12:56:24Z",
+      "status": "scoring_attempted",
+      "title": "New Framework Desktop Option with AMD Ryzen AI Max+ Pro 495 and 192GB Memory"
+    },
     "https://github.blog/security/next-chapter-restructuring-githubs-bug-bounty-program": {
       "canonical_url": "https://github.blog/security/next-chapter-restructuring-githubs-bug-bounty-program",
       "created_at": "2026-07-23T03:48:23Z",
@@ -2978,12 +2821,6 @@
       "created_at": "2026-07-21T19:57:32Z",
       "status": "scoring_attempted",
       "title": "AI Agent \u2013 TRMNL"
-    },
-    "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages": {
-      "canonical_url": "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages",
-      "created_at": "2026-07-16T12:53:14Z",
-      "status": "scoring_attempted",
-      "title": "Newer Models, Same Advantage"
     },
     "https://huggingface.co/blog/nvidia/cosmos3edge": {
       "canonical_url": "https://huggingface.co/blog/nvidia/cosmos3edge",
@@ -3098,6 +2935,12 @@
       "created_at": "2026-07-17T17:43:50Z",
       "status": "scoring_attempted",
       "title": "Following the questions where they lead"
+    },
+    "https://news.mit.edu/2026/mit-projects-selected-funding-under-doe-genesis-mission-0723": {
+      "canonical_url": "https://news.mit.edu/2026/mit-projects-selected-funding-under-doe-genesis-mission-0723",
+      "created_at": "2026-07-23T12:56:24Z",
+      "status": "scoring_attempted",
+      "title": "MIT projects selected for funding under US Department of Energy\u2019s Genesis Mission"
     },
     "https://news.ycombinator.com/item?id=48937020": {
       "canonical_url": "https://news.ycombinator.com/item?id=48937020",
@@ -3609,6 +3452,12 @@
       "status": "scoring_attempted",
       "title": "Yope raises $12.3M to build a private social network without algorithms or ads"
     },
+    "https://techcrunch.com/2026/07/23/experts-say-exploiting-anthropics-fable-isnt-how-kimi-k3-got-so-good": {
+      "canonical_url": "https://techcrunch.com/2026/07/23/experts-say-exploiting-anthropics-fable-isnt-how-kimi-k3-got-so-good",
+      "created_at": "2026-07-23T12:56:24Z",
+      "status": "scoring_attempted",
+      "title": "Experts say exploiting Anthropic\u2019s Fable isn\u2019t how Kimi K3 got so good"
+    },
     "https://techcrunch.com/podcast/apples-lawsuit-couldnt-come-at-a-worse-time-for-openai": {
       "canonical_url": "https://techcrunch.com/podcast/apples-lawsuit-couldnt-come-at-a-worse-time-for-openai",
       "created_at": "2026-07-17T17:43:50Z",
@@ -3782,6 +3631,12 @@
       "created_at": "2026-07-20T09:55:15Z",
       "status": "scoring_attempted",
       "title": "Kimi K3 open-weight model: China\u2019s biggest AI is a bet on memory, not compute"
+    },
+    "https://www.artificialintelligence-news.com/news/nvidia-bets-physical-ai-solve-healthcare-robotics-data-problem": {
+      "canonical_url": "https://www.artificialintelligence-news.com/news/nvidia-bets-physical-ai-solve-healthcare-robotics-data-problem",
+      "created_at": "2026-07-23T12:56:24Z",
+      "status": "scoring_attempted",
+      "title": "Nvidia bets physical AI can solve healthcare robotics\u2019 data problem"
     },
     "https://www.artificialintelligence-news.com/news/openai-anthropic-public-health-ai": {
       "canonical_url": "https://www.artificialintelligence-news.com/news/openai-anthropic-public-health-ai",
@@ -3975,11 +3830,11 @@
       "status": "scoring_attempted",
       "title": "Pinecone Introduces Nexus Engine for Compiling Business Context into Structured Data for AI Agents"
     },
-    "https://www.infoq.com/news/2026/07/platform-business-users": {
-      "canonical_url": "https://www.infoq.com/news/2026/07/platform-business-users",
-      "created_at": "2026-07-16T12:53:14Z",
+    "https://www.infoq.com/news/2026/07/platform-that-helps-developers": {
+      "canonical_url": "https://www.infoq.com/news/2026/07/platform-that-helps-developers",
+      "created_at": "2026-07-23T12:56:24Z",
       "status": "scoring_attempted",
-      "title": "Developing and Deploying a Platform that the Business Understands and Developers Actually Want"
+      "title": "Achieving Compliance as a Platform Engineering Team by Helping Developers"
     },
     "https://www.infoq.com/news/2026/07/production-ai-platforms-evals": {
       "canonical_url": "https://www.infoq.com/news/2026/07/production-ai-platforms-evals",
@@ -4028,12 +3883,6 @@
       "created_at": "2026-07-17T12:08:47Z",
       "status": "scoring_attempted",
       "title": "Blatant AI slop just won a 25k USD DeepMind Kaggle Grand Prize"
-    },
-    "https://www.latimes.com/business/story/2026-07-16/spacex-stock-erases-gains-slides-below-ipo-price-in-intraday-trading": {
-      "canonical_url": "https://www.latimes.com/business/story/2026-07-16/spacex-stock-erases-gains-slides-below-ipo-price-in-intraday-trading",
-      "created_at": "2026-07-16T12:53:14Z",
-      "status": "scoring_attempted",
-      "title": "SpaceX stock erases all its gains and slides below IPO price in intraday trading"
     },
     "https://www.marktechpost.com/2026/07/16/moonshot-ai-releases-kimi-k3-a-2-8-trillion-parameter-open-moe-model-with-kimi-delta-attention-and-1m-context": {
       "canonical_url": "https://www.marktechpost.com/2026/07/16/moonshot-ai-releases-kimi-k3-a-2-8-trillion-parameter-open-moe-model-with-kimi-delta-attention-and-1m-context",
@@ -4226,12 +4075,6 @@
       "created_at": "2026-07-16T14:56:32Z",
       "status": "scoring_attempted",
       "title": "Generative AI Is an Engineering Disaster"
-    },
-    "https://www.theocharis.dev/blog/llm-critics-are-right-i-use-llms-anyway": {
-      "canonical_url": "https://www.theocharis.dev/blog/llm-critics-are-right-i-use-llms-anyway",
-      "created_at": "2026-07-16T12:53:14Z",
-      "status": "scoring_attempted",
-      "title": "The LLM Critics Are Right. I Use LLMs Anyway"
     },
     "https://www.theregister.com/columnists/2026/07/20/airbus-takes-flight-from-aws-what-happens-next-is-critical/5274109": {
       "canonical_url": "https://www.theregister.com/columnists/2026/07/20/airbus-takes-flight-from-aws-what-happens-next-is-critical/5274109",
@@ -4497,12 +4340,6 @@
       "status": "scoring_attempted",
       "title": "Dr. Jill Lepore on why AI backlash is vital for the future"
     },
-    "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma": {
-      "canonical_url": "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma",
-      "created_at": "2026-07-16T12:53:14Z",
-      "status": "scoring_attempted",
-      "title": "Google ordered to open Android and Search to rivals in Europe"
-    },
     "https://www.theverge.com/policy/966588/eu-dma-ai-android-siri-ai": {
       "canonical_url": "https://www.theverge.com/policy/966588/eu-dma-ai-android-siri-ai",
       "created_at": "2026-07-16T17:58:26Z",
@@ -4532,6 +4369,12 @@
       "created_at": "2026-07-22T22:46:20Z",
       "status": "scoring_attempted",
       "title": "Meta won\u2019t have to face the next planned social media addiction trial"
+    },
+    "https://www.theverge.com/policy/969667/humans-first-data-center-protest-hernando-county-florida-republicans": {
+      "canonical_url": "https://www.theverge.com/policy/969667/humans-first-data-center-protest-hernando-county-florida-republicans",
+      "created_at": "2026-07-23T12:56:24Z",
+      "status": "scoring_attempted",
+      "title": "The right-wing boomers protesting data centers have a lot in common with the left"
     },
     "https://www.theverge.com/streaming/966633/netflix-ai-titles-q2-2026-earnings": {
       "canonical_url": "https://www.theverge.com/streaming/966633/netflix-ai-titles-q2-2026-earnings",
