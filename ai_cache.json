@@ -168,53 +168,6 @@
         }
       }
     },
-    "0bb7d2a3a902108cdd3f4b7becb760e7aee46a8a2cd1cc4ffdb338416059bc76": {
-      "created_at": "2026-07-23T15:07:34Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 0.5,
-            "index": 3,
-            "novelty_score": 0.5,
-            "reason": "Opinion piece on writing by hand lacks technical relevance for software engineers.",
-            "red_flag": true,
-            "red_flag_reason": "opinion",
-            "source_score": 0.5,
-            "title": "Writing by Hand is Good for your Brain",
-            "total_score": 3.5
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 4,
-            "novelty_score": 0.2,
-            "reason": "Tutorial-style article on software rendering lacks novelty and impact for AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Software rendering in 500 lines of bare C++",
-            "total_score": 4.2
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 5,
-            "novelty_score": 2.5,
-            "reason": "Expedia's AI-driven observability platform STAR offers a novel approach to incident investigation with significant impact for software engineers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.0,
-            "title": "Expedia Uses AI Driven Service Telemetry Analyzer to Accelerate Incident Investigation",
-            "total_score": 8.0
-          }
-        ],
-        "best_index": 5,
-        "best_score": 8.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "15d83bc9631592ef8fbd4a9c2d5e18776f3f9d2aef8530a7f6b3b0e2a68ea7f6": {
       "created_at": "2026-07-23T19:59:18Z",
       "payload": {
@@ -704,6 +657,46 @@
         "social_posts": {}
       }
     },
+    "53d74a25c775c0bfa1130e1399b3dc649b5dc3e2521d521c42e00b869c2421af": {
+      "created_at": "2026-07-24T15:26:36Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 4,
+            "novelty_score": 2.5,
+            "reason": "Major government initiative with significant funding and potential impact on AI-driven science projects.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "The tech-broification of American science has officially begun",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 5,
+            "novelty_score": 2,
+            "reason": "Government action on a specific app, but limited impact and lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Government orders GitHub to remove Bluetooth-based chat app Bitchat: Jack Dorsey",
+            "total_score": 6
+          }
+        ],
+        "best_index": 4,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "The Trump administration has unveiled the \"Genesis Mission,\" a $5 billion initiative funding AI-driven science projects. This effort is described as comparable in urgency and ambition to the Manhattan Project. Link: https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\ud83d\udd25 *The tech-broification of American science has officially begun*\n\nThe Trump administration unveiled the first \"Genesis Mission\" grants, directing $5 billion toward hundreds of AI-driven science projects. This effort is described as comparable in urgency and ambition to the Manhattan Project.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "The Trump administration just launched the \"Genesis Mission,\" a $5 billion AI-driven science initiative. This is a major move with significant funding and potential impact. https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants",
+          "twitter": "The Trump administration just launched the \"Genesis Mission,\" a $5 billion AI-driven science initiative. https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants"
+        }
+      }
+    },
     "57df0c218b63c4089057981be52155523c266fe9a57d9cd8b571b1348a763cbd": {
       "created_at": "2026-07-24T12:47:34Z",
       "payload": {
@@ -860,41 +853,6 @@
           "threads": "FCC Chairman Brendan Carr is using his authority to target broadcasters making jokes about Trump, raising serious First Amendment questions. https://www.theverge.com/policy/970284/brendan-carr-fcc-chairman-first-amendment",
           "twitter": "FCC Chairman Brendan Carr is using his power to threaten broadcasters over jokes about Trump, raising First Amendment concerns. https://www.theverge.com/policy/970284/brendan-carr-fcc-chairman-first-amendment"
         }
-      }
-    },
-    "835b1b7c731c6aa0b6413134e0d0404008b4ac353385ebe0517abf992ee2367e": {
-      "created_at": "2026-07-23T15:07:34Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 9,
-            "novelty_score": 2.0,
-            "reason": "Industry move with moderate impact, fresh, but from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "AI Companies Are Trying to Hide a Staggering Amount of Debt",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.0,
-            "index": 10,
-            "novelty_score": 0.5,
-            "reason": "Opinion piece on AI in sci-fi with limited impact and novelty.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "The sci-fi movie that imagines AI isn\u2019t so dystopian after all",
-            "total_score": 4.5
-          }
-        ],
-        "best_index": 9,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "852cd28957dbc6bf6aae48fb4655d9251c4d52a92e9f4fd23ea8fb1658065ab2": {
@@ -1225,58 +1183,6 @@
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "b6110ab520375ebba8abac119d939542543c319e2681ee0e48f12d58502010f0": {
-      "created_at": "2026-07-23T15:07:34Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Etched's new AI chips and memory components could disrupt the GPU-dominated AI inference market.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 1,
-            "novelty_score": 2,
-            "reason": "Nvidia's lunar GPU deployment is novel but has limited immediate impact on software engineers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Nvidia is sending GPUs to the Moon",
-            "total_score": 7
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "OpenAI's hacking incident raises critical questions about AI safety and training practices.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "AI arms race in line for a reckoning after OpenAI hacking incident",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Etched, founded by Harvard dropouts, has developed AI chips and memory components that could eliminate the need for GPUs in inference tasks. The startup just hit a $10.3B valuation from major investors. This could be a major shift in AI hardware.\nLink: https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors*\n\nEtched, founded by Harvard dropouts, has developed AI chips and memory components that could replace GPUs in inference tasks.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Etched, a startup founded by Harvard dropouts, just raised $10.3B for AI chips that could replace GPUs in inference tasks. This is a big deal for AI hardware.\nhttps://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/",
-          "twitter": "Etched, a Harvard dropout-founded startup, just raised $10.3B for AI chips that could replace GPUs in inference tasks.\nhttps://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/"
-        }
       }
     },
     "ba3137fc2b77ef3c6aaedd81c8984f2805f46e80170a3b21634804a91b273dfc": {
@@ -1677,6 +1583,46 @@
         "social_posts": {}
       }
     },
+    "e5103886a8735456bb09e9462e5415dc0fa52a237189067b28ab67cb478b7518": {
+      "created_at": "2026-07-24T15:26:36Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Bluesky's AI assistant Attie expanding into an open social research tool is a notable industry move with significant impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Bluesky\u2019s AI assistant Attie expands into an open social research tool",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 1,
+            "novelty_score": 2,
+            "reason": "Midjourney's acquisition of Co-Star is an interesting industry move but has a narrower impact compared to the other article.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Midjourney acquired the astrology app Co-Star",
+            "total_score": 7
+          }
+        ],
+        "best_index": 0,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Bluesky\u2019s AI assistant Attie has expanded into an open social research tool, allowing users to query news, trends, and conversations across Bluesky and other AT Protocol apps. This move could make Attie a more powerful tool for researchers and analysts.\nLink: https://techcrunch.com/2026/07/24/blueskys-ai-assistant-attie-expands-into-an-open-social-research-tool/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Bluesky\u2019s AI assistant Attie expands into an open social research tool*\n\nUsers can now ask Attie questions about news, trends, and conversations on Bluesky and other apps on the AT Protocol.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/24/blueskys-ai-assistant-attie-expands-into-an-open-social-research-tool/",
+          "threads": "Bluesky\u2019s AI assistant Attie is now an open social research tool, analyzing trends across Bluesky and AT Protocol apps. This could make it a powerful tool for researchers and analysts.\nhttps://techcrunch.com/2026/07/24/blueskys-ai-assistant-attie-expands-into-an-open-social-research-tool/",
+          "twitter": "Bluesky\u2019s AI assistant Attie is now an open social research tool, analyzing trends across Bluesky and AT Protocol apps.\nhttps://techcrunch.com/2026/07/24/blueskys-ai-assistant-attie-expands-into-an-open-social-research-tool/"
+        }
+      }
+    },
     "e5f87e61db91a284a1472d0e8f3d50152e4be6f70a454b1443402eb9ece1a8a6": {
       "created_at": "2026-07-24T08:20:47Z",
       "payload": {
@@ -1700,55 +1646,43 @@
         "social_posts": {}
       }
     },
-    "e7569a2f89f77b98931113d213b7886d4c40a7172b31f5d4c0b376c883fc31ed": {
-      "created_at": "2026-07-23T15:07:34Z",
+    "ef82b8cbf7aa5992c52655e5105cf844011f6bc9bc95e13eb4840ca25df1255c": {
+      "created_at": "2026-07-24T15:26:36Z",
       "payload": {
         "articles": [
           {
             "freshness_score": 2,
             "impact_score": 2.5,
-            "index": 6,
+            "index": 2,
             "novelty_score": 2.5,
-            "reason": "Potential regulatory impact on AI development and deployment.",
+            "reason": "Industry division over Chinese AI presents a significant development with broad implications.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 1.5,
-            "title": "Lawmakers prepare bill requiring AI 'kill switch'",
+            "title": "Silicon Valley Is Completely Divided Over Chinese AI",
             "total_score": 8.5
           },
           {
-            "freshness_score": 1.5,
-            "impact_score": 2,
-            "index": 7,
-            "novelty_score": 1.5,
-            "reason": "Interesting analysis but not as impactful as regulatory news.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Apple\u2019s OpenAI lawsuit is about who gets to define the post-smartphone era",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2,
-            "index": 8,
-            "novelty_score": 2,
-            "reason": "Financial impact of AI spending but not as directly relevant to engineers.",
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "OpenAI integrating health records into ChatGPT is a major privacy and functionality milestone.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 1,
-            "title": "Alphabet's cash burn raises alarm for Big Tech as AI spending climbs",
-            "total_score": 6.5
+            "title": "OpenAI pushes ChatGPT into patient health records",
+            "total_score": 8
           }
         ],
-        "best_index": 6,
+        "best_index": 2,
         "best_score": 8.5,
         "recommendation": "POST_NOW",
         "social_posts": {
-          "facebook": "Lawmakers are preparing to introduce an \"AI Kill Switch Act\" that would require AI companies to shut down or throttle their systems on orders from the Department of Homeland Security. This could have significant implications for AI development and deployment. Link: https://www.theverge.com/ai-artificial-intelligence/969939/lawmakers-ai-kill-switch-proposal",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\ud83d\udd25 *Lawmakers prepare bill requiring AI 'kill switch'*\n\nLawmakers are preparing to introduce an \"AI Kill Switch Act\" that would require AI companies to shut down or throttle their systems on orders from the Department of Homeland Security.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/ai-artificial-intelligence/969939/lawmakers-ai-kill-switch-proposal\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Lawmakers propose an AI 'kill switch' bill that could force shutdowns on DHS orders. This could have significant implications for AI development and deployment. https://www.theverge.com/ai-artificial-intelligence/969939/lawmakers-ai-kill-switch-proposal",
-          "twitter": "Lawmakers propose an AI 'kill switch' bill that could force shutdowns on DHS orders. https://www.theverge.com/ai-artificial-intelligence/969939/lawmakers-ai-kill-switch-proposal"
+          "facebook": "A deep divide has emerged in Silicon Valley over Chinese AI. While billion-dollar startups raise alarm bells, smaller players see things differently. The debate highlights the complex geopolitical and technological tensions shaping the future of AI. Link: https://www.wired.com/story/silicon-valley-is-completely-divided-over-chinese-ai/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Silicon Valley Is Completely Divided Over Chinese AI*\n\nSilicon Valley's billion-dollar AI startups are sounding the alarm on Chinese AI, while smaller players disagree sharply. The debate highlights the complex geopolitical and technological tensions shaping the future of AI.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.wired.com/story/silicon-valley-is-completely-divided-over-chinese-ai/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Silicon Valley's billion-dollar AI startups are sounding the alarm on Chinese AI, while smaller players disagree sharply. The debate highlights the complex geopolitical and technological tensions shaping the future of AI. https://www.wired.com/story/silicon-valley-is-completely-divided-over-chinese-ai/",
+          "twitter": "Silicon Valley's billion-dollar AI startups are sounding the alarm on Chinese AI, while smaller players disagree sharply. https://www.wired.com/story/silicon-valley-is-completely-divided-over-chinese-ai/"
         }
       }
     },
@@ -1796,6 +1730,41 @@
         ],
         "best_index": 7,
         "best_score": 5.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "ffd76d05de7d9be2b02a1abccb1eaaef724e3e1785165cc9ad3a094d8bbe9805": {
+      "created_at": "2026-07-24T15:26:36Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 7,
+            "novelty_score": 0.5,
+            "reason": "Opinion piece from a niche source with limited impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Interview with a Maintainer",
+            "total_score": 3.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 10,
+            "novelty_score": 2.5,
+            "reason": "Interesting technical achievement but limited impact outside a niche audience.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Half-Life 2 running natively on HaikuOS",
+            "total_score": 6.0
+          }
+        ],
+        "best_index": 10,
+        "best_score": 6.0,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -2061,6 +2030,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Google Cloud's Always-On Memory Agent replaces traditional RAG and embeddings with continuous LLM consolidation on Gemini 3.1 Flash-Lite.\nThe Always-On Memory Agent is a reference implementation that treats memory as a running process, built on Google ADK and Gemini 3.1 Flash-Lite.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#LLM #GoogleCloud #AI\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Google Cloud's Always-On Memory Agent is a new reference implementation that treats memory as a running process, using an orchestrator to route to Ingest, Consolidate, and Query @GoogleCloud #LLM",
         "twitter": "Google Cloud introduces Always-On Memory Agent, a novel approach to memory management using continuous LLM consolidation @GoogleCloud #LLM"
+      }
+    },
+    "83f93924f111b3d48108157b68f1e7a3d33873e7efae22c18fc84c006df5a0c8": {
+      "created_at": "2026-07-24T15:26:36Z",
+      "payload": {
+        "facebook": "The expansion of Bluesky's AI assistant Attie into an open social research tool marks a significant development in the field of AI-powered social research. This move enables users to ask Attie questions about news, trends, and conversations on Bluesky and other apps on the AT Protocol. #AIresearch #SocialMedia #Bluesky",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Bluesky's AI assistant Attie expands into social research\nAttie now offers insights on news and trends across the AT Protocol.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AIassistance #Bluesky #SocialMedia\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Bluesky's AI assistant Attie is now a social research tool, providing insights on news and trends, @TechCrunch #AIassistance",
+        "twitter": "Bluesky's AI assistant Attie now offers insights on news and trends across the AT Protocol, @TechCrunch reports, #AIassistance #Bluesky"
       }
     },
     "8b8a2230507c7fe8094df88a327e705edac758a3dd7eba406b8732271c6bf3ab": {
@@ -2989,12 +2967,6 @@
       "status": "scoring_attempted",
       "title": "Firefox Containers Preview"
     },
-    "https://blog.zksecurity.xyz/posts/openvm-bugs": {
-      "canonical_url": "https://blog.zksecurity.xyz/posts/openvm-bugs",
-      "created_at": "2026-07-17T15:15:00Z",
-      "status": "scoring_attempted",
-      "title": "AI Meets Cryptography 2: What AI Found in OpenVM's ZkVM"
-    },
     "https://blogs.microsoft.com/blog/2026/07/20/microsoft-expands-azure-ai-and-hpc-infrastructure-with-amd": {
       "canonical_url": "https://blogs.microsoft.com/blog/2026/07/20/microsoft-expands-azure-ai-and-hpc-infrastructure-with-amd",
       "created_at": "2026-07-20T19:08:17Z",
@@ -3067,6 +3039,12 @@
       "status": "scoring_attempted",
       "title": "Our Approach to Bioresilience: Isomorphic Labs and Google DeepMind"
     },
+    "https://discuss.haiku-os.org/t/haiku-nvidia-porting-nvidia-driver-for-turing-gpus/16520?page=18": {
+      "canonical_url": "https://discuss.haiku-os.org/t/haiku-nvidia-porting-nvidia-driver-for-turing-gpus/16520?page=18",
+      "created_at": "2026-07-24T15:26:36Z",
+      "status": "scoring_attempted",
+      "title": "Half-Life 2 running natively on HaikuOS"
+    },
     "https://dl.acm.org/doi/10.1145/3800646.3800650": {
       "canonical_url": "https://dl.acm.org/doi/10.1145/3800646.3800650",
       "created_at": "2026-07-20T19:08:17Z",
@@ -3132,12 +3110,6 @@
       "created_at": "2026-07-21T18:21:46Z",
       "status": "scoring_attempted",
       "title": "Show HN: OSS Cross-Harness self hosted registry and analytics for AI Agents"
-    },
-    "https://github.com/PennyLaneAI/pennylane": {
-      "canonical_url": "https://github.com/PennyLaneAI/pennylane",
-      "created_at": "2026-07-17T15:15:00Z",
-      "status": "scoring_attempted",
-      "title": "PennyLane is an open-source quantum software platform for quantum"
     },
     "https://github.com/gruns/icecream": {
       "canonical_url": "https://github.com/gruns/icecream",
@@ -3336,6 +3308,12 @@
       "created_at": "2026-07-23T15:07:34Z",
       "status": "scoring_attempted",
       "title": "Writing by Hand is Good for your Brain"
+    },
+    "https://nesbitt.io/2026/07/24/interview-with-a-maintainer.html": {
+      "canonical_url": "https://nesbitt.io/2026/07/24/interview-with-a-maintainer.html",
+      "created_at": "2026-07-24T15:26:36Z",
+      "status": "scoring_attempted",
+      "title": "Interview with a Maintainer"
     },
     "https://news.mit.edu/2026/dimitri-bertsekas-influential-computer-scientist-prolific-author-dies-0722": {
       "canonical_url": "https://news.mit.edu/2026/dimitri-bertsekas-influential-computer-scientist-prolific-author-dies-0722",
@@ -3558,12 +3536,6 @@
       "created_at": "2026-07-17T18:43:10Z",
       "status": "scoring_attempted",
       "title": "Homomorphically encrypted CIFAR-10 inference in 200ms"
-    },
-    "https://stateofopensource.ai": {
-      "canonical_url": "https://stateofopensource.ai",
-      "created_at": "2026-07-17T15:15:00Z",
-      "status": "scoring_attempted",
-      "title": "Mozilla: The state of open source AI"
     },
     "https://synchub.to": {
       "canonical_url": "https://synchub.to",
@@ -3895,6 +3867,18 @@
       "status": "scoring_attempted",
       "title": "Runway launches AI model router as generative media gets crowded"
     },
+    "https://techcrunch.com/2026/07/24/blueskys-ai-assistant-attie-expands-into-an-open-social-research-tool": {
+      "canonical_url": "https://techcrunch.com/2026/07/24/blueskys-ai-assistant-attie-expands-into-an-open-social-research-tool",
+      "created_at": "2026-07-24T15:26:36Z",
+      "status": "scoring_attempted",
+      "title": "Bluesky\u2019s AI assistant Attie expands into an open social research tool"
+    },
+    "https://techcrunch.com/2026/07/24/midjourney-acquired-the-astrology-app-co-star": {
+      "canonical_url": "https://techcrunch.com/2026/07/24/midjourney-acquired-the-astrology-app-co-star",
+      "created_at": "2026-07-24T15:26:36Z",
+      "status": "scoring_attempted",
+      "title": "Midjourney acquired the astrology app Co-Star"
+    },
     "https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app": {
       "canonical_url": "https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app",
       "created_at": "2026-07-24T14:27:38Z",
@@ -4080,6 +4064,12 @@
       "created_at": "2026-07-24T08:20:47Z",
       "status": "scoring_attempted",
       "title": "OpenAI Presence sells enterprise AI agents with engineers attached"
+    },
+    "https://www.artificialintelligence-news.com/news/openai-pushes-chatgpt-into-patient-health-records": {
+      "canonical_url": "https://www.artificialintelligence-news.com/news/openai-pushes-chatgpt-into-patient-health-records",
+      "created_at": "2026-07-24T15:26:36Z",
+      "status": "scoring_attempted",
+      "title": "OpenAI pushes ChatGPT into patient health records"
     },
     "https://www.artificialintelligence-news.com/news/sensetimes-galaxy-project-targets-domestic-ai-chip-scale-up": {
       "canonical_url": "https://www.artificialintelligence-news.com/news/sensetimes-galaxy-project-targets-domestic-ai-chip-scale-up",
@@ -4447,12 +4437,6 @@
       "status": "scoring_attempted",
       "title": "NYC Subway Signals: A Complete Guide"
     },
-    "https://www.olafalders.com/2026/07/17/claude-code-anatomy-of-a-misfeature": {
-      "canonical_url": "https://www.olafalders.com/2026/07/17/claude-code-anatomy-of-a-misfeature",
-      "created_at": "2026-07-17T15:15:00Z",
-      "status": "scoring_attempted",
-      "title": "Claude Code: Anatomy of a Misfeature"
-    },
     "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992": {
       "canonical_url": "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
       "created_at": "2026-07-23T15:53:04Z",
@@ -4500,6 +4484,12 @@
       "created_at": "2026-07-17T23:48:53Z",
       "status": "scoring_attempted",
       "title": "Texas wins court order to suspend domain name for violating age-verification law"
+    },
+    "https://www.thehindu.com/news/national/government-orders-github-to-remove-bluetooth-based-chat-app-bitchat-over-security-concerns-jack-dorsey/article71262049.ece": {
+      "canonical_url": "https://www.thehindu.com/news/national/government-orders-github-to-remove-bluetooth-based-chat-app-bitchat-over-security-concerns-jack-dorsey/article71262049.ece",
+      "created_at": "2026-07-24T15:26:36Z",
+      "status": "scoring_attempted",
+      "title": "Government orders GitHub to remove Bluetooth-based chat app Bitchat: Jack Dorsey"
     },
     "https://www.theregister.com/columnists/2026/07/20/airbus-takes-flight-from-aws-what-happens-next-is-critical/5274109": {
       "canonical_url": "https://www.theregister.com/columnists/2026/07/20/airbus-takes-flight-from-aws-what-happens-next-is-critical/5274109",
@@ -4596,12 +4586,6 @@
       "created_at": "2026-07-18T17:14:22Z",
       "status": "scoring_attempted",
       "title": "Google is open-sourcing its 3D emoji"
-    },
-    "https://www.theverge.com/entertainment/966724/fallout-5-bethesda": {
-      "canonical_url": "https://www.theverge.com/entertainment/966724/fallout-5-bethesda",
-      "created_at": "2026-07-17T15:15:00Z",
-      "status": "scoring_attempted",
-      "title": "Bethesda teases Fallout 5 soon after Xbox\u2019s mass layoffs"
     },
     "https://www.theverge.com/entertainment/967485/telepathic-instruments-orchid-tame-impala-synth-review": {
       "canonical_url": "https://www.theverge.com/entertainment/967485/telepathic-instruments-orchid-tame-impala-synth-review",
@@ -4806,6 +4790,12 @@
       "created_at": "2026-07-24T12:47:34Z",
       "status": "scoring_attempted",
       "title": "Whack-a-drone"
+    },
+    "https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants": {
+      "canonical_url": "https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants",
+      "created_at": "2026-07-24T15:26:36Z",
+      "status": "scoring_attempted",
+      "title": "The tech-broification of American science has officially begun"
     },
     "https://www.theverge.com/tech/943866/google-alphabet-eu-dma-fine-search-services-play-store-steering": {
       "canonical_url": "https://www.theverge.com/tech/943866/google-alphabet-eu-dma-fine-search-services-play-store-steering",
@@ -5088,6 +5078,12 @@
       "created_at": "2026-07-18T10:54:31Z",
       "status": "scoring_attempted",
       "title": "Your Period Tracker Is (Probably) Spying on You"
+    },
+    "https://www.wired.com/story/silicon-valley-is-completely-divided-over-chinese-ai": {
+      "canonical_url": "https://www.wired.com/story/silicon-valley-is-completely-divided-over-chinese-ai",
+      "created_at": "2026-07-24T15:26:36Z",
+      "status": "scoring_attempted",
+      "title": "Silicon Valley Is Completely Divided Over Chinese AI"
     },
     "https://www.wired.com/story/some-kids-will-never-think-ai-is-cool": {
       "canonical_url": "https://www.wired.com/story/some-kids-will-never-think-ai-is-cool",
