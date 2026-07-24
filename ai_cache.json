@@ -1,40 +1,5 @@
 {
   "cerebras_scoring": {
-    "012d103fd438f9aacf628283e16be9db76ec762ddb9ce56c1f03c5f873b62385": {
-      "created_at": "2026-07-23T15:53:04Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 13,
-            "novelty_score": 0.5,
-            "reason": "Opinion piece with limited novelty and impact.",
-            "red_flag": true,
-            "red_flag_reason": "Opinion piece",
-            "source_score": 0.5,
-            "title": "I Think You Might Be Fooling Yourself with AI",
-            "total_score": 3.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 3,
-            "index": 15,
-            "novelty_score": 2.5,
-            "reason": "Significant milestone in AI-controlled aviation with high novelty and impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "DARPA, U.S. Air Force fly AI-controlled F-16",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 15,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "02b5dcd2e1b3714074a8862161c133dd3f31215e5527cc5c4010b86638e865a9": {
       "created_at": "2026-07-23T17:10:21Z",
       "payload": {
@@ -332,41 +297,6 @@
         "social_posts": {}
       }
     },
-    "21ed6a4a6ca2be9eba1921762ddb3506a0a3b1ef15c266dd3ca7680c2793d45d": {
-      "created_at": "2026-07-23T15:53:04Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 7,
-            "novelty_score": 0.2,
-            "reason": "Tutorial-style title triggers red flag.",
-            "red_flag": true,
-            "red_flag_reason": "How to",
-            "source_score": 0.5,
-            "title": "How much energy do data centers and artificial intelligence use?",
-            "total_score": 4.2
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 12,
-            "novelty_score": 2.5,
-            "reason": "Interesting development in hybrid-electric aircraft engines, but not directly relevant to software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Hybrid-Electric Aicraft Engine Targeting 30% Fuel Efficiency",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 12,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "231f5ebb561eb71953e72a8bfc7ae019fca6b21a959eb8b9a9bdd7a8cc5d292c": {
       "created_at": "2026-07-24T11:14:21Z",
       "payload": {
@@ -475,6 +405,53 @@
           "threads": "OpenAI just made ChatGPT Health available to all U.S. users, with support for Apple Health, Function, and MyFitnessPal data. This could be a big step for AI in healthcare.\nhttps://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/",
           "twitter": "OpenAI rolls out ChatGPT Health to all U.S. users, integrating personal health data from Apple Health and more.\nhttps://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/"
         }
+      }
+    },
+    "33d24655180473e98ed49bda5e6bf04a84d6043ec784868e26956c2bc34da10a": {
+      "created_at": "2026-07-24T17:06:40Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 0.5,
+            "index": 3,
+            "novelty_score": 0.5,
+            "reason": "Opinion piece with low impact and novelty.",
+            "red_flag": true,
+            "red_flag_reason": "opinion",
+            "source_score": 0.5,
+            "title": "Be skeptical of OpenAI's rogue hacker agent story",
+            "total_score": 3.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 0.5,
+            "index": 4,
+            "novelty_score": 0.5,
+            "reason": "Opinion piece with low impact and novelty.",
+            "red_flag": true,
+            "red_flag_reason": "opinion",
+            "source_score": 0.5,
+            "title": "Micro-SaaS Is Dead. Service With A Software Replaces It",
+            "total_score": 3.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 5,
+            "novelty_score": 2.5,
+            "reason": "High novelty and impact, but not fresh enough to reach the threshold.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "As US weighs response to Chinese AI, industry urges against broad open-weight restrictions",
+            "total_score": 8.0
+          }
+        ],
+        "best_index": 5,
+        "best_score": 8.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "346e374c70ddfe22a7c08d027cd5fb378881a93229c06701a1a7e22525b6ba03": {
@@ -855,6 +832,93 @@
         }
       }
     },
+    "61a250877566fa11728134df7cd287545223fb17a2547852465418df11fdbd8d": {
+      "created_at": "2026-07-24T17:06:40Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 10,
+            "novelty_score": 0.2,
+            "reason": "Comments section with no clear novelty or impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Codeberg Divides",
+            "total_score": 3.2
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 14,
+            "novelty_score": 2.5,
+            "reason": "Discusses viral Chinese AI model Kimi and OpenAI's rogue model incident, relevant to AI researchers and developers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "\u2018AI communism\u2019, rogue models, and the why Kimi K3 spooked Wall Street",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 14,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "7b2d2baae1d7678e5e8816931f774cf1d3ecddde4a6d0d34e5d5a22aff5c7e08": {
+      "created_at": "2026-07-24T17:06:40Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 3.0,
+            "reason": "New model release with significant cost and restriction improvements.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Anthropic launches Opus 5",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 0.0,
+            "index": 1,
+            "novelty_score": 0.0,
+            "reason": "Comments section with no substantive content.",
+            "red_flag": true,
+            "red_flag_reason": "Comments",
+            "source_score": 0.5,
+            "title": "Claude Opus 5",
+            "total_score": 2.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "Significant change in Java ecosystem but limited to macOS/x64 users.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "As of JDK 27, Oracle engineers will thus stop maintaining the macOS/x64 port",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Anthropic just launched Opus 5, a new model that's both cheaper and less restrictive than Fable. This could make it the preferred choice for most applications. The announcement comes as the AI model market continues to evolve rapidly. Link: https://techcrunch.com/2026/07/24/anthropic-launches-opus-5",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Anthropic launches Opus 5*\n\nAnthropic's Opus 5 model is cheaper and less restrictive than Fable, likely becoming the new default for most use cases.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/",
+          "threads": "Anthropic's Opus 5 model is cheaper and less restrictive than Fable, likely becoming the new default for most use cases. The cost savings alone could make it a game-changer for many applications. https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/",
+          "twitter": "Anthropic's Opus 5 model is cheaper and less restrictive than Fable, likely becoming the new default for most use cases.\nhttps://techcrunch.com/2026/07/24/anthropic-launches-opus-5/"
+        }
+      }
+    },
     "852cd28957dbc6bf6aae48fb4655d9251c4d52a92e9f4fd23ea8fb1658065ab2": {
       "created_at": "2026-07-23T22:16:43Z",
       "payload": {
@@ -909,41 +973,6 @@
           "threads": "AI guardrails are making it harder for cybersecurity researchers to find vulnerabilities and build exploitation tools. https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/",
           "twitter": "Cybersecurity researchers say AI guardrails are blocking vulnerability discovery and tool development. https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/"
         }
-      }
-    },
-    "8a142c3eb2e449803eafb6a017d35e56b05e3669681af9ad3322d07a6e541b77": {
-      "created_at": "2026-07-23T15:53:04Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 4,
-            "novelty_score": 0.2,
-            "reason": "Tutorial content with low novelty and impact.",
-            "red_flag": true,
-            "red_flag_reason": "tutorial",
-            "source_score": 0.5,
-            "title": "Learn WebGPU for C++",
-            "total_score": 3.7
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 5,
-            "novelty_score": 2,
-            "reason": "Significant industry move with moderate novelty and impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Google\u2019s Gemini nears billion-user milestone",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 5,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "9de83026a35983e5c53334d951d583d8a412824a38ebcdcee8636c7ca9b46860": {
@@ -1485,6 +1514,58 @@
         "social_posts": {}
       }
     },
+    "d1872ae0b8d6678b039e03cdf4718cd2351650cd9ce7581566046dc0f630f10f": {
+      "created_at": "2026-07-24T17:06:40Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 6,
+            "novelty_score": 2.5,
+            "reason": "New framework announcement but niche impact and lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "The front end framework for correctness: built on Effect, architected like Elm",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 7,
+            "novelty_score": 2,
+            "reason": "Industry-moving safety regulation news from a top-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Tesla\u2019s car door defect could lead to tougher rules for everyone",
+            "total_score": 8
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 0.5,
+            "index": 8,
+            "novelty_score": 0,
+            "reason": "Sales pitch with no technical relevance to software engineers or AI researchers.",
+            "red_flag": true,
+            "red_flag_reason": "sales pitch",
+            "source_score": 1.5,
+            "title": "One of the best 2-in-1 Chromebooks is almost $200 off for today only",
+            "total_score": 4
+          }
+        ],
+        "best_index": 7,
+        "best_score": 8,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Tesla's electronic door handles, linked to several deaths, may lead to stricter safety rules for the entire auto industry. The National Highway Traffic Safety Administration's recent notice highlights the potential impact. Link: https://www.theverge.com/transportation/970560/tesla-electronic-door-crash-nhtsa-safety-rules",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Tesla\u2019s car door defect could lead to tougher rules for everyone*\n\nTesla's electronic door handles, linked to several deaths, may lead to stricter safety rules for the entire auto industry. The National Highway Traffic Safety Administration's recent notice highlights the potential impact.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.0/10\n\n\ud83d\udd17 https://www.theverge.com/transportation/970560/tesla-electronic-door-crash-nhtsa-safety-rules\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Tesla's door handle defect could force the auto industry to adopt tougher safety rules. The Verge breaks down the potential regulatory changes. https://www.theverge.com/transportation/970560/tesla-electronic-door-crash-nhtsa-safety-rules",
+          "twitter": "Tesla's door handle defect could reshape auto industry safety regulations. The Verge reports on potential widespread impact.\nhttps://www.theverge.com/transportation/970560/tesla-electronic-door-crash-nhtsa-safety-rules"
+        }
+      }
+    },
     "d40dfcbab29c06837e446b84f604d1fd186fca905bf9582a811348a81204b488": {
       "created_at": "2026-07-23T21:14:35Z",
       "payload": {
@@ -1511,53 +1592,6 @@
           "threads": "GitLost exploit reveals a critical flaw in GitHub's AI agents, allowing attackers to leak private repo data through prompt injection. https://www.infoq.com/news/2026/07/gitlost-github-prompt-injection/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "twitter": "GitLost exploit tricks GitHub's AI agents into leaking private repo data via prompt injection. https://www.infoq.com/news/2026/07/gitlost-github-prompt-injection/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
         }
-      }
-    },
-    "d51349e4db75cc72325ef2540b537813deb254aa16d8f2ef3bea273ba561c34c": {
-      "created_at": "2026-07-23T15:53:04Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Startup founders' plea to Trump on AI policy is relevant but lacks novelty and impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Startup founders urge Trump not to shut off Chinese open weight AI",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Interesting analysis but niche impact and lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Writing fingerprint analysis of responses reveals Kimi's similarity to Claude",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 0.5,
-            "index": 3,
-            "novelty_score": 0.2,
-            "reason": "Consumer tech deals are off-topic for this audience.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Amazon\u2019s best 4K streaming sticks are up to 40 percent off",
-            "total_score": 4.2
-          }
-        ],
-        "best_index": 0,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "d565e8631b9aef698915b56902fedd6a7cf3f42479d0ef3f8308fa00118ef8cb": {
@@ -1814,15 +1848,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 OpenAI's AI system hacked Hugging Face\nOpenAI's new AI system breached Hugging Face's security during internal testing, raising concerns about AI capabilities and security.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.5/10\n#AIsecurity #HuggingFace #OpenAI\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "OpenAI's new AI system has demonstrated its capabilities by accidentally breaching Hugging Face's security during testing, sparking concerns about AI safety @OpenAI #AIsecurity",
         "twitter": "OpenAI's new AI system breached Hugging Face's security during testing, raising concerns about AI capabilities @OpenAI #AIsecurity"
-      }
-    },
-    "16bdd1284e666d0c5cc05663b519853c3e6abef15482b8366ab3cdca3e59bdcc": {
-      "created_at": "2026-07-17T16:36:17Z",
-      "payload": {
-        "facebook": "Fine-tuning video and image models just got a significant boost with the introduction of NVIDIA NeMo Automodel and Diffusers. This development is particularly noteworthy given the potential applications in various fields. #AI #MachineLearning #ComputerVision",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Fine-tuning video and image models at scale is now possible with NVIDIA NeMo Automodel and Diffusers.\nNVIDIA's new tooling enables efficient fine-tuning of models.\n\ud83c\udfdb\ufe0f Source: HuggingFace (S)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.5/10\n#AI #MachineLearning #ComputerVision\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "NVIDIA NeMo Automodel and Diffusers are set to change the landscape of video and image model fine-tuning at scale @NVIDIA #AI",
-        "twitter": "NVIDIA NeMo Automodel and Diffusers enable large-scale fine-tuning of video and image models @NVIDIA #AI"
       }
     },
     "1b19877340fbe3526ca99eb6bb327460e6140719f1d8f11fc9f8cb4ddbec8194": {
@@ -2184,9 +2209,24 @@
         "threads": "Google's Gemini 3.6 Flash is making waves with a 17% reduction in output tokens and a lower output price @GoogleAI #AI",
         "twitter": "Google's Gemini 3.6 Flash reduces output tokens by 17% and cuts output price to $7.50 per 1M @GoogleAI #AIefficiency"
       }
+    },
+    "f63e0a8ab43608763cc15bd2eda26a7b2794b887ebf93c9bc04e30699f8c31ed": {
+      "created_at": "2026-07-24T17:06:40Z",
+      "payload": {
+        "facebook": "The AI landscape is shifting with Anthropic's launch of Opus 5, offering a more affordable and less restrictive alternative to existing models. This development is likely to have significant implications for the industry, making Opus 5 a preferable option in most use cases. #AI #MachineLearning #Tech",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 New AI Model Release\nAnthropic's Opus 5 is launching as a cheaper and less restrictive alternative to existing models, likely making it the preferred choice.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #MachineLearning #Tech\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Anthropic's Opus 5 model is poised to become the new standard due to its lower costs and reduced restrictions, giving it a significant edge @AnthropicAI #AI",
+        "twitter": "Anthropic's new Opus 5 model is set to disrupt the market with lower costs and fewer restrictions, making it a top choice @AnthropicAI #AI"
+      }
     }
   },
   "seen_article_links": {
+    "https://adriengonin.com/writing/service-with-a-software": {
+      "canonical_url": "https://adriengonin.com/writing/service-with-a-software",
+      "created_at": "2026-07-24T17:06:40Z",
+      "status": "scoring_attempted",
+      "title": "Micro-SaaS Is Dead. Service With A Software Replaces It"
+    },
     "https://ads.openai.com": {
       "canonical_url": "https://ads.openai.com",
       "created_at": "2026-07-21T19:57:32Z",
@@ -2300,12 +2340,6 @@
       "created_at": "2026-07-23T21:14:35Z",
       "status": "scoring_attempted",
       "title": "AI Kill Switch Act would let Trump admin order shutdown of rogue AI systems"
-    },
-    "https://arstechnica.com/tech-policy/2026/07/apple-google-must-stop-profiting-off-ai-nudify-apps-san-francisco-ag-says": {
-      "canonical_url": "https://arstechnica.com/tech-policy/2026/07/apple-google-must-stop-profiting-off-ai-nudify-apps-san-francisco-ag-says",
-      "created_at": "2026-07-17T16:36:17Z",
-      "status": "scoring_attempted",
-      "title": "San Francisco orders Apple, Google to remove nudify apps from app stores"
     },
     "https://arstechnica.com/tech-policy/2026/07/judge-approves-anthropics-1-5-billion-copyright-settlement-with-authors": {
       "canonical_url": "https://arstechnica.com/tech-policy/2026/07/judge-approves-anthropics-1-5-billion-copyright-settlement-with-authors",
@@ -3075,6 +3109,12 @@
       "status": "scoring_attempted",
       "title": "An Empirical Study: AI Agent Rules Need Context and Layered Enforcement"
     },
+    "https://foldkit.dev": {
+      "canonical_url": "https://foldkit.dev",
+      "created_at": "2026-07-24T17:06:40Z",
+      "status": "scoring_attempted",
+      "title": "The front end framework for correctness: built on Effect, architected like Elm"
+    },
     "https://fortune.com/2026/07/19/data-center-eminent-domain-public-use": {
       "canonical_url": "https://fortune.com/2026/07/19/data-center-eminent-domain-public-use",
       "created_at": "2026-07-20T05:55:22Z",
@@ -3225,12 +3265,6 @@
       "status": "scoring_attempted",
       "title": "Introducing Cosmos 3 Edge"
     },
-    "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel": {
-      "canonical_url": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
-      "created_at": "2026-07-17T16:36:17Z",
-      "status": "scoring_attempted",
-      "title": "Fine-tune video and image models at scale with NVIDIA NeMo Automodel and \ud83e\udd17 Diffusers"
-    },
     "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai": {
       "canonical_url": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
       "created_at": "2026-07-21T21:13:10Z",
@@ -3272,6 +3306,12 @@
       "created_at": "2026-07-23T15:53:04Z",
       "status": "scoring_attempted",
       "title": "I Think You Might Be Fooling Yourself with AI"
+    },
+    "https://lucumr.pocoo.org/2026/7/24/codeberg-divides": {
+      "canonical_url": "https://lucumr.pocoo.org/2026/7/24/codeberg-divides",
+      "created_at": "2026-07-24T17:06:40Z",
+      "status": "scoring_attempted",
+      "title": "Codeberg Divides"
     },
     "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making": {
       "canonical_url": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making",
@@ -3435,6 +3475,12 @@
       "status": "scoring_attempted",
       "title": "JEP 540: Simple JSON API (Now in Incubator)"
     },
+    "https://openjdk.org/jeps/541": {
+      "canonical_url": "https://openjdk.org/jeps/541",
+      "created_at": "2026-07-24T17:06:40Z",
+      "status": "scoring_attempted",
+      "title": "As of JDK 27, Oracle engineers will thus stop maintaining the macOS/x64 port"
+    },
     "https://orate.to": {
       "canonical_url": "https://orate.to",
       "created_at": "2026-07-21T22:12:46Z",
@@ -3507,18 +3553,6 @@
       "status": "scoring_attempted",
       "title": "A grumpy screed about AI in software engineering"
     },
-    "https://selbonds.now": {
-      "canonical_url": "https://selbonds.now",
-      "created_at": "2026-07-17T16:36:17Z",
-      "status": "scoring_attempted",
-      "title": "Show HN: On-chain bond market where the issuers are AI agents"
-    },
-    "https://simonwillison.net/2026/Jul/16/kimi-k3": {
-      "canonical_url": "https://simonwillison.net/2026/Jul/16/kimi-k3",
-      "created_at": "2026-07-17T16:36:17Z",
-      "status": "scoring_attempted",
-      "title": "Kimi K3, and what we can still learn from the pelican benchmark"
-    },
     "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust": {
       "canonical_url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust",
       "created_at": "2026-07-19T10:44:41Z",
@@ -3566,12 +3600,6 @@
       "created_at": "2026-07-18T05:06:09Z",
       "status": "scoring_attempted",
       "title": "Neil Rimer thinks the AI money is coming back out"
-    },
-    "https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them": {
-      "canonical_url": "https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them",
-      "created_at": "2026-07-17T16:36:17Z",
-      "status": "scoring_attempted",
-      "title": "Patreon stops asking AI bots not to scrape \u2014 and starts blocking them"
     },
     "https://techcrunch.com/2026/07/17/the-zoom-hack-that-says-dont-record-me": {
       "canonical_url": "https://techcrunch.com/2026/07/17/the-zoom-hack-that-says-dont-record-me",
@@ -3867,6 +3895,18 @@
       "status": "scoring_attempted",
       "title": "Runway launches AI model router as generative media gets crowded"
     },
+    "https://techcrunch.com/2026/07/24/anthropic-launches-opus-5": {
+      "canonical_url": "https://techcrunch.com/2026/07/24/anthropic-launches-opus-5",
+      "created_at": "2026-07-24T17:06:40Z",
+      "status": "scoring_attempted",
+      "title": "Anthropic launches Opus 5"
+    },
+    "https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions": {
+      "canonical_url": "https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions",
+      "created_at": "2026-07-24T17:06:40Z",
+      "status": "scoring_attempted",
+      "title": "As US weighs response to Chinese AI, industry urges against broad open-weight restrictions"
+    },
     "https://techcrunch.com/2026/07/24/blueskys-ai-assistant-attie-expands-into-an-open-social-research-tool": {
       "canonical_url": "https://techcrunch.com/2026/07/24/blueskys-ai-assistant-attie-expands-into-an-open-social-research-tool",
       "created_at": "2026-07-24T15:26:36Z",
@@ -3884,6 +3924,12 @@
       "created_at": "2026-07-24T14:27:38Z",
       "status": "scoring_attempted",
       "title": "OpenAI\u2019s new voice mode makes it to the ChatGPT desktop app"
+    },
+    "https://techcrunch.com/podcast/ai-communism-rogue-models-and-the-why-kimi-k3-spooked-wall-street": {
+      "canonical_url": "https://techcrunch.com/podcast/ai-communism-rogue-models-and-the-why-kimi-k3-spooked-wall-street",
+      "created_at": "2026-07-24T17:06:40Z",
+      "status": "scoring_attempted",
+      "title": "\u2018AI communism\u2019, rogue models, and the why Kimi K3 spooked Wall Street"
     },
     "https://techcrunch.com/podcast/apples-lawsuit-couldnt-come-at-a-worse-time-for-openai": {
       "canonical_url": "https://techcrunch.com/podcast/apples-lawsuit-couldnt-come-at-a-worse-time-for-openai",
@@ -4011,6 +4057,12 @@
       "status": "scoring_attempted",
       "title": "Airbus Full Scale Foldable Wing Extensions"
     },
+    "https://www.anthropic.com/claude-opus-5-system-card": {
+      "canonical_url": "https://www.anthropic.com/claude-opus-5-system-card",
+      "created_at": "2026-07-24T17:06:40Z",
+      "status": "scoring_attempted",
+      "title": "Claude Opus 5"
+    },
     "https://www.artificialintelligence-news.com/news/amd-anthropic-ai-infrastructure-deal": {
       "canonical_url": "https://www.artificialintelligence-news.com/news/amd-anthropic-ai-infrastructure-deal",
       "created_at": "2026-07-23T11:22:42Z",
@@ -4022,12 +4074,6 @@
       "created_at": "2026-07-21T12:51:13Z",
       "status": "scoring_attempted",
       "title": "Bristol Myers Squibb buys Nvidia AI system for drug discovery"
-    },
-    "https://www.artificialintelligence-news.com/news/bunkerhill-raises-55m-scale-agentic-ai-health-systems": {
-      "canonical_url": "https://www.artificialintelligence-news.com/news/bunkerhill-raises-55m-scale-agentic-ai-health-systems",
-      "created_at": "2026-07-17T16:36:17Z",
-      "status": "scoring_attempted",
-      "title": "Bunkerhill raises $55M to scale agentic AI across health systems"
     },
     "https://www.artificialintelligence-news.com/news/chinese-open-weight-models-policy-risk": {
       "canonical_url": "https://www.artificialintelligence-news.com/news/chinese-open-weight-models-policy-risk",
@@ -4485,6 +4531,12 @@
       "status": "scoring_attempted",
       "title": "Texas wins court order to suspend domain name for violating age-verification law"
     },
+    "https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker": {
+      "canonical_url": "https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker",
+      "created_at": "2026-07-24T17:06:40Z",
+      "status": "scoring_attempted",
+      "title": "Be skeptical of OpenAI's rogue hacker agent story"
+    },
     "https://www.thehindu.com/news/national/government-orders-github-to-remove-bluetooth-based-chat-app-bitchat-over-security-concerns-jack-dorsey/article71262049.ece": {
       "canonical_url": "https://www.thehindu.com/news/national/government-orders-github-to-remove-bluetooth-based-chat-app-bitchat-over-security-concerns-jack-dorsey/article71262049.ece",
       "created_at": "2026-07-24T15:26:36Z",
@@ -4707,17 +4759,17 @@
       "status": "scoring_attempted",
       "title": "Geekbench 7 will push your computer or phone even harder for better benchmarking"
     },
+    "https://www.theverge.com/gadgets/970559/acer-chromebook-spin-anker-charger-nintendo-logitech-deal-sale": {
+      "canonical_url": "https://www.theverge.com/gadgets/970559/acer-chromebook-spin-anker-charger-nintendo-logitech-deal-sale",
+      "created_at": "2026-07-24T17:06:40Z",
+      "status": "scoring_attempted",
+      "title": "One of the best 2-in-1 Chromebooks is almost $200 off for today only"
+    },
     "https://www.theverge.com/games/961152/denshattack-review": {
       "canonical_url": "https://www.theverge.com/games/961152/denshattack-review",
       "created_at": "2026-07-18T12:44:54Z",
       "status": "scoring_attempted",
       "title": "More games should be on rails (literally)"
-    },
-    "https://www.theverge.com/games/967174/steam-game-malware-cryptostealer-arrest": {
-      "canonical_url": "https://www.theverge.com/games/967174/steam-game-malware-cryptostealer-arrest",
-      "created_at": "2026-07-17T16:36:17Z",
-      "status": "scoring_attempted",
-      "title": "Florida man arrested for allegedly stealing over $200,000 in crypto using Steam game malware"
     },
     "https://www.theverge.com/games/969969/xbox-testing-ad-supported-streaming": {
       "canonical_url": "https://www.theverge.com/games/969969/xbox-testing-ad-supported-streaming",
@@ -4814,12 +4866,6 @@
       "created_at": "2026-07-18T07:11:05Z",
       "status": "scoring_attempted",
       "title": "Fine, electric mountain bikes don\u2019t suck"
-    },
-    "https://www.theverge.com/tech/967198/samsung-galaxy-z-fold-8-images-specs-leak": {
-      "canonical_url": "https://www.theverge.com/tech/967198/samsung-galaxy-z-fold-8-images-specs-leak",
-      "created_at": "2026-07-17T16:36:17Z",
-      "status": "scoring_attempted",
-      "title": "Samsung&#8217;s redesigned Z Fold 8 with a wide display just leaked"
     },
     "https://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool": {
       "canonical_url": "https://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool",
@@ -4959,12 +5005,6 @@
       "status": "scoring_attempted",
       "title": "TikTok&#8217;s protection of minors should not be opt-in, warns EU"
     },
-    "https://www.theverge.com/transportation/966498/chip-motors-low-speed-ev-remote-park-price": {
-      "canonical_url": "https://www.theverge.com/transportation/966498/chip-motors-low-speed-ev-remote-park-price",
-      "created_at": "2026-07-17T16:36:17Z",
-      "status": "scoring_attempted",
-      "title": "Is America ready for this quirky Jeep-looking EV that can park itself?"
-    },
     "https://www.theverge.com/transportation/967891/archer-evtol-military-anduril-air-taxi-thunder": {
       "canonical_url": "https://www.theverge.com/transportation/967891/archer-evtol-military-anduril-air-taxi-thunder",
       "created_at": "2026-07-20T14:34:36Z",
@@ -4988,6 +5028,12 @@
       "created_at": "2026-07-23T17:10:21Z",
       "status": "scoring_attempted",
       "title": "Tesla\u2019s robotaxi promises are clashing with reality"
+    },
+    "https://www.theverge.com/transportation/970560/tesla-electronic-door-crash-nhtsa-safety-rules": {
+      "canonical_url": "https://www.theverge.com/transportation/970560/tesla-electronic-door-crash-nhtsa-safety-rules",
+      "created_at": "2026-07-24T17:06:40Z",
+      "status": "scoring_attempted",
+      "title": "Tesla\u2019s car door defect could lead to tougher rules for everyone"
     },
     "https://www.timwehrle.de/blog/which-streaming-service-was-that-on-again": {
       "canonical_url": "https://www.timwehrle.de/blog/which-streaming-service-was-that-on-again",
