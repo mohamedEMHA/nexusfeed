@@ -1,50 +1,55 @@
 {
   "cerebras_scoring": {
-    "02b5dcd2e1b3714074a8862161c133dd3f31215e5527cc5c4010b86638e865a9": {
-      "created_at": "2026-07-23T17:10:21Z",
+    "05182f19c34a664acb5e36e6fa0bfb6bbc6d4c22faa88c8e8814be9c6513e1e3": {
+      "created_at": "2026-07-24T18:44:11Z",
       "payload": {
         "articles": [
           {
             "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 11,
+            "impact_score": 2.5,
+            "index": 7,
             "novelty_score": 2.5,
-            "reason": "New open-source tool for managing AI agent credentials, but niche impact.",
+            "reason": "Anthropic's new model release is significant for AI developers and researchers.",
             "red_flag": false,
             "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Show HN: OneCLI \u2013 OSS credential gateway that keeps secrets out of AI agents",
-            "total_score": 7
+            "source_score": 1.5,
+            "title": "Anthropic releases Opus 5 with 'close' to Fable 5's capabilities",
+            "total_score": 8.5
           },
           {
             "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 13,
-            "novelty_score": 2.5,
-            "reason": "New open-source AI-focused video editor, but niche impact.",
+            "impact_score": 2,
+            "index": 8,
+            "novelty_score": 2,
+            "reason": "Meta's AI chatbot update adds productivity features, competing with major AI assistants.",
             "red_flag": false,
             "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Show HN: Palmier Pro \u2013 open-source macOS video editor built for AI",
-            "total_score": 7
+            "source_score": 1.5,
+            "title": "Meta is making its AI chatbot more like an assistant",
+            "total_score": 7.5
           },
           {
-            "freshness_score": 1,
+            "freshness_score": 0,
             "impact_score": 2.5,
-            "index": 23,
-            "novelty_score": 2.5,
-            "reason": "New capability for OCI images, but moderate impact and older news.",
+            "index": 384,
+            "novelty_score": 3,
+            "reason": "Anthropic's official announcement of Claude Opus 5, but too old to be fresh.",
             "red_flag": false,
             "red_flag_reason": null,
-            "source_score": 1,
-            "title": "You can now run same OCI images as containers or Firecracker microVMs",
-            "total_score": 7
+            "source_score": 2,
+            "title": "Introducing Claude Opus 5",
+            "total_score": 7.5
           }
         ],
-        "best_index": 11,
-        "best_score": 7,
-        "recommendation": "SKIP",
-        "social_posts": {}
+        "best_index": 7,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Anthropic has released Claude Opus 5, a new AI model that the company says comes close to the capabilities of Fable 5. This is a significant development in the AI space, particularly for developers and researchers. The release comes just weeks after Anthropic's latest engagement with the US government and days after an OpenAI security incident. Link: https://www.theverge.com/ai-artificial-intelligence/970105/claude-opus-5-announced-anthropic-ai-model-release",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Anthropic releases Opus 5 with 'close' to Fable 5's capabilities*\n\nAnthropic's new Claude Opus 5 model is said to come close to the capabilities of Fable 5, marking a significant milestone in AI development.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/ai-artificial-intelligence/970105/claude-opus-5-announced-anthropic-ai-model-release\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Anthropic's Opus 5 model now rivals Fable 5 in capabilities, a major step forward in AI development. The release follows recent industry events, including a US government engagement and an OpenAI security incident. https://www.theverge.com/ai-artificial-intelligence/970105/claude-opus-5-announced-anthropic-ai-model-release",
+          "twitter": "Anthropic's new Opus 5 model closes the gap with Fable 5, marking a significant AI milestone.\nhttps://www.theverge.com/ai-artificial-intelligence/970105/claude-opus-5-announced-anthropic-ai-model-release"
+        }
       }
     },
     "05afcc17c0b9c484ee40c0db9374c373a068b43afb1d6b7029f1679d2d37c5dd": {
@@ -164,29 +169,6 @@
         ],
         "best_index": 5,
         "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "19936427387b21dfebbb53af1eaad0cf02d4128ce6e35027921171225df9d213": {
-      "created_at": "2026-07-23T18:37:11Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 7,
-            "novelty_score": 0.5,
-            "reason": "Opinion piece on open source AI with moderate impact and freshness but low novelty and source tier.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "The arguments against open source AI are bad",
-            "total_score": 4.5
-          }
-        ],
-        "best_index": 7,
-        "best_score": 4.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -343,70 +325,6 @@
         "social_posts": {}
       }
     },
-    "33811b3284227ff3c152e8e2938365504707048031c8a1455637cf5dcd01e2d0": {
-      "created_at": "2026-07-23T17:10:21Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 4,
-            "novelty_score": 2.5,
-            "reason": "OpenAI's expansion of ChatGPT Health to all U.S. users with personal data integration is significant for AI in healthcare.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "OpenAI makes ChatGPT Health available to all U.S. users",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 5,
-            "novelty_score": 2,
-            "reason": "A new startup launching on Hacker News with a niche product for agent automation.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Launch HN: Screenpipe (YC S26) \u2013 Power your agents by your 24/7 screen recording",
-            "total_score": 6
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 6,
-            "novelty_score": 1.5,
-            "reason": "Meta's ad campaign using a song about human extinction is notable but not highly impactful for engineers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Meta launched a new AI optimism ad set to a song about human extinction",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 7,
-            "novelty_score": 2,
-            "reason": "Google's negative cash flow due to AI spending is significant but not as novel as OpenAI's healthcare expansion.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Google just had its first negative cash flow quarter due to massive AI spending",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 4,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "OpenAI has expanded ChatGPT Health to all users in the U.S., allowing integration with personal health data from services like Apple Health, Function, and MyFitnessPal. This move could significantly impact how individuals manage their health data using AI.\nLink: https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *OpenAI makes ChatGPT Health available to all U.S. users*\n\nOpenAI has expanded ChatGPT Health to all users in the U.S., allowing integration with personal health data from services like Apple Health, Function, and MyFitnessPal.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/",
-          "threads": "OpenAI just made ChatGPT Health available to all U.S. users, with support for Apple Health, Function, and MyFitnessPal data. This could be a big step for AI in healthcare.\nhttps://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/",
-          "twitter": "OpenAI rolls out ChatGPT Health to all U.S. users, integrating personal health data from Apple Health and more.\nhttps://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/"
-        }
-      }
-    },
     "33d24655180473e98ed49bda5e6bf04a84d6043ec784868e26956c2bc34da10a": {
       "created_at": "2026-07-24T17:06:40Z",
       "payload": {
@@ -477,140 +395,6 @@
         "social_posts": {}
       }
     },
-    "3c9e3cb12b3ded9e09ca370ee448e638cbf7f96b34dc5398090f4f856915ae7b": {
-      "created_at": "2026-07-23T18:37:11Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 4,
-            "novelty_score": 2.5,
-            "reason": "A useful tool for maintaining Claude sessions, but limited impact and from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Show HN: Claude-thermos \u2013 keeps your Claude session warm for you",
-            "total_score": 6.0
-          }
-        ],
-        "best_index": 4,
-        "best_score": 6.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "452ce9ab0591a547810874cafe82dc95bf86c231827dc2f167091e6acfab3b65": {
-      "created_at": "2026-07-23T17:10:21Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 8,
-            "novelty_score": 2.5,
-            "reason": "New API proposal for Java, but limited impact and source tier.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "JEP 540: Simple JSON API (Now in Incubator)",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 9,
-            "novelty_score": 2,
-            "reason": "New cloud gaming model with potential impact on gamers and developers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Microsoft is testing free, ad-supported cloud gaming for Xbox Insiders",
-            "total_score": 8
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 10,
-            "novelty_score": 2.5,
-            "reason": "Useful tool for ChatGPT users, but limited impact and source tier.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Free way to get your data out of ChatGPT Business accounts",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 9,
-        "best_score": 8,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "4945cae35ca10e2c69a42b4b4b779b0e872ef5c0a604313d41a0e99aac905a56": {
-      "created_at": "2026-07-23T17:10:21Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.0,
-            "reason": "Industry move with significant impact, but not groundbreaking novelty.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Tesla\u2019s robotaxi promises are clashing with reality",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.0,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "New product launch with moderate impact on AI developers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Runway launches AI model router as generative media gets crowded",
-            "total_score": 8.0
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 2,
-            "novelty_score": 1.5,
-            "reason": "Update to a popular tool, but limited novelty and impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Geekbench 7 will push your computer or phone even harder for better benchmarking",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 3.0,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "New product launch with significant impact on healthcare and AI.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "OpenAI is making big claims as it rolls out ChatGPT Health to everyone",
-            "total_score": 9.0
-          }
-        ],
-        "best_index": 3,
-        "best_score": 9.0,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "OpenAI has launched ChatGPT Health to all users in the US, allowing them to connect their medical records and health-tracking information to the chatbot. This move could significantly impact how people manage their health data. Link: https://www.theverge.com/ai-artificial-intelligence/970115/openai-chatgpt-health-launch-claims",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *OpenAI rolls out ChatGPT Health to everyone in the US*\n\nOpenAI has launched ChatGPT Health to all users in the US, allowing them to connect their medical records and health-tracking information to the chatbot. This move could significantly impact how people manage their health data.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://www.theverge.com/ai-artificial-intelligence/970115/openai-chatgpt-health-launch-claims\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "OpenAI's ChatGPT Health is now available to everyone in the US, integrating medical records and health-tracking data. This could be a game-changer for health management. https://www.theverge.com/ai-artificial-intelligence/970115/openai-chatgpt-health-launch-claims",
-          "twitter": "OpenAI rolls out ChatGPT Health to everyone in the US, integrating medical records and health-tracking data. https://www.theverge.com/ai-artificial-intelligence/970115/openai-chatgpt-health-launch-claims"
-        }
-      }
-    },
     "4e691b614b90a32f309c8bdd84bbf2862eec63dc98addff910dcab14b5f985b5": {
       "created_at": "2026-07-23T22:16:43Z",
       "payload": {
@@ -632,6 +416,58 @@
         "best_score": 5.5,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "504b3a38cff84c496f1af84a82ac863c6251f23ede4b44d866ef90c6b9da2c6e": {
+      "created_at": "2026-07-24T18:44:11Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 4,
+            "novelty_score": 1.5,
+            "reason": "Entertainment news with moderate novelty and impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Blade Runner 2099\u2019s moody dystopia streams on Amazon in November",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 5,
+            "novelty_score": 2.5,
+            "reason": "Significant AI application in biotech with high novelty and impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Team uses AlphaFold AI to redesign gene-editing proteins to make them safer",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2,
+            "index": 6,
+            "novelty_score": 2,
+            "reason": "Important shift in web indexing and SEO practices.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "You can\u2019t ignore Google Zero anymore",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 5,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "A team has leveraged Google's AlphaFold AI to redesign gene-editing proteins, enhancing their safety. This breakthrough could have significant implications for biotech and medical research. Link: https://arstechnica.com/science/2026/07/team-uses-alphafold-ai-to-redesign-gene-editing-proteins-to-make-them-safer",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Team uses AlphaFold AI to redesign gene-editing proteins to make them safer*\n\nResearchers have used Google's AlphaFold AI to redesign gene-editing proteins, making them safer. This breakthrough could have significant implications for biotech and medical research.\n\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://arstechnica.com/science/2026/07/team-uses-alphafold-ai-to-redesign-gene-editing-proteins-to-make-them-safer\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Google's AlphaFold AI is now being used to redesign gene-editing proteins, making them safer. This is a big deal for biotech. https://arstechnica.com/science/2026/07/team-uses-alphafold-ai-to-redesign-gene-editing-proteins-to-make-them-safer",
+          "twitter": "Researchers used AlphaFold AI to redesign gene-editing proteins, making them safer. https://arstechnica.com/science/2026/07/team-uses-alphafold-ai-to-redesign-gene-editing-proteins-to-make-them-safer/"
+        }
       }
     },
     "53d74a25c775c0bfa1130e1399b3dc649b5dc3e2521d521c42e00b869c2421af": {
@@ -1179,39 +1015,68 @@
         "social_posts": {}
       }
     },
-    "b5401d05f330a297d3cb4fac2c5dbaf444ed9ead49e6f00ed2722a7cac2508ac": {
-      "created_at": "2026-07-23T18:37:11Z",
+    "ae717e1ff1a67a48ae365dbef408041a83291e972704be176a9d2923dfd6dcb1": {
+      "created_at": "2026-07-24T18:44:11Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
+            "freshness_score": 2,
+            "impact_score": 1.5,
             "index": 0,
-            "novelty_score": 2.0,
-            "reason": "Industry move with significant layoffs, but not directly AI-focused.",
+            "novelty_score": 1.5,
+            "reason": "Industry move with niche impact, fresh but not highly novel.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 1.5,
-            "title": "Patreon is laying off 20 percent of workers",
-            "total_score": 7.5
+            "title": "Nothing confirms layoffs, but calls market exit rumors \u2018fake news\u2019",
+            "total_score": 6
           },
           {
-            "freshness_score": 1.5,
-            "impact_score": 0.5,
+            "freshness_score": 2,
+            "impact_score": 2.5,
             "index": 1,
-            "novelty_score": 0.2,
-            "reason": "Consumer product deal with minimal relevance to software engineers or AI researchers.",
+            "novelty_score": 2.5,
+            "reason": "Significant acquisition in AI space with broad implications for developers.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 1.5,
-            "title": "Corsair\u2019s PC case with a panoramic glass design is $70 off",
-            "total_score": 3.7
+            "title": "Why Cognition bought Poke: AI personality is becoming a competitive advantage",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 1.5,
+            "reason": "Industry move with niche impact, fresh but not highly novel.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Roku raises streaming hardware prices by up to $50",
+            "total_score": 6
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "Significant developments in AI ethics and control with broad implications.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Did Chinese AI Steal From Anthropic, and OpenAI Loses Control of Two Models",
+            "total_score": 8.5
           }
         ],
-        "best_index": 0,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
+        "best_index": 1,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Cognition has acquired Poke, an AI assistant known for its conversational style, in a move that reflects the growing importance of AI personality in coding agents. The deal, valued in the low nine figures, brings Poke's interaction model to Cognition's coding agent Devin. This acquisition highlights the increasing focus on how AI assistants communicate with users. Link: https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Cognition acquires Poke to enhance AI coding agents with conversational style*\n\nCognition has acquired Poke, an AI assistant known for its conversational style, in a move that reflects the growing importance of AI personality in coding agents. The deal, valued in the low nine figures, brings Poke's interaction model to Cognition's coding agent Devin.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/",
+          "threads": "Cognition buys Poke to enhance AI coding agents with conversational style. A notable shift in AI assistant design priorities. https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/",
+          "twitter": "Cognition acquires Poke to bring conversational AI to coding agents, signaling a shift in AI assistant design priorities. https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/"
+        }
       }
     },
     "ba3137fc2b77ef3c6aaedd81c8984f2805f46e80170a3b21634804a91b273dfc": {
@@ -1426,6 +1291,53 @@
           "threads": "Defending LLMs against multi-turn attacks is getting better. New research proposes robust critics to handle ambiguous harmful requests. https://arxiv.org/abs/2607.20472",
           "twitter": "New research on defending LLMs against multi-turn attacks. https://arxiv.org/abs/2607.20472"
         }
+      }
+    },
+    "c56d5924acc32950698378cc58fa43dae8256c2498f736bfaf320c9b49f1ebb9": {
+      "created_at": "2026-07-24T18:44:11Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 0.0,
+            "index": 9,
+            "novelty_score": 0.2,
+            "reason": "Tutorial video with no clear technical value.",
+            "red_flag": true,
+            "red_flag_reason": "tutorial",
+            "source_score": 0.5,
+            "title": "Don't Take the Black Pill [video]",
+            "total_score": 2.7
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 11,
+            "novelty_score": 2.0,
+            "reason": "Industry move with significant impact, but not groundbreaking.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.0,
+            "title": "Meta, Microsoft, Nvidia, IBM, and others back open-weight AI",
+            "total_score": 7.0
+          },
+          {
+            "freshness_score": 1.0,
+            "impact_score": 2.0,
+            "index": 23,
+            "novelty_score": 1.5,
+            "reason": "Opinion piece with moderate impact and lower novelty.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Nvidia, Microsoft, Meta warn against overregulating open-weight models",
+            "total_score": 5.0
+          }
+        ],
+        "best_index": 11,
+        "best_score": 7.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "cce9f441b7b5fd147889bf6c1d5dfa2d243aaa50505f08baf3fbeb6af733e4e3": {
@@ -1717,31 +1629,6 @@
           "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Silicon Valley Is Completely Divided Over Chinese AI*\n\nSilicon Valley's billion-dollar AI startups are sounding the alarm on Chinese AI, while smaller players disagree sharply. The debate highlights the complex geopolitical and technological tensions shaping the future of AI.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.wired.com/story/silicon-valley-is-completely-divided-over-chinese-ai/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
           "threads": "Silicon Valley's billion-dollar AI startups are sounding the alarm on Chinese AI, while smaller players disagree sharply. The debate highlights the complex geopolitical and technological tensions shaping the future of AI. https://www.wired.com/story/silicon-valley-is-completely-divided-over-chinese-ai/",
           "twitter": "Silicon Valley's billion-dollar AI startups are sounding the alarm on Chinese AI, while smaller players disagree sharply. https://www.wired.com/story/silicon-valley-is-completely-divided-over-chinese-ai/"
-        }
-      }
-    },
-    "fc2ba0e8ef2513a71a727c29d2ad2b73a16b707cae52c8427f144893f2b7a5d2": {
-      "created_at": "2026-07-23T18:37:11Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1.5,
-              "impact_score": 1.5,
-              "index": 15,
-              "novelty_score": 2.5,
-              "reason": "Opinion piece on software factories with moderate impact and freshness, but low source tier.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Why Software Factories Fail (or: harness engineering is not enough)",
-              "total_score": 5.5
-            }
-          ],
-          "best_index": 15,
-          "best_score": 5.5,
-          "recommendation": "SKIP",
-          "social_posts": {}
         }
       }
     },
@@ -2138,15 +2025,6 @@
         "twitter": "US Treasury Secretary warns of potential sanctions against Chinese AI companies after allegations of model distillation @TechCrunch #AIethics"
       }
     },
-    "bfa1d2e9635f622344d08d24062b83c26b69911cf32c99aeb4f1c1cae78d020f": {
-      "created_at": "2026-07-17T17:43:50Z",
-      "payload": {
-        "facebook": "The tech world is watching as Apple sues OpenAI, but many experts think the allegations are just standard industry practices. What does Apple really want to achieve with this lawsuit? The implications for AI development and competition are significant. #AI #Tech #Innovation",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Apple sues OpenAI, sparking industry debate\nThe lawsuit has raised questions about Apple's motives and the implications for AI development.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #Tech #Innovation\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Apple's lawsuit against OpenAI has sparked intense debate, but what's the real reason behind this public fight @TheVerge #AI",
-        "twitter": "Apple takes aim at OpenAI with lawsuit, but what's the real motive behind this public fight @TheVerge #AI #Tech"
-      }
-    },
     "c27791d686564fe3ecbf566de5594023f9b352c575840ad997d451346de236eb": {
       "created_at": "2026-07-17T19:50:46Z",
       "payload": {
@@ -2154,15 +2032,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 TikTok Introduces AI Likeness Detection Tool\nTikTok is starting to test an opt-in tool that scans for AI likenesses and lets creators report them to the company.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AIethics #TikTok #ContentAuthenticity\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "TikTok is testing an AI likeness detection tool to help creators identify and report AI-generated content, @TheVerge #AIethics",
         "twitter": "TikTok takes a step towards authenticity with an AI likeness detection tool, @TheVerge reports, aiming to reduce AI-generated content #AIethics #TikTok"
-      }
-    },
-    "c9df3733509fecba9f4fa3aafda2b8a233cbeec048f7e71e42ac99e631c91d80": {
-      "created_at": "2026-07-17T18:43:10Z",
-      "payload": {
-        "facebook": "A recent lawsuit filed by Apple against OpenAI alleges a pattern of misconduct and claims that many former Apple employees now work at OpenAI. This development could have significant implications for OpenAI's plans to go public. #AI #TechLaw #IPO",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Apple sues OpenAI over trade secrets, potentially disrupting IPO plans.\nThe lawsuit alleges misconduct and notes over 400 former Apple employees now work at OpenAI.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #TechLaw #IPO\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Apple's lawsuit against OpenAI over trade secrets could disrupt the company's IPO plans, especially given the large number of former Apple employees now at OpenAI @OpenAI #AI",
-        "twitter": "Apple's trade secrets lawsuit against OpenAI could jeopardize the company's IPO plans, with over 400 former Apple employees now at OpenAI @OpenAI #AI"
       }
     },
     "cc113a1d4a2ee13258103853432aa8c62109cd5310edf2c90b706a03e38f4226": {
@@ -2181,6 +2050,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Trump's AI Leadership in Flux\nThe director role for the Center for AI Standards and Innovation has become a revolving door since David Sacks left his position as czar.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #Innovation #TechPolicy\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "The Trump administration's AI czar role is empty once more after the latest resignation from the Center for AI Standards and Innovation @TechCrunch #AI",
         "twitter": "Trump's AI czar role is vacant again after the latest director resigned from the Center for AI Standards and Innovation @TechCrunch #AI"
+      }
+    },
+    "d3194f1ce4fdfc8badd577456550955636a037ccca0537b1d485fe6add628d74": {
+      "created_at": "2026-07-24T18:44:11Z",
+      "payload": {
+        "facebook": "The recent acquisition of Poke by Cognition highlights the growing importance of AI personality in the tech industry. As AI assistants become more prevalent, their ability to interact with humans in a conversational manner is becoming a major differentiator. This trend is likely to continue, with significant implications for developers and the broader AI landscape #AI #TechAcquisitions #PersonalityMatters",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 AI Personality Takes Center Stage\nCognition's acquisition of Poke highlights the growing significance of conversational AI models in the industry, with AI personality becoming a major differentiator.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AIpersonality #TechAcquisitions #ConversationalAI\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Cognition's acquisition of Poke underscores the increasing importance of AI personality in the industry, with conversational AI models becoming a key competitive advantage @TechCrunch #AI",
+        "twitter": "Cognition acquires Poke, indicating AI personality is becoming key to competitive advantage @TechCrunch #AIpersonality"
       }
     },
     "e36c855f7fd10cbb7b8b8e2403eed3b52d28c683faf72437cd9b083c7cb1278c": {
@@ -2322,6 +2200,12 @@
       "created_at": "2026-07-21T17:01:12Z",
       "status": "scoring_attempted",
       "title": "Google reveals faster and cheaper Gemini 3.6 Flash, says 3.5 Pro is still in testing"
+    },
+    "https://arstechnica.com/science/2026/07/team-uses-alphafold-ai-to-redesign-gene-editing-proteins-to-make-them-safer": {
+      "canonical_url": "https://arstechnica.com/science/2026/07/team-uses-alphafold-ai-to-redesign-gene-editing-proteins-to-make-them-safer",
+      "created_at": "2026-07-24T18:44:11Z",
+      "status": "scoring_attempted",
+      "title": "Team uses AlphaFold AI to redesign gene-editing proteins to make them safer"
     },
     "https://arstechnica.com/space/2026/07/google-backed-satellites-for-wildfire-detection-launch-as-smoke-chokes-us-canada": {
       "canonical_url": "https://arstechnica.com/space/2026/07/google-backed-satellites-for-wildfire-detection-launch-as-smoke-chokes-us-canada",
@@ -3361,12 +3245,6 @@
       "status": "scoring_attempted",
       "title": "Professor Emeritus Dimitri Bertsekas, influential computer scientist and prolific author, dies at 83"
     },
-    "https://news.mit.edu/2026/following-questions-where-they-lead-bailey-flanigan-0717": {
-      "canonical_url": "https://news.mit.edu/2026/following-questions-where-they-lead-bailey-flanigan-0717",
-      "created_at": "2026-07-17T17:43:50Z",
-      "status": "scoring_attempted",
-      "title": "Following the questions where they lead"
-    },
     "https://news.mit.edu/2026/mit-projects-selected-funding-under-doe-genesis-mission-0723": {
       "canonical_url": "https://news.mit.edu/2026/mit-projects-selected-funding-under-doe-genesis-mission-0723",
       "created_at": "2026-07-23T12:56:24Z",
@@ -3564,12 +3442,6 @@
       "created_at": "2026-07-24T12:47:34Z",
       "status": "scoring_attempted",
       "title": "Hetzner is working on LLM Inference"
-    },
-    "https://sofar.belfortlabs.cloud": {
-      "canonical_url": "https://sofar.belfortlabs.cloud",
-      "created_at": "2026-07-17T18:43:10Z",
-      "status": "scoring_attempted",
-      "title": "Homomorphically encrypted CIFAR-10 inference in 200ms"
     },
     "https://synchub.to": {
       "canonical_url": "https://synchub.to",
@@ -3925,29 +3797,23 @@
       "status": "scoring_attempted",
       "title": "OpenAI\u2019s new voice mode makes it to the ChatGPT desktop app"
     },
+    "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage": {
+      "canonical_url": "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage",
+      "created_at": "2026-07-24T18:44:11Z",
+      "status": "scoring_attempted",
+      "title": "Why Cognition bought Poke: AI personality is becoming a competitive advantage"
+    },
     "https://techcrunch.com/podcast/ai-communism-rogue-models-and-the-why-kimi-k3-spooked-wall-street": {
       "canonical_url": "https://techcrunch.com/podcast/ai-communism-rogue-models-and-the-why-kimi-k3-spooked-wall-street",
       "created_at": "2026-07-24T17:06:40Z",
       "status": "scoring_attempted",
       "title": "\u2018AI communism\u2019, rogue models, and the why Kimi K3 spooked Wall Street"
     },
-    "https://techcrunch.com/podcast/apples-lawsuit-couldnt-come-at-a-worse-time-for-openai": {
-      "canonical_url": "https://techcrunch.com/podcast/apples-lawsuit-couldnt-come-at-a-worse-time-for-openai",
-      "created_at": "2026-07-17T17:43:50Z",
-      "status": "scoring_attempted",
-      "title": "Apple\u2019s lawsuit couldn\u2019t come at a worse time for OpenAI"
-    },
     "https://techcrunch.com/podcast/menlo-ventures-matt-murphy-explains-what-ai-startups-founders-must-do-differently": {
       "canonical_url": "https://techcrunch.com/podcast/menlo-ventures-matt-murphy-explains-what-ai-startups-founders-must-do-differently",
       "created_at": "2026-07-22T18:16:21Z",
       "status": "scoring_attempted",
       "title": "Menlo Ventures\u2019 Matt Murphy explains what AI startups founders must do differently"
-    },
-    "https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans": {
-      "canonical_url": "https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans",
-      "created_at": "2026-07-17T18:43:10Z",
-      "status": "scoring_attempted",
-      "title": "How Apple\u2019s big lawsuit could disrupt OpenAI\u2019s IPO plans"
     },
     "https://tengli.dev/posts/mcp-servers-failing-agents.html": {
       "canonical_url": "https://tengli.dev/posts/mcp-servers-failing-agents.html",
@@ -4063,6 +3929,12 @@
       "status": "scoring_attempted",
       "title": "Claude Opus 5"
     },
+    "https://www.anthropic.com/news/claude-opus-5": {
+      "canonical_url": "https://www.anthropic.com/news/claude-opus-5",
+      "created_at": "2026-07-24T18:44:11Z",
+      "status": "scoring_attempted",
+      "title": "Introducing Claude Opus 5"
+    },
     "https://www.artificialintelligence-news.com/news/amd-anthropic-ai-infrastructure-deal": {
       "canonical_url": "https://www.artificialintelligence-news.com/news/amd-anthropic-ai-infrastructure-deal",
       "created_at": "2026-07-23T11:22:42Z",
@@ -4092,6 +3964,12 @@
       "created_at": "2026-07-20T09:55:15Z",
       "status": "scoring_attempted",
       "title": "Kimi K3 open-weight model: China\u2019s biggest AI is a bet on memory, not compute"
+    },
+    "https://www.artificialintelligence-news.com/news/meta-microsoft-nvidia-ibm-others-back-open-weight-ai": {
+      "canonical_url": "https://www.artificialintelligence-news.com/news/meta-microsoft-nvidia-ibm-others-back-open-weight-ai",
+      "created_at": "2026-07-24T18:44:11Z",
+      "status": "scoring_attempted",
+      "title": "Meta, Microsoft, Nvidia, IBM, and others back open-weight AI"
     },
     "https://www.artificialintelligence-news.com/news/nvidia-bets-physical-ai-solve-healthcare-robotics-data-problem": {
       "canonical_url": "https://www.artificialintelligence-news.com/news/nvidia-bets-physical-ai-solve-healthcare-robotics-data-problem",
@@ -4146,6 +4024,12 @@
       "created_at": "2026-07-17T22:29:02Z",
       "status": "scoring_attempted",
       "title": "FAA lets Boeing sign off on 737 MAX, 787 airworthiness certificates again"
+    },
+    "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html": {
+      "canonical_url": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
+      "created_at": "2026-07-24T18:44:11Z",
+      "status": "scoring_attempted",
+      "title": "Nvidia, Microsoft, Meta warn against overregulating open-weight models"
     },
     "https://www.cole-k.com/2026/07/21/reddit": {
       "canonical_url": "https://www.cole-k.com/2026/07/21/reddit",
@@ -4603,6 +4487,12 @@
       "status": "scoring_attempted",
       "title": "Claude\u2019s voice mode is now available for Opus and Sonnet"
     },
+    "https://www.theverge.com/ai-artificial-intelligence/970105/claude-opus-5-announced-anthropic-ai-model-release": {
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/970105/claude-opus-5-announced-anthropic-ai-model-release",
+      "created_at": "2026-07-24T18:44:11Z",
+      "status": "scoring_attempted",
+      "title": "Anthropic releases Opus 5 with \u2018close\u2019 to Fable 5\u2019s capabilities"
+    },
     "https://www.theverge.com/ai-artificial-intelligence/970115/openai-chatgpt-health-launch-claims": {
       "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/970115/openai-chatgpt-health-launch-claims",
       "created_at": "2026-07-23T17:10:21Z",
@@ -4675,17 +4565,17 @@
       "status": "scoring_attempted",
       "title": "The sci-fi movie that imagines AI isn\u2019t so dystopian after all"
     },
+    "https://www.theverge.com/entertainment/970524/blade-runner-2099-date-trailer-amazon-prime-video": {
+      "canonical_url": "https://www.theverge.com/entertainment/970524/blade-runner-2099-date-trailer-amazon-prime-video",
+      "created_at": "2026-07-24T18:44:11Z",
+      "status": "scoring_attempted",
+      "title": "Blade Runner 2099\u2019s moody dystopia streams on Amazon in November"
+    },
     "https://www.theverge.com/gadgets/960331/corsair-frame-4500x-deal-pc-case-sale": {
       "canonical_url": "https://www.theverge.com/gadgets/960331/corsair-frame-4500x-deal-pc-case-sale",
       "created_at": "2026-07-23T18:37:11Z",
       "status": "scoring_attempted",
       "title": "Corsair\u2019s PC case with a panoramic glass design is $70 off"
-    },
-    "https://www.theverge.com/gadgets/966907/asus-rog-swift-qd-oled-marathon-steam-deal-sale": {
-      "canonical_url": "https://www.theverge.com/gadgets/966907/asus-rog-swift-qd-oled-marathon-steam-deal-sale",
-      "created_at": "2026-07-17T17:43:50Z",
-      "status": "scoring_attempted",
-      "title": "Asus\u2019 top-end 4K QD-OLED gaming monitor is $400 off"
     },
     "https://www.theverge.com/gadgets/967311/gopro-max2-360-degree-action-cam-accessory-bundle-deal-sale": {
       "canonical_url": "https://www.theverge.com/gadgets/967311/gopro-max2-360-degree-action-cam-accessory-bundle-deal-sale",
@@ -4783,12 +4673,6 @@
       "status": "scoring_attempted",
       "title": "Microsoft is bringing original Xbox games to PC"
     },
-    "https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast": {
-      "canonical_url": "https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast",
-      "created_at": "2026-07-17T17:43:50Z",
-      "status": "scoring_attempted",
-      "title": "Apple\u2019s plot to crush OpenAI"
-    },
     "https://www.theverge.com/podcast/967642/the-clapper-version-history": {
       "canonical_url": "https://www.theverge.com/podcast/967642/the-clapper-version-history",
       "created_at": "2026-07-19T14:18:12Z",
@@ -4806,6 +4690,12 @@
       "created_at": "2026-07-23T15:07:34Z",
       "status": "scoring_attempted",
       "title": "Apple\u2019s OpenAI lawsuit is about who gets to define the post-smartphone era"
+    },
+    "https://www.theverge.com/podcast/970735/google-zero-reddit-ai-publishers-vergecast": {
+      "canonical_url": "https://www.theverge.com/podcast/970735/google-zero-reddit-ai-publishers-vergecast",
+      "created_at": "2026-07-24T18:44:11Z",
+      "status": "scoring_attempted",
+      "title": "You can\u2019t ignore Google Zero anymore"
     },
     "https://www.theverge.com/policy/967674/fbi-wont-investigate-ice-assaults": {
       "canonical_url": "https://www.theverge.com/policy/967674/fbi-wont-investigate-ice-assaults",
@@ -4848,6 +4738,12 @@
       "created_at": "2026-07-24T15:26:36Z",
       "status": "scoring_attempted",
       "title": "The tech-broification of American science has officially begun"
+    },
+    "https://www.theverge.com/streaming/970814/roku-streaming-price-increase": {
+      "canonical_url": "https://www.theverge.com/streaming/970814/roku-streaming-price-increase",
+      "created_at": "2026-07-24T18:44:11Z",
+      "status": "scoring_attempted",
+      "title": "Roku raises streaming hardware prices by up to $50"
     },
     "https://www.theverge.com/tech/943866/google-alphabet-eu-dma-fine-search-services-play-store-steering": {
       "canonical_url": "https://www.theverge.com/tech/943866/google-alphabet-eu-dma-fine-search-services-play-store-steering",
@@ -5005,6 +4901,18 @@
       "status": "scoring_attempted",
       "title": "TikTok&#8217;s protection of minors should not be opt-in, warns EU"
     },
+    "https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update": {
+      "canonical_url": "https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update",
+      "created_at": "2026-07-24T18:44:11Z",
+      "status": "scoring_attempted",
+      "title": "Meta is making its AI chatbot more like an assistant"
+    },
+    "https://www.theverge.com/tech/970848/nothing-layoffs-rumors-phone-4b": {
+      "canonical_url": "https://www.theverge.com/tech/970848/nothing-layoffs-rumors-phone-4b",
+      "created_at": "2026-07-24T18:44:11Z",
+      "status": "scoring_attempted",
+      "title": "Nothing confirms layoffs, but calls market exit rumors &#8216;fake news&#8217;"
+    },
     "https://www.theverge.com/transportation/967891/archer-evtol-military-anduril-air-taxi-thunder": {
       "canonical_url": "https://www.theverge.com/transportation/967891/archer-evtol-military-anduril-air-taxi-thunder",
       "created_at": "2026-07-20T14:34:36Z",
@@ -5149,6 +5057,12 @@
       "status": "scoring_attempted",
       "title": "Remember Jibo? Its Successor Is a Wearable That Turns Your Life Into AI Slop"
     },
+    "https://www.wired.com/story/uncanny-valley-podcast": {
+      "canonical_url": "https://www.wired.com/story/uncanny-valley-podcast",
+      "created_at": "2026-07-24T18:44:11Z",
+      "status": "scoring_attempted",
+      "title": "Did Chinese AI Steal From Anthropic, and OpenAI Loses Control of Two Models"
+    },
     "https://www.wsj.com/tech/ai/openai-models-escaped-and-hacked-a-company-in-cybersecurity-test-gone-wrong-ee388506": {
       "canonical_url": "https://www.wsj.com/tech/ai/openai-models-escaped-and-hacked-a-company-in-cybersecurity-test-gone-wrong-ee388506",
       "created_at": "2026-07-22T15:38:50Z",
@@ -5160,6 +5074,12 @@
       "created_at": "2026-07-20T17:12:45Z",
       "status": "scoring_attempted",
       "title": "Cross sectioning insects in an electron microscope with a femtosecond laser [video]"
+    },
+    "https://www.youtube.com/watch?v=zLZwpH5lCD4": {
+      "canonical_url": "https://www.youtube.com/watch?v=zLZwpH5lCD4",
+      "created_at": "2026-07-24T18:44:11Z",
+      "status": "scoring_attempted",
+      "title": "Don't Take the Black Pill [video]"
     },
     "https://yang-ai-lab.github.io/Inertia-1": {
       "canonical_url": "https://yang-ai-lab.github.io/Inertia-1",
