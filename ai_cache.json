@@ -192,34 +192,6 @@
         "social_posts": {}
       }
     },
-    "1502d182debf2684e00438d80e9739b53456f2ef89f285fe92fb41528474176c": {
-      "created_at": "2026-07-23T06:27:26Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "Meta's integration of a Rust version of the React Compiler into its main repository shows significant performance improvements and better toolchain integration.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Meta Ports React Compiler to Rust for Faster Builds and Tighter Toolchain Integration",
-            "total_score": 8
-          }
-        ],
-        "best_index": 2,
-        "best_score": 8,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Meta has integrated a Rust version of the React Compiler into its main repository, aiming for faster builds and better compatibility with the Rust-based JavaScript toolchain. This port, which memoizes components automatically, shows significant performance improvements. Link: https://www.infoq.com/news/2026/07/meta-react-compiler-rust/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Meta Ports React Compiler to Rust for Faster Builds and Tighter Toolchain Integration*\n\nMeta's React library has integrated a Rust version of the React Compiler into its main repository, aimed at enhancing build speed and compatibility with the Rust-based JavaScript toolchain. This port, which memoizes components automatically, demonstrates significant performance improvements.\n\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (B)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8/10\n\n\ud83d\udd17 https://www.infoq.com/news/2026/07/meta-react-compiler-rust/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Meta's React Compiler now in Rust for faster builds and better toolchain integration. Automatic component memoization shows significant performance gains. https://www.infoq.com/news/2026/07/meta-react-compiler-rust/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "twitter": "Meta has ported React Compiler to Rust, promising faster builds and tighter toolchain integration. https://www.infoq.com/news/2026/07/meta-react-compiler-rust/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
-        }
-      }
-    },
     "15d83bc9631592ef8fbd4a9c2d5e18776f3f9d2aef8530a7f6b3b0e2a68ea7f6": {
       "created_at": "2026-07-23T19:59:18Z",
       "payload": {
@@ -274,29 +246,6 @@
         ],
         "best_index": 7,
         "best_score": 4.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "19aab546d643565779d87e30cdf8b204c8ae8ee40d298bf8ebf9fc68f478cac3": {
-      "created_at": "2026-07-23T06:27:26Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "New release of a local AI tool for Mac security.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Local AI that finds sensitive files on your Mac before attackers do",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 3,
-        "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -541,6 +490,29 @@
         }
       }
     },
+    "346e374c70ddfe22a7c08d027cd5fb378881a93229c06701a1a7e22525b6ba03": {
+      "created_at": "2026-07-24T08:20:47Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 1,
+            "novelty_score": 1.5,
+            "reason": "Jotai v2.20 focuses on performance improvements for high-throughput scenarios, but the impact is limited to library authors and specific use cases.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Jotai v2.20: Rework Store Building Blocks for High-Throughput Performance and Sets the Stage for v3",
+            "total_score": 5.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 5.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "3c9e3cb12b3ded9e09ca370ee448e638cbf7f96b34dc5398090f4f856915ae7b": {
       "created_at": "2026-07-23T18:37:11Z",
       "payload": {
@@ -632,34 +604,6 @@
         "best_score": 8,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "4761dc6314a3bb31d9b4e3bbd4e16b67370078639f9f0b2ac8089854320cd358": {
-      "created_at": "2026-07-23T06:27:26Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Anthropic's new Claude Security plugin for Claude Code offers a novel multi-agent vulnerability scanner that integrates directly into existing workflows.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Anthropic Releases Claude Security Plugin for Claude Code in Beta: A Multi-Agent Vulnerability Scanner That Runs in Your Terminal",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Anthropic just released a beta plugin for Claude Code that runs multi-agent vulnerability scans directly in your terminal. It turns findings into patch files you can review and apply. This could significantly streamline security workflows for developers. Link: https://www.marktechpost.com/2026/07/22/anthropic-releases-claude-security-plugin-for-claude-code-in-beta-a-multi-agent-vulnerability-scanner-that-runs-in-your-terminal/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Anthropic Releases Claude Security Plugin for Claude Code in Beta: A Multi-Agent Vulnerability Scanner That Runs in Your Terminal*\n\nAnthropic has released the Claude Security plugin for Claude Code in beta. The plugin runs a multi-agent vulnerability scan of a repository from inside an existing Claude Code session, then turns the findings you select into patch files that you review and apply yourself.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/07/22/anthropic-releases-claude-security-plugin-for-claude-code-in-beta-a-multi-agent-vulnerability-scanner-that-runs-in-your-terminal/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Anthropic's new Claude Security plugin scans repos from your terminal and auto-generates patches. Integrates directly into existing Claude Code sessions. Interesting for devs handling security.\nhttps://www.marktechpost.com/2026/07/22/anthropic-releases-claude-security-plugin-for-claude-code-in-beta-a-multi-agent-vulnerability-scanner-that-runs-in-your-terminal/",
-          "twitter": "Anthropic's new Claude Security plugin scans repos directly from your terminal and auto-generates patches. A game-changer for devs handling vulnerabilities in codebases.\nhttps://www.marktechpost.com/2026/07/22/anthropic-releases-claude-security-plugin-for-claude-code-in-beta-a-multi-agent-vulnerability-scanner-that-runs-in-your-terminal/"
-        }
       }
     },
     "4945cae35ca10e2c69a42b4b4b779b0e872ef5c0a604313d41a0e99aac905a56": {
@@ -1660,6 +1604,29 @@
         "social_posts": {}
       }
     },
+    "e5f87e61db91a284a1472d0e8f3d50152e4be6f70a454b1443402eb9ece1a8a6": {
+      "created_at": "2026-07-24T08:20:47Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "OpenAI Presence is a new managed product for enterprise AI agents, delivered through a limited general availability program.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "OpenAI Presence sells enterprise AI agents with engineers attached",
+            "total_score": 8
+          }
+        ],
+        "best_index": 0,
+        "best_score": 8,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "e5fb12af5c71b93d9ffeb4686ce8dcc5c204a325ab449055e08eaa6b98056713": {
       "created_at": "2026-07-23T09:12:21Z",
       "payload": {
@@ -1733,29 +1700,6 @@
           "threads": "Lawmakers propose an AI 'kill switch' bill that could force shutdowns on DHS orders. This could have significant implications for AI development and deployment. https://www.theverge.com/ai-artificial-intelligence/969939/lawmakers-ai-kill-switch-proposal",
           "twitter": "Lawmakers propose an AI 'kill switch' bill that could force shutdowns on DHS orders. https://www.theverge.com/ai-artificial-intelligence/969939/lawmakers-ai-kill-switch-proposal"
         }
-      }
-    },
-    "f5dc18e600d7e6b62ca77b61592dcd7634690d1f5316c624d163ec79646d9fe0": {
-      "created_at": "2026-07-23T06:27:26Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.0,
-            "reason": "ServiceNow's strategic investment in BusinessNext highlights a significant move in AI-powered banking software, but it's not groundbreaking for the industry.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "ServiceNow bets $40 million on Indian banking software specialist to expand its financial services push",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "fc2ba0e8ef2513a71a727c29d2ad2b73a16b707cae52c8427f144893f2b7a5d2": {
@@ -3236,12 +3180,6 @@
       "status": "scoring_attempted",
       "title": "The State of Simulation for Physical AI: An Overview"
     },
-    "https://journals.plos.org/plosbiology/article?id=10.1371%2Fjournal.pbio.3003876": {
-      "canonical_url": "https://journals.plos.org/plosbiology/article?id=10.1371%2Fjournal.pbio.3003876",
-      "created_at": "2026-07-17T07:35:08Z",
-      "status": "scoring_attempted",
-      "title": "EEG shows brain can simultaneous encode two speech streams"
-    },
     "https://kotaku.com/gta-vice-city-made-playable-in-gta-3-made-playable-in-gta-san-andreas-2000717510": {
       "canonical_url": "https://kotaku.com/gta-vice-city-made-playable-in-gta-3-made-playable-in-gta-san-andreas-2000717510",
       "created_at": "2026-07-20T14:34:36Z",
@@ -4028,6 +3966,12 @@
       "status": "scoring_attempted",
       "title": "US public health agencies to test OpenAI and Anthropic AI models"
     },
+    "https://www.artificialintelligence-news.com/news/openai-presence-enterprise-ai-agents": {
+      "canonical_url": "https://www.artificialintelligence-news.com/news/openai-presence-enterprise-ai-agents",
+      "created_at": "2026-07-24T08:20:47Z",
+      "status": "scoring_attempted",
+      "title": "OpenAI Presence sells enterprise AI agents with engineers attached"
+    },
     "https://www.artificialintelligence-news.com/news/sensetimes-galaxy-project-targets-domestic-ai-chip-scale-up": {
       "canonical_url": "https://www.artificialintelligence-news.com/news/sensetimes-galaxy-project-targets-domestic-ai-chip-scale-up",
       "created_at": "2026-07-22T11:24:23Z",
@@ -4195,6 +4139,12 @@
       "created_at": "2026-07-20T14:34:36Z",
       "status": "scoring_attempted",
       "title": "Three InfoQ Certification Cohorts Start This August: Meet the Facilitators"
+    },
+    "https://www.infoq.com/news/2026/07/jotai-rework-performance": {
+      "canonical_url": "https://www.infoq.com/news/2026/07/jotai-rework-performance",
+      "created_at": "2026-07-24T08:20:47Z",
+      "status": "scoring_attempted",
+      "title": "Jotai v2.20: Rework Store Building Blocks for High-Throughput Performance and Sets the Stage for v3"
     },
     "https://www.infoq.com/news/2026/07/loom-aws-agent-platform": {
       "canonical_url": "https://www.infoq.com/news/2026/07/loom-aws-agent-platform",
