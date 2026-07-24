@@ -333,6 +333,29 @@
         "social_posts": {}
       }
     },
+    "20e3b019cd2a4115b9883f0b8ce4acf16dce95782b8e924451d6254aab2f46a3": {
+      "created_at": "2026-07-24T09:17:02Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1,
+            "impact_score": 0.5,
+            "index": 2,
+            "novelty_score": 0.2,
+            "reason": "Tutorial content with low impact and source tier.",
+            "red_flag": true,
+            "red_flag_reason": "tutorial",
+            "source_score": 0.5,
+            "title": "Claude Cookbook",
+            "total_score": 1.7
+          }
+        ],
+        "best_index": 2,
+        "best_score": 1.7,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "21ed6a4a6ca2be9eba1921762ddb3506a0a3b1ef15c266dd3ca7680c2793d45d": {
       "created_at": "2026-07-23T15:53:04Z",
       "payload": {
@@ -849,34 +872,6 @@
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "7291cfd3eb1e21429eb149a95e55f69ec14921d3133fb1775c6be88c677bc6b2": {
-      "created_at": "2026-07-23T09:12:21Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Gigatoken's performance boost in text encoding is significant for developers working with large language models.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Meet Gigatoken: A Rust BPE Tokenizer that Encodes Text at 24.53 GB/s, up to 989x Faster than HuggingFace Tokenizers",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Gigatoken, a Rust BPE tokenizer, achieves unprecedented speeds of 24.53 GB/s, outperforming HuggingFace tokenizers by 989x. This breakthrough could significantly impact developers working with large language models. Link: https://www.marktechpost.com/2026/07/23/meet-gigatoken-a-rust-bpe-tokenizer-that-encodes-text-at-24-53-gb-s-up-to-989x-faster-than-huggingface-tokenizers/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Meet Gigatoken: A Rust BPE Tokenizer that Encodes Text at 24.53 GB/s, up to 989x Faster than HuggingFace Tokenizers*\n\nGigatoken is an MIT-licensed Rust BPE tokenizer that encodes text at gigabytes per second. On a 144-core AMD EPYC 9565, it runs GPT-2 tokenization at 24.53 GB/s, 989x faster than HuggingFace tokenizers and 681x faster than tiktoken.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/07/23/meet-gigatoken-a-rust-bpe-tokenizer-that-encodes-text-at-24-53-gb-s-up-to-989x-faster-than-huggingface-tokenizers/",
-          "threads": "Gigatoken, a Rust BPE tokenizer, encodes text at 24.53 GB/s, 989x faster than HuggingFace tokenizers. This is a game-changer for developers working with large language models. https://www.marktechpost.com/2026/07/23/meet-gigatoken-a-rust-bpe-tokenizer-that-encodes-text-at-24-53-gb-s-up-to-989x-faster-than-huggingface-tokenizers/",
-          "twitter": "Gigatoken, a Rust BPE tokenizer, encodes text at 24.53 GB/s, 989x faster than HuggingFace tokenizers. https://www.marktechpost.com/2026/07/23/meet-gigatoken-a-rust-bpe-tokenizer-that-encodes-text-at-24-53-gb-s-up-to-989x-faster-than-huggingface-tokenizers/"
-        }
       }
     },
     "7c38f0e0e1a1185fde781e84c02b9b482b06d5ce805feccfab7f97e4eae3b006": {
@@ -1483,6 +1478,29 @@
         }
       }
     },
+    "d0c6d3f4bc883e1c890ce52a52f5c5e5c2fe32ebd9d21d9b01738bbe0b111560": {
+      "created_at": "2026-07-24T09:17:02Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "LangChain4j experiment with autonomous agent creation shows promising results in code generation and debugging.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.0,
+            "title": "Article: The Self-Building Agent: A LangChain4j Experiment",
+            "total_score": 8.0
+          }
+        ],
+        "best_index": 0,
+        "best_score": 8.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "d107dec1d05008940d5bb36d67215e3b7bcdd46a984adcda02cc8b8058309d6a": {
       "created_at": "2026-07-23T23:56:47Z",
       "payload": {
@@ -1502,29 +1520,6 @@
         ],
         "best_index": 0,
         "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "d1561d297c20a7234b272432802cf3e2e4b0de0f80b6aa550d044b0961f03ed3": {
-      "created_at": "2026-07-23T09:12:21Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Multi-agent AI for security operations is a novel application with significant impact on SOC efficiency.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.0,
-            "title": "Article: Multi-Agent AI for Production Security Operations: An A2A and MCP Architecture in a 5G Core",
-            "total_score": 8.0
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.0,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1623,29 +1618,6 @@
         ],
         "best_index": 0,
         "best_score": 8,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "e5fb12af5c71b93d9ffeb4686ce8dcc5c204a325ab449055e08eaa6b98056713": {
-      "created_at": "2026-07-23T09:12:21Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 4,
-            "novelty_score": 2.5,
-            "reason": "Interesting update on Bun's Zig runtime, but niche impact and lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Cruller: Bun's Zig Runtime, Continued on Zig 0.16",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 4,
-        "best_score": 5.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1790,15 +1762,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 AI Backlash and the Future\nDr. Jill Lepore discusses the need for AI backlash to shape the future, offering a unique perspective on current trends.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #ArtificialIntelligence #Technology\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Historian Dr. Jill Lepore shares her insights on the importance of AI backlash for the future, providing a fresh perspective on current trends @TheVerge #AI",
         "twitter": "Dr. Jill Lepore discusses the importance of AI backlash for the future @TheVerge #AIethics"
-      }
-    },
-    "2285da7ffe1561385d2a345eb581719b0540b74146ef3fe8dd054ef3055634b9": {
-      "created_at": "2026-07-17T09:05:52Z",
-      "payload": {
-        "facebook": "NVIDIA has released Nemotron 3 Embed, an open embedding collection that has achieved a top ranking on RTEB with its 8B checkpoint. This is a significant development in the field of AI. #AI #NVIDIA #MachineLearning",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 NVIDIA's Nemotron 3 Embed Tops RTEB\nNVIDIA's Nemotron 3 Embed has achieved a top ranking on RTEB with its 8B checkpoint. The collection has three open checkpoints.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9/10\n#AI #NVIDIA #MachineLearning\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "NVIDIA's Nemotron 3 Embed has taken the top spot on RTEB with its 8B checkpoint @NVIDIA #AI",
-        "twitter": "NVIDIA's Nemotron 3 Embed achieves top ranking on RTEB with its 8B checkpoint @NVIDIA #AI"
       }
     },
     "3438c34b8ae811dd23f58637cf7f41f7ab6db6c6fa7e985b97698c52ec7f3ae3": {
@@ -3396,6 +3359,12 @@
       "status": "scoring_attempted",
       "title": "Mayor Mamdani Says Landlords Can't Use AI Images to Advertise"
     },
+    "https://platform.claude.com/cookbook": {
+      "canonical_url": "https://platform.claude.com/cookbook",
+      "created_at": "2026-07-24T09:17:02Z",
+      "status": "scoring_attempted",
+      "title": "Claude Cookbook"
+    },
     "https://qwen.ai/blog?id=qwen-image-3.0": {
       "canonical_url": "https://qwen.ai/blog?id=qwen-image-3.0",
       "created_at": "2026-07-21T09:24:48Z",
@@ -4050,6 +4019,12 @@
       "status": "scoring_attempted",
       "title": "Article: Multi-Agent AI for Production Security Operations: An A2A and MCP Architecture in a 5G Core"
     },
+    "https://www.infoq.com/articles/self-building-agent-langchain4j": {
+      "canonical_url": "https://www.infoq.com/articles/self-building-agent-langchain4j",
+      "created_at": "2026-07-24T09:17:02Z",
+      "status": "scoring_attempted",
+      "title": "Article: The Self-Building Agent: A LangChain4j Experiment"
+    },
     "https://www.infoq.com/news/2026/07/alphaevolve-generally-available": {
       "canonical_url": "https://www.infoq.com/news/2026/07/alphaevolve-generally-available",
       "created_at": "2026-07-19T10:44:41Z",
@@ -4176,12 +4151,6 @@
       "status": "scoring_attempted",
       "title": "Achieving Compliance as a Platform Engineering Team by Helping Developers"
     },
-    "https://www.infoq.com/news/2026/07/production-ai-platforms-evals": {
-      "canonical_url": "https://www.infoq.com/news/2026/07/production-ai-platforms-evals",
-      "created_at": "2026-07-17T09:05:52Z",
-      "status": "scoring_attempted",
-      "title": "QCon AI Boston: Production AI Moves Beyond Prompts to Platforms, Harnesses, and Evals"
-    },
     "https://www.infoq.com/news/2026/07/qcon-ai-newyork-2026-live": {
       "canonical_url": "https://www.infoq.com/news/2026/07/qcon-ai-newyork-2026-live",
       "created_at": "2026-07-23T11:22:42Z",
@@ -4223,12 +4192,6 @@
       "created_at": "2026-07-17T12:08:47Z",
       "status": "scoring_attempted",
       "title": "Blatant AI slop just won a 25k USD DeepMind Kaggle Grand Prize"
-    },
-    "https://www.marktechpost.com/2026/07/17/nvidia-ai-releases-nemotron-3-embed-an-open-embedding-collection-whose-8b-checkpoint-ranks-1-on-rteb": {
-      "canonical_url": "https://www.marktechpost.com/2026/07/17/nvidia-ai-releases-nemotron-3-embed-an-open-embedding-collection-whose-8b-checkpoint-ranks-1-on-rteb",
-      "created_at": "2026-07-17T09:05:52Z",
-      "status": "scoring_attempted",
-      "title": "NVIDIA AI Releases Nemotron 3 Embed: An Open Embedding Collection Whose 8B Checkpoint Ranks #1 on RTEB"
     },
     "https://www.marktechpost.com/2026/07/17/sakana-ais-error-diffusion-trains-dale-compliant-dual-stream-networks-reaching-96-7-mnist-and-61-7-cifar-10-without-backpropagation": {
       "canonical_url": "https://www.marktechpost.com/2026/07/17/sakana-ais-error-diffusion-trains-dale-compliant-dual-stream-networks-reaching-96-7-mnist-and-61-7-cifar-10-without-backpropagation",
@@ -4955,12 +4918,6 @@
       "created_at": "2026-07-21T15:00:19Z",
       "status": "scoring_attempted",
       "title": "Halliday\u2019s New Smart Glasses Skip the Camera"
-    },
-    "https://www.wired.com/story/humanoid-robot-soldier-eric-trump-foundation-future-industries": {
-      "canonical_url": "https://www.wired.com/story/humanoid-robot-soldier-eric-trump-foundation-future-industries",
-      "created_at": "2026-07-17T09:05:52Z",
-      "status": "scoring_attempted",
-      "title": "A Humanoid Company Backed by Eric Trump Is Preparing Its Robots for War"
     },
     "https://www.wired.com/story/meta-david-bowie-apocalypse-ad-is-optimistic-actually": {
       "canonical_url": "https://www.wired.com/story/meta-david-bowie-apocalypse-ad-is-optimistic-actually",
