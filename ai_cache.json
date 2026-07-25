@@ -363,44 +363,27 @@
         }
       }
     },
-    "53d74a25c775c0bfa1130e1399b3dc649b5dc3e2521d521c42e00b869c2421af": {
-      "created_at": "2026-07-24T15:26:36Z",
+    "5ec252ba0e3ca575bfdd41a94ab8ccefbd80f9ba4a2fd0d149ce24396b8c78b4": {
+      "created_at": "2026-07-25T15:44:09Z",
       "payload": {
         "articles": [
           {
             "freshness_score": 2,
             "impact_score": 2.5,
-            "index": 4,
+            "index": 1,
             "novelty_score": 2.5,
-            "reason": "Major government initiative with significant funding and potential impact on AI-driven science projects.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "The tech-broification of American science has officially begun",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 5,
-            "novelty_score": 2,
-            "reason": "Government action on a specific app, but limited impact and lower-tier source.",
+            "reason": "The article discusses the impact of AI on jobs, which is relevant to software engineers and AI researchers, but the novelty is limited as it's an ongoing discussion.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 0.5,
-            "title": "Government orders GitHub to remove Bluetooth-based chat app Bitchat: Jack Dorsey",
-            "total_score": 6
+            "title": "The AI jobs apocalypse probably isn't coming anytime soon",
+            "total_score": 7.5
           }
         ],
-        "best_index": 4,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "The Trump administration has unveiled the \"Genesis Mission,\" a $5 billion initiative funding AI-driven science projects. This effort is described as comparable in urgency and ambition to the Manhattan Project. Link: https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\ud83d\udd25 *The tech-broification of American science has officially begun*\n\nThe Trump administration unveiled the first \"Genesis Mission\" grants, directing $5 billion toward hundreds of AI-driven science projects. This effort is described as comparable in urgency and ambition to the Manhattan Project.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "The Trump administration just launched the \"Genesis Mission,\" a $5 billion AI-driven science initiative. This is a major move with significant funding and potential impact. https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants",
-          "twitter": "The Trump administration just launched the \"Genesis Mission,\" a $5 billion AI-driven science initiative. https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants"
-        }
+        "best_index": 1,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "612e9a4b7c014554ebb76dd44498337a8c08c267361b02ad9f20f8d389647ad3": {
@@ -643,29 +626,6 @@
         }
       }
     },
-    "9de83026a35983e5c53334d951d583d8a412824a38ebcdcee8636c7ca9b46860": {
-      "created_at": "2026-07-24T14:27:38Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 6,
-            "novelty_score": 2.5,
-            "reason": "A security camera shipping a GitHub admin token in its login page is a significant security flaw, but the novelty is limited to a specific product and the source is not highly reputable.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "My security camera shipped a GitHub admin token in its login page",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 6,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "a3d54e1fd6e9d65f2f867ea273184440a47395e8546fa97f78dba653c77d9857": {
       "created_at": "2026-07-24T22:31:22Z",
       "payload": {
@@ -781,69 +741,6 @@
         }
       }
     },
-    "bbe45863b78a21f81d8ba7b08d5e322b9b442a5ab0941c9ec356f32c9be36883": {
-      "created_at": "2026-07-24T14:27:38Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 0.5,
-            "index": 2,
-            "novelty_score": 0.2,
-            "reason": "This is a tutorial-style post about a personal homelab overhaul, which is too niche and not impactful enough for a broad audience.",
-            "red_flag": true,
-            "red_flag_reason": "tutorial",
-            "source_score": 0.5,
-            "title": "Kaizen #4: Overhauled Homelab",
-            "total_score": 3.2
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 3,
-            "novelty_score": 3,
-            "reason": "OpenAI's new voice mode for ChatGPT desktop app is a significant update with broad impact on developers and AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "OpenAI\u2019s new voice mode makes it to the ChatGPT desktop app",
-            "total_score": 9
-          }
-        ],
-        "best_index": 3,
-        "best_score": 9,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "OpenAI has introduced a new voice mode for the ChatGPT desktop app, allowing users to interact with ChatGPT Work and Codex for task automation. This update enhances the functionality of the desktop app, making it more versatile for developers and researchers. Link: https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *OpenAI\u2019s new voice mode makes it to the ChatGPT desktop app*\n\nOpenAI has introduced a new voice mode for the ChatGPT desktop app, allowing users to interact with ChatGPT Work and Codex for task automation.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "OpenAI's new voice mode for ChatGPT desktop app now works with ChatGPT Work and Codex to automate tasks. This is a significant update for developers and AI researchers. https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/",
-          "twitter": "OpenAI adds voice mode to ChatGPT desktop app, integrating with ChatGPT Work and Codex for task automation. https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/"
-        }
-      }
-    },
-    "c381b2626f1839184b88609d721202dfdaa2941f4bb09b69920084ff81a207c8": {
-      "created_at": "2026-07-24T14:27:38Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 4,
-            "novelty_score": 2.0,
-            "reason": "Industry move with significant impact, but source is low tier.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Oracle fires 21,000 employees to fund AI spending",
-            "total_score": 7.0
-          }
-        ],
-        "best_index": 4,
-        "best_score": 7.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "c56d5924acc32950698378cc58fa43dae8256c2498f736bfaf320c9b49f1ebb9": {
       "created_at": "2026-07-24T18:44:11Z",
       "payload": {
@@ -891,44 +788,27 @@
         "social_posts": {}
       }
     },
-    "cce9f441b7b5fd147889bf6c1d5dfa2d243aaa50505f08baf3fbeb6af733e4e3": {
-      "created_at": "2026-07-24T14:27:38Z",
+    "c5d95972650212d81962b38e1cbb223993a583fab8fa662af4f0a52a6f68e17c": {
+      "created_at": "2026-07-25T15:44:09Z",
       "payload": {
         "articles": [
           {
             "freshness_score": 2.0,
             "impact_score": 1.5,
             "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Policy discussion on open weights with moderate impact and high freshness but low source tier.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Open Weights and American AI Leadership [pdf]",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.0,
-            "reason": "Significant regulatory change affecting AI infrastructure with high freshness and good source tier.",
+            "novelty_score": 1.5,
+            "reason": "Interesting deal but not relevant to software engineers or AI researchers.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 1.5,
-            "title": "AI firms want more data centers; Trump's EPA may give neighbors less say",
-            "total_score": 8.0
+            "title": "Teenage Engineering\u2019s unique music machines are 30 percent off",
+            "total_score": 6.5
           }
         ],
-        "best_index": 1,
-        "best_score": 8.0,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "The Trump administration's EPA is considering a rule that would allow states to decide how much public input there can be on AI data center projects. This could significantly impact the development of AI infrastructure. Link: https://arstechnica.com/tech-policy/2026/07/ai-firms-want-more-data-centers-trumps-epa-may-give-neighbors-less-say/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *AI firms want more data centers; Trump's EPA may give neighbors less say*\n\nThe Trump administration's EPA is considering a rule that would allow states to decide how much public input there can be on AI data center projects.\n\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.0/10\n\n\ud83d\udd17 https://arstechnica.com/tech-policy/2026/07/ai-firms-want-more-data-centers-trumps-epa-may-give-neighbors-less-say/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Trump's EPA may reduce public input on AI data center projects. States could decide how much input is allowed. https://arstechnica.com/tech-policy/2026/07/ai-firms-want-more-data-centers-trumps-epa-may-give-neighbors-less-say/",
-          "twitter": "Trump's EPA proposes rule that could limit public input on AI data center projects. https://arstechnica.com/tech-policy/2026/07/ai-firms-want-more-data-centers-trumps-epa-may-give-neighbors-less-say/"
-        }
+        "best_index": 0,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "d1872ae0b8d6678b039e03cdf4718cd2351650cd9ce7581566046dc0f630f10f": {
@@ -1034,86 +914,6 @@
         "social_posts": {}
       }
     },
-    "e5103886a8735456bb09e9462e5415dc0fa52a237189067b28ab67cb478b7518": {
-      "created_at": "2026-07-24T15:26:36Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Bluesky's AI assistant Attie expanding into an open social research tool is a notable industry move with significant impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Bluesky\u2019s AI assistant Attie expands into an open social research tool",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 1,
-            "novelty_score": 2,
-            "reason": "Midjourney's acquisition of Co-Star is an interesting industry move but has a narrower impact compared to the other article.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Midjourney acquired the astrology app Co-Star",
-            "total_score": 7
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Bluesky\u2019s AI assistant Attie has expanded into an open social research tool, allowing users to query news, trends, and conversations across Bluesky and other AT Protocol apps. This move could make Attie a more powerful tool for researchers and analysts.\nLink: https://techcrunch.com/2026/07/24/blueskys-ai-assistant-attie-expands-into-an-open-social-research-tool/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Bluesky\u2019s AI assistant Attie expands into an open social research tool*\n\nUsers can now ask Attie questions about news, trends, and conversations on Bluesky and other apps on the AT Protocol.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/24/blueskys-ai-assistant-attie-expands-into-an-open-social-research-tool/",
-          "threads": "Bluesky\u2019s AI assistant Attie is now an open social research tool, analyzing trends across Bluesky and AT Protocol apps. This could make it a powerful tool for researchers and analysts.\nhttps://techcrunch.com/2026/07/24/blueskys-ai-assistant-attie-expands-into-an-open-social-research-tool/",
-          "twitter": "Bluesky\u2019s AI assistant Attie is now an open social research tool, analyzing trends across Bluesky and AT Protocol apps.\nhttps://techcrunch.com/2026/07/24/blueskys-ai-assistant-attie-expands-into-an-open-social-research-tool/"
-        }
-      }
-    },
-    "ef82b8cbf7aa5992c52655e5105cf844011f6bc9bc95e13eb4840ca25df1255c": {
-      "created_at": "2026-07-24T15:26:36Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "Industry division over Chinese AI presents a significant development with broad implications.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Silicon Valley Is Completely Divided Over Chinese AI",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "OpenAI integrating health records into ChatGPT is a major privacy and functionality milestone.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "OpenAI pushes ChatGPT into patient health records",
-            "total_score": 8
-          }
-        ],
-        "best_index": 2,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "A deep divide has emerged in Silicon Valley over Chinese AI. While billion-dollar startups raise alarm bells, smaller players see things differently. The debate highlights the complex geopolitical and technological tensions shaping the future of AI. Link: https://www.wired.com/story/silicon-valley-is-completely-divided-over-chinese-ai/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Silicon Valley Is Completely Divided Over Chinese AI*\n\nSilicon Valley's billion-dollar AI startups are sounding the alarm on Chinese AI, while smaller players disagree sharply. The debate highlights the complex geopolitical and technological tensions shaping the future of AI.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.wired.com/story/silicon-valley-is-completely-divided-over-chinese-ai/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Silicon Valley's billion-dollar AI startups are sounding the alarm on Chinese AI, while smaller players disagree sharply. The debate highlights the complex geopolitical and technological tensions shaping the future of AI. https://www.wired.com/story/silicon-valley-is-completely-divided-over-chinese-ai/",
-          "twitter": "Silicon Valley's billion-dollar AI startups are sounding the alarm on Chinese AI, while smaller players disagree sharply. https://www.wired.com/story/silicon-valley-is-completely-divided-over-chinese-ai/"
-        }
-      }
-    },
     "fe3d3128b02900e14b74aa49e88025ddae71b820f9a8f19284341e745d13fdd5": {
       "created_at": "2026-07-25T14:26:01Z",
       "payload": {
@@ -1133,41 +933,6 @@
         ],
         "best_index": 0,
         "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "ffd76d05de7d9be2b02a1abccb1eaaef724e3e1785165cc9ad3a094d8bbe9805": {
-      "created_at": "2026-07-24T15:26:36Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 7,
-            "novelty_score": 0.5,
-            "reason": "Opinion piece from a niche source with limited impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Interview with a Maintainer",
-            "total_score": 3.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 10,
-            "novelty_score": 2.5,
-            "reason": "Interesting technical achievement but limited impact outside a niche audience.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Half-Life 2 running natively on HaikuOS",
-            "total_score": 6.0
-          }
-        ],
-        "best_index": 10,
-        "best_score": 6.0,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -3813,6 +3578,12 @@
       "status": "scoring_attempted",
       "title": "Be skeptical of OpenAI's rogue hacker agent story"
     },
+    "https://www.theguardian.com/technology/2026/jul/25/ai-jobs-apocalypse-human-labor": {
+      "canonical_url": "https://www.theguardian.com/technology/2026/jul/25/ai-jobs-apocalypse-human-labor",
+      "created_at": "2026-07-25T15:44:09Z",
+      "status": "scoring_attempted",
+      "title": "The AI jobs apocalypse probably isn't coming anytime soon"
+    },
     "https://www.thehindu.com/news/national/government-orders-github-to-remove-bluetooth-based-chat-app-bitchat-over-security-concerns-jack-dorsey/article71262049.ece": {
       "canonical_url": "https://www.thehindu.com/news/national/government-orders-github-to-remove-bluetooth-based-chat-app-bitchat-over-security-concerns-jack-dorsey/article71262049.ece",
       "created_at": "2026-07-24T15:26:36Z",
@@ -4058,6 +3829,12 @@
       "created_at": "2026-07-24T17:06:40Z",
       "status": "scoring_attempted",
       "title": "One of the best 2-in-1 Chromebooks is almost $200 off for today only"
+    },
+    "https://www.theverge.com/gadgets/970685/teenage-engineering-30-percent-deal-sale": {
+      "canonical_url": "https://www.theverge.com/gadgets/970685/teenage-engineering-30-percent-deal-sale",
+      "created_at": "2026-07-25T15:44:09Z",
+      "status": "scoring_attempted",
+      "title": "Teenage Engineering\u2019s unique music machines are 30 percent off"
     },
     "https://www.theverge.com/gadgets/970910/qualcomm-raising-prices-bloomberg": {
       "canonical_url": "https://www.theverge.com/gadgets/970910/qualcomm-raising-prices-bloomberg",
