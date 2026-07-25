@@ -305,6 +305,29 @@
         "social_posts": {}
       }
     },
+    "4529f429151543a9cf54cf293b890dea0a9dfe3fa02ec156426fc02ca9b20356": {
+      "created_at": "2026-07-25T23:57:17Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.0,
+            "index": 0,
+            "novelty_score": 0.0,
+            "reason": "This is a recap article, which is a red flag.",
+            "red_flag": true,
+            "red_flag_reason": "recap",
+            "source_score": 0.5,
+            "title": "Clinical Failure Rates over the Decades: Yikes",
+            "total_score": 2.0
+          }
+        ],
+        "best_index": 0,
+        "best_score": 2.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "4591a15f1ad09345a8af693c05cc2788db8bf2fab16c5c7ba5380ab4e1316c27": {
       "created_at": "2026-07-25T20:03:36Z",
       "payload": {
@@ -3271,12 +3294,6 @@
       "status": "scoring_attempted",
       "title": "Kimi K3 vs DeepSeek V4 Pro vs GLM-5.2: Open Trillion-Scale MoE Models Compared on Benchmarks, License, and Serving Cost"
     },
-    "https://www.marktechpost.com/2026/07/18/nvidia-released-deepstream-9-1-bringing-agentic-ai-to-vision-ai-with-13-skills-and-multi-view-3d-tracking": {
-      "canonical_url": "https://www.marktechpost.com/2026/07/18/nvidia-released-deepstream-9-1-bringing-agentic-ai-to-vision-ai-with-13-skills-and-multi-view-3d-tracking",
-      "created_at": "2026-07-18T23:32:02Z",
-      "status": "scoring_attempted",
-      "title": "NVIDIA Released DeepStream 9.1: Bringing Agentic AI to Vision AI With 13 Skills and Multi-View 3D Tracking"
-    },
     "https://www.marktechpost.com/2026/07/19/feyn-ai-releases-sqrl-a-text-to-sql-model-family-that-inspects-the-database-before-writing-a-query": {
       "canonical_url": "https://www.marktechpost.com/2026/07/19/feyn-ai-releases-sqrl-a-text-to-sql-model-family-that-inspects-the-database-before-writing-a-query",
       "created_at": "2026-07-19T23:33:23Z",
@@ -3432,6 +3449,12 @@
       "created_at": "2026-07-23T15:53:04Z",
       "status": "scoring_attempted",
       "title": "Hybrid-Electric Aicraft Engine Targeting 30% Fuel Efficiency"
+    },
+    "https://www.science.org/content/blog-post/clinical-failure-rates-over-decades-yikes": {
+      "canonical_url": "https://www.science.org/content/blog-post/clinical-failure-rates-over-decades-yikes",
+      "created_at": "2026-07-25T23:57:17Z",
+      "status": "scoring_attempted",
+      "title": "Clinical Failure Rates over the Decades: Yikes"
     },
     "https://www.sciencedaily.com/releases/2026/07/260717033213.htm": {
       "canonical_url": "https://www.sciencedaily.com/releases/2026/07/260717033213.htm",
