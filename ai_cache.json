@@ -126,84 +126,47 @@
         }
       }
     },
-    "1ae08f74acf67a5186322b91917aa3224e22fcceb0fcf192714b68ae6b98eb60": {
-      "created_at": "2026-07-24T05:46:58Z",
+    "1845e15fdb97c3ebc9d36573757983e8e31622efae56af305c8f1b52d0bba5c1": {
+      "created_at": "2026-07-25T06:13:37Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Datalab Marker v2 shows significant improvements in both accuracy and speed compared to competitors.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Datalab Marker v2 vs MinerU, Docling, and Liteparse: Benchmark Breakdown",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "1b79d44994855b24feb15294284c8c9c9b5c48016b4eca0a66df2d1b18b03331": {
+      "created_at": "2026-07-25T06:13:37Z",
       "payload": {
         "articles": [
           {
             "freshness_score": 2,
             "impact_score": 2.5,
-            "index": 19,
+            "index": 1,
             "novelty_score": 2.5,
-            "reason": "New research on LLM offloading with practical applications, but from a lower-tier source.",
+            "reason": "Preliminary assessment of Kimi K3's cyber capabilities by UK AISI / Caisi.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 0.5,
-            "title": "Routing Without Training: Controllable-Ratio LLM Offloading via Reliability Gating",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 20,
-            "novelty_score": 2.5,
-            "reason": "New benchmark for personalized web agents, but from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "PersonaTrail: Benchmarking Personalized Web Agents through Browsing Trails",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 21,
-            "novelty_score": 2.5,
-            "reason": "New research on controlling autoregressive LLMs, but from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Tractable Hierarchical Control of Autoregressive Language Models",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 22,
-            "novelty_score": 2.5,
-            "reason": "New approach to mitigating representation collapse in LLMs, but from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "The Devil is in the Spectrum: Mitigating Representation Collapse in LLMs via Topologically Regularized Side-Path",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 23,
-            "novelty_score": 2.5,
-            "reason": "New research on aligning LLM expectations with real-world user expectations, but from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Expectation Alignment of Language Models for Real-World User Expectations",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 24,
-            "novelty_score": 2.5,
-            "reason": "New research on optimizer discovery for transformer pretraining, but from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "OPTScientist: Multi-Agent Discovery of Typed Optimizer Programs for Transformer Pretraining",
+            "title": "UK AISI / Caisi Preliminary Assessment of Kimi K3's Cyber Capabilities",
             "total_score": 7.5
           }
         ],
-        "best_index": 19,
+        "best_index": 1,
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
@@ -463,101 +426,6 @@
         "social_posts": {}
       }
     },
-    "5b313200d342f7ccbaed02add4cd18ae740c4134c1c001d10be1fb001b9a950e": {
-      "created_at": "2026-07-24T05:46:58Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Interesting application of AI to nuclear plant operations, but niche impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Working to automate nuclear plant operations",
-            "total_score": 7
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "New research on agentic AI for test management, but from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "AINTMA: Agentic AI Architecture for Autonomous Test Management with Generative Intelligence, Secure Cloud Communication and Adaptive Quality Analytics",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "Important research on LLM watermarks in medical texts, but from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Marking the Wrong Symptoms: Evaluating LLM Watermarks in Medical Texts",
-            "total_score": 7
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "Interesting research on clickbait detection, but from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "ClickGuard: Detecting and Spoiling Clickbait News with Informativeness Measures and Large Language Models",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 4,
-            "novelty_score": 2.5,
-            "reason": "Important research on LLM sampling, but from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Stochastic Sampling is Epistemically Shallow: The Dimensionality Gap Between Temperature Variation and Model Diversity in LLMs",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 5,
-            "novelty_score": 2.5,
-            "reason": "Interesting research on TPU kernel optimization, but from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "JAXBench: Benchmarking Autonomous TPU Kernel Optimization",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 6,
-            "novelty_score": 2.5,
-            "reason": "Interesting research on dLLM acceleration, but from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "DC-Leap: Training-Free Acceleration of dLLMs via Draft-Guided Contiguous Leaping Decoding",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 2,
-        "best_score": 7,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "61a250877566fa11728134df7cd287545223fb17a2547852465418df11fdbd8d": {
       "created_at": "2026-07-24T17:06:40Z",
       "payload": {
@@ -794,89 +662,6 @@
         ],
         "best_index": 6,
         "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "9ea452bc4b66636a0e7baf51fb9ad70ffa1b8f15927ffb6779244e6f30fe14a5": {
-      "created_at": "2026-07-24T05:46:58Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 13,
-            "novelty_score": 2.5,
-            "reason": "New research on natural language interfaces for optimization modeling with LLMs.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "VeriSimpl: Robust Optimization Modeling from Natural Language using Simplification-based Verification",
-            "total_score": 7
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 14,
-            "novelty_score": 2.5,
-            "reason": "New approach to accelerate LLM inference pipeline with unified kernels.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "SonicSampler: Unified Tile-Aware Kernels for LLM Sampling and Speculative Verification",
-            "total_score": 7
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 15,
-            "novelty_score": 2.5,
-            "reason": "Empirical benchmark evaluating LLMs on multi-sensor physical hazard data.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Benchmarking Large Language Models on Multi-Sensor Physical Hazard Assessment",
-            "total_score": 7
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 16,
-            "novelty_score": 2.5,
-            "reason": "New method for scalable representation learning over text-attributed graphs.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Semi-Supervised Text-Attributed Graph Distillation",
-            "total_score": 7
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 17,
-            "novelty_score": 2.5,
-            "reason": "Research on deception detection in LLMs with different lie typologies.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Beyond Liars' Bench: The Impact of Lie Typology, Depth, and Sparsity on Deception Detection in LLMs",
-            "total_score": 7
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 18,
-            "novelty_score": 2.5,
-            "reason": "New method for scalable topology inference in distribution systems.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Enabling Scalable Topology Inference in Distribution Systems via Constrained Multi-Source Inference",
-            "total_score": 7
-          }
-        ],
-        "best_index": 13,
-        "best_score": 7,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1144,94 +929,6 @@
         "best_score": 7.0,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "c530c0907acbac92a97b09dd9780da0f5f066e0f8f46e32ec6c0d56f6a6022b1": {
-      "created_at": "2026-07-24T05:46:58Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 7,
-            "novelty_score": 2.5,
-            "reason": "New benchmark for LLM inference optimization by AI agents, relevant to researchers and developers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "InferenceBench: A Benchmark for Open-Ended LLM Inference Optimization by AI Agents",
-            "total_score": 8
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2,
-            "index": 8,
-            "novelty_score": 2.5,
-            "reason": "New research on LLM decode-time decisions, relevant to AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "DecodeShare: Tracing the Shared Subspace of LLM Decode-Time Decisions",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2,
-            "index": 9,
-            "novelty_score": 2.5,
-            "reason": "New approach to planning data, tuning, and inference for LLMs, relevant to AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "PlanE: Meta Planning of Data, Tuning, and Inference for Extractive-based LLMs",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2,
-            "index": 10,
-            "novelty_score": 2.5,
-            "reason": "New benchmark for personalization capabilities of LLMs, relevant to AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Benchmarking the Personalization Capabilities of Large Language Models",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 11,
-            "novelty_score": 2.5,
-            "reason": "New research on defending LLMs against multi-turn attacks, relevant to AI security researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Robust Critics: Defending LLMs Against Multi-Turn Attacks",
-            "total_score": 8
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 12,
-            "novelty_score": 2.5,
-            "reason": "New research on incomplete prompt jailbreaks in LLMs, relevant to AI security researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Incomplete Prompt Jailbreaks in Large Language Models",
-            "total_score": 8
-          }
-        ],
-        "best_index": 11,
-        "best_score": 8,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Researchers have developed a new method to defend large language models against multi-turn attacks. This work addresses the ambiguity in distinguishing harmful requests from genuine questions, improving LLM safety. Link: https://arxiv.org/abs/2607.20472",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Robust Critics: Defending LLMs Against Multi-Turn Attacks*\n\nResearchers propose robust critics to defend LLMs against multi-turn attacks, addressing the ambiguity in distinguishing harmful requests from genuine questions.\n\n\ud83c\udfdb\ufe0f Source: arXiv cs.AI (C)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8/10\n\n\ud83d\udd17 https://arxiv.org/abs/2607.20472\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Defending LLMs against multi-turn attacks is getting better. New research proposes robust critics to handle ambiguous harmful requests. https://arxiv.org/abs/2607.20472",
-          "twitter": "New research on defending LLMs against multi-turn attacks. https://arxiv.org/abs/2607.20472"
-        }
       }
     },
     "c56d5924acc32950698378cc58fa43dae8256c2498f736bfaf320c9b49f1ebb9": {
@@ -1729,15 +1426,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 NVIDIA Releases Cosmos 3 Edge Model\nNVIDIA's Cosmos 3 Edge is a 4-billion-parameter open world model that enables robots to understand surroundings and generate actions on-device.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #Robotics #NVIDIA\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "NVIDIA's Cosmos 3 Edge model is a significant development in robotics and AI, enabling robots to understand their surroundings and generate actions on-device @NVIDIA #AI",
         "twitter": "NVIDIA's new Cosmos 3 Edge model enables robots to understand surroundings and generate actions on-device @NVIDIA #AI"
-      }
-    },
-    "4499783dcf14835e4fcf070911fac3ac80ea5bcae79c4435e731467637a55020": {
-      "created_at": "2026-07-18T05:06:09Z",
-      "payload": {
-        "facebook": "The wealth generated by AI in Silicon Valley will have to be redistributed according to Neil Rimer, co-founder of Index Ventures. This prediction has significant implications for the tech industry and its economic landscape. The historic wealth created by AI will need to be voluntarily or involuntarily shared, marking a substantial change in the industry's financial dynamics #AI #TechEconomy #WealthRedistribution",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 AI Wealth Redistribution\nThe historic wealth generated by AI in Silicon Valley will have to be redistributed, according to Neil Rimer, co-founder of Index Ventures. This prediction marks a significant shift in the industry's economics.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #TechEconomy #WealthRedistribution\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Neil Rimer, co-founder of Index Ventures, predicts that the wealth generated by AI in Silicon Valley will be redistributed, a significant shift in the industry's economics @IndexVentures #AI",
-        "twitter": "AI wealth in Silicon Valley will be redistributed says @IndexVentures co-founder Neil Rimer, a significant shift in the industry's economics #AI"
       }
     },
     "4538cace054ff9346ebf310b4c5fb309336980abb4e4fc70ced70936f5bf8633": {
@@ -3356,12 +3044,6 @@
       "status": "scoring_attempted",
       "title": "Mirror your GitHub repos to tangled.org automatically"
     },
-    "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out": {
-      "canonical_url": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out",
-      "created_at": "2026-07-18T05:06:09Z",
-      "status": "scoring_attempted",
-      "title": "Neil Rimer thinks the AI money is coming back out"
-    },
     "https://techcrunch.com/2026/07/18/kimi-threat-or-menace": {
       "canonical_url": "https://techcrunch.com/2026/07/18/kimi-threat-or-menace",
       "created_at": "2026-07-18T20:23:27Z",
@@ -4226,6 +3908,12 @@
       "status": "scoring_attempted",
       "title": "You Didn\u2019t Get the AI Model You Paid For"
     },
+    "https://www.marktechpost.com/2026/07/24/datalab-marker-v2-vs-mineru-docling-and-liteparse-benchmark-breakdown": {
+      "canonical_url": "https://www.marktechpost.com/2026/07/24/datalab-marker-v2-vs-mineru-docling-and-liteparse-benchmark-breakdown",
+      "created_at": "2026-07-25T06:13:37Z",
+      "status": "scoring_attempted",
+      "title": "Datalab Marker v2 vs MinerU, Docling, and Liteparse: Benchmark Breakdown"
+    },
     "https://www.marktechpost.com/2026/07/24/meet-the-new-claude-opus-5-frontier-class-agentic-coding-and-computer-use-at-unchanged-opus-pricing": {
       "canonical_url": "https://www.marktechpost.com/2026/07/24/meet-the-new-claude-opus-5-frontier-class-agentic-coding-and-computer-use-at-unchanged-opus-pricing",
       "created_at": "2026-07-24T22:31:22Z",
@@ -4237,6 +3925,12 @@
       "created_at": "2026-07-20T15:48:01Z",
       "status": "scoring_attempted",
       "title": "Jaron Lanier: there is no AI (2023)"
+    },
+    "https://www.nist.gov/news-events/news/2026/07/uk-aisi-caisi-preliminary-assessment-kimi-k3s-cyber-capabilities": {
+      "canonical_url": "https://www.nist.gov/news-events/news/2026/07/uk-aisi-caisi-preliminary-assessment-kimi-k3s-cyber-capabilities",
+      "created_at": "2026-07-25T06:13:37Z",
+      "status": "scoring_attempted",
+      "title": "UK AISI / Caisi Preliminary Assessment of Kimi K3's Cyber Capabilities"
     },
     "https://www.npr.org/2026/07/17/nx-s1-5898504/ice-medicaid-palantir-data": {
       "canonical_url": "https://www.npr.org/2026/07/17/nx-s1-5898504/ice-medicaid-palantir-data",
