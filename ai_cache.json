@@ -747,34 +747,6 @@
         }
       }
     },
-    "87f34be8587e0a4eb0bfa13a5cf723e997f1e46a1e1aafdd4f6cc2987bf29444": {
-      "created_at": "2026-07-24T02:41:26Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Cybersecurity researchers reveal how AI guardrails hinder vulnerability discovery and tool development.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "How AI guardrails are impeding the work of offensive cybersecurity researchers",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "AI guardrails designed to prevent misuse are now hindering offensive cybersecurity research. Researchers report difficulties in discovering vulnerabilities and developing exploitation tools. Link: https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *How AI guardrails are impeding the work of offensive cybersecurity researchers*\n\nCybersecurity researchers report that AI guardrails are hindering vulnerability discovery and tool development.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "AI guardrails are making it harder for cybersecurity researchers to find vulnerabilities and build exploitation tools. https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/",
-          "twitter": "Cybersecurity researchers say AI guardrails are blocking vulnerability discovery and tool development. https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/"
-        }
-      }
-    },
     "8b1a9a4811b9c6f0a04705e49456c1e926c26ee8b4582d93144b480a36a89bac": {
       "created_at": "2026-07-24T22:31:22Z",
       "payload": {
@@ -1443,6 +1415,29 @@
         ],
         "best_index": 4,
         "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "dd8189f23bb5727abd6e0eae8086ddca68f7f1744eb250bcd8d603ac39a87175": {
+      "created_at": "2026-07-25T03:41:43Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 0.5,
+            "impact_score": 1.5,
+            "index": 24,
+            "novelty_score": 0.5,
+            "reason": "Comments are not a valid source for software engineers and AI researchers.",
+            "red_flag": true,
+            "red_flag_reason": "Comments",
+            "source_score": 0.5,
+            "title": "If coding has been solved, why does software keep getting worse?",
+            "total_score": 2.5
+          }
+        ],
+        "best_index": 24,
+        "best_score": 2.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -3133,12 +3128,6 @@
       "status": "scoring_attempted",
       "title": "EU Exempts Apple Watch and AirPods from Battery Removal Requirements"
     },
-    "https://moonstone.sh": {
-      "canonical_url": "https://moonstone.sh",
-      "created_at": "2026-07-18T02:04:56Z",
-      "status": "scoring_attempted",
-      "title": "Moonstone: Modern, cross-platform Lua runtime and package manager written in Zig"
-    },
     "https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your": {
       "canonical_url": "https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your",
       "created_at": "2026-07-23T15:07:34Z",
@@ -3307,6 +3296,12 @@
       "status": "scoring_attempted",
       "title": "Claude Cookbook"
     },
+    "https://ptrchm.com/posts/nothing-works-and-everyone-is-euphoric": {
+      "canonical_url": "https://ptrchm.com/posts/nothing-works-and-everyone-is-euphoric",
+      "created_at": "2026-07-25T03:41:43Z",
+      "status": "scoring_attempted",
+      "title": "If coding has been solved, why does software keep getting worse?"
+    },
     "https://qwen.ai/blog?id=qwen-image-3.0": {
       "canonical_url": "https://qwen.ai/blog?id=qwen-image-3.0",
       "created_at": "2026-07-21T09:24:48Z",
@@ -3342,12 +3337,6 @@
       "created_at": "2026-07-21T18:21:46Z",
       "status": "scoring_attempted",
       "title": "Jack Dorsey launches Buzz to combine team chat, AI agents and Git hosting"
-    },
-    "https://sam.sutch.net/posts/a-grumpy-ai-screed": {
-      "canonical_url": "https://sam.sutch.net/posts/a-grumpy-ai-screed",
-      "created_at": "2026-07-18T02:04:56Z",
-      "status": "scoring_attempted",
-      "title": "A grumpy screed about AI in software engineering"
     },
     "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust": {
       "canonical_url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust",
