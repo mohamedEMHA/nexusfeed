@@ -247,53 +247,6 @@
         "social_posts": {}
       }
     },
-    "33d24655180473e98ed49bda5e6bf04a84d6043ec784868e26956c2bc34da10a": {
-      "created_at": "2026-07-24T17:06:40Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 0.5,
-            "index": 3,
-            "novelty_score": 0.5,
-            "reason": "Opinion piece with low impact and novelty.",
-            "red_flag": true,
-            "red_flag_reason": "opinion",
-            "source_score": 0.5,
-            "title": "Be skeptical of OpenAI's rogue hacker agent story",
-            "total_score": 3.5
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 0.5,
-            "index": 4,
-            "novelty_score": 0.5,
-            "reason": "Opinion piece with low impact and novelty.",
-            "red_flag": true,
-            "red_flag_reason": "opinion",
-            "source_score": 0.5,
-            "title": "Micro-SaaS Is Dead. Service With A Software Replaces It",
-            "total_score": 3.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 5,
-            "novelty_score": 2.5,
-            "reason": "High novelty and impact, but not fresh enough to reach the threshold.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "As US weighs response to Chinese AI, industry urges against broad open-weight restrictions",
-            "total_score": 8.0
-          }
-        ],
-        "best_index": 5,
-        "best_score": 8.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "36af56ad680c741184df474e0b4c58785cf5b30a4fc39e802ac5f9d9392fd80f": {
       "created_at": "2026-07-25T01:25:20Z",
       "payload": {
@@ -438,6 +391,29 @@
         }
       }
     },
+    "5e1503099456315b704dec74a9bec427f80e659101104661e292f3dd030bde76": {
+      "created_at": "2026-07-25T17:47:07Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.5,
+            "index": 1,
+            "novelty_score": 0.2,
+            "reason": "Low novelty and impact, not directly relevant to software engineers or AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Politician reads AI prompt during assembly",
+            "total_score": 2.2
+          }
+        ],
+        "best_index": 1,
+        "best_score": 2.2,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "5ec252ba0e3ca575bfdd41a94ab8ccefbd80f9ba4a2fd0d149ce24396b8c78b4": {
       "created_at": "2026-07-25T15:44:09Z",
       "payload": {
@@ -519,41 +495,6 @@
         "social_posts": {}
       }
     },
-    "61a250877566fa11728134df7cd287545223fb17a2547852465418df11fdbd8d": {
-      "created_at": "2026-07-24T17:06:40Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 10,
-            "novelty_score": 0.2,
-            "reason": "Comments section with no clear novelty or impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Codeberg Divides",
-            "total_score": 3.2
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 14,
-            "novelty_score": 2.5,
-            "reason": "Discusses viral Chinese AI model Kimi and OpenAI's rogue model incident, relevant to AI researchers and developers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "\u2018AI communism\u2019, rogue models, and the why Kimi K3 spooked Wall Street",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 14,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "70ad4bb7ce725aeefbdfab9bac77693249f98bc7ffb0ac2fcbb10bc6b6f0a917": {
       "created_at": "2026-07-24T20:04:50Z",
       "payload": {
@@ -625,58 +566,6 @@
           "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Midjourney bought the astrology app Co-Star*\n\nMidjourney, known for AI-generated art, has acquired Co-Star, a personalized astrology app. This move marks a significant shift for the company, expanding beyond visual AI into personalized horoscopes and astrological insights.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/ai-artificial-intelligence/970894/midjourney-co-star-acquisition\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
           "threads": "Midjourney just bought Co-Star, the astrology app. Interesting pivot for an AI art company. https://www.theverge.com/ai-artificial-intelligence/970894/midjourney-co-star-acquisition",
           "twitter": "Midjourney just acquired Co-Star, the personalized astrology app, signaling a bold pivot into new territory. https://www.theverge.com/ai-artificial-intelligence/970894/midjourney-co-star-acquisition"
-        }
-      }
-    },
-    "7b2d2baae1d7678e5e8816931f774cf1d3ecddde4a6d0d34e5d5a22aff5c7e08": {
-      "created_at": "2026-07-24T17:06:40Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 3.0,
-            "reason": "New model release with significant cost and restriction improvements.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Anthropic launches Opus 5",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 0.0,
-            "index": 1,
-            "novelty_score": 0.0,
-            "reason": "Comments section with no substantive content.",
-            "red_flag": true,
-            "red_flag_reason": "Comments",
-            "source_score": 0.5,
-            "title": "Claude Opus 5",
-            "total_score": 2.5
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "Significant change in Java ecosystem but limited to macOS/x64 users.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "As of JDK 27, Oracle engineers will thus stop maintaining the macOS/x64 port",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Anthropic just launched Opus 5, a new model that's both cheaper and less restrictive than Fable. This could make it the preferred choice for most applications. The announcement comes as the AI model market continues to evolve rapidly. Link: https://techcrunch.com/2026/07/24/anthropic-launches-opus-5",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Anthropic launches Opus 5*\n\nAnthropic's Opus 5 model is cheaper and less restrictive than Fable, likely becoming the new default for most use cases.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/",
-          "threads": "Anthropic's Opus 5 model is cheaper and less restrictive than Fable, likely becoming the new default for most use cases. The cost savings alone could make it a game-changer for many applications. https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/",
-          "twitter": "Anthropic's Opus 5 model is cheaper and less restrictive than Fable, likely becoming the new default for most use cases.\nhttps://techcrunch.com/2026/07/24/anthropic-launches-opus-5/"
         }
       }
     },
@@ -956,58 +845,6 @@
         "social_posts": {}
       }
     },
-    "d1872ae0b8d6678b039e03cdf4718cd2351650cd9ce7581566046dc0f630f10f": {
-      "created_at": "2026-07-24T17:06:40Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 6,
-            "novelty_score": 2.5,
-            "reason": "New framework announcement but niche impact and lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "The front end framework for correctness: built on Effect, architected like Elm",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 7,
-            "novelty_score": 2,
-            "reason": "Industry-moving safety regulation news from a top-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Tesla\u2019s car door defect could lead to tougher rules for everyone",
-            "total_score": 8
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 0.5,
-            "index": 8,
-            "novelty_score": 0,
-            "reason": "Sales pitch with no technical relevance to software engineers or AI researchers.",
-            "red_flag": true,
-            "red_flag_reason": "sales pitch",
-            "source_score": 1.5,
-            "title": "One of the best 2-in-1 Chromebooks is almost $200 off for today only",
-            "total_score": 4
-          }
-        ],
-        "best_index": 7,
-        "best_score": 8,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Tesla's electronic door handles, linked to several deaths, may lead to stricter safety rules for the entire auto industry. The National Highway Traffic Safety Administration's recent notice highlights the potential impact. Link: https://www.theverge.com/transportation/970560/tesla-electronic-door-crash-nhtsa-safety-rules",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Tesla\u2019s car door defect could lead to tougher rules for everyone*\n\nTesla's electronic door handles, linked to several deaths, may lead to stricter safety rules for the entire auto industry. The National Highway Traffic Safety Administration's recent notice highlights the potential impact.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.0/10\n\n\ud83d\udd17 https://www.theverge.com/transportation/970560/tesla-electronic-door-crash-nhtsa-safety-rules\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Tesla's door handle defect could force the auto industry to adopt tougher safety rules. The Verge breaks down the potential regulatory changes. https://www.theverge.com/transportation/970560/tesla-electronic-door-crash-nhtsa-safety-rules",
-          "twitter": "Tesla's door handle defect could reshape auto industry safety regulations. The Verge reports on potential widespread impact.\nhttps://www.theverge.com/transportation/970560/tesla-electronic-door-crash-nhtsa-safety-rules"
-        }
-      }
-    },
     "d653444280334b32ed9727a3781c5b0380f44124dc845af66811af38f252d52a": {
       "created_at": "2026-07-25T09:12:42Z",
       "payload": {
@@ -1055,6 +892,29 @@
         ],
         "best_index": 24,
         "best_score": 2.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "f082166406c0f113fa05855fa50142fd2b2db255386aa11f0f7324bb802940b8": {
+      "created_at": "2026-07-25T17:47:07Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Apple's AI advancements are notable but the source is not highly reputable.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Apple Is the King of AI and Nobody Knows It",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -2316,12 +2176,6 @@
       "status": "scoring_attempted",
       "title": "Agent swarms and the new model economics"
     },
-    "https://deepmind.google/blog/our-approach-to-bioresilience": {
-      "canonical_url": "https://deepmind.google/blog/our-approach-to-bioresilience",
-      "created_at": "2026-07-18T17:14:22Z",
-      "status": "scoring_attempted",
-      "title": "Our Approach to Bioresilience: Isomorphic Labs and Google DeepMind"
-    },
     "https://discuss.haiku-os.org/t/haiku-nvidia-porting-nvidia-driver-for-turing-gpus/16520?page=18": {
       "canonical_url": "https://discuss.haiku-os.org/t/haiku-nvidia-porting-nvidia-driver-for-turing-gpus/16520?page=18",
       "created_at": "2026-07-24T15:26:36Z",
@@ -2543,6 +2397,12 @@
       "created_at": "2026-07-22T17:00:35Z",
       "status": "scoring_attempted",
       "title": "The Pillars of an API Platform"
+    },
+    "https://limitededitionjonathan.substack.com/p/apple-is-the-king-of-ai-and-nobody": {
+      "canonical_url": "https://limitededitionjonathan.substack.com/p/apple-is-the-king-of-ai-and-nobody",
+      "created_at": "2026-07-25T17:47:07Z",
+      "status": "scoring_attempted",
+      "title": "Apple Is the King of AI and Nobody Knows It"
     },
     "https://localsotabenchmark.engineersf.dev": {
       "canonical_url": "https://localsotabenchmark.engineersf.dev",
@@ -3894,12 +3754,6 @@
       "status": "scoring_attempted",
       "title": "Who\u2019s afraid of the big, bad GPU?"
     },
-    "https://www.theverge.com/design/967606/google-open-source-3d-emoji": {
-      "canonical_url": "https://www.theverge.com/design/967606/google-open-source-3d-emoji",
-      "created_at": "2026-07-18T17:14:22Z",
-      "status": "scoring_attempted",
-      "title": "Google is open-sourcing its 3D emoji"
-    },
     "https://www.theverge.com/entertainment/967485/telepathic-instruments-orchid-tame-impala-synth-review": {
       "canonical_url": "https://www.theverge.com/entertainment/967485/telepathic-instruments-orchid-tame-impala-synth-review",
       "created_at": "2026-07-19T16:12:03Z",
@@ -4439,6 +4293,12 @@
       "created_at": "2026-07-20T17:12:45Z",
       "status": "scoring_attempted",
       "title": "Cross sectioning insects in an electron microscope with a femtosecond laser [video]"
+    },
+    "https://www.youtube.com/watch?v=wlYa8NV5k-U": {
+      "canonical_url": "https://www.youtube.com/watch?v=wlYa8NV5k-U",
+      "created_at": "2026-07-25T17:47:07Z",
+      "status": "scoring_attempted",
+      "title": "Politician reads AI prompt during assembly"
     },
     "https://www.youtube.com/watch?v=zLZwpH5lCD4": {
       "canonical_url": "https://www.youtube.com/watch?v=zLZwpH5lCD4",
