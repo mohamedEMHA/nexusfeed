@@ -264,6 +264,29 @@
         "social_posts": {}
       }
     },
+    "4591a15f1ad09345a8af693c05cc2788db8bf2fab16c5c7ba5380ab4e1316c27": {
+      "created_at": "2026-07-25T20:03:36Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 1.5,
+            "reason": "A plain-text weather forecast site is a niche tool with limited impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Show HN: Brolly, a plain-text weather forecast site",
+            "total_score": 4.5
+          }
+        ],
+        "best_index": 2,
+        "best_score": 4.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "4629123452ab85589964e3349fc70694e5a59d239274ac0a4b0cbb34a212bb69": {
       "created_at": "2026-07-25T09:12:42Z",
       "payload": {
@@ -306,6 +329,29 @@
         ],
         "best_index": 1,
         "best_score": 2.2,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "5e94c8d05fc3fda8b20d56153211e6337559dbe92fcd669b0029ed0eb84f0ba9": {
+      "created_at": "2026-07-25T20:03:36Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Open Dreamer is a significant reproduction of Dreamer 4, but it's not a new release from a major player.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Meet Open Dreamer: A JAX/Flax Reproduction of the Dreamer 4 World Model Pipeline, With the Full Training Recipe Published",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1936,6 +1982,12 @@
       "status": "scoring_attempted",
       "title": "Lossless model compression experiment: GLM-5.2 in 25% less memory"
     },
+    "https://brolly.sh/forecast/RWFP2qW8": {
+      "canonical_url": "https://brolly.sh/forecast/RWFP2qW8",
+      "created_at": "2026-07-25T20:03:36Z",
+      "status": "scoring_attempted",
+      "title": "Show HN: Brolly, a plain-text weather forecast site"
+    },
     "https://cacm.acm.org/blogcacm/if-you-think-you-can-do-real-world-text-to-sql": {
       "canonical_url": "https://cacm.acm.org/blogcacm/if-you-think-you-can-do-real-world-text-to-sql",
       "created_at": "2026-07-22T22:46:20Z",
@@ -3357,6 +3409,12 @@
       "created_at": "2026-07-24T22:31:22Z",
       "status": "scoring_attempted",
       "title": "Meet the New Claude Opus 5: Frontier-Class Agentic Coding and Computer Use at Unchanged Opus Pricing"
+    },
+    "https://www.marktechpost.com/2026/07/25/meet-open-dreamer-a-jax-flax-reproduction-of-the-dreamer-4-world-model-pipeline-with-the-full-training-recipe-published": {
+      "canonical_url": "https://www.marktechpost.com/2026/07/25/meet-open-dreamer-a-jax-flax-reproduction-of-the-dreamer-4-world-model-pipeline-with-the-full-training-recipe-published",
+      "created_at": "2026-07-25T20:03:36Z",
+      "status": "scoring_attempted",
+      "title": "Meet Open Dreamer: A JAX/Flax Reproduction of the Dreamer 4 World Model Pipeline, With the Full Training Recipe Published"
     },
     "https://www.marktechpost.com/2026/07/25/why-the-openai-agent-broke-into-hugging-face-reward-hacking-not-malice-explained-for-engineers": {
       "canonical_url": "https://www.marktechpost.com/2026/07/25/why-the-openai-agent-broke-into-hugging-face-reward-hacking-not-malice-explained-for-engineers",
