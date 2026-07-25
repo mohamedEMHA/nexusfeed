@@ -52,6 +52,41 @@
         }
       }
     },
+    "0c71aea648430053945b4f06d652403b96536c7dfc998284644b0dbc8510e077": {
+      "created_at": "2026-07-25T16:42:46Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 7,
+            "novelty_score": 0.2,
+            "reason": "Tutorial content with limited impact and low novelty.",
+            "red_flag": true,
+            "red_flag_reason": "tutorial",
+            "source_score": 0.5,
+            "title": "Task-centered iproute2 user guide",
+            "total_score": 3.2
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 9,
+            "novelty_score": 2.5,
+            "reason": "Interesting release with moderate impact and novelty, but from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "My web version of Mars MIPS, now have builtin C compiler",
+            "total_score": 6.0
+          }
+        ],
+        "best_index": 9,
+        "best_score": 6.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "1197ab5462a250e5c67f222bb7df4ce5721b29da2eedb60e113f5dcd72f35bdd": {
       "created_at": "2026-07-25T00:07:15Z",
       "payload": {
@@ -100,6 +135,46 @@
           "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Meet the New Claude Opus 5: Frontier-Class Agentic Coding and Computer Use at Unchanged Opus Pricing*\n\nAnthropic releases Claude Opus 5, replacing Opus 4.8 as the flagship model. Pricing remains unchanged at $5 per million input tokens and $25 per million output tokens. The new model approaches the intelligence of Claude Fable 5 at half the price.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/07/24/meet-the-new-claude-opus-5-frontier-class-agentic-coding-and-computer-use-at-unchanged-opus-pricing/",
           "threads": "Claude Opus 5 is here, matching Fable 5's intelligence at half the price. Pricing stays the same as Opus 4.8. A big move for AI coding and computer use.\nhttps://www.marktechpost.com/2026/07/24/meet-the-new-claude-opus-5-frontier-class-agentic-coding-and-computer-use-at-unchanged-opus-pricing/",
           "twitter": "Anthropic releases Claude Opus 5, matching Fable 5's intelligence at half the price. Pricing unchanged from Opus 4.8.\nhttps://www.marktechpost.com/2026/07/24/meet-the-new-claude-opus-5-frontier-class-agentic-coding-and-computer-use-at-unchanged-opus-pricing/"
+        }
+      }
+    },
+    "17f79369db20b16f535be90a765fd15584bd254d88b4bad9f78fb8d44b2da775": {
+      "created_at": "2026-07-25T16:42:46Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 0.2,
+            "reason": "Tutorial on writing C programs without main(), not novel or impactful for most engineers.",
+            "red_flag": true,
+            "red_flag_reason": "tutorial",
+            "source_score": 0.5,
+            "title": "Writing a (valid) C program without main()",
+            "total_score": 3.7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "Libraries offering AI avoidance workshops is a novel trend with significant impact on public perception of AI.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Librarians are hosting viral 'Avoiding AI' workshops for people who are fed up with Big Tech",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Libraries across the country are seeing unprecedented demand for 'Avoiding AI' workshops. This trend highlights a growing public pushback against Big Tech's AI dominance. The workshops teach people how to opt out of AI-driven services and protect their privacy. Link: https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Librarians are hosting viral 'Avoiding AI' workshops for people who are fed up with Big Tech*\n\nLibraries across the country are seeing unprecedented demand for workshops teaching people how to opt out of AI-driven services and protect their privacy.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/",
+          "threads": "Libraries are hosting 'Avoiding AI' workshops as demand surges. This is a notable shift in public perception of AI, with people actively seeking ways to reduce their exposure to AI-driven services. https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/",
+          "twitter": "Libraries are now hosting 'Avoiding AI' workshops as demand surges. A sign of growing public skepticism toward Big Tech's AI push?\nhttps://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/"
         }
       }
     },
@@ -386,6 +461,41 @@
         "social_posts": {}
       }
     },
+    "612168ece183296bff458b524d8fa3b7cca8a42d01ddd1e0354bfa00ad38e23c": {
+      "created_at": "2026-07-25T16:42:46Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 4,
+            "novelty_score": 2.5,
+            "reason": "Interesting discussion on engineering management trends but lacks broad impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Engineering management after the cost of code collapsed",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 6,
+            "novelty_score": 2.5,
+            "reason": "Timely analysis of open-weight AI's growth phase with relevant Kubernetes parallels.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Open-weight AI is having its Kubernetes moment. Let's not ruin it",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 6,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "612e9a4b7c014554ebb76dd44498337a8c08c267361b02ad9f20f8d389647ad3": {
       "created_at": "2026-07-25T07:08:00Z",
       "payload": {
@@ -624,6 +734,41 @@
           "threads": "Prentis, a new AI lab co-founded by Reid Hoffman and Marc Pincus, is in talks to raise $100M. The lab is betting that automating routine computer tasks will soon outpace coding as AI's biggest use case. This signals a major shift in the industry. https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-marc-pincus-in-talks-to-raise-100m/",
           "twitter": "Prentis, a new AI lab co-founded by Reid Hoffman and Marc Pincus, is in talks to raise $100M. The lab is betting that automating routine computer tasks will soon outpace coding as AI's biggest use case. https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-marc-pincus-in-talks-to-raise-100m/"
         }
+      }
+    },
+    "908d4caa958903f3fc4a6d7349cd09d01afdcaba9db18a5da13dd8d9cfec3427": {
+      "created_at": "2026-07-25T16:42:46Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "PyTorch Monarch support for AMD GPUs expands training options but lacks immediate broad impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Bringing PyTorch Monarch to AMD GPUs",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "Tokenization of cows for loans is novel but niche in impact for software engineers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Brazilian farmers tokenized dairy cows to get loans, bypassing bank limits",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 2,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "a3d54e1fd6e9d65f2f867ea273184440a47395e8546fa97f78dba653c77d9857": {
@@ -1234,6 +1379,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Google Develops New AI Chip for Efficiency\nAlphabet, Google's parent company, is working on a new chip to make Gemini models run more efficiently. This move is expected to have a significant impact on AI performance.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #Gemini #Google\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Alphabet is working on a new chip to make Gemini models more efficient, which could be a significant development for AI performance @Google #AI",
         "twitter": "Google's parent company Alphabet is developing a new chip to boost Gemini model efficiency, a move that could significantly impact AI performance @Google #AI"
+      }
+    },
+    "d16989c506fddd7c2b1cf1188b7fdd76847e6425dccf906e90a9dbd375ba69ab": {
+      "created_at": "2026-07-25T16:42:46Z",
+      "payload": {
+        "facebook": "A new trend is emerging where libraries are hosting 'Avoiding AI' workshops, which have seen unprecedented demand from people looking to reduce their reliance on Big Tech. This shift reflects a growing concern about the role of AI in our lives. #AIethics #TechForGood #DigitalLiteracy",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Libraries are now hosting 'Avoiding AI' workshops, which have become incredibly popular among people looking to minimize their interaction with Big Tech. This movement indicates a significant shift in public perception of AI and its impact on society.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AIethics #DigitalLiteracy #TechForGood\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "The rise of 'Avoiding AI' workshops in libraries signals a growing desire to push back against Big Tech's influence @TechCrunch #AIethics",
+        "twitter": "People are flocking to libraries for 'Avoiding AI' workshops, a sign of growing discontent with Big Tech @TechCrunch #AIethics"
       }
     },
     "d17d3617c0c78096f6684f5f65b929827428b23a184c28142361fb72e31a2db1": {
@@ -2036,6 +2190,12 @@
       "status": "scoring_attempted",
       "title": "SaaS *is* dead. But not because AI \"killed\" it, because AI killed it"
     },
+    "https://baturin.org/docs/iproute2": {
+      "canonical_url": "https://baturin.org/docs/iproute2",
+      "created_at": "2026-07-25T16:42:46Z",
+      "status": "scoring_attempted",
+      "title": "Task-centered iproute2 user guide"
+    },
     "https://bfl.ai/blog/flux-3-mimic": {
       "canonical_url": "https://bfl.ai/blog/flux-3-mimic",
       "created_at": "2026-07-24T11:14:21Z",
@@ -2360,11 +2520,23 @@
       "status": "scoring_attempted",
       "title": "Open Weights and American AI Leadership [pdf]"
     },
+    "https://karimjedda.com/engineering-management-after-cost-of-code-collapse": {
+      "canonical_url": "https://karimjedda.com/engineering-management-after-cost-of-code-collapse",
+      "created_at": "2026-07-25T16:42:46Z",
+      "status": "scoring_attempted",
+      "title": "Engineering management after the cost of code collapsed"
+    },
     "https://kotaku.com/gta-vice-city-made-playable-in-gta-3-made-playable-in-gta-san-andreas-2000717510": {
       "canonical_url": "https://kotaku.com/gta-vice-city-made-playable-in-gta-3-made-playable-in-gta-san-andreas-2000717510",
       "created_at": "2026-07-20T14:34:36Z",
       "status": "scoring_attempted",
       "title": "Modder Makes GTA: Vice City Playable Inside GTA 3 Inside GTA: San Andreas"
+    },
+    "https://labs.iximiuz.com/tutorials/c-program-without-main-a1eea557": {
+      "canonical_url": "https://labs.iximiuz.com/tutorials/c-program-without-main-a1eea557",
+      "created_at": "2026-07-25T16:42:46Z",
+      "status": "scoring_attempted",
+      "title": "Writing a (valid) C program without main()"
     },
     "https://launchany.com/the-pillars-of-an-api-platform": {
       "canonical_url": "https://launchany.com/the-pillars-of-an-api-platform",
@@ -2587,6 +2759,12 @@
       "created_at": "2026-07-25T03:41:43Z",
       "status": "scoring_attempted",
       "title": "If coding has been solved, why does software keep getting worse?"
+    },
+    "https://pytorch.org/blog/bringing-pytorch-monarch-to-amd-gpus-single-controller-distributed-training-on-rocm": {
+      "canonical_url": "https://pytorch.org/blog/bringing-pytorch-monarch-to-amd-gpus-single-controller-distributed-training-on-rocm",
+      "created_at": "2026-07-25T16:42:46Z",
+      "status": "scoring_attempted",
+      "title": "Bringing PyTorch Monarch to AMD GPUs"
     },
     "https://qwen.ai/blog?id=qwen-image-3.0": {
       "canonical_url": "https://qwen.ai/blog?id=qwen-image-3.0",
@@ -2972,6 +3150,12 @@
       "status": "scoring_attempted",
       "title": "Why Cognition bought Poke: AI personality is becoming a competitive advantage"
     },
+    "https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech": {
+      "canonical_url": "https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech",
+      "created_at": "2026-07-25T16:42:46Z",
+      "status": "scoring_attempted",
+      "title": "Librarians are hosting viral \u2018Avoiding AI\u2019 workshops for people who are fed up with Big Tech"
+    },
     "https://techcrunch.com/podcast/ai-communism-rogue-models-and-the-why-kimi-k3-spooked-wall-street": {
       "canonical_url": "https://techcrunch.com/podcast/ai-communism-rogue-models-and-the-why-kimi-k3-spooked-wall-street",
       "created_at": "2026-07-24T17:06:40Z",
@@ -3001,6 +3185,12 @@
       "created_at": "2026-07-24T14:27:38Z",
       "status": "scoring_attempted",
       "title": "Kaizen #4: Overhauled Homelab"
+    },
+    "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment": {
+      "canonical_url": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment",
+      "created_at": "2026-07-25T16:42:46Z",
+      "status": "scoring_attempted",
+      "title": "Open-weight AI is having its Kubernetes moment. Let's not ruin it"
     },
     "https://tombedor.dev/arguments-against-open-source-ai-are-very-bad": {
       "canonical_url": "https://tombedor.dev/arguments-against-open-source-ai-are-very-bad",
@@ -3055,6 +3245,12 @@
       "created_at": "2026-07-19T20:25:29Z",
       "status": "scoring_attempted",
       "title": "Modder Runs GTA III Inside GTA: San Andreas on an In-Game TV"
+    },
+    "https://webmars.nfiles.top": {
+      "canonical_url": "https://webmars.nfiles.top",
+      "created_at": "2026-07-25T16:42:46Z",
+      "status": "scoring_attempted",
+      "title": "My web version of Mars MIPS, now have builtin C compiler"
     },
     "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing": {
       "canonical_url": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing",
@@ -3182,6 +3378,12 @@
       "status": "scoring_attempted",
       "title": "Nvidia, Microsoft, Meta warn against overregulating open-weight models"
     },
+    "https://www.coindesk.com/markets/2026/07/24/brazilian-farmers-tokenized-dairy-cows-to-get-loans-bypassing-bank-lending-limits": {
+      "canonical_url": "https://www.coindesk.com/markets/2026/07/24/brazilian-farmers-tokenized-dairy-cows-to-get-loans-bypassing-bank-lending-limits",
+      "created_at": "2026-07-25T16:42:46Z",
+      "status": "scoring_attempted",
+      "title": "Brazilian farmers tokenized dairy cows to get loans, bypassing bank limits"
+    },
     "https://www.cole-k.com/2026/07/21/reddit": {
       "canonical_url": "https://www.cole-k.com/2026/07/21/reddit",
       "created_at": "2026-07-22T12:55:29Z",
@@ -3199,12 +3401,6 @@
       "created_at": "2026-07-23T15:53:04Z",
       "status": "scoring_attempted",
       "title": "DARPA, U.S. Air Force fly AI-controlled F-16"
-    },
-    "https://www.ft.com/content/2b96703d-440b-46db-8d86-9fff9ecc59d5": {
-      "canonical_url": "https://www.ft.com/content/2b96703d-440b-46db-8d86-9fff9ecc59d5",
-      "created_at": "2026-07-18T16:11:07Z",
-      "status": "scoring_attempted",
-      "title": "Traders are increasingly betting against SpaceX just weeks after IPO"
     },
     "https://www.getcomputable.com": {
       "canonical_url": "https://www.getcomputable.com",
@@ -3751,12 +3947,6 @@
       "created_at": "2026-07-23T18:37:11Z",
       "status": "scoring_attempted",
       "title": "Corsair\u2019s PC case with a panoramic glass design is $70 off"
-    },
-    "https://www.theverge.com/gadgets/967311/gopro-max2-360-degree-action-cam-accessory-bundle-deal-sale": {
-      "canonical_url": "https://www.theverge.com/gadgets/967311/gopro-max2-360-degree-action-cam-accessory-bundle-deal-sale",
-      "created_at": "2026-07-18T16:11:07Z",
-      "status": "scoring_attempted",
-      "title": "GoPro&#8217;s discounted Max 2 bundle includes $100 worth of accessories"
     },
     "https://www.theverge.com/gadgets/967336/birdfy-feeder-ai-powered-smart-bird-feeder-with-camera-deal-sale": {
       "canonical_url": "https://www.theverge.com/gadgets/967336/birdfy-feeder-ai-powered-smart-bird-feeder-with-camera-deal-sale",
