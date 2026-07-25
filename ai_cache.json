@@ -75,6 +75,29 @@
         "social_posts": {}
       }
     },
+    "1197ab5462a250e5c67f222bb7df4ce5721b29da2eedb60e113f5dcd72f35bdd": {
+      "created_at": "2026-07-25T00:07:15Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 1,
+            "novelty_score": 0.5,
+            "reason": "Opinion piece on AI limitations with moderate impact and freshness.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "AIs don't do what you want. This is bad",
+            "total_score": 4.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 4.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "1750ec9c013e81235e932200b8b0b1b6a2acd5bb8e0cd47ac647e13a8a705f29": {
       "created_at": "2026-07-24T22:31:22Z",
       "payload": {
@@ -566,6 +589,29 @@
         ],
         "best_index": 0,
         "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "724689ac8b33145298a23fa33eae408c6cc9fa102c1f76e1b57ff564232a26a6": {
+      "created_at": "2026-07-25T00:07:15Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.5,
+            "index": 0,
+            "novelty_score": 0.2,
+            "reason": "Tutorial content with limited impact and a C-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "SpaceX Starship Flight 13 livestream [video]",
+            "total_score": 2.2
+          }
+        ],
+        "best_index": 0,
+        "best_score": 2.2,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1299,29 +1345,6 @@
         ],
         "best_index": 0,
         "best_score": 8.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "d107dec1d05008940d5bb36d67215e3b7bcdd46a984adcda02cc8b8058309d6a": {
-      "created_at": "2026-07-23T23:56:47Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Research on AI safety with significant impact but from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "A Taxonomy of Omnicidal Futures Involving Artificial Intelligence",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -3273,6 +3296,12 @@
       "status": "scoring_attempted",
       "title": "Quality non-fiction books are the antithesis of AI slop"
     },
+    "https://rewardhacking.org": {
+      "canonical_url": "https://rewardhacking.org",
+      "created_at": "2026-07-25T00:07:15Z",
+      "status": "scoring_attempted",
+      "title": "AIs don't do what you want. This is bad"
+    },
     "https://robotics.xiaomi.com/xiaomi-robotics-1.html": {
       "canonical_url": "https://robotics.xiaomi.com/xiaomi-robotics-1.html",
       "created_at": "2026-07-20T08:52:01Z",
@@ -3320,12 +3349,6 @@
       "created_at": "2026-07-18T05:06:09Z",
       "status": "scoring_attempted",
       "title": "Neil Rimer thinks the AI money is coming back out"
-    },
-    "https://techcrunch.com/2026/07/17/vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs": {
-      "canonical_url": "https://techcrunch.com/2026/07/17/vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs",
-      "created_at": "2026-07-17T23:48:53Z",
-      "status": "scoring_attempted",
-      "title": "Vertu wants executives to pay $6,880 for an AI agent \u2014 here\u2019s how it actually performs"
     },
     "https://techcrunch.com/2026/07/18/kimi-threat-or-menace": {
       "canonical_url": "https://techcrunch.com/2026/07/18/kimi-threat-or-menace",
@@ -4251,11 +4274,11 @@
       "status": "scoring_attempted",
       "title": "Soofi \u2013 Sovereign Open Source Foundation Models"
     },
-    "https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-secures-landmark-legal-victory-lock-pornographic-website-domain-and": {
-      "canonical_url": "https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-secures-landmark-legal-victory-lock-pornographic-website-domain-and",
-      "created_at": "2026-07-17T23:48:53Z",
+    "https://www.spacex.com/launches/starship-flight-13": {
+      "canonical_url": "https://www.spacex.com/launches/starship-flight-13",
+      "created_at": "2026-07-25T00:07:15Z",
       "status": "scoring_attempted",
-      "title": "Texas wins court order to suspend domain name for violating age-verification law"
+      "title": "SpaceX Starship Flight 13 livestream [video]"
     },
     "https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker": {
       "canonical_url": "https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker",
@@ -4808,12 +4831,6 @@
       "created_at": "2026-07-21T22:12:46Z",
       "status": "scoring_attempted",
       "title": "\"Drawing\" the Mona Lisa with GPT-5.6, Claude, Gemini, and Grok"
-    },
-    "https://www.up.com/news/safety/Tracking-Rail-Heat-260608": {
-      "canonical_url": "https://www.up.com/news/safety/Tracking-Rail-Heat-260608",
-      "created_at": "2026-07-17T23:48:53Z",
-      "status": "scoring_attempted",
-      "title": "Painting the sides of railroad rails white to reduce derailment"
     },
     "https://www.vaultsort.com/guardian": {
       "canonical_url": "https://www.vaultsort.com/guardian",
