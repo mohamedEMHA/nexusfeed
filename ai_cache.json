@@ -311,6 +311,29 @@
         "social_posts": {}
       }
     },
+    "42def0313cefe35df2bb563b55f06d7ec9c6d5d7b67032ad4a11e26e520cb958": {
+      "created_at": "2026-07-25T07:08:00Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 0.5,
+            "index": 0,
+            "novelty_score": 0.2,
+            "reason": "This article is a tutorial on sleepbuds and pillows, not relevant to software engineers or AI researchers.",
+            "red_flag": true,
+            "red_flag_reason": "tutorial",
+            "source_score": 1.5,
+            "title": "Forget expensive sleepbuds. Buy this pillow instead",
+            "total_score": 4.2
+          }
+        ],
+        "best_index": 0,
+        "best_score": 4.2,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "504b3a38cff84c496f1af84a82ac863c6251f23ede4b44d866ef90c6b9da2c6e": {
       "created_at": "2026-07-24T18:44:11Z",
       "payload": {
@@ -422,6 +445,29 @@
         ],
         "best_index": 6,
         "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "612e9a4b7c014554ebb76dd44498337a8c08c267361b02ad9f20f8d389647ad3": {
+      "created_at": "2026-07-25T07:08:00Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "Zalando's implementation of a client-side load balancer for high-throughput APIs is a notable engineering achievement with practical benefits.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "How Zalando Built an In-Process Client-Side Load Balancer for One Million Requests per Second",
+            "total_score": 8
+          }
+        ],
+        "best_index": 1,
+        "best_score": 8,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -3668,6 +3714,12 @@
       "status": "scoring_attempted",
       "title": "AWS Billing Bug Shows Customers Trillion-Dollar Estimates While Its Own Cost Alarms Fail to Act"
     },
+    "https://www.infoq.com/news/2026/07/client-side-load-balancer": {
+      "canonical_url": "https://www.infoq.com/news/2026/07/client-side-load-balancer",
+      "created_at": "2026-07-25T07:08:00Z",
+      "status": "scoring_attempted",
+      "title": "How Zalando Built an In-Process Client-Side Load Balancer for One Million Requests per Second"
+    },
     "https://www.infoq.com/news/2026/07/cloudformation-express-mode": {
       "canonical_url": "https://www.infoq.com/news/2026/07/cloudformation-express-mode",
       "created_at": "2026-07-19T07:09:52Z",
@@ -4465,6 +4517,12 @@
       "created_at": "2026-07-23T22:16:43Z",
       "status": "scoring_attempted",
       "title": "Alexa Plus is getting an AI update to handle more complicated instructions"
+    },
+    "https://www.theverge.com/tech/970473/forget-expensive-sleepbuds-buy-this-pillow-instead": {
+      "canonical_url": "https://www.theverge.com/tech/970473/forget-expensive-sleepbuds-buy-this-pillow-instead",
+      "created_at": "2026-07-25T07:08:00Z",
+      "status": "scoring_attempted",
+      "title": "Forget expensive sleepbuds. Buy this pillow instead"
     },
     "https://www.theverge.com/tech/970489/lg-mcafee-ads-windows-microsoft-crackdown": {
       "canonical_url": "https://www.theverge.com/tech/970489/lg-mcafee-ads-windows-microsoft-crackdown",
