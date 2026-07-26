@@ -258,29 +258,6 @@
         "social_posts": {}
       }
     },
-    "429da96b1cb2d12bd68e07b9a73964b0e285e5535e0c80861baa3304bd9233dd": {
-      "created_at": "2026-07-25T22:10:44Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Claude 5 context engineering rules are relevant but not groundbreaking.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "The new rules of context engineering for Claude 5 generation models",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "4529f429151543a9cf54cf293b890dea0a9dfe3fa02ec156426fc02ca9b20356": {
       "created_at": "2026-07-25T23:57:17Z",
       "payload": {
@@ -649,29 +626,6 @@
         "social_posts": {}
       }
     },
-    "c61d2a31378c700f529b676fa2ca6ff358ffaffa33e360c1afa77e1b8722c165": {
-      "created_at": "2026-07-25T22:10:44Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 0.5,
-            "index": 0,
-            "novelty_score": 0.2,
-            "reason": "Local news story with limited relevance to software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "A 77-year-old Republican man is staging a solo protest against Flock cameras",
-            "total_score": 3.2
-          }
-        ],
-        "best_index": 0,
-        "best_score": 3.2,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "ce493de6e56459d0dab72cf8bdf0e5f51c7d269fe922fa71372ec88513c4c710": {
       "created_at": "2026-07-26T20:02:21Z",
       "payload": {
@@ -837,6 +791,29 @@
           }
         ],
         "best_index": 3,
+        "best_score": 3.2,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "fad6f6b5946dc5a3f58c1e7cd293d8e6e79db5c92a7d312559a505c7b0460e99": {
+      "created_at": "2026-07-26T22:13:27Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 0.2,
+            "reason": "Recap of 2021 research with niche impact from a C-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Multiway Turing Machines (2021 pre-ai)",
+            "total_score": 3.2
+          }
+        ],
+        "best_index": 0,
         "best_score": 3.2,
         "recommendation": "SKIP",
         "social_posts": {}
@@ -2049,6 +2026,12 @@
       "status": "scoring_attempted",
       "title": "Show HN: Brolly, a plain-text weather forecast site"
     },
+    "https://bulletins.wolframphysics.org/2021/02/multiway-turing-machines": {
+      "canonical_url": "https://bulletins.wolframphysics.org/2021/02/multiway-turing-machines",
+      "created_at": "2026-07-26T22:13:27Z",
+      "status": "scoring_attempted",
+      "title": "Multiway Turing Machines (2021 pre-ai)"
+    },
     "https://cacm.acm.org/blogcacm/if-you-think-you-can-do-real-world-text-to-sql": {
       "canonical_url": "https://cacm.acm.org/blogcacm/if-you-think-you-can-do-real-world-text-to-sql",
       "created_at": "2026-07-22T22:46:20Z",
@@ -2126,12 +2109,6 @@
       "created_at": "2026-07-20T19:08:17Z",
       "status": "scoring_attempted",
       "title": "The drivers behind software delivery inefficiency"
-    },
-    "https://dornsife.usc.edu/news/stories/heavy-tv-watching-associated-with-smaller-brain-structures": {
-      "canonical_url": "https://dornsife.usc.edu/news/stories/heavy-tv-watching-associated-with-smaller-brain-structures",
-      "created_at": "2026-07-19T21:28:32Z",
-      "status": "scoring_attempted",
-      "title": "Heavy TV watching associated with smaller brain structures, study finds"
     },
     "https://dylancastillo.co/posts/pelicanmaxxing.html": {
       "canonical_url": "https://dylancastillo.co/posts/pelicanmaxxing.html",
@@ -2594,12 +2571,6 @@
       "created_at": "2026-07-24T12:47:34Z",
       "status": "scoring_attempted",
       "title": "Hetzner is working on LLM Inference"
-    },
-    "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit": {
-      "canonical_url": "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit",
-      "created_at": "2026-07-19T21:28:32Z",
-      "status": "scoring_attempted",
-      "title": "What to watch for after Jensen Huang\u2019s Japan visit"
     },
     "https://techcrunch.com/2026/07/20/adobe-camera-apps-new-feature-will-critique-your-photos-using-ai": {
       "canonical_url": "https://techcrunch.com/2026/07/20/adobe-camera-apps-new-feature-will-critique-your-photos-using-ai",
@@ -3686,12 +3657,6 @@
       "created_at": "2026-07-21T11:21:56Z",
       "status": "scoring_attempted",
       "title": "Who\u2019s afraid of the big, bad GPU?"
-    },
-    "https://www.theverge.com/entertainment/967696/four-tet-wingdings-album-review": {
-      "canonical_url": "https://www.theverge.com/entertainment/967696/four-tet-wingdings-album-review",
-      "created_at": "2026-07-19T21:28:32Z",
-      "status": "scoring_attempted",
-      "title": "This unpronounceable series of glyphs is an incredible side project from Kieran Hebden (aka Four Tet)"
     },
     "https://www.theverge.com/entertainment/967887/avengers-doomsday-trailer-marvel-release-date": {
       "canonical_url": "https://www.theverge.com/entertainment/967887/avengers-doomsday-trailer-marvel-release-date",
