@@ -213,29 +213,6 @@
         "social_posts": {}
       }
     },
-    "36af56ad680c741184df474e0b4c58785cf5b30a4fc39e802ac5f9d9392fd80f": {
-      "created_at": "2026-07-25T01:25:20Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "OpenAI's new AI keypad is a novel release with moderate impact, fresh, and from a reputable source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "I tried out OpenAI\u2019s new AI keypad \u2014 which will be fun for some coders and slightly mystifying to everyone else",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "3ce810a4e358465bb71c511945fcfcb0b440a307e4d0c7207c53878151b7c1d0": {
       "created_at": "2026-07-25T14:26:01Z",
       "payload": {
@@ -559,6 +536,29 @@
         "social_posts": {}
       }
     },
+    "9dcfd41987742541415b6e48e3d97d6bb2e40f0cf143b1a1fad267ad249027c5": {
+      "created_at": "2026-07-26T02:53:48Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 1.5,
+            "reason": "Listicle format with no new research or product release.",
+            "red_flag": true,
+            "red_flag_reason": "listicle format",
+            "source_score": 1.5,
+            "title": "Monday.com is the latest tech company to blame AI for layoffs \u2014 here are 20 others",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "9eca760c006c7fba7469f78c0d5899b789c84116951ab0dcf9240a507a7af1d4": {
       "created_at": "2026-07-26T00:14:01Z",
       "payload": {
@@ -703,6 +703,29 @@
         ],
         "best_index": 2,
         "best_score": 3.2,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "db2893e041ef468e24489cf4f4ba70034296014e41f8de45ed3c2c2cf3670f3d": {
+      "created_at": "2026-07-26T02:53:48Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "Interesting but not directly relevant to software engineers or AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Possible invasive species superspreader event near Strait of Hormuz",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1181,6 +1204,12 @@
     }
   },
   "seen_article_links": {
+    "https://abcnews.com/International/scientists-warn-invasive-species-superspreader-event-due-stalling/story?id=135051186": {
+      "canonical_url": "https://abcnews.com/International/scientists-warn-invasive-species-superspreader-event-due-stalling/story?id=135051186",
+      "created_at": "2026-07-26T02:53:48Z",
+      "status": "scoring_attempted",
+      "title": "Possible invasive species superspreader event near Strait of Hormuz"
+    },
     "https://adriengonin.com/writing/service-with-a-software": {
       "canonical_url": "https://adriengonin.com/writing/service-with-a-software",
       "created_at": "2026-07-24T17:06:40Z",
@@ -2153,12 +2182,6 @@
       "status": "scoring_attempted",
       "title": "Show HN: Claude-thermos \u2013 keeps your Claude session warm for you"
     },
-    "https://github.com/lopopolo/harness-engineering": {
-      "canonical_url": "https://github.com/lopopolo/harness-engineering",
-      "created_at": "2026-07-19T02:21:50Z",
-      "status": "scoring_attempted",
-      "title": "Harness Engineering"
-    },
     "https://github.com/marcelroed/gigatoken": {
       "canonical_url": "https://github.com/marcelroed/gigatoken",
       "created_at": "2026-07-22T18:16:21Z",
@@ -2303,23 +2326,11 @@
       "status": "scoring_attempted",
       "title": "Codeberg Divides"
     },
-    "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making": {
-      "canonical_url": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making",
-      "created_at": "2026-07-19T02:21:50Z",
-      "status": "scoring_attempted",
-      "title": "AI Mania Is Eviscerating Global Decision-Making"
-    },
     "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms": {
       "canonical_url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
       "created_at": "2026-07-20T15:48:01Z",
       "status": "scoring_attempted",
       "title": "Controlling Reasoning Effort in LLMs"
-    },
-    "https://minimaxir.com/2026/07/agent-quota-reset": {
-      "canonical_url": "https://minimaxir.com/2026/07/agent-quota-reset",
-      "created_at": "2026-07-19T01:05:47Z",
-      "status": "scoring_attempted",
-      "title": "What's the deal with all the random weekly quota resets for agents lately?"
     },
     "https://mjtsai.com/blog/2026/07/17/eu-exempts-apple-watch-and-airpods-from-battery-removal-requirement": {
       "canonical_url": "https://mjtsai.com/blog/2026/07/17/eu-exempts-apple-watch-and-airpods-from-battery-removal-requirement",
@@ -2884,6 +2895,12 @@
       "created_at": "2026-07-25T16:42:46Z",
       "status": "scoring_attempted",
       "title": "Librarians are hosting viral \u2018Avoiding AI\u2019 workshops for people who are fed up with Big Tech"
+    },
+    "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai": {
+      "canonical_url": "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai",
+      "created_at": "2026-07-26T02:53:48Z",
+      "status": "scoring_attempted",
+      "title": "Monday.com is the latest tech company to blame AI for layoffs \u2014 here are 20 others"
     },
     "https://techcrunch.com/podcast/ai-communism-rogue-models-and-the-why-kimi-k3-spooked-wall-street": {
       "canonical_url": "https://techcrunch.com/podcast/ai-communism-rogue-models-and-the-why-kimi-k3-spooked-wall-street",
@@ -3496,12 +3513,6 @@
       "created_at": "2026-07-25T23:57:17Z",
       "status": "scoring_attempted",
       "title": "Clinical Failure Rates over the Decades: Yikes"
-    },
-    "https://www.sciencedaily.com/releases/2026/07/260717033213.htm": {
-      "canonical_url": "https://www.sciencedaily.com/releases/2026/07/260717033213.htm",
-      "created_at": "2026-07-19T01:05:47Z",
-      "status": "scoring_attempted",
-      "title": "Popular sugar substitutes linked to faster brain aging"
     },
     "https://www.scottrlarson.com/presentations/overcoming-surveillance-capitalism-with-awareness": {
       "canonical_url": "https://www.scottrlarson.com/presentations/overcoming-surveillance-capitalism-with-awareness",
