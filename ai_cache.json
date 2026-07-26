@@ -98,52 +98,6 @@
         }
       }
     },
-    "1845e15fdb97c3ebc9d36573757983e8e31622efae56af305c8f1b52d0bba5c1": {
-      "created_at": "2026-07-25T06:13:37Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Datalab Marker v2 shows significant improvements in both accuracy and speed compared to competitors.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Datalab Marker v2 vs MinerU, Docling, and Liteparse: Benchmark Breakdown",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "1b79d44994855b24feb15294284c8c9c9b5c48016b4eca0a66df2d1b18b03331": {
-      "created_at": "2026-07-25T06:13:37Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Preliminary assessment of Kimi K3's cyber capabilities by UK AISI / Caisi.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "UK AISI / Caisi Preliminary Assessment of Kimi K3's Cyber Capabilities",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "1e44e66dd07666efb97ffaa56a41769ef2c65377e626b68abcc5fc3f86a9a7a2": {
       "created_at": "2026-07-25T12:55:30Z",
       "payload": {
@@ -415,6 +369,29 @@
           }
         ],
         "best_index": 1,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "60aa9e083b1d9c4886c62e112e951a9214b5c258b09b97ef0cd2239d47777f2f": {
+      "created_at": "2026-07-26T06:28:43Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1,
+            "impact_score": 2.5,
+            "index": 4,
+            "novelty_score": 2.5,
+            "reason": "New security-focused AI model with competitive benchmarks, but access is restricted.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Sakana AI Releases Fugu-Cyber: An Orchestration Model Reporting 86.9% on CyberGym and 72.1% on CTI-REALM",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 4,
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
@@ -751,6 +728,34 @@
         "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "e9ec6bbb532c16e57c2728c3388ee07d2cdd0841dfa1c97681be1ed3acd0b34c": {
+      "created_at": "2026-07-26T06:28:43Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Amazon EKS adds Kubernetes version rollback feature, impacting all Kubernetes practitioners.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Amazon EKS Adds Kubernetes Version Rollback Within 7 Days of an Upgrade",
+            "total_score": 8
+          }
+        ],
+        "best_index": 0,
+        "best_score": 8,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Amazon EKS has introduced a new feature allowing Kubernetes version rollbacks within 7 days of an upgrade. This provides a safety net for teams, reducing the risk of issues during in-place cluster upgrades. A useful addition for Kubernetes practitioners.\nLink: https://www.infoq.com/news/2026/07/eks-version-rollback/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Amazon EKS Adds Kubernetes Version Rollback Within 7 Days of an Upgrade*\n\nAmazon EKS now lets you roll back Kubernetes versions within 7 days of an upgrade, reducing upgrade risks.\n\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (B)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8/10\n\n\ud83d\udd17 https://www.infoq.com/news/2026/07/eks-version-rollback/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Amazon EKS now supports Kubernetes version rollbacks within 7 days of an upgrade, giving teams a safety net for cluster upgrades. This reduces the risk of issues during in-place upgrades.\nhttps://www.infoq.com/news/2026/07/eks-version-rollback/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "twitter": "Amazon EKS now lets you roll back Kubernetes versions within 7 days of an upgrade, reducing upgrade risks.\nhttps://www.infoq.com/news/2026/07/eks-version-rollback/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+        }
       }
     },
     "eb618c0c1d58e9ee9a9332b09f56b98b4b2b6c33e8994f599bf05a2171029e9f": {
@@ -3255,6 +3260,12 @@
       "status": "scoring_attempted",
       "title": "DoorDash Uses Envoy and Valkey for a 1.5M RPS Proxy Cache with 99.99999% Availability"
     },
+    "https://www.infoq.com/news/2026/07/eks-version-rollback": {
+      "canonical_url": "https://www.infoq.com/news/2026/07/eks-version-rollback",
+      "created_at": "2026-07-26T06:28:43Z",
+      "status": "scoring_attempted",
+      "title": "Amazon EKS Adds Kubernetes Version Rollback Within 7 Days of an Upgrade"
+    },
     "https://www.infoq.com/news/2026/07/expedia-ai-observability-star": {
       "canonical_url": "https://www.infoq.com/news/2026/07/expedia-ai-observability-star",
       "created_at": "2026-07-23T15:07:34Z",
@@ -3464,6 +3475,12 @@
       "created_at": "2026-07-25T20:03:36Z",
       "status": "scoring_attempted",
       "title": "Meet Open Dreamer: A JAX/Flax Reproduction of the Dreamer 4 World Model Pipeline, With the Full Training Recipe Published"
+    },
+    "https://www.marktechpost.com/2026/07/25/sakana-ai-releases-fugu-cyber-orchestration-model-cybergym-cti-realm": {
+      "canonical_url": "https://www.marktechpost.com/2026/07/25/sakana-ai-releases-fugu-cyber-orchestration-model-cybergym-cti-realm",
+      "created_at": "2026-07-26T06:28:43Z",
+      "status": "scoring_attempted",
+      "title": "Sakana AI Releases Fugu-Cyber: An Orchestration Model Reporting 86.9% on CyberGym and 72.1% on CTI-REALM"
     },
     "https://www.marktechpost.com/2026/07/25/why-the-openai-agent-broke-into-hugging-face-reward-hacking-not-malice-explained-for-engineers": {
       "canonical_url": "https://www.marktechpost.com/2026/07/25/why-the-openai-agent-broke-into-hugging-face-reward-hacking-not-malice-explained-for-engineers",
