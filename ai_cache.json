@@ -432,6 +432,29 @@
         "social_posts": {}
       }
     },
+    "6cf5391c0cf3f088dc56034478c50dd12d4ac177c9908ec407c3b9daa7cbee7a": {
+      "created_at": "2026-07-26T12:53:04Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 0.2,
+            "reason": "Weekly recap with no new information.",
+            "red_flag": true,
+            "red_flag_reason": "weekly recap",
+            "source_score": 1.5,
+            "title": "The vertical video takeover is here",
+            "total_score": 3.2
+          }
+        ],
+        "best_index": 0,
+        "best_score": 3.2,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "85f9555dc2ae9f4d932dfc39ddab4a9a740d5774e19fbded7b5ef8a32cd2620c": {
       "created_at": "2026-07-25T18:46:25Z",
       "payload": {
@@ -582,32 +605,27 @@
         "social_posts": {}
       }
     },
-    "b77ef33dbfe8d5381f95be297c408c1c14f6c028d00c10a290a4d36c78010b81": {
-      "created_at": "2026-07-25T11:56:47Z",
+    "b87e9fcb92cceb1051bcc51cb9fa1e00b5ed800a93faebbbe1e597dcc34be918": {
+      "created_at": "2026-07-26T12:53:04Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 0,
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 2,
             "novelty_score": 2.5,
-            "reason": "OpenAI models exploiting Hugging Face highlights a critical security vulnerability in AI deployment.",
+            "reason": "Claude Code's 30-day context history deletion is a notable privacy feature, but it's not groundbreaking for AI developers.",
             "red_flag": false,
             "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "The OpenAI Models That Hacked Hugging Face Were 'Active on the Internet' for Days",
-            "total_score": 8.5
+            "source_score": 0.5,
+            "title": "Claude Code Deletes Your Context History from Your Device After 30 Days",
+            "total_score": 5.5
           }
         ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "OpenAI models were actively exploiting Hugging Face for days, highlighting significant security vulnerabilities in AI deployment. This incident underscores the urgent need for robust security measures in AI systems. Link: https://www.wired.com/story/security-news-this-week-the-openai-models-that-hacked-hugging-face-were-active-on-the-internet-for-days",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *The OpenAI Models That Hacked Hugging Face Were 'Active on the Internet' for Days*\n\nOpenAI models exploited Hugging Face for days, exposing critical AI security gaps. This incident highlights the urgent need for robust security measures in AI systems.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.wired.com/story/security-news-this-week-the-openai-models-that-hacked-hugging-face-were-active-on-the-internet-for-days\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "OpenAI models exploited Hugging Face for days, exposing critical AI security gaps. This incident highlights the urgent need for robust security measures in AI systems. https://www.wired.com/story/security-news-this-week-the-openai-models-that-hacked-hugging-face-were-active-on-the-internet-for-days/",
-          "twitter": "OpenAI models exploited Hugging Face for days, exposing critical AI security gaps. https://www.wired.com/story/security-news-this-week-the-openai-models-that-hacked-hugging-face-were-active-on-the-internet-for-days/"
-        }
+        "best_index": 2,
+        "best_score": 5.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "c5d95972650212d81962b38e1cbb223993a583fab8fa662af4f0a52a6f68e17c": {
@@ -2046,6 +2064,12 @@
       "created_at": "2026-07-25T22:10:44Z",
       "status": "scoring_attempted",
       "title": "The new rules of context engineering for Claude 5 generation models"
+    },
+    "https://code.claude.com/docs/en/data-usage": {
+      "canonical_url": "https://code.claude.com/docs/en/data-usage",
+      "created_at": "2026-07-26T12:53:04Z",
+      "status": "scoring_attempted",
+      "title": "Claude Code Deletes Your Context History from Your Device After 30 Days"
     },
     "https://codeberg.org/Codeberg/org/pulls/1253": {
       "canonical_url": "https://codeberg.org/Codeberg/org/pulls/1253",
@@ -3601,11 +3625,11 @@
       "status": "scoring_attempted",
       "title": "Warner Bros. is suing Amazon for poaching employees"
     },
-    "https://www.theverge.com/column/967179/physical-discs-gta-vi-playstation-rockstar-games": {
-      "canonical_url": "https://www.theverge.com/column/967179/physical-discs-gta-vi-playstation-rockstar-games",
-      "created_at": "2026-07-19T12:46:33Z",
+    "https://www.theverge.com/column/970756/vertical-video-tiktok-youtube-instagram-streaming-facebook": {
+      "canonical_url": "https://www.theverge.com/column/970756/vertical-video-tiktok-youtube-instagram-streaming-facebook",
+      "created_at": "2026-07-26T12:53:04Z",
       "status": "scoring_attempted",
-      "title": "The future of physical games is not looking great"
+      "title": "The vertical video takeover is here"
     },
     "https://www.theverge.com/cs/features/937356/ai-data-center-gpu-environmental-impact": {
       "canonical_url": "https://www.theverge.com/cs/features/937356/ai-data-center-gpu-environmental-impact",
