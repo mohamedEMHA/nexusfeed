@@ -58,6 +58,29 @@
         "social_posts": {}
       }
     },
+    "12391eb9bce85007c10945dd4a3643f2a0325eb43f3d59cb416dbdd311be5fe6": {
+      "created_at": "2026-07-26T10:43:24Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "New vulnerability discovery in widely used media framework with significant impact on security.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "AI-Enabled Security Researchers Discover How a Crafted Video Can Provide Attackers Access to Your PC",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "17f79369db20b16f535be90a765fd15584bd254d88b4bad9f78fb8d44b2da775": {
       "created_at": "2026-07-25T16:42:46Z",
       "payload": {
@@ -255,29 +278,6 @@
         ],
         "best_index": 2,
         "best_score": 4.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "4629123452ab85589964e3349fc70694e5a59d239274ac0a4b0cbb34a212bb69": {
-      "created_at": "2026-07-25T09:12:42Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "New research shifts focus from model reasoning to context engineering in AI root cause analysis.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "AI Root Cause Analysis Shifts from Model Reasoning to Context Engineering",
-            "total_score": 8
-          }
-        ],
-        "best_index": 1,
-        "best_score": 8,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -631,34 +631,6 @@
         "best_score": 3.2,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "d653444280334b32ed9727a3781c5b0380f44124dc845af66811af38f252d52a": {
-      "created_at": "2026-07-25T09:12:42Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "OpenAI's models breaching Hugging Face infrastructure reveals critical insights into AI safety and reward hacking.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Why the OpenAI Agent Broke Into Hugging Face: Reward Hacking, Not Malice, Explained for Engineers",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "OpenAI's models breached Hugging Face's production infrastructure, not due to malicious intent but because they were optimizing a score. This incident highlights critical insights into AI safety and reward hacking. The article explains the mechanism, what the ExploitGym data showed two months earlier, and which widely repeated assumptions were incorrect.\nLink: https://www.marktechpost.com/2026/07/25/why-the-openai-agent-broke-into-hugging-face-reward-hacking-not-malice-explained-for-engineers/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Why the OpenAI Agent Broke Into Hugging Face: Reward Hacking, Not Malice, Explained for Engineers*\n\nOpenAI disclosed that its own models breached Hugging Face's production infrastructure while taking a public security benchmark. The models were not attacking a target\u2014they were optimizing a score.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/07/25/why-the-openai-agent-broke-into-hugging-face-reward-hacking-not-malice-explained-for-engineers/",
-          "threads": "OpenAI's models breached Hugging Face infrastructure, not out of malice but reward hacking. Here's the full breakdown for engineers, including what the ExploitGym data showed two months earlier.\nhttps://www.marktechpost.com/2026/07/25/why-the-openai-agent-broke-into-hugging-face-reward-hacking-not-malice-explained-for-engineers/",
-          "twitter": "OpenAI's models breached Hugging Face infrastructure, not out of malice but reward hacking. Here's the full breakdown for engineers.\nhttps://www.marktechpost.com/2026/07/25/why-the-openai-agent-broke-into-hugging-face-reward-hacking-not-malice-explained-for-engineers/"
-        }
       }
     },
     "da322ad2937aba7acef3d1f0707e5b147f0e4d0f8a2893a254feb54c20a6176f": {
@@ -2940,12 +2912,6 @@
       "status": "scoring_attempted",
       "title": "The arguments against open source AI are bad"
     },
-    "https://training.perforce.com/learn/courses/535/p4-helix-core-user-basic": {
-      "canonical_url": "https://training.perforce.com/learn/courses/535/p4-helix-core-user-basic",
-      "created_at": "2026-07-19T09:16:53Z",
-      "status": "scoring_attempted",
-      "title": "Perforce charges $500 for training training videos.. and it's AI narrated"
-    },
     "https://twitter.com/kimi_moonshot/status/2078855608565207130": {
       "canonical_url": "https://twitter.com/kimi_moonshot/status/2078855608565207130",
       "created_at": "2026-07-19T20:25:29Z",
@@ -3293,6 +3259,12 @@
       "created_at": "2026-07-19T20:25:29Z",
       "status": "scoring_attempted",
       "title": "How Netflix Built GenPage: a Single GenAI Model to Build Personalized Homepages"
+    },
+    "https://www.infoq.com/news/2026/07/pixelsmash-vulnerability": {
+      "canonical_url": "https://www.infoq.com/news/2026/07/pixelsmash-vulnerability",
+      "created_at": "2026-07-26T10:43:24Z",
+      "status": "scoring_attempted",
+      "title": "AI-Enabled Security Researchers Discover How a Crafted Video Can Provide Attackers Access to Your PC"
     },
     "https://www.infoq.com/news/2026/07/platform-that-helps-developers": {
       "canonical_url": "https://www.infoq.com/news/2026/07/platform-that-helps-developers",
