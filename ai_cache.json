@@ -161,6 +161,29 @@
         "social_posts": {}
       }
     },
+    "35938ced35b82ac1a01a47c1c1ee421f1c3fcad4ec49b00f3c59ddca99c835d1": {
+      "created_at": "2026-07-26T17:52:03Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.0,
+            "index": 1,
+            "novelty_score": 0.0,
+            "reason": "Red flag detected: 'what if' in the title.",
+            "red_flag": true,
+            "red_flag_reason": "red flag: what if",
+            "source_score": 0.5,
+            "title": "What if LLMs escape through inferences itself? This is fiction. For now",
+            "total_score": 2.0
+          }
+        ],
+        "best_index": 1,
+        "best_score": 2.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "411eb620dab7d67c908c0917dbac289e6bc66b370d5c623b5f90c05264e5fab1": {
       "created_at": "2026-07-26T15:42:40Z",
       "payload": {
@@ -249,29 +272,6 @@
         ],
         "best_index": 2,
         "best_score": 4.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "5e1503099456315b704dec74a9bec427f80e659101104661e292f3dd030bde76": {
-      "created_at": "2026-07-25T17:47:07Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.5,
-            "index": 1,
-            "novelty_score": 0.2,
-            "reason": "Low novelty and impact, not directly relevant to software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Politician reads AI prompt during assembly",
-            "total_score": 2.2
-          }
-        ],
-        "best_index": 1,
-        "best_score": 2.2,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -740,29 +740,6 @@
         "recommendation": "SKIP",
         "social_posts": {}
       }
-    },
-    "f082166406c0f113fa05855fa50142fd2b2db255386aa11f0f7324bb802940b8": {
-      "created_at": "2026-07-25T17:47:07Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Apple's AI advancements are notable but the source is not highly reputable.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Apple Is the King of AI and Nobody Knows It",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
     }
   },
   "groq_social_posts": {
@@ -782,15 +759,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 US Sanctions Loom Over Chinese AI Models\nThe United States is considering imposing sanctions on Chinese open AI models due to alleged intellectual property theft, marking a significant escalation in the tech sector.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n#AI #technews #sanctions\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "The US is threatening sanctions against Chinese AI models over alleged IP theft, according to reports, which could hinder China's AI progress, says @TechCrunch #AI",
         "twitter": "The US may impose sanctions on Chinese AI models due to alleged IP theft, says @TechCrunch, escalating tensions in the tech sector #AI #sanctions"
-      }
-    },
-    "12b175bb344520e447621e5f8b032d59f78c91da0abf311243f2c1f06e8a590c": {
-      "created_at": "2026-07-19T17:16:08Z",
-      "payload": {
-        "facebook": "A significant policy shift has been reported, where the FBI will no longer investigate confrontations involving ICE agents. This change comes amidst renewed scrutiny of violence by ICE agents and has sparked concerns over accountability and transparency. #ICE #FBI #LawEnforcement",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 FBI Ends ICE Investigations\nThe FBI will no longer investigate confrontations involving ICE agents, sparking concerns over accountability and transparency.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#ICE #FBI #LawEnforcement\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "The FBI has reportedly stopped investigating ICE agent confrontations, raising questions about accountability and oversight @TheVerge #ICE",
-        "twitter": "FBI ends investigations into ICE agent confrontations, sparking concerns over accountability @TheVerge #ICE"
       }
     },
     "1319e8fd96ea6f7bbf7bc888d8200e5235baf004c4c403d753a11ab98b7ab8e8": {
@@ -2934,6 +2902,12 @@
       "status": "scoring_attempted",
       "title": "Apple Fixes Hide My Email Vulnerability After 404 Media Coverage"
     },
+    "https://www.agrillo.it/EvasionEn.html": {
+      "canonical_url": "https://www.agrillo.it/EvasionEn.html",
+      "created_at": "2026-07-26T17:52:03Z",
+      "status": "scoring_attempted",
+      "title": "What if LLMs escape through inferences itself? This is fiction. For now"
+    },
     "https://www.airbus.com/en/newsroom/press-releases/2026-07-airbus-launches-new-flight-test-programme-for-wing-of-tomorrow": {
       "canonical_url": "https://www.airbus.com/en/newsroom/press-releases/2026-07-airbus-launches-new-flight-test-programme-for-wing-of-tomorrow",
       "created_at": "2026-07-22T17:00:35Z",
@@ -3737,12 +3711,6 @@
       "created_at": "2026-07-24T18:44:11Z",
       "status": "scoring_attempted",
       "title": "You can\u2019t ignore Google Zero anymore"
-    },
-    "https://www.theverge.com/policy/967674/fbi-wont-investigate-ice-assaults": {
-      "canonical_url": "https://www.theverge.com/policy/967674/fbi-wont-investigate-ice-assaults",
-      "created_at": "2026-07-19T17:16:08Z",
-      "status": "scoring_attempted",
-      "title": "The FBI reportedly won\u2019t investigate ICE anymore"
     },
     "https://www.theverge.com/policy/967802/aliexpress-eu-dsa-fine-illegal-products": {
       "canonical_url": "https://www.theverge.com/policy/967802/aliexpress-eu-dsa-fine-illegal-products",
