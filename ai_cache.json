@@ -58,29 +58,6 @@
         "social_posts": {}
       }
     },
-    "1197ab5462a250e5c67f222bb7df4ce5721b29da2eedb60e113f5dcd72f35bdd": {
-      "created_at": "2026-07-25T00:07:15Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 1,
-            "novelty_score": 0.5,
-            "reason": "Opinion piece on AI limitations with moderate impact and freshness.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "AIs don't do what you want. This is bad",
-            "total_score": 4.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 4.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "17f79369db20b16f535be90a765fd15584bd254d88b4bad9f78fb8d44b2da775": {
       "created_at": "2026-07-25T16:42:46Z",
       "payload": {
@@ -186,6 +163,29 @@
         ],
         "best_index": 0,
         "best_score": 3.2,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "235e6ee8e70e1644e9af13388c845f7d63d0c103c01ccf674cecb257c1dfd075": {
+      "created_at": "2026-07-26T00:14:01Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 2.0,
+            "reason": "Cloudflare introduces new AI traffic options for customers, impacting a niche audience with moderate novelty.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Cloudflare's new AI traffic options for customers",
+            "total_score": 6.0
+          }
+        ],
+        "best_index": 2,
+        "best_score": 6.0,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -501,29 +501,6 @@
         "social_posts": {}
       }
     },
-    "724689ac8b33145298a23fa33eae408c6cc9fa102c1f76e1b57ff564232a26a6": {
-      "created_at": "2026-07-25T00:07:15Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.5,
-            "index": 0,
-            "novelty_score": 0.2,
-            "reason": "Tutorial content with limited impact and a C-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "SpaceX Starship Flight 13 livestream [video]",
-            "total_score": 2.2
-          }
-        ],
-        "best_index": 0,
-        "best_score": 2.2,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "85f9555dc2ae9f4d932dfc39ddab4a9a740d5774e19fbded7b5ef8a32cd2620c": {
       "created_at": "2026-07-25T18:46:25Z",
       "payload": {
@@ -577,6 +554,29 @@
           }
         ],
         "best_index": 2,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "9eca760c006c7fba7469f78c0d5899b789c84116951ab0dcf9240a507a7af1d4": {
+      "created_at": "2026-07-26T00:14:01Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Industry move with significant implications for AI funding landscape.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "DeepSeek pause fundraise after comments on compute gap to US leaked (transcript) [pdf]",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 0,
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
@@ -726,6 +726,29 @@
         ],
         "best_index": 24,
         "best_score": 2.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "ef569d403f0929a06d50fbae1d8de6e806741546520fd4afa7145ba3f19b9bc0": {
+      "created_at": "2026-07-26T00:14:01Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 3,
+            "novelty_score": 0.2,
+            "reason": "This is a tutorial-style article, which automatically disqualifies it based on the red flag criteria.",
+            "red_flag": true,
+            "red_flag_reason": "tutorial",
+            "source_score": 0.5,
+            "title": "Becoming a Research Engineer at a Big LLM Lab",
+            "total_score": 3.2
+          }
+        ],
+        "best_index": 3,
+        "best_score": 3.2,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1902,6 +1925,12 @@
       "status": "scoring_attempted",
       "title": "Nativ: Run frontier open models locally on your Mac"
     },
+    "https://blog.cloudflare.com/content-independence-day-ai-options": {
+      "canonical_url": "https://blog.cloudflare.com/content-independence-day-ai-options",
+      "created_at": "2026-07-26T00:14:01Z",
+      "status": "scoring_attempted",
+      "title": "Cloudflare's new AI traffic options for customers"
+    },
     "https://blog.documentfoundation.org/blog/2026/07/17/microsofts-main-tool-for-lock-in": {
       "canonical_url": "https://blog.documentfoundation.org/blog/2026/07/17/microsofts-main-tool-for-lock-in",
       "created_at": "2026-07-20T08:52:01Z",
@@ -2099,6 +2128,12 @@
       "created_at": "2026-07-21T18:21:46Z",
       "status": "scoring_attempted",
       "title": "Show HN: OSS Cross-Harness self hosted registry and analytics for AI Agents"
+    },
+    "https://github.com/demo-zexuan/liang-wenfeng-investor-meeting-2026-7-22/blob/master/%E6%A2%81%E6%96%87%E9%94%8B%E6%8A%95%E8%B5%84%E8%80%85%E4%BA%A4%E6%B5%81%E4%BC%9A-%E6%96%87%E5%AD%97%E7%A8%BF_1_18_translate_20260723201651.pdf": {
+      "canonical_url": "https://github.com/demo-zexuan/liang-wenfeng-investor-meeting-2026-7-22/blob/master/%E6%A2%81%E6%96%87%E9%94%8B%E6%8A%95%E8%B5%84%E8%80%85%E4%BA%A4%E6%B5%81%E4%BC%9A-%E6%96%87%E5%AD%97%E7%A8%BF_1_18_translate_20260723201651.pdf",
+      "created_at": "2026-07-26T00:14:01Z",
+      "status": "scoring_attempted",
+      "title": "DeepSeek pause fundraise after comments on compute gap to US leaked (transcript) [pdf]"
     },
     "https://github.com/gruns/icecream": {
       "canonical_url": "https://github.com/gruns/icecream",
@@ -3401,6 +3436,12 @@
       "created_at": "2026-07-25T09:12:42Z",
       "status": "scoring_attempted",
       "title": "Why the OpenAI Agent Broke Into Hugging Face: Reward Hacking, Not Malice, Explained for Engineers"
+    },
+    "https://www.maxmynter.com/pages/blog/jobhunt": {
+      "canonical_url": "https://www.maxmynter.com/pages/blog/jobhunt",
+      "created_at": "2026-07-26T00:14:01Z",
+      "status": "scoring_attempted",
+      "title": "Becoming a Research Engineer at a Big LLM Lab"
     },
     "https://www.newyorker.com/science/annals-of-artificial-intelligence/there-is-no-ai": {
       "canonical_url": "https://www.newyorker.com/science/annals-of-artificial-intelligence/there-is-no-ai",
