@@ -536,6 +536,29 @@
         "social_posts": {}
       }
     },
+    "98ffa5d032f848d0ae6296648c35ba642325d7fba8591de8adea178dde7481c4": {
+      "created_at": "2026-07-26T05:57:40Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.0,
+            "impact_score": 0.5,
+            "index": 1,
+            "novelty_score": 0.2,
+            "reason": "Interesting but not relevant to software engineers or AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Alien World Chemistry Found Inside Meteorite That Struck New Jersey Home",
+            "total_score": 2.2
+          }
+        ],
+        "best_index": 1,
+        "best_score": 2.2,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "9dcfd41987742541415b6e48e3d97d6bb2e40f0cf143b1a1fad267ad249027c5": {
       "created_at": "2026-07-26T02:53:48Z",
       "payload": {
@@ -726,6 +749,29 @@
         ],
         "best_index": 1,
         "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "eb618c0c1d58e9ee9a9332b09f56b98b4b2b6c33e8994f599bf05a2171029e9f": {
+      "created_at": "2026-07-26T05:57:40Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Interesting niche project but limited impact and source tier.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "W4ME Station \u2013 a WASM-4 runtime for Java ME phones",
+            "total_score": 5.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 5.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -2015,12 +2061,6 @@
       "status": "scoring_attempted",
       "title": "AI makes programming differently difficult"
     },
-    "https://calculus.academa.ai": {
-      "canonical_url": "https://calculus.academa.ai",
-      "created_at": "2026-07-19T04:36:02Z",
-      "status": "scoring_attempted",
-      "title": "LLM-Integrated Multivariable Calculus Course"
-    },
     "https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56": {
       "canonical_url": "https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56",
       "created_at": "2026-07-22T18:16:21Z",
@@ -2164,6 +2204,12 @@
       "created_at": "2026-07-22T18:16:21Z",
       "status": "scoring_attempted",
       "title": "GigaToken: ~1000x faster Language model tokenization"
+    },
+    "https://github.com/mulfyx/w4me-station": {
+      "canonical_url": "https://github.com/mulfyx/w4me-station",
+      "created_at": "2026-07-26T05:57:40Z",
+      "status": "scoring_attempted",
+      "title": "W4ME Station \u2013 a WASM-4 runtime for Java ME phones"
     },
     "https://github.com/onecli/onecli": {
       "canonical_url": "https://github.com/onecli/onecli",
@@ -3317,12 +3363,6 @@
       "status": "scoring_attempted",
       "title": "Oracle fires 21,000 employees to fund AI spending"
     },
-    "https://www.marktechpost.com/2026/07/18/kimi-k3-vs-deepseek-v4-pro-vs-glm-5-2-open-trillion-scale-moe-models-compared-on-benchmarks-license-and-serving-cost": {
-      "canonical_url": "https://www.marktechpost.com/2026/07/18/kimi-k3-vs-deepseek-v4-pro-vs-glm-5-2-open-trillion-scale-moe-models-compared-on-benchmarks-license-and-serving-cost",
-      "created_at": "2026-07-19T04:36:02Z",
-      "status": "scoring_attempted",
-      "title": "Kimi K3 vs DeepSeek V4 Pro vs GLM-5.2: Open Trillion-Scale MoE Models Compared on Benchmarks, License, and Serving Cost"
-    },
     "https://www.marktechpost.com/2026/07/19/feyn-ai-releases-sqrl-a-text-to-sql-model-family-that-inspects-the-database-before-writing-a-query": {
       "canonical_url": "https://www.marktechpost.com/2026/07/19/feyn-ai-releases-sqrl-a-text-to-sql-model-family-that-inspects-the-database-before-writing-a-query",
       "created_at": "2026-07-19T23:33:23Z",
@@ -3496,6 +3536,12 @@
       "created_at": "2026-07-20T21:48:05Z",
       "status": "scoring_attempted",
       "title": "The Power of Awareness: Overcoming Surveillance Capitalism"
+    },
+    "https://www.seti.org/news/alien-world-chemistry-found-inside-meteorite": {
+      "canonical_url": "https://www.seti.org/news/alien-world-chemistry-found-inside-meteorite",
+      "created_at": "2026-07-26T05:57:40Z",
+      "status": "scoring_attempted",
+      "title": "Alien World Chemistry Found Inside Meteorite That Struck New Jersey Home"
     },
     "https://www.soofi.info": {
       "canonical_url": "https://www.soofi.info",
