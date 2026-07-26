@@ -213,29 +213,6 @@
         "social_posts": {}
       }
     },
-    "42def0313cefe35df2bb563b55f06d7ec9c6d5d7b67032ad4a11e26e520cb958": {
-      "created_at": "2026-07-25T07:08:00Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 0.5,
-            "index": 0,
-            "novelty_score": 0.2,
-            "reason": "This article is a tutorial on sleepbuds and pillows, not relevant to software engineers or AI researchers.",
-            "red_flag": true,
-            "red_flag_reason": "tutorial",
-            "source_score": 1.5,
-            "title": "Forget expensive sleepbuds. Buy this pillow instead",
-            "total_score": 4.2
-          }
-        ],
-        "best_index": 0,
-        "best_score": 4.2,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "4529f429151543a9cf54cf293b890dea0a9dfe3fa02ec156426fc02ca9b20356": {
       "created_at": "2026-07-25T23:57:17Z",
       "payload": {
@@ -432,29 +409,6 @@
         "social_posts": {}
       }
     },
-    "612e9a4b7c014554ebb76dd44498337a8c08c267361b02ad9f20f8d389647ad3": {
-      "created_at": "2026-07-25T07:08:00Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Zalando's implementation of a client-side load balancer for high-throughput APIs is a notable engineering achievement with practical benefits.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "How Zalando Built an In-Process Client-Side Load Balancer for One Million Requests per Second",
-            "total_score": 8
-          }
-        ],
-        "best_index": 1,
-        "best_score": 8,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "85f9555dc2ae9f4d932dfc39ddab4a9a740d5774e19fbded7b5ef8a32cd2620c": {
       "created_at": "2026-07-25T18:46:25Z",
       "payload": {
@@ -578,6 +532,29 @@
         ],
         "best_index": 0,
         "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "a9705689ac6229cfffcdb2143d7876d84493f5bf445d1c95467ac2e65f189ad4": {
+      "created_at": "2026-07-26T08:29:48Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "Important security update for GrapheneOS users but niche impact and low-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "GrapheneOS protections against data extraction from locked devices",
+            "total_score": 5.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 5.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1084,15 +1061,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Bluesky's AI assistant Attie expands into social research\nAttie now offers insights on news and trends across the AT Protocol.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AIassistance #Bluesky #SocialMedia\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Bluesky's AI assistant Attie is now a social research tool, providing insights on news and trends, @TechCrunch #AIassistance",
         "twitter": "Bluesky's AI assistant Attie now offers insights on news and trends across the AT Protocol, @TechCrunch reports, #AIassistance #Bluesky"
-      }
-    },
-    "8b8a2230507c7fe8094df88a327e705edac758a3dd7eba406b8732271c6bf3ab": {
-      "created_at": "2026-07-19T07:47:45Z",
-      "payload": {
-        "facebook": "The ability of research agents to discover and verify evidence is being put to the test with Perplexity AI's new WANDR benchmark. This open benchmark evaluates research agents on their ability to search wide and deep, with 500 evidence-heavy tasks. #AIresearch #PerplexityAI #WANDR",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Perplexity AI Releases WANDR Benchmark\nPerplexity AI's WANDR is an open benchmark that evaluates research agents on their ability to discover and verify evidence. The benchmark consists of 500 evidence-heavy tasks.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AIresearch #PerplexityAI #WANDR\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Perplexity AI has released WANDR, a new open benchmark that evaluates research agents on their ability to search wide and deep @PerplexityAI #AIresearch",
-        "twitter": "Perplexity AI's new WANDR benchmark is pushing research agents to search wide and deep @PerplexityAI #AIresearch"
       }
     },
     "93c089c623e7f01040514cd1d8879ba3ecdc0c34c16c58052f8b612679f2069b": {
@@ -2102,6 +2070,12 @@
       "status": "scoring_attempted",
       "title": "Agent swarms and the new model economics"
     },
+    "https://discuss.grapheneos.org/d/40700-grapheneos-protections-against-data-extraction-from-locked-devices": {
+      "canonical_url": "https://discuss.grapheneos.org/d/40700-grapheneos-protections-against-data-extraction-from-locked-devices",
+      "created_at": "2026-07-26T08:29:48Z",
+      "status": "scoring_attempted",
+      "title": "GrapheneOS protections against data extraction from locked devices"
+    },
     "https://discuss.haiku-os.org/t/haiku-nvidia-porting-nvidia-driver-for-turing-gpus/16520?page=18": {
       "canonical_url": "https://discuss.haiku-os.org/t/haiku-nvidia-porting-nvidia-driver-for-turing-gpus/16520?page=18",
       "created_at": "2026-07-24T15:26:36Z",
@@ -2185,12 +2159,6 @@
       "created_at": "2026-07-26T00:14:01Z",
       "status": "scoring_attempted",
       "title": "DeepSeek pause fundraise after comments on compute gap to US leaked (transcript) [pdf]"
-    },
-    "https://github.com/gruns/icecream": {
-      "canonical_url": "https://github.com/gruns/icecream",
-      "created_at": "2026-07-19T07:09:52Z",
-      "status": "scoring_attempted",
-      "title": "IceCream \u2013 Never use print() to debug again"
     },
     "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/wsff.md": {
       "canonical_url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/wsff.md",
@@ -3248,12 +3216,6 @@
       "status": "scoring_attempted",
       "title": "How Zalando Built an In-Process Client-Side Load Balancer for One Million Requests per Second"
     },
-    "https://www.infoq.com/news/2026/07/cloudformation-express-mode": {
-      "canonical_url": "https://www.infoq.com/news/2026/07/cloudformation-express-mode",
-      "created_at": "2026-07-19T07:09:52Z",
-      "status": "scoring_attempted",
-      "title": "AWS Introduces CloudFormation Express Mode for Faster Infrastructure Deployments"
-    },
     "https://www.infoq.com/news/2026/07/doordash-entity-cache-proxy": {
       "canonical_url": "https://www.infoq.com/news/2026/07/doordash-entity-cache-proxy",
       "created_at": "2026-07-20T14:34:36Z",
@@ -3379,12 +3341,6 @@
       "created_at": "2026-07-19T23:33:23Z",
       "status": "scoring_attempted",
       "title": "Feyn AI Releases SQRL, a Text-to-SQL Model Family That Inspects the Database Before Writing a Query"
-    },
-    "https://www.marktechpost.com/2026/07/19/perplexity-ai-releases-wandr-an-open-benchmark-evaluating-research-agents-that-must-search-wide-and-deep": {
-      "canonical_url": "https://www.marktechpost.com/2026/07/19/perplexity-ai-releases-wandr-an-open-benchmark-evaluating-research-agents-that-must-search-wide-and-deep",
-      "created_at": "2026-07-19T07:47:45Z",
-      "status": "scoring_attempted",
-      "title": "Perplexity AI Releases WANDR: An Open Benchmark Evaluating Research Agents That Must Search Wide And Deep"
     },
     "https://www.marktechpost.com/2026/07/20/alibabas-tongyi-lab-releases-qwen-audio-3-0-tts-a-hosted-text-to-speech-model-in-flash-and-plus-tiers-across-16-languages": {
       "canonical_url": "https://www.marktechpost.com/2026/07/20/alibabas-tongyi-lab-releases-qwen-audio-3-0-tts-a-hosted-text-to-speech-model-in-flash-and-plus-tiers-across-16-languages",
