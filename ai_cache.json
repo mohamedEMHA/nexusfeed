@@ -167,6 +167,29 @@
         "social_posts": {}
       }
     },
+    "23be2afe85d2e2c077f355449201efc7fde03b320529da9c5b98dd4a48b7280c": {
+      "created_at": "2026-07-26T11:52:54Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "New model release with significant training infrastructure improvements.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "KwaiKAT Team Releases KAT-Coder-V2.5: An Agentic Coding Model Trained on 100,000+ Verifiable Repository Environments",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "259d6b013236fc388bca02baf1cfbd4777d7cad348bfd9827b43d69b7c418bb4": {
       "created_at": "2026-07-25T22:51:44Z",
       "payload": {
@@ -2162,12 +2185,6 @@
       "status": "scoring_attempted",
       "title": "Show HN: OneCLI \u2013 OSS credential gateway that keeps secrets out of AI agents"
     },
-    "https://github.com/openai/codex/pull/33972/files": {
-      "canonical_url": "https://github.com/openai/codex/pull/33972/files",
-      "created_at": "2026-07-19T10:44:41Z",
-      "status": "scoring_attempted",
-      "title": "OpenAI reduces Codex Model Context Size from 372k to 272k"
-    },
     "https://github.com/palmier-io/palmier-pro": {
       "canonical_url": "https://github.com/palmier-io/palmier-pro",
       "created_at": "2026-07-23T17:10:21Z",
@@ -2366,18 +2383,6 @@
       "status": "scoring_attempted",
       "title": "Fairphone 6 wide camera experimental Linux support"
     },
-    "https://ocw.mit.edu/courses/res-6-011-the-art-of-insight-in-science-and-engineering-mastering-complexity-fall-2014/3bca850386a3005c22134fa62fb3bad5_MITRES_6-011F14_art_insfin.pdf": {
-      "canonical_url": "https://ocw.mit.edu/courses/res-6-011-the-art-of-insight-in-science-and-engineering-mastering-complexity-fall-2014/3bca850386a3005c22134fa62fb3bad5_MITRES_6-011F14_art_insfin.pdf",
-      "created_at": "2026-07-19T11:47:39Z",
-      "status": "scoring_attempted",
-      "title": "The Art of Insight in Science and Engineering \u2013 Mastering Complexity(2014) [pdf]"
-    },
-    "https://ollama.com/blog/all-aboard-open-models": {
-      "canonical_url": "https://ollama.com/blog/all-aboard-open-models",
-      "created_at": "2026-07-19T10:44:41Z",
-      "status": "scoring_attempted",
-      "title": "Ollama: All Aboard Open Models"
-    },
     "https://openai.com/index/advancing-the-next-era-of-national-science": {
       "canonical_url": "https://openai.com/index/advancing-the-next-era-of-national-science",
       "created_at": "2026-07-22T15:38:50Z",
@@ -2516,23 +2521,11 @@
       "status": "scoring_attempted",
       "title": "Jack Dorsey launches Buzz to combine team chat, AI agents and Git hosting"
     },
-    "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust": {
-      "canonical_url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust",
-      "created_at": "2026-07-19T10:44:41Z",
-      "status": "scoring_attempted",
-      "title": "Claude Code uses Bun written in Rust now"
-    },
     "https://sliplane.io/blog/hetzner-inference": {
       "canonical_url": "https://sliplane.io/blog/hetzner-inference",
       "created_at": "2026-07-24T12:47:34Z",
       "status": "scoring_attempted",
       "title": "Hetzner is working on LLM Inference"
-    },
-    "https://synchub.to": {
-      "canonical_url": "https://synchub.to",
-      "created_at": "2026-07-19T10:44:41Z",
-      "status": "scoring_attempted",
-      "title": "Mirror your GitHub repos to tangled.org automatically"
     },
     "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans": {
       "canonical_url": "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans",
@@ -3152,12 +3145,6 @@
       "status": "scoring_attempted",
       "title": "Airbus Makes Protection from Extraterritorial Law a Scored Criterion in Its Cloud Tender"
     },
-    "https://www.infoq.com/news/2026/07/alphaevolve-generally-available": {
-      "canonical_url": "https://www.infoq.com/news/2026/07/alphaevolve-generally-available",
-      "created_at": "2026-07-19T10:44:41Z",
-      "status": "scoring_attempted",
-      "title": "Google's AlphaEvolve Reaches General Availability with Evolutionary Code Optimization as a Service"
-    },
     "https://www.infoq.com/news/2026/07/android-studio-quail-2": {
       "canonical_url": "https://www.infoq.com/news/2026/07/android-studio-quail-2",
       "created_at": "2026-07-21T19:57:32Z",
@@ -3415,6 +3402,12 @@
       "created_at": "2026-07-25T09:12:42Z",
       "status": "scoring_attempted",
       "title": "Why the OpenAI Agent Broke Into Hugging Face: Reward Hacking, Not Malice, Explained for Engineers"
+    },
+    "https://www.marktechpost.com/2026/07/26/kwaikat-team-releases-kat-coder-v2-5-an-agentic-coding-model-trained-on-100000-verifiable-repository-environments": {
+      "canonical_url": "https://www.marktechpost.com/2026/07/26/kwaikat-team-releases-kat-coder-v2-5-an-agentic-coding-model-trained-on-100000-verifiable-repository-environments",
+      "created_at": "2026-07-26T11:52:54Z",
+      "status": "scoring_attempted",
+      "title": "KwaiKAT Team Releases KAT-Coder-V2.5: An Agentic Coding Model Trained on 100,000+ Verifiable Repository Environments"
     },
     "https://www.maxmynter.com/pages/blog/jobhunt": {
       "canonical_url": "https://www.maxmynter.com/pages/blog/jobhunt",
