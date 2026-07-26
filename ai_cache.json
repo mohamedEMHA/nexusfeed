@@ -1,28 +1,5 @@
 {
   "cerebras_scoring": {
-    "08551330117b7de0bd2ebc06d0e488d26283bb35592ac0da28a2f6a0eebd5f37": {
-      "created_at": "2026-07-25T23:13:08Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "Interesting niche application of LLMs on microcontrollers, but limited impact and from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Running a 28.9M parameter LLM on an $8 microcontroller",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 3,
-        "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "0bff28b3bf17e2432894eb2512b0719d8af66811b142aec7189c2613c94c5192": {
       "created_at": "2026-07-26T15:42:40Z",
       "payload": {
@@ -235,29 +212,6 @@
         "social_posts": {}
       }
     },
-    "4529f429151543a9cf54cf293b890dea0a9dfe3fa02ec156426fc02ca9b20356": {
-      "created_at": "2026-07-25T23:57:17Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.0,
-            "index": 0,
-            "novelty_score": 0.0,
-            "reason": "This is a recap article, which is a red flag.",
-            "red_flag": true,
-            "red_flag_reason": "recap",
-            "source_score": 0.5,
-            "title": "Clinical Failure Rates over the Decades: Yikes",
-            "total_score": 2.0
-          }
-        ],
-        "best_index": 0,
-        "best_score": 2.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "60aa9e083b1d9c4886c62e112e951a9214b5c258b09b97ef0cd2239d47777f2f": {
       "created_at": "2026-07-26T06:28:43Z",
       "payload": {
@@ -346,6 +300,29 @@
         ],
         "best_index": 0,
         "best_score": 3.2,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "6ea14fd697baceffc204048a744cce4862b34b6be5d0291e46617b4d7c844c55": {
+      "created_at": "2026-07-26T23:59:07Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "New release of a model optimization tool with significant cost savings potential.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Show HN: Distill and serve small models with frontier quality for half the cost",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -629,6 +606,29 @@
           "threads": "Moonshot AI's Kimi just sent shockwaves through Silicon Valley and Wall Street. Here's the breakdown of what's happening and why it matters.\nhttps://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai/",
           "twitter": "Moonshot AI's Kimi just shook Silicon Valley and Wall Street. Here's why it matters.\nhttps://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai/"
         }
+      }
+    },
+    "d22fa5d39d7ab23d8f63120ed03991f3f4cd5232f6d8cc66143b21ef9a050a0b": {
+      "created_at": "2026-07-26T23:59:07Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "New tool for running Claude code on Cursor, but niche impact and lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Cursor Bridge \u2013 Run Unlimited Claude Code on Your Cursor Subscription",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "d671b56f0fb0cbd439a187972e36c4ae8ff21524b00426910c9e117e16f978e2": {
@@ -1129,15 +1129,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 New AI Lab Emerges\nPrentis lab, co-founded by Reid Hoffman and Marc Pincus, is in talks to raise $100M, focusing on automating routine computer tasks as AI's next big use case.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #Automation #Innovation\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Prentis lab, co-founded by @ReidHoffman, is betting on automation of routine computer tasks as the next big use case for AI, with a potential $100M funding on the table, signaling a major industry shift #AI",
         "twitter": "Automation of routine computer tasks may soon surpass coding as AI's primary use case, says Prentis lab co-founded by @ReidHoffman, with potential $100M funding #AI"
-      }
-    },
-    "f1d555fa4bd20bd9a0a306d7d6ddb6fd2a3a0815ae2d9a731df890621e3dff95": {
-      "created_at": "2026-07-19T23:33:23Z",
-      "payload": {
-        "facebook": "A significant development in text-to-SQL models has been announced by Feyn Labs with the release of SQRL, a family of models that inspect databases before generating queries. This approach has yielded impressive results, including a 70.6% execution accuracy on BIRD Dev. #TextToSQL #SQLModels #AI",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Feyn AI Releases Advanced Text-to-SQL Model\nFeyn Labs has introduced SQRL, a family of text-to-SQL models that inspect databases before generating queries, with the flagship SQRL-35B-A3B achieving 70.6% execution accuracy on BIRD Dev.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n#TextToSQL #SQLModels #AI\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Feyn AI has introduced SQRL, a text-to-SQL model family that precedes query writing with database inspection, achieving a notable 70.6% execution accuracy on BIRD Dev @FeynAI #TextToSQL",
-        "twitter": "Feyn AI's new SQRL model family achieves 70.6% execution accuracy on BIRD Dev, outperforming Claude Opus 4.6 @FeynAI #TextToSQL"
       }
     },
     "f3616415a8db7406276fc1117d7318a795ea4721c365b5dd222d4ff4653ecf4f": {
@@ -2159,11 +2150,23 @@
       "status": "scoring_attempted",
       "title": "DeepSeek pause fundraise after comments on compute gap to US leaked (transcript) [pdf]"
     },
+    "https://github.com/experientiallabs/world-model-optimizer": {
+      "canonical_url": "https://github.com/experientiallabs/world-model-optimizer",
+      "created_at": "2026-07-26T23:59:07Z",
+      "status": "scoring_attempted",
+      "title": "Show HN: Distill and serve small models with frontier quality for half the cost"
+    },
     "https://github.com/hertz-ai/HARTOS": {
       "canonical_url": "https://github.com/hertz-ai/HARTOS",
       "created_at": "2026-07-26T20:02:21Z",
       "status": "scoring_attempted",
       "title": "Show HN: HART OS \u2013 an open-source AI OS built so frontier AI needs no datacenter"
+    },
+    "https://github.com/hkc5/cursor-bridge": {
+      "canonical_url": "https://github.com/hkc5/cursor-bridge",
+      "created_at": "2026-07-26T23:59:07Z",
+      "status": "scoring_attempted",
+      "title": "Cursor Bridge \u2013 Run Unlimited Claude Code on Your Cursor Subscription"
     },
     "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/wsff.md": {
       "canonical_url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/wsff.md",
@@ -3292,12 +3295,6 @@
       "created_at": "2026-07-24T14:27:38Z",
       "status": "scoring_attempted",
       "title": "Oracle fires 21,000 employees to fund AI spending"
-    },
-    "https://www.marktechpost.com/2026/07/19/feyn-ai-releases-sqrl-a-text-to-sql-model-family-that-inspects-the-database-before-writing-a-query": {
-      "canonical_url": "https://www.marktechpost.com/2026/07/19/feyn-ai-releases-sqrl-a-text-to-sql-model-family-that-inspects-the-database-before-writing-a-query",
-      "created_at": "2026-07-19T23:33:23Z",
-      "status": "scoring_attempted",
-      "title": "Feyn AI Releases SQRL, a Text-to-SQL Model Family That Inspects the Database Before Writing a Query"
     },
     "https://www.marktechpost.com/2026/07/20/alibabas-tongyi-lab-releases-qwen-audio-3-0-tts-a-hosted-text-to-speech-model-in-flash-and-plus-tiers-across-16-languages": {
       "canonical_url": "https://www.marktechpost.com/2026/07/20/alibabas-tongyi-lab-releases-qwen-audio-3-0-tts-a-hosted-text-to-speech-model-in-flash-and-plus-tiers-across-16-languages",
