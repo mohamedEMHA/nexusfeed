@@ -121,29 +121,6 @@
         }
       }
     },
-    "1e44e66dd07666efb97ffaa56a41769ef2c65377e626b68abcc5fc3f86a9a7a2": {
-      "created_at": "2026-07-25T12:55:30Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 0.5,
-            "index": 0,
-            "novelty_score": 0.2,
-            "reason": "Job posting with limited novelty and impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Kyber (YC W23) Is Hiring a Head of Engineering",
-            "total_score": 3.2
-          }
-        ],
-        "best_index": 0,
-        "best_score": 3.2,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "235e6ee8e70e1644e9af13388c845f7d63d0c103c01ccf674cecb257c1dfd075": {
       "created_at": "2026-07-26T00:14:01Z",
       "payload": {
@@ -208,6 +185,29 @@
           }
         ],
         "best_index": 1,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "32a82c0b07b4c7e4ee0ade356a8df88332a7fb2814211b40d5657f113b2e7bbd": {
+      "created_at": "2026-07-26T14:22:03Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Modular static analysis framework for Go, but from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Go Analysis Framework: modular static analysis by go team",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 0,
         "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
@@ -993,15 +993,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 AI-generated music is on the rise\nDeezer reports that more than 50% of daily uploads are AI-generated, with over 90,000 tracks being uploaded daily.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n#AI #Music #Streaming\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Deezer is seeing a significant influx of AI-generated music, with over 50% of daily uploads coming from AI sources, @Deezer is at the forefront of this shift #AI",
         "twitter": "AI-generated music is flooding streaming platforms, with @Deezer reporting over 50% of daily uploads coming from AI sources #AI #Music"
-      }
-    },
-    "4870e5be4db53fa6e211f631d64976603142671196fd564092b9b227ba9a5131": {
-      "created_at": "2026-07-19T14:18:12Z",
-      "payload": {
-        "facebook": "A nonprofit organization is working towards building a World Wide Web of AI that leaves no culture behind, making significant progress in devices and AI chat. This initiative aims to make AI accessible to everyone, promoting digital inclusivity. #AI #DigitalInclusion #TechForGood",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Current AI Progresses Towards Inclusive AI Web\nCurrent AI, a nonprofit, has made significant strides in building a free and culturally inclusive AI web, available across devices and AI chat.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #TechForGood #DigitalInclusion\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Current AI, a nonprofit, is racing to build a free and culturally inclusive AI web, @CurrentAI is leading the charge with notable progress in devices and AI chat #AI",
-        "twitter": "Current AI is making strides in creating a culturally inclusive AI web, available for free to all, @TechCrunch reports #AI #TechForGood"
       }
     },
     "488f8221846cda1dd7943a0391006686f708f28657e2f7f099b32e5221e934e3": {
@@ -2491,6 +2482,12 @@
       "status": "scoring_attempted",
       "title": "Petals: Run LLMs at home, BitTorrent-style"
     },
+    "https://pkg.go.dev/golang.org/x/tools/go/analysis": {
+      "canonical_url": "https://pkg.go.dev/golang.org/x/tools/go/analysis",
+      "created_at": "2026-07-26T14:22:03Z",
+      "status": "scoring_attempted",
+      "title": "Go Analysis Framework: modular static analysis by go team"
+    },
     "https://platform.claude.com/cookbook": {
       "canonical_url": "https://platform.claude.com/cookbook",
       "created_at": "2026-07-24T09:17:02Z",
@@ -2556,12 +2553,6 @@
       "created_at": "2026-07-19T20:25:29Z",
       "status": "scoring_attempted",
       "title": "Can an Apple lawsuit derail OpenAI\u2019s hardware plans?"
-    },
-    "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all": {
-      "canonical_url": "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all",
-      "created_at": "2026-07-19T14:18:12Z",
-      "status": "scoring_attempted",
-      "title": "Nonprofit Current AI is racing to build the World Wide Web of AI, free for all"
     },
     "https://techcrunch.com/2026/07/19/odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse": {
       "canonical_url": "https://techcrunch.com/2026/07/19/odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse",
@@ -3120,12 +3111,6 @@
       "created_at": "2026-07-22T12:55:29Z",
       "status": "scoring_attempted",
       "title": "So Reddit has decided that plain HTML is unsafe"
-    },
-    "https://www.cortex.io/drive": {
-      "canonical_url": "https://www.cortex.io/drive",
-      "created_at": "2026-07-19T14:18:12Z",
-      "status": "scoring_attempted",
-      "title": "DRIVE \u2013 Operational Excellence for AI-accelerated engineering"
     },
     "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16": {
       "canonical_url": "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16",
@@ -3780,12 +3765,6 @@
       "created_at": "2026-07-22T15:01:16Z",
       "status": "scoring_attempted",
       "title": "Microsoft is bringing original Xbox games to PC"
-    },
-    "https://www.theverge.com/podcast/967642/the-clapper-version-history": {
-      "canonical_url": "https://www.theverge.com/podcast/967642/the-clapper-version-history",
-      "created_at": "2026-07-19T14:18:12Z",
-      "status": "scoring_attempted",
-      "title": "The Clapper was a bad smart home gadget \u2014 and a viral sensation"
     },
     "https://www.theverge.com/podcast/967884/jill-lepore-history-ai-artificial-state-elon-musk": {
       "canonical_url": "https://www.theverge.com/podcast/967884/jill-lepore-history-ai-artificial-state-elon-musk",
