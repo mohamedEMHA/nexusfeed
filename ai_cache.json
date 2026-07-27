@@ -1,31 +1,26 @@
 {
   "cerebras_scoring": {
-    "17bcefeb3f0f413f91cd42af03f8d324699756aaf57936ca7ed68d72ed1fb7b2": {
-      "created_at": "2026-07-26T18:52:23Z",
+    "0f8932ac424d5b0e7ab269c2d3bed61b0b411da931d7986fca2db768558bbdbf": {
+      "created_at": "2026-07-27T19:38:24Z",
       "payload": {
         "articles": [
           {
             "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 0,
+            "impact_score": 1.5,
+            "index": 1,
             "novelty_score": 2.5,
-            "reason": "This case sets a legal precedent for digital privacy rights at borders.",
+            "reason": "Interesting approach to portable Python distributions, but niche impact and lower-tier source.",
             "red_flag": false,
             "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "The US is charging an American citizen for wiping his phone at the border",
-            "total_score": 8.5
+            "source_score": 0.5,
+            "title": "Self-contained highly-portable Python distributions",
+            "total_score": 6.5
           }
         ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "The US government is charging a citizen for wiping his phone at the border using a duress password. This case could redefine digital privacy rights at international borders. Link: https://www.theverge.com/policy/971097/us-charging-american-citizen-wiping-phone-duress-password",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *The US is charging an American citizen for wiping his phone at the border*\n\nThe government is prosecuting US citizen Sam Tunick for allegedly providing authorities with a \"duress password\" that wiped his phone when they tried to seize it at Atlanta's Hartsfield-Jackson airport on January 24th, 2025.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/policy/971097/us-charging-american-citizen-wiping-phone-duress-password\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "The US is prosecuting a citizen for wiping his phone at the border with a duress password. This could set a major precedent for digital privacy rights. https://www.theverge.com/policy/971097/us-charging-american-citizen-wiping-phone-duress-password",
-          "twitter": "The US is prosecuting a citizen for using a duress password to wipe his phone at the border. This sets a dangerous precedent for digital privacy.\nhttps://www.theverge.com/policy/971097/us-charging-american-citizen-wiping-phone-duress-password"
-        }
+        "best_index": 1,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "2f41820c9793492a8fd373752705d626053e4c9a5e2d3e785949b6952f6289c5": {
@@ -83,6 +78,29 @@
         ],
         "best_index": 8,
         "best_score": 7.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "3a9cd0589988466c07a0b65b582bdbb4f84795bbbe992a1e2ef5720791391878": {
+      "created_at": "2026-07-27T19:38:24Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 3.0,
+            "reason": "Microsoft's launch of its first AI security model and a new security platform is highly relevant to software engineers and AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system",
+            "total_score": 9.0
+          }
+        ],
+        "best_index": 2,
+        "best_score": 9.0,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -415,29 +433,6 @@
         "social_posts": {}
       }
     },
-    "68b27c43d068a4de0af9c58ecacbecd564e06f13b9c25d41f7039856b4bc62cf": {
-      "created_at": "2026-07-26T18:52:23Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 2,
-            "novelty_score": 0.2,
-            "reason": "Low novelty, niche impact, fresh source, low-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Calling all open source maintainers working with Ruby",
-            "total_score": 4.2
-          }
-        ],
-        "best_index": 2,
-        "best_score": 4.2,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "6ea14fd697baceffc204048a744cce4862b34b6be5d0291e46617b4d7c844c55": {
       "created_at": "2026-07-26T23:59:07Z",
       "payload": {
@@ -480,29 +475,6 @@
         ],
         "best_index": 3,
         "best_score": 7.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "88cfac6046853d654da32c3fbec51735a5b1964366b0ddb4800175b8cb0b8459": {
-      "created_at": "2026-07-26T18:52:23Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "New tool for AI coding agents, but limited impact and from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Show HN: Boffin \u2013 Staff-engineer layer for AI coding agents",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 5.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1160,6 +1132,29 @@
         "social_posts": {}
       }
     },
+    "dcc99573e4079e2eb922357d606b2da9422a7c0c2ce4bcf41c3d3da157ce4a84": {
+      "created_at": "2026-07-27T19:38:24Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.0,
+            "index": 3,
+            "novelty_score": 0.0,
+            "reason": "Duplicate post with no new information.",
+            "red_flag": true,
+            "red_flag_reason": "duplicate post",
+            "source_score": 0.5,
+            "title": "This is an accidental duplicate post, please delete",
+            "total_score": 2.0
+          }
+        ],
+        "best_index": 3,
+        "best_score": 2.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "debab2154d75b82687a829c7d55ecbc6863c53f641338f79e546866f2dd51924": {
       "created_at": "2026-07-26T21:11:35Z",
       "payload": {
@@ -1331,6 +1326,29 @@
         ],
         "best_index": 0,
         "best_score": 3.2,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "fee21593a3e740f8d18f73cf7a911d3e486cf40f290ab0999d42197c28c7e288": {
+      "created_at": "2026-07-27T19:38:24Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.0,
+            "index": 0,
+            "novelty_score": 2.0,
+            "reason": "Verizon's $1B dark fiber deal with Google is notable but not groundbreaking for AI infrastructure.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Verizon touts $1B dark fiber deal for Google data centers as first of many",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1661,6 +1679,15 @@
         "twitter": "Cognition acquires Poke, indicating AI personality is becoming key to competitive advantage @TechCrunch #AIpersonality"
       }
     },
+    "db3ecd7b0fd247c4893cce6cb4d3c824f984a6ada046b922d611e55e07a84285": {
+      "created_at": "2026-07-27T19:38:24Z",
+      "payload": {
+        "facebook": "Microsoft has launched its first AI security model and a new security platform, bolstering its AI cybersecurity offerings. This move is significant for the tech industry, particularly for software engineers and AI researchers. #AIsecurity #cybersecurity #Microsoft",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Microsoft Launches AI Cybersecurity Model\nMicrosoft has launched its first AI security model and a new security platform, expanding its AI cybersecurity capabilities.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9/10\n#AIsecurity #cybersecurity #Microsoft\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Microsoft has launched its first AI security model and a new security platform, expanding its AI cybersecurity capabilities. This development is crucial for the tech industry @Microsoft #AIsecurity",
+        "twitter": "Microsoft enters the AI cybersecurity space with its first security model and a new agentic system @Microsoft #AIsecurity"
+      }
+    },
     "e47bffad24a8231cc546c4f25d68929099c8215ba9bd6e68b4b36cc3489907cc": {
       "created_at": "2026-07-24T20:04:50Z",
       "payload": {
@@ -1809,6 +1836,12 @@
       "created_at": "2026-07-22T15:01:16Z",
       "status": "scoring_attempted",
       "title": "Unlimited AI tokens aren't unlimited after all as US Army burns through supply"
+    },
+    "https://arstechnica.com/ai/2026/07/verizon-seeks-ai-profits-with-mini-data-centers-1b-dark-fiber-deal-with-google": {
+      "canonical_url": "https://arstechnica.com/ai/2026/07/verizon-seeks-ai-profits-with-mini-data-centers-1b-dark-fiber-deal-with-google",
+      "created_at": "2026-07-27T19:38:24Z",
+      "status": "scoring_attempted",
+      "title": "Verizon touts $1B dark fiber deal for Google data centers as first of many"
     },
     "https://arstechnica.com/google/2026/07/google-just-had-its-first-negative-cash-flow-quarter-ever-due-to-massive-ai-spending": {
       "canonical_url": "https://arstechnica.com/google/2026/07/google-just-had-its-first-negative-cash-flow-quarter-ever-due-to-massive-ai-spending",
@@ -2458,12 +2491,6 @@
       "status": "scoring_attempted",
       "title": "Flux 3 X Mimic: The Next Generation of Video-Action Models"
     },
-    "https://blaizzy.github.io/nativ": {
-      "canonical_url": "https://blaizzy.github.io/nativ",
-      "created_at": "2026-07-20T19:08:17Z",
-      "status": "scoring_attempted",
-      "title": "Nativ: Run frontier open models locally on your Mac"
-    },
     "https://blog.cloudflare.com/content-independence-day-ai-options": {
       "canonical_url": "https://blog.cloudflare.com/content-independence-day-ai-options",
       "created_at": "2026-07-26T00:14:01Z",
@@ -2511,12 +2538,6 @@
       "created_at": "2026-07-21T18:21:46Z",
       "status": "scoring_attempted",
       "title": "Firefox Containers Preview"
-    },
-    "https://blogs.microsoft.com/blog/2026/07/20/microsoft-expands-azure-ai-and-hpc-infrastructure-with-amd": {
-      "canonical_url": "https://blogs.microsoft.com/blog/2026/07/20/microsoft-expands-azure-ai-and-hpc-infrastructure-with-amd",
-      "created_at": "2026-07-20T19:08:17Z",
-      "status": "scoring_attempted",
-      "title": "Microsoft expands Azure AI and HPC infrastructure with AMD"
     },
     "https://brolly.sh/forecast/RWFP2qW8": {
       "canonical_url": "https://brolly.sh/forecast/RWFP2qW8",
@@ -2602,12 +2623,6 @@
       "status": "scoring_attempted",
       "title": "Half-Life 2 running natively on HaikuOS"
     },
-    "https://dl.acm.org/doi/10.1145/3800646.3800650": {
-      "canonical_url": "https://dl.acm.org/doi/10.1145/3800646.3800650",
-      "created_at": "2026-07-20T19:08:17Z",
-      "status": "scoring_attempted",
-      "title": "The drivers behind software delivery inefficiency"
-    },
     "https://dylancastillo.co/posts/pelicanmaxxing.html": {
       "canonical_url": "https://dylancastillo.co/posts/pelicanmaxxing.html",
       "created_at": "2026-07-22T19:48:26Z",
@@ -2631,12 +2646,6 @@
       "created_at": "2026-07-27T13:29:03Z",
       "status": "scoring_attempted",
       "title": "Modern email can be built from borrowed parts"
-    },
-    "https://eunomia.dev/blog/2026/07/15/ebpf-ai-agent-policy-enforcement": {
-      "canonical_url": "https://eunomia.dev/blog/2026/07/15/ebpf-ai-agent-policy-enforcement",
-      "created_at": "2026-07-20T19:08:17Z",
-      "status": "scoring_attempted",
-      "title": "An Empirical Study: AI Agent Rules Need Context and Layered Enforcement"
     },
     "https://foldkit.dev": {
       "canonical_url": "https://foldkit.dev",
@@ -2757,6 +2766,12 @@
       "created_at": "2026-07-27T03:47:01Z",
       "status": "scoring_attempted",
       "title": "Scriptc by Vercel: TypeScript-to-Native compiler, no JavaScript engine in binary"
+    },
+    "https://gregoryszorc.com/docs/python-build-standalone/main": {
+      "canonical_url": "https://gregoryszorc.com/docs/python-build-standalone/main",
+      "created_at": "2026-07-27T19:38:24Z",
+      "status": "scoring_attempted",
+      "title": "Self-contained highly-portable Python distributions"
     },
     "https://haqr.eu/tinyrenderer": {
       "canonical_url": "https://haqr.eu/tinyrenderer",
@@ -2901,6 +2916,12 @@
       "created_at": "2026-07-23T19:59:18Z",
       "status": "scoring_attempted",
       "title": "Show HN: Echo \u2013 Fable-level results at 1/3 the cost using open-weight models"
+    },
+    "https://news.ycombinator.com/item?id=49073595": {
+      "canonical_url": "https://news.ycombinator.com/item?id=49073595",
+      "created_at": "2026-07-27T19:38:24Z",
+      "status": "scoring_attempted",
+      "title": "This is an accidental duplicate post, please delete"
     },
     "https://nondescriptpointer.com/articles/fairphone-6-wide-camera-linux": {
       "canonical_url": "https://nondescriptpointer.com/articles/fairphone-6-wide-camera-linux",
@@ -3405,6 +3426,12 @@
       "created_at": "2026-07-27T15:59:27Z",
       "status": "scoring_attempted",
       "title": "Ilya Sutskever\u2019s Safe Superintelligence partners with Nvidia to scale its AI research"
+    },
+    "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system": {
+      "canonical_url": "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system",
+      "created_at": "2026-07-27T19:38:24Z",
+      "status": "scoring_attempted",
+      "title": "Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system"
     },
     "https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control": {
       "canonical_url": "https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control",
@@ -4161,12 +4188,6 @@
       "created_at": "2026-07-27T17:57:31Z",
       "status": "scoring_attempted",
       "title": "Why China is giving away its best AI models"
-    },
-    "https://www.theverge.com/business/968055/paramount-wbd-merger-pause-tro": {
-      "canonical_url": "https://www.theverge.com/business/968055/paramount-wbd-merger-pause-tro",
-      "created_at": "2026-07-20T19:08:17Z",
-      "status": "scoring_attempted",
-      "title": "Judge pauses Paramount\u2019s attempt to buy Warner Bros. Discovery"
     },
     "https://www.theverge.com/business/968257/spacex-in-your-index-fund-explained": {
       "canonical_url": "https://www.theverge.com/business/968257/spacex-in-your-index-fund-explained",
