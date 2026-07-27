@@ -74,29 +74,6 @@
         }
       }
     },
-    "235e6ee8e70e1644e9af13388c845f7d63d0c103c01ccf674cecb257c1dfd075": {
-      "created_at": "2026-07-26T00:14:01Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 2,
-            "novelty_score": 2.0,
-            "reason": "Cloudflare introduces new AI traffic options for customers, impacting a niche audience with moderate novelty.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Cloudflare's new AI traffic options for customers",
-            "total_score": 6.0
-          }
-        ],
-        "best_index": 2,
-        "best_score": 6.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "23be2afe85d2e2c077f355449201efc7fde03b320529da9c5b98dd4a48b7280c": {
       "created_at": "2026-07-26T11:52:54Z",
       "payload": {
@@ -212,6 +189,52 @@
         "social_posts": {}
       }
     },
+    "4801c8cf2920e4a8ccace69e3300a6bf4fb2823e810c5d74a9487df7421ff079": {
+      "created_at": "2026-07-27T03:47:01Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Physical AI models may soon use brain wave readings for training, marking a significant shift in how these models learn.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Are brain waves the next unlock for physical AI?",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "5ad029a1bd6b2b05ba2eea85ffd43f3bcf55c8a4bda11ca8a1b6bed72f4a882f": {
+      "created_at": "2026-07-27T03:47:01Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "A US citizen was charged after their GrapheneOS phone wiped during an airport search, highlighting privacy and security concerns.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "US citizen charged after GrapheneOS phone wipes during airport search",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 2,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "60aa9e083b1d9c4886c62e112e951a9214b5c258b09b97ef0cd2239d47777f2f": {
       "created_at": "2026-07-26T06:28:43Z",
       "payload": {
@@ -231,6 +254,29 @@
         ],
         "best_index": 4,
         "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "61317db689986f3c211f5670a4884d5389acbd8db54b9bb2b234d54a8b23806c": {
+      "created_at": "2026-07-27T03:47:01Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "New TypeScript-to-Native compiler from Vercel, but source is Hacker News and not a direct release.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Scriptc by Vercel: TypeScript-to-Native compiler, no JavaScript engine in binary",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -465,52 +511,6 @@
         "social_posts": {}
       }
     },
-    "9dcfd41987742541415b6e48e3d97d6bb2e40f0cf143b1a1fad267ad249027c5": {
-      "created_at": "2026-07-26T02:53:48Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 1.5,
-            "reason": "Listicle format with no new research or product release.",
-            "red_flag": true,
-            "red_flag_reason": "listicle format",
-            "source_score": 1.5,
-            "title": "Monday.com is the latest tech company to blame AI for layoffs \u2014 here are 20 others",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "9eca760c006c7fba7469f78c0d5899b789c84116951ab0dcf9240a507a7af1d4": {
-      "created_at": "2026-07-26T00:14:01Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Industry move with significant implications for AI funding landscape.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "DeepSeek pause fundraise after comments on compute gap to US leaked (transcript) [pdf]",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "a9705689ac6229cfffcdb2143d7876d84493f5bf445d1c95467ac2e65f189ad4": {
       "created_at": "2026-07-26T08:29:48Z",
       "payload": {
@@ -654,29 +654,6 @@
         "social_posts": {}
       }
     },
-    "db2893e041ef468e24489cf4f4ba70034296014e41f8de45ed3c2c2cf3670f3d": {
-      "created_at": "2026-07-26T02:53:48Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Interesting but not directly relevant to software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Possible invasive species superspreader event near Strait of Hormuz",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "debab2154d75b82687a829c7d55ecbc6863c53f641338f79e546866f2dd51924": {
       "created_at": "2026-07-26T21:11:35Z",
       "payload": {
@@ -746,29 +723,6 @@
         ],
         "best_index": 0,
         "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "ef569d403f0929a06d50fbae1d8de6e806741546520fd4afa7145ba3f19b9bc0": {
-      "created_at": "2026-07-26T00:14:01Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 3,
-            "novelty_score": 0.2,
-            "reason": "This is a tutorial-style article, which automatically disqualifies it based on the red flag criteria.",
-            "red_flag": true,
-            "red_flag_reason": "tutorial",
-            "source_score": 0.5,
-            "title": "Becoming a Research Engineer at a Big LLM Lab",
-            "total_score": 3.2
-          }
-        ],
-        "best_index": 3,
-        "best_score": 3.2,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -2222,6 +2176,12 @@
       "status": "scoring_attempted",
       "title": "Running a 28.9M parameter LLM on an $8 microcontroller"
     },
+    "https://github.com/vercel-labs/scriptc": {
+      "canonical_url": "https://github.com/vercel-labs/scriptc",
+      "created_at": "2026-07-27T03:47:01Z",
+      "status": "scoring_attempted",
+      "title": "Scriptc by Vercel: TypeScript-to-Native compiler, no JavaScript engine in binary"
+    },
     "https://haqr.eu/tinyrenderer": {
       "canonical_url": "https://haqr.eu/tinyrenderer",
       "created_at": "2026-07-23T15:07:34Z",
@@ -2365,12 +2325,6 @@
       "created_at": "2026-07-24T05:46:58Z",
       "status": "scoring_attempted",
       "title": "Working to automate nuclear plant operations"
-    },
-    "https://news.ycombinator.com/item?id=48972858": {
-      "canonical_url": "https://news.ycombinator.com/item?id=48972858",
-      "created_at": "2026-07-20T01:08:10Z",
-      "status": "scoring_attempted",
-      "title": "Ask HN: What are your favorite blogs not about AI?"
     },
     "https://news.ycombinator.com/item?id=48981136": {
       "canonical_url": "https://news.ycombinator.com/item?id=48981136",
@@ -2863,6 +2817,12 @@
       "created_at": "2026-07-26T02:53:48Z",
       "status": "scoring_attempted",
       "title": "Monday.com is the latest tech company to blame AI for layoffs \u2014 here are 20 others"
+    },
+    "https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai": {
+      "canonical_url": "https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai",
+      "created_at": "2026-07-27T03:47:01Z",
+      "status": "scoring_attempted",
+      "title": "Are brain waves the next unlock for physical AI?"
     },
     "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack": {
       "canonical_url": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack",
@@ -3505,6 +3465,12 @@
       "created_at": "2026-07-25T00:07:15Z",
       "status": "scoring_attempted",
       "title": "SpaceX Starship Flight 13 livestream [video]"
+    },
+    "https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html": {
+      "canonical_url": "https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html",
+      "created_at": "2026-07-27T03:47:01Z",
+      "status": "scoring_attempted",
+      "title": "US citizen charged after GrapheneOS phone wipes during airport search"
     },
     "https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker": {
       "canonical_url": "https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker",
