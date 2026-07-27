@@ -23,29 +23,6 @@
         "social_posts": {}
       }
     },
-    "12391eb9bce85007c10945dd4a3643f2a0325eb43f3d59cb416dbdd311be5fe6": {
-      "created_at": "2026-07-26T10:43:24Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "New vulnerability discovery in widely used media framework with significant impact on security.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "AI-Enabled Security Researchers Discover How a Crafted Video Can Provide Attackers Access to Your PC",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "17bcefeb3f0f413f91cd42af03f8d324699756aaf57936ca7ed68d72ed1fb7b2": {
       "created_at": "2026-07-26T18:52:23Z",
       "payload": {
@@ -72,29 +49,6 @@
           "threads": "The US is prosecuting a citizen for wiping his phone at the border with a duress password. This could set a major precedent for digital privacy rights. https://www.theverge.com/policy/971097/us-charging-american-citizen-wiping-phone-duress-password",
           "twitter": "The US is prosecuting a citizen for using a duress password to wipe his phone at the border. This sets a dangerous precedent for digital privacy.\nhttps://www.theverge.com/policy/971097/us-charging-american-citizen-wiping-phone-duress-password"
         }
-      }
-    },
-    "23be2afe85d2e2c077f355449201efc7fde03b320529da9c5b98dd4a48b7280c": {
-      "created_at": "2026-07-26T11:52:54Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "New model release with significant training infrastructure improvements.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "KwaiKAT Team Releases KAT-Coder-V2.5: An Agentic Coding Model Trained on 100,000+ Verifiable Repository Environments",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "32a82c0b07b4c7e4ee0ade356a8df88332a7fb2814211b40d5657f113b2e7bbd": {
@@ -185,6 +139,41 @@
         ],
         "best_index": 2,
         "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "42a0af24a70355258e785961525d82613b3c170412ea658aca863cd13872b441": {
+      "created_at": "2026-07-27T13:29:03Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Interesting exploration of client-side event sourcing but niche impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Podcast: Rethinking Data: Moving From the Traditional Three-Tier Web Stack to Client-Side Event Sourcing",
+            "total_score": 7
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2,
+            "reason": "Ethical concerns in AI training data sourcing but low-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "AI companies are shredding rare books",
+            "total_score": 7
+          }
+        ],
+        "best_index": 0,
+        "best_score": 7,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -298,6 +287,46 @@
         "social_posts": {}
       }
     },
+    "5bd513c887847dfa3522b360f7122263b2957870c2de56951e809c19dac3fb81": {
+      "created_at": "2026-07-27T13:29:03Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "Nvidia and Microsoft launching an open AI security alliance with major tech companies is a significant industry move with broad implications.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Nvidia, Microsoft launch open AI security alliance \u2014 without OpenAI, Google, or Anthropic",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 0,
+            "index": 3,
+            "novelty_score": 0,
+            "reason": "This is a status update on a specific model's errors, which is not novel or impactful.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Elevated errors on Claude Opus 5",
+            "total_score": 2.5
+          }
+        ],
+        "best_index": 2,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Nvidia and Microsoft have teamed up with SpaceX, IBM, and other tech companies to form the Open Secure AI Alliance, focusing on open-source AI security tools. This initiative aims to defend against attacks from frontier models and notably excludes OpenAI, Google, and Anthropic. Link: https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Nvidia, Microsoft launch open AI security alliance \u2014 without OpenAI, Google, or Anthropic*\n\nNvidia and Microsoft have teamed up with SpaceX, IBM, and other tech companies to form the Open Secure AI Alliance, focusing on open-source AI security tools. This initiative aims to defend against attacks from frontier models and notably excludes OpenAI, Google, and Anthropic.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Nvidia and Microsoft launch an open AI security alliance, excluding OpenAI, Google, and Anthropic. The Open Secure AI Alliance aims to build and share open-source AI security tools to defend against attacks from frontier models. https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity",
+          "twitter": "Nvidia and Microsoft launch an open AI security alliance, excluding OpenAI, Google, and Anthropic. https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity"
+        }
+      }
+    },
     "61317db689986f3c211f5670a4884d5389acbd8db54b9bb2b234d54a8b23806c": {
       "created_at": "2026-07-27T03:47:01Z",
       "payload": {
@@ -363,29 +392,6 @@
         ],
         "best_index": 2,
         "best_score": 4.2,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "6cf5391c0cf3f088dc56034478c50dd12d4ac177c9908ec407c3b9daa7cbee7a": {
-      "created_at": "2026-07-26T12:53:04Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 0.2,
-            "reason": "Weekly recap with no new information.",
-            "red_flag": true,
-            "red_flag_reason": "weekly recap",
-            "source_score": 1.5,
-            "title": "The vertical video takeover is here",
-            "total_score": 3.2
-          }
-        ],
-        "best_index": 0,
-        "best_score": 3.2,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -740,29 +746,6 @@
         "social_posts": {}
       }
     },
-    "b87e9fcb92cceb1051bcc51cb9fa1e00b5ed800a93faebbbe1e597dcc34be918": {
-      "created_at": "2026-07-26T12:53:04Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "Claude Code's 30-day context history deletion is a notable privacy feature, but it's not groundbreaking for AI developers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Claude Code Deletes Your Context History from Your Device After 30 Days",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 2,
-        "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "c77c51333aa88876d4e3971c8cbd3865932337b6a3b13f05788eaf14aed0c491": {
       "created_at": "2026-07-27T07:25:50Z",
       "payload": {
@@ -842,6 +825,41 @@
         ],
         "best_index": 19,
         "best_score": 6.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "cbbc475c45fa028d4c9b2984ae3aab9bb6fea4328f2a28ba7a74c30e743d39ea": {
+      "created_at": "2026-07-27T13:29:03Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 4,
+            "novelty_score": 2,
+            "reason": "New release but niche impact and lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Google Chrome Arrives on ARM64 Linux, Widevine DRM Included",
+            "total_score": 5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 5,
+            "novelty_score": 2.5,
+            "reason": "Research on AI architecture with moderate impact and decent source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Article: An Evolutionary Architecture Pattern for Managing AI\u2019s Pace of Change",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 5,
+        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -968,6 +986,41 @@
         "best_index": 0,
         "best_score": 0.0,
         "recommendation": "SKIP"
+      }
+    },
+    "ef1e7901267315e3b1de4e1b679c8b6a6afcb98b3bff89135f97600b3664e45e": {
+      "created_at": "2026-07-27T13:29:03Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 6,
+            "novelty_score": 2.5,
+            "reason": "Legal case involving AI-generated content and personal rights.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Artist sues AI meme generator for selling deeply personal comic as ad template",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 1,
+            "impact_score": 1.5,
+            "index": 10,
+            "novelty_score": 1.5,
+            "reason": "Discussion on building modern email systems, not a major breakthrough.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Modern email can be built from borrowed parts",
+            "total_score": 4.5
+          }
+        ],
+        "best_index": 6,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "f4dd4b39d54f323c209c319fa26a8518830ffbba078715ac0b6cbee9b0544b15": {
@@ -1270,15 +1323,6 @@
         "twitter": "FCC Chairman Brendan Carr is using his authority to target broadcasters for exercising free speech @TheVerge #FirstAmendment"
       }
     },
-    "557b423eb6ac80e884d8b6e8dacdb8514def76e653e3223d917659a157d8ebef": {
-      "created_at": "2026-07-20T12:13:13Z",
-      "payload": {
-        "facebook": "The future of coding is looking more intelligent with the development of context-rich AI coding harnesses. Augment Code's Vinay Perneti discusses the potential of these tools to change the way we code. #AIcoding #SoftwareDevelopment #CodingTools",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 AI coding harnesses are becoming more context-rich\nAugment Code's Vinay Perneti discusses the potential of AI coding harnesses to improve coding efficiency.\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AIcoding #SoftwareDevelopment #CodingTools\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "The case for context-rich AI coding harnesses is being made by Augment Code's Vinay Perneti, who believes these tools can greatly improve coding efficiency @ArsTechnica #AIcoding",
-        "twitter": "AI coding tools are evolving beyond simple grep with context-rich harnesses, says Augment Code's Vinay Perneti @ArsTechnica #AIcoding #SoftwareDevelopment"
-      }
-    },
     "55ed1309ecc4d73a0a479ca86ba0ef930652618246d9c167fb8a470fff5bca82": {
       "created_at": "2026-07-21T21:13:10Z",
       "payload": {
@@ -1358,6 +1402,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Jack Dorsey Takes On Slack With Buzz\nThe new platform integrates humans and AI agents in workplace conversations, potentially changing team collaboration.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #WorkplaceCommunication #Innovation\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Jack Dorsey is taking on Slack with Buzz, a platform that integrates humans and AI agents in the same conversation @TechCrunch #AI",
         "twitter": "Jack Dorsey's new platform Buzz aims to integrate humans and AI agents in workplace conversations @TechCrunch #AI"
+      }
+    },
+    "aa2d5d20dd5ffc3fbf7de2752ac5891b33036d3b308cd3d85d304ba88eb7499c": {
+      "created_at": "2026-07-27T13:29:03Z",
+      "payload": {
+        "facebook": "The tech industry is taking a major step towards enhancing AI security, with Nvidia and Microsoft joining forces to develop open-source tools. This initiative aims to provide effective defense against attacks from advanced AI models, and its impact could be significant. #AIsecurity #technews #OpenSecureAIAlliance",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Nvidia and Microsoft Launch Open AI Security Alliance\nThe new Open Secure AI Alliance aims to build and share open-source AI security tools to defend against attacks from advanced AI models.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n#AIsecurity #OpenSecureAIAlliance #technews\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Nvidia and Microsoft are leading a new alliance to build and share open-source AI security tools, a crucial step in defending against AI-powered attacks @Microsoft #AIsecurity",
+        "twitter": "Nvidia and Microsoft team up with other tech giants to create open-source AI security tools, a move that could significantly boost defense against AI-powered attacks @Nvidia #AIsecurity"
       }
     },
     "b81f85e49829750f62ecc66030d82dcf5b77f36b5714cefb2da89ff68dbf7d21": {
@@ -1533,12 +1586,6 @@
       "status": "scoring_attempted",
       "title": "Anthropic's Opus 5 is about token efficiency, not a capability leap"
     },
-    "https://arstechnica.com/ai/2026/07/beyond-grep-the-case-for-a-context-rich-ai-coding-harness": {
-      "canonical_url": "https://arstechnica.com/ai/2026/07/beyond-grep-the-case-for-a-context-rich-ai-coding-harness",
-      "created_at": "2026-07-20T12:13:13Z",
-      "status": "scoring_attempted",
-      "title": "Beyond grep: The case for a context-rich AI coding harness"
-    },
     "https://arstechnica.com/ai/2026/07/canadian-legislator-reads-out-apparent-llm-response-in-floor-speech": {
       "canonical_url": "https://arstechnica.com/ai/2026/07/canadian-legislator-reads-out-apparent-llm-response-in-floor-speech",
       "created_at": "2026-07-24T22:31:22Z",
@@ -1598,6 +1645,12 @@
       "created_at": "2026-07-23T21:14:35Z",
       "status": "scoring_attempted",
       "title": "AI Kill Switch Act would let Trump admin order shutdown of rogue AI systems"
+    },
+    "https://arstechnica.com/tech-policy/2026/07/artist-sues-ai-meme-generator-for-selling-deeply-personal-comic-as-ad-template": {
+      "canonical_url": "https://arstechnica.com/tech-policy/2026/07/artist-sues-ai-meme-generator-for-selling-deeply-personal-comic-as-ad-template",
+      "created_at": "2026-07-27T13:29:03Z",
+      "status": "scoring_attempted",
+      "title": "Artist sues AI meme generator for selling deeply personal comic as ad template"
     },
     "https://arstechnica.com/tech-policy/2026/07/judge-approves-anthropics-1-5-billion-copyright-settlement-with-authors": {
       "canonical_url": "https://arstechnica.com/tech-policy/2026/07/judge-approves-anthropics-1-5-billion-copyright-settlement-with-authors",
@@ -2385,6 +2438,12 @@
       "status": "scoring_attempted",
       "title": "Learn WebGPU for C++"
     },
+    "https://en.andros.dev/blog/d7ed8b07/modern-email-can-be-built-from-borrowed-parts": {
+      "canonical_url": "https://en.andros.dev/blog/d7ed8b07/modern-email-can-be-built-from-borrowed-parts",
+      "created_at": "2026-07-27T13:29:03Z",
+      "status": "scoring_attempted",
+      "title": "Modern email can be built from borrowed parts"
+    },
     "https://eunomia.dev/blog/2026/07/15/ebpf-ai-agent-policy-enforcement": {
       "canonical_url": "https://eunomia.dev/blog/2026/07/15/ebpf-ai-agent-policy-enforcement",
       "created_at": "2026-07-20T19:08:17Z",
@@ -2834,6 +2893,12 @@
       "created_at": "2026-07-24T12:47:34Z",
       "status": "scoring_attempted",
       "title": "Hetzner is working on LLM Inference"
+    },
+    "https://status.claude.com/incidents/mfdtrknpxghq": {
+      "canonical_url": "https://status.claude.com/incidents/mfdtrknpxghq",
+      "created_at": "2026-07-27T13:29:03Z",
+      "status": "scoring_attempted",
+      "title": "Elevated errors on Claude Opus 5"
     },
     "https://techcrunch.com/2026/07/20/adobe-camera-apps-new-feature-will-critique-your-photos-using-ai": {
       "canonical_url": "https://techcrunch.com/2026/07/20/adobe-camera-apps-new-feature-will-critique-your-photos-using-ai",
@@ -3339,12 +3404,6 @@
       "status": "scoring_attempted",
       "title": "Nvidia bets physical AI can solve healthcare robotics\u2019 data problem"
     },
-    "https://www.artificialintelligence-news.com/news/openai-anthropic-public-health-ai": {
-      "canonical_url": "https://www.artificialintelligence-news.com/news/openai-anthropic-public-health-ai",
-      "created_at": "2026-07-20T12:13:13Z",
-      "status": "scoring_attempted",
-      "title": "US public health agencies to test OpenAI and Anthropic AI models"
-    },
     "https://www.artificialintelligence-news.com/news/openai-presence-enterprise-ai-agents": {
       "canonical_url": "https://www.artificialintelligence-news.com/news/openai-presence-enterprise-ai-agents",
       "created_at": "2026-07-24T08:20:47Z",
@@ -3416,6 +3475,12 @@
       "created_at": "2026-07-21T22:12:46Z",
       "status": "scoring_attempted",
       "title": "Show HN: Computable \u2013 Buy, sell, and redeem GPU for the exact weeks you want"
+    },
+    "https://www.infoq.com/articles/evolutionary-architecture-pattern": {
+      "canonical_url": "https://www.infoq.com/articles/evolutionary-architecture-pattern",
+      "created_at": "2026-07-27T13:29:03Z",
+      "status": "scoring_attempted",
+      "title": "Article: An Evolutionary Architecture Pattern for Managing AI\u2019s Pace of Change"
     },
     "https://www.infoq.com/articles/multi-agent-security-operations": {
       "canonical_url": "https://www.infoq.com/articles/multi-agent-security-operations",
@@ -3525,12 +3590,6 @@
       "status": "scoring_attempted",
       "title": "Jotai v2.20: Rework Store Building Blocks for High-Throughput Performance and Sets the Stage for v3"
     },
-    "https://www.infoq.com/news/2026/07/loom-aws-agent-platform": {
-      "canonical_url": "https://www.infoq.com/news/2026/07/loom-aws-agent-platform",
-      "created_at": "2026-07-20T12:13:13Z",
-      "status": "scoring_attempted",
-      "title": "AWS Releases Loom, an Open-Source Reference Platform for Governing AI Agents at Enterprise Scale"
-    },
     "https://www.infoq.com/news/2026/07/meta-react-compiler-rust": {
       "canonical_url": "https://www.infoq.com/news/2026/07/meta-react-compiler-rust",
       "created_at": "2026-07-23T06:27:26Z",
@@ -3579,11 +3638,11 @@
       "status": "scoring_attempted",
       "title": "Yelp Unifies ML Model Training with Training Orchestrator"
     },
-    "https://www.infoq.com/podcasts/strands-agents": {
-      "canonical_url": "https://www.infoq.com/podcasts/strands-agents",
-      "created_at": "2026-07-20T12:13:13Z",
+    "https://www.infoq.com/podcasts/rethinking-data-client-event-sourcing": {
+      "canonical_url": "https://www.infoq.com/podcasts/rethinking-data-client-event-sourcing",
+      "created_at": "2026-07-27T13:29:03Z",
       "status": "scoring_attempted",
-      "title": "Podcast: Strands Agents with Clare Liguori"
+      "title": "Podcast: Rethinking Data: Moving From the Traditional Three-Tier Web Stack to Client-Side Event Sourcing"
     },
     "https://www.infoq.com/presentations/agent-software-engineering": {
       "canonical_url": "https://www.infoq.com/presentations/agent-software-engineering",
@@ -3741,6 +3800,12 @@
       "status": "scoring_attempted",
       "title": "NYC Subway Signals: A Complete Guide"
     },
+    "https://www.omgubuntu.co.uk/2026/07/chrome-arm64-linux-available": {
+      "canonical_url": "https://www.omgubuntu.co.uk/2026/07/chrome-arm64-linux-available",
+      "created_at": "2026-07-27T13:29:03Z",
+      "status": "scoring_attempted",
+      "title": "Google Chrome Arrives on ARM64 Linux, Widevine DRM Included"
+    },
     "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992": {
       "canonical_url": "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
       "created_at": "2026-07-23T15:53:04Z",
@@ -3831,18 +3896,6 @@
       "status": "scoring_attempted",
       "title": "Government orders GitHub to remove Bluetooth-based chat app Bitchat: Jack Dorsey"
     },
-    "https://www.theregister.com/columnists/2026/07/20/airbus-takes-flight-from-aws-what-happens-next-is-critical/5274109": {
-      "canonical_url": "https://www.theregister.com/columnists/2026/07/20/airbus-takes-flight-from-aws-what-happens-next-is-critical/5274109",
-      "created_at": "2026-07-20T12:13:13Z",
-      "status": "scoring_attempted",
-      "title": "Airbus Takes Flight from AWS"
-    },
-    "https://www.theverge.com/ai-artificial-intelligence/967781/chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen": {
-      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/967781/chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen",
-      "created_at": "2026-07-20T12:13:13Z",
-      "status": "scoring_attempted",
-      "title": "China delivers a one-two punch to America\u2019s AI dominance"
-    },
     "https://www.theverge.com/ai-artificial-intelligence/968724/anthropic-authors-settlement-ai-copyright-approved": {
       "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/968724/anthropic-authors-settlement-ai-copyright-approved",
       "created_at": "2026-07-21T17:01:12Z",
@@ -3902,6 +3955,12 @@
       "created_at": "2026-07-24T20:04:50Z",
       "status": "scoring_attempted",
       "title": "Midjourney bought the astrology app Co-Star"
+    },
+    "https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity": {
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity",
+      "created_at": "2026-07-27T13:29:03Z",
+      "status": "scoring_attempted",
+      "title": "Nvidia, Microsoft launch open AI security alliance \u2014 without OpenAI, Google, or Anthropic"
     },
     "https://www.theverge.com/business/968055/paramount-wbd-merger-pause-tro": {
       "canonical_url": "https://www.theverge.com/business/968055/paramount-wbd-merger-pause-tro",
@@ -4076,12 +4135,6 @@
       "created_at": "2026-07-24T18:44:11Z",
       "status": "scoring_attempted",
       "title": "You can\u2019t ignore Google Zero anymore"
-    },
-    "https://www.theverge.com/policy/967802/aliexpress-eu-dsa-fine-illegal-products": {
-      "canonical_url": "https://www.theverge.com/policy/967802/aliexpress-eu-dsa-fine-illegal-products",
-      "created_at": "2026-07-20T12:13:13Z",
-      "status": "scoring_attempted",
-      "title": "AliExpress fined almost $630 million over illegal product sales"
     },
     "https://www.theverge.com/policy/969644/meta-social-media-addiction-trial-dropped": {
       "canonical_url": "https://www.theverge.com/policy/969644/meta-social-media-addiction-trial-dropped",
@@ -4466,6 +4519,12 @@
       "created_at": "2026-07-24T18:44:11Z",
       "status": "scoring_attempted",
       "title": "Don't Take the Black Pill [video]"
+    },
+    "https://xcancel.com/HedgieMarkets/status/2081534588485296565": {
+      "canonical_url": "https://xcancel.com/HedgieMarkets/status/2081534588485296565",
+      "created_at": "2026-07-27T13:29:03Z",
+      "status": "scoring_attempted",
+      "title": "AI companies are shredding rare books"
     },
     "https://yang-ai-lab.github.io/Inertia-1": {
       "canonical_url": "https://yang-ai-lab.github.io/Inertia-1",
