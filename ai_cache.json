@@ -87,27 +87,44 @@
         "social_posts": {}
       }
     },
-    "35938ced35b82ac1a01a47c1c1ee421f1c3fcad4ec49b00f3c59ddca99c835d1": {
-      "created_at": "2026-07-26T17:52:03Z",
+    "3f2d81eda3ad9726c53f65d832bcec5cf69ba4d14e854cb5e115ae6b945822b6": {
+      "created_at": "2026-07-27T17:57:31Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 1.5,
-            "impact_score": 0.0,
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "OpenAI's Hugging Face breach sparks critical debate on AI alignment and control, with significant implications for the industry.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "OpenAI\u2019s Hugging Face breach has reignited the debate over alignment and control",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
             "index": 1,
-            "novelty_score": 0.0,
-            "reason": "Red flag detected: 'what if' in the title.",
-            "red_flag": true,
-            "red_flag_reason": "red flag: what if",
+            "novelty_score": 2.5,
+            "reason": "FeyNoBg offers a new automatic background removal model, but its impact is limited to a niche audience.",
+            "red_flag": false,
+            "red_flag_reason": null,
             "source_score": 0.5,
-            "title": "What if LLMs escape through inferences itself? This is fiction. For now",
-            "total_score": 2.0
+            "title": "Show HN: FeyNoBg \u2013 Automatic background removal model and training library",
+            "total_score": 6.5
           }
         ],
-        "best_index": 1,
-        "best_score": 2.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
+        "best_index": 0,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "OpenAI's recent Hugging Face breach has reignited a crucial debate in the AI community. The incident highlights competing views on whether increasingly capable AI should be better aligned, better contained, or both. This discussion has significant implications for the future of AI development and deployment. Link: https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *OpenAI\u2019s Hugging Face breach has reignited the debate over alignment and control*\n\nOpenAI's Hugging Face breach has reignited debate over AI alignment and control, exposing competing views on whether increasingly capable AI should be better aligned, better contained, or both.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "OpenAI's Hugging Face breach is forcing a reckoning on AI alignment and control. The debate centers on whether we should prioritize alignment, containment, or both. https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control/",
+          "twitter": "OpenAI's Hugging Face breach exposes critical divides in AI alignment and control strategies. https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control/"
+        }
       }
     },
     "40662dd4642992dbd81424dd415d70206b64710c4b80dc24b58c624dc1c73805": {
@@ -186,6 +203,41 @@
           }
         ],
         "best_index": 4,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "46627b9655f2eef812ce8e12a3c36008247a2f2b737c1506140e5431b587a18c": {
+      "created_at": "2026-07-27T17:57:31Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 6,
+            "novelty_score": 2.5,
+            "reason": "New release of a CLI tool for Perplexity's Search API, relevant to developers working with coding agents.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Perplexity Releases pplx, a Single-Binary CLI That Puts Its Search API in the Terminal for Coding Agents",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 11,
+            "novelty_score": 2.5,
+            "reason": "Security research on a fleet platform vulnerability, relevant to security researchers and automotive software engineers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Exploiting Volvo/Eicher's fleet platform to gain control over all users/vehicles",
+            "total_score": 7.0
+          }
+        ],
+        "best_index": 6,
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
@@ -409,29 +461,6 @@
         "social_posts": {}
       }
     },
-    "78acc343476a349c0cb86faa585bab6009879fb71b635bb4b62ffe585f6f512d": {
-      "created_at": "2026-07-26T16:43:44Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1,
-            "impact_score": 1.5,
-            "index": 10,
-            "novelty_score": 2.5,
-            "reason": "Comments from a leading mathematician on AI's impact on mathematics.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Terence Tao: Mathematics in the Age of AI [pdf]",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 10,
-        "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "7a34c4345783835d20d93c85a27c5d1d974f78263b90b89e4e6a8431109c4727": {
       "created_at": "2026-07-27T10:37:44Z",
       "payload": {
@@ -451,29 +480,6 @@
         ],
         "best_index": 3,
         "best_score": 7.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "7ed8abd5b6a7dcd729fdd3fbb1d2ffa60bc1cf81752cdd5cee66184a924012ca": {
-      "created_at": "2026-07-26T16:43:44Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Personal account of being fired from a YC-backed AI company, relevant to startup culture but not groundbreaking.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "This July I Was Fired from Simple AI (A Deeply YC Company)",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -603,29 +609,6 @@
         ],
         "best_index": 2,
         "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "ab5ba337c48eb2840cc0570a4a242415ca0cc9ace704a23828bdf70c922059d0": {
-      "created_at": "2026-07-26T16:43:44Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "Interesting niche report on token resellers, but limited impact and from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "An Inside Look at the Token Reseller Market",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 3,
-        "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -774,6 +757,46 @@
           "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Ilya Sutskever\u2019s Safe Superintelligence partners with Nvidia to scale its AI research*\n\nSafe Superintelligence, led by Ilya Sutskever, has announced a significant partnership with Nvidia to advance its AI research. This collaboration marks a pivotal step in scaling their work.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
           "threads": "Safe Superintelligence, led by Ilya Sutskever, partners with Nvidia to scale AI research. This is a big deal for the AI community. https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/",
           "twitter": "Ilya Sutskever's Safe Superintelligence teams up with Nvidia to scale AI research. A major move in the AI landscape.\nhttps://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/"
+        }
+      }
+    },
+    "b52c96a6ea0a8a589105a6b35355fb7e64df4ad3e8ab0bf4715cf881d70afc18": {
+      "created_at": "2026-07-27T17:57:31Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 3,
+            "index": 4,
+            "novelty_score": 2.5,
+            "reason": "China's release of a high-performance AI model at a fraction of the cost of US models intensifies global AI competition.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Why China is giving away its best AI models",
+            "total_score": 9
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2,
+            "index": 5,
+            "novelty_score": 2,
+            "reason": "Meta's integration of AI chatbots into Threads DMs expands AI accessibility within social media platforms.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Threads users can now chat with Meta AI in their DMs",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 4,
+        "best_score": 9,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "China's new Kimi K3 AI model is making waves by outperforming some of the best US models at a much lower cost. This development is intensifying the rivalry between global tech powers. The Verge reports on how this could impact the AI landscape. Link: https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Why China is giving away its best AI models*\n\nChina's Kimi K3 AI model outperforms US systems at a fraction of the cost, escalating global AI competition.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9/10\n\n\ud83d\udd17 https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "China's Kimi K3 AI model is outperforming US systems at a fraction of the cost, escalating global AI competition. This could reshape the industry. https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies",
+          "twitter": "China's Kimi K3 AI model outperforms US systems at a fraction of the cost, escalating global AI competition.\nhttps://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies"
         }
       }
     },
@@ -1036,6 +1059,46 @@
         "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "d64215eca828b2a85cd42bd108cb24b8c2b92938fc2f3ddd23fe33932f0063fb": {
+      "created_at": "2026-07-27T17:57:31Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "ChatGPT's new behavior blocking direct style copying has significant legal and ethical implications for AI-generated content.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "ChatGPT starts blocking direct requests to copy an author's style",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0,
+            "index": 3,
+            "novelty_score": 0,
+            "reason": "The article is just a placeholder with no substantive content.",
+            "red_flag": true,
+            "red_flag_reason": "Comments",
+            "source_score": 0.5,
+            "title": "MAI-Cyber 1",
+            "total_score": 2
+          }
+        ],
+        "best_index": 2,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "ChatGPT is now preventing users from directly copying an author's style, which could have significant legal implications. This move highlights the ongoing tension between AI capabilities and copyright law. Link: https://arstechnica.com/ai/2026/07/chatgpt-stops-cloning-famous-writers-voices-but-may-capture-a-similar-feeling/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *ChatGPT starts blocking direct requests to copy an author's style*\n\nChatGPT now prevents users from directly copying an author's style, raising legal questions about AI-generated content.\n\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://arstechnica.com/ai/2026/07/chatgpt-stops-cloning-famous-writers-voices-but-may-capture-a-similar-feeling/",
+          "threads": "ChatGPT blocks direct style copying, raising legal questions about AI-generated content. This could set a precedent for how AI interacts with copyrighted material. https://arstechnica.com/ai/2026/07/chatgpt-stops-cloning-famous-writers-voices-but-may-capture-a-similar-feeling/",
+          "twitter": "ChatGPT now blocks direct requests to copy an author's style, raising legal questions about AI-generated content.\nhttps://arstechnica.com/ai/2026/07/chatgpt-stops-cloning-famous-writers-voices-but-may-capture-a-similar-feeling/"
+        }
       }
     },
     "d8dd643e3f82d46891513b445074eef19deaf1a83415ad352476a4d8573568c2": {
@@ -1364,15 +1427,6 @@
         "twitter": "OpenAI's ChatGPT Health is now available to everyone in the US, allowing users to connect medical records and health data to the chatbot @OpenAI #AIinHealthcare #ChatGPT"
       }
     },
-    "3ac9a5a40890d30a65eae88fa0db142d95c054d6aff73a9c5f0398b2b47973dc": {
-      "created_at": "2026-07-20T17:12:45Z",
-      "payload": {
-        "facebook": "The introduction of Cosmos 3 Edge by NVIDIA marks a significant milestone in AI development, with potential applications across various industries. This new model is expected to have broad implications for AI deployment. #AI #MachineLearning #NVIDIA",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 NVIDIA Unveils Cosmos 3 Edge\nNVIDIA's Cosmos 3 Edge model is a significant release with broad implications for AI deployment.\n\ud83c\udfdb\ufe0f Source: HuggingFace (S)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9.5/10\n#AI #MachineLearning #NVIDIA\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "NVIDIA's Cosmos 3 Edge model is poised to revolutionize AI deployment, offering new possibilities for industries @NVIDIA #AI",
-        "twitter": "NVIDIA's Cosmos 3 Edge model is set to reshape AI deployment @NVIDIA #AI"
-      }
-    },
     "3e6b88f37fee82014e084e48e05d335bef78214dee8b8822c7a4c4c2a3e4a5e4": {
       "created_at": "2026-07-22T12:55:29Z",
       "payload": {
@@ -1479,6 +1533,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Google Unveils Gemini 3.6 Flash\nGoogle has introduced the Gemini 3.6 Flash, a faster and more affordable AI model, and is already training the next generation Gemini 4.\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n#AI #MachineLearning #Google\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Google's new Gemini 3.6 Flash model brings faster and cheaper AI performance, @GoogleAI #AI",
         "twitter": "Google accelerates AI development with Gemini 3.6 Flash, a faster and cheaper model, @GoogleAI #AI"
+      }
+    },
+    "6a46ad9a47f561c0203ef7207622454700e156239892ee00da019b813a3ce9cd": {
+      "created_at": "2026-07-27T17:57:31Z",
+      "payload": {
+        "facebook": "The global AI landscape is shifting as China releases high-performance models like Kimi K3, which can outperform US systems at a lower cost. This development is likely to intensify competition among tech companies. #AI #ArtificialIntelligence #ChinaTech",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 China's AI Model Challenges US Dominance\nChina's latest AI model, Kimi K3, is outperforming US systems at a fraction of the cost, marking a significant shift in the global AI landscape.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9.0/10\n#AI #ArtificialIntelligence #ChinaTech\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "China's release of the Kimi K3 AI model is a significant move in the global AI competition, offering high performance at a lower cost than US models @TheVerge #AI",
+        "twitter": "China's latest AI model Kimi K3 is beating US systems at a fraction of the cost, intensifying global AI competition @TheVerge #AI"
       }
     },
     "83f93924f111b3d48108157b68f1e7a3d33873e7efae22c18fc84c006df5a0c8": {
@@ -1716,6 +1779,12 @@
       "created_at": "2026-07-24T22:31:22Z",
       "status": "scoring_attempted",
       "title": "Canadian legislator reads out apparent LLM response in floor speech"
+    },
+    "https://arstechnica.com/ai/2026/07/chatgpt-stops-cloning-famous-writers-voices-but-may-capture-a-similar-feeling": {
+      "canonical_url": "https://arstechnica.com/ai/2026/07/chatgpt-stops-cloning-famous-writers-voices-but-may-capture-a-similar-feeling",
+      "created_at": "2026-07-27T17:57:31Z",
+      "status": "scoring_attempted",
+      "title": "ChatGPT starts blocking direct requests to copy an author's style"
     },
     "https://arstechnica.com/ai/2026/07/firefighting-drones-in-the-works-as-wildfires-plague-us-nearly-year-round": {
       "canonical_url": "https://arstechnica.com/ai/2026/07/firefighting-drones-in-the-works-as-wildfires-plague-us-nearly-year-round",
@@ -2377,12 +2446,6 @@
       "status": "scoring_attempted",
       "title": "Defining AI-Native Systems: Autonomy as Revision Authority"
     },
-    "https://avivcarmi.com/saas-is-dead": {
-      "canonical_url": "https://avivcarmi.com/saas-is-dead",
-      "created_at": "2026-07-20T17:12:45Z",
-      "status": "scoring_attempted",
-      "title": "SaaS *is* dead. But not because AI \"killed\" it, because AI killed it"
-    },
     "https://baturin.org/docs/iproute2": {
       "canonical_url": "https://baturin.org/docs/iproute2",
       "created_at": "2026-07-25T16:42:46Z",
@@ -2550,6 +2613,12 @@
       "created_at": "2026-07-22T19:48:26Z",
       "status": "scoring_attempted",
       "title": "Are AI Labs Pelicanmaxxing?"
+    },
+    "https://eaton-works.com/2026/07/27/my-eicher-hack": {
+      "canonical_url": "https://eaton-works.com/2026/07/27/my-eicher-hack",
+      "created_at": "2026-07-27T17:57:31Z",
+      "status": "scoring_attempted",
+      "title": "Exploiting Volvo/Eicher's fleet platform to gain control over all users/vehicles"
     },
     "https://eliemichel.github.io/LearnWebGPU": {
       "canonical_url": "https://eliemichel.github.io/LearnWebGPU",
@@ -2725,12 +2794,6 @@
       "status": "scoring_attempted",
       "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics"
     },
-    "https://huggingface.co/blog/nvidia/cosmos3edge": {
-      "canonical_url": "https://huggingface.co/blog/nvidia/cosmos3edge",
-      "created_at": "2026-07-20T17:12:45Z",
-      "status": "scoring_attempted",
-      "title": "Introducing Cosmos 3 Edge"
-    },
     "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai": {
       "canonical_url": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
       "created_at": "2026-07-21T21:13:10Z",
@@ -2791,6 +2854,12 @@
       "status": "scoring_attempted",
       "title": "Codeberg Divides"
     },
+    "https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash": {
+      "canonical_url": "https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash",
+      "created_at": "2026-07-27T17:57:31Z",
+      "status": "scoring_attempted",
+      "title": "MAI-Cyber 1"
+    },
     "https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your": {
       "canonical_url": "https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your",
       "created_at": "2026-07-23T15:07:34Z",
@@ -2820,12 +2889,6 @@
       "created_at": "2026-07-24T05:46:58Z",
       "status": "scoring_attempted",
       "title": "Working to automate nuclear plant operations"
-    },
-    "https://news.ycombinator.com/item?id=48981136": {
-      "canonical_url": "https://news.ycombinator.com/item?id=48981136",
-      "created_at": "2026-07-20T17:12:45Z",
-      "status": "scoring_attempted",
-      "title": "Launch HN: Bloomy (YC S26) \u2013 AI-powered mastery learning for K-12"
     },
     "https://news.ycombinator.com/item?id=49024620": {
       "canonical_url": "https://news.ycombinator.com/item?id=49024620",
@@ -3343,6 +3406,12 @@
       "status": "scoring_attempted",
       "title": "Ilya Sutskever\u2019s Safe Superintelligence partners with Nvidia to scale its AI research"
     },
+    "https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control": {
+      "canonical_url": "https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control",
+      "created_at": "2026-07-27T17:57:31Z",
+      "status": "scoring_attempted",
+      "title": "OpenAI\u2019s Hugging Face breach has reignited the debate over alignment and control"
+    },
     "https://techcrunch.com/2026/07/27/power-up-your-ai-infrastructure-a-first-look-at-the-smart-systems-stage-agenda-at-techcrunch-disrupt-2026": {
       "canonical_url": "https://techcrunch.com/2026/07/27/power-up-your-ai-infrastructure-a-first-look-at-the-smart-systems-stage-agenda-at-techcrunch-disrupt-2026",
       "created_at": "2026-07-27T15:59:27Z",
@@ -3354,6 +3423,12 @@
       "created_at": "2026-07-27T15:59:27Z",
       "status": "scoring_attempted",
       "title": "This $9 key physically locks your most addictive apps"
+    },
+    "https://techcrunch.com/2026/07/27/threads-users-can-now-chat-with-meta-ai-in-their-dms": {
+      "canonical_url": "https://techcrunch.com/2026/07/27/threads-users-can-now-chat-with-meta-ai-in-their-dms",
+      "created_at": "2026-07-27T17:57:31Z",
+      "status": "scoring_attempted",
+      "title": "Threads users can now chat with Meta AI in their DMs"
     },
     "https://techcrunch.com/podcast/ai-communism-rogue-models-and-the-why-kimi-k3-spooked-wall-street": {
       "canonical_url": "https://techcrunch.com/podcast/ai-communism-rogue-models-and-the-why-kimi-k3-spooked-wall-street",
@@ -3421,11 +3496,11 @@
       "status": "scoring_attempted",
       "title": "Launch HN: Unlayer (YC W22) \u2013 Add email and document builders to your app"
     },
-    "https://unslop.run/blog/measuring-ai-writing-on-arxiv": {
-      "canonical_url": "https://unslop.run/blog/measuring-ai-writing-on-arxiv",
-      "created_at": "2026-07-20T17:12:45Z",
+    "https://usefeyn.com/blog/feynobg": {
+      "canonical_url": "https://usefeyn.com/blog/feynobg",
+      "created_at": "2026-07-27T17:57:31Z",
       "status": "scoring_attempted",
-      "title": "Over 30% of new ArXiv submissions now read as AI-written"
+      "title": "Show HN: FeyNoBg \u2013 Automatic background removal model and training library"
     },
     "https://vectoral.com/blog/token-relay-market": {
       "canonical_url": "https://vectoral.com/blog/token-relay-market",
@@ -3901,6 +3976,12 @@
       "status": "scoring_attempted",
       "title": "KwaiKAT Team Releases KAT-Coder-V2.5: An Agentic Coding Model Trained on 100,000+ Verifiable Repository Environments"
     },
+    "https://www.marktechpost.com/2026/07/27/perplexity-releases-pplx": {
+      "canonical_url": "https://www.marktechpost.com/2026/07/27/perplexity-releases-pplx",
+      "created_at": "2026-07-27T17:57:31Z",
+      "status": "scoring_attempted",
+      "title": "Perplexity Releases pplx, a Single-Binary CLI That Puts Its Search API in the Terminal for Coding Agents"
+    },
     "https://www.maxmynter.com/pages/blog/jobhunt": {
       "canonical_url": "https://www.maxmynter.com/pages/blog/jobhunt",
       "created_at": "2026-07-26T00:14:01Z",
@@ -4075,6 +4156,12 @@
       "status": "scoring_attempted",
       "title": "Nvidia, Microsoft launch open AI security alliance \u2014 without OpenAI, Google, or Anthropic"
     },
+    "https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies": {
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies",
+      "created_at": "2026-07-27T17:57:31Z",
+      "status": "scoring_attempted",
+      "title": "Why China is giving away its best AI models"
+    },
     "https://www.theverge.com/business/968055/paramount-wbd-merger-pause-tro": {
       "canonical_url": "https://www.theverge.com/business/968055/paramount-wbd-merger-pause-tro",
       "created_at": "2026-07-20T19:08:17Z",
@@ -4146,12 +4233,6 @@
       "created_at": "2026-07-23T18:37:11Z",
       "status": "scoring_attempted",
       "title": "Corsair\u2019s PC case with a panoramic glass design is $70 off"
-    },
-    "https://www.theverge.com/gadgets/967993/lg-27-inch-ultragear-glossy-oled-gaming-monitor-deal-sale": {
-      "canonical_url": "https://www.theverge.com/gadgets/967993/lg-27-inch-ultragear-glossy-oled-gaming-monitor-deal-sale",
-      "created_at": "2026-07-20T17:12:45Z",
-      "status": "scoring_attempted",
-      "title": "LG&#8217;s glossy OLED gaming monitor is rare to find under $400"
     },
     "https://www.theverge.com/gadgets/968191/humble-2k-megahits-bundle-xcom-borderlands-duke-nukem-deal-sale": {
       "canonical_url": "https://www.theverge.com/gadgets/968191/humble-2k-megahits-bundle-xcom-borderlands-duke-nukem-deal-sale",
@@ -4303,23 +4384,11 @@
       "status": "scoring_attempted",
       "title": "A touchscreen and light make the new X4 Pro the best version of Xteink\u2019s tiny e-readers"
     },
-    "https://www.theverge.com/tech/967791/adobe-indigo-camera-app-ai-playground-update": {
-      "canonical_url": "https://www.theverge.com/tech/967791/adobe-indigo-camera-app-ai-playground-update",
-      "created_at": "2026-07-20T17:12:45Z",
-      "status": "scoring_attempted",
-      "title": "Adobe\u2019s \u2018natural look\u2019 camera app embraces generative AI"
-    },
     "https://www.theverge.com/tech/967942/samsung-galaxy-unpacked-july-2026-news": {
       "canonical_url": "https://www.theverge.com/tech/967942/samsung-galaxy-unpacked-july-2026-news",
       "created_at": "2026-07-22T12:55:29Z",
       "status": "scoring_attempted",
       "title": "Samsung Unpacked 2026: all the news from the July foldable launch"
-    },
-    "https://www.theverge.com/tech/967983/lg-monitors-mcafee-adware-gamers-nexus": {
-      "canonical_url": "https://www.theverge.com/tech/967983/lg-monitors-mcafee-adware-gamers-nexus",
-      "created_at": "2026-07-20T17:12:45Z",
-      "status": "scoring_attempted",
-      "title": "LG\u2019s monitors come with an unwanted addition for Windows: McAfee pop-up ads"
     },
     "https://www.theverge.com/tech/967989/hallmark-keepsake-playstation-ornament-hands-on": {
       "canonical_url": "https://www.theverge.com/tech/967989/hallmark-keepsake-playstation-ornament-hands-on",
@@ -4626,12 +4695,6 @@
       "created_at": "2026-07-25T12:55:30Z",
       "status": "scoring_attempted",
       "title": "Kyber (YC W23) Is Hiring a Head of Engineering"
-    },
-    "https://www.youtube.com/watch?v=NwhVJ7cv9B4": {
-      "canonical_url": "https://www.youtube.com/watch?v=NwhVJ7cv9B4",
-      "created_at": "2026-07-20T17:12:45Z",
-      "status": "scoring_attempted",
-      "title": "Cross sectioning insects in an electron microscope with a femtosecond laser [video]"
     },
     "https://www.youtube.com/watch?v=wlYa8NV5k-U": {
       "canonical_url": "https://www.youtube.com/watch?v=wlYa8NV5k-U",
