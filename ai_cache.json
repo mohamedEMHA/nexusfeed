@@ -1,28 +1,5 @@
 {
   "cerebras_scoring": {
-    "0bff28b3bf17e2432894eb2512b0719d8af66811b142aec7189c2613c94c5192": {
-      "created_at": "2026-07-26T15:42:40Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 1,
-            "novelty_score": 2.0,
-            "reason": "Entertainment news with limited relevance to software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Marvel announces Ryan Gosling as Ghost Rider, a new Black Panther, and more",
-            "total_score": 6.0
-          }
-        ],
-        "best_index": 1,
-        "best_score": 6.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "17bcefeb3f0f413f91cd42af03f8d324699756aaf57936ca7ed68d72ed1fb7b2": {
       "created_at": "2026-07-26T18:52:23Z",
       "payload": {
@@ -51,25 +28,61 @@
         }
       }
     },
-    "32a82c0b07b4c7e4ee0ade356a8df88332a7fb2814211b40d5657f113b2e7bbd": {
-      "created_at": "2026-07-26T14:22:03Z",
+    "2f41820c9793492a8fd373752705d626053e4c9a5e2d3e785949b6952f6289c5": {
+      "created_at": "2026-07-27T15:59:27Z",
       "payload": {
         "articles": [
           {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 8,
+            "novelty_score": 2.0,
+            "reason": "Interesting interview on trade policy but not directly relevant to software engineers or AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Tariffs didn\u2019t bring manufacturing jobs back to the US",
+            "total_score": 7.0
+          },
+          {
             "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Modular static analysis framework for Go, but from a lower-tier source.",
+            "impact_score": 0.5,
+            "index": 9,
+            "novelty_score": 1.5,
+            "reason": "Hardware pricing update with limited relevance to software engineers or AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Samsung\u2019s 27-inch QD-OLED gaming monitor is priced right at $299.99",
+            "total_score": 5.0
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.0,
+            "index": 10,
+            "novelty_score": 0.5,
+            "reason": "Opinion piece on AI bubble with limited technical content.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 0.5,
-            "title": "Go Analysis Framework: modular static analysis by go team",
-            "total_score": 6.5
+            "title": "Apple Will 'Watch Everything Burn' When the AI Bubble Bursts",
+            "total_score": 4.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.5,
+            "index": 11,
+            "novelty_score": 0.2,
+            "reason": "Entertainment news with no direct relevance to software engineers or AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "SDCC 2026\u2019s best trailers are heavy on cyberpunk and sci-fi",
+            "total_score": 3.7
           }
         ],
-        "best_index": 0,
-        "best_score": 6.5,
+        "best_index": 8,
+        "best_score": 7.0,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -116,29 +129,6 @@
         ],
         "best_index": 1,
         "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "411eb620dab7d67c908c0917dbac289e6bc66b370d5c623b5f90c05264e5fab1": {
-      "created_at": "2026-07-26T15:42:40Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "Interesting but niche application of robotics in airport parking.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Park by Robot at London Gatwick Airport",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 2,
-        "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -415,29 +405,6 @@
         ],
         "best_index": 0,
         "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "6fff8fa293bd015dce24c527fa77f3e63d62d56c69cf1123130afa63e4b8a1ca": {
-      "created_at": "2026-07-26T15:42:40Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 0.0,
-            "index": 0,
-            "novelty_score": 0.2,
-            "reason": "Entertainment news with no relevance to software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Carrie is just trying to make a friend in the new trailer",
-            "total_score": 3.7
-          }
-        ],
-        "best_index": 0,
-        "best_score": 3.7,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -746,6 +713,70 @@
         "social_posts": {}
       }
     },
+    "b01a6bb905c6a911eeb080d45c5762e8dda5774bb69f9829578ff6efbd041c81": {
+      "created_at": "2026-07-27T15:59:27Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 4,
+            "novelty_score": 1.5,
+            "reason": "Update to Minecraft Java edition's memory requirements, relevant to developers and gamers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Minecraft Java raises recommended memory to 16GB ahead of Vulkan transition",
+            "total_score": 5.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 5,
+            "novelty_score": 2.5,
+            "reason": "New preview release of .NET 11 with significant updates across multiple frameworks.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Microsoft Releases .NET 11 Preview 6 With Language and Framework Updates",
+            "total_score": 8.0
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 3,
+            "index": 6,
+            "novelty_score": 2.5,
+            "reason": "Major partnership announcement in AI research between Safe Superintelligence and Nvidia.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Ilya Sutskever\u2019s Safe Superintelligence partners with Nvidia to scale its AI research",
+            "total_score": 9.0
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 0.5,
+            "index": 7,
+            "novelty_score": 0.2,
+            "reason": "Personal review of a laptop with price increase, not directly relevant to software engineers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "This is my new favorite laptop, but thanks to RAMageddon it already went up in price by $800",
+            "total_score": 4.2
+          }
+        ],
+        "best_index": 6,
+        "best_score": 9.0,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Safe Superintelligence, led by Ilya Sutskever, has announced a significant partnership with Nvidia to advance its AI research. This collaboration marks a pivotal step in scaling their work. The partnership underscores the growing importance of Nvidia's hardware in cutting-edge AI development. Link: https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Ilya Sutskever\u2019s Safe Superintelligence partners with Nvidia to scale its AI research*\n\nSafe Superintelligence, led by Ilya Sutskever, has announced a significant partnership with Nvidia to advance its AI research. This collaboration marks a pivotal step in scaling their work.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Safe Superintelligence, led by Ilya Sutskever, partners with Nvidia to scale AI research. This is a big deal for the AI community. https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/",
+          "twitter": "Ilya Sutskever's Safe Superintelligence teams up with Nvidia to scale AI research. A major move in the AI landscape.\nhttps://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/"
+        }
+      }
+    },
     "c77c51333aa88876d4e3971c8cbd3865932337b6a3b13f05788eaf14aed0c491": {
       "created_at": "2026-07-27T07:25:50Z",
       "payload": {
@@ -827,6 +858,70 @@
         "best_score": 6.0,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "c9506de2d3652bcacf4502ebc780f828bc157bd66870bdab3a0e419bdaa1df52": {
+      "created_at": "2026-07-27T15:59:27Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 3.0,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Google's AI Overviews now appear in 43% of searches, showing rapid adoption of AI-generated answers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Google\u2019s AI search is rapidly becoming the default, new data shows",
+            "total_score": 9.0
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "Amazon's plan to launch a global satellite network for direct-to-device services is significant for connectivity.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Amazon\u2019s trying to launch a global satellite cellphone network in 2028",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 0.2,
+            "reason": "This is a promotional piece for a conference, not a news article.",
+            "red_flag": true,
+            "red_flag_reason": "tutorial",
+            "source_score": 1.5,
+            "title": "Power up your AI infrastructure! A first look at the Smart Systems Stage agenda at TechCrunch Disrupt 2026",
+            "total_score": 5.2
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.0,
+            "index": 3,
+            "novelty_score": 1.5,
+            "reason": "A novel gadget, but limited impact on software engineers and AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "This $9 key physically locks your most addictive apps",
+            "total_score": 6.0
+          }
+        ],
+        "best_index": 0,
+        "best_score": 9.0,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Google's AI Overviews are now appearing in 43% of searches, underscoring how quickly AI-generated answers are becoming the default way people discover information online. This rapid adoption highlights the growing influence of AI in search and information retrieval.\nLink: https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Google\u2019s AI search is rapidly becoming the default, new data shows*\n\nGoogle\u2019s AI Overviews now appear in 43% of searches, underscoring how quickly AI-generated answers are becoming the default way people discover information online.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Google's AI Overviews now appear in 43% of searches, making AI-generated answers the default way people discover information online. This rapid adoption is significant for the future of search.\nhttps://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows/",
+          "twitter": "Google's AI Overviews now appear in 43% of searches, making AI-generated answers the default way people discover information online.\nhttps://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows/"
+        }
       }
     },
     "cbbc475c45fa028d4c9b2984ae3aab9bb6fea4328f2a28ba7a74c30e743d39ea": {
@@ -943,25 +1038,61 @@
         "social_posts": {}
       }
     },
-    "d671b56f0fb0cbd439a187972e36c4ae8ff21524b00426910c9e117e16f978e2": {
-      "created_at": "2026-07-26T15:42:40Z",
+    "d8dd643e3f82d46891513b445074eef19deaf1a83415ad352476a4d8573568c2": {
+      "created_at": "2026-07-27T15:59:27Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 1.5,
+            "freshness_score": 2.0,
             "impact_score": 1.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "Opinion piece on AI capabilities with moderate impact and freshness, but low source credibility.",
+            "index": 12,
+            "novelty_score": 2.0,
+            "reason": "Industry move with significant valuation, but niche impact outside memory tech sector.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Chinese RAM company CXMT makes a $484 billion stock market debut",
+            "total_score": 7.0
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 13,
+            "novelty_score": 2.0,
+            "reason": "Important industry trend, but source is a C-tier.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 0.5,
-            "title": "The New AI Superpowers: Focus and Followthrough",
-            "total_score": 5.5
+            "title": "AI companies spend record sums on Washington lobbying",
+            "total_score": 7.0
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 14,
+            "novelty_score": 2.5,
+            "reason": "Interesting funding round, but niche impact outside robotics.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Enigma raises $70M to make controlling a robot as easy as adjusting the volume",
+            "total_score": 7.0
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.0,
+            "index": 16,
+            "novelty_score": 2.5,
+            "reason": "Controversial industry practice, but source is a C-tier.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "AI companies are shredding rare books",
+            "total_score": 6.5
           }
         ],
-        "best_index": 3,
-        "best_score": 5.5,
+        "best_index": 13,
+        "best_score": 7.0,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1186,15 +1317,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 NVIDIA Cosmos-H-Dreams is bringing real-time generative simulation to surgical robotics.\nNVIDIA's new model is a significant advancement in medical AI, with potential to improve patient outcomes.\n\ud83c\udfdb\ufe0f Source: HuggingFace (S)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n#AIinMedicine #SurgicalRobotics #MedicalInnovation\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Real-time generative simulation is coming to surgical robotics thanks to NVIDIA's latest breakthrough @NVIDIA #AIinMedicine",
         "twitter": "NVIDIA's latest innovation in surgical robotics leverages real-time generative simulation @NVIDIA #AIinMedicine"
-      }
-    },
-    "1b19877340fbe3526ca99eb6bb327460e6140719f1d8f11fc9f8cb4ddbec8194": {
-      "created_at": "2026-07-20T15:48:01Z",
-      "payload": {
-        "facebook": "The rise of AI has sparked intense debate about its impact on society. Dr. Jill Lepore's new book, The Rise and Fall of the Artificial State, offers a unique perspective on this issue, highlighting the need for AI backlash to shape the future. #AI #ArtificialIntelligence #Technology",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 AI Backlash and the Future\nDr. Jill Lepore discusses the need for AI backlash to shape the future, offering a unique perspective on current trends.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #ArtificialIntelligence #Technology\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Historian Dr. Jill Lepore shares her insights on the importance of AI backlash for the future, providing a fresh perspective on current trends @TheVerge #AI",
-        "twitter": "Dr. Jill Lepore discusses the importance of AI backlash for the future @TheVerge #AIethics"
       }
     },
     "1b2f9ee1d95c149a4a4cff34d066e87e0caf7a244aab4524f79eda6a91847e55": {
@@ -1440,6 +1562,15 @@
         "twitter": "Google's parent company Alphabet is developing a new chip to boost Gemini model efficiency, a move that could significantly impact AI performance @Google #AI"
       }
     },
+    "cc7290d8db859aa4b788e8073ea4504addd48c577ac46a9d93134ed3be957537": {
+      "created_at": "2026-07-27T15:59:27Z",
+      "payload": {
+        "facebook": "The way we discover information online is changing rapidly. Google's AI Overviews now appear in 43% of searches, underscoring the quick adoption of AI-generated answers. This shift highlights the growing importance of AI in search #AIsearch #Google #ArtificialIntelligence",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 AI Search On The Rise\nGoogle's AI Overviews now appear in 43% of searches, showing rapid adoption of AI-generated answers.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n#AIsearch #Google #ArtificialIntelligence\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Google's AI Overviews are becoming the default way people discover information online, appearing in 43% of searches @Google #AIsearch",
+        "twitter": "AI-generated answers are becoming the norm in search with Google's AI Overviews appearing in 43% of searches @Google #AIsearch"
+      }
+    },
     "d16989c506fddd7c2b1cf1188b7fdd76847e6425dccf906e90a9dbd375ba69ab": {
       "created_at": "2026-07-25T16:42:46Z",
       "payload": {
@@ -1549,12 +1680,6 @@
       "created_at": "2026-07-21T18:21:46Z",
       "status": "scoring_attempted",
       "title": "Meta's AI Models Are Powering the First Wave of Genesis Mission Projects"
-    },
-    "https://airport.apunen.com": {
-      "canonical_url": "https://airport.apunen.com",
-      "created_at": "2026-07-20T14:34:36Z",
-      "status": "scoring_attempted",
-      "title": "Airport Simulator"
     },
     "https://alex4d.com/notes/item/apple-competing-for-creativity-app-users": {
       "canonical_url": "https://alex4d.com/notes/item/apple-competing-for-creativity-app-users",
@@ -2330,12 +2455,6 @@
       "status": "scoring_attempted",
       "title": "Microsoft expands Azure AI and HPC infrastructure with AMD"
     },
-    "https://brianbell-x.github.io/weight-compression": {
-      "canonical_url": "https://brianbell-x.github.io/weight-compression",
-      "created_at": "2026-07-20T14:34:36Z",
-      "status": "scoring_attempted",
-      "title": "Lossless model compression experiment: GLM-5.2 in 25% less memory"
-    },
     "https://brolly.sh/forecast/RWFP2qW8": {
       "canonical_url": "https://brolly.sh/forecast/RWFP2qW8",
       "created_at": "2026-07-25T20:03:36Z",
@@ -2558,12 +2677,6 @@
       "status": "scoring_attempted",
       "title": "You can now run same OCI images as containers or Firecracker microVMs"
     },
-    "https://github.com/search": {
-      "canonical_url": "https://github.com/search",
-      "created_at": "2026-07-20T15:48:01Z",
-      "status": "scoring_attempted",
-      "title": "Firefox Merges Support for Vulkan Video Decoding"
-    },
     "https://github.com/slvDev/esp32-ai": {
       "canonical_url": "https://github.com/slvDev/esp32-ai",
       "created_at": "2026-07-25T23:13:08Z",
@@ -2642,12 +2755,6 @@
       "status": "scoring_attempted",
       "title": "Engineering management after the cost of code collapsed"
     },
-    "https://kotaku.com/gta-vice-city-made-playable-in-gta-3-made-playable-in-gta-san-andreas-2000717510": {
-      "canonical_url": "https://kotaku.com/gta-vice-city-made-playable-in-gta-3-made-playable-in-gta-san-andreas-2000717510",
-      "created_at": "2026-07-20T14:34:36Z",
-      "status": "scoring_attempted",
-      "title": "Modder Makes GTA: Vice City Playable Inside GTA 3 Inside GTA: San Andreas"
-    },
     "https://labs.iximiuz.com/tutorials/c-program-without-main-a1eea557": {
       "canonical_url": "https://labs.iximiuz.com/tutorials/c-program-without-main-a1eea557",
       "created_at": "2026-07-25T16:42:46Z",
@@ -2683,12 +2790,6 @@
       "created_at": "2026-07-24T17:06:40Z",
       "status": "scoring_attempted",
       "title": "Codeberg Divides"
-    },
-    "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms": {
-      "canonical_url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
-      "created_at": "2026-07-20T15:48:01Z",
-      "status": "scoring_attempted",
-      "title": "Controlling Reasoning Effort in LLMs"
     },
     "https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your": {
       "canonical_url": "https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your",
@@ -2941,12 +3042,6 @@
       "created_at": "2026-07-20T20:39:16Z",
       "status": "scoring_attempted",
       "title": "X relaunches a rebuilt Android app after year-long effort"
-    },
-    "https://techcrunch.com/2026/07/20/youtube-clarifies-policies-around-ai-slop-and-upsetting-videos": {
-      "canonical_url": "https://techcrunch.com/2026/07/20/youtube-clarifies-policies-around-ai-slop-and-upsetting-videos",
-      "created_at": "2026-07-20T15:48:01Z",
-      "status": "scoring_attempted",
-      "title": "YouTube clarifies policies around AI slop and upsetting videos"
     },
     "https://techcrunch.com/2026/07/21/ai-and-the-rise-of-the-universal-entertainment-app": {
       "canonical_url": "https://techcrunch.com/2026/07/21/ai-and-the-rise-of-the-universal-entertainment-app",
@@ -3230,6 +3325,36 @@
       "status": "scoring_attempted",
       "title": "Making sense of the panic over Chinese AI"
     },
+    "https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume": {
+      "canonical_url": "https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume",
+      "created_at": "2026-07-27T15:59:27Z",
+      "status": "scoring_attempted",
+      "title": "Enigma raises $70M to make controlling a robot as easy as adjusting the volume"
+    },
+    "https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows": {
+      "canonical_url": "https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows",
+      "created_at": "2026-07-27T15:59:27Z",
+      "status": "scoring_attempted",
+      "title": "Google\u2019s AI search is rapidly becoming the default, new data shows"
+    },
+    "https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research": {
+      "canonical_url": "https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research",
+      "created_at": "2026-07-27T15:59:27Z",
+      "status": "scoring_attempted",
+      "title": "Ilya Sutskever\u2019s Safe Superintelligence partners with Nvidia to scale its AI research"
+    },
+    "https://techcrunch.com/2026/07/27/power-up-your-ai-infrastructure-a-first-look-at-the-smart-systems-stage-agenda-at-techcrunch-disrupt-2026": {
+      "canonical_url": "https://techcrunch.com/2026/07/27/power-up-your-ai-infrastructure-a-first-look-at-the-smart-systems-stage-agenda-at-techcrunch-disrupt-2026",
+      "created_at": "2026-07-27T15:59:27Z",
+      "status": "scoring_attempted",
+      "title": "Power up your AI infrastructure! A first look at the Smart Systems Stage agenda at TechCrunch Disrupt 2026"
+    },
+    "https://techcrunch.com/2026/07/27/this-9-key-physically-locks-your-most-addictive-apps": {
+      "canonical_url": "https://techcrunch.com/2026/07/27/this-9-key-physically-locks-your-most-addictive-apps",
+      "created_at": "2026-07-27T15:59:27Z",
+      "status": "scoring_attempted",
+      "title": "This $9 key physically locks your most addictive apps"
+    },
     "https://techcrunch.com/podcast/ai-communism-rogue-models-and-the-why-kimi-k3-spooked-wall-street": {
       "canonical_url": "https://techcrunch.com/podcast/ai-communism-rogue-models-and-the-why-kimi-k3-spooked-wall-street",
       "created_at": "2026-07-24T17:06:40Z",
@@ -3272,6 +3397,12 @@
       "status": "scoring_attempted",
       "title": "The arguments against open source AI are bad"
     },
+    "https://twitter.com/HedgieMarkets/status/2081534588485296565": {
+      "canonical_url": "https://twitter.com/HedgieMarkets/status/2081534588485296565",
+      "created_at": "2026-07-27T15:59:27Z",
+      "status": "scoring_attempted",
+      "title": "AI companies are shredding rare books"
+    },
     "https://twitter.com/nikitabier/status/2079787406300266743": {
       "canonical_url": "https://twitter.com/nikitabier/status/2079787406300266743",
       "created_at": "2026-07-22T15:38:50Z",
@@ -3296,29 +3427,23 @@
       "status": "scoring_attempted",
       "title": "Over 30% of new ArXiv submissions now read as AI-written"
     },
-    "https://var0.xyz/posts/perfection-is-not-over-engineering.html": {
-      "canonical_url": "https://var0.xyz/posts/perfection-is-not-over-engineering.html",
-      "created_at": "2026-07-20T14:34:36Z",
-      "status": "scoring_attempted",
-      "title": "Perfection Is Not Over-Engineering"
-    },
     "https://vectoral.com/blog/token-relay-market": {
       "canonical_url": "https://vectoral.com/blog/token-relay-market",
       "created_at": "2026-07-26T16:43:44Z",
       "status": "scoring_attempted",
       "title": "An Inside Look at the Token Reseller Market"
     },
+    "https://videocardz.com/newz/minecraft-java-edition-raises-recommended-memory-to-16gb-ahead-of-vulkan-transition": {
+      "canonical_url": "https://videocardz.com/newz/minecraft-java-edition-raises-recommended-memory-to-16gb-ahead-of-vulkan-transition",
+      "created_at": "2026-07-27T15:59:27Z",
+      "status": "scoring_attempted",
+      "title": "Minecraft Java raises recommended memory to 16GB ahead of Vulkan transition"
+    },
     "https://webmars.nfiles.top": {
       "canonical_url": "https://webmars.nfiles.top",
       "created_at": "2026-07-25T16:42:46Z",
       "status": "scoring_attempted",
       "title": "My web version of Mars MIPS, now have builtin C compiler"
-    },
-    "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing": {
-      "canonical_url": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing",
-      "created_at": "2026-07-20T15:48:01Z",
-      "status": "scoring_attempted",
-      "title": "American AI is locked down and proprietary. It's losing"
     },
     "https://words.filippo.io/passkey-record": {
       "canonical_url": "https://words.filippo.io/passkey-record",
@@ -3470,6 +3595,12 @@
       "status": "scoring_attempted",
       "title": "General Resolution: LLM Usage in Debian"
     },
+    "https://www.ft.com/content/d8a5f95e-3b6d-463a-a848-c9ef8e2394db": {
+      "canonical_url": "https://www.ft.com/content/d8a5f95e-3b6d-463a-a848-c9ef8e2394db",
+      "created_at": "2026-07-27T15:59:27Z",
+      "status": "scoring_attempted",
+      "title": "AI companies spend record sums on Washington lobbying"
+    },
     "https://www.getcomputable.com": {
       "canonical_url": "https://www.getcomputable.com",
       "created_at": "2026-07-21T22:12:46Z",
@@ -3530,11 +3661,11 @@
       "status": "scoring_attempted",
       "title": "How Zalando Built an In-Process Client-Side Load Balancer for One Million Requests per Second"
     },
-    "https://www.infoq.com/news/2026/07/doordash-entity-cache-proxy": {
-      "canonical_url": "https://www.infoq.com/news/2026/07/doordash-entity-cache-proxy",
-      "created_at": "2026-07-20T14:34:36Z",
+    "https://www.infoq.com/news/2026/07/dotnet-11-preview-6": {
+      "canonical_url": "https://www.infoq.com/news/2026/07/dotnet-11-preview-6",
+      "created_at": "2026-07-27T15:59:27Z",
       "status": "scoring_attempted",
-      "title": "DoorDash Uses Envoy and Valkey for a 1.5M RPS Proxy Cache with 99.99999% Availability"
+      "title": "Microsoft Releases .NET 11 Preview 6 With Language and Framework Updates"
     },
     "https://www.infoq.com/news/2026/07/eks-version-rollback": {
       "canonical_url": "https://www.infoq.com/news/2026/07/eks-version-rollback",
@@ -3577,12 +3708,6 @@
       "created_at": "2026-07-22T09:23:53Z",
       "status": "scoring_attempted",
       "title": "GKE Security Blueprint Joins Growing List of Cloud AI Frameworks"
-    },
-    "https://www.infoq.com/news/2026/07/infoq-online-cohorts-2026": {
-      "canonical_url": "https://www.infoq.com/news/2026/07/infoq-online-cohorts-2026",
-      "created_at": "2026-07-20T14:34:36Z",
-      "status": "scoring_attempted",
-      "title": "Three InfoQ Certification Cohorts Start This August: Meet the Facilitators"
     },
     "https://www.infoq.com/news/2026/07/jotai-rework-performance": {
       "canonical_url": "https://www.infoq.com/news/2026/07/jotai-rework-performance",
@@ -3655,6 +3780,12 @@
       "created_at": "2026-07-24T14:27:38Z",
       "status": "scoring_attempted",
       "title": "Oracle fires 21,000 employees to fund AI spending"
+    },
+    "https://www.macrumors.com/2026/07/27/ed-zitron-apple-watch-it-burn-ai-bubble-bursts": {
+      "canonical_url": "https://www.macrumors.com/2026/07/27/ed-zitron-apple-watch-it-burn-ai-bubble-bursts",
+      "created_at": "2026-07-27T15:59:27Z",
+      "status": "scoring_attempted",
+      "title": "Apple Will 'Watch Everything Burn' When the AI Bubble Bursts"
     },
     "https://www.marktechpost.com/2026/07/20/alibabas-tongyi-lab-releases-qwen-audio-3-0-tts-a-hosted-text-to-speech-model-in-flash-and-plus-tiers-across-16-languages": {
       "canonical_url": "https://www.marktechpost.com/2026/07/20/alibabas-tongyi-lab-releases-qwen-audio-3-0-tts-a-hosted-text-to-speech-model-in-flash-and-plus-tiers-across-16-languages",
@@ -3776,12 +3907,6 @@
       "status": "scoring_attempted",
       "title": "Becoming a Research Engineer at a Big LLM Lab"
     },
-    "https://www.newyorker.com/science/annals-of-artificial-intelligence/there-is-no-ai": {
-      "canonical_url": "https://www.newyorker.com/science/annals-of-artificial-intelligence/there-is-no-ai",
-      "created_at": "2026-07-20T15:48:01Z",
-      "status": "scoring_attempted",
-      "title": "Jaron Lanier: there is no AI (2023)"
-    },
     "https://www.nist.gov/news-events/news/2026/07/uk-aisi-caisi-preliminary-assessment-kimi-k3s-cyber-capabilities": {
       "canonical_url": "https://www.nist.gov/news-events/news/2026/07/uk-aisi-caisi-preliminary-assessment-kimi-k3s-cyber-capabilities",
       "created_at": "2026-07-25T06:13:37Z",
@@ -3793,12 +3918,6 @@
       "created_at": "2026-07-22T20:49:07Z",
       "status": "scoring_attempted",
       "title": "ICE shared Medicaid data it wasn't supposed to have with Palantir"
-    },
-    "https://www.nycsubway.org/wiki/Subway_Signals%3A_A_Complete_Guide": {
-      "canonical_url": "https://www.nycsubway.org/wiki/Subway_Signals%3A_A_Complete_Guide",
-      "created_at": "2026-07-20T15:48:01Z",
-      "status": "scoring_attempted",
-      "title": "NYC Subway Signals: A Complete Guide"
     },
     "https://www.omgubuntu.co.uk/2026/07/chrome-arm64-linux-available": {
       "canonical_url": "https://www.omgubuntu.co.uk/2026/07/chrome-arm64-linux-available",
@@ -3859,12 +3978,6 @@
       "created_at": "2026-07-26T05:57:40Z",
       "status": "scoring_attempted",
       "title": "Alien World Chemistry Found Inside Meteorite That Struck New Jersey Home"
-    },
-    "https://www.soofi.info": {
-      "canonical_url": "https://www.soofi.info",
-      "created_at": "2026-07-20T15:48:01Z",
-      "status": "scoring_attempted",
-      "title": "Soofi \u2013 Sovereign Open Source Foundation Models"
     },
     "https://www.spacex.com/launches/starship-flight-13": {
       "canonical_url": "https://www.spacex.com/launches/starship-flight-13",
@@ -3992,12 +4105,6 @@
       "status": "scoring_attempted",
       "title": "Who\u2019s afraid of the big, bad GPU?"
     },
-    "https://www.theverge.com/entertainment/967887/avengers-doomsday-trailer-marvel-release-date": {
-      "canonical_url": "https://www.theverge.com/entertainment/967887/avengers-doomsday-trailer-marvel-release-date",
-      "created_at": "2026-07-20T14:34:36Z",
-      "status": "scoring_attempted",
-      "title": "Avengers: Doomsday\u2019s first trailer puts everyone on high alert"
-    },
     "https://www.theverge.com/entertainment/968703/neill-blomkamps-nightborne-barley-studios-seedance": {
       "canonical_url": "https://www.theverge.com/entertainment/968703/neill-blomkamps-nightborne-barley-studios-seedance",
       "created_at": "2026-07-21T22:12:46Z",
@@ -4028,17 +4135,17 @@
       "status": "scoring_attempted",
       "title": "Marvel announces Ryan Gosling as Ghost Rider, a new Black Panther, and more"
     },
+    "https://www.theverge.com/entertainment/971285/sdcc-2026-trailers-neuromancer-blade-runner-carrie": {
+      "canonical_url": "https://www.theverge.com/entertainment/971285/sdcc-2026-trailers-neuromancer-blade-runner-carrie",
+      "created_at": "2026-07-27T15:59:27Z",
+      "status": "scoring_attempted",
+      "title": "SDCC 2026\u2019s best trailers are heavy on cyberpunk and sci-fi"
+    },
     "https://www.theverge.com/gadgets/960331/corsair-frame-4500x-deal-pc-case-sale": {
       "canonical_url": "https://www.theverge.com/gadgets/960331/corsair-frame-4500x-deal-pc-case-sale",
       "created_at": "2026-07-23T18:37:11Z",
       "status": "scoring_attempted",
       "title": "Corsair\u2019s PC case with a panoramic glass design is $70 off"
-    },
-    "https://www.theverge.com/gadgets/967822/airpods-max-2-logitech-superstrike-kodak-charmera-deal-sale": {
-      "canonical_url": "https://www.theverge.com/gadgets/967822/airpods-max-2-logitech-superstrike-kodak-charmera-deal-sale",
-      "created_at": "2026-07-20T15:48:01Z",
-      "status": "scoring_attempted",
-      "title": "The AirPods Max 2 are down to their second-best price"
     },
     "https://www.theverge.com/gadgets/967993/lg-27-inch-ultragear-glossy-oled-gaming-monitor-deal-sale": {
       "canonical_url": "https://www.theverge.com/gadgets/967993/lg-27-inch-ultragear-glossy-oled-gaming-monitor-deal-sale",
@@ -4106,6 +4213,12 @@
       "status": "scoring_attempted",
       "title": "Qualcomm is about to raise prices and that&#8217;s bad news for everyone"
     },
+    "https://www.theverge.com/gadgets/971332/samsung-qdoled-gaming-monitor-find-my-tracker-ps5-logitech-deal-sale": {
+      "canonical_url": "https://www.theverge.com/gadgets/971332/samsung-qdoled-gaming-monitor-find-my-tracker-ps5-logitech-deal-sale",
+      "created_at": "2026-07-27T15:59:27Z",
+      "status": "scoring_attempted",
+      "title": "Samsung\u2019s 27-inch QD-OLED gaming monitor is priced right at $299.99"
+    },
     "https://www.theverge.com/games/969969/xbox-testing-ad-supported-streaming": {
       "canonical_url": "https://www.theverge.com/games/969969/xbox-testing-ad-supported-streaming",
       "created_at": "2026-07-23T17:10:21Z",
@@ -4118,12 +4231,6 @@
       "status": "scoring_attempted",
       "title": "Microsoft is bringing original Xbox games to PC"
     },
-    "https://www.theverge.com/podcast/967884/jill-lepore-history-ai-artificial-state-elon-musk": {
-      "canonical_url": "https://www.theverge.com/podcast/967884/jill-lepore-history-ai-artificial-state-elon-musk",
-      "created_at": "2026-07-20T15:48:01Z",
-      "status": "scoring_attempted",
-      "title": "Dr. Jill Lepore on why AI backlash is vital for the future"
-    },
     "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive": {
       "canonical_url": "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive",
       "created_at": "2026-07-23T15:07:34Z",
@@ -4135,6 +4242,12 @@
       "created_at": "2026-07-24T18:44:11Z",
       "status": "scoring_attempted",
       "title": "You can\u2019t ignore Google Zero anymore"
+    },
+    "https://www.theverge.com/podcast/971306/tariffs-liberation-day-ai-trade-shipping-jobs-canada": {
+      "canonical_url": "https://www.theverge.com/podcast/971306/tariffs-liberation-day-ai-trade-shipping-jobs-canada",
+      "created_at": "2026-07-27T15:59:27Z",
+      "status": "scoring_attempted",
+      "title": "Tariffs didn\u2019t bring manufacturing jobs back to the US"
     },
     "https://www.theverge.com/policy/969644/meta-social-media-addiction-trial-dropped": {
       "canonical_url": "https://www.theverge.com/policy/969644/meta-social-media-addiction-trial-dropped",
@@ -4346,11 +4459,23 @@
       "status": "scoring_attempted",
       "title": "Google basically confirms the Pixel 11 is getting a price hike"
     },
-    "https://www.theverge.com/transportation/967891/archer-evtol-military-anduril-air-taxi-thunder": {
-      "canonical_url": "https://www.theverge.com/transportation/967891/archer-evtol-military-anduril-air-taxi-thunder",
-      "created_at": "2026-07-20T14:34:36Z",
+    "https://www.theverge.com/tech/971160/framework-laptop-13-pro-intel-review": {
+      "canonical_url": "https://www.theverge.com/tech/971160/framework-laptop-13-pro-intel-review",
+      "created_at": "2026-07-27T15:59:27Z",
       "status": "scoring_attempted",
-      "title": "Electric air taxis go to war"
+      "title": "This is my new favorite laptop, but thanks to RAMageddon it already went up in price by $800"
+    },
+    "https://www.theverge.com/tech/971358/cxmt-china-ram-stock-market-debut": {
+      "canonical_url": "https://www.theverge.com/tech/971358/cxmt-china-ram-stock-market-debut",
+      "created_at": "2026-07-27T15:59:27Z",
+      "status": "scoring_attempted",
+      "title": "Chinese RAM company CXMT makes a $484 billion stock market debut"
+    },
+    "https://www.theverge.com/tech/971437/amazon-leo-direct-to-device-satellite-network": {
+      "canonical_url": "https://www.theverge.com/tech/971437/amazon-leo-direct-to-device-satellite-network",
+      "created_at": "2026-07-27T15:59:27Z",
+      "status": "scoring_attempted",
+      "title": "Amazon&#8217;s trying to launch a global satellite cellphone network in 2028"
     },
     "https://www.theverge.com/transportation/968205/ford-electric-truck-uev-30000-affordable": {
       "canonical_url": "https://www.theverge.com/transportation/968205/ford-electric-truck-uev-30000-affordable",
@@ -4525,12 +4650,6 @@
       "created_at": "2026-07-27T13:29:03Z",
       "status": "scoring_attempted",
       "title": "AI companies are shredding rare books"
-    },
-    "https://yang-ai-lab.github.io/Inertia-1": {
-      "canonical_url": "https://yang-ai-lab.github.io/Inertia-1",
-      "created_at": "2026-07-20T14:34:36Z",
-      "status": "scoring_attempted",
-      "title": "Inertia-1: An Open Exploration to a Unified Motion Foundation Model"
     },
     "https://ziggit.dev/t/cruller-buns-zig-runtime-continued-on-zig-0-16/16734": {
       "canonical_url": "https://ziggit.dev/t/cruller-buns-zig-runtime-continued-on-zig-0-16/16734",
