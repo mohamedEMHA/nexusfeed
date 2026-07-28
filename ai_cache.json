@@ -1,5 +1,28 @@
 {
   "cerebras_scoring": {
+    "010bf4143fd417dcbccf540289d8ec98ef72d75d3c180cd5c6a4f7bd7677b2ae": {
+      "created_at": "2026-07-28T23:55:10Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "New release targeting a well-documented problem in engineering organizations.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Fireworks AI Releases Fireworks Nexus: A Drop-In Routing and Cost-Control Layer That Moves Routine Coding Work to Open-Weight Models",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "05189f8a61d1bcaa368b9d57f3dd85880481a7169f2d4676b2307f1bd578d389": {
       "created_at": "2026-07-28T17:43:13Z",
       "payload": {
@@ -716,29 +739,6 @@
         "social_posts": {}
       }
     },
-    "6c1459da8167ac15858a112a7160680575983c8bcab3ee16fccb246cc30d80cd": {
-      "created_at": "2026-07-27T22:57:16Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 0.5,
-            "impact_score": 2.5,
-            "index": 256,
-            "novelty_score": 2.5,
-            "reason": "Anthropic's stance on open-weights models is a significant industry move, but it's not novel enough to justify a higher novelty score.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 2,
-            "title": "Our position on open-weights models",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 256,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "6d30f56af9657cf4c9d6830eebb830a656d236c32e21e6a650b499ec97705506": {
       "created_at": "2026-07-28T00:03:16Z",
       "payload": {
@@ -837,29 +837,6 @@
         }
       }
     },
-    "7a817d8ef0c55d8c6734c4d91ce1b82670b18fa76493961d3621c28ea332b767": {
-      "created_at": "2026-07-27T22:57:16Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "This article covers a significant cybercrime case involving Steam malware, but it's not highly novel and the source is tier C.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Bitcoin trail, Google cookies and Uber Eats orders help tie man to Steam malware",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 2,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "84af01cd3ce7fe74812438e4643ea8a407734bd2bd4979778e87ab57967a26bd": {
       "created_at": "2026-07-28T22:38:44Z",
       "payload": {
@@ -909,34 +886,6 @@
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
-      }
-    },
-    "8acb6dfe0bf59a98ff17dc406bc0926dfc83d5f42c0efff5dd0353dd1def57db": {
-      "created_at": "2026-07-27T22:57:16Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Microsoft's new AI security tools claim to outperform competitors at a lower cost, which is a significant industry move.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Microsoft unveils AI security tools it says outperform competing platforms",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Microsoft has unveiled new AI security tools that it claims outperform competing platforms while being more cost-effective. This could be a significant shift in the AI security landscape. Link: https://arstechnica.com/security/2026/07/microsoft-unveils-ai-security-tools-it-says-outperform-competing-platforms/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Microsoft unveils AI security tools it says outperform competing platforms*\n\nMicrosoft claims its new AI security tools outperform competitors while costing less.\n\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://arstechnica.com/security/2026/07/microsoft-unveils-ai-security-tools-it-says-outperform-competing-platforms/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Microsoft's new AI security tools claim to outperform competitors at a lower cost. This could be a game-changer in the industry. https://arstechnica.com/security/2026/07/microsoft-unveils-ai-security-tools-it-says-outperform-competing-platforms/",
-          "twitter": "Microsoft claims its new AI security tools outperform competitors while costing less. https://arstechnica.com/security/2026/07/microsoft-unveils-ai-security-tools-it-says-outperform-competing-platforms/"
-        }
       }
     },
     "8c76693eb599970a8d897706ea3032701177d24d7acfd6770b149ad52f8e673d": {
@@ -2009,12 +1958,6 @@
       "created_at": "2026-07-26T15:42:40Z",
       "status": "scoring_attempted",
       "title": "Park by Robot at London Gatwick Airport"
-    },
-    "https://ai.google.dev/gemini-api/docs/latest-model": {
-      "canonical_url": "https://ai.google.dev/gemini-api/docs/latest-model",
-      "created_at": "2026-07-21T23:53:35Z",
-      "status": "scoring_attempted",
-      "title": "Gemini last models: temperature, top_p, and top_k are deprecated and ignored"
     },
     "https://andys.blog/this-july-i-was-fired-from-simple-ai": {
       "canonical_url": "https://andys.blog/this-july-i-was-fired-from-simple-ai",
@@ -4164,6 +4107,12 @@
       "status": "scoring_attempted",
       "title": "Perplexity Releases pplx, a Single-Binary CLI That Puts Its Search API in the Terminal for Coding Agents"
     },
+    "https://www.marktechpost.com/2026/07/28/fireworks-ai-releases-fireworks-nexus-a-drop-in-routing-and-cost-control-layer-that-moves-routine-coding-work-to-open-weight-models": {
+      "canonical_url": "https://www.marktechpost.com/2026/07/28/fireworks-ai-releases-fireworks-nexus-a-drop-in-routing-and-cost-control-layer-that-moves-routine-coding-work-to-open-weight-models",
+      "created_at": "2026-07-28T23:55:10Z",
+      "status": "scoring_attempted",
+      "title": "Fireworks AI Releases Fireworks Nexus: A Drop-In Routing and Cost-Control Layer That Moves Routine Coding Work to Open-Weight Models"
+    },
     "https://www.marktechpost.com/2026/07/28/microsoft-ai-releases-mai-cyber-1-flash-a-5b-active-parameter-cyber-model-that-pushes-mdash-to-95-95-on-cybergym": {
       "canonical_url": "https://www.marktechpost.com/2026/07/28/microsoft-ai-releases-mai-cyber-1-flash-a-5b-active-parameter-cyber-model-that-pushes-mdash-to-95-95-on-cybergym",
       "created_at": "2026-07-28T09:33:07Z",
@@ -4811,12 +4760,6 @@
       "created_at": "2026-07-28T11:37:11Z",
       "status": "scoring_attempted",
       "title": "Silicon Valley\u2019s Next IPO Billionaires Are Coming. Nonprofits Are Ready for Them"
-    },
-    "https://www.wired.com/story/openai-models-escaped-containment-and-hacked-huggingface": {
-      "canonical_url": "https://www.wired.com/story/openai-models-escaped-containment-and-hacked-huggingface",
-      "created_at": "2026-07-21T23:53:35Z",
-      "status": "scoring_attempted",
-      "title": "OpenAI Models Escaped Containment and Hacked Hugging Face"
     },
     "https://www.wired.com/story/private-claude-chats-exposed-in-google-and-bing-search-results": {
       "canonical_url": "https://www.wired.com/story/private-claude-chats-exposed-in-google-and-bing-search-results",
