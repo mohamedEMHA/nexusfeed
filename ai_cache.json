@@ -433,25 +433,25 @@
         "social_posts": {}
       }
     },
-    "6ea14fd697baceffc204048a744cce4862b34b6be5d0291e46617b4d7c844c55": {
-      "created_at": "2026-07-26T23:59:07Z",
+    "6d30f56af9657cf4c9d6830eebb830a656d236c32e21e6a650b499ec97705506": {
+      "created_at": "2026-07-28T00:03:16Z",
       "payload": {
         "articles": [
           {
             "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 0,
+            "impact_score": 1.5,
+            "index": 1,
             "novelty_score": 2.5,
-            "reason": "New release of a model optimization tool with significant cost savings potential.",
+            "reason": "Benchmarking a new model on a specific code benchmark is novel but niche in impact.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 0.5,
-            "title": "Show HN: Distill and serve small models with frontier quality for half the cost",
-            "total_score": 7.5
+            "title": "Benchmarking Opus 5 on SlopCodeBench",
+            "total_score": 6.5
           }
         ],
-        "best_index": 0,
-        "best_score": 7.5,
+        "best_index": 1,
+        "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -728,6 +728,29 @@
         ],
         "best_index": 7,
         "best_score": 7.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "a087ef2c8d5fc17201707de71e7aa0bb60a39aa1290f757b540f61c73912a4c0": {
+      "created_at": "2026-07-28T00:03:16Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Industry move with moderate impact, fresh, but from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Netflix employee fired for sharing personal details in retreat trust exercise",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1150,29 +1173,6 @@
           "threads": "NVIDIA's Cosmos-H-Dreams model introduces real-time generative simulation to surgical robotics, a significant step forward in medical AI. This could revolutionize how surgeons train and operate. https://huggingface.co/blog/nvidia/cosmos-h-dreams",
           "twitter": "NVIDIA's Cosmos-H-Dreams model brings real-time generative simulation to surgical robotics, a major leap for medical AI.\nhttps://huggingface.co/blog/nvidia/cosmos-h-dreams"
         }
-      }
-    },
-    "d22fa5d39d7ab23d8f63120ed03991f3f4cd5232f6d8cc66143b21ef9a050a0b": {
-      "created_at": "2026-07-26T23:59:07Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "New tool for running Claude code on Cursor, but niche impact and lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Cursor Bridge \u2013 Run Unlimited Claude Code on Your Cursor Subscription",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "d64215eca828b2a85cd42bd108cb24b8c2b92938fc2f3ddd23fe33932f0063fb": {
@@ -2870,6 +2870,12 @@
       "status": "scoring_attempted",
       "title": "Cursor Bridge \u2013 Run Unlimited Claude Code on Your Cursor Subscription"
     },
+    "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-opus-5-on-slop-code-bench.md": {
+      "canonical_url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-opus-5-on-slop-code-bench.md",
+      "created_at": "2026-07-28T00:03:16Z",
+      "status": "scoring_attempted",
+      "title": "Benchmarking Opus 5 on SlopCodeBench"
+    },
     "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/wsff.md": {
       "canonical_url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/wsff.md",
       "created_at": "2026-07-23T18:37:11Z",
@@ -3853,6 +3859,12 @@
       "created_at": "2026-07-21T22:12:46Z",
       "status": "scoring_attempted",
       "title": "Show HN: Computable \u2013 Buy, sell, and redeem GPU for the exact weeks you want"
+    },
+    "https://www.inc.com/amaya-nichole/netflix-company-retreat-sparked-lawsuit-experts-say-real-damage-may-be-just-beginning/91380349": {
+      "canonical_url": "https://www.inc.com/amaya-nichole/netflix-company-retreat-sparked-lawsuit-experts-say-real-damage-may-be-just-beginning/91380349",
+      "created_at": "2026-07-28T00:03:16Z",
+      "status": "scoring_attempted",
+      "title": "Netflix employee fired for sharing personal details in retreat trust exercise"
     },
     "https://www.infoq.com/articles/evolutionary-architecture-pattern": {
       "canonical_url": "https://www.infoq.com/articles/evolutionary-architecture-pattern",
