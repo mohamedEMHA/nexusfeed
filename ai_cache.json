@@ -1,5 +1,40 @@
 {
   "cerebras_scoring": {
+    "05189f8a61d1bcaa368b9d57f3dd85880481a7169f2d4676b2307f1bd578d389": {
+      "created_at": "2026-07-28T17:43:13Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 9,
+            "novelty_score": 2.5,
+            "reason": "Opinion piece on LLM access to ACM Digital Library, relevant but not groundbreaking.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Now Is the Time to Give LLMs Access to the ACM Digital Library",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 10,
+            "novelty_score": 2.5,
+            "reason": "New product announcement, niche impact on wearables market.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Una Watch: Garmin watch competitor but repairable, open ecosystem and USB-C",
+            "total_score": 6.0
+          }
+        ],
+        "best_index": 9,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "0b719c5f889fd9a961ae47be4b3288b8fde230551203f91d0a6b59be1311b951": {
       "created_at": "2026-07-28T09:33:07Z",
       "payload": {
@@ -438,6 +473,46 @@
           "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Silicon Valley\u2019s Next IPO Billionaires Are Coming. Nonprofits Are Ready for Them*\n\nAnthropic and OpenAI employees are expected to give generously after their companies go public.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.wired.com/story/nonprofits-are-getting-ready-for-the-funding-anthropalypse/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
           "threads": "Anthropic and OpenAI employees are set to become billionaires and donate generously to nonprofits after their companies go public. https://www.wired.com/story/nonprofits-are-getting-ready-for-the-funding-anthropalypse/",
           "twitter": "Anthropic and OpenAI employees are set to become billionaires and donate generously to nonprofits after their companies go public. https://www.wired.com/story/nonprofits-are-getting-ready-for-the-funding-anthropalypse/"
+        }
+      }
+    },
+    "6353ef0e442b402510d1c993cb60b72d03bcd33c52085ae435fa9064685271a5": {
+      "created_at": "2026-07-28T17:43:13Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 4,
+            "novelty_score": 2.5,
+            "reason": "Google's Gemini API introduces Managed Agents with 3.6 Flash, Hooks, and Triggers, offering significant new capabilities for developers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 2,
+            "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
+            "total_score": 9
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 6,
+            "novelty_score": 2.5,
+            "reason": "XY is a new GPU-accelerated plotting library, but its impact is limited by the niche audience and lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Show HN: XY \u2013 A Fast, composable, GPU-accelerated interactive plotting library",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 4,
+        "best_score": 9,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Google has introduced Managed Agents in the Gemini API, featuring 3.6 Flash, Hooks, and Triggers. This update provides developers with new tools to enhance their applications. Link: https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Gemini API Managed Agents: 3.6 Flash, hooks, and more*\n\nGoogle's Gemini API now supports Managed Agents with 3.6 Flash, Hooks, and Triggers, expanding developer capabilities.\n\n\ud83c\udfdb\ufe0f Source: Google AI (S)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9/10\n\n\ud83d\udd17 https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Google's Gemini API now includes Managed Agents with 3.6 Flash, Hooks, and Triggers, offering significant new capabilities for developers. https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
+          "twitter": "Google's Gemini API now supports Managed Agents with 3.6 Flash, Hooks, and Triggers, expanding developer capabilities.\nhttps://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/"
         }
       }
     },
@@ -944,6 +1019,86 @@
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "a279eef4eacc691b72cb731e0a2cc38d3e0e2a339d6bd364aacce7580b63b99a": {
+      "created_at": "2026-07-28T17:43:13Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "Interesting research but niche impact and lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Discovering Cryptographic Weaknesses with Claude",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 3.0,
+            "index": 2,
+            "novelty_score": 3.0,
+            "reason": "New field report on AI coding agents in scientific computing with broad impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 2.0,
+            "title": "Scientific computing in the age of agentic AI",
+            "total_score": 10.0
+          }
+        ],
+        "best_index": 2,
+        "best_score": 10.0,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "OpenAI released a field report on how scientists are using AI coding agents to modernize scientific computing. The findings show significant acceleration in software development and discovery across fields like genomics. This could be a major step forward in how research is conducted. Link: https://openai.com/index/scientific-computing-agentic-ai",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Scientific computing in the age of agentic AI*\n\nA new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.\n\n\ud83c\udfdb\ufe0f Source: OpenAI (S)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 10.0/10\n\n\ud83d\udd17 https://openai.com/index/scientific-computing-agentic-ai\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "AI coding agents are revolutionizing scientific computing, according to a new OpenAI report. The impact on fields like genomics could be substantial. https://openai.com/index/scientific-computing-agentic-ai",
+          "twitter": "OpenAI's new report shows how AI coding agents are transforming scientific computing, accelerating genomics research and beyond.\nhttps://openai.com/index/scientific-computing-agentic-ai"
+        }
+      }
+    },
+    "aa9a6781122be9caf6fc4b808d8f96c18cb9f0f58bcee8563f0ad5776a574e0e": {
+      "created_at": "2026-07-28T17:43:13Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "New tool release with moderate impact and freshness, but lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Coding Tools MCP (v0.2.2):Give any AI chat or agent a pair of hands on your code",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 3,
+            "novelty_score": 3,
+            "reason": "New platform release with high impact and freshness, from a top-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 2,
+            "title": "The OlmoEarth Platform: Geospatial inference at planetary scale",
+            "total_score": 9
+          }
+        ],
+        "best_index": 3,
+        "best_score": 9,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "AllenAI has launched the OlmoEarth Platform, enabling geospatial inference at a planetary scale. This is a significant advancement for AI applications in Earth observation and environmental monitoring. Link: https://huggingface.co/blog/allenai/olmoearth-infrastructure",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *The OlmoEarth Platform: Geospatial inference at planetary scale*\n\nAllenAI's new OlmoEarth Platform enables geospatial inference at a planetary scale, a significant advancement for AI applications in Earth observation and environmental monitoring.\n\n\ud83c\udfdb\ufe0f Source: HuggingFace (S)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9/10\n\n\ud83d\udd17 https://huggingface.co/blog/allenai/olmoearth-infrastructure\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "AllenAI's new OlmoEarth Platform scales geospatial inference to planetary levels. A game-changer for AI in Earth observation. https://huggingface.co/blog/allenai/olmoearth-infrastructure",
+          "twitter": "AllenAI's OlmoEarth Platform brings geospatial inference to planetary scale. A major leap for AI-driven Earth observation.\nhttps://huggingface.co/blog/allenai/olmoearth-infrastructure"
+        }
       }
     },
     "af8cee5d398e6370c61f142906a1b65ada996f93711a324376d7577c096abbd9": {
@@ -1644,15 +1799,6 @@
         "twitter": "OpenAI teams up with the U.S. Department of Energy to accelerate scientific discovery using frontier AI @OpenAI #AI"
       }
     },
-    "65ee77127338ec67ba2d5ed43037fcd3006aa7627b497f68abe86300961fc2ab": {
-      "created_at": "2026-07-21T17:01:12Z",
-      "payload": {
-        "facebook": "Google has introduced new Gemini models, including the 3.6 Flash, which promises faster and more affordable performance. The company is also working on the 3.5 Pro, but it's still in testing. #AI #MachineLearning #Google",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Google Unveils Gemini 3.6 Flash\nGoogle has introduced the Gemini 3.6 Flash, a faster and more affordable AI model, and is already training the next generation Gemini 4.\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n#AI #MachineLearning #Google\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Google's new Gemini 3.6 Flash model brings faster and cheaper AI performance, @GoogleAI #AI",
-        "twitter": "Google accelerates AI development with Gemini 3.6 Flash, a faster and cheaper model, @GoogleAI #AI"
-      }
-    },
     "6a43d2a99ed3d6e139074a064709ca422cc688a9423ded182f84f1bf22ab5874": {
       "created_at": "2026-07-28T11:37:11Z",
       "payload": {
@@ -1687,6 +1833,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Bluesky's AI assistant Attie expands into social research\nAttie now offers insights on news and trends across the AT Protocol.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AIassistance #Bluesky #SocialMedia\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Bluesky's AI assistant Attie is now a social research tool, providing insights on news and trends, @TechCrunch #AIassistance",
         "twitter": "Bluesky's AI assistant Attie now offers insights on news and trends across the AT Protocol, @TechCrunch reports, #AIassistance #Bluesky"
+      }
+    },
+    "84d020e9cc2b063b2e6d4b2423253b0762f23159d84a54062243d1ecfae8ce18": {
+      "created_at": "2026-07-28T17:43:13Z",
+      "payload": {
+        "facebook": "The intersection of AI and scientific computing is yielding impressive results, with AI coding agents modernizing the field and driving breakthroughs in genomics and other areas, according to a new report from OpenAI, highlighting the potential for accelerated discovery #AI #ScientificComputing #Genomics",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 AI coding agents are modernizing scientific computing\nA new field report reveals how scientists leverage AI coding agents to accelerate software development and discovery in genomics and other areas.\n\ud83c\udfdb\ufe0f Source: OpenAI (S)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 10/10\n#AI #ScientificComputing #Genomics\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "The use of AI coding agents in scientific computing is gaining traction, with a new report from @OpenAI highlighting the potential for accelerated software development and discovery in genomics and beyond, marking a significant shift in the field #ScientificComputing",
+        "twitter": "AI coding agents are transforming scientific computing, accelerating genomics research and beyond, says @OpenAI, with significant implications for software development #AI #ScientificComputing"
       }
     },
     "8cd01cbb66294af49bca853b0a6d5a041ba915ca0c59088472f3c6186c03bacb": {
@@ -2005,12 +2160,6 @@
       "created_at": "2026-07-23T17:10:21Z",
       "status": "scoring_attempted",
       "title": "Google just had its first negative cash flow quarter due to massive AI spending"
-    },
-    "https://arstechnica.com/google/2026/07/google-reveals-faster-and-cheaper-gemini-3-6-flash-says-3-5-pro-is-still-in-testing": {
-      "canonical_url": "https://arstechnica.com/google/2026/07/google-reveals-faster-and-cheaper-gemini-3-6-flash-says-3-5-pro-is-still-in-testing",
-      "created_at": "2026-07-21T17:01:12Z",
-      "status": "scoring_attempted",
-      "title": "Google reveals faster and cheaper Gemini 3.6 Flash, says 3.5 Pro is still in testing"
     },
     "https://arstechnica.com/science/2026/07/team-uses-alphafold-ai-to-redesign-gene-editing-proteins-to-make-them-safer": {
       "canonical_url": "https://arstechnica.com/science/2026/07/team-uses-alphafold-ai-to-redesign-gene-editing-proteins-to-make-them-safer",
@@ -2534,6 +2683,12 @@
       "status": "scoring_attempted",
       "title": "Businesses with ugly AI menu redesigns"
     },
+    "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks": {
+      "canonical_url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks",
+      "created_at": "2026-07-28T17:43:13Z",
+      "status": "scoring_attempted",
+      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more"
+    },
     "https://blog.google/innovation-and-ai/technology/research/understanding-the-ai-economy": {
       "canonical_url": "https://blog.google/innovation-and-ai/technology/research/understanding-the-ai-economy",
       "created_at": "2026-07-23T12:56:24Z",
@@ -2593,6 +2748,12 @@
       "created_at": "2026-07-21T19:57:32Z",
       "status": "scoring_attempted",
       "title": "AI makes programming differently difficult"
+    },
+    "https://cacm.acm.org/opinion/now-is-the-time-to-give-llms-access-to-the-acm-digital-library": {
+      "canonical_url": "https://cacm.acm.org/opinion/now-is-the-time-to-give-llms-access-to-the-acm-digital-library",
+      "created_at": "2026-07-28T17:43:13Z",
+      "status": "scoring_attempted",
+      "title": "Now Is the Time to Give LLMs Access to the ACM Digital Library"
     },
     "https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56": {
       "canonical_url": "https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56",
@@ -2822,6 +2983,12 @@
       "status": "scoring_attempted",
       "title": "You can now run same OCI images as containers or Firecracker microVMs"
     },
+    "https://github.com/reflex-dev/xy": {
+      "canonical_url": "https://github.com/reflex-dev/xy",
+      "created_at": "2026-07-28T17:43:13Z",
+      "status": "scoring_attempted",
+      "title": "Show HN: XY \u2013 A Fast, composable, GPU-accelerated interactive plotting library"
+    },
     "https://github.com/schildep/verified-3d-mesh-intersection": {
       "canonical_url": "https://github.com/schildep/verified-3d-mesh-intersection",
       "created_at": "2026-07-28T15:37:11Z",
@@ -2839,6 +3006,12 @@
       "created_at": "2026-07-27T03:47:01Z",
       "status": "scoring_attempted",
       "title": "Scriptc by Vercel: TypeScript-to-Native compiler, no JavaScript engine in binary"
+    },
+    "https://github.com/xyTom/coding-tools-mcp": {
+      "canonical_url": "https://github.com/xyTom/coding-tools-mcp",
+      "created_at": "2026-07-28T17:43:13Z",
+      "status": "scoring_attempted",
+      "title": "Coding Tools MCP (v0.2.2):Give any AI chat or agent a pair of hands on your code"
     },
     "https://gregoryszorc.com/docs/python-build-standalone/main": {
       "canonical_url": "https://gregoryszorc.com/docs/python-build-standalone/main",
@@ -2881,6 +3054,12 @@
       "created_at": "2026-07-28T15:37:11Z",
       "status": "scoring_attempted",
       "title": "LFM2.5-Encoders for Fast Long-Context Inference on CPU"
+    },
+    "https://huggingface.co/blog/allenai/olmoearth-infrastructure": {
+      "canonical_url": "https://huggingface.co/blog/allenai/olmoearth-infrastructure",
+      "created_at": "2026-07-28T17:43:13Z",
+      "status": "scoring_attempted",
+      "title": "The OlmoEarth Platform: Geospatial inference at planetary scale"
     },
     "https://huggingface.co/blog/nvidia/cosmos-h-dreams": {
       "canonical_url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
@@ -3073,6 +3252,12 @@
       "created_at": "2026-07-22T15:01:16Z",
       "status": "scoring_attempted",
       "title": "Introducing OpenAI Presence"
+    },
+    "https://openai.com/index/scientific-computing-agentic-ai": {
+      "canonical_url": "https://openai.com/index/scientific-computing-agentic-ai",
+      "created_at": "2026-07-28T17:43:13Z",
+      "status": "scoring_attempted",
+      "title": "Scientific computing in the age of agentic AI"
     },
     "https://openaim.pramit.gg": {
       "canonical_url": "https://openaim.pramit.gg",
@@ -3620,6 +3805,12 @@
       "status": "scoring_attempted",
       "title": "Writing fingerprint analysis of responses reveals Kimi's similarity to Claude"
     },
+    "https://unawatch.com": {
+      "canonical_url": "https://unawatch.com",
+      "created_at": "2026-07-28T17:43:13Z",
+      "status": "scoring_attempted",
+      "title": "Una Watch: Garmin watch competitor but repairable, open ecosystem and USB-C"
+    },
     "https://unlayer.com": {
       "canonical_url": "https://unlayer.com",
       "created_at": "2026-07-22T17:00:35Z",
@@ -3650,12 +3841,6 @@
       "status": "scoring_attempted",
       "title": "My web version of Mars MIPS, now have builtin C compiler"
     },
-    "https://www.404media.co/apple-fixes-hide-my-email-vulnerability-after-404-media-coverage": {
-      "canonical_url": "https://www.404media.co/apple-fixes-hide-my-email-vulnerability-after-404-media-coverage",
-      "created_at": "2026-07-21T17:01:12Z",
-      "status": "scoring_attempted",
-      "title": "Apple Fixes Hide My Email Vulnerability After 404 Media Coverage"
-    },
     "https://www.agrillo.it/EvasionEn.html": {
       "canonical_url": "https://www.agrillo.it/EvasionEn.html",
       "created_at": "2026-07-26T17:52:03Z",
@@ -3685,6 +3870,12 @@
       "created_at": "2026-07-27T22:57:16Z",
       "status": "scoring_attempted",
       "title": "Our position on open-weights models"
+    },
+    "https://www.anthropic.com/research/discovering-cryptographic-weaknesses": {
+      "canonical_url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
+      "created_at": "2026-07-28T17:43:13Z",
+      "status": "scoring_attempted",
+      "title": "Discovering Cryptographic Weaknesses with Claude"
     },
     "https://www.artificialintelligence-news.com/news/ai-drug-discovery-china": {
       "canonical_url": "https://www.artificialintelligence-news.com/news/ai-drug-discovery-china",
@@ -4238,12 +4429,6 @@
       "status": "scoring_attempted",
       "title": "Government orders GitHub to remove Bluetooth-based chat app Bitchat: Jack Dorsey"
     },
-    "https://www.theverge.com/ai-artificial-intelligence/968724/anthropic-authors-settlement-ai-copyright-approved": {
-      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/968724/anthropic-authors-settlement-ai-copyright-approved",
-      "created_at": "2026-07-21T17:01:12Z",
-      "status": "scoring_attempted",
-      "title": "Anthropic\u2019s $1.5 billion book piracy settlement approved by judge"
-    },
     "https://www.theverge.com/ai-artificial-intelligence/968855/substack-pangram-ai-detecting-tool": {
       "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/968855/substack-pangram-ai-detecting-tool",
       "created_at": "2026-07-21T19:57:32Z",
@@ -4556,12 +4741,6 @@
       "status": "scoring_attempted",
       "title": "Samsung Unpacked 2026: all the news from the July foldable launch"
     },
-    "https://www.theverge.com/tech/968480/twitch-parental-controls-block-streaming-live-dms": {
-      "canonical_url": "https://www.theverge.com/tech/968480/twitch-parental-controls-block-streaming-live-dms",
-      "created_at": "2026-07-21T17:01:12Z",
-      "status": "scoring_attempted",
-      "title": "Twitch will let parents stop their teens going live"
-    },
     "https://www.theverge.com/tech/968663/samsung-galaxy-z-fold-8-wide-hands-on": {
       "canonical_url": "https://www.theverge.com/tech/968663/samsung-galaxy-z-fold-8-wide-hands-on",
       "created_at": "2026-07-22T15:01:16Z",
@@ -4700,12 +4879,6 @@
       "status": "scoring_attempted",
       "title": "Apple\u2019s reported \u2018HomePad\u2019 may launch as early as October"
     },
-    "https://www.theverge.com/transportation/968624/tesla-robotaxis-orlando-tampa-florida-earnings": {
-      "canonical_url": "https://www.theverge.com/transportation/968624/tesla-robotaxis-orlando-tampa-florida-earnings",
-      "created_at": "2026-07-21T17:01:12Z",
-      "status": "scoring_attempted",
-      "title": "Tesla Robotaxis go to Florida"
-    },
     "https://www.theverge.com/transportation/970003/tesla-robotaxi-mileage-waymo-cities-earnings-musk": {
       "canonical_url": "https://www.theverge.com/transportation/970003/tesla-robotaxi-mileage-waymo-cities-earnings-musk",
       "created_at": "2026-07-23T17:10:21Z",
@@ -4735,12 +4908,6 @@
       "created_at": "2026-07-23T06:27:26Z",
       "status": "scoring_attempted",
       "title": "Local AI that finds sensitive files on your Mac before attackers do"
-    },
-    "https://www.wired.com/story/a-sneaky-hacking-tool-targeting-ai-infrastructure-is-lurking-in-victims-blind-spots": {
-      "canonical_url": "https://www.wired.com/story/a-sneaky-hacking-tool-targeting-ai-infrastructure-is-lurking-in-victims-blind-spots",
-      "created_at": "2026-07-21T17:01:12Z",
-      "status": "scoring_attempted",
-      "title": "A Sneaky Hacking Tool Targeting AI Infrastructure Is Lurking in Victims\u2019 Blind Spots"
     },
     "https://www.wired.com/story/chinas-open-ai-models-are-challenging-silicon-valleys-playbook": {
       "canonical_url": "https://www.wired.com/story/chinas-open-ai-models-are-challenging-silicon-valleys-playbook",
