@@ -410,6 +410,41 @@
         "social_posts": {}
       }
     },
+    "67a4b2aaf10830c9b539975ead8b120c26c511c21de728c387a6a6eb73ea4429": {
+      "created_at": "2026-07-28T03:40:40Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 4,
+            "novelty_score": 2.5,
+            "reason": "Interesting research but niche impact and lower tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "The Burau representation of the braid group is faithful for n = 4",
+            "total_score": 5.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 5,
+            "novelty_score": 2,
+            "reason": "Relevant to tech culture but not directly technical and lower tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Netflix employee fired for sharing personal details in retreat trust exercise",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 5,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "6c1459da8167ac15858a112a7160680575983c8bcab3ee16fccb246cc30d80cd": {
       "created_at": "2026-07-27T22:57:16Z",
       "payload": {
@@ -1048,6 +1083,41 @@
         "social_posts": {}
       }
     },
+    "c8a514388a4f8f3425aefe5519efdbdea19739bab72a56c74b44f13745ca2722": {
+      "created_at": "2026-07-28T03:40:40Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 0.5,
+            "index": 0,
+            "novelty_score": 0.2,
+            "reason": "This is a tutorial-style post with subjective user experience, not a technical or impactful announcement.",
+            "red_flag": true,
+            "red_flag_reason": "tutorial",
+            "source_score": 0.5,
+            "title": "Using an open model feels surprisingly good",
+            "total_score": 2.2
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "This is a significant research result with a clear impact on the field, though the source is not top-tier.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "A $500 RL fine-tune of a 9B open model beat frontier models on catalog review",
+            "total_score": 7.0
+          }
+        ],
+        "best_index": 1,
+        "best_score": 7.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "c9506de2d3652bcacf4502ebc780f828bc157bd66870bdab3a0e419bdaa1df52": {
       "created_at": "2026-07-27T15:59:27Z",
       "payload": {
@@ -1351,6 +1421,64 @@
         ],
         "best_index": 6,
         "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "f1a50804e7793ca18383e694041c0fd39b8edc5557fc5bae115ef1b5ed3dce97": {
+      "created_at": "2026-07-28T03:40:40Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "Interesting take on residential proxies but not groundbreaking for most engineers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Residential Proxies Are a National Security Threat",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "Anthropic CEO's stance on open-weight models and China's AI capabilities is relevant to AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Anthropic\u2019s Dario Amodei responds: doesn\u2019t oppose open-weight models, but fears Chinese AI",
+            "total_score": 8.0
+          }
+        ],
+        "best_index": 3,
+        "best_score": 8.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "f48c386dada4dc10f3b184732d480a9a817617c61bf0df60c99f644e395b5803": {
+      "created_at": "2026-07-28T03:40:40Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 0.5,
+            "impact_score": 1.5,
+            "index": 14,
+            "novelty_score": 2.5,
+            "reason": "Interesting but niche open-source tool with limited impact and freshness.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Show HN: Yap \u2013 OSS on-device voice dictation for macOS with no model to download",
+            "total_score": 4.5
+          }
+        ],
+        "best_index": 14,
+        "best_score": 4.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -2053,6 +2181,12 @@
       "created_at": "2026-07-23T23:56:47Z",
       "status": "scoring_attempted",
       "title": "A Taxonomy of Omnicidal Futures Involving Artificial Intelligence"
+    },
+    "https://arxiv.org/abs/2607.05283": {
+      "canonical_url": "https://arxiv.org/abs/2607.05283",
+      "created_at": "2026-07-28T03:40:40Z",
+      "status": "scoring_attempted",
+      "title": "The Burau representation of the braid group is faithful for n = 4"
     },
     "https://arxiv.org/abs/2607.16195": {
       "canonical_url": "https://arxiv.org/abs/2607.16195",
@@ -2804,6 +2938,12 @@
       "status": "scoring_attempted",
       "title": "Modern email can be built from borrowed parts"
     },
+    "https://fermisense.com/when-machines-take-the-wheel": {
+      "canonical_url": "https://fermisense.com/when-machines-take-the-wheel",
+      "created_at": "2026-07-28T03:40:40Z",
+      "status": "scoring_attempted",
+      "title": "A $500 RL fine-tune of a 9B open model beat frontier models on catalog review"
+    },
     "https://foldkit.dev": {
       "canonical_url": "https://foldkit.dev",
       "created_at": "2026-07-24T17:06:40Z",
@@ -2833,6 +2973,12 @@
       "created_at": "2026-07-23T17:10:21Z",
       "status": "scoring_attempted",
       "title": "Free way to get your data out of ChatGPT Business accounts"
+    },
+    "https://github.com/FrigadeHQ/yap": {
+      "canonical_url": "https://github.com/FrigadeHQ/yap",
+      "created_at": "2026-07-28T03:40:40Z",
+      "status": "scoring_attempted",
+      "title": "Show HN: Yap \u2013 OSS on-device voice dictation for macOS with no model to download"
     },
     "https://github.com/MicSm/boffin": {
       "canonical_url": "https://github.com/MicSm/boffin",
@@ -2990,6 +3136,12 @@
       "status": "scoring_attempted",
       "title": "Memory Safety Absolutists"
     },
+    "https://jacob.gold/posts/residential-proxies-are-a-national-security-threat": {
+      "canonical_url": "https://jacob.gold/posts/residential-proxies-are-a-national-security-threat",
+      "created_at": "2026-07-28T03:40:40Z",
+      "status": "scoring_attempted",
+      "title": "Residential Proxies Are a National Security Threat"
+    },
     "https://karimjedda.com/engineering-management-after-cost-of-code-collapse": {
       "canonical_url": "https://karimjedda.com/engineering-management-after-cost-of-code-collapse",
       "created_at": "2026-07-25T16:42:46Z",
@@ -3031,6 +3183,12 @@
       "created_at": "2026-07-24T17:06:40Z",
       "status": "scoring_attempted",
       "title": "Codeberg Divides"
+    },
+    "https://matthewsaltz.com/blog/using-an-open-model-feels-surprisingly-good": {
+      "canonical_url": "https://matthewsaltz.com/blog/using-an-open-model-feels-surprisingly-good",
+      "created_at": "2026-07-28T03:40:40Z",
+      "status": "scoring_attempted",
+      "title": "Using an open model feels surprisingly good"
     },
     "https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash": {
       "canonical_url": "https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash",
@@ -3097,6 +3255,12 @@
       "created_at": "2026-07-22T21:50:05Z",
       "status": "scoring_attempted",
       "title": "Fairphone 6 wide camera experimental Linux support"
+    },
+    "https://nypost.com/2026/07/26/us-news/netflix-exec-goes-ballistic-after-being-fired-for-stunning-trust-exercise-confession-at-retreat-suit": {
+      "canonical_url": "https://nypost.com/2026/07/26/us-news/netflix-exec-goes-ballistic-after-being-fired-for-stunning-trust-exercise-confession-at-retreat-suit",
+      "created_at": "2026-07-28T03:40:40Z",
+      "status": "scoring_attempted",
+      "title": "Netflix employee fired for sharing personal details in retreat trust exercise"
     },
     "https://openai.com/index/advancing-the-next-era-of-national-science": {
       "canonical_url": "https://openai.com/index/advancing-the-next-era-of-national-science",
@@ -3253,12 +3417,6 @@
       "created_at": "2026-07-27T13:29:03Z",
       "status": "scoring_attempted",
       "title": "Elevated errors on Claude Opus 5"
-    },
-    "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved": {
-      "canonical_url": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved",
-      "created_at": "2026-07-21T02:23:40Z",
-      "status": "scoring_attempted",
-      "title": "Anthropic\u2019s landmark $1.5B copyright settlement is approved"
     },
     "https://techcrunch.com/2026/07/21/ai-and-the-rise-of-the-universal-entertainment-app": {
       "canonical_url": "https://techcrunch.com/2026/07/21/ai-and-the-rise-of-the-universal-entertainment-app",
@@ -3542,6 +3700,12 @@
       "status": "scoring_attempted",
       "title": "Making sense of the panic over Chinese AI"
     },
+    "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai": {
+      "canonical_url": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai",
+      "created_at": "2026-07-28T03:40:40Z",
+      "status": "scoring_attempted",
+      "title": "Anthropic\u2019s Dario Amodei responds: doesn\u2019t oppose open-weight models, but fears Chinese AI"
+    },
     "https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume": {
       "canonical_url": "https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume",
       "created_at": "2026-07-27T15:59:27Z",
@@ -3691,12 +3855,6 @@
       "created_at": "2026-07-25T16:42:46Z",
       "status": "scoring_attempted",
       "title": "My web version of Mars MIPS, now have builtin C compiler"
-    },
-    "https://words.filippo.io/passkey-record": {
-      "canonical_url": "https://words.filippo.io/passkey-record",
-      "created_at": "2026-07-21T02:23:40Z",
-      "status": "scoring_attempted",
-      "title": "Opaque, Interoperable Passkey Records (and a Go API)"
     },
     "https://www.404media.co/apple-fixes-hide-my-email-vulnerability-after-404-media-coverage": {
       "canonical_url": "https://www.404media.co/apple-fixes-hide-my-email-vulnerability-after-404-media-coverage",
