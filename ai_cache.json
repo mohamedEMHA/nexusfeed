@@ -734,6 +734,52 @@
         }
       }
     },
+    "4e3f4a7bf49d1c70eac62bd53756e10ce48ea02ecf78d39958b45e85cf401423": {
+      "created_at": "2026-07-29T15:29:15Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 3,
+            "novelty_score": 1.5,
+            "reason": "The article provides a historical overview of the PhysioNet platform, which is interesting but not novel in terms of recent developments or research.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "How a medical database developed at MIT evolved into a global standard of data-sharing",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 3,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "5a8fdab87134f457bcd2085f1950396d1c0b620a3abb6dc30406803790b7d5a7": {
+      "created_at": "2026-07-29T15:29:15Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "Interesting niche tool for AI agent verification, but limited impact and from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Show HN: A verification browser for AI agents \u2013 13ms windows, one-call checks",
+            "total_score": 5.5
+          }
+        ],
+        "best_index": 2,
+        "best_score": 5.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "5c0f6df898a818ecc078e856a189a6a6b21362b285cf1d2540eef2d2ae7170a9": {
       "created_at": "2026-07-28T18:57:44Z",
       "payload": {
@@ -1022,6 +1068,46 @@
         "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "7749cb1d36b7c6b5511b3f4549e6f7fa4fe431a1022d864b0b8ed1f447075490": {
+      "created_at": "2026-07-29T15:29:15Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.5,
+            "index": 0,
+            "novelty_score": 1.5,
+            "reason": "Sales figures for a consumer product, not directly relevant to software engineers or AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "The Ferrari Luce has at least 500 fans",
+            "total_score": 5.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "Significant funding for AI agents that learn from customer interactions, relevant to AI researchers and developers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Encore AI raises $30M to build AI agents that learn from customer calls",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 1,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Encore AI has raised $30 million to develop AI agents that analyze customer calls, messages, and CRM data to identify effective sales techniques and create playbooks. This could be a significant step forward in AI-driven customer service. Link: https://techcrunch.com/2026/07/29/encore-ai-raises-30m-to-build-ai-agents-that-learn-from-customer-calls/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Encore AI raises $30M to build AI agents that learn from customer calls*\n\nEncore AI has secured $30 million to develop AI agents that analyze customer calls, messages, and CRM data to identify effective sales techniques and create playbooks.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/29/encore-ai-raises-30m-to-build-ai-agents-that-learn-from-customer-calls/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Encore AI just raised $30M to build AI agents that learn from customer calls and turn them into playbooks. Interesting approach to scaling sales techniques. https://techcrunch.com/2026/07/29/encore-ai-raises-30m-to-build-ai-agents-that-learn-from-customer-calls/",
+          "twitter": "Encore AI secures $30M to build AI agents that learn from customer calls, turning them into playbooks. https://techcrunch.com/2026/07/29/encore-ai-raises-30m-to-build-ai-agents-that-learn-from-customer-calls/"
+        }
       }
     },
     "84af01cd3ce7fe74812438e4643ea8a407734bd2bd4979778e87ab57967a26bd": {
@@ -1491,6 +1577,29 @@
         ],
         "best_index": 0,
         "best_score": 7.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "d746362251f70477db78566e9b2251ef628f3972a8b115c857d74b11a39f31cc": {
+      "created_at": "2026-07-29T15:29:15Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 5,
+            "novelty_score": 0.2,
+            "reason": "Tutorial content with low novelty and impact.",
+            "red_flag": true,
+            "red_flag_reason": "tutorial",
+            "source_score": 0.5,
+            "title": "TokenTown: A visual way to understand how LLMs work",
+            "total_score": 3.2
+          }
+        ],
+        "best_index": 5,
+        "best_score": 3.2,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -2003,15 +2112,6 @@
         "twitter": "Microsoft AI boosts cyber defense with MAI-Cyber-1-Flash, a 5B-active-parameter model @Microsoft, #CyberSecurity #AI"
       }
     },
-    "93c089c623e7f01040514cd1d8879ba3ecdc0c34c16c58052f8b612679f2069b": {
-      "created_at": "2026-07-22T15:01:16Z",
-      "payload": {
-        "facebook": "A significant development in the AI sector as AMD announces a major investment in Anthropic, aiming to enhance the company's computing capabilities. This partnership underscores the growing importance of AI infrastructure. #AI #Technology",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Major AI Infrastructure Deal\nAMD is investing up to $5 billion in Anthropic to significantly expand the company's computing power.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #Technology #Infrastructure\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "AMD's substantial investment in Anthropic highlights the escalating demand for robust AI infrastructure @AMD #AI",
-        "twitter": "AMD invests up to $5 billion in Anthropic to expand AI computing power @AMD #AI"
-      }
-    },
     "93ffc9378d0ce3b17109b87acc48880d1de816613bdc8132e3a9fe73c73fc37b": {
       "created_at": "2026-07-23T09:12:21Z",
       "payload": {
@@ -2136,6 +2236,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 AI Personality Takes Center Stage\nCognition's acquisition of Poke highlights the growing significance of conversational AI models in the industry, with AI personality becoming a major differentiator.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AIpersonality #TechAcquisitions #ConversationalAI\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Cognition's acquisition of Poke underscores the increasing importance of AI personality in the industry, with conversational AI models becoming a key competitive advantage @TechCrunch #AI",
         "twitter": "Cognition acquires Poke, indicating AI personality is becoming key to competitive advantage @TechCrunch #AIpersonality"
+      }
+    },
+    "d39ef79224619b7458e79f43e6831a4b455f2a2a6cbda905c31b8f6e3e348b19": {
+      "created_at": "2026-07-29T15:29:15Z",
+      "payload": {
+        "facebook": "A significant development in AI technology as Encore AI raises $30M to build AI agents that learn from customer interactions. This innovative approach analyzes calls, messages, and CRM data to identify effective sales techniques and turn them into playbooks for AI agents. #AItechnology #CustomerService",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 AI Agents Learn from Customer Calls\nEncore AI has raised $30M to develop AI agents that learn from customer interactions by analyzing calls, messages, and CRM data.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AIagents #CustomerService #TechNews\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Encore AI has raised $30M to build AI agents that learn from customer calls, a move that could significantly impact sales techniques @TechCrunch #AI",
+        "twitter": "Encore AI secures $30M funding to develop AI agents that learn from customer calls, leveraging sales techniques @TechCrunch #AIagents"
       }
     },
     "db3ecd7b0fd247c4893cce6cb4d3c824f984a6ada046b922d611e55e07a84285": {
@@ -2271,12 +2380,6 @@
       "created_at": "2026-07-29T11:48:04Z",
       "status": "scoring_attempted",
       "title": "Google's SynthID watermark is hard to break, but it doesn't solve AI misinformation"
-    },
-    "https://arstechnica.com/ai/2026/07/us-army-faces-ai-use-limits-after-exhausting-years-supply-of-ai-tokens": {
-      "canonical_url": "https://arstechnica.com/ai/2026/07/us-army-faces-ai-use-limits-after-exhausting-years-supply-of-ai-tokens",
-      "created_at": "2026-07-22T15:01:16Z",
-      "status": "scoring_attempted",
-      "title": "Unlimited AI tokens aren't unlimited after all as US Army burns through supply"
     },
     "https://arstechnica.com/ai/2026/07/verizon-seeks-ai-profits-with-mini-data-centers-1b-dark-fiber-deal-with-google": {
       "canonical_url": "https://arstechnica.com/ai/2026/07/verizon-seeks-ai-profits-with-mini-data-centers-1b-dark-fiber-deal-with-google",
@@ -2818,12 +2921,6 @@
       "status": "scoring_attempted",
       "title": "Cloudflare's new AI traffic options for customers"
     },
-    "https://blog.fiddery.com/businesses-with-ugly-ai-menu-redesigns": {
-      "canonical_url": "https://blog.fiddery.com/businesses-with-ugly-ai-menu-redesigns",
-      "created_at": "2026-07-22T15:01:16Z",
-      "status": "scoring_attempted",
-      "title": "Businesses with ugly AI menu redesigns"
-    },
     "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks": {
       "canonical_url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks",
       "created_at": "2026-07-28T17:43:13Z",
@@ -2835,12 +2932,6 @@
       "created_at": "2026-07-23T12:56:24Z",
       "status": "scoring_attempted",
       "title": "Understanding the AI Economy"
-    },
-    "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026": {
-      "canonical_url": "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026",
-      "created_at": "2026-07-22T15:01:16Z",
-      "status": "scoring_attempted",
-      "title": "3 Google updates from Galaxy Unpacked 2026"
     },
     "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips": {
       "canonical_url": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips",
@@ -3082,6 +3173,12 @@
       "status": "scoring_attempted",
       "title": "Cursor Bridge \u2013 Run Unlimited Claude Code on Your Cursor Subscription"
     },
+    "https://github.com/hongnoul/hwatu": {
+      "canonical_url": "https://github.com/hongnoul/hwatu",
+      "created_at": "2026-07-29T15:29:15Z",
+      "status": "scoring_attempted",
+      "title": "Show HN: A verification browser for AI agents \u2013 13ms windows, one-call checks"
+    },
     "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-opus-5-on-slop-code-bench.md": {
       "canonical_url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-opus-5-on-slop-code-bench.md",
       "created_at": "2026-07-28T00:03:16Z",
@@ -3262,6 +3359,12 @@
       "status": "scoring_attempted",
       "title": "The Pillars of an API Platform"
     },
+    "https://laurentiugabriel.github.io/token-town": {
+      "canonical_url": "https://laurentiugabriel.github.io/token-town",
+      "created_at": "2026-07-29T15:29:15Z",
+      "status": "scoring_attempted",
+      "title": "TokenTown: A visual way to understand how LLMs work"
+    },
     "https://learnvector.ai": {
       "canonical_url": "https://learnvector.ai",
       "created_at": "2026-07-29T02:12:16Z",
@@ -3315,6 +3418,12 @@
       "created_at": "2026-07-22T18:16:21Z",
       "status": "scoring_attempted",
       "title": "Professor Emeritus Dimitri Bertsekas, influential computer scientist and prolific author, dies at 83"
+    },
+    "https://news.mit.edu/2026/how-an-mit-database-evolved-into-global-standard-data-sharing-0729": {
+      "canonical_url": "https://news.mit.edu/2026/how-an-mit-database-evolved-into-global-standard-data-sharing-0729",
+      "created_at": "2026-07-29T15:29:15Z",
+      "status": "scoring_attempted",
+      "title": "How a medical database developed at MIT evolved into a global standard of data-sharing"
     },
     "https://news.mit.edu/2026/mit-projects-selected-funding-under-doe-genesis-mission-0723": {
       "canonical_url": "https://news.mit.edu/2026/mit-projects-selected-funding-under-doe-genesis-mission-0723",
@@ -3370,23 +3479,11 @@
       "status": "scoring_attempted",
       "title": "Advancing the next era of national science"
     },
-    "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community": {
-      "canonical_url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
-      "created_at": "2026-07-22T15:01:16Z",
-      "status": "scoring_attempted",
-      "title": "Building AI infrastructure with the Effingham County community"
-    },
     "https://openai.com/index/health-in-chatgpt": {
       "canonical_url": "https://openai.com/index/health-in-chatgpt",
       "created_at": "2026-07-24T12:47:34Z",
       "status": "scoring_attempted",
       "title": "Launching Health in ChatGPT to US Users"
-    },
-    "https://openai.com/index/introducing-openai-presence": {
-      "canonical_url": "https://openai.com/index/introducing-openai-presence",
-      "created_at": "2026-07-22T15:01:16Z",
-      "status": "scoring_attempted",
-      "title": "Introducing OpenAI Presence"
     },
     "https://openai.com/index/scientific-computing-agentic-ai": {
       "canonical_url": "https://openai.com/index/scientific-computing-agentic-ai",
@@ -3508,12 +3605,6 @@
       "status": "scoring_attempted",
       "title": "Arcee, a US open source AI lab, says Chinese models are not inherently dangerous"
     },
-    "https://techcrunch.com/2026/07/22/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026": {
-      "canonical_url": "https://techcrunch.com/2026/07/22/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026",
-      "created_at": "2026-07-22T15:01:16Z",
-      "status": "scoring_attempted",
-      "title": "The browser wars aren\u2019t about search anymore \u2014 here are the best alternatives to Chrome and Safari"
-    },
     "https://techcrunch.com/2026/07/22/google-justifies-its-massive-ai-spending-with-a-booming-cloud-business": {
       "canonical_url": "https://techcrunch.com/2026/07/22/google-justifies-its-massive-ai-spending-with-a-booming-cloud-business",
       "created_at": "2026-07-22T22:46:20Z",
@@ -3537,12 +3628,6 @@
       "created_at": "2026-07-22T17:00:35Z",
       "status": "scoring_attempted",
       "title": "OpenAI\u2019s AI spending spree has ballooned to $750B"
-    },
-    "https://techcrunch.com/2026/07/22/passionfroot-raises-15m-to-expand-its-b2b-creator-marketplace-to-the-us": {
-      "canonical_url": "https://techcrunch.com/2026/07/22/passionfroot-raises-15m-to-expand-its-b2b-creator-marketplace-to-the-us",
-      "created_at": "2026-07-22T15:01:16Z",
-      "status": "scoring_attempted",
-      "title": "Passionfroot raises $15M to expand its B2B creator marketplace to the US"
     },
     "https://techcrunch.com/2026/07/22/servicenow-bets-40m-on-indian-firm-businessnext-at-700m-valuation-to-deepen-banking-ai-push": {
       "canonical_url": "https://techcrunch.com/2026/07/22/servicenow-bets-40m-on-indian-firm-businessnext-at-700m-valuation-to-deepen-banking-ai-push",
@@ -3837,6 +3922,12 @@
       "created_at": "2026-07-29T11:48:04Z",
       "status": "scoring_attempted",
       "title": "As AI content floods the internet, Pangram raises $9M to detect it"
+    },
+    "https://techcrunch.com/2026/07/29/encore-ai-raises-30m-to-build-ai-agents-that-learn-from-customer-calls": {
+      "canonical_url": "https://techcrunch.com/2026/07/29/encore-ai-raises-30m-to-build-ai-agents-that-learn-from-customer-calls",
+      "created_at": "2026-07-29T15:29:15Z",
+      "status": "scoring_attempted",
+      "title": "Encore AI raises $30M to build AI agents that learn from customer calls"
     },
     "https://techcrunch.com/podcast/ai-communism-rogue-models-and-the-why-kimi-k3-spooked-wall-street": {
       "canonical_url": "https://techcrunch.com/podcast/ai-communism-rogue-models-and-the-why-kimi-k3-spooked-wall-street",
@@ -4180,12 +4271,6 @@
       "status": "scoring_attempted",
       "title": "GitHub Introduces Default \"Cooldown\" Policy for Dependabot Version Updates"
     },
-    "https://www.infoq.com/news/2026/07/github-issues-navigation": {
-      "canonical_url": "https://www.infoq.com/news/2026/07/github-issues-navigation",
-      "created_at": "2026-07-22T15:01:16Z",
-      "status": "scoring_attempted",
-      "title": "GitHub Increased Instant Navigation from 4% to 22% by Rethinking Client Side Architecture"
-    },
     "https://www.infoq.com/news/2026/07/gitlost-github-prompt-injection": {
       "canonical_url": "https://www.infoq.com/news/2026/07/gitlost-github-prompt-injection",
       "created_at": "2026-07-23T21:14:35Z",
@@ -4426,12 +4511,6 @@
       "status": "scoring_attempted",
       "title": "Startup founders urge Trump not to shut off Chinese open weight AI"
     },
-    "https://www.redfin.com/news/ai-data-centers-opposition-education-benefit": {
-      "canonical_url": "https://www.redfin.com/news/ai-data-centers-opposition-education-benefit",
-      "created_at": "2026-07-22T15:01:16Z",
-      "status": "scoring_attempted",
-      "title": "Most Americans Say \"Not in My Backyard\" to AI Data Centers"
-    },
     "https://www.reuters.com/business/retail-consumer/alphabets-cash-burn-raises-alarm-big-tech-ai-spending-climbs-2026-07-23": {
       "canonical_url": "https://www.reuters.com/business/retail-consumer/alphabets-cash-burn-raises-alarm-big-tech-ai-spending-climbs-2026-07-23",
       "created_at": "2026-07-23T15:07:34Z",
@@ -4503,12 +4582,6 @@
       "created_at": "2026-07-24T15:26:36Z",
       "status": "scoring_attempted",
       "title": "Government orders GitHub to remove Bluetooth-based chat app Bitchat: Jack Dorsey"
-    },
-    "https://www.theverge.com/ai-artificial-intelligence/969285/amd-anthropic-ai-infrastructure-deal": {
-      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/969285/amd-anthropic-ai-infrastructure-deal",
-      "created_at": "2026-07-22T15:01:16Z",
-      "status": "scoring_attempted",
-      "title": "AMD and Anthropic reach $5 billion AI infrastructure deal"
     },
     "https://www.theverge.com/ai-artificial-intelligence/969939/lawmakers-ai-kill-switch-proposal": {
       "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/969939/lawmakers-ai-kill-switch-proposal",
@@ -4648,12 +4721,6 @@
       "status": "scoring_attempted",
       "title": "Corsair\u2019s PC case with a panoramic glass design is $70 off"
     },
-    "https://www.theverge.com/gadgets/968200/samsung-galaxy-z-fold-8-ultra-announced-hands-on-photos": {
-      "canonical_url": "https://www.theverge.com/gadgets/968200/samsung-galaxy-z-fold-8-ultra-announced-hands-on-photos",
-      "created_at": "2026-07-22T15:01:16Z",
-      "status": "scoring_attempted",
-      "title": "Samsung\u2019s newest foldable finally feels Ultra"
-    },
     "https://www.theverge.com/gadgets/968682/samsung-galaxy-z-fold-flip-8-specs-features-hardware-comparison": {
       "canonical_url": "https://www.theverge.com/gadgets/968682/samsung-galaxy-z-fold-flip-8-specs-features-hardware-comparison",
       "created_at": "2026-07-22T17:00:35Z",
@@ -4756,12 +4823,6 @@
       "status": "scoring_attempted",
       "title": "4GB graphics cards are back"
     },
-    "https://www.theverge.com/news/969117/microsoft-xbox-games-pc-backward-compatibility": {
-      "canonical_url": "https://www.theverge.com/news/969117/microsoft-xbox-games-pc-backward-compatibility",
-      "created_at": "2026-07-22T15:01:16Z",
-      "status": "scoring_attempted",
-      "title": "Microsoft is bringing original Xbox games to PC"
-    },
     "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive": {
       "canonical_url": "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive",
       "created_at": "2026-07-23T15:07:34Z",
@@ -4845,18 +4906,6 @@
       "created_at": "2026-07-23T11:22:42Z",
       "status": "scoring_attempted",
       "title": "Google hit with $1 billion fine for breaking EU antitrust rules"
-    },
-    "https://www.theverge.com/tech/968663/samsung-galaxy-z-fold-8-wide-hands-on": {
-      "canonical_url": "https://www.theverge.com/tech/968663/samsung-galaxy-z-fold-8-wide-hands-on",
-      "created_at": "2026-07-22T15:01:16Z",
-      "status": "scoring_attempted",
-      "title": "Samsung\u2019s wider Z Fold 8 feels just right"
-    },
-    "https://www.theverge.com/tech/969208/samsung-galaxy-unpacked-2026-everything-announced": {
-      "canonical_url": "https://www.theverge.com/tech/969208/samsung-galaxy-unpacked-2026-everything-announced",
-      "created_at": "2026-07-22T15:01:16Z",
-      "status": "scoring_attempted",
-      "title": "Samsung Galaxy Unpacked 2026: The 6 biggest announcements"
     },
     "https://www.theverge.com/tech/969271/philip-sonicare-next-generation-diamondclean-9900-prestige-ai-electric-toothbrush": {
       "canonical_url": "https://www.theverge.com/tech/969271/philip-sonicare-next-generation-diamondclean-9900-prestige-ai-electric-toothbrush",
@@ -5019,6 +5068,12 @@
       "created_at": "2026-07-24T17:06:40Z",
       "status": "scoring_attempted",
       "title": "Tesla\u2019s car door defect could lead to tougher rules for everyone"
+    },
+    "https://www.theverge.com/transportation/972569/ferrari-luce-ev-sales": {
+      "canonical_url": "https://www.theverge.com/transportation/972569/ferrari-luce-ev-sales",
+      "created_at": "2026-07-29T15:29:15Z",
+      "status": "scoring_attempted",
+      "title": "The Ferrari Luce has at least 500 fans"
     },
     "https://www.timwehrle.de/blog/which-streaming-service-was-that-on-again": {
       "canonical_url": "https://www.timwehrle.de/blog/which-streaming-service-was-that-on-again",
