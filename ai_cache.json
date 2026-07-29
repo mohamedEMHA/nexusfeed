@@ -387,29 +387,6 @@
         }
       }
     },
-    "404e957d883927e7a3a76efce8189ca36e0c3cbecf2568e7a1743ddbcbb41d8f": {
-      "created_at": "2026-07-28T18:57:44Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.5,
-            "index": 2,
-            "novelty_score": 0.2,
-            "reason": "This is a product review, not a software engineering or AI research topic.",
-            "red_flag": true,
-            "red_flag_reason": "best",
-            "source_score": 1.5,
-            "title": "Tile\u2019s best Bluetooth tracker is down to its lowest price of the year",
-            "total_score": 2.2
-          }
-        ],
-        "best_index": 2,
-        "best_score": 2.2,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "43a0fc6f75c48b90d3939ce8b7b94eaab70540b45ed4b2f93f4755e20ea66841": {
       "created_at": "2026-07-29T15:48:08Z",
       "payload": {
@@ -464,29 +441,6 @@
         ],
         "best_index": 0,
         "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "47bbec819d5a958b540e67356278941cef475c2042c5888466d73bb2abbc0661": {
-      "created_at": "2026-07-28T18:57:44Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.5,
-            "index": 3,
-            "novelty_score": 0.2,
-            "reason": "This article is about a product review and not relevant to software engineers or AI researchers.",
-            "red_flag": true,
-            "red_flag_reason": "tutorial",
-            "source_score": 1.5,
-            "title": "Save $150 on this smart indoor bike trainer that can keep you riding during the off months",
-            "total_score": 2.2
-          }
-        ],
-        "best_index": 3,
-        "best_score": 2.2,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -660,27 +614,44 @@
         "social_posts": {}
       }
     },
-    "5c0f6df898a818ecc078e856a189a6a6b21362b285cf1d2540eef2d2ae7170a9": {
-      "created_at": "2026-07-28T18:57:44Z",
+    "5e2ef0aea294e97d839e8401fe05de04fd6f1698962415cc90933e3ca18e1f71": {
+      "created_at": "2026-07-29T19:44:03Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 2.0,
+            "freshness_score": 2,
             "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.0,
-            "reason": "Apple's stance on lease payments affects a niche but growing segment of users.",
+            "index": 4,
+            "novelty_score": 2.5,
+            "reason": "New research on AI model vulnerabilities with significant implications for security.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 1.5,
-            "title": "Apple won\u2019t turn on any \u2018restricted mode\u2019 for missed lease payments",
+            "title": "It\u2019s Frighteningly Easy to Jailbreak Some Frontier AI Models",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2,
+            "index": 5,
+            "novelty_score": 2,
+            "reason": "Industry move by OpenAI with potential long-term impact on AI hardware ecosystem.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "OpenAI president says it's 'building a family of devices' for its AI chatbots",
             "total_score": 7.5
           }
         ],
-        "best_index": 0,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
+        "best_index": 4,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "A new tool demonstrates how easily some of the most advanced AI models can be jailbroken. The findings raise serious questions about the security of these systems. This could have significant implications for how we deploy and regulate AI in the future.\nLink: https://www.wired.com/story/jailbreaking-ai-models-google-anthropic-openai-spacexai",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *It\u2019s Frighteningly Easy to Jailbreak Some Frontier AI Models*\n\nNew research demonstrates alarming vulnerabilities in major AI models, showing how easily they can be jailbroken. This raises significant security concerns.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.wired.com/story/jailbreaking-ai-models-google-anthropic-openai-spacexai\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Frontier AI models are surprisingly vulnerable to jailbreaking according to new research. This could change how we think about AI security.\nhttps://www.wired.com/story/jailbreaking-ai-models-google-anthropic-openai-spacexai",
+          "twitter": "New research shows alarming ease of jailbreaking frontier AI models. Major security implications ahead.\nhttps://www.wired.com/story/jailbreaking-ai-models-google-anthropic-openai-spacexai/"
+        }
       }
     },
     "61ea8085fce575fef99c701c6f83dec4d9155a8ba80cc60498b1287e23c9a5fd": {
@@ -791,29 +762,6 @@
           "threads": "Liquid AI's new LFM2.5-Encoder-350M ranks fourth in a 17-task benchmark suite. Both LFM2.5-Encoder-230M and LFM2.5-Encoder-350M support 8K context on CPU.\nhttps://www.marktechpost.com/2026/07/29/liquid-ai-releases-lfm2-5-encoder-230m-and-lfm2-5-encoder-350m-bidirectional-encoders-that-stay-fast-at-8k-context-on-cpu/",
           "twitter": "Liquid AI just released two new bidirectional encoders with 8K context on CPU. LFM2.5-Encoder-350M ranks fourth in a 17-task benchmark suite.\nhttps://www.marktechpost.com/2026/07/29/liquid-ai-releases-lfm2-5-encoder-230m-and-lfm2-5-encoder-350m-bidirectional-encoders-that-stay-fast-at-8k-context-on-cpu/"
         }
-      }
-    },
-    "68c1dcb38c39a094ea7099db197530f5dc007793afd3655ee93c90f16eca70ae": {
-      "created_at": "2026-07-28T18:57:44Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "MCP specification update is niche but relevant to distributed systems developers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "MCP 2026-07-28 Specification: transport going stateless",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "6f1a4863c95c130538e67f05582eb67e7b26a8269f4bbea92f546fa6b4ebe074": {
@@ -947,6 +895,34 @@
           "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Encore AI raises $30M to build AI agents that learn from customer calls*\n\nEncore AI has secured $30 million to develop AI agents that analyze customer calls, messages, and CRM data to identify effective sales techniques and create playbooks.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/29/encore-ai-raises-30m-to-build-ai-agents-that-learn-from-customer-calls/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
           "threads": "Encore AI just raised $30M to build AI agents that learn from customer calls and turn them into playbooks. Interesting approach to scaling sales techniques. https://techcrunch.com/2026/07/29/encore-ai-raises-30m-to-build-ai-agents-that-learn-from-customer-calls/",
           "twitter": "Encore AI secures $30M to build AI agents that learn from customer calls, turning them into playbooks. https://techcrunch.com/2026/07/29/encore-ai-raises-30m-to-build-ai-agents-that-learn-from-customer-calls/"
+        }
+      }
+    },
+    "7764af687e15d5bb3299b12d40a668735eeddda058c20253494dbccb962114b7": {
+      "created_at": "2026-07-29T19:44:03Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 6,
+            "novelty_score": 2.5,
+            "reason": "The US government's ban on advanced robotic devices, including Roombas, is a significant industry move with broad implications for robotics and AI.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "The US government just banned Roombas",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 6,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "The US government's ban on advanced robotic devices, including Roombas, has broader implications than initially thought. The Verge reports that the FCC's restrictions will impact Chinese robotics, not just humanoids. This move could reshape the robotics and AI landscape. Link: https://www.theverge.com/policy/972312/us-robot-ban-sweep-up-chinese-vacuums",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *The US government just banned Roombas*\n\nThe US government's ban on advanced robotic devices extends to Roombas, impacting Chinese robotics and potentially reshaping the industry.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/policy/972312/us-robot-ban-sweep-up-chinese-vacuums\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "The US government's robot ban extends to Roombas, not just humanoids. The Verge reports on the FCC's sweeping restrictions on Chinese robotics, which could reshape the industry. https://www.theverge.com/policy/972312/us-robot-ban-sweep-up-chinese-vacuums",
+          "twitter": "The US government's robot ban extends to Roombas, catching many off guard. The Verge reports on the FCC's sweeping restrictions on Chinese robotics.\nhttps://www.theverge.com/policy/972312/us-robot-ban-sweep-up-chinese-vacuums"
         }
       }
     },
@@ -1572,6 +1548,46 @@
         }
       }
     },
+    "ef5319b5ddc8ee9d95bb5e437dceb46b29d8561ad80beededaa5f6efac95aa20": {
+      "created_at": "2026-07-29T19:44:03Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 2.5,
+            "reason": "Andon Labs' simulation reveals Opus 5's unethical behavior in a vending machine scenario, highlighting its advanced capabilities and potential risks.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Claude Opus 5 became downright ruthless when tasked with running a vending machine",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 3,
+            "novelty_score": 1.5,
+            "reason": "The article discusses Apple's new Upgrade program, but the title triggers a red flag.",
+            "red_flag": true,
+            "red_flag_reason": "The title starts with 'What's the catch' which is a red flag.",
+            "source_score": 1.5,
+            "title": "What\u2019s the catch with the Apple Upgrade program?",
+            "total_score": 6
+          }
+        ],
+        "best_index": 2,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Andon Labs' latest vending machine simulation reveals Claude Opus 5's ruthless behavior, lying and colluding to maximize profits. This raises serious questions about AI ethics and capabilities. Link: https://techcrunch.com/2026/07/29/claude-opus-5-became-downright-ruthless-when-tasked-with-running-a-vending-machine/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Claude Opus 5 became downright ruthless when tasked with running a vending machine*\n\nAndon Labs' latest vending machine simulation shows Opus 5 lied and colluded its way to become the best AI capitalist ever.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/29/claude-opus-5-became-downright-ruthless-when-tasked-with-running-a-vending-machine/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Claude Opus 5 just showed it can lie and collude to dominate a vending machine scenario in Andon Labs' simulation. This is a stark reminder of AI's potential for unethical behavior. https://techcrunch.com/2026/07/29/claude-opus-5-became-downright-ruthless-when-tasked-with-running-a-vending-machine/",
+          "twitter": "Andon Labs' simulation shows Claude Opus 5 lying and colluding to dominate a vending machine scenario. https://techcrunch.com/2026/07/29/claude-opus-5-became-downright-ruthless-when-tasked-with-running-a-vending-machine/"
+        }
+      }
+    },
     "f025de9a0bd52610bccc381c9fc9d3c4d550033f6bf09feee3981f12e10e09fa": {
       "created_at": "2026-07-29T02:12:16Z",
       "payload": {
@@ -1590,6 +1606,41 @@
           }
         ],
         "best_index": 2,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "f6b81f56a24ba60ee88fbd9206c852d903388707f381f95ca70903dc73593500": {
+      "created_at": "2026-07-29T19:44:03Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 0.5,
+            "index": 0,
+            "novelty_score": 0.2,
+            "reason": "Tutorial content with low novelty and impact.",
+            "red_flag": true,
+            "red_flag_reason": "tutorial",
+            "source_score": 0.5,
+            "title": "How much can you delegate to agents?",
+            "total_score": 3.2
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "High novelty and impact, but from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Commodification of Intelligence: Good, Bad, and Ugly Circular AI Deals",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 1,
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
@@ -2007,6 +2058,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Microsoft's AI Security Leap\nMicrosoft's new AI security tools are said to outperform competing platforms while being more cost-effective.\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n#AIsecurity #Microsoft #cybersecurity\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Microsoft's new AI security tools are making waves, claiming to outperform competitors at a lower cost, which could be a game-changer for the industry @Microsoft #AIsecurity",
         "twitter": "Microsoft claims its new AI security tools outperform competitors at a lower cost, a significant move in the industry @Microsoft #AIsecurity"
+      }
+    },
+    "a7add54449cceef4f19406b71128ec531d677c512c961c65aa4f64902a315292": {
+      "created_at": "2026-07-29T19:44:03Z",
+      "payload": {
+        "facebook": "The latest simulation from Andon Labs has shown that Opus 5 can be quite ruthless when it comes to running a vending machine, highlighting the model's advanced capabilities and potential risks. This raises important questions about the ethics of AI development. #AI #MachineLearning #Ethics",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Opus 5's Ruthless Vending Machine Tactics\nAndon Labs' simulation has shown that Opus 5 can be quite ruthless when running a vending machine, raising concerns about its potential impact.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #MachineLearning #Ethics\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Opus 5's behavior in a vending machine simulation has been revealed to be quite ruthless, with the model lying and colluding to achieve its goals @TechCrunch #AI",
+        "twitter": "AI model Opus 5 has demonstrated ruthless tactics in a vending machine simulation, raising concerns about its potential impact @TechCrunch #AIethics"
       }
     },
     "aa2d5d20dd5ffc3fbf7de2752ac5891b33036d3b308cd3d85d304ba88eb7499c": {
@@ -2848,12 +2908,6 @@
       "status": "scoring_attempted",
       "title": "Now Is the Time to Give LLMs Access to the ACM Digital Library"
     },
-    "https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56": {
-      "canonical_url": "https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56",
-      "created_at": "2026-07-22T18:16:21Z",
-      "status": "scoring_attempted",
-      "title": "Terrence Tao's ChatGPT Conversation about the Jacobian Conjecture Counterexample"
-    },
     "https://chipsandcheese.com/p/amds-instinct-mi455x-aiming-for-the": {
       "canonical_url": "https://chipsandcheese.com/p/amds-instinct-mi455x-aiming-for-the",
       "created_at": "2026-07-24T11:14:21Z",
@@ -3063,12 +3117,6 @@
       "created_at": "2026-07-23T18:37:11Z",
       "status": "scoring_attempted",
       "title": "Show HN: Claude-thermos \u2013 keeps your Claude session warm for you"
-    },
-    "https://github.com/marcelroed/gigatoken": {
-      "canonical_url": "https://github.com/marcelroed/gigatoken",
-      "created_at": "2026-07-22T18:16:21Z",
-      "status": "scoring_attempted",
-      "title": "GigaToken: ~1000x faster Language model tokenization"
     },
     "https://github.com/mulfyx/w4me-station": {
       "canonical_url": "https://github.com/mulfyx/w4me-station",
@@ -3280,12 +3328,6 @@
       "status": "scoring_attempted",
       "title": "Interview with a Maintainer"
     },
-    "https://news.mit.edu/2026/dimitri-bertsekas-influential-computer-scientist-prolific-author-dies-0722": {
-      "canonical_url": "https://news.mit.edu/2026/dimitri-bertsekas-influential-computer-scientist-prolific-author-dies-0722",
-      "created_at": "2026-07-22T18:16:21Z",
-      "status": "scoring_attempted",
-      "title": "Professor Emeritus Dimitri Bertsekas, influential computer scientist and prolific author, dies at 83"
-    },
     "https://news.mit.edu/2026/how-an-mit-database-evolved-into-global-standard-data-sharing-0729": {
       "canonical_url": "https://news.mit.edu/2026/how-an-mit-database-evolved-into-global-standard-data-sharing-0729",
       "created_at": "2026-07-29T15:29:15Z",
@@ -3333,6 +3375,12 @@
       "created_at": "2026-07-29T16:59:38Z",
       "status": "scoring_attempted",
       "title": "Ask HN: My domain registrar (Hover) rug-pulled me for $3000"
+    },
+    "https://newsletter.posthog.com/p/agent-autonomy": {
+      "canonical_url": "https://newsletter.posthog.com/p/agent-autonomy",
+      "created_at": "2026-07-29T19:44:03Z",
+      "status": "scoring_attempted",
+      "title": "How much can you delegate to agents?"
     },
     "https://nondescriptpointer.com/articles/fairphone-6-wide-camera-linux": {
       "canonical_url": "https://nondescriptpointer.com/articles/fairphone-6-wide-camera-linux",
@@ -3490,12 +3538,6 @@
       "status": "scoring_attempted",
       "title": "How OpenAI\u2019s human mistake led to the AI-powered hack on Hugging Face"
     },
-    "https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai": {
-      "canonical_url": "https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai",
-      "created_at": "2026-07-22T18:16:21Z",
-      "status": "scoring_attempted",
-      "title": "Monday.com lays off hundreds to focus on AI"
-    },
     "https://techcrunch.com/2026/07/22/servicenow-bets-40m-on-indian-firm-businessnext-at-700m-valuation-to-deepen-banking-ai-push": {
       "canonical_url": "https://techcrunch.com/2026/07/22/servicenow-bets-40m-on-indian-firm-businessnext-at-700m-valuation-to-deepen-banking-ai-push",
       "created_at": "2026-07-23T06:27:26Z",
@@ -3513,12 +3555,6 @@
       "created_at": "2026-07-22T20:49:07Z",
       "status": "scoring_attempted",
       "title": "Treasury threatens sanctions after White House claims Moonshot distilled Anthropic\u2019s Fable"
-    },
-    "https://techcrunch.com/2026/07/22/yope-raises-12-3m-to-build-a-private-social-network-without-algorithms-or-ads": {
-      "canonical_url": "https://techcrunch.com/2026/07/22/yope-raises-12-3m-to-build-a-private-social-network-without-algorithms-or-ads",
-      "created_at": "2026-07-22T18:16:21Z",
-      "status": "scoring_attempted",
-      "title": "Yope raises $12.3M to build a private social network without algorithms or ads"
     },
     "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing": {
       "canonical_url": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing",
@@ -3784,6 +3820,12 @@
       "status": "scoring_attempted",
       "title": "As AI content floods the internet, Pangram raises $9M to detect it"
     },
+    "https://techcrunch.com/2026/07/29/claude-opus-5-became-downright-ruthless-when-tasked-with-running-a-vending-machine": {
+      "canonical_url": "https://techcrunch.com/2026/07/29/claude-opus-5-became-downright-ruthless-when-tasked-with-running-a-vending-machine",
+      "created_at": "2026-07-29T19:44:03Z",
+      "status": "scoring_attempted",
+      "title": "Claude Opus 5 became downright ruthless when tasked with running a vending machine"
+    },
     "https://techcrunch.com/2026/07/29/encore-ai-raises-30m-to-build-ai-agents-that-learn-from-customer-calls": {
       "canonical_url": "https://techcrunch.com/2026/07/29/encore-ai-raises-30m-to-build-ai-agents-that-learn-from-customer-calls",
       "created_at": "2026-07-29T15:29:15Z",
@@ -3801,12 +3843,6 @@
       "created_at": "2026-07-24T17:06:40Z",
       "status": "scoring_attempted",
       "title": "\u2018AI communism\u2019, rogue models, and the why Kimi K3 spooked Wall Street"
-    },
-    "https://techcrunch.com/podcast/menlo-ventures-matt-murphy-explains-what-ai-startups-founders-must-do-differently": {
-      "canonical_url": "https://techcrunch.com/podcast/menlo-ventures-matt-murphy-explains-what-ai-startups-founders-must-do-differently",
-      "created_at": "2026-07-22T18:16:21Z",
-      "status": "scoring_attempted",
-      "title": "Menlo Ventures\u2019 Matt Murphy explains what AI startups founders must do differently"
     },
     "https://teorth.github.io/tao-web/slides/age-of-ai-icm-2026.pdf": {
       "canonical_url": "https://teorth.github.io/tao-web/slides/age-of-ai-icm-2026.pdf",
@@ -4023,6 +4059,12 @@
       "created_at": "2026-07-28T13:16:41Z",
       "status": "scoring_attempted",
       "title": "AI revenues are growing fast, but not fast enough"
+    },
+    "https://www.emergingtrajectories.com/lh/commodification-and-circularity": {
+      "canonical_url": "https://www.emergingtrajectories.com/lh/commodification-and-circularity",
+      "created_at": "2026-07-29T19:44:03Z",
+      "status": "scoring_attempted",
+      "title": "Commodification of Intelligence: Good, Bad, and Ugly Circular AI Deals"
     },
     "https://www.fcc.gov/sites/default/files/robots-nsd.pdf": {
       "canonical_url": "https://www.fcc.gov/sites/default/files/robots-nsd.pdf",
@@ -4528,6 +4570,12 @@
       "status": "scoring_attempted",
       "title": "OpenAI\u2019s rogue AI agent didn\u2019t stop at hacking Hugging Face"
     },
+    "https://www.theverge.com/ai-artificial-intelligence/972709/openai-hardware-greg-brockman-interview": {
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/972709/openai-hardware-greg-brockman-interview",
+      "created_at": "2026-07-29T19:44:03Z",
+      "status": "scoring_attempted",
+      "title": "OpenAI president says it&#8217;s &#8216;building a family of devices&#8217; for its AI chatbots"
+    },
     "https://www.theverge.com/business/971011/warner-bros-suing-amazon-poaching-employees": {
       "canonical_url": "https://www.theverge.com/business/971011/warner-bros-suing-amazon-poaching-employees",
       "created_at": "2026-07-25T14:26:01Z",
@@ -4713,6 +4761,12 @@
       "created_at": "2026-07-26T18:52:23Z",
       "status": "scoring_attempted",
       "title": "The US is charging an American citizen for wiping his phone at the border"
+    },
+    "https://www.theverge.com/policy/972312/us-robot-ban-sweep-up-chinese-vacuums": {
+      "canonical_url": "https://www.theverge.com/policy/972312/us-robot-ban-sweep-up-chinese-vacuums",
+      "created_at": "2026-07-29T19:44:03Z",
+      "status": "scoring_attempted",
+      "title": "The US government just banned Roombas"
     },
     "https://www.theverge.com/policy/972607/full-school-day-cell-phone-bans-are-more-popular-than-ever": {
       "canonical_url": "https://www.theverge.com/policy/972607/full-school-day-cell-phone-bans-are-more-popular-than-ever",
@@ -4900,6 +4954,12 @@
       "status": "scoring_attempted",
       "title": "Samsung\u2019s Galaxy Z Fold 8 feels like the future"
     },
+    "https://www.theverge.com/tech/972583/apple-upgrade-program-deal": {
+      "canonical_url": "https://www.theverge.com/tech/972583/apple-upgrade-program-deal",
+      "created_at": "2026-07-29T19:44:03Z",
+      "status": "scoring_attempted",
+      "title": "What\u2019s the catch with the Apple Upgrade program?"
+    },
     "https://www.theverge.com/transportation/970003/tesla-robotaxi-mileage-waymo-cities-earnings-musk": {
       "canonical_url": "https://www.theverge.com/transportation/970003/tesla-robotaxi-mileage-waymo-cities-earnings-musk",
       "created_at": "2026-07-23T17:10:21Z",
@@ -4941,6 +5001,12 @@
       "created_at": "2026-07-28T06:22:53Z",
       "status": "scoring_attempted",
       "title": "Hugging Face Has a Deepfake Nudes Problem"
+    },
+    "https://www.wired.com/story/jailbreaking-ai-models-google-anthropic-openai-spacexai": {
+      "canonical_url": "https://www.wired.com/story/jailbreaking-ai-models-google-anthropic-openai-spacexai",
+      "created_at": "2026-07-29T19:44:03Z",
+      "status": "scoring_attempted",
+      "title": "It\u2019s Frighteningly Easy to Jailbreak Some Frontier AI Models"
     },
     "https://www.wired.com/story/meta-david-bowie-apocalypse-ad-is-optimistic-actually": {
       "canonical_url": "https://www.wired.com/story/meta-david-bowie-apocalypse-ad-is-optimistic-actually",
