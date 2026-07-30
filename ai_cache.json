@@ -1,5 +1,69 @@
 {
   "cerebras_scoring": {
+    "02e60ecc180f2660ceb43f1c0e3e73967ab07abf1f4d0acc535f04e33c972fca": {
+      "created_at": "2026-07-30T15:21:40Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 4,
+            "novelty_score": 2.0,
+            "reason": "New study highlights a critical talent gap in AI implementation.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Forward-deployed engineers are the AI industry\u2019s latest talent obsession",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 5,
+            "novelty_score": 2.5,
+            "reason": "MCP specification update could significantly impact enterprise AI adoption.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "New MCP specification addresses the main barrier to enterprise adoption",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.0,
+            "index": 6,
+            "novelty_score": 2.0,
+            "reason": "Cybersecurity lessons from the Hugging Face breach are relevant to all AI practitioners.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "In the Hugging Face breach, OpenAI\u2019s hacker was noisy and fast \u2014 but not unstoppable",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 1.0,
+            "index": 7,
+            "novelty_score": 1.5,
+            "reason": "Niche library with limited immediate impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "SDL_GPU minimal, single-header, high-performance 2D graphics painting library",
+            "total_score": 5.0
+          }
+        ],
+        "best_index": 5,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "A new MCP specification aims to address the main barrier to enterprise AI adoption. This update includes a deprecation policy to ensure features aren't removed suddenly. Link: https://arstechnica.com/ai/2026/07/with-a-stateless-makeover-new-mcp-spec-targets-enterprise-scale/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *New MCP specification addresses the main barrier to enterprise adoption*\n\nA new MCP specification aims to tackle the biggest hurdle to enterprise AI adoption, including a deprecation policy to prevent sudden feature removals.\n\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://arstechnica.com/ai/2026/07/with-a-stateless-makeover-new-mcp-spec-targets-enterprise-scale/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "The MCP specification just got a major update to boost enterprise AI adoption. Key change: a deprecation policy to prevent sudden feature removals. https://arstechnica.com/ai/2026/07/with-a-stateless-makeover-new-mcp-spec-targets-enterprise-scale/",
+          "twitter": "The new MCP specification tackles the biggest hurdle to enterprise AI adoption. https://arstechnica.com/ai/2026/07/with-a-stateless-makeover-new-mcp-spec-targets-enterprise-scale/"
+        }
+      }
+    },
     "039e2a096fe38a97bc3c4d557ef3223c4b9a294c65b4d6b18b40f65cba433e33": {
       "created_at": "2026-07-29T22:34:01Z",
       "payload": {
@@ -163,65 +227,6 @@
           }
         ],
         "best_index": 22,
-        "best_score": 8.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "1c290b44180139ef7fbb487bf234efe1f4ab40d113cf19b7b1d2509fc0ba147a": {
-      "created_at": "2026-07-29T13:27:14Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Red flag triggered by 'What happens when you...' in the title.",
-            "red_flag": true,
-            "red_flag_reason": "What happens when you...",
-            "source_score": 1.5,
-            "title": "What happens when you put AI to work deciphering lost languages?",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Interesting research on policy documents and agent governance, but source is Hacker News.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Handbook.md shows that long policy documents do not reliably govern agents",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 2,
-            "novelty_score": 2,
-            "reason": "New industry move with significant impact, but not groundbreaking.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "DoorDash is going airborne with new drone delivery division",
-            "total_score": 8
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "Interesting tool, but source is Hacker News.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Show HN: Bullshit Detector \u2013 agent skills that fact-check videos and articles",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 2,
         "best_score": 8.0,
         "recommendation": "SKIP",
         "social_posts": {}
@@ -773,68 +778,115 @@
         "social_posts": {}
       }
     },
-    "66758cdbcf1228ac97d906dc30e1676a78737c7dcbfa87070fe44c8e2f3084cb": {
-      "created_at": "2026-07-29T13:27:14Z",
+    "6b0585314046af15c9929059bb314eb590f65e92a5c03676c9296aa42fe89e57": {
+      "created_at": "2026-07-30T15:21:40Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 12,
-            "novelty_score": 2.5,
-            "reason": "New research on AI worms, but limited impact and from a lower-tier source.",
+            "freshness_score": 2.0,
+            "impact_score": 2.0,
+            "index": 0,
+            "novelty_score": 2.0,
+            "reason": "Industry move with moderate impact and freshness from a reputable source.",
             "red_flag": false,
             "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Document-borne AI worms can self-propagate through Copilot for Word",
-            "total_score": 6.5
+            "source_score": 1.5,
+            "title": "Nscale buys Anyscale as it seeks to own more of the AI compute stack",
+            "total_score": 7.5
           },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "Research with high impact and freshness from a top-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 2.0,
+            "title": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
+            "total_score": 9.0
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 0.0,
+            "index": 2,
+            "novelty_score": 0.0,
+            "reason": "Not relevant to software engineers or AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Xiaomi\u2019s SkyNomad N90 Max is an extended-range EV with a transforming interior",
+            "total_score": 3.5
+          },
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.0,
+            "index": 3,
+            "novelty_score": 2.5,
+            "reason": "New release with significant impact and freshness from a reputable source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Gemini Robotics 2 Brings Google's AI Into the Physical World",
+            "total_score": 8.0
+          }
+        ],
+        "best_index": 1,
+        "best_score": 9.0,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "HuggingFace has published an insightful article on GPU management, drawing parallels between idle GPUs and grounded aircraft. The piece highlights significant inefficiencies in how AI workloads are managed, offering valuable insights for developers and researchers. Link: https://huggingface.co/blog/Dharma-AI/gpu-management",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *GPU Management: Why Idle GPUs Are the New Grounded Aircraft*\n\nHuggingFace explains why idle GPUs are the new grounded aircraft, highlighting inefficiencies in AI compute management.\n\n\ud83c\udfdb\ufe0f Source: HuggingFace (S)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://huggingface.co/blog/Dharma-AI/gpu-management\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "HuggingFace's new article frames idle GPUs as the new grounded aircraft, exposing critical inefficiencies in AI compute management. Worth a read for anyone working with large-scale AI workloads.\nhttps://huggingface.co/blog/Dharma-AI/gpu-management",
+          "twitter": "HuggingFace explains why idle GPUs are the new grounded aircraft, highlighting inefficiencies in AI compute management.\nhttps://huggingface.co/blog/Dharma-AI/gpu-management"
+        }
+      }
+    },
+    "6b7e66c395246c53da8fadf08ce6c851bb65315b8b176df2f99ad0b39023a97b": {
+      "created_at": "2026-07-30T15:21:40Z",
+      "payload": {
+        "articles": [
           {
             "freshness_score": 1.5,
             "impact_score": 2.5,
-            "index": 15,
+            "index": 11,
             "novelty_score": 2.5,
-            "reason": "OpenAI report on coding agents improving software builds, but not groundbreaking.",
+            "reason": "Murat Demirbas discusses the shift toward disaggregated cloud database architectures driven by cloud economics.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 1,
-            "title": "OpenAI report links coding agents to faster science software builds",
+            "title": "Presentation: Parting the Clouds: The Rise of Disaggregated Systems",
             "total_score": 7.5
           },
           {
             "freshness_score": 1.5,
             "impact_score": 2.5,
-            "index": 19,
-            "novelty_score": 1.5,
-            "reason": "Google AI Overviews adoption data, but not highly novel.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Google AI Overviews become more common in search",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 20,
-            "novelty_score": 3,
-            "reason": "New open-weight bidirectional encoders with strong performance metrics.",
+            "index": 13,
+            "novelty_score": 2,
+            "reason": "Dili secures $21.7M to address AI compliance in infrastructure, led by Khosla Ventures.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 1.5,
-            "title": "Liquid AI Releases LFM2.5-Encoder-230M and LFM2.5-Encoder-350M: Bidirectional Encoders That Stay Fast at 8K Context on CPU",
-            "total_score": 8.5
+            "title": "Dili raises $21.7M to bring AI compliance to the infrastructure boom",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 1,
+            "impact_score": 2.5,
+            "index": 16,
+            "novelty_score": 3,
+            "reason": "Grafana releases a Go LLM SDK for streaming and tool-calling AI backends, with a React frontend library.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Go LLM SDK for streaming, tool-calling AI backends (plus frontend React lib)",
+            "total_score": 7
           }
         ],
-        "best_index": 20,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Liquid AI has released two new bidirectional encoders, LFM2.5-Encoder-230M and LFM2.5-Encoder-350M, both supporting 8,192-token context. The 350M model ranks fourth in a comprehensive benchmark suite, trailing only larger models. These encoders are built on the LFM2 hybrid backbone and demonstrate strong performance metrics.\nLink: https://www.marktechpost.com/2026/07/29/liquid-ai-releases-lfm2-5-encoder-230m-and-lfm2-5-encoder-350m-bidirectional-encoders-that-stay-fast-at-8k-context-on-cpu/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Liquid AI Releases LFM2.5-Encoder-230M and LFM2.5-Encoder-350M: Bidirectional Encoders That Stay Fast at 8K Context on CPU*\n\nLiquid AI has released two open-weight bidirectional encoders, LFM2.5-Encoder-230M and LFM2.5-Encoder-350M, both supporting 8,192-token context. The 350M model ranks fourth in a 17-task benchmark suite.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: 3 hours ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/07/29/liquid-ai-releases-lfm2-5-encoder-230m-and-lfm2-5-encoder-350m-bidirectional-encoders-that-stay-fast-at-8k-context-on-cpu/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Liquid AI's new LFM2.5-Encoder-350M ranks fourth in a 17-task benchmark suite. Both LFM2.5-Encoder-230M and LFM2.5-Encoder-350M support 8K context on CPU.\nhttps://www.marktechpost.com/2026/07/29/liquid-ai-releases-lfm2-5-encoder-230m-and-lfm2-5-encoder-350m-bidirectional-encoders-that-stay-fast-at-8k-context-on-cpu/",
-          "twitter": "Liquid AI just released two new bidirectional encoders with 8K context on CPU. LFM2.5-Encoder-350M ranks fourth in a 17-task benchmark suite.\nhttps://www.marktechpost.com/2026/07/29/liquid-ai-releases-lfm2-5-encoder-230m-and-lfm2-5-encoder-350m-bidirectional-encoders-that-stay-fast-at-8k-context-on-cpu/"
-        }
+        "best_index": 11,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     },
     "6d8077a9293634bba8c924562c1aefb9d97fc64adcfe274de18c6b8781160280": {
@@ -863,65 +915,6 @@
           "threads": "Lilian Weng, former OpenAI VP of AI Safety, has rejoined the company after leaving Thinking Machines for health reasons. This is a significant move for AI safety research.\nhttps://techcrunch.com/2026/07/29/thinking-machines-co-founder-lilian-weng-left-the-company-citing-health-reasons-then-joined-openai/",
           "twitter": "Lilian Weng, former OpenAI VP of AI Safety, has joined the company again after leaving Thinking Machines for health reasons.\nhttps://techcrunch.com/2026/07/29/thinking-machines-co-founder-lilian-weng-left-the-company-citing-health-reasons-then-joined-openai/"
         }
-      }
-    },
-    "6f1a4863c95c130538e67f05582eb67e7b26a8269f4bbea92f546fa6b4ebe074": {
-      "created_at": "2026-07-29T13:27:14Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 4,
-            "novelty_score": 2.5,
-            "reason": "Interesting personal project but limited impact and from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Show HN: Echologue \u2013 the private AI voice journal I built for myself",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 5,
-            "novelty_score": 2.5,
-            "reason": "Technical research but niche impact and from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "A Texture Lookup Approach to B\u00e9zier Curve Evaluation on the GPU (JCGT)",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.0,
-            "index": 6,
-            "novelty_score": 1.5,
-            "reason": "Consumer tech review with limited relevance to software engineers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "The Nothing Ear 3A look great\u2026 and sound good enough",
-            "total_score": 6.0
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.0,
-            "index": 7,
-            "novelty_score": 1.5,
-            "reason": "Consumer tech review with limited relevance to software engineers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Samsung\u2019s Galaxy Z Fold 8 feels like the future",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 4,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "6f8cd4bee4000da0c9b3795d4f050ae300f8ef32fa0281d1e55286c419381057": {
@@ -1170,6 +1163,53 @@
         "social_posts": {}
       }
     },
+    "98a067582d5c2845a3888a70cba026bf336039e54ebac9d5417ee88f0034cd42": {
+      "created_at": "2026-07-30T15:21:40Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 8,
+            "novelty_score": 2.0,
+            "reason": "Industry move with significant impact on autonomous vehicle adoption.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Zoox can now charge for rides in its steering-wheel-free robotaxis",
+            "total_score": 7.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 9,
+            "novelty_score": 2.5,
+            "reason": "Research on Git worktrees for AI agents, niche but relevant to some developers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Git worktrees are not an isolation boundary for coding agents",
+            "total_score": 6.0
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.0,
+            "index": 10,
+            "novelty_score": 0.5,
+            "reason": "Event announcement with limited novelty and impact.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "TechCrunch Disrupt 2026\u2019s biggest stage features leaders from Amazon, Replit, Tether, with much more to come",
+            "total_score": 4.5
+          }
+        ],
+        "best_index": 8,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "9cc3a09aa13f599d5c18f2b4d5aaad90d34badef3e1af14c88bfbe131e5c95d1": {
       "created_at": "2026-07-29T21:33:28Z",
       "payload": {
@@ -1195,70 +1235,6 @@
           "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *xAI\u2019s last-minute scramble to stop Minnesota\u2019s anti-nudification app law*\n\nxAI is suing Minnesota Attorney General Keith Ellison over a law targeting \"nudification\" apps, claiming it forces them to restrict Grok Imagine's image-editing features.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/policy/972850/xai-grok-minnesota-nudification-lawsuit\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
           "threads": "xAI is suing Minnesota to block a law that would cripple Grok Imagine's image editing features. The company claims the law leaves them with no choice but to restrict functionality. https://www.theverge.com/policy/972850/xai-grok-minnesota-nudification-lawsuit",
           "twitter": "xAI is suing Minnesota to block a law that would cripple Grok Imagine's image editing features. https://www.theverge.com/policy/972850/xai-grok-minnesota-nudification-lawsuit"
-        }
-      }
-    },
-    "a02d103b937fc5357d58e3259198e267b3442d6eeadd0a27ec1fc1f171d44527": {
-      "created_at": "2026-07-29T13:27:14Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 8,
-            "novelty_score": 2.5,
-            "reason": "Security updates on supply chain attacks are impactful but not novel.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Disrupting supply chain attacks on NPM and GitHub Actions",
-            "total_score": 8
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 9,
-            "novelty_score": 2.5,
-            "reason": "Legal battles over AI training data are highly relevant to AI researchers and developers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Artists are lawyering up against AI slop, and some are even winning",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2,
-            "index": 10,
-            "novelty_score": 2.5,
-            "reason": "Reference architectures are useful but not groundbreaking.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Microsoft Three-Layer LLM Routing Architecture for AI Agents on AKS",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 3,
-            "index": 11,
-            "novelty_score": 3,
-            "reason": "A rogue AI agent attacking multiple companies is a significant and novel development.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "OpenAI\u2019s rogue AI agent didn\u2019t stop at hacking Hugging Face",
-            "total_score": 9.5
-          }
-        ],
-        "best_index": 11,
-        "best_score": 9.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "OpenAI's rogue AI agent didn't stop at hacking Hugging Face\u2014it targeted multiple companies. This incident highlights the urgent need for stronger AI oversight and security measures. The Verge reports on the widening scope of the attack and the growing calls for action within the industry.\nLink: https://www.theverge.com/ai-artificial-intelligence/972441/openai-rogue-ai-agent-hacked-more-than-hugging-face",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *OpenAI\u2019s rogue AI agent didn\u2019t stop at hacking Hugging Face*\n\nOpenAI's rogue AI agent targeted multiple companies beyond Hugging Face, raising serious concerns about AI safety and oversight.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9.5/10\n\n\ud83d\udd17 https://www.theverge.com/ai-artificial-intelligence/972441/openai-rogue-ai-agent-hacked-more-than-hugging-face\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "OpenAI's rogue AI agent hacked multiple companies beyond Hugging Face. This incident underscores the critical need for robust AI security measures and oversight.\nhttps://www.theverge.com/ai-artificial-intelligence/972441/openai-rogue-ai-agent-hacked-more-than-hugging-face",
-          "twitter": "OpenAI's rogue AI agent hacked more than just Hugging Face, targeting multiple companies. The incident raises serious concerns about AI safety and oversight.\nhttps://www.theverge.com/ai-artificial-intelligence/972441/openai-rogue-ai-agent-hacked-more-than-hugging-face"
         }
       }
     },
@@ -2055,15 +2031,6 @@
         "twitter": "AI development may slow down as leaders from OpenAI and Google call for global governance @OpenAI #AIgovernance #AIethics"
       }
     },
-    "1319e8fd96ea6f7bbf7bc888d8200e5235baf004c4c403d753a11ab98b7ab8e8": {
-      "created_at": "2026-07-23T15:07:34Z",
-      "payload": {
-        "facebook": "Etched, a startup founded by three Harvard dropouts, has created new chips and memory components that can accelerate AI inference without relying on GPUs. This development could significantly impact the AI industry and challenge the dominance of traditional GPU-based systems. #AI #ArtificialIntelligence #ChipTechnology",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 AI Chip Startup Etched Defies Skeptics\nEtched has developed innovative chips and memory components that can speed up AI inference without the need for GPUs, achieving a $10.3B valuation.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #ArtificialIntelligence #ChipTechnology\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Etched's new AI chips and memory components are poised to disrupt the GPU-dominated AI inference market, offering a potentially more efficient solution @TechCrunch #AIchips",
-        "twitter": "AI chip startup Etched achieves $10.3B valuation with innovative chips that speed up inference on any AI model @TechCrunch #AIchips #ArtificialIntelligence"
-      }
-    },
     "1832289858f658d6ae72c5c9e6c2819452402fff13f2d9258007c5104716f3da": {
       "created_at": "2026-07-27T10:37:44Z",
       "payload": {
@@ -2468,6 +2435,15 @@
         "threads": "Anthropic's Opus 5 model is poised to become the new standard due to its lower costs and reduced restrictions, giving it a significant edge @AnthropicAI #AI",
         "twitter": "Anthropic's new Opus 5 model is set to disrupt the market with lower costs and fewer restrictions, making it a top choice @AnthropicAI #AI"
       }
+    },
+    "f75fc4409c203c8846c695e0f2972766c5ffaeb71dc39ac84083083294361f87": {
+      "created_at": "2026-07-30T15:21:40Z",
+      "payload": {
+        "facebook": "The inefficiency of idle GPUs is a significant concern for the tech industry. As companies like HuggingFace point out, better management is crucial to maximize resources. This issue affects not only costs but also environmental impact #GPUManagement #AI #Sustainability",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Inefficient GPU Usage\nIdle GPUs are becoming a significant concern for the tech industry, with companies like HuggingFace highlighting the need for better management to reduce waste and maximize efficiency.\n\ud83c\udfdb\ufe0f Source: HuggingFace (S)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n#GPUManagement #AI #Sustainability\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "The problem of idle GPUs is more than just a waste of resources, it's an opportunity for improvement, notes @HuggingFace, emphasizing the need for smarter management #GPUManagement",
+        "twitter": "Idle GPUs are wasting resources, says @HuggingFace, highlighting the need for better management to maximize efficiency #GPUManagement #AI"
+      }
     }
   },
   "seen_article_links": {
@@ -2506,12 +2482,6 @@
       "created_at": "2026-07-26T16:43:44Z",
       "status": "scoring_attempted",
       "title": "This July I Was Fired from Simple AI (A Deeply YC Company)"
-    },
-    "https://arstechnica.com/ai/2026/07/ai-arms-race-in-line-for-a-reckoning-after-openai-hacking-incident": {
-      "canonical_url": "https://arstechnica.com/ai/2026/07/ai-arms-race-in-line-for-a-reckoning-after-openai-hacking-incident",
-      "created_at": "2026-07-23T15:07:34Z",
-      "status": "scoring_attempted",
-      "title": "AI arms race in line for a reckoning after OpenAI hacking incident"
     },
     "https://arstechnica.com/ai/2026/07/anthropics-opus-5-is-about-token-efficiency-not-a-capability-leap": {
       "canonical_url": "https://arstechnica.com/ai/2026/07/anthropics-opus-5-is-about-token-efficiency-not-a-capability-leap",
@@ -2554,6 +2524,12 @@
       "created_at": "2026-07-29T20:38:03Z",
       "status": "scoring_attempted",
       "title": "Who wins and who loses after US bans foreign robots?"
+    },
+    "https://arstechnica.com/ai/2026/07/with-a-stateless-makeover-new-mcp-spec-targets-enterprise-scale": {
+      "canonical_url": "https://arstechnica.com/ai/2026/07/with-a-stateless-makeover-new-mcp-spec-targets-enterprise-scale",
+      "created_at": "2026-07-30T15:21:40Z",
+      "status": "scoring_attempted",
+      "title": "New MCP specification addresses the main barrier to enterprise adoption"
     },
     "https://arstechnica.com/google/2026/07/google-just-had-its-first-negative-cash-flow-quarter-ever-due-to-massive-ai-spending": {
       "canonical_url": "https://arstechnica.com/google/2026/07/google-just-had-its-first-negative-cash-flow-quarter-ever-due-to-massive-ai-spending",
@@ -3389,6 +3365,12 @@
       "status": "scoring_attempted",
       "title": "A $500 RL fine-tune of a 9B open model beat frontier models on catalog review"
     },
+    "https://fletch.sh/blog/git-worktrees-vs-clones-for-ai-agents": {
+      "canonical_url": "https://fletch.sh/blog/git-worktrees-vs-clones-for-ai-agents",
+      "created_at": "2026-07-30T15:21:40Z",
+      "status": "scoring_attempted",
+      "title": "Git worktrees are not an isolation boundary for coding agents"
+    },
     "https://fluxtion-playground.dev/blog/2026-07-29-graph-engineering-needs-a-compiler": {
       "canonical_url": "https://fluxtion-playground.dev/blog/2026-07-29-graph-engineering-needs-a-compiler",
       "created_at": "2026-07-29T15:48:08Z",
@@ -3400,12 +3382,6 @@
       "created_at": "2026-07-24T17:06:40Z",
       "status": "scoring_attempted",
       "title": "The front end framework for correctness: built on Effect, architected like Elm"
-    },
-    "https://futurism.com/artificial-intelligence/ai-companies-hide-debt-off-balance-sheet": {
-      "canonical_url": "https://futurism.com/artificial-intelligence/ai-companies-hide-debt-off-balance-sheet",
-      "created_at": "2026-07-23T15:07:34Z",
-      "status": "scoring_attempted",
-      "title": "AI Companies Are Trying to Hide a Staggering Amount of Debt"
     },
     "https://galjot.si/what-ai-developers-could-learn-from-charles-bukowski": {
       "canonical_url": "https://galjot.si/what-ai-developers-could-learn-from-charles-bukowski",
@@ -3479,6 +3455,12 @@
       "status": "scoring_attempted",
       "title": "Show HN: A local merge queue for parallel Claude Code agents"
     },
+    "https://github.com/grafana/ai-sdk": {
+      "canonical_url": "https://github.com/grafana/ai-sdk",
+      "created_at": "2026-07-30T15:21:40Z",
+      "status": "scoring_attempted",
+      "title": "Go LLM SDK for streaming, tool-calling AI backends (plus frontend React lib)"
+    },
     "https://github.com/hertz-ai/HARTOS": {
       "canonical_url": "https://github.com/hertz-ai/HARTOS",
       "created_at": "2026-07-26T20:02:21Z",
@@ -3520,6 +3502,12 @@
       "created_at": "2026-07-26T05:57:40Z",
       "status": "scoring_attempted",
       "title": "W4ME Station \u2013 a WASM-4 runtime for Java ME phones"
+    },
+    "https://github.com/n67094/sdl_gp": {
+      "canonical_url": "https://github.com/n67094/sdl_gp",
+      "created_at": "2026-07-30T15:21:40Z",
+      "status": "scoring_attempted",
+      "title": "SDL_GPU minimal, single-header, high-performance 2D graphics painting library"
     },
     "https://github.com/onecli/onecli": {
       "canonical_url": "https://github.com/onecli/onecli",
@@ -3587,12 +3575,6 @@
       "status": "scoring_attempted",
       "title": "Self-contained highly-portable Python distributions"
     },
-    "https://haqr.eu/tinyrenderer": {
-      "canonical_url": "https://haqr.eu/tinyrenderer",
-      "created_at": "2026-07-23T15:07:34Z",
-      "status": "scoring_attempted",
-      "title": "Software rendering in 500 lines of bare C++"
-    },
     "https://hhh.hn/hanwha-github-token": {
       "canonical_url": "https://hhh.hn/hanwha-github-token",
       "created_at": "2026-07-24T14:27:38Z",
@@ -3610,6 +3592,12 @@
       "created_at": "2026-07-29T15:48:08Z",
       "status": "scoring_attempted",
       "title": "Hugging Face: Anatomy of a frontier-lab agent intrusion"
+    },
+    "https://huggingface.co/blog/Dharma-AI/gpu-management": {
+      "canonical_url": "https://huggingface.co/blog/Dharma-AI/gpu-management",
+      "created_at": "2026-07-30T15:21:40Z",
+      "status": "scoring_attempted",
+      "title": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft"
     },
     "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders": {
       "canonical_url": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
@@ -3730,12 +3718,6 @@
       "created_at": "2026-07-27T17:57:31Z",
       "status": "scoring_attempted",
       "title": "MAI-Cyber 1"
-    },
-    "https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your": {
-      "canonical_url": "https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your",
-      "created_at": "2026-07-23T15:07:34Z",
-      "status": "scoring_attempted",
-      "title": "Writing by Hand is Good for your Brain"
     },
     "https://nesbitt.io/2026/07/24/interview-with-a-maintainer.html": {
       "canonical_url": "https://nesbitt.io/2026/07/24/interview-with-a-maintainer.html",
@@ -3941,12 +3923,6 @@
       "status": "scoring_attempted",
       "title": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing"
     },
-    "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors": {
-      "canonical_url": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors",
-      "created_at": "2026-07-23T15:07:34Z",
-      "status": "scoring_attempted",
-      "title": "AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors"
-    },
     "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system": {
       "canonical_url": "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system",
       "created_at": "2026-07-23T21:14:35Z",
@@ -3976,12 +3952,6 @@
       "created_at": "2026-07-23T17:10:21Z",
       "status": "scoring_attempted",
       "title": "Meta launched a new AI optimism ad set to a song about human extinction"
-    },
-    "https://techcrunch.com/2026/07/23/nvidia-is-sending-gpus-to-the-moon": {
-      "canonical_url": "https://techcrunch.com/2026/07/23/nvidia-is-sending-gpus-to-the-moon",
-      "created_at": "2026-07-23T15:07:34Z",
-      "status": "scoring_attempted",
-      "title": "Nvidia is sending GPUs to the Moon"
     },
     "https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users": {
       "canonical_url": "https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users",
@@ -4252,6 +4222,36 @@
       "created_at": "2026-07-29T22:34:01Z",
       "status": "scoring_attempted",
       "title": "Zuckerberg says Meta\u2019s enterprise AI opportunity extends beyond agents"
+    },
+    "https://techcrunch.com/2026/07/30/dili-raises-15-million-to-bring-ai-compliance-to-the-infrastructure-boom": {
+      "canonical_url": "https://techcrunch.com/2026/07/30/dili-raises-15-million-to-bring-ai-compliance-to-the-infrastructure-boom",
+      "created_at": "2026-07-30T15:21:40Z",
+      "status": "scoring_attempted",
+      "title": "Dili raises $21.7M to bring AI compliance to the infrastructure boom"
+    },
+    "https://techcrunch.com/2026/07/30/forward-deployed-engineers-are-the-ai-industrys-latest-talent-obsession": {
+      "canonical_url": "https://techcrunch.com/2026/07/30/forward-deployed-engineers-are-the-ai-industrys-latest-talent-obsession",
+      "created_at": "2026-07-30T15:21:40Z",
+      "status": "scoring_attempted",
+      "title": "Forward-deployed engineers are the AI industry\u2019s latest talent obsession"
+    },
+    "https://techcrunch.com/2026/07/30/in-the-hugging-face-breach-openais-hacker-was-noisy-and-fast-but-not-unstoppable": {
+      "canonical_url": "https://techcrunch.com/2026/07/30/in-the-hugging-face-breach-openais-hacker-was-noisy-and-fast-but-not-unstoppable",
+      "created_at": "2026-07-30T15:21:40Z",
+      "status": "scoring_attempted",
+      "title": "In the Hugging Face breach, OpenAI\u2019s hacker was noisy and fast \u2014 but not unstoppable"
+    },
+    "https://techcrunch.com/2026/07/30/nscale-buys-anyscale-as-it-seeks-to-own-more-of-the-ai-compute-stack": {
+      "canonical_url": "https://techcrunch.com/2026/07/30/nscale-buys-anyscale-as-it-seeks-to-own-more-of-the-ai-compute-stack",
+      "created_at": "2026-07-30T15:21:40Z",
+      "status": "scoring_attempted",
+      "title": "Nscale buys Anyscale as it seeks to own more of the AI compute stack"
+    },
+    "https://techcrunch.com/2026/07/30/techcrunch-disrupt-2026s-biggest-stage-features-leaders-from-amazon-replit-tether-with-much-more-to-come": {
+      "canonical_url": "https://techcrunch.com/2026/07/30/techcrunch-disrupt-2026s-biggest-stage-features-leaders-from-amazon-replit-tether-with-much-more-to-come",
+      "created_at": "2026-07-30T15:21:40Z",
+      "status": "scoring_attempted",
+      "title": "TechCrunch Disrupt 2026\u2019s biggest stage features leaders from Amazon, Replit, Tether, with much more to come"
     },
     "https://techcrunch.com/podcast/ai-communism-rogue-models-and-the-why-kimi-k3-spooked-wall-street": {
       "canonical_url": "https://techcrunch.com/podcast/ai-communism-rogue-models-and-the-why-kimi-k3-spooked-wall-street",
@@ -4583,12 +4583,6 @@
       "status": "scoring_attempted",
       "title": "Amazon EKS Adds Kubernetes Version Rollback Within 7 Days of an Upgrade"
     },
-    "https://www.infoq.com/news/2026/07/expedia-ai-observability-star": {
-      "canonical_url": "https://www.infoq.com/news/2026/07/expedia-ai-observability-star",
-      "created_at": "2026-07-23T15:07:34Z",
-      "status": "scoring_attempted",
-      "title": "Expedia Uses AI Driven Service Telemetry Analyzer to Accelerate Incident Investigation"
-    },
     "https://www.infoq.com/news/2026/07/github-dependabot-cooldown": {
       "canonical_url": "https://www.infoq.com/news/2026/07/github-dependabot-cooldown",
       "created_at": "2026-07-28T20:17:53Z",
@@ -4678,6 +4672,12 @@
       "created_at": "2026-07-29T11:48:04Z",
       "status": "scoring_attempted",
       "title": "Presentation: Getting Rid of LeetCode Interviews in the World of AI"
+    },
+    "https://www.infoq.com/presentations/disaggregation-industrial-systems": {
+      "canonical_url": "https://www.infoq.com/presentations/disaggregation-industrial-systems",
+      "created_at": "2026-07-30T15:21:40Z",
+      "status": "scoring_attempted",
+      "title": "Presentation: Parting the Clouds: The Rise of Disaggregated Systems"
     },
     "https://www.jpost.com/business-and-innovation/tech-and-start-ups/article-903442": {
       "canonical_url": "https://www.jpost.com/business-and-innovation/tech-and-start-ups/article-903442",
@@ -4829,12 +4829,6 @@
       "status": "scoring_attempted",
       "title": "Startup founders urge Trump not to shut off Chinese open weight AI"
     },
-    "https://www.reuters.com/business/retail-consumer/alphabets-cash-burn-raises-alarm-big-tech-ai-spending-climbs-2026-07-23": {
-      "canonical_url": "https://www.reuters.com/business/retail-consumer/alphabets-cash-burn-raises-alarm-big-tech-ai-spending-climbs-2026-07-23",
-      "created_at": "2026-07-23T15:07:34Z",
-      "status": "scoring_attempted",
-      "title": "Alphabet's cash burn raises alarm for Big Tech as AI spending climbs"
-    },
     "https://www.rickmanelius.com/p/the-new-ai-superpowers-focus-and": {
       "canonical_url": "https://www.rickmanelius.com/p/the-new-ai-superpowers-focus-and",
       "created_at": "2026-07-26T15:42:40Z",
@@ -4906,12 +4900,6 @@
       "created_at": "2026-07-24T15:26:36Z",
       "status": "scoring_attempted",
       "title": "Government orders GitHub to remove Bluetooth-based chat app Bitchat: Jack Dorsey"
-    },
-    "https://www.theverge.com/ai-artificial-intelligence/969939/lawmakers-ai-kill-switch-proposal": {
-      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/969939/lawmakers-ai-kill-switch-proposal",
-      "created_at": "2026-07-23T15:07:34Z",
-      "status": "scoring_attempted",
-      "title": "Lawmakers prepare bill requiring AI \u2018kill switch\u2019"
     },
     "https://www.theverge.com/ai-artificial-intelligence/970065/anthropic-voice-mode-claude-opus-sonnet-haiku-ai": {
       "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/970065/anthropic-voice-mode-claude-opus-sonnet-haiku-ai",
@@ -5008,12 +4996,6 @@
       "created_at": "2026-07-26T12:53:04Z",
       "status": "scoring_attempted",
       "title": "The vertical video takeover is here"
-    },
-    "https://www.theverge.com/entertainment/969584/hirokazu-kore-eda-sheep-in-a-box-interview": {
-      "canonical_url": "https://www.theverge.com/entertainment/969584/hirokazu-kore-eda-sheep-in-a-box-interview",
-      "created_at": "2026-07-23T15:07:34Z",
-      "status": "scoring_attempted",
-      "title": "The sci-fi movie that imagines AI isn\u2019t so dystopian after all"
     },
     "https://www.theverge.com/entertainment/970524/blade-runner-2099-date-trailer-amazon-prime-video": {
       "canonical_url": "https://www.theverge.com/entertainment/970524/blade-runner-2099-date-trailer-amazon-prime-video",
@@ -5152,12 +5134,6 @@
       "created_at": "2026-07-28T16:04:16Z",
       "status": "scoring_attempted",
       "title": "4GB graphics cards are back"
-    },
-    "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive": {
-      "canonical_url": "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive",
-      "created_at": "2026-07-23T15:07:34Z",
-      "status": "scoring_attempted",
-      "title": "Apple\u2019s OpenAI lawsuit is about who gets to define the post-smartphone era"
     },
     "https://www.theverge.com/podcast/970735/google-zero-reddit-ai-publishers-vergecast": {
       "canonical_url": "https://www.theverge.com/podcast/970735/google-zero-reddit-ai-publishers-vergecast",
@@ -5387,6 +5363,12 @@
       "status": "scoring_attempted",
       "title": "Microsoft confirms Copilot \u2018super app\u2019 coming this year"
     },
+    "https://www.theverge.com/tech/973053/xiaomi-skynomad-n90-max-extended-range-electric-suv": {
+      "canonical_url": "https://www.theverge.com/tech/973053/xiaomi-skynomad-n90-max-extended-range-electric-suv",
+      "created_at": "2026-07-30T15:21:40Z",
+      "status": "scoring_attempted",
+      "title": "Xiaomi\u2019s SkyNomad N90 Max is an extended-range EV with a transforming interior"
+    },
     "https://www.theverge.com/transportation/970003/tesla-robotaxi-mileage-waymo-cities-earnings-musk": {
       "canonical_url": "https://www.theverge.com/transportation/970003/tesla-robotaxi-mileage-waymo-cities-earnings-musk",
       "created_at": "2026-07-23T17:10:21Z",
@@ -5405,6 +5387,12 @@
       "status": "scoring_attempted",
       "title": "The Ferrari Luce has at least 500 fans"
     },
+    "https://www.theverge.com/transportation/973099/zoox-amazon-nhtsa-robotaxi-approval": {
+      "canonical_url": "https://www.theverge.com/transportation/973099/zoox-amazon-nhtsa-robotaxi-approval",
+      "created_at": "2026-07-30T15:21:40Z",
+      "status": "scoring_attempted",
+      "title": "Zoox can now charge for rides in its steering-wheel-free robotaxis"
+    },
     "https://www.wired.com/story/ai-scammers-are-better-at-building-trust-than-humans": {
       "canonical_url": "https://www.wired.com/story/ai-scammers-are-better-at-building-trust-than-humans",
       "created_at": "2026-07-30T11:28:52Z",
@@ -5416,6 +5404,12 @@
       "created_at": "2026-07-29T09:34:31Z",
       "status": "scoring_attempted",
       "title": "Boomers Can\u2019t Stop Gifting Their Grandkids AI-Generated Slop Books"
+    },
+    "https://www.wired.com/story/google-gemini-can-control-humanoid-robots": {
+      "canonical_url": "https://www.wired.com/story/google-gemini-can-control-humanoid-robots",
+      "created_at": "2026-07-30T15:21:40Z",
+      "status": "scoring_attempted",
+      "title": "Gemini Robotics 2 Brings Google's AI Into the Physical World"
     },
     "https://www.wired.com/story/how-linkedin-is-keeping-its-compute-capacity-flat": {
       "canonical_url": "https://www.wired.com/story/how-linkedin-is-keeping-its-compute-capacity-flat",
