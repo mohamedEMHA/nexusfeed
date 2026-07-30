@@ -40,29 +40,6 @@
         }
       }
     },
-    "095d87467d1b931b0a9b48298016b72a650a49bf77d954410f7134bdeeaf283c": {
-      "created_at": "2026-07-29T09:34:31Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Interesting cultural impact of AI but not directly relevant to software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Boomers Can\u2019t Stop Gifting Their Grandkids AI-Generated Slop Books",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "0a23955825f17aa54f23b00d285db7ef1c7a25b2544193d4a24ec0d7a55145ff": {
       "created_at": "2026-07-29T16:59:38Z",
       "payload": {
@@ -94,6 +71,41 @@
         ],
         "best_index": 1,
         "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "0b5b1bc28eb84703e854d605dcd3b944eca2a0629ddbef3dd3c20651d2cc46a9": {
+      "created_at": "2026-07-30T11:28:52Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 7,
+            "novelty_score": 2.0,
+            "reason": "Interest on prepaid credits is a niche financial move.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Carolina Cloud pays SOFR on unused prepaid credits",
+            "total_score": 5.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 8,
+            "novelty_score": 2.5,
+            "reason": "Security vulnerability in a popular VPN setup affects privacy.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Tailscale with Mullvad leaks your DNS",
+            "total_score": 7.0
+          }
+        ],
+        "best_index": 8,
+        "best_score": 7.0,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -400,6 +412,93 @@
         }
       }
     },
+    "46c92f29123f497e2439c104b5703aefae2f2e25b66da12f32eb737d76d2ad3d": {
+      "created_at": "2026-07-30T11:28:52Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 3,
+            "novelty_score": 1.5,
+            "reason": "Industry move with moderate impact and fresh source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Google will expand age checks on Android worldwide till the end of the year",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 4,
+            "novelty_score": 2.5,
+            "reason": "New research framework with significant impact and fresh source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Tencent Open-Sources AngelSpec: A Unified Training Framework for MTP and Block-Parallel Speculative Decoding on Hy3 Models",
+            "total_score": 8.5
+          }
+        ],
+        "best_index": 4,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Tencent has released AngelSpec, an open-source framework for training speculative-decoding draft models. It supports six architectures and introduces DFly, a block-diffusion drafter with hybrid target conditioning. This is a significant development for researchers working on large language models. Link: https://www.marktechpost.com/2026/07/30/tencent-open-sources-angelspec-a-unified-training-framework-for-mtp-and-block-parallel-speculative-decoding-on-hy3-models/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Tencent Open-Sources AngelSpec: A Unified Training Framework for MTP and Block-Parallel Speculative Decoding on Hy3 Models*\n\nTencent has released AngelSpec, an open-source torch-native framework for training speculative-decoding draft models across six architectures. It introduces DFly, a block-diffusion drafter with hybrid target conditioning and a hidden-correction autoregressive head.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/07/30/tencent-open-sources-angelspec-a-unified-training-framework-for-mtp-and-block-parallel-speculative-decoding-on-hy3-models/",
+          "threads": "Tencent just open-sourced AngelSpec, a unified training framework for speculative decoding on Hy3 models. It's a big step forward for researchers working on large language models. https://www.marktechpost.com/2026/07/30/tencent-open-sources-angelspec-a-unified-training-framework-for-mtp-and-block-parallel-speculative-decoding-on-hy3-models/",
+          "twitter": "Tencent open-sources AngelSpec, a unified training framework for speculative decoding on Hy3 models. https://www.marktechpost.com/2026/07/30/tencent-open-sources-angelspec-a-unified-training-framework-for-mtp-and-block-parallel-speculative-decoding-on-hy3-models/"
+        }
+      }
+    },
+    "474504cfa610b0f2d3ad3dc2b7975cdc466c3dd1f9fdf9b9479e55e83c81ac15": {
+      "created_at": "2026-07-30T11:28:52Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 0.5,
+            "reason": "Opinion piece from Meta CEO with no concrete announcements or technical details.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "Zuckerberg details Meta\u2019s personal AI superintelligence strategy",
+            "total_score": 6
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 1,
+            "novelty_score": 1.5,
+            "reason": "Update on AI's impact on Linux VPS security, relevant to a niche audience.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1,
+            "title": "How AI is Changing Linux VPS Security for Businesses",
+            "total_score": 6
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 2,
+            "novelty_score": 2,
+            "reason": "Industry move by LinkedIn to optimize compute resources, relevant to AI infrastructure discussions.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "LinkedIn Won\u2019t Be Expanding Its Data Centers in the Next Year",
+            "total_score": 7
+          }
+        ],
+        "best_index": 2,
+        "best_score": 7,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "4e3f4a7bf49d1c70eac62bd53756e10ce48ea02ecf78d39958b45e85cf401423": {
       "created_at": "2026-07-29T15:29:15Z",
       "payload": {
@@ -640,29 +739,6 @@
         ],
         "best_index": 4,
         "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "61ea8085fce575fef99c701c6f83dec4d9155a8ba80cc60498b1287e23c9a5fd": {
-      "created_at": "2026-07-29T09:34:31Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "This article provides a detailed defense-in-depth approach for securing Model Context Protocol (MCP) deployments in production, which is highly relevant for AI/ML engineers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "Article: Securing MCP in Production: Defense-in-Depth Beyond the Gateway",
-            "total_score": 8
-          }
-        ],
-        "best_index": 1,
-        "best_score": 8,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1028,6 +1104,46 @@
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "8f66040694d5e68334df6b2f8de92c0331c00faa1af4fb5db48a9ece124b0abd": {
+      "created_at": "2026-07-30T11:28:52Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 5,
+            "novelty_score": 2.5,
+            "reason": "New tool for managing AI agents, but niche impact and lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Agent-Manager: A Tmux TUI for Running Claude Code, Codex and OpenCode",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 3,
+            "index": 6,
+            "novelty_score": 2.5,
+            "reason": "Important research on AI trust dynamics with broad implications.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "AI Scammers Are Better at Building Trust Than Humans",
+            "total_score": 9
+          }
+        ],
+        "best_index": 6,
+        "best_score": 9,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Researchers found that AI agents can build more exploitable trust than humans after just a week of texting. This has significant implications for security and social engineering. Link: https://www.wired.com/story/ai-scammers-are-better-at-building-trust-than-humans/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *AI Scammers Are Better at Building Trust Than Humans*\n\nResearchers pitted a person against a Claude agent and found that, after a week of texting, the AI chatbot was more effective at creating \"exploitable trust\" with others.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9/10\n\n\ud83d\udd17 https://www.wired.com/story/ai-scammers-are-better-at-building-trust-than-humans/",
+          "threads": "AI agents are now better than humans at building exploitable trust. New research shows the risks of AI-driven social engineering. https://www.wired.com/story/ai-scammers-are-better-at-building-trust-than-humans/",
+          "twitter": "New research shows AI agents outperform humans at building exploitable trust. https://www.wired.com/story/ai-scammers-are-better-at-building-trust-than-humans/"
+        }
       }
     },
     "95bb5029392ddd0c71ca8bb39808f9af7014742a65879a0fa596789351683b58": {
@@ -2248,6 +2364,15 @@
         "twitter": "Claude's share chat feature has a major flaw, potentially exposing user conversations and projects to the public, @TechCrunch reports #ClaudePrivacy"
       }
     },
+    "b9ef049d94cb37d80fb07ae73b68a5d804630868068eea5394bcb063552b9be3": {
+      "created_at": "2026-07-30T11:28:52Z",
+      "payload": {
+        "facebook": "New research reveals that AI chatbots can create exploitable trust more effectively than humans. This study highlights the potential risks of AI-powered scams and the need for increased awareness. #AItrust #ArtificialIntelligence #Cybersecurity",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 AI chatbots are outpacing humans in building exploitable trust\nA recent study pitted a person against a Claude agent and found that the AI chatbot was more effective at creating exploitable trust with others.\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9/10\n#AItrust #ArtificialIntelligence #Cybersecurity\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Researchers found that AI chatbots can build exploitable trust more effectively than humans, a concerning discovery with significant implications @Wired, #AItrust",
+        "twitter": "AI chatbots are outpacing humans in building exploitable trust, according to new research @Wired, #AItrust"
+      }
+    },
     "bdc8d459ce8cb8babae17b65e5da06e25f7efc29bce9196a50ae83deb78538cf": {
       "created_at": "2026-07-28T16:04:16Z",
       "payload": {
@@ -2408,6 +2533,12 @@
       "created_at": "2026-07-29T02:12:16Z",
       "status": "scoring_attempted",
       "title": "Show HN: Learning Rust by writing a Markdown to HTML compiler"
+    },
+    "https://android-developers.googleblog.com/2026/07/google-play-age-signals-api-safer-experiences.html": {
+      "canonical_url": "https://android-developers.googleblog.com/2026/07/google-play-age-signals-api-safer-experiences.html",
+      "created_at": "2026-07-30T11:28:52Z",
+      "status": "scoring_attempted",
+      "title": "Google will expand age checks on Android worldwide till the end of the year"
     },
     "https://andys.blog/this-july-i-was-fired-from-simple-ai": {
       "canonical_url": "https://andys.blog/this-july-i-was-fired-from-simple-ai",
@@ -3261,6 +3392,12 @@
       "status": "scoring_attempted",
       "title": "Half-Life 2 running natively on HaikuOS"
     },
+    "https://docs.carolinacloud.io/organizations/prepaid-interest": {
+      "canonical_url": "https://docs.carolinacloud.io/organizations/prepaid-interest",
+      "created_at": "2026-07-30T11:28:52Z",
+      "status": "scoring_attempted",
+      "title": "Carolina Cloud pays SOFR on unused prepaid credits"
+    },
     "https://eaton-works.com/2026/07/27/my-eicher-hack": {
       "canonical_url": "https://eaton-works.com/2026/07/27/my-eicher-hack",
       "created_at": "2026-07-27T17:57:31Z",
@@ -3362,6 +3499,12 @@
       "created_at": "2026-07-29T13:27:14Z",
       "status": "scoring_attempted",
       "title": "Show HN: Bullshit Detector \u2013 agent skills that fact-check videos and articles"
+    },
+    "https://github.com/YoanWai/agent-manager": {
+      "canonical_url": "https://github.com/YoanWai/agent-manager",
+      "created_at": "2026-07-30T11:28:52Z",
+      "status": "scoring_attempted",
+      "title": "Agent-Manager: A Tmux TUI for Running Claude Code, Codex and OpenCode"
     },
     "https://github.com/ctrlb-hq/ctrlb-decompose": {
       "canonical_url": "https://github.com/ctrlb-hq/ctrlb-decompose",
@@ -3470,6 +3613,12 @@
       "created_at": "2026-07-25T23:13:08Z",
       "status": "scoring_attempted",
       "title": "Running a 28.9M parameter LLM on an $8 microcontroller"
+    },
+    "https://github.com/tailscale/tailscale/issues/9284": {
+      "canonical_url": "https://github.com/tailscale/tailscale/issues/9284",
+      "created_at": "2026-07-30T11:28:52Z",
+      "status": "scoring_attempted",
+      "title": "Tailscale with Mullvad leaks your DNS"
     },
     "https://github.com/vercel-labs/scriptc": {
       "canonical_url": "https://github.com/vercel-labs/scriptc",
@@ -4281,12 +4430,6 @@
       "status": "scoring_attempted",
       "title": "How AI is shortening drug discovery timelines in China"
     },
-    "https://www.artificialintelligence-news.com/news/amd-anthropic-ai-infrastructure-deal": {
-      "canonical_url": "https://www.artificialintelligence-news.com/news/amd-anthropic-ai-infrastructure-deal",
-      "created_at": "2026-07-23T11:22:42Z",
-      "status": "scoring_attempted",
-      "title": "AMD to invest up to $5 billion in Anthropic under AI infrastructure deal"
-    },
     "https://www.artificialintelligence-news.com/news/americas-ai-investment-boom-is-reshaping-the-economy": {
       "canonical_url": "https://www.artificialintelligence-news.com/news/americas-ai-investment-boom-is-reshaping-the-economy",
       "created_at": "2026-07-27T10:37:44Z",
@@ -4310,6 +4453,12 @@
       "created_at": "2026-07-28T11:37:11Z",
       "status": "scoring_attempted",
       "title": "Guardoc Health processes clinical documentation using Amazon Nova models"
+    },
+    "https://www.artificialintelligence-news.com/news/how-ai-is-changing-linux-vps-security-for-businesses": {
+      "canonical_url": "https://www.artificialintelligence-news.com/news/how-ai-is-changing-linux-vps-security-for-businesses",
+      "created_at": "2026-07-30T11:28:52Z",
+      "status": "scoring_attempted",
+      "title": "How AI is Changing Linux VPS Security for Businesses"
     },
     "https://www.artificialintelligence-news.com/news/meta-microsoft-nvidia-ibm-others-back-open-weight-ai": {
       "canonical_url": "https://www.artificialintelligence-news.com/news/meta-microsoft-nvidia-ibm-others-back-open-weight-ai",
@@ -4340,6 +4489,12 @@
       "created_at": "2026-07-29T13:27:14Z",
       "status": "scoring_attempted",
       "title": "OpenAI report links coding agents to faster science software builds"
+    },
+    "https://www.artificialintelligence-news.com/news/zuckerberg-details-meta-personal-ai-superintelligence-strategy": {
+      "canonical_url": "https://www.artificialintelligence-news.com/news/zuckerberg-details-meta-personal-ai-superintelligence-strategy",
+      "created_at": "2026-07-30T11:28:52Z",
+      "status": "scoring_attempted",
+      "title": "Zuckerberg details Meta\u2019s personal AI superintelligence strategy"
     },
     "https://www.cltampa.com/news/a-77-year-old-republican-man-is-staging-a-solo-protest-against-st-petes-flock-cameras": {
       "canonical_url": "https://www.cltampa.com/news/a-77-year-old-republican-man-is-staging-a-solo-protest-against-st-petes-flock-cameras",
@@ -4551,12 +4706,6 @@
       "status": "scoring_attempted",
       "title": "Achieving Compliance as a Platform Engineering Team by Helping Developers"
     },
-    "https://www.infoq.com/news/2026/07/qcon-ai-newyork-2026-live": {
-      "canonical_url": "https://www.infoq.com/news/2026/07/qcon-ai-newyork-2026-live",
-      "created_at": "2026-07-23T11:22:42Z",
-      "status": "scoring_attempted",
-      "title": "QCon AI New York 2026: Registration Opens for December 15-16 Production-AI Conference"
-    },
     "https://www.infoq.com/news/2026/07/remix-3-beta-preview": {
       "canonical_url": "https://www.infoq.com/news/2026/07/remix-3-beta-preview",
       "created_at": "2026-07-28T09:20:48Z",
@@ -4700,6 +4849,12 @@
       "created_at": "2026-07-29T20:38:03Z",
       "status": "scoring_attempted",
       "title": "Prompt Engineering vs Loop Engineering vs Graph Engineering: What Changes at Each Layer"
+    },
+    "https://www.marktechpost.com/2026/07/30/tencent-open-sources-angelspec-a-unified-training-framework-for-mtp-and-block-parallel-speculative-decoding-on-hy3-models": {
+      "canonical_url": "https://www.marktechpost.com/2026/07/30/tencent-open-sources-angelspec-a-unified-training-framework-for-mtp-and-block-parallel-speculative-decoding-on-hy3-models",
+      "created_at": "2026-07-30T11:28:52Z",
+      "status": "scoring_attempted",
+      "title": "Tencent Open-Sources AngelSpec: A Unified Training Framework for MTP and Block-Parallel Speculative Decoding on Hy3 Models"
     },
     "https://www.marktechpost.com/2026/07/30/token-saver-an-open-source-mcp-extension-using-local-hybrid-rag": {
       "canonical_url": "https://www.marktechpost.com/2026/07/30/token-saver-an-open-source-mcp-extension-using-local-hybrid-rag",
@@ -5133,24 +5288,6 @@
       "status": "scoring_attempted",
       "title": "HBO Max is putting on vertical shorts"
     },
-    "https://www.theverge.com/tech/943866/google-alphabet-eu-dma-fine-search-services-play-store-steering": {
-      "canonical_url": "https://www.theverge.com/tech/943866/google-alphabet-eu-dma-fine-search-services-play-store-steering",
-      "created_at": "2026-07-23T11:22:42Z",
-      "status": "scoring_attempted",
-      "title": "Google hit with $1 billion fine for breaking EU antitrust rules"
-    },
-    "https://www.theverge.com/tech/969361/google-account-sign-in-selfie-video-security": {
-      "canonical_url": "https://www.theverge.com/tech/969361/google-account-sign-in-selfie-video-security",
-      "created_at": "2026-07-23T11:22:42Z",
-      "status": "scoring_attempted",
-      "title": "Google now lets you sign in to your account using a selfie video"
-    },
-    "https://www.theverge.com/tech/969819/framework-laptop-13-pro-preorder-ram-price-updates": {
-      "canonical_url": "https://www.theverge.com/tech/969819/framework-laptop-13-pro-preorder-ram-price-updates",
-      "created_at": "2026-07-23T11:22:42Z",
-      "status": "scoring_attempted",
-      "title": "Framework\u2019s premium laptop is shipping with less RAM"
-    },
     "https://www.theverge.com/tech/970092/jisulife-10s-handheld-personal-fan": {
       "canonical_url": "https://www.theverge.com/tech/970092/jisulife-10s-handheld-personal-fan",
       "created_at": "2026-07-28T13:16:41Z",
@@ -5319,11 +5456,23 @@
       "status": "scoring_attempted",
       "title": "The Ferrari Luce has at least 500 fans"
     },
+    "https://www.wired.com/story/ai-scammers-are-better-at-building-trust-than-humans": {
+      "canonical_url": "https://www.wired.com/story/ai-scammers-are-better-at-building-trust-than-humans",
+      "created_at": "2026-07-30T11:28:52Z",
+      "status": "scoring_attempted",
+      "title": "AI Scammers Are Better at Building Trust Than Humans"
+    },
     "https://www.wired.com/story/boomers-cant-stop-gifting-their-grandkids-ai-generated-slop-books": {
       "canonical_url": "https://www.wired.com/story/boomers-cant-stop-gifting-their-grandkids-ai-generated-slop-books",
       "created_at": "2026-07-29T09:34:31Z",
       "status": "scoring_attempted",
       "title": "Boomers Can\u2019t Stop Gifting Their Grandkids AI-Generated Slop Books"
+    },
+    "https://www.wired.com/story/how-linkedin-is-keeping-its-compute-capacity-flat": {
+      "canonical_url": "https://www.wired.com/story/how-linkedin-is-keeping-its-compute-capacity-flat",
+      "created_at": "2026-07-30T11:28:52Z",
+      "status": "scoring_attempted",
+      "title": "LinkedIn Won\u2019t Be Expanding Its Data Centers in the Next Year"
     },
     "https://www.wired.com/story/hugging-face-has-a-nonconsensual-deepfakes-problem": {
       "canonical_url": "https://www.wired.com/story/hugging-face-has-a-nonconsensual-deepfakes-problem",
