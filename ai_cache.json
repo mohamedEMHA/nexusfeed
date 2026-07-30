@@ -104,41 +104,6 @@
         }
       }
     },
-    "0a23955825f17aa54f23b00d285db7ef1c7a25b2544193d4a24ec0d7a55145ff": {
-      "created_at": "2026-07-29T16:59:38Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 1.5,
-            "reason": "Survey data on school phone bans shows growing support but lacks direct tech relevance.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Full school day cell phone bans are more popular than ever",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 3,
-            "reason": "Tokenless offers automatic model switching to optimize costs, a niche but impactful tool for AI developers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Launch HN: Tokenless (YC S26) \u2013 Automatic model switching to save money",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "0b5b1bc28eb84703e854d605dcd3b944eca2a0629ddbef3dd3c20651d2cc46a9": {
       "created_at": "2026-07-30T11:28:52Z",
       "payload": {
@@ -392,6 +357,29 @@
         ],
         "best_index": 1,
         "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "3be0e583496745328e52ffbf64991acf64db1d4279b92aee65d159a77d5845a7": {
+      "created_at": "2026-07-30T17:10:53Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 12,
+            "novelty_score": 2.5,
+            "reason": "A useful tool for Claude Code users but limited impact and from a lower-tier source.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Show HN: Claude-account \u2013 switch Claude Code accounts without logging in again",
+            "total_score": 5.5
+          }
+        ],
+        "best_index": 12,
+        "best_score": 5.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -783,6 +771,46 @@
         "social_posts": {}
       }
     },
+    "647288dcbb376a4cd847d1cd039d31d31699f77eead062fa515a898e89641539": {
+      "created_at": "2026-07-30T17:10:53Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "AI-driven bug hunting is accelerating Chrome's patching schedule, a significant shift in software maintenance.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Chrome Needs Twice-a-Week Patching Thanks to AI Bug Hunting",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 2,
+            "index": 1,
+            "novelty_score": 2,
+            "reason": "Dynamic patching could reduce disruption, but it's not as groundbreaking as AI-driven bug discovery.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Google is working on Chrome updates that don\u2019t require restarts",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 0,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Google has ramped up Chrome's patching schedule to twice a week, driven by AI-assisted vulnerability discovery. This marks a significant shift in how software maintenance is handled, as the two June updates alone patched more bugs than the 23 updates before them. Link: https://www.wired.com/story/chrome-needs-twice-a-week-patching-thanks-to-ai-bug-hunting-for-now/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Chrome Needs Twice-a-Week Patching Thanks to AI Bug Hunting*\n\nGoogle is now patching Chrome twice a week due to AI-driven bug hunting, marking a significant shift in software maintenance.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.wired.com/story/chrome-needs-twice-a-week-patching-thanks-to-ai-bug-hunting-for-now/",
+          "threads": "AI-driven bug hunting is forcing Google to patch Chrome twice a week. This is a big deal for software maintenance. https://www.wired.com/story/chrome-needs-twice-a-week-patching-thanks-to-ai-bug-hunting-for-now/",
+          "twitter": "Google is now patching Chrome twice a week due to AI-driven bug hunting. The shift highlights how AI is changing software maintenance. https://www.wired.com/story/chrome-needs-twice-a-week-patching-thanks-to-ai-bug-hunting-for-now/"
+        }
+      }
+    },
     "6b0585314046af15c9929059bb314eb590f65e92a5c03676c9296aa42fe89e57": {
       "created_at": "2026-07-30T15:21:40Z",
       "payload": {
@@ -992,6 +1020,41 @@
         ],
         "best_index": 4,
         "best_score": 7.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
+    "80c72429cbc149b238e4b10a9537f5e5bbbd521e50de246434dfe21f3f52d12f": {
+      "created_at": "2026-07-30T17:10:53Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 2,
+            "novelty_score": 1.5,
+            "reason": "Leaked renders of an upcoming foldable phone model.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Pixel 11 Pro Fold design leaks ahead of Google launch event",
+            "total_score": 6.5
+          },
+          {
+            "freshness_score": 2,
+            "impact_score": 1.5,
+            "index": 3,
+            "novelty_score": 1.5,
+            "reason": "A company re-launches an AI pendant with a new feature and a higher price.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Friend re-launches its AI pendant with a speaker that talks to you, for twice the price",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 2,
+        "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1272,29 +1335,6 @@
         "social_posts": {}
       }
     },
-    "aa34b8ea5a5d20030dcd6784197a72c52c7a5460f6932bfabbea980fc70c2eb2": {
-      "created_at": "2026-07-29T16:59:38Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 3,
-            "novelty_score": 1.5,
-            "reason": "A user reports a significant financial loss due to a domain registrar's actions, which is notable but lacks broader industry impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Ask HN: My domain registrar (Hover) rug-pulled me for $3000",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 3,
-        "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "ad0c21412e9da992549c7ca9cb6ab444dc542ccafd5c4666a0b4b511e89e6705": {
       "created_at": "2026-07-29T18:12:01Z",
       "payload": {
@@ -1462,6 +1502,29 @@
         }
       }
     },
+    "c06470150d4ff84f86748d18957297693a6c4bc9b36e07116d9297d2f02e45a3": {
+      "created_at": "2026-07-30T17:10:53Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2,
+            "impact_score": 2.5,
+            "index": 4,
+            "novelty_score": 2,
+            "reason": "Okta acquiring Permiso is a notable industry move with significant impact on AI security.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "Okta buys AI security startup Permiso; source says for about $200M",
+            "total_score": 7.5
+          }
+        ],
+        "best_index": 4,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "cd69c31c5e8f21bbc5f25e219be8b94341232a1b8c39b3ea85c5825368ae037e": {
       "created_at": "2026-07-30T00:00:33Z",
       "payload": {
@@ -1592,29 +1655,6 @@
         ],
         "best_index": 0,
         "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "d361ddc9f665b6c8eb171908b910a2bc35173e952b1346d1ecaadca44b1340ab": {
-      "created_at": "2026-07-29T16:59:38Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.0,
-            "index": 8,
-            "novelty_score": 0.2,
-            "reason": "This article is about medical technology, not software engineering or AI research.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "CipherX applies painless permanent tattoos with dissolving microneedle patches",
-            "total_score": 2.2
-          }
-        ],
-        "best_index": 8,
-        "best_score": 2.2,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1878,34 +1918,6 @@
           "twitter": "Elon Musk's xAI is suing to overturn a ban on Grok's nudifying app, arguing it's unconstitutional. https://arstechnica.com/tech-policy/2026/07/elon-musks-xai-is-trying-to-sue-its-way-out-of-a-grok-reckoning/"
         }
       }
-    },
-    "f845c2715a581a3ec00bb5dfcfc451a8074de17f98a3820a3c43877580845319": {
-      "created_at": "2026-07-29T16:59:38Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "Anthropic's bug-finding pace vs. Microsoft's patching reveals a critical security dynamic.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Anthropic is finding bugs faster than Microsoft can fix them",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 2,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Anthropic is identifying security vulnerabilities faster than Microsoft can address them, highlighting a growing challenge in cybersecurity. The race to patch exploits is intensifying as hackers exploit the gap.\nLink: https://arstechnica.com/security/2026/07/anthropic-is-finding-bugs-faster-than-microsoft-can-fix-them/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Anthropic is finding bugs faster than Microsoft can fix them*\n\nAnthropic is identifying security vulnerabilities faster than Microsoft can address them, highlighting a growing challenge in cybersecurity.\n\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://arstechnica.com/security/2026/07/anthropic-is-finding-bugs-faster-than-microsoft-can-fix-them/",
-          "threads": "Anthropic's bug-finding pace is outstripping Microsoft's ability to patch them, creating a critical security gap.\nhttps://arstechnica.com/security/2026/07/anthropic-is-finding-bugs-faster-than-microsoft-can-fix-them/",
-          "twitter": "Anthropic is outpacing Microsoft in finding security flaws, raising concerns about patching delays.\nhttps://arstechnica.com/security/2026/07/anthropic-is-finding-bugs-faster-than-microsoft-can-fix-them/"
-        }
-      }
     }
   },
   "groq_social_posts": {
@@ -1972,15 +1984,6 @@
         "twitter": "US citizen Sam Tunick faces prosecution for using a duress password to wipe his phone at a border crossing, raising questions about digital privacy @TheVerge #DigitalPrivacy"
       }
     },
-    "3438c34b8ae811dd23f58637cf7f41f7ab6db6c6fa7e985b97698c52ec7f3ae3": {
-      "created_at": "2026-07-23T17:10:21Z",
-      "payload": {
-        "facebook": "The integration of health data with AI chatbots is becoming more accessible as OpenAI rolls out ChatGPT Health to the general public in the US. This move could significantly impact the healthcare industry by providing more personalized and informed interactions. #AIinHealthcare #HealthTech #ChatGPT",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 OpenAI Expands ChatGPT Health Access\nOpenAI's ChatGPT Health is now available to everyone in the US, allowing for the integration of medical records and health-tracking data into the chatbot.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n#AIinHealthcare #HealthTech #ChatGPT\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "OpenAI is expanding its ChatGPT Health service to all users in the US, enabling them to link their medical records and health information to the platform @OpenAI #AIinHealthcare",
-        "twitter": "OpenAI's ChatGPT Health is now available to everyone in the US, allowing users to connect medical records and health data to the chatbot @OpenAI #AIinHealthcare #ChatGPT"
-      }
-    },
     "3c1094d49966cf99538cced1f16b0149c40e883b781043df9a260d8bb2420269": {
       "created_at": "2026-07-28T21:34:23Z",
       "payload": {
@@ -2024,6 +2027,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 OpenWorker AI Agent Released\nAndrew Ng's new OpenWorker AI agent returns finished deliverables instead of chat replies, running a local Python agent server under a Tauri shell and supporting 30 curated tool-calling models.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: 2 hours ago\n\u2b50 Score: 8.5/10\n#AI #OpenSource #MachineLearning\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Andrew Ng's OpenWorker is a significant step forward for AI development, providing finished deliverables instead of chat replies, notes @AndrewYNg #AI",
         "twitter": "Andrew Ng's new OpenWorker AI agent is changing the game, returning finished deliverables instead of chat replies, says @AndrewYNg #AI"
+      }
+    },
+    "67239a9fe465c4c022126578bf35cec738bbf81df37ef2471135bfdab7ff733b": {
+      "created_at": "2026-07-30T17:10:53Z",
+      "payload": {
+        "facebook": "The rise of AI-assisted vulnerability discovery is significantly impacting Chrome's maintenance schedule, with Google now releasing patches twice a week. This shift underscores the growing importance of AI in software security. #AIBugHunting #Chrome #SoftwareSecurity",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 AI Accelerates Chrome Patching\nGoogle is ramping up its Chrome patching schedule to twice a week due to AI-assisted vulnerability discovery. This marks a significant shift in software maintenance.\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AIBugHunting #Chrome #SoftwareSecurity\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "AI-driven bug hunting is accelerating Chrome's patching schedule, with Google now releasing updates twice a week @GoogleChrome #AIBugHunting",
+        "twitter": "Google ramps up Chrome patching to twice a week due to AI-driven bug discovery @GoogleChrome #AIBugHunting #Chrome"
       }
     },
     "6a43d2a99ed3d6e139074a064709ca422cc688a9423ded182f84f1bf22ab5874": {
@@ -2435,12 +2447,6 @@
       "created_at": "2026-07-30T15:21:40Z",
       "status": "scoring_attempted",
       "title": "New MCP specification addresses the main barrier to enterprise adoption"
-    },
-    "https://arstechnica.com/google/2026/07/google-just-had-its-first-negative-cash-flow-quarter-ever-due-to-massive-ai-spending": {
-      "canonical_url": "https://arstechnica.com/google/2026/07/google-just-had-its-first-negative-cash-flow-quarter-ever-due-to-massive-ai-spending",
-      "created_at": "2026-07-23T17:10:21Z",
-      "status": "scoring_attempted",
-      "title": "Google just had its first negative cash flow quarter due to massive AI spending"
     },
     "https://arstechnica.com/science/2026/07/team-uses-alphafold-ai-to-redesign-gene-editing-proteins-to-make-them-safer": {
       "canonical_url": "https://arstechnica.com/science/2026/07/team-uses-alphafold-ai-to-redesign-gene-editing-proteins-to-make-them-safer",
@@ -3252,12 +3258,6 @@
       "status": "scoring_attempted",
       "title": "Show HN: Echologue \u2013 the private AI voice journal I built for myself"
     },
-    "https://eliemichel.github.io/LearnWebGPU": {
-      "canonical_url": "https://eliemichel.github.io/LearnWebGPU",
-      "created_at": "2026-07-23T15:53:04Z",
-      "status": "scoring_attempted",
-      "title": "Learn WebGPU for C++"
-    },
     "https://en.andros.dev/blog/d7ed8b07/modern-email-can-be-built-from-borrowed-parts": {
       "canonical_url": "https://en.andros.dev/blog/d7ed8b07/modern-email-can-be-built-from-borrowed-parts",
       "created_at": "2026-07-27T13:29:03Z",
@@ -3305,12 +3305,6 @@
       "created_at": "2026-07-29T13:27:14Z",
       "status": "scoring_attempted",
       "title": "Disrupting supply chain attacks on NPM and GitHub Actions"
-    },
-    "https://github.com/Conradqh/scrapemychats": {
-      "canonical_url": "https://github.com/Conradqh/scrapemychats",
-      "created_at": "2026-07-23T17:10:21Z",
-      "status": "scoring_attempted",
-      "title": "Free way to get your data out of ChatGPT Business accounts"
     },
     "https://github.com/FrigadeHQ/yap": {
       "canonical_url": "https://github.com/FrigadeHQ/yap",
@@ -3372,6 +3366,12 @@
       "status": "scoring_attempted",
       "title": "Go LLM SDK for streaming, tool-calling AI backends (plus frontend React lib)"
     },
+    "https://github.com/hamzarehmandeveloper/claude-account": {
+      "canonical_url": "https://github.com/hamzarehmandeveloper/claude-account",
+      "created_at": "2026-07-30T17:10:53Z",
+      "status": "scoring_attempted",
+      "title": "Show HN: Claude-account \u2013 switch Claude Code accounts without logging in again"
+    },
     "https://github.com/hertz-ai/HARTOS": {
       "canonical_url": "https://github.com/hertz-ai/HARTOS",
       "created_at": "2026-07-26T20:02:21Z",
@@ -3420,29 +3420,11 @@
       "status": "scoring_attempted",
       "title": "SDL_GPU minimal, single-header, high-performance 2D graphics painting library"
     },
-    "https://github.com/onecli/onecli": {
-      "canonical_url": "https://github.com/onecli/onecli",
-      "created_at": "2026-07-23T17:10:21Z",
-      "status": "scoring_attempted",
-      "title": "Show HN: OneCLI \u2013 OSS credential gateway that keeps secrets out of AI agents"
-    },
     "https://github.com/openai/codex-security": {
       "canonical_url": "https://github.com/openai/codex-security",
       "created_at": "2026-07-28T21:34:23Z",
       "status": "scoring_attempted",
       "title": "OpenAI just open-sourced Codex Security"
-    },
-    "https://github.com/palmier-io/palmier-pro": {
-      "canonical_url": "https://github.com/palmier-io/palmier-pro",
-      "created_at": "2026-07-23T17:10:21Z",
-      "status": "scoring_attempted",
-      "title": "Show HN: Palmier Pro \u2013 open-source macOS video editor built for AI"
-    },
-    "https://github.com/pullrun/pullrun": {
-      "canonical_url": "https://github.com/pullrun/pullrun",
-      "created_at": "2026-07-23T17:10:21Z",
-      "status": "scoring_attempted",
-      "title": "You can now run same OCI images as containers or Firecracker microVMs"
     },
     "https://github.com/reflex-dev/xy": {
       "canonical_url": "https://github.com/reflex-dev/xy",
@@ -3600,12 +3582,6 @@
       "status": "scoring_attempted",
       "title": "LLM Honeypot"
     },
-    "https://louwrentius.com/i-think-you-might-be-fooling-yourself-with-ai.html": {
-      "canonical_url": "https://louwrentius.com/i-think-you-might-be-fooling-yourself-with-ai.html",
-      "created_at": "2026-07-23T15:53:04Z",
-      "status": "scoring_attempted",
-      "title": "I Think You Might Be Fooling Yourself with AI"
-    },
     "https://lucumr.pocoo.org/2026/7/24/codeberg-divides": {
       "canonical_url": "https://lucumr.pocoo.org/2026/7/24/codeberg-divides",
       "created_at": "2026-07-24T17:06:40Z",
@@ -3647,12 +3623,6 @@
       "created_at": "2026-07-24T05:46:58Z",
       "status": "scoring_attempted",
       "title": "Working to automate nuclear plant operations"
-    },
-    "https://news.ycombinator.com/item?id=49024620": {
-      "canonical_url": "https://news.ycombinator.com/item?id=49024620",
-      "created_at": "2026-07-23T17:10:21Z",
-      "status": "scoring_attempted",
-      "title": "Launch HN: Screenpipe (YC S26) \u2013 Power your agents by your 24/7 screen recording"
     },
     "https://news.ycombinator.com/item?id=49026810": {
       "canonical_url": "https://news.ycombinator.com/item?id=49026810",
@@ -3720,12 +3690,6 @@
       "status": "scoring_attempted",
       "title": "Scientific computing in the age of agentic AI"
     },
-    "https://openjdk.org/jeps/540": {
-      "canonical_url": "https://openjdk.org/jeps/540",
-      "created_at": "2026-07-23T17:10:21Z",
-      "status": "scoring_attempted",
-      "title": "JEP 540: Simple JSON API (Now in Incubator)"
-    },
     "https://openjdk.org/jeps/541": {
       "canonical_url": "https://openjdk.org/jeps/541",
       "created_at": "2026-07-24T17:06:40Z",
@@ -3737,12 +3701,6 @@
       "created_at": "2026-07-26T21:11:35Z",
       "status": "scoring_attempted",
       "title": "What does GitHub's security team even do?"
-    },
-    "https://ourworldindata.org/how-much-energy-do-data-centers-and-artificial-intelligence-use": {
-      "canonical_url": "https://ourworldindata.org/how-much-energy-do-data-centers-and-artificial-intelligence-use",
-      "created_at": "2026-07-23T15:53:04Z",
-      "status": "scoring_attempted",
-      "title": "How much energy do data centers and artificial intelligence use?"
     },
     "https://pkg.go.dev/golang.org/x/tools/go/analysis": {
       "canonical_url": "https://pkg.go.dev/golang.org/x/tools/go/analysis",
@@ -3846,35 +3804,11 @@
       "status": "scoring_attempted",
       "title": "Anthropic updates Claude voice mode with more capable models"
     },
-    "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini": {
-      "canonical_url": "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini",
-      "created_at": "2026-07-23T15:53:04Z",
-      "status": "scoring_attempted",
-      "title": "Google\u2019s Gemini nears billion-user milestone"
-    },
     "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers": {
       "canonical_url": "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers",
       "created_at": "2026-07-24T02:41:26Z",
       "status": "scoring_attempted",
       "title": "How AI guardrails are impeding the work of offensive cybersecurity researchers"
-    },
-    "https://techcrunch.com/2026/07/23/meta-launched-a-new-ai-optimism-ad-set-to-a-song-about-human-extinction": {
-      "canonical_url": "https://techcrunch.com/2026/07/23/meta-launched-a-new-ai-optimism-ad-set-to-a-song-about-human-extinction",
-      "created_at": "2026-07-23T17:10:21Z",
-      "status": "scoring_attempted",
-      "title": "Meta launched a new AI optimism ad set to a song about human extinction"
-    },
-    "https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users": {
-      "canonical_url": "https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users",
-      "created_at": "2026-07-23T17:10:21Z",
-      "status": "scoring_attempted",
-      "title": "OpenAI makes ChatGPT Health available to all U.S. users"
-    },
-    "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded": {
-      "canonical_url": "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded",
-      "created_at": "2026-07-23T17:10:21Z",
-      "status": "scoring_attempted",
-      "title": "Runway launches AI model router as generative media gets crowded"
     },
     "https://techcrunch.com/2026/07/24/anthropic-launches-opus-5": {
       "canonical_url": "https://techcrunch.com/2026/07/24/anthropic-launches-opus-5",
@@ -4164,6 +4098,12 @@
       "status": "scoring_attempted",
       "title": "Nscale buys Anyscale as it seeks to own more of the AI compute stack"
     },
+    "https://techcrunch.com/2026/07/30/okta-buys-ai-security-startup-permiso-source-says-for-about-200m": {
+      "canonical_url": "https://techcrunch.com/2026/07/30/okta-buys-ai-security-startup-permiso-source-says-for-about-200m",
+      "created_at": "2026-07-30T17:10:53Z",
+      "status": "scoring_attempted",
+      "title": "Okta buys AI security startup Permiso; source says for about $200M"
+    },
     "https://techcrunch.com/2026/07/30/techcrunch-disrupt-2026s-biggest-stage-features-leaders-from-amazon-replit-tether-with-much-more-to-come": {
       "canonical_url": "https://techcrunch.com/2026/07/30/techcrunch-disrupt-2026s-biggest-stage-features-leaders-from-amazon-replit-tether-with-much-more-to-come",
       "created_at": "2026-07-30T15:21:40Z",
@@ -4205,12 +4145,6 @@
       "created_at": "2026-07-27T15:59:27Z",
       "status": "scoring_attempted",
       "title": "AI companies are shredding rare books"
-    },
-    "https://typebulb.com/u/lab/you-re-relatively-right/full": {
-      "canonical_url": "https://typebulb.com/u/lab/you-re-relatively-right/full",
-      "created_at": "2026-07-23T15:53:04Z",
-      "status": "scoring_attempted",
-      "title": "Writing fingerprint analysis of responses reveals Kimi's similarity to Claude"
     },
     "https://unawatch.com": {
       "canonical_url": "https://unawatch.com",
@@ -4373,12 +4307,6 @@
       "created_at": "2026-07-25T16:42:46Z",
       "status": "scoring_attempted",
       "title": "Brazilian farmers tokenized dairy cows to get loans, bypassing bank limits"
-    },
-    "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16": {
-      "canonical_url": "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16",
-      "created_at": "2026-07-23T15:53:04Z",
-      "status": "scoring_attempted",
-      "title": "DARPA, U.S. Air Force fly AI-controlled F-16"
     },
     "https://www.debian.org/vote/2026/vote_002": {
       "canonical_url": "https://www.debian.org/vote/2026/vote_002",
@@ -4740,23 +4668,11 @@
       "status": "scoring_attempted",
       "title": "Google Chrome Arrives on ARM64 Linux, Widevine DRM Included"
     },
-    "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992": {
-      "canonical_url": "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
-      "created_at": "2026-07-23T15:53:04Z",
-      "status": "scoring_attempted",
-      "title": "Startup founders urge Trump not to shut off Chinese open weight AI"
-    },
     "https://www.rickmanelius.com/p/the-new-ai-superpowers-focus-and": {
       "canonical_url": "https://www.rickmanelius.com/p/the-new-ai-superpowers-focus-and",
       "created_at": "2026-07-26T15:42:40Z",
       "status": "scoring_attempted",
       "title": "The New AI Superpowers: Focus and Followthrough"
-    },
-    "https://www.rtx.com/news/news-center/2026/07/21/rtxs-pratt-whitney-canada-advances-hybrid-electric-technology-development": {
-      "canonical_url": "https://www.rtx.com/news/news-center/2026/07/21/rtxs-pratt-whitney-canada-advances-hybrid-electric-technology-development",
-      "created_at": "2026-07-23T15:53:04Z",
-      "status": "scoring_attempted",
-      "title": "Hybrid-Electric Aicraft Engine Targeting 30% Fuel Efficiency"
     },
     "https://www.rubyforum.org/t/calling-all-open-source-maintainers-working-with-ruby/553": {
       "canonical_url": "https://www.rubyforum.org/t/calling-all-open-source-maintainers-working-with-ruby/553",
@@ -4829,12 +4745,6 @@
       "created_at": "2026-07-24T18:44:11Z",
       "status": "scoring_attempted",
       "title": "Anthropic releases Opus 5 with \u2018close\u2019 to Fable 5\u2019s capabilities"
-    },
-    "https://www.theverge.com/ai-artificial-intelligence/970115/openai-chatgpt-health-launch-claims": {
-      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/970115/openai-chatgpt-health-launch-claims",
-      "created_at": "2026-07-23T17:10:21Z",
-      "status": "scoring_attempted",
-      "title": "OpenAI is making big claims as it rolls out ChatGPT Health to everyone"
     },
     "https://www.theverge.com/ai-artificial-intelligence/970894/midjourney-co-star-acquisition": {
       "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/970894/midjourney-co-star-acquisition",
@@ -4956,18 +4866,6 @@
       "status": "scoring_attempted",
       "title": "Corsair\u2019s PC case with a panoramic glass design is $70 off"
     },
-    "https://www.theverge.com/gadgets/969615/amazon-fire-tv-stick-4k-plus-4k-max-anker-zolo-deal-sale": {
-      "canonical_url": "https://www.theverge.com/gadgets/969615/amazon-fire-tv-stick-4k-plus-4k-max-anker-zolo-deal-sale",
-      "created_at": "2026-07-23T15:53:04Z",
-      "status": "scoring_attempted",
-      "title": "Amazon\u2019s best 4K streaming sticks are up to 40 percent off"
-    },
-    "https://www.theverge.com/gadgets/970012/primate-labs-geekbench-7-benchmark-test-software-update": {
-      "canonical_url": "https://www.theverge.com/gadgets/970012/primate-labs-geekbench-7-benchmark-test-software-update",
-      "created_at": "2026-07-23T17:10:21Z",
-      "status": "scoring_attempted",
-      "title": "Geekbench 7 will push your computer or phone even harder for better benchmarking"
-    },
     "https://www.theverge.com/gadgets/970559/acer-chromebook-spin-anker-charger-nintendo-logitech-deal-sale": {
       "canonical_url": "https://www.theverge.com/gadgets/970559/acer-chromebook-spin-anker-charger-nintendo-logitech-deal-sale",
       "created_at": "2026-07-24T17:06:40Z",
@@ -5028,17 +4926,17 @@
       "status": "scoring_attempted",
       "title": "A second lens makes DJI\u2019s Osmo Pocket 4P my new favorite video camera"
     },
+    "https://www.theverge.com/gadgets/973163/friend-re-launches-its-ai-pendant-with-a-speaker-that-talks-to-you-for-twice-the-price": {
+      "canonical_url": "https://www.theverge.com/gadgets/973163/friend-re-launches-its-ai-pendant-with-a-speaker-that-talks-to-you-for-twice-the-price",
+      "created_at": "2026-07-30T17:10:53Z",
+      "status": "scoring_attempted",
+      "title": "Friend re-launches its AI pendant with a speaker that talks to you, for twice the price"
+    },
     "https://www.theverge.com/games/967174/steam-game-malware-cryptostealer-arrest": {
       "canonical_url": "https://www.theverge.com/games/967174/steam-game-malware-cryptostealer-arrest",
       "created_at": "2026-07-27T22:57:16Z",
       "status": "scoring_attempted",
       "title": "Bitcoin trail, Google cookies and Uber Eats orders help tie man to Steam malware"
-    },
-    "https://www.theverge.com/games/969969/xbox-testing-ad-supported-streaming": {
-      "canonical_url": "https://www.theverge.com/games/969969/xbox-testing-ad-supported-streaming",
-      "created_at": "2026-07-23T17:10:21Z",
-      "status": "scoring_attempted",
-      "title": "Microsoft is testing free, ad-supported cloud gaming for Xbox Insiders"
     },
     "https://www.theverge.com/games/971651/logitech-handheld-business-g-cloud-robin-piispanen-interview": {
       "canonical_url": "https://www.theverge.com/games/971651/logitech-handheld-business-g-cloud-robin-piispanen-interview",
@@ -5292,11 +5190,17 @@
       "status": "scoring_attempted",
       "title": "Xiaomi\u2019s SkyNomad N90 Max is an extended-range EV with a transforming interior"
     },
-    "https://www.theverge.com/transportation/970003/tesla-robotaxi-mileage-waymo-cities-earnings-musk": {
-      "canonical_url": "https://www.theverge.com/transportation/970003/tesla-robotaxi-mileage-waymo-cities-earnings-musk",
-      "created_at": "2026-07-23T17:10:21Z",
+    "https://www.theverge.com/tech/973174/google-chrome-update-no-restart": {
+      "canonical_url": "https://www.theverge.com/tech/973174/google-chrome-update-no-restart",
+      "created_at": "2026-07-30T17:10:53Z",
       "status": "scoring_attempted",
-      "title": "Tesla\u2019s robotaxi promises are clashing with reality"
+      "title": "Google is working on Chrome updates that don\u2019t require restarts"
+    },
+    "https://www.theverge.com/tech/973249/pixel-11-pro-fold-buds-watch-leaks-google-launch-event": {
+      "canonical_url": "https://www.theverge.com/tech/973249/pixel-11-pro-fold-buds-watch-leaks-google-launch-event",
+      "created_at": "2026-07-30T17:10:53Z",
+      "status": "scoring_attempted",
+      "title": "Pixel 11 Pro Fold design leaks ahead of Google launch event"
     },
     "https://www.theverge.com/transportation/970560/tesla-electronic-door-crash-nhtsa-safety-rules": {
       "canonical_url": "https://www.theverge.com/transportation/970560/tesla-electronic-door-crash-nhtsa-safety-rules",
@@ -5327,6 +5231,12 @@
       "created_at": "2026-07-29T09:34:31Z",
       "status": "scoring_attempted",
       "title": "Boomers Can\u2019t Stop Gifting Their Grandkids AI-Generated Slop Books"
+    },
+    "https://www.wired.com/story/chrome-needs-twice-a-week-patching-thanks-to-ai-bug-hunting-for-now": {
+      "canonical_url": "https://www.wired.com/story/chrome-needs-twice-a-week-patching-thanks-to-ai-bug-hunting-for-now",
+      "created_at": "2026-07-30T17:10:53Z",
+      "status": "scoring_attempted",
+      "title": "Chrome Needs Twice-a-Week Patching Thanks to AI Bug Hunting"
     },
     "https://www.wired.com/story/google-gemini-can-control-humanoid-robots": {
       "canonical_url": "https://www.wired.com/story/google-gemini-can-control-humanoid-robots",
