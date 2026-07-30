@@ -1024,6 +1024,29 @@
         "social_posts": {}
       }
     },
+    "7babdb5a8b59353f840e4bc34d67038c2e8142329a8235aface54b051d178c00": {
+      "created_at": "2026-07-30T18:44:52Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 1.5,
+            "impact_score": 2.5,
+            "index": 8,
+            "novelty_score": 2.5,
+            "reason": "New feature for GitHub PRs, but source is Hacker News and not a direct GitHub blog post.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 0.5,
+            "title": "Stacked PRs are now live on GitHub",
+            "total_score": 6.5
+          }
+        ],
+        "best_index": 8,
+        "best_score": 6.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "80c72429cbc149b238e4b10a9537f5e5bbbd521e50de246434dfe21f3f52d12f": {
       "created_at": "2026-07-30T17:10:53Z",
       "payload": {
@@ -1289,29 +1312,6 @@
         }
       }
     },
-    "a1f34a87a3c186c7fbd9b91c4e305a0ce2739b50776ee5cd26dbe361eb8c8d4e": {
-      "created_at": "2026-07-29T18:12:01Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1,
-            "impact_score": 2.5,
-            "index": 24,
-            "novelty_score": 2.5,
-            "reason": "OpenAI's initiative to provide free access to advanced AI models for academic researchers is significant but not groundbreaking.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 2,
-            "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
-            "total_score": 8.0
-          }
-        ],
-        "best_index": 24,
-        "best_score": 8.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "a2af6f7a9d394ae6eaf641a0d9aabad42e3a4ff238557aa825821132839c42f4": {
       "created_at": "2026-07-30T00:00:33Z",
       "payload": {
@@ -1335,27 +1335,44 @@
         "social_posts": {}
       }
     },
-    "ad0c21412e9da992549c7ca9cb6ab444dc542ccafd5c4666a0b4b511e89e6705": {
-      "created_at": "2026-07-29T18:12:01Z",
+    "ad5d15261ec2e33515dac4d91a9e6a89fb34e11db8785ce3805d86625f116fab": {
+      "created_at": "2026-07-30T18:44:52Z",
       "payload": {
         "articles": [
           {
             "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 1,
+            "impact_score": 2.5,
+            "index": 2,
             "novelty_score": 2.5,
-            "reason": "The article discusses infrastructure patterns for agentic applications, which is relevant to developers working on AI systems.",
+            "reason": "Google's new robotics platform is a significant industry move with broad implications for developers and researchers.",
             "red_flag": false,
             "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Infrastructure Patterns for Agentic Applications",
+            "source_score": 1.5,
+            "title": "Google reveals Gemini Robotics 2.0, promising improved dexterity and safety",
+            "total_score": 8.5
+          },
+          {
+            "freshness_score": 1.5,
+            "impact_score": 1.5,
+            "index": 3,
+            "novelty_score": 2,
+            "reason": "Interesting discovery but less relevant to software engineers and AI researchers.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.5,
+            "title": "NASA\u2019s Curiosity rover found a \u2018sea of polygons\u2019 on Mars",
             "total_score": 6.5
           }
         ],
-        "best_index": 1,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
+        "best_index": 2,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Google has unveiled Gemini Robotics 2.0, a new platform for robotics development. The release includes three models, but only one is publicly available right now. This could be a significant step forward for robotics research and development. Link: https://arstechnica.com/ai/2026/07/google-reveals-gemini-robotics-2-0-promising-improved-dexterity-and-safety/",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Google reveals Gemini Robotics 2.0, promising improved dexterity and safety*\n\nGoogle's new robotics platform includes three models, but only one is publicly available right now.\n\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://arstechnica.com/ai/2026/07/google-reveals-gemini-robotics-2-0-promising-improved-dexterity-and-safety/",
+          "threads": "Google's Gemini Robotics 2.0 platform is now available, with two models still under wraps. This could be a significant step forward for robotics research and development. https://arstechnica.com/ai/2026/07/google-reveals-gemini-robotics-2-0-promising-improved-dexterity-and-safety/",
+          "twitter": "Google's Gemini Robotics 2.0 platform now available, with two models still under wraps. https://arstechnica.com/ai/2026/07/google-reveals-gemini-robotics-2-0-promising-improved-dexterity-and-safety/"
+        }
       }
     },
     "b1207155abae295e8606b423dc23c5bc644be1cabe591e21aaf47875d480b7e0": {
@@ -1891,32 +1908,27 @@
         "social_posts": {}
       }
     },
-    "f70cbc16111fd9aed2b1ceaa76f6c857b1386658cf3e5f8468d7cd10c44ae1bd": {
-      "created_at": "2026-07-29T18:12:01Z",
+    "fc1263874f8abd3e4d8379cd063e1c05f1498f39e1a141884910ca08720636db": {
+      "created_at": "2026-07-30T18:44:52Z",
       "payload": {
         "articles": [
           {
-            "freshness_score": 2,
+            "freshness_score": 1.5,
             "impact_score": 2.5,
-            "index": 0,
+            "index": 4,
             "novelty_score": 2.5,
-            "reason": "Legal battle over Grok's nudifying app could set precedent for AI regulation.",
+            "reason": "New AI model for whole-body robot control, but not a full release yet.",
             "red_flag": false,
             "red_flag_reason": null,
             "source_score": 1.5,
-            "title": "Elon Musk\u2019s xAI is trying to sue its way out of a Grok reckoning",
-            "total_score": 8.5
+            "title": "Google DeepMind\u2019s new AI model can control a robot\u2019s entire body",
+            "total_score": 7.5
           }
         ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Elon Musk's xAI is challenging a Minnesota ban on Grok's nudifying app, claiming it violates constitutional rights. This legal battle could have significant implications for AI regulation. Link: https://arstechnica.com/tech-policy/2026/07/elon-musks-xai-is-trying-to-sue-its-way-out-of-a-grok-reckoning",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\ud83d\udd25 *Elon Musk\u2019s xAI is trying to sue its way out of a Grok reckoning*\n\nElon Musk's xAI is challenging a Minnesota ban on Grok's nudifying app, claiming it violates constitutional rights. This legal battle could have significant implications for AI regulation.\n\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://arstechnica.com/tech-policy/2026/07/elon-musks-xai-is-trying-to-sue-its-way-out-of-a-grok-reckoning\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "xAI is suing to overturn a ban on Grok's nudifying app, arguing it's unconstitutional. This could set a major precedent for AI regulation. https://arstechnica.com/tech-policy/2026/07/elon-musks-xai-is-trying-to-sue-its-way-out-of-a-grok-reckoning",
-          "twitter": "Elon Musk's xAI is suing to overturn a ban on Grok's nudifying app, arguing it's unconstitutional. https://arstechnica.com/tech-policy/2026/07/elon-musks-xai-is-trying-to-sue-its-way-out-of-a-grok-reckoning/"
-        }
+        "best_index": 4,
+        "best_score": 7.5,
+        "recommendation": "SKIP",
+        "social_posts": {}
       }
     }
   },
@@ -2200,6 +2212,15 @@
         "twitter": "Claude's share chat feature has a major flaw, potentially exposing user conversations and projects to the public, @TechCrunch reports #ClaudePrivacy"
       }
     },
+    "abfed2bcf55964fa054a14fa3b07bd257b9d5d64e5cfff1e801acf5a3f7a83e8": {
+      "created_at": "2026-07-30T18:44:52Z",
+      "payload": {
+        "facebook": "The field of robotics is seeing significant advancements with the introduction of Google's Gemini Robotics 2.0, emphasizing improved dexterity and safety. This development holds promise for various applications. #Robotics #ArtificialIntelligence #Google",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Google Unveils Gemini Robotics 2.0\nGoogle's new robotics platform, Gemini 2.0, promises enhanced dexterity and safety, marking a significant move in the industry.\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#Robotics #ArtificialIntelligence #Google\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Google's Gemini Robotics 2.0 is set to enhance the field with its focus on dexterity and safety, offering potential for widespread impact @GoogleAI #Robotics",
+        "twitter": "Google advances robotics with Gemini 2.0, focusing on dexterity and safety @GoogleAI #Robotics"
+      }
+    },
     "b9ef049d94cb37d80fb07ae73b68a5d804630868068eea5394bcb063552b9be3": {
       "created_at": "2026-07-30T11:28:52Z",
       "payload": {
@@ -2423,6 +2444,12 @@
       "created_at": "2026-07-28T21:34:23Z",
       "status": "scoring_attempted",
       "title": "Despite AI hype, Google's data shows workers aren't automating themselves away"
+    },
+    "https://arstechnica.com/ai/2026/07/google-reveals-gemini-robotics-2-0-promising-improved-dexterity-and-safety": {
+      "canonical_url": "https://arstechnica.com/ai/2026/07/google-reveals-gemini-robotics-2-0-promising-improved-dexterity-and-safety",
+      "created_at": "2026-07-30T18:44:52Z",
+      "status": "scoring_attempted",
+      "title": "Google reveals Gemini Robotics 2.0, promising improved dexterity and safety"
     },
     "https://arstechnica.com/ai/2026/07/tested-google-synthid-works-great-but-labeling-ai-content-may-be-a-losing-game": {
       "canonical_url": "https://arstechnica.com/ai/2026/07/tested-google-synthid-works-great-but-labeling-ai-content-may-be-a-losing-game",
@@ -3300,6 +3327,12 @@
       "status": "scoring_attempted",
       "title": "What AI developers could learn from Charles Bukowski?"
     },
+    "https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview": {
+      "canonical_url": "https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview",
+      "created_at": "2026-07-30T18:44:52Z",
+      "status": "scoring_attempted",
+      "title": "Stacked PRs are now live on GitHub"
+    },
     "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions": {
       "canonical_url": "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions",
       "created_at": "2026-07-29T13:27:14Z",
@@ -3395,18 +3428,6 @@
       "created_at": "2026-07-28T00:03:16Z",
       "status": "scoring_attempted",
       "title": "Benchmarking Opus 5 on SlopCodeBench"
-    },
-    "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/wsff.md": {
-      "canonical_url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/wsff.md",
-      "created_at": "2026-07-23T18:37:11Z",
-      "status": "scoring_attempted",
-      "title": "Why Software Factories Fail (or: harness engineering is not enough)"
-    },
-    "https://github.com/izeigerman/claude-thermos": {
-      "canonical_url": "https://github.com/izeigerman/claude-thermos",
-      "created_at": "2026-07-23T18:37:11Z",
-      "status": "scoring_attempted",
-      "title": "Show HN: Claude-thermos \u2013 keeps your Claude session warm for you"
     },
     "https://github.com/mulfyx/w4me-station": {
       "canonical_url": "https://github.com/mulfyx/w4me-station",
@@ -4086,6 +4107,12 @@
       "status": "scoring_attempted",
       "title": "In the Hugging Face breach, OpenAI\u2019s hacker was noisy and fast \u2014 but not unstoppable"
     },
+    "https://techcrunch.com/2026/07/30/linkedin-adds-a-button-to-report-ai-generated-slop": {
+      "canonical_url": "https://techcrunch.com/2026/07/30/linkedin-adds-a-button-to-report-ai-generated-slop",
+      "created_at": "2026-07-30T18:44:52Z",
+      "status": "scoring_attempted",
+      "title": "LinkedIn adds a button to report AI-generated \u2018slop\u2019"
+    },
     "https://techcrunch.com/2026/07/30/meta-says-ai-is-making-it-easier-to-build-new-apps-and-more-are-coming": {
       "canonical_url": "https://techcrunch.com/2026/07/30/meta-says-ai-is-making-it-easier-to-build-new-apps-and-more-are-coming",
       "created_at": "2026-07-30T15:50:29Z",
@@ -4133,12 +4160,6 @@
       "created_at": "2026-07-25T16:42:46Z",
       "status": "scoring_attempted",
       "title": "Open-weight AI is having its Kubernetes moment. Let's not ruin it"
-    },
-    "https://tombedor.dev/arguments-against-open-source-ai-are-very-bad": {
-      "canonical_url": "https://tombedor.dev/arguments-against-open-source-ai-are-very-bad",
-      "created_at": "2026-07-23T18:37:11Z",
-      "status": "scoring_attempted",
-      "title": "The arguments against open source AI are bad"
     },
     "https://twitter.com/HedgieMarkets/status/2081534588485296565": {
       "canonical_url": "https://twitter.com/HedgieMarkets/status/2081534588485296565",
@@ -4812,6 +4833,12 @@
       "status": "scoring_attempted",
       "title": "OpenAI president says it&#8217;s &#8216;building a family of devices&#8217; for its AI chatbots"
     },
+    "https://www.theverge.com/ai-artificial-intelligence/973384/linkedin-seems-like-ai-slop-button": {
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/973384/linkedin-seems-like-ai-slop-button",
+      "created_at": "2026-07-30T18:44:52Z",
+      "status": "scoring_attempted",
+      "title": "LinkedIn actually adds a \u2018seems like AI slop\u2019 button"
+    },
     "https://www.theverge.com/business/971011/warner-bros-suing-amazon-poaching-employees": {
       "canonical_url": "https://www.theverge.com/business/971011/warner-bros-suing-amazon-poaching-employees",
       "created_at": "2026-07-25T14:26:01Z",
@@ -4859,12 +4886,6 @@
       "created_at": "2026-07-30T13:08:00Z",
       "status": "scoring_attempted",
       "title": "Spotify Running Mode helps match tunes to tempo"
-    },
-    "https://www.theverge.com/gadgets/960331/corsair-frame-4500x-deal-pc-case-sale": {
-      "canonical_url": "https://www.theverge.com/gadgets/960331/corsair-frame-4500x-deal-pc-case-sale",
-      "created_at": "2026-07-23T18:37:11Z",
-      "status": "scoring_attempted",
-      "title": "Corsair\u2019s PC case with a panoramic glass design is $70 off"
     },
     "https://www.theverge.com/gadgets/970559/acer-chromebook-spin-anker-charger-nintendo-logitech-deal-sale": {
       "canonical_url": "https://www.theverge.com/gadgets/970559/acer-chromebook-spin-anker-charger-nintendo-logitech-deal-sale",
@@ -5022,6 +5043,12 @@
       "status": "scoring_attempted",
       "title": "DoorDash is going airborne with new drone delivery division"
     },
+    "https://www.theverge.com/science/973314/nasa-curiosity-rover-mars-polygons": {
+      "canonical_url": "https://www.theverge.com/science/973314/nasa-curiosity-rover-mars-polygons",
+      "created_at": "2026-07-30T18:44:52Z",
+      "status": "scoring_attempted",
+      "title": "NASA\u2019s Curiosity rover found a \u2018sea of polygons\u2019 on Mars"
+    },
     "https://www.theverge.com/streaming/970814/roku-streaming-price-increase": {
       "canonical_url": "https://www.theverge.com/streaming/970814/roku-streaming-price-increase",
       "created_at": "2026-07-24T18:44:11Z",
@@ -5039,12 +5066,6 @@
       "created_at": "2026-07-28T13:16:41Z",
       "status": "scoring_attempted",
       "title": "You don\u2019t need to splurge on an expensive handheld fan to beat the heat"
-    },
-    "https://www.theverge.com/tech/970211/patreon-layoffs-ai": {
-      "canonical_url": "https://www.theverge.com/tech/970211/patreon-layoffs-ai",
-      "created_at": "2026-07-23T18:37:11Z",
-      "status": "scoring_attempted",
-      "title": "Patreon is laying off 20 percent of workers"
     },
     "https://www.theverge.com/tech/970399/amazon-alexa-plus-ai-update-smart-home-devices": {
       "canonical_url": "https://www.theverge.com/tech/970399/amazon-alexa-plus-ai-update-smart-home-devices",
@@ -5201,6 +5222,12 @@
       "created_at": "2026-07-30T17:10:53Z",
       "status": "scoring_attempted",
       "title": "Pixel 11 Pro Fold design leaks ahead of Google launch event"
+    },
+    "https://www.theverge.com/tech/973276/google-deepmind-gemini-robotics-2-whole-body": {
+      "canonical_url": "https://www.theverge.com/tech/973276/google-deepmind-gemini-robotics-2-whole-body",
+      "created_at": "2026-07-30T18:44:52Z",
+      "status": "scoring_attempted",
+      "title": "Google DeepMind\u2019s new AI model can control a robot\u2019s entire body"
     },
     "https://www.theverge.com/transportation/970560/tesla-electronic-door-crash-nhtsa-safety-rules": {
       "canonical_url": "https://www.theverge.com/transportation/970560/tesla-electronic-door-crash-nhtsa-safety-rules",
