@@ -104,29 +104,6 @@
         ]
       }
     },
-    "08ae05200b3a8204ae62cfb02375f3564777f80d93642c29314a566441af81cf": {
-      "created_at": "2026-07-30T22:31:03Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 1,
-            "novelty_score": 2.0,
-            "reason": "Industry move with moderate impact, fresh, and from a tier A source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Xbox CEO lays out priorities in memo after major \u2018reset\u2019",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "0b06570cd767a58321e91e87e2aecfec1ad99a9015277e054e9e3a78a9e9c883": {
       "created_at": "2026-07-31T03:55:22Z",
       "payload": {
@@ -542,34 +519,6 @@
         }
       }
     },
-    "4d47d715525fa8bbe20914b150657d6a2d7541241e3c69ac7c3297d8e5bc4695": {
-      "created_at": "2026-07-30T22:31:03Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Apple's potential AI usage tier could significantly impact AI adoption and cloud service pricing.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Tim Cook hints at iCloud Plus tier for AI power users",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Apple CEO Tim Cook hinted at a potential iCloud Plus tier for AI power users during an earnings call. This could mean users will pay more for increased AI usage limits, signaling a shift in how AI capabilities are monetized. Link: https://www.theverge.com/tech/973552/apple-ceo-tim-cook-icloud-plus-ai",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Tim Cook hints at iCloud Plus tier for AI power users*\n\nApple may allow users to pay to increase their AI usage limits, signaling a potential shift in AI monetization.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/tech/973552/apple-ceo-tim-cook-icloud-plus-ai\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Apple might introduce a premium iCloud tier for AI power users, suggesting AI capabilities could become a metered service. This could significantly impact how users interact with AI tools. https://www.theverge.com/tech/973552/apple-ceo-tim-cook-icloud-plus-ai",
-          "twitter": "Apple may introduce a premium iCloud tier for AI power users, hinting at a future where AI capabilities are metered and monetized.\nhttps://www.theverge.com/tech/973552/apple-ceo-tim-cook-icloud-plus-ai"
-        }
-      }
-    },
     "723e4a36fa9594fbe007238626b05496b0a01d7f4e64a5643dba499f601e03e5": {
       "created_at": "2026-07-31T15:36:29Z",
       "payload": {
@@ -926,6 +875,31 @@
         "social_media_rules": []
       }
     },
+    "983dcdeaac1396ae7e7a9f12169e7333e92a98bacfc65f333b728f9743e071d8": {
+      "created_at": "2026-07-31T22:41:47Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 0.5,
+              "index": 0,
+              "novelty_score": 1.5,
+              "reason": "Gadget review with niche impact and no red flags, but low novelty and impact scores.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "With Switch 2, iPhone, and laptop tricks, the Sharge Disk Pro 2 is finally a worthy EDC",
+              "total_score": 5.5
+            }
+          ],
+          "best_index": 0,
+          "best_score": 5.5,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
     "ac9e3e3f584e32d837d2958ed6b78a0d4abecbcd534cf5e678288612b997660d": {
       "created_at": "2026-07-31T06:40:34Z",
       "payload": {
@@ -1006,6 +980,31 @@
           ],
           "best_index": 4,
           "best_score": 7.5,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
+    "b57e8b058f2493a3aa2288f65e364f3123b0d54474257465ded7e81d4a5eaa9e": {
+      "created_at": "2026-07-31T22:41:47Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.5,
+              "impact_score": 2.5,
+              "index": 5,
+              "novelty_score": 2.5,
+              "reason": "Research with high novelty and impact but low source tier and freshness.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Predictive Speculative KV Replication for Bursty LLM Inference",
+              "total_score": 7.0
+            }
+          ],
+          "best_index": 5,
+          "best_score": 7.0,
           "recommendation": "SKIP",
           "social_posts": {}
         }
@@ -1729,15 +1728,6 @@
         "twitter": "US government targets China with import ban on advanced robotic devices and power inverters @TheVerge #robotics"
       }
     },
-    "eb9fc14b4da9bb53c3c41dda42a2d8df26390ae4c77996065c3d30c4651cb0d4": {
-      "created_at": "2026-07-24T22:31:22Z",
-      "payload": {
-        "facebook": "The future of AI is shifting towards automating routine computer tasks, according to Prentis, a new lab co-founded by Reid Hoffman and Marc Pincus, which is in talks to raise $100M. This development could have significant implications for the industry. #AI #Automation #Innovation",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 New AI Lab Emerges\nPrentis lab, co-founded by Reid Hoffman and Marc Pincus, is in talks to raise $100M, focusing on automating routine computer tasks as AI's next big use case.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #Automation #Innovation\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Prentis lab, co-founded by @ReidHoffman, is betting on automation of routine computer tasks as the next big use case for AI, with a potential $100M funding on the table, signaling a major industry shift #AI",
-        "twitter": "Automation of routine computer tasks may soon surpass coding as AI's primary use case, says Prentis lab co-founded by @ReidHoffman, with potential $100M funding #AI"
-      }
-    },
     "f0873d0bf575a89db1ea3b90779273029a1b63fb4634bf19e87d616a10c30b6c": {
       "created_at": "2026-07-30T00:00:33Z",
       "payload": {
@@ -1796,12 +1786,6 @@
       "created_at": "2026-07-26T16:43:44Z",
       "status": "scoring_attempted",
       "title": "This July I Was Fired from Simple AI (A Deeply YC Company)"
-    },
-    "https://arstechnica.com/ai/2026/07/canadian-legislator-reads-out-apparent-llm-response-in-floor-speech": {
-      "canonical_url": "https://arstechnica.com/ai/2026/07/canadian-legislator-reads-out-apparent-llm-response-in-floor-speech",
-      "created_at": "2026-07-24T22:31:22Z",
-      "status": "scoring_attempted",
-      "title": "Canadian legislator reads out apparent LLM response in floor speech"
     },
     "https://arstechnica.com/ai/2026/07/chatgpt-stops-cloning-famous-writers-voices-but-may-capture-a-similar-feeling": {
       "canonical_url": "https://arstechnica.com/ai/2026/07/chatgpt-stops-cloning-famous-writers-voices-but-may-capture-a-similar-feeling",
@@ -2805,6 +2789,12 @@
       "status": "scoring_attempted",
       "title": "GPT-5.6 vs. Claude Fable 5 for Physical AI, which performs best?"
     },
+    "https://jwlabs.vercel.app/post/biting-the-bullet": {
+      "canonical_url": "https://jwlabs.vercel.app/post/biting-the-bullet",
+      "created_at": "2026-07-31T22:41:47Z",
+      "status": "scoring_attempted",
+      "title": "Predictive Speculative KV Replication for Bursty LLM Inference"
+    },
     "https://karimjedda.com/engineering-management-after-cost-of-code-collapse": {
       "canonical_url": "https://karimjedda.com/engineering-management-after-cost-of-code-collapse",
       "created_at": "2026-07-25T16:42:46Z",
@@ -3068,12 +3058,6 @@
       "created_at": "2026-07-25T01:25:20Z",
       "status": "scoring_attempted",
       "title": "I tried out OpenAI\u2019s new AI keypad \u2014 which will be fun for some coders and slightly mystifying to everyone else"
-    },
-    "https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-marc-pincus-in-talks-to-raise-100m": {
-      "canonical_url": "https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-marc-pincus-in-talks-to-raise-100m",
-      "created_at": "2026-07-24T22:31:22Z",
-      "status": "scoring_attempted",
-      "title": "Prentis, new AI lab co-founded by Reid Hoffman, Marc Pincus in talks to raise $100M"
     },
     "https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech": {
       "canonical_url": "https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech",
@@ -3807,12 +3791,6 @@
       "status": "scoring_attempted",
       "title": "Datalab Marker v2 vs MinerU, Docling, and Liteparse: Benchmark Breakdown"
     },
-    "https://www.marktechpost.com/2026/07/24/meet-the-new-claude-opus-5-frontier-class-agentic-coding-and-computer-use-at-unchanged-opus-pricing": {
-      "canonical_url": "https://www.marktechpost.com/2026/07/24/meet-the-new-claude-opus-5-frontier-class-agentic-coding-and-computer-use-at-unchanged-opus-pricing",
-      "created_at": "2026-07-24T22:31:22Z",
-      "status": "scoring_attempted",
-      "title": "Meet the New Claude Opus 5: Frontier-Class Agentic Coding and Computer Use at Unchanged Opus Pricing"
-    },
     "https://www.marktechpost.com/2026/07/25/meet-open-dreamer-a-jax-flax-reproduction-of-the-dreamer-4-world-model-pipeline-with-the-full-training-recipe-published": {
       "canonical_url": "https://www.marktechpost.com/2026/07/25/meet-open-dreamer-a-jax-flax-reproduction-of-the-dreamer-4-world-model-pipeline-with-the-full-training-recipe-published",
       "created_at": "2026-07-25T20:03:36Z",
@@ -4196,6 +4174,12 @@
       "created_at": "2026-07-30T17:10:53Z",
       "status": "scoring_attempted",
       "title": "Friend re-launches its AI pendant with a speaker that talks to you, for twice the price"
+    },
+    "https://www.theverge.com/gadgets/973886/sharge-disk-pro-2-hands-on-switch-2-hdmi-usb-c-dock": {
+      "canonical_url": "https://www.theverge.com/gadgets/973886/sharge-disk-pro-2-hands-on-switch-2-hdmi-usb-c-dock",
+      "created_at": "2026-07-31T22:41:47Z",
+      "status": "scoring_attempted",
+      "title": "With Switch 2, iPhone, and laptop tricks, the Sharge Disk Pro 2 is finally a worthy EDC"
     },
     "https://www.theverge.com/gadgets/973973/apple-airtag-second-generation-deal-sale": {
       "canonical_url": "https://www.theverge.com/gadgets/973973/apple-airtag-second-generation-deal-sale",
