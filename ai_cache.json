@@ -705,6 +705,43 @@
         "social_posts": {}
       }
     },
+    "768329cbc04fba27b1017faf92c460a0846d69486fd760511b4d070652495e4e": {
+      "created_at": "2026-07-31T18:59:27Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2,
+              "impact_score": 2.5,
+              "index": 0,
+              "novelty_score": 2,
+              "reason": "Industry move with high impact on Tesla users and developers, fresh (<1h) from Tier A source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "The NHTSA is investigating 1.2 million Tesla vehicles over suspension failure reports",
+              "total_score": 8
+            },
+            {
+              "freshness_score": 2,
+              "impact_score": 1.5,
+              "index": 1,
+              "novelty_score": 2,
+              "reason": "Industry move with niche impact on hardware developers, fresh (<1h) from Tier A source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Google might launch a \u2018Pixel Tag\u2019",
+              "total_score": 7
+            }
+          ],
+          "best_index": 0,
+          "best_score": 8,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
     "7867ae4982a3cbc797040b1c7f1761da4d1c88553bdf7c1722cd145d0b398019": {
       "created_at": "2026-07-31T03:55:22Z",
       "payload": {
@@ -747,29 +784,6 @@
         ],
         "best_index": 2,
         "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "7babdb5a8b59353f840e4bc34d67038c2e8142329a8235aface54b051d178c00": {
-      "created_at": "2026-07-30T18:44:52Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 8,
-            "novelty_score": 2.5,
-            "reason": "New feature for GitHub PRs, but source is Hacker News and not a direct GitHub blog post.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Stacked PRs are now live on GitHub",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 8,
-        "best_score": 6.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -860,6 +874,38 @@
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "904aad37cffa3019e99a6da6bad6eea0b46c2fbbddf5cdb0c7586272724ea69a": {
+      "created_at": "2026-07-31T18:59:27Z",
+      "payload": {
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.5,
+              "index": 5,
+              "novelty_score": 3.0,
+              "reason": "New release with broad impact on DevOps workflows, published under 1 hour ago from a Tier B source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.0,
+              "title": "Terraform Introduces tfpolicy, an HCL-based Policy-as-Code Framework",
+              "total_score": 8.5
+            }
+          ],
+          "best_index": 5,
+          "best_score": 8.5,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "HashiCorp has released tfpolicy, an HCL-based policy-as-code framework for Terraform. It aims to modernize infrastructure governance by embedding policy creation and enforcement into Terraform workflows. This could streamline compliance and reduce manual errors in large-scale deployments.\n\nLink: https://www.infoq.com/news/2026/07/terraform-policy-as-code/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Terraform Introduces tfpolicy, an HCL-based Policy-as-Code Framework*\n\nHashiCorp has launched tfpolicy, a new HCL-based policy-as-code framework for Terraform. It integrates policy creation and enforcement directly into Terraform workflows to modernize infrastructure governance.\n\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (Tier B)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.infoq.com/news/2026/07/terraform-policy-as-code/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "HashiCorp just shipped tfpolicy, a new HCL-based policy-as-code framework for Terraform. It integrates policy enforcement directly into Terraform workflows to simplify infrastructure governance.\n\nhttps://www.infoq.com/news/2026/07/terraform-policy-as-code/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+            "twitter": "HashiCorp just launched tfpolicy, a new HCL-based policy-as-code framework for Terraform. It integrates policy enforcement directly into Terraform workflows to simplify infrastructure governance.\n\nhttps://www.infoq.com/news/2026/07/terraform-policy-as-code/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+          }
+        },
+        "social_media_rules": []
       }
     },
     "91520a6c3cae413fe0b04eee25b4d53848a67c67e27ea028687c7f64224ec7b6": {
@@ -978,43 +1024,28 @@
         "social_posts": {}
       }
     },
-    "ad5d15261ec2e33515dac4d91a9e6a89fb34e11db8785ce3805d86625f116fab": {
-      "created_at": "2026-07-30T18:44:52Z",
+    "b57bc7d101543ed439de40ca2ca4dedc828efeb184d6907f5ef13fdcc8ebd216": {
+      "created_at": "2026-07-31T18:59:27Z",
       "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "Google's new robotics platform is a significant industry move with broad implications for developers and researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Google reveals Gemini Robotics 2.0, promising improved dexterity and safety",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 3,
-            "novelty_score": 2,
-            "reason": "Interesting discovery but less relevant to software engineers and AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "NASA\u2019s Curiosity rover found a \u2018sea of polygons\u2019 on Mars",
-            "total_score": 6.5
-          }
-        ],
-        "best_index": 2,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Google has unveiled Gemini Robotics 2.0, a new platform for robotics development. The release includes three models, but only one is publicly available right now. This could be a significant step forward for robotics research and development. Link: https://arstechnica.com/ai/2026/07/google-reveals-gemini-robotics-2-0-promising-improved-dexterity-and-safety/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Google reveals Gemini Robotics 2.0, promising improved dexterity and safety*\n\nGoogle's new robotics platform includes three models, but only one is publicly available right now.\n\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://arstechnica.com/ai/2026/07/google-reveals-gemini-robotics-2-0-promising-improved-dexterity-and-safety/",
-          "threads": "Google's Gemini Robotics 2.0 platform is now available, with two models still under wraps. This could be a significant step forward for robotics research and development. https://arstechnica.com/ai/2026/07/google-reveals-gemini-robotics-2-0-promising-improved-dexterity-and-safety/",
-          "twitter": "Google's Gemini Robotics 2.0 platform now available, with two models still under wraps. https://arstechnica.com/ai/2026/07/google-reveals-gemini-robotics-2-0-promising-improved-dexterity-and-safety/"
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2,
+              "impact_score": 2.5,
+              "index": 4,
+              "novelty_score": 2.5,
+              "reason": "Research/industry move with high freshness but low source tier.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Everyone is building LLM routers, we deprecated ours",
+              "total_score": 7.5
+            }
+          ],
+          "best_index": 4,
+          "best_score": 7.5,
+          "recommendation": "SKIP",
+          "social_posts": {}
         }
       }
     },
@@ -1056,6 +1087,48 @@
           "social_posts": {}
         },
         "social_media_rules": []
+      }
+    },
+    "c5de4f9cfdbcbf1842735032b90190a1f55d560104c12d9b5eede87fd24de904": {
+      "created_at": "2026-07-31T18:59:27Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.5,
+              "index": 2,
+              "novelty_score": 2.5,
+              "reason": "Research-driven shift in global AI discourse with high freshness and impact on the AI community.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Chinese AI Researchers Are Finding Their Voice on X",
+              "total_score": 8.5
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 1.5,
+              "index": 3,
+              "novelty_score": 2.0,
+              "reason": "Industry-adjacent societal impact but lower novelty and niche appeal.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "High school defends staying silent while boys made AI nudes of 59 classmates",
+              "total_score": 7.0
+            }
+          ],
+          "best_index": 2,
+          "best_score": 8.5,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "Chinese AI researchers are increasingly taking to X to explain their work, recruit talent, and influence the global conversation on AI. This shift comes as Western researchers grow quieter online, raising questions about transparency and collaboration in the field.\n\nLink: https://www.wired.com/story/chinese-ai-researchers-are-finding-their-voice-on-x/",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Chinese AI Researchers Are Finding Their Voice on X*\n\nResearchers at Chinese AI labs are flocking to X to explain their work, recruit talent, and shape the global conversation on AI, as Western researchers grow quieter online.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.wired.com/story/chinese-ai-researchers-are-finding-their-voice-on-x/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "Chinese AI researchers are filling the transparency gap left by Western labs by using X to share their work and recruit talent. The move could reshape how global AI progress is communicated.\n\nhttps://www.wired.com/story/chinese-ai-researchers-are-finding-their-voice-on-x/",
+            "twitter": "Chinese AI researchers are bypassing corporate silence to shape global AI discourse on X. Early signs suggest a strategic shift in how the field communicates its progress.\n\nhttps://www.wired.com/story/chinese-ai-researchers-are-finding-their-voice-on-x/"
+          }
+        }
       }
     },
     "d36a303900ff40a913b680e97431c36be773c7e80cbba0545d19290454808ccf": {
@@ -1199,29 +1272,6 @@
         ],
         "best_index": 0,
         "best_score": 7.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "fc1263874f8abd3e4d8379cd063e1c05f1498f39e1a141884910ca08720636db": {
-      "created_at": "2026-07-30T18:44:52Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 4,
-            "novelty_score": 2.5,
-            "reason": "New AI model for whole-body robot control, but not a full release yet.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Google DeepMind\u2019s new AI model can control a robot\u2019s entire body",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 4,
-        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1598,15 +1648,6 @@
         "twitter": "People are flocking to libraries for 'Avoiding AI' workshops, a sign of growing discontent with Big Tech @TechCrunch #AIethics"
       }
     },
-    "d3194f1ce4fdfc8badd577456550955636a037ccca0537b1d485fe6add628d74": {
-      "created_at": "2026-07-24T18:44:11Z",
-      "payload": {
-        "facebook": "The recent acquisition of Poke by Cognition highlights the growing importance of AI personality in the tech industry. As AI assistants become more prevalent, their ability to interact with humans in a conversational manner is becoming a major differentiator. This trend is likely to continue, with significant implications for developers and the broader AI landscape #AI #TechAcquisitions #PersonalityMatters",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 AI Personality Takes Center Stage\nCognition's acquisition of Poke highlights the growing significance of conversational AI models in the industry, with AI personality becoming a major differentiator.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AIpersonality #TechAcquisitions #ConversationalAI\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Cognition's acquisition of Poke underscores the increasing importance of AI personality in the industry, with conversational AI models becoming a key competitive advantage @TechCrunch #AI",
-        "twitter": "Cognition acquires Poke, indicating AI personality is becoming key to competitive advantage @TechCrunch #AIpersonality"
-      }
-    },
     "d39ef79224619b7458e79f43e6831a4b455f2a2a6cbda905c31b8f6e3e348b19": {
       "created_at": "2026-07-29T15:29:15Z",
       "payload": {
@@ -1798,12 +1839,6 @@
       "status": "scoring_attempted",
       "title": "New MCP specification addresses the main barrier to enterprise adoption"
     },
-    "https://arstechnica.com/science/2026/07/team-uses-alphafold-ai-to-redesign-gene-editing-proteins-to-make-them-safer": {
-      "canonical_url": "https://arstechnica.com/science/2026/07/team-uses-alphafold-ai-to-redesign-gene-editing-proteins-to-make-them-safer",
-      "created_at": "2026-07-24T18:44:11Z",
-      "status": "scoring_attempted",
-      "title": "Team uses AlphaFold AI to redesign gene-editing proteins to make them safer"
-    },
     "https://arstechnica.com/science/2026/07/what-happens-when-you-put-ai-to-work-deciphering-lost-languages": {
       "canonical_url": "https://arstechnica.com/science/2026/07/what-happens-when-you-put-ai-to-work-deciphering-lost-languages",
       "created_at": "2026-07-29T13:27:14Z",
@@ -1857,6 +1892,12 @@
       "created_at": "2026-07-27T20:52:50Z",
       "status": "scoring_attempted",
       "title": "\u201cGoogle and Reddit do not own the Internet,\" web scraper says after court win"
+    },
+    "https://arstechnica.com/tech-policy/2026/07/high-school-defends-staying-silent-while-boys-made-ai-nudes-of-59-classmates": {
+      "canonical_url": "https://arstechnica.com/tech-policy/2026/07/high-school-defends-staying-silent-while-boys-made-ai-nudes-of-59-classmates",
+      "created_at": "2026-07-31T18:59:27Z",
+      "status": "scoring_attempted",
+      "title": "High school defends staying silent while boys made AI nudes of 59 classmates"
     },
     "https://arstechnica.com/tech-policy/2026/07/how-a-yale-ai-cheating-dispute-became-a-13-count-federal-lawsuit": {
       "canonical_url": "https://arstechnica.com/tech-policy/2026/07/how-a-yale-ai-cheating-dispute-became-a-13-count-federal-lawsuit",
@@ -2752,6 +2793,12 @@
       "status": "scoring_attempted",
       "title": "GCC steering committee announces AI policy"
     },
+    "https://manifest.build/blog/why-we-deprecated-our-llm-router": {
+      "canonical_url": "https://manifest.build/blog/why-we-deprecated-our-llm-router",
+      "created_at": "2026-07-31T18:59:27Z",
+      "status": "scoring_attempted",
+      "title": "Everyone is building LLM routers, we deprecated ours"
+    },
     "https://marbleos.com/demo": {
       "canonical_url": "https://marbleos.com/demo",
       "created_at": "2026-07-31T06:40:34Z",
@@ -2961,12 +3008,6 @@
       "created_at": "2026-07-24T22:31:22Z",
       "status": "scoring_attempted",
       "title": "Prentis, new AI lab co-founded by Reid Hoffman, Marc Pincus in talks to raise $100M"
-    },
-    "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage": {
-      "canonical_url": "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage",
-      "created_at": "2026-07-24T18:44:11Z",
-      "status": "scoring_attempted",
-      "title": "Why Cognition bought Poke: AI personality is becoming a competitive advantage"
     },
     "https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech": {
       "canonical_url": "https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech",
@@ -3370,12 +3411,6 @@
       "status": "scoring_attempted",
       "title": "What if LLMs escape through inferences itself? This is fiction. For now"
     },
-    "https://www.anthropic.com/news/claude-opus-5": {
-      "canonical_url": "https://www.anthropic.com/news/claude-opus-5",
-      "created_at": "2026-07-24T18:44:11Z",
-      "status": "scoring_attempted",
-      "title": "Introducing Claude Opus 5"
-    },
     "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals": {
       "canonical_url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
       "created_at": "2026-07-31T00:16:51Z",
@@ -3430,12 +3465,6 @@
       "status": "scoring_attempted",
       "title": "How AI is Changing Linux VPS Security for Businesses"
     },
-    "https://www.artificialintelligence-news.com/news/meta-microsoft-nvidia-ibm-others-back-open-weight-ai": {
-      "canonical_url": "https://www.artificialintelligence-news.com/news/meta-microsoft-nvidia-ibm-others-back-open-weight-ai",
-      "created_at": "2026-07-24T18:44:11Z",
-      "status": "scoring_attempted",
-      "title": "Meta, Microsoft, Nvidia, IBM, and others back open-weight AI"
-    },
     "https://www.artificialintelligence-news.com/news/openai-aligns-safety-practices-with-eu-ai-act-gpai-code": {
       "canonical_url": "https://www.artificialintelligence-news.com/news/openai-aligns-safety-practices-with-eu-ai-act-gpai-code",
       "created_at": "2026-07-31T15:36:29Z",
@@ -3465,12 +3494,6 @@
       "created_at": "2026-07-25T22:10:44Z",
       "status": "scoring_attempted",
       "title": "A 77-year-old Republican man is staging a solo protest against Flock cameras"
-    },
-    "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html": {
-      "canonical_url": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
-      "created_at": "2026-07-24T18:44:11Z",
-      "status": "scoring_attempted",
-      "title": "Nvidia, Microsoft, Meta warn against overregulating open-weight models"
     },
     "https://www.coindesk.com/markets/2026/07/24/brazilian-farmers-tokenized-dairy-cows-to-get-loans-bypassing-bank-lending-limits": {
       "canonical_url": "https://www.coindesk.com/markets/2026/07/24/brazilian-farmers-tokenized-dairy-cows-to-get-loans-bypassing-bank-lending-limits",
@@ -3663,6 +3686,12 @@
       "created_at": "2026-07-27T07:25:50Z",
       "status": "scoring_attempted",
       "title": "TanStack Table V9 Beta: Tree-Shakable Features, TanStack Store State, and Lower Memory Usage"
+    },
+    "https://www.infoq.com/news/2026/07/terraform-policy-as-code": {
+      "canonical_url": "https://www.infoq.com/news/2026/07/terraform-policy-as-code",
+      "created_at": "2026-07-31T18:59:27Z",
+      "status": "scoring_attempted",
+      "title": "Terraform Introduces tfpolicy, an HCL-based Policy-as-Code Framework"
     },
     "https://www.infoq.com/podcasts/rethinking-data-client-event-sourcing": {
       "canonical_url": "https://www.infoq.com/podcasts/rethinking-data-client-event-sourcing",
@@ -3904,12 +3933,6 @@
       "status": "scoring_attempted",
       "title": "The AI jobs apocalypse probably isn't coming anytime soon"
     },
-    "https://www.theverge.com/ai-artificial-intelligence/970105/claude-opus-5-announced-anthropic-ai-model-release": {
-      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/970105/claude-opus-5-announced-anthropic-ai-model-release",
-      "created_at": "2026-07-24T18:44:11Z",
-      "status": "scoring_attempted",
-      "title": "Anthropic releases Opus 5 with \u2018close\u2019 to Fable 5\u2019s capabilities"
-    },
     "https://www.theverge.com/ai-artificial-intelligence/970894/midjourney-co-star-acquisition": {
       "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/970894/midjourney-co-star-acquisition",
       "created_at": "2026-07-24T20:04:50Z",
@@ -4017,12 +4040,6 @@
       "created_at": "2026-07-26T12:53:04Z",
       "status": "scoring_attempted",
       "title": "The vertical video takeover is here"
-    },
-    "https://www.theverge.com/entertainment/970524/blade-runner-2099-date-trailer-amazon-prime-video": {
-      "canonical_url": "https://www.theverge.com/entertainment/970524/blade-runner-2099-date-trailer-amazon-prime-video",
-      "created_at": "2026-07-24T18:44:11Z",
-      "status": "scoring_attempted",
-      "title": "Blade Runner 2099\u2019s moody dystopia streams on Amazon in November"
     },
     "https://www.theverge.com/entertainment/971069/carrie-amazon-mike-flanagan-trailer-comic-con": {
       "canonical_url": "https://www.theverge.com/entertainment/971069/carrie-amazon-mike-flanagan-trailer-comic-con",
@@ -4144,12 +4161,6 @@
       "status": "scoring_attempted",
       "title": "Xbox CEO lays out priorities in memo after major &#8216;reset&#8217;"
     },
-    "https://www.theverge.com/podcast/970735/google-zero-reddit-ai-publishers-vergecast": {
-      "canonical_url": "https://www.theverge.com/podcast/970735/google-zero-reddit-ai-publishers-vergecast",
-      "created_at": "2026-07-24T18:44:11Z",
-      "status": "scoring_attempted",
-      "title": "You can\u2019t ignore Google Zero anymore"
-    },
     "https://www.theverge.com/podcast/971306/tariffs-liberation-day-ai-trade-shipping-jobs-canada": {
       "canonical_url": "https://www.theverge.com/podcast/971306/tariffs-liberation-day-ai-trade-shipping-jobs-canada",
       "created_at": "2026-07-27T15:59:27Z",
@@ -4204,12 +4215,6 @@
       "status": "scoring_attempted",
       "title": "NASA\u2019s Curiosity rover found a \u2018sea of polygons\u2019 on Mars"
     },
-    "https://www.theverge.com/streaming/970814/roku-streaming-price-increase": {
-      "canonical_url": "https://www.theverge.com/streaming/970814/roku-streaming-price-increase",
-      "created_at": "2026-07-24T18:44:11Z",
-      "status": "scoring_attempted",
-      "title": "Roku raises streaming hardware prices by up to $50"
-    },
     "https://www.theverge.com/streaming/971880/hbo-max-vertical-video-feed-shorts": {
       "canonical_url": "https://www.theverge.com/streaming/971880/hbo-max-vertical-video-feed-shorts",
       "created_at": "2026-07-28T16:04:16Z",
@@ -4227,18 +4232,6 @@
       "created_at": "2026-07-25T07:08:00Z",
       "status": "scoring_attempted",
       "title": "Forget expensive sleepbuds. Buy this pillow instead"
-    },
-    "https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update": {
-      "canonical_url": "https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update",
-      "created_at": "2026-07-24T18:44:11Z",
-      "status": "scoring_attempted",
-      "title": "Meta is making its AI chatbot more like an assistant"
-    },
-    "https://www.theverge.com/tech/970848/nothing-layoffs-rumors-phone-4b": {
-      "canonical_url": "https://www.theverge.com/tech/970848/nothing-layoffs-rumors-phone-4b",
-      "created_at": "2026-07-24T18:44:11Z",
-      "status": "scoring_attempted",
-      "title": "Nothing confirms layoffs, but calls market exit rumors &#8216;fake news&#8217;"
     },
     "https://www.theverge.com/tech/971041/google-confirms-pixel-11-price-hike": {
       "canonical_url": "https://www.theverge.com/tech/971041/google-confirms-pixel-11-price-hike",
@@ -4384,6 +4377,12 @@
       "status": "scoring_attempted",
       "title": "The ban on robot vacuums won\u2019t make them safer, only worse"
     },
+    "https://www.theverge.com/tech/973889/google-pixel-tag-item-tracker": {
+      "canonical_url": "https://www.theverge.com/tech/973889/google-pixel-tag-item-tracker",
+      "created_at": "2026-07-31T18:59:27Z",
+      "status": "scoring_attempted",
+      "title": "Google might launch a \u2018Pixel Tag\u2019"
+    },
     "https://www.theverge.com/transportation/972569/ferrari-luce-ev-sales": {
       "canonical_url": "https://www.theverge.com/transportation/972569/ferrari-luce-ev-sales",
       "created_at": "2026-07-29T15:29:15Z",
@@ -4395,6 +4394,12 @@
       "created_at": "2026-07-30T15:21:40Z",
       "status": "scoring_attempted",
       "title": "Zoox can now charge for rides in its steering-wheel-free robotaxis"
+    },
+    "https://www.theverge.com/transportation/973887/nhtsa-tesla-investigation-suspension": {
+      "canonical_url": "https://www.theverge.com/transportation/973887/nhtsa-tesla-investigation-suspension",
+      "created_at": "2026-07-31T18:59:27Z",
+      "status": "scoring_attempted",
+      "title": "The NHTSA is investigating 1.2 million Tesla vehicles over suspension failure reports"
     },
     "https://www.tucsonsentinel.com/local/report/072926_melendez_swatting/man-seeks-millions-after-being-shot-by-pima-deputies-swatting-incident": {
       "canonical_url": "https://www.tucsonsentinel.com/local/report/072926_melendez_swatting/man-seeks-millions-after-being-shot-by-pima-deputies-swatting-incident",
@@ -4425,6 +4430,12 @@
       "created_at": "2026-07-29T09:34:31Z",
       "status": "scoring_attempted",
       "title": "Boomers Can\u2019t Stop Gifting Their Grandkids AI-Generated Slop Books"
+    },
+    "https://www.wired.com/story/chinese-ai-researchers-are-finding-their-voice-on-x": {
+      "canonical_url": "https://www.wired.com/story/chinese-ai-researchers-are-finding-their-voice-on-x",
+      "created_at": "2026-07-31T18:59:27Z",
+      "status": "scoring_attempted",
+      "title": "Chinese AI Researchers Are Finding Their Voice on X"
     },
     "https://www.wired.com/story/chrome-needs-twice-a-week-patching-thanks-to-ai-bug-hunting-for-now": {
       "canonical_url": "https://www.wired.com/story/chrome-needs-twice-a-week-patching-thanks-to-ai-bug-hunting-for-now",
@@ -4516,12 +4527,6 @@
       "status": "scoring_attempted",
       "title": "This Is Donald Trump\u2019s AI Brain Trust"
     },
-    "https://www.wired.com/story/uncanny-valley-podcast": {
-      "canonical_url": "https://www.wired.com/story/uncanny-valley-podcast",
-      "created_at": "2026-07-24T18:44:11Z",
-      "status": "scoring_attempted",
-      "title": "Did Chinese AI Steal From Anthropic, and OpenAI Loses Control of Two Models"
-    },
     "https://www.wsj.com/business/china-us-ai-model-costs-53a12e96": {
       "canonical_url": "https://www.wsj.com/business/china-us-ai-model-costs-53a12e96",
       "created_at": "2026-07-25T14:26:01Z",
@@ -4551,12 +4556,6 @@
       "created_at": "2026-07-25T17:47:07Z",
       "status": "scoring_attempted",
       "title": "Politician reads AI prompt during assembly"
-    },
-    "https://www.youtube.com/watch?v=zLZwpH5lCD4": {
-      "canonical_url": "https://www.youtube.com/watch?v=zLZwpH5lCD4",
-      "created_at": "2026-07-24T18:44:11Z",
-      "status": "scoring_attempted",
-      "title": "Don't Take the Black Pill [video]"
     },
     "https://xcancel.com/HedgieMarkets/status/2081534588485296565": {
       "canonical_url": "https://xcancel.com/HedgieMarkets/status/2081534588485296565",
