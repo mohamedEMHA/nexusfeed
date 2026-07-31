@@ -35,6 +35,51 @@
         "social_posts": {}
       }
     },
+    "05d7039c28e85305a4f86e9608be23a020b0fac5966ae26c4b0d1152dc9382be": {
+      "created_at": "2026-07-31T17:48:59Z",
+      "payload": {
+        "candidates": [],
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2,
+              "impact_score": 2.5,
+              "index": 0,
+              "novelty_score": 2,
+              "reason": "Strong industry analysis with high freshness and broad impact for developers and consumers.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "The ban on robot vacuums won\u2019t make them safer, only worse",
+              "total_score": 8
+            },
+            {
+              "freshness_score": 2,
+              "impact_score": 2.5,
+              "index": 1,
+              "novelty_score": 2.5,
+              "reason": "Industry leader commentary with high freshness and broad relevance to AI researchers.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Sam Altman isn\u2019t the only one who wants to pump the brakes on AI",
+              "total_score": 8
+            }
+          ],
+          "best_index": 0,
+          "best_score": 8,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        },
+        "social_media_rules": [
+          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
+          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.",
+          "Use the FULL article title as headline without inventing facts.",
+          "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
+        ]
+      }
+    },
     "08ae05200b3a8204ae62cfb02375f3564777f80d93642c29314a566441af81cf": {
       "created_at": "2026-07-30T22:31:03Z",
       "payload": {
@@ -194,6 +239,48 @@
         "best_score": 8.0,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "205dae96f5fb412ce3c839eab69f026937fe9ed2d0ce94d35263fa8a39931762": {
+      "created_at": "2026-07-31T17:48:59Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.5,
+              "index": 2,
+              "novelty_score": 3.0,
+              "reason": "High novelty (AI integration in Google Earth), broad impact (all users), fresh (<1h), Tier A source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Here\u2019s the problem with putting an AI image generator in Google Earth",
+              "total_score": 9.0
+            },
+            {
+              "freshness_score": 1.5,
+              "impact_score": 2.0,
+              "index": 3,
+              "novelty_score": 2.0,
+              "reason": "Industry move with moderate impact (social media users), fresh (<1h), Tier A source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Snapchat no longer rewards fully AI-generated Spotlight content",
+              "total_score": 7.0
+            }
+          ],
+          "best_index": 2,
+          "best_score": 9.0,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "Google Earth\u2019s new AI image generator lets anyone rewrite satellite imagery with text prompts\u2014like turning a refugee camp into a warzone. The feature risks spreading misinformation at scale.\n\nLink: https://www.theverge.com/ai-artificial-intelligence/973764/google-earth-ai-satellite-images",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Here\u2019s the problem with putting an AI image generator in Google Earth*\n\nGoogle Earth now allows AI-generated images from text prompts, enabling users to alter satellite and aerial imagery. Early examples include fabricated scenes like \"refugees near the Mexican border\" and bomb craters near hospitals in Gaza.\n\n\ud83c\udfdb\ufe0f Source: The Verge (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://www.theverge.com/ai-artificial-intelligence/973764/google-earth-ai-satellite-images\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "Google Earth\u2019s AI can now generate photorealistic satellite images from text prompts. The implications for misinformation and propaganda are immediate and severe.\n\nhttps://www.theverge.com/ai-artificial-intelligence/973764/google-earth-ai-satellite-images",
+            "twitter": "Google Earth now lets AI warp reality with text prompts, raising ethical and accuracy concerns in satellite imagery. Early examples show disturbing misuse cases.\n\nhttps://www.theverge.com/ai-artificial-intelligence/973764/google-earth-ai-satellite-images"
+          }
+        }
       }
     },
     "21a0bda7c08cf231800e796ecb027866b2758700b7e7a7bbb906fba8e87a0c9c": {
@@ -374,29 +461,6 @@
         }
       }
     },
-    "3be0e583496745328e52ffbf64991acf64db1d4279b92aee65d159a77d5845a7": {
-      "created_at": "2026-07-30T17:10:53Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 12,
-            "novelty_score": 2.5,
-            "reason": "A useful tool for Claude Code users but limited impact and from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Show HN: Claude-account \u2013 switch Claude Code accounts without logging in again",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 12,
-        "best_score": 5.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "41f3fc8fb3dcef94b76425a6903b35900b930a78e9d58f50af763d916018bc13": {
       "created_at": "2026-07-31T13:20:50Z",
       "payload": {
@@ -542,46 +606,6 @@
           "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Tim Cook hints at iCloud Plus tier for AI power users*\n\nApple may allow users to pay to increase their AI usage limits, signaling a potential shift in AI monetization.\n\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/tech/973552/apple-ceo-tim-cook-icloud-plus-ai\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
           "threads": "Apple might introduce a premium iCloud tier for AI power users, suggesting AI capabilities could become a metered service. This could significantly impact how users interact with AI tools. https://www.theverge.com/tech/973552/apple-ceo-tim-cook-icloud-plus-ai",
           "twitter": "Apple may introduce a premium iCloud tier for AI power users, hinting at a future where AI capabilities are metered and monetized.\nhttps://www.theverge.com/tech/973552/apple-ceo-tim-cook-icloud-plus-ai"
-        }
-      }
-    },
-    "647288dcbb376a4cd847d1cd039d31d31699f77eead062fa515a898e89641539": {
-      "created_at": "2026-07-30T17:10:53Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "AI-driven bug hunting is accelerating Chrome's patching schedule, a significant shift in software maintenance.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Chrome Needs Twice-a-Week Patching Thanks to AI Bug Hunting",
-            "total_score": 8.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 2,
-            "index": 1,
-            "novelty_score": 2,
-            "reason": "Dynamic patching could reduce disruption, but it's not as groundbreaking as AI-driven bug discovery.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Google is working on Chrome updates that don\u2019t require restarts",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Google has ramped up Chrome's patching schedule to twice a week, driven by AI-assisted vulnerability discovery. This marks a significant shift in how software maintenance is handled, as the two June updates alone patched more bugs than the 23 updates before them. Link: https://www.wired.com/story/chrome-needs-twice-a-week-patching-thanks-to-ai-bug-hunting-for-now/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Chrome Needs Twice-a-Week Patching Thanks to AI Bug Hunting*\n\nGoogle is now patching Chrome twice a week due to AI-driven bug hunting, marking a significant shift in software maintenance.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.wired.com/story/chrome-needs-twice-a-week-patching-thanks-to-ai-bug-hunting-for-now/",
-          "threads": "AI-driven bug hunting is forcing Google to patch Chrome twice a week. This is a big deal for software maintenance. https://www.wired.com/story/chrome-needs-twice-a-week-patching-thanks-to-ai-bug-hunting-for-now/",
-          "twitter": "Google is now patching Chrome twice a week due to AI-driven bug hunting. The shift highlights how AI is changing software maintenance. https://www.wired.com/story/chrome-needs-twice-a-week-patching-thanks-to-ai-bug-hunting-for-now/"
         }
       }
     },
@@ -773,39 +797,46 @@
         "social_posts": {}
       }
     },
-    "80c72429cbc149b238e4b10a9537f5e5bbbd521e50de246434dfe21f3f52d12f": {
-      "created_at": "2026-07-30T17:10:53Z",
+    "84c300de9fe65af1f40f8f6bc7abdae6a3c2390b6b206f1deb9214926ad23a2c": {
+      "created_at": "2026-07-31T17:48:59Z",
       "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 2,
-            "novelty_score": 1.5,
-            "reason": "Leaked renders of an upcoming foldable phone model.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Pixel 11 Pro Fold design leaks ahead of Google launch event",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 3,
-            "novelty_score": 1.5,
-            "reason": "A company re-launches an AI pendant with a new feature and a higher price.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Friend re-launches its AI pendant with a speaker that talks to you, for twice the price",
-            "total_score": 6.5
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2,
+              "impact_score": 2.5,
+              "index": 4,
+              "novelty_score": 2.5,
+              "reason": "Industry move with high impact on music AI and freshness under 1h.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "The major labels propose rules to keep AI slop off the charts",
+              "total_score": 8.5
+            },
+            {
+              "freshness_score": 2,
+              "impact_score": 2,
+              "index": 5,
+              "novelty_score": 2.5,
+              "reason": "Industry move with niche-to-broad impact and freshness under 1h.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Siri AI could come with a paywall for power users",
+              "total_score": 8
+            }
+          ],
+          "best_index": 4,
+          "best_score": 8.5,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "The music industry is drawing a hard line against AI-generated content. Major labels like Universal, Sony, and Warner are proposing rules that would exclude AI songs from official charts entirely. The move goes further than previous proposals, aiming to prevent what they call 'AI slop' from distorting chart rankings.\n\nLink: https://www.theverge.com/ai-artificial-intelligence/973741/ai-music-major-record-labels-charts",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *The major labels propose rules to keep AI slop off the charts*\n\nMajor record labels including Universal Music Group, Sony Music, and Warner Music Group propose strict chart eligibility rules to exclude AI-generated music entirely.\n\n\ud83c\udfdb\ufe0f Source: The Verge (Tier A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/ai-artificial-intelligence/973741/ai-music-major-record-labels-charts\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "Major record labels want AI music off the charts. Universal, Sony, and Warner propose rules to block AI-generated songs from official rankings, calling them 'AI slop'.\n\nhttps://www.theverge.com/ai-artificial-intelligence/973741/ai-music-major-record-labels-charts",
+            "twitter": "Major record labels want AI-generated music banned from charts entirely. Universal, Sony, and Warner propose strict eligibility rules to curb 'AI slop'.\n\nhttps://www.theverge.com/ai-artificial-intelligence/973741/ai-music-major-record-labels-charts"
           }
-        ],
-        "best_index": 2,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
+        }
       }
     },
     "87eed07c2359ed4f8602774de3f3a6c5fcf9e7a1779b8c8fee39d1f4ebe784ea": {
@@ -987,27 +1018,44 @@
         }
       }
     },
-    "c06470150d4ff84f86748d18957297693a6c4bc9b36e07116d9297d2f02e45a3": {
-      "created_at": "2026-07-30T17:10:53Z",
+    "b615ff8eb70162751c891245d96e0d79d885fb06b5e2fbb569d34b8fce165699": {
+      "created_at": "2026-07-31T17:48:59Z",
       "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 4,
-            "novelty_score": 2,
-            "reason": "Okta acquiring Permiso is a notable industry move with significant impact on AI security.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Okta buys AI security startup Permiso; source says for about $200M",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 4,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
+        "candidates": [],
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.5,
+              "impact_score": 2.5,
+              "index": 7,
+              "novelty_score": 3.0,
+              "reason": "Benchmark release with broad language support and high impact on software engineering.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "13 Models and 4 Agents on SWE Tasks: Go, Java, Python, Rust, TS",
+              "total_score": 7.5
+            },
+            {
+              "freshness_score": 1.5,
+              "impact_score": 2.5,
+              "index": 18,
+              "novelty_score": 2.0,
+              "reason": "Industry analysis with significant implications for AI policy and adoption.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "AI labs want to pump the brakes, but Amazon and SpaceX are still blasting off",
+              "total_score": 7.5
+            }
+          ],
+          "best_index": 7,
+          "best_score": 7.5,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        },
+        "social_media_rules": []
       }
     },
     "d36a303900ff40a913b680e97431c36be773c7e80cbba0545d19290454808ccf": {
@@ -1649,15 +1697,6 @@
         "twitter": "AI is streamlining app development at Meta, says @MarkZuckerberg, with more consumer products on the horizon #AI #Meta"
       }
     },
-    "f63e0a8ab43608763cc15bd2eda26a7b2794b887ebf93c9bc04e30699f8c31ed": {
-      "created_at": "2026-07-24T17:06:40Z",
-      "payload": {
-        "facebook": "The AI landscape is shifting with Anthropic's launch of Opus 5, offering a more affordable and less restrictive alternative to existing models. This development is likely to have significant implications for the industry, making Opus 5 a preferable option in most use cases. #AI #MachineLearning #Tech",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 New AI Model Release\nAnthropic's Opus 5 is launching as a cheaper and less restrictive alternative to existing models, likely making it the preferred choice.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #MachineLearning #Tech\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Anthropic's Opus 5 model is poised to become the new standard due to its lower costs and reduced restrictions, giving it a significant edge @AnthropicAI #AI",
-        "twitter": "Anthropic's new Opus 5 model is set to disrupt the market with lower costs and fewer restrictions, making it a top choice @AnthropicAI #AI"
-      }
-    },
     "f75fc4409c203c8846c695e0f2972766c5ffaeb71dc39ac84083083294361f87": {
       "created_at": "2026-07-30T15:21:40Z",
       "payload": {
@@ -1674,12 +1713,6 @@
       "created_at": "2026-07-26T02:53:48Z",
       "status": "scoring_attempted",
       "title": "Possible invasive species superspreader event near Strait of Hormuz"
-    },
-    "https://adriengonin.com/writing/service-with-a-software": {
-      "canonical_url": "https://adriengonin.com/writing/service-with-a-software",
-      "created_at": "2026-07-24T17:06:40Z",
-      "status": "scoring_attempted",
-      "title": "Micro-SaaS Is Dead. Service With A Software Replaces It"
     },
     "https://aerospaceglobalnews.com/news/gatwick-airport-robotic-parking-stanley-robotics": {
       "canonical_url": "https://aerospaceglobalnews.com/news/gatwick-airport-robotic-parking-stanley-robotics",
@@ -2437,12 +2470,6 @@
       "status": "scoring_attempted",
       "title": "Graph Engineering Needs a Compiler"
     },
-    "https://foldkit.dev": {
-      "canonical_url": "https://foldkit.dev",
-      "created_at": "2026-07-24T17:06:40Z",
-      "status": "scoring_attempted",
-      "title": "The front end framework for correctness: built on Effect, architected like Elm"
-    },
     "https://galjot.si/what-ai-developers-could-learn-from-charles-bukowski": {
       "canonical_url": "https://galjot.si/what-ai-developers-could-learn-from-charles-bukowski",
       "created_at": "2026-07-28T15:37:11Z",
@@ -2719,12 +2746,6 @@
       "status": "scoring_attempted",
       "title": "LLM Honeypot"
     },
-    "https://lucumr.pocoo.org/2026/7/24/codeberg-divides": {
-      "canonical_url": "https://lucumr.pocoo.org/2026/7/24/codeberg-divides",
-      "created_at": "2026-07-24T17:06:40Z",
-      "status": "scoring_attempted",
-      "title": "Codeberg Divides"
-    },
     "https://lwn.net/Articles/1086041": {
       "canonical_url": "https://lwn.net/Articles/1086041",
       "created_at": "2026-07-30T13:08:00Z",
@@ -2839,12 +2860,6 @@
       "status": "scoring_attempted",
       "title": "Univ\u00e9 builds an AI-ready workforce"
     },
-    "https://openjdk.org/jeps/541": {
-      "canonical_url": "https://openjdk.org/jeps/541",
-      "created_at": "2026-07-24T17:06:40Z",
-      "status": "scoring_attempted",
-      "title": "As of JDK 27, Oracle engineers will thus stop maintaining the macOS/x64 port"
-    },
     "https://orchidfiles.com/github-security-team": {
       "canonical_url": "https://orchidfiles.com/github-security-team",
       "created_at": "2026-07-26T21:11:35Z",
@@ -2917,6 +2932,12 @@
       "status": "scoring_attempted",
       "title": "Claude Is Down"
     },
+    "https://swe-rebench.com": {
+      "canonical_url": "https://swe-rebench.com",
+      "created_at": "2026-07-31T17:48:59Z",
+      "status": "scoring_attempted",
+      "title": "13 Models and 4 Agents on SWE Tasks: Go, Java, Python, Rust, TS"
+    },
     "https://tailscale.com/blog/jailbroken-kindle-proxy-tun-modes": {
       "canonical_url": "https://tailscale.com/blog/jailbroken-kindle-proxy-tun-modes",
       "created_at": "2026-07-29T05:32:39Z",
@@ -2928,18 +2949,6 @@
       "created_at": "2026-07-28T13:16:41Z",
       "status": "scoring_attempted",
       "title": "Show HN: Open-source Cloudflare deployed agent native task management and wiki"
-    },
-    "https://techcrunch.com/2026/07/24/anthropic-launches-opus-5": {
-      "canonical_url": "https://techcrunch.com/2026/07/24/anthropic-launches-opus-5",
-      "created_at": "2026-07-24T17:06:40Z",
-      "status": "scoring_attempted",
-      "title": "Anthropic launches Opus 5"
-    },
-    "https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions": {
-      "canonical_url": "https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions",
-      "created_at": "2026-07-24T17:06:40Z",
-      "status": "scoring_attempted",
-      "title": "As US weighs response to Chinese AI, industry urges against broad open-weight restrictions"
     },
     "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else": {
       "canonical_url": "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else",
@@ -3259,11 +3268,23 @@
       "status": "scoring_attempted",
       "title": "TechCrunch Disrupt 2026\u2019s biggest stage features leaders from Amazon, Replit, Tether, with much more to come"
     },
+    "https://techcrunch.com/2026/07/31/siri-ai-could-come-with-a-paywall-for-power-users": {
+      "canonical_url": "https://techcrunch.com/2026/07/31/siri-ai-could-come-with-a-paywall-for-power-users",
+      "created_at": "2026-07-31T17:48:59Z",
+      "status": "scoring_attempted",
+      "title": "Siri AI could come with a paywall for power users"
+    },
     "https://techcrunch.com/2026/07/31/smallest-ai-raises-13m-to-build-ultra-fast-voice-ai-that-sounds-genuinely-human": {
       "canonical_url": "https://techcrunch.com/2026/07/31/smallest-ai-raises-13m-to-build-ultra-fast-voice-ai-that-sounds-genuinely-human",
       "created_at": "2026-07-31T15:36:29Z",
       "status": "scoring_attempted",
       "title": "Smallest.ai raises $13M to build ultra-fast voice AI that sounds genuinely human"
+    },
+    "https://techcrunch.com/2026/07/31/snapchat-no-longer-rewards-fully-ai-generated-spotlight-content": {
+      "canonical_url": "https://techcrunch.com/2026/07/31/snapchat-no-longer-rewards-fully-ai-generated-spotlight-content",
+      "created_at": "2026-07-31T17:48:59Z",
+      "status": "scoring_attempted",
+      "title": "Snapchat no longer rewards fully AI-generated Spotlight content"
     },
     "https://techcrunch.com/2026/07/31/spacex-wont-remove-all-of-xais-unpermitted-turbines-for-another-year": {
       "canonical_url": "https://techcrunch.com/2026/07/31/spacex-wont-remove-all-of-xais-unpermitted-turbines-for-another-year",
@@ -3271,11 +3292,17 @@
       "status": "scoring_attempted",
       "title": "SpaceX won\u2019t remove all of xAI\u2019s unpermitted turbines for another year"
     },
-    "https://techcrunch.com/podcast/ai-communism-rogue-models-and-the-why-kimi-k3-spooked-wall-street": {
-      "canonical_url": "https://techcrunch.com/podcast/ai-communism-rogue-models-and-the-why-kimi-k3-spooked-wall-street",
-      "created_at": "2026-07-24T17:06:40Z",
+    "https://techcrunch.com/podcast/ai-labs-want-to-pump-the-brakes-but-amazon-and-spacex-are-still-blasting-off": {
+      "canonical_url": "https://techcrunch.com/podcast/ai-labs-want-to-pump-the-brakes-but-amazon-and-spacex-are-still-blasting-off",
+      "created_at": "2026-07-31T17:48:59Z",
       "status": "scoring_attempted",
-      "title": "\u2018AI communism\u2019, rogue models, and the why Kimi K3 spooked Wall Street"
+      "title": "AI labs want to pump the brakes, but Amazon and SpaceX are still blasting off"
+    },
+    "https://techcrunch.com/video/sam-altman-isnt-the-only-one-who-wants-to-pump-the-brakes-on-ai": {
+      "canonical_url": "https://techcrunch.com/video/sam-altman-isnt-the-only-one-who-wants-to-pump-the-brakes-on-ai",
+      "created_at": "2026-07-31T17:48:59Z",
+      "status": "scoring_attempted",
+      "title": "Sam Altman isn\u2019t the only one who wants to pump the brakes on AI"
     },
     "https://teorth.github.io/tao-web/slides/age-of-ai-icm-2026.pdf": {
       "canonical_url": "https://teorth.github.io/tao-web/slides/age-of-ai-icm-2026.pdf",
@@ -3342,12 +3369,6 @@
       "created_at": "2026-07-26T17:52:03Z",
       "status": "scoring_attempted",
       "title": "What if LLMs escape through inferences itself? This is fiction. For now"
-    },
-    "https://www.anthropic.com/claude-opus-5-system-card": {
-      "canonical_url": "https://www.anthropic.com/claude-opus-5-system-card",
-      "created_at": "2026-07-24T17:06:40Z",
-      "status": "scoring_attempted",
-      "title": "Claude Opus 5"
     },
     "https://www.anthropic.com/news/claude-opus-5": {
       "canonical_url": "https://www.anthropic.com/news/claude-opus-5",
@@ -3877,12 +3898,6 @@
       "status": "scoring_attempted",
       "title": "Professor's invisible prompt trap catches 32/35 students cheating with AI"
     },
-    "https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker": {
-      "canonical_url": "https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker",
-      "created_at": "2026-07-24T17:06:40Z",
-      "status": "scoring_attempted",
-      "title": "Be skeptical of OpenAI's rogue hacker agent story"
-    },
     "https://www.theguardian.com/technology/2026/jul/25/ai-jobs-apocalypse-human-labor": {
       "canonical_url": "https://www.theguardian.com/technology/2026/jul/25/ai-jobs-apocalypse-human-labor",
       "created_at": "2026-07-25T15:44:09Z",
@@ -3979,6 +3994,18 @@
       "status": "scoring_attempted",
       "title": "Anthropic says Claude accidentally hacked real companies too"
     },
+    "https://www.theverge.com/ai-artificial-intelligence/973741/ai-music-major-record-labels-charts": {
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/973741/ai-music-major-record-labels-charts",
+      "created_at": "2026-07-31T17:48:59Z",
+      "status": "scoring_attempted",
+      "title": "The major labels propose rules to keep AI slop off the charts"
+    },
+    "https://www.theverge.com/ai-artificial-intelligence/973764/google-earth-ai-satellite-images": {
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/973764/google-earth-ai-satellite-images",
+      "created_at": "2026-07-31T17:48:59Z",
+      "status": "scoring_attempted",
+      "title": "Here\u2019s the problem with putting an AI image generator in Google Earth"
+    },
     "https://www.theverge.com/business/971011/warner-bros-suing-amazon-poaching-employees": {
       "canonical_url": "https://www.theverge.com/business/971011/warner-bros-suing-amazon-poaching-employees",
       "created_at": "2026-07-25T14:26:01Z",
@@ -4026,12 +4053,6 @@
       "created_at": "2026-07-30T13:08:00Z",
       "status": "scoring_attempted",
       "title": "Spotify Running Mode helps match tunes to tempo"
-    },
-    "https://www.theverge.com/gadgets/970559/acer-chromebook-spin-anker-charger-nintendo-logitech-deal-sale": {
-      "canonical_url": "https://www.theverge.com/gadgets/970559/acer-chromebook-spin-anker-charger-nintendo-logitech-deal-sale",
-      "created_at": "2026-07-24T17:06:40Z",
-      "status": "scoring_attempted",
-      "title": "One of the best 2-in-1 Chromebooks is almost $200 off for today only"
     },
     "https://www.theverge.com/gadgets/970685/teenage-engineering-30-percent-deal-sale": {
       "canonical_url": "https://www.theverge.com/gadgets/970685/teenage-engineering-30-percent-deal-sale",
@@ -4357,11 +4378,11 @@
       "status": "scoring_attempted",
       "title": "New York sues Kalshi for allegedly running an \u2018illegal gambling operation\u2019"
     },
-    "https://www.theverge.com/transportation/970560/tesla-electronic-door-crash-nhtsa-safety-rules": {
-      "canonical_url": "https://www.theverge.com/transportation/970560/tesla-electronic-door-crash-nhtsa-safety-rules",
-      "created_at": "2026-07-24T17:06:40Z",
+    "https://www.theverge.com/tech/973738/robot-vacuum-ban-fewer-choices-higher-prices": {
+      "canonical_url": "https://www.theverge.com/tech/973738/robot-vacuum-ban-fewer-choices-higher-prices",
+      "created_at": "2026-07-31T17:48:59Z",
       "status": "scoring_attempted",
-      "title": "Tesla\u2019s car door defect could lead to tougher rules for everyone"
+      "title": "The ban on robot vacuums won\u2019t make them safer, only worse"
     },
     "https://www.theverge.com/transportation/972569/ferrari-luce-ev-sales": {
       "canonical_url": "https://www.theverge.com/transportation/972569/ferrari-luce-ev-sales",
