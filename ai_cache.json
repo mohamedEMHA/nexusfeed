@@ -238,6 +238,29 @@
         "social_posts": {}
       }
     },
+    "1711834e91c034cda74415801e966135dfe5242e31cc7059994563c0bb949cea": {
+      "created_at": "2026-07-31T09:39:05Z",
+      "payload": {
+        "articles": [
+          {
+            "freshness_score": 2.0,
+            "impact_score": 2.5,
+            "index": 0,
+            "novelty_score": 2.5,
+            "reason": "JDK 24's changes to virtual threads impact production Java applications, but the article is not novel enough to justify a higher novelty score.",
+            "red_flag": false,
+            "red_flag_reason": null,
+            "source_score": 1.0,
+            "title": "Article: Virtual Threads After JDK 24: What Changed for Production Java",
+            "total_score": 8.0
+          }
+        ],
+        "best_index": 0,
+        "best_score": 8.0,
+        "recommendation": "SKIP",
+        "social_posts": {}
+      }
+    },
     "25c8247753eef53c79a8359221a5994a2b0e6a16d750a231ad4f1ef65c8ad9db": {
       "created_at": "2026-07-30T13:08:00Z",
       "payload": {
@@ -269,29 +292,6 @@
         ],
         "best_index": 3,
         "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "2cf64416b0f2d81bb7452fc3d1aee31aa46bdd27cf7556d190a78bac300f5aad": {
-      "created_at": "2026-07-30T09:05:20Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "AWS Lambda's new self-managed code storage option significantly increases the default storage limit, benefiting developers using large deployment packages.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1,
-            "title": "AWS Lambda's Self-Managed Code Storage Lifts the Account Quota, Not the Function Size Limit",
-            "total_score": 8
-          }
-        ],
-        "best_index": 1,
-        "best_score": 8,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -357,29 +357,6 @@
           "threads": "Google DeepMind just released three new AI models for robotics, including a vision-language-action model for humanoid control. This is a big deal for AI in robotics. https://www.marktechpost.com/2026/07/30/google-deepmind-gemini-robotics-2-whole-body-control-dexterity-multi-robot-collaboration/",
           "twitter": "Google DeepMind just released three new AI models for robotics, including a vision-language-action model for humanoid control. https://www.marktechpost.com/2026/07/30/google-deepmind-gemini-robotics-2-whole-body-control-dexterity-multi-robot-collaboration/"
         }
-      }
-    },
-    "392c1afcdb351fe1f70cc05925f5bb10c74d1d6203509790848ae36b07195247": {
-      "created_at": "2026-07-30T09:26:46Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Open-source tool for reducing token costs in Claude PDFs with significant savings.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Meet Token Saver: An Open-Source MCP Extension Using Local Hybrid RAG to Cut Claude PDF Token Costs 90-99%",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "3be0e583496745328e52ffbf64991acf64db1d4279b92aee65d159a77d5845a7": {
@@ -740,29 +717,6 @@
           }
         ],
         "best_index": 11,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "6f8cd4bee4000da0c9b3795d4f050ae300f8ef32fa0281d1e55286c419381057": {
-      "created_at": "2026-07-30T09:26:46Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "Red flag triggered by 'What Changes at Each Layer'",
-            "red_flag": true,
-            "red_flag_reason": "What Changes at Each Layer",
-            "source_score": 1.5,
-            "title": "Prompt Engineering vs Loop Engineering vs Graph Engineering: What Changes at Each Layer",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 2,
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
@@ -1242,29 +1196,6 @@
         }
       }
     },
-    "b698e032f0772c86ff7272659b4a5ab375eaa5f13d7dbe25d59a4f0507cea172": {
-      "created_at": "2026-07-30T09:26:46Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "Moonshot AI's open-source release of MoonEP is a notable contribution to the AI community, particularly for those working with MoE models.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Moonshot AI Open-Sources MoonEP: A Perfectly Balanced Expert Parallelism Library for MoE Training",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 3,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "bd9020a1ab1696be02eb13fbf5859a220cdc3d72738fd9d9c2c26d1131054ec0": {
       "created_at": "2026-07-30T13:08:00Z",
       "payload": {
@@ -1333,55 +1264,32 @@
         "recommendation": "SKIP"
       }
     },
-    "dded63a19cddb9bc2a94487416dcb15222d76d42b9443e83232d7e6ce797d4ca": {
-      "created_at": "2026-07-30T09:05:20Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "German startup uses real-world kitchen footage to train humanoid robots.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "I Got a Free Meal From a Private Chef\u2014Who Filmed It All to Train Robots",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 0,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "A German startup sent a chef to cook in a stranger's kitchen, filming every move to train humanoid robots. The experiment raises questions about data collection and AI training methods. Link: https://www.wired.com/story/i-let-a-private-chef-film-my-kitchen-for-robot-training-data",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *German startup trained robots by filming a private chef cooking in a stranger's kitchen*\n\nA German startup sent a camera-wearing chef to a stranger's apartment to film every chop and stir for robot training.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.wired.com/story/i-let-a-private-chef-film-my-kitchen-for-robot-training-data\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "German startup trained robots by filming a private chef cooking in a stranger's kitchen. The footage captures every chop and stir to improve humanoid AI. https://www.wired.com/story/i-let-a-private-chef-film-my-kitchen-for-robot-training-data/",
-          "twitter": "A German startup trained robots by filming a private chef cooking in a stranger's kitchen. https://www.wired.com/story/i-let-a-private-chef-film-my-kitchen-for-robot-training-data/"
-        }
-      }
-    },
-    "f2ec116478bf30732c76897adf6cdb41a3a4530e48254a15d802791f120f2404": {
-      "created_at": "2026-07-30T09:05:20Z",
+    "de69501e77b46f3ea499d101df7f0d61f9fd676b7887023a0402d410721039e4": {
+      "created_at": "2026-07-31T09:39:05Z",
       "payload": {
         "articles": [
           {
             "freshness_score": 1.5,
-            "impact_score": 0.5,
-            "index": 2,
-            "novelty_score": 0.2,
-            "reason": "Opinion piece on a niche product with limited impact.",
+            "impact_score": 2.5,
+            "index": 1,
+            "novelty_score": 2.5,
+            "reason": "Univ\u00e9's implementation of ChatGPT Enterprise for workforce transformation is a notable industry move with significant impact.",
             "red_flag": false,
             "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "I Have Thoughts on the iPhone Air",
-            "total_score": 2.2
+            "source_score": 2,
+            "title": "Univ\u00e9 builds an AI-ready workforce",
+            "total_score": 8.5
           }
         ],
-        "best_index": 2,
-        "best_score": 2.2,
-        "recommendation": "SKIP",
-        "social_posts": {}
+        "best_index": 1,
+        "best_score": 8.5,
+        "recommendation": "POST_NOW",
+        "social_posts": {
+          "facebook": "Univ\u00e9 built an AI-ready workforce by integrating ChatGPT Enterprise, focusing on leadership, responsible governance, and employee-led innovation. The approach transformed work at scale, offering a blueprint for other organizations.\nLink: https://openai.com/index/unive",
+          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Univ\u00e9 builds an AI-ready workforce*\n\nUniv\u00e9 transformed its workforce at scale using ChatGPT Enterprise, combining leadership, governance, and employee innovation.\n\n\ud83c\udfdb\ufe0f Source: OpenAI (S)\n\u23f0 Published: 2 hours ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://openai.com/index/unive\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+          "threads": "Univ\u00e9's workforce transformation with ChatGPT Enterprise shows how leadership, governance, and innovation can drive AI adoption at scale.\nhttps://openai.com/index/unive",
+          "twitter": "Univ\u00e9 transformed its workforce at scale using ChatGPT Enterprise, combining leadership, governance, and employee innovation.\nhttps://openai.com/index/unive"
+        }
       }
     },
     "fa0413410fa4f72f009b9e3f6e7036c7136b4f62bf08232bde6efdccaf67a792": {
@@ -1760,6 +1668,15 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Google Unveils Gemini Robotics 2.0\nGoogle's new robotics platform, Gemini 2.0, promises enhanced dexterity and safety, marking a significant move in the industry.\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#Robotics #ArtificialIntelligence #Google\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Google's Gemini Robotics 2.0 is set to enhance the field with its focus on dexterity and safety, offering potential for widespread impact @GoogleAI #Robotics",
         "twitter": "Google advances robotics with Gemini 2.0, focusing on dexterity and safety @GoogleAI #Robotics"
+      }
+    },
+    "b45a96e0556a3fcfa64e839e44d904d070d201af93703fca9b4aeb76a9b40d50": {
+      "created_at": "2026-07-31T09:39:05Z",
+      "payload": {
+        "facebook": "As companies look to build an AI-ready workforce, Univ\u00e9 is setting an example by combining leadership and employee-led innovation to drive transformation at scale. This approach highlights the importance of responsible governance in AI adoption. #AIadoption #DigitalTransformation #Innovation",
+        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Univ\u00e9 Transforms Workforce with AI\nUniv\u00e9 is leveraging ChatGPT Enterprise to build an AI-ready workforce, focusing on leadership, responsible governance, and innovation.\n\ud83c\udfdb\ufe0f Source: OpenAI (S)\n\u23f0 Published: 2 hours ago\n\u2b50 Score: 8.5/10\n#AIadoption #DigitalTransformation #Innovation\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "threads": "Univ\u00e9's move to build an AI-ready workforce with ChatGPT Enterprise is a significant step towards transforming work at scale, driven by leadership and employee-led innovation @OpenAI #AIadoption",
+        "twitter": "Univ\u00e9 is transforming its workforce with AI by leveraging ChatGPT Enterprise @OpenAI #AIadoption"
       }
     },
     "b9ef049d94cb37d80fb07ae73b68a5d804630868068eea5394bcb063552b9be3": {
@@ -3129,6 +3046,12 @@
       "status": "scoring_attempted",
       "title": "Scientific computing in the age of agentic AI"
     },
+    "https://openai.com/index/unive": {
+      "canonical_url": "https://openai.com/index/unive",
+      "created_at": "2026-07-31T09:39:05Z",
+      "status": "scoring_attempted",
+      "title": "Univ\u00e9 builds an AI-ready workforce"
+    },
     "https://openjdk.org/jeps/541": {
       "canonical_url": "https://openjdk.org/jeps/541",
       "created_at": "2026-07-24T17:06:40Z",
@@ -3152,12 +3075,6 @@
       "created_at": "2026-07-26T14:22:03Z",
       "status": "scoring_attempted",
       "title": "Go Analysis Framework: modular static analysis by go team"
-    },
-    "https://platform.claude.com/cookbook": {
-      "canonical_url": "https://platform.claude.com/cookbook",
-      "created_at": "2026-07-24T09:17:02Z",
-      "status": "scoring_attempted",
-      "title": "Claude Cookbook"
     },
     "https://platformengineering.org/blog/how-platform-engineering-2-0-mitigates-ai-security-and-compliance-risks": {
       "canonical_url": "https://platformengineering.org/blog/how-platform-engineering-2-0-mitigates-ai-security-and-compliance-risks",
@@ -3729,12 +3646,6 @@
       "status": "scoring_attempted",
       "title": "Meta, Microsoft, Nvidia, IBM, and others back open-weight AI"
     },
-    "https://www.artificialintelligence-news.com/news/openai-presence-enterprise-ai-agents": {
-      "canonical_url": "https://www.artificialintelligence-news.com/news/openai-presence-enterprise-ai-agents",
-      "created_at": "2026-07-24T08:20:47Z",
-      "status": "scoring_attempted",
-      "title": "OpenAI Presence sells enterprise AI agents with engineers attached"
-    },
     "https://www.artificialintelligence-news.com/news/openai-pushes-chatgpt-into-patient-health-records": {
       "canonical_url": "https://www.artificialintelligence-news.com/news/openai-pushes-chatgpt-into-patient-health-records",
       "created_at": "2026-07-24T15:26:36Z",
@@ -3843,11 +3754,11 @@
       "status": "scoring_attempted",
       "title": "Article: Securing MCP in Production: Defense-in-Depth Beyond the Gateway"
     },
-    "https://www.infoq.com/articles/self-building-agent-langchain4j": {
-      "canonical_url": "https://www.infoq.com/articles/self-building-agent-langchain4j",
-      "created_at": "2026-07-24T09:17:02Z",
+    "https://www.infoq.com/articles/virtual-threads-after-jdk24": {
+      "canonical_url": "https://www.infoq.com/articles/virtual-threads-after-jdk24",
+      "created_at": "2026-07-31T09:39:05Z",
       "status": "scoring_attempted",
-      "title": "Article: The Self-Building Agent: A LangChain4j Experiment"
+      "title": "Article: Virtual Threads After JDK 24: What Changed for Production Java"
     },
     "https://www.infoq.com/news/2026/07/AI-research-into-action": {
       "canonical_url": "https://www.infoq.com/news/2026/07/AI-research-into-action",
@@ -3914,12 +3825,6 @@
       "created_at": "2026-07-28T09:20:48Z",
       "status": "scoring_attempted",
       "title": "AWS Launches Amazon GuardDuty Investigation Agent to Automate Threat Triage"
-    },
-    "https://www.infoq.com/news/2026/07/jotai-rework-performance": {
-      "canonical_url": "https://www.infoq.com/news/2026/07/jotai-rework-performance",
-      "created_at": "2026-07-24T08:20:47Z",
-      "status": "scoring_attempted",
-      "title": "Jotai v2.20: Rework Store Building Blocks for High-Throughput Performance and Sets the Stage for v3"
     },
     "https://www.infoq.com/news/2026/07/lambda-self-managed-storage": {
       "canonical_url": "https://www.infoq.com/news/2026/07/lambda-self-managed-storage",
