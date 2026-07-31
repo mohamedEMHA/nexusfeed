@@ -148,6 +148,31 @@
         ]
       }
     },
+    "14c4e78ae6ac59c07392847f63d44bc2b4f2a9964b2d2091806b1b5a7c868958": {
+      "created_at": "2026-07-31T16:01:59Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 3.0,
+              "index": 1,
+              "novelty_score": 2.5,
+              "reason": "Question in title triggers red flag per rules.",
+              "red_flag": true,
+              "red_flag_reason": "question in title",
+              "source_score": 0.5,
+              "title": "Is AI Reasoning Right for the Wrong Reasons?",
+              "total_score": 8.0
+            }
+          ],
+          "best_index": 1,
+          "best_score": 0.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
     "1711834e91c034cda74415801e966135dfe5242e31cc7059994563c0bb949cea": {
       "created_at": "2026-07-31T09:39:05Z",
       "payload": {
@@ -372,29 +397,6 @@
         "social_posts": {}
       }
     },
-    "41c8b5e24b235d2e23cb838c1ad9bcb0a9958404385a15f76ab423c22f748c09": {
-      "created_at": "2026-07-30T15:50:29Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 2.0,
-            "reason": "Price changes are notable but not groundbreaking for software engineers or AI researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Best Buy is selling an RTX 5080 for more than the RTX 5090\u2019s MSRP",
-            "total_score": 6.0
-          }
-        ],
-        "best_index": 0,
-        "best_score": 6.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "41f3fc8fb3dcef94b76425a6903b35900b930a78e9d58f50af763d916018bc13": {
       "created_at": "2026-07-31T13:20:50Z",
       "payload": {
@@ -515,34 +517,6 @@
         }
       }
     },
-    "48035e43173c399152beb6737e76f97b02c3f08f33807e8d294fbd262db14d56": {
-      "created_at": "2026-07-30T15:50:29Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "Meta's CEO announcing new consumer AI products is relevant to developers and researchers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Meta says AI is making it easier to build new apps \u2014 and more are coming",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 1,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Meta claims AI is dramatically simplifying consumer app development. CEO Mark Zuckerberg hinted at more products coming soon after recent releases for Facebook Groups, Marketplace, Instagram, and gaming. Link: https://techcrunch.com/2026/07/30/meta-says-ai-is-making-it-easier-to-build-new-apps-and-more-are-coming/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\ud83d\udd25 *Meta says AI is making it easier to build new apps \u2014 and more are coming*\n\nMeta claims AI is dramatically simplifying consumer app development, with CEO Mark Zuckerberg hinting at more products coming soon after recent releases for Facebook Groups, Marketplace, Instagram, and gaming.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/07/30/meta-says-ai-is-making-it-easier-to-build-new-apps-and-more-are-coming/",
-          "threads": "Meta's AI tools are making it easier to build consumer apps, with more products on the way. https://techcrunch.com/2026/07/30/meta-says-ai-is-making-it-easier-to-build-new-apps-and-more-are-coming/",
-          "twitter": "Meta's AI tools are accelerating consumer app development, with more products on the way. https://techcrunch.com/2026/07/30/meta-says-ai-is-making-it-easier-to-build-new-apps-and-more-are-coming/"
-        }
-      }
-    },
     "4d47d715525fa8bbe20914b150657d6a2d7541241e3c69ac7c3297d8e5bc4695": {
       "created_at": "2026-07-30T22:31:03Z",
       "payload": {
@@ -569,29 +543,6 @@
           "threads": "Apple might introduce a premium iCloud tier for AI power users, suggesting AI capabilities could become a metered service. This could significantly impact how users interact with AI tools. https://www.theverge.com/tech/973552/apple-ceo-tim-cook-icloud-plus-ai",
           "twitter": "Apple may introduce a premium iCloud tier for AI power users, hinting at a future where AI capabilities are metered and monetized.\nhttps://www.theverge.com/tech/973552/apple-ceo-tim-cook-icloud-plus-ai"
         }
-      }
-    },
-    "4e9e2dc1247fea918f88df32bc583f3011418f09e044bc85f5ca507f00f05e1e": {
-      "created_at": "2026-07-30T15:50:29Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 4,
-            "novelty_score": 2.5,
-            "reason": "New release with significant impact but from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Gemini Robotics 2 brings whole body intelligence to robots",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 4,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "647288dcbb376a4cd847d1cd039d31d31699f77eead062fa515a898e89641539": {
@@ -857,29 +808,6 @@
         "social_posts": {}
       }
     },
-    "82d07f551792464aa4e0ba3177c38fb07d75cb1e423ce7aaec352f148ff483d4": {
-      "created_at": "2026-07-30T15:50:29Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 2,
-            "novelty_score": 2.5,
-            "reason": "New hardware product with AI capabilities, but niche impact and not groundbreaking.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "The New Friend AI Pendant Can Now Talk Back to You",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 2,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "87eed07c2359ed4f8602774de3f3a6c5fcf9e7a1779b8c8fee39d1f4ebe784ea": {
       "created_at": "2026-07-31T03:55:22Z",
       "payload": {
@@ -1130,6 +1058,50 @@
           "threads": "Univ\u00e9's workforce transformation with ChatGPT Enterprise shows how leadership, governance, and innovation can drive AI adoption at scale.\nhttps://openai.com/index/unive",
           "twitter": "Univ\u00e9 transformed its workforce at scale using ChatGPT Enterprise, combining leadership, governance, and employee innovation.\nhttps://openai.com/index/unive"
         }
+      }
+    },
+    "f7963cfd63bf1aaa138558d9cf5f0f52314e667278c88b0b9e9ff134c0cf4560": {
+      "created_at": "2026-07-31T16:01:59Z",
+      "payload": {
+        "candidates": [
+          {
+            "article_url": "https://www.commondreams.org/news/trump-medicaid-work-requirements-2677293170",
+            "index": 2,
+            "published_relative": "<1 hour ago",
+            "published_time_utc": "2026-07-31T15:25:36Z",
+            "source": "Hacker News",
+            "summary": "Comments",
+            "tier": "C",
+            "title": "Admin: Terminally Ill Patients Aren't Exempt from Medicaid Work Requirements"
+          }
+        ],
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 0.5,
+              "index": 2,
+              "novelty_score": 0.5,
+              "reason": "Low novelty and impact scores due to non-technical content and niche relevance.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Admin: Terminally Ill Patients Aren't Exempt from Medicaid Work Requirements",
+              "total_score": 3.5
+            }
+          ],
+          "best_index": 2,
+          "best_score": 3.5,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        },
+        "social_media_rules": [
+          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
+          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.",
+          "Use the FULL article title as headline without inventing facts.",
+          "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
+        ]
       }
     },
     "fa0413410fa4f72f009b9e3f6e7036c7136b4f62bf08232bde6efdccaf67a792": {
@@ -3485,6 +3457,12 @@
       "status": "scoring_attempted",
       "title": "Brazilian farmers tokenized dairy cows to get loans, bypassing bank limits"
     },
+    "https://www.commondreams.org/news/trump-medicaid-work-requirements-2677293170": {
+      "canonical_url": "https://www.commondreams.org/news/trump-medicaid-work-requirements-2677293170",
+      "created_at": "2026-07-31T16:01:59Z",
+      "status": "scoring_attempted",
+      "title": "Admin: Terminally Ill Patients Aren't Exempt from Medicaid Work Requirements"
+    },
     "https://www.debian.org/vote/2026/vote_002": {
       "canonical_url": "https://www.debian.org/vote/2026/vote_002",
       "created_at": "2026-07-25T22:51:44Z",
@@ -3838,6 +3816,12 @@
       "created_at": "2026-07-27T13:29:03Z",
       "status": "scoring_attempted",
       "title": "Google Chrome Arrives on ARM64 Linux, Widevine DRM Included"
+    },
+    "https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731": {
+      "canonical_url": "https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731",
+      "created_at": "2026-07-31T16:01:59Z",
+      "status": "scoring_attempted",
+      "title": "Is AI Reasoning Right for the Wrong Reasons?"
     },
     "https://www.reuters.com/commentary/reuters-open-interest/bond-market-isnt-buying-what-fed-chair-warsh-is-selling-2026-07-30": {
       "canonical_url": "https://www.reuters.com/commentary/reuters-open-interest/bond-market-isnt-buying-what-fed-chair-warsh-is-selling-2026-07-30",
