@@ -168,39 +168,48 @@
         "social_posts": {}
       }
     },
-    "0e696cc74130e83fe662559dd2796c9c5e464bc96c73f6d5538a4803ee4d6493": {
-      "created_at": "2026-07-30T13:08:00Z",
+    "0e4d3eb3c457cba14e8c23a266f3fa919c95e6d5fe5b710aad547837f5d43b0f": {
+      "created_at": "2026-07-31T13:20:50Z",
       "payload": {
-        "articles": [
+        "candidates": [
           {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
+            "article_url": "https://arstechnica.com/tech-policy/2026/07/how-a-yale-ai-cheating-dispute-became-a-13-count-federal-lawsuit/",
             "index": 0,
-            "novelty_score": 1.5,
-            "reason": "New feature but limited impact beyond fitness enthusiasts.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Spotify Running Mode helps match tunes to tempo",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 0.5,
-            "index": 1,
-            "novelty_score": 0.2,
-            "reason": "Job posting with limited relevance to most engineers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Mbodi AI (YC P25) Is Hiring Robotics/Research Engineers",
-            "total_score": 2.7
+            "published_relative": "2 hours ago",
+            "published_time_utc": "2026-07-31T11:00:52Z",
+            "source": "Ars Technica",
+            "summary": "A disputed exam, an unreliable detector, and one very late Apple Pages file.",
+            "tier": "A",
+            "title": "How a Yale AI-cheating dispute became a 13-count federal lawsuit"
           }
         ],
-        "best_index": 0,
-        "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.5,
+              "impact_score": 1.5,
+              "index": 0,
+              "novelty_score": 0.5,
+              "reason": "Title contains 'How a', which matches 'how to' red flag pattern.",
+              "red_flag": true,
+              "red_flag_reason": "tutorial",
+              "source_score": 1.5,
+              "title": "How a Yale AI-cheating dispute became a 13-count federal lawsuit",
+              "total_score": 4.0
+            }
+          ],
+          "best_index": 0,
+          "best_score": 0.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        },
+        "social_media_rules": [
+          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
+          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.",
+          "Use the FULL article title as headline without inventing facts.",
+          "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
+        ]
       }
     },
     "1711834e91c034cda74415801e966135dfe5242e31cc7059994563c0bb949cea": {
@@ -222,41 +231,6 @@
         ],
         "best_index": 0,
         "best_score": 8.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "25c8247753eef53c79a8359221a5994a2b0e6a16d750a231ad4f1ef65c8ad9db": {
-      "created_at": "2026-07-30T13:08:00Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 1.5,
-            "index": 2,
-            "novelty_score": 2.0,
-            "reason": "Product review with niche impact.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "A second lens makes DJI\u2019s Osmo Pocket 4P my new favorite video camera",
-            "total_score": 6.0
-          },
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "Important policy announcement for AI developers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "GCC steering committee announces AI policy",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 3,
-        "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -368,6 +342,60 @@
         "best_score": 6.0,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "41f3fc8fb3dcef94b76425a6903b35900b930a78e9d58f50af763d916018bc13": {
+      "created_at": "2026-07-31T13:20:50Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.0,
+              "impact_score": 2.5,
+              "index": 2,
+              "novelty_score": 3.0,
+              "reason": "New open-source release with broad IDE impact and freshness within 3 hours.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "JetBrains Open-Sources KotlinLLM: Smart Macros That Generate Kotlin Source Code at Runtime and Hot-Reload It Through JDI",
+              "total_score": 8.0
+            }
+          ],
+          "best_index": 2,
+          "best_score": 8.0,
+          "recommendation": "SKIP"
+        }
+      }
+    },
+    "4286f2ab33a47b212ce80040a86a6a07813b0fec4c77bbf8dfc1bdf30468c191": {
+      "created_at": "2026-07-31T13:20:50Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 0.5,
+              "impact_score": 2.0,
+              "index": 3,
+              "novelty_score": 3.0,
+              "reason": "New release with broad integration potential for AI agents and open-source Nostr workspaces.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Nous Research Ships Three Integration Paths for Hermes Agent and Buzz, Block's Open Source Nostr Workspace for Humans and Agents",
+              "total_score": 7.0
+            }
+          ],
+          "best_index": 3,
+          "best_score": 7.0,
+          "recommendation": "SKIP",
+          "social_posts": {
+            "facebook": "",
+            "telegram": "",
+            "threads": "",
+            "twitter": ""
+          }
+        }
       }
     },
     "48035e43173c399152beb6737e76f97b02c3f08f33807e8d294fbd262db14d56": {
@@ -654,29 +682,6 @@
         ],
         "best_index": 2,
         "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "7ac556f6a0ae4a3e830d3e5571f3b551c04f113f428c52808685a4bdcc40c131": {
-      "created_at": "2026-07-30T13:08:00Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 4,
-            "novelty_score": 2.0,
-            "reason": "EU regulations impacting major platforms like ChatGPT and Roblox are significant but not groundbreaking.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "ChatGPT, Roblox to Fall Under Strictest EU Rules for Platforms",
-            "total_score": 7.0
-          }
-        ],
-        "best_index": 4,
-        "best_score": 7.0,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -1032,29 +1037,6 @@
           "threads": "Google's Gemini Robotics 2.0 platform is now available, with two models still under wraps. This could be a significant step forward for robotics research and development. https://arstechnica.com/ai/2026/07/google-reveals-gemini-robotics-2-0-promising-improved-dexterity-and-safety/",
           "twitter": "Google's Gemini Robotics 2.0 platform now available, with two models still under wraps. https://arstechnica.com/ai/2026/07/google-reveals-gemini-robotics-2-0-promising-improved-dexterity-and-safety/"
         }
-      }
-    },
-    "bd9020a1ab1696be02eb13fbf5859a220cdc3d72738fd9d9c2c26d1131054ec0": {
-      "created_at": "2026-07-30T13:08:00Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 5,
-            "novelty_score": 2.5,
-            "reason": "DORA's 2025 research on AI in software development provides team profiles and success capabilities.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.0,
-            "title": "AI-Assisted Software Development: Team Profiles and Capabilities for Putting Research into Action",
-            "total_score": 8.0
-          }
-        ],
-        "best_index": 5,
-        "best_score": 8.0,
-        "recommendation": "SKIP",
-        "social_posts": {}
       }
     },
     "c06470150d4ff84f86748d18957297693a6c4bc9b36e07116d9297d2f02e45a3": {
@@ -1869,6 +1851,12 @@
       "status": "scoring_attempted",
       "title": "\u201cGoogle and Reddit do not own the Internet,\" web scraper says after court win"
     },
+    "https://arstechnica.com/tech-policy/2026/07/how-a-yale-ai-cheating-dispute-became-a-13-count-federal-lawsuit": {
+      "canonical_url": "https://arstechnica.com/tech-policy/2026/07/how-a-yale-ai-cheating-dispute-became-a-13-count-federal-lawsuit",
+      "created_at": "2026-07-31T13:20:50Z",
+      "status": "scoring_attempted",
+      "title": "How a Yale AI-cheating dispute became a 13-count federal lawsuit"
+    },
     "https://arxiv.org/abs/1202.4212": {
       "canonical_url": "https://arxiv.org/abs/1202.4212",
       "created_at": "2026-07-28T15:37:11Z",
@@ -2673,12 +2661,6 @@
       "status": "scoring_attempted",
       "title": "My security camera shipped a GitHub admin token in its login page"
     },
-    "https://houseofsaud.com/irgc-claims-destroyed-amazon-bahrain-data-center": {
-      "canonical_url": "https://houseofsaud.com/irgc-claims-destroyed-amazon-bahrain-data-center",
-      "created_at": "2026-07-24T12:47:34Z",
-      "status": "scoring_attempted",
-      "title": "IRGC Claims It Destroyed Amazon's Bahrain Data Center"
-    },
     "https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html": {
       "canonical_url": "https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html",
       "created_at": "2026-07-29T15:48:08Z",
@@ -2877,12 +2859,6 @@
       "status": "scoring_attempted",
       "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers"
     },
-    "https://openai.com/index/health-in-chatgpt": {
-      "canonical_url": "https://openai.com/index/health-in-chatgpt",
-      "created_at": "2026-07-24T12:47:34Z",
-      "status": "scoring_attempted",
-      "title": "Launching Health in ChatGPT to US Users"
-    },
     "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores": {
       "canonical_url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
       "created_at": "2026-07-30T00:00:33Z",
@@ -2960,12 +2936,6 @@
       "created_at": "2026-07-28T15:37:11Z",
       "status": "scoring_attempted",
       "title": "Show HN: Segue \u2013 Save context in one AI, load it in another by a short handle"
-    },
-    "https://sliplane.io/blog/hetzner-inference": {
-      "canonical_url": "https://sliplane.io/blog/hetzner-inference",
-      "created_at": "2026-07-24T12:47:34Z",
-      "status": "scoring_attempted",
-      "title": "Hetzner is working on LLM Inference"
     },
     "https://spawn-queue.acm.org/doi/10.1145/3819083": {
       "canonical_url": "https://spawn-queue.acm.org/doi/10.1145/3819083",
@@ -3861,6 +3831,18 @@
       "status": "scoring_attempted",
       "title": "Meet Token Saver: An Open-Source MCP Extension Using Local Hybrid RAG to Cut Claude PDF Token Costs 90-99%"
     },
+    "https://www.marktechpost.com/2026/07/31/jetbrains-research-open-sources-kotlinllm-intellij-plugin-kotlin-runtime-llm": {
+      "canonical_url": "https://www.marktechpost.com/2026/07/31/jetbrains-research-open-sources-kotlinllm-intellij-plugin-kotlin-runtime-llm",
+      "created_at": "2026-07-31T13:20:50Z",
+      "status": "scoring_attempted",
+      "title": "JetBrains Open-Sources KotlinLLM: Smart Macros That Generate Kotlin Source Code at Runtime and Hot-Reload It Through JDI"
+    },
+    "https://www.marktechpost.com/2026/07/31/nous-research-ships-three-integration-paths-for-hermes-agent-and-buzz-blocks-open-source-nostr-workspace-for-humans-and-agents": {
+      "canonical_url": "https://www.marktechpost.com/2026/07/31/nous-research-ships-three-integration-paths-for-hermes-agent-and-buzz-blocks-open-source-nostr-workspace-for-humans-and-agents",
+      "created_at": "2026-07-31T13:20:50Z",
+      "status": "scoring_attempted",
+      "title": "Nous Research Ships Three Integration Paths for Hermes Agent and Buzz, Block\u2019s Open Source Nostr Workspace for Humans and Agents"
+    },
     "https://www.maxmynter.com/pages/blog/jobhunt": {
       "canonical_url": "https://www.maxmynter.com/pages/blog/jobhunt",
       "created_at": "2026-07-26T00:14:01Z",
@@ -4215,12 +4197,6 @@
       "status": "scoring_attempted",
       "title": "xAI\u2019s last-minute scramble to stop Minnesota\u2019s anti-nudification app law"
     },
-    "https://www.theverge.com/report/969725/fcc-drone-ban-odyssey-robot-galiview-etak-randolph-howard-eason": {
-      "canonical_url": "https://www.theverge.com/report/969725/fcc-drone-ban-odyssey-robot-galiview-etak-randolph-howard-eason",
-      "created_at": "2026-07-24T12:47:34Z",
-      "status": "scoring_attempted",
-      "title": "Whack-a-drone"
-    },
     "https://www.theverge.com/report/972146/cbp-phone-search-airport-duress-password": {
       "canonical_url": "https://www.theverge.com/report/972146/cbp-phone-search-airport-duress-password",
       "created_at": "2026-07-28T20:17:53Z",
@@ -4268,12 +4244,6 @@
       "created_at": "2026-07-25T07:08:00Z",
       "status": "scoring_attempted",
       "title": "Forget expensive sleepbuds. Buy this pillow instead"
-    },
-    "https://www.theverge.com/tech/970519/tiktok-eu-dsa-child-safety-age-account-privacy": {
-      "canonical_url": "https://www.theverge.com/tech/970519/tiktok-eu-dsa-child-safety-age-account-privacy",
-      "created_at": "2026-07-24T12:47:34Z",
-      "status": "scoring_attempted",
-      "title": "TikTok&#8217;s protection of minors should not be opt-in, warns EU"
     },
     "https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update": {
       "canonical_url": "https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update",
