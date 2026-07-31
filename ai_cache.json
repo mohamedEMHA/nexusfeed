@@ -1,38 +1,62 @@
 {
   "cerebras_scoring": {
-    "045e816201a859eb0a244061176447ef7f4a7951eb8c0d119bf549f67b9de4a1": {
-      "created_at": "2026-07-30T20:07:03Z",
+    "02aaf6666c6970174091efa894369f9a2132edc6e3fe77d868d58ed038f8f463": {
+      "created_at": "2026-07-31T20:25:14Z",
       "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 0,
-            "novelty_score": 2.5,
-            "reason": "Friend AI wearable adds voice interaction, a notable update, but impact is niche.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Friend, the lonely AI wearable, returns with a new voice and a much bigger price tag",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 1,
-            "novelty_score": 2.5,
-            "reason": "New agent skill for simplified technical English documentation, but source is low-tier.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Agent Skill to Force Docs in ASD-STE100 Simplified Technical English",
-            "total_score": 6.5
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2,
+              "impact_score": 3,
+              "index": 0,
+              "novelty_score": 2.5,
+              "reason": "High novelty (research-like industry move), broad impact, and fresh (<1h).",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Google Earth releases, swiftly retracts AI feature to make fake satellite images",
+              "total_score": 9
+            },
+            {
+              "freshness_score": 1.5,
+              "impact_score": 3,
+              "index": 1,
+              "novelty_score": 2,
+              "reason": "High impact and freshness, but slightly lower novelty than index 0.",
+              "red_flag": false,
+              "source_score": 1.5,
+              "title": "Google nixes its Earth AI feature one day after launch, amid criticism it would spread misinformation",
+              "total_score": 8
+            },
+            {
+              "freshness_score": 1.5,
+              "impact_score": 1.5,
+              "index": 2,
+              "novelty_score": 1.5,
+              "reason": "Niche impact (iPhone users), moderate novelty and freshness.",
+              "red_flag": false,
+              "source_score": 1.5,
+              "title": "Apple\u2019s new AirTags are back down to their best price",
+              "total_score": 6
+            }
+          ],
+          "best_index": 0,
+          "best_score": 9,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "Google Earth briefly rolled out an AI feature that let users generate fake satellite images and overlay them on real maps. The tool was pulled within 24 hours amid concerns it could fuel misinformation. If you're tracking AI ethics debates, this is a case study in rapid rollback.\n\nLink: https://arstechnica.com/ai/2026/07/google-earth-releases-swiftly-retracts-ai-feature-to-make-fake-satellite-images/",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Google Earth releases, swiftly retracts AI feature to make fake satellite images*\n\nGoogle Earth launched\u2014and then killed\u2014an AI tool within 24 hours that could generate fake satellite images and overlay them on real maps. The rapid reversal follows immediate backlash over misinformation risks.\n\n\ud83c\udfdb\ufe0f Source: Ars Technica (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9/10\n\n\ud83d\udd17 https://arstechnica.com/ai/2026/07/google-earth-releases-swiftly-retracts-ai-feature-to-make-fake-satellite-images/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "Google Earth\u2019s AI feature for generating fake satellite images lasted less than a day before being pulled. The incident underscores the challenges of balancing innovation with misinformation risks in AI tools.\n\nhttps://arstechnica.com/ai/2026/07/google-earth-releases-swiftly-retracts-ai-feature-to-make-fake-satellite-images/",
+            "twitter": "Google Earth launched\u2014and then killed\u2014an AI tool that could generate fake satellite images in under a day. The rapid reversal highlights the risks of AI-generated misinformation at scale.\n\nhttps://arstechnica.com/ai/2026/07/google-earth-releases-swiftly-retracts-ai-feature-to-make-fake-satellite-images/"
           }
-        ],
-        "best_index": 0,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
+        },
+        "social_media_rules": [
+          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
+          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.",
+          "Use the FULL article title as headline without inventing facts.",
+          "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
+        ]
       }
     },
     "05d7039c28e85305a4f86e9608be23a020b0fac5966ae26c4b0d1152dc9382be": {
@@ -99,29 +123,6 @@
         ],
         "best_index": 1,
         "best_score": 6.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
-    "097cfa499295f9611fd7ca26de4859db79c7192194e02c3f8b905e918af63ef3": {
-      "created_at": "2026-07-30T20:07:03Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 1.5,
-            "impact_score": 1.5,
-            "index": 17,
-            "novelty_score": 2.5,
-            "reason": "Interesting niche application of WebGPU, but limited impact and from a lesser-known source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Solving poker in custom WebGPU kernels",
-            "total_score": 5.5
-          }
-        ],
-        "best_index": 17,
-        "best_score": 5.5,
         "recommendation": "SKIP",
         "social_posts": {}
       }
@@ -421,46 +422,6 @@
         }
       }
     },
-    "382e94e86a85d62e08d0e4eb0cf6799b89fff25f5691f72e5571cf5349332480": {
-      "created_at": "2026-07-30T20:07:03Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2,
-            "impact_score": 1.5,
-            "index": 5,
-            "novelty_score": 2.5,
-            "reason": "New release with niche impact, fresh, but from a lower-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 0.5,
-            "title": "Show HN: Noisegate \u2013 a differential-privacy gateway for untrusted AI agents",
-            "total_score": 6.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 7,
-            "novelty_score": 3,
-            "reason": "New release with broad impact, fresh, and from a mid-tier source.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Google DeepMind Ships Three Physical AI Models For Whole Body Control, Dexterity And Multi Robot Collaboration",
-            "total_score": 8.5
-          }
-        ],
-        "best_index": 7,
-        "best_score": 8.5,
-        "recommendation": "POST_NOW",
-        "social_posts": {
-          "facebook": "Google DeepMind has shipped three new AI models for robotics, including a vision-language-action model for humanoid control, a model for embodied reasoning, and an on-device version. This is a significant step forward for AI in robotics. Link: https://www.marktechpost.com/2026/07/30/google-deepmind-gemini-robotics-2-whole-body-control-dexterity-multi-robot-collaboration/",
-          "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Google DeepMind Ships Three Physical AI Models For Whole Body Control, Dexterity And Multi Robot Collaboration*\n\nGoogle DeepMind has released Gemini Robotics 2, the intelligence layer for its next generation of robots. The release ships three models: a vision-language-action model for whole body humanoid control, Gemini Robotics ER 2 for embodied reasoning and task orchestration, and an on-device VLA that adapts to various environments.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: 2 hours ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/07/30/google-deepmind-gemini-robotics-2-whole-body-control-dexterity-multi-robot-collaboration/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-          "threads": "Google DeepMind just released three new AI models for robotics, including a vision-language-action model for humanoid control. This is a big deal for AI in robotics. https://www.marktechpost.com/2026/07/30/google-deepmind-gemini-robotics-2-whole-body-control-dexterity-multi-robot-collaboration/",
-          "twitter": "Google DeepMind just released three new AI models for robotics, including a vision-language-action model for humanoid control. https://www.marktechpost.com/2026/07/30/google-deepmind-gemini-robotics-2-whole-body-control-dexterity-multi-robot-collaboration/"
-        }
-      }
-    },
     "41f3fc8fb3dcef94b76425a6903b35900b930a78e9d58f50af763d916018bc13": {
       "created_at": "2026-07-31T13:20:50Z",
       "payload": {
@@ -670,41 +631,6 @@
         ]
       }
     },
-    "74c7a5d1d588f62aaa368ca3bb4075ac07bb7b4341e41f8a20db3966833967a3": {
-      "created_at": "2026-07-30T20:07:03Z",
-      "payload": {
-        "articles": [
-          {
-            "freshness_score": 2.0,
-            "impact_score": 2.5,
-            "index": 2,
-            "novelty_score": 2.0,
-            "reason": "Chrome update process improvement impacts all users but novelty is incremental.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Chrome may get faster updates with no restart required",
-            "total_score": 7.5
-          },
-          {
-            "freshness_score": 1.5,
-            "impact_score": 2.5,
-            "index": 3,
-            "novelty_score": 2.5,
-            "reason": "AI-driven bug fixing is significant but impact is somewhat niche to Chrome developers.",
-            "red_flag": false,
-            "red_flag_reason": null,
-            "source_score": 1.5,
-            "title": "Google says it fixed more Chrome bugs in June than over the past two years, thanks to AI",
-            "total_score": 7.5
-          }
-        ],
-        "best_index": 3,
-        "best_score": 7.5,
-        "recommendation": "SKIP",
-        "social_posts": {}
-      }
-    },
     "768329cbc04fba27b1017faf92c460a0846d69486fd760511b4d070652495e4e": {
       "created_at": "2026-07-31T18:59:27Z",
       "payload": {
@@ -809,6 +735,48 @@
         "best_score": 7.5,
         "recommendation": "SKIP",
         "social_posts": {}
+      }
+    },
+    "7f4687228ddc4cc84457d96aab24903b7d4478d8688d78700dc8e0dd59ec2b0e": {
+      "created_at": "2026-07-31T20:25:14Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.5,
+              "impact_score": 3,
+              "index": 5,
+              "novelty_score": 2.5,
+              "reason": "Security incident analysis with high impact and freshness, but low source tier.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Tailscale didn't stop the Hugging Face intrusion",
+              "total_score": 7.5
+            },
+            {
+              "freshness_score": 1.5,
+              "impact_score": 2.5,
+              "index": 6,
+              "novelty_score": 3,
+              "reason": "New Go proposal with broad developer impact but low source tier.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Golang proposal: container/: generic collection types",
+              "total_score": 7.5
+            }
+          ],
+          "best_index": 5,
+          "best_score": 7.5,
+          "recommendation": "SKIP",
+          "social_posts": {
+            "facebook": "",
+            "telegram": "",
+            "threads": "",
+            "twitter": ""
+          }
+        }
       }
     },
     "84c300de9fe65af1f40f8f6bc7abdae6a3c2390b6b206f1deb9214926ad23a2c": {
@@ -1024,6 +992,43 @@
         "social_posts": {}
       }
     },
+    "b2650654ad4f061b679424c42ca9c397941cfe79de3feb105ca6be2466bbe71c": {
+      "created_at": "2026-07-31T20:25:14Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2,
+              "impact_score": 2.5,
+              "index": 8,
+              "novelty_score": 2.5,
+              "reason": "Research paper with high novelty and impact but low source tier.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Orca-Bench: How Ready Are Language Model Agents for Oncall?",
+              "total_score": 7.5
+            },
+            {
+              "freshness_score": 2,
+              "impact_score": 1.5,
+              "index": 9,
+              "novelty_score": 2,
+              "reason": "Industry move with niche impact and low source tier.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Using the railway network as a flatbed scanner [video]",
+              "total_score": 6
+            }
+          ],
+          "best_index": 8,
+          "best_score": 7.5,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
     "b57bc7d101543ed439de40ca2ca4dedc828efeb184d6907f5ef13fdcc8ebd216": {
       "created_at": "2026-07-31T18:59:27Z",
       "payload": {
@@ -1178,6 +1183,48 @@
           "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Univ\u00e9 builds an AI-ready workforce*\n\nUniv\u00e9 transformed its workforce at scale using ChatGPT Enterprise, combining leadership, governance, and employee innovation.\n\n\ud83c\udfdb\ufe0f Source: OpenAI (S)\n\u23f0 Published: 2 hours ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://openai.com/index/unive\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
           "threads": "Univ\u00e9's workforce transformation with ChatGPT Enterprise shows how leadership, governance, and innovation can drive AI adoption at scale.\nhttps://openai.com/index/unive",
           "twitter": "Univ\u00e9 transformed its workforce at scale using ChatGPT Enterprise, combining leadership, governance, and employee innovation.\nhttps://openai.com/index/unive"
+        }
+      }
+    },
+    "e1af0507552ed9022be57ca1ea0cf014940c99505772a4e376094da9285ff70c": {
+      "created_at": "2026-07-31T20:25:14Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.5,
+              "index": 3,
+              "novelty_score": 3.0,
+              "reason": "New release with broad impact, fresh within 1 hour, from Tier A source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Google Earth\u2019s AI deepfake tool only lasted one day",
+              "total_score": 9.0
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 0.5,
+              "index": 4,
+              "novelty_score": 2.0,
+              "reason": "Industry move with niche impact, fresh within 1 hour, from Tier A source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Would you get tattooed just to interview at a 7-days-a-week AI startup?",
+              "total_score": 6.0
+            }
+          ],
+          "best_index": 3,
+          "best_score": 9.0,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "Google Earth\u2019s short-lived AI tool let users generate deepfakes of satellite imagery with text prompts. The feature lasted less than 24 hours before Google shut it down. It\u2019s a reminder of how quickly experimental AI tools can hit regulatory or ethical walls.\n\nLink: https://www.theverge.com/tech/973943/google-earth-ai-image-generation-deepfake-tool",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Google Earth\u2019s AI deepfake tool only lasted one day*\n\nGoogle shut down a feature launched yesterday that let users edit satellite images with text prompts, effectively creating AI deepfakes of real-world locations. The tool was pulled within hours of public backlash.\n\n\ud83c\udfdb\ufe0f Source: The Verge (Tier A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://www.theverge.com/tech/973943/google-earth-ai-image-generation-deepfake-tool\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "Google Earth\u2019s AI image generator is already dead after one day. The tool let users create deepfakes of satellite imagery with text prompts\u2014until Google pulled the plug.\n\nhttps://www.theverge.com/tech/973943/google-earth-ai-image-generation-deepfake-tool",
+            "twitter": "Google Earth\u2019s AI image generator is already dead after one day. The tool let users create deepfakes of satellite imagery with text prompts\u2014until Google pulled the plug.\n\nhttps://www.theverge.com/tech/973943/google-earth-ai-image-generation-deepfake-tool"
+          }
         }
       }
     },
@@ -1684,15 +1731,6 @@
         "twitter": "US ban on foreign-made robots may backfire, hindering domestic robotics development @ArsTechnica #robotics"
       }
     },
-    "e47bffad24a8231cc546c4f25d68929099c8215ba9bd6e68b4b36cc3489907cc": {
-      "created_at": "2026-07-24T20:04:50Z",
-      "payload": {
-        "facebook": "The AI startup Midjourney has acquired the personalized astrology app Co-Star, marking a significant move into a new field. This acquisition could have implications for the AI and app development communities, and it will be interesting to see how Midjourney integrates Co-Star's features into its existing offerings. #AI #Astrology #TechNews",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Midjourney Acquires Co-Star App\nMidjourney has acquired the personalized astrology app Co-Star, marking a significant move into the field of astrology. The acquisition could have implications for the AI and app development communities.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #Astrology #TechNews\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Midjourney's acquisition of Co-Star app signals a new direction for the AI startup, one that could bring personalized astrology to a wider audience @TheVerge #AI",
-        "twitter": "Midjourney expands into astrology with acquisition of Co-Star app, a move that could impact AI and app development @TheVerge #AI"
-      }
-    },
     "ead06d3c011e0bebed5eba635b55c2c562822f0707acbbec465212e727872786": {
       "created_at": "2026-07-28T22:38:44Z",
       "payload": {
@@ -1809,6 +1847,12 @@
       "status": "scoring_attempted",
       "title": "Despite AI hype, Google's data shows workers aren't automating themselves away"
     },
+    "https://arstechnica.com/ai/2026/07/google-earth-releases-swiftly-retracts-ai-feature-to-make-fake-satellite-images": {
+      "canonical_url": "https://arstechnica.com/ai/2026/07/google-earth-releases-swiftly-retracts-ai-feature-to-make-fake-satellite-images",
+      "created_at": "2026-07-31T20:25:14Z",
+      "status": "scoring_attempted",
+      "title": "Google Earth releases, swiftly retracts AI feature to make fake satellite images"
+    },
     "https://arstechnica.com/ai/2026/07/google-reveals-gemini-robotics-2-0-promising-improved-dexterity-and-safety": {
       "canonical_url": "https://arstechnica.com/ai/2026/07/google-reveals-gemini-robotics-2-0-promising-improved-dexterity-and-safety",
       "created_at": "2026-07-30T18:44:52Z",
@@ -1838,6 +1882,12 @@
       "created_at": "2026-07-30T15:21:40Z",
       "status": "scoring_attempted",
       "title": "New MCP specification addresses the main barrier to enterprise adoption"
+    },
+    "https://arstechnica.com/culture/2026/07/ai-startup-admits-tattoo-for-interview-stunt-was-reckless": {
+      "canonical_url": "https://arstechnica.com/culture/2026/07/ai-startup-admits-tattoo-for-interview-stunt-was-reckless",
+      "created_at": "2026-07-31T20:25:14Z",
+      "status": "scoring_attempted",
+      "title": "Would you get tattooed just to interview at a 7-days-a-week AI startup?"
     },
     "https://arstechnica.com/science/2026/07/what-happens-when-you-put-ai-to-work-deciphering-lost-languages": {
       "canonical_url": "https://arstechnica.com/science/2026/07/what-happens-when-you-put-ai-to-work-deciphering-lost-languages",
@@ -2355,6 +2405,12 @@
       "status": "scoring_attempted",
       "title": "What Does It Take to Detect an AI Agent? Minimal Feature Sets for Behavioral Detection under Browser Automation"
     },
+    "https://arxiv.org/abs/2607.28545": {
+      "canonical_url": "https://arxiv.org/abs/2607.28545",
+      "created_at": "2026-07-31T20:25:14Z",
+      "status": "scoring_attempted",
+      "title": "Orca-Bench: How Ready Are Language Model Agents for Oncall?"
+    },
     "https://baturin.org/docs/iproute2": {
       "canonical_url": "https://baturin.org/docs/iproute2",
       "created_at": "2026-07-25T16:42:46Z",
@@ -2589,6 +2645,12 @@
       "status": "scoring_attempted",
       "title": "Show HN: A local merge queue for parallel Claude Code agents"
     },
+    "https://github.com/golang/go/issues/80590": {
+      "canonical_url": "https://github.com/golang/go/issues/80590",
+      "created_at": "2026-07-31T20:25:14Z",
+      "status": "scoring_attempted",
+      "title": "Golang proposal: container/: generic collection types"
+    },
     "https://github.com/grafana/ai-sdk": {
       "canonical_url": "https://github.com/grafana/ai-sdk",
       "created_at": "2026-07-30T15:21:40Z",
@@ -2811,6 +2873,12 @@
       "status": "scoring_attempted",
       "title": "Using an open model feels surprisingly good"
     },
+    "https://media.ccc.de/v/emf2026-74-1-using-the-railway-network-as-a-flatbed-scanner": {
+      "canonical_url": "https://media.ccc.de/v/emf2026-74-1-using-the-railway-network-as-a-flatbed-scanner",
+      "created_at": "2026-07-31T20:25:14Z",
+      "status": "scoring_attempted",
+      "title": "Using the railway network as a flatbed scanner [video]"
+    },
     "https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash": {
       "canonical_url": "https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash",
       "created_at": "2026-07-27T17:57:31Z",
@@ -2984,6 +3052,12 @@
       "created_at": "2026-07-31T17:48:59Z",
       "status": "scoring_attempted",
       "title": "13 Models and 4 Agents on SWE Tasks: Go, Java, Python, Rust, TS"
+    },
+    "https://tailscale.com/blog/hugging-face-intrusion": {
+      "canonical_url": "https://tailscale.com/blog/hugging-face-intrusion",
+      "created_at": "2026-07-31T20:25:14Z",
+      "status": "scoring_attempted",
+      "title": "Tailscale didn't stop the Hugging Face intrusion"
     },
     "https://tailscale.com/blog/jailbroken-kindle-proxy-tun-modes": {
       "canonical_url": "https://tailscale.com/blog/jailbroken-kindle-proxy-tun-modes",
@@ -3308,6 +3382,12 @@
       "created_at": "2026-07-30T15:21:40Z",
       "status": "scoring_attempted",
       "title": "TechCrunch Disrupt 2026\u2019s biggest stage features leaders from Amazon, Replit, Tether, with much more to come"
+    },
+    "https://techcrunch.com/2026/07/31/google-nixes-its-earth-ai-feature-one-day-after-launch-amid-criticism-it-would-spread-misinformation": {
+      "canonical_url": "https://techcrunch.com/2026/07/31/google-nixes-its-earth-ai-feature-one-day-after-launch-amid-criticism-it-would-spread-misinformation",
+      "created_at": "2026-07-31T20:25:14Z",
+      "status": "scoring_attempted",
+      "title": "Google nixes its Earth AI feature one day after launch, amid criticism it would spread misinformation"
     },
     "https://techcrunch.com/2026/07/31/siri-ai-could-come-with-a-paywall-for-power-users": {
       "canonical_url": "https://techcrunch.com/2026/07/31/siri-ai-could-come-with-a-paywall-for-power-users",
@@ -3933,12 +4013,6 @@
       "status": "scoring_attempted",
       "title": "The AI jobs apocalypse probably isn't coming anytime soon"
     },
-    "https://www.theverge.com/ai-artificial-intelligence/970894/midjourney-co-star-acquisition": {
-      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/970894/midjourney-co-star-acquisition",
-      "created_at": "2026-07-24T20:04:50Z",
-      "status": "scoring_attempted",
-      "title": "Midjourney bought the astrology app Co-Star"
-    },
     "https://www.theverge.com/ai-artificial-intelligence/971059/ai-artists-lawsuit-google-meta-anthropic": {
       "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/971059/ai-artists-lawsuit-google-meta-anthropic",
       "created_at": "2026-07-29T13:27:14Z",
@@ -4077,12 +4151,6 @@
       "status": "scoring_attempted",
       "title": "Teenage Engineering\u2019s unique music machines are 30 percent off"
     },
-    "https://www.theverge.com/gadgets/970910/qualcomm-raising-prices-bloomberg": {
-      "canonical_url": "https://www.theverge.com/gadgets/970910/qualcomm-raising-prices-bloomberg",
-      "created_at": "2026-07-24T20:04:50Z",
-      "status": "scoring_attempted",
-      "title": "Qualcomm is about to raise prices and that&#8217;s bad news for everyone"
-    },
     "https://www.theverge.com/gadgets/971332/samsung-qdoled-gaming-monitor-find-my-tracker-ps5-logitech-deal-sale": {
       "canonical_url": "https://www.theverge.com/gadgets/971332/samsung-qdoled-gaming-monitor-find-my-tracker-ps5-logitech-deal-sale",
       "created_at": "2026-07-27T15:59:27Z",
@@ -4130,6 +4198,12 @@
       "created_at": "2026-07-30T17:10:53Z",
       "status": "scoring_attempted",
       "title": "Friend re-launches its AI pendant with a speaker that talks to you, for twice the price"
+    },
+    "https://www.theverge.com/gadgets/973973/apple-airtag-second-generation-deal-sale": {
+      "canonical_url": "https://www.theverge.com/gadgets/973973/apple-airtag-second-generation-deal-sale",
+      "created_at": "2026-07-31T20:25:14Z",
+      "status": "scoring_attempted",
+      "title": "Apple\u2019s new AirTags are back down to their best price"
     },
     "https://www.theverge.com/games/967174/steam-game-malware-cryptostealer-arrest": {
       "canonical_url": "https://www.theverge.com/games/967174/steam-game-malware-cryptostealer-arrest",
@@ -4382,6 +4456,12 @@
       "created_at": "2026-07-31T18:59:27Z",
       "status": "scoring_attempted",
       "title": "Google might launch a \u2018Pixel Tag\u2019"
+    },
+    "https://www.theverge.com/tech/973943/google-earth-ai-image-generation-deepfake-tool": {
+      "canonical_url": "https://www.theverge.com/tech/973943/google-earth-ai-image-generation-deepfake-tool",
+      "created_at": "2026-07-31T20:25:14Z",
+      "status": "scoring_attempted",
+      "title": "Google Earth&#8217;s AI deepfake tool only lasted one day"
     },
     "https://www.theverge.com/transportation/972569/ferrari-luce-ev-sales": {
       "canonical_url": "https://www.theverge.com/transportation/972569/ferrari-luce-ev-sales",
