@@ -86,51 +86,6 @@
         ]
       }
     },
-    "05d7039c28e85305a4f86e9608be23a020b0fac5966ae26c4b0d1152dc9382be": {
-      "created_at": "2026-07-31T17:48:59Z",
-      "payload": {
-        "candidates": [],
-        "prompt_version": "cerebras-scoring-v1",
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2,
-              "impact_score": 2.5,
-              "index": 0,
-              "novelty_score": 2,
-              "reason": "Strong industry analysis with high freshness and broad impact for developers and consumers.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "The ban on robot vacuums won\u2019t make them safer, only worse",
-              "total_score": 8
-            },
-            {
-              "freshness_score": 2,
-              "impact_score": 2.5,
-              "index": 1,
-              "novelty_score": 2.5,
-              "reason": "Industry leader commentary with high freshness and broad relevance to AI researchers.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "Sam Altman isn\u2019t the only one who wants to pump the brakes on AI",
-              "total_score": 8
-            }
-          ],
-          "best_index": 0,
-          "best_score": 8,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        },
-        "social_media_rules": [
-          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
-          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.",
-          "Use the FULL article title as headline without inventing facts.",
-          "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
-        ]
-      }
-    },
     "0c6057886fc0587340f9a1a8db1655e8ea06d01194b135b16f928f116286618d": {
       "created_at": "2026-08-01T11:02:45Z",
       "payload": {
@@ -209,6 +164,31 @@
         }
       }
     },
+    "180115d436544ac7b29fed5e3822ec65222fbedcf1a9ba33c5cce37344897d44": {
+      "created_at": "2026-08-01T17:49:54Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 0.5,
+              "index": 1,
+              "novelty_score": 0.2,
+              "reason": "Entertainment content does not meet technical relevance criteria for this curation.",
+              "red_flag": true,
+              "red_flag_reason": "entertainment",
+              "source_score": 1.5,
+              "title": "Spider-Man: Brand New Day leak racks up millions of views",
+              "total_score": 4.2
+            }
+          ],
+          "best_index": 1,
+          "best_score": 4.2,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
     "1a93cc11b55bcb19226402a1eaacf27a4d8fb7b38e8c968882a51947f27cdbdf": {
       "created_at": "2026-07-31T22:56:18Z",
       "payload": {
@@ -235,48 +215,6 @@
             "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 DeepSeek Upgrades DeepSeek-V4-Flash-0731 with Major Agentic and Coding Gains\n\nDeepSeek published DeepSeek-V4-Flash-0731 on Hugging Face and moved the official V4-Flash API into public beta. The update delivers measurable improvements in agentic and coding tasks while keeping the same architecture.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/07/31/deepseek-upgrades-deepseek-v4-flash-0731-with-major-agentic-and-coding-gains/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
             "threads": "DeepSeek-V4-Flash-0731 is now in public beta with documented gains in agentic and coding tasks. The official release maintains the same architecture but improves post-training outputs, offering a straightforward upgrade path.\n\nhttps://www.marktechpost.com/2026/07/31/deepseek-upgrades-deepseek-v4-flash-0731-with-major-agentic-and-coding-gains/",
             "twitter": "DeepSeek just pushed DeepSeek-V4-Flash-0731 into public beta with measurable gains in agentic and coding tasks. The official release keeps the same architecture but improves post-training outputs.\n\nhttps://www.marktechpost.com/2026/07/31/deepseek-upgrades-deepseek-v4-flash-0731-with-major-agentic-and-coding-gains/"
-          }
-        }
-      }
-    },
-    "205dae96f5fb412ce3c839eab69f026937fe9ed2d0ce94d35263fa8a39931762": {
-      "created_at": "2026-07-31T17:48:59Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 2.5,
-              "index": 2,
-              "novelty_score": 3.0,
-              "reason": "High novelty (AI integration in Google Earth), broad impact (all users), fresh (<1h), Tier A source.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "Here\u2019s the problem with putting an AI image generator in Google Earth",
-              "total_score": 9.0
-            },
-            {
-              "freshness_score": 1.5,
-              "impact_score": 2.0,
-              "index": 3,
-              "novelty_score": 2.0,
-              "reason": "Industry move with moderate impact (social media users), fresh (<1h), Tier A source.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "Snapchat no longer rewards fully AI-generated Spotlight content",
-              "total_score": 7.0
-            }
-          ],
-          "best_index": 2,
-          "best_score": 9.0,
-          "recommendation": "POST_NOW",
-          "social_posts": {
-            "facebook": "Google Earth\u2019s new AI image generator lets anyone rewrite satellite imagery with text prompts\u2014like turning a refugee camp into a warzone. The feature risks spreading misinformation at scale.\n\nLink: https://www.theverge.com/ai-artificial-intelligence/973764/google-earth-ai-satellite-images",
-            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Here\u2019s the problem with putting an AI image generator in Google Earth*\n\nGoogle Earth now allows AI-generated images from text prompts, enabling users to alter satellite and aerial imagery. Early examples include fabricated scenes like \"refugees near the Mexican border\" and bomb craters near hospitals in Gaza.\n\n\ud83c\udfdb\ufe0f Source: The Verge (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://www.theverge.com/ai-artificial-intelligence/973764/google-earth-ai-satellite-images\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-            "threads": "Google Earth\u2019s AI can now generate photorealistic satellite images from text prompts. The implications for misinformation and propaganda are immediate and severe.\n\nhttps://www.theverge.com/ai-artificial-intelligence/973764/google-earth-ai-satellite-images",
-            "twitter": "Google Earth now lets AI warp reality with text prompts, raising ethical and accuracy concerns in satellite imagery. Early examples show disturbing misuse cases.\n\nhttps://www.theverge.com/ai-artificial-intelligence/973764/google-earth-ai-satellite-images"
           }
         }
       }
@@ -529,6 +467,31 @@
         ]
       }
     },
+    "71929e3803b45e67fd9e19806775013653d505f733735048473a04ed6c885f5d": {
+      "created_at": "2026-08-01T17:49:54Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 0.5,
+              "index": 0,
+              "novelty_score": 0.5,
+              "reason": "Low novelty and impact with an opinion piece, despite freshness and decent source.",
+              "red_flag": true,
+              "red_flag_reason": "opinion",
+              "source_score": 1.5,
+              "title": "Sam Altman is still making the case for parenting via ChatGPT",
+              "total_score": 3.0
+            }
+          ],
+          "best_index": 0,
+          "best_score": 3.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
     "722173d7be4bd10716ec4e6431c512a6821ba1a0de43d0603331958872c1c995": {
       "created_at": "2026-08-01T16:44:40Z",
       "payload": {
@@ -641,6 +604,31 @@
         }
       }
     },
+    "7e391a623d6fe2d5d964ab689f96af3aeae55f2f85bea7dc1e22f72a5fab3db5": {
+      "created_at": "2026-08-01T17:49:54Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.5,
+              "index": 2,
+              "novelty_score": 3.0,
+              "reason": "New release with high impact for Flutter developers using Dart 3.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Kaisel \u2013 Routes as Values. Dart 3 Native Router for Flutter",
+              "total_score": 8.0
+            }
+          ],
+          "best_index": 2,
+          "best_score": 8.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
     "7f4687228ddc4cc84457d96aab24903b7d4478d8688d78700dc8e0dd59ec2b0e": {
       "created_at": "2026-07-31T20:25:14Z",
       "payload": {
@@ -708,6 +696,31 @@
         }
       }
     },
+    "82bd3e1b3ed587d44a9c2019ed4b015e9dd18c1cc954cb4d3fd71d2e44aedc6f": {
+      "created_at": "2026-08-01T17:49:54Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1,
+              "impact_score": 0.5,
+              "index": 5,
+              "novelty_score": 1.5,
+              "reason": "Tutorial-style headline with low novelty and impact scores.",
+              "red_flag": true,
+              "red_flag_reason": "tutorial",
+              "source_score": 0.5,
+              "title": "Toast IDE Gets Markdown Spell Checking",
+              "total_score": 3.5
+            }
+          ],
+          "best_index": 5,
+          "best_score": 0.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
     "84041bece8314c6de368e3ddc9e3b42cee09bfa9f50e2afd17b81b3c70651a63": {
       "created_at": "2026-08-01T15:50:31Z",
       "payload": {
@@ -730,48 +743,6 @@
           "best_score": 5.5,
           "recommendation": "SKIP",
           "social_posts": {}
-        }
-      }
-    },
-    "84c300de9fe65af1f40f8f6bc7abdae6a3c2390b6b206f1deb9214926ad23a2c": {
-      "created_at": "2026-07-31T17:48:59Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2,
-              "impact_score": 2.5,
-              "index": 4,
-              "novelty_score": 2.5,
-              "reason": "Industry move with high impact on music AI and freshness under 1h.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "The major labels propose rules to keep AI slop off the charts",
-              "total_score": 8.5
-            },
-            {
-              "freshness_score": 2,
-              "impact_score": 2,
-              "index": 5,
-              "novelty_score": 2.5,
-              "reason": "Industry move with niche-to-broad impact and freshness under 1h.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "Siri AI could come with a paywall for power users",
-              "total_score": 8
-            }
-          ],
-          "best_index": 4,
-          "best_score": 8.5,
-          "recommendation": "POST_NOW",
-          "social_posts": {
-            "facebook": "The music industry is drawing a hard line against AI-generated content. Major labels like Universal, Sony, and Warner are proposing rules that would exclude AI songs from official charts entirely. The move goes further than previous proposals, aiming to prevent what they call 'AI slop' from distorting chart rankings.\n\nLink: https://www.theverge.com/ai-artificial-intelligence/973741/ai-music-major-record-labels-charts",
-            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *The major labels propose rules to keep AI slop off the charts*\n\nMajor record labels including Universal Music Group, Sony Music, and Warner Music Group propose strict chart eligibility rules to exclude AI-generated music entirely.\n\n\ud83c\udfdb\ufe0f Source: The Verge (Tier A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/ai-artificial-intelligence/973741/ai-music-major-record-labels-charts\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-            "threads": "Major record labels want AI music off the charts. Universal, Sony, and Warner propose rules to block AI-generated songs from official rankings, calling them 'AI slop'.\n\nhttps://www.theverge.com/ai-artificial-intelligence/973741/ai-music-major-record-labels-charts",
-            "twitter": "Major record labels want AI-generated music banned from charts entirely. Universal, Sony, and Warner propose strict eligibility rules to curb 'AI slop'.\n\nhttps://www.theverge.com/ai-artificial-intelligence/973741/ai-music-major-record-labels-charts"
-          }
         }
       }
     },
@@ -1010,46 +981,6 @@
           "recommendation": "SKIP",
           "social_posts": {}
         }
-      }
-    },
-    "b615ff8eb70162751c891245d96e0d79d885fb06b5e2fbb569d34b8fce165699": {
-      "created_at": "2026-07-31T17:48:59Z",
-      "payload": {
-        "candidates": [],
-        "prompt_version": "cerebras-scoring-v1",
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1.5,
-              "impact_score": 2.5,
-              "index": 7,
-              "novelty_score": 3.0,
-              "reason": "Benchmark release with broad language support and high impact on software engineering.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "13 Models and 4 Agents on SWE Tasks: Go, Java, Python, Rust, TS",
-              "total_score": 7.5
-            },
-            {
-              "freshness_score": 1.5,
-              "impact_score": 2.5,
-              "index": 18,
-              "novelty_score": 2.0,
-              "reason": "Industry analysis with significant implications for AI policy and adoption.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "AI labs want to pump the brakes, but Amazon and SpaceX are still blasting off",
-              "total_score": 7.5
-            }
-          ],
-          "best_index": 7,
-          "best_score": 7.5,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        },
-        "social_media_rules": []
       }
     },
     "bb222cb4e28f2b4d19f02a370df7aa928870c0e14b0a2ad3cb9adc2e7741a202": {
@@ -2688,6 +2619,12 @@
       "status": "scoring_attempted",
       "title": "OpenAI just open-sourced Codex Security"
     },
+    "https://github.com/paradise-runner/toast": {
+      "canonical_url": "https://github.com/paradise-runner/toast",
+      "created_at": "2026-08-01T17:49:54Z",
+      "status": "scoring_attempted",
+      "title": "Toast IDE Gets Markdown Spell Checking"
+    },
     "https://github.com/reflex-dev/xy": {
       "canonical_url": "https://github.com/reflex-dev/xy",
       "created_at": "2026-07-28T17:43:13Z",
@@ -2808,6 +2745,12 @@
       "status": "scoring_attempted",
       "title": "Predictive Speculative KV Replication for Bursty LLM Inference"
     },
+    "https://kaisel.dev": {
+      "canonical_url": "https://kaisel.dev",
+      "created_at": "2026-08-01T17:49:54Z",
+      "status": "scoring_attempted",
+      "title": "Kaisel \u2013 Routes as Values. Dart 3 Native Router for Flutter"
+    },
     "https://lalitm.com/post/github-alternatives": {
       "canonical_url": "https://lalitm.com/post/github-alternatives",
       "created_at": "2026-08-01T16:44:40Z",
@@ -2825,12 +2768,6 @@
       "created_at": "2026-07-29T02:12:16Z",
       "status": "scoring_attempted",
       "title": "LearnVector \u2013 Andrew Ng's AI company building one\u2011to\u2011one learning experiences"
-    },
-    "https://limitededitionjonathan.substack.com/p/apple-is-the-king-of-ai-and-nobody": {
-      "canonical_url": "https://limitededitionjonathan.substack.com/p/apple-is-the-king-of-ai-and-nobody",
-      "created_at": "2026-07-25T17:47:07Z",
-      "status": "scoring_attempted",
-      "title": "Apple Is the King of AI and Nobody Knows It"
     },
     "https://llm2human.pages.dev": {
       "canonical_url": "https://llm2human.pages.dev",
@@ -3401,6 +3338,12 @@
       "created_at": "2026-07-31T15:36:29Z",
       "status": "scoring_attempted",
       "title": "SpaceX won\u2019t remove all of xAI\u2019s unpermitted turbines for another year"
+    },
+    "https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt": {
+      "canonical_url": "https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt",
+      "created_at": "2026-08-01T17:49:54Z",
+      "status": "scoring_attempted",
+      "title": "Sam Altman is still making the case for parenting via ChatGPT"
     },
     "https://techcrunch.com/2026/08/01/this-9-key-physically-locks-your-most-addictive-apps": {
       "canonical_url": "https://techcrunch.com/2026/08/01/this-9-key-physically-locks-your-most-addictive-apps",
@@ -4122,6 +4065,12 @@
       "status": "scoring_attempted",
       "title": "Spotify Running Mode helps match tunes to tempo"
     },
+    "https://www.theverge.com/entertainment/974199/spider-man-brand-new-day-leak-box-office-records": {
+      "canonical_url": "https://www.theverge.com/entertainment/974199/spider-man-brand-new-day-leak-box-office-records",
+      "created_at": "2026-08-01T17:49:54Z",
+      "status": "scoring_attempted",
+      "title": "Spider-Man: Brand New Day leak racks up millions of views"
+    },
     "https://www.theverge.com/gadgets/968645/back-to-school-shopping-guide-gifts": {
       "canonical_url": "https://www.theverge.com/gadgets/968645/back-to-school-shopping-guide-gifts",
       "created_at": "2026-08-01T15:50:31Z",
@@ -4607,12 +4556,6 @@
       "created_at": "2026-07-30T13:08:00Z",
       "status": "scoring_attempted",
       "title": "Mbodi AI (YC P25) Is Hiring Robotics/Research Engineers"
-    },
-    "https://www.youtube.com/watch?v=wlYa8NV5k-U": {
-      "canonical_url": "https://www.youtube.com/watch?v=wlYa8NV5k-U",
-      "created_at": "2026-07-25T17:47:07Z",
-      "status": "scoring_attempted",
-      "title": "Politician reads AI prompt during assembly"
     },
     "https://xcancel.com/HedgieMarkets/status/2081534588485296565": {
       "canonical_url": "https://xcancel.com/HedgieMarkets/status/2081534588485296565",
