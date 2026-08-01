@@ -736,31 +736,6 @@
         }
       }
     },
-    "983dcdeaac1396ae7e7a9f12169e7333e92a98bacfc65f333b728f9743e071d8": {
-      "created_at": "2026-07-31T22:41:47Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 0.5,
-              "index": 0,
-              "novelty_score": 1.5,
-              "reason": "Gadget review with niche impact and no red flags, but low novelty and impact scores.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "With Switch 2, iPhone, and laptop tricks, the Sharge Disk Pro 2 is finally a worthy EDC",
-              "total_score": 5.5
-            }
-          ],
-          "best_index": 0,
-          "best_score": 5.5,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
-      }
-    },
     "9a6e85b96f9c914d1c173bb7d230754cbe2945394c57ad0edcc1098d4926c203": {
       "created_at": "2026-08-01T18:49:55Z",
       "payload": {
@@ -855,31 +830,6 @@
         ]
       }
     },
-    "b57e8b058f2493a3aa2288f65e364f3123b0d54474257465ded7e81d4a5eaa9e": {
-      "created_at": "2026-07-31T22:41:47Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1.5,
-              "impact_score": 2.5,
-              "index": 5,
-              "novelty_score": 2.5,
-              "reason": "Research with high novelty and impact but low source tier and freshness.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Predictive Speculative KV Replication for Bursty LLM Inference",
-              "total_score": 7.0
-            }
-          ],
-          "best_index": 5,
-          "best_score": 7.0,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
-      }
-    },
     "bb222cb4e28f2b4d19f02a370df7aa928870c0e14b0a2ad3cb9adc2e7741a202": {
       "created_at": "2026-08-01T15:50:31Z",
       "payload": {
@@ -900,6 +850,31 @@
           ],
           "best_index": 2,
           "best_score": 4.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
+    "bdb0a91658040bd3bfe6024de08ae182dabd23ef69a8ea7b20230315eed155d4": {
+      "created_at": "2026-08-01T22:52:08Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2,
+              "impact_score": 1.5,
+              "index": 0,
+              "novelty_score": 2.5,
+              "reason": "Article title contains 'From MIT:' which resembles a tutorial/opinion format, but red flag triggered by phrasing.",
+              "red_flag": true,
+              "red_flag_reason": "industry move",
+              "source_score": 0.5,
+              "title": "From MIT: AI financial advice is surprisingly good",
+              "total_score": 6.5
+            }
+          ],
+          "best_index": 0,
+          "best_score": 6.5,
           "recommendation": "SKIP",
           "social_posts": {}
         }
@@ -2583,6 +2558,12 @@
       "status": "scoring_attempted",
       "title": "Flint: A Visualization Language for the AI Era"
     },
+    "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions": {
+      "canonical_url": "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions",
+      "created_at": "2026-08-01T22:52:08Z",
+      "status": "scoring_attempted",
+      "title": "From MIT: AI financial advice is surprisingly good"
+    },
     "https://news.mit.edu/2026/connecting-research-to-policy-on-capitol-hill-0730": {
       "canonical_url": "https://news.mit.edu/2026/connecting-research-to-policy-on-capitol-hill-0730",
       "created_at": "2026-07-30T21:20:41Z",
@@ -3302,12 +3283,6 @@
       "created_at": "2026-07-31T16:01:59Z",
       "status": "scoring_attempted",
       "title": "Admin: Terminally Ill Patients Aren't Exempt from Medicaid Work Requirements"
-    },
-    "https://www.debian.org/vote/2026/vote_002": {
-      "canonical_url": "https://www.debian.org/vote/2026/vote_002",
-      "created_at": "2026-07-25T22:51:44Z",
-      "status": "scoring_attempted",
-      "title": "General Resolution: LLM Usage in Debian"
     },
     "https://www.designboom.com/technology/cipherx-painless-permanent-tattoos-dissolving-microneedle-patches": {
       "canonical_url": "https://www.designboom.com/technology/cipherx-painless-permanent-tattoos-dissolving-microneedle-patches",
