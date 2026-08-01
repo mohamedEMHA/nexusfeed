@@ -914,6 +914,31 @@
         "social_posts": {}
       }
     },
+    "b1442d76b17aa17553890176d5c457ddf1452d7c7835337f990e6e4b1d0278b7": {
+      "created_at": "2026-08-01T03:53:33Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 0.0,
+              "impact_score": 1.5,
+              "index": 19,
+              "novelty_score": 3.0,
+              "reason": "New tool release but contains 'tutorial' red flag in implied content.",
+              "red_flag": true,
+              "red_flag_reason": "tutorial",
+              "source_score": 0.5,
+              "title": "qm \u2013 Multiplayer agent harness for work",
+              "total_score": 5.0
+            }
+          ],
+          "best_index": 19,
+          "best_score": 0.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
     "b2650654ad4f061b679424c42ca9c397941cfe79de3feb105ca6be2466bbe71c": {
       "created_at": "2026-07-31T20:25:14Z",
       "payload": {
@@ -1111,6 +1136,75 @@
             "twitter": "Chinese AI researchers are bypassing corporate silence to shape global AI discourse on X. Early signs suggest a strategic shift in how the field communicates its progress.\n\nhttps://www.wired.com/story/chinese-ai-researchers-are-finding-their-voice-on-x/"
           }
         }
+      }
+    },
+    "c95c4bd76e35bd149e01213fb062ab2b62a5b5516937f060b31d5baf3aaec909": {
+      "created_at": "2026-08-01T03:53:33Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 0.5,
+              "index": 0,
+              "novelty_score": 0.5,
+              "reason": "Promotional content disguised as news with low technical relevance.",
+              "red_flag": true,
+              "red_flag_reason": "industry move with promotional tone",
+              "source_score": 0.5,
+              "title": "BMW Spider-Man in-car advertising",
+              "total_score": 3.5
+            }
+          ],
+          "best_index": 0,
+          "best_score": 0.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
+    "ca91e8588b133975d4e245e1ce6df4f8afc41ace3b0e5d2760e3834a908ccc19": {
+      "created_at": "2026-08-01T03:53:33Z",
+      "payload": {
+        "candidates": [
+          {
+            "article_url": "https://microsoft.github.io/flint-chart/",
+            "index": 1,
+            "published_relative": "1 hour ago",
+            "published_time_utc": "2026-08-01T02:45:09Z",
+            "source": "Hacker News",
+            "summary": "Comments",
+            "tier": "C",
+            "title": "Flint: A Visualization Language for the AI Era"
+          }
+        ],
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.5,
+              "index": 1,
+              "novelty_score": 3.0,
+              "reason": "New research language with broad impact potential for AI-driven visualization.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Flint: A Visualization Language for the AI Era",
+              "total_score": 8.0
+            }
+          ],
+          "best_index": 1,
+          "best_score": 8.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        },
+        "social_media_rules": [
+          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
+          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.",
+          "Use the FULL article title as headline without inventing facts.",
+          "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
+        ]
       }
     },
     "d36a303900ff40a913b680e97431c36be773c7e80cbba0545d19290454808ccf": {
@@ -2416,6 +2510,12 @@
       "status": "scoring_attempted",
       "title": "Claude Code Deletes Your Context History from Your Device After 30 Days"
     },
+    "https://consumerrights.wiki/w/BMW_Spider-Man_in-car_advertising": {
+      "canonical_url": "https://consumerrights.wiki/w/BMW_Spider-Man_in-car_advertising",
+      "created_at": "2026-08-01T03:53:33Z",
+      "status": "scoring_attempted",
+      "title": "BMW Spider-Man in-car advertising"
+    },
     "https://davidnicholaswilliams.com/its-not-empowering-to-hand-off-the-details": {
       "canonical_url": "https://davidnicholaswilliams.com/its-not-empowering-to-hand-off-the-details",
       "created_at": "2026-07-26T21:11:35Z",
@@ -2668,6 +2768,12 @@
       "status": "scoring_attempted",
       "title": "Show HN: Noisegate \u2013 a differential-privacy gateway for untrusted AI agents"
     },
+    "https://github.com/yc-software/qm": {
+      "canonical_url": "https://github.com/yc-software/qm",
+      "created_at": "2026-08-01T03:53:33Z",
+      "status": "scoring_attempted",
+      "title": "qm \u2013 Multiplayer agent harness for work"
+    },
     "https://gregoryszorc.com/docs/python-build-standalone/main": {
       "canonical_url": "https://gregoryszorc.com/docs/python-build-standalone/main",
       "created_at": "2026-07-27T19:38:24Z",
@@ -2812,6 +2918,12 @@
       "status": "scoring_attempted",
       "title": "MAI-Cyber 1"
     },
+    "https://microsoft.github.io/flint-chart": {
+      "canonical_url": "https://microsoft.github.io/flint-chart",
+      "created_at": "2026-08-01T03:53:33Z",
+      "status": "scoring_attempted",
+      "title": "Flint: A Visualization Language for the AI Era"
+    },
     "https://news.mit.edu/2026/connecting-research-to-policy-on-capitol-hill-0730": {
       "canonical_url": "https://news.mit.edu/2026/connecting-research-to-policy-on-capitol-hill-0730",
       "created_at": "2026-07-30T21:20:41Z",
@@ -2925,12 +3037,6 @@
       "created_at": "2026-07-27T21:56:20Z",
       "status": "scoring_attempted",
       "title": "Platform engineering 2.0 mitigates AI security and compliance risks"
-    },
-    "https://ptrchm.com/posts/nothing-works-and-everyone-is-euphoric": {
-      "canonical_url": "https://ptrchm.com/posts/nothing-works-and-everyone-is-euphoric",
-      "created_at": "2026-07-25T03:41:43Z",
-      "status": "scoring_attempted",
-      "title": "If coding has been solved, why does software keep getting worse?"
     },
     "https://pytorch.org/blog/bringing-pytorch-monarch-to-amd-gpus-single-controller-distributed-training-on-rocm": {
       "canonical_url": "https://pytorch.org/blog/bringing-pytorch-monarch-to-amd-gpus-single-controller-distributed-training-on-rocm",
