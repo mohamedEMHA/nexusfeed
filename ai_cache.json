@@ -219,6 +219,31 @@
         }
       }
     },
+    "1ccd5eeff97eabc7846606849d365cdf75aeb3666ce5e06daa5741e0193361eb": {
+      "created_at": "2026-08-01T18:49:55Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 0.5,
+              "index": 0,
+              "novelty_score": 0.2,
+              "reason": "Title contains a question, triggering red flag.",
+              "red_flag": true,
+              "red_flag_reason": "question format in title",
+              "source_score": 1.5,
+              "title": "Is this Billboard Hot 100 hit AI slop?",
+              "total_score": 3.7
+            }
+          ],
+          "best_index": 0,
+          "best_score": 3.7,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
     "2418dacaa5365c749ee409781b805f1c79044e7accf08940504bd1338188dd98": {
       "created_at": "2026-08-01T13:56:45Z",
       "payload": {
@@ -822,6 +847,31 @@
           ],
           "best_index": 0,
           "best_score": 5.5,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
+    "9a6e85b96f9c914d1c173bb7d230754cbe2945394c57ad0edcc1098d4926c203": {
+      "created_at": "2026-08-01T18:49:55Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.0,
+              "impact_score": 0.5,
+              "index": 4,
+              "novelty_score": 0.2,
+              "reason": "Tutorial-style title with no novel research or industry impact.",
+              "red_flag": true,
+              "red_flag_reason": "tutorial",
+              "source_score": 0.5,
+              "title": "Franken.domains: Stitched-Together Domains, Because Every .com Is Taken",
+              "total_score": 2.2
+            }
+          ],
+          "best_index": 4,
+          "best_score": 2.2,
           "recommendation": "SKIP",
           "social_posts": {}
         }
@@ -2481,6 +2531,12 @@
       "status": "scoring_attempted",
       "title": "Graph Engineering Needs a Compiler"
     },
+    "https://franken.domains": {
+      "canonical_url": "https://franken.domains",
+      "created_at": "2026-08-01T18:49:55Z",
+      "status": "scoring_attempted",
+      "title": "Franken.domains: Stitched-Together Domains, Because Every .com Is Taken"
+    },
     "https://galjot.si/what-ai-developers-could-learn-from-charles-bukowski": {
       "canonical_url": "https://galjot.si/what-ai-developers-could-learn-from-charles-bukowski",
       "created_at": "2026-07-28T15:37:11Z",
@@ -4029,6 +4085,12 @@
       "status": "scoring_attempted",
       "title": "Here\u2019s the problem with putting an AI image generator in Google Earth"
     },
+    "https://www.theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop": {
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop",
+      "created_at": "2026-08-01T18:49:55Z",
+      "status": "scoring_attempted",
+      "title": "Is this Billboard Hot 100 hit AI slop?"
+    },
     "https://www.theverge.com/column/970756/vertical-video-tiktok-youtube-instagram-streaming-facebook": {
       "canonical_url": "https://www.theverge.com/column/970756/vertical-video-tiktok-youtube-instagram-streaming-facebook",
       "created_at": "2026-07-26T12:53:04Z",
@@ -4238,12 +4300,6 @@
       "created_at": "2026-07-28T13:16:41Z",
       "status": "scoring_attempted",
       "title": "You don\u2019t need to splurge on an expensive handheld fan to beat the heat"
-    },
-    "https://www.theverge.com/tech/971041/google-confirms-pixel-11-price-hike": {
-      "canonical_url": "https://www.theverge.com/tech/971041/google-confirms-pixel-11-price-hike",
-      "created_at": "2026-07-25T18:46:25Z",
-      "status": "scoring_attempted",
-      "title": "Google basically confirms the Pixel 11 is getting a price hike"
     },
     "https://www.theverge.com/tech/971160/framework-laptop-13-pro-intel-review": {
       "canonical_url": "https://www.theverge.com/tech/971160/framework-laptop-13-pro-intel-review",
