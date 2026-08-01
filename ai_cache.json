@@ -558,6 +558,50 @@
         }
       }
     },
+    "64af01a61ab91445d80d1fb4d5eab5de94e10335441d763be429fb7d7b055917": {
+      "created_at": "2026-08-01T08:55:04Z",
+      "payload": {
+        "candidates": [
+          {
+            "article_url": "https://openai.com/index/ten-advances-in-mathematics",
+            "index": 2,
+            "published_relative": "8 hours ago",
+            "published_time_utc": "2026-08-01T00:00:00Z",
+            "source": "OpenAI",
+            "summary": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
+            "tier": "S",
+            "title": "Ten advances in mathematics and theoretical computer science"
+          }
+        ],
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 0.5,
+              "impact_score": 3.0,
+              "index": 2,
+              "novelty_score": 2.5,
+              "reason": "Research with broad impact but older than 6 hours and not a new release.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 2.0,
+              "title": "Ten advances in mathematics and theoretical computer science",
+              "total_score": 8.0
+            }
+          ],
+          "best_index": 2,
+          "best_score": 8.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        },
+        "social_media_rules": [
+          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
+          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.",
+          "Use the FULL article title as headline without inventing facts.",
+          "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
+        ]
+      }
+    },
     "723e4a36fa9594fbe007238626b05496b0a01d7f4e64a5643dba499f601e03e5": {
       "created_at": "2026-07-31T15:36:29Z",
       "payload": {
@@ -2949,6 +2993,12 @@
       "created_at": "2026-07-28T17:43:13Z",
       "status": "scoring_attempted",
       "title": "Scientific computing in the age of agentic AI"
+    },
+    "https://openai.com/index/ten-advances-in-mathematics": {
+      "canonical_url": "https://openai.com/index/ten-advances-in-mathematics",
+      "created_at": "2026-08-01T08:55:04Z",
+      "status": "scoring_attempted",
+      "title": "Ten advances in mathematics and theoretical computer science"
     },
     "https://openai.com/index/unive": {
       "canonical_url": "https://openai.com/index/unive",
