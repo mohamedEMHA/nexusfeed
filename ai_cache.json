@@ -723,6 +723,31 @@
         }
       }
     },
+    "819821aa5454e17d99455d3e0774976e94caccc168d58a7d26da5696b8538e81": {
+      "created_at": "2026-08-01T06:25:03Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2,
+              "impact_score": 2.5,
+              "index": 0,
+              "novelty_score": 2.5,
+              "reason": "Industry move with high impact on developers, fresh and from Tier B source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1,
+              "title": "AWS Introduces Free Sandbox Environments for Workshops",
+              "total_score": 8
+            }
+          ],
+          "best_index": 0,
+          "best_score": 8,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
     "84c300de9fe65af1f40f8f6bc7abdae6a3c2390b6b206f1deb9214926ad23a2c": {
       "created_at": "2026-07-31T17:48:59Z",
       "payload": {
@@ -3731,6 +3756,12 @@
       "status": "scoring_attempted",
       "title": "Terraform Introduces tfpolicy, an HCL-based Policy-as-Code Framework"
     },
+    "https://www.infoq.com/news/2026/08/aws-builder-sandbox": {
+      "canonical_url": "https://www.infoq.com/news/2026/08/aws-builder-sandbox",
+      "created_at": "2026-08-01T06:25:03Z",
+      "status": "scoring_attempted",
+      "title": "AWS Introduces Free Sandbox Environments for Workshops"
+    },
     "https://www.infoq.com/podcasts/rethinking-data-client-event-sourcing": {
       "canonical_url": "https://www.infoq.com/podcasts/rethinking-data-client-event-sourcing",
       "created_at": "2026-07-27T13:29:03Z",
@@ -3760,12 +3791,6 @@
       "created_at": "2026-07-27T15:59:27Z",
       "status": "scoring_attempted",
       "title": "Apple Will 'Watch Everything Burn' When the AI Bubble Bursts"
-    },
-    "https://www.marktechpost.com/2026/07/24/datalab-marker-v2-vs-mineru-docling-and-liteparse-benchmark-breakdown": {
-      "canonical_url": "https://www.marktechpost.com/2026/07/24/datalab-marker-v2-vs-mineru-docling-and-liteparse-benchmark-breakdown",
-      "created_at": "2026-07-25T06:13:37Z",
-      "status": "scoring_attempted",
-      "title": "Datalab Marker v2 vs MinerU, Docling, and Liteparse: Benchmark Breakdown"
     },
     "https://www.marktechpost.com/2026/07/25/meet-open-dreamer-a-jax-flax-reproduction-of-the-dreamer-4-world-model-pipeline-with-the-full-training-recipe-published": {
       "canonical_url": "https://www.marktechpost.com/2026/07/25/meet-open-dreamer-a-jax-flax-reproduction-of-the-dreamer-4-world-model-pipeline-with-the-full-training-recipe-published",
@@ -3892,12 +3917,6 @@
       "created_at": "2026-07-26T00:14:01Z",
       "status": "scoring_attempted",
       "title": "Becoming a Research Engineer at a Big LLM Lab"
-    },
-    "https://www.nist.gov/news-events/news/2026/07/uk-aisi-caisi-preliminary-assessment-kimi-k3s-cyber-capabilities": {
-      "canonical_url": "https://www.nist.gov/news-events/news/2026/07/uk-aisi-caisi-preliminary-assessment-kimi-k3s-cyber-capabilities",
-      "created_at": "2026-07-25T06:13:37Z",
-      "status": "scoring_attempted",
-      "title": "UK AISI / Caisi Preliminary Assessment of Kimi K3's Cyber Capabilities"
     },
     "https://www.omgubuntu.co.uk/2026/07/chrome-arm64-linux-available": {
       "canonical_url": "https://www.omgubuntu.co.uk/2026/07/chrome-arm64-linux-available",
