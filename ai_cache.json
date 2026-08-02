@@ -27,6 +27,50 @@
         "social_media_rules": []
       }
     },
+    "080884dd60f49bf1ca56f37a01e353868b92b2e78a3bc2bdff5cfffc35e1f1eb": {
+      "created_at": "2026-08-02T12:52:51Z",
+      "payload": {
+        "candidates": [
+          {
+            "article_url": "https://website-auditor.io/ai-visibility-index",
+            "index": 1,
+            "published_relative": "<1 hour ago",
+            "published_time_utc": "2026-08-02T11:53:52Z",
+            "source": "Hacker News",
+            "summary": "Comments",
+            "tier": "C",
+            "title": "Only 8.9% of sites block AI crawlers, but 94.8% are never cited in AI answers"
+          }
+        ],
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2,
+              "impact_score": 2.5,
+              "index": 1,
+              "novelty_score": 1.5,
+              "reason": "Industry data on AI crawler blocking with fresh metrics but low novelty and niche impact.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Only 8.9% of sites block AI crawlers, but 94.8% are never cited in AI answers",
+              "total_score": 6.5
+            }
+          ],
+          "best_index": 1,
+          "best_score": 6.5,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        },
+        "social_media_rules": [
+          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
+          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.",
+          "Use the FULL article title as headline without inventing facts.",
+          "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
+        ]
+      }
+    },
     "0cf6ed2d70fa3da94c71b559bdd3a6f567dc82852b9a1586bfc705194245ecca": {
       "created_at": "2026-08-01T13:56:45Z",
       "payload": {
@@ -884,6 +928,38 @@
         }
       }
     },
+    "ce31860e4d917af8a1f68973df65aeb95ab36255bc223858a36ea7e8d90f079e": {
+      "created_at": "2026-08-02T12:52:51Z",
+      "payload": {
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 3.0,
+              "index": 0,
+              "novelty_score": 3.0,
+              "reason": "High novelty and impact for a new model solving open problems, fresh within 1 hour, but low source tier.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "An internal OpenAI Astra model solved 10 major open math and CS problems",
+              "total_score": 8.5
+            }
+          ],
+          "best_index": 0,
+          "best_score": 8.5,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "OpenAI\u2019s internal Astra model has reportedly solved 10 major open problems in math and computer science. If validated, this could redefine the frontier of AI reasoning capabilities. The results, though unverified, point to a significant leap in model performance.\n\nLink: https://twitter.com/polynoamial/status/2083467194663571701",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *An internal OpenAI Astra model solved 10 major open math and CS problems*\n\nOpenAI\u2019s internal Astra model has reportedly solved 10 previously unsolved problems in mathematics and computer science. Early reactions suggest it outperforms current reasoning models, but details remain unverified.\n\n\ud83c\udfdb\ufe0f Source: Hacker News (Tier C)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://twitter.com/polynoamial/status/2083467194663571701\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "OpenAI\u2019s internal Astra model just solved 10 unsolved math and CS problems. If true, this is a massive leap for AI reasoning\u2014though details are still emerging.\n\nhttps://twitter.com/polynoamial/status/2083467194663571701",
+            "twitter": "OpenAI\u2019s internal Astra model just cracked 10 unsolved math and CS problems. Early benchmarks suggest it outperforms current reasoning models on open-ended tasks.\n\nhttps://twitter.com/polynoamial/status/2083467194663571701"
+          }
+        },
+        "social_media_rules": []
+      }
+    },
     "d3b3ecb70b07ff0ecf3a056269b9dc422da63b1a109b201f893b6d87e32b9669": {
       "created_at": "2026-08-01T22:11:34Z",
       "payload": {
@@ -986,6 +1062,31 @@
             "threads": "",
             "twitter": ""
           }
+        }
+      }
+    },
+    "f70ac66e7a9958e007f08582ab5915b9c9ff580393db3145e824b525e21499da": {
+      "created_at": "2026-08-02T12:52:51Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.5,
+              "impact_score": 1.5,
+              "index": 2,
+              "novelty_score": 2.5,
+              "reason": "Novel web tool for 3D model comparison with niche but practical impact.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Meshdiff \u2013 visually compare two STL versions in the browser, client-side",
+              "total_score": 6.0
+            }
+          ],
+          "best_index": 2,
+          "best_score": 6.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
         }
       }
     },
@@ -2521,6 +2622,12 @@
       "status": "scoring_attempted",
       "title": "Using the railway network as a flatbed scanner [video]"
     },
+    "https://meshdiff.com": {
+      "canonical_url": "https://meshdiff.com",
+      "created_at": "2026-08-02T12:52:51Z",
+      "status": "scoring_attempted",
+      "title": "Meshdiff \u2013 visually compare two STL versions in the browser, client-side"
+    },
     "https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash": {
       "canonical_url": "https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash",
       "created_at": "2026-07-27T17:57:31Z",
@@ -3127,6 +3234,12 @@
       "status": "scoring_attempted",
       "title": "Google kills Earth AI generator after one day"
     },
+    "https://twitter.com/polynoamial/status/2083467194663571701": {
+      "canonical_url": "https://twitter.com/polynoamial/status/2083467194663571701",
+      "created_at": "2026-08-02T12:52:51Z",
+      "status": "scoring_attempted",
+      "title": "An internal OpenAI Astra model solved 10 major open math and CS problems"
+    },
     "https://unawatch.com": {
       "canonical_url": "https://unawatch.com",
       "created_at": "2026-07-28T17:43:13Z",
@@ -3162,6 +3275,12 @@
       "created_at": "2026-07-29T11:48:04Z",
       "status": "scoring_attempted",
       "title": "Show HN: Vimgolf.ai \u2013 Learn Vim by playing through a map of levels"
+    },
+    "https://website-auditor.io/ai-visibility-index": {
+      "canonical_url": "https://website-auditor.io/ai-visibility-index",
+      "created_at": "2026-08-02T12:52:51Z",
+      "status": "scoring_attempted",
+      "title": "Only 8.9% of sites block AI crawlers, but 94.8% are never cited in AI answers"
     },
     "https://weeraman.com/the-prototype-isnt-the-product": {
       "canonical_url": "https://weeraman.com/the-prototype-isnt-the-product",
@@ -3486,12 +3605,6 @@
       "created_at": "2026-07-26T21:11:35Z",
       "status": "scoring_attempted",
       "title": "Black Forest Labs Releases FLUX 3: A Multimodal Flow Model for Image, Video, Audio and Robot Action Prediction"
-    },
-    "https://www.marktechpost.com/2026/07/26/kwaikat-team-releases-kat-coder-v2-5-an-agentic-coding-model-trained-on-100000-verifiable-repository-environments": {
-      "canonical_url": "https://www.marktechpost.com/2026/07/26/kwaikat-team-releases-kat-coder-v2-5-an-agentic-coding-model-trained-on-100000-verifiable-repository-environments",
-      "created_at": "2026-07-26T11:52:54Z",
-      "status": "scoring_attempted",
-      "title": "KwaiKAT Team Releases KAT-Coder-V2.5: An Agentic Coding Model Trained on 100,000+ Verifiable Repository Environments"
     },
     "https://www.marktechpost.com/2026/07/27/kimi-ai-and-kvcache-ai-open-sources-agentenv": {
       "canonical_url": "https://www.marktechpost.com/2026/07/27/kimi-ai-and-kvcache-ai-open-sources-agentenv",
