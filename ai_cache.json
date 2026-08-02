@@ -240,31 +240,6 @@
         ]
       }
     },
-    "2560648952a6de4f4f3822b4bf95e72b99242296deee9f890b395bbddf03168d": {
-      "created_at": "2026-08-01T09:33:33Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1.5,
-              "impact_score": 2.5,
-              "index": 0,
-              "novelty_score": 0.5,
-              "reason": "Opinion piece with no novel content or actionable insights.",
-              "red_flag": true,
-              "red_flag_reason": "opinion",
-              "source_score": 0.5,
-              "title": "AI doesn't generate working products, that's still your job",
-              "total_score": 5.0
-            }
-          ],
-          "best_index": 0,
-          "best_score": 5.0,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
-      }
-    },
     "34379a842600e146d6b601ab418cc28e01eff8b3b1f80ac3dfc5d1beb6dba1a1": {
       "created_at": "2026-08-01T21:09:26Z",
       "payload": {
@@ -387,6 +362,34 @@
           "recommendation": "SKIP",
           "social_posts": {}
         }
+      }
+    },
+    "4dc427a48148abdd7c2fe7838897e744a8ef181970a51225c5775ee887ca0aa8": {
+      "created_at": "2026-08-02T10:27:55Z",
+      "payload": {
+        "candidates": [],
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.0,
+              "impact_score": 2.5,
+              "index": 2,
+              "novelty_score": 3.0,
+              "reason": "Novelty (3.0) for a new framework release, Impact (2.5) for all RL researchers, Freshness (1.0) for 4h old, Source (1.5) for Tier A",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "NVIDIA AI Releases Molt: A PyTorch-Native Agentic Reinforcement Learning Framework",
+              "total_score": 8.0
+            }
+          ],
+          "best_index": 2,
+          "best_score": 8.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        },
+        "social_media_rules": []
       }
     },
     "5015fcf8812d29fc37bd8de2c4dcdd453d0c0aa2a58e6b893c0d83fea4f22cd5": {
@@ -984,34 +987,6 @@
           "recommendation": "SKIP",
           "social_posts": {}
         }
-      }
-    },
-    "e90f56533294eb9a4c2d232d8b8262d8d63634a09203d7e3bd1b4a9bf964ceae": {
-      "created_at": "2026-08-01T09:33:33Z",
-      "payload": {
-        "candidates": [],
-        "prompt_version": "cerebras-scoring-v1",
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1.5,
-              "impact_score": 2.5,
-              "index": 1,
-              "novelty_score": 3.0,
-              "reason": "New release with broad impact on developer workflows, though source is low-tier.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "OpenAI's work on Git for large repositories",
-              "total_score": 7.5
-            }
-          ],
-          "best_index": 1,
-          "best_score": 7.5,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        },
-        "social_media_rules": []
       }
     },
     "f293b5d686c9b6e2fe99451cbc78f71d06960c4caa4434529a8a8f716bf56e78": {
@@ -3643,6 +3618,12 @@
       "created_at": "2026-08-01T14:51:35Z",
       "status": "scoring_attempted",
       "title": "MiniMax Releases MiniMax H3: An Omni-Modal Video Model That Generates 15-Second 2K Clips With Native Stereo Audio"
+    },
+    "https://www.marktechpost.com/2026/08/01/nvidia-ai-releases-molt-a-pytorch-native-agentic-reinforcement-learning-framework": {
+      "canonical_url": "https://www.marktechpost.com/2026/08/01/nvidia-ai-releases-molt-a-pytorch-native-agentic-reinforcement-learning-framework",
+      "created_at": "2026-08-02T10:27:55Z",
+      "status": "scoring_attempted",
+      "title": "NVIDIA AI Releases Molt: A PyTorch-Native Agentic Reinforcement Learning Framework"
     },
     "https://www.marktechpost.com/2026/08/01/supabase-releases-evals-an-open-source-benchmark-that-scores-claude-code-codex-and-opencode-on-real-supabase-tasks": {
       "canonical_url": "https://www.marktechpost.com/2026/08/01/supabase-releases-evals-an-open-source-benchmark-that-scores-claude-code-codex-and-opencode-on-real-supabase-tasks",
