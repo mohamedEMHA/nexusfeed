@@ -71,31 +71,6 @@
         ]
       }
     },
-    "0cf6ed2d70fa3da94c71b559bdd3a6f567dc82852b9a1586bfc705194245ecca": {
-      "created_at": "2026-08-01T13:56:45Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 0.5,
-              "index": 0,
-              "novelty_score": 3.0,
-              "reason": "High novelty and freshness but low impact and source tier.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Google kills Earth AI generator after one day",
-              "total_score": 6.0
-            }
-          ],
-          "best_index": 0,
-          "best_score": 6.0,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
-      }
-    },
     "1189450e05e01916073a6b83c1db780ae9b7bf75a60913784c23c4e71933b025": {
       "created_at": "2026-08-01T16:44:40Z",
       "payload": {
@@ -196,31 +171,6 @@
           ],
           "best_index": 0,
           "best_score": 3.7,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
-      }
-    },
-    "2418dacaa5365c749ee409781b805f1c79044e7accf08940504bd1338188dd98": {
-      "created_at": "2026-08-01T13:56:45Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1.5,
-              "impact_score": 2.5,
-              "index": 2,
-              "novelty_score": 2.5,
-              "reason": "Industry move with significant impact on AI data licensing and search trends.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "As Reddit stock falls, CEO questions value of Google's AI Overviews",
-              "total_score": 8.0
-            }
-          ],
-          "best_index": 2,
-          "best_score": 8.0,
           "recommendation": "SKIP",
           "social_posts": {}
         }
@@ -632,6 +582,31 @@
         }
       }
     },
+    "77e5c3d320d2e5df28d14e147a58158180ce20fedcd3ebda3e08e095169f4e2d": {
+      "created_at": "2026-08-02T14:21:42Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 0.0,
+              "impact_score": 0.0,
+              "index": 0,
+              "novelty_score": 0.0,
+              "reason": "Red flag triggered: question format resembles 'what is' and lacks technical substance.",
+              "red_flag": true,
+              "red_flag_reason": "title contains 'what is' implied by question format",
+              "source_score": 0.5,
+              "title": "Has the New Cocaine Arrived?",
+              "total_score": 0.0
+            }
+          ],
+          "best_index": 0,
+          "best_score": 0.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
     "7e391a623d6fe2d5d964ab689f96af3aeae55f2f85bea7dc1e22f72a5fab3db5": {
       "created_at": "2026-08-01T17:49:54Z",
       "payload": {
@@ -730,30 +705,6 @@
           ],
           "best_index": 4,
           "best_score": 5.5,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
-      }
-    },
-    "8e6d74ed16d2915ca1b8f8492c5c705b0fb4b756ea289ebe8dcc7133730b2ad7": {
-      "created_at": "2026-08-01T13:56:45Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 0.5,
-              "index": 1,
-              "novelty_score": 0.2,
-              "red_flag": true,
-              "red_flag_reason": "game",
-              "source_score": 1.5,
-              "title": "The Mermaid Mask is a perfect vacation murder mystery",
-              "total_score": 4.2
-            }
-          ],
-          "best_index": 1,
-          "best_score": 0.0,
           "recommendation": "SKIP",
           "social_posts": {}
         }
@@ -982,6 +933,36 @@
           "best_score": 5.5,
           "recommendation": "SKIP",
           "social_posts": {}
+        }
+      }
+    },
+    "d516afcd1d418c68b1d68633bbafa6ce71a0557b8a55cacb13503ae6f94531f6": {
+      "created_at": "2026-08-02T14:21:42Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2,
+              "impact_score": 2.5,
+              "index": 1,
+              "novelty_score": 2.5,
+              "reason": "Research-style industry analysis on artist compensation in AI training, fresh and impactful for developers and researchers.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Is paying artists enough to convince them to embrace AI?",
+              "total_score": 8.5
+            }
+          ],
+          "best_index": 1,
+          "best_score": 8.5,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "Generative AI startups have long trained models on artists' work without permission, sparking backlash. Some are now testing royalty payments to artists as a potential solution. This could reshape how AI companies approach data sourcing and artist compensation.\n\nLink: https://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Illustrators say AI training without consent is theft. Now some startups are testing artist royalties to change their minds.*\n\nIllustrators have spent years opposing AI startups training models on their work without permission. Some companies are now exploring royalty payments as a potential compromise.\n\n\ud83c\udfdb\ufe0f Source: The Verge (Tier A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "AI startups are testing artist royalties to address concerns over unconsented training data. The move could set a new standard for how generative models are built.\n\nhttps://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties",
+            "twitter": "Illustrators say AI training without consent is theft. Now some startups are testing artist royalties to change their minds.\n\nhttps://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties"
+          }
         }
       }
     },
@@ -2214,12 +2195,6 @@
       "status": "scoring_attempted",
       "title": "DMARC Has Been Public Since 2012. 68.4% of Domains Still Don't Enforce It"
     },
-    "https://code.claude.com/docs/en/data-usage": {
-      "canonical_url": "https://code.claude.com/docs/en/data-usage",
-      "created_at": "2026-07-26T12:53:04Z",
-      "status": "scoring_attempted",
-      "title": "Claude Code Deletes Your Context History from Your Device After 30 Days"
-    },
     "https://consumerrights.wiki/w/BMW_Spider-Man_in-car_advertising": {
       "canonical_url": "https://consumerrights.wiki/w/BMW_Spider-Man_in-car_advertising",
       "created_at": "2026-08-01T03:53:33Z",
@@ -2777,6 +2752,12 @@
       "created_at": "2026-07-27T21:56:20Z",
       "status": "scoring_attempted",
       "title": "Platform engineering 2.0 mitigates AI security and compliance risks"
+    },
+    "https://playboy.substack.com/p/has-the-new-cocaine-finally-arrived": {
+      "canonical_url": "https://playboy.substack.com/p/has-the-new-cocaine-finally-arrived",
+      "created_at": "2026-08-02T14:21:42Z",
+      "status": "scoring_attempted",
+      "title": "Has the New Cocaine Arrived?"
     },
     "https://publicdomainreview.org/essay/ars-notoria": {
       "canonical_url": "https://publicdomainreview.org/essay/ars-notoria",
@@ -3870,17 +3851,17 @@
       "status": "scoring_attempted",
       "title": "Here\u2019s the problem with putting an AI image generator in Google Earth"
     },
+    "https://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties": {
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties",
+      "created_at": "2026-08-02T14:21:42Z",
+      "status": "scoring_attempted",
+      "title": "Is paying artists enough to convince them to embrace AI?"
+    },
     "https://www.theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop": {
       "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop",
       "created_at": "2026-08-01T18:49:55Z",
       "status": "scoring_attempted",
       "title": "Is this Billboard Hot 100 hit AI slop?"
-    },
-    "https://www.theverge.com/column/970756/vertical-video-tiktok-youtube-instagram-streaming-facebook": {
-      "canonical_url": "https://www.theverge.com/column/970756/vertical-video-tiktok-youtube-instagram-streaming-facebook",
-      "created_at": "2026-07-26T12:53:04Z",
-      "status": "scoring_attempted",
-      "title": "The vertical video takeover is here"
     },
     "https://www.theverge.com/entertainment/971069/carrie-amazon-mike-flanagan-trailer-comic-con": {
       "canonical_url": "https://www.theverge.com/entertainment/971069/carrie-amazon-mike-flanagan-trailer-comic-con",
