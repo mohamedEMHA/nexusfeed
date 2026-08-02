@@ -69,6 +69,31 @@
         }
       }
     },
+    "0d2c8bfde96287535bed7734b30220ef82accebd542a917f3408368a3adb5b30": {
+      "created_at": "2026-08-02T20:04:15Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 0.5,
+              "index": 1,
+              "novelty_score": 1.5,
+              "reason": "Industry move with fresh timing but limited developer impact and borderline source tier.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Fender\u2019s CEO seems to think your bandmates are just analog AI",
+              "total_score": 5.5
+            }
+          ],
+          "best_index": 1,
+          "best_score": 5.5,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
     "1851466ea3e855377a4f7f2a502e47c5038f8483efd92ab20d33743d42196c61": {
       "created_at": "2026-08-01T21:09:26Z",
       "payload": {
@@ -127,6 +152,36 @@
           "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
           "If recommendation is SKIP, return empty strings for all social_posts keys."
         ]
+      }
+    },
+    "2ed2eea1cd74375a27cfc6ebec718dbb4cb6db1f021fd360075040a4df26fd81": {
+      "created_at": "2026-08-02T20:04:15Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 0.5,
+              "index": 2,
+              "novelty_score": 0.5,
+              "reason": "Red flag triggered: contains 'how' in title.",
+              "red_flag": true,
+              "red_flag_reason": "none",
+              "source_score": 0.5,
+              "title": "'Crush this lady': how eBay harassment campaign led to $56M payout",
+              "total_score": 3.0
+            }
+          ],
+          "best_index": 2,
+          "best_score": 3.0,
+          "recommendation": "SKIP",
+          "social_posts": {
+            "facebook": "",
+            "telegram": "",
+            "threads": "",
+            "twitter": ""
+          }
+        }
       }
     },
     "34379a842600e146d6b601ab418cc28e01eff8b3b1f80ac3dfc5d1beb6dba1a1": {
@@ -651,6 +706,36 @@
         }
       }
     },
+    "e8dc9a5ff6c1a55c38e9128c537997af811a4f19d0390251d057039beabef44b": {
+      "created_at": "2026-08-02T20:04:15Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 3.0,
+              "index": 0,
+              "novelty_score": 2.0,
+              "reason": "Red flag triggered by phrasing 'What's going to change?' in title.",
+              "red_flag": true,
+              "red_flag_reason": "what's going to change",
+              "source_score": 0.5,
+              "title": "EU rules on AI models become enforceable. What's going to change?",
+              "total_score": 7.5
+            }
+          ],
+          "best_index": 0,
+          "best_score": 7.5,
+          "recommendation": "SKIP",
+          "social_posts": {
+            "facebook": "",
+            "telegram": "",
+            "threads": "",
+            "twitter": ""
+          }
+        }
+      }
+    },
     "f70ac66e7a9958e007f08582ab5915b9c9ff580393db3145e824b525e21499da": {
       "created_at": "2026-08-02T12:52:51Z",
       "payload": {
@@ -760,15 +845,6 @@
         "twitter": "NVIDIA's latest innovation in surgical robotics leverages real-time generative simulation @NVIDIA #AIinMedicine"
       }
     },
-    "2af54e7e291b685a392b27fc2510c7a392ede3750d28a5e4f9d63ad8ee1770af": {
-      "created_at": "2026-07-26T18:52:23Z",
-      "payload": {
-        "facebook": "A US citizen is being charged for wiping his phone at the border, sparking debate about digital privacy rights. The case involves Sam Tunick, who allegedly provided a duress password to authorities. This sets a significant precedent for future cases #DigitalPrivacy #BorderCrossing #PrivacyRights",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 US Citizen Charged for Wiping Phone at Border\nThe US is prosecuting a citizen for using a duress password to wipe his phone at the border, sparking debate about digital privacy.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#DigitalPrivacy #BorderCrossing #PrivacyRights\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "The US government is prosecuting a citizen for using a duress password to wipe his phone at the border, a move that raises concerns about digital privacy @TheVerge #DigitalPrivacy",
-        "twitter": "US citizen Sam Tunick faces prosecution for using a duress password to wipe his phone at a border crossing, raising questions about digital privacy @TheVerge #DigitalPrivacy"
-      }
-    },
     "3c1094d49966cf99538cced1f16b0149c40e883b781043df9a260d8bb2420269": {
       "created_at": "2026-07-28T21:34:23Z",
       "payload": {
@@ -875,15 +951,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 AI coding agents are modernizing scientific computing\nA new field report reveals how scientists leverage AI coding agents to accelerate software development and discovery in genomics and other areas.\n\ud83c\udfdb\ufe0f Source: OpenAI (S)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 10/10\n#AI #ScientificComputing #Genomics\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "The use of AI coding agents in scientific computing is gaining traction, with a new report from @OpenAI highlighting the potential for accelerated software development and discovery in genomics and beyond, marking a significant shift in the field #ScientificComputing",
         "twitter": "AI coding agents are transforming scientific computing, accelerating genomics research and beyond, says @OpenAI, with significant implications for software development #AI #ScientificComputing"
-      }
-    },
-    "8cd01cbb66294af49bca853b0a6d5a041ba915ca0c59088472f3c6186c03bacb": {
-      "created_at": "2026-07-26T20:02:21Z",
-      "payload": {
-        "facebook": "The recent emergence of Moonshot AI's Kimi has sent shockwaves through Silicon Valley and Wall Street, prompting many to reassess the current AI landscape. As the tech industry continues to evolve, it's essential to stay informed about the latest developments. #AI #Technology #Innovation",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Concerns over Chinese AI grow\nThe emergence of Moonshot AI's Kimi has prompted Silicon Valley and Wall Street to reassess the current AI landscape.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #Technology #Innovation\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Moonshot AI's Kimi has sparked widespread concern in Silicon Valley and Wall Street, @TechCrunch provides insight into the reasons behind the panic, #AI",
-        "twitter": "Silicon Valley and Wall Street are on high alert over Moonshot AI's Kimi, @TechCrunch explains why, #AI #China"
       }
     },
     "92273825add36e6ce9855cea8fcfc990f096914d00faab43099b68f5c08e30fb": {
@@ -1920,12 +1987,6 @@
       "status": "scoring_attempted",
       "title": "Show HN: Base-GPUI: A GPUI port of Base UI headless components"
     },
-    "https://github.com/MicSm/boffin": {
-      "canonical_url": "https://github.com/MicSm/boffin",
-      "created_at": "2026-07-26T18:52:23Z",
-      "status": "scoring_attempted",
-      "title": "Show HN: Boffin \u2013 Staff-engineer layer for AI coding agents"
-    },
     "https://github.com/SerhiiKorniienko/bullshit-detector": {
       "canonical_url": "https://github.com/SerhiiKorniienko/bullshit-detector",
       "created_at": "2026-07-29T13:27:14Z",
@@ -1973,12 +2034,6 @@
       "created_at": "2026-07-30T17:10:53Z",
       "status": "scoring_attempted",
       "title": "Show HN: Claude-account \u2013 switch Claude Code accounts without logging in again"
-    },
-    "https://github.com/hertz-ai/HARTOS": {
-      "canonical_url": "https://github.com/hertz-ai/HARTOS",
-      "created_at": "2026-07-26T20:02:21Z",
-      "status": "scoring_attempted",
-      "title": "Show HN: HART OS \u2013 an open-source AI OS built so frontier AI needs no datacenter"
     },
     "https://github.com/hkc5/cursor-bridge": {
       "canonical_url": "https://github.com/hkc5/cursor-bridge",
@@ -2417,12 +2472,6 @@
       "created_at": "2026-07-27T03:47:01Z",
       "status": "scoring_attempted",
       "title": "Are brain waves the next unlock for physical AI?"
-    },
-    "https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai": {
-      "canonical_url": "https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai",
-      "created_at": "2026-07-26T20:02:21Z",
-      "status": "scoring_attempted",
-      "title": "Making sense of the panic over Chinese AI"
     },
     "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai": {
       "canonical_url": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai",
@@ -2964,11 +3013,23 @@
       "status": "scoring_attempted",
       "title": "EU will mandate labels on authentic-looking AI content starting August 2"
     },
+    "https://www.euronews.com/my-europe/2026/08/02/eu-rules-on-ai-models-become-enforceable-whats-going-to-change": {
+      "canonical_url": "https://www.euronews.com/my-europe/2026/08/02/eu-rules-on-ai-models-become-enforceable-whats-going-to-change",
+      "created_at": "2026-08-02T20:04:15Z",
+      "status": "scoring_attempted",
+      "title": "EU rules on AI models become enforceable. What's going to change?"
+    },
     "https://www.fcc.gov/sites/default/files/robots-nsd.pdf": {
       "canonical_url": "https://www.fcc.gov/sites/default/files/robots-nsd.pdf",
       "created_at": "2026-07-29T11:48:04Z",
       "status": "scoring_attempted",
       "title": "National Security Determination Threat Posed by Foreign-Produced Robotic Devices [pdf]"
+    },
+    "https://www.ft.com/content/06ec1b03-d4af-40cf-b12a-4ba5a410f6d2": {
+      "canonical_url": "https://www.ft.com/content/06ec1b03-d4af-40cf-b12a-4ba5a410f6d2",
+      "created_at": "2026-08-02T20:04:15Z",
+      "status": "scoring_attempted",
+      "title": "'Crush this lady': how eBay harassment campaign led to $56M payout"
     },
     "https://www.ft.com/content/d8a5f95e-3b6d-463a-a848-c9ef8e2394db": {
       "canonical_url": "https://www.ft.com/content/d8a5f95e-3b6d-463a-a848-c9ef8e2394db",
@@ -3294,12 +3355,6 @@
       "status": "scoring_attempted",
       "title": "Australia's social media ban has failed"
     },
-    "https://www.rubyforum.org/t/calling-all-open-source-maintainers-working-with-ruby/553": {
-      "canonical_url": "https://www.rubyforum.org/t/calling-all-open-source-maintainers-working-with-ruby/553",
-      "created_at": "2026-07-26T18:52:23Z",
-      "status": "scoring_attempted",
-      "title": "Calling all open source maintainers working with Ruby"
-    },
     "https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research": {
       "canonical_url": "https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research",
       "created_at": "2026-07-29T22:34:01Z",
@@ -3419,6 +3474,12 @@
       "created_at": "2026-08-01T18:49:55Z",
       "status": "scoring_attempted",
       "title": "Is this Billboard Hot 100 hit AI slop?"
+    },
+    "https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music": {
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music",
+      "created_at": "2026-08-02T20:04:15Z",
+      "status": "scoring_attempted",
+      "title": "Fender\u2019s CEO seems to think your bandmates are just analog AI"
     },
     "https://www.theverge.com/entertainment/971285/sdcc-2026-trailers-neuromancer-blade-runner-carrie": {
       "canonical_url": "https://www.theverge.com/entertainment/971285/sdcc-2026-trailers-neuromancer-blade-runner-carrie",
@@ -3563,12 +3624,6 @@
       "created_at": "2026-07-31T15:36:29Z",
       "status": "scoring_attempted",
       "title": "It\u2019s time to panic about AI safety"
-    },
-    "https://www.theverge.com/policy/971097/us-charging-american-citizen-wiping-phone-duress-password": {
-      "canonical_url": "https://www.theverge.com/policy/971097/us-charging-american-citizen-wiping-phone-duress-password",
-      "created_at": "2026-07-26T18:52:23Z",
-      "status": "scoring_attempted",
-      "title": "The US is charging an American citizen for wiping his phone at the border"
     },
     "https://www.theverge.com/policy/972312/us-robot-ban-sweep-up-chinese-vacuums": {
       "canonical_url": "https://www.theverge.com/policy/972312/us-robot-ban-sweep-up-chinese-vacuums",
