@@ -1,32 +1,5 @@
 {
   "cerebras_scoring": {
-    "01414c25e315f8d1f69a48a83dc34abf3ec65320c299000b3ae280d8a248b886": {
-      "created_at": "2026-08-01T15:50:31Z",
-      "payload": {
-        "prompt_version": "cerebras-scoring-v1",
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1.5,
-              "impact_score": 0.0,
-              "index": 0,
-              "novelty_score": 0.0,
-              "reason": "Contains red flag phrase 'guide' and is a shopping guide, not technical content.",
-              "red_flag": true,
-              "red_flag_reason": "guide to",
-              "source_score": 1.5,
-              "title": "The Verge\u2019s 2026 back-to-school shopping guide",
-              "total_score": 3.0
-            }
-          ],
-          "best_index": 0,
-          "best_score": 0.0,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        },
-        "social_media_rules": []
-      }
-    },
     "080884dd60f49bf1ca56f37a01e353868b92b2e78a3bc2bdff5cfffc35e1f1eb": {
       "created_at": "2026-08-02T12:52:51Z",
       "payload": {
@@ -69,6 +42,31 @@
           "Use the FULL article title as headline without inventing facts.",
           "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
         ]
+      }
+    },
+    "0af6e0a3182265417d38530e90c95954425d2504c406ec89bb9c66e285b06913": {
+      "created_at": "2026-08-02T16:43:41Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2,
+              "impact_score": 0.5,
+              "index": 0,
+              "novelty_score": 2,
+              "reason": "Industry move with high freshness and source tier, but limited impact scope.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Xbox prices are increasing by up to \u20ac200 or \u00a3170",
+              "total_score": 6
+            }
+          ],
+          "best_index": 0,
+          "best_score": 6,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
       }
     },
     "1189450e05e01916073a6b83c1db780ae9b7bf75a60913784c23c4e71933b025": {
@@ -641,31 +639,6 @@
         "social_media_rules": []
       }
     },
-    "84041bece8314c6de368e3ddc9e3b42cee09bfa9f50e2afd17b81b3c70651a63": {
-      "created_at": "2026-08-01T15:50:31Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1,
-              "impact_score": 1.5,
-              "index": 4,
-              "novelty_score": 2.5,
-              "reason": "Research on niche Unix tools with moderate novelty and impact, but low freshness and source tier.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Dead Software Walking: The ongoing evolution of relayd(8) and httpd(8)",
-              "total_score": 5.5
-            }
-          ],
-          "best_index": 4,
-          "best_score": 5.5,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
-      }
-    },
     "9a6e85b96f9c914d1c173bb7d230754cbe2945394c57ad0edcc1098d4926c203": {
       "created_at": "2026-08-01T18:49:55Z",
       "payload": {
@@ -736,31 +709,6 @@
           ],
           "best_index": 1,
           "best_score": 7.0,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
-      }
-    },
-    "bb222cb4e28f2b4d19f02a370df7aa928870c0e14b0a2ad3cb9adc2e7741a202": {
-      "created_at": "2026-08-01T15:50:31Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1.5,
-              "impact_score": 1.5,
-              "index": 2,
-              "novelty_score": 0.5,
-              "reason": "Opinion piece with low novelty and impact, flagged for 'opinion' style.",
-              "red_flag": true,
-              "red_flag_reason": "opinion",
-              "source_score": 0.5,
-              "title": "Charlie Stross \u2013 On the non-use of AI in my writing process",
-              "total_score": 4.0
-            }
-          ],
-          "best_index": 2,
-          "best_score": 4.0,
           "recommendation": "SKIP",
           "social_posts": {}
         }
@@ -1411,12 +1359,6 @@
     }
   },
   "seen_article_links": {
-    "https://aerospaceglobalnews.com/news/gatwick-airport-robotic-parking-stanley-robotics": {
-      "canonical_url": "https://aerospaceglobalnews.com/news/gatwick-airport-robotic-parking-stanley-robotics",
-      "created_at": "2026-07-26T15:42:40Z",
-      "status": "scoring_attempted",
-      "title": "Park by Robot at London Gatwick Airport"
-    },
     "https://alexiglad.github.io/blog/2026/explorative_modeling": {
       "canonical_url": "https://alexiglad.github.io/blog/2026/explorative_modeling",
       "created_at": "2026-08-01T16:44:40Z",
@@ -3637,12 +3579,6 @@
       "status": "scoring_attempted",
       "title": "Australia's social media ban has failed"
     },
-    "https://www.rickmanelius.com/p/the-new-ai-superpowers-focus-and": {
-      "canonical_url": "https://www.rickmanelius.com/p/the-new-ai-superpowers-focus-and",
-      "created_at": "2026-07-26T15:42:40Z",
-      "status": "scoring_attempted",
-      "title": "The New AI Superpowers: Focus and Followthrough"
-    },
     "https://www.rubyforum.org/t/calling-all-open-source-maintainers-working-with-ruby/553": {
       "canonical_url": "https://www.rubyforum.org/t/calling-all-open-source-maintainers-working-with-ruby/553",
       "created_at": "2026-07-26T18:52:23Z",
@@ -3769,18 +3705,6 @@
       "status": "scoring_attempted",
       "title": "Is this Billboard Hot 100 hit AI slop?"
     },
-    "https://www.theverge.com/entertainment/971069/carrie-amazon-mike-flanagan-trailer-comic-con": {
-      "canonical_url": "https://www.theverge.com/entertainment/971069/carrie-amazon-mike-flanagan-trailer-comic-con",
-      "created_at": "2026-07-26T15:42:40Z",
-      "status": "scoring_attempted",
-      "title": "Carrie is just trying to make a friend in the new trailer"
-    },
-    "https://www.theverge.com/entertainment/971071/marvel-ryan-gosling-ghost-rider-black-panther-comic-con": {
-      "canonical_url": "https://www.theverge.com/entertainment/971071/marvel-ryan-gosling-ghost-rider-black-panther-comic-con",
-      "created_at": "2026-07-26T15:42:40Z",
-      "status": "scoring_attempted",
-      "title": "Marvel announces Ryan Gosling as Ghost Rider, a new Black Panther, and more"
-    },
     "https://www.theverge.com/entertainment/971285/sdcc-2026-trailers-neuromancer-blade-runner-carrie": {
       "canonical_url": "https://www.theverge.com/entertainment/971285/sdcc-2026-trailers-neuromancer-blade-runner-carrie",
       "created_at": "2026-07-27T15:59:27Z",
@@ -3906,6 +3830,12 @@
       "created_at": "2026-07-30T22:31:03Z",
       "status": "scoring_attempted",
       "title": "Xbox CEO lays out priorities in memo after major &#8216;reset&#8217;"
+    },
+    "https://www.theverge.com/games/974253/xbox-prices-increasing-200-euros": {
+      "canonical_url": "https://www.theverge.com/games/974253/xbox-prices-increasing-200-euros",
+      "created_at": "2026-08-02T16:43:41Z",
+      "status": "scoring_attempted",
+      "title": "Xbox prices are increasing by up to \u20ac200 or \u00a3170"
     },
     "https://www.theverge.com/podcast/971306/tariffs-liberation-day-ai-trade-shipping-jobs-canada": {
       "canonical_url": "https://www.theverge.com/podcast/971306/tariffs-liberation-day-ai-trade-shipping-jobs-canada",
