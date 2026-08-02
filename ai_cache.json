@@ -359,6 +359,36 @@
         }
       }
     },
+    "5015fcf8812d29fc37bd8de2c4dcdd453d0c0aa2a58e6b893c0d83fea4f22cd5": {
+      "created_at": "2026-08-02T06:24:44Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.5,
+              "index": 1,
+              "novelty_score": 3.0,
+              "reason": "New release with high impact on distributed systems, fresh and from Tier B source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.0,
+              "title": "Cloudflare Introduces Meerkat for Strongly Consistent Global Coordination",
+              "total_score": 8.5
+            }
+          ],
+          "best_index": 1,
+          "best_score": 8.5,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "Cloudflare\u2019s new Meerkat consensus algorithm enables leaderless writes while maintaining strong consistency across global networks. This could reshape how distributed systems handle partitions and availability. The algorithm is now open for review.\n\nLink: https://www.infoq.com/news/2026/08/cloudflare-meerkat-consensus/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Cloudflare Introduces Meerkat for Strongly Consistent Global Coordination*\n\nCloudflare\u2019s Meerkat is a leaderless consensus algorithm that guarantees strong consistency across global networks. Early tests indicate higher availability under partition scenarios compared to Raft.\n\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (Tier B)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.infoq.com/news/2026/08/cloudflare-meerkat-consensus/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "Cloudflare\u2019s Meerkat bypasses leader election entirely while preserving strong consistency. If it holds up in production, this could be a major shift for distributed systems architecture.\n\nhttps://www.infoq.com/news/2026/08/cloudflare-meerkat-consensus/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+            "twitter": "Cloudflare just open-sourced Meerkat, a leaderless consensus algorithm that guarantees strong consistency across global networks. Early tests show it outperforms Raft in availability under partition scenarios.\n\nhttps://www.infoq.com/news/2026/08/cloudflare-meerkat-consensus/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+          }
+        }
+      }
+    },
     "5149d3ed63ac515d05e837d3396f4778ea48465ebbe9427daf9390901252a475": {
       "created_at": "2026-08-01T07:25:24Z",
       "payload": {
@@ -1050,6 +1080,36 @@
           "best_score": 0.0,
           "recommendation": "SKIP",
           "social_posts": {}
+        }
+      }
+    },
+    "fb098c043e1c406c5f84e53beb0797260e8edff0d1a73025bee4c011adbc4c90": {
+      "created_at": "2026-08-02T06:24:44Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2,
+              "impact_score": 3,
+              "index": 0,
+              "novelty_score": 2,
+              "reason": "Industry move with high impact and freshness, though source is Tier A (not S).",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Europeans Are About to Find Out How Entrenched AI Is in Their Daily Lives",
+              "total_score": 8.5
+            }
+          ],
+          "best_index": 0,
+          "best_score": 8.5,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "Starting today, Europeans must be told when they encounter AI-generated or edited content under new EU rules. The policy aims to curb \u2018disclosure fatigue\u2019 as AI becomes ubiquitous in daily life.\n\nLink: https://www.wired.com/story/europeans-are-about-to-find-out-how-entrenched-ai-is-in-their-daily-lives/",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Europeans Are About to Find Out How Entrenched AI Is in Their Daily Lives*\n\nNew EU rules require disclosure of AI-generated or edited content, raising concerns about user fatigue from constant notifications.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.wired.com/story/europeans-are-about-to-find-out-how-entrenched-ai-is-in-their-daily-lives/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "EU\u2019s AI disclosure rules kick in today, forcing transparency on AI-generated content. The move tests whether users will tolerate constant notifications about AI interactions.\n\nhttps://www.wired.com/story/europeans-are-about-to-find-out-how-entrenched-ai-is-in-their-daily-lives/",
+            "twitter": "EU\u2019s new AI disclosure rules force companies to reveal AI-generated content, testing public patience with transparency fatigue.\n\nhttps://www.wired.com/story/europeans-are-about-to-find-out-how-entrenched-ai-is-in-their-daily-lives/"
+          }
         }
       }
     }
@@ -2332,12 +2392,6 @@
       "status": "scoring_attempted",
       "title": "Benchmarking Opus 5 on SlopCodeBench"
     },
-    "https://github.com/mulfyx/w4me-station": {
-      "canonical_url": "https://github.com/mulfyx/w4me-station",
-      "created_at": "2026-07-26T05:57:40Z",
-      "status": "scoring_attempted",
-      "title": "W4ME Station \u2013 a WASM-4 runtime for Java ME phones"
-    },
     "https://github.com/n67094/sdl_gp": {
       "canonical_url": "https://github.com/n67094/sdl_gp",
       "created_at": "2026-07-30T15:21:40Z",
@@ -3454,6 +3508,12 @@
       "status": "scoring_attempted",
       "title": "AWS Introduces Free Sandbox Environments for Workshops"
     },
+    "https://www.infoq.com/news/2026/08/cloudflare-meerkat-consensus": {
+      "canonical_url": "https://www.infoq.com/news/2026/08/cloudflare-meerkat-consensus",
+      "created_at": "2026-08-02T06:24:44Z",
+      "status": "scoring_attempted",
+      "title": "Cloudflare Introduces Meerkat for Strongly Consistent Global Coordination"
+    },
     "https://www.infoq.com/podcasts/rethinking-data-client-event-sourcing": {
       "canonical_url": "https://www.infoq.com/podcasts/rethinking-data-client-event-sourcing",
       "created_at": "2026-07-27T13:29:03Z",
@@ -3651,12 +3711,6 @@
       "created_at": "2026-07-29T22:34:01Z",
       "status": "scoring_attempted",
       "title": "AI's top startups are barely publishing their research"
-    },
-    "https://www.seti.org/news/alien-world-chemistry-found-inside-meteorite": {
-      "canonical_url": "https://www.seti.org/news/alien-world-chemistry-found-inside-meteorite",
-      "created_at": "2026-07-26T05:57:40Z",
-      "status": "scoring_attempted",
-      "title": "Alien World Chemistry Found Inside Meteorite That Struck New Jersey Home"
     },
     "https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html": {
       "canonical_url": "https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html",
@@ -4191,6 +4245,12 @@
       "created_at": "2026-07-30T17:10:53Z",
       "status": "scoring_attempted",
       "title": "Chrome Needs Twice-a-Week Patching Thanks to AI Bug Hunting"
+    },
+    "https://www.wired.com/story/europeans-are-about-to-find-out-how-entrenched-ai-is-in-their-daily-lives": {
+      "canonical_url": "https://www.wired.com/story/europeans-are-about-to-find-out-how-entrenched-ai-is-in-their-daily-lives",
+      "created_at": "2026-08-02T06:24:44Z",
+      "status": "scoring_attempted",
+      "title": "Europeans Are About to Find Out How Entrenched AI Is in Their Daily Lives"
     },
     "https://www.wired.com/story/everyone-is-freaking-out-about-openai-and-anthropics-race-for-dominance": {
       "canonical_url": "https://www.wired.com/story/everyone-is-freaking-out-about-openai-and-anthropics-race-for-dominance",
