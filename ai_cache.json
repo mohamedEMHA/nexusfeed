@@ -210,6 +210,36 @@
         }
       }
     },
+    "24c47ab20a88e65c5c0cce78e1ba6506834280a6621570b661a081479b82010b": {
+      "created_at": "2026-08-02T08:15:56Z",
+      "payload": {
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 1.5,
+              "index": 2,
+              "novelty_score": 3.0,
+              "reason": "Novel open-source project with agentic-first approach; niche impact but fresh source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "CRM: An open-source, agentic-first CRM",
+              "total_score": 7.0
+            }
+          ],
+          "best_index": 2,
+          "best_score": 7.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        },
+        "social_media_rules": [
+          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
+          "If recommendation is SKIP, return empty strings for all social_posts keys."
+        ]
+      }
+    },
     "2560648952a6de4f4f3822b4bf95e72b99242296deee9f890b395bbddf03168d": {
       "created_at": "2026-08-01T09:33:33Z",
       "payload": {
@@ -386,31 +416,6 @@
             "threads": "Cloudflare\u2019s Meerkat bypasses leader election entirely while preserving strong consistency. If it holds up in production, this could be a major shift for distributed systems architecture.\n\nhttps://www.infoq.com/news/2026/08/cloudflare-meerkat-consensus/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
             "twitter": "Cloudflare just open-sourced Meerkat, a leaderless consensus algorithm that guarantees strong consistency across global networks. Early tests show it outperforms Raft in availability under partition scenarios.\n\nhttps://www.infoq.com/news/2026/08/cloudflare-meerkat-consensus/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
           }
-        }
-      }
-    },
-    "5149d3ed63ac515d05e837d3396f4778ea48465ebbe9427daf9390901252a475": {
-      "created_at": "2026-08-01T07:25:24Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 0.0,
-              "index": 0,
-              "novelty_score": 0.0,
-              "reason": "Article is irrelevant to software engineering or AI research.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "A migrant surge tests Spain's open policies",
-              "total_score": 2.5
-            }
-          ],
-          "best_index": 0,
-          "best_score": 2.5,
-          "recommendation": "SKIP",
-          "social_posts": {}
         }
       }
     },
@@ -682,31 +687,6 @@
         }
       }
     },
-    "819821aa5454e17d99455d3e0774976e94caccc168d58a7d26da5696b8538e81": {
-      "created_at": "2026-08-01T06:25:03Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2,
-              "impact_score": 2.5,
-              "index": 0,
-              "novelty_score": 2.5,
-              "reason": "Industry move with high impact on developers, fresh and from Tier B source.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1,
-              "title": "AWS Introduces Free Sandbox Environments for Workshops",
-              "total_score": 8
-            }
-          ],
-          "best_index": 0,
-          "best_score": 8,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
-      }
-    },
     "82bd3e1b3ed587d44a9c2019ed4b015e9dd18c1cc954cb4d3fd71d2e44aedc6f": {
       "created_at": "2026-08-01T17:49:54Z",
       "payload": {
@@ -826,6 +806,31 @@
           ],
           "best_index": 0,
           "best_score": 8.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
+    "b24a8af6500327562ce8d3f4fb267978f2ea6163506c01c549af6077584c683b": {
+      "created_at": "2026-08-02T08:15:56Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.5,
+              "index": 1,
+              "novelty_score": 2.0,
+              "reason": "Article is a summary of a study, not a new release or research, and contains opinionated framing.",
+              "red_flag": true,
+              "red_flag_reason": "opinion",
+              "source_score": 0.5,
+              "title": "Australia's social media ban has failed",
+              "total_score": 7.0
+            }
+          ],
+          "best_index": 1,
+          "best_score": 7.0,
           "recommendation": "SKIP",
           "social_posts": {}
         }
@@ -2428,6 +2433,12 @@
       "status": "scoring_attempted",
       "title": "Tailscale with Mullvad leaks your DNS"
     },
+    "https://github.com/trycompai/crm": {
+      "canonical_url": "https://github.com/trycompai/crm",
+      "created_at": "2026-08-02T08:15:56Z",
+      "status": "scoring_attempted",
+      "title": "CRM: An open-source, agentic-first CRM"
+    },
     "https://github.com/vercel-labs/scriptc": {
       "canonical_url": "https://github.com/vercel-labs/scriptc",
       "created_at": "2026-07-27T03:47:01Z",
@@ -3430,12 +3441,6 @@
       "status": "scoring_attempted",
       "title": "Uber\u2019s Zero Growth Stack: Scaling Services, While Optimising Infrastructure and AI Cost"
     },
-    "https://www.infoq.com/news/2026/07/eks-version-rollback": {
-      "canonical_url": "https://www.infoq.com/news/2026/07/eks-version-rollback",
-      "created_at": "2026-07-26T06:28:43Z",
-      "status": "scoring_attempted",
-      "title": "Amazon EKS Adds Kubernetes Version Rollback Within 7 Days of an Upgrade"
-    },
     "https://www.infoq.com/news/2026/07/github-dependabot-cooldown": {
       "canonical_url": "https://www.infoq.com/news/2026/07/github-dependabot-cooldown",
       "created_at": "2026-07-28T20:17:53Z",
@@ -3543,12 +3548,6 @@
       "created_at": "2026-07-27T15:59:27Z",
       "status": "scoring_attempted",
       "title": "Apple Will 'Watch Everything Burn' When the AI Bubble Bursts"
-    },
-    "https://www.marktechpost.com/2026/07/25/sakana-ai-releases-fugu-cyber-orchestration-model-cybergym-cti-realm": {
-      "canonical_url": "https://www.marktechpost.com/2026/07/25/sakana-ai-releases-fugu-cyber-orchestration-model-cybergym-cti-realm",
-      "created_at": "2026-07-26T06:28:43Z",
-      "status": "scoring_attempted",
-      "title": "Sakana AI Releases Fugu-Cyber: An Orchestration Model Reporting 86.9% on CyberGym and 72.1% on CTI-REALM"
     },
     "https://www.marktechpost.com/2026/07/26/black-forest-labs-releases-flux-3-a-multimodal-flow-model-for-image-video-audio-and-robot-action-prediction": {
       "canonical_url": "https://www.marktechpost.com/2026/07/26/black-forest-labs-releases-flux-3-a-multimodal-flow-model-for-image-video-audio-and-robot-action-prediction",
@@ -3693,6 +3692,12 @@
       "created_at": "2026-07-31T03:55:22Z",
       "status": "scoring_attempted",
       "title": "The bond market isn't buying what Fed Chair Warsh is selling"
+    },
+    "https://www.reuters.com/legal/litigation/australia-defends-teen-social-media-ban-after-study-shows-most-still-online-2026-08-01": {
+      "canonical_url": "https://www.reuters.com/legal/litigation/australia-defends-teen-social-media-ban-after-study-shows-most-still-online-2026-08-01",
+      "created_at": "2026-08-02T08:15:56Z",
+      "status": "scoring_attempted",
+      "title": "Australia's social media ban has failed"
     },
     "https://www.rickmanelius.com/p/the-new-ai-superpowers-focus-and": {
       "canonical_url": "https://www.rickmanelius.com/p/the-new-ai-superpowers-focus-and",
