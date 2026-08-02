@@ -369,6 +369,31 @@
         }
       }
     },
+    "622f35471f56b95db5b63ae31ec0f440451e507331c8efdedaefdaabfe77e39d": {
+      "created_at": "2026-08-02T23:55:11Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.5,
+              "index": 1,
+              "novelty_score": 3.0,
+              "reason": "Show HN posts are promotional by design and do not meet editorial standards for novelty or impact.",
+              "red_flag": true,
+              "red_flag_reason": "Show HN",
+              "source_score": 0.5,
+              "title": "Show HN: Mu \u2013 Tools for Agents",
+              "total_score": 8.0
+            }
+          ],
+          "best_index": 1,
+          "best_score": 8.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
     "714fa49ede2ad4b582503730d280f00cb0cb856ac19e45ec621c6143764e74cf": {
       "created_at": "2026-08-02T21:10:25Z",
       "payload": {
@@ -529,6 +554,31 @@
             "threads": "Anthropic\u2019s rogue package in Claude stole real API keys. Supply chain attacks just got a new vector\u2014and it\u2019s happening in AI tools now.\n\nhttps://www.aikido.dev/blog/anthropic-rogue-agents-package-stole-keys",
             "twitter": "Anthropic\u2019s rogue package in Claude stole real API keys. Supply chain attacks just got a new vector.\n\nhttps://www.aikido.dev/blog/anthropic-rogue-agents-package-stole-keys"
           }
+        }
+      }
+    },
+    "b06aca8666d74edc3cd78156b05a063364ff9a96fae39ba88d48df603d4ded40": {
+      "created_at": "2026-08-02T23:55:11Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.5,
+              "impact_score": 0.5,
+              "index": 0,
+              "novelty_score": 0.2,
+              "reason": "Low novelty and impact for software engineers/AI researchers; source is Tier C.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "AI poster wins Ohio State Fair contest",
+              "total_score": 2.7
+            }
+          ],
+          "best_index": 0,
+          "best_score": 2.7,
+          "recommendation": "SKIP",
+          "social_posts": {}
         }
       }
     },
@@ -2110,6 +2160,12 @@
       "status": "scoring_attempted",
       "title": "Benchmarking Opus 5 on SlopCodeBench"
     },
+    "https://github.com/micro/mu": {
+      "canonical_url": "https://github.com/micro/mu",
+      "created_at": "2026-08-02T23:55:11Z",
+      "status": "scoring_attempted",
+      "title": "Show HN: Mu \u2013 Tools for Agents"
+    },
     "https://github.com/n67094/sdl_gp": {
       "canonical_url": "https://github.com/n67094/sdl_gp",
       "created_at": "2026-07-30T15:21:40Z",
@@ -3411,6 +3467,12 @@
       "created_at": "2026-08-01T16:44:40Z",
       "status": "scoring_attempted",
       "title": "Scope of Hacks on U.S. Water Supply Widens as Evidence Points to Iran"
+    },
+    "https://www.ohiostatefair.com/p/get-involved/arts/poster-contest": {
+      "canonical_url": "https://www.ohiostatefair.com/p/get-involved/arts/poster-contest",
+      "created_at": "2026-08-02T23:55:11Z",
+      "status": "scoring_attempted",
+      "title": "AI poster wins Ohio State Fair contest"
     },
     "https://www.omgubuntu.co.uk/2026/07/chrome-arm64-linux-available": {
       "canonical_url": "https://www.omgubuntu.co.uk/2026/07/chrome-arm64-linux-available",
