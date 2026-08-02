@@ -99,31 +99,6 @@
         }
       }
     },
-    "1ccd5eeff97eabc7846606849d365cdf75aeb3666ce5e06daa5741e0193361eb": {
-      "created_at": "2026-08-01T18:49:55Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 0.5,
-              "index": 0,
-              "novelty_score": 0.2,
-              "reason": "Title contains a question, triggering red flag.",
-              "red_flag": true,
-              "red_flag_reason": "question format in title",
-              "source_score": 1.5,
-              "title": "Is this Billboard Hot 100 hit AI slop?",
-              "total_score": 3.7
-            }
-          ],
-          "best_index": 0,
-          "best_score": 3.7,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
-      }
-    },
     "24c47ab20a88e65c5c0cce78e1ba6506834280a6621570b661a081479b82010b": {
       "created_at": "2026-08-02T08:15:56Z",
       "payload": {
@@ -462,31 +437,6 @@
           "social_posts": {}
         },
         "social_media_rules": []
-      }
-    },
-    "9a6e85b96f9c914d1c173bb7d230754cbe2945394c57ad0edcc1098d4926c203": {
-      "created_at": "2026-08-01T18:49:55Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1.0,
-              "impact_score": 0.5,
-              "index": 4,
-              "novelty_score": 0.2,
-              "reason": "Tutorial-style title with no novel research or industry impact.",
-              "red_flag": true,
-              "red_flag_reason": "tutorial",
-              "source_score": 0.5,
-              "title": "Franken.domains: Stitched-Together Domains, Because Every .com Is Taken",
-              "total_score": 2.2
-            }
-          ],
-          "best_index": 4,
-          "best_score": 2.2,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
       }
     },
     "a1bfca3a129a0f9e0e28a54323cd238b2dc0e48bbd09cebfeca8eafe04ee7f57": {
@@ -2893,12 +2843,6 @@
       "created_at": "2026-08-02T02:25:16Z",
       "status": "scoring_attempted",
       "title": "Kobuk the Destroyer \u2013 Tales from the Wild, Unseen World of Test Engineering"
-    },
-    "https://www.agrillo.it/EvasionEn.html": {
-      "canonical_url": "https://www.agrillo.it/EvasionEn.html",
-      "created_at": "2026-07-26T17:52:03Z",
-      "status": "scoring_attempted",
-      "title": "What if LLMs escape through inferences itself? This is fiction. For now"
     },
     "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals": {
       "canonical_url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
