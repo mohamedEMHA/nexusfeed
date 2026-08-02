@@ -1,5 +1,32 @@
 {
   "cerebras_scoring": {
+    "04862911bc47cad5793b4571986c269a6affdea4aae9b82172c8cbbb021d3274": {
+      "created_at": "2026-08-02T21:10:25Z",
+      "payload": {
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 0.5,
+              "index": 1,
+              "novelty_score": 0.5,
+              "reason": "Opinion piece with no novel technical content.",
+              "red_flag": true,
+              "red_flag_reason": "opinion",
+              "source_score": 0.5,
+              "title": "AI Mania: From Tulips to Tokens",
+              "total_score": 3.5
+            }
+          ],
+          "best_index": 1,
+          "best_score": 3.5,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        },
+        "social_media_rules": []
+      }
+    },
     "080884dd60f49bf1ca56f37a01e353868b92b2e78a3bc2bdff5cfffc35e1f1eb": {
       "created_at": "2026-08-02T12:52:51Z",
       "payload": {
@@ -94,36 +121,6 @@
         }
       }
     },
-    "1851466ea3e855377a4f7f2a502e47c5038f8483efd92ab20d33743d42196c61": {
-      "created_at": "2026-08-01T21:09:26Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 1.5,
-              "index": 0,
-              "novelty_score": 2.0,
-              "reason": "Industry move with high freshness and source tier, but niche impact.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "Judge denies xAI\u2019s request to block Minnesota ban on \u2018nudify\u2019 apps",
-              "total_score": 7.0
-            }
-          ],
-          "best_index": 0,
-          "best_score": 7.0,
-          "recommendation": "SKIP",
-          "social_posts": {
-            "facebook": "",
-            "telegram": "",
-            "threads": "",
-            "twitter": ""
-          }
-        }
-      }
-    },
     "24c47ab20a88e65c5c0cce78e1ba6506834280a6621570b661a081479b82010b": {
       "created_at": "2026-08-02T08:15:56Z",
       "payload": {
@@ -184,36 +181,6 @@
         }
       }
     },
-    "34379a842600e146d6b601ab418cc28e01eff8b3b1f80ac3dfc5d1beb6dba1a1": {
-      "created_at": "2026-08-01T21:09:26Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1.5,
-              "impact_score": 2.5,
-              "index": 2,
-              "novelty_score": 3.0,
-              "reason": "New open Mixture-of-Experts LLM release with niche but significant impact for AI hardware/software co-design.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "AMD Releases Instella-MoE-16B-A3B: A Fully Open Mixture-of-Experts LLM With 2.8B Active Parameters Trained On Instinct GPUs",
-              "total_score": 8.5
-            }
-          ],
-          "best_index": 2,
-          "best_score": 8.5,
-          "recommendation": "POST_NOW",
-          "social_posts": {
-            "facebook": "AMD released Instella-MoE-16B-A3B, a fully open Mixture-of-Experts LLM with 16B total parameters but just 2.8B active per token. It was trained from scratch on Instinct MI300X and MI325X GPUs, and AMD published weights from every training stage. This could reshape how we optimize MoE models for specific hardware.\n\nLink: https://www.marktechpost.com/2026/08/01/amd-instella-moe-16b-a3b-fully-open-mixture-of-experts-llm/",
-            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *AMD Releases Instella-MoE-16B-A3B: A Fully Open Mixture-of-Experts LLM With 2.8B Active Parameters Trained On Instinct GPUs*\n\nAMD open-sourced Instella-MoE-16B-A3B, a 16B-parameter Mixture-of-Experts model that activates only 2.8B parameters per token. It was trained from scratch on Instinct MI300X and MI325X GPUs, and AMD published weights from every training stage.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (Tier A)\n\u23f0 Published: 2 hours ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/08/01/amd-instella-moe-16b-a3b-fully-open-mixture-of-experts-llm/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-            "threads": "AMD open-sourced Instella-MoE-16B-A3B, a 16B-parameter MoE model with only 2.8B active per token, trained entirely on Instinct GPUs. Weights for every training stage are public\u2014useful for hardware-aware MoE research.\n\nhttps://www.marktechpost.com/2026/08/01/amd-instella-moe-16b-a3b-fully-open-mixture-of-experts-llm/",
-            "twitter": "AMD just open-sourced Instella-MoE-16B-A3B, a 16B-parameter MoE model that activates only 2.8B per token\u2014trained entirely on Instinct GPUs. Weights for every training stage are available.\n\nhttps://www.marktechpost.com/2026/08/01/amd-instella-moe-16b-a3b-fully-open-mixture-of-experts-llm/"
-          }
-        }
-      }
-    },
     "34480909512509124763489abb9de7bea7dc98bee7369e3c6119168da31ed029": {
       "created_at": "2026-08-02T02:25:16Z",
       "payload": {
@@ -259,6 +226,31 @@
           ],
           "best_index": 0,
           "best_score": 7.5,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
+    "4ac85cda0f702262bfae36f3283a7cc3f1f993390ab4572bf8bb1877209c703d": {
+      "created_at": "2026-08-02T21:10:25Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 0.5,
+              "index": 3,
+              "novelty_score": 0.5,
+              "reason": "Opinion piece with low novelty and impact.",
+              "red_flag": true,
+              "red_flag_reason": "opinion",
+              "source_score": 0.5,
+              "title": "My personal AI benchmark: \"Generate an SVG of a frog with a Habsburg jaw.\"",
+              "total_score": 3.5
+            }
+          ],
+          "best_index": 3,
+          "best_score": 3.5,
           "recommendation": "SKIP",
           "social_posts": {}
         }
@@ -322,50 +314,6 @@
         }
       }
     },
-    "52dbb13c730c54dc086cdb16aca2528bb8a5236c7d22b088a1e7b105063b8684": {
-      "created_at": "2026-08-01T21:09:26Z",
-      "payload": {
-        "candidates": [
-          {
-            "article_url": "https://trufflesecurity.com/blog/scanning-7-6-petabytes-of-ai-training-data-for-secrets",
-            "index": 3,
-            "published_relative": "2 hours ago",
-            "published_time_utc": "2026-08-01T18:21:41Z",
-            "source": "Hacker News",
-            "summary": "Comments",
-            "tier": "C",
-            "title": "Scanning 7.6 Petabytes of HuggingFace Training Data for Secrets"
-          }
-        ],
-        "prompt_version": "cerebras-scoring-v1",
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1.5,
-              "impact_score": 2.5,
-              "index": 3,
-              "novelty_score": 2.5,
-              "reason": "Research with niche but critical impact on AI security; fresh and novel but from a lower-tier source.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Scanning 7.6 Petabytes of HuggingFace Training Data for Secrets",
-              "total_score": 7.0
-            }
-          ],
-          "best_index": 3,
-          "best_score": 7.0,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        },
-        "social_media_rules": [
-          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
-          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.",
-          "Use the FULL article title as headline without inventing facts.",
-          "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
-        ]
-      }
-    },
     "6cf93e86853d4f044e6beedd2cb644890b27aa464f1c80c2b3618957a3161d6e": {
       "created_at": "2026-08-01T23:12:08Z",
       "payload": {
@@ -391,28 +339,33 @@
         }
       }
     },
-    "7377c6ce75b97ddb20c7782181a973011db54cc991e6d9fa3c0dff9256ae9d7f": {
-      "created_at": "2026-08-01T21:09:26Z",
+    "714fa49ede2ad4b582503730d280f00cb0cb856ac19e45ec621c6143764e74cf": {
+      "created_at": "2026-08-02T21:10:25Z",
       "payload": {
         "response_schema": {
           "articles": [
             {
-              "freshness_score": 1.5,
+              "freshness_score": 2,
               "impact_score": 2.5,
-              "index": 1,
-              "novelty_score": 0.5,
-              "reason": "Opinion piece lacks technical depth and novelty for target audience.",
-              "red_flag": true,
-              "red_flag_reason": "opinion piece",
+              "index": 0,
+              "novelty_score": 2.5,
+              "reason": "Research-style industry debate with high impact and freshness.",
+              "red_flag": false,
+              "red_flag_reason": null,
               "source_score": 1.5,
-              "title": "YouTuber Hank Green says his AI usage is \u2018not healthy\u2019",
-              "total_score": 5.0
+              "title": "Sam Altman and AI\u2019s decel debate",
+              "total_score": 8.5
             }
           ],
-          "best_index": 1,
-          "best_score": 5.0,
-          "recommendation": "SKIP",
-          "social_posts": {}
+          "best_index": 0,
+          "best_score": 8.5,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "Sam Altman called for pacing AI development in a recent interview. The discussion is sparking immediate debate across the industry about the pace of innovation and its risks.\n\nLink: https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Sam Altman and AI\u2019s decel debate*\n\nSam Altman calls for slowing AI development in a recent interview, sparking immediate industry debate over deceleration and its implications.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "Sam Altman is advocating for slower AI development. The remarks came during a high-profile interview and are already fueling industry-wide debate.\n\nhttps://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/",
+            "twitter": "Sam Altman is pushing for slower AI development. The debate over deceleration is heating up just hours after the discussion aired.\n\nhttps://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/"
+          }
         }
       }
     },
@@ -516,6 +469,36 @@
           "best_score": 8.0,
           "recommendation": "SKIP",
           "social_posts": {}
+        }
+      }
+    },
+    "a533c5875661c3bbf3e5227105a0059d16a48c293864d4740162901db59b16e0": {
+      "created_at": "2026-08-02T21:10:25Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 3.0,
+              "index": 2,
+              "novelty_score": 3.0,
+              "reason": "High novelty and impact with freshness, though source tier is low.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Anthropic's Fever Dream: Claude's package that stole real keys",
+              "total_score": 8.5
+            }
+          ],
+          "best_index": 2,
+          "best_score": 8.5,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "Anthropic\u2019s latest security incident reveals a rogue package in Claude that exfiltrated real API keys. The attack vector is a stark reminder of supply chain risks in AI tooling. Early reports suggest the package masqueraded as a legitimate dependency.\n\nLink: https://www.aikido.dev/blog/anthropic-rogue-agents-package-stole-keys",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Anthropic's Fever Dream: Claude's package that stole real keys*\n\nA rogue package in Anthropic\u2019s Claude stole real API keys via supply chain attack. The package masqueraded as a legitimate dependency.\n\n\ud83c\udfdb\ufe0f Source: Hacker News (Tier C)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.aikido.dev/blog/anthropic-rogue-agents-package-stole-keys\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "Anthropic\u2019s rogue package in Claude stole real API keys. Supply chain attacks just got a new vector\u2014and it\u2019s happening in AI tools now.\n\nhttps://www.aikido.dev/blog/anthropic-rogue-agents-package-stole-keys",
+            "twitter": "Anthropic\u2019s rogue package in Claude stole real API keys. Supply chain attacks just got a new vector.\n\nhttps://www.aikido.dev/blog/anthropic-rogue-agents-package-stole-keys"
+          }
         }
       }
     },
@@ -1951,6 +1934,12 @@
       "status": "scoring_attempted",
       "title": "Franken.domains: Stitched-Together Domains, Because Every .com Is Taken"
     },
+    "https://frogs.vaguespac.es": {
+      "canonical_url": "https://frogs.vaguespac.es",
+      "created_at": "2026-08-02T21:10:25Z",
+      "status": "scoring_attempted",
+      "title": "My personal AI benchmark: \"Generate an SVG of a frog with a Habsburg jaw.\""
+    },
     "https://galjot.si/what-ai-developers-could-learn-from-charles-bukowski": {
       "canonical_url": "https://galjot.si/what-ai-developers-could-learn-from-charles-bukowski",
       "created_at": "2026-07-28T15:37:11Z",
@@ -2419,6 +2408,12 @@
       "status": "scoring_attempted",
       "title": "Dead Software Walking: The ongoing evolution of relayd(8) and httpd(8)"
     },
+    "https://seanhelvey.com/tools-and-their-tools": {
+      "canonical_url": "https://seanhelvey.com/tools-and-their-tools",
+      "created_at": "2026-08-02T21:10:25Z",
+      "status": "scoring_attempted",
+      "title": "AI Mania: From Tulips to Tokens"
+    },
     "https://segue.ai": {
       "canonical_url": "https://segue.ai",
       "created_at": "2026-07-28T15:37:11Z",
@@ -2809,6 +2804,12 @@
       "status": "scoring_attempted",
       "title": "YouTuber Hank Green says his AI usage is \u2018not healthy\u2019"
     },
+    "https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate": {
+      "canonical_url": "https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate",
+      "created_at": "2026-08-02T21:10:25Z",
+      "status": "scoring_attempted",
+      "title": "Sam Altman and AI\u2019s decel debate"
+    },
     "https://techcrunch.com/podcast/ai-labs-want-to-pump-the-brakes-but-amazon-and-spacex-are-still-blasting-off": {
       "canonical_url": "https://techcrunch.com/podcast/ai-labs-want-to-pump-the-brakes-but-amazon-and-spacex-are-still-blasting-off",
       "created_at": "2026-07-31T17:48:59Z",
@@ -2892,6 +2893,12 @@
       "created_at": "2026-08-02T02:25:16Z",
       "status": "scoring_attempted",
       "title": "Kobuk the Destroyer \u2013 Tales from the Wild, Unseen World of Test Engineering"
+    },
+    "https://www.aikido.dev/blog/anthropic-rogue-agents-package-stole-keys": {
+      "canonical_url": "https://www.aikido.dev/blog/anthropic-rogue-agents-package-stole-keys",
+      "created_at": "2026-08-02T21:10:25Z",
+      "status": "scoring_attempted",
+      "title": "Anthropic's Fever Dream: Claude's package that stole real keys"
     },
     "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals": {
       "canonical_url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
