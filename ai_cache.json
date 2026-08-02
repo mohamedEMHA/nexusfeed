@@ -265,6 +265,31 @@
         }
       }
     },
+    "34480909512509124763489abb9de7bea7dc98bee7369e3c6119168da31ed029": {
+      "created_at": "2026-08-02T02:25:16Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.5,
+              "impact_score": 2.5,
+              "index": 1,
+              "novelty_score": 2.5,
+              "reason": "Research-level analysis of agentic AI modes with niche but relevant impact for AI engineers.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "The Greenhouse and the Lens: Two Modes of Agentic AI Work",
+              "total_score": 7.0
+            }
+          ],
+          "best_index": 1,
+          "best_score": 7.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
     "4059cb8981de24380695afeeb8acfbd66e1a89e09e0fe0ad0a0185a85f0abe86": {
       "created_at": "2026-08-01T14:51:35Z",
       "payload": {
@@ -307,6 +332,31 @@
           "Use the FULL article title as headline without inventing facts.",
           "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
         ]
+      }
+    },
+    "4803e23c498dbd9853507148169d5e2074a5b985d7db5ca7b157dfc4783ee4d5": {
+      "created_at": "2026-08-02T02:25:16Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.5,
+              "index": 0,
+              "novelty_score": 2.5,
+              "reason": "Research paper on novel LLM attention mechanism with INT4 in-memory cells.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Persistent State Machines: LLM Attention with INT4 In-Memory Cells",
+              "total_score": 7.5
+            }
+          ],
+          "best_index": 0,
+          "best_score": 7.5,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
       }
     },
     "5149d3ed63ac515d05e837d3396f4778ea48465ebbe9427daf9390901252a475": {
@@ -964,6 +1014,31 @@
         }
       }
     },
+    "db7e5ee4064ee06e4221a444f78d70f22187827406c3165573a3f2cccf14e025": {
+      "created_at": "2026-08-02T02:25:16Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1,
+              "impact_score": 1.5,
+              "index": 3,
+              "novelty_score": 2.5,
+              "reason": "Research with high novelty and niche impact but low source tier and freshness.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "AI opens new era in cognitive studies of wild primates",
+              "total_score": 5.5
+            }
+          ],
+          "best_index": 3,
+          "best_score": 5.5,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
     "e90f56533294eb9a4c2d232d8b8262d8d63634a09203d7e3bd1b4a9bf964ceae": {
       "created_at": "2026-08-01T09:33:33Z",
       "payload": {
@@ -1019,6 +1094,31 @@
             "threads": "",
             "twitter": ""
           }
+        }
+      }
+    },
+    "f96be3a6d9ea569b9263dc8013faa2716b61588e2fe1700c9cc78a24a733bfdd": {
+      "created_at": "2026-08-02T02:25:16Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.5,
+              "impact_score": 0.5,
+              "index": 2,
+              "novelty_score": 0.5,
+              "reason": "Title contains 'Tales from' which implies a narrative style, but 'unseen world' is a red flag phrase.",
+              "red_flag": true,
+              "red_flag_reason": "unseen world of test engineering",
+              "source_score": 0.5,
+              "title": "Kobuk the Destroyer \u2013 Tales from the Wild, Unseen World of Test Engineering",
+              "total_score": 3.0
+            }
+          ],
+          "best_index": 2,
+          "best_score": 0.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
         }
       }
     }
@@ -2037,12 +2137,6 @@
       "status": "scoring_attempted",
       "title": "Apple Will 'Watch Everything Burn' When AI Bubble Bursts"
     },
-    "https://blog.cloudflare.com/content-independence-day-ai-options": {
-      "canonical_url": "https://blog.cloudflare.com/content-independence-day-ai-options",
-      "created_at": "2026-07-26T00:14:01Z",
-      "status": "scoring_attempted",
-      "title": "Cloudflare's new AI traffic options for customers"
-    },
     "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks": {
       "canonical_url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks",
       "created_at": "2026-07-28T17:43:13Z",
@@ -2252,12 +2346,6 @@
       "created_at": "2026-07-28T15:37:11Z",
       "status": "scoring_attempted",
       "title": "Show HN: Ctrlb-decompose: Strip the noise from logs before sending to LLMs"
-    },
-    "https://github.com/demo-zexuan/liang-wenfeng-investor-meeting-2026-7-22/blob/master/%E6%A2%81%E6%96%87%E9%94%8B%E6%8A%95%E8%B5%84%E8%80%85%E4%BA%A4%E6%B5%81%E4%BC%9A-%E6%96%87%E5%AD%97%E7%A8%BF_1_18_translate_20260723201651.pdf": {
-      "canonical_url": "https://github.com/demo-zexuan/liang-wenfeng-investor-meeting-2026-7-22/blob/master/%E6%A2%81%E6%96%87%E9%94%8B%E6%8A%95%E8%B5%84%E8%80%85%E4%BA%A4%E6%B5%81%E4%BC%9A-%E6%96%87%E5%AD%97%E7%A8%BF_1_18_translate_20260723201651.pdf",
-      "created_at": "2026-07-26T00:14:01Z",
-      "status": "scoring_attempted",
-      "title": "DeepSeek pause fundraise after comments on compute gap to US leaked (transcript) [pdf]"
     },
     "https://github.com/experientiallabs/world-model-optimizer": {
       "canonical_url": "https://github.com/experientiallabs/world-model-optimizer",
@@ -2522,6 +2610,12 @@
       "created_at": "2026-08-01T22:52:08Z",
       "status": "scoring_attempted",
       "title": "From MIT: AI financial advice is surprisingly good"
+    },
+    "https://news.emory.edu/features/2026/07/ai-opens-new-era-cognitive-studies-wild-primates": {
+      "canonical_url": "https://news.emory.edu/features/2026/07/ai-opens-new-era-cognitive-studies-wild-primates",
+      "created_at": "2026-08-02T02:25:16Z",
+      "status": "scoring_attempted",
+      "title": "AI opens new era in cognitive studies of wild primates"
     },
     "https://news.mit.edu/2026/connecting-research-to-policy-on-capitol-hill-0730": {
       "canonical_url": "https://news.mit.edu/2026/connecting-research-to-policy-on-capitol-hill-0730",
@@ -3147,6 +3241,12 @@
       "status": "scoring_attempted",
       "title": "AI doesn't generate working products, that's still your job"
     },
+    "https://wwnorton.com/books/9781324051299": {
+      "canonical_url": "https://wwnorton.com/books/9781324051299",
+      "created_at": "2026-08-02T02:25:16Z",
+      "status": "scoring_attempted",
+      "title": "Kobuk the Destroyer \u2013 Tales from the Wild, Unseen World of Test Engineering"
+    },
     "https://www.agrillo.it/EvasionEn.html": {
       "canonical_url": "https://www.agrillo.it/EvasionEn.html",
       "created_at": "2026-07-26T17:52:03Z",
@@ -3236,6 +3336,12 @@
       "created_at": "2026-07-30T13:08:00Z",
       "status": "scoring_attempted",
       "title": "ChatGPT, Roblox to Fall Under Strictest EU Rules for Platforms"
+    },
+    "https://www.brethorsting.com/blog/2026/08/the-greenhouse-and-the-lens-two-modes-of-agentic-ai-work": {
+      "canonical_url": "https://www.brethorsting.com/blog/2026/08/the-greenhouse-and-the-lens-two-modes-of-agentic-ai-work",
+      "created_at": "2026-08-02T02:25:16Z",
+      "status": "scoring_attempted",
+      "title": "The Greenhouse and the Lens: Two Modes of Agentic AI Work"
     },
     "https://www.commondreams.org/news/trump-medicaid-work-requirements-2677293170": {
       "canonical_url": "https://www.commondreams.org/news/trump-medicaid-work-requirements-2677293170",
@@ -3578,12 +3684,6 @@
       "created_at": "2026-08-01T14:51:35Z",
       "status": "scoring_attempted",
       "title": "Supabase Releases Evals: an Open Source Benchmark That Scores Claude Code, Codex and OpenCode on Real Supabase Tasks"
-    },
-    "https://www.maxmynter.com/pages/blog/jobhunt": {
-      "canonical_url": "https://www.maxmynter.com/pages/blog/jobhunt",
-      "created_at": "2026-07-26T00:14:01Z",
-      "status": "scoring_attempted",
-      "title": "Becoming a Research Engineer at a Big LLM Lab"
     },
     "https://www.nytimes.com/2026/08/01/us/politics/iran-cyberattack-water-systems.html": {
       "canonical_url": "https://www.nytimes.com/2026/08/01/us/politics/iran-cyberattack-water-systems.html",
@@ -4286,6 +4386,12 @@
       "created_at": "2026-07-29T22:34:01Z",
       "status": "scoring_attempted",
       "title": "The Cold Email"
+    },
+    "https://zenodo.org/records/21753002": {
+      "canonical_url": "https://zenodo.org/records/21753002",
+      "created_at": "2026-08-02T02:25:16Z",
+      "status": "scoring_attempted",
+      "title": "Persistent State Machines: LLM Attention with INT4 In-Memory Cells"
     }
   },
   "version": 1
