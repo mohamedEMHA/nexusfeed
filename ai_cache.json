@@ -261,50 +261,6 @@
         }
       }
     },
-    "4059cb8981de24380695afeeb8acfbd66e1a89e09e0fe0ad0a0185a85f0abe86": {
-      "created_at": "2026-08-01T14:51:35Z",
-      "payload": {
-        "candidates": [
-          {
-            "article_url": "https://www.marktechpost.com/2026/08/01/supabase-releases-evals-an-open-source-benchmark-that-scores-claude-code-codex-and-opencode-on-real-supabase-tasks/",
-            "index": 3,
-            "published_relative": "4 hours ago",
-            "published_time_utc": "2026-08-01T09:52:49Z",
-            "source": "MarkTechPost",
-            "summary": "Supabase has open sourced supabase/evals, an Apache-2.0 benchmark and framework that runs coding agents including Claude Code, Codex and OpenCode against real Supabase tasks \u2014 building schemas, debugging Edge Functions, fixing RLS policies \u2014 inside containerized stacks, then scores them with determ...",
-            "tier": "A",
-            "title": "Supabase Releases Evals: an Open Source Benchmark That Scores Claude Code, Codex and OpenCode on Real Supabase Tasks"
-          }
-        ],
-        "prompt_version": "cerebras-scoring-v1",
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1.0,
-              "impact_score": 2.5,
-              "index": 3,
-              "novelty_score": 3.0,
-              "reason": "Research tool release with broad developer relevance, fresh but not breaking news.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "Supabase Releases Evals: an Open Source Benchmark That Scores Claude Code, Codex and OpenCode on Real Supabase Tasks",
-              "total_score": 8.0
-            }
-          ],
-          "best_index": 3,
-          "best_score": 8.0,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        },
-        "social_media_rules": [
-          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
-          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.",
-          "Use the FULL article title as headline without inventing facts.",
-          "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
-        ]
-      }
-    },
     "4803e23c498dbd9853507148169d5e2074a5b985d7db5ca7b157dfc4783ee4d5": {
       "created_at": "2026-08-02T02:25:16Z",
       "payload": {
@@ -783,50 +739,6 @@
           "recommendation": "SKIP",
           "social_posts": {}
         }
-      }
-    },
-    "b3325c4ab3d7a5d579e5d06009731acfb695f205615ae0956359561d09bcfaea": {
-      "created_at": "2026-08-01T14:51:35Z",
-      "payload": {
-        "candidates": [
-          {
-            "article_url": "https://www.marktechpost.com/2026/08/01/minimax-releases-minimax-h3-an-omni-modal-video-model-that-generates-15-second-2k-clips-with-native-stereo-audio/",
-            "index": 5,
-            "published_relative": "6 hours ago",
-            "published_time_utc": "2026-08-01T08:28:07Z",
-            "source": "MarkTechPost",
-            "summary": "MiniMax releases MiniMax H3, a general-purpose multimodal generation model. MiniMax H3 is not a text-to-video model with add-ons. MiniMax describes it as a general-purpose multimodal generation model that reads text, images, video, and audio as one unified context and returns video with native ster...",
-            "tier": "A",
-            "title": "MiniMax Releases MiniMax H3: An Omni-Modal Video Model That Generates 15-Second 2K Clips With Native Stereo Audio"
-          }
-        ],
-        "prompt_version": "cerebras-scoring-v1",
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1.0,
-              "impact_score": 2.5,
-              "index": 5,
-              "novelty_score": 3.0,
-              "reason": "High novelty and impact for a new multimodal video model, but freshness is 6 hours old and source is Tier A.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "MiniMax Releases MiniMax H3: An Omni-Modal Video Model That Generates 15-Second 2K Clips With Native Stereo Audio",
-              "total_score": 8.0
-            }
-          ],
-          "best_index": 5,
-          "best_score": 8.0,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        },
-        "social_media_rules": [
-          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
-          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.",
-          "Use the FULL article title as headline without inventing facts.",
-          "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
-        ]
       }
     },
     "bb222cb4e28f2b4d19f02a370df7aa928870c0e14b0a2ad3cb9adc2e7741a202": {
@@ -2740,12 +2652,6 @@
       "created_at": "2026-07-30T20:07:03Z",
       "status": "scoring_attempted",
       "title": "Solving poker in custom WebGPU kernels"
-    },
-    "https://pkg.go.dev/golang.org/x/tools/go/analysis": {
-      "canonical_url": "https://pkg.go.dev/golang.org/x/tools/go/analysis",
-      "created_at": "2026-07-26T14:22:03Z",
-      "status": "scoring_attempted",
-      "title": "Go Analysis Framework: modular static analysis by go team"
     },
     "https://platformengineering.org/blog/how-platform-engineering-2-0-mitigates-ai-security-and-compliance-risks": {
       "canonical_url": "https://platformengineering.org/blog/how-platform-engineering-2-0-mitigates-ai-security-and-compliance-risks",
