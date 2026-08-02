@@ -121,6 +121,36 @@
         }
       }
     },
+    "17e7090aa9c74950393264c0c94a89958b537d0109e34ca7f2436a74e94a5a90": {
+      "created_at": "2026-08-02T23:12:17Z",
+      "payload": {
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 0.0,
+              "index": 1,
+              "novelty_score": 0.0,
+              "reason": "Red flag detected: title matches opinion/guide phrasing despite freshness.",
+              "red_flag": true,
+              "red_flag_reason": "title contains 'Chilling Effects' which implies a guide or opinion piece",
+              "source_score": 0.5,
+              "title": "Flock \u2014 Chilling Effects: Long Island's Emerging Open-Air Prison",
+              "total_score": 0.0
+            }
+          ],
+          "best_index": 1,
+          "best_score": 0.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        },
+        "social_media_rules": [
+          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
+          "If recommendation is SKIP, return empty strings for all social_posts keys."
+        ]
+      }
+    },
     "1cce28650bcc71bfeecb4391da4f8f9cf410f001291f6ef0386c99711f1ad498": {
       "created_at": "2026-08-02T22:10:35Z",
       "payload": {
@@ -336,31 +366,6 @@
             "threads": "Cloudflare\u2019s Meerkat bypasses leader election entirely while preserving strong consistency. If it holds up in production, this could be a major shift for distributed systems architecture.\n\nhttps://www.infoq.com/news/2026/08/cloudflare-meerkat-consensus/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
             "twitter": "Cloudflare just open-sourced Meerkat, a leaderless consensus algorithm that guarantees strong consistency across global networks. Early tests show it outperforms Raft in availability under partition scenarios.\n\nhttps://www.infoq.com/news/2026/08/cloudflare-meerkat-consensus/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
           }
-        }
-      }
-    },
-    "6cf93e86853d4f044e6beedd2cb644890b27aa464f1c80c2b3618957a3161d6e": {
-      "created_at": "2026-08-01T23:12:08Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 0.5,
-              "index": 0,
-              "novelty_score": 0.2,
-              "reason": "Opinion piece with no novel technical content.",
-              "red_flag": true,
-              "red_flag_reason": "opinion",
-              "source_score": 0.5,
-              "title": "\"Everyone Has Been Sold a Lie\" on AI",
-              "total_score": 3.2
-            }
-          ],
-          "best_index": 0,
-          "best_score": 3.2,
-          "recommendation": "SKIP",
-          "social_posts": {}
         }
       }
     },
@@ -2962,6 +2967,12 @@
       "created_at": "2026-08-02T02:25:16Z",
       "status": "scoring_attempted",
       "title": "Kobuk the Destroyer \u2013 Tales from the Wild, Unseen World of Test Engineering"
+    },
+    "https://www.11971.com": {
+      "canonical_url": "https://www.11971.com",
+      "created_at": "2026-08-02T23:12:17Z",
+      "status": "scoring_attempted",
+      "title": "Flock \u2013 Chilling Effects: Long Island's Emerging Open-Air Prison"
     },
     "https://www.aikido.dev/blog/anthropic-rogue-agents-package-stole-keys": {
       "canonical_url": "https://www.aikido.dev/blog/anthropic-rogue-agents-package-stole-keys",
