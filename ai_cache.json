@@ -518,50 +518,6 @@
         }
       }
     },
-    "64af01a61ab91445d80d1fb4d5eab5de94e10335441d763be429fb7d7b055917": {
-      "created_at": "2026-08-01T08:55:04Z",
-      "payload": {
-        "candidates": [
-          {
-            "article_url": "https://openai.com/index/ten-advances-in-mathematics",
-            "index": 2,
-            "published_relative": "8 hours ago",
-            "published_time_utc": "2026-08-01T00:00:00Z",
-            "source": "OpenAI",
-            "summary": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
-            "tier": "S",
-            "title": "Ten advances in mathematics and theoretical computer science"
-          }
-        ],
-        "prompt_version": "cerebras-scoring-v1",
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 0.5,
-              "impact_score": 3.0,
-              "index": 2,
-              "novelty_score": 2.5,
-              "reason": "Research with broad impact but older than 6 hours and not a new release.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 2.0,
-              "title": "Ten advances in mathematics and theoretical computer science",
-              "total_score": 8.0
-            }
-          ],
-          "best_index": 2,
-          "best_score": 8.0,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        },
-        "social_media_rules": [
-          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
-          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.",
-          "Use the FULL article title as headline without inventing facts.",
-          "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
-        ]
-      }
-    },
     "6cf93e86853d4f044e6beedd2cb644890b27aa464f1c80c2b3618957a3161d6e": {
       "created_at": "2026-08-01T23:12:08Z",
       "payload": {
@@ -652,6 +608,31 @@
               "red_flag_reason": "opinion piece",
               "source_score": 1.5,
               "title": "YouTuber Hank Green says his AI usage is \u2018not healthy\u2019",
+              "total_score": 5.0
+            }
+          ],
+          "best_index": 1,
+          "best_score": 5.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
+    "754bc1a2053fde57b09ec25cf2a471e50b0e94693bab645c91a556ac4a45f045": {
+      "created_at": "2026-08-02T08:56:54Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.5,
+              "impact_score": 2.5,
+              "index": 1,
+              "novelty_score": 0.5,
+              "reason": "Opinion piece lacks novelty and freshness for a technical audience.",
+              "red_flag": true,
+              "red_flag_reason": "opinion",
+              "source_score": 0.5,
+              "title": "I don't recommend Tailwind CSS",
               "total_score": 5.0
             }
           ],
@@ -2217,12 +2198,6 @@
       "status": "scoring_attempted",
       "title": "GitHub is the wrong shape for this new world"
     },
-    "https://discuss.grapheneos.org/d/40700-grapheneos-protections-against-data-extraction-from-locked-devices": {
-      "canonical_url": "https://discuss.grapheneos.org/d/40700-grapheneos-protections-against-data-extraction-from-locked-devices",
-      "created_at": "2026-07-26T08:29:48Z",
-      "status": "scoring_attempted",
-      "title": "GrapheneOS protections against data extraction from locked devices"
-    },
     "https://docs.carolinacloud.io/organizations/prepaid-interest": {
       "canonical_url": "https://docs.carolinacloud.io/organizations/prepaid-interest",
       "created_at": "2026-07-30T11:28:52Z",
@@ -2246,6 +2221,12 @@
       "created_at": "2026-08-01T07:25:24Z",
       "status": "scoring_attempted",
       "title": "A migrant surge tests Spain's open policies"
+    },
+    "https://en.andros.dev/blog/af3ee191/why-i-dont-recommend-tailwind-css": {
+      "canonical_url": "https://en.andros.dev/blog/af3ee191/why-i-dont-recommend-tailwind-css",
+      "created_at": "2026-08-02T08:56:54Z",
+      "status": "scoring_attempted",
+      "title": "I don't recommend Tailwind CSS"
     },
     "https://en.andros.dev/blog/d7ed8b07/modern-email-can-be-built-from-borrowed-parts": {
       "canonical_url": "https://en.andros.dev/blog/d7ed8b07/modern-email-can-be-built-from-borrowed-parts",
