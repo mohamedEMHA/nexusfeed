@@ -776,6 +776,31 @@
         }
       }
     },
+    "a1bfca3a129a0f9e0e28a54323cd238b2dc0e48bbd09cebfeca8eafe04ee7f57": {
+      "created_at": "2026-08-02T03:53:23Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.5,
+              "index": 0,
+              "novelty_score": 3.0,
+              "reason": "New tool with high utility for developers tracking AI API costs, but source is Tier C.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Show HN: CostPerPrompt \u2013 Live AI API pricing and real-workload cost calculators",
+              "total_score": 8.0
+            }
+          ],
+          "best_index": 0,
+          "best_score": 8.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
     "b1442d76b17aa17553890176d5c457ddf1452d7c7835337f990e6e4b1d0278b7": {
       "created_at": "2026-08-01T03:53:33Z",
       "payload": {
@@ -1495,12 +1520,6 @@
     }
   },
   "seen_article_links": {
-    "https://abcnews.com/International/scientists-warn-invasive-species-superspreader-event-due-stalling/story?id=135051186": {
-      "canonical_url": "https://abcnews.com/International/scientists-warn-invasive-species-superspreader-event-due-stalling/story?id=135051186",
-      "created_at": "2026-07-26T02:53:48Z",
-      "status": "scoring_attempted",
-      "title": "Possible invasive species superspreader event near Strait of Hormuz"
-    },
     "https://aerospaceglobalnews.com/news/gatwick-airport-robotic-parking-stanley-robotics": {
       "canonical_url": "https://aerospaceglobalnews.com/news/gatwick-airport-robotic-parking-stanley-robotics",
       "created_at": "2026-07-26T15:42:40Z",
@@ -2203,6 +2222,12 @@
       "status": "scoring_attempted",
       "title": "BMW Spider-Man in-car advertising"
     },
+    "https://costperprompt.com": {
+      "canonical_url": "https://costperprompt.com",
+      "created_at": "2026-08-02T03:53:23Z",
+      "status": "scoring_attempted",
+      "title": "Show HN: CostPerPrompt \u2013 Live AI API pricing and real-workload cost calculators"
+    },
     "https://davidnicholaswilliams.com/its-not-empowering-to-hand-off-the-details": {
       "canonical_url": "https://davidnicholaswilliams.com/its-not-empowering-to-hand-off-the-details",
       "created_at": "2026-07-26T21:11:35Z",
@@ -2802,12 +2827,6 @@
       "created_at": "2026-07-28T13:16:41Z",
       "status": "scoring_attempted",
       "title": "Show HN: Open-source Cloudflare deployed agent native task management and wiki"
-    },
-    "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai": {
-      "canonical_url": "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai",
-      "created_at": "2026-07-26T02:53:48Z",
-      "status": "scoring_attempted",
-      "title": "Monday.com is the latest tech company to blame AI for layoffs \u2014 here are 20 others"
     },
     "https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai": {
       "canonical_url": "https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai",
