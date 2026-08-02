@@ -552,31 +552,6 @@
         }
       }
     },
-    "bdb0a91658040bd3bfe6024de08ae182dabd23ef69a8ea7b20230315eed155d4": {
-      "created_at": "2026-08-01T22:52:08Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2,
-              "impact_score": 1.5,
-              "index": 0,
-              "novelty_score": 2.5,
-              "reason": "Article title contains 'From MIT:' which resembles a tutorial/opinion format, but red flag triggered by phrasing.",
-              "red_flag": true,
-              "red_flag_reason": "industry move",
-              "source_score": 0.5,
-              "title": "From MIT: AI financial advice is surprisingly good",
-              "total_score": 6.5
-            }
-          ],
-          "best_index": 0,
-          "best_score": 6.5,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
-      }
-    },
     "ce31860e4d917af8a1f68973df65aeb95ab36255bc223858a36ea7e8d90f079e": {
       "created_at": "2026-08-02T12:52:51Z",
       "payload": {
@@ -607,31 +582,6 @@
           }
         },
         "social_media_rules": []
-      }
-    },
-    "d3b3ecb70b07ff0ecf3a056269b9dc422da63b1a109b201f893b6d87e32b9669": {
-      "created_at": "2026-08-01T22:11:34Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 0.5,
-              "index": 0,
-              "novelty_score": 1.5,
-              "reason": "Hardware leak with minor updates; low novelty and impact for software engineers/AI researchers.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "Pixel 11 specs and price leak with no surprises",
-              "total_score": 5.5
-            }
-          ],
-          "best_index": 0,
-          "best_score": 5.5,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
       }
     },
     "d516afcd1d418c68b1d68633bbafa6ce71a0557b8a55cacb13503ae6f94531f6": {
@@ -890,6 +840,31 @@
             "threads": "EU\u2019s AI disclosure rules kick in today, forcing transparency on AI-generated content. The move tests whether users will tolerate constant notifications about AI interactions.\n\nhttps://www.wired.com/story/europeans-are-about-to-find-out-how-entrenched-ai-is-in-their-daily-lives/",
             "twitter": "EU\u2019s new AI disclosure rules force companies to reveal AI-generated content, testing public patience with transparency fatigue.\n\nhttps://www.wired.com/story/europeans-are-about-to-find-out-how-entrenched-ai-is-in-their-daily-lives/"
           }
+        }
+      }
+    },
+    "fc29172a7ee518111b711921f9e1cad4fd31ba1a783023c40b6482628c47ae39": {
+      "created_at": "2026-08-02T22:52:17Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 0.5,
+              "index": 0,
+              "novelty_score": 0.2,
+              "reason": "Music review with low novelty/impact for software engineers; freshness is high but irrelevant to target audience.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Rachika Nayar\u2019s Heaven Come Crashing is an instrumental epic of desperate longing",
+              "total_score": 3.7
+            }
+          ],
+          "best_index": 0,
+          "best_score": 3.7,
+          "recommendation": "SKIP",
+          "social_posts": {}
         }
       }
     }
@@ -1907,12 +1882,6 @@
       "created_at": "2026-07-28T18:57:44Z",
       "status": "scoring_attempted",
       "title": "MCP 2026-07-28 Specification: transport going stateless"
-    },
-    "https://bulletins.wolframphysics.org/2021/02/multiway-turing-machines": {
-      "canonical_url": "https://bulletins.wolframphysics.org/2021/02/multiway-turing-machines",
-      "created_at": "2026-07-26T22:13:27Z",
-      "status": "scoring_attempted",
-      "title": "Multiway Turing Machines (2021 pre-ai)"
     },
     "https://cacm.acm.org/opinion/now-is-the-time-to-give-llms-access-to-the-acm-digital-library": {
       "canonical_url": "https://cacm.acm.org/opinion/now-is-the-time-to-give-llms-access-to-the-acm-digital-library",
@@ -3605,6 +3574,12 @@
       "created_at": "2026-08-01T17:49:54Z",
       "status": "scoring_attempted",
       "title": "Spider-Man: Brand New Day leak racks up millions of views"
+    },
+    "https://www.theverge.com/entertainment/974271/rachika-nayars-heaven-come-crashing-music-review": {
+      "canonical_url": "https://www.theverge.com/entertainment/974271/rachika-nayars-heaven-come-crashing-music-review",
+      "created_at": "2026-08-02T22:52:17Z",
+      "status": "scoring_attempted",
+      "title": "Rachika Nayar\u2019s Heaven Come Crashing is an instrumental epic of desperate longing"
     },
     "https://www.theverge.com/gadgets/968645/back-to-school-shopping-guide-gifts": {
       "canonical_url": "https://www.theverge.com/gadgets/968645/back-to-school-shopping-guide-gifts",
