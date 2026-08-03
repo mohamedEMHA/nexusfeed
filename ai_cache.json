@@ -236,6 +236,36 @@
         }
       }
     },
+    "328ede268c90c601e3ad079c79ce34b12cc12618cc51bc6b8b165c160fd828e1": {
+      "created_at": "2026-08-03T00:12:53Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.0,
+              "impact_score": 2.5,
+              "index": 4,
+              "novelty_score": 3.0,
+              "reason": "High novelty (new model release), strong impact (all devs), fresh enough (3h), and Tier A source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Thinking Machines Lab Releases Inkling-Small: A 276B Total, 12B Active Open Weights Multimodal MoE Model",
+              "total_score": 8.0
+            }
+          ],
+          "best_index": 4,
+          "best_score": 8.0,
+          "recommendation": "SKIP",
+          "social_posts": {
+            "facebook": "",
+            "telegram": "",
+            "threads": "",
+            "twitter": ""
+          }
+        }
+      }
+    },
     "34480909512509124763489abb9de7bea7dc98bee7369e3c6119168da31ed029": {
       "created_at": "2026-08-02T02:25:16Z",
       "payload": {
@@ -2112,12 +2142,6 @@
       "status": "scoring_attempted",
       "title": "Show HN: Ctrlb-decompose: Strip the noise from logs before sending to LLMs"
     },
-    "https://github.com/experientiallabs/world-model-optimizer": {
-      "canonical_url": "https://github.com/experientiallabs/world-model-optimizer",
-      "created_at": "2026-07-26T23:59:07Z",
-      "status": "scoring_attempted",
-      "title": "Show HN: Distill and serve small models with frontier quality for half the cost"
-    },
     "https://github.com/funador/claude-code-merge-queue": {
       "canonical_url": "https://github.com/funador/claude-code-merge-queue",
       "created_at": "2026-07-30T03:33:04Z",
@@ -2141,12 +2165,6 @@
       "created_at": "2026-07-30T17:10:53Z",
       "status": "scoring_attempted",
       "title": "Show HN: Claude-account \u2013 switch Claude Code accounts without logging in again"
-    },
-    "https://github.com/hkc5/cursor-bridge": {
-      "canonical_url": "https://github.com/hkc5/cursor-bridge",
-      "created_at": "2026-07-26T23:59:07Z",
-      "status": "scoring_attempted",
-      "title": "Cursor Bridge \u2013 Run Unlimited Claude Code on Your Cursor Subscription"
     },
     "https://github.com/hongnoul/hwatu": {
       "canonical_url": "https://github.com/hongnoul/hwatu",
@@ -3461,6 +3479,12 @@
       "created_at": "2026-08-01T14:51:35Z",
       "status": "scoring_attempted",
       "title": "Supabase Releases Evals: an Open Source Benchmark That Scores Claude Code, Codex and OpenCode on Real Supabase Tasks"
+    },
+    "https://www.marktechpost.com/2026/08/02/thinking-machines-lab-releases-inkling-small-276b-open-weights-multimodal-moe-model": {
+      "canonical_url": "https://www.marktechpost.com/2026/08/02/thinking-machines-lab-releases-inkling-small-276b-open-weights-multimodal-moe-model",
+      "created_at": "2026-08-03T00:12:53Z",
+      "status": "scoring_attempted",
+      "title": "Thinking Machines Lab Releases Inkling-Small: A 276B Total, 12B Active Open Weights Multimodal MoE Model"
     },
     "https://www.nytimes.com/2026/08/01/us/politics/iran-cyberattack-water-systems.html": {
       "canonical_url": "https://www.nytimes.com/2026/08/01/us/politics/iran-cyberattack-water-systems.html",
