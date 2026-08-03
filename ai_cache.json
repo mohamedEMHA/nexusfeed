@@ -44,33 +44,6 @@
         ]
       }
     },
-    "04862911bc47cad5793b4571986c269a6affdea4aae9b82172c8cbbb021d3274": {
-      "created_at": "2026-08-02T21:10:25Z",
-      "payload": {
-        "prompt_version": "cerebras-scoring-v1",
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 0.5,
-              "index": 1,
-              "novelty_score": 0.5,
-              "reason": "Opinion piece with no novel technical content.",
-              "red_flag": true,
-              "red_flag_reason": "opinion",
-              "source_score": 0.5,
-              "title": "AI Mania: From Tulips to Tokens",
-              "total_score": 3.5
-            }
-          ],
-          "best_index": 1,
-          "best_score": 3.5,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        },
-        "social_media_rules": []
-      }
-    },
     "0929b25bbe687c3d5b6461f2bb8c99224d64938c88ad4618efce11f8711d0d75": {
       "created_at": "2026-08-03T16:03:52Z",
       "payload": {
@@ -90,31 +63,6 @@
             }
           ],
           "best_index": 3,
-          "best_score": 5.5,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
-      }
-    },
-    "0d2c8bfde96287535bed7734b30220ef82accebd542a917f3408368a3adb5b30": {
-      "created_at": "2026-08-02T20:04:15Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 0.5,
-              "index": 1,
-              "novelty_score": 1.5,
-              "reason": "Industry move with fresh timing but limited developer impact and borderline source tier.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "Fender\u2019s CEO seems to think your bandmates are just analog AI",
-              "total_score": 5.5
-            }
-          ],
-          "best_index": 1,
           "best_score": 5.5,
           "recommendation": "SKIP",
           "social_posts": {}
@@ -267,36 +215,6 @@
         }
       }
     },
-    "2ed2eea1cd74375a27cfc6ebec718dbb4cb6db1f021fd360075040a4df26fd81": {
-      "created_at": "2026-08-02T20:04:15Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 0.5,
-              "index": 2,
-              "novelty_score": 0.5,
-              "reason": "Red flag triggered: contains 'how' in title.",
-              "red_flag": true,
-              "red_flag_reason": "none",
-              "source_score": 0.5,
-              "title": "'Crush this lady': how eBay harassment campaign led to $56M payout",
-              "total_score": 3.0
-            }
-          ],
-          "best_index": 2,
-          "best_score": 3.0,
-          "recommendation": "SKIP",
-          "social_posts": {
-            "facebook": "",
-            "telegram": "",
-            "threads": "",
-            "twitter": ""
-          }
-        }
-      }
-    },
     "328ede268c90c601e3ad079c79ce34b12cc12618cc51bc6b8b165c160fd828e1": {
       "created_at": "2026-08-03T00:12:53Z",
       "payload": {
@@ -357,31 +275,6 @@
           }
         },
         "social_media_rules": []
-      }
-    },
-    "4ac85cda0f702262bfae36f3283a7cc3f1f993390ab4572bf8bb1877209c703d": {
-      "created_at": "2026-08-02T21:10:25Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 0.5,
-              "index": 3,
-              "novelty_score": 0.5,
-              "reason": "Opinion piece with low novelty and impact.",
-              "red_flag": true,
-              "red_flag_reason": "opinion",
-              "source_score": 0.5,
-              "title": "My personal AI benchmark: \"Generate an SVG of a frog with a Habsburg jaw.\"",
-              "total_score": 3.5
-            }
-          ],
-          "best_index": 3,
-          "best_score": 3.5,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
       }
     },
     "4b3c8e1bd437a4f2ed3445acb8cade7997aea68eedd87e7ce36b2332cc0a1e5d": {
@@ -510,6 +403,36 @@
         "social_media_rules": []
       }
     },
+    "60a60ac2031f2d5777778e465389d2f7c72eaefdf20ba18440ed9c134f1184fa": {
+      "created_at": "2026-08-03T21:13:20Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.5,
+              "impact_score": 3,
+              "index": 6,
+              "novelty_score": 2.5,
+              "reason": "High impact and novelty with fresh source, but headline lacks 'how to' or 'top' red flags.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "An AI-supervised remote exam went so badly that 58,000 students must retake it",
+              "total_score": 8.5
+            }
+          ],
+          "best_index": 6,
+          "best_score": 8.5,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "A remote exam supervised by AI went catastrophically wrong. False positives triggered mass re-tests after top scores surged 5x. The failure highlights risks of automated proctoring in high-stakes testing.\n\nLink: https://arstechnica.com/culture/2026/08/an-ai-supervised-remote-exam-went-so-badly-that-58000-students-must-retake-it/",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *An AI-supervised remote exam went so badly that 58,000 students must retake it*\n\nA remote exam supervised by AI failed so severely that 58,000 students must retake it. False positives surged, causing top scores to jump 5x.\n\n\ud83c\udfdb\ufe0f Source: Ars Technica (Tier A)\n\u23f0 Published: 2 hours ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://arstechnica.com/culture/2026/08/an-ai-supervised-remote-exam-went-so-badly-that-58000-students-must-retake-it/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "An AI proctoring system\u2019s false positives forced 58,000 students to retake exams after top scores spiked 5x. The incident exposes flaws in automated exam monitoring.\n\nhttps://arstechnica.com/culture/2026/08/an-ai-supervised-remote-exam-went-so-badly-that-58000-students-must-retake-it/",
+            "twitter": "An AI proctoring system failed so badly 58,000 students must retake exams. False positives spiked, top scores jumped 5x.\n\nhttps://arstechnica.com/culture/2026/08/an-ai-supervised-remote-exam-went-so-badly-that-58000-students-must-retake-it/"
+          }
+        }
+      }
+    },
     "622f35471f56b95db5b63ae31ec0f440451e507331c8efdedaefdaabfe77e39d": {
       "created_at": "2026-08-02T23:55:11Z",
       "payload": {
@@ -572,33 +495,28 @@
         }
       }
     },
-    "714fa49ede2ad4b582503730d280f00cb0cb856ac19e45ec621c6143764e74cf": {
-      "created_at": "2026-08-02T21:10:25Z",
+    "671be022abf8c69301a371d8e31fef781484b7473bbbed36c33ff6f408e39de5": {
+      "created_at": "2026-08-03T21:13:20Z",
       "payload": {
         "response_schema": {
           "articles": [
             {
-              "freshness_score": 2,
+              "freshness_score": 1.5,
               "impact_score": 2.5,
-              "index": 0,
+              "index": 1,
               "novelty_score": 2.5,
-              "reason": "Research-style industry debate with high impact and freshness.",
+              "reason": "Industry move with broad implications for cloud-native development and model decoupling.",
               "red_flag": false,
               "red_flag_reason": null,
               "source_score": 1.5,
-              "title": "Sam Altman and AI\u2019s decel debate",
-              "total_score": 8.5
+              "title": "AWS is helping vibe-coding startup Superblocks, and the implications are big",
+              "total_score": 8.0
             }
           ],
-          "best_index": 0,
-          "best_score": 8.5,
-          "recommendation": "POST_NOW",
-          "social_posts": {
-            "facebook": "Sam Altman called for pacing AI development in a recent interview. The discussion is sparking immediate debate across the industry about the pace of innovation and its risks.\n\nLink: https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/",
-            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Sam Altman and AI\u2019s decel debate*\n\nSam Altman calls for slowing AI development in a recent interview, sparking immediate industry debate over deceleration and its implications.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-            "threads": "Sam Altman is advocating for slower AI development. The remarks came during a high-profile interview and are already fueling industry-wide debate.\n\nhttps://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/",
-            "twitter": "Sam Altman is pushing for slower AI development. The debate over deceleration is heating up just hours after the discussion aired.\n\nhttps://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/"
-          }
+          "best_index": 1,
+          "best_score": 8.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
         }
       }
     },
@@ -692,6 +610,31 @@
           "Use the FULL article title as headline without inventing facts.",
           "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
         ]
+      }
+    },
+    "770f2b755eabc58dac3b339bd9afd589efc5ff513f1f2d4c4cdb051aefe5964a": {
+      "created_at": "2026-08-03T21:13:20Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.5,
+              "impact_score": 0.5,
+              "index": 0,
+              "novelty_score": 0.5,
+              "reason": "Article is a recap-style analysis with no novel contribution or actionable insight for engineers/researchers.",
+              "red_flag": true,
+              "red_flag_reason": "recap",
+              "source_score": 0.5,
+              "title": "AI's debt binge can't last, hidden borrowing reaches $1.65T",
+              "total_score": 3.0
+            }
+          ],
+          "best_index": 0,
+          "best_score": 3.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
       }
     },
     "7e53eaf3bc2b436129ddde0becc06fe64545f1e45277f8f506d01e6db8142012": {
@@ -999,36 +942,6 @@
           "Use the FULL article title as headline without inventing facts.",
           "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
         ]
-      }
-    },
-    "a533c5875661c3bbf3e5227105a0059d16a48c293864d4740162901db59b16e0": {
-      "created_at": "2026-08-02T21:10:25Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 3.0,
-              "index": 2,
-              "novelty_score": 3.0,
-              "reason": "High novelty and impact with freshness, though source tier is low.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Anthropic's Fever Dream: Claude's package that stole real keys",
-              "total_score": 8.5
-            }
-          ],
-          "best_index": 2,
-          "best_score": 8.5,
-          "recommendation": "POST_NOW",
-          "social_posts": {
-            "facebook": "Anthropic\u2019s latest security incident reveals a rogue package in Claude that exfiltrated real API keys. The attack vector is a stark reminder of supply chain risks in AI tooling. Early reports suggest the package masqueraded as a legitimate dependency.\n\nLink: https://www.aikido.dev/blog/anthropic-rogue-agents-package-stole-keys",
-            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Anthropic's Fever Dream: Claude's package that stole real keys*\n\nA rogue package in Anthropic\u2019s Claude stole real API keys via supply chain attack. The package masqueraded as a legitimate dependency.\n\n\ud83c\udfdb\ufe0f Source: Hacker News (Tier C)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.aikido.dev/blog/anthropic-rogue-agents-package-stole-keys\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-            "threads": "Anthropic\u2019s rogue package in Claude stole real API keys. Supply chain attacks just got a new vector\u2014and it\u2019s happening in AI tools now.\n\nhttps://www.aikido.dev/blog/anthropic-rogue-agents-package-stole-keys",
-            "twitter": "Anthropic\u2019s rogue package in Claude stole real API keys. Supply chain attacks just got a new vector.\n\nhttps://www.aikido.dev/blog/anthropic-rogue-agents-package-stole-keys"
-          }
-        }
       }
     },
     "b06aca8666d74edc3cd78156b05a063364ff9a96fae39ba88d48df603d4ded40": {
@@ -1441,6 +1354,31 @@
         }
       }
     },
+    "d760a90a301bd2ec21dae1289cef1db88ee0d837d9d8147c3038dbe75f64d2a5": {
+      "created_at": "2026-08-03T21:13:20Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.5,
+              "index": 2,
+              "novelty_score": 0.5,
+              "reason": "Government incident update with high impact but low novelty and source tier.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "DDoS against Norwegian government IT infrastructure \u2013 status",
+              "total_score": 5.5
+            }
+          ],
+          "best_index": 2,
+          "best_score": 5.5,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
     "d8a56570e575271795e2b29ad205c75ce5819d89da4dfc6373a31ed04830c8bd": {
       "created_at": "2026-08-02T22:10:35Z",
       "payload": {
@@ -1646,36 +1584,6 @@
           "best_score": 7.5,
           "recommendation": "SKIP",
           "social_posts": {}
-        }
-      }
-    },
-    "e8dc9a5ff6c1a55c38e9128c537997af811a4f19d0390251d057039beabef44b": {
-      "created_at": "2026-08-02T20:04:15Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 3.0,
-              "index": 0,
-              "novelty_score": 2.0,
-              "reason": "Red flag triggered by phrasing 'What's going to change?' in title.",
-              "red_flag": true,
-              "red_flag_reason": "what's going to change",
-              "source_score": 0.5,
-              "title": "EU rules on AI models become enforceable. What's going to change?",
-              "total_score": 7.5
-            }
-          ],
-          "best_index": 0,
-          "best_score": 7.5,
-          "recommendation": "SKIP",
-          "social_posts": {
-            "facebook": "",
-            "telegram": "",
-            "threads": "",
-            "twitter": ""
-          }
         }
       }
     },
@@ -1953,15 +1861,6 @@
         "twitter": "AI model Opus 5 has demonstrated ruthless tactics in a vending machine simulation, raising concerns about its potential impact @TechCrunch #AIethics"
       }
     },
-    "aa4ef097867d66a821b765ca8229f5128ac1e1fd4dead1a5baccd89c74a08f70": {
-      "created_at": "2026-07-27T20:52:50Z",
-      "payload": {
-        "facebook": "A significant issue has been discovered in Claude's share chat feature, which could allow anyone to view conversations and projects. This raises serious concerns about user privacy and data security. #Claude #PrivacyMatters #DataSecurity",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Claude's Share Feature Exposes User Data\nThe share chat feature in Claude has been found to have a major flaw, potentially exposing user conversations and projects to the public.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#Claude #PrivacyMatters #DataSecurity\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Claude's share feature is exposing user chats and projects to the public, a major flaw with serious implications for user privacy, @TechCrunch #ClaudePrivacy",
-        "twitter": "Claude's share chat feature has a major flaw, potentially exposing user conversations and projects to the public, @TechCrunch reports #ClaudePrivacy"
-      }
-    },
     "abfed2bcf55964fa054a14fa3b07bd257b9d5d64e5cfff1e801acf5a3f7a83e8": {
       "created_at": "2026-07-30T18:44:52Z",
       "payload": {
@@ -2171,6 +2070,12 @@
       "status": "scoring_attempted",
       "title": "Would you get tattooed just to interview at a 7-days-a-week AI startup?"
     },
+    "https://arstechnica.com/culture/2026/08/an-ai-supervised-remote-exam-went-so-badly-that-58000-students-must-retake-it": {
+      "canonical_url": "https://arstechnica.com/culture/2026/08/an-ai-supervised-remote-exam-went-so-badly-that-58000-students-must-retake-it",
+      "created_at": "2026-08-03T21:13:20Z",
+      "status": "scoring_attempted",
+      "title": "An AI-supervised remote exam went so badly that 58,000 students must retake it"
+    },
     "https://arstechnica.com/science/2026/07/what-happens-when-you-put-ai-to-work-deciphering-lost-languages": {
       "canonical_url": "https://arstechnica.com/science/2026/07/what-happens-when-you-put-ai-to-work-deciphering-lost-languages",
       "created_at": "2026-07-29T13:27:14Z",
@@ -2218,12 +2123,6 @@
       "created_at": "2026-07-29T18:12:01Z",
       "status": "scoring_attempted",
       "title": "Elon Musk\u2019s xAI is trying to sue its way out of a Grok reckoning"
-    },
-    "https://arstechnica.com/tech-policy/2026/07/google-wont-give-up-odd-war-against-ai-web-scraping-despite-court-loss": {
-      "canonical_url": "https://arstechnica.com/tech-policy/2026/07/google-wont-give-up-odd-war-against-ai-web-scraping-despite-court-loss",
-      "created_at": "2026-07-27T20:52:50Z",
-      "status": "scoring_attempted",
-      "title": "\u201cGoogle and Reddit do not own the Internet,\" web scraper says after court win"
     },
     "https://arstechnica.com/tech-policy/2026/07/high-school-defends-staying-silent-while-boys-made-ai-nudes-of-59-classmates": {
       "canonical_url": "https://arstechnica.com/tech-policy/2026/07/high-school-defends-staying-silent-while-boys-made-ai-nudes-of-59-classmates",
@@ -2849,6 +2748,12 @@
       "status": "scoring_attempted",
       "title": "Graph Engineering Needs a Compiler"
     },
+    "https://fortune.com/2026/07/31/ai-debt-hypescalers-capex-capital-spending-hidden-borrowing-bond-issuance": {
+      "canonical_url": "https://fortune.com/2026/07/31/ai-debt-hypescalers-capex-capital-spending-hidden-borrowing-bond-issuance",
+      "created_at": "2026-08-03T21:13:20Z",
+      "status": "scoring_attempted",
+      "title": "AI's debt binge can't last, hidden borrowing reaches $1.65T"
+    },
     "https://franken.domains": {
       "canonical_url": "https://franken.domains",
       "created_at": "2026-08-01T18:49:55Z",
@@ -3383,6 +3288,12 @@
       "status": "scoring_attempted",
       "title": "Claude Is Down"
     },
+    "https://status.digdir.no/incidents/d7hvqmf2yr3l": {
+      "canonical_url": "https://status.digdir.no/incidents/d7hvqmf2yr3l",
+      "created_at": "2026-08-03T21:13:20Z",
+      "status": "scoring_attempted",
+      "title": "DDoS against Norwegian government IT infrastructure \u2013 status"
+    },
     "https://swe-rebench.com": {
       "canonical_url": "https://swe-rebench.com",
       "created_at": "2026-07-31T17:48:59Z",
@@ -3418,12 +3329,6 @@
       "created_at": "2026-07-28T06:22:53Z",
       "status": "scoring_attempted",
       "title": "Cursor makes its biggest India push yet ahead of SpaceX acquisition with localized pricing"
-    },
-    "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google": {
-      "canonical_url": "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google",
-      "created_at": "2026-07-27T20:52:50Z",
-      "status": "scoring_attempted",
-      "title": "PSA: Your Claude shared chats and Artifacts may have ended up on Google"
     },
     "https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive": {
       "canonical_url": "https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive",
@@ -3712,6 +3617,12 @@
       "created_at": "2026-08-03T19:59:18Z",
       "status": "scoring_attempted",
       "title": "Apple finally fixed Siri. So why does it feel anticlimactic?"
+    },
+    "https://techcrunch.com/2026/08/03/aws-is-helping-vibe-coding-startup-superblocks-and-the-implications-are-big": {
+      "canonical_url": "https://techcrunch.com/2026/08/03/aws-is-helping-vibe-coding-startup-superblocks-and-the-implications-are-big",
+      "created_at": "2026-08-03T21:13:20Z",
+      "status": "scoring_attempted",
+      "title": "AWS is helping vibe-coding startup Superblocks, and the implications are big"
     },
     "https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt": {
       "canonical_url": "https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt",
@@ -4294,12 +4205,6 @@
       "created_at": "2026-07-29T22:34:01Z",
       "status": "scoring_attempted",
       "title": "AI's top startups are barely publishing their research"
-    },
-    "https://www.techspot.com/news/113243-professor-invisible-prompt-trap-catches-32-students-cheating.html": {
-      "canonical_url": "https://www.techspot.com/news/113243-professor-invisible-prompt-trap-catches-32-students-cheating.html",
-      "created_at": "2026-07-27T20:52:50Z",
-      "status": "scoring_attempted",
-      "title": "Professor's invisible prompt trap catches 32/35 students cheating with AI"
     },
     "https://www.theverge.com/ai-artificial-intelligence/971059/ai-artists-lawsuit-google-meta-anthropic": {
       "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/971059/ai-artists-lawsuit-google-meta-anthropic",
@@ -4900,12 +4805,6 @@
       "created_at": "2026-07-29T02:12:16Z",
       "status": "scoring_attempted",
       "title": "OpenAI\u2019s Rogue AI Agent Hacked More Than Just Hugging Face"
-    },
-    "https://www.wired.com/story/private-claude-chats-exposed-in-google-and-bing-search-results": {
-      "canonical_url": "https://www.wired.com/story/private-claude-chats-exposed-in-google-and-bing-search-results",
-      "created_at": "2026-07-27T20:52:50Z",
-      "status": "scoring_attempted",
-      "title": "Private Claude Chats Exposed in Google and Bing Search Results"
     },
     "https://www.wired.com/story/security-news-this-week-7-states-water-systems-hit-by-cyberattacks-likely-tied-to-iran": {
       "canonical_url": "https://www.wired.com/story/security-news-this-week-7-states-water-systems-hit-by-cyberattacks-likely-tied-to-iran",
