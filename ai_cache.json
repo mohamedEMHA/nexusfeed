@@ -266,56 +266,6 @@
         }
       }
     },
-    "34480909512509124763489abb9de7bea7dc98bee7369e3c6119168da31ed029": {
-      "created_at": "2026-08-02T02:25:16Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1.5,
-              "impact_score": 2.5,
-              "index": 1,
-              "novelty_score": 2.5,
-              "reason": "Research-level analysis of agentic AI modes with niche but relevant impact for AI engineers.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "The Greenhouse and the Lens: Two Modes of Agentic AI Work",
-              "total_score": 7.0
-            }
-          ],
-          "best_index": 1,
-          "best_score": 7.0,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
-      }
-    },
-    "4803e23c498dbd9853507148169d5e2074a5b985d7db5ca7b157dfc4783ee4d5": {
-      "created_at": "2026-08-02T02:25:16Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 2.5,
-              "index": 0,
-              "novelty_score": 2.5,
-              "reason": "Research paper on novel LLM attention mechanism with INT4 in-memory cells.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Persistent State Machines: LLM Attention with INT4 In-Memory Cells",
-              "total_score": 7.5
-            }
-          ],
-          "best_index": 0,
-          "best_score": 7.5,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
-      }
-    },
     "4ac85cda0f702262bfae36f3283a7cc3f1f993390ab4572bf8bb1877209c703d": {
       "created_at": "2026-08-02T21:10:25Z",
       "payload": {
@@ -502,6 +452,38 @@
           "recommendation": "SKIP",
           "social_posts": {}
         }
+      }
+    },
+    "7e53eaf3bc2b436129ddde0becc06fe64545f1e45277f8f506d01e6db8142012": {
+      "created_at": "2026-08-03T02:27:36Z",
+      "payload": {
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.5,
+              "index": 0,
+              "novelty_score": 3.0,
+              "reason": "New neurosymbolic search model release with strong benchmark results and broad e-commerce relevance.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Onton Releases Ontology 1: A Neurosymbolic Search Model That is 2.7x More Accurate than the World\u2019s Best E-commerce Search Engines",
+              "total_score": 9.0
+            }
+          ],
+          "best_index": 0,
+          "best_score": 9.0,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "Onton just shipped Ontology 1, a neurosymbolic search model that crushes the competition in e-commerce benchmarks. Independent LLM judges scored it 63% precision@10 versus 54.3% for Google\u2019s best. Early users see 40% higher conversion rates. Link: https://www.marktechpost.com/2026/08/02/onton-releases-ontology-1-a-neurosymbolic-search-model/",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Onton Releases Ontology 1: A Neurosymbolic Search Model That is 2.7x More Accurate than the World\u2019s Best E-commerce Search Engines*\n\nOnton launched Ontology 1, a neurosymbolic model for conversational and multimodal product search. Benchmarked on 90 queries by three independent LLM judges, it achieved 0.630 precision@10 versus 0.543 for Google\u2019s best.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (Tier A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/08/02/onton-releases-ontology-1-a-neurosymbolic-search-model/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "Onton\u2019s Ontology 1, a neurosymbolic search model, beats Google\u2019s best e-commerce search by 27% in precision@10 benchmarks. Early adopters report 40% higher conversion rates. The model handles conversational and multimodal queries out of the box.\n\nhttps://www.marktechpost.com/2026/08/02/onton-releases-ontology-1-a-neurosymbolic-search-model/",
+            "twitter": "Onton\u2019s Ontology 1, a neurosymbolic search model, outperforms Google and others by 27% in e-commerce benchmarks. Early adopters report 40% higher conversion rates in A/B tests.\n\nhttps://www.marktechpost.com/2026/08/02/onton-releases-ontology-1-a-neurosymbolic-search-model/"
+          }
+        },
+        "social_media_rules": []
       }
     },
     "83397875c4081b0a893105ab4202d01dd278ece0e09dbd9a6647a3771ced76f9": {
@@ -768,31 +750,6 @@
         }
       }
     },
-    "db7e5ee4064ee06e4221a444f78d70f22187827406c3165573a3f2cccf14e025": {
-      "created_at": "2026-08-02T02:25:16Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1,
-              "impact_score": 1.5,
-              "index": 3,
-              "novelty_score": 2.5,
-              "reason": "Research with high novelty and niche impact but low source tier and freshness.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "AI opens new era in cognitive studies of wild primates",
-              "total_score": 5.5
-            }
-          ],
-          "best_index": 3,
-          "best_score": 5.5,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
-      }
-    },
     "e8dc9a5ff6c1a55c38e9128c537997af811a4f19d0390251d057039beabef44b": {
       "created_at": "2026-08-02T20:04:15Z",
       "payload": {
@@ -868,31 +825,6 @@
           ],
           "best_index": 2,
           "best_score": 6.0,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
-      }
-    },
-    "f96be3a6d9ea569b9263dc8013faa2716b61588e2fe1700c9cc78a24a733bfdd": {
-      "created_at": "2026-08-02T02:25:16Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1.5,
-              "impact_score": 0.5,
-              "index": 2,
-              "novelty_score": 0.5,
-              "reason": "Title contains 'Tales from' which implies a narrative style, but 'unseen world' is a red flag phrase.",
-              "red_flag": true,
-              "red_flag_reason": "unseen world of test engineering",
-              "source_score": 0.5,
-              "title": "Kobuk the Destroyer \u2013 Tales from the Wild, Unseen World of Test Engineering",
-              "total_score": 3.0
-            }
-          ],
-          "best_index": 2,
-          "best_score": 0.0,
           "recommendation": "SKIP",
           "social_posts": {}
         }
@@ -3479,6 +3411,12 @@
       "created_at": "2026-08-01T14:51:35Z",
       "status": "scoring_attempted",
       "title": "Supabase Releases Evals: an Open Source Benchmark That Scores Claude Code, Codex and OpenCode on Real Supabase Tasks"
+    },
+    "https://www.marktechpost.com/2026/08/02/onton-releases-ontology-1-a-neurosymbolic-search-model": {
+      "canonical_url": "https://www.marktechpost.com/2026/08/02/onton-releases-ontology-1-a-neurosymbolic-search-model",
+      "created_at": "2026-08-03T02:27:36Z",
+      "status": "scoring_attempted",
+      "title": "Onton Releases Ontology 1: A Neurosymbolic Search Model That is 2.7x More Accurate than the World\u2019s Best E-commerce Search Engines"
     },
     "https://www.marktechpost.com/2026/08/02/thinking-machines-lab-releases-inkling-small-276b-open-weights-multimodal-moe-model": {
       "canonical_url": "https://www.marktechpost.com/2026/08/02/thinking-machines-lab-releases-inkling-small-276b-open-weights-multimodal-moe-model",
