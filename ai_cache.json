@@ -327,6 +327,38 @@
         }
       }
     },
+    "419ae8b6281ef1ecf935f187525145ba1df667be0493e54ce9e44b2277af31b4": {
+      "created_at": "2026-08-03T10:37:30Z",
+      "payload": {
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.5,
+              "index": 2,
+              "novelty_score": 3.0,
+              "reason": "New release with significant impact for Kubernetes security workflows, published under 1 hour ago.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.0,
+              "title": "HashiCorp Ships Public Beta of Vault Kubernetes Key Management",
+              "total_score": 8.5
+            }
+          ],
+          "best_index": 2,
+          "best_score": 8.5,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "HashiCorp just opened the public beta for a Vault plugin that moves Kubernetes etcd encryption keys out of the cluster into a separately governed trust domain. This KMS v2-compatible integration lets the Kubernetes API server delegate envelope encryption to Vault Enterprise, improving key management for production clusters.\n\nLink: https://www.infoq.com/news/2026/08/vault-kubernetes-key-management/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 HashiCorp Ships Public Beta of Vault Kubernetes Key Management\n\nHashiCorp released a public beta for a Vault plugin that lets Kubernetes delegate etcd encryption to Vault Enterprise. The KMS v2-compatible integration moves key encryption keys out of the cluster into a separately governed trust domain.\n\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (Tier B)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.infoq.com/news/2026/08/vault-kubernetes-key-management/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "HashiCorp\u2019s new Vault plugin for Kubernetes lets the API server delegate etcd encryption to Vault Enterprise, keeping key encryption keys out of the cluster. Public beta is live now.\n\nhttps://www.infoq.com/news/2026/08/vault-kubernetes-key-management/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+            "twitter": "HashiCorp\u2019s Vault now offloads Kubernetes etcd encryption keys to a separate trust domain via a new KMS v2-compatible plugin in public beta.\n\nhttps://www.infoq.com/news/2026/08/vault-kubernetes-key-management/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+          }
+        },
+        "social_media_rules": []
+      }
+    },
     "4ac85cda0f702262bfae36f3283a7cc3f1f993390ab4572bf8bb1877209c703d": {
       "created_at": "2026-08-02T21:10:25Z",
       "payload": {
@@ -443,34 +475,6 @@
           "Use the FULL article title as headline without inventing facts.",
           "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
         ]
-      }
-    },
-    "4dc427a48148abdd7c2fe7838897e744a8ef181970a51225c5775ee887ca0aa8": {
-      "created_at": "2026-08-02T10:27:55Z",
-      "payload": {
-        "candidates": [],
-        "prompt_version": "cerebras-scoring-v1",
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1.0,
-              "impact_score": 2.5,
-              "index": 2,
-              "novelty_score": 3.0,
-              "reason": "Novelty (3.0) for a new framework release, Impact (2.5) for all RL researchers, Freshness (1.0) for 4h old, Source (1.5) for Tier A",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "NVIDIA AI Releases Molt: A PyTorch-Native Agentic Reinforcement Learning Framework",
-              "total_score": 8.0
-            }
-          ],
-          "best_index": 2,
-          "best_score": 8.0,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        },
-        "social_media_rules": []
       }
     },
     "622f35471f56b95db5b63ae31ec0f440451e507331c8efdedaefdaabfe77e39d": {
@@ -974,6 +978,31 @@
         }
       }
     },
+    "c03f1a52633d6414c6ef6f7823b1562ff6409704bb99132c50b2def1b5bb81cf": {
+      "created_at": "2026-08-03T10:37:30Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.5,
+              "impact_score": 1.5,
+              "index": 4,
+              "novelty_score": 0.5,
+              "reason": "Opinion piece with no novel research or industry move.",
+              "red_flag": true,
+              "red_flag_reason": "opinion",
+              "source_score": 0.5,
+              "title": "Prevent cognitive debt by manually retyping LLM-generated code",
+              "total_score": 4.0
+            }
+          ],
+          "best_index": 4,
+          "best_score": 4.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
     "ce31860e4d917af8a1f68973df65aeb95ab36255bc223858a36ea7e8d90f079e": {
       "created_at": "2026-08-02T12:52:51Z",
       "payload": {
@@ -1006,6 +1035,36 @@
         "social_media_rules": []
       }
     },
+    "d13e861d8e2a3040c7e94c404f2a095628128f1391eb19631b7eebb4f74bdef3": {
+      "created_at": "2026-08-03T10:37:30Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2,
+              "impact_score": 2,
+              "index": 3,
+              "novelty_score": 2.5,
+              "reason": "Research collaboration with novel biological data focus and high freshness, but impact is niche and source is Tier B.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1,
+              "title": "Why biological data matters more in AI drug discovery",
+              "total_score": 7.5
+            }
+          ],
+          "best_index": 3,
+          "best_score": 7.5,
+          "recommendation": "SKIP",
+          "social_posts": {
+            "facebook": "",
+            "telegram": "",
+            "threads": "",
+            "twitter": ""
+          }
+        }
+      }
+    },
     "d516afcd1d418c68b1d68633bbafa6ce71a0557b8a55cacb13503ae6f94531f6": {
       "created_at": "2026-08-02T14:21:42Z",
       "payload": {
@@ -1032,6 +1091,48 @@
             "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Illustrators say AI training without consent is theft. Now some startups are testing artist royalties to change their minds.*\n\nIllustrators have spent years opposing AI startups training models on their work without permission. Some companies are now exploring royalty payments as a potential compromise.\n\n\ud83c\udfdb\ufe0f Source: The Verge (Tier A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
             "threads": "AI startups are testing artist royalties to address concerns over unconsented training data. The move could set a new standard for how generative models are built.\n\nhttps://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties",
             "twitter": "Illustrators say AI training without consent is theft. Now some startups are testing artist royalties to change their minds.\n\nhttps://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties"
+          }
+        }
+      }
+    },
+    "d62b408d455c05d00f521a3c3d50396d1ea11580e6518a886fe3a5d59f235296": {
+      "created_at": "2026-08-03T10:37:30Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2,
+              "impact_score": 2,
+              "index": 0,
+              "novelty_score": 2.5,
+              "reason": "Startup funding announcement with industry impact, fresh and from Tier A source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "A Marc Benioff-backed startup thinks AI can solve the AI deployment problem",
+              "total_score": 8
+            },
+            {
+              "freshness_score": 2,
+              "impact_score": 2.5,
+              "index": 1,
+              "novelty_score": 2,
+              "reason": "Industry trend analysis with broad relevance, fresh and from Tier A source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "AI Conquered Coding. Fast Food Is Next",
+              "total_score": 8
+            }
+          ],
+          "best_index": 0,
+          "best_score": 8,
+          "recommendation": "SKIP",
+          "social_posts": {
+            "facebook": "",
+            "telegram": "",
+            "threads": "",
+            "twitter": ""
           }
         }
       }
@@ -1684,6 +1785,12 @@
       "created_at": "2026-07-30T11:28:52Z",
       "status": "scoring_attempted",
       "title": "Google will expand age checks on Android worldwide till the end of the year"
+    },
+    "https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code": {
+      "canonical_url": "https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code",
+      "created_at": "2026-08-03T10:37:30Z",
+      "status": "scoring_attempted",
+      "title": "Prevent cognitive debt by manually retyping LLM-generated code"
     },
     "https://arstechnica.com/ai/2026/07/chatgpt-stops-cloning-famous-writers-voices-but-may-capture-a-similar-feeling": {
       "canonical_url": "https://arstechnica.com/ai/2026/07/chatgpt-stops-cloning-famous-writers-voices-but-may-capture-a-similar-feeling",
@@ -3323,6 +3430,12 @@
       "status": "scoring_attempted",
       "title": "Sam Altman and AI\u2019s decel debate"
     },
+    "https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem": {
+      "canonical_url": "https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem",
+      "created_at": "2026-08-03T10:37:30Z",
+      "status": "scoring_attempted",
+      "title": "A Marc Benioff-backed startup thinks AI can solve the AI deployment problem"
+    },
     "https://techcrunch.com/podcast/ai-labs-want-to-pump-the-brakes-but-amazon-and-spacex-are-still-blasting-off": {
       "canonical_url": "https://techcrunch.com/podcast/ai-labs-want-to-pump-the-brakes-but-amazon-and-spacex-are-still-blasting-off",
       "created_at": "2026-07-31T17:48:59Z",
@@ -3466,6 +3579,12 @@
       "created_at": "2026-07-29T13:27:14Z",
       "status": "scoring_attempted",
       "title": "Google AI Overviews become more common in search"
+    },
+    "https://www.artificialintelligence-news.com/news/gsk-relation-therapeutics-ai-drug-discovery-biological-data": {
+      "canonical_url": "https://www.artificialintelligence-news.com/news/gsk-relation-therapeutics-ai-drug-discovery-biological-data",
+      "created_at": "2026-08-03T10:37:30Z",
+      "status": "scoring_attempted",
+      "title": "Why biological data matters more in AI drug discovery"
     },
     "https://www.artificialintelligence-news.com/news/guardoc-health-processes-clinical-documentation-using-amazon-nova-models": {
       "canonical_url": "https://www.artificialintelligence-news.com/news/guardoc-health-processes-clinical-documentation-using-amazon-nova-models",
@@ -3712,6 +3831,12 @@
       "created_at": "2026-08-03T05:58:15Z",
       "status": "scoring_attempted",
       "title": "Microsoft Releases TypeScript 7.0 with a Native Go Compiler, Delivering 10x Faster Builds"
+    },
+    "https://www.infoq.com/news/2026/08/vault-kubernetes-key-management": {
+      "canonical_url": "https://www.infoq.com/news/2026/08/vault-kubernetes-key-management",
+      "created_at": "2026-08-03T10:37:30Z",
+      "status": "scoring_attempted",
+      "title": "HashiCorp Ships Public Beta of Vault Kubernetes Key Management"
     },
     "https://www.infoq.com/podcasts/rethinking-data-client-event-sourcing": {
       "canonical_url": "https://www.infoq.com/podcasts/rethinking-data-client-event-sourcing",
@@ -4420,6 +4545,12 @@
       "created_at": "2026-07-30T21:20:41Z",
       "status": "scoring_attempted",
       "title": "Man seeks millions after being shot by police in game-related swatting incident"
+    },
+    "https://www.wired.com/story/ai-conquered-coding-fast-food-is-next": {
+      "canonical_url": "https://www.wired.com/story/ai-conquered-coding-fast-food-is-next",
+      "created_at": "2026-08-03T10:37:30Z",
+      "status": "scoring_attempted",
+      "title": "AI Conquered Coding. Fast Food Is Next"
     },
     "https://www.wired.com/story/ai-scammers-are-better-at-building-trust-than-humans": {
       "canonical_url": "https://www.wired.com/story/ai-scammers-are-better-at-building-trust-than-humans",
