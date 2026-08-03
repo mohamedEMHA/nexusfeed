@@ -763,6 +763,48 @@
         }
       }
     },
+    "93af8aa98a57f1b1ffaa1de6da1b8c8af6d6741841d374f332713a8ae78036cf": {
+      "created_at": "2026-08-03T19:59:18Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.5,
+              "index": 4,
+              "novelty_score": 3.0,
+              "reason": "Major industry move with high novelty, broad impact, and freshness. No red flags.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Apple finally fixed Siri. So why does it feel anticlimactic?",
+              "total_score": 9.0
+            },
+            {
+              "freshness_score": 1.5,
+              "impact_score": 2.5,
+              "index": 12,
+              "novelty_score": 2.0,
+              "reason": "Regulatory update with niche but significant impact. Freshness and source score lower than best.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.0,
+              "title": "EU AI Act Article 50 transparency rules enter force",
+              "total_score": 7.0
+            }
+          ],
+          "best_index": 4,
+          "best_score": 9.0,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "Apple\u2019s long-awaited Siri AI update is here, and it\u2019s actually useful now. But after years of delays, the assistant lands in a world where chatbots do far more than answer questions. The launch feels more like catching up than leading.\n\nLink: https://techcrunch.com/2026/08/03/apple-finally-fixed-siri-so-why-does-it-feel-anticlimactic/",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Apple finally fixed Siri. So why does it feel anticlimactic?\n\nApple\u2019s AI overhaul makes Siri genuinely useful for the first time, but the assistant arrives after the market shifted toward agents that handle complex tasks.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (Tier A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://techcrunch.com/2026/08/03/apple-finally-fixed-siri-so-why-does-it-feel-anticlimactic/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "Apple\u2019s Siri AI update finally makes the assistant competent, but the timing feels off. The market now expects agents that code, reason, and complete complex tasks\u2014not just answer queries.\n\nhttps://techcrunch.com/2026/08/03/apple-finally-fixed-siri-so-why-does-it-feel-anticlimactic/",
+            "twitter": "Apple\u2019s Siri AI overhaul finally delivers on promises, but the market has moved on. The assistant now handles tasks better than ever\u2014yet feels late to the agent race.\n\nhttps://techcrunch.com/2026/08/03/apple-finally-fixed-siri-so-why-does-it-feel-anticlimactic/"
+          }
+        }
+      }
+    },
     "94eee6d2ba6044d482d9227e442abc240fa04102a91e06343fd61dfd088d64d6": {
       "created_at": "2026-08-03T09:53:53Z",
       "payload": {
@@ -844,6 +886,31 @@
             "threads": "OpenAI\u2019s ChatGPT isn\u2019t just for devs\u2014it\u2019s the most-used AI tool in Congress. House spending records show offices rely on it for drafting memos, summarizing bills, and constituent communications.\n\nhttps://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt/",
             "twitter": "OpenAI\u2019s ChatGPT is the most-used AI tool in Congress, powering memo drafting and constituent communications. House spending records reveal its dominance on Capitol Hill.\n\nhttps://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt/"
           }
+        }
+      }
+    },
+    "9f3fda33e929bb7722653dee62a2c27749cc84b89da6968ec423a731bb5795b4": {
+      "created_at": "2026-08-03T19:59:18Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 0.0,
+              "impact_score": 0.0,
+              "index": 19,
+              "novelty_score": 0.0,
+              "reason": "Article is a recap of past events, triggering the 'recap' red flag.",
+              "red_flag": true,
+              "red_flag_reason": "recap",
+              "source_score": 0.5,
+              "title": "The Potomac River Midair Collision",
+              "total_score": 0.0
+            }
+          ],
+          "best_index": 19,
+          "best_score": 0.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
         }
       }
     },
@@ -986,6 +1053,48 @@
           "best_score": 2.7,
           "recommendation": "SKIP",
           "social_posts": {}
+        }
+      }
+    },
+    "b3b72b7caa002748e331cd46de842922c9f7288c9bdbc0ed67bd0f1faea13041": {
+      "created_at": "2026-08-03T19:59:18Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.5,
+              "index": 0,
+              "novelty_score": 1.5,
+              "reason": "Leadership appointment in academia with moderate industry relevance.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.0,
+              "title": "Alexander Rakhlin named director of the MIT Statistics and Data Science Center",
+              "total_score": 7.0
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 3.0,
+              "index": 1,
+              "novelty_score": 3.0,
+              "reason": "New funding round for AI evaluation platform with broad industry impact.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "DesignArena creators raise $7.9 million to bring taste to AI models",
+              "total_score": 9.5
+            }
+          ],
+          "best_index": 1,
+          "best_score": 9.5,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "DesignArena\u2019s creators closed a $7.9 million round to scale their platform, which relies on 5.3 million users to rate AI outputs. The funding signals growing demand for structured human feedback in AI development.\n\nLink: https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *DesignArena creators raise $7.9 million to bring taste to AI models*\n\nDesignArena\u2019s platform relies on 5.3 million users to evaluate AI outputs, bridging the gap between automated metrics and human judgment. The funding round underscores the industry\u2019s shift toward structured human feedback.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "DesignArena raised $7.9M to make human evaluation a first-class part of AI training. Their user base already rivals some research labs in scale.\n\nhttps://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/",
+            "twitter": "DesignArena just raised $7.9M to inject human judgment into AI models. Their platform is already used by 5.3M people to evaluate frontier models.\n\nhttps://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/"
+          }
         }
       }
     },
@@ -1595,6 +1704,48 @@
         }
       }
     },
+    "f3cb45719ae86243ba9958c14646cafc39d637d259f263c173f2b28ff0872848": {
+      "created_at": "2026-08-03T19:59:18Z",
+      "payload": {
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2,
+              "impact_score": 2.5,
+              "index": 2,
+              "novelty_score": 2,
+              "reason": "Industry move with broad relevance but not a new release or research.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Influencers draw backlash for attending OpenAI\u2019s first luxury trip",
+              "total_score": 8
+            },
+            {
+              "freshness_score": 2,
+              "impact_score": 1.5,
+              "index": 3,
+              "novelty_score": 2,
+              "reason": "Niche industry guidance with practical relevance but limited scope.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1,
+              "title": "Azure and Community Guidelines on Choosing Between a Skill or a Sub-Agent",
+              "total_score": 6.5
+            }
+          ],
+          "best_index": 2,
+          "best_score": 8,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        },
+        "social_media_rules": [
+          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
+          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields."
+        ]
+      }
+    },
     "fc29172a7ee518111b711921f9e1cad4fd31ba1a783023c40b6482628c47ae39": {
       "created_at": "2026-08-02T22:52:17Z",
       "payload": {
@@ -1883,15 +2034,6 @@
         "twitter": "Trump administration's labeling of Anthropic as a supply chain risk is under fire after a federal judge ruled there's not enough evidence to support the claim @TechCrunch #AIpolicy"
       }
     },
-    "db3ecd7b0fd247c4893cce6cb4d3c824f984a6ada046b922d611e55e07a84285": {
-      "created_at": "2026-07-27T19:38:24Z",
-      "payload": {
-        "facebook": "Microsoft has launched its first AI security model and a new security platform, bolstering its AI cybersecurity offerings. This move is significant for the tech industry, particularly for software engineers and AI researchers. #AIsecurity #cybersecurity #Microsoft",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Microsoft Launches AI Cybersecurity Model\nMicrosoft has launched its first AI security model and a new security platform, expanding its AI cybersecurity capabilities.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9/10\n#AIsecurity #cybersecurity #Microsoft\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Microsoft has launched its first AI security model and a new security platform, expanding its AI cybersecurity capabilities. This development is crucial for the tech industry @Microsoft #AIsecurity",
-        "twitter": "Microsoft enters the AI cybersecurity space with its first security model and a new agentic system @Microsoft #AIsecurity"
-      }
-    },
     "dc7b968d5213b46eb263db182d8a48448266a729cd6dfe42890e349cc6b53166": {
       "created_at": "2026-07-29T20:38:03Z",
       "payload": {
@@ -1939,6 +2081,12 @@
     }
   },
   "seen_article_links": {
+    "https://admiralcloudberg.medium.com/reaping-the-whirlwind-inside-the-potomac-river-midair-collision-0475416f2b0f": {
+      "canonical_url": "https://admiralcloudberg.medium.com/reaping-the-whirlwind-inside-the-potomac-river-midair-collision-0475416f2b0f",
+      "created_at": "2026-08-03T19:59:18Z",
+      "status": "scoring_attempted",
+      "title": "The Potomac River Midair Collision"
+    },
     "https://alexiglad.github.io/blog/2026/explorative_modeling": {
       "canonical_url": "https://alexiglad.github.io/blog/2026/explorative_modeling",
       "created_at": "2026-08-01T16:44:40Z",
@@ -1998,12 +2146,6 @@
       "created_at": "2026-07-29T11:48:04Z",
       "status": "scoring_attempted",
       "title": "Google's SynthID watermark is hard to break, but it doesn't solve AI misinformation"
-    },
-    "https://arstechnica.com/ai/2026/07/verizon-seeks-ai-profits-with-mini-data-centers-1b-dark-fiber-deal-with-google": {
-      "canonical_url": "https://arstechnica.com/ai/2026/07/verizon-seeks-ai-profits-with-mini-data-centers-1b-dark-fiber-deal-with-google",
-      "created_at": "2026-07-27T19:38:24Z",
-      "status": "scoring_attempted",
-      "title": "Verizon touts $1B dark fiber deal for Google data centers as first of many"
     },
     "https://arstechnica.com/ai/2026/07/who-wins-and-who-loses-after-us-bans-foreign-robots": {
       "canonical_url": "https://arstechnica.com/ai/2026/07/who-wins-and-who-loses-after-us-bans-foreign-robots",
@@ -2911,12 +3053,6 @@
       "status": "scoring_attempted",
       "title": "qm \u2013 Multiplayer agent harness for work"
     },
-    "https://gregoryszorc.com/docs/python-build-standalone/main": {
-      "canonical_url": "https://gregoryszorc.com/docs/python-build-standalone/main",
-      "created_at": "2026-07-27T19:38:24Z",
-      "status": "scoring_attempted",
-      "title": "Self-contained highly-portable Python distributions"
-    },
     "https://healeycodes.com/adding-defer-to-the-typescript-compiler": {
       "canonical_url": "https://healeycodes.com/adding-defer-to-the-typescript-compiler",
       "created_at": "2026-08-02T22:10:35Z",
@@ -3073,6 +3209,12 @@
       "status": "scoring_attempted",
       "title": "AI opens new era in cognitive studies of wild primates"
     },
+    "https://news.mit.edu/2026/alexander-rakhlin-named-director-mit-statistics-data-science-center-0803": {
+      "canonical_url": "https://news.mit.edu/2026/alexander-rakhlin-named-director-mit-statistics-data-science-center-0803",
+      "created_at": "2026-08-03T19:59:18Z",
+      "status": "scoring_attempted",
+      "title": "Alexander Rakhlin named director of the MIT Statistics and Data Science Center"
+    },
     "https://news.mit.edu/2026/connecting-research-to-policy-on-capitol-hill-0730": {
       "canonical_url": "https://news.mit.edu/2026/connecting-research-to-policy-on-capitol-hill-0730",
       "created_at": "2026-07-30T21:20:41Z",
@@ -3090,12 +3232,6 @@
       "created_at": "2026-07-29T15:29:15Z",
       "status": "scoring_attempted",
       "title": "How a medical database developed at MIT evolved into a global standard of data-sharing"
-    },
-    "https://news.ycombinator.com/item?id=49073595": {
-      "canonical_url": "https://news.ycombinator.com/item?id=49073595",
-      "created_at": "2026-07-27T19:38:24Z",
-      "status": "scoring_attempted",
-      "title": "This is an accidental duplicate post, please delete"
     },
     "https://news.ycombinator.com/item?id=49074693": {
       "canonical_url": "https://news.ycombinator.com/item?id=49074693",
@@ -3282,12 +3418,6 @@
       "created_at": "2026-07-28T06:22:53Z",
       "status": "scoring_attempted",
       "title": "Cursor makes its biggest India push yet ahead of SpaceX acquisition with localized pricing"
-    },
-    "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system": {
-      "canonical_url": "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system",
-      "created_at": "2026-07-27T19:38:24Z",
-      "status": "scoring_attempted",
-      "title": "Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system"
     },
     "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google": {
       "canonical_url": "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google",
@@ -3577,11 +3707,29 @@
       "status": "scoring_attempted",
       "title": "A Marc Benioff-backed startup thinks AI can solve the AI deployment problem"
     },
+    "https://techcrunch.com/2026/08/03/apple-finally-fixed-siri-so-why-does-it-feel-anticlimactic": {
+      "canonical_url": "https://techcrunch.com/2026/08/03/apple-finally-fixed-siri-so-why-does-it-feel-anticlimactic",
+      "created_at": "2026-08-03T19:59:18Z",
+      "status": "scoring_attempted",
+      "title": "Apple finally fixed Siri. So why does it feel anticlimactic?"
+    },
     "https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt": {
       "canonical_url": "https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt",
       "created_at": "2026-08-03T18:13:18Z",
       "status": "scoring_attempted",
       "title": "Congress\u2019s favorite AI tool? ChatGPT"
+    },
+    "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models": {
+      "canonical_url": "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models",
+      "created_at": "2026-08-03T19:59:18Z",
+      "status": "scoring_attempted",
+      "title": "DesignArena creators raise $7.9 million to bring taste to AI models"
+    },
+    "https://techcrunch.com/2026/08/03/influencers-draw-backlash-for-attending-openais-first-luxury-trip": {
+      "canonical_url": "https://techcrunch.com/2026/08/03/influencers-draw-backlash-for-attending-openais-first-luxury-trip",
+      "created_at": "2026-08-03T19:59:18Z",
+      "status": "scoring_attempted",
+      "title": "Influencers draw backlash for attending OpenAI\u2019s first luxury trip"
     },
     "https://techcrunch.com/podcast/ai-labs-want-to-pump-the-brakes-but-amazon-and-spacex-are-still-blasting-off": {
       "canonical_url": "https://techcrunch.com/podcast/ai-labs-want-to-pump-the-brakes-but-amazon-and-spacex-are-still-blasting-off",
@@ -3690,6 +3838,12 @@
       "created_at": "2026-07-28T09:33:07Z",
       "status": "scoring_attempted",
       "title": "Armenia\u2019s AI Bet Is Not Chip Manufacturing. It Is Compute Sovereignty"
+    },
+    "https://www.artificialintelligence-news.com/news/eu-ai-act-article-50-transparency-rules-enter-force": {
+      "canonical_url": "https://www.artificialintelligence-news.com/news/eu-ai-act-article-50-transparency-rules-enter-force",
+      "created_at": "2026-08-03T19:59:18Z",
+      "status": "scoring_attempted",
+      "title": "EU AI Act Article 50 transparency rules enter force"
     },
     "https://www.artificialintelligence-news.com/news/google-ai-overviews-us-searches": {
       "canonical_url": "https://www.artificialintelligence-news.com/news/google-ai-overviews-us-searches",
@@ -3912,6 +4066,12 @@
       "created_at": "2026-08-01T06:25:03Z",
       "status": "scoring_attempted",
       "title": "AWS Introduces Free Sandbox Environments for Workshops"
+    },
+    "https://www.infoq.com/news/2026/08/choosing-between-subagent-skills": {
+      "canonical_url": "https://www.infoq.com/news/2026/08/choosing-between-subagent-skills",
+      "created_at": "2026-08-03T19:59:18Z",
+      "status": "scoring_attempted",
+      "title": "Azure and Community Guidelines on Choosing Between a Skill or a Sub-Agent"
     },
     "https://www.infoq.com/news/2026/08/cloudflare-meerkat-consensus": {
       "canonical_url": "https://www.infoq.com/news/2026/08/cloudflare-meerkat-consensus",
