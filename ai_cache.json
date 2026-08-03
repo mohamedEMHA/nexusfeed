@@ -96,31 +96,6 @@
         }
       }
     },
-    "0af6e0a3182265417d38530e90c95954425d2504c406ec89bb9c66e285b06913": {
-      "created_at": "2026-08-02T16:43:41Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2,
-              "impact_score": 0.5,
-              "index": 0,
-              "novelty_score": 2,
-              "reason": "Industry move with high freshness and source tier, but limited impact scope.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "Xbox prices are increasing by up to \u20ac200 or \u00a3170",
-              "total_score": 6
-            }
-          ],
-          "best_index": 0,
-          "best_score": 6,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
-      }
-    },
     "0d2c8bfde96287535bed7734b30220ef82accebd542a917f3408368a3adb5b30": {
       "created_at": "2026-08-02T20:04:15Z",
       "payload": {
@@ -560,6 +535,43 @@
         }
       }
     },
+    "63698a1e926af6faec638f1822966c0d60c291329a61c609d66a08c517edc5ed": {
+      "created_at": "2026-08-03T18:13:18Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.5,
+              "impact_score": 2.5,
+              "index": 6,
+              "novelty_score": 3.0,
+              "reason": "Novelty and impact are high for a new product release, but source tier and freshness reduce score.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Show HN: Product analytics (and evals) for agent sessions on your MCP",
+              "total_score": 7.5
+            },
+            {
+              "freshness_score": 1.0,
+              "impact_score": 2.5,
+              "index": 13,
+              "novelty_score": 2.5,
+              "reason": "Research on critical CVEs affecting SQLite has high impact but lower novelty and source tier.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "SQLite Critical CVEs or LLM Slop?",
+              "total_score": 6.5
+            }
+          ],
+          "best_index": 6,
+          "best_score": 7.5,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
     "714fa49ede2ad4b582503730d280f00cb0cb856ac19e45ec621c6143764e74cf": {
       "created_at": "2026-08-02T21:10:25Z",
       "payload": {
@@ -793,6 +805,48 @@
         }
       }
     },
+    "980f0e7f90d33c9c61e2b1572124a50253bc848347833bf729c5783cd422d927": {
+      "created_at": "2026-08-03T18:13:18Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 0.5,
+              "index": 2,
+              "novelty_score": 1.5,
+              "reason": "Low impact (niche hardware) and novelty (refurbished product).",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "The first-gen Kindle Scribe is a big e-reader and digital notebook that\u2019s $150 refurbished",
+              "total_score": 5.5
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.5,
+              "index": 3,
+              "novelty_score": 2.5,
+              "reason": "High impact (all devs/policymakers) and novelty (industry move).",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Congress\u2019s favorite AI tool? ChatGPT",
+              "total_score": 8.5
+            }
+          ],
+          "best_index": 3,
+          "best_score": 8.5,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "New data shows ChatGPT is Congress\u2019s go-to AI tool, handling everything from drafting memos to summarizing legislation. House spending records reveal its widespread adoption across congressional offices.\n\nLink: https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt/",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Congress\u2019s favorite AI tool? ChatGPT*\n\nOpenAI\u2019s ChatGPT dominates paid AI use on Capitol Hill, with congressional offices using it to draft memos, summarize legislation, and assist constituent communications.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "OpenAI\u2019s ChatGPT isn\u2019t just for devs\u2014it\u2019s the most-used AI tool in Congress. House spending records show offices rely on it for drafting memos, summarizing bills, and constituent communications.\n\nhttps://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt/",
+            "twitter": "OpenAI\u2019s ChatGPT is the most-used AI tool in Congress, powering memo drafting and constituent communications. House spending records reveal its dominance on Capitol Hill.\n\nhttps://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt/"
+          }
+        }
+      }
+    },
     "a315fe7c69632344198ccc95ed3169507122cea2b3a3c6b22dc871b9413f0301": {
       "created_at": "2026-08-03T09:53:53Z",
       "payload": {
@@ -1020,6 +1074,46 @@
         }
       }
     },
+    "b90cd580cac4878456000925243f8461ef8fd0725aba87b4d3aafac0436202b4": {
+      "created_at": "2026-08-03T18:13:18Z",
+      "payload": {
+        "candidates": [],
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.0,
+              "index": 4,
+              "novelty_score": 3.0,
+              "reason": "Launch HN format is a red flag per criteria.",
+              "red_flag": true,
+              "red_flag_reason": "Launch HN format",
+              "source_score": 0.5,
+              "title": "Launch HN: Hoplite (YC S26) \u2013 Effortlessly deploy cloud coding agents",
+              "total_score": 7.5
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 1.5,
+              "index": 5,
+              "novelty_score": 2.0,
+              "reason": "Industry move with broad but niche impact, fresh and from Tier A source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Microsoft is bringing Xbox 360 games to PC",
+              "total_score": 7.0
+            }
+          ],
+          "best_index": 5,
+          "best_score": 7.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        },
+        "social_media_rules": []
+      }
+    },
     "bea7936c46e59348ece743fb7e8ec7835f58741397b280549ec4a33014340477": {
       "created_at": "2026-08-03T13:29:05Z",
       "payload": {
@@ -1121,6 +1215,48 @@
           "best_score": 4.0,
           "recommendation": "SKIP",
           "social_posts": {}
+        }
+      }
+    },
+    "c2e198c576566caf11a6011e800d7cf00d2bfc74f5c6b261cdff1e995c369587": {
+      "created_at": "2026-08-03T18:13:18Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 3.0,
+              "index": 0,
+              "novelty_score": 2.5,
+              "reason": "EU AI Act transparency rules are a major industry move with broad impact, published <1h ago from Tier A source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Europe\u2019s AI labeling and transparency rules are now in effect",
+              "total_score": 9.0
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 1.5,
+              "index": 1,
+              "novelty_score": 3.0,
+              "reason": "Cloudflare API release is a new feature with niche impact, published <1h ago from Tier C source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "The Billable Usage API: programmatic cost visibility for Cloudflare",
+              "total_score": 7.0
+            }
+          ],
+          "best_index": 0,
+          "best_score": 9.0,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "The European Union has started enforcing new AI transparency rules requiring companies to label chatbots and deepfakes. This marks the first major implementation of the AI Act and could reshape how AI systems are deployed worldwide. Companies now must disclose when users interact with AI-generated content.\n\nLink: https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Europe\u2019s AI labeling and transparency rules are now in effect*\n\nThe European Union has activated new transparency obligations under the AI Act, requiring companies to disclose when users interact with chatbots or AI-generated deepfakes. This marks the first major enforcement of the landmark regulation.\n\n\ud83c\udfdb\ufe0f Source: The Verge (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "The EU just activated its AI transparency rules, forcing companies to label chatbots and deepfakes in real time. This is the first major enforcement of the AI Act and sets a global precedent.\n\nhttps://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
+            "twitter": "The EU just activated its AI transparency rules, forcing companies to label chatbots and deepfakes in real time. This is the first major enforcement of the AI Act and sets a global precedent.\n\nhttps://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes"
+          }
         }
       }
     },
@@ -1549,15 +1685,6 @@
         "twitter": "Anthropic and OpenAI employees are poised to donate generously after their companies go public, says one nonprofit leader, it's going to be a wild ride @Wired @AI #AIforGood"
       }
     },
-    "6a46ad9a47f561c0203ef7207622454700e156239892ee00da019b813a3ce9cd": {
-      "created_at": "2026-07-27T17:57:31Z",
-      "payload": {
-        "facebook": "The global AI landscape is shifting as China releases high-performance models like Kimi K3, which can outperform US systems at a lower cost. This development is likely to intensify competition among tech companies. #AI #ArtificialIntelligence #ChinaTech",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 China's AI Model Challenges US Dominance\nChina's latest AI model, Kimi K3, is outperforming US systems at a fraction of the cost, marking a significant shift in the global AI landscape.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9.0/10\n#AI #ArtificialIntelligence #ChinaTech\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "China's release of the Kimi K3 AI model is a significant move in the global AI competition, offering high performance at a lower cost than US models @TheVerge #AI",
-        "twitter": "China's latest AI model Kimi K3 is beating US systems at a fraction of the cost, intensifying global AI competition @TheVerge #AI"
-      }
-    },
     "6c34f75a146b86b32ce5221e934e82596337b64ce8fc780ed98caaf2fee3539c": {
       "created_at": "2026-07-29T21:33:28Z",
       "payload": {
@@ -1836,11 +1963,11 @@
       "status": "scoring_attempted",
       "title": "Prevent cognitive debt by manually retyping LLM-generated code"
     },
-    "https://arstechnica.com/ai/2026/07/chatgpt-stops-cloning-famous-writers-voices-but-may-capture-a-similar-feeling": {
-      "canonical_url": "https://arstechnica.com/ai/2026/07/chatgpt-stops-cloning-famous-writers-voices-but-may-capture-a-similar-feeling",
-      "created_at": "2026-07-27T17:57:31Z",
+    "https://armature.tech": {
+      "canonical_url": "https://armature.tech",
+      "created_at": "2026-08-03T18:13:18Z",
       "status": "scoring_attempted",
-      "title": "ChatGPT starts blocking direct requests to copy an author's style"
+      "title": "Show HN: Product analytics (and evals) for agent sessions on your MCP"
     },
     "https://arstechnica.com/ai/2026/07/chrome-may-get-faster-updates-with-no-restart-required": {
       "canonical_url": "https://arstechnica.com/ai/2026/07/chrome-may-get-faster-updates-with-no-restart-required",
@@ -2442,6 +2569,12 @@
       "status": "scoring_attempted",
       "title": "The AI Productivity Gap"
     },
+    "https://blog.cloudflare.com/billable-usage-api": {
+      "canonical_url": "https://blog.cloudflare.com/billable-usage-api",
+      "created_at": "2026-08-03T18:13:18Z",
+      "status": "scoring_attempted",
+      "title": "The Billable Usage API: programmatic cost visibility for Cloudflare"
+    },
     "https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui": {
       "canonical_url": "https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui",
       "created_at": "2026-08-03T16:03:52Z",
@@ -2531,12 +2664,6 @@
       "created_at": "2026-07-30T11:28:52Z",
       "status": "scoring_attempted",
       "title": "Carolina Cloud pays SOFR on unused prepaid credits"
-    },
-    "https://eaton-works.com/2026/07/27/my-eicher-hack": {
-      "canonical_url": "https://eaton-works.com/2026/07/27/my-eicher-hack",
-      "created_at": "2026-07-27T17:57:31Z",
-      "status": "scoring_attempted",
-      "title": "Exploiting Volvo/Eicher's fleet platform to gain control over all users/vehicles"
     },
     "https://echologue.com": {
       "canonical_url": "https://echologue.com",
@@ -2796,6 +2923,12 @@
       "status": "scoring_attempted",
       "title": "Adding Go's Defer to the TypeScript Compiler"
     },
+    "https://hoplite.sh": {
+      "canonical_url": "https://hoplite.sh",
+      "created_at": "2026-08-03T18:13:18Z",
+      "status": "scoring_attempted",
+      "title": "Launch HN: Hoplite (YC S26) \u2013 Effortlessly deploy cloud coding agents"
+    },
     "https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html": {
       "canonical_url": "https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html",
       "created_at": "2026-07-29T15:48:08Z",
@@ -2921,12 +3054,6 @@
       "created_at": "2026-08-02T12:52:51Z",
       "status": "scoring_attempted",
       "title": "Meshdiff \u2013 visually compare two STL versions in the browser, client-side"
-    },
-    "https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash": {
-      "canonical_url": "https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash",
-      "created_at": "2026-07-27T17:57:31Z",
-      "status": "scoring_attempted",
-      "title": "MAI-Cyber 1"
     },
     "https://microsoft.github.io/flint-chart": {
       "canonical_url": "https://microsoft.github.io/flint-chart",
@@ -3084,6 +3211,12 @@
       "status": "scoring_attempted",
       "title": "Infrastructure Patterns for Agentic Applications"
     },
+    "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops": {
+      "canonical_url": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops",
+      "created_at": "2026-08-03T18:13:18Z",
+      "status": "scoring_attempted",
+      "title": "SQLite Critical CVEs or LLM Slop?"
+    },
     "https://rsadowski.de/posts/2026/dead-software-walking-relayd-and-httpd": {
       "canonical_url": "https://rsadowski.de/posts/2026/dead-software-walking-relayd-and-httpd",
       "created_at": "2026-08-01T15:50:31Z",
@@ -3156,12 +3289,6 @@
       "status": "scoring_attempted",
       "title": "Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system"
     },
-    "https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control": {
-      "canonical_url": "https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control",
-      "created_at": "2026-07-27T17:57:31Z",
-      "status": "scoring_attempted",
-      "title": "OpenAI\u2019s Hugging Face breach has reignited the debate over alignment and control"
-    },
     "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google": {
       "canonical_url": "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google",
       "created_at": "2026-07-27T20:52:50Z",
@@ -3173,12 +3300,6 @@
       "created_at": "2026-07-27T21:56:20Z",
       "status": "scoring_attempted",
       "title": "Satya Nadella says companies that trust one AI for everything may not survive"
-    },
-    "https://techcrunch.com/2026/07/27/threads-users-can-now-chat-with-meta-ai-in-their-dms": {
-      "canonical_url": "https://techcrunch.com/2026/07/27/threads-users-can-now-chat-with-meta-ai-in-their-dms",
-      "created_at": "2026-07-27T17:57:31Z",
-      "status": "scoring_attempted",
-      "title": "Threads users can now chat with Meta AI in their DMs"
     },
     "https://techcrunch.com/2026/07/28/bot-detection-startup-spur-nabs-200m-from-insight": {
       "canonical_url": "https://techcrunch.com/2026/07/28/bot-detection-startup-spur-nabs-200m-from-insight",
@@ -3456,6 +3577,12 @@
       "status": "scoring_attempted",
       "title": "A Marc Benioff-backed startup thinks AI can solve the AI deployment problem"
     },
+    "https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt": {
+      "canonical_url": "https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt",
+      "created_at": "2026-08-03T18:13:18Z",
+      "status": "scoring_attempted",
+      "title": "Congress\u2019s favorite AI tool? ChatGPT"
+    },
     "https://techcrunch.com/podcast/ai-labs-want-to-pump-the-brakes-but-amazon-and-spacex-are-still-blasting-off": {
       "canonical_url": "https://techcrunch.com/podcast/ai-labs-want-to-pump-the-brakes-but-amazon-and-spacex-are-still-blasting-off",
       "created_at": "2026-07-31T17:48:59Z",
@@ -3491,12 +3618,6 @@
       "created_at": "2026-07-28T17:43:13Z",
       "status": "scoring_attempted",
       "title": "Una Watch: Garmin watch competitor but repairable, open ecosystem and USB-C"
-    },
-    "https://usefeyn.com/blog/feynobg": {
-      "canonical_url": "https://usefeyn.com/blog/feynobg",
-      "created_at": "2026-07-27T17:57:31Z",
-      "status": "scoring_attempted",
-      "title": "Show HN: FeyNoBg \u2013 Automatic background removal model and training library"
     },
     "https://usetokenless.com": {
       "canonical_url": "https://usetokenless.com",
@@ -3852,12 +3973,6 @@
       "status": "scoring_attempted",
       "title": "Kimi AI and kvcache-ai Open Sources \u2018AgentENV\u2019: A Distributed System that Powers Agentic Reinforcement Learning (RL) Training for Kimi K3"
     },
-    "https://www.marktechpost.com/2026/07/27/perplexity-releases-pplx": {
-      "canonical_url": "https://www.marktechpost.com/2026/07/27/perplexity-releases-pplx",
-      "created_at": "2026-07-27T17:57:31Z",
-      "status": "scoring_attempted",
-      "title": "Perplexity Releases pplx, a Single-Binary CLI That Puts Its Search API in the Terminal for Coding Agents"
-    },
     "https://www.marktechpost.com/2026/07/28/fireworks-ai-releases-fireworks-nexus-a-drop-in-routing-and-cost-control-layer-that-moves-routine-coding-work-to-open-weight-models": {
       "canonical_url": "https://www.marktechpost.com/2026/07/28/fireworks-ai-releases-fireworks-nexus-a-drop-in-routing-and-cost-control-layer-that-moves-routine-coding-work-to-open-weight-models",
       "created_at": "2026-07-28T23:55:10Z",
@@ -4032,12 +4147,6 @@
       "status": "scoring_attempted",
       "title": "Artists are lawyering up against AI slop, and some are even winning"
     },
-    "https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies": {
-      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies",
-      "created_at": "2026-07-27T17:57:31Z",
-      "status": "scoring_attempted",
-      "title": "Why China is giving away its best AI models"
-    },
     "https://www.theverge.com/ai-artificial-intelligence/971723/hugging-face-nudify-deepfake-undress-women-children": {
       "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/971723/hugging-face-nudify-deepfake-undress-women-children",
       "created_at": "2026-07-28T09:20:48Z",
@@ -4134,6 +4243,12 @@
       "status": "scoring_attempted",
       "title": "China&#8217;s Alibaba takes another swipe at America\u2019s AI supremacy"
     },
+    "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes": {
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
+      "created_at": "2026-08-03T18:13:18Z",
+      "status": "scoring_attempted",
+      "title": "Europe\u2019s AI labeling and transparency rules are now in effect"
+    },
     "https://www.theverge.com/entertainment/972233/ariana-grande-hacking-lawsuit": {
       "canonical_url": "https://www.theverge.com/entertainment/972233/ariana-grande-hacking-lawsuit",
       "created_at": "2026-07-28T22:38:44Z",
@@ -4224,6 +4339,12 @@
       "status": "scoring_attempted",
       "title": "Apple\u2019s new AirTags are back down to their best price"
     },
+    "https://www.theverge.com/gadgets/974536/kindle-scribe-2022-refurbished-woot-deal-sale": {
+      "canonical_url": "https://www.theverge.com/gadgets/974536/kindle-scribe-2022-refurbished-woot-deal-sale",
+      "created_at": "2026-08-03T18:13:18Z",
+      "status": "scoring_attempted",
+      "title": "The first-gen Kindle Scribe is a big e-reader and digital notebook that\u2019s $150 refurbished"
+    },
     "https://www.theverge.com/games/967174/steam-game-malware-cryptostealer-arrest": {
       "canonical_url": "https://www.theverge.com/games/967174/steam-game-malware-cryptostealer-arrest",
       "created_at": "2026-07-27T22:57:16Z",
@@ -4271,6 +4392,12 @@
       "created_at": "2026-08-02T16:43:41Z",
       "status": "scoring_attempted",
       "title": "Xbox prices are increasing by up to \u20ac200 or \u00a3170"
+    },
+    "https://www.theverge.com/games/974544/microsoft-xbox-360-games-pc-disc-digital-program": {
+      "canonical_url": "https://www.theverge.com/games/974544/microsoft-xbox-360-games-pc-disc-digital-program",
+      "created_at": "2026-08-03T18:13:18Z",
+      "status": "scoring_attempted",
+      "title": "Microsoft is bringing Xbox 360 games to PC"
     },
     "https://www.theverge.com/podcast/973668/ai-safety-openai-hugging-face-vergecast": {
       "canonical_url": "https://www.theverge.com/podcast/973668/ai-safety-openai-hugging-face-vergecast",
