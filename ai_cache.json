@@ -291,6 +291,99 @@
         }
       }
     },
+    "4b3c8e1bd437a4f2ed3445acb8cade7997aea68eedd87e7ce36b2332cc0a1e5d": {
+      "created_at": "2026-08-03T05:58:15Z",
+      "payload": {
+        "candidates": [],
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 1.5,
+              "index": 13,
+              "novelty_score": 2.5,
+              "reason": "Research paper with niche impact on equation discovery benchmarks.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Library Reachability in LSR-Synth: How Anti-Memorization Design Changes the Measurement of Symbolic Discovery",
+              "total_score": 6.5
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.0,
+              "index": 14,
+              "novelty_score": 2.5,
+              "reason": "Research paper questioning validity of agent-safety benchmarks with moderate impact.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Safety, or Just Capability? A Validity Audit of Agent-Safety Benchmarks",
+              "total_score": 7.0
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 1.5,
+              "index": 15,
+              "novelty_score": 2.5,
+              "reason": "Research paper on ontology-aware agents with niche impact.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "SciToolAgent-Evo: An Ontology-Aware Self-Evolving Agent for Open-World Scientific Tool Acquisition",
+              "total_score": 6.5
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 1.0,
+              "index": 16,
+              "novelty_score": 2.5,
+              "reason": "Research paper introducing a new benchmark with limited general impact.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "EarlyDx: An Admission-Anchored Benchmark for Open-Ended Generation of Evidence-Supported ED-Encounter Diagnoses",
+              "total_score": 6.0
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 1.5,
+              "index": 17,
+              "novelty_score": 2.5,
+              "reason": "Research paper proposing a taxonomy for agent failures with niche impact.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Model or Harness? An Interaction-Centric Taxonomy for Localizing Agent Failures",
+              "total_score": 6.5
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 1.0,
+              "index": 18,
+              "novelty_score": 2.5,
+              "reason": "Research paper with red flag in title.",
+              "red_flag": true,
+              "red_flag_reason": "\"Best Friends\" matches red flag pattern.",
+              "source_score": 0.5,
+              "title": "Best Friends, Not Forever: Evaluating Long-Horizon Persona Collapse and Behavioral Drift in AI Companions",
+              "total_score": 6.0
+            }
+          ],
+          "best_index": 14,
+          "best_score": 7.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        },
+        "social_media_rules": [
+          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
+          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.",
+          "Use the FULL article title as headline without inventing facts.",
+          "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
+        ]
+      }
+    },
     "4dc427a48148abdd7c2fe7838897e744a8ef181970a51225c5775ee887ca0aa8": {
       "created_at": "2026-08-02T10:27:55Z",
       "payload": {
@@ -429,6 +522,98 @@
         }
       }
     },
+    "76926cf0ee7ca0cf22916dbd1a12ecb5143cadf983d722d084447c89f09784f9": {
+      "created_at": "2026-08-03T05:58:15Z",
+      "payload": {
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 1.5,
+              "index": 7,
+              "novelty_score": 2.5,
+              "reason": "Research paper with high novelty and freshness but niche impact and low-tier source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Empowering Cross-Domain Sequential Recommendation with Hybrid Tokenization and Serial-Parallel Decoding",
+              "total_score": 6.5
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 1.5,
+              "index": 8,
+              "novelty_score": 2.5,
+              "reason": "Research paper with high novelty and freshness but niche impact and low-tier source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "An Ontology-Guided, Deduplication-Aware Extraction Layer for Knowledge Graph Construction from Heterogeneous Documents",
+              "total_score": 6.5
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 1.5,
+              "index": 9,
+              "novelty_score": 2.5,
+              "reason": "Research paper with high novelty and freshness but niche impact and low-tier source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "How Hard Does It Think? Analyzing Step-Aware Reasoning Energy in LLM Chain-of-Thought Trajectories",
+              "total_score": 6.5
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.5,
+              "index": 10,
+              "novelty_score": 2.5,
+              "reason": "Research paper with high novelty, impact, and freshness but low-tier source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Reasoning in Real World Clinical Care: Why Large Language Models Are Not Yet Safe for Autonomous Clinical Decision Support",
+              "total_score": 7.5
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 1.5,
+              "index": 11,
+              "novelty_score": 2.5,
+              "reason": "Research paper with high novelty and freshness but niche impact and low-tier source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "ViSAGE: Constructing Self-Correcting Memories for Long-Form Video Understanding",
+              "total_score": 6.5
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 1.5,
+              "index": 12,
+              "novelty_score": 2.5,
+              "reason": "Research paper with high novelty and freshness but niche impact and low-tier source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Multi-Agent Planning with Spatio-Temporal and Topological Constraints using STL-GO",
+              "total_score": 6.5
+            }
+          ],
+          "best_index": 10,
+          "best_score": 7.5,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        },
+        "social_media_rules": [
+          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
+          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.",
+          "Use the FULL article title as headline without inventing facts.",
+          "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
+        ]
+      }
+    },
     "77e5c3d320d2e5df28d14e147a58158180ce20fedcd3ebda3e08e095169f4e2d": {
       "created_at": "2026-08-02T14:21:42Z",
       "payload": {
@@ -514,31 +699,6 @@
         "social_media_rules": []
       }
     },
-    "a1bfca3a129a0f9e0e28a54323cd238b2dc0e48bbd09cebfeca8eafe04ee7f57": {
-      "created_at": "2026-08-02T03:53:23Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 2.5,
-              "index": 0,
-              "novelty_score": 3.0,
-              "reason": "New tool with high utility for developers tracking AI API costs, but source is Tier C.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Show HN: CostPerPrompt \u2013 Live AI API pricing and real-workload cost calculators",
-              "total_score": 8.0
-            }
-          ],
-          "best_index": 0,
-          "best_score": 8.0,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
-      }
-    },
     "a533c5875661c3bbf3e5227105a0059d16a48c293864d4740162901db59b16e0": {
       "created_at": "2026-08-02T21:10:25Z",
       "payload": {
@@ -614,6 +774,91 @@
           ],
           "best_index": 1,
           "best_score": 7.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
+    "b76dda31216ec9e6186e8bc5ee2a93ba40ba58680e4a4025f23e16a90e65b906": {
+      "created_at": "2026-08-03T05:58:15Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2,
+              "impact_score": 2.5,
+              "index": 19,
+              "novelty_score": 2.5,
+              "reason": "Research paper with high novelty and impact but low source tier.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Fragility of Value under Imperfect Alignment",
+              "total_score": 7.5
+            },
+            {
+              "freshness_score": 2,
+              "impact_score": 1.5,
+              "index": 20,
+              "novelty_score": 2.5,
+              "reason": "Research paper with niche impact and low source tier.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Identifying Informative Environments for Cognition Parameter Inference via Bayesian Experimental Design",
+              "total_score": 6.5
+            },
+            {
+              "freshness_score": 2,
+              "impact_score": 2,
+              "index": 21,
+              "novelty_score": 2.5,
+              "reason": "Research paper with strong novelty and freshness but niche impact and low source tier.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "NeSyFS: A Neuro-symbolic Fast-Slow Thinking Framework for LLM Agent under Partial Observability",
+              "total_score": 7
+            },
+            {
+              "freshness_score": 2,
+              "impact_score": 2,
+              "index": 22,
+              "novelty_score": 3,
+              "reason": "New benchmark with strong novelty and freshness but niche impact and low source tier.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "MerchantBench: Benchmarking LLM Agents for Long-Term Coherence in E-Commerce Operations",
+              "total_score": 7.5
+            },
+            {
+              "freshness_score": 2,
+              "impact_score": 2.5,
+              "index": 23,
+              "novelty_score": 2.5,
+              "reason": "Research paper with high novelty and impact but low source tier.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Scaling Scientific Discovery Environments for Turn-Level Agentic RL",
+              "total_score": 7.5
+            },
+            {
+              "freshness_score": 2,
+              "impact_score": 1.5,
+              "index": 24,
+              "novelty_score": 3,
+              "reason": "New benchmark with strong novelty and freshness but niche impact and low source tier.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "MMShopBench: A Real-Log Benchmark for Multimodal, Multi-Turn Shopping Agents",
+              "total_score": 7
+            }
+          ],
+          "best_index": 19,
+          "best_score": 7.5,
           "recommendation": "SKIP",
           "social_posts": {}
         }
@@ -747,6 +992,108 @@
           "best_score": 3.0,
           "recommendation": "SKIP",
           "social_posts": {}
+        }
+      }
+    },
+    "df07fc2574b61f7b58c45c38762e886d896a6c816370c1447557808b673f1501": {
+      "created_at": "2026-08-03T05:58:15Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.5,
+              "index": 0,
+              "novelty_score": 3.0,
+              "reason": "New release with significant performance gains for all TypeScript developers.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.0,
+              "title": "Microsoft Releases TypeScript 7.0 with a Native Go Compiler, Delivering 10x Faster Builds",
+              "total_score": 8.5
+            },
+            {
+              "freshness_score": 1.5,
+              "impact_score": 1.5,
+              "index": 1,
+              "novelty_score": 2.5,
+              "reason": "Major version release for a niche framework targeting Java/Kotlin developers.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.0,
+              "title": "Embabel Agent Framework Reaches 1.0",
+              "total_score": 6.5
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 1.5,
+              "index": 2,
+              "novelty_score": 2.5,
+              "reason": "Research paper on Agentic AI architecture, niche impact.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "OpenClaw and Ollama in Agentic AI: Toward Fully Autonomous and Scalable AI Agent Systems",
+              "total_score": 6.5
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 1.5,
+              "index": 3,
+              "novelty_score": 2.5,
+              "reason": "Research paper on AI evaluation, niche impact.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Can AI Evaluate AI Scientists? A Benchmarking Study of Autonomous Research Generation Systems Using Automated Multi-Model Review",
+              "total_score": 6.5
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 1.0,
+              "index": 4,
+              "novelty_score": 2.5,
+              "reason": "Research paper on mathematical conjectures, highly niche impact.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "LLM Framework for Discovering Major Mathematical Conjectures: AI's Quest for the Next Riemann Hypothesis",
+              "total_score": 6.0
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 1.0,
+              "index": 5,
+              "novelty_score": 2.5,
+              "reason": "Research paper on reasoning optimization, niche impact.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "ThinkReset: Learnable Intermediate Interface Construction for Bounded-Context Long-Horizon Reasoning",
+              "total_score": 6.0
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 1.0,
+              "index": 6,
+              "novelty_score": 2.5,
+              "reason": "Research paper on prompt optimization, niche impact.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "TAPR: Enhancing LLM Performance with a Task-Aware Prompt Rewriter",
+              "total_score": 6.0
+            }
+          ],
+          "best_index": 0,
+          "best_score": 8.5,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "Microsoft released TypeScript 7.0, featuring a native Go compiler that delivers 8x to 12x faster builds in real-world projects. The update lacks a stable programmatic API for now, but that\u2019s slated for TypeScript 7.1. Transitioning to the new version includes a compatibility package for existing setups.\n\nLink: https://www.infoq.com/news/2026/08/typescript-7-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Microsoft Releases TypeScript 7.0 with a Native Go Compiler, Delivering 10x Faster Builds*\n\nTypeScript 7.0 introduces a native Go compiler, cutting build times by 8-12x in real codebases. The release lacks a stable programmatic API, planned for TypeScript 7.1. A compatibility package supports existing setups.\n\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (Tier B)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.infoq.com/news/2026/08/typescript-7-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "TypeScript 7.0 drops with a native Go compiler, pushing build speeds up by 8-12x in real codebases. Early tests show consistent gains, though the stable API is still missing\u2014expected in 7.1. A compatibility package eases the transition.\n\nhttps://www.infoq.com/news/2026/08/typescript-7-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+            "twitter": "TypeScript 7.0 just shipped with a native Go compiler, cutting build times by 8-12x in real codebases. No stable API yet, but 7.1 will add it.\n\nhttps://www.infoq.com/news/2026/08/typescript-7-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+          }
         }
       }
     },
@@ -1864,6 +2211,144 @@
       "status": "scoring_attempted",
       "title": "Orca-Bench: How Ready Are Language Model Agents for Oncall?"
     },
+    "https://arxiv.org/abs/2607.28629": {
+      "canonical_url": "https://arxiv.org/abs/2607.28629",
+      "created_at": "2026-08-03T05:58:15Z",
+      "status": "scoring_attempted",
+      "title": "OpenClaw and Ollama in Agentic AI: Toward Fully Autonomous and Scalable AI Agent Systems"
+    },
+    "https://arxiv.org/abs/2607.28631": {
+      "canonical_url": "https://arxiv.org/abs/2607.28631",
+      "created_at": "2026-08-03T05:58:15Z",
+      "status": "scoring_attempted",
+      "title": "Can AI Evaluate AI Scientists? A Benchmarking Study of Autonomous Research Generation Systems Using Automated Multi-Model Review"
+    },
+    "https://arxiv.org/abs/2607.28632": {
+      "canonical_url": "https://arxiv.org/abs/2607.28632",
+      "created_at": "2026-08-03T05:58:15Z",
+      "status": "scoring_attempted",
+      "title": "LLM Framework for Discovering Major Mathematical Conjectures: AI's Quest for the Next Riemann Hypothesis"
+    },
+    "https://arxiv.org/abs/2607.28642": {
+      "canonical_url": "https://arxiv.org/abs/2607.28642",
+      "created_at": "2026-08-03T05:58:15Z",
+      "status": "scoring_attempted",
+      "title": "ThinkReset: Learnable Intermediate Interface Construction for Bounded-Context Long-Horizon Reasoning"
+    },
+    "https://arxiv.org/abs/2607.28657": {
+      "canonical_url": "https://arxiv.org/abs/2607.28657",
+      "created_at": "2026-08-03T05:58:15Z",
+      "status": "scoring_attempted",
+      "title": "TAPR: Enhancing LLM Performance with a Task-Aware Prompt Rewriter"
+    },
+    "https://arxiv.org/abs/2607.28659": {
+      "canonical_url": "https://arxiv.org/abs/2607.28659",
+      "created_at": "2026-08-03T05:58:15Z",
+      "status": "scoring_attempted",
+      "title": "Empowering Cross-Domain Sequential Recommendation with Hybrid Tokenization and Serial-Parallel Decoding"
+    },
+    "https://arxiv.org/abs/2607.28662": {
+      "canonical_url": "https://arxiv.org/abs/2607.28662",
+      "created_at": "2026-08-03T05:58:15Z",
+      "status": "scoring_attempted",
+      "title": "An Ontology-Guided, Deduplication-Aware Extraction Layer for Knowledge Graph Construction from Heterogeneous Documents"
+    },
+    "https://arxiv.org/abs/2607.28674": {
+      "canonical_url": "https://arxiv.org/abs/2607.28674",
+      "created_at": "2026-08-03T05:58:15Z",
+      "status": "scoring_attempted",
+      "title": "How Hard Does It Think? Analyzing Step-Aware Reasoning Energy in LLM Chain-of-Thought Trajectories"
+    },
+    "https://arxiv.org/abs/2607.28677": {
+      "canonical_url": "https://arxiv.org/abs/2607.28677",
+      "created_at": "2026-08-03T05:58:15Z",
+      "status": "scoring_attempted",
+      "title": "Reasoning in Real World Clinical Care: Why Large Language Models Are Not Yet Safe for Autonomous Clinical Decision Support"
+    },
+    "https://arxiv.org/abs/2607.28678": {
+      "canonical_url": "https://arxiv.org/abs/2607.28678",
+      "created_at": "2026-08-03T05:58:15Z",
+      "status": "scoring_attempted",
+      "title": "ViSAGE: Constructing Self-Correcting Memories for Long-Form Video Understanding"
+    },
+    "https://arxiv.org/abs/2607.28679": {
+      "canonical_url": "https://arxiv.org/abs/2607.28679",
+      "created_at": "2026-08-03T05:58:15Z",
+      "status": "scoring_attempted",
+      "title": "Multi-Agent Planning with Spatio-Temporal and Topological Constraints using STL-GO"
+    },
+    "https://arxiv.org/abs/2607.28684": {
+      "canonical_url": "https://arxiv.org/abs/2607.28684",
+      "created_at": "2026-08-03T05:58:15Z",
+      "status": "scoring_attempted",
+      "title": "Library Reachability in LSR-Synth: How Anti-Memorization Design Changes the Measurement of Symbolic Discovery"
+    },
+    "https://arxiv.org/abs/2607.28685": {
+      "canonical_url": "https://arxiv.org/abs/2607.28685",
+      "created_at": "2026-08-03T05:58:15Z",
+      "status": "scoring_attempted",
+      "title": "Safety, or Just Capability? A Validity Audit of Agent-Safety Benchmarks"
+    },
+    "https://arxiv.org/abs/2607.28692": {
+      "canonical_url": "https://arxiv.org/abs/2607.28692",
+      "created_at": "2026-08-03T05:58:15Z",
+      "status": "scoring_attempted",
+      "title": "SciToolAgent-Evo: An Ontology-Aware Self-Evolving Agent for Open-World Scientific Tool Acquisition"
+    },
+    "https://arxiv.org/abs/2607.28788": {
+      "canonical_url": "https://arxiv.org/abs/2607.28788",
+      "created_at": "2026-08-03T05:58:15Z",
+      "status": "scoring_attempted",
+      "title": "EarlyDx: An Admission-Anchored Benchmark for Open-Ended Generation of Evidence-Supported ED-Encounter Diagnoses"
+    },
+    "https://arxiv.org/abs/2607.28802": {
+      "canonical_url": "https://arxiv.org/abs/2607.28802",
+      "created_at": "2026-08-03T05:58:15Z",
+      "status": "scoring_attempted",
+      "title": "Model or Harness? An Interaction-Centric Taxonomy for Localizing Agent Failures"
+    },
+    "https://arxiv.org/abs/2607.28818": {
+      "canonical_url": "https://arxiv.org/abs/2607.28818",
+      "created_at": "2026-08-03T05:58:15Z",
+      "status": "scoring_attempted",
+      "title": "Best Friends, Not Forever: Evaluating Long-Horizon Persona Collapse and Behavioral Drift in AI Companions"
+    },
+    "https://arxiv.org/abs/2607.28881": {
+      "canonical_url": "https://arxiv.org/abs/2607.28881",
+      "created_at": "2026-08-03T05:58:15Z",
+      "status": "scoring_attempted",
+      "title": "Fragility of Value under Imperfect Alignment"
+    },
+    "https://arxiv.org/abs/2607.28894": {
+      "canonical_url": "https://arxiv.org/abs/2607.28894",
+      "created_at": "2026-08-03T05:58:15Z",
+      "status": "scoring_attempted",
+      "title": "Identifying Informative Environments for Cognition Parameter Inference via Bayesian Experimental Design"
+    },
+    "https://arxiv.org/abs/2607.28942": {
+      "canonical_url": "https://arxiv.org/abs/2607.28942",
+      "created_at": "2026-08-03T05:58:15Z",
+      "status": "scoring_attempted",
+      "title": "NeSyFS: A Neuro-symbolic Fast-Slow Thinking Framework for LLM Agent under Partial Observability"
+    },
+    "https://arxiv.org/abs/2607.28956": {
+      "canonical_url": "https://arxiv.org/abs/2607.28956",
+      "created_at": "2026-08-03T05:58:15Z",
+      "status": "scoring_attempted",
+      "title": "MerchantBench: Benchmarking LLM Agents for Long-Term Coherence in E-Commerce Operations"
+    },
+    "https://arxiv.org/abs/2607.28990": {
+      "canonical_url": "https://arxiv.org/abs/2607.28990",
+      "created_at": "2026-08-03T05:58:15Z",
+      "status": "scoring_attempted",
+      "title": "Scaling Scientific Discovery Environments for Turn-Level Agentic RL"
+    },
+    "https://arxiv.org/abs/2607.29002": {
+      "canonical_url": "https://arxiv.org/abs/2607.29002",
+      "created_at": "2026-08-03T05:58:15Z",
+      "status": "scoring_attempted",
+      "title": "MMShopBench: A Real-Log Benchmark for Multimodal, Multi-Turn Shopping Agents"
+    },
     "https://asymco.com/2026/07/31/apple-will-watch-everything-burn-when-ai-bubble-bursts": {
       "canonical_url": "https://asymco.com/2026/07/31/apple-will-watch-everything-burn-when-ai-bubble-bursts",
       "created_at": "2026-07-31T21:38:29Z",
@@ -2163,12 +2648,6 @@
       "created_at": "2026-08-02T08:15:56Z",
       "status": "scoring_attempted",
       "title": "CRM: An open-source, agentic-first CRM"
-    },
-    "https://github.com/vercel-labs/scriptc": {
-      "canonical_url": "https://github.com/vercel-labs/scriptc",
-      "created_at": "2026-07-27T03:47:01Z",
-      "status": "scoring_attempted",
-      "title": "Scriptc by Vercel: TypeScript-to-Native compiler, no JavaScript engine in binary"
     },
     "https://github.com/xyTom/coding-tools-mcp": {
       "canonical_url": "https://github.com/xyTom/coding-tools-mcp",
@@ -2541,12 +3020,6 @@
       "created_at": "2026-07-28T13:16:41Z",
       "status": "scoring_attempted",
       "title": "Show HN: Open-source Cloudflare deployed agent native task management and wiki"
-    },
-    "https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai": {
-      "canonical_url": "https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai",
-      "created_at": "2026-07-27T03:47:01Z",
-      "status": "scoring_attempted",
-      "title": "Are brain waves the next unlock for physical AI?"
     },
     "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai": {
       "canonical_url": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai",
@@ -3268,6 +3741,18 @@
       "status": "scoring_attempted",
       "title": "Cloudflare Introduces Meerkat for Strongly Consistent Global Coordination"
     },
+    "https://www.infoq.com/news/2026/08/embabel-1": {
+      "canonical_url": "https://www.infoq.com/news/2026/08/embabel-1",
+      "created_at": "2026-08-03T05:58:15Z",
+      "status": "scoring_attempted",
+      "title": "Embabel Agent Framework Reaches 1.0"
+    },
+    "https://www.infoq.com/news/2026/08/typescript-7-released": {
+      "canonical_url": "https://www.infoq.com/news/2026/08/typescript-7-released",
+      "created_at": "2026-08-03T05:58:15Z",
+      "status": "scoring_attempted",
+      "title": "Microsoft Releases TypeScript 7.0 with a Native Go Compiler, Delivering 10x Faster Builds"
+    },
     "https://www.infoq.com/podcasts/rethinking-data-client-event-sourcing": {
       "canonical_url": "https://www.infoq.com/podcasts/rethinking-data-client-event-sourcing",
       "created_at": "2026-07-27T13:29:03Z",
@@ -3465,12 +3950,6 @@
       "created_at": "2026-07-29T22:34:01Z",
       "status": "scoring_attempted",
       "title": "AI's top startups are barely publishing their research"
-    },
-    "https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html": {
-      "canonical_url": "https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html",
-      "created_at": "2026-07-27T03:47:01Z",
-      "status": "scoring_attempted",
-      "title": "US citizen charged after GrapheneOS phone wipes during airport search"
     },
     "https://www.techspot.com/news/113243-professor-invisible-prompt-trap-catches-32-students-cheating.html": {
       "canonical_url": "https://www.techspot.com/news/113243-professor-invisible-prompt-trap-catches-32-students-cheating.html",
