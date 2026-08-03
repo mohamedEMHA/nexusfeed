@@ -190,31 +190,6 @@
         ]
       }
     },
-    "1cce28650bcc71bfeecb4391da4f8f9cf410f001291f6ef0386c99711f1ad498": {
-      "created_at": "2026-08-02T22:10:35Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 0.5,
-              "index": 2,
-              "novelty_score": 3.0,
-              "reason": "Novelty and freshness are high but impact is minimal and it's a Show HN post, which is a red flag.",
-              "red_flag": true,
-              "red_flag_reason": "Show HN",
-              "source_score": 0.5,
-              "title": "Show HN: Make your Framework 12 sound like a creaky door",
-              "total_score": 6.0
-            }
-          ],
-          "best_index": 2,
-          "best_score": 6.0,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
-      }
-    },
     "328ede268c90c601e3ad079c79ce34b12cc12618cc51bc6b8b165c160fd828e1": {
       "created_at": "2026-08-03T00:12:53Z",
       "payload": {
@@ -453,6 +428,31 @@
           ],
           "best_index": 1,
           "best_score": 8.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
+    "62b6837d4ff1d1c2f823d7f057e63bf066b1656ceac2c2511cf7dc19f23786c4": {
+      "created_at": "2026-08-03T22:18:34Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.5,
+              "impact_score": 2.5,
+              "index": 1,
+              "novelty_score": 2.5,
+              "reason": "Opinion piece lacks novelty and freshness for this audience.",
+              "red_flag": true,
+              "red_flag_reason": "opinion",
+              "source_score": 0.5,
+              "title": "LLMs reward expertise",
+              "total_score": 7.0
+            }
+          ],
+          "best_index": 1,
+          "best_score": 7.0,
           "recommendation": "SKIP",
           "social_posts": {}
         }
@@ -944,6 +944,36 @@
         ]
       }
     },
+    "a38de632dc86029902565cbda6c629aa66dd4246822421c29cb9cfd3e361e984": {
+      "created_at": "2026-08-03T22:18:34Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.5,
+              "index": 0,
+              "novelty_score": 2.5,
+              "reason": "Research-grade novelty with military AI impact, fresh and from Tier A source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Ukraine\u2019s drones get AI upgrades for kamikaze strikes, future swarm attacks",
+              "total_score": 8.5
+            }
+          ],
+          "best_index": 0,
+          "best_score": 8.5,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "Ukraine just put 50,000 drones into the field with new US-developed AI targeting systems. The tech combines real-time object recognition with swarm coordination, marking a shift in battlefield automation. The $100 million deal signals how quickly AI is moving from labs to front lines.\n\nLink: https://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks/",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Ukraine\u2019s drones get AI upgrades for kamikaze strikes, future swarm attacks*\n\nUkraine deploys 50,000 drones with US-developed AI targeting systems for real-time object recognition and swarm coordination in combat.\n\n\ud83c\udfdb\ufe0f Source: Ars Technica (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "Ukraine\u2019s military now fields 50,000 drones upgraded with US AI for precision kamikaze strikes and coordinated swarm attacks. The systems process visual data in flight to adjust targets mid-mission, a capability that could redefine drone warfare.\n\nhttps://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks/",
+            "twitter": "Ukraine deploys 50,000 AI-upgraded drones for kamikaze strikes and swarm tactics. Early tests show precision gains in contested zones.\n\nhttps://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks/"
+          }
+        }
+      }
+    },
     "b06aca8666d74edc3cd78156b05a063364ff9a96fae39ba88d48df603d4ded40": {
       "created_at": "2026-08-02T23:55:11Z",
       "payload": {
@@ -1379,50 +1409,6 @@
         }
       }
     },
-    "d8a56570e575271795e2b29ad205c75ce5819d89da4dfc6373a31ed04830c8bd": {
-      "created_at": "2026-08-02T22:10:35Z",
-      "payload": {
-        "candidates": [
-          {
-            "article_url": "https://github.com/paoloanzn/microcodex",
-            "index": 4,
-            "published_relative": "1 hour ago",
-            "published_time_utc": "2026-08-02T20:11:35Z",
-            "source": "Hacker News",
-            "summary": "Comments",
-            "tier": "C",
-            "title": "Show HN: MicroCodex Coding Agent \u2013 OpenAI/codex reimplemented in C++ <1MB binary"
-          }
-        ],
-        "prompt_version": "cerebras-scoring-v1",
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 1.5,
-              "index": 4,
-              "novelty_score": 3.0,
-              "reason": "New open-source implementation of Codex in C++ with a tiny binary size, fresh within the hour.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Show HN: MicroCodex Coding Agent \u2013 OpenAI/codex reimplemented in C++ <1MB binary",
-              "total_score": 7.0
-            }
-          ],
-          "best_index": 4,
-          "best_score": 7.0,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        },
-        "social_media_rules": [
-          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
-          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.",
-          "Use the FULL article title as headline without inventing facts.",
-          "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
-        ]
-      }
-    },
     "d92fa6e89a94ac47ea79f8196ab38a93c504249845a1da4a88f0b1df292bea56": {
       "created_at": "2026-08-03T16:03:52Z",
       "payload": {
@@ -1587,26 +1573,26 @@
         }
       }
     },
-    "ee719fa9085436c99ded0f30f5a630a0c42b705fad2c3f7a28876c37c2b17df5": {
-      "created_at": "2026-08-02T22:10:35Z",
+    "f0eaffaad75019b9921ae6fb404d2f4234085df2617ad601801132379eda9832": {
+      "created_at": "2026-08-03T22:18:34Z",
       "payload": {
         "response_schema": {
           "articles": [
             {
-              "freshness_score": 2.0,
-              "impact_score": 2.5,
-              "index": 3,
-              "novelty_score": 3.0,
-              "reason": "Novelty (3.0): new release/technical contribution; Impact (2.5): all TypeScript devs; Freshness (2.0): <1h; Source (0.5): Tier C",
+              "freshness_score": 1.5,
+              "impact_score": 0.5,
+              "index": 2,
+              "novelty_score": 0.2,
+              "reason": "Gadget deal with low novelty, niche impact, and freshness just under 3 hours.",
               "red_flag": false,
               "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Adding Go's Defer to the TypeScript Compiler",
-              "total_score": 8.0
+              "source_score": 1.5,
+              "title": "Samsung\u2019s discounted smart monitor is $349.99, its lowest price yet",
+              "total_score": 2.2
             }
           ],
-          "best_index": 3,
-          "best_score": 8.0,
+          "best_index": 2,
+          "best_score": 2.2,
           "recommendation": "SKIP",
           "social_posts": {}
         }
@@ -1751,15 +1737,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 AI Safety Research Shift\nLilian Weng, co-founder of Thinking Machines, has left the company due to health reasons and joined OpenAI, where she previously served as the VP of AI Safety Research.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AISafety #OpenAI #ArtificialIntelligence\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Lilian Weng, co-founder of Thinking Machines, has joined OpenAI after leaving her previous role due to health reasons, a notable development in the field of AI safety research @OpenAI #AISafety",
         "twitter": "Lilian Weng's departure from Thinking Machines due to health reasons is followed by her new role at OpenAI, a significant move for AI safety research @OpenAI #AISafety"
-      }
-    },
-    "7141f093f7594825a501e2f50cc1e173ec14d2b38e3cdf1e91cb986ca2547395": {
-      "created_at": "2026-07-27T21:56:20Z",
-      "payload": {
-        "facebook": "The future of AI in business is not about relying on a single solution, but rather about building a robust infrastructure that can support multiple models. Companies that fail to do so may struggle to survive, according to Satya Nadella. This highlights the importance of investing in AI gateways and developing in-house models #AIinfrastructure #TechNews #BusinessStrategy",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Companies that trust one AI for everything may not survive\nAccording to Satya Nadella, companies without their own AI models or AI gateways will be in trouble. This statement highlights the importance of investing in AI infrastructure.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AIstrategy #TechNews #BusinessSurvival\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Satya Nadella cautions that companies relying on a single AI solution may not survive, @satyanadella emphasizes the need for AI gateways and in-house models #AIstrategy",
-        "twitter": "Relying on a single AI solution may spell disaster for companies, warns @satyanadella, emphasizing the need for diverse AI infrastructure #AIstrategy #TechLeaders"
       }
     },
     "75c76eb9a506f4293f7e632e50b24d117829f0eba0520f1fa0cb29a7a6c97ae2": {
@@ -2063,6 +2040,12 @@
       "created_at": "2026-08-01T13:56:45Z",
       "status": "scoring_attempted",
       "title": "As Reddit stock falls, CEO questions value of Google's AI Overviews"
+    },
+    "https://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks": {
+      "canonical_url": "https://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks",
+      "created_at": "2026-08-03T22:18:34Z",
+      "status": "scoring_attempted",
+      "title": "Ukraine\u2019s drones get AI upgrades for kamikaze strikes, future swarm attacks"
     },
     "https://arstechnica.com/culture/2026/07/ai-startup-admits-tattoo-for-interview-stunt-was-reckless": {
       "canonical_url": "https://arstechnica.com/culture/2026/07/ai-startup-admits-tattoo-for-interview-stunt-was-reckless",
@@ -3138,12 +3121,6 @@
       "status": "scoring_attempted",
       "title": "How a medical database developed at MIT evolved into a global standard of data-sharing"
     },
-    "https://news.ycombinator.com/item?id=49074693": {
-      "canonical_url": "https://news.ycombinator.com/item?id=49074693",
-      "created_at": "2026-07-27T21:56:20Z",
-      "status": "scoring_attempted",
-      "title": "The Author of Clean Code No Longer Reviews AI-Generated Code"
-    },
     "https://news.ycombinator.com/item?id=49099021": {
       "canonical_url": "https://news.ycombinator.com/item?id=49099021",
       "created_at": "2026-07-29T16:59:38Z",
@@ -3227,12 +3204,6 @@
       "created_at": "2026-07-30T20:07:03Z",
       "status": "scoring_attempted",
       "title": "Solving poker in custom WebGPU kernels"
-    },
-    "https://platformengineering.org/blog/how-platform-engineering-2-0-mitigates-ai-security-and-compliance-risks": {
-      "canonical_url": "https://platformengineering.org/blog/how-platform-engineering-2-0-mitigates-ai-security-and-compliance-risks",
-      "created_at": "2026-07-27T21:56:20Z",
-      "status": "scoring_attempted",
-      "title": "Platform engineering 2.0 mitigates AI security and compliance risks"
     },
     "https://playboy.substack.com/p/has-the-new-cocaine-finally-arrived": {
       "canonical_url": "https://playboy.substack.com/p/has-the-new-cocaine-finally-arrived",
@@ -3329,12 +3300,6 @@
       "created_at": "2026-07-28T06:22:53Z",
       "status": "scoring_attempted",
       "title": "Cursor makes its biggest India push yet ahead of SpaceX acquisition with localized pricing"
-    },
-    "https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive": {
-      "canonical_url": "https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive",
-      "created_at": "2026-07-27T21:56:20Z",
-      "status": "scoring_attempted",
-      "title": "Satya Nadella says companies that trust one AI for everything may not survive"
     },
     "https://techcrunch.com/2026/07/28/bot-detection-startup-spur-nabs-200m-from-insight": {
       "canonical_url": "https://techcrunch.com/2026/07/28/bot-detection-startup-spur-nabs-200m-from-insight",
@@ -4038,12 +4003,6 @@
       "status": "scoring_attempted",
       "title": "Presentation: Parting the Clouds: The Rise of Disaggregated Systems"
     },
-    "https://www.marktechpost.com/2026/07/27/kimi-ai-and-kvcache-ai-open-sources-agentenv": {
-      "canonical_url": "https://www.marktechpost.com/2026/07/27/kimi-ai-and-kvcache-ai-open-sources-agentenv",
-      "created_at": "2026-07-27T21:56:20Z",
-      "status": "scoring_attempted",
-      "title": "Kimi AI and kvcache-ai Open Sources \u2018AgentENV\u2019: A Distributed System that Powers Agentic Reinforcement Learning (RL) Training for Kimi K3"
-    },
     "https://www.marktechpost.com/2026/07/28/fireworks-ai-releases-fireworks-nexus-a-drop-in-routing-and-cost-control-layer-that-moves-routine-coding-work-to-open-weight-models": {
       "canonical_url": "https://www.marktechpost.com/2026/07/28/fireworks-ai-releases-fireworks-nexus-a-drop-in-routing-and-cost-control-layer-that-moves-routine-coding-work-to-open-weight-models",
       "created_at": "2026-07-28T23:55:10Z",
@@ -4206,6 +4165,12 @@
       "status": "scoring_attempted",
       "title": "AI's top startups are barely publishing their research"
     },
+    "https://www.seangoedecke.com/llms-reward-expertise": {
+      "canonical_url": "https://www.seangoedecke.com/llms-reward-expertise",
+      "created_at": "2026-08-03T22:18:34Z",
+      "status": "scoring_attempted",
+      "title": "LLMs reward expertise"
+    },
     "https://www.theverge.com/ai-artificial-intelligence/971059/ai-artists-lawsuit-google-meta-anthropic": {
       "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/971059/ai-artists-lawsuit-google-meta-anthropic",
       "created_at": "2026-07-29T13:27:14Z",
@@ -4350,12 +4315,6 @@
       "status": "scoring_attempted",
       "title": "The Verge\u2019s 2026 back-to-school shopping guide"
     },
-    "https://www.theverge.com/gadgets/971557/razer-huntsman-v3-pro-tkl-optical-analog-gaming-keyboard-deal-sale": {
-      "canonical_url": "https://www.theverge.com/gadgets/971557/razer-huntsman-v3-pro-tkl-optical-analog-gaming-keyboard-deal-sale",
-      "created_at": "2026-07-27T21:56:20Z",
-      "status": "scoring_attempted",
-      "title": "Razer\u2019s analog Huntsman V3 Pro is over 20 percent off"
-    },
     "https://www.theverge.com/gadgets/971634/wahoo-kickr-core-bike-trainer-dell-6k-monitor-deal-sale": {
       "canonical_url": "https://www.theverge.com/gadgets/971634/wahoo-kickr-core-bike-trainer-dell-6k-monitor-deal-sale",
       "created_at": "2026-07-28T18:57:44Z",
@@ -4409,6 +4368,12 @@
       "created_at": "2026-08-03T18:13:18Z",
       "status": "scoring_attempted",
       "title": "The first-gen Kindle Scribe is a big e-reader and digital notebook that\u2019s $150 refurbished"
+    },
+    "https://www.theverge.com/gadgets/974583/samsungs-m80f-smart-monitor-deal-sale": {
+      "canonical_url": "https://www.theverge.com/gadgets/974583/samsungs-m80f-smart-monitor-deal-sale",
+      "created_at": "2026-08-03T22:18:34Z",
+      "status": "scoring_attempted",
+      "title": "Samsung\u2019s discounted smart monitor is $349.99, its lowest price yet"
     },
     "https://www.theverge.com/games/967174/steam-game-malware-cryptostealer-arrest": {
       "canonical_url": "https://www.theverge.com/games/967174/steam-game-malware-cryptostealer-arrest",
