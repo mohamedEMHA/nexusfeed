@@ -252,6 +252,36 @@
         "social_media_rules": []
       }
     },
+    "48165c76ee7d7d32c1984cf7717d9ba8178059d29e63fe14c123738c92d071fc": {
+      "created_at": "2026-08-03T22:56:24Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2,
+              "impact_score": 1.5,
+              "index": 0,
+              "novelty_score": 2,
+              "reason": "Question in title triggers red flag per rules.",
+              "red_flag": true,
+              "red_flag_reason": "question in title",
+              "source_score": 1.5,
+              "title": "Did an AI Music App Just Snitch on the Song of the Summer?",
+              "total_score": 7
+            }
+          ],
+          "best_index": 0,
+          "best_score": 0,
+          "recommendation": "SKIP",
+          "social_posts": {
+            "facebook": "",
+            "telegram": "",
+            "threads": "",
+            "twitter": ""
+          }
+        }
+      }
+    },
     "4b3c8e1bd437a4f2ed3445acb8cade7997aea68eedd87e7ce36b2332cc0a1e5d": {
       "created_at": "2026-08-03T05:58:15Z",
       "payload": {
@@ -343,6 +373,31 @@
           "Use the FULL article title as headline without inventing facts.",
           "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
         ]
+      }
+    },
+    "4beafb7a05fa23d43c1539f948c4c0393e89d0987ce5ceef1497faed24d3497a": {
+      "created_at": "2026-08-03T22:56:24Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.5,
+              "impact_score": 0.5,
+              "index": 2,
+              "novelty_score": 2.5,
+              "reason": "Niche retro computing deep dive with low impact outside its domain.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "ZX Spectrum System Tour: Text Mode \u2013 Bumbershoot Software",
+              "total_score": 5.0
+            }
+          ],
+          "best_index": 2,
+          "best_score": 5.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
       }
     },
     "5a22df99da88a24d2b66798bc4606a2eab905224ae4d14a64b4a9f91297b3886": {
@@ -1639,31 +1694,6 @@
           "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields."
         ]
       }
-    },
-    "fc29172a7ee518111b711921f9e1cad4fd31ba1a783023c40b6482628c47ae39": {
-      "created_at": "2026-08-02T22:52:17Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 0.5,
-              "index": 0,
-              "novelty_score": 0.2,
-              "reason": "Music review with low novelty/impact for software engineers; freshness is high but irrelevant to target audience.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "Rachika Nayar\u2019s Heaven Come Crashing is an instrumental epic of desperate longing",
-              "total_score": 3.7
-            }
-          ],
-          "best_index": 0,
-          "best_score": 3.7,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
-      }
     }
   },
   "groq_social_posts": {
@@ -2640,6 +2670,12 @@
       "created_at": "2026-07-28T18:57:44Z",
       "status": "scoring_attempted",
       "title": "MCP 2026-07-28 Specification: transport going stateless"
+    },
+    "https://bumbershootsoft.wordpress.com/2026/05/30/zx-spectrum-system-tour-text-mode": {
+      "canonical_url": "https://bumbershootsoft.wordpress.com/2026/05/30/zx-spectrum-system-tour-text-mode",
+      "created_at": "2026-08-03T22:56:24Z",
+      "status": "scoring_attempted",
+      "title": "ZX Spectrum System Tour: Text Mode \u2013 Bumbershoot Software"
     },
     "https://cacm.acm.org/opinion/now-is-the-time-to-give-llms-access-to-the-acm-digital-library": {
       "canonical_url": "https://cacm.acm.org/opinion/now-is-the-time-to-give-llms-access-to-the-acm-digital-library",
@@ -4662,6 +4698,12 @@
       "created_at": "2026-08-03T10:37:30Z",
       "status": "scoring_attempted",
       "title": "AI Conquered Coding. Fast Food Is Next"
+    },
+    "https://www.wired.com/story/ai-music-app-treblo-just-snitched-on-rubberz-song-of-the-summer": {
+      "canonical_url": "https://www.wired.com/story/ai-music-app-treblo-just-snitched-on-rubberz-song-of-the-summer",
+      "created_at": "2026-08-03T22:56:24Z",
+      "status": "scoring_attempted",
+      "title": "Did an AI Music App Just Snitch on the Song of the Summer?"
     },
     "https://www.wired.com/story/ai-scammers-are-better-at-building-trust-than-humans": {
       "canonical_url": "https://www.wired.com/story/ai-scammers-are-better-at-building-trust-than-humans",
