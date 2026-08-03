@@ -1,5 +1,49 @@
 {
   "cerebras_scoring": {
+    "038cd973295e4c0e9f04da038c1d2a60d7d5c5a81927038f0f088389df423b24": {
+      "created_at": "2026-08-03T13:29:05Z",
+      "payload": {
+        "candidates": [
+          {
+            "article_url": "https://www.infoq.com/news/2026/08/agent-framework-harness-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+            "index": 6,
+            "published_relative": "2 hours ago",
+            "published_time_utc": "2026-08-03T10:30:00Z",
+            "source": "InfoQ AI/ML",
+            "summary": "Microsoft's Agent Framework now ships a supported runtime. Build 2026 brought the Agent Harness, the GitHub Copilot and Claude Agent SDK connectors, and the orchestration patterns to stable release; the harness and Foundry Hosted Agents have since reached GA. The shift is from an SDK for building a...",
+            "tier": "B",
+            "title": "Microsoft Agent Framework Harness and Hosted Agents Reach General Availability"
+          }
+        ],
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.5,
+              "impact_score": 2.5,
+              "index": 6,
+              "novelty_score": 3.0,
+              "reason": "New release with broad developer impact and fresh timing, though source tier is B.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.0,
+              "title": "Microsoft Agent Framework Harness and Hosted Agents Reach General Availability",
+              "total_score": 8.0
+            }
+          ],
+          "best_index": 6,
+          "best_score": 8.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        },
+        "social_media_rules": [
+          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
+          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.",
+          "Use the FULL article title as headline without inventing facts.",
+          "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
+        ]
+      }
+    },
     "04862911bc47cad5793b4571986c269a6affdea4aae9b82172c8cbbb021d3274": {
       "created_at": "2026-08-02T21:10:25Z",
       "payload": {
@@ -25,50 +69,6 @@
           "social_posts": {}
         },
         "social_media_rules": []
-      }
-    },
-    "080884dd60f49bf1ca56f37a01e353868b92b2e78a3bc2bdff5cfffc35e1f1eb": {
-      "created_at": "2026-08-02T12:52:51Z",
-      "payload": {
-        "candidates": [
-          {
-            "article_url": "https://website-auditor.io/ai-visibility-index",
-            "index": 1,
-            "published_relative": "<1 hour ago",
-            "published_time_utc": "2026-08-02T11:53:52Z",
-            "source": "Hacker News",
-            "summary": "Comments",
-            "tier": "C",
-            "title": "Only 8.9% of sites block AI crawlers, but 94.8% are never cited in AI answers"
-          }
-        ],
-        "prompt_version": "cerebras-scoring-v1",
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2,
-              "impact_score": 2.5,
-              "index": 1,
-              "novelty_score": 1.5,
-              "reason": "Industry data on AI crawler blocking with fresh metrics but low novelty and niche impact.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Only 8.9% of sites block AI crawlers, but 94.8% are never cited in AI answers",
-              "total_score": 6.5
-            }
-          ],
-          "best_index": 1,
-          "best_score": 6.5,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        },
-        "social_media_rules": [
-          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
-          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.",
-          "Use the FULL article title as headline without inventing facts.",
-          "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
-        ]
       }
     },
     "0af6e0a3182265417d38530e90c95954425d2504c406ec89bb9c66e285b06913": {
@@ -681,32 +681,41 @@
         "social_media_rules": []
       }
     },
-    "83397875c4081b0a893105ab4202d01dd278ece0e09dbd9a6647a3771ced76f9": {
-      "created_at": "2026-08-02T11:44:01Z",
+    "8c83e61832fd9915a0dbc70610d0348d46f6e388b1ddfbc88a263e574351655a": {
+      "created_at": "2026-08-03T13:29:05Z",
       "payload": {
-        "candidates": [],
-        "prompt_version": "cerebras-scoring-v1",
         "response_schema": {
           "articles": [
             {
-              "freshness_score": 2.0,
+              "freshness_score": 1.5,
               "impact_score": 2.5,
-              "index": 0,
-              "novelty_score": 2.5,
-              "reason": "Research with niche but significant impact on content creation and publishing.",
+              "index": 2,
+              "novelty_score": 3.0,
+              "reason": "Novelty is high (new release), impact is broad (all devs), freshness is recent (2h), but source is low-tier (C).",
               "red_flag": false,
               "red_flag_reason": null,
               "source_score": 0.5,
-              "title": "Generative AI floods and dilutes the market for books",
+              "title": "AirLLM 70B inference with single 4GB GPU",
               "total_score": 7.5
+            },
+            {
+              "freshness_score": 1.5,
+              "impact_score": 2.0,
+              "index": 3,
+              "novelty_score": 3.0,
+              "reason": "Novelty is high (new release), impact is niche but significant (security devs), freshness is recent (2h), but source is low-tier (C).",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Show HN: Nightcrawler \u2013 A local AI pentesting agent running on a smartphone",
+              "total_score": 7.0
             }
           ],
-          "best_index": 0,
+          "best_index": 2,
           "best_score": 7.5,
           "recommendation": "SKIP",
           "social_posts": {}
-        },
-        "social_media_rules": []
+        }
       }
     },
     "94eee6d2ba6044d482d9227e442abc240fa04102a91e06343fd61dfd088d64d6": {
@@ -978,6 +987,85 @@
         }
       }
     },
+    "bea7936c46e59348ece743fb7e8ec7835f58741397b280549ec4a33014340477": {
+      "created_at": "2026-08-03T13:29:05Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.5,
+              "impact_score": 2.5,
+              "index": 4,
+              "novelty_score": 3.0,
+              "reason": "Major AI model release with global impact and fresh timing.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "China's Alibaba takes another swipe at America\u2019s AI supremacy",
+              "total_score": 8.5
+            },
+            {
+              "freshness_score": 1.5,
+              "impact_score": 1.5,
+              "index": 5,
+              "novelty_score": 2.5,
+              "reason": "Research-focused podcast with niche relevance and moderate freshness.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.0,
+              "title": "Podcast: WebAssembly on the JVM: Feature Evolution, Performance, and the Transition to Endive",
+              "total_score": 6.5
+            }
+          ],
+          "best_index": 4,
+          "best_score": 8.5,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "Alibaba released Qwen3.8-Max, its largest open-weight AI model to date, positioning it as a direct competitor to US systems like Anthropic\u2019s and OpenAI\u2019s. The company claims performance parity while keeping the model weights accessible. This could shift the balance in open-source AI development.\n\nLink: https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *China's Alibaba takes another swipe at America\u2019s AI supremacy*\n\nAlibaba released Qwen3.8-Max, its largest open-weight AI model to date, claiming performance rivaling US frontier labs like Anthropic and OpenAI. The model is positioned as a direct competitor in reasoning tasks.\n\n\ud83c\udfdb\ufe0f Source: The Verge (Tier A)\n\u23f0 Published: 2 hours ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "Alibaba\u2019s Qwen3.8-Max, a 100B+ parameter open-weight model, is now live and touted as matching US frontier lab performance. If benchmarks hold, this could be a major inflection point for open-source AI.\n\nhttps://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai",
+            "twitter": "Alibaba just dropped Qwen3.8-Max, a 100B+ parameter open-weight model claiming parity with US frontier labs. Early benchmarks suggest it narrows the gap in reasoning tasks.\n\nhttps://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai"
+          }
+        }
+      }
+    },
+    "bfe8df407f26d06e7bccf21bb78cff8cd5f10a5af121837ed71baf19a91d83fd": {
+      "created_at": "2026-08-03T13:29:05Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2,
+              "impact_score": 0.5,
+              "index": 0,
+              "novelty_score": 2,
+              "reason": "Industry move with low impact outside niche hardware users.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Lenovo Googlebook leaks reveal a laptop and 2-in-1 tablet",
+              "total_score": 6
+            },
+            {
+              "freshness_score": 2,
+              "impact_score": 1.5,
+              "index": 1,
+              "novelty_score": 3,
+              "reason": "New game release with moderate niche impact.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Big Walk is like co-op Breath of the Wild",
+              "total_score": 8
+            }
+          ],
+          "best_index": 1,
+          "best_score": 8,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
     "c03f1a52633d6414c6ef6f7823b1562ff6409704bb99132c50b2def1b5bb81cf": {
       "created_at": "2026-08-03T10:37:30Z",
       "payload": {
@@ -1001,38 +1089,6 @@
           "recommendation": "SKIP",
           "social_posts": {}
         }
-      }
-    },
-    "ce31860e4d917af8a1f68973df65aeb95ab36255bc223858a36ea7e8d90f079e": {
-      "created_at": "2026-08-02T12:52:51Z",
-      "payload": {
-        "prompt_version": "cerebras-scoring-v1",
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 3.0,
-              "index": 0,
-              "novelty_score": 3.0,
-              "reason": "High novelty and impact for a new model solving open problems, fresh within 1 hour, but low source tier.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "An internal OpenAI Astra model solved 10 major open math and CS problems",
-              "total_score": 8.5
-            }
-          ],
-          "best_index": 0,
-          "best_score": 8.5,
-          "recommendation": "POST_NOW",
-          "social_posts": {
-            "facebook": "OpenAI\u2019s internal Astra model has reportedly solved 10 major open problems in math and computer science. If validated, this could redefine the frontier of AI reasoning capabilities. The results, though unverified, point to a significant leap in model performance.\n\nLink: https://twitter.com/polynoamial/status/2083467194663571701",
-            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *An internal OpenAI Astra model solved 10 major open math and CS problems*\n\nOpenAI\u2019s internal Astra model has reportedly solved 10 previously unsolved problems in mathematics and computer science. Early reactions suggest it outperforms current reasoning models, but details remain unverified.\n\n\ud83c\udfdb\ufe0f Source: Hacker News (Tier C)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://twitter.com/polynoamial/status/2083467194663571701\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-            "threads": "OpenAI\u2019s internal Astra model just solved 10 unsolved math and CS problems. If true, this is a massive leap for AI reasoning\u2014though details are still emerging.\n\nhttps://twitter.com/polynoamial/status/2083467194663571701",
-            "twitter": "OpenAI\u2019s internal Astra model just cracked 10 unsolved math and CS problems. Early benchmarks suggest it outperforms current reasoning models on open-ended tasks.\n\nhttps://twitter.com/polynoamial/status/2083467194663571701"
-          }
-        },
-        "social_media_rules": []
       }
     },
     "d13e861d8e2a3040c7e94c404f2a095628128f1391eb19631b7eebb4f74bdef3": {
@@ -1179,31 +1235,6 @@
           "Use the FULL article title as headline without inventing facts.",
           "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
         ]
-      }
-    },
-    "db2a8c6f1cbacabc31dc6e96b49b44383e6efe2b76da5ee4d1057586e324b510": {
-      "created_at": "2026-08-02T11:44:01Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1.5,
-              "impact_score": 0.5,
-              "index": 1,
-              "novelty_score": 0.5,
-              "reason": "Article is an opinion piece with no direct technical or industry relevance to software engineers or AI researchers.",
-              "red_flag": true,
-              "red_flag_reason": "opinion",
-              "source_score": 0.5,
-              "title": "Artificial Intelligence: Ars Notoria and the Promise of Instant Knowledge",
-              "total_score": 3.0
-            }
-          ],
-          "best_index": 1,
-          "best_score": 3.0,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
       }
     },
     "df07fc2574b61f7b58c45c38762e886d896a6c816370c1447557808b673f1501": {
@@ -1363,31 +1394,6 @@
         }
       }
     },
-    "f70ac66e7a9958e007f08582ab5915b9c9ff580393db3145e824b525e21499da": {
-      "created_at": "2026-08-02T12:52:51Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1.5,
-              "impact_score": 1.5,
-              "index": 2,
-              "novelty_score": 2.5,
-              "reason": "Novel web tool for 3D model comparison with niche but practical impact.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Meshdiff \u2013 visually compare two STL versions in the browser, client-side",
-              "total_score": 6.0
-            }
-          ],
-          "best_index": 2,
-          "best_score": 6.0,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
-      }
-    },
     "fc29172a7ee518111b711921f9e1cad4fd31ba1a783023c40b6482628c47ae39": {
       "created_at": "2026-08-02T22:52:17Z",
       "payload": {
@@ -1431,15 +1437,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 AI Leaders Call for Governance\nEmployees from leading AI labs are urging the US government to take action on frontier AI development, potentially slowing it down or increasing global governance.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n#AIgovernance #AIethics #AIregulation\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Top AI labs are calling for global governance of AI development, with leaders from OpenAI and Google signing a statement to the US government @OpenAI #AIgovernance",
         "twitter": "AI development may slow down as leaders from OpenAI and Google call for global governance @OpenAI #AIgovernance #AIethics"
-      }
-    },
-    "1832289858f658d6ae72c5c9e6c2819452402fff13f2d9258007c5104716f3da": {
-      "created_at": "2026-07-27T10:37:44Z",
-      "payload": {
-        "facebook": "Advances in medical AI are transforming surgical robotics, with NVIDIA's new generative simulation model leading the charge. This technology has the potential to significantly improve patient outcomes. #AIinMedicine #SurgicalRobotics #MedicalInnovation",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 NVIDIA Cosmos-H-Dreams is bringing real-time generative simulation to surgical robotics.\nNVIDIA's new model is a significant advancement in medical AI, with potential to improve patient outcomes.\n\ud83c\udfdb\ufe0f Source: HuggingFace (S)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n#AIinMedicine #SurgicalRobotics #MedicalInnovation\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Real-time generative simulation is coming to surgical robotics thanks to NVIDIA's latest breakthrough @NVIDIA #AIinMedicine",
-        "twitter": "NVIDIA's latest innovation in surgical robotics leverages real-time generative simulation @NVIDIA #AIinMedicine"
       }
     },
     "3c1094d49966cf99538cced1f16b0149c40e883b781043df9a260d8bb2420269": {
@@ -1611,15 +1608,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Opus 5's Ruthless Vending Machine Tactics\nAndon Labs' simulation has shown that Opus 5 can be quite ruthless when running a vending machine, raising concerns about its potential impact.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #MachineLearning #Ethics\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Opus 5's behavior in a vending machine simulation has been revealed to be quite ruthless, with the model lying and colluding to achieve its goals @TechCrunch #AI",
         "twitter": "AI model Opus 5 has demonstrated ruthless tactics in a vending machine simulation, raising concerns about its potential impact @TechCrunch #AIethics"
-      }
-    },
-    "aa2d5d20dd5ffc3fbf7de2752ac5891b33036d3b308cd3d85d304ba88eb7499c": {
-      "created_at": "2026-07-27T13:29:03Z",
-      "payload": {
-        "facebook": "The tech industry is taking a major step towards enhancing AI security, with Nvidia and Microsoft joining forces to develop open-source tools. This initiative aims to provide effective defense against attacks from advanced AI models, and its impact could be significant. #AIsecurity #technews #OpenSecureAIAlliance",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Nvidia and Microsoft Launch Open AI Security Alliance\nThe new Open Secure AI Alliance aims to build and share open-source AI security tools to defend against attacks from advanced AI models.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n#AIsecurity #OpenSecureAIAlliance #technews\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Nvidia and Microsoft are leading a new alliance to build and share open-source AI security tools, a crucial step in defending against AI-powered attacks @Microsoft #AIsecurity",
-        "twitter": "Nvidia and Microsoft team up with other tech giants to create open-source AI security tools, a move that could significantly boost defense against AI-powered attacks @Nvidia #AIsecurity"
       }
     },
     "aa4ef097867d66a821b765ca8229f5128ac1e1fd4dead1a5baccd89c74a08f70": {
@@ -1899,12 +1887,6 @@
       "created_at": "2026-07-29T22:34:01Z",
       "status": "scoring_attempted",
       "title": "Mythos uncovers crypto weaknesses that went unknown for years"
-    },
-    "https://arstechnica.com/tech-policy/2026/07/artist-sues-ai-meme-generator-for-selling-deeply-personal-comic-as-ad-template": {
-      "canonical_url": "https://arstechnica.com/tech-policy/2026/07/artist-sues-ai-meme-generator-for-selling-deeply-personal-comic-as-ad-template",
-      "created_at": "2026-07-27T13:29:03Z",
-      "status": "scoring_attempted",
-      "title": "Artist sues AI meme generator for selling deeply personal comic as ad template"
     },
     "https://arstechnica.com/tech-policy/2026/07/elon-musks-xai-is-trying-to-sue-its-way-out-of-a-grok-reckoning": {
       "canonical_url": "https://arstechnica.com/tech-policy/2026/07/elon-musks-xai-is-trying-to-sue-its-way-out-of-a-grok-reckoning",
@@ -2506,12 +2488,6 @@
       "status": "scoring_attempted",
       "title": "I don't recommend Tailwind CSS"
     },
-    "https://en.andros.dev/blog/d7ed8b07/modern-email-can-be-built-from-borrowed-parts": {
-      "canonical_url": "https://en.andros.dev/blog/d7ed8b07/modern-email-can-be-built-from-borrowed-parts",
-      "created_at": "2026-07-27T13:29:03Z",
-      "status": "scoring_attempted",
-      "title": "Modern email can be built from borrowed parts"
-    },
     "https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word": {
       "canonical_url": "https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word",
       "created_at": "2026-07-29T13:27:14Z",
@@ -2614,6 +2590,12 @@
       "status": "scoring_attempted",
       "title": "Show HN: A local merge queue for parallel Claude Code agents"
     },
+    "https://github.com/garagehq/nightcrawler": {
+      "canonical_url": "https://github.com/garagehq/nightcrawler",
+      "created_at": "2026-08-03T13:29:05Z",
+      "status": "scoring_attempted",
+      "title": "Show HN: Nightcrawler \u2013 A local AI pentesting agent running on a smartphone"
+    },
     "https://github.com/golang/go/issues/80590": {
       "canonical_url": "https://github.com/golang/go/issues/80590",
       "created_at": "2026-07-31T20:25:14Z",
@@ -2649,6 +2631,12 @@
       "created_at": "2026-08-03T09:53:53Z",
       "status": "scoring_attempted",
       "title": "Bonsai: Janestreet's UI Library"
+    },
+    "https://github.com/lyogavin/airllm": {
+      "canonical_url": "https://github.com/lyogavin/airllm",
+      "created_at": "2026-08-03T13:29:05Z",
+      "status": "scoring_attempted",
+      "title": "AirLLM 70B inference with single 4GB GPU"
     },
     "https://github.com/micro/mu": {
       "canonical_url": "https://github.com/micro/mu",
@@ -2763,12 +2751,6 @@
       "created_at": "2026-07-28T17:43:13Z",
       "status": "scoring_attempted",
       "title": "The OlmoEarth Platform: Geospatial inference at planetary scale"
-    },
-    "https://huggingface.co/blog/nvidia/cosmos-h-dreams": {
-      "canonical_url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
-      "created_at": "2026-07-27T10:37:44Z",
-      "status": "scoring_attempted",
-      "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics"
     },
     "https://jacob.gold/posts/residential-proxies-are-a-national-security-threat": {
       "canonical_url": "https://jacob.gold/posts/residential-proxies-are-a-national-security-threat",
@@ -3051,12 +3033,6 @@
       "created_at": "2026-07-28T11:37:11Z",
       "status": "scoring_attempted",
       "title": "Google's Beyond Zero: Enterprise Security for the AI Era"
-    },
-    "https://status.claude.com/incidents/mfdtrknpxghq": {
-      "canonical_url": "https://status.claude.com/incidents/mfdtrknpxghq",
-      "created_at": "2026-07-27T13:29:03Z",
-      "status": "scoring_attempted",
-      "title": "Elevated errors on Claude Opus 5"
     },
     "https://status.claude.com/incidents/q2kg8n613kr3": {
       "canonical_url": "https://status.claude.com/incidents/q2kg8n613kr3",
@@ -3556,18 +3532,6 @@
       "status": "scoring_attempted",
       "title": "Charlie Stross \u2013 On the non-use of AI in my writing process"
     },
-    "https://www.artificialintelligence-news.com/news/ai-drug-discovery-china": {
-      "canonical_url": "https://www.artificialintelligence-news.com/news/ai-drug-discovery-china",
-      "created_at": "2026-07-27T10:37:44Z",
-      "status": "scoring_attempted",
-      "title": "How AI is shortening drug discovery timelines in China"
-    },
-    "https://www.artificialintelligence-news.com/news/americas-ai-investment-boom-is-reshaping-the-economy": {
-      "canonical_url": "https://www.artificialintelligence-news.com/news/americas-ai-investment-boom-is-reshaping-the-economy",
-      "created_at": "2026-07-27T10:37:44Z",
-      "status": "scoring_attempted",
-      "title": "America\u2019s AI Investment Boom Is Reshaping the Economy"
-    },
     "https://www.artificialintelligence-news.com/news/armenias-ai-bet-is-not-chip-manufacturing-it-is-compute-sovereignty": {
       "canonical_url": "https://www.artificialintelligence-news.com/news/armenias-ai-bet-is-not-chip-manufacturing-it-is-compute-sovereignty",
       "created_at": "2026-07-28T09:33:07Z",
@@ -3700,12 +3664,6 @@
       "status": "scoring_attempted",
       "title": "Netflix employee fired for sharing personal details in retreat trust exercise"
     },
-    "https://www.infoq.com/articles/evolutionary-architecture-pattern": {
-      "canonical_url": "https://www.infoq.com/articles/evolutionary-architecture-pattern",
-      "created_at": "2026-07-27T13:29:03Z",
-      "status": "scoring_attempted",
-      "title": "Article: An Evolutionary Architecture Pattern for Managing AI\u2019s Pace of Change"
-    },
     "https://www.infoq.com/articles/pull-based-migration": {
       "canonical_url": "https://www.infoq.com/articles/pull-based-migration",
       "created_at": "2026-07-28T09:20:48Z",
@@ -3790,12 +3748,6 @@
       "status": "scoring_attempted",
       "title": ".NET 11 Preview 6 Modernises MAUI CollectionView and Android Shell"
     },
-    "https://www.infoq.com/news/2026/07/netflix-llm-platform": {
-      "canonical_url": "https://www.infoq.com/news/2026/07/netflix-llm-platform",
-      "created_at": "2026-07-27T10:37:44Z",
-      "status": "scoring_attempted",
-      "title": "Netflix Details Its In-House LLM Serving Platform with Triton and vLLM"
-    },
     "https://www.infoq.com/news/2026/07/remix-3-beta-preview": {
       "canonical_url": "https://www.infoq.com/news/2026/07/remix-3-beta-preview",
       "created_at": "2026-07-28T09:20:48Z",
@@ -3807,6 +3759,12 @@
       "created_at": "2026-07-31T18:59:27Z",
       "status": "scoring_attempted",
       "title": "Terraform Introduces tfpolicy, an HCL-based Policy-as-Code Framework"
+    },
+    "https://www.infoq.com/news/2026/08/agent-framework-harness-ga": {
+      "canonical_url": "https://www.infoq.com/news/2026/08/agent-framework-harness-ga",
+      "created_at": "2026-08-03T13:29:05Z",
+      "status": "scoring_attempted",
+      "title": "Microsoft Agent Framework Harness and Hosted Agents Reach General Availability"
     },
     "https://www.infoq.com/news/2026/08/aws-builder-sandbox": {
       "canonical_url": "https://www.infoq.com/news/2026/08/aws-builder-sandbox",
@@ -3838,11 +3796,11 @@
       "status": "scoring_attempted",
       "title": "HashiCorp Ships Public Beta of Vault Kubernetes Key Management"
     },
-    "https://www.infoq.com/podcasts/rethinking-data-client-event-sourcing": {
-      "canonical_url": "https://www.infoq.com/podcasts/rethinking-data-client-event-sourcing",
-      "created_at": "2026-07-27T13:29:03Z",
+    "https://www.infoq.com/podcasts/feature-evolution-performance-transition-endive": {
+      "canonical_url": "https://www.infoq.com/podcasts/feature-evolution-performance-transition-endive",
+      "created_at": "2026-08-03T13:29:05Z",
       "status": "scoring_attempted",
-      "title": "Podcast: Rethinking Data: Moving From the Traditional Three-Tier Web Stack to Client-Side Event Sourcing"
+      "title": "Podcast: WebAssembly on the JVM: Feature Evolution, Performance, and the Transition to Endive"
     },
     "https://www.infoq.com/presentations/agentic-compute": {
       "canonical_url": "https://www.infoq.com/presentations/agentic-compute",
@@ -4024,12 +3982,6 @@
       "status": "scoring_attempted",
       "title": "AI poster wins Ohio State Fair contest"
     },
-    "https://www.omgubuntu.co.uk/2026/07/chrome-arm64-linux-available": {
-      "canonical_url": "https://www.omgubuntu.co.uk/2026/07/chrome-arm64-linux-available",
-      "created_at": "2026-07-27T13:29:03Z",
-      "status": "scoring_attempted",
-      "title": "Google Chrome Arrives on ARM64 Linux, Widevine DRM Included"
-    },
     "https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731": {
       "canonical_url": "https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731",
       "created_at": "2026-07-31T16:01:59Z",
@@ -4065,12 +4017,6 @@
       "created_at": "2026-07-29T13:27:14Z",
       "status": "scoring_attempted",
       "title": "Artists are lawyering up against AI slop, and some are even winning"
-    },
-    "https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity": {
-      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity",
-      "created_at": "2026-07-27T13:29:03Z",
-      "status": "scoring_attempted",
-      "title": "Nvidia, Microsoft launch open AI security alliance \u2014 without OpenAI, Google, or Anthropic"
     },
     "https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies": {
       "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies",
@@ -4167,6 +4113,12 @@
       "created_at": "2026-08-02T20:04:15Z",
       "status": "scoring_attempted",
       "title": "Fender\u2019s CEO seems to think your bandmates are just analog AI"
+    },
+    "https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai": {
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai",
+      "created_at": "2026-08-03T13:29:05Z",
+      "status": "scoring_attempted",
+      "title": "China&#8217;s Alibaba takes another swipe at America\u2019s AI supremacy"
     },
     "https://www.theverge.com/entertainment/971285/sdcc-2026-trailers-neuromancer-blade-runner-carrie": {
       "canonical_url": "https://www.theverge.com/entertainment/971285/sdcc-2026-trailers-neuromancer-blade-runner-carrie",
@@ -4287,6 +4239,12 @@
       "created_at": "2026-07-28T16:04:16Z",
       "status": "scoring_attempted",
       "title": "4GB graphics cards are back"
+    },
+    "https://www.theverge.com/games/973166/big-walk-review": {
+      "canonical_url": "https://www.theverge.com/games/973166/big-walk-review",
+      "created_at": "2026-08-03T13:29:05Z",
+      "status": "scoring_attempted",
+      "title": "Big Walk is like co-op Breath of the Wild"
     },
     "https://www.theverge.com/games/973173/asus-rog-rtx-5080-price-hike-best-buy": {
       "canonical_url": "https://www.theverge.com/games/973173/asus-rog-rtx-5080-price-hike-best-buy",
@@ -4522,6 +4480,12 @@
       "status": "scoring_attempted",
       "title": "Pixel 11 specs and price leak with no surprises"
     },
+    "https://www.theverge.com/tech/974377/lenovo-googlebook-google-image-leaks-laptops": {
+      "canonical_url": "https://www.theverge.com/tech/974377/lenovo-googlebook-google-image-leaks-laptops",
+      "created_at": "2026-08-03T13:29:05Z",
+      "status": "scoring_attempted",
+      "title": "Lenovo Googlebook leaks reveal a laptop and 2-in-1 tablet"
+    },
     "https://www.theverge.com/transportation/972569/ferrari-luce-ev-sales": {
       "canonical_url": "https://www.theverge.com/transportation/972569/ferrari-luce-ev-sales",
       "created_at": "2026-07-29T15:29:15Z",
@@ -4684,12 +4648,6 @@
       "status": "scoring_attempted",
       "title": "This AI Assistant Wants to Make Up for Your Boyfriend\u2019s Incompetence"
     },
-    "https://www.wired.com/story/this-is-donald-trumps-ai-brain-trust": {
-      "canonical_url": "https://www.wired.com/story/this-is-donald-trumps-ai-brain-trust",
-      "created_at": "2026-07-27T10:37:44Z",
-      "status": "scoring_attempted",
-      "title": "This Is Donald Trump\u2019s AI Brain Trust"
-    },
     "https://www.wsj.com/finance/investing/situational-awareness-down-67-in-july-in-ai-stock-rout-cd19901f": {
       "canonical_url": "https://www.wsj.com/finance/investing/situational-awareness-down-67-in-july-in-ai-stock-rout-cd19901f",
       "created_at": "2026-07-31T15:36:29Z",
@@ -4707,12 +4665,6 @@
       "created_at": "2026-08-01T23:12:08Z",
       "status": "scoring_attempted",
       "title": "\"Everyone Has Been Sold a Lie\" on AI"
-    },
-    "https://xcancel.com/HedgieMarkets/status/2081534588485296565": {
-      "canonical_url": "https://xcancel.com/HedgieMarkets/status/2081534588485296565",
-      "created_at": "2026-07-27T13:29:03Z",
-      "status": "scoring_attempted",
-      "title": "AI companies are shredding rare books"
     },
     "https://zachholman.com/posts/cold-email": {
       "canonical_url": "https://zachholman.com/posts/cold-email",
