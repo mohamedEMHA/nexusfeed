@@ -185,36 +185,6 @@
         }
       }
     },
-    "328ede268c90c601e3ad079c79ce34b12cc12618cc51bc6b8b165c160fd828e1": {
-      "created_at": "2026-08-03T00:12:53Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1.0,
-              "impact_score": 2.5,
-              "index": 4,
-              "novelty_score": 3.0,
-              "reason": "High novelty (new model release), strong impact (all devs), fresh enough (3h), and Tier A source.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "Thinking Machines Lab Releases Inkling-Small: A 276B Total, 12B Active Open Weights Multimodal MoE Model",
-              "total_score": 8.0
-            }
-          ],
-          "best_index": 4,
-          "best_score": 8.0,
-          "recommendation": "SKIP",
-          "social_posts": {
-            "facebook": "",
-            "telegram": "",
-            "threads": "",
-            "twitter": ""
-          }
-        }
-      }
-    },
     "419ae8b6281ef1ecf935f187525145ba1df667be0493e54ce9e44b2277af31b4": {
       "created_at": "2026-08-03T10:37:30Z",
       "payload": {
@@ -717,38 +687,6 @@
         }
       }
     },
-    "7e53eaf3bc2b436129ddde0becc06fe64545f1e45277f8f506d01e6db8142012": {
-      "created_at": "2026-08-03T02:27:36Z",
-      "payload": {
-        "prompt_version": "cerebras-scoring-v1",
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 2.5,
-              "index": 0,
-              "novelty_score": 3.0,
-              "reason": "New neurosymbolic search model release with strong benchmark results and broad e-commerce relevance.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "Onton Releases Ontology 1: A Neurosymbolic Search Model That is 2.7x More Accurate than the World\u2019s Best E-commerce Search Engines",
-              "total_score": 9.0
-            }
-          ],
-          "best_index": 0,
-          "best_score": 9.0,
-          "recommendation": "POST_NOW",
-          "social_posts": {
-            "facebook": "Onton just shipped Ontology 1, a neurosymbolic search model that crushes the competition in e-commerce benchmarks. Independent LLM judges scored it 63% precision@10 versus 54.3% for Google\u2019s best. Early users see 40% higher conversion rates. Link: https://www.marktechpost.com/2026/08/02/onton-releases-ontology-1-a-neurosymbolic-search-model/",
-            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Onton Releases Ontology 1: A Neurosymbolic Search Model That is 2.7x More Accurate than the World\u2019s Best E-commerce Search Engines*\n\nOnton launched Ontology 1, a neurosymbolic model for conversational and multimodal product search. Benchmarked on 90 queries by three independent LLM judges, it achieved 0.630 precision@10 versus 0.543 for Google\u2019s best.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (Tier A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/08/02/onton-releases-ontology-1-a-neurosymbolic-search-model/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-            "threads": "Onton\u2019s Ontology 1, a neurosymbolic search model, beats Google\u2019s best e-commerce search by 27% in precision@10 benchmarks. Early adopters report 40% higher conversion rates. The model handles conversational and multimodal queries out of the box.\n\nhttps://www.marktechpost.com/2026/08/02/onton-releases-ontology-1-a-neurosymbolic-search-model/",
-            "twitter": "Onton\u2019s Ontology 1, a neurosymbolic search model, outperforms Google and others by 27% in e-commerce benchmarks. Early adopters report 40% higher conversion rates in A/B tests.\n\nhttps://www.marktechpost.com/2026/08/02/onton-releases-ontology-1-a-neurosymbolic-search-model/"
-          }
-        },
-        "social_media_rules": []
-      }
-    },
     "8c83e61832fd9915a0dbc70610d0348d46f6e388b1ddfbc88a263e574351655a": {
       "created_at": "2026-08-03T13:29:05Z",
       "payload": {
@@ -1051,6 +989,31 @@
             "threads": "Ukraine\u2019s military now fields 50,000 drones upgraded with US AI for precision kamikaze strikes and coordinated swarm attacks. The systems process visual data in flight to adjust targets mid-mission, a capability that could redefine drone warfare.\n\nhttps://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks/",
             "twitter": "Ukraine deploys 50,000 AI-upgraded drones for kamikaze strikes and swarm tactics. Early tests show precision gains in contested zones.\n\nhttps://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks/"
           }
+        }
+      }
+    },
+    "ae303c03a2856a08010d9422e16ab2b6fc5386802d8c86499828d237bcda86fb": {
+      "created_at": "2026-08-04T03:41:45Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 0.5,
+              "impact_score": 0.5,
+              "index": 1,
+              "novelty_score": 0.2,
+              "reason": "Article is a recap of a 1950 short story and triggers multiple red flags.",
+              "red_flag": true,
+              "red_flag_reason": "recap",
+              "source_score": 0.5,
+              "title": "There Will Come Soft Rains (1950) [pdf]",
+              "total_score": 1.7
+            }
+          ],
+          "best_index": 1,
+          "best_score": 0.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
         }
       }
     },
@@ -2146,12 +2109,6 @@
       "status": "scoring_attempted",
       "title": "Harmony Explained: Progress Towards a Scientific Theory of Music (2012)"
     },
-    "https://arxiv.org/abs/2607.05283": {
-      "canonical_url": "https://arxiv.org/abs/2607.05283",
-      "created_at": "2026-07-28T03:40:40Z",
-      "status": "scoring_attempted",
-      "title": "The Burau representation of the braid group is faithful for n = 4"
-    },
     "https://arxiv.org/abs/2607.20349": {
       "canonical_url": "https://arxiv.org/abs/2607.20349",
       "created_at": "2026-08-02T11:44:01Z",
@@ -2740,12 +2697,6 @@
       "status": "scoring_attempted",
       "title": "What's the largest software project AI can complete on its own?"
     },
-    "https://fermisense.com/when-machines-take-the-wheel": {
-      "canonical_url": "https://fermisense.com/when-machines-take-the-wheel",
-      "created_at": "2026-07-28T03:40:40Z",
-      "status": "scoring_attempted",
-      "title": "A $500 RL fine-tune of a 9B open model beat frontier models on catalog review"
-    },
     "https://fletch.sh/blog/git-worktrees-vs-clones-for-ai-agents": {
       "canonical_url": "https://fletch.sh/blog/git-worktrees-vs-clones-for-ai-agents",
       "created_at": "2026-07-30T15:21:40Z",
@@ -2805,12 +2756,6 @@
       "created_at": "2026-08-02T22:10:35Z",
       "status": "scoring_attempted",
       "title": "Show HN: Make your Framework 12 sound like a creaky door"
-    },
-    "https://github.com/FrigadeHQ/yap": {
-      "canonical_url": "https://github.com/FrigadeHQ/yap",
-      "created_at": "2026-07-28T03:40:40Z",
-      "status": "scoring_attempted",
-      "title": "Show HN: Yap \u2013 OSS on-device voice dictation for macOS with no model to download"
     },
     "https://github.com/LukeTandjung/base-gpui": {
       "canonical_url": "https://github.com/LukeTandjung/base-gpui",
@@ -2998,12 +2943,6 @@
       "status": "scoring_attempted",
       "title": "The OlmoEarth Platform: Geospatial inference at planetary scale"
     },
-    "https://jacob.gold/posts/residential-proxies-are-a-national-security-threat": {
-      "canonical_url": "https://jacob.gold/posts/residential-proxies-are-a-national-security-threat",
-      "created_at": "2026-07-28T03:40:40Z",
-      "status": "scoring_attempted",
-      "title": "Residential Proxies Are a National Security Threat"
-    },
     "https://jcgt.org/published/0015/02/01": {
       "canonical_url": "https://jcgt.org/published/0015/02/01",
       "created_at": "2026-07-29T13:27:14Z",
@@ -3082,12 +3021,6 @@
       "status": "scoring_attempted",
       "title": "Show HN: What should the GUI for AI agents look like?"
     },
-    "https://matthewsaltz.com/blog/using-an-open-model-feels-surprisingly-good": {
-      "canonical_url": "https://matthewsaltz.com/blog/using-an-open-model-feels-surprisingly-good",
-      "created_at": "2026-07-28T03:40:40Z",
-      "status": "scoring_attempted",
-      "title": "Using an open model feels surprisingly good"
-    },
     "https://media.ccc.de/v/emf2026-74-1-using-the-railway-network-as-a-flatbed-scanner": {
       "canonical_url": "https://media.ccc.de/v/emf2026-74-1-using-the-railway-network-as-a-flatbed-scanner",
       "created_at": "2026-07-31T20:25:14Z",
@@ -3159,12 +3092,6 @@
       "created_at": "2026-07-30T06:10:27Z",
       "status": "scoring_attempted",
       "title": "1,741 \"informed\" consents with one click? GDPR complaint filed"
-    },
-    "https://nypost.com/2026/07/26/us-news/netflix-exec-goes-ballistic-after-being-fired-for-stunning-trust-exercise-confession-at-retreat-suit": {
-      "canonical_url": "https://nypost.com/2026/07/26/us-news/netflix-exec-goes-ballistic-after-being-fired-for-stunning-trust-exercise-confession-at-retreat-suit",
-      "created_at": "2026-07-28T03:40:40Z",
-      "status": "scoring_attempted",
-      "title": "Netflix employee fired for sharing personal details in retreat trust exercise"
     },
     "https://octanejs.dev": {
       "canonical_url": "https://octanejs.dev",
@@ -3309,12 +3236,6 @@
       "created_at": "2026-07-28T13:16:41Z",
       "status": "scoring_attempted",
       "title": "Show HN: Open-source Cloudflare deployed agent native task management and wiki"
-    },
-    "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai": {
-      "canonical_url": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai",
-      "created_at": "2026-07-28T03:40:40Z",
-      "status": "scoring_attempted",
-      "title": "Anthropic\u2019s Dario Amodei responds: doesn\u2019t oppose open-weight models, but fears Chinese AI"
     },
     "https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing": {
       "canonical_url": "https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing",
@@ -3669,6 +3590,12 @@
       "created_at": "2026-07-28T17:43:13Z",
       "status": "scoring_attempted",
       "title": "Una Watch: Garmin watch competitor but repairable, open ecosystem and USB-C"
+    },
+    "https://users.wpi.edu/~zrbutzke/Docs/BradburyStories(1).pdf": {
+      "canonical_url": "https://users.wpi.edu/~zrbutzke/Docs/BradburyStories(1).pdf",
+      "created_at": "2026-08-04T03:41:45Z",
+      "status": "scoring_attempted",
+      "title": "There Will Come Soft Rains (1950) [pdf]"
     },
     "https://usetokenless.com": {
       "canonical_url": "https://usetokenless.com",
