@@ -674,36 +674,6 @@
         }
       }
     },
-    "60a60ac2031f2d5777778e465389d2f7c72eaefdf20ba18440ed9c134f1184fa": {
-      "created_at": "2026-08-03T21:13:20Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1.5,
-              "impact_score": 3,
-              "index": 6,
-              "novelty_score": 2.5,
-              "reason": "High impact and novelty with fresh source, but headline lacks 'how to' or 'top' red flags.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "An AI-supervised remote exam went so badly that 58,000 students must retake it",
-              "total_score": 8.5
-            }
-          ],
-          "best_index": 6,
-          "best_score": 8.5,
-          "recommendation": "POST_NOW",
-          "social_posts": {
-            "facebook": "A remote exam supervised by AI went catastrophically wrong. False positives triggered mass re-tests after top scores surged 5x. The failure highlights risks of automated proctoring in high-stakes testing.\n\nLink: https://arstechnica.com/culture/2026/08/an-ai-supervised-remote-exam-went-so-badly-that-58000-students-must-retake-it/",
-            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *An AI-supervised remote exam went so badly that 58,000 students must retake it*\n\nA remote exam supervised by AI failed so severely that 58,000 students must retake it. False positives surged, causing top scores to jump 5x.\n\n\ud83c\udfdb\ufe0f Source: Ars Technica (Tier A)\n\u23f0 Published: 2 hours ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://arstechnica.com/culture/2026/08/an-ai-supervised-remote-exam-went-so-badly-that-58000-students-must-retake-it/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-            "threads": "An AI proctoring system\u2019s false positives forced 58,000 students to retake exams after top scores spiked 5x. The incident exposes flaws in automated exam monitoring.\n\nhttps://arstechnica.com/culture/2026/08/an-ai-supervised-remote-exam-went-so-badly-that-58000-students-must-retake-it/",
-            "twitter": "An AI proctoring system failed so badly 58,000 students must retake exams. False positives spiked, top scores jumped 5x.\n\nhttps://arstechnica.com/culture/2026/08/an-ai-supervised-remote-exam-went-so-badly-that-58000-students-must-retake-it/"
-          }
-        }
-      }
-    },
     "62b6837d4ff1d1c2f823d7f057e63bf066b1656ceac2c2511cf7dc19f23786c4": {
       "created_at": "2026-08-03T22:18:34Z",
       "payload": {
@@ -793,31 +763,6 @@
             "threads": "Reflex open-sourced XY, a Python charting library that moves rendering to Rust and WebGL2. It renders 100M points in 0.08s and exports 10M-point scatter plots at 258 KiB. That\u2019s not just fast\u2014it\u2019s practical.\n\nhttps://www.marktechpost.com/2026/08/04/reflex-open-sources-xy/",
             "twitter": "Reflex just open-sourced XY, a Rust-backed Python charting library that renders 100M points in 0.08s and keeps interactive scatter plots under 258 KiB.\n\nhttps://www.marktechpost.com/2026/08/04/reflex-open-sources-xy/"
           }
-        }
-      }
-    },
-    "671be022abf8c69301a371d8e31fef781484b7473bbbed36c33ff6f408e39de5": {
-      "created_at": "2026-08-03T21:13:20Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1.5,
-              "impact_score": 2.5,
-              "index": 1,
-              "novelty_score": 2.5,
-              "reason": "Industry move with broad implications for cloud-native development and model decoupling.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "AWS is helping vibe-coding startup Superblocks, and the implications are big",
-              "total_score": 8.0
-            }
-          ],
-          "best_index": 1,
-          "best_score": 8.0,
-          "recommendation": "SKIP",
-          "social_posts": {}
         }
       }
     },
@@ -990,31 +935,6 @@
         }
       }
     },
-    "770f2b755eabc58dac3b339bd9afd589efc5ff513f1f2d4c4cdb051aefe5964a": {
-      "created_at": "2026-08-03T21:13:20Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1.5,
-              "impact_score": 0.5,
-              "index": 0,
-              "novelty_score": 0.5,
-              "reason": "Article is a recap-style analysis with no novel contribution or actionable insight for engineers/researchers.",
-              "red_flag": true,
-              "red_flag_reason": "recap",
-              "source_score": 0.5,
-              "title": "AI's debt binge can't last, hidden borrowing reaches $1.65T",
-              "total_score": 3.0
-            }
-          ],
-          "best_index": 0,
-          "best_score": 3.0,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
-      }
-    },
     "7f39724ac976971d19f38c3b449bf2436e287ffbc5bd19ea6a4db8082ca5a195": {
       "created_at": "2026-08-04T06:24:03Z",
       "payload": {
@@ -1154,6 +1074,54 @@
           }
         },
         "social_media_rules": []
+      }
+    },
+    "998a978118832deb1f998d755aaf73c5dc689080436298a86b69379173959aef": {
+      "created_at": "2026-08-04T22:16:03Z",
+      "payload": {
+        "candidates": [
+          {
+            "article_url": "https://www.theverge.com/tech/975381/amd-q2-2026-earnings-ai-gaming-ryzen",
+            "index": 3,
+            "published_time_relative": "1 hour ago",
+            "source": "The Verge",
+            "summary": "Driven by demand for AI capacity, AMD's data center revenue more than doubled year-over-year in its latest earnings report, reaching $6.7 billion. That's up from $5.8 billion in Q1, and jumping 107 percent from the $3.2 billion it reported for the same period a year ago. At the same time, AMD's gam...",
+            "tier": "A",
+            "title": "AMD&#8217;s datacenter business is booming while gaming takes a backseat"
+          }
+        ],
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.5,
+              "impact_score": 2.5,
+              "index": 3,
+              "novelty_score": 2.0,
+              "reason": "Industry move with significant revenue shift; fresh but not breaking news, high impact for datacenter-focused devs.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "AMD&#8217;s datacenter business is booming while gaming takes a backseat",
+              "total_score": 7.5
+            }
+          ],
+          "best_index": 3,
+          "best_score": 7.5,
+          "recommendation": "SKIP",
+          "social_posts": {
+            "facebook": "",
+            "telegram": "",
+            "threads": "",
+            "twitter": ""
+          }
+        },
+        "social_media_rules": [
+          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
+          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.",
+          "Use the FULL article title as headline without inventing facts.",
+          "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
+        ]
       }
     },
     "9a76ee697cebd2af28e5474ea9090f806ce30442e56e01df29ab0f87da110cac": {
@@ -1386,6 +1354,55 @@
         ]
       }
     },
+    "bb6b82e11f3580adeb83c2e5435552993c40cd1617d22d7712033bc7f749586f": {
+      "created_at": "2026-08-04T22:16:03Z",
+      "payload": {
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2,
+              "impact_score": 2.5,
+              "index": 0,
+              "novelty_score": 2.5,
+              "reason": "High-impact policy news with fresh timing and strong source tier.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "The White House Is Keeping Its AI Cybersecurity Framework Secret",
+              "total_score": 8.5
+            },
+            {
+              "freshness_score": 2,
+              "impact_score": 1.5,
+              "index": 1,
+              "novelty_score": 2.5,
+              "reason": "Niche security incident report with low-tier source and limited impact.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Security Incident INC-2026-07-28-01 \u2013 UK AI Security Institute [pdf]",
+              "total_score": 6.5
+            }
+          ],
+          "best_index": 0,
+          "best_score": 8.5,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "The Trump administration shared its AI cybersecurity framework with major labs like OpenAI and Anthropic but hasn\u2019t released details to the public. The lack of transparency raises questions about accountability and oversight in AI governance.\n\nLink: https://www.wired.com/story/the-white-house-is-keeping-its-ai-cybersecurity-framework-secret/",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *The White House Is Keeping Its AI Cybersecurity Framework Secret*\n\nThe Trump administration shared its AI cybersecurity framework with OpenAI, Anthropic, and other labs but hasn\u2019t released details to the public.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.wired.com/story/the-white-house-is-keeping-its-ai-cybersecurity-framework-secret/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "The White House briefed OpenAI and Anthropic on its AI cybersecurity framework but hasn\u2019t made it public. This opacity could undermine trust in AI regulation.\n\nhttps://www.wired.com/story/the-white-house-is-keeping-its-ai-cybersecurity-framework-secret/",
+            "twitter": "The White House is keeping its AI cybersecurity framework secret\u2014even after briefing major labs like OpenAI and Anthropic. The public remains in the dark.\n\nhttps://www.wired.com/story/the-white-house-is-keeping-its-ai-cybersecurity-framework-secret/"
+          }
+        },
+        "social_media_rules": [
+          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
+          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.",
+          "Use the FULL article title as headline without inventing facts.",
+          "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
+        ]
+      }
+    },
     "bb6d55722cc8e75c403edc6e1388153b33da4eb31d5a4fd366ba16cc4a144814": {
       "created_at": "2026-08-04T06:24:03Z",
       "payload": {
@@ -1514,6 +1531,36 @@
             "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *The Warp Agent CLI*\n\nWarp\u2019s new CLI agent translates natural language into terminal commands, automating repetitive workflows for developers.\n\n\ud83c\udfdb\ufe0f Source: Warp Blog (Tier A)\n\u23f0 Published: 2 hours ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://www.warp.dev/blog/introducing-the-warp-agent-cli-coding-agent\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
             "threads": "Warp\u2019s Agent CLI bridges the gap between natural language and terminal commands. It\u2019s a practical tool for developers tired of memorizing CLI syntax.\n\nhttps://www.warp.dev/blog/introducing-the-warp-agent-cli-coding-agent",
             "twitter": "Warp just launched an agent CLI that turns natural language into terminal commands. Early users report it cuts repetitive task time by 40%.\n\nhttps://www.warp.dev/blog/introducing-the-warp-agent-cli-coding-agent"
+          }
+        }
+      }
+    },
+    "bfae811b7b3ceac43b0bd4198daf6e9e7d4d481773e8f5827743e8f4ecbb2c0a": {
+      "created_at": "2026-08-04T22:16:03Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.5,
+              "impact_score": 3.0,
+              "index": 12,
+              "novelty_score": 2.5,
+              "reason": "Research-level industry move with high impact and freshness from Tier S source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 2.0,
+              "title": "Third-party cyber evaluations involving OpenAI models",
+              "total_score": 9.0
+            }
+          ],
+          "best_index": 12,
+          "best_score": 9.0,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "OpenAI has published details on recent third-party cybersecurity evaluations of its models, highlighting gaps in current testing frameworks and introducing new safeguards. The findings underscore the need for stricter evaluation protocols in AI security.\n\nLink: https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Third-party cyber evaluations involving OpenAI models*\n\nOpenAI details third-party cybersecurity evaluations of its models, identifying gaps in current testing frameworks and introducing new safeguards to strengthen AI security.\n\n\ud83c\udfdb\ufe0f Source: OpenAI (Tier S)\n\u23f0 Published: 3 hours ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://openai.com/index/third-party-cyber-evaluations-involving-openai-models\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "OpenAI\u2019s latest disclosure on third-party cyber evaluations reveals critical gaps in AI security testing and introduces new safeguards. The report suggests current frameworks may be insufficient for high-stakes deployments.\n\nhttps://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+            "twitter": "OpenAI details third-party cyber evaluations and new safeguards to strengthen AI model testing. Early insights reveal critical gaps in current security frameworks.\n\nhttps://openai.com/index/third-party-cyber-evaluations-involving-openai-models"
           }
         }
       }
@@ -1807,26 +1854,26 @@
         }
       }
     },
-    "d760a90a301bd2ec21dae1289cef1db88ee0d837d9d8147c3038dbe75f64d2a5": {
-      "created_at": "2026-08-03T21:13:20Z",
+    "dd3d0c8ef3c561d641448b4258c02bf0b00ca98fc7d339e02bca1f621e4fa86c": {
+      "created_at": "2026-08-04T22:16:03Z",
       "payload": {
         "response_schema": {
           "articles": [
             {
-              "freshness_score": 2.0,
-              "impact_score": 2.5,
+              "freshness_score": 1.5,
+              "impact_score": 0.5,
               "index": 2,
-              "novelty_score": 0.5,
-              "reason": "Government incident update with high impact but low novelty and source tier.",
+              "novelty_score": 1.5,
+              "reason": "Industry move with low impact and freshness, but not a red flag.",
               "red_flag": false,
               "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "DDoS against Norwegian government IT infrastructure \u2013 status",
-              "total_score": 5.5
+              "source_score": 1.5,
+              "title": "SpaceX has bought $329M worth of Tesla Megapacks so far this year",
+              "total_score": 5.0
             }
           ],
           "best_index": 2,
-          "best_score": 5.5,
+          "best_score": 5.0,
           "recommendation": "SKIP",
           "social_posts": {}
         }
@@ -2036,15 +2083,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Elon Musk's xAI Challenges Grok App Ban\nxAI is taking legal action against Minnesota's ban on Grok's nudifying app, citing constitutional concerns.\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #Grok #Regulation\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Elon Musk's xAI is suing to overturn Minnesota's ban on Grok's nudifying app, claiming it's an unconstitutional move, @elonmusk #AIregulation",
         "twitter": "Elon Musk's xAI is taking legal action to challenge Minnesota's ban on Grok's nudifying app, @elonmusk claims it's unconstitutional #AIregulation #Grok"
-      }
-    },
-    "3c1094d49966cf99538cced1f16b0149c40e883b781043df9a260d8bb2420269": {
-      "created_at": "2026-07-28T21:34:23Z",
-      "payload": {
-        "facebook": "New data from Google suggests that despite the hype surrounding AI, most workers are not automating themselves away. The analysis of 15 million real AI interactions found that most tasks at most jobs are unaffected. #AI #Automation #FutureOfWork",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 AI's Real-World Impact on Jobs\nGoogle's analysis of 15 million AI interactions reveals that most tasks at most jobs are unaffected by automation.\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9.0/10\n#AI #Automation #FutureOfWork\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Google's analysis of 15 million AI interactions shows that most tasks at most jobs are unaffected by automation, a finding that contradicts some of the more dire predictions about AI's impact on work @Google #AI",
-        "twitter": "Google's analysis of 15 million AI interactions reveals most tasks at most jobs are unaffected by automation @Google #AI"
       }
     },
     "3d223514c87994ee7272d5d888e283da45609895f6e93efd70f7e9d337ec4050": {
@@ -2276,12 +2314,6 @@
       "created_at": "2026-07-30T20:07:03Z",
       "status": "scoring_attempted",
       "title": "Chrome may get faster updates with no restart required"
-    },
-    "https://arstechnica.com/ai/2026/07/despite-ai-hype-googles-data-shows-workers-arent-automating-themselves-away": {
-      "canonical_url": "https://arstechnica.com/ai/2026/07/despite-ai-hype-googles-data-shows-workers-arent-automating-themselves-away",
-      "created_at": "2026-07-28T21:34:23Z",
-      "status": "scoring_attempted",
-      "title": "Despite AI hype, Google's data shows workers aren't automating themselves away"
     },
     "https://arstechnica.com/ai/2026/07/google-earth-releases-swiftly-retracts-ai-feature-to-make-fake-satellite-images": {
       "canonical_url": "https://arstechnica.com/ai/2026/07/google-earth-releases-swiftly-retracts-ai-feature-to-make-fake-satellite-images",
@@ -3051,6 +3083,12 @@
       "status": "scoring_attempted",
       "title": "ZX Spectrum System Tour: Text Mode \u2013 Bumbershoot Software"
     },
+    "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf": {
+      "canonical_url": "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf",
+      "created_at": "2026-08-04T22:16:03Z",
+      "status": "scoring_attempted",
+      "title": "Security Incident INC-2026-07-28-01 \u2013 UK AI Security Institute [pdf]"
+    },
     "https://christianselig.com/2026/07/iphone-air-review": {
       "canonical_url": "https://christianselig.com/2026/07/iphone-air-review",
       "created_at": "2026-07-30T09:05:20Z",
@@ -3272,12 +3310,6 @@
       "created_at": "2026-07-30T15:21:40Z",
       "status": "scoring_attempted",
       "title": "SDL_GPU minimal, single-header, high-performance 2D graphics painting library"
-    },
-    "https://github.com/openai/codex-security": {
-      "canonical_url": "https://github.com/openai/codex-security",
-      "created_at": "2026-07-28T21:34:23Z",
-      "status": "scoring_attempted",
-      "title": "OpenAI just open-sourced Codex Security"
     },
     "https://github.com/paoloanzn/microcodex": {
       "canonical_url": "https://github.com/paoloanzn/microcodex",
@@ -3579,6 +3611,12 @@
       "status": "scoring_attempted",
       "title": "Ten advances in mathematics and theoretical computer science"
     },
+    "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models": {
+      "canonical_url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+      "created_at": "2026-08-04T22:16:03Z",
+      "status": "scoring_attempted",
+      "title": "Third-party cyber evaluations involving OpenAI models"
+    },
     "https://openai.com/index/unive": {
       "canonical_url": "https://openai.com/index/unive",
       "created_at": "2026-07-31T09:39:05Z",
@@ -3663,23 +3701,11 @@
       "status": "scoring_attempted",
       "title": "More Tailscale tricks for your jailbroken Kindle"
     },
-    "https://techcrunch.com/2026/07/28/bot-detection-startup-spur-nabs-200m-from-insight": {
-      "canonical_url": "https://techcrunch.com/2026/07/28/bot-detection-startup-spur-nabs-200m-from-insight",
-      "created_at": "2026-07-28T21:34:23Z",
-      "status": "scoring_attempted",
-      "title": "Bot-detection startup Spur nabs $200M from Insight"
-    },
     "https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents": {
       "canonical_url": "https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents",
       "created_at": "2026-07-29T02:12:16Z",
       "status": "scoring_attempted",
       "title": "Cyera agrees to acquire Oasis Security for $1B to safeguard proliferating AI agents"
-    },
-    "https://techcrunch.com/2026/07/28/mcp-startup-runlayer-accuses-rippling-of-stealing-its-product-idea": {
-      "canonical_url": "https://techcrunch.com/2026/07/28/mcp-startup-runlayer-accuses-rippling-of-stealing-its-product-idea",
-      "created_at": "2026-07-28T21:34:23Z",
-      "status": "scoring_attempted",
-      "title": "MCP startup Runlayer accuses Rippling of stealing its product idea"
     },
     "https://techcrunch.com/2026/07/29/as-ai-content-floods-the-internet-pangram-raises-9m-to-detect-it": {
       "canonical_url": "https://techcrunch.com/2026/07/29/as-ai-content-floods-the-internet-pangram-raises-9m-to-detect-it",
@@ -3998,6 +4024,12 @@
       "created_at": "2026-08-04T20:57:49Z",
       "status": "scoring_attempted",
       "title": "Open-weight AI models are catching up to the frontier. The safety gap remains."
+    },
+    "https://techcrunch.com/2026/08/04/spacex-has-bought-329m-worth-of-tesla-megapacks-so-far-this-year": {
+      "canonical_url": "https://techcrunch.com/2026/08/04/spacex-has-bought-329m-worth-of-tesla-megapacks-so-far-this-year",
+      "created_at": "2026-08-04T22:16:03Z",
+      "status": "scoring_attempted",
+      "title": "SpaceX has bought $329M worth of Tesla Megapacks so far this year"
     },
     "https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort": {
       "canonical_url": "https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort",
@@ -4863,12 +4895,6 @@
       "status": "scoring_attempted",
       "title": "SpaceX has more neocloud revenue"
     },
-    "https://www.theverge.com/tech/972209/ebay-cyberstalking-harassment-settlement": {
-      "canonical_url": "https://www.theverge.com/tech/972209/ebay-cyberstalking-harassment-settlement",
-      "created_at": "2026-07-28T21:34:23Z",
-      "status": "scoring_attempted",
-      "title": "eBay&#8217;s bizarre cyberstalking saga ends with a $56 million settlement"
-    },
     "https://www.theverge.com/tech/972254/nothing-ear-3a-earbuds-review": {
       "canonical_url": "https://www.theverge.com/tech/972254/nothing-ear-3a-earbuds-review",
       "created_at": "2026-07-29T13:27:14Z",
@@ -5012,6 +5038,12 @@
       "created_at": "2026-08-04T18:02:33Z",
       "status": "scoring_attempted",
       "title": "How an OpenAI influencer trip backfired"
+    },
+    "https://www.theverge.com/tech/975381/amd-q2-2026-earnings-ai-gaming-ryzen": {
+      "canonical_url": "https://www.theverge.com/tech/975381/amd-q2-2026-earnings-ai-gaming-ryzen",
+      "created_at": "2026-08-04T22:16:03Z",
+      "status": "scoring_attempted",
+      "title": "AMD&#8217;s datacenter business is booming while gaming takes a backseat"
     },
     "https://www.theverge.com/transportation/972569/ferrari-luce-ev-sales": {
       "canonical_url": "https://www.theverge.com/transportation/972569/ferrari-luce-ev-sales",
@@ -5204,6 +5236,12 @@
       "created_at": "2026-07-30T15:50:29Z",
       "status": "scoring_attempted",
       "title": "The New Friend AI Pendant Can Now Talk Back to You"
+    },
+    "https://www.wired.com/story/the-white-house-is-keeping-its-ai-cybersecurity-framework-secret": {
+      "canonical_url": "https://www.wired.com/story/the-white-house-is-keeping-its-ai-cybersecurity-framework-secret",
+      "created_at": "2026-08-04T22:16:03Z",
+      "status": "scoring_attempted",
+      "title": "The White House Is Keeping Its AI Cybersecurity Framework Secret"
     },
     "https://www.wired.com/story/this-ai-assistants-whole-pitch-is-making-up-for-your-boyfriends-incompetence": {
       "canonical_url": "https://www.wired.com/story/this-ai-assistants-whole-pitch-is-making-up-for-your-boyfriends-incompetence",
