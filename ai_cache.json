@@ -102,31 +102,6 @@
         }
       }
     },
-    "0929b25bbe687c3d5b6461f2bb8c99224d64938c88ad4618efce11f8711d0d75": {
-      "created_at": "2026-08-03T16:03:52Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 2.5,
-              "index": 3,
-              "novelty_score": 0.5,
-              "reason": "Opinion piece with low novelty and source tier.",
-              "red_flag": true,
-              "red_flag_reason": "opinion",
-              "source_score": 0.5,
-              "title": "Devtools must be open source",
-              "total_score": 5.5
-            }
-          ],
-          "best_index": 3,
-          "best_score": 5.5,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
-      }
-    },
     "16c0c34acfa937f6361aad4119c83843286e5f2b2ed396ace02a6b180dcf3579": {
       "created_at": "2026-08-04T15:54:37Z",
       "payload": {
@@ -479,39 +454,6 @@
         }
       }
     },
-    "5a22df99da88a24d2b66798bc4606a2eab905224ae4d14a64b4a9f91297b3886": {
-      "created_at": "2026-08-03T16:03:52Z",
-      "payload": {
-        "candidates": [],
-        "prompt_version": "cerebras-scoring-v1",
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 0.5,
-              "index": 2,
-              "novelty_score": 0.2,
-              "reason": "Article is a recap of box office performance, triggering 'recap' red flag.",
-              "red_flag": true,
-              "red_flag_reason": "recap",
-              "source_score": 1.5,
-              "title": "Spider-Man and The Odyssey are splitting up IMAX screens after a record-breaking weekend",
-              "total_score": 4.2
-            }
-          ],
-          "best_index": 2,
-          "best_score": 0.0,
-          "recommendation": "SKIP",
-          "social_posts": {
-            "facebook": "",
-            "telegram": "",
-            "threads": "",
-            "twitter": ""
-          }
-        },
-        "social_media_rules": []
-      }
-    },
     "60a60ac2031f2d5777778e465389d2f7c72eaefdf20ba18440ed9c134f1184fa": {
       "created_at": "2026-08-03T21:13:20Z",
       "payload": {
@@ -795,6 +737,31 @@
             "threads": "Y Combinator open-sourced QM, an MIT-licensed multiplayer agent harness that runs in Slack and the web. It\u2019s already used internally for tasks like accounting, legal, and engineering, with per-room scoped memory and permissions.\n\nhttps://www.marktechpost.com/2026/08/03/y-combinator-open-sources-qm-multiplayer-ai-agent-harness/",
             "twitter": "Y Combinator just open-sourced QM, an MIT-licensed multiplayer agent harness that runs in Slack and the web. It\u2019s already used internally for accounting, legal, and engineering.\n\nhttps://www.marktechpost.com/2026/08/03/y-combinator-open-sources-qm-multiplayer-ai-agent-harness/"
           }
+        }
+      }
+    },
+    "6c183ebf76ee25f21f2f14bbcb2ebf0087e53e6d3c957b5a1878fd0ba0220663": {
+      "created_at": "2026-08-04T16:10:07Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2,
+              "impact_score": 2.5,
+              "index": 1,
+              "novelty_score": 2.5,
+              "reason": "Research-backed framework but contains 'presentation' and 'where and why' phrasing resembling a tutorial.",
+              "red_flag": true,
+              "red_flag_reason": "tutorial",
+              "source_score": 1,
+              "title": "Presentation: The Five Stages of AI Maturity in Engineering Organizations - Where and Why Teams Get Stuck",
+              "total_score": 8.0
+            }
+          ],
+          "best_index": 1,
+          "best_score": 8.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
         }
       }
     },
@@ -1653,6 +1620,31 @@
         ]
       }
     },
+    "cf138a934b3e6532a3221b53d15e644b1f95cbe9c32581910b943006c280c7d8": {
+      "created_at": "2026-08-04T16:10:07Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 0.5,
+              "index": 0,
+              "novelty_score": 1.5,
+              "reason": "Industry move with low impact outside niche, but fresh and from Tier A source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "T-Mobile\u2019s $0-down financing plan bundles taxes and fees",
+              "total_score": 5.5
+            }
+          ],
+          "best_index": 0,
+          "best_score": 5.5,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
     "d760a90a301bd2ec21dae1289cef1db88ee0d837d9d8147c3038dbe75f64d2a5": {
       "created_at": "2026-08-03T21:13:20Z",
       "payload": {
@@ -1673,43 +1665,6 @@
           ],
           "best_index": 2,
           "best_score": 5.5,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
-      }
-    },
-    "d92fa6e89a94ac47ea79f8196ab38a93c504249845a1da4a88f0b1df292bea56": {
-      "created_at": "2026-08-03T16:03:52Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1.5,
-              "impact_score": 1.5,
-              "index": 0,
-              "novelty_score": 2,
-              "reason": "Leadership change in a niche social platform with moderate developer relevance.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "Bluesky\u2019s new CEO wants a big tent, not a bubble",
-              "total_score": 6.5
-            },
-            {
-              "freshness_score": 1.5,
-              "impact_score": 0.5,
-              "index": 1,
-              "novelty_score": 0.2,
-              "reason": "Title matches 'tutorial' red flag.",
-              "red_flag": true,
-              "red_flag_reason": "tutorial",
-              "source_score": 0.5,
-              "title": "Why does Mail app contact iCloud when sending a non-iCloud email?",
-              "total_score": 2.7
-            }
-          ],
-          "best_index": 0,
-          "best_score": 6.5,
           "recommendation": "SKIP",
           "social_posts": {}
         }
@@ -1757,29 +1712,36 @@
         }
       }
     },
-    "e4ef939b44b2f8b34277e07e071f040c38ff4cf46c46c9dd18e418ee54bc2e4a": {
-      "created_at": "2026-08-03T16:03:52Z",
+    "e08e2cc7e3e97553fb0c9ff6752ce9fc14cbc3cb8d9a2c3a74c1bf4d0f267a58": {
+      "created_at": "2026-08-04T16:10:07Z",
       "payload": {
+        "prompt_version": "cerebras-scoring-v1",
         "response_schema": {
           "articles": [
             {
-              "freshness_score": 1.5,
-              "impact_score": 2.5,
-              "index": 4,
-              "novelty_score": 3.0,
-              "reason": "New release with open weights and native audio/video support for a niche but growing tool.",
+              "freshness_score": 2,
+              "impact_score": 1.5,
+              "index": 3,
+              "novelty_score": 2,
+              "reason": "Industry move with fresh launch timing and high source tier, but impact limited to niche HDR tech users.",
               "red_flag": false,
               "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video",
-              "total_score": 7.5
+              "source_score": 1.5,
+              "title": "Samsung\u2019s HDR10 Plus Advanced is launching this month on Prime Video",
+              "total_score": 7
             }
           ],
-          "best_index": 4,
-          "best_score": 7.5,
+          "best_index": 3,
+          "best_score": 7,
           "recommendation": "SKIP",
-          "social_posts": {}
-        }
+          "social_posts": {
+            "facebook": "",
+            "telegram": "",
+            "threads": "",
+            "twitter": ""
+          }
+        },
+        "social_media_rules": []
       }
     },
     "f0eaffaad75019b9921ae6fb404d2f4234085df2617ad601801132379eda9832": {
@@ -2047,15 +2009,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 AI chatbots are outpacing humans in building exploitable trust\nA recent study pitted a person against a Claude agent and found that the AI chatbot was more effective at creating exploitable trust with others.\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9/10\n#AItrust #ArtificialIntelligence #Cybersecurity\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Researchers found that AI chatbots can build exploitable trust more effectively than humans, a concerning discovery with significant implications @Wired, #AItrust",
         "twitter": "AI chatbots are outpacing humans in building exploitable trust, according to new research @Wired, #AItrust"
-      }
-    },
-    "bdc8d459ce8cb8babae17b65e5da06e25f7efc29bce9196a50ae83deb78538cf": {
-      "created_at": "2026-07-28T16:04:16Z",
-      "payload": {
-        "facebook": "The largest US grid operator has announced plans to cut power to large data centers to prevent blackouts, a move that could have significant implications for data center operations and energy management. This change is set to take effect next year. #DataCenter #EnergyManagement #GridOperations",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Data centers face power cuts to prevent US grid blackouts\nThe largest US grid operator will cut power to large data centers to prevent blackouts starting next year.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#DataCenter #EnergyManagement #GridOperations\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "The largest US grid operator will cut power to data centers to prevent blackouts, starting next year, a significant move for the industry @TechCrunch #DataCenter",
-        "twitter": "US data centers may face temporary power cuts to prevent grid blackouts starting next year, says the largest grid operator @TechCrunch #DataCenter #EnergyManagement"
       }
     },
     "cea7712bf77260d6a28cd084e15239086b26cf8e7b044406b482a184918fa177": {
@@ -3074,12 +3027,6 @@
       "status": "scoring_attempted",
       "title": "Show HN: Make your Framework 12 sound like a creaky door"
     },
-    "https://github.com/LukeTandjung/base-gpui": {
-      "canonical_url": "https://github.com/LukeTandjung/base-gpui",
-      "created_at": "2026-07-28T16:04:16Z",
-      "status": "scoring_attempted",
-      "title": "Show HN: Base-GPUI: A GPUI port of Base UI headless components"
-    },
     "https://github.com/MakazhanAlpamys/Soup": {
       "canonical_url": "https://github.com/MakazhanAlpamys/Soup",
       "created_at": "2026-08-04T13:26:57Z",
@@ -3571,12 +3518,6 @@
       "created_at": "2026-07-29T02:12:16Z",
       "status": "scoring_attempted",
       "title": "Cyera agrees to acquire Oasis Security for $1B to safeguard proliferating AI agents"
-    },
-    "https://techcrunch.com/2026/07/28/data-centers-may-face-temporary-power-cuts-to-prevent-blackouts-on-largest-us-grid": {
-      "canonical_url": "https://techcrunch.com/2026/07/28/data-centers-may-face-temporary-power-cuts-to-prevent-blackouts-on-largest-us-grid",
-      "created_at": "2026-07-28T16:04:16Z",
-      "status": "scoring_attempted",
-      "title": "Data centers may face temporary power cuts to prevent blackouts on largest US grid"
     },
     "https://techcrunch.com/2026/07/28/mcp-startup-runlayer-accuses-rippling-of-stealing-its-product-idea": {
       "canonical_url": "https://techcrunch.com/2026/07/28/mcp-startup-runlayer-accuses-rippling-of-stealing-its-product-idea",
@@ -4256,6 +4197,12 @@
       "status": "scoring_attempted",
       "title": "Presentation: Getting Rid of LeetCode Interviews in the World of AI"
     },
+    "https://www.infoq.com/presentations/ai-sdlc-maturity-framework-bottlenecks": {
+      "canonical_url": "https://www.infoq.com/presentations/ai-sdlc-maturity-framework-bottlenecks",
+      "created_at": "2026-08-04T16:10:07Z",
+      "status": "scoring_attempted",
+      "title": "Presentation: The Five Stages of AI Maturity in Engineering Organizations - Where and Why Teams Get Stuck"
+    },
     "https://www.infoq.com/presentations/disaggregation-industrial-systems": {
       "canonical_url": "https://www.infoq.com/presentations/disaggregation-industrial-systems",
       "created_at": "2026-07-30T15:21:40Z",
@@ -4670,17 +4617,17 @@
       "status": "scoring_attempted",
       "title": "Nothing CMF is launching its first open earbuds"
     },
+    "https://www.theverge.com/gadgets/975085/samsung-hdr-10-plus-advanced-prime-video": {
+      "canonical_url": "https://www.theverge.com/gadgets/975085/samsung-hdr-10-plus-advanced-prime-video",
+      "created_at": "2026-08-04T16:10:07Z",
+      "status": "scoring_attempted",
+      "title": "Samsung\u2019s HDR10 Plus Advanced is launching this month on Prime Video"
+    },
     "https://www.theverge.com/games/971660/the-mermaid-mask-review": {
       "canonical_url": "https://www.theverge.com/games/971660/the-mermaid-mask-review",
       "created_at": "2026-08-01T13:56:45Z",
       "status": "scoring_attempted",
       "title": "The Mermaid Mask is a perfect vacation murder mystery"
-    },
-    "https://www.theverge.com/games/971868/asrock-amd-4gb-rx-9050-gpu": {
-      "canonical_url": "https://www.theverge.com/games/971868/asrock-amd-4gb-rx-9050-gpu",
-      "created_at": "2026-07-28T16:04:16Z",
-      "status": "scoring_attempted",
-      "title": "4GB graphics cards are back"
     },
     "https://www.theverge.com/games/973166/big-walk-review": {
       "canonical_url": "https://www.theverge.com/games/973166/big-walk-review",
@@ -4765,12 +4712,6 @@
       "created_at": "2026-07-30T18:44:52Z",
       "status": "scoring_attempted",
       "title": "NASA\u2019s Curiosity rover found a \u2018sea of polygons\u2019 on Mars"
-    },
-    "https://www.theverge.com/streaming/971880/hbo-max-vertical-video-feed-shorts": {
-      "canonical_url": "https://www.theverge.com/streaming/971880/hbo-max-vertical-video-feed-shorts",
-      "created_at": "2026-07-28T16:04:16Z",
-      "status": "scoring_attempted",
-      "title": "HBO Max is putting on vertical shorts"
     },
     "https://www.theverge.com/tech/972063/apple-upgrade-program-no-restricted-mode": {
       "canonical_url": "https://www.theverge.com/tech/972063/apple-upgrade-program-no-restricted-mode",
@@ -4915,6 +4856,12 @@
       "created_at": "2026-08-04T13:26:57Z",
       "status": "scoring_attempted",
       "title": "Apple briefly yanked Telegram from the App Store over CSAM violations"
+    },
+    "https://www.theverge.com/tech/975115/t-mobile-financing-eip-flex-36-plan": {
+      "canonical_url": "https://www.theverge.com/tech/975115/t-mobile-financing-eip-flex-36-plan",
+      "created_at": "2026-08-04T16:10:07Z",
+      "status": "scoring_attempted",
+      "title": "T-Mobile\u2019s $0-down financing plan bundles taxes and fees"
     },
     "https://www.theverge.com/transportation/972569/ferrari-luce-ev-sales": {
       "canonical_url": "https://www.theverge.com/transportation/972569/ferrari-luce-ev-sales",
