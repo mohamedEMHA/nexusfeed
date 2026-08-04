@@ -111,36 +111,6 @@
         }
       }
     },
-    "17e7090aa9c74950393264c0c94a89958b537d0109e34ca7f2436a74e94a5a90": {
-      "created_at": "2026-08-02T23:12:17Z",
-      "payload": {
-        "prompt_version": "cerebras-scoring-v1",
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 0.0,
-              "index": 1,
-              "novelty_score": 0.0,
-              "reason": "Red flag detected: title matches opinion/guide phrasing despite freshness.",
-              "red_flag": true,
-              "red_flag_reason": "title contains 'Chilling Effects' which implies a guide or opinion piece",
-              "source_score": 0.5,
-              "title": "Flock \u2014 Chilling Effects: Long Island's Emerging Open-Air Prison",
-              "total_score": 0.0
-            }
-          ],
-          "best_index": 1,
-          "best_score": 0.0,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        },
-        "social_media_rules": [
-          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
-          "If recommendation is SKIP, return empty strings for all social_posts keys."
-        ]
-      }
-    },
     "1900f5f75f762ad94a631e80c0144dd7d2fff536c3cbb41329f5721da36d0fda": {
       "created_at": "2026-08-03T09:53:53Z",
       "payload": {
@@ -188,6 +158,31 @@
           "Use the FULL article title as headline without inventing facts.",
           "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
         ]
+      }
+    },
+    "1df32e646abbb031add4c6a9d188ce6d0e1888fe7094338dc32d80aeddabc0fd": {
+      "created_at": "2026-08-04T00:08:28Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 0.5,
+              "impact_score": 2.5,
+              "index": 19,
+              "novelty_score": 0.5,
+              "reason": "Title matches red flag 'what is' and scores low on novelty/freshness.",
+              "red_flag": true,
+              "red_flag_reason": "contains 'what is'",
+              "source_score": 0.5,
+              "title": "What's the largest software project AI can complete on its own?",
+              "total_score": 4.0
+            }
+          ],
+          "best_index": 19,
+          "best_score": 0.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
       }
     },
     "328ede268c90c601e3ad079c79ce34b12cc12618cc51bc6b8b165c160fd828e1": {
@@ -250,6 +245,36 @@
           }
         },
         "social_media_rules": []
+      }
+    },
+    "44b1788d2525b92fe99e9a664fd6ff3dd317a89a5fb6da9ca403a696df7f21cf": {
+      "created_at": "2026-08-04T00:08:28Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.5,
+              "index": 1,
+              "novelty_score": 2.0,
+              "reason": "Industry move with high impact on enterprise AI perception, fresh and from Tier A source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "After killer quarter, Palantir CEO Alex Karp calls AI industry \u2018Marxist\u2019",
+              "total_score": 8.0
+            }
+          ],
+          "best_index": 1,
+          "best_score": 8.0,
+          "recommendation": "SKIP",
+          "social_posts": {
+            "facebook": "",
+            "telegram": "",
+            "threads": "",
+            "twitter": ""
+          }
+        }
       }
     },
     "48165c76ee7d7d32c1984cf7717d9ba8178059d29e63fe14c123738c92d071fc": {
@@ -463,31 +488,6 @@
         }
       }
     },
-    "622f35471f56b95db5b63ae31ec0f440451e507331c8efdedaefdaabfe77e39d": {
-      "created_at": "2026-08-02T23:55:11Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 2.5,
-              "index": 1,
-              "novelty_score": 3.0,
-              "reason": "Show HN posts are promotional by design and do not meet editorial standards for novelty or impact.",
-              "red_flag": true,
-              "red_flag_reason": "Show HN",
-              "source_score": 0.5,
-              "title": "Show HN: Mu \u2013 Tools for Agents",
-              "total_score": 8.0
-            }
-          ],
-          "best_index": 1,
-          "best_score": 8.0,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
-      }
-    },
     "62b6837d4ff1d1c2f823d7f057e63bf066b1656ceac2c2511cf7dc19f23786c4": {
       "created_at": "2026-08-03T22:18:34Z",
       "payload": {
@@ -545,6 +545,31 @@
           ],
           "best_index": 6,
           "best_score": 7.5,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
+    "64c184e157e1bca8c4b16f1d1b092faa2cc6911f134b166cbb85db9c653784fe": {
+      "created_at": "2026-08-04T00:08:28Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 0.0,
+              "index": 0,
+              "novelty_score": 0.0,
+              "reason": "Article is a review, not a technical or research-focused piece, and contains a red flag term.",
+              "red_flag": true,
+              "red_flag_reason": "recap",
+              "source_score": 1.5,
+              "title": "The studio behind Pok\u00e9mon struggles to find its voice in Beast of Reincarnation",
+              "total_score": 2.0
+            }
+          ],
+          "best_index": 0,
+          "best_score": 2.0,
           "recommendation": "SKIP",
           "social_posts": {}
         }
@@ -1026,31 +1051,6 @@
             "threads": "Ukraine\u2019s military now fields 50,000 drones upgraded with US AI for precision kamikaze strikes and coordinated swarm attacks. The systems process visual data in flight to adjust targets mid-mission, a capability that could redefine drone warfare.\n\nhttps://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks/",
             "twitter": "Ukraine deploys 50,000 AI-upgraded drones for kamikaze strikes and swarm tactics. Early tests show precision gains in contested zones.\n\nhttps://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks/"
           }
-        }
-      }
-    },
-    "b06aca8666d74edc3cd78156b05a063364ff9a96fae39ba88d48df603d4ded40": {
-      "created_at": "2026-08-02T23:55:11Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1.5,
-              "impact_score": 0.5,
-              "index": 0,
-              "novelty_score": 0.2,
-              "reason": "Low novelty and impact for software engineers/AI researchers; source is Tier C.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "AI poster wins Ohio State Fair contest",
-              "total_score": 2.7
-            }
-          ],
-          "best_index": 0,
-          "best_score": 2.7,
-          "recommendation": "SKIP",
-          "social_posts": {}
         }
       }
     },
@@ -1850,15 +1850,6 @@
         "twitter": "New LFM2.5-Encoders from HuggingFace enable fast long-context inference on CPU, a significant boost for developers @HuggingFace #AI"
       }
     },
-    "a525e1703d2c456d7a009e3c9f73e9136fead1be2f909882867402f16f930384": {
-      "created_at": "2026-07-27T22:57:16Z",
-      "payload": {
-        "facebook": "The AI security landscape is evolving with Microsoft's latest tools, which reportedly outperform competing platforms at a lower cost. This development could have significant implications for the industry, making AI security more accessible. #AIsecurity #Microsoft #cybersecurity",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Microsoft's AI Security Leap\nMicrosoft's new AI security tools are said to outperform competing platforms while being more cost-effective.\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n#AIsecurity #Microsoft #cybersecurity\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Microsoft's new AI security tools are making waves, claiming to outperform competitors at a lower cost, which could be a game-changer for the industry @Microsoft #AIsecurity",
-        "twitter": "Microsoft claims its new AI security tools outperform competitors at a lower cost, a significant move in the industry @Microsoft #AIsecurity"
-      }
-    },
     "a7add54449cceef4f19406b71128ec531d677c512c961c65aa4f64902a315292": {
       "created_at": "2026-07-29T19:44:03Z",
       "payload": {
@@ -2118,12 +2109,6 @@
       "created_at": "2026-07-31T21:38:29Z",
       "status": "scoring_attempted",
       "title": "Claude published malicious code to the Internet and attacked 3 real companies"
-    },
-    "https://arstechnica.com/security/2026/07/microsoft-unveils-ai-security-tools-it-says-outperform-competing-platforms": {
-      "canonical_url": "https://arstechnica.com/security/2026/07/microsoft-unveils-ai-security-tools-it-says-outperform-competing-platforms",
-      "created_at": "2026-07-27T22:57:16Z",
-      "status": "scoring_attempted",
-      "title": "Microsoft unveils AI security tools it says outperform competing platforms"
     },
     "https://arstechnica.com/security/2026/07/mythos-uncovers-crypto-weaknesses-that-went-unknown-for-years": {
       "canonical_url": "https://arstechnica.com/security/2026/07/mythos-uncovers-crypto-weaknesses-that-went-unknown-for-years",
@@ -2749,6 +2734,12 @@
       "status": "scoring_attempted",
       "title": "Document-borne AI worms can self-propagate through Copilot for Word"
     },
+    "https://epoch.ai/MirrorCode": {
+      "canonical_url": "https://epoch.ai/MirrorCode",
+      "created_at": "2026-08-04T00:08:28Z",
+      "status": "scoring_attempted",
+      "title": "What's the largest software project AI can complete on its own?"
+    },
     "https://fermisense.com/when-machines-take-the-wheel": {
       "canonical_url": "https://fermisense.com/when-machines-take-the-wheel",
       "created_at": "2026-07-28T03:40:40Z",
@@ -2880,12 +2871,6 @@
       "created_at": "2026-07-29T15:29:15Z",
       "status": "scoring_attempted",
       "title": "Show HN: A verification browser for AI agents \u2013 13ms windows, one-call checks"
-    },
-    "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-opus-5-on-slop-code-bench.md": {
-      "canonical_url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-opus-5-on-slop-code-bench.md",
-      "created_at": "2026-07-28T00:03:16Z",
-      "status": "scoring_attempted",
-      "title": "Benchmarking Opus 5 on SlopCodeBench"
     },
     "https://github.com/janestreet/bonsai": {
       "canonical_url": "https://github.com/janestreet/bonsai",
@@ -3613,6 +3598,12 @@
       "status": "scoring_attempted",
       "title": "A Marc Benioff-backed startup thinks AI can solve the AI deployment problem"
     },
+    "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist": {
+      "canonical_url": "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist",
+      "created_at": "2026-08-04T00:08:28Z",
+      "status": "scoring_attempted",
+      "title": "After killer quarter, Palantir CEO Alex Karp calls AI industry \u2018Marxist\u2019"
+    },
     "https://techcrunch.com/2026/08/03/apple-finally-fixed-siri-so-why-does-it-feel-anticlimactic": {
       "canonical_url": "https://techcrunch.com/2026/08/03/apple-finally-fixed-siri-so-why-does-it-feel-anticlimactic",
       "created_at": "2026-08-03T19:59:18Z",
@@ -3726,12 +3717,6 @@
       "created_at": "2026-07-31T00:16:51Z",
       "status": "scoring_attempted",
       "title": "Investigating three real-world incidents in our cybersecurity evaluations"
-    },
-    "https://www.anthropic.com/news/position-open-weights-models": {
-      "canonical_url": "https://www.anthropic.com/news/position-open-weights-models",
-      "created_at": "2026-07-27T22:57:16Z",
-      "status": "scoring_attempted",
-      "title": "Our position on open-weights models"
     },
     "https://www.anthropic.com/research/discovering-cryptographic-weaknesses": {
       "canonical_url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
@@ -3870,12 +3855,6 @@
       "created_at": "2026-07-29T02:12:16Z",
       "status": "scoring_attempted",
       "title": "Hubble: Open-source notetaking app for you and your agents"
-    },
-    "https://www.inc.com/amaya-nichole/netflix-company-retreat-sparked-lawsuit-experts-say-real-damage-may-be-just-beginning/91380349": {
-      "canonical_url": "https://www.inc.com/amaya-nichole/netflix-company-retreat-sparked-lawsuit-experts-say-real-damage-may-be-just-beginning/91380349",
-      "created_at": "2026-07-28T00:03:16Z",
-      "status": "scoring_attempted",
-      "title": "Netflix employee fired for sharing personal details in retreat trust exercise"
     },
     "https://www.infoq.com/articles/pull-based-migration": {
       "canonical_url": "https://www.infoq.com/articles/pull-based-migration",
@@ -4345,6 +4324,12 @@
       "status": "scoring_attempted",
       "title": "Spider-Man and The Odyssey are splitting up IMAX screens after a record-breaking weekend"
     },
+    "https://www.theverge.com/entertainment/974505/beast-of-reincarnation-review-ps5-xbox": {
+      "canonical_url": "https://www.theverge.com/entertainment/974505/beast-of-reincarnation-review-ps5-xbox",
+      "created_at": "2026-08-04T00:08:28Z",
+      "status": "scoring_attempted",
+      "title": "The studio behind Pok\u00e9mon struggles to find its voice in Beast of Reincarnation"
+    },
     "https://www.theverge.com/gadgets/968645/back-to-school-shopping-guide-gifts": {
       "canonical_url": "https://www.theverge.com/gadgets/968645/back-to-school-shopping-guide-gifts",
       "created_at": "2026-08-01T15:50:31Z",
@@ -4410,12 +4395,6 @@
       "created_at": "2026-08-03T22:18:34Z",
       "status": "scoring_attempted",
       "title": "Samsung\u2019s discounted smart monitor is $349.99, its lowest price yet"
-    },
-    "https://www.theverge.com/games/967174/steam-game-malware-cryptostealer-arrest": {
-      "canonical_url": "https://www.theverge.com/games/967174/steam-game-malware-cryptostealer-arrest",
-      "created_at": "2026-07-27T22:57:16Z",
-      "status": "scoring_attempted",
-      "title": "Bitcoin trail, Google cookies and Uber Eats orders help tie man to Steam malware"
     },
     "https://www.theverge.com/games/971651/logitech-handheld-business-g-cloud-robin-piispanen-interview": {
       "canonical_url": "https://www.theverge.com/games/971651/logitech-handheld-business-g-cloud-robin-piispanen-interview",
