@@ -454,6 +454,122 @@
         }
       }
     },
+    "58847e2f594c050c2cd96c01c340d96fb6d70893ff63c6f4a20e72b090c0cd65": {
+      "created_at": "2026-08-04T18:02:33Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.5,
+              "impact_score": 0.5,
+              "index": 6,
+              "novelty_score": 0.2,
+              "reason": "Opinion piece with low novelty and niche impact, but no red flags.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "The AI Demand Bubble",
+              "total_score": 2.7
+            },
+            {
+              "freshness_score": 1.5,
+              "impact_score": 0.5,
+              "index": 12,
+              "novelty_score": 0.2,
+              "reason": "Opinion piece with low novelty and niche impact, but no red flags.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "It's not a fear of \"AI communism\"; it's a fear of competitive market capitalism",
+              "total_score": 2.7
+            }
+          ],
+          "best_index": 6,
+          "best_score": 2.7,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
+    "597b87b43edcfaa1bd03677e6a105d1f7a3b9fb6b81154cda0a2524193e86c10": {
+      "created_at": "2026-08-04T18:02:33Z",
+      "payload": {
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 0.0,
+              "index": 0,
+              "novelty_score": 0.0,
+              "reason": "Title contains opinion framing, not factual reporting.",
+              "red_flag": true,
+              "red_flag_reason": "opinion",
+              "source_score": 1.5,
+              "title": "How an OpenAI influencer trip backfired",
+              "total_score": 3.5
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 0.0,
+              "index": 1,
+              "novelty_score": 0.0,
+              "reason": "Title contains opinion framing, not factual reporting.",
+              "red_flag": true,
+              "red_flag_reason": "opinion",
+              "source_score": 1.5,
+              "title": "\u2018Not healthy\u2019 LLM use is more common than you think",
+              "total_score": 3.5
+            }
+          ],
+          "best_index": 0,
+          "best_score": 3.5,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        },
+        "social_media_rules": [
+          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
+          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields."
+        ]
+      }
+    },
+    "5db6d2388a6a020bc770f9fca39e11465e707c2b244be4823e04dd5b2bca267e": {
+      "created_at": "2026-08-04T18:02:33Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2,
+              "impact_score": 0.5,
+              "index": 2,
+              "novelty_score": 2,
+              "reason": "Industry move with broad but not universal relevance; fresh and from Tier A source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "BMW\u2019s in-car Spider-Man ad is villain behavior",
+              "total_score": 6
+            },
+            {
+              "freshness_score": 1.5,
+              "impact_score": 1.5,
+              "index": 3,
+              "novelty_score": 1.5,
+              "reason": "Update with niche impact; fresh but from Tier C source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "MariaDB: Promote getting to 10k GitHub stars in server log and client prompt",
+              "total_score": 5
+            }
+          ],
+          "best_index": 2,
+          "best_score": 6,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
     "60a60ac2031f2d5777778e465389d2f7c72eaefdf20ba18440ed9c134f1184fa": {
       "created_at": "2026-08-03T21:13:20Z",
       "payload": {
@@ -1620,6 +1736,50 @@
         ]
       }
     },
+    "ceb1259b8f3a1cf6580899c59626280f987a6557aad2124c76c2826627cc758d": {
+      "created_at": "2026-08-04T18:02:33Z",
+      "payload": {
+        "candidates": [
+          {
+            "article_url": "https://news.microsoft.com/signal/articles/teaching-ai-to-speak-the-language-of-pathology/",
+            "index": 15,
+            "published_relative": "4 hours ago",
+            "published_time_utc": "2026-08-04T13:38:55Z",
+            "source": "Microsoft AI",
+            "summary": "The post Teaching AI to speak the language of pathology appeared first on Source .",
+            "tier": "S",
+            "title": "Teaching AI to speak the language of pathology"
+          }
+        ],
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1,
+              "impact_score": 2.5,
+              "index": 15,
+              "novelty_score": 2.5,
+              "reason": "Research-focused novelty with broad medical AI impact, fresh but not breaking.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 2,
+              "title": "Teaching AI to speak the language of pathology",
+              "total_score": 8.0
+            }
+          ],
+          "best_index": 15,
+          "best_score": 8.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        },
+        "social_media_rules": [
+          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
+          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.",
+          "Use the FULL article title as headline without inventing facts.",
+          "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
+        ]
+      }
+    },
     "cf138a934b3e6532a3221b53d15e644b1f95cbe9c32581910b943006c280c7d8": {
       "created_at": "2026-08-04T16:10:07Z",
       "payload": {
@@ -1948,15 +2108,6 @@
         "twitter": "Google's SynthID watermark is a robust tool for detecting AI-generated content, but it may not be enough to combat misinformation online, says @ArsTechnica #AI #SynthID"
       }
     },
-    "84d020e9cc2b063b2e6d4b2423253b0762f23159d84a54062243d1ecfae8ce18": {
-      "created_at": "2026-07-28T17:43:13Z",
-      "payload": {
-        "facebook": "The intersection of AI and scientific computing is yielding impressive results, with AI coding agents modernizing the field and driving breakthroughs in genomics and other areas, according to a new report from OpenAI, highlighting the potential for accelerated discovery #AI #ScientificComputing #Genomics",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 AI coding agents are modernizing scientific computing\nA new field report reveals how scientists leverage AI coding agents to accelerate software development and discovery in genomics and other areas.\n\ud83c\udfdb\ufe0f Source: OpenAI (S)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 10/10\n#AI #ScientificComputing #Genomics\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "The use of AI coding agents in scientific computing is gaining traction, with a new report from @OpenAI highlighting the potential for accelerated software development and discovery in genomics and beyond, marking a significant shift in the field #ScientificComputing",
-        "twitter": "AI coding agents are transforming scientific computing, accelerating genomics research and beyond, says @OpenAI, with significant implications for software development #AI #ScientificComputing"
-      }
-    },
     "94d139108543952b090ed8530e69f5a5f249c2c44408479d6281aa18b36eef56": {
       "created_at": "2026-07-30T09:05:20Z",
       "payload": {
@@ -2085,6 +2236,12 @@
     }
   },
   "seen_article_links": {
+    "http://observationalepidemiology.blogspot.com/2026/07/its-not-fear-of-ai-communism-its-fear.html": {
+      "canonical_url": "http://observationalepidemiology.blogspot.com/2026/07/its-not-fear-of-ai-communism-its-fear.html",
+      "created_at": "2026-08-04T18:02:33Z",
+      "status": "scoring_attempted",
+      "title": "It's not a fear of \"AI communism\"; it's a fear of competitive market capitalism"
+    },
     "https://admiralcloudberg.medium.com/reaping-the-whirlwind-inside-the-potomac-river-midair-collision-0475416f2b0f": {
       "canonical_url": "https://admiralcloudberg.medium.com/reaping-the-whirlwind-inside-the-potomac-river-midair-collision-0475416f2b0f",
       "created_at": "2026-08-03T19:59:18Z",
@@ -2877,12 +3034,6 @@
       "status": "scoring_attempted",
       "title": "The latest AI news we announced in July 2026"
     },
-    "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks": {
-      "canonical_url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks",
-      "created_at": "2026-07-28T17:43:13Z",
-      "status": "scoring_attempted",
-      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more"
-    },
     "https://blog.jim-nielsen.com/2026/ai-aesthetic": {
       "canonical_url": "https://blog.jim-nielsen.com/2026/ai-aesthetic",
       "created_at": "2026-07-31T00:16:51Z",
@@ -2900,12 +3051,6 @@
       "created_at": "2026-08-03T22:56:24Z",
       "status": "scoring_attempted",
       "title": "ZX Spectrum System Tour: Text Mode \u2013 Bumbershoot Software"
-    },
-    "https://cacm.acm.org/opinion/now-is-the-time-to-give-llms-access-to-the-acm-digital-library": {
-      "canonical_url": "https://cacm.acm.org/opinion/now-is-the-time-to-give-llms-access-to-the-acm-digital-library",
-      "created_at": "2026-07-28T17:43:13Z",
-      "status": "scoring_attempted",
-      "title": "Now Is the Time to Give LLMs Access to the ACM Digital Library"
     },
     "https://christianselig.com/2026/07/iphone-air-review": {
       "canonical_url": "https://christianselig.com/2026/07/iphone-air-review",
@@ -3033,6 +3178,12 @@
       "status": "scoring_attempted",
       "title": "Show HN: Fine-tune an 8B model on a 4 GB laptop GPU"
     },
+    "https://github.com/MariaDB/server/pull/4262": {
+      "canonical_url": "https://github.com/MariaDB/server/pull/4262",
+      "created_at": "2026-08-04T18:02:33Z",
+      "status": "scoring_attempted",
+      "title": "MariaDB: Promote getting to 10k GitHub stars in server log and client prompt"
+    },
     "https://github.com/SerhiiKorniienko/bullshit-detector": {
       "canonical_url": "https://github.com/SerhiiKorniienko/bullshit-detector",
       "created_at": "2026-07-29T13:27:14Z",
@@ -3135,12 +3286,6 @@
       "status": "scoring_attempted",
       "title": "Toast IDE Gets Markdown Spell Checking"
     },
-    "https://github.com/reflex-dev/xy": {
-      "canonical_url": "https://github.com/reflex-dev/xy",
-      "created_at": "2026-07-28T17:43:13Z",
-      "status": "scoring_attempted",
-      "title": "Show HN: XY \u2013 A Fast, composable, GPU-accelerated interactive plotting library"
-    },
     "https://github.com/tailscale/tailscale/issues/9284": {
       "canonical_url": "https://github.com/tailscale/tailscale/issues/9284",
       "created_at": "2026-07-30T11:28:52Z",
@@ -3158,12 +3303,6 @@
       "created_at": "2026-08-02T08:15:56Z",
       "status": "scoring_attempted",
       "title": "CRM: An open-source, agentic-first CRM"
-    },
-    "https://github.com/xyTom/coding-tools-mcp": {
-      "canonical_url": "https://github.com/xyTom/coding-tools-mcp",
-      "created_at": "2026-07-28T17:43:13Z",
-      "status": "scoring_attempted",
-      "title": "Coding Tools MCP (v0.2.2):Give any AI chat or agent a pair of hands on your code"
     },
     "https://github.com/yashmahajan10/llm-differential-privacy-gateway": {
       "canonical_url": "https://github.com/yashmahajan10/llm-differential-privacy-gateway",
@@ -3206,12 +3345,6 @@
       "created_at": "2026-08-04T15:54:37Z",
       "status": "scoring_attempted",
       "title": "Deploy local agents everywhere with LFM2.5-2.6B"
-    },
-    "https://huggingface.co/blog/allenai/olmoearth-infrastructure": {
-      "canonical_url": "https://huggingface.co/blog/allenai/olmoearth-infrastructure",
-      "created_at": "2026-07-28T17:43:13Z",
-      "status": "scoring_attempted",
-      "title": "The OlmoEarth Platform: Geospatial inference at planetary scale"
     },
     "https://jcgt.org/published/0015/02/01": {
       "canonical_url": "https://jcgt.org/published/0015/02/01",
@@ -3327,6 +3460,12 @@
       "status": "scoring_attempted",
       "title": "AI opens new era in cognitive studies of wild primates"
     },
+    "https://news.microsoft.com/signal/articles/teaching-ai-to-speak-the-language-of-pathology": {
+      "canonical_url": "https://news.microsoft.com/signal/articles/teaching-ai-to-speak-the-language-of-pathology",
+      "created_at": "2026-08-04T18:02:33Z",
+      "status": "scoring_attempted",
+      "title": "Teaching AI to speak the language of pathology"
+    },
     "https://news.mit.edu/2026/alexander-rakhlin-named-director-mit-statistics-data-science-center-0803": {
       "canonical_url": "https://news.mit.edu/2026/alexander-rakhlin-named-director-mit-statistics-data-science-center-0803",
       "created_at": "2026-08-03T19:59:18Z",
@@ -3410,12 +3549,6 @@
       "created_at": "2026-07-30T00:00:33Z",
       "status": "scoring_attempted",
       "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark"
-    },
-    "https://openai.com/index/scientific-computing-agentic-ai": {
-      "canonical_url": "https://openai.com/index/scientific-computing-agentic-ai",
-      "created_at": "2026-07-28T17:43:13Z",
-      "status": "scoring_attempted",
-      "title": "Scientific computing in the age of agentic AI"
     },
     "https://openai.com/index/ten-advances-in-mathematics": {
       "canonical_url": "https://openai.com/index/ten-advances-in-mathematics",
@@ -3873,12 +4006,6 @@
       "status": "scoring_attempted",
       "title": "An internal OpenAI Astra model solved 10 major open math and CS problems"
     },
-    "https://unawatch.com": {
-      "canonical_url": "https://unawatch.com",
-      "created_at": "2026-07-28T17:43:13Z",
-      "status": "scoring_attempted",
-      "title": "Una Watch: Garmin watch competitor but repairable, open ecosystem and USB-C"
-    },
     "https://users.wpi.edu/~zrbutzke/Docs/BradburyStories(1).pdf": {
       "canonical_url": "https://users.wpi.edu/~zrbutzke/Docs/BradburyStories(1).pdf",
       "created_at": "2026-08-04T03:41:45Z",
@@ -3938,12 +4065,6 @@
       "created_at": "2026-07-31T00:16:51Z",
       "status": "scoring_attempted",
       "title": "Investigating three real-world incidents in our cybersecurity evaluations"
-    },
-    "https://www.anthropic.com/research/discovering-cryptographic-weaknesses": {
-      "canonical_url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
-      "created_at": "2026-07-28T17:43:13Z",
-      "status": "scoring_attempted",
-      "title": "Discovering Cryptographic Weaknesses with Claude"
     },
     "https://www.antipope.org/charlie/blog-static/2026/08/on-the-non-use-of-ai-in-my-wri.html": {
       "canonical_url": "https://www.antipope.org/charlie/blog-static/2026/08/on-the-non-use-of-ai-in-my-wri.html",
@@ -4503,6 +4624,12 @@
       "status": "scoring_attempted",
       "title": "OpenAI drags Apple\u2019s lawsuit into the court of public opinion"
     },
+    "https://www.theverge.com/ai-artificial-intelligence/975180/llm-ai-chatbot-use-not-healthy": {
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/975180/llm-ai-chatbot-use-not-healthy",
+      "created_at": "2026-08-04T18:02:33Z",
+      "status": "scoring_attempted",
+      "title": "\u2018Not healthy\u2019 LLM use is more common than you think"
+    },
     "https://www.theverge.com/entertainment/972233/ariana-grande-hacking-lawsuit": {
       "canonical_url": "https://www.theverge.com/entertainment/972233/ariana-grande-hacking-lawsuit",
       "created_at": "2026-07-28T22:38:44Z",
@@ -4863,6 +4990,12 @@
       "status": "scoring_attempted",
       "title": "T-Mobile\u2019s $0-down financing plan bundles taxes and fees"
     },
+    "https://www.theverge.com/tech/975173/openai-influencers-brand-trip-ai-backlash-marketing": {
+      "canonical_url": "https://www.theverge.com/tech/975173/openai-influencers-brand-trip-ai-backlash-marketing",
+      "created_at": "2026-08-04T18:02:33Z",
+      "status": "scoring_attempted",
+      "title": "How an OpenAI influencer trip backfired"
+    },
     "https://www.theverge.com/transportation/972569/ferrari-luce-ev-sales": {
       "canonical_url": "https://www.theverge.com/transportation/972569/ferrari-luce-ev-sales",
       "created_at": "2026-07-29T15:29:15Z",
@@ -4881,11 +5014,23 @@
       "status": "scoring_attempted",
       "title": "The NHTSA is investigating 1.2 million Tesla vehicles over suspension failure reports"
     },
+    "https://www.theverge.com/transportation/975172/bmw-spider-man-movie-infotainment-ad": {
+      "canonical_url": "https://www.theverge.com/transportation/975172/bmw-spider-man-movie-infotainment-ad",
+      "created_at": "2026-08-04T18:02:33Z",
+      "status": "scoring_attempted",
+      "title": "BMW\u2019s in-car Spider-Man ad is villain behavior"
+    },
     "https://www.tucsonsentinel.com/local/report/072926_melendez_swatting/man-seeks-millions-after-being-shot-by-pima-deputies-swatting-incident": {
       "canonical_url": "https://www.tucsonsentinel.com/local/report/072926_melendez_swatting/man-seeks-millions-after-being-shot-by-pima-deputies-swatting-incident",
       "created_at": "2026-07-30T21:20:41Z",
       "status": "scoring_attempted",
       "title": "Man seeks millions after being shot by police in game-related swatting incident"
+    },
+    "https://www.wheresyoured.at/the-ai-demand-bubble": {
+      "canonical_url": "https://www.wheresyoured.at/the-ai-demand-bubble",
+      "created_at": "2026-08-04T18:02:33Z",
+      "status": "scoring_attempted",
+      "title": "The AI Demand Bubble"
     },
     "https://www.wired.com/story/ai-conquered-coding-fast-food-is-next": {
       "canonical_url": "https://www.wired.com/story/ai-conquered-coding-fast-food-is-next",
