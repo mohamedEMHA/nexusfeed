@@ -277,99 +277,6 @@
         }
       }
     },
-    "4b3c8e1bd437a4f2ed3445acb8cade7997aea68eedd87e7ce36b2332cc0a1e5d": {
-      "created_at": "2026-08-03T05:58:15Z",
-      "payload": {
-        "candidates": [],
-        "prompt_version": "cerebras-scoring-v1",
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 1.5,
-              "index": 13,
-              "novelty_score": 2.5,
-              "reason": "Research paper with niche impact on equation discovery benchmarks.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Library Reachability in LSR-Synth: How Anti-Memorization Design Changes the Measurement of Symbolic Discovery",
-              "total_score": 6.5
-            },
-            {
-              "freshness_score": 2.0,
-              "impact_score": 2.0,
-              "index": 14,
-              "novelty_score": 2.5,
-              "reason": "Research paper questioning validity of agent-safety benchmarks with moderate impact.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Safety, or Just Capability? A Validity Audit of Agent-Safety Benchmarks",
-              "total_score": 7.0
-            },
-            {
-              "freshness_score": 2.0,
-              "impact_score": 1.5,
-              "index": 15,
-              "novelty_score": 2.5,
-              "reason": "Research paper on ontology-aware agents with niche impact.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "SciToolAgent-Evo: An Ontology-Aware Self-Evolving Agent for Open-World Scientific Tool Acquisition",
-              "total_score": 6.5
-            },
-            {
-              "freshness_score": 2.0,
-              "impact_score": 1.0,
-              "index": 16,
-              "novelty_score": 2.5,
-              "reason": "Research paper introducing a new benchmark with limited general impact.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "EarlyDx: An Admission-Anchored Benchmark for Open-Ended Generation of Evidence-Supported ED-Encounter Diagnoses",
-              "total_score": 6.0
-            },
-            {
-              "freshness_score": 2.0,
-              "impact_score": 1.5,
-              "index": 17,
-              "novelty_score": 2.5,
-              "reason": "Research paper proposing a taxonomy for agent failures with niche impact.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Model or Harness? An Interaction-Centric Taxonomy for Localizing Agent Failures",
-              "total_score": 6.5
-            },
-            {
-              "freshness_score": 2.0,
-              "impact_score": 1.0,
-              "index": 18,
-              "novelty_score": 2.5,
-              "reason": "Research paper with red flag in title.",
-              "red_flag": true,
-              "red_flag_reason": "\"Best Friends\" matches red flag pattern.",
-              "source_score": 0.5,
-              "title": "Best Friends, Not Forever: Evaluating Long-Horizon Persona Collapse and Behavioral Drift in AI Companions",
-              "total_score": 6.0
-            }
-          ],
-          "best_index": 14,
-          "best_score": 7.0,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        },
-        "social_media_rules": [
-          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
-          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.",
-          "Use the FULL article title as headline without inventing facts.",
-          "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
-        ]
-      }
-    },
     "4beafb7a05fa23d43c1539f948c4c0393e89d0987ce5ceef1497faed24d3497a": {
       "created_at": "2026-08-03T22:56:24Z",
       "payload": {
@@ -570,96 +477,106 @@
         }
       }
     },
-    "76926cf0ee7ca0cf22916dbd1a12ecb5143cadf983d722d084447c89f09784f9": {
-      "created_at": "2026-08-03T05:58:15Z",
+    "68afa53d52995457b54e9f1b76249b94c75775b124b861e9dfd96783763c9ed1": {
+      "created_at": "2026-08-04T06:24:03Z",
       "payload": {
-        "prompt_version": "cerebras-scoring-v1",
         "response_schema": {
           "articles": [
             {
-              "freshness_score": 2.0,
-              "impact_score": 1.5,
-              "index": 7,
-              "novelty_score": 2.5,
-              "reason": "Research paper with high novelty and freshness but niche impact and low-tier source.",
+              "freshness_score": 1.5,
+              "impact_score": 3.0,
+              "index": 0,
+              "novelty_score": 3.0,
+              "reason": "New open-source release with broad impact, fresh (<3h), and from a reputable source (Tier A).",
               "red_flag": false,
               "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Empowering Cross-Domain Sequential Recommendation with Hybrid Tokenization and Serial-Parallel Decoding",
-              "total_score": 6.5
+              "source_score": 1.5,
+              "title": "Y Combinator Open-Sources QM: An MIT-Licensed Multiplayer Agent Harness That Runs In Slack And The Web",
+              "total_score": 9.0
             },
             {
-              "freshness_score": 2.0,
+              "freshness_score": 1.5,
               "impact_score": 1.5,
-              "index": 8,
+              "index": 1,
               "novelty_score": 2.5,
-              "reason": "Research paper with high novelty and freshness but niche impact and low-tier source.",
+              "reason": "Research with niche impact, fresh but from low-tier source (arXiv).",
               "red_flag": false,
               "red_flag_reason": null,
               "source_score": 0.5,
-              "title": "An Ontology-Guided, Deduplication-Aware Extraction Layer for Knowledge Graph Construction from Heterogeneous Documents",
-              "total_score": 6.5
+              "title": "Revisiting Classic Thought Experiments to Measure Consciousness for Artificial Intelligence Safety",
+              "total_score": 6.0
             },
             {
-              "freshness_score": 2.0,
+              "freshness_score": 1.5,
               "impact_score": 1.5,
-              "index": 9,
+              "index": 2,
               "novelty_score": 2.5,
-              "reason": "Research paper with high novelty and freshness but niche impact and low-tier source.",
+              "reason": "Research with niche impact, fresh but from low-tier source (arXiv).",
               "red_flag": false,
               "red_flag_reason": null,
               "source_score": 0.5,
-              "title": "How Hard Does It Think? Analyzing Step-Aware Reasoning Energy in LLM Chain-of-Thought Trajectories",
-              "total_score": 6.5
+              "title": "AutoFOAM: The Self-Refining Autonomous OpenFOAM Agent",
+              "total_score": 6.0
             },
             {
-              "freshness_score": 2.0,
-              "impact_score": 2.5,
-              "index": 10,
+              "freshness_score": 1.5,
+              "impact_score": 1.5,
+              "index": 3,
               "novelty_score": 2.5,
-              "reason": "Research paper with high novelty, impact, and freshness but low-tier source.",
+              "reason": "Research with niche impact, fresh but from low-tier source (arXiv).",
               "red_flag": false,
               "red_flag_reason": null,
               "source_score": 0.5,
-              "title": "Reasoning in Real World Clinical Care: Why Large Language Models Are Not Yet Safe for Autonomous Clinical Decision Support",
-              "total_score": 7.5
+              "title": "Enhancing LLMs with Context-Specific Knowledge for Mitigating Misinformation in SMEs: A RAG-based Modeling and Analysis",
+              "total_score": 6.0
             },
             {
-              "freshness_score": 2.0,
+              "freshness_score": 1.5,
               "impact_score": 1.5,
-              "index": 11,
+              "index": 4,
               "novelty_score": 2.5,
-              "reason": "Research paper with high novelty and freshness but niche impact and low-tier source.",
+              "reason": "Research with niche impact, fresh but from low-tier source (arXiv).",
               "red_flag": false,
               "red_flag_reason": null,
               "source_score": 0.5,
-              "title": "ViSAGE: Constructing Self-Correcting Memories for Long-Form Video Understanding",
-              "total_score": 6.5
+              "title": "Energy Efficiency of Locally Deployed LLMs: A Preliminary Quantitative GPU Power Benchmark on Consumer Hardware",
+              "total_score": 6.0
             },
             {
-              "freshness_score": 2.0,
+              "freshness_score": 1.5,
               "impact_score": 1.5,
-              "index": 12,
+              "index": 5,
               "novelty_score": 2.5,
-              "reason": "Research paper with high novelty and freshness but niche impact and low-tier source.",
+              "reason": "Research with niche impact, fresh but from low-tier source (arXiv).",
               "red_flag": false,
               "red_flag_reason": null,
               "source_score": 0.5,
-              "title": "Multi-Agent Planning with Spatio-Temporal and Topological Constraints using STL-GO",
-              "total_score": 6.5
+              "title": "CoT-Core: Accelerating LLM Evaluation via CoT-Aware Coreset Selection",
+              "total_score": 6.0
+            },
+            {
+              "freshness_score": 1.5,
+              "impact_score": 1.5,
+              "index": 6,
+              "novelty_score": 2.5,
+              "reason": "Research with niche impact, fresh but from low-tier source (arXiv).",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Optimization and Constraint Modeling using LLMs with a Retrieval Augmented Generation Process",
+              "total_score": 6.0
             }
           ],
-          "best_index": 10,
-          "best_score": 7.5,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        },
-        "social_media_rules": [
-          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
-          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.",
-          "Use the FULL article title as headline without inventing facts.",
-          "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
-        ]
+          "best_index": 0,
+          "best_score": 9.0,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "Y Combinator has released QM, an open-source multiplayer agent harness under an MIT license. It\u2019s designed to run in Slack and the web, with each Slack room getting its own scoped memory and permissions. The tool is already in use across their internal teams.\n\nLink: https://www.marktechpost.com/2026/08/03/y-combinator-open-sources-qm-multiplayer-ai-agent-harness/",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Y Combinator Open-Sources QM: An MIT-Licensed Multiplayer Agent Harness That Runs In Slack And The Web*\n\nY Combinator released QM, an open-source multiplayer agent harness under an MIT license. It runs in Slack and the web, with each Slack room getting its own scoped memory, files, and permissions. The tool is already in use internally for accounting, legal, events, and engineering.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (Tier A)\n\u23f0 Published: 2 hours ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/08/03/y-combinator-open-sources-qm-multiplayer-ai-agent-harness/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "Y Combinator open-sourced QM, an MIT-licensed multiplayer agent harness that runs in Slack and the web. It\u2019s already used internally for tasks like accounting, legal, and engineering, with per-room scoped memory and permissions.\n\nhttps://www.marktechpost.com/2026/08/03/y-combinator-open-sources-qm-multiplayer-ai-agent-harness/",
+            "twitter": "Y Combinator just open-sourced QM, an MIT-licensed multiplayer agent harness that runs in Slack and the web. It\u2019s already used internally for accounting, legal, and engineering.\n\nhttps://www.marktechpost.com/2026/08/03/y-combinator-open-sources-qm-multiplayer-ai-agent-harness/"
+          }
+        }
       }
     },
     "770f2b755eabc58dac3b339bd9afd589efc5ff513f1f2d4c4cdb051aefe5964a": {
@@ -682,6 +599,91 @@
           ],
           "best_index": 0,
           "best_score": 3.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
+    "7f39724ac976971d19f38c3b449bf2436e287ffbc5bd19ea6a4db8082ca5a195": {
+      "created_at": "2026-08-04T06:24:03Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.5,
+              "impact_score": 1.5,
+              "index": 19,
+              "novelty_score": 2.5,
+              "reason": "Research paper with niche impact on wearable sensor-LLM integration, published 2 hours ago.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "TRACE-TS: Attribution-Grounded and Traceable Sensor-Language Reasoning for Human Activity Understanding",
+              "total_score": 6.0
+            },
+            {
+              "freshness_score": 1.5,
+              "impact_score": 1.5,
+              "index": 20,
+              "novelty_score": 2.5,
+              "reason": "Research paper on LLM agent personalization, published 2 hours ago.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Personalizing Large Language Model Agents with Small Policy Models",
+              "total_score": 6.0
+            },
+            {
+              "freshness_score": 1.5,
+              "impact_score": 1.5,
+              "index": 21,
+              "novelty_score": 2.5,
+              "reason": "Research paper critiquing multi-agent LLM judges, published 2 hours ago.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "More Debate, Same Evidence: Structural Limits of Homogeneous Multi-Agent Groundedness",
+              "total_score": 6.0
+            },
+            {
+              "freshness_score": 1.5,
+              "impact_score": 1.5,
+              "index": 22,
+              "novelty_score": 2.5,
+              "reason": "Research paper on combinatorial optimization, published 2 hours ago.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Geometric Self-Supervised Pre-training for Neural Combinatorial Optimization",
+              "total_score": 6.0
+            },
+            {
+              "freshness_score": 1.5,
+              "impact_score": 1.5,
+              "index": 23,
+              "novelty_score": 2.5,
+              "reason": "Research paper on RF-based HOI recognition, published 2 hours ago.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "RF-HOI: Recognize Human-Object Interaction with Radio Frequency Signals",
+              "total_score": 6.0
+            },
+            {
+              "freshness_score": 1.5,
+              "impact_score": 1.5,
+              "index": 24,
+              "novelty_score": 2.5,
+              "reason": "Research paper on autonomous driving simulation testing, published 2 hours ago.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "WM-Cov: Test Adequacy for Interactive World-Model-Style Autonomous Driving Simulation",
+              "total_score": 6.0
+            }
+          ],
+          "best_index": 19,
+          "best_score": 6.0,
           "recommendation": "SKIP",
           "social_posts": {}
         }
@@ -1059,91 +1061,6 @@
         }
       }
     },
-    "b76dda31216ec9e6186e8bc5ee2a93ba40ba58680e4a4025f23e16a90e65b906": {
-      "created_at": "2026-08-03T05:58:15Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2,
-              "impact_score": 2.5,
-              "index": 19,
-              "novelty_score": 2.5,
-              "reason": "Research paper with high novelty and impact but low source tier.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Fragility of Value under Imperfect Alignment",
-              "total_score": 7.5
-            },
-            {
-              "freshness_score": 2,
-              "impact_score": 1.5,
-              "index": 20,
-              "novelty_score": 2.5,
-              "reason": "Research paper with niche impact and low source tier.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Identifying Informative Environments for Cognition Parameter Inference via Bayesian Experimental Design",
-              "total_score": 6.5
-            },
-            {
-              "freshness_score": 2,
-              "impact_score": 2,
-              "index": 21,
-              "novelty_score": 2.5,
-              "reason": "Research paper with strong novelty and freshness but niche impact and low source tier.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "NeSyFS: A Neuro-symbolic Fast-Slow Thinking Framework for LLM Agent under Partial Observability",
-              "total_score": 7
-            },
-            {
-              "freshness_score": 2,
-              "impact_score": 2,
-              "index": 22,
-              "novelty_score": 3,
-              "reason": "New benchmark with strong novelty and freshness but niche impact and low source tier.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "MerchantBench: Benchmarking LLM Agents for Long-Term Coherence in E-Commerce Operations",
-              "total_score": 7.5
-            },
-            {
-              "freshness_score": 2,
-              "impact_score": 2.5,
-              "index": 23,
-              "novelty_score": 2.5,
-              "reason": "Research paper with high novelty and impact but low source tier.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Scaling Scientific Discovery Environments for Turn-Level Agentic RL",
-              "total_score": 7.5
-            },
-            {
-              "freshness_score": 2,
-              "impact_score": 1.5,
-              "index": 24,
-              "novelty_score": 3,
-              "reason": "New benchmark with strong novelty and freshness but niche impact and low source tier.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "MMShopBench: A Real-Log Benchmark for Multimodal, Multi-Turn Shopping Agents",
-              "total_score": 7
-            }
-          ],
-          "best_index": 19,
-          "best_score": 7.5,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
-      }
-    },
     "b90cd580cac4878456000925243f8461ef8fd0725aba87b4d3aafac0436202b4": {
       "created_at": "2026-08-03T18:13:18Z",
       "payload": {
@@ -1182,6 +1099,96 @@
           "social_posts": {}
         },
         "social_media_rules": []
+      }
+    },
+    "bb6d55722cc8e75c403edc6e1388153b33da4eb31d5a4fd366ba16cc4a144814": {
+      "created_at": "2026-08-04T06:24:03Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.5,
+              "impact_score": 2.5,
+              "index": 7,
+              "novelty_score": 2.5,
+              "reason": "Research paper with niche but significant impact on LLM agent design.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Memory Reward Inflation in Self-Improving LLM Agents",
+              "total_score": 7.0
+            },
+            {
+              "freshness_score": 1.5,
+              "impact_score": 1.5,
+              "index": 8,
+              "novelty_score": 2.5,
+              "reason": "Research paper with niche impact on LLM serving efficiency.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Request-Level Energy Attribution for Batched LLM Serving",
+              "total_score": 6.0
+            },
+            {
+              "freshness_score": 1.5,
+              "impact_score": 1.5,
+              "index": 9,
+              "novelty_score": 2.5,
+              "reason": "Research paper with niche impact on sequence modeling architectures.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Motif-Mamba: network motif improved mamba for long-range sequence modeling",
+              "total_score": 6.0
+            },
+            {
+              "freshness_score": 1.5,
+              "impact_score": 2.5,
+              "index": 10,
+              "novelty_score": 2.5,
+              "reason": "Research paper with significant impact on compiler optimization for deep learning.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Nova: An End-to-End MLIR Compiler for Deep Learning",
+              "total_score": 7.0
+            },
+            {
+              "freshness_score": 1.5,
+              "impact_score": 2.5,
+              "index": 11,
+              "novelty_score": 2.5,
+              "reason": "Research paper introducing a toolkit with broad relevance to LLM reliability.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "SIRIN: A Unified Toolkit for Detecting Contextual Hallucinations in Retrieval-Augmented and Memory-Grounded LLM Systems",
+              "total_score": 7.0
+            },
+            {
+              "freshness_score": 1.5,
+              "impact_score": 1.5,
+              "index": 12,
+              "novelty_score": 2.5,
+              "reason": "Research paper with niche impact on multimodal model interpretability.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Linguistic Context Recodes Visual Representations in Vision-Language Models",
+              "total_score": 6.0
+            }
+          ],
+          "best_index": 11,
+          "best_score": 7.0,
+          "recommendation": "SKIP",
+          "social_posts": {
+            "facebook": "",
+            "telegram": "",
+            "threads": "",
+            "twitter": ""
+          }
+        }
       }
     },
     "bea7936c46e59348ece743fb7e8ec7835f58741397b280549ec4a33014340477": {
@@ -1330,6 +1337,96 @@
         }
       }
     },
+    "cb6e343364da0430ee4c3a3bfcc60aff74c651219fd06ba0f83e4e399f3c6852": {
+      "created_at": "2026-08-04T06:24:03Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.5,
+              "impact_score": 2.5,
+              "index": 13,
+              "novelty_score": 2.5,
+              "reason": "Research on automated testing for RAG systems with broad relevance to LLM reliability.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "RAG-TESTER: Automated End-to-End Testing of Retrieval-Augmented Large Language Models",
+              "total_score": 7.0
+            },
+            {
+              "freshness_score": 1.5,
+              "impact_score": 1.5,
+              "index": 14,
+              "novelty_score": 2.5,
+              "reason": "Niche research on retrieval embeddings with limited general applicability.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "H+ Embedding: Harmonizing Global and Token-Level Retrieval with Context-Dependent Phrases",
+              "total_score": 6.0
+            },
+            {
+              "freshness_score": 1.5,
+              "impact_score": 2.5,
+              "index": 15,
+              "novelty_score": 2.5,
+              "reason": "Production-scale analysis of AI coding agents with broad relevance to developer workflows.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Agentic Coding in the Wild: Characterizing GitHub Copilot Traces at Production Scale",
+              "total_score": 7.0
+            },
+            {
+              "freshness_score": 1.5,
+              "impact_score": 1.5,
+              "index": 16,
+              "novelty_score": 2.5,
+              "reason": "Specialized benchmark on agentic commerce with limited general interest.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Can LLM Agents Price Competitively? A Dynamic Multi-Attribute Auction Benchmark for Agentic Commerce",
+              "total_score": 6.0
+            },
+            {
+              "freshness_score": 1.5,
+              "impact_score": 1.5,
+              "index": 17,
+              "novelty_score": 2.5,
+              "reason": "Enterprise-focused research with narrow applicability outside specialized settings.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Shared Organizational Memory for Enterprise Coding Agents: System Design and Deployment Snapshot",
+              "total_score": 6.0
+            },
+            {
+              "freshness_score": 1.5,
+              "impact_score": 1.5,
+              "index": 18,
+              "novelty_score": 2.5,
+              "reason": "Research on self-evolving agents with limited immediate practical impact.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "AgentStream: How Well Do Self-Evolving LLM Agents Perform Under Streaming Tasks?",
+              "total_score": 6.0
+            }
+          ],
+          "best_index": 13,
+          "best_score": 7.0,
+          "recommendation": "SKIP",
+          "social_posts": {
+            "facebook": "",
+            "telegram": "",
+            "threads": "",
+            "twitter": ""
+          }
+        }
+      }
+    },
     "d13e861d8e2a3040c7e94c404f2a095628128f1391eb19631b7eebb4f74bdef3": {
       "created_at": "2026-08-03T10:37:30Z",
       "payload": {
@@ -1464,108 +1561,6 @@
         }
       }
     },
-    "df07fc2574b61f7b58c45c38762e886d896a6c816370c1447557808b673f1501": {
-      "created_at": "2026-08-03T05:58:15Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 2.5,
-              "index": 0,
-              "novelty_score": 3.0,
-              "reason": "New release with significant performance gains for all TypeScript developers.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.0,
-              "title": "Microsoft Releases TypeScript 7.0 with a Native Go Compiler, Delivering 10x Faster Builds",
-              "total_score": 8.5
-            },
-            {
-              "freshness_score": 1.5,
-              "impact_score": 1.5,
-              "index": 1,
-              "novelty_score": 2.5,
-              "reason": "Major version release for a niche framework targeting Java/Kotlin developers.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.0,
-              "title": "Embabel Agent Framework Reaches 1.0",
-              "total_score": 6.5
-            },
-            {
-              "freshness_score": 2.0,
-              "impact_score": 1.5,
-              "index": 2,
-              "novelty_score": 2.5,
-              "reason": "Research paper on Agentic AI architecture, niche impact.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "OpenClaw and Ollama in Agentic AI: Toward Fully Autonomous and Scalable AI Agent Systems",
-              "total_score": 6.5
-            },
-            {
-              "freshness_score": 2.0,
-              "impact_score": 1.5,
-              "index": 3,
-              "novelty_score": 2.5,
-              "reason": "Research paper on AI evaluation, niche impact.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Can AI Evaluate AI Scientists? A Benchmarking Study of Autonomous Research Generation Systems Using Automated Multi-Model Review",
-              "total_score": 6.5
-            },
-            {
-              "freshness_score": 2.0,
-              "impact_score": 1.0,
-              "index": 4,
-              "novelty_score": 2.5,
-              "reason": "Research paper on mathematical conjectures, highly niche impact.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "LLM Framework for Discovering Major Mathematical Conjectures: AI's Quest for the Next Riemann Hypothesis",
-              "total_score": 6.0
-            },
-            {
-              "freshness_score": 2.0,
-              "impact_score": 1.0,
-              "index": 5,
-              "novelty_score": 2.5,
-              "reason": "Research paper on reasoning optimization, niche impact.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "ThinkReset: Learnable Intermediate Interface Construction for Bounded-Context Long-Horizon Reasoning",
-              "total_score": 6.0
-            },
-            {
-              "freshness_score": 2.0,
-              "impact_score": 1.0,
-              "index": 6,
-              "novelty_score": 2.5,
-              "reason": "Research paper on prompt optimization, niche impact.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "TAPR: Enhancing LLM Performance with a Task-Aware Prompt Rewriter",
-              "total_score": 6.0
-            }
-          ],
-          "best_index": 0,
-          "best_score": 8.5,
-          "recommendation": "POST_NOW",
-          "social_posts": {
-            "facebook": "Microsoft released TypeScript 7.0, featuring a native Go compiler that delivers 8x to 12x faster builds in real-world projects. The update lacks a stable programmatic API for now, but that\u2019s slated for TypeScript 7.1. Transitioning to the new version includes a compatibility package for existing setups.\n\nLink: https://www.infoq.com/news/2026/08/typescript-7-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Microsoft Releases TypeScript 7.0 with a Native Go Compiler, Delivering 10x Faster Builds*\n\nTypeScript 7.0 introduces a native Go compiler, cutting build times by 8-12x in real codebases. The release lacks a stable programmatic API, planned for TypeScript 7.1. A compatibility package supports existing setups.\n\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (Tier B)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.infoq.com/news/2026/08/typescript-7-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-            "threads": "TypeScript 7.0 drops with a native Go compiler, pushing build speeds up by 8-12x in real codebases. Early tests show consistent gains, though the stable API is still missing\u2014expected in 7.1. A compatibility package eases the transition.\n\nhttps://www.infoq.com/news/2026/08/typescript-7-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-            "twitter": "TypeScript 7.0 just shipped with a native Go compiler, cutting build times by 8-12x in real codebases. No stable API yet, but 7.1 will add it.\n\nhttps://www.infoq.com/news/2026/08/typescript-7-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
-          }
-        }
-      }
-    },
     "e4ef939b44b2f8b34277e07e071f040c38ff4cf46c46c9dd18e418ee54bc2e4a": {
       "created_at": "2026-08-03T16:03:52Z",
       "payload": {
@@ -1694,15 +1689,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Google DeepMind Releases Advanced Robotics Models\nGoogle DeepMind has released Gemini Robotics 2, featuring models for whole body control, embodied reasoning, and multi-robot collaboration.\n\ud83c\udfdb\ufe0f Source: MarkTechPost (A)\n\u23f0 Published: 2 hours ago\n\u2b50 Score: 8.5/10\n#AI #Robotics #GoogleDeepMind\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Google DeepMind's Gemini Robotics 2 release includes models for whole body control and multi-robot collaboration, a significant step forward for robotics @GoogleAI #AI",
         "twitter": "Google DeepMind advances robotics with Gemini Robotics 2, featuring models for whole body control and multi-robot collaboration @GoogleAI #AI"
-      }
-    },
-    "50053a6d23290ec6ac30dab42d61e263e87b35e6fe17d407a19ab21b87f00d45": {
-      "created_at": "2026-07-28T06:22:53Z",
-      "payload": {
-        "facebook": "The ability to create realistic deepfakes has taken a disturbing turn, with researchers finding that top image editing models on Hugging Face can easily produce explicit content. This highlights a major issue that needs to be addressed. #AIethics #Deepfakes #ImageEditing",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Hugging Face Faces Deepfake Concerns\nResearchers have discovered that top image editing models on the platform can easily create explicit deepfakes, posing a significant ethical dilemma.\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AIethics #Deepfakes #ImageEditing\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Top image editing models on Hugging Face have been found to easily create explicit deepfakes, a significant ethical concern that needs attention @HuggingFace #AIethics",
-        "twitter": "Hugging Face image editing models can create explicit deepfakes with ease, raising significant ethical concerns @HuggingFace #AIethics"
       }
     },
     "67239a9fe465c4c022126578bf35cec738bbf81df37ef2471135bfdab7ff733b": {
@@ -2553,6 +2539,150 @@
       "status": "scoring_attempted",
       "title": "MMShopBench: A Real-Log Benchmark for Multimodal, Multi-Turn Shopping Agents"
     },
+    "https://arxiv.org/abs/2608.00001": {
+      "canonical_url": "https://arxiv.org/abs/2608.00001",
+      "created_at": "2026-08-04T06:24:03Z",
+      "status": "scoring_attempted",
+      "title": "Revisiting Classic Thought Experiments to Measure Consciousness for Artificial Intelligence Safety"
+    },
+    "https://arxiv.org/abs/2608.00003": {
+      "canonical_url": "https://arxiv.org/abs/2608.00003",
+      "created_at": "2026-08-04T06:24:03Z",
+      "status": "scoring_attempted",
+      "title": "AutoFOAM: The Self-Refining Autonomous OpenFOAM Agent"
+    },
+    "https://arxiv.org/abs/2608.00006": {
+      "canonical_url": "https://arxiv.org/abs/2608.00006",
+      "created_at": "2026-08-04T06:24:03Z",
+      "status": "scoring_attempted",
+      "title": "Enhancing LLMs with Context-Specific Knowledge for Mitigating Misinformation in SMEs: A RAG-based Modeling and Analysis"
+    },
+    "https://arxiv.org/abs/2608.00008": {
+      "canonical_url": "https://arxiv.org/abs/2608.00008",
+      "created_at": "2026-08-04T06:24:03Z",
+      "status": "scoring_attempted",
+      "title": "Energy Efficiency of Locally Deployed LLMs: A Preliminary Quantitative GPU Power Benchmark on Consumer Hardware"
+    },
+    "https://arxiv.org/abs/2608.00014": {
+      "canonical_url": "https://arxiv.org/abs/2608.00014",
+      "created_at": "2026-08-04T06:24:03Z",
+      "status": "scoring_attempted",
+      "title": "CoT-Core: Accelerating LLM Evaluation via CoT-Aware Coreset Selection"
+    },
+    "https://arxiv.org/abs/2608.00015": {
+      "canonical_url": "https://arxiv.org/abs/2608.00015",
+      "created_at": "2026-08-04T06:24:03Z",
+      "status": "scoring_attempted",
+      "title": "Optimization and Constraint Modeling using LLMs with a Retrieval Augmented Generation Process"
+    },
+    "https://arxiv.org/abs/2608.00017": {
+      "canonical_url": "https://arxiv.org/abs/2608.00017",
+      "created_at": "2026-08-04T06:24:03Z",
+      "status": "scoring_attempted",
+      "title": "Memory Reward Inflation in Self-Improving LLM Agents"
+    },
+    "https://arxiv.org/abs/2608.00026": {
+      "canonical_url": "https://arxiv.org/abs/2608.00026",
+      "created_at": "2026-08-04T06:24:03Z",
+      "status": "scoring_attempted",
+      "title": "Request-Level Energy Attribution for Batched LLM Serving"
+    },
+    "https://arxiv.org/abs/2608.00027": {
+      "canonical_url": "https://arxiv.org/abs/2608.00027",
+      "created_at": "2026-08-04T06:24:03Z",
+      "status": "scoring_attempted",
+      "title": "Motif-Mamba: network motif improved mamba for long-range sequence modeling"
+    },
+    "https://arxiv.org/abs/2608.00029": {
+      "canonical_url": "https://arxiv.org/abs/2608.00029",
+      "created_at": "2026-08-04T06:24:03Z",
+      "status": "scoring_attempted",
+      "title": "Nova: An End-to-End MLIR Compiler for Deep Learning"
+    },
+    "https://arxiv.org/abs/2608.00033": {
+      "canonical_url": "https://arxiv.org/abs/2608.00033",
+      "created_at": "2026-08-04T06:24:03Z",
+      "status": "scoring_attempted",
+      "title": "SIRIN: A Unified Toolkit for Detecting Contextual Hallucinations in Retrieval-Augmented and Memory-Grounded LLM Systems"
+    },
+    "https://arxiv.org/abs/2608.00035": {
+      "canonical_url": "https://arxiv.org/abs/2608.00035",
+      "created_at": "2026-08-04T06:24:03Z",
+      "status": "scoring_attempted",
+      "title": "Linguistic Context Recodes Visual Representations in Vision-Language Models"
+    },
+    "https://arxiv.org/abs/2608.00054": {
+      "canonical_url": "https://arxiv.org/abs/2608.00054",
+      "created_at": "2026-08-04T06:24:03Z",
+      "status": "scoring_attempted",
+      "title": "RAG-TESTER: Automated End-to-End Testing of Retrieval-Augmented Large Language Models"
+    },
+    "https://arxiv.org/abs/2608.00065": {
+      "canonical_url": "https://arxiv.org/abs/2608.00065",
+      "created_at": "2026-08-04T06:24:03Z",
+      "status": "scoring_attempted",
+      "title": "H+ Embedding: Harmonizing Global and Token-Level Retrieval with Context-Dependent Phrases"
+    },
+    "https://arxiv.org/abs/2608.00101": {
+      "canonical_url": "https://arxiv.org/abs/2608.00101",
+      "created_at": "2026-08-04T06:24:03Z",
+      "status": "scoring_attempted",
+      "title": "Agentic Coding in the Wild: Characterizing GitHub Copilot Traces at Production Scale"
+    },
+    "https://arxiv.org/abs/2608.00102": {
+      "canonical_url": "https://arxiv.org/abs/2608.00102",
+      "created_at": "2026-08-04T06:24:03Z",
+      "status": "scoring_attempted",
+      "title": "Can LLM Agents Price Competitively? A Dynamic Multi-Attribute Auction Benchmark for Agentic Commerce"
+    },
+    "https://arxiv.org/abs/2608.00122": {
+      "canonical_url": "https://arxiv.org/abs/2608.00122",
+      "created_at": "2026-08-04T06:24:03Z",
+      "status": "scoring_attempted",
+      "title": "Shared Organizational Memory for Enterprise Coding Agents: System Design and Deployment Snapshot"
+    },
+    "https://arxiv.org/abs/2608.00155": {
+      "canonical_url": "https://arxiv.org/abs/2608.00155",
+      "created_at": "2026-08-04T06:24:03Z",
+      "status": "scoring_attempted",
+      "title": "AgentStream: How Well Do Self-Evolving LLM Agents Perform Under Streaming Tasks?"
+    },
+    "https://arxiv.org/abs/2608.00200": {
+      "canonical_url": "https://arxiv.org/abs/2608.00200",
+      "created_at": "2026-08-04T06:24:03Z",
+      "status": "scoring_attempted",
+      "title": "TRACE-TS: Attribution-Grounded and Traceable Sensor-Language Reasoning for Human Activity Understanding"
+    },
+    "https://arxiv.org/abs/2608.00215": {
+      "canonical_url": "https://arxiv.org/abs/2608.00215",
+      "created_at": "2026-08-04T06:24:03Z",
+      "status": "scoring_attempted",
+      "title": "Personalizing Large Language Model Agents with Small Policy Models"
+    },
+    "https://arxiv.org/abs/2608.00243": {
+      "canonical_url": "https://arxiv.org/abs/2608.00243",
+      "created_at": "2026-08-04T06:24:03Z",
+      "status": "scoring_attempted",
+      "title": "More Debate, Same Evidence: Structural Limits of Homogeneous Multi-Agent Groundedness"
+    },
+    "https://arxiv.org/abs/2608.00270": {
+      "canonical_url": "https://arxiv.org/abs/2608.00270",
+      "created_at": "2026-08-04T06:24:03Z",
+      "status": "scoring_attempted",
+      "title": "Geometric Self-Supervised Pre-training for Neural Combinatorial Optimization"
+    },
+    "https://arxiv.org/abs/2608.00289": {
+      "canonical_url": "https://arxiv.org/abs/2608.00289",
+      "created_at": "2026-08-04T06:24:03Z",
+      "status": "scoring_attempted",
+      "title": "RF-HOI: Recognize Human-Object Interaction with Radio Frequency Signals"
+    },
+    "https://arxiv.org/abs/2608.00298": {
+      "canonical_url": "https://arxiv.org/abs/2608.00298",
+      "created_at": "2026-08-04T06:24:03Z",
+      "status": "scoring_attempted",
+      "title": "WM-Cov: Test Adequacy for Interactive World-Model-Style Autonomous Driving Simulation"
+    },
     "https://asymco.com/2026/07/31/apple-will-watch-everything-burn-when-ai-bubble-bursts": {
       "canonical_url": "https://asymco.com/2026/07/31/apple-will-watch-everything-burn-when-ai-bubble-bursts",
       "created_at": "2026-07-31T21:38:29Z",
@@ -3236,12 +3366,6 @@
       "created_at": "2026-07-28T13:16:41Z",
       "status": "scoring_attempted",
       "title": "Show HN: Open-source Cloudflare deployed agent native task management and wiki"
-    },
-    "https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing": {
-      "canonical_url": "https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing",
-      "created_at": "2026-07-28T06:22:53Z",
-      "status": "scoring_attempted",
-      "title": "Cursor makes its biggest India push yet ahead of SpaceX acquisition with localized pricing"
     },
     "https://techcrunch.com/2026/07/28/bot-detection-startup-spur-nabs-200m-from-insight": {
       "canonical_url": "https://techcrunch.com/2026/07/28/bot-detection-startup-spur-nabs-200m-from-insight",
@@ -4071,6 +4195,12 @@
       "status": "scoring_attempted",
       "title": "Cogent AI Team Releases VR-1: A Frontier Cyber Reasoning Model That Composes and Verifies Enterprise Attack Paths"
     },
+    "https://www.marktechpost.com/2026/08/03/y-combinator-open-sources-qm-multiplayer-ai-agent-harness": {
+      "canonical_url": "https://www.marktechpost.com/2026/08/03/y-combinator-open-sources-qm-multiplayer-ai-agent-harness",
+      "created_at": "2026-08-04T06:24:03Z",
+      "status": "scoring_attempted",
+      "title": "Y Combinator Open-Sources QM: An MIT-Licensed Multiplayer Agent Harness That Runs In Slack And The Web"
+    },
     "https://www.nytimes.com/2026/08/01/us/politics/iran-cyberattack-water-systems.html": {
       "canonical_url": "https://www.nytimes.com/2026/08/01/us/politics/iran-cyberattack-water-systems.html",
       "created_at": "2026-08-01T16:44:40Z",
@@ -4676,12 +4806,6 @@
       "created_at": "2026-07-30T11:28:52Z",
       "status": "scoring_attempted",
       "title": "LinkedIn Won\u2019t Be Expanding Its Data Centers in the Next Year"
-    },
-    "https://www.wired.com/story/hugging-face-has-a-nonconsensual-deepfakes-problem": {
-      "canonical_url": "https://www.wired.com/story/hugging-face-has-a-nonconsensual-deepfakes-problem",
-      "created_at": "2026-07-28T06:22:53Z",
-      "status": "scoring_attempted",
-      "title": "Hugging Face Has a Deepfake Nudes Problem"
     },
     "https://www.wired.com/story/i-let-a-private-chef-film-my-kitchen-for-robot-training-data": {
       "canonical_url": "https://www.wired.com/story/i-let-a-private-chef-film-my-kitchen-for-robot-training-data",
