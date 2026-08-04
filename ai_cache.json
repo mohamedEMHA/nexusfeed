@@ -466,6 +466,36 @@
         }
       }
     },
+    "48ab91b593e508eeb0f0ee978ac0e8e291c513f33a12ba2d40e96fb9f5364d7b": {
+      "created_at": "2026-08-04T20:57:49Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.5,
+              "impact_score": 2.5,
+              "index": 9,
+              "novelty_score": 3.0,
+              "reason": "Novelty (new release) and impact (all devs) align with freshness and source tier.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Cursor Open-Sources Mixture-of-Kittens (MoK): A Deterministic MoE Training Megakernel for GB300 NVL72 Racks",
+              "total_score": 8.5
+            }
+          ],
+          "best_index": 9,
+          "best_score": 8.5,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "Cursor\u2019s new open-source Mixture-of-Kittens (MoK) merges MoE communication and computation into a single deterministic kernel, delivering up to 2.37x speedups on GB300 NVL72 racks compared to public baselines. The release targets developers working on large-scale model training.\n\nLink: https://www.marktechpost.com/2026/08/04/cursor-open-sources-mixture-of-kittens-mok-a-deterministic-moe-training-megakernel-for-gb300-nvl72-racks/",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Cursor Open-Sources Mixture-of-Kittens (MoK): A Deterministic MoE Training Megakernel for GB300 NVL72 Racks*\n\nCursor Research open-sourced Mixture-of-Kittens (MoK), a deterministic MoE training megakernel that fuses all mixture-of-experts communication and computation into a single kernel. Benchmarks show up to 2.37x speedups on GB300 NVL72 racks compared to public baselines.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (Tier A)\n\u23f0 Published: 2 hours ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/08/04/cursor-open-sources-mixture-of-kittens-mok-a-deterministic-moe-training-megakernel-for-gb300-nvl72-racks/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "Cursor open-sourced MoK, a deterministic MoE training megakernel that fuses all communication and computation into one kernel, cutting training time by 2.37x on GB300 NVL72 racks.\n\nhttps://www.marktechpost.com/2026/08/04/cursor-open-sources-mixture-of-kittens-mok-a-deterministic-moe-training-megakernel-for-gb300-nvl72-racks/",
+            "twitter": "Cursor just open-sourced Mixture-of-Kittens, a deterministic MoE training megakernel that runs 2.37x faster on GB300 NVL72 racks than public baselines.\n\nhttps://www.marktechpost.com/2026/08/04/cursor-open-sources-mixture-of-kittens-mok-a-deterministic-moe-training-megakernel-for-gb300-nvl72-racks/"
+          }
+        }
+      }
+    },
     "4beafb7a05fa23d43c1539f948c4c0393e89d0987ce5ceef1497faed24d3497a": {
       "created_at": "2026-08-03T22:56:24Z",
       "payload": {
@@ -486,6 +516,43 @@
           ],
           "best_index": 2,
           "best_score": 5.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
+    "50e39436da369bd5caed8414d1fcb7998f1e59435a621b5ac5839daccb5e3083": {
+      "created_at": "2026-08-04T20:57:49Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2,
+              "impact_score": 1.5,
+              "index": 2,
+              "novelty_score": 2,
+              "reason": "Industry move with high freshness and source tier, but impact is niche.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "EA is now a private company",
+              "total_score": 7
+            },
+            {
+              "freshness_score": 2,
+              "impact_score": 0.5,
+              "index": 3,
+              "novelty_score": 3,
+              "reason": "New release with high freshness but low impact and source tier.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Oxide Computer raises $445M (SEC Form D)",
+              "total_score": 6
+            }
+          ],
+          "best_index": 2,
+          "best_score": 7,
           "recommendation": "SKIP",
           "social_posts": {}
         }
@@ -1089,48 +1156,6 @@
         "social_media_rules": []
       }
     },
-    "93af8aa98a57f1b1ffaa1de6da1b8c8af6d6741841d374f332713a8ae78036cf": {
-      "created_at": "2026-08-03T19:59:18Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 2.5,
-              "index": 4,
-              "novelty_score": 3.0,
-              "reason": "Major industry move with high novelty, broad impact, and freshness. No red flags.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "Apple finally fixed Siri. So why does it feel anticlimactic?",
-              "total_score": 9.0
-            },
-            {
-              "freshness_score": 1.5,
-              "impact_score": 2.5,
-              "index": 12,
-              "novelty_score": 2.0,
-              "reason": "Regulatory update with niche but significant impact. Freshness and source score lower than best.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.0,
-              "title": "EU AI Act Article 50 transparency rules enter force",
-              "total_score": 7.0
-            }
-          ],
-          "best_index": 4,
-          "best_score": 9.0,
-          "recommendation": "POST_NOW",
-          "social_posts": {
-            "facebook": "Apple\u2019s long-awaited Siri AI update is here, and it\u2019s actually useful now. But after years of delays, the assistant lands in a world where chatbots do far more than answer questions. The launch feels more like catching up than leading.\n\nLink: https://techcrunch.com/2026/08/03/apple-finally-fixed-siri-so-why-does-it-feel-anticlimactic/",
-            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Apple finally fixed Siri. So why does it feel anticlimactic?\n\nApple\u2019s AI overhaul makes Siri genuinely useful for the first time, but the assistant arrives after the market shifted toward agents that handle complex tasks.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (Tier A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://techcrunch.com/2026/08/03/apple-finally-fixed-siri-so-why-does-it-feel-anticlimactic/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-            "threads": "Apple\u2019s Siri AI update finally makes the assistant competent, but the timing feels off. The market now expects agents that code, reason, and complete complex tasks\u2014not just answer queries.\n\nhttps://techcrunch.com/2026/08/03/apple-finally-fixed-siri-so-why-does-it-feel-anticlimactic/",
-            "twitter": "Apple\u2019s Siri AI overhaul finally delivers on promises, but the market has moved on. The assistant now handles tasks better than ever\u2014yet feels late to the agent race.\n\nhttps://techcrunch.com/2026/08/03/apple-finally-fixed-siri-so-why-does-it-feel-anticlimactic/"
-          }
-        }
-      }
-    },
     "9a76ee697cebd2af28e5474ea9090f806ce30442e56e01df29ab0f87da110cac": {
       "created_at": "2026-08-04T09:24:04Z",
       "payload": {
@@ -1173,28 +1198,45 @@
         }
       }
     },
-    "9f3fda33e929bb7722653dee62a2c27749cc84b89da6968ec423a731bb5795b4": {
-      "created_at": "2026-08-03T19:59:18Z",
+    "a2746cca7f0943743b6bda0d78e78302c3b9857999ff1a2261779ba2b08e5812": {
+      "created_at": "2026-08-04T20:57:49Z",
       "payload": {
         "response_schema": {
           "articles": [
             {
-              "freshness_score": 0.0,
-              "impact_score": 0.0,
-              "index": 19,
-              "novelty_score": 0.0,
-              "reason": "Article is a recap of past events, triggering the 'recap' red flag.",
-              "red_flag": true,
-              "red_flag_reason": "recap",
-              "source_score": 0.5,
-              "title": "The Potomac River Midair Collision",
-              "total_score": 0.0
+              "freshness_score": 2,
+              "impact_score": 1.5,
+              "index": 0,
+              "novelty_score": 2,
+              "reason": "Industry move with fresh data but niche impact (AI compute revenue).",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "SpaceX has more neocloud revenue",
+              "total_score": 7.0
+            },
+            {
+              "freshness_score": 2,
+              "impact_score": 3,
+              "index": 1,
+              "novelty_score": 2.5,
+              "reason": "Breaking industry move affecting all AI/data center operators.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Texas halts data center connections to power grid amid overwhelming demand",
+              "total_score": 9.0
             }
           ],
-          "best_index": 19,
-          "best_score": 0.0,
-          "recommendation": "SKIP",
-          "social_posts": {}
+          "best_index": 1,
+          "best_score": 9.0,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "Texas has paused new data center connections to its power grid because AI demand has overwhelmed capacity. The move comes as the state\u2019s governor, who has touted Texas as an AI epicenter, faces grid strain from rapid AI infrastructure growth.\n\nLink: https://arstechnica.com/ai/2026/08/texas-halts-data-center-connections-to-power-grid-amid-overwhelming-demand/",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Texas halts data center connections to power grid amid overwhelming demand*\n\nTexas paused new data center grid connections due to AI-driven power demand overwhelming the state\u2019s infrastructure. The governor, who positioned Texas as an AI epicenter, halted approvals as data centers outpaced energy capacity.\n\n\ud83c\udfdb\ufe0f Source: Ars Technica (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://arstechnica.com/ai/2026/08/texas-halts-data-center-connections-to-power-grid-amid-overwhelming-demand/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "Texas just blocked new data center grid connections because AI demand crashed the power grid. The state\u2019s governor, who called Texas an AI hub, paused approvals as data centers outpaced energy capacity.\n\nhttps://arstechnica.com/ai/2026/08/texas-halts-data-center-connections-to-power-grid-amid-overwhelming-demand/",
+            "twitter": "Texas just froze new data center grid connections due to AI demand overwhelming the power grid. The state\u2019s governor, who pitched Texas as an AI hub, paused approvals amid record strain.\n\nhttps://arstechnica.com/ai/2026/08/texas-halts-data-center-connections-to-power-grid-amid-overwhelming-demand/"
+          }
         }
       }
     },
@@ -1342,48 +1384,6 @@
           "Use the FULL article title as headline without inventing facts.",
           "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
         ]
-      }
-    },
-    "b3b72b7caa002748e331cd46de842922c9f7288c9bdbc0ed67bd0f1faea13041": {
-      "created_at": "2026-08-03T19:59:18Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 2.5,
-              "index": 0,
-              "novelty_score": 1.5,
-              "reason": "Leadership appointment in academia with moderate industry relevance.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.0,
-              "title": "Alexander Rakhlin named director of the MIT Statistics and Data Science Center",
-              "total_score": 7.0
-            },
-            {
-              "freshness_score": 2.0,
-              "impact_score": 3.0,
-              "index": 1,
-              "novelty_score": 3.0,
-              "reason": "New funding round for AI evaluation platform with broad industry impact.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "DesignArena creators raise $7.9 million to bring taste to AI models",
-              "total_score": 9.5
-            }
-          ],
-          "best_index": 1,
-          "best_score": 9.5,
-          "recommendation": "POST_NOW",
-          "social_posts": {
-            "facebook": "DesignArena\u2019s creators closed a $7.9 million round to scale their platform, which relies on 5.3 million users to rate AI outputs. The funding signals growing demand for structured human feedback in AI development.\n\nLink: https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/",
-            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *DesignArena creators raise $7.9 million to bring taste to AI models*\n\nDesignArena\u2019s platform relies on 5.3 million users to evaluate AI outputs, bridging the gap between automated metrics and human judgment. The funding round underscores the industry\u2019s shift toward structured human feedback.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-            "threads": "DesignArena raised $7.9M to make human evaluation a first-class part of AI training. Their user base already rivals some research labs in scale.\n\nhttps://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/",
-            "twitter": "DesignArena just raised $7.9M to inject human judgment into AI models. Their platform is already used by 5.3M people to evaluate frontier models.\n\nhttps://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/"
-          }
-        }
       }
     },
     "bb6d55722cc8e75c403edc6e1388153b33da4eb31d5a4fd366ba16cc4a144814": {
@@ -1931,46 +1931,46 @@
         }
       }
     },
-    "f3cb45719ae86243ba9958c14646cafc39d637d259f263c173f2b28ff0872848": {
-      "created_at": "2026-08-03T19:59:18Z",
+    "f1ba01a4f4daa5177b5a4273e22d46ad898a0af87971243dad3683762c3b4e04": {
+      "created_at": "2026-08-04T20:57:49Z",
       "payload": {
-        "prompt_version": "cerebras-scoring-v1",
         "response_schema": {
           "articles": [
             {
-              "freshness_score": 2,
+              "freshness_score": 2.0,
               "impact_score": 2.5,
-              "index": 2,
-              "novelty_score": 2,
-              "reason": "Industry move with broad relevance but not a new release or research.",
+              "index": 4,
+              "novelty_score": 2.5,
+              "reason": "Research on open-weight AI models' safety gaps with high novelty, impact, and freshness from Tier A source.",
               "red_flag": false,
               "red_flag_reason": null,
               "source_score": 1.5,
-              "title": "Influencers draw backlash for attending OpenAI\u2019s first luxury trip",
-              "total_score": 8
+              "title": "Open-weight AI models are catching up to the frontier. The safety gap remains.",
+              "total_score": 8.5
             },
             {
-              "freshness_score": 2,
-              "impact_score": 1.5,
-              "index": 3,
-              "novelty_score": 2,
-              "reason": "Niche industry guidance with practical relevance but limited scope.",
+              "freshness_score": 1.5,
+              "impact_score": 1.0,
+              "index": 6,
+              "novelty_score": 1.5,
+              "reason": "Industry move with moderate novelty and impact, freshness, and Tier A source.",
               "red_flag": false,
               "red_flag_reason": null,
-              "source_score": 1,
-              "title": "Azure and Community Guidelines on Choosing Between a Skill or a Sub-Agent",
-              "total_score": 6.5
+              "source_score": 1.5,
+              "title": "Meet Wrinkles, an app that uncovers the hidden stories of the places around you",
+              "total_score": 5.5
             }
           ],
-          "best_index": 2,
-          "best_score": 8,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        },
-        "social_media_rules": [
-          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
-          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields."
-        ]
+          "best_index": 4,
+          "best_score": 8.5,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "A new SaferAI report highlights that Z.ai\u2019s open-weight GLM-5.2 is approaching frontier AI capabilities while missing key safety mitigations. The findings raise concerns about open models outpacing governance and safeguards.\n\nLink: https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Open-weight AI models are catching up to the frontier. The safety gap remains.*\n\nA SaferAI report finds Z.ai\u2019s open-weight GLM-5.2 approaches frontier AI capabilities while lacking key safety mitigations, renewing concerns about open models outpacing governance.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "Z.ai\u2019s GLM-5.2 open-weight model is closing the gap to frontier AI but lacks critical safety features, according to SaferAI. The report underscores the risk of powerful open models outpacing governance.\n\nhttps://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/",
+            "twitter": "Z.ai\u2019s open-weight GLM-5.2 nearly matches frontier AI performance but lacks critical safety measures, warns SaferAI report.\n\nhttps://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/"
+          }
+        }
       }
     },
     "f3dd345dae62f6387066a6b3bf50a9142c828155acc975cd23143e169c90a688": {
@@ -2036,15 +2036,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Elon Musk's xAI Challenges Grok App Ban\nxAI is taking legal action against Minnesota's ban on Grok's nudifying app, citing constitutional concerns.\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #Grok #Regulation\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Elon Musk's xAI is suing to overturn Minnesota's ban on Grok's nudifying app, claiming it's an unconstitutional move, @elonmusk #AIregulation",
         "twitter": "Elon Musk's xAI is taking legal action to challenge Minnesota's ban on Grok's nudifying app, @elonmusk claims it's unconstitutional #AIregulation #Grok"
-      }
-    },
-    "122f0d7e0a665691882851f1e03f5906ea9a9580eb203427161923c9b722a986": {
-      "created_at": "2026-07-28T20:17:53Z",
-      "payload": {
-        "facebook": "The US government is being urged to take action on the development of frontier AI by leaders from top labs including OpenAI, Google, and Meta. This move could lead to a slowdown in AI development or an increase in global coordinated governance. #AIgovernance #AIethics #AIregulation",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 AI Leaders Call for Governance\nEmployees from leading AI labs are urging the US government to take action on frontier AI development, potentially slowing it down or increasing global governance.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n#AIgovernance #AIethics #AIregulation\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Top AI labs are calling for global governance of AI development, with leaders from OpenAI and Google signing a statement to the US government @OpenAI #AIgovernance",
-        "twitter": "AI development may slow down as leaders from OpenAI and Google call for global governance @OpenAI #AIgovernance #AIethics"
       }
     },
     "3c1094d49966cf99538cced1f16b0149c40e883b781043df9a260d8bb2420269": {
@@ -2327,6 +2318,12 @@
       "created_at": "2026-08-01T13:56:45Z",
       "status": "scoring_attempted",
       "title": "As Reddit stock falls, CEO questions value of Google's AI Overviews"
+    },
+    "https://arstechnica.com/ai/2026/08/texas-halts-data-center-connections-to-power-grid-amid-overwhelming-demand": {
+      "canonical_url": "https://arstechnica.com/ai/2026/08/texas-halts-data-center-connections-to-power-grid-amid-overwhelming-demand",
+      "created_at": "2026-08-04T20:57:49Z",
+      "status": "scoring_attempted",
+      "title": "Texas halts data center connections to power grid amid overwhelming demand"
     },
     "https://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks": {
       "canonical_url": "https://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks",
@@ -3684,12 +3681,6 @@
       "status": "scoring_attempted",
       "title": "MCP startup Runlayer accuses Rippling of stealing its product idea"
     },
-    "https://techcrunch.com/2026/07/28/sam-altman-is-ready-to-decelerate": {
-      "canonical_url": "https://techcrunch.com/2026/07/28/sam-altman-is-ready-to-decelerate",
-      "created_at": "2026-07-28T20:17:53Z",
-      "status": "scoring_attempted",
-      "title": "Sam Altman is ready to decelerate"
-    },
     "https://techcrunch.com/2026/07/29/as-ai-content-floods-the-internet-pangram-raises-9m-to-detect-it": {
       "canonical_url": "https://techcrunch.com/2026/07/29/as-ai-content-floods-the-internet-pangram-raises-9m-to-detect-it",
       "created_at": "2026-07-29T11:48:04Z",
@@ -3990,11 +3981,23 @@
       "status": "scoring_attempted",
       "title": "Is the future of data centers portable? Runware builds a pod to find out"
     },
+    "https://techcrunch.com/2026/08/04/meet-wrinkles-an-ai-app-that-uncovers-the-hidden-stories-of-the-places-around-you": {
+      "canonical_url": "https://techcrunch.com/2026/08/04/meet-wrinkles-an-ai-app-that-uncovers-the-hidden-stories-of-the-places-around-you",
+      "created_at": "2026-08-04T20:57:49Z",
+      "status": "scoring_attempted",
+      "title": "Meet Wrinkles, an app that uncovers the hidden stories of the places around you"
+    },
     "https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress": {
       "canonical_url": "https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress",
       "created_at": "2026-08-04T19:50:04Z",
       "status": "scoring_attempted",
       "title": "Nvidia doesn\u2019t mess around: A week after open AI industry group formed, it\u2019s already showing progress"
+    },
+    "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains": {
+      "canonical_url": "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains",
+      "created_at": "2026-08-04T20:57:49Z",
+      "status": "scoring_attempted",
+      "title": "Open-weight AI models are catching up to the frontier. The safety gap remains."
     },
     "https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort": {
       "canonical_url": "https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort",
@@ -4248,12 +4251,6 @@
       "status": "scoring_attempted",
       "title": "Dropbox Integrates MCP and Dash to Close the Gap Between Security Design and Code Review"
     },
-    "https://www.infoq.com/news/2026/07/github-dependabot-cooldown": {
-      "canonical_url": "https://www.infoq.com/news/2026/07/github-dependabot-cooldown",
-      "created_at": "2026-07-28T20:17:53Z",
-      "status": "scoring_attempted",
-      "title": "GitHub Introduces Default \"Cooldown\" Policy for Dependabot Version Updates"
-    },
     "https://www.infoq.com/news/2026/07/lambda-self-managed-storage": {
       "canonical_url": "https://www.infoq.com/news/2026/07/lambda-self-managed-storage",
       "created_at": "2026-07-30T09:05:20Z",
@@ -4500,6 +4497,12 @@
       "status": "scoring_attempted",
       "title": "Y Combinator Open-Sources QM: An MIT-Licensed Multiplayer Agent Harness That Runs In Slack And The Web"
     },
+    "https://www.marktechpost.com/2026/08/04/cursor-open-sources-mixture-of-kittens-mok-a-deterministic-moe-training-megakernel-for-gb300-nvl72-racks": {
+      "canonical_url": "https://www.marktechpost.com/2026/08/04/cursor-open-sources-mixture-of-kittens-mok-a-deterministic-moe-training-megakernel-for-gb300-nvl72-racks",
+      "created_at": "2026-08-04T20:57:49Z",
+      "status": "scoring_attempted",
+      "title": "Cursor Open-Sources Mixture-of-Kittens (MoK): A Deterministic MoE Training Megakernel for GB300 NVL72 Racks"
+    },
     "https://www.marktechpost.com/2026/08/04/reflex-open-sources-xy": {
       "canonical_url": "https://www.marktechpost.com/2026/08/04/reflex-open-sources-xy",
       "created_at": "2026-08-04T11:47:53Z",
@@ -4554,23 +4557,17 @@
       "status": "scoring_attempted",
       "title": "LLMs reward expertise"
     },
+    "https://www.sec.gov/Archives/edgar/data/1795071/000179507126000002/xslFormDX01/primary_doc.xml": {
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1795071/000179507126000002/xslFormDX01/primary_doc.xml",
+      "created_at": "2026-08-04T20:57:49Z",
+      "status": "scoring_attempted",
+      "title": "Oxide Computer raises $445M (SEC Form D)"
+    },
     "https://www.theverge.com/ai-artificial-intelligence/971059/ai-artists-lawsuit-google-meta-anthropic": {
       "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/971059/ai-artists-lawsuit-google-meta-anthropic",
       "created_at": "2026-07-29T13:27:14Z",
       "status": "scoring_attempted",
       "title": "Artists are lawyering up against AI slop, and some are even winning"
-    },
-    "https://www.theverge.com/ai-artificial-intelligence/972119/ai-stock-fall-google-capex": {
-      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/972119/ai-stock-fall-google-capex",
-      "created_at": "2026-07-28T20:17:53Z",
-      "status": "scoring_attempted",
-      "title": "AI\u2019s finally expensive enough to make Wall Street nervous"
-    },
-    "https://www.theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta": {
-      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta",
-      "created_at": "2026-07-28T20:17:53Z",
-      "status": "scoring_attempted",
-      "title": "AI leaders sign statement asking the government to do something about automated AI"
     },
     "https://www.theverge.com/ai-artificial-intelligence/972380/open-ai-hugging-face-hack-ai-safety-warning": {
       "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/972380/open-ai-hugging-face-hack-ai-safety-warning",
@@ -4716,12 +4713,6 @@
       "status": "scoring_attempted",
       "title": "The Verge\u2019s 2026 back-to-school shopping guide"
     },
-    "https://www.theverge.com/gadgets/972021/epos-h3-hybrid-wired-gaming-headset-deal-sale": {
-      "canonical_url": "https://www.theverge.com/gadgets/972021/epos-h3-hybrid-wired-gaming-headset-deal-sale",
-      "created_at": "2026-07-28T20:17:53Z",
-      "status": "scoring_attempted",
-      "title": "This comfy gaming headset that can play audio from two sources is $25"
-    },
     "https://www.theverge.com/gadgets/972456/dji-osmo-pocket-4p-review": {
       "canonical_url": "https://www.theverge.com/gadgets/972456/dji-osmo-pocket-4p-review",
       "created_at": "2026-07-30T13:08:00Z",
@@ -4812,6 +4803,12 @@
       "status": "scoring_attempted",
       "title": "Microsoft is bringing Xbox 360 games to PC"
     },
+    "https://www.theverge.com/games/974736/ea-private-company-deal-closed": {
+      "canonical_url": "https://www.theverge.com/games/974736/ea-private-company-deal-closed",
+      "created_at": "2026-08-04T20:57:49Z",
+      "status": "scoring_attempted",
+      "title": "EA is now a private company"
+    },
     "https://www.theverge.com/games/974773/xbox-helix-disc-digital-backwards-compatibility-leaked-memo-opt-in": {
       "canonical_url": "https://www.theverge.com/games/974773/xbox-helix-disc-digital-backwards-compatibility-leaked-memo-opt-in",
       "created_at": "2026-08-04T11:47:53Z",
@@ -4848,12 +4845,6 @@
       "status": "scoring_attempted",
       "title": "xAI\u2019s last-minute scramble to stop Minnesota\u2019s anti-nudification app law"
     },
-    "https://www.theverge.com/report/972146/cbp-phone-search-airport-duress-password": {
-      "canonical_url": "https://www.theverge.com/report/972146/cbp-phone-search-airport-duress-password",
-      "created_at": "2026-07-28T20:17:53Z",
-      "status": "scoring_attempted",
-      "title": "Is it illegal to trick the US government into wiping your phone during a questionably legal search?"
-    },
     "https://www.theverge.com/science/970731/doordash-air-drone-delivery-faa": {
       "canonical_url": "https://www.theverge.com/science/970731/doordash-air-drone-delivery-faa",
       "created_at": "2026-07-29T13:27:14Z",
@@ -4865,6 +4856,12 @@
       "created_at": "2026-07-30T18:44:52Z",
       "status": "scoring_attempted",
       "title": "NASA\u2019s Curiosity rover found a \u2018sea of polygons\u2019 on Mars"
+    },
+    "https://www.theverge.com/science/975335/spacex-made-more-money-as-a-neocloud": {
+      "canonical_url": "https://www.theverge.com/science/975335/spacex-made-more-money-as-a-neocloud",
+      "created_at": "2026-08-04T20:57:49Z",
+      "status": "scoring_attempted",
+      "title": "SpaceX has more neocloud revenue"
     },
     "https://www.theverge.com/tech/972209/ebay-cyberstalking-harassment-settlement": {
       "canonical_url": "https://www.theverge.com/tech/972209/ebay-cyberstalking-harassment-settlement",
