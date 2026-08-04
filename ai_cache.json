@@ -253,6 +253,31 @@
         }
       }
     },
+    "1f5028407825e1e52912929a43b423f3bc536fa47bca153702872d8da2b1a550": {
+      "created_at": "2026-08-04T22:58:57Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 3.0,
+              "index": 1,
+              "novelty_score": 2.5,
+              "reason": "Article triggers red flag due to sensationalized phrasing ('surge') despite high impact and novelty.",
+              "red_flag": true,
+              "red_flag_reason": "industry move (cybercrime) with 'surge' in title",
+              "source_score": 0.5,
+              "title": "AI fuels more than half of cybercrime in Africa as scams surge \u2013 Interpol",
+              "total_score": 8.0
+            }
+          ],
+          "best_index": 1,
+          "best_score": 8.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
     "37b0a8e5b0863255edaac207fe9f4300be37a1edbc1e2aaa3702707b885a8202": {
       "created_at": "2026-08-04T15:54:37Z",
       "payload": {
@@ -436,36 +461,6 @@
         ]
       }
     },
-    "48165c76ee7d7d32c1984cf7717d9ba8178059d29e63fe14c123738c92d071fc": {
-      "created_at": "2026-08-03T22:56:24Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2,
-              "impact_score": 1.5,
-              "index": 0,
-              "novelty_score": 2,
-              "reason": "Question in title triggers red flag per rules.",
-              "red_flag": true,
-              "red_flag_reason": "question in title",
-              "source_score": 1.5,
-              "title": "Did an AI Music App Just Snitch on the Song of the Summer?",
-              "total_score": 7
-            }
-          ],
-          "best_index": 0,
-          "best_score": 0,
-          "recommendation": "SKIP",
-          "social_posts": {
-            "facebook": "",
-            "telegram": "",
-            "threads": "",
-            "twitter": ""
-          }
-        }
-      }
-    },
     "48ab91b593e508eeb0f0ee978ac0e8e291c513f33a12ba2d40e96fb9f5364d7b": {
       "created_at": "2026-08-04T20:57:49Z",
       "payload": {
@@ -493,31 +488,6 @@
             "threads": "Cursor open-sourced MoK, a deterministic MoE training megakernel that fuses all communication and computation into one kernel, cutting training time by 2.37x on GB300 NVL72 racks.\n\nhttps://www.marktechpost.com/2026/08/04/cursor-open-sources-mixture-of-kittens-mok-a-deterministic-moe-training-megakernel-for-gb300-nvl72-racks/",
             "twitter": "Cursor just open-sourced Mixture-of-Kittens, a deterministic MoE training megakernel that runs 2.37x faster on GB300 NVL72 racks than public baselines.\n\nhttps://www.marktechpost.com/2026/08/04/cursor-open-sources-mixture-of-kittens-mok-a-deterministic-moe-training-megakernel-for-gb300-nvl72-racks/"
           }
-        }
-      }
-    },
-    "4beafb7a05fa23d43c1539f948c4c0393e89d0987ce5ceef1497faed24d3497a": {
-      "created_at": "2026-08-03T22:56:24Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1.5,
-              "impact_score": 0.5,
-              "index": 2,
-              "novelty_score": 2.5,
-              "reason": "Niche retro computing deep dive with low impact outside its domain.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "ZX Spectrum System Tour: Text Mode \u2013 Bumbershoot Software",
-              "total_score": 5.0
-            }
-          ],
-          "best_index": 2,
-          "best_score": 5.0,
-          "recommendation": "SKIP",
-          "social_posts": {}
         }
       }
     },
@@ -669,31 +639,6 @@
           ],
           "best_index": 2,
           "best_score": 6,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
-      }
-    },
-    "62b6837d4ff1d1c2f823d7f057e63bf066b1656ceac2c2511cf7dc19f23786c4": {
-      "created_at": "2026-08-03T22:18:34Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1.5,
-              "impact_score": 2.5,
-              "index": 1,
-              "novelty_score": 2.5,
-              "reason": "Opinion piece lacks novelty and freshness for this audience.",
-              "red_flag": true,
-              "red_flag_reason": "opinion",
-              "source_score": 0.5,
-              "title": "LLMs reward expertise",
-              "total_score": 7.0
-            }
-          ],
-          "best_index": 1,
-          "best_score": 7.0,
           "recommendation": "SKIP",
           "social_posts": {}
         }
@@ -1204,36 +1149,6 @@
             "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Texas halts data center connections to power grid amid overwhelming demand*\n\nTexas paused new data center grid connections due to AI-driven power demand overwhelming the state\u2019s infrastructure. The governor, who positioned Texas as an AI epicenter, halted approvals as data centers outpaced energy capacity.\n\n\ud83c\udfdb\ufe0f Source: Ars Technica (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://arstechnica.com/ai/2026/08/texas-halts-data-center-connections-to-power-grid-amid-overwhelming-demand/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
             "threads": "Texas just blocked new data center grid connections because AI demand crashed the power grid. The state\u2019s governor, who called Texas an AI hub, paused approvals as data centers outpaced energy capacity.\n\nhttps://arstechnica.com/ai/2026/08/texas-halts-data-center-connections-to-power-grid-amid-overwhelming-demand/",
             "twitter": "Texas just froze new data center grid connections due to AI demand overwhelming the power grid. The state\u2019s governor, who pitched Texas as an AI hub, paused approvals amid record strain.\n\nhttps://arstechnica.com/ai/2026/08/texas-halts-data-center-connections-to-power-grid-amid-overwhelming-demand/"
-          }
-        }
-      }
-    },
-    "a38de632dc86029902565cbda6c629aa66dd4246822421c29cb9cfd3e361e984": {
-      "created_at": "2026-08-03T22:18:34Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 2.5,
-              "index": 0,
-              "novelty_score": 2.5,
-              "reason": "Research-grade novelty with military AI impact, fresh and from Tier A source.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "Ukraine\u2019s drones get AI upgrades for kamikaze strikes, future swarm attacks",
-              "total_score": 8.5
-            }
-          ],
-          "best_index": 0,
-          "best_score": 8.5,
-          "recommendation": "POST_NOW",
-          "social_posts": {
-            "facebook": "Ukraine just put 50,000 drones into the field with new US-developed AI targeting systems. The tech combines real-time object recognition with swarm coordination, marking a shift in battlefield automation. The $100 million deal signals how quickly AI is moving from labs to front lines.\n\nLink: https://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks/",
-            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Ukraine\u2019s drones get AI upgrades for kamikaze strikes, future swarm attacks*\n\nUkraine deploys 50,000 drones with US-developed AI targeting systems for real-time object recognition and swarm coordination in combat.\n\n\ud83c\udfdb\ufe0f Source: Ars Technica (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-            "threads": "Ukraine\u2019s military now fields 50,000 drones upgraded with US AI for precision kamikaze strikes and coordinated swarm attacks. The systems process visual data in flight to adjust targets mid-mission, a capability that could redefine drone warfare.\n\nhttps://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks/",
-            "twitter": "Ukraine deploys 50,000 AI-upgraded drones for kamikaze strikes and swarm tactics. Early tests show precision gains in contested zones.\n\nhttps://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks/"
           }
         }
       }
@@ -1953,31 +1868,6 @@
         "social_media_rules": []
       }
     },
-    "f0eaffaad75019b9921ae6fb404d2f4234085df2617ad601801132379eda9832": {
-      "created_at": "2026-08-03T22:18:34Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1.5,
-              "impact_score": 0.5,
-              "index": 2,
-              "novelty_score": 0.2,
-              "reason": "Gadget deal with low novelty, niche impact, and freshness just under 3 hours.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "Samsung\u2019s discounted smart monitor is $349.99, its lowest price yet",
-              "total_score": 2.2
-            }
-          ],
-          "best_index": 2,
-          "best_score": 2.2,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
-      }
-    },
     "f1ba01a4f4daa5177b5a4273e22d46ad898a0af87971243dad3683762c3b4e04": {
       "created_at": "2026-08-04T20:57:49Z",
       "payload": {
@@ -2229,15 +2119,6 @@
         "twitter": "US ban on foreign-made robots may backfire, hindering domestic robotics development @ArsTechnica #robotics"
       }
     },
-    "ead06d3c011e0bebed5eba635b55c2c562822f0707acbbec465212e727872786": {
-      "created_at": "2026-07-28T22:38:44Z",
-      "payload": {
-        "facebook": "The US government has announced a new import ban on advanced robotic devices and power inverters made in foreign countries, a move that could have significant implications for the tech industry. This ban is part of a broader effort to restrict the use of foreign-made technology. #robotics #techpolicy #usgovernment",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 US bans foreign robots\nThe US government has announced a ban on the import of advanced robotic devices and power inverters made in foreign countries. This move is expected to have significant implications for the tech industry.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#robotics #techpolicy #usgovernment\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "The US government is banning the import of advanced robotic devices and power inverters made in foreign countries, a move that could impact the tech industry @TheVerge #robotics",
-        "twitter": "US government targets China with import ban on advanced robotic devices and power inverters @TheVerge #robotics"
-      }
-    },
     "f0873d0bf575a89db1ea3b90779273029a1b63fb4634bf19e87d616a10c30b6c": {
       "created_at": "2026-07-30T00:00:33Z",
       "payload": {
@@ -2392,12 +2273,6 @@
       "created_at": "2026-07-29T16:59:38Z",
       "status": "scoring_attempted",
       "title": "Anthropic is finding bugs faster than Microsoft can fix them"
-    },
-    "https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story": {
-      "canonical_url": "https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story",
-      "created_at": "2026-07-28T22:38:44Z",
-      "status": "scoring_attempted",
-      "title": "We now have a better understanding how OpenAI hacked into Hugging Face"
     },
     "https://arstechnica.com/security/2026/07/likely-illegally-claude-gained-access-to-3-networks-will-anthropic-be-held-to-account": {
       "canonical_url": "https://arstechnica.com/security/2026/07/likely-illegally-claude-gained-access-to-3-networks-will-anthropic-be-held-to-account",
@@ -4121,6 +3996,12 @@
       "status": "scoring_attempted",
       "title": "Flock \u2013 Chilling Effects: Long Island's Emerging Open-Air Prison"
     },
+    "https://www.africanews.com/2026/08/04/ai-fuels-more-than-half-of-cybercrime-in-africa-as-digital-scams-surge-interpol": {
+      "canonical_url": "https://www.africanews.com/2026/08/04/ai-fuels-more-than-half-of-cybercrime-in-africa-as-digital-scams-surge-interpol",
+      "created_at": "2026-08-04T22:58:57Z",
+      "status": "scoring_attempted",
+      "title": "AI fuels more than half of cybercrime in Africa as scams surge \u2013 Interpol"
+    },
     "https://www.aikido.dev/blog/anthropic-rogue-agents-package-stole-keys": {
       "canonical_url": "https://www.aikido.dev/blog/anthropic-rogue-agents-package-stole-keys",
       "created_at": "2026-08-02T21:10:25Z",
@@ -4697,12 +4578,6 @@
       "status": "scoring_attempted",
       "title": "\u2018Not healthy\u2019 LLM use is more common than you think"
     },
-    "https://www.theverge.com/entertainment/972233/ariana-grande-hacking-lawsuit": {
-      "canonical_url": "https://www.theverge.com/entertainment/972233/ariana-grande-hacking-lawsuit",
-      "created_at": "2026-07-28T22:38:44Z",
-      "status": "scoring_attempted",
-      "title": "Ariana Grande is suing the hackers who&#8217;ve been leaking her songs and videos for years"
-    },
     "https://www.theverge.com/entertainment/973002/spotify-running-mode-launch-bpm-playlists": {
       "canonical_url": "https://www.theverge.com/entertainment/973002/spotify-running-mode-launch-bpm-playlists",
       "created_at": "2026-07-30T13:08:00Z",
@@ -4900,12 +4775,6 @@
       "created_at": "2026-07-29T13:27:14Z",
       "status": "scoring_attempted",
       "title": "The Nothing Ear 3A look great\u2026 and sound good enough"
-    },
-    "https://www.theverge.com/tech/972259/us-foreign-robots-power-inverter-ban": {
-      "canonical_url": "https://www.theverge.com/tech/972259/us-foreign-robots-power-inverter-ban",
-      "created_at": "2026-07-28T22:38:44Z",
-      "status": "scoring_attempted",
-      "title": "The US is banning foreign robots"
     },
     "https://www.theverge.com/tech/972294/meta-q2-2026-earnings-mark-zuckerberg-personal-ai-agents": {
       "canonical_url": "https://www.theverge.com/tech/972294/meta-q2-2026-earnings-mark-zuckerberg-personal-ai-agents",
