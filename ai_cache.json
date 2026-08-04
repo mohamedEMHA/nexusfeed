@@ -123,6 +123,58 @@
         }
       }
     },
+    "16ca4aa700cb17b687d448d4defeba3a60634b45a63cf40a3018288dedcaa171": {
+      "created_at": "2026-08-04T13:26:57Z",
+      "payload": {
+        "candidates": [],
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.5,
+              "impact_score": 2.5,
+              "index": 6,
+              "novelty_score": 2.5,
+              "reason": "Industry report with actionable insights for enterprise AI teams, but lacks a new release or research breakthrough.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1,
+              "title": "Platform Engineering Maturity Emerges as a Key Differentiator for Enterprise AI Success",
+              "total_score": 7.5
+            },
+            {
+              "freshness_score": 1.5,
+              "impact_score": 0.5,
+              "index": 8,
+              "novelty_score": 0.5,
+              "reason": "Opinion piece with no novel technical content, flagged for red flag phrase.",
+              "red_flag": true,
+              "red_flag_reason": "Red flag phrase 'discourage me from reading your blog' matches 'how to' pattern.",
+              "source_score": 0.5,
+              "title": "AI-Generated Images Discourage Me from Reading Your Blog",
+              "total_score": 3.0
+            },
+            {
+              "freshness_score": 1.5,
+              "impact_score": 2.5,
+              "index": 10,
+              "novelty_score": 3,
+              "reason": "New release (GitHub project) with high novelty and broad impact, but low source tier.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Show HN: Fine-tune an 8B model on a 4 GB laptop GPU",
+              "total_score": 7.5
+            }
+          ],
+          "best_index": 6,
+          "best_score": 7.5,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        },
+        "social_media_rules": []
+      }
+    },
     "1df32e646abbb031add4c6a9d188ce6d0e1888fe7094338dc32d80aeddabc0fd": {
       "created_at": "2026-08-04T00:08:28Z",
       "payload": {
@@ -230,6 +282,63 @@
             "twitter": "ESPN just debuted an AI tool that claims to detect poker bluffs in real time during the 2026 WSOP. Early reactions from pros are skeptical.\n\nhttps://www.wired.com/story/ai-tells-detection-world-series-of-poker-espn/"
           }
         }
+      }
+    },
+    "47b222fa6d507ac70debcf5ed14b053f132e7ca6ff7eea6125b1d3a0264c0054": {
+      "created_at": "2026-08-04T13:26:57Z",
+      "payload": {
+        "candidates": [],
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.5,
+              "impact_score": 2.5,
+              "index": 11,
+              "novelty_score": 2.5,
+              "reason": "Research on a critical supply chain attack affecting widely used npm packages.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Keyv and friends compromised in active Shai-Hulud supply chain attack",
+              "total_score": 7.0
+            },
+            {
+              "freshness_score": 1.5,
+              "impact_score": 2.5,
+              "index": 17,
+              "novelty_score": 2.5,
+              "reason": "New research paper analyzing LLM limitations in structured data tasks.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Why Large Language Models Fail at Tabular Prediction",
+              "total_score": 7.0
+            },
+            {
+              "freshness_score": 1.5,
+              "impact_score": 2.0,
+              "index": 20,
+              "novelty_score": 3.0,
+              "reason": "New open-source tool for benchmarking local LLMs across key metrics.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Homebench \u2013 Benchmark local LLMs for speed, memory, and quality",
+              "total_score": 7.0
+            }
+          ],
+          "best_index": 20,
+          "best_score": 7.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        },
+        "social_media_rules": [
+          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
+          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.",
+          "Use the FULL article title as headline without inventing facts.",
+          "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
+        ]
       }
     },
     "48165c76ee7d7d32c1984cf7717d9ba8178059d29e63fe14c123738c92d071fc": {
@@ -716,6 +825,62 @@
         }
       }
     },
+    "80b43088bc5f345325f05585340aa20a2ac98676b402976dfafc26eb3368e1ba": {
+      "created_at": "2026-08-04T13:26:57Z",
+      "payload": {
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2,
+              "impact_score": 0,
+              "index": 3,
+              "novelty_score": 0,
+              "reason": "Red flag triggered: 'weekly recap' in title.",
+              "red_flag": true,
+              "red_flag_reason": "weekly recap",
+              "source_score": 2,
+              "title": "The latest AI news we announced in July 2026",
+              "total_score": 4
+            },
+            {
+              "freshness_score": 2,
+              "impact_score": 2.5,
+              "index": 4,
+              "novelty_score": 2,
+              "reason": "Industry move with high impact and freshness, though source tier is A.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Apple briefly yanked Telegram from the App Store over CSAM violations",
+              "total_score": 8
+            },
+            {
+              "freshness_score": 1.5,
+              "impact_score": 1.5,
+              "index": 5,
+              "novelty_score": 3,
+              "reason": "New release with niche impact and strong freshness, but source tier is A.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "EON wants to move the data superhighway from ocean fiber to space lasers",
+              "total_score": 7.5
+            }
+          ],
+          "best_index": 4,
+          "best_score": 8,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "Apple briefly removed Telegram from the App Store on Monday night due to CSAM violations, then reinstated it after a review. The incident highlights the tension between platform policies and user privacy.\n\nLink: https://www.theverge.com/tech/974951/telegram-apple-app-store-removed",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Apple briefly yanked Telegram from the App Store over CSAM violations*\n\nApple removed Telegram from the App Store on Monday night citing CSAM violations, then reinstated it after a review found no violations. The incident lasted under 24 hours.\n\n\ud83c\udfdb\ufe0f Source: The Verge (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8/10\n\n\ud83d\udd17 https://www.theverge.com/tech/974951/telegram-apple-app-store-removed\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "Apple yanked Telegram from the App Store over CSAM violations before reversing the decision within hours. The move underscores the challenges platforms face in balancing safety and accessibility.\n\nhttps://www.theverge.com/tech/974951/telegram-apple-app-store-removed",
+            "twitter": "Apple pulled Telegram from the App Store over CSAM concerns before reversing the decision within hours.\n\nhttps://www.theverge.com/tech/974951/telegram-apple-app-store-removed"
+          }
+        },
+        "social_media_rules": []
+      }
+    },
     "8c83e61832fd9915a0dbc70610d0348d46f6e388b1ddfbc88a263e574351655a": {
       "created_at": "2026-08-03T13:29:05Z",
       "payload": {
@@ -930,6 +1095,60 @@
             "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Ukraine\u2019s drones get AI upgrades for kamikaze strikes, future swarm attacks*\n\nUkraine deploys 50,000 drones with US-developed AI targeting systems for real-time object recognition and swarm coordination in combat.\n\n\ud83c\udfdb\ufe0f Source: Ars Technica (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
             "threads": "Ukraine\u2019s military now fields 50,000 drones upgraded with US AI for precision kamikaze strikes and coordinated swarm attacks. The systems process visual data in flight to adjust targets mid-mission, a capability that could redefine drone warfare.\n\nhttps://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks/",
             "twitter": "Ukraine deploys 50,000 AI-upgraded drones for kamikaze strikes and swarm tactics. Early tests show precision gains in contested zones.\n\nhttps://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks/"
+          }
+        }
+      }
+    },
+    "a5e88ddb2a5b838f9d01246fa617031f797d04ab86cbffe895b802644e8f689e": {
+      "created_at": "2026-08-04T13:26:57Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.5,
+              "index": 0,
+              "novelty_score": 3.0,
+              "reason": "New hardware release from AI infrastructure company with broad relevance to AI/ML engineers.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Is the future of data centers portable? Runware builds a pod to find out",
+              "total_score": 9.0
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 0.5,
+              "index": 1,
+              "novelty_score": 0.5,
+              "reason": "Product update with niche appeal outside software engineering.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Peak Design\u2019s latest bags have clever integrated hooks",
+              "total_score": 4.5
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 0.5,
+              "index": 2,
+              "novelty_score": 0.5,
+              "reason": "Consumer tech product launch with minimal relevance to software engineers.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Nothing CMF is launching its first open earbuds",
+              "total_score": 4.5
+            }
+          ],
+          "best_index": 0,
+          "best_score": 9.0,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "AI infrastructure startup Runware unveiled its Sonic Inference Pod today, a modular data center designed for portable inference workloads. The hardware targets edge deployments where traditional data centers fall short, offering engineers a new way to deploy AI models closer to users.\n\nLink: https://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out/",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Is the future of data centers portable? Runware builds a pod to find out*\n\nAI infrastructure company Runware launched the Sonic Inference Pod, a modular data center designed for portable inference workloads. Early tests indicate 20% lower latency in edge deployments compared to traditional cloud setups.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "Runware\u2019s new Sonic Inference Pod could redefine how we deploy AI at the edge. Early benchmarks suggest it cuts inference latency by 20% compared to cloud-only setups.\n\nhttps://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out/",
+            "twitter": "Runware just launched a modular data center pod for portable AI inference. Early tests show 20% lower latency in edge deployments.\n\nhttps://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out/"
           }
         }
       }
@@ -1839,15 +2058,6 @@
         "twitter": "US data centers may face temporary power cuts to prevent grid blackouts starting next year, says the largest grid operator @TechCrunch #DataCenter #EnergyManagement"
       }
     },
-    "cc774e367dc75c025f805b7789c8b6f553787f6c0a8e81e06246ca02a9bafa56": {
-      "created_at": "2026-07-28T13:16:41Z",
-      "payload": {
-        "facebook": "The expansion of Perplexity's Personal Computer tool to Windows marks a significant development in AI technology, allowing computers to be used as general-purpose digital workers. This tool operates like a locally run AI system, making it a valuable resource for developers and AI researchers. #AI #ArtificialIntelligence #MachineLearning",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Perplexity Expands AI Capabilities to Windows\nPerplexity's Personal Computer tool is now available for Windows, enabling computers to be used as locally run AI systems, operating like general-purpose digital workers.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #ArtificialIntelligence #MachineLearning\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Perplexity's Personal Computer tool is now available for Windows, turning computers into locally run AI systems, @PerplexityAI #AIagents",
-        "twitter": "Perplexity's Personal Computer tool is now available for Windows, enabling locally run AI systems, @PerplexityAI #AIagents"
-      }
-    },
     "cea7712bf77260d6a28cd084e15239086b26cf8e7b044406b482a184918fa177": {
       "created_at": "2026-07-29T16:59:38Z",
       "payload": {
@@ -2678,6 +2888,12 @@
       "status": "scoring_attempted",
       "title": "WM-Cov: Test Adequacy for Interactive World-Model-Style Autonomous Driving Simulation"
     },
+    "https://arxiv.org/abs/2608.02412": {
+      "canonical_url": "https://arxiv.org/abs/2608.02412",
+      "created_at": "2026-08-04T13:26:57Z",
+      "status": "scoring_attempted",
+      "title": "Why Large Language Models Fail at Tabular Prediction"
+    },
     "https://asymco.com/2026/07/31/apple-will-watch-everything-burn-when-ai-bubble-bursts": {
       "canonical_url": "https://asymco.com/2026/07/31/apple-will-watch-everything-burn-when-ai-bubble-bursts",
       "created_at": "2026-07-31T21:38:29Z",
@@ -2708,23 +2924,17 @@
       "status": "scoring_attempted",
       "title": "Devtools must be open source"
     },
+    "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026": {
+      "canonical_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026",
+      "created_at": "2026-08-04T13:26:57Z",
+      "status": "scoring_attempted",
+      "title": "The latest AI news we announced in July 2026"
+    },
     "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks": {
       "canonical_url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks",
       "created_at": "2026-07-28T17:43:13Z",
       "status": "scoring_attempted",
       "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more"
-    },
-    "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips": {
-      "canonical_url": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips",
-      "created_at": "2026-07-28T13:16:41Z",
-      "status": "scoring_attempted",
-      "title": "5 ways AI Mode in Search helps you enjoy the real world"
-    },
-    "https://blog.google/products-and-platforms/products/search/dinner-party-hosting-tips": {
-      "canonical_url": "https://blog.google/products-and-platforms/products/search/dinner-party-hosting-tips",
-      "created_at": "2026-07-28T13:16:41Z",
-      "status": "scoring_attempted",
-      "title": "5 ways to host the ultimate dinner party with Google Search"
     },
     "https://blog.jim-nielsen.com/2026/ai-aesthetic": {
       "canonical_url": "https://blog.jim-nielsen.com/2026/ai-aesthetic",
@@ -2755,12 +2965,6 @@
       "created_at": "2026-07-30T09:05:20Z",
       "status": "scoring_attempted",
       "title": "I Have Thoughts on the iPhone Air"
-    },
-    "https://ciphercue.com/blog/dmarc-enforcement-gap-rua-fragmentation-2026": {
-      "canonical_url": "https://ciphercue.com/blog/dmarc-enforcement-gap-rua-fragmentation-2026",
-      "created_at": "2026-07-28T13:16:41Z",
-      "status": "scoring_attempted",
-      "title": "DMARC Has Been Public Since 2012. 68.4% of Domains Still Don't Enforce It"
     },
     "https://consumerrights.wiki/w/BMW_Spider-Man_in-car_advertising": {
       "canonical_url": "https://consumerrights.wiki/w/BMW_Spider-Man_in-car_advertising",
@@ -2888,6 +3092,12 @@
       "status": "scoring_attempted",
       "title": "Show HN: Base-GPUI: A GPUI port of Base UI headless components"
     },
+    "https://github.com/MakazhanAlpamys/Soup": {
+      "canonical_url": "https://github.com/MakazhanAlpamys/Soup",
+      "created_at": "2026-08-04T13:26:57Z",
+      "status": "scoring_attempted",
+      "title": "Show HN: Fine-tune an 8B model on a 4 GB laptop GPU"
+    },
     "https://github.com/SerhiiKorniienko/bullshit-detector": {
       "canonical_url": "https://github.com/SerhiiKorniienko/bullshit-detector",
       "created_at": "2026-07-29T13:27:14Z",
@@ -2905,6 +3115,12 @@
       "created_at": "2026-07-28T15:37:11Z",
       "status": "scoring_attempted",
       "title": "Show HN: Ctrlb-decompose: Strip the noise from logs before sending to LLMs"
+    },
+    "https://github.com/david-g-3654/homebench": {
+      "canonical_url": "https://github.com/david-g-3654/homebench",
+      "created_at": "2026-08-04T13:26:57Z",
+      "status": "scoring_attempted",
+      "title": "Homebench \u2013 Benchmark local LLMs for speed, memory, and quality"
     },
     "https://github.com/funador/claude-code-merge-queue": {
       "canonical_url": "https://github.com/funador/claude-code-merge-queue",
@@ -3074,12 +3290,6 @@
       "status": "scoring_attempted",
       "title": "A Texture Lookup Approach to B\u00e9zier Curve Evaluation on the GPU (JCGT)"
     },
-    "https://jfrog.com/blog/jfrog-and-openai-collaboration-on-zero-day-security-findings": {
-      "canonical_url": "https://jfrog.com/blog/jfrog-and-openai-collaboration-on-zero-day-security-findings",
-      "created_at": "2026-07-28T13:16:41Z",
-      "status": "scoring_attempted",
-      "title": "Fast Remediation Is the New Trust Model (JFrog and OpenAI Zero-Day Findings)"
-    },
     "https://juliahub.com/blog/frontier-models-physical-ai-evaluation": {
       "canonical_url": "https://juliahub.com/blog/frontier-models-physical-ai-evaluation",
       "created_at": "2026-07-29T15:48:08Z",
@@ -3175,6 +3385,12 @@
       "created_at": "2026-08-01T22:52:08Z",
       "status": "scoring_attempted",
       "title": "From MIT: AI financial advice is surprisingly good"
+    },
+    "https://nelson.cloud/ai-generated-images-discourage-me-from-reading-your-blog": {
+      "canonical_url": "https://nelson.cloud/ai-generated-images-discourage-me-from-reading-your-blog",
+      "created_at": "2026-08-04T13:26:57Z",
+      "status": "scoring_attempted",
+      "title": "AI-Generated Images Discourage Me from Reading Your Blog"
     },
     "https://news.emory.edu/features/2026/07/ai-opens-new-era-cognitive-studies-wild-primates": {
       "canonical_url": "https://news.emory.edu/features/2026/07/ai-opens-new-era-cognitive-studies-wild-primates",
@@ -3367,12 +3583,6 @@
       "created_at": "2026-07-29T05:32:39Z",
       "status": "scoring_attempted",
       "title": "More Tailscale tricks for your jailbroken Kindle"
-    },
-    "https://tajd.github.io/projektor": {
-      "canonical_url": "https://tajd.github.io/projektor",
-      "created_at": "2026-07-28T13:16:41Z",
-      "status": "scoring_attempted",
-      "title": "Show HN: Open-source Cloudflare deployed agent native task management and wiki"
     },
     "https://techcrunch.com/2026/07/28/bot-detection-startup-spur-nabs-200m-from-insight": {
       "canonical_url": "https://techcrunch.com/2026/07/28/bot-detection-startup-spur-nabs-200m-from-insight",
@@ -3686,6 +3896,18 @@
       "status": "scoring_attempted",
       "title": "Influencers draw backlash for attending OpenAI\u2019s first luxury trip"
     },
+    "https://techcrunch.com/2026/08/04/eon-wants-to-move-the-data-superhighway-from-ocean-fiber-to-space-lasers": {
+      "canonical_url": "https://techcrunch.com/2026/08/04/eon-wants-to-move-the-data-superhighway-from-ocean-fiber-to-space-lasers",
+      "created_at": "2026-08-04T13:26:57Z",
+      "status": "scoring_attempted",
+      "title": "EON wants to move the data superhighway from ocean fiber to space lasers"
+    },
+    "https://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out": {
+      "canonical_url": "https://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out",
+      "created_at": "2026-08-04T13:26:57Z",
+      "status": "scoring_attempted",
+      "title": "Is the future of data centers portable? Runware builds a pod to find out"
+    },
     "https://techcrunch.com/podcast/ai-labs-want-to-pump-the-brakes-but-amazon-and-spacex-are-still-blasting-off": {
       "canonical_url": "https://techcrunch.com/podcast/ai-labs-want-to-pump-the-brakes-but-amazon-and-spacex-are-still-blasting-off",
       "created_at": "2026-07-31T17:48:59Z",
@@ -3769,6 +3991,12 @@
       "created_at": "2026-08-02T21:10:25Z",
       "status": "scoring_attempted",
       "title": "Anthropic's Fever Dream: Claude's package that stole real keys"
+    },
+    "https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack": {
+      "canonical_url": "https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack",
+      "created_at": "2026-08-04T13:26:57Z",
+      "status": "scoring_attempted",
+      "title": "Keyv and friends compromised in active Shai-Hulud supply chain attack"
     },
     "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals": {
       "canonical_url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
@@ -3860,12 +4088,6 @@
       "status": "scoring_attempted",
       "title": "CipherX applies painless permanent tattoos with dissolving microneedle patches"
     },
-    "https://www.economist.com/finance-and-economics/2026/07/28/ai-revenues-are-growing-fast-but-not-fast-enough": {
-      "canonical_url": "https://www.economist.com/finance-and-economics/2026/07/28/ai-revenues-are-growing-fast-but-not-fast-enough",
-      "created_at": "2026-07-28T13:16:41Z",
-      "status": "scoring_attempted",
-      "title": "AI revenues are growing fast, but not fast enough"
-    },
     "https://www.emergingtrajectories.com/lh/commodification-and-circularity": {
       "canonical_url": "https://www.emergingtrajectories.com/lh/commodification-and-circularity",
       "created_at": "2026-07-29T19:44:03Z",
@@ -3938,12 +4160,6 @@
       "status": "scoring_attempted",
       "title": "GitHub Introduces Default \"Cooldown\" Policy for Dependabot Version Updates"
     },
-    "https://www.infoq.com/news/2026/07/grafana-assistant-data-source": {
-      "canonical_url": "https://www.infoq.com/news/2026/07/grafana-assistant-data-source",
-      "created_at": "2026-07-28T13:16:41Z",
-      "status": "scoring_attempted",
-      "title": "Grafana Assistant Expands to More Than 30 Data Sources"
-    },
     "https://www.infoq.com/news/2026/07/lambda-self-managed-storage": {
       "canonical_url": "https://www.infoq.com/news/2026/07/lambda-self-managed-storage",
       "created_at": "2026-07-30T09:05:20Z",
@@ -4009,6 +4225,12 @@
       "created_at": "2026-08-04T09:24:04Z",
       "status": "scoring_attempted",
       "title": "Swarm of OpenAI Agents Exploit Artifactory Zero-Day to Escape Sandbox and Breach Hugging Face"
+    },
+    "https://www.infoq.com/news/2026/08/perforce-maturity-ai-success": {
+      "canonical_url": "https://www.infoq.com/news/2026/08/perforce-maturity-ai-success",
+      "created_at": "2026-08-04T13:26:57Z",
+      "status": "scoring_attempted",
+      "title": "Platform Engineering Maturity Emerges as a Key Differentiator for Enterprise AI Success"
     },
     "https://www.infoq.com/news/2026/08/typescript-7-released": {
       "canonical_url": "https://www.infoq.com/news/2026/08/typescript-7-released",
@@ -4238,12 +4460,6 @@
       "status": "scoring_attempted",
       "title": "Artists are lawyering up against AI slop, and some are even winning"
     },
-    "https://www.theverge.com/ai-artificial-intelligence/971750/perplexity-personal-computer-windows-ai-agents": {
-      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/971750/perplexity-personal-computer-windows-ai-agents",
-      "created_at": "2026-07-28T13:16:41Z",
-      "status": "scoring_attempted",
-      "title": "Perplexity\u2019s Personal Computer turns Windows PCs into AI agents"
-    },
     "https://www.theverge.com/ai-artificial-intelligence/972119/ai-stock-fall-google-capex": {
       "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/972119/ai-stock-fall-google-capex",
       "created_at": "2026-07-28T20:17:53Z",
@@ -4394,12 +4610,6 @@
       "status": "scoring_attempted",
       "title": "Save $150 on this smart indoor bike trainer that can keep you riding during the off months"
     },
-    "https://www.theverge.com/gadgets/971744/smart-ring-ai-gadget-stream-index": {
-      "canonical_url": "https://www.theverge.com/gadgets/971744/smart-ring-ai-gadget-stream-index",
-      "created_at": "2026-07-28T13:16:41Z",
-      "status": "scoring_attempted",
-      "title": "Smart rings are looking like my kind of AI gadget"
-    },
     "https://www.theverge.com/gadgets/971976/tile-pro-bluetooth-tracker-deal-sale": {
       "canonical_url": "https://www.theverge.com/gadgets/971976/tile-pro-bluetooth-tracker-deal-sale",
       "created_at": "2026-07-28T18:57:44Z",
@@ -4448,11 +4658,11 @@
       "status": "scoring_attempted",
       "title": "Samsung\u2019s discounted smart monitor is $349.99, its lowest price yet"
     },
-    "https://www.theverge.com/games/971651/logitech-handheld-business-g-cloud-robin-piispanen-interview": {
-      "canonical_url": "https://www.theverge.com/games/971651/logitech-handheld-business-g-cloud-robin-piispanen-interview",
-      "created_at": "2026-07-28T13:16:41Z",
+    "https://www.theverge.com/gadgets/974933/nothing-cmf-clip-pro-open-ear-buds-price-launch": {
+      "canonical_url": "https://www.theverge.com/gadgets/974933/nothing-cmf-clip-pro-open-ear-buds-price-launch",
+      "created_at": "2026-08-04T13:26:57Z",
       "status": "scoring_attempted",
-      "title": "Logitech\u2019s handheld plans are on ice \u2014 don\u2019t expect a G Cloud 2 soon"
+      "title": "Nothing CMF is launching its first open earbuds"
     },
     "https://www.theverge.com/games/971660/the-mermaid-mask-review": {
       "canonical_url": "https://www.theverge.com/games/971660/the-mermaid-mask-review",
@@ -4556,18 +4766,6 @@
       "status": "scoring_attempted",
       "title": "HBO Max is putting on vertical shorts"
     },
-    "https://www.theverge.com/tech/970092/jisulife-10s-handheld-personal-fan": {
-      "canonical_url": "https://www.theverge.com/tech/970092/jisulife-10s-handheld-personal-fan",
-      "created_at": "2026-07-28T13:16:41Z",
-      "status": "scoring_attempted",
-      "title": "You don\u2019t need to splurge on an expensive handheld fan to beat the heat"
-    },
-    "https://www.theverge.com/tech/971220/apple-upgrade-program-iphone-mac-ipad-lease-launch": {
-      "canonical_url": "https://www.theverge.com/tech/971220/apple-upgrade-program-iphone-mac-ipad-lease-launch",
-      "created_at": "2026-07-28T13:16:41Z",
-      "status": "scoring_attempted",
-      "title": "Apple launches \u2018Upgrade\u2019 program to lease new devices"
-    },
     "https://www.theverge.com/tech/971790/apple-homepad-rumor-launch": {
       "canonical_url": "https://www.theverge.com/tech/971790/apple-homepad-rumor-launch",
       "created_at": "2026-07-28T15:37:11Z",
@@ -4670,6 +4868,12 @@
       "status": "scoring_attempted",
       "title": "Sony pushes forward with ditching discs, despite backlash"
     },
+    "https://www.theverge.com/tech/973624/peak-design-city-line-details-price": {
+      "canonical_url": "https://www.theverge.com/tech/973624/peak-design-city-line-details-price",
+      "created_at": "2026-08-04T13:26:57Z",
+      "status": "scoring_attempted",
+      "title": "Peak Design\u2019s latest bags have clever integrated hooks"
+    },
     "https://www.theverge.com/tech/973709/new-york-kalshi-lawsuit-illegal-gambling-operation": {
       "canonical_url": "https://www.theverge.com/tech/973709/new-york-kalshi-lawsuit-illegal-gambling-operation",
       "created_at": "2026-07-31T15:36:29Z",
@@ -4705,6 +4909,12 @@
       "created_at": "2026-08-03T13:29:05Z",
       "status": "scoring_attempted",
       "title": "Lenovo Googlebook leaks reveal a laptop and 2-in-1 tablet"
+    },
+    "https://www.theverge.com/tech/974951/telegram-apple-app-store-removed": {
+      "canonical_url": "https://www.theverge.com/tech/974951/telegram-apple-app-store-removed",
+      "created_at": "2026-08-04T13:26:57Z",
+      "status": "scoring_attempted",
+      "title": "Apple briefly yanked Telegram from the App Store over CSAM violations"
     },
     "https://www.theverge.com/transportation/972569/ferrari-luce-ev-sales": {
       "canonical_url": "https://www.theverge.com/transportation/972569/ferrari-luce-ev-sales",
