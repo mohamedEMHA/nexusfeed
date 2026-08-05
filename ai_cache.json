@@ -74,88 +74,33 @@
         ]
       }
     },
-    "058c675c146e1e684d3a227a40034340a7e200017b49a1a66694a99b5c2f3225": {
-      "created_at": "2026-08-04T15:54:37Z",
+    "136b98a8a28006a4a76fc0f163c21b392a2d76baf31f210f640d4bb39c000948": {
+      "created_at": "2026-08-05T16:00:12Z",
       "payload": {
         "response_schema": {
           "articles": [
             {
-              "freshness_score": 2,
-              "impact_score": 1.5,
-              "index": 0,
-              "novelty_score": 2,
-              "reason": "Industry move with niche but growing impact on music tech and AI tools.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "Spotify expands AI remix and covers project with Merlin partnership",
-              "total_score": 7.0
-            },
-            {
-              "freshness_score": 2,
+              "freshness_score": 2.0,
               "impact_score": 2.5,
               "index": 1,
-              "novelty_score": 2,
-              "reason": "Industry move with broad impact on cloud infrastructure and policy.",
+              "novelty_score": 3.0,
+              "reason": "New product release with broad developer relevance, published under 1 hour ago from Tier A source.",
               "red_flag": false,
               "red_flag_reason": null,
               "source_score": 1.5,
-              "title": "Texas halts new data centers as governor calls for audits",
-              "total_score": 8.0
-            },
-            {
-              "freshness_score": 2,
-              "impact_score": 1.5,
-              "index": 2,
-              "novelty_score": 1.5,
-              "reason": "Opinion/analysis with niche relevance to AI and robotics.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "Elon Musk spends half his time talking robots and AI on Tesla earnings calls",
-              "total_score": 6.5
+              "title": "Hark previews its browser use agent for completing tasks",
+              "total_score": 9.0
             }
           ],
           "best_index": 1,
-          "best_score": 8.0,
-          "recommendation": "SKIP"
-        }
-      }
-    },
-    "16c0c34acfa937f6361aad4119c83843286e5f2b2ed396ace02a6b180dcf3579": {
-      "created_at": "2026-08-04T15:54:37Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2,
-              "impact_score": 2.5,
-              "index": 3,
-              "novelty_score": 2.5,
-              "reason": "Article is opinionated, not a factual report or technical analysis.",
-              "red_flag": true,
-              "red_flag_reason": "opinion",
-              "source_score": 0.5,
-              "title": "Online ad giant Adform was hacked, proving once again why ad blockers are needed",
-              "total_score": 7.5
-            },
-            {
-              "freshness_score": 1.5,
-              "impact_score": 2.5,
-              "index": 4,
-              "novelty_score": 3,
-              "reason": "New tool integration with broad developer relevance but low source tier.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Agent skills that bring team coding standards to Claude Code and Codex",
-              "total_score": 7.5
-            }
-          ],
-          "best_index": 4,
-          "best_score": 7.5,
-          "recommendation": "SKIP",
-          "social_posts": {}
+          "best_score": 9.0,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "Hark is previewing a new browser use agent designed to automate tasks faster and cheaper than existing solutions. The company positions it as a productivity tool for developers and enterprises alike. If it delivers, this could change how we approach browser automation.\n\nLink: https://techcrunch.com/2026/08/05/hark-previews-its-browser-use-agent-for-completing-tasks/",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Hark previews its browser use agent for completing tasks*\n\nHark introduces a browser use agent claiming faster task completion and lower costs than competitors. Early demos highlight potential efficiency gains.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://techcrunch.com/2026/08/05/hark-previews-its-browser-use-agent-for-completing-tasks/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "Hark\u2019s new browser use agent promises to complete tasks faster and at lower cost than current options. The preview suggests it could be a game-changer for automation workflows, but real-world testing will tell.\n\nhttps://techcrunch.com/2026/08/05/hark-previews-its-browser-use-agent-for-completing-tasks/",
+            "twitter": "Hark just unveiled a browser use agent that claims to outpace competitors in speed and cost efficiency for task completion. Early demos show promise.\n\nhttps://techcrunch.com/2026/08/05/hark-previews-its-browser-use-agent-for-completing-tasks/"
+          }
         }
       }
     },
@@ -392,48 +337,6 @@
         }
       }
     },
-    "37b0a8e5b0863255edaac207fe9f4300be37a1edbc1e2aaa3702707b885a8202": {
-      "created_at": "2026-08-04T15:54:37Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 0.5,
-              "impact_score": 0.0,
-              "index": 7,
-              "novelty_score": 0.0,
-              "reason": "Article is a recap with no technical relevance to software engineers or AI researchers.",
-              "red_flag": true,
-              "red_flag_reason": "recap",
-              "source_score": 1.5,
-              "title": "Our favorite memories at the movies",
-              "total_score": 2.0
-            },
-            {
-              "freshness_score": 2.0,
-              "impact_score": 2.5,
-              "index": 8,
-              "novelty_score": 3.0,
-              "reason": "New release from Tier S source with high impact and freshness for AI researchers.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 2.0,
-              "title": "Deploy local agents everywhere with LFM2.5-2.6B",
-              "total_score": 9.5
-            }
-          ],
-          "best_index": 8,
-          "best_score": 9.5,
-          "recommendation": "POST_NOW",
-          "social_posts": {
-            "facebook": "Hugging Face released LFM2.5-2.6B, a lightweight model designed to run local agents efficiently on edge devices. The team claims it delivers strong reasoning performance while minimizing compute overhead. Link: https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
-            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Deploy local agents everywhere with LFM2.5-2.6B*\n\nHugging Face released LFM2.5-2.6B, a lightweight local agent model optimized for edge deployment. Early benchmarks suggest it improves reasoning performance while reducing compute overhead.\n\n\ud83c\udfdb\ufe0f Source: HuggingFace (Tier S)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9.5/10\n\n\ud83d\udd17 https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-            "threads": "Hugging Face just shipped LFM2.5-2.6B, a new local agent model built for edge deployment. It\u2019s optimized for reasoning tasks and claims to reduce compute costs compared to similar models.\n\nhttps://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
-            "twitter": "Hugging Face just dropped LFM2.5-2.6B, a new local agent model optimized for deployment across devices. Early tests show it outperforms similar-sized models in reasoning tasks.\n\nhttps://huggingface.co/blog/LiquidAI/lfm2-5-2-6b"
-          }
-        }
-      }
-    },
     "48ab91b593e508eeb0f0ee978ac0e8e291c513f33a12ba2d40e96fb9f5364d7b": {
       "created_at": "2026-08-04T20:57:49Z",
       "payload": {
@@ -528,6 +431,36 @@
           "best_score": 7,
           "recommendation": "SKIP",
           "social_posts": {}
+        }
+      }
+    },
+    "53170df77a8a2b2e6deff53648c6d657bd33246addd610576347a73681b7ef74": {
+      "created_at": "2026-08-05T16:00:12Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2,
+              "impact_score": 2.5,
+              "index": 0,
+              "novelty_score": 2.5,
+              "reason": "Industry move with high impact and freshness from Tier A source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Shopify says AI search is driving more traffic and sales, not replacing Google",
+              "total_score": 8.5
+            }
+          ],
+          "best_index": 0,
+          "best_score": 8.5,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "Shopify\u2019s latest numbers suggest AI search isn\u2019t cannibalizing traffic\u2014it\u2019s creating it. In Q2, orders from AI-driven searches tripled year over year, signaling a new revenue channel for merchants. The data challenges the assumption that AI search replaces traditional discovery.\n\nLink: https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google/",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Shopify says AI search is driving more traffic and sales, not replacing Google*\n\nShopify reports AI-driven traffic and orders to its stores tripled year over year in Q2, suggesting AI search expands discovery rather than replacing traditional channels.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "Shopify\u2019s Q2 data proves AI search isn\u2019t a zero-sum game. Orders from AI-driven searches tripled YoY, showing merchants a new way to capture demand instead of fighting over existing traffic.\n\nhttps://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google/",
+            "twitter": "Shopify\u2019s data shows AI search isn\u2019t stealing traffic\u2014it\u2019s growing it. Q2 orders from AI-driven searches tripled YoY, proving the channel\u2019s untapped potential.\n\nhttps://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google/"
+          }
         }
       }
     },
@@ -1626,48 +1559,6 @@
         }
       }
     },
-    "dfb889ceb393ac8e2e248ebdea135e35b267921e7aaff6a349e31042ac3da5ab": {
-      "created_at": "2026-08-04T15:54:37Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2,
-              "impact_score": 2.5,
-              "index": 5,
-              "novelty_score": 2.5,
-              "reason": "Industry move with high impact on Apple and OpenAI, fresh and from Tier A source.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "Apple says more ex-employees may have taken confidential data to OpenAI",
-              "total_score": 8.5
-            },
-            {
-              "freshness_score": 2,
-              "impact_score": 0.5,
-              "index": 6,
-              "novelty_score": 0.2,
-              "reason": "Giveaway content with low novelty and impact, despite freshness and Tier A source.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "We\u2019re giving away a back-to-school bag filled with over $800 of free tech",
-              "total_score": 4.2
-            }
-          ],
-          "best_index": 5,
-          "best_score": 8.5,
-          "recommendation": "POST_NOW",
-          "social_posts": {
-            "facebook": "Apple\u2019s investigation into OpenAI has widened. A new court filing suggests additional former employees may have retained or accessed confidential information. The case highlights ongoing concerns about data security in AI partnerships.\n\nLink: https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
-            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Apple says more ex-employees may have taken confidential data to OpenAI*\n\nApple\u2019s trade secrets investigation into OpenAI has widened. A new court filing claims additional former staff may have retained or accessed confidential information.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (Tier A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-            "threads": "Apple\u2019s trade secrets probe into OpenAI just got bigger. More ex-employees may have taken confidential data, per a new court filing. This raises fresh questions about data handling in AI collaborations.\n\nhttps://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
-            "twitter": "Apple\u2019s trade secrets probe into OpenAI just expanded. Former employees may have taken confidential data, according to a new court filing.\n\nhttps://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/"
-          }
-        }
-      }
-    },
     "e08e2cc7e3e97553fb0c9ff6752ce9fc14cbc3cb8d9a2c3a74c1bf4d0f267a58": {
       "created_at": "2026-08-04T16:10:07Z",
       "payload": {
@@ -2691,12 +2582,6 @@
       "status": "scoring_attempted",
       "title": "Git worktrees are not an isolation boundary for coding agents"
     },
-    "https://fluxtion-playground.dev/blog/2026-07-29-graph-engineering-needs-a-compiler": {
-      "canonical_url": "https://fluxtion-playground.dev/blog/2026-07-29-graph-engineering-needs-a-compiler",
-      "created_at": "2026-07-29T15:48:08Z",
-      "status": "scoring_attempted",
-      "title": "Graph Engineering Needs a Compiler"
-    },
     "https://fortune.com/2026/07/31/ai-debt-hypescalers-capex-capital-spending-hidden-borrowing-bond-issuance": {
       "canonical_url": "https://fortune.com/2026/07/31/ai-debt-hypescalers-capex-capital-spending-hidden-borrowing-bond-issuance",
       "created_at": "2026-08-03T21:13:20Z",
@@ -2883,12 +2768,6 @@
       "status": "scoring_attempted",
       "title": "Launch HN: Hoplite (YC S26) \u2013 Effortlessly deploy cloud coding agents"
     },
-    "https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html": {
-      "canonical_url": "https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html",
-      "created_at": "2026-07-29T15:48:08Z",
-      "status": "scoring_attempted",
-      "title": "Hugging Face: Anatomy of a frontier-lab agent intrusion"
-    },
     "https://huggingface.co/blog/Dharma-AI/gpu-management": {
       "canonical_url": "https://huggingface.co/blog/Dharma-AI/gpu-management",
       "created_at": "2026-07-30T15:21:40Z",
@@ -2900,12 +2779,6 @@
       "created_at": "2026-08-04T15:54:37Z",
       "status": "scoring_attempted",
       "title": "Deploy local agents everywhere with LFM2.5-2.6B"
-    },
-    "https://juliahub.com/blog/frontier-models-physical-ai-evaluation": {
-      "canonical_url": "https://juliahub.com/blog/frontier-models-physical-ai-evaluation",
-      "created_at": "2026-07-29T15:48:08Z",
-      "status": "scoring_attempted",
-      "title": "GPT-5.6 vs. Claude Fable 5 for Physical AI, which performs best?"
     },
     "https://jwlabs.vercel.app/post/biting-the-bullet": {
       "canonical_url": "https://jwlabs.vercel.app/post/biting-the-bullet",
@@ -3218,12 +3091,6 @@
       "created_at": "2026-07-29T21:33:28Z",
       "status": "scoring_attempted",
       "title": "Discover what\u2019s next for AI, from the SaaS reckoning to the agent security gap, at TechCrunch Disrupt 2026"
-    },
-    "https://techcrunch.com/2026/07/29/hint-a-new-ai-startup-co-founded-by-martha-stewart-offers-an-ai-assistant-for-homeowners": {
-      "canonical_url": "https://techcrunch.com/2026/07/29/hint-a-new-ai-startup-co-founded-by-martha-stewart-offers-an-ai-assistant-for-homeowners",
-      "created_at": "2026-07-29T15:48:08Z",
-      "status": "scoring_attempted",
-      "title": "Hint, a new AI startup co-founded by Martha Stewart, offers an AI assistant for homeowners"
     },
     "https://techcrunch.com/2026/07/29/mark-zuckerberg-predicts-that-billions-of-people-will-have-personal-ai-agents-in-five-years": {
       "canonical_url": "https://techcrunch.com/2026/07/29/mark-zuckerberg-predicts-that-billions-of-people-will-have-personal-ai-agents-in-five-years",
@@ -3543,11 +3410,23 @@
       "status": "scoring_attempted",
       "title": "Anthropic is hiring an AI chip design team"
     },
+    "https://techcrunch.com/2026/08/05/hark-previews-its-browser-use-agent-for-completing-tasks": {
+      "canonical_url": "https://techcrunch.com/2026/08/05/hark-previews-its-browser-use-agent-for-completing-tasks",
+      "created_at": "2026-08-05T16:00:12Z",
+      "status": "scoring_attempted",
+      "title": "Hark previews its browser use agent for completing tasks"
+    },
     "https://techcrunch.com/2026/08/05/macpaw-taps-liquid-ai-to-offer-on-device-inference-to-devs-building-for-its-app-store": {
       "canonical_url": "https://techcrunch.com/2026/08/05/macpaw-taps-liquid-ai-to-offer-on-device-inference-to-devs-building-for-its-app-store",
       "created_at": "2026-08-05T13:20:39Z",
       "status": "scoring_attempted",
       "title": "MacPaw taps Liquid AI to offer on-device inference to devs building for its app store"
+    },
+    "https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google": {
+      "canonical_url": "https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google",
+      "created_at": "2026-08-05T16:00:12Z",
+      "status": "scoring_attempted",
+      "title": "Shopify says AI search is driving more traffic and sales, not replacing Google"
     },
     "https://techcrunch.com/2026/08/05/techcrunch-disrupt-2026s-real-world-ai-stage-features-robots-automated-factories-and-extinct-animals": {
       "canonical_url": "https://techcrunch.com/2026/08/05/techcrunch-disrupt-2026s-real-world-ai-stage-features-robots-automated-factories-and-extinct-animals",
