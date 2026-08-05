@@ -265,6 +265,31 @@
         "social_media_rules": []
       }
     },
+    "1ad499b73130f482535d22edff759892de590e0432e1324dc0ac4c8edde3c59a": {
+      "created_at": "2026-08-05T06:10:38Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1,
+              "impact_score": 1.5,
+              "index": 2,
+              "novelty_score": 2.5,
+              "reason": "Research on a low-cost SLM deployment with niche hardware impact.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "An SLM trained on $8 ESP32-S3",
+              "total_score": 5.5
+            }
+          ],
+          "best_index": 2,
+          "best_score": 5.5,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
     "1f5028407825e1e52912929a43b423f3bc536fa47bca153702872d8da2b1a550": {
       "created_at": "2026-08-04T22:58:57Z",
       "payload": {
@@ -521,6 +546,36 @@
             "twitter": "Cursor just open-sourced Mixture-of-Kittens, a deterministic MoE training megakernel that runs 2.37x faster on GB300 NVL72 racks than public baselines.\n\nhttps://www.marktechpost.com/2026/08/04/cursor-open-sources-mixture-of-kittens-mok-a-deterministic-moe-training-megakernel-for-gb300-nvl72-racks/"
           }
         }
+      }
+    },
+    "48d75929b7c337a5bff2511673f6c360b1b618b36088c7fe10a2db09d5f3f6de": {
+      "created_at": "2026-08-05T06:10:38Z",
+      "payload": {
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.5,
+              "index": 1,
+              "novelty_score": 2.5,
+              "reason": "Research paper with high novelty and impact, fresh but from low-tier source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Zero-Mem: Zero-Token Memory Operations for LLM Agents",
+              "total_score": 7.5
+            }
+          ],
+          "best_index": 1,
+          "best_score": 7.5,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        },
+        "social_media_rules": [
+          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
+          "If recommendation is SKIP, social_posts must be empty objects."
+        ]
       }
     },
     "50e39436da369bd5caed8414d1fcb7998f1e59435a621b5ac5839daccb5e3083": {
@@ -1078,6 +1133,36 @@
         }
       }
     },
+    "8b31251bcd81d461bbe1fb681c83706b6914b144bdc1ca6d25630e0d175a1256": {
+      "created_at": "2026-08-05T06:10:38Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.5,
+              "index": 0,
+              "novelty_score": 3.0,
+              "reason": "New open-source release with broad developer impact and high freshness from Tier A source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "CopilotKit Open Sources Channels SDK: An MIT Licensed Library That Runs Any AG-UI Agent Inside Slack And Microsoft Teams",
+              "total_score": 9.0
+            }
+          ],
+          "best_index": 0,
+          "best_score": 9.0,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "CopilotKit released the Channels SDK, an MIT-licensed library that embeds AG-UI agents directly into Slack and Microsoft Teams. Version 0.5.0 includes five platform adapters and a documented runtime contract for verified deployments.\n\nLink: https://www.marktechpost.com/2026/08/04/copilotkit-open-sources-channels-sdk/",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *CopilotKit Open Sources Channels SDK: An MIT Licensed Library That Runs Any AG-UI Agent Inside Slack And Microsoft Teams*\n\nCopilotKit published the Channels SDK, an MIT-licensed library enabling AG-UI agents to run natively in Slack and Microsoft Teams. Version 0.5.0 includes five platform adapters and a documented runtime contract for verified deployments.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (Tier A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/08/04/copilotkit-open-sources-channels-sdk/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "CopilotKit open-sourced the Channels SDK (MIT license) to run AG-UI agents inside Slack and Teams. Version 0.5.0 ships five adapters and a runtime contract for verified deployments.\n\nhttps://www.marktechpost.com/2026/08/04/copilotkit-open-sources-channels-sdk/",
+            "twitter": "CopilotKit just open-sourced the Channels SDK, letting any AG-UI agent run natively in Slack and Teams. MIT-licensed and version 0.5.0 ships five platform adapters.\n\nhttps://www.marktechpost.com/2026/08/04/copilotkit-open-sources-channels-sdk/"
+          }
+        }
+      }
+    },
     "998a978118832deb1f998d755aaf73c5dc689080436298a86b69379173959aef": {
       "created_at": "2026-08-04T22:16:03Z",
       "payload": {
@@ -1261,31 +1346,6 @@
             "threads": "Runware\u2019s new Sonic Inference Pod could redefine how we deploy AI at the edge. Early benchmarks suggest it cuts inference latency by 20% compared to cloud-only setups.\n\nhttps://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out/",
             "twitter": "Runware just launched a modular data center pod for portable AI inference. Early tests show 20% lower latency in edge deployments.\n\nhttps://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out/"
           }
-        }
-      }
-    },
-    "ae303c03a2856a08010d9422e16ab2b6fc5386802d8c86499828d237bcda86fb": {
-      "created_at": "2026-08-04T03:41:45Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 0.5,
-              "impact_score": 0.5,
-              "index": 1,
-              "novelty_score": 0.2,
-              "reason": "Article is a recap of a 1950 short story and triggers multiple red flags.",
-              "red_flag": true,
-              "red_flag_reason": "recap",
-              "source_score": 0.5,
-              "title": "There Will Come Soft Rains (1950) [pdf]",
-              "total_score": 1.7
-            }
-          ],
-          "best_index": 1,
-          "best_score": 0.0,
-          "recommendation": "SKIP",
-          "social_posts": {}
         }
       }
     },
@@ -2398,150 +2458,6 @@
       "status": "scoring_attempted",
       "title": "Generative AI floods and dilutes the market for books"
     },
-    "https://arxiv.org/abs/2607.24758": {
-      "canonical_url": "https://arxiv.org/abs/2607.24758",
-      "created_at": "2026-07-29T05:32:39Z",
-      "status": "scoring_attempted",
-      "title": "Do Models Fake Alignment Without Clear Consequences?"
-    },
-    "https://arxiv.org/abs/2607.24759": {
-      "canonical_url": "https://arxiv.org/abs/2607.24759",
-      "created_at": "2026-07-29T05:32:39Z",
-      "status": "scoring_attempted",
-      "title": "Beyond Memory: A Templated Substrate for Heterogeneous Collaborative Knowledge Work with LLM Agents"
-    },
-    "https://arxiv.org/abs/2607.24762": {
-      "canonical_url": "https://arxiv.org/abs/2607.24762",
-      "created_at": "2026-07-29T05:32:39Z",
-      "status": "scoring_attempted",
-      "title": "Kernel Forge: An Agent Harness for LLM-based Generation and Optimization of CUDA Kernels"
-    },
-    "https://arxiv.org/abs/2607.24763": {
-      "canonical_url": "https://arxiv.org/abs/2607.24763",
-      "created_at": "2026-07-29T05:32:39Z",
-      "status": "scoring_attempted",
-      "title": "CaRE Compute-aware Remasking Evaluation Protocol for Masked Diffusion Language Models"
-    },
-    "https://arxiv.org/abs/2607.24764": {
-      "canonical_url": "https://arxiv.org/abs/2607.24764",
-      "created_at": "2026-07-29T05:32:39Z",
-      "status": "scoring_attempted",
-      "title": "GrocLM: Grocery Category Recommendation in E-Commerce with Large Language Models"
-    },
-    "https://arxiv.org/abs/2607.24766": {
-      "canonical_url": "https://arxiv.org/abs/2607.24766",
-      "created_at": "2026-07-29T05:32:39Z",
-      "status": "scoring_attempted",
-      "title": "Crystalis: Progressive Nucleation and Semantic Annealing for Coordinated Multi-View Visualization Generation"
-    },
-    "https://arxiv.org/abs/2607.24768": {
-      "canonical_url": "https://arxiv.org/abs/2607.24768",
-      "created_at": "2026-07-29T05:32:39Z",
-      "status": "scoring_attempted",
-      "title": "PATHFinder Agent for Tailored Prenatal Care"
-    },
-    "https://arxiv.org/abs/2607.24769": {
-      "canonical_url": "https://arxiv.org/abs/2607.24769",
-      "created_at": "2026-07-29T05:32:39Z",
-      "status": "scoring_attempted",
-      "title": "LLM Scheming Inversely Scales with Pretraining Language Coverage"
-    },
-    "https://arxiv.org/abs/2607.24770": {
-      "canonical_url": "https://arxiv.org/abs/2607.24770",
-      "created_at": "2026-07-29T05:32:39Z",
-      "status": "scoring_attempted",
-      "title": "ProcAgent: An Agentic Framework for Procedural Task Guidance on Edge with Human-in-the-Loop"
-    },
-    "https://arxiv.org/abs/2607.24771": {
-      "canonical_url": "https://arxiv.org/abs/2607.24771",
-      "created_at": "2026-07-29T05:32:39Z",
-      "status": "scoring_attempted",
-      "title": "RoCo-ACE: Rollout-Conditioned Online Distillation for Retention-Aware Knowledge Injection"
-    },
-    "https://arxiv.org/abs/2607.24772": {
-      "canonical_url": "https://arxiv.org/abs/2607.24772",
-      "created_at": "2026-07-29T05:32:39Z",
-      "status": "scoring_attempted",
-      "title": "RSMeM: Knowledge-Enhanced Memory Evolution for Remote Sensing Agents with Systematic Evaluation"
-    },
-    "https://arxiv.org/abs/2607.24773": {
-      "canonical_url": "https://arxiv.org/abs/2607.24773",
-      "created_at": "2026-07-29T05:32:39Z",
-      "status": "scoring_attempted",
-      "title": "Right-sizing Recommendations (RSR): Cloud Workload Conformal Prediction for Virtual Machines in Data Center Operations"
-    },
-    "https://arxiv.org/abs/2607.24774": {
-      "canonical_url": "https://arxiv.org/abs/2607.24774",
-      "created_at": "2026-07-29T05:32:39Z",
-      "status": "scoring_attempted",
-      "title": "Atmospheric Diffusion-Guided Spatio-Temporal Transformer for Nuclear Radiation Forecasting"
-    },
-    "https://arxiv.org/abs/2607.24777": {
-      "canonical_url": "https://arxiv.org/abs/2607.24777",
-      "created_at": "2026-07-29T05:32:39Z",
-      "status": "scoring_attempted",
-      "title": "Steering topology distributions for unified generative design of architected metamaterials"
-    },
-    "https://arxiv.org/abs/2607.24779": {
-      "canonical_url": "https://arxiv.org/abs/2607.24779",
-      "created_at": "2026-07-29T05:32:39Z",
-      "status": "scoring_attempted",
-      "title": "HOBA: Hierarchical On-Policy Bidding Agents for Adaptive Online Advertising"
-    },
-    "https://arxiv.org/abs/2607.24780": {
-      "canonical_url": "https://arxiv.org/abs/2607.24780",
-      "created_at": "2026-07-29T05:32:39Z",
-      "status": "scoring_attempted",
-      "title": "LivingArena: Do LLMs Know What Other LLMs Don't? Peer-Probing as Scalable Evaluation"
-    },
-    "https://arxiv.org/abs/2607.24782": {
-      "canonical_url": "https://arxiv.org/abs/2607.24782",
-      "created_at": "2026-07-29T05:32:39Z",
-      "status": "scoring_attempted",
-      "title": "Personalization, Personas, and Forecasting in Value Alignment"
-    },
-    "https://arxiv.org/abs/2607.24783": {
-      "canonical_url": "https://arxiv.org/abs/2607.24783",
-      "created_at": "2026-07-29T05:32:39Z",
-      "status": "scoring_attempted",
-      "title": "Unified Semantic Modeling Framework for Large-Scale Job Understanding at LinkedIn"
-    },
-    "https://arxiv.org/abs/2607.24784": {
-      "canonical_url": "https://arxiv.org/abs/2607.24784",
-      "created_at": "2026-07-29T05:32:39Z",
-      "status": "scoring_attempted",
-      "title": "On the Use of LLMs for Specialised Terminology: A Good Alternative to Corpora?"
-    },
-    "https://arxiv.org/abs/2607.24787": {
-      "canonical_url": "https://arxiv.org/abs/2607.24787",
-      "created_at": "2026-07-29T05:32:39Z",
-      "status": "scoring_attempted",
-      "title": "SpecPrefetch: Parameter-Efficient Expert Prefetching for Sparse MoE Foundation Models"
-    },
-    "https://arxiv.org/abs/2607.24788": {
-      "canonical_url": "https://arxiv.org/abs/2607.24788",
-      "created_at": "2026-07-29T05:32:39Z",
-      "status": "scoring_attempted",
-      "title": "GLIDE: Guided Layerwise Hybrid Attention for Efficient LLM Inference"
-    },
-    "https://arxiv.org/abs/2607.24790": {
-      "canonical_url": "https://arxiv.org/abs/2607.24790",
-      "created_at": "2026-07-29T05:32:39Z",
-      "status": "scoring_attempted",
-      "title": "A GAN-Based Framework for Robust Data Synthesis in Satellite Internet Observations"
-    },
-    "https://arxiv.org/abs/2607.24794": {
-      "canonical_url": "https://arxiv.org/abs/2607.24794",
-      "created_at": "2026-07-29T05:32:39Z",
-      "status": "scoring_attempted",
-      "title": "Reasoning with Memory: A Temporal Granularity-Adaptive Framework for Training-Free Long Video Understanding"
-    },
-    "https://arxiv.org/abs/2607.24795": {
-      "canonical_url": "https://arxiv.org/abs/2607.24795",
-      "created_at": "2026-07-29T05:32:39Z",
-      "status": "scoring_attempted",
-      "title": "When Shortest Isn't Safest: A Design Science Approach to Senior-Friendly Pedestrian Routing"
-    },
     "https://arxiv.org/abs/2607.25398": {
       "canonical_url": "https://arxiv.org/abs/2607.25398",
       "created_at": "2026-07-29T13:27:14Z",
@@ -2835,6 +2751,12 @@
       "created_at": "2026-08-03T05:58:15Z",
       "status": "scoring_attempted",
       "title": "MMShopBench: A Real-Log Benchmark for Multimodal, Multi-Turn Shopping Agents"
+    },
+    "https://arxiv.org/abs/2607.29377": {
+      "canonical_url": "https://arxiv.org/abs/2607.29377",
+      "created_at": "2026-08-05T06:10:38Z",
+      "status": "scoring_attempted",
+      "title": "Zero-Mem: Zero-Token Memory Operations for LLM Agents"
     },
     "https://arxiv.org/abs/2608.00001": {
       "canonical_url": "https://arxiv.org/abs/2608.00001",
@@ -3171,6 +3093,12 @@
       "created_at": "2026-08-02T22:10:35Z",
       "status": "scoring_attempted",
       "title": "Show HN: Make your Framework 12 sound like a creaky door"
+    },
+    "https://github.com/Carloscodix/qapla": {
+      "canonical_url": "https://github.com/Carloscodix/qapla",
+      "created_at": "2026-08-05T06:10:38Z",
+      "status": "scoring_attempted",
+      "title": "An SLM trained on $8 ESP32-S3"
     },
     "https://github.com/MakazhanAlpamys/Soup": {
       "canonical_url": "https://github.com/MakazhanAlpamys/Soup",
@@ -3657,12 +3585,6 @@
       "created_at": "2026-07-31T20:25:14Z",
       "status": "scoring_attempted",
       "title": "Tailscale didn't stop the Hugging Face intrusion"
-    },
-    "https://tailscale.com/blog/jailbroken-kindle-proxy-tun-modes": {
-      "canonical_url": "https://tailscale.com/blog/jailbroken-kindle-proxy-tun-modes",
-      "created_at": "2026-07-29T05:32:39Z",
-      "status": "scoring_attempted",
-      "title": "More Tailscale tricks for your jailbroken Kindle"
     },
     "https://techcrunch.com/2026/07/29/as-ai-content-floods-the-internet-pangram-raises-9m-to-detect-it": {
       "canonical_url": "https://techcrunch.com/2026/07/29/as-ai-content-floods-the-internet-pangram-raises-9m-to-detect-it",
@@ -4485,6 +4407,12 @@
       "created_at": "2026-08-04T06:24:03Z",
       "status": "scoring_attempted",
       "title": "Y Combinator Open-Sources QM: An MIT-Licensed Multiplayer Agent Harness That Runs In Slack And The Web"
+    },
+    "https://www.marktechpost.com/2026/08/04/copilotkit-open-sources-channels-sdk": {
+      "canonical_url": "https://www.marktechpost.com/2026/08/04/copilotkit-open-sources-channels-sdk",
+      "created_at": "2026-08-05T06:10:38Z",
+      "status": "scoring_attempted",
+      "title": "CopilotKit Open Sources Channels SDK: An MIT Licensed Library That Runs Any AG-UI Agent Inside Slack And Microsoft Teams"
     },
     "https://www.marktechpost.com/2026/08/04/cursor-open-sources-mixture-of-kittens-mok-a-deterministic-moe-training-megakernel-for-gb300-nvl72-racks": {
       "canonical_url": "https://www.marktechpost.com/2026/08/04/cursor-open-sources-mixture-of-kittens-mok-a-deterministic-moe-training-megakernel-for-gb300-nvl72-racks",
