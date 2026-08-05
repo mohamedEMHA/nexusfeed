@@ -37,6 +37,55 @@
         ]
       }
     },
+    "08333069984dbf626edf0a7ecf287775a66866c373bb3a80048f6dd55e2d77ca": {
+      "created_at": "2026-08-05T23:56:50Z",
+      "payload": {
+        "candidates": [
+          {
+            "article_url": "https://www.wired.com/story/openais-browser-could-be-hijacked-to-spam-your-whatsapp-contacts/",
+            "index": 0,
+            "published_relative": "<1 hour ago",
+            "published_time_utc": "2026-08-05T23:30:00Z",
+            "source": "Wired AI",
+            "summary": "Researchers at security firm Zenity found more than a dozen flaws in AI browsers\u2014and managed to get OpenAI\u2019s Atlas to make an unauthorized Amazon purchase.",
+            "tier": "A",
+            "title": "OpenAI\u2019s Browser Could Be Hijacked to Spam Your WhatsApp Contacts"
+          }
+        ],
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2,
+              "impact_score": 2.5,
+              "index": 0,
+              "novelty_score": 2.5,
+              "reason": "Security research with high impact, fresh (<1h), and from Tier A source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "OpenAI\u2019s Browser Could Be Hijacked to Spam Your WhatsApp Contacts",
+              "total_score": 8.5
+            }
+          ],
+          "best_index": 0,
+          "best_score": 8.5,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "Security researchers found critical vulnerabilities in OpenAI\u2019s AI browser that could let attackers hijack sessions and spam your WhatsApp contacts. The flaws even allowed unauthorized Amazon purchases. It\u2019s a stark reminder to audit AI tool security before production use.\nLink: https://www.wired.com/story/openais-browser-could-be-hijacked-to-spam-your-whatsapp-contacts/",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 OpenAI\u2019s Browser Could Be Hijacked to Spam Your WhatsApp Contacts\n\nResearchers at Zenity found critical flaws in OpenAI\u2019s AI browser, including session hijacking and unauthorized Amazon purchases.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.wired.com/story/openais-browser-could-be-hijacked-to-spam-your-whatsapp-contacts/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "OpenAI\u2019s AI browser has flaws letting attackers hijack sessions and spam WhatsApp contacts. Zenity\u2019s team even forced unauthorized Amazon purchases\u2014proof that AI tools need stricter security audits.\nhttps://www.wired.com/story/openais-browser-could-be-hijacked-to-spam-your-whatsapp-contacts/",
+            "twitter": "OpenAI\u2019s AI browser has critical flaws letting attackers spam your WhatsApp contacts. Researchers at Zenity bypassed security to make unauthorized Amazon purchases.\nhttps://www.wired.com/story/openais-browser-could-be-hijacked-to-spam-your-whatsapp-contacts/"
+          }
+        },
+        "social_media_rules": [
+          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
+          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.",
+          "Use the FULL article title as headline without inventing facts.",
+          "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
+        ]
+      }
+    },
     "0a81c5882f7f26f2fbdd7e63edc37b9b18890232ec66e8017e149dc97ab2eb4b": {
       "created_at": "2026-08-05T21:53:10Z",
       "payload": {
@@ -222,31 +271,6 @@
             "threads": "NVIDIA just dropped Alpamayo 2 Super, a 34B open vision-language-action model for autonomous driving under OpenMDW-1.1. It combines a 32B Cosmos 3 Super Reasoner with a 2.3B diffusion action decoder and scores 79.2 on OpenMDW-1.1 tasks.\n\nhttps://www.marktechpost.com/2026/08/05/nvidia-alpamayo-2-super-open-vla-model-autonomous-driving/",
             "twitter": "NVIDIA just open-sourced Alpamayo 2 Super, a 34B vision-language-action model for autonomous driving under a permissive license. Early benchmarks show 79.2 on OpenMDW-1.1 tasks.\n\nhttps://www.marktechpost.com/2026/08/05/nvidia-alpamayo-2-super-open-vla-model-autonomous-driving/"
           }
-        }
-      }
-    },
-    "1f5028407825e1e52912929a43b423f3bc536fa47bca153702872d8da2b1a550": {
-      "created_at": "2026-08-04T22:58:57Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 3.0,
-              "index": 1,
-              "novelty_score": 2.5,
-              "reason": "Article triggers red flag due to sensationalized phrasing ('surge') despite high impact and novelty.",
-              "red_flag": true,
-              "red_flag_reason": "industry move (cybercrime) with 'surge' in title",
-              "source_score": 0.5,
-              "title": "AI fuels more than half of cybercrime in Africa as scams surge \u2013 Interpol",
-              "total_score": 8.0
-            }
-          ],
-          "best_index": 1,
-          "best_score": 8.0,
-          "recommendation": "SKIP",
-          "social_posts": {}
         }
       }
     },
@@ -3000,12 +3024,6 @@
       "status": "scoring_attempted",
       "title": "Microsoft is openly competing with OpenAI, Anthropic more than ever"
     },
-    "https://techcrunch.com/2026/07/29/microsoft-logs-3-2b-from-anthropic-investment-but-openai-was-a-mixed-bag": {
-      "canonical_url": "https://techcrunch.com/2026/07/29/microsoft-logs-3-2b-from-anthropic-investment-but-openai-was-a-mixed-bag",
-      "created_at": "2026-07-29T22:57:12Z",
-      "status": "scoring_attempted",
-      "title": "Microsoft logs $3.2B from Anthropic investment, but OpenAI was a mixed bag"
-    },
     "https://techcrunch.com/2026/07/30/ai-hedge-fund-situational-awareness-may-have-sold-its-public-portfolio-but-it-still-has-its-anthropic-shares": {
       "canonical_url": "https://techcrunch.com/2026/07/30/ai-hedge-fund-situational-awareness-may-have-sold-its-public-portfolio-but-it-still-has-its-anthropic-shares",
       "created_at": "2026-07-31T00:16:51Z",
@@ -4499,6 +4517,12 @@
       "created_at": "2026-08-01T11:02:45Z",
       "status": "scoring_attempted",
       "title": "Nobody Knows if OpenAI\u2019s and Anthropic\u2019s AI Hacking Sprees Are Illegal"
+    },
+    "https://www.wired.com/story/openais-browser-could-be-hijacked-to-spam-your-whatsapp-contacts": {
+      "canonical_url": "https://www.wired.com/story/openais-browser-could-be-hijacked-to-spam-your-whatsapp-contacts",
+      "created_at": "2026-08-05T23:56:50Z",
+      "status": "scoring_attempted",
+      "title": "OpenAI\u2019s Browser Could Be Hijacked to Spam Your WhatsApp Contacts"
     },
     "https://www.wired.com/story/security-news-this-week-7-states-water-systems-hit-by-cyberattacks-likely-tied-to-iran": {
       "canonical_url": "https://www.wired.com/story/security-news-this-week-7-states-water-systems-hit-by-cyberattacks-likely-tied-to-iran",
