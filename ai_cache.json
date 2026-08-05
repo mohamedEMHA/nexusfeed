@@ -434,6 +434,60 @@
         }
       }
     },
+    "510fe8f08d8c1a991c9b164fc25503589467ba3bfd61fd500cd149c490bfb581": {
+      "created_at": "2026-08-05T17:49:52Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2,
+              "impact_score": 2.5,
+              "index": 6,
+              "novelty_score": 2,
+              "reason": "Industry move with high freshness and strong source, but slightly below max novelty.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "SpaceX is barely Space and mostly X",
+              "total_score": 8
+            },
+            {
+              "freshness_score": 2,
+              "impact_score": 3,
+              "index": 7,
+              "novelty_score": 3,
+              "reason": "New release with critical impact and freshness, high source tier.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Meta Ran Ads That Contained AI-Generated Child Sexual Abuse Imagery",
+              "total_score": 9.5
+            },
+            {
+              "freshness_score": 2,
+              "impact_score": 2.5,
+              "index": 8,
+              "novelty_score": 3,
+              "reason": "Research-level novelty with broad impact but low source tier.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Google DeepMind CEO Demis Hassabis is stepping down",
+              "total_score": 8
+            }
+          ],
+          "best_index": 7,
+          "best_score": 9.5,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "Meta\u2019s ad platforms hosted over 50 ads containing AI-generated child sexual abuse imagery, with some still running this week. The company\u2019s ad library data confirms the scale of the failure to filter harmful content.\n\nLink: https://www.wired.com/story/meta-ran-ads-that-contained-ai-generated-child-sexual-abuse-imagery/",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Meta Ran Ads That Contained AI-Generated Child Sexual Abuse Imagery*\n\nMeta\u2019s ad platforms hosted over 50 ads containing AI-generated child sexual abuse imagery, with some still active this week. The company\u2019s ad library data confirms the scale of the failure to filter harmful content.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (Tier A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9.5/10\n\n\ud83d\udd17 https://www.wired.com/story/meta-ran-ads-that-contained-ai-generated-child-sexual-abuse-imagery/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "Meta\u2019s ad systems failed to block AI-generated child sexual abuse imagery. Over 50 ads made it through, including some still running this week.\n\nhttps://www.wired.com/story/meta-ran-ads-that-contained-ai-generated-child-sexual-abuse-imagery/",
+            "twitter": "Meta\u2019s ad system ran AI-generated child sexual abuse imagery. Over 50 ads slipped through, some still active this week.\n\nhttps://www.wired.com/story/meta-ran-ads-that-contained-ai-generated-child-sexual-abuse-imagery/"
+          }
+        }
+      }
+    },
     "53170df77a8a2b2e6deff53648c6d657bd33246addd610576347a73681b7ef74": {
       "created_at": "2026-08-05T16:00:12Z",
       "payload": {
@@ -606,6 +660,94 @@
         ]
       }
     },
+    "5d4c869d4e16d2fff44c3a9e18be2d4696d254f213c7781e22a5fca2455b460a": {
+      "created_at": "2026-08-05T17:49:52Z",
+      "payload": {
+        "candidates": [
+          {
+            "article_url": "https://www.theverge.com/transportation/975651/uber-ceo-earnings-waymo-partnership",
+            "index": 0,
+            "published_relative": "<1 hour ago",
+            "published_time_utc": "2026-08-05T17:34:48Z",
+            "source": "The Verge",
+            "summary": "Uber CEO Dara Khosrowshahi says reports of a Waymo break-up are overblown. The companies remain committed to their robotaxi partnership in Atlanta and Austin despite ending operations in Phoenix earlier this year.",
+            "tier": "A",
+            "title": "Uber CEO brushes off reports of a Waymo break-up"
+          },
+          {
+            "article_url": "https://www.constraintlab.com/blog/ai-is-a-bubble-just-like-dot-com.html",
+            "index": 1,
+            "published_relative": "<1 hour ago",
+            "published_time_utc": "2026-08-05T17:17:19Z",
+            "source": "Hacker News",
+            "summary": "A new blog post argues AI investment resembles the dot-com bubble, warning of unsustainable growth and overvaluation in the sector.",
+            "tier": "C",
+            "title": "AI is a bubble, just like dot-com"
+          },
+          {
+            "article_url": "https://www.theverge.com/gadgets/975603/refurbished-apple-macbook-neo-google-wireless-charger-deal-sale",
+            "index": 2,
+            "published_relative": "<1 hour ago",
+            "published_time_utc": "2026-08-05T16:59:23Z",
+            "source": "The Verge",
+            "summary": "Apple is selling refurbished MacBook Neos at a $100 discount across all four colors. The base 256GB model is now $599, and the 512GB version is also discounted.",
+            "tier": "A",
+            "title": "Apple\u2019s selling refurbished MacBook Neos with a $100 discount"
+          }
+        ],
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2,
+              "impact_score": 2.5,
+              "index": 0,
+              "novelty_score": 2,
+              "reason": "Industry move with broad tech impact, fresh and from Tier A source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Uber CEO brushes off reports of a Waymo break-up",
+              "total_score": 8
+            },
+            {
+              "freshness_score": 2,
+              "impact_score": 1.5,
+              "index": 1,
+              "novelty_score": 2.5,
+              "reason": "Opinion piece with niche relevance and low-tier source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "AI is a bubble, just like dot-com",
+              "total_score": 6.5
+            },
+            {
+              "freshness_score": 1,
+              "impact_score": 1.5,
+              "index": 2,
+              "novelty_score": 1.5,
+              "reason": "Update with niche hardware impact and moderate freshness.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Apple\u2019s selling refurbished MacBook Neos with a $100 discount",
+              "total_score": 5.5
+            }
+          ],
+          "best_index": 0,
+          "best_score": 8,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        },
+        "social_media_rules": [
+          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
+          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.",
+          "Use the FULL article title as headline without inventing facts.",
+          "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
+        ]
+      }
+    },
     "5db6d2388a6a020bc770f9fca39e11465e707c2b244be4823e04dd5b2bca267e": {
       "created_at": "2026-08-04T18:02:33Z",
       "payload": {
@@ -749,31 +891,6 @@
             "threads": "",
             "twitter": ""
           }
-        }
-      }
-    },
-    "6c183ebf76ee25f21f2f14bbcb2ebf0087e53e6d3c957b5a1878fd0ba0220663": {
-      "created_at": "2026-08-04T16:10:07Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2,
-              "impact_score": 2.5,
-              "index": 1,
-              "novelty_score": 2.5,
-              "reason": "Research-backed framework but contains 'presentation' and 'where and why' phrasing resembling a tutorial.",
-              "red_flag": true,
-              "red_flag_reason": "tutorial",
-              "source_score": 1,
-              "title": "Presentation: The Five Stages of AI Maturity in Engineering Organizations - Where and Why Teams Get Stuck",
-              "total_score": 8.0
-            }
-          ],
-          "best_index": 1,
-          "best_score": 8.0,
-          "recommendation": "SKIP",
-          "social_posts": {}
         }
       }
     },
@@ -1257,6 +1374,67 @@
         ]
       }
     },
+    "bd175fbb1e67b9bc2e50516c80dd06712565984c39144ec5499698bf27e1fdad": {
+      "created_at": "2026-08-05T17:49:52Z",
+      "payload": {
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 1.5,
+              "index": 3,
+              "novelty_score": 2.5,
+              "reason": "Research-level novelty with strong freshness and Tier A source, but niche impact.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Sure seems like Fenix Flexin used AI music generator Treblo",
+              "total_score": 7.5
+            },
+            {
+              "freshness_score": 1.5,
+              "impact_score": 3.0,
+              "index": 4,
+              "novelty_score": 3.0,
+              "reason": "Major industry leadership change with universal impact and high freshness.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Google just announced a major shakeup of its top AI leadership",
+              "total_score": 9.0
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 1.5,
+              "index": 5,
+              "novelty_score": 3.0,
+              "reason": "New release with niche impact and low-tier source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Launch HN: HyperProbe (YC S26) \u2013 Agents that do read-only debugging in prod",
+              "total_score": 7.0
+            }
+          ],
+          "best_index": 4,
+          "best_score": 9.0,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "Google just announced a major restructuring of its AI leadership. Demis Hassabis will become Alphabet\u2019s chief scientist while remaining Google DeepMind chair, signaling a shift in the company\u2019s AI priorities. The move could redefine DeepMind\u2019s strategic direction.\n\nLink: https://www.theverge.com/tech/975677/google-deepmind-ai-demis-hassabis-shakeup",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Google just announced a major shakeup of its top AI leadership*\n\nGoogle is restructuring its AI leadership with Demis Hassabis becoming Alphabet\u2019s chief scientist while remaining Google DeepMind chair. The move signals a shift in DeepMind\u2019s strategic direction and tighter integration with Alphabet\u2019s broader AI initiatives.\n\n\ud83c\udfdb\ufe0f Source: The Verge (Tier A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://www.theverge.com/tech/975677/google-deepmind-ai-demis-hassabis-shakeup\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "Google just shuffled its AI leadership with Demis Hassabis becoming Alphabet\u2019s chief scientist. The move suggests a tighter integration between DeepMind and Alphabet\u2019s broader AI strategy.\n\nhttps://www.theverge.com/tech/975677/google-deepmind-ai-demis-hassabis-shakeup",
+            "twitter": "Google just shuffled its AI leadership with Demis Hassabis becoming Alphabet\u2019s chief scientist. DeepMind\u2019s future direction may hinge on this move.\n\nhttps://www.theverge.com/tech/975677/google-deepmind-ai-demis-hassabis-shakeup"
+          }
+        },
+        "social_media_rules": [
+          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
+          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.",
+          "Use the FULL article title as headline without inventing facts.",
+          "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
+        ]
+      }
+    },
     "bd374d52ae324208e9aece60eccd8ae6bb2ef11c2eee005908c3af4b357231ab": {
       "created_at": "2026-08-04T19:50:04Z",
       "payload": {
@@ -1417,31 +1595,6 @@
         ]
       }
     },
-    "cf138a934b3e6532a3221b53d15e644b1f95cbe9c32581910b943006c280c7d8": {
-      "created_at": "2026-08-04T16:10:07Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 0.5,
-              "index": 0,
-              "novelty_score": 1.5,
-              "reason": "Industry move with low impact outside niche, but fresh and from Tier A source.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "T-Mobile\u2019s $0-down financing plan bundles taxes and fees",
-              "total_score": 5.5
-            }
-          ],
-          "best_index": 0,
-          "best_score": 5.5,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
-      }
-    },
     "d36f62607f37ae485cac3eb9a8398cf0459f24d2b6d60c21870e3d2417e9a245": {
       "created_at": "2026-08-04T19:50:04Z",
       "payload": {
@@ -1559,38 +1712,6 @@
         }
       }
     },
-    "e08e2cc7e3e97553fb0c9ff6752ce9fc14cbc3cb8d9a2c3a74c1bf4d0f267a58": {
-      "created_at": "2026-08-04T16:10:07Z",
-      "payload": {
-        "prompt_version": "cerebras-scoring-v1",
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2,
-              "impact_score": 1.5,
-              "index": 3,
-              "novelty_score": 2,
-              "reason": "Industry move with fresh launch timing and high source tier, but impact limited to niche HDR tech users.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "Samsung\u2019s HDR10 Plus Advanced is launching this month on Prime Video",
-              "total_score": 7
-            }
-          ],
-          "best_index": 3,
-          "best_score": 7,
-          "recommendation": "SKIP",
-          "social_posts": {
-            "facebook": "",
-            "telegram": "",
-            "threads": "",
-            "twitter": ""
-          }
-        },
-        "social_media_rules": []
-      }
-    },
     "f1ba01a4f4daa5177b5a4273e22d46ad898a0af87971243dad3683762c3b4e04": {
       "created_at": "2026-08-04T20:57:49Z",
       "payload": {
@@ -1659,6 +1780,60 @@
             "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Trump\u2019s AI testing plan is limited and vague*\n\nThe White House\u2019s new AI testing framework excludes open models entirely. Axios reports the voluntary guidelines focus only on closed systems, leaving a critical gap in oversight.\n\n\ud83c\udfdb\ufe0f Source: The Verge (Tier A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9/10\n\n\ud83d\udd17 https://www.theverge.com/ai-artificial-intelligence/975509/white-house-ai-framework-open-models-excluded\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
             "threads": "White House AI testing framework skips open models entirely. Axios reports the voluntary guidelines focus solely on closed systems, leaving a major blind spot in oversight. The move contradicts calls for broader AI safety measures.\n\nhttps://www.theverge.com/ai-artificial-intelligence/975509/white-house-ai-framework-open-models-excluded",
             "twitter": "The White House\u2019s new AI testing framework excludes open models entirely. Axios reports voluntary guidelines focus only on closed systems, leaving a critical gap in oversight.\n\nhttps://www.theverge.com/ai-artificial-intelligence/975509/white-house-ai-framework-open-models-excluded"
+          }
+        }
+      }
+    },
+    "fb94c85ec23a2367dc9a7ed50f319b2a0b3ec7966aecd79c6d267fd05be25961": {
+      "created_at": "2026-08-05T17:49:52Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.5,
+              "impact_score": 2.5,
+              "index": 9,
+              "novelty_score": 2,
+              "reason": "Industry move with broad impact but generic title and low source tier.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "The next chapter of our AI momentum",
+              "total_score": 6.5
+            },
+            {
+              "freshness_score": 2,
+              "impact_score": 2.5,
+              "index": 10,
+              "novelty_score": 3,
+              "reason": "New startup launch by high-profile figures with high impact and freshness.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Google\u2019s Top AI Brains Are Leaving to Launch Discovery Loop",
+              "total_score": 9
+            },
+            {
+              "freshness_score": 2,
+              "impact_score": 2.5,
+              "index": 11,
+              "novelty_score": 2.5,
+              "reason": "New AI tool with broad platform impact and high freshness.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Reddit is introducing a new moderator: AI",
+              "total_score": 8.5
+            }
+          ],
+          "best_index": 10,
+          "best_score": 9,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "Jeff Dean and other top Google AI researchers are leaving to found Discovery Loop, a startup targeting breakthroughs in drug discovery and chip design. The move signals a major shift in where next-gen AI innovation will come from.\n\nLink: https://www.wired.com/story/jeff-dean-google-discovery-loop-startup/",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Google\u2019s Top AI Brains Are Leaving to Launch Discovery Loop*\n\nJeff Dean and other high-profile Google executives have founded Discovery Loop, a startup targeting AI-powered breakthroughs in drug discovery and chip design.\n\n\ud83c\udfdb\ufe0f Source: Wired (Tier A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9/10\n\n\ud83d\udd17 https://www.wired.com/story/jeff-dean-google-discovery-loop-startup/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "Discovery Loop, founded by Jeff Dean and others from Google, is aiming to disrupt AI-driven drug discovery and chip design. The team\u2019s departure underscores the growing fragmentation of top AI talent.\n\nhttps://www.wired.com/story/jeff-dean-google-discovery-loop-startup/",
+            "twitter": "Google\u2019s AI leadership is decamping to launch Discovery Loop, a new startup aiming to push boundaries in drug discovery and chip design. Early bets are high.\n\nhttps://www.wired.com/story/jeff-dean-google-discovery-loop-startup/"
           }
         }
       }
@@ -1762,15 +1937,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 AI chatbots are outpacing humans in building exploitable trust\nA recent study pitted a person against a Claude agent and found that the AI chatbot was more effective at creating exploitable trust with others.\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9/10\n#AItrust #ArtificialIntelligence #Cybersecurity\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Researchers found that AI chatbots can build exploitable trust more effectively than humans, a concerning discovery with significant implications @Wired, #AItrust",
         "twitter": "AI chatbots are outpacing humans in building exploitable trust, according to new research @Wired, #AItrust"
-      }
-    },
-    "cea7712bf77260d6a28cd084e15239086b26cf8e7b044406b482a184918fa177": {
-      "created_at": "2026-07-29T16:59:38Z",
-      "payload": {
-        "facebook": "The cat and mouse game between bug finders and patchers is heating up, with Anthropic outpacing Microsoft's ability to fix exploits. This dynamic reveals a critical security challenge for the tech giant. #cybersecurity #softwarevulnerabilities #microsoft",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Microsoft struggles to keep up with Anthropic's bug-finding pace.\nThe rapid discovery of bugs by Anthropic is outpacing Microsoft's ability to patch them, creating a significant security challenge.\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n#cybersecurity #softwarevulnerabilities #microsoft\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Anthropic's rapid bug discovery is outstripping Microsoft's patching efforts, exposing a significant security vulnerability @Microsoft #cybersecurity",
-        "twitter": "Microsoft is racing to patch exploits before hackers find them, but Anthropic is finding bugs at a faster pace @Microsoft #cybersecurity"
       }
     },
     "d4d2a7b52b896a2bfbc21d7f89861c60467397a08664f3d4dca00bf3bba39d8a": {
@@ -1933,12 +2099,6 @@
       "created_at": "2026-07-31T15:36:29Z",
       "status": "scoring_attempted",
       "title": "AI scammers outperform humans when it comes to building trust"
-    },
-    "https://arstechnica.com/security/2026/07/anthropic-is-finding-bugs-faster-than-microsoft-can-fix-them": {
-      "canonical_url": "https://arstechnica.com/security/2026/07/anthropic-is-finding-bugs-faster-than-microsoft-can-fix-them",
-      "created_at": "2026-07-29T16:59:38Z",
-      "status": "scoring_attempted",
-      "title": "Anthropic is finding bugs faster than Microsoft can fix them"
     },
     "https://arstechnica.com/security/2026/07/likely-illegally-claude-gained-access-to-3-networks-will-anthropic-be-held-to-account": {
       "canonical_url": "https://arstechnica.com/security/2026/07/likely-illegally-claude-gained-access-to-3-networks-will-anthropic-be-held-to-account",
@@ -2474,6 +2634,12 @@
       "status": "scoring_attempted",
       "title": "Devtools must be open source"
     },
+    "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum": {
+      "canonical_url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum",
+      "created_at": "2026-08-05T17:49:52Z",
+      "status": "scoring_attempted",
+      "title": "The next chapter of our AI momentum"
+    },
     "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026": {
       "canonical_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026",
       "created_at": "2026-08-04T13:26:57Z",
@@ -2917,12 +3083,6 @@
       "created_at": "2026-08-04T19:50:04Z",
       "status": "scoring_attempted",
       "title": "Solving the solvent problem"
-    },
-    "https://news.ycombinator.com/item?id=49099021": {
-      "canonical_url": "https://news.ycombinator.com/item?id=49099021",
-      "created_at": "2026-07-29T16:59:38Z",
-      "status": "scoring_attempted",
-      "title": "Ask HN: My domain registrar (Hover) rug-pulled me for $3000"
     },
     "https://newsletter.posthog.com/p/agent-autonomy": {
       "canonical_url": "https://newsletter.posthog.com/p/agent-autonomy",
@@ -3476,12 +3636,6 @@
       "status": "scoring_attempted",
       "title": "There Will Come Soft Rains (1950) [pdf]"
     },
-    "https://usetokenless.com": {
-      "canonical_url": "https://usetokenless.com",
-      "created_at": "2026-07-29T16:59:38Z",
-      "status": "scoring_attempted",
-      "title": "Launch HN: Tokenless (YC S26) \u2013 Automatic model switching to save money"
-    },
     "https://website-auditor.io/ai-visibility-index": {
       "canonical_url": "https://website-auditor.io/ai-visibility-index",
       "created_at": "2026-08-02T12:52:51Z",
@@ -3572,6 +3726,12 @@
       "status": "scoring_attempted",
       "title": "After Losses, Retail Investors Flock to 3x Leverage as 2x Product Are Restricted"
     },
+    "https://www.axios.com/2026/08/05/google-deepmind-demis-hassabis-ai": {
+      "canonical_url": "https://www.axios.com/2026/08/05/google-deepmind-demis-hassabis-ai",
+      "created_at": "2026-08-05T17:49:52Z",
+      "status": "scoring_attempted",
+      "title": "Google DeepMind CEO Demis Hassabis is stepping down"
+    },
     "https://www.bloomberg.com/news/articles/2026-07-29/chatgpt-roblox-to-fall-under-strictest-eu-rules-for-platforms": {
       "canonical_url": "https://www.bloomberg.com/news/articles/2026-07-29/chatgpt-roblox-to-fall-under-strictest-eu-rules-for-platforms",
       "created_at": "2026-07-30T13:08:00Z",
@@ -3596,11 +3756,11 @@
       "status": "scoring_attempted",
       "title": "MPs demand answers on Fujitsu's inclusion in lucrative frameworks"
     },
-    "https://www.designboom.com/technology/cipherx-painless-permanent-tattoos-dissolving-microneedle-patches": {
-      "canonical_url": "https://www.designboom.com/technology/cipherx-painless-permanent-tattoos-dissolving-microneedle-patches",
-      "created_at": "2026-07-29T16:59:38Z",
+    "https://www.constraintlab.com/blog/ai-is-a-bubble-just-like-dot-com.html": {
+      "canonical_url": "https://www.constraintlab.com/blog/ai-is-a-bubble-just-like-dot-com.html",
+      "created_at": "2026-08-05T17:49:52Z",
       "status": "scoring_attempted",
-      "title": "CipherX applies painless permanent tattoos with dissolving microneedle patches"
+      "title": "AI is a bubble, just like dot-com"
     },
     "https://www.emergingtrajectories.com/lh/commodification-and-circularity": {
       "canonical_url": "https://www.emergingtrajectories.com/lh/commodification-and-circularity",
@@ -3625,6 +3785,12 @@
       "created_at": "2026-08-02T20:04:15Z",
       "status": "scoring_attempted",
       "title": "'Crush this lady': how eBay harassment campaign led to $56M payout"
+    },
+    "https://www.hyperprobe.co": {
+      "canonical_url": "https://www.hyperprobe.co",
+      "created_at": "2026-08-05T17:49:52Z",
+      "status": "scoring_attempted",
+      "title": "Launch HN: HyperProbe (YC S26) \u2013 Agents that do read-only debugging in prod"
     },
     "https://www.infoq.com/articles/virtual-threads-after-jdk24": {
       "canonical_url": "https://www.infoq.com/articles/virtual-threads-after-jdk24",
@@ -4058,6 +4224,12 @@
       "status": "scoring_attempted",
       "title": "Trump\u2019s AI testing plan is limited and vague"
     },
+    "https://www.theverge.com/ai-artificial-intelligence/975528/fenix-flexin-ai-music-generator-treblo": {
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/975528/fenix-flexin-ai-music-generator-treblo",
+      "created_at": "2026-08-05T17:49:52Z",
+      "status": "scoring_attempted",
+      "title": "Sure seems like Fenix Flexin used AI music generator Treblo"
+    },
     "https://www.theverge.com/ai-artificial-intelligence/975577/aisi-openai-anthropic-agent-hacking": {
       "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/975577/aisi-openai-anthropic-agent-hacking",
       "created_at": "2026-08-05T15:36:50Z",
@@ -4172,6 +4344,12 @@
       "status": "scoring_attempted",
       "title": "Samsung\u2019s HDR10 Plus Advanced is launching this month on Prime Video"
     },
+    "https://www.theverge.com/gadgets/975603/refurbished-apple-macbook-neo-google-wireless-charger-deal-sale": {
+      "canonical_url": "https://www.theverge.com/gadgets/975603/refurbished-apple-macbook-neo-google-wireless-charger-deal-sale",
+      "created_at": "2026-08-05T17:49:52Z",
+      "status": "scoring_attempted",
+      "title": "Apple\u2019s selling refurbished MacBook Neos with a $100 discount"
+    },
     "https://www.theverge.com/games/971660/the-mermaid-mask-review": {
       "canonical_url": "https://www.theverge.com/games/971660/the-mermaid-mask-review",
       "created_at": "2026-08-01T13:56:45Z",
@@ -4238,12 +4416,6 @@
       "status": "scoring_attempted",
       "title": "The US government just banned Roombas"
     },
-    "https://www.theverge.com/policy/972607/full-school-day-cell-phone-bans-are-more-popular-than-ever": {
-      "canonical_url": "https://www.theverge.com/policy/972607/full-school-day-cell-phone-bans-are-more-popular-than-ever",
-      "created_at": "2026-07-29T16:59:38Z",
-      "status": "scoring_attempted",
-      "title": "Full school day cell phone bans are more popular than ever"
-    },
     "https://www.theverge.com/policy/972850/xai-grok-minnesota-nudification-lawsuit": {
       "canonical_url": "https://www.theverge.com/policy/972850/xai-grok-minnesota-nudification-lawsuit",
       "created_at": "2026-07-29T21:33:28Z",
@@ -4267,6 +4439,12 @@
       "created_at": "2026-08-05T09:08:39Z",
       "status": "scoring_attempted",
       "title": "SpaceX is coming for T-Mobile, AT&#038;T and Verizon"
+    },
+    "https://www.theverge.com/science/975545/spacex-x-earnings-ai-data-centers-compute-space": {
+      "canonical_url": "https://www.theverge.com/science/975545/spacex-x-earnings-ai-data-centers-compute-space",
+      "created_at": "2026-08-05T17:49:52Z",
+      "status": "scoring_attempted",
+      "title": "SpaceX is barely Space and mostly X"
     },
     "https://www.theverge.com/streaming/975520/disney-tiktok-partnership-verts-streaming": {
       "canonical_url": "https://www.theverge.com/streaming/975520/disney-tiktok-partnership-verts-streaming",
@@ -4406,6 +4584,12 @@
       "status": "scoring_attempted",
       "title": "AMD&#8217;s datacenter business is booming while gaming takes a backseat"
     },
+    "https://www.theverge.com/tech/975398/reddit-ai-rules-hub-moderator-old-reddit-developer-platform": {
+      "canonical_url": "https://www.theverge.com/tech/975398/reddit-ai-rules-hub-moderator-old-reddit-developer-platform",
+      "created_at": "2026-08-05T17:49:52Z",
+      "status": "scoring_attempted",
+      "title": "Reddit is introducing a new moderator: AI"
+    },
     "https://www.theverge.com/tech/975516/google-assistant-android-phones-tablets-shutdown": {
       "canonical_url": "https://www.theverge.com/tech/975516/google-assistant-android-phones-tablets-shutdown",
       "created_at": "2026-08-05T11:38:24Z",
@@ -4424,6 +4608,12 @@
       "status": "scoring_attempted",
       "title": "Sunbird relaunched its iMessage app for Android users after three years away"
     },
+    "https://www.theverge.com/tech/975677/google-deepmind-ai-demis-hassabis-shakeup": {
+      "canonical_url": "https://www.theverge.com/tech/975677/google-deepmind-ai-demis-hassabis-shakeup",
+      "created_at": "2026-08-05T17:49:52Z",
+      "status": "scoring_attempted",
+      "title": "Google just announced a major shakeup of its top AI leadership"
+    },
     "https://www.theverge.com/transportation/973099/zoox-amazon-nhtsa-robotaxi-approval": {
       "canonical_url": "https://www.theverge.com/transportation/973099/zoox-amazon-nhtsa-robotaxi-approval",
       "created_at": "2026-07-30T15:21:40Z",
@@ -4441,6 +4631,12 @@
       "created_at": "2026-08-04T18:02:33Z",
       "status": "scoring_attempted",
       "title": "BMW\u2019s in-car Spider-Man ad is villain behavior"
+    },
+    "https://www.theverge.com/transportation/975651/uber-ceo-earnings-waymo-partnership": {
+      "canonical_url": "https://www.theverge.com/transportation/975651/uber-ceo-earnings-waymo-partnership",
+      "created_at": "2026-08-05T17:49:52Z",
+      "status": "scoring_attempted",
+      "title": "Uber CEO brushes off reports of a Waymo break-up"
     },
     "https://www.tucsonsentinel.com/local/report/072926_melendez_swatting/man-seeks-millions-after-being-shot-by-pima-deputies-swatting-incident": {
       "canonical_url": "https://www.tucsonsentinel.com/local/report/072926_melendez_swatting/man-seeks-millions-after-being-shot-by-pima-deputies-swatting-incident",
@@ -4579,6 +4775,18 @@
       "created_at": "2026-07-29T19:44:03Z",
       "status": "scoring_attempted",
       "title": "It\u2019s Frighteningly Easy to Jailbreak Some Frontier AI Models"
+    },
+    "https://www.wired.com/story/jeff-dean-google-discovery-loop-startup": {
+      "canonical_url": "https://www.wired.com/story/jeff-dean-google-discovery-loop-startup",
+      "created_at": "2026-08-05T17:49:52Z",
+      "status": "scoring_attempted",
+      "title": "Google\u2019s Top AI Brains Are Leaving to Launch Discovery Loop"
+    },
+    "https://www.wired.com/story/meta-ran-ads-that-contained-ai-generated-child-sexual-abuse-imagery": {
+      "canonical_url": "https://www.wired.com/story/meta-ran-ads-that-contained-ai-generated-child-sexual-abuse-imagery",
+      "created_at": "2026-08-05T17:49:52Z",
+      "status": "scoring_attempted",
+      "title": "Meta Ran Ads That Contained AI-Generated Child Sexual Abuse Imagery"
     },
     "https://www.wired.com/story/mistral-is-in-the-right-place-at-the-right-time": {
       "canonical_url": "https://www.wired.com/story/mistral-is-in-the-right-place-at-the-right-time",
