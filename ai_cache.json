@@ -290,6 +290,48 @@
         }
       }
     },
+    "1e18729079d5123cdce47d4a8f171a8a0a4a4252f266d16ebb77c88abc6bb992": {
+      "created_at": "2026-08-05T09:08:39Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2,
+              "impact_score": 0.5,
+              "index": 0,
+              "novelty_score": 2,
+              "reason": "Industry move with niche impact, fresh but low developer relevance.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "A New Device Eases One of the Most Annoying Parts of Routine Physicals",
+              "total_score": 6
+            },
+            {
+              "freshness_score": 2,
+              "impact_score": 3,
+              "index": 1,
+              "novelty_score": 3,
+              "reason": "New research release with broad impact, fresh, and from Tier A source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "NVIDIA Releases Alpamayo 2 Super: A 34B Open Vision-Language-Action Model for Robotaxis and Autonomous Driving Under OpenMDW-1.1",
+              "total_score": 9.5
+            }
+          ],
+          "best_index": 1,
+          "best_score": 9.5,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "NVIDIA released Alpamayo 2 Super, a 34B open vision-language-action model designed for robotaxis and autonomous driving. It\u2019s available under the permissive OpenMDW-1.1 license, allowing fine-tuning, derivatives, and commercial use. Early results suggest strong performance on OpenMDW-1.1 benchmarks.\n\nLink: https://www.marktechpost.com/2026/08/05/nvidia-alpamayo-2-super-open-vla-model-autonomous-driving/",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *NVIDIA Releases Alpamayo 2 Super: A 34B Open Vision-Language-Action Model for Robotaxis and Autonomous Driving Under OpenMDW-1.1*\n\nNVIDIA open-sourced Alpamayo 2 Super, a 34B vision-language-action model for autonomous driving under the permissive OpenMDW-1.1 license. It pairs a 32B Cosmos 3 Super Reasoner with a 2.3B diffusion action decoder and scores 79.2 on OpenMDW-1.1 benchmarks.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.5/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/08/05/nvidia-alpamayo-2-super-open-vla-model-autonomous-driving/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "NVIDIA just dropped Alpamayo 2 Super, a 34B open vision-language-action model for autonomous driving under OpenMDW-1.1. It combines a 32B Cosmos 3 Super Reasoner with a 2.3B diffusion action decoder and scores 79.2 on OpenMDW-1.1 tasks.\n\nhttps://www.marktechpost.com/2026/08/05/nvidia-alpamayo-2-super-open-vla-model-autonomous-driving/",
+            "twitter": "NVIDIA just open-sourced Alpamayo 2 Super, a 34B vision-language-action model for autonomous driving under a permissive license. Early benchmarks show 79.2 on OpenMDW-1.1 tasks.\n\nhttps://www.marktechpost.com/2026/08/05/nvidia-alpamayo-2-super-open-vla-model-autonomous-driving/"
+          }
+        }
+      }
+    },
     "1f5028407825e1e52912929a43b423f3bc536fa47bca153702872d8da2b1a550": {
       "created_at": "2026-08-04T22:58:57Z",
       "payload": {
@@ -731,6 +773,48 @@
         }
       }
     },
+    "6149742f55770731499dc28533638e73352065aad09d77d71bed9dba3c8ee916": {
+      "created_at": "2026-08-05T09:08:39Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.5,
+              "impact_score": 2.5,
+              "index": 4,
+              "novelty_score": 2.5,
+              "reason": "AI product release with moderate industry impact and freshness.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "The AI Notetaker Has Been Invited to All the Meetings",
+              "total_score": 8.0
+            },
+            {
+              "freshness_score": 1.5,
+              "impact_score": 0.5,
+              "index": 5,
+              "novelty_score": 0.0,
+              "reason": "Entertainment content with no technical relevance.",
+              "red_flag": true,
+              "red_flag_reason": "recap",
+              "source_score": 1.5,
+              "title": "Ted Lasso returns at an important time for Apple TV",
+              "total_score": 2.0
+            }
+          ],
+          "best_index": 4,
+          "best_score": 8.0,
+          "recommendation": "SKIP",
+          "social_posts": {
+            "facebook": "",
+            "telegram": "",
+            "threads": "",
+            "twitter": ""
+          }
+        }
+      }
+    },
     "66aa58ed6ee79ea137d36b7606cb5ea6e86ef628710c8e94917c58d4b476a1d0": {
       "created_at": "2026-08-04T11:47:53Z",
       "payload": {
@@ -798,108 +882,6 @@
         }
       }
     },
-    "68afa53d52995457b54e9f1b76249b94c75775b124b861e9dfd96783763c9ed1": {
-      "created_at": "2026-08-04T06:24:03Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1.5,
-              "impact_score": 3.0,
-              "index": 0,
-              "novelty_score": 3.0,
-              "reason": "New open-source release with broad impact, fresh (<3h), and from a reputable source (Tier A).",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "Y Combinator Open-Sources QM: An MIT-Licensed Multiplayer Agent Harness That Runs In Slack And The Web",
-              "total_score": 9.0
-            },
-            {
-              "freshness_score": 1.5,
-              "impact_score": 1.5,
-              "index": 1,
-              "novelty_score": 2.5,
-              "reason": "Research with niche impact, fresh but from low-tier source (arXiv).",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Revisiting Classic Thought Experiments to Measure Consciousness for Artificial Intelligence Safety",
-              "total_score": 6.0
-            },
-            {
-              "freshness_score": 1.5,
-              "impact_score": 1.5,
-              "index": 2,
-              "novelty_score": 2.5,
-              "reason": "Research with niche impact, fresh but from low-tier source (arXiv).",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "AutoFOAM: The Self-Refining Autonomous OpenFOAM Agent",
-              "total_score": 6.0
-            },
-            {
-              "freshness_score": 1.5,
-              "impact_score": 1.5,
-              "index": 3,
-              "novelty_score": 2.5,
-              "reason": "Research with niche impact, fresh but from low-tier source (arXiv).",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Enhancing LLMs with Context-Specific Knowledge for Mitigating Misinformation in SMEs: A RAG-based Modeling and Analysis",
-              "total_score": 6.0
-            },
-            {
-              "freshness_score": 1.5,
-              "impact_score": 1.5,
-              "index": 4,
-              "novelty_score": 2.5,
-              "reason": "Research with niche impact, fresh but from low-tier source (arXiv).",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Energy Efficiency of Locally Deployed LLMs: A Preliminary Quantitative GPU Power Benchmark on Consumer Hardware",
-              "total_score": 6.0
-            },
-            {
-              "freshness_score": 1.5,
-              "impact_score": 1.5,
-              "index": 5,
-              "novelty_score": 2.5,
-              "reason": "Research with niche impact, fresh but from low-tier source (arXiv).",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "CoT-Core: Accelerating LLM Evaluation via CoT-Aware Coreset Selection",
-              "total_score": 6.0
-            },
-            {
-              "freshness_score": 1.5,
-              "impact_score": 1.5,
-              "index": 6,
-              "novelty_score": 2.5,
-              "reason": "Research with niche impact, fresh but from low-tier source (arXiv).",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Optimization and Constraint Modeling using LLMs with a Retrieval Augmented Generation Process",
-              "total_score": 6.0
-            }
-          ],
-          "best_index": 0,
-          "best_score": 9.0,
-          "recommendation": "POST_NOW",
-          "social_posts": {
-            "facebook": "Y Combinator has released QM, an open-source multiplayer agent harness under an MIT license. It\u2019s designed to run in Slack and the web, with each Slack room getting its own scoped memory and permissions. The tool is already in use across their internal teams.\n\nLink: https://www.marktechpost.com/2026/08/03/y-combinator-open-sources-qm-multiplayer-ai-agent-harness/",
-            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Y Combinator Open-Sources QM: An MIT-Licensed Multiplayer Agent Harness That Runs In Slack And The Web*\n\nY Combinator released QM, an open-source multiplayer agent harness under an MIT license. It runs in Slack and the web, with each Slack room getting its own scoped memory, files, and permissions. The tool is already in use internally for accounting, legal, events, and engineering.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (Tier A)\n\u23f0 Published: 2 hours ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/08/03/y-combinator-open-sources-qm-multiplayer-ai-agent-harness/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-            "threads": "Y Combinator open-sourced QM, an MIT-licensed multiplayer agent harness that runs in Slack and the web. It\u2019s already used internally for tasks like accounting, legal, and engineering, with per-room scoped memory and permissions.\n\nhttps://www.marktechpost.com/2026/08/03/y-combinator-open-sources-qm-multiplayer-ai-agent-harness/",
-            "twitter": "Y Combinator just open-sourced QM, an MIT-licensed multiplayer agent harness that runs in Slack and the web. It\u2019s already used internally for accounting, legal, and engineering.\n\nhttps://www.marktechpost.com/2026/08/03/y-combinator-open-sources-qm-multiplayer-ai-agent-harness/"
-          }
-        }
-      }
-    },
     "69dd42c98a93d8425343202f91470b5477c810e660252d5a3a05fe625217a219": {
       "created_at": "2026-08-04T19:50:04Z",
       "payload": {
@@ -962,91 +944,6 @@
           ],
           "best_index": 1,
           "best_score": 8.0,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
-      }
-    },
-    "7f39724ac976971d19f38c3b449bf2436e287ffbc5bd19ea6a4db8082ca5a195": {
-      "created_at": "2026-08-04T06:24:03Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1.5,
-              "impact_score": 1.5,
-              "index": 19,
-              "novelty_score": 2.5,
-              "reason": "Research paper with niche impact on wearable sensor-LLM integration, published 2 hours ago.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "TRACE-TS: Attribution-Grounded and Traceable Sensor-Language Reasoning for Human Activity Understanding",
-              "total_score": 6.0
-            },
-            {
-              "freshness_score": 1.5,
-              "impact_score": 1.5,
-              "index": 20,
-              "novelty_score": 2.5,
-              "reason": "Research paper on LLM agent personalization, published 2 hours ago.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Personalizing Large Language Model Agents with Small Policy Models",
-              "total_score": 6.0
-            },
-            {
-              "freshness_score": 1.5,
-              "impact_score": 1.5,
-              "index": 21,
-              "novelty_score": 2.5,
-              "reason": "Research paper critiquing multi-agent LLM judges, published 2 hours ago.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "More Debate, Same Evidence: Structural Limits of Homogeneous Multi-Agent Groundedness",
-              "total_score": 6.0
-            },
-            {
-              "freshness_score": 1.5,
-              "impact_score": 1.5,
-              "index": 22,
-              "novelty_score": 2.5,
-              "reason": "Research paper on combinatorial optimization, published 2 hours ago.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Geometric Self-Supervised Pre-training for Neural Combinatorial Optimization",
-              "total_score": 6.0
-            },
-            {
-              "freshness_score": 1.5,
-              "impact_score": 1.5,
-              "index": 23,
-              "novelty_score": 2.5,
-              "reason": "Research paper on RF-based HOI recognition, published 2 hours ago.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "RF-HOI: Recognize Human-Object Interaction with Radio Frequency Signals",
-              "total_score": 6.0
-            },
-            {
-              "freshness_score": 1.5,
-              "impact_score": 1.5,
-              "index": 24,
-              "novelty_score": 2.5,
-              "reason": "Research paper on autonomous driving simulation testing, published 2 hours ago.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "WM-Cov: Test Adequacy for Interactive World-Model-Style Autonomous Driving Simulation",
-              "total_score": 6.0
-            }
-          ],
-          "best_index": 19,
-          "best_score": 6.0,
           "recommendation": "SKIP",
           "social_posts": {}
         }
@@ -1131,6 +1028,45 @@
           "recommendation": "SKIP",
           "social_posts": {}
         }
+      }
+    },
+    "859cfb0a5598f0e4be3ca0a98f8ffdf9efd7b3dbb4cda5a824b3a47031fdea31": {
+      "created_at": "2026-08-05T09:08:39Z",
+      "payload": {
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.5,
+              "index": 2,
+              "novelty_score": 2.5,
+              "reason": "Research-style novelty with high impact and freshness, but source tier B limits score.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.0,
+              "title": "Ponytail Agent Skill Corrects Its Own Benchmark After Contributor Challenge",
+              "total_score": 8.0
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 1.5,
+              "index": 3,
+              "novelty_score": 2.0,
+              "reason": "Industry move with fresh release but niche impact and lower source tier.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.0,
+              "title": "SkiaSharp 4.0 Establishes Milestone-Aligned Release Cadence",
+              "total_score": 6.5
+            }
+          ],
+          "best_index": 2,
+          "best_score": 8.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        },
+        "social_media_rules": []
       }
     },
     "8b31251bcd81d461bbe1fb681c83706b6914b144bdc1ca6d25630e0d175a1256": {
@@ -1435,96 +1371,6 @@
         ]
       }
     },
-    "bb6d55722cc8e75c403edc6e1388153b33da4eb31d5a4fd366ba16cc4a144814": {
-      "created_at": "2026-08-04T06:24:03Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1.5,
-              "impact_score": 2.5,
-              "index": 7,
-              "novelty_score": 2.5,
-              "reason": "Research paper with niche but significant impact on LLM agent design.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Memory Reward Inflation in Self-Improving LLM Agents",
-              "total_score": 7.0
-            },
-            {
-              "freshness_score": 1.5,
-              "impact_score": 1.5,
-              "index": 8,
-              "novelty_score": 2.5,
-              "reason": "Research paper with niche impact on LLM serving efficiency.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Request-Level Energy Attribution for Batched LLM Serving",
-              "total_score": 6.0
-            },
-            {
-              "freshness_score": 1.5,
-              "impact_score": 1.5,
-              "index": 9,
-              "novelty_score": 2.5,
-              "reason": "Research paper with niche impact on sequence modeling architectures.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Motif-Mamba: network motif improved mamba for long-range sequence modeling",
-              "total_score": 6.0
-            },
-            {
-              "freshness_score": 1.5,
-              "impact_score": 2.5,
-              "index": 10,
-              "novelty_score": 2.5,
-              "reason": "Research paper with significant impact on compiler optimization for deep learning.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Nova: An End-to-End MLIR Compiler for Deep Learning",
-              "total_score": 7.0
-            },
-            {
-              "freshness_score": 1.5,
-              "impact_score": 2.5,
-              "index": 11,
-              "novelty_score": 2.5,
-              "reason": "Research paper introducing a toolkit with broad relevance to LLM reliability.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "SIRIN: A Unified Toolkit for Detecting Contextual Hallucinations in Retrieval-Augmented and Memory-Grounded LLM Systems",
-              "total_score": 7.0
-            },
-            {
-              "freshness_score": 1.5,
-              "impact_score": 1.5,
-              "index": 12,
-              "novelty_score": 2.5,
-              "reason": "Research paper with niche impact on multimodal model interpretability.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Linguistic Context Recodes Visual Representations in Vision-Language Models",
-              "total_score": 6.0
-            }
-          ],
-          "best_index": 11,
-          "best_score": 7.0,
-          "recommendation": "SKIP",
-          "social_posts": {
-            "facebook": "",
-            "telegram": "",
-            "threads": "",
-            "twitter": ""
-          }
-        }
-      }
-    },
     "bd374d52ae324208e9aece60eccd8ae6bb2ef11c2eee005908c3af4b357231ab": {
       "created_at": "2026-08-04T19:50:04Z",
       "payload": {
@@ -1641,94 +1487,48 @@
         ]
       }
     },
-    "cb6e343364da0430ee4c3a3bfcc60aff74c651219fd06ba0f83e4e399f3c6852": {
-      "created_at": "2026-08-04T06:24:03Z",
+    "c4aae85175fe52e09123264e00498c0ca005b574b03f7c2a226ccaa14ebb71e5": {
+      "created_at": "2026-08-05T09:08:39Z",
       "payload": {
+        "candidates": [
+          {
+            "article_url": "https://www.theverge.com/science/975480/spacex-mobile-terrestrial-cellphone-company",
+            "index": 6,
+            "published_relative": "2 hours ago",
+            "published_time_utc": "2026-08-05T06:50:19Z",
+            "source": "The Verge",
+            "summary": "SpaceX is preparing to build a terrestrial mobile network to \"acquire quite a few\" of the customers now subscribed to T-Mobile, AT&T, and Verizon. The message to compete head-to-head with the US carriers was delivered by SpaceX president Gwynne Shotwell and CEO Elon Musk during the Q&A section of t...",
+            "tier": "A",
+            "title": "SpaceX is coming for T-Mobile, AT&T and Verizon"
+          }
+        ],
+        "prompt_version": "cerebras-scoring-v1",
         "response_schema": {
           "articles": [
             {
               "freshness_score": 1.5,
-              "impact_score": 2.5,
-              "index": 13,
+              "impact_score": 1.5,
+              "index": 6,
               "novelty_score": 2.5,
-              "reason": "Research on automated testing for RAG systems with broad relevance to LLM reliability.",
+              "reason": "Industry move with high impact on niche (telecom) but lacks software/AI focus.",
               "red_flag": false,
               "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "RAG-TESTER: Automated End-to-End Testing of Retrieval-Augmented Large Language Models",
+              "source_score": 1.5,
+              "title": "SpaceX is coming for T-Mobile, AT&T and Verizon",
               "total_score": 7.0
-            },
-            {
-              "freshness_score": 1.5,
-              "impact_score": 1.5,
-              "index": 14,
-              "novelty_score": 2.5,
-              "reason": "Niche research on retrieval embeddings with limited general applicability.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "H+ Embedding: Harmonizing Global and Token-Level Retrieval with Context-Dependent Phrases",
-              "total_score": 6.0
-            },
-            {
-              "freshness_score": 1.5,
-              "impact_score": 2.5,
-              "index": 15,
-              "novelty_score": 2.5,
-              "reason": "Production-scale analysis of AI coding agents with broad relevance to developer workflows.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Agentic Coding in the Wild: Characterizing GitHub Copilot Traces at Production Scale",
-              "total_score": 7.0
-            },
-            {
-              "freshness_score": 1.5,
-              "impact_score": 1.5,
-              "index": 16,
-              "novelty_score": 2.5,
-              "reason": "Specialized benchmark on agentic commerce with limited general interest.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Can LLM Agents Price Competitively? A Dynamic Multi-Attribute Auction Benchmark for Agentic Commerce",
-              "total_score": 6.0
-            },
-            {
-              "freshness_score": 1.5,
-              "impact_score": 1.5,
-              "index": 17,
-              "novelty_score": 2.5,
-              "reason": "Enterprise-focused research with narrow applicability outside specialized settings.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Shared Organizational Memory for Enterprise Coding Agents: System Design and Deployment Snapshot",
-              "total_score": 6.0
-            },
-            {
-              "freshness_score": 1.5,
-              "impact_score": 1.5,
-              "index": 18,
-              "novelty_score": 2.5,
-              "reason": "Research on self-evolving agents with limited immediate practical impact.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "AgentStream: How Well Do Self-Evolving LLM Agents Perform Under Streaming Tasks?",
-              "total_score": 6.0
             }
           ],
-          "best_index": 13,
+          "best_index": 6,
           "best_score": 7.0,
           "recommendation": "SKIP",
-          "social_posts": {
-            "facebook": "",
-            "telegram": "",
-            "threads": "",
-            "twitter": ""
-          }
-        }
+          "social_posts": {}
+        },
+        "social_media_rules": [
+          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
+          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.",
+          "Use the FULL article title as headline without inventing facts.",
+          "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
+        ]
       }
     },
     "cc145c554f72286ba5ff2bd4ba14db0ade198a859295b8c4747ab17f399dcfc1": {
@@ -4180,12 +3980,6 @@
       "status": "scoring_attempted",
       "title": "Microsoft Three-Layer LLM Routing Architecture for AI Agents on AKS"
     },
-    "https://www.infoq.com/news/2026/07/net-maui-11-preview-6": {
-      "canonical_url": "https://www.infoq.com/news/2026/07/net-maui-11-preview-6",
-      "created_at": "2026-07-29T08:08:45Z",
-      "status": "scoring_attempted",
-      "title": ".NET 11 Preview 6 Modernises MAUI CollectionView and Android Shell"
-    },
     "https://www.infoq.com/news/2026/07/terraform-policy-as-code": {
       "canonical_url": "https://www.infoq.com/news/2026/07/terraform-policy-as-code",
       "created_at": "2026-07-31T18:59:27Z",
@@ -4239,6 +4033,18 @@
       "created_at": "2026-08-04T13:26:57Z",
       "status": "scoring_attempted",
       "title": "Platform Engineering Maturity Emerges as a Key Differentiator for Enterprise AI Success"
+    },
+    "https://www.infoq.com/news/2026/08/ponytail-agent-skill-benchmark": {
+      "canonical_url": "https://www.infoq.com/news/2026/08/ponytail-agent-skill-benchmark",
+      "created_at": "2026-08-05T09:08:39Z",
+      "status": "scoring_attempted",
+      "title": "Ponytail Agent Skill Corrects Its Own Benchmark After Contributor Challenge"
+    },
+    "https://www.infoq.com/news/2026/08/skia-sharp-4-release": {
+      "canonical_url": "https://www.infoq.com/news/2026/08/skia-sharp-4-release",
+      "created_at": "2026-08-05T09:08:39Z",
+      "status": "scoring_attempted",
+      "title": "SkiaSharp 4.0 Establishes Milestone-Aligned Release Cadence"
     },
     "https://www.infoq.com/news/2026/08/typescript-7-released": {
       "canonical_url": "https://www.infoq.com/news/2026/08/typescript-7-released",
@@ -4432,6 +4238,12 @@
       "status": "scoring_attempted",
       "title": "Reflex Open Sources XY: A Rust-Backed Super-Fast Python Charting Library That Keeps 100 Million Point Charts Interactive"
     },
+    "https://www.marktechpost.com/2026/08/05/nvidia-alpamayo-2-super-open-vla-model-autonomous-driving": {
+      "canonical_url": "https://www.marktechpost.com/2026/08/05/nvidia-alpamayo-2-super-open-vla-model-autonomous-driving",
+      "created_at": "2026-08-05T09:08:39Z",
+      "status": "scoring_attempted",
+      "title": "NVIDIA Releases Alpamayo 2 Super: A 34B Open Vision-Language-Action Model for Robotaxis and Autonomous Driving Under OpenMDW-1.1"
+    },
     "https://www.nytimes.com/2026/08/01/us/politics/iran-cyberattack-water-systems.html": {
       "canonical_url": "https://www.nytimes.com/2026/08/01/us/politics/iran-cyberattack-water-systems.html",
       "created_at": "2026-08-01T16:44:40Z",
@@ -4618,6 +4430,12 @@
       "status": "scoring_attempted",
       "title": "Our favorite memories at the movies"
     },
+    "https://www.theverge.com/entertainment/975224/ted-lasso-season-4-apple-tv": {
+      "canonical_url": "https://www.theverge.com/entertainment/975224/ted-lasso-season-4-apple-tv",
+      "created_at": "2026-08-05T09:08:39Z",
+      "status": "scoring_attempted",
+      "title": "Ted Lasso returns at an important time for Apple TV"
+    },
     "https://www.theverge.com/entertainment/975297/spider-man-brand-new-day-marvel-sony-xmen-doomsday": {
       "canonical_url": "https://www.theverge.com/entertainment/975297/spider-man-brand-new-day-marvel-sony-xmen-doomsday",
       "created_at": "2026-08-05T00:09:50Z",
@@ -4779,6 +4597,12 @@
       "created_at": "2026-08-04T20:57:49Z",
       "status": "scoring_attempted",
       "title": "SpaceX has more neocloud revenue"
+    },
+    "https://www.theverge.com/science/975480/spacex-mobile-terrestrial-cellphone-company": {
+      "canonical_url": "https://www.theverge.com/science/975480/spacex-mobile-terrestrial-cellphone-company",
+      "created_at": "2026-08-05T09:08:39Z",
+      "status": "scoring_attempted",
+      "title": "SpaceX is coming for T-Mobile, AT&#038;T and Verizon"
     },
     "https://www.theverge.com/tech/972254/nothing-ear-3a-earbuds-review": {
       "canonical_url": "https://www.theverge.com/tech/972254/nothing-ear-3a-earbuds-review",
@@ -4978,6 +4802,12 @@
       "status": "scoring_attempted",
       "title": "Did an AI Music App Just Snitch on the Song of the Summer?"
     },
+    "https://www.wired.com/story/ai-notetakers-invited-to-the-meetings": {
+      "canonical_url": "https://www.wired.com/story/ai-notetakers-invited-to-the-meetings",
+      "created_at": "2026-08-05T09:08:39Z",
+      "status": "scoring_attempted",
+      "title": "The AI Notetaker Has Been Invited to All the Meetings"
+    },
     "https://www.wired.com/story/ai-scammers-are-better-at-building-trust-than-humans": {
       "canonical_url": "https://www.wired.com/story/ai-scammers-are-better-at-building-trust-than-humans",
       "created_at": "2026-07-30T11:28:52Z",
@@ -5067,6 +4897,12 @@
       "created_at": "2026-07-30T09:05:20Z",
       "status": "scoring_attempted",
       "title": "I Got a Free Meal From a Private Chef\u2014Who Filmed It All to Train Robots"
+    },
+    "https://www.wired.com/story/iris-nodoca-ai-throat-exam-routine-physical": {
+      "canonical_url": "https://www.wired.com/story/iris-nodoca-ai-throat-exam-routine-physical",
+      "created_at": "2026-08-05T09:08:39Z",
+      "status": "scoring_attempted",
+      "title": "A New Device Eases One of the Most Annoying Parts of Routine Physicals"
     },
     "https://www.wired.com/story/jailbreaking-ai-models-google-anthropic-openai-spacexai": {
       "canonical_url": "https://www.wired.com/story/jailbreaking-ai-models-google-anthropic-openai-spacexai",
