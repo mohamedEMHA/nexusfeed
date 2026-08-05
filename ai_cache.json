@@ -994,54 +994,6 @@
         }
       }
     },
-    "998a978118832deb1f998d755aaf73c5dc689080436298a86b69379173959aef": {
-      "created_at": "2026-08-04T22:16:03Z",
-      "payload": {
-        "candidates": [
-          {
-            "article_url": "https://www.theverge.com/tech/975381/amd-q2-2026-earnings-ai-gaming-ryzen",
-            "index": 3,
-            "published_time_relative": "1 hour ago",
-            "source": "The Verge",
-            "summary": "Driven by demand for AI capacity, AMD's data center revenue more than doubled year-over-year in its latest earnings report, reaching $6.7 billion. That's up from $5.8 billion in Q1, and jumping 107 percent from the $3.2 billion it reported for the same period a year ago. At the same time, AMD's gam...",
-            "tier": "A",
-            "title": "AMD&#8217;s datacenter business is booming while gaming takes a backseat"
-          }
-        ],
-        "prompt_version": "cerebras-scoring-v1",
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1.5,
-              "impact_score": 2.5,
-              "index": 3,
-              "novelty_score": 2.0,
-              "reason": "Industry move with significant revenue shift; fresh but not breaking news, high impact for datacenter-focused devs.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "AMD&#8217;s datacenter business is booming while gaming takes a backseat",
-              "total_score": 7.5
-            }
-          ],
-          "best_index": 3,
-          "best_score": 7.5,
-          "recommendation": "SKIP",
-          "social_posts": {
-            "facebook": "",
-            "telegram": "",
-            "threads": "",
-            "twitter": ""
-          }
-        },
-        "social_media_rules": [
-          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
-          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.",
-          "Use the FULL article title as headline without inventing facts.",
-          "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
-        ]
-      }
-    },
     "9a32e6cd6cb516e75f216b7c53fd09baf89f1913ce76ac7f0679901a9b26988b": {
       "created_at": "2026-08-05T13:20:39Z",
       "payload": {
@@ -1294,55 +1246,6 @@
         }
       }
     },
-    "bb6b82e11f3580adeb83c2e5435552993c40cd1617d22d7712033bc7f749586f": {
-      "created_at": "2026-08-04T22:16:03Z",
-      "payload": {
-        "prompt_version": "cerebras-scoring-v1",
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2,
-              "impact_score": 2.5,
-              "index": 0,
-              "novelty_score": 2.5,
-              "reason": "High-impact policy news with fresh timing and strong source tier.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "The White House Is Keeping Its AI Cybersecurity Framework Secret",
-              "total_score": 8.5
-            },
-            {
-              "freshness_score": 2,
-              "impact_score": 1.5,
-              "index": 1,
-              "novelty_score": 2.5,
-              "reason": "Niche security incident report with low-tier source and limited impact.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Security Incident INC-2026-07-28-01 \u2013 UK AI Security Institute [pdf]",
-              "total_score": 6.5
-            }
-          ],
-          "best_index": 0,
-          "best_score": 8.5,
-          "recommendation": "POST_NOW",
-          "social_posts": {
-            "facebook": "The Trump administration shared its AI cybersecurity framework with major labs like OpenAI and Anthropic but hasn\u2019t released details to the public. The lack of transparency raises questions about accountability and oversight in AI governance.\n\nLink: https://www.wired.com/story/the-white-house-is-keeping-its-ai-cybersecurity-framework-secret/",
-            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *The White House Is Keeping Its AI Cybersecurity Framework Secret*\n\nThe Trump administration shared its AI cybersecurity framework with OpenAI, Anthropic, and other labs but hasn\u2019t released details to the public.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.wired.com/story/the-white-house-is-keeping-its-ai-cybersecurity-framework-secret/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-            "threads": "The White House briefed OpenAI and Anthropic on its AI cybersecurity framework but hasn\u2019t made it public. This opacity could undermine trust in AI regulation.\n\nhttps://www.wired.com/story/the-white-house-is-keeping-its-ai-cybersecurity-framework-secret/",
-            "twitter": "The White House is keeping its AI cybersecurity framework secret\u2014even after briefing major labs like OpenAI and Anthropic. The public remains in the dark.\n\nhttps://www.wired.com/story/the-white-house-is-keeping-its-ai-cybersecurity-framework-secret/"
-          }
-        },
-        "social_media_rules": [
-          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
-          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.",
-          "Use the FULL article title as headline without inventing facts.",
-          "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
-        ]
-      }
-    },
     "bd175fbb1e67b9bc2e50516c80dd06712565984c39144ec5499698bf27e1fdad": {
       "created_at": "2026-08-05T17:49:52Z",
       "payload": {
@@ -1402,36 +1305,6 @@
           "Use the FULL article title as headline without inventing facts.",
           "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
         ]
-      }
-    },
-    "bfae811b7b3ceac43b0bd4198daf6e9e7d4d481773e8f5827743e8f4ecbb2c0a": {
-      "created_at": "2026-08-04T22:16:03Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1.5,
-              "impact_score": 3.0,
-              "index": 12,
-              "novelty_score": 2.5,
-              "reason": "Research-level industry move with high impact and freshness from Tier S source.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 2.0,
-              "title": "Third-party cyber evaluations involving OpenAI models",
-              "total_score": 9.0
-            }
-          ],
-          "best_index": 12,
-          "best_score": 9.0,
-          "recommendation": "POST_NOW",
-          "social_posts": {
-            "facebook": "OpenAI has published details on recent third-party cybersecurity evaluations of its models, highlighting gaps in current testing frameworks and introducing new safeguards. The findings underscore the need for stricter evaluation protocols in AI security.\n\nLink: https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
-            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Third-party cyber evaluations involving OpenAI models*\n\nOpenAI details third-party cybersecurity evaluations of its models, identifying gaps in current testing frameworks and introducing new safeguards to strengthen AI security.\n\n\ud83c\udfdb\ufe0f Source: OpenAI (Tier S)\n\u23f0 Published: 3 hours ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://openai.com/index/third-party-cyber-evaluations-involving-openai-models\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-            "threads": "OpenAI\u2019s latest disclosure on third-party cyber evaluations reveals critical gaps in AI security testing and introduces new safeguards. The report suggests current frameworks may be insufficient for high-stakes deployments.\n\nhttps://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
-            "twitter": "OpenAI details third-party cyber evaluations and new safeguards to strengthen AI model testing. Early insights reveal critical gaps in current security frameworks.\n\nhttps://openai.com/index/third-party-cyber-evaluations-involving-openai-models"
-          }
-        }
       }
     },
     "c4aae85175fe52e09123264e00498c0ca005b574b03f7c2a226ccaa14ebb71e5": {
@@ -1662,31 +1535,6 @@
         }
       }
     },
-    "dd3d0c8ef3c561d641448b4258c02bf0b00ca98fc7d339e02bca1f621e4fa86c": {
-      "created_at": "2026-08-04T22:16:03Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1.5,
-              "impact_score": 0.5,
-              "index": 2,
-              "novelty_score": 1.5,
-              "reason": "Industry move with low impact and freshness, but not a red flag.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "SpaceX has bought $329M worth of Tesla Megapacks so far this year",
-              "total_score": 5.0
-            }
-          ],
-          "best_index": 2,
-          "best_score": 5.0,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
-      }
-    },
     "f2085e442ad6088b3a65378085295e9df971fae2000cf8ca3a2c242914469953": {
       "created_at": "2026-08-05T11:38:24Z",
       "payload": {
@@ -1798,15 +1646,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Apple Considers AI Usage Tier for iCloud Plus\nApple may introduce an upgrade path for iCloud Plus users to increase their AI usage limits, potentially impacting AI adoption and cloud service pricing.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #CloudComputing #Apple\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Tim Cook hints at a potential iCloud Plus tier for AI power users, which could allow them to pay for increased usage limits @TheVerge #AI",
         "twitter": "Apple CEO Tim Cook suggests iCloud Plus users may soon be able to pay for increased AI usage limits @TheVerge #AI"
-      }
-    },
-    "76863d5c7b9b0cf24a3e012c362e5c833e440193327443dd002011f1074fcf66": {
-      "created_at": "2026-07-29T22:34:01Z",
-      "payload": {
-        "facebook": "Microsoft is developing an AI super app that will integrate Copilot's capabilities, spanning both consumer and commercial experiences. This app is expected to launch later this year, marking a significant expansion of Microsoft's AI offerings. #AI #Microsoft #Technology",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Microsoft Expands AI Capabilities\nMicrosoft is working on a Copilot super app that combines chat, coding, and agentic capabilities, set to launch this year.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #Microsoft #Technology\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Microsoft's Copilot super app is on the horizon, set to combine chat, coding, and agentic capabilities in one platform @Microsoft #AI",
-        "twitter": "Microsoft CEO Satya Nadella confirms Copilot super app is coming this year, combining chat, coding, and agentic capabilities @Microsoft #AI"
       }
     },
     "94d139108543952b090ed8530e69f5a5f249c2c44408479d6281aa18b36eef56": {
@@ -2008,12 +1847,6 @@
       "created_at": "2026-07-31T21:38:29Z",
       "status": "scoring_attempted",
       "title": "Claude published malicious code to the Internet and attacked 3 real companies"
-    },
-    "https://arstechnica.com/security/2026/07/mythos-uncovers-crypto-weaknesses-that-went-unknown-for-years": {
-      "canonical_url": "https://arstechnica.com/security/2026/07/mythos-uncovers-crypto-weaknesses-that-went-unknown-for-years",
-      "created_at": "2026-07-29T22:34:01Z",
-      "status": "scoring_attempted",
-      "title": "Mythos uncovers crypto weaknesses that went unknown for years"
     },
     "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project": {
       "canonical_url": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project",
@@ -3173,12 +3006,6 @@
       "status": "scoring_attempted",
       "title": "Microsoft logs $3.2B from Anthropic investment, but OpenAI was a mixed bag"
     },
-    "https://techcrunch.com/2026/07/29/zuckerberg-says-metas-enterprise-ai-opportunity-extends-beyond-agents": {
-      "canonical_url": "https://techcrunch.com/2026/07/29/zuckerberg-says-metas-enterprise-ai-opportunity-extends-beyond-agents",
-      "created_at": "2026-07-29T22:34:01Z",
-      "status": "scoring_attempted",
-      "title": "Zuckerberg says Meta\u2019s enterprise AI opportunity extends beyond agents"
-    },
     "https://techcrunch.com/2026/07/30/ai-hedge-fund-situational-awareness-may-have-sold-its-public-portfolio-but-it-still-has-its-anthropic-shares": {
       "canonical_url": "https://techcrunch.com/2026/07/30/ai-hedge-fund-situational-awareness-may-have-sold-its-public-portfolio-but-it-still-has-its-anthropic-shares",
       "created_at": "2026-07-31T00:16:51Z",
@@ -4031,12 +3858,6 @@
       "status": "scoring_attempted",
       "title": "Australia's social media ban has failed"
     },
-    "https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research": {
-      "canonical_url": "https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research",
-      "created_at": "2026-07-29T22:34:01Z",
-      "status": "scoring_attempted",
-      "title": "AI's top startups are barely publishing their research"
-    },
     "https://www.seangoedecke.com/llms-reward-expertise": {
       "canonical_url": "https://www.seangoedecke.com/llms-reward-expertise",
       "created_at": "2026-08-03T22:18:34Z",
@@ -4354,24 +4175,6 @@
       "created_at": "2026-08-05T13:20:39Z",
       "status": "scoring_attempted",
       "title": "Disney gives TikTok creators official access to Marvel, Star Wars, and Pixar characters"
-    },
-    "https://www.theverge.com/tech/972294/meta-q2-2026-earnings-mark-zuckerberg-personal-ai-agents": {
-      "canonical_url": "https://www.theverge.com/tech/972294/meta-q2-2026-earnings-mark-zuckerberg-personal-ai-agents",
-      "created_at": "2026-07-29T22:34:01Z",
-      "status": "scoring_attempted",
-      "title": "Mark Zuckerberg is planning a big push into personal AI agents"
-    },
-    "https://www.theverge.com/tech/972894/qualcomm-price-hikes-q2-2026-earnings": {
-      "canonical_url": "https://www.theverge.com/tech/972894/qualcomm-price-hikes-q2-2026-earnings",
-      "created_at": "2026-07-29T22:34:01Z",
-      "status": "scoring_attempted",
-      "title": "Qualcomm is raising phone chip prices starting September 1st"
-    },
-    "https://www.theverge.com/tech/972927/microsoft-copilot-super-app-confirmed": {
-      "canonical_url": "https://www.theverge.com/tech/972927/microsoft-copilot-super-app-confirmed",
-      "created_at": "2026-07-29T22:34:01Z",
-      "status": "scoring_attempted",
-      "title": "Microsoft confirms Copilot \u2018super app\u2019 coming this year"
     },
     "https://www.theverge.com/tech/973053/xiaomi-skynomad-n90-max-extended-range-electric-suv": {
       "canonical_url": "https://www.theverge.com/tech/973053/xiaomi-skynomad-n90-max-extended-range-electric-suv",
@@ -4762,12 +4565,6 @@
       "created_at": "2026-08-05T15:36:50Z",
       "status": "scoring_attempted",
       "title": "Painting with Gaussians"
-    },
-    "https://zachholman.com/posts/cold-email": {
-      "canonical_url": "https://zachholman.com/posts/cold-email",
-      "created_at": "2026-07-29T22:34:01Z",
-      "status": "scoring_attempted",
-      "title": "The Cold Email"
     },
     "https://zenodo.org/records/21753002": {
       "canonical_url": "https://zenodo.org/records/21753002",
