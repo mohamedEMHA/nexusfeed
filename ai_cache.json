@@ -74,60 +74,6 @@
         ]
       }
     },
-    "044e911eee2619cc7ce90bf61cb3d6a6b593ae064b1d45473b8a46b837afdba2": {
-      "created_at": "2026-08-04T11:47:53Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 0.0,
-              "index": 6,
-              "novelty_score": 0.0,
-              "reason": "Literary content with no relevance to software engineering or AI research.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Ray Bradbury's \"There Will Come Soft Rains\" is set today (2026-08-04)",
-              "total_score": 2.5
-            },
-            {
-              "freshness_score": 2.0,
-              "impact_score": 2.5,
-              "index": 7,
-              "novelty_score": 2.5,
-              "reason": "Industry move with high impact on developers and freshness under 1 hour.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "Can Reddit fend off a new wave of AI SEO spam?",
-              "total_score": 8.5
-            },
-            {
-              "freshness_score": 2.0,
-              "impact_score": 1.5,
-              "index": 8,
-              "novelty_score": 2.0,
-              "reason": "Opinion piece with niche impact and freshness under 1 hour.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "How Data Centers Broke American Politics",
-              "total_score": 7.0
-            }
-          ],
-          "best_index": 7,
-          "best_score": 8.5,
-          "recommendation": "POST_NOW",
-          "social_posts": {
-            "facebook": "Reddit is now ground zero for AI-generated spam. Brands are using AI to flood subreddits with fake product endorsements, turning community discussions into marketing battlegrounds. The platform\u2019s response could redefine how it balances growth and authenticity.\n\nLink: https://www.theverge.com/ai-artificial-intelligence/973098/reddit-ai-search-seo-marketing-brands-spam",
-            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Can Reddit fend off a new wave of AI SEO spam?*\n\nBrands are flooding subreddits with AI-generated fake product endorsements, testing Reddit\u2019s ability to curb spam without stifling growth.\n\n\ud83c\udfdb\ufe0f Source: The Verge (Tier A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/ai-artificial-intelligence/973098/reddit-ai-search-seo-marketing-brands-spam\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-            "threads": "Reddit\u2019s moderation teams are scrambling to stop AI SEO spam from drowning out real user discussions. Brands are automating fake endorsements, forcing the platform to adapt or lose trust.\n\nhttps://www.theverge.com/ai-artificial-intelligence/973098/reddit-ai-search-seo-marketing-brands-spam",
-            "twitter": "Reddit\u2019s fight against AI-driven SEO spam just got real. Brands are flooding subreddits with fake product endorsements, testing the limits of moderation.\n\nhttps://www.theverge.com/ai-artificial-intelligence/973098/reddit-ai-search-seo-marketing-brands-spam"
-          }
-        }
-      }
-    },
     "058c675c146e1e684d3a227a40034340a7e200017b49a1a66694a99b5c2f3225": {
       "created_at": "2026-08-04T15:54:37Z",
       "payload": {
@@ -357,6 +303,31 @@
         }
       }
     },
+    "21e85db4e83db29c440537361d6c43a4fee16b39c197965cb62d1459b48b49c9": {
+      "created_at": "2026-08-05T13:20:39Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1,
+              "impact_score": 2.5,
+              "index": 6,
+              "novelty_score": 2.5,
+              "reason": "Opinion piece lacks novelty and freshness, scoring below threshold.",
+              "red_flag": true,
+              "red_flag_reason": "opinion",
+              "source_score": 0.5,
+              "title": "Position: LLMs Can't Jump",
+              "total_score": 6.5
+            }
+          ],
+          "best_index": 6,
+          "best_score": 6.5,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
     "2377e7141c16190ecb58054205c4c2c638ac6f0562695bf351cc92324e584224": {
       "created_at": "2026-08-05T03:37:00Z",
       "payload": {
@@ -445,60 +416,6 @@
             "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Deploy local agents everywhere with LFM2.5-2.6B*\n\nHugging Face released LFM2.5-2.6B, a lightweight local agent model optimized for edge deployment. Early benchmarks suggest it improves reasoning performance while reducing compute overhead.\n\n\ud83c\udfdb\ufe0f Source: HuggingFace (Tier S)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9.5/10\n\n\ud83d\udd17 https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
             "threads": "Hugging Face just shipped LFM2.5-2.6B, a new local agent model built for edge deployment. It\u2019s optimized for reasoning tasks and claims to reduce compute costs compared to similar models.\n\nhttps://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
             "twitter": "Hugging Face just dropped LFM2.5-2.6B, a new local agent model optimized for deployment across devices. Early tests show it outperforms similar-sized models in reasoning tasks.\n\nhttps://huggingface.co/blog/LiquidAI/lfm2-5-2-6b"
-          }
-        }
-      }
-    },
-    "46c9c2e1e884fdb9fac20f88f0bfc7728bc3be68c230878413730f0f66f6310b": {
-      "created_at": "2026-08-04T11:47:53Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2,
-              "impact_score": 2.5,
-              "index": 3,
-              "novelty_score": 2.5,
-              "reason": "Research-level novelty with high impact on niche but growing AI application in entertainment.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "Is This Poker Player Bluffing? The AI Thinks So",
-              "total_score": 8.5
-            },
-            {
-              "freshness_score": 1.5,
-              "impact_score": 1.5,
-              "index": 4,
-              "novelty_score": 2.5,
-              "reason": "Industry move with moderate impact but lacks broad developer relevance.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "How One Startup Built a (Mostly) China-Free Robot",
-              "total_score": 7
-            },
-            {
-              "freshness_score": 1.5,
-              "impact_score": 2,
-              "index": 5,
-              "novelty_score": 1.5,
-              "reason": "Industry analysis with niche impact and lower novelty.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "\u2018Everyone Is Doing It\u2019: The Truth About AI in Hollywood",
-              "total_score": 6.5
-            }
-          ],
-          "best_index": 3,
-          "best_score": 8.5,
-          "recommendation": "POST_NOW",
-          "social_posts": {
-            "facebook": "ESPN\u2019s new AI bluff-detection tool is getting mixed reactions during the 2026 World Series of Poker broadcasts. While marketed as a fun gimmick, some players question whether it\u2019s accurate enough to influence live gameplay. The bigger question: Could this set a precedent for AI in sports analytics?\n\nLink: https://www.wired.com/story/ai-tells-detection-world-series-of-poker-espn/",
-            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Is This Poker Player Bluffing? The AI Thinks So*\n\nESPN debuted an AI tool during the 2026 World Series of Poker broadcasts that claims to detect bluffs in real time. Early reactions from players are skeptical about its accuracy.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.wired.com/story/ai-tells-detection-world-series-of-poker-espn/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-            "threads": "ESPN rolled out an AI tool that analyzes poker players\u2019 tells in real time during the 2026 WSOP. The tech raises questions about accuracy and whether it\u2019s just a novelty or a glimpse into AI\u2019s role in live sports broadcasting.\n\nhttps://www.wired.com/story/ai-tells-detection-world-series-of-poker-espn/",
-            "twitter": "ESPN just debuted an AI tool that claims to detect poker bluffs in real time during the 2026 WSOP. Early reactions from pros are skeptical.\n\nhttps://www.wired.com/story/ai-tells-detection-world-series-of-poker-espn/"
           }
         }
       }
@@ -815,48 +732,6 @@
         }
       }
     },
-    "66aa58ed6ee79ea137d36b7606cb5ea6e86ef628710c8e94917c58d4b476a1d0": {
-      "created_at": "2026-08-04T11:47:53Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1.5,
-              "impact_score": 2.5,
-              "index": 9,
-              "novelty_score": 3.0,
-              "reason": "New open-source library with significant performance claims for Python data visualization.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "Reflex Open Sources XY: A Rust-Backed Super-Fast Python Charting Library That Keeps 100 Million Point Charts Interactive",
-              "total_score": 8.5
-            },
-            {
-              "freshness_score": 1.5,
-              "impact_score": 2.5,
-              "index": 10,
-              "novelty_score": 2.0,
-              "reason": "Industry analysis with moderate novelty and impact.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "Mistral Is in the Right Place at the Right Time",
-              "total_score": 7.5
-            }
-          ],
-          "best_index": 9,
-          "best_score": 8.5,
-          "recommendation": "POST_NOW",
-          "social_posts": {
-            "facebook": "Reflex released XY, a new Apache-2.0 Python charting library that offloads rendering to Rust and WebGL2. It handles 100 million points in under a tenth of a second while keeping exports tiny. For teams drowning in large datasets, this could be a game-changer.\n\nLink: https://www.marktechpost.com/2026/08/04/reflex-open-sources-xy/",
-            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Reflex Open Sources XY: A Rust-Backed Super-Fast Python Charting Library That Keeps 100 Million Point Charts Interactive*\n\nReflex released XY, an Apache-2.0 Python charting library that shifts rendering to a Rust core and WebGL2 client. It renders 100 million points in ~0.08 seconds and exports a 10-million-point interactive scatter plot at 258 KiB while preserving exact f64 columns.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (Tier A)\n\u23f0 Published: 2 hours ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/08/04/reflex-open-sources-xy/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-            "threads": "Reflex open-sourced XY, a Python charting library that moves rendering to Rust and WebGL2. It renders 100M points in 0.08s and exports 10M-point scatter plots at 258 KiB. That\u2019s not just fast\u2014it\u2019s practical.\n\nhttps://www.marktechpost.com/2026/08/04/reflex-open-sources-xy/",
-            "twitter": "Reflex just open-sourced XY, a Rust-backed Python charting library that renders 100M points in 0.08s and keeps interactive scatter plots under 258 KiB.\n\nhttps://www.marktechpost.com/2026/08/04/reflex-open-sources-xy/"
-          }
-        }
-      }
-    },
     "66e3366ebc8c4f8140645becd74c9f115c67e33d0b0d5130ab690513969057f2": {
       "created_at": "2026-08-05T00:09:50Z",
       "payload": {
@@ -944,6 +819,31 @@
           ],
           "best_index": 1,
           "best_score": 8.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
+    "7189464edd44de360d9d6af2af45e2c8aa7fbce3412843c05b394133cf2a758e": {
+      "created_at": "2026-08-05T13:20:39Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2,
+              "impact_score": 1.5,
+              "index": 4,
+              "novelty_score": 2.5,
+              "reason": "Industry move with niche impact (creator economy) but fresh and from Tier A source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Disney gives TikTok creators official access to Marvel, Star Wars, and Pixar characters",
+              "total_score": 7.5
+            }
+          ],
+          "best_index": 4,
+          "best_score": 7.5,
           "recommendation": "SKIP",
           "social_posts": {}
         }
@@ -1147,6 +1047,46 @@
         ]
       }
     },
+    "9a32e6cd6cb516e75f216b7c53fd09baf89f1913ce76ac7f0679901a9b26988b": {
+      "created_at": "2026-08-05T13:20:39Z",
+      "payload": {
+        "candidates": [],
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2,
+              "impact_score": 2.5,
+              "index": 0,
+              "novelty_score": 2.5,
+              "reason": "Government coalition demands action from OpenAI; high impact but low source tier.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Iowa et al asks OpenAI to keep their bots sandboxed",
+              "total_score": 7.5
+            },
+            {
+              "freshness_score": 2,
+              "impact_score": 2.5,
+              "index": 1,
+              "novelty_score": 3,
+              "reason": "New industry move with fresh data; high novelty and impact but low source tier.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "TIME Is Serving AI Bots a Different Website, with Ads Built In",
+              "total_score": 8
+            }
+          ],
+          "best_index": 1,
+          "best_score": 8,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        },
+        "social_media_rules": []
+      }
+    },
     "a2746cca7f0943743b6bda0d78e78302c3b9857999ff1a2261779ba2b08e5812": {
       "created_at": "2026-08-04T20:57:49Z",
       "payload": {
@@ -1239,6 +1179,48 @@
             "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Is the future of data centers portable? Runware builds a pod to find out*\n\nAI infrastructure company Runware launched the Sonic Inference Pod, a modular data center designed for portable inference workloads. Early tests indicate 20% lower latency in edge deployments compared to traditional cloud setups.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
             "threads": "Runware\u2019s new Sonic Inference Pod could redefine how we deploy AI at the edge. Early benchmarks suggest it cuts inference latency by 20% compared to cloud-only setups.\n\nhttps://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out/",
             "twitter": "Runware just launched a modular data center pod for portable AI inference. Early tests show 20% lower latency in edge deployments.\n\nhttps://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out/"
+          }
+        }
+      }
+    },
+    "b319ea3e3958b10ef1bfa7132d71ef8671f58fe0039637ffe9448056e88f6876": {
+      "created_at": "2026-08-05T13:20:39Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2,
+              "impact_score": 2.5,
+              "index": 2,
+              "novelty_score": 2.5,
+              "reason": "New industry move with high relevance for developers and freshness under 1 hour.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "MacPaw taps Liquid AI to offer on-device inference to devs building for its app store",
+              "total_score": 8.5
+            },
+            {
+              "freshness_score": 1.5,
+              "impact_score": 1.5,
+              "index": 3,
+              "novelty_score": 2.5,
+              "reason": "Research article with niche impact and low-tier source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Why the Legendary Erd\u0151s Problems Are Falling to AI",
+              "total_score": 6
+            }
+          ],
+          "best_index": 2,
+          "best_score": 8.5,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "MacPaw is integrating Liquid AI\u2019s models to enable on-device inference for developers building apps in its store. This move could shift how AI assistants process data securely and efficiently, reducing reliance on cloud services.\n\nLink: https://techcrunch.com/2026/08/05/macpaw-taps-liquid-ai-to-offer-on-device-inference-to-devs-building-for-its-app-store/",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *MacPaw taps Liquid AI to offer on-device inference to devs building for its app store*\n\nMacPaw is integrating Liquid AI\u2019s models to enable on-device inference for developers building apps in its store. This could reduce cloud dependency and improve data privacy for end users.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/08/05/macpaw-taps-liquid-ai-to-offer-on-device-inference-to-devs-building-for-its-app-store/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "MacPaw and Liquid AI just teamed up to bring on-device inference to developers using its app store. Early implications suggest a big step toward privacy-focused AI tools.\n\nhttps://techcrunch.com/2026/08/05/macpaw-taps-liquid-ai-to-offer-on-device-inference-to-devs-building-for-its-app-store/",
+            "twitter": "MacPaw just partnered with Liquid AI to bring on-device inference to its app store developers. This could redefine how AI assistants handle sensitive data locally.\n\nhttps://techcrunch.com/2026/08/05/macpaw-taps-liquid-ai-to-offer-on-device-inference-to-devs-building-for-its-app-store/"
           }
         }
       }
@@ -1764,60 +1746,6 @@
           }
         }
       }
-    },
-    "f3dd345dae62f6387066a6b3bf50a9142c828155acc975cd23143e169c90a688": {
-      "created_at": "2026-08-04T11:47:53Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 2.5,
-              "index": 0,
-              "novelty_score": 2.5,
-              "reason": "Research-focused presentation with high impact for niche developers but slightly below threshold.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.0,
-              "title": "Presentation: Microservices Platforms: When Team Topologies Meets Microservices Patterns",
-              "total_score": 8.0
-            },
-            {
-              "freshness_score": 2.0,
-              "impact_score": 3.0,
-              "index": 1,
-              "novelty_score": 3.0,
-              "reason": "Breaking industry news with universal impact and freshness.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "OpenAI drags Apple\u2019s lawsuit into the court of public opinion",
-              "total_score": 9.5
-            },
-            {
-              "freshness_score": 2.0,
-              "impact_score": 2.5,
-              "index": 2,
-              "novelty_score": 2.0,
-              "reason": "Industry move with broad impact but lower novelty than legal news.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "The next Xbox could play every Xbox game ever made",
-              "total_score": 8.0
-            }
-          ],
-          "best_index": 1,
-          "best_score": 9.5,
-          "recommendation": "POST_NOW",
-          "social_posts": {
-            "facebook": "OpenAI has responded publicly to Apple\u2019s lawsuit, claiming the company got its version of events wrong. The legal dispute between the two tech giants is now playing out in the court of public opinion.\n\nThe blog post directly challenges Apple\u2019s accusations, adding a new layer to their legal battle. Link: https://www.theverge.com/ai-artificial-intelligence/974914/openai-blog-response-apple-lawsuit-messages",
-            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *OpenAI drags Apple\u2019s lawsuit into the court of public opinion*\n\nOpenAI responded to Apple\u2019s legal accusations with a public blog post, calling Apple\u2019s version of events \"careless.\" The dispute now plays out beyond the courtroom.\n\n\ud83c\udfdb\ufe0f Source: The Verge (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.5/10\n\n\ud83d\udd17 https://www.theverge.com/ai-artificial-intelligence/974914/openai-blog-response-apple-lawsuit-messages\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-            "threads": "OpenAI just escalated its legal fight with Apple by going public. Their blog post says Apple\u2019s lawsuit is based on misrepresentations, and now the dispute is in full view.\n\nhttps://www.theverge.com/ai-artificial-intelligence/974914/openai-blog-response-apple-lawsuit-messages",
-            "twitter": "OpenAI fires back at Apple\u2019s lawsuit with a public blog post, accusing the company of misrepresenting events. The legal battle just escalated.\n\nhttps://www.theverge.com/ai-artificial-intelligence/974914/openai-blog-response-apple-lawsuit-messages"
-          }
-        }
-      }
     }
   },
   "groq_social_posts": {
@@ -1873,15 +1801,6 @@
         "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Microsoft Expands AI Capabilities\nMicrosoft is working on a Copilot super app that combines chat, coding, and agentic capabilities, set to launch this year.\n\ud83c\udfdb\ufe0f Source: The Verge (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #Microsoft #Technology\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
         "threads": "Microsoft's Copilot super app is on the horizon, set to combine chat, coding, and agentic capabilities in one platform @Microsoft #AI",
         "twitter": "Microsoft CEO Satya Nadella confirms Copilot super app is coming this year, combining chat, coding, and agentic capabilities @Microsoft #AI"
-      }
-    },
-    "8423ee59eb3ef88bb3e3f9ee33cf19b92902f7166ca9889a8308414256852f17": {
-      "created_at": "2026-07-29T11:48:04Z",
-      "payload": {
-        "facebook": "The rise of AI-generated content has made it increasingly difficult to determine what's real and what's not online. Google's SynthID watermark is a significant development in this space, but it doesn't fully address the issue of AI misinformation. As the internet continues to evolve, it's clear that solving this problem won't be easy #AI #SynthID #Misinformation",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Google's SynthID watermark is a powerful tool for detecting AI-generated content, but it may not be enough to combat misinformation online.\nGoogle's SynthID watermark is effective, but the broader issue of AI misinformation remains a challenge.\n\ud83c\udfdb\ufe0f Source: Ars Technica (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #SynthID #Misinformation\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Google's SynthID watermark is effective in detecting AI-generated content, but it's only one part of the solution to combating online misinformation, notes @ArsTechnica #AI",
-        "twitter": "Google's SynthID watermark is a robust tool for detecting AI-generated content, but it may not be enough to combat misinformation online, says @ArsTechnica #AI #SynthID"
       }
     },
     "94d139108543952b090ed8530e69f5a5f249c2c44408479d6281aa18b36eef56": {
@@ -2056,12 +1975,6 @@
       "created_at": "2026-07-30T18:44:52Z",
       "status": "scoring_attempted",
       "title": "Google reveals Gemini Robotics 2.0, promising improved dexterity and safety"
-    },
-    "https://arstechnica.com/ai/2026/07/tested-google-synthid-works-great-but-labeling-ai-content-may-be-a-losing-game": {
-      "canonical_url": "https://arstechnica.com/ai/2026/07/tested-google-synthid-works-great-but-labeling-ai-content-may-be-a-losing-game",
-      "created_at": "2026-07-29T11:48:04Z",
-      "status": "scoring_attempted",
-      "title": "Google's SynthID watermark is hard to break, but it doesn't solve AI misinformation"
     },
     "https://arstechnica.com/ai/2026/07/who-wins-and-who-loses-after-us-bans-foreign-robots": {
       "canonical_url": "https://arstechnica.com/ai/2026/07/who-wins-and-who-loses-after-us-bans-foreign-robots",
@@ -3215,6 +3128,12 @@
       "status": "scoring_attempted",
       "title": "Univ\u00e9 builds an AI-ready workforce"
     },
+    "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DklU4737opt": {
+      "canonical_url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DklU4737opt",
+      "created_at": "2026-08-05T13:20:39Z",
+      "status": "scoring_attempted",
+      "title": "Position: LLMs Can't Jump"
+    },
     "https://phulin.me/blog/poker": {
       "canonical_url": "https://phulin.me/blog/poker",
       "created_at": "2026-07-30T20:07:03Z",
@@ -3298,12 +3217,6 @@
       "created_at": "2026-07-31T20:25:14Z",
       "status": "scoring_attempted",
       "title": "Tailscale didn't stop the Hugging Face intrusion"
-    },
-    "https://techcrunch.com/2026/07/29/as-ai-content-floods-the-internet-pangram-raises-9m-to-detect-it": {
-      "canonical_url": "https://techcrunch.com/2026/07/29/as-ai-content-floods-the-internet-pangram-raises-9m-to-detect-it",
-      "created_at": "2026-07-29T11:48:04Z",
-      "status": "scoring_attempted",
-      "title": "As AI content floods the internet, Pangram raises $9M to detect it"
     },
     "https://techcrunch.com/2026/07/29/claude-opus-5-became-downright-ruthless-when-tasked-with-running-a-vending-machine": {
       "canonical_url": "https://techcrunch.com/2026/07/29/claude-opus-5-became-downright-ruthless-when-tasked-with-running-a-vending-machine",
@@ -3641,6 +3554,12 @@
       "status": "scoring_attempted",
       "title": "AI makes weather prediction better. Can WindBorne make it lucrative?"
     },
+    "https://techcrunch.com/2026/08/05/macpaw-taps-liquid-ai-to-offer-on-device-inference-to-devs-building-for-its-app-store": {
+      "canonical_url": "https://techcrunch.com/2026/08/05/macpaw-taps-liquid-ai-to-offer-on-device-inference-to-devs-building-for-its-app-store",
+      "created_at": "2026-08-05T13:20:39Z",
+      "status": "scoring_attempted",
+      "title": "MacPaw taps Liquid AI to offer on-device inference to devs building for its app store"
+    },
     "https://techcrunch.com/podcast/ai-labs-want-to-pump-the-brakes-but-amazon-and-spacex-are-still-blasting-off": {
       "canonical_url": "https://techcrunch.com/podcast/ai-labs-want-to-pump-the-brakes-but-amazon-and-spacex-are-still-blasting-off",
       "created_at": "2026-07-31T17:48:59Z",
@@ -3688,12 +3607,6 @@
       "created_at": "2026-07-29T16:59:38Z",
       "status": "scoring_attempted",
       "title": "Launch HN: Tokenless (YC S26) \u2013 Automatic model switching to save money"
-    },
-    "https://vimgolf.ai": {
-      "canonical_url": "https://vimgolf.ai",
-      "created_at": "2026-07-29T11:48:04Z",
-      "status": "scoring_attempted",
-      "title": "Show HN: Vimgolf.ai \u2013 Learn Vim by playing through a map of levels"
     },
     "https://website-auditor.io/ai-visibility-index": {
       "canonical_url": "https://website-auditor.io/ai-visibility-index",
@@ -3845,12 +3758,6 @@
       "status": "scoring_attempted",
       "title": "EU rules on AI models become enforceable. What's going to change?"
     },
-    "https://www.fcc.gov/sites/default/files/robots-nsd.pdf": {
-      "canonical_url": "https://www.fcc.gov/sites/default/files/robots-nsd.pdf",
-      "created_at": "2026-07-29T11:48:04Z",
-      "status": "scoring_attempted",
-      "title": "National Security Determination Threat Posed by Foreign-Produced Robotic Devices [pdf]"
-    },
     "https://www.ft.com/content/06ec1b03-d4af-40cf-b12a-4ba5a410f6d2": {
       "canonical_url": "https://www.ft.com/content/06ec1b03-d4af-40cf-b12a-4ba5a410f6d2",
       "created_at": "2026-08-02T20:04:15Z",
@@ -3868,12 +3775,6 @@
       "created_at": "2026-07-30T13:08:00Z",
       "status": "scoring_attempted",
       "title": "AI-Assisted Software Development: Team Profiles and Capabilities for Putting Research into Action"
-    },
-    "https://www.infoq.com/news/2026/07/cloudflare-internal-dns": {
-      "canonical_url": "https://www.infoq.com/news/2026/07/cloudflare-internal-dns",
-      "created_at": "2026-07-29T11:48:04Z",
-      "status": "scoring_attempted",
-      "title": "Cloudflare Makes Internal DNS Generally Available"
     },
     "https://www.infoq.com/news/2026/07/dropbox-mcp-ai-code-review": {
       "canonical_url": "https://www.infoq.com/news/2026/07/dropbox-mcp-ai-code-review",
@@ -3983,12 +3884,6 @@
       "status": "scoring_attempted",
       "title": "Presentation: Architecting AI Systems for the Messy Reality of Enterprises: Why Agentic Compute is the Missing Layer"
     },
-    "https://www.infoq.com/presentations/ai-lead-interview": {
-      "canonical_url": "https://www.infoq.com/presentations/ai-lead-interview",
-      "created_at": "2026-07-29T11:48:04Z",
-      "status": "scoring_attempted",
-      "title": "Presentation: Getting Rid of LeetCode Interviews in the World of AI"
-    },
     "https://www.infoq.com/presentations/ai-sdlc-maturity-framework-bottlenecks": {
       "canonical_url": "https://www.infoq.com/presentations/ai-sdlc-maturity-framework-bottlenecks",
       "created_at": "2026-08-04T16:10:07Z",
@@ -4006,6 +3901,12 @@
       "created_at": "2026-08-04T11:47:53Z",
       "status": "scoring_attempted",
       "title": "Presentation: Microservices Platforms: When Team Topologies Meets Microservices Patterns"
+    },
+    "https://www.iowaattorneygeneral.gov/newsroom/attorney-general-brenna-bird-leads-coalition-demanding-transparency-from-openai-after-ai-breach-and": {
+      "canonical_url": "https://www.iowaattorneygeneral.gov/newsroom/attorney-general-brenna-bird-leads-coalition-demanding-transparency-from-openai-after-ai-breach-and",
+      "created_at": "2026-08-05T13:20:39Z",
+      "status": "scoring_attempted",
+      "title": "Iowa et al asks OpenAI to keep their bots sandboxed"
     },
     "https://www.marktechpost.com/2026/07/29/liquid-ai-releases-lfm2-5-encoder-230m-and-lfm2-5-encoder-350m-bidirectional-encoders-that-stay-fast-at-8k-context-on-cpu": {
       "canonical_url": "https://www.marktechpost.com/2026/07/29/liquid-ai-releases-lfm2-5-encoder-230m-and-lfm2-5-encoder-350m-bidirectional-encoders-that-stay-fast-at-8k-context-on-cpu",
@@ -4175,6 +4076,12 @@
       "status": "scoring_attempted",
       "title": "Is AI Reasoning Right for the Wrong Reasons?"
     },
+    "https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803": {
+      "canonical_url": "https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803",
+      "created_at": "2026-08-05T13:20:39Z",
+      "status": "scoring_attempted",
+      "title": "Why the Legendary Erd\u0151s Problems Are Falling to AI"
+    },
     "https://www.reuters.com/commentary/reuters-open-interest/bond-market-isnt-buying-what-fed-chair-warsh-is-selling-2026-07-30": {
       "canonical_url": "https://www.reuters.com/commentary/reuters-open-interest/bond-market-isnt-buying-what-fed-chair-warsh-is-selling-2026-07-30",
       "created_at": "2026-07-31T03:55:22Z",
@@ -4210,12 +4117,6 @@
       "created_at": "2026-07-29T13:27:14Z",
       "status": "scoring_attempted",
       "title": "Artists are lawyering up against AI slop, and some are even winning"
-    },
-    "https://www.theverge.com/ai-artificial-intelligence/972380/open-ai-hugging-face-hack-ai-safety-warning": {
-      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/972380/open-ai-hugging-face-hack-ai-safety-warning",
-      "created_at": "2026-07-29T11:48:04Z",
-      "status": "scoring_attempted",
-      "title": "We\u2019re running out of reasons to ignore AI safety"
     },
     "https://www.theverge.com/ai-artificial-intelligence/972441/openai-rogue-ai-agent-hacked-more-than-hugging-face": {
       "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/972441/openai-rogue-ai-agent-hacked-more-than-hugging-face",
@@ -4523,6 +4424,12 @@
       "status": "scoring_attempted",
       "title": "SpaceX is coming for T-Mobile, AT&#038;T and Verizon"
     },
+    "https://www.theverge.com/streaming/975520/disney-tiktok-partnership-verts-streaming": {
+      "canonical_url": "https://www.theverge.com/streaming/975520/disney-tiktok-partnership-verts-streaming",
+      "created_at": "2026-08-05T13:20:39Z",
+      "status": "scoring_attempted",
+      "title": "Disney gives TikTok creators official access to Marvel, Star Wars, and Pixar characters"
+    },
     "https://www.theverge.com/tech/972254/nothing-ear-3a-earbuds-review": {
       "canonical_url": "https://www.theverge.com/tech/972254/nothing-ear-3a-earbuds-review",
       "created_at": "2026-07-29T13:27:14Z",
@@ -4703,6 +4610,12 @@
       "status": "scoring_attempted",
       "title": "Man seeks millions after being shot by police in game-related swatting incident"
     },
+    "https://www.vincentschmalbach.com/time-serves-ai-bots-a-different-website": {
+      "canonical_url": "https://www.vincentschmalbach.com/time-serves-ai-bots-a-different-website",
+      "created_at": "2026-08-05T13:20:39Z",
+      "status": "scoring_attempted",
+      "title": "TIME Is Serving AI Bots a Different Website, with Ads Built In"
+    },
     "https://www.warp.dev/blog/introducing-the-warp-agent-cli-coding-agent": {
       "canonical_url": "https://www.warp.dev/blog/introducing-the-warp-agent-cli-coding-agent",
       "created_at": "2026-08-04T19:50:04Z",
@@ -4834,12 +4747,6 @@
       "created_at": "2026-08-04T11:47:53Z",
       "status": "scoring_attempted",
       "title": "Mistral Is in the Right Place at the Right Time"
-    },
-    "https://www.wired.com/story/more-typos-fewer-em-dashes-writers-are-creating-an-anti-ai-literary-counterculture": {
-      "canonical_url": "https://www.wired.com/story/more-typos-fewer-em-dashes-writers-are-creating-an-anti-ai-literary-counterculture",
-      "created_at": "2026-07-29T11:48:04Z",
-      "status": "scoring_attempted",
-      "title": "More Typos, Fewer Em Dashes: Writers Are Creating an Anti-AI \u2018Literary Counterculture\u2019"
     },
     "https://www.wired.com/story/ok-well-there-are-even-more-ai-agent-hacking-incidents": {
       "canonical_url": "https://www.wired.com/story/ok-well-there-are-even-more-ai-agent-hacking-incidents",
