@@ -1,42 +1,5 @@
 {
   "cerebras_scoring": {
-    "0183aaba6c2c08a4cf8b7d4a96050f15c7fbed5080d4725a28db4cf012db66aa": {
-      "created_at": "2026-08-04T19:50:04Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1.5,
-              "impact_score": 2.5,
-              "index": 2,
-              "novelty_score": 2.5,
-              "reason": "Research with broad energy storage implications but not a new release or industry move.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1,
-              "title": "Solving the solvent problem",
-              "total_score": 7.5
-            },
-            {
-              "freshness_score": 1.5,
-              "impact_score": 1.5,
-              "index": 3,
-              "novelty_score": 3,
-              "reason": "New release with niche impact and low-tier source.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Launch HN: EdotEnv (YC S26) \u2013 Quant Trading RL Envs to Teach LLMs Research",
-              "total_score": 6.5
-            }
-          ],
-          "best_index": 2,
-          "best_score": 7.5,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
-      }
-    },
     "039f09ac044f3f91b9dba90cea1a3033d82b54183ff731716a436ec172240c2b": {
       "created_at": "2026-08-05T00:09:50Z",
       "payload": {
@@ -736,48 +699,6 @@
         }
       }
     },
-    "69dd42c98a93d8425343202f91470b5477c810e660252d5a3a05fe625217a219": {
-      "created_at": "2026-08-04T19:50:04Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1.0,
-              "impact_score": 2.5,
-              "index": 9,
-              "novelty_score": 3.0,
-              "reason": "New open-weights model release with broad developer impact.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Mistral's Shieldstral: 3B open-weights model for multimodal moderation",
-              "total_score": 7.0
-            },
-            {
-              "freshness_score": 1.0,
-              "impact_score": 2.5,
-              "index": 10,
-              "novelty_score": 2.5,
-              "reason": "Research paper with niche but significant implications for AI evaluation.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "When AI Benchmarks Plateau: A Systematic Study of Benchmark Saturation",
-              "total_score": 6.5
-            }
-          ],
-          "best_index": 9,
-          "best_score": 7.0,
-          "recommendation": "SKIP",
-          "social_posts": {
-            "facebook": "",
-            "telegram": "",
-            "threads": "",
-            "twitter": ""
-          }
-        }
-      }
-    },
     "6f021305f1a1311f905cd8c8ff1f65059b64cebd0e7321ddae6c5934fc8850fb": {
       "created_at": "2026-08-05T15:36:50Z",
       "payload": {
@@ -892,6 +813,36 @@
           "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
           "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields."
         ]
+      }
+    },
+    "7b5122afee74b3310296d7626045a2c7d91bb95dd1572cfce33a63372bd4f6e6": {
+      "created_at": "2026-08-05T20:37:56Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 3.0,
+              "index": 4,
+              "novelty_score": 3.0,
+              "reason": "High-impact industry move with top-tier source and freshness under 1 hour.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Jeff Dean and other top AI researchers are leaving Google to launch their own startup",
+              "total_score": 9.5
+            }
+          ],
+          "best_index": 4,
+          "best_score": 9.5,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "Google\u2019s legendary AI leader Jeff Dean is departing along with other top researchers to found a new startup. Their goal: leverage AI to accelerate scientific discovery. This move could reshape the AI research landscape.\n\nLink: https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Jeff Dean and other top AI researchers are leaving Google to launch their own startup*\n\nGoogle\u2019s AI leader Jeff Dean and several top researchers are departing to found a new startup focused on AI-driven scientific discovery.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (Tier A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "Jeff Dean and a team of top AI researchers are leaving Google to launch their own startup, aiming to push AI-driven scientific discovery forward.\n\nhttps://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/",
+            "twitter": "Jeff Dean and key AI researchers are leaving Google to launch a new startup focused on AI-driven scientific discovery.\n\nhttps://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/"
+          }
+        }
       }
     },
     "817190d92bdbb28d775e60bcbbaf27f2dbdcc44b95c5ea9fd7a5e23523384c40": {
@@ -1465,48 +1416,6 @@
         ]
       }
     },
-    "bd374d52ae324208e9aece60eccd8ae6bb2ef11c2eee005908c3af4b357231ab": {
-      "created_at": "2026-08-04T19:50:04Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 0.0,
-              "impact_score": 0.0,
-              "index": 4,
-              "novelty_score": 0.0,
-              "reason": "Article is a retrospective recap from 2013.",
-              "red_flag": true,
-              "red_flag_reason": "recap",
-              "source_score": 0.5,
-              "title": "Blackmail Fail (2013)",
-              "total_score": 0.0
-            },
-            {
-              "freshness_score": 2.0,
-              "impact_score": 2.5,
-              "index": 8,
-              "novelty_score": 3.0,
-              "reason": "New release with high developer impact and freshness.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "The Warp Agent CLI",
-              "total_score": 9.0
-            }
-          ],
-          "best_index": 8,
-          "best_score": 9.0,
-          "recommendation": "POST_NOW",
-          "social_posts": {
-            "facebook": "Warp\u2019s new Agent CLI lets you describe what you want to do in plain English, and it generates the terminal commands for you. It\u2019s designed to automate repetitive workflows, which could save developers hours per week. The tool is now in beta and free to try.\n\nLink: https://www.warp.dev/blog/introducing-the-warp-agent-cli-coding-agent",
-            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *The Warp Agent CLI*\n\nWarp\u2019s new CLI agent translates natural language into terminal commands, automating repetitive workflows for developers.\n\n\ud83c\udfdb\ufe0f Source: Warp Blog (Tier A)\n\u23f0 Published: 2 hours ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://www.warp.dev/blog/introducing-the-warp-agent-cli-coding-agent\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-            "threads": "Warp\u2019s Agent CLI bridges the gap between natural language and terminal commands. It\u2019s a practical tool for developers tired of memorizing CLI syntax.\n\nhttps://www.warp.dev/blog/introducing-the-warp-agent-cli-coding-agent",
-            "twitter": "Warp just launched an agent CLI that turns natural language into terminal commands. Early users report it cuts repetitive task time by 40%.\n\nhttps://www.warp.dev/blog/introducing-the-warp-agent-cli-coding-agent"
-          }
-        }
-      }
-    },
     "bfae811b7b3ceac43b0bd4198daf6e9e7d4d481773e8f5827743e8f4ecbb2c0a": {
       "created_at": "2026-08-04T22:16:03Z",
       "payload": {
@@ -1581,45 +1490,82 @@
         ]
       }
     },
-    "d36f62607f37ae485cac3eb9a8398cf0459f24d2b6d60c21870e3d2417e9a245": {
-      "created_at": "2026-08-04T19:50:04Z",
+    "c8a7a896f4fb8c35bdb9a35340eecedb0c98329c86ca9dbd9f4c971884f96e1d": {
+      "created_at": "2026-08-05T20:37:56Z",
       "payload": {
         "response_schema": {
           "articles": [
             {
               "freshness_score": 2,
               "impact_score": 2.5,
-              "index": 0,
+              "index": 2,
               "novelty_score": 2.5,
-              "reason": "Major industry move with high novelty, broad impact, and fresh timing.",
+              "reason": "Research-style article on emerging AI misuse with high freshness and impact.",
               "red_flag": false,
               "red_flag_reason": null,
               "source_score": 1.5,
-              "title": "Anthropic signs $10 billion deal with AI cloud startup Volta",
+              "title": "Hank Green found the AI problem that YouTube labels can\u2019t catch",
               "total_score": 8.5
             },
             {
               "freshness_score": 2,
               "impact_score": 2.5,
-              "index": 1,
+              "index": 3,
               "novelty_score": 2.5,
-              "reason": "Fast-moving industry initiative with high novelty and broad impact.",
+              "reason": "Research-style article on AI-driven security risks with high freshness and impact.",
               "red_flag": false,
               "red_flag_reason": null,
               "source_score": 1.5,
-              "title": "Nvidia doesn\u2019t mess around: A week after open AI industry group formed, it\u2019s already showing progress",
+              "title": "The Most Dangerous AI Hacking Techniques Still Have Humans in the Loop",
               "total_score": 8.5
             }
           ],
-          "best_index": 0,
+          "best_index": 2,
           "best_score": 8.5,
           "recommendation": "POST_NOW",
           "social_posts": {
-            "facebook": "Anthropic\u2019s latest $10 billion deal with Volta signals a major push to secure AI cloud infrastructure. The agreement comes as demand for compute skyrockets among leading AI labs. It\u2019s a bold move that could reshape the balance of power in the AI supply chain.\n\nLink: https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/",
-            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Anthropic signs $10 billion deal with AI cloud startup Volta*\n\nAnthropic agreed to a $10 billion deal with Volta to expand its AI cloud infrastructure, highlighting the critical role of compute in scaling frontier models.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-            "threads": "Anthropic\u2019s $10B deal with Volta is a clear signal that the race for AI compute is intensifying. The partnership could accelerate model training timelines and reduce bottlenecks for teams pushing the frontier.\n\nhttps://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/",
-            "twitter": "Anthropic just inked a $10B deal with Volta to expand its AI cloud capacity. The move underscores the urgency in scaling compute for frontier models.\n\nhttps://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/"
+            "facebook": "YouTube\u2019s AI labels aren\u2019t catching a major flaw in AI-generated content. Hank Green\u2019s deep dive shows how \"slop\" slips through detection systems, raising questions about platform accountability.\n\nLink: https://arstechnica.com/ai/2026/08/hank-green-found-the-ai-problem-that-youtube-labels-cant-catch/",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Hank Green found the AI problem that YouTube labels can\u2019t catch*\n\nYouTube\u2019s AI labels miss a critical flaw in AI-generated spam. Hank Green\u2019s investigation reveals how \"slop\" evades detection at scale, exposing gaps in platform moderation.\n\n\ud83c\udfdb\ufe0f Source: Ars Technica (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://arstechnica.com/ai/2026/08/hank-green-found-the-ai-problem-that-youtube-labels-cant-catch/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "YouTube\u2019s AI labels fail to detect a critical flaw in AI-generated spam. Hank Green\u2019s investigation exposes how \"slop\" evades detection, highlighting systemic gaps in moderation tech.\n\nhttps://arstechnica.com/ai/2026/08/hank-green-found-the-ai-problem-that-youtube-labels-cant-catch/",
+            "twitter": "YouTube\u2019s AI labels miss a critical flaw in AI-generated spam. Hank Green\u2019s investigation reveals how \"slop\" evades detection at scale.\n\nhttps://arstechnica.com/ai/2026/08/hank-green-found-the-ai-problem-that-youtube-labels-cant-catch/"
           }
+        }
+      }
+    },
+    "cc3eaffe5183227ad73722dc5240ff3d7d4a5c3560abc1dc022a63689447abc5": {
+      "created_at": "2026-08-05T20:37:56Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2,
+              "impact_score": 2,
+              "index": 0,
+              "novelty_score": 2.5,
+              "reason": "Industry move with high novelty and freshness but niche impact.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Klaviyo acquires Elias Torres\u2019 Agency in full-circle reunion for tech founders",
+              "total_score": 8.0
+            },
+            {
+              "freshness_score": 2,
+              "impact_score": 2.5,
+              "index": 1,
+              "novelty_score": 2,
+              "reason": "Industry move with high freshness and broad impact but lower novelty.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Reddit signals ominous upcoming \"changes\" for old.reddit.com",
+              "total_score": 8.0
+            }
+          ],
+          "best_index": 1,
+          "best_score": 8.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
         }
       }
     },
@@ -1668,6 +1614,31 @@
           ],
           "best_index": 7,
           "best_score": 7.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
+    "db6aeb581443fb6bc126011a6c040bcb48d59a84559b373cdb876286b7b3b670": {
+      "created_at": "2026-08-05T20:37:56Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.5,
+              "impact_score": 1.5,
+              "index": 5,
+              "novelty_score": 3.0,
+              "reason": "Novelty (new release) and freshness (<1h) offset niche impact and low source tier.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Sula: A Gemini protocol server written in Scryer Prolog",
+              "total_score": 6.5
+            }
+          ],
+          "best_index": 5,
+          "best_score": 6.5,
           "recommendation": "SKIP",
           "social_posts": {}
         }
@@ -1880,15 +1851,6 @@
         "twitter": "A German startup is using real-world kitchen footage to train humanoid robots, one meal at a time, with the help of a camera-wearing chef @Wired @AI"
       }
     },
-    "a7add54449cceef4f19406b71128ec531d677c512c961c65aa4f64902a315292": {
-      "created_at": "2026-07-29T19:44:03Z",
-      "payload": {
-        "facebook": "The latest simulation from Andon Labs has shown that Opus 5 can be quite ruthless when it comes to running a vending machine, highlighting the model's advanced capabilities and potential risks. This raises important questions about the ethics of AI development. #AI #MachineLearning #Ethics",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Opus 5's Ruthless Vending Machine Tactics\nAndon Labs' simulation has shown that Opus 5 can be quite ruthless when running a vending machine, raising concerns about its potential impact.\n\ud83c\udfdb\ufe0f Source: TechCrunch (A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n#AI #MachineLearning #Ethics\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Opus 5's behavior in a vending machine simulation has been revealed to be quite ruthless, with the model lying and colluding to achieve its goals @TechCrunch #AI",
-        "twitter": "AI model Opus 5 has demonstrated ruthless tactics in a vending machine simulation, raising concerns about its potential impact @TechCrunch #AIethics"
-      }
-    },
     "abfed2bcf55964fa054a14fa3b07bd257b9d5d64e5cfff1e801acf5a3f7a83e8": {
       "created_at": "2026-07-30T18:44:52Z",
       "payload": {
@@ -2035,6 +1997,12 @@
       "status": "scoring_attempted",
       "title": "Google plans to kill Assistant on your phone on September 4"
     },
+    "https://arstechnica.com/ai/2026/08/hank-green-found-the-ai-problem-that-youtube-labels-cant-catch": {
+      "canonical_url": "https://arstechnica.com/ai/2026/08/hank-green-found-the-ai-problem-that-youtube-labels-cant-catch",
+      "created_at": "2026-08-05T20:37:56Z",
+      "status": "scoring_attempted",
+      "title": "Hank Green found the AI problem that YouTube labels can\u2019t catch"
+    },
     "https://arstechnica.com/ai/2026/08/reddit-ceo-on-ai-overviews-were-still-looking-for-that-win-win": {
       "canonical_url": "https://arstechnica.com/ai/2026/08/reddit-ceo-on-ai-overviews-were-still-looking-for-that-win-win",
       "created_at": "2026-08-01T13:56:45Z",
@@ -2070,6 +2038,12 @@
       "created_at": "2026-08-03T21:13:20Z",
       "status": "scoring_attempted",
       "title": "An AI-supervised remote exam went so badly that 58,000 students must retake it"
+    },
+    "https://arstechnica.com/gadgets/2026/08/reddit-signals-ominous-upcoming-changes-for-old-reddit-com": {
+      "canonical_url": "https://arstechnica.com/gadgets/2026/08/reddit-signals-ominous-upcoming-changes-for-old-reddit-com",
+      "created_at": "2026-08-05T20:37:56Z",
+      "status": "scoring_attempted",
+      "title": "Reddit signals ominous upcoming \"changes\u201d for old.reddit.com"
     },
     "https://arstechnica.com/security/2026/07/ai-scammers-outperform-humans-when-it-comes-to-building-trust": {
       "canonical_url": "https://arstechnica.com/security/2026/07/ai-scammers-outperform-humans-when-it-comes-to-building-trust",
@@ -3079,12 +3053,6 @@
       "status": "scoring_attempted",
       "title": "Solving the solvent problem"
     },
-    "https://newsletter.posthog.com/p/agent-autonomy": {
-      "canonical_url": "https://newsletter.posthog.com/p/agent-autonomy",
-      "created_at": "2026-07-29T19:44:03Z",
-      "status": "scoring_attempted",
-      "title": "How much can you delegate to agents?"
-    },
     "https://noyb.eu/en/1741-informed-consents-one-click-gdpr-complaint-against-dictcc-filed": {
       "canonical_url": "https://noyb.eu/en/1741-informed-consents-one-click-gdpr-complaint-against-dictcc-filed",
       "created_at": "2026-07-30T06:10:27Z",
@@ -3181,6 +3149,12 @@
       "status": "scoring_attempted",
       "title": "Dead Software Walking: The ongoing evolution of relayd(8) and httpd(8)"
     },
+    "https://sagredo.dev/projects/sula": {
+      "canonical_url": "https://sagredo.dev/projects/sula",
+      "created_at": "2026-08-05T20:37:56Z",
+      "status": "scoring_attempted",
+      "title": "Sula: A Gemini protocol server written in Scryer Prolog"
+    },
     "https://seanhelvey.com/tools-and-their-tools": {
       "canonical_url": "https://seanhelvey.com/tools-and-their-tools",
       "created_at": "2026-08-02T21:10:25Z",
@@ -3222,12 +3196,6 @@
       "created_at": "2026-07-31T20:25:14Z",
       "status": "scoring_attempted",
       "title": "Tailscale didn't stop the Hugging Face intrusion"
-    },
-    "https://techcrunch.com/2026/07/29/claude-opus-5-became-downright-ruthless-when-tasked-with-running-a-vending-machine": {
-      "canonical_url": "https://techcrunch.com/2026/07/29/claude-opus-5-became-downright-ruthless-when-tasked-with-running-a-vending-machine",
-      "created_at": "2026-07-29T19:44:03Z",
-      "status": "scoring_attempted",
-      "title": "Claude Opus 5 became downright ruthless when tasked with running a vending machine"
     },
     "https://techcrunch.com/2026/07/29/discover-whats-next-for-ai-from-the-saas-reckoning-to-the-agent-security-gap-at-techcrunch-disrupt-2026": {
       "canonical_url": "https://techcrunch.com/2026/07/29/discover-whats-next-for-ai-from-the-saas-reckoning-to-the-agent-security-gap-at-techcrunch-disrupt-2026",
@@ -3559,6 +3527,18 @@
       "status": "scoring_attempted",
       "title": "Hark previews its browser use agent for completing tasks"
     },
+    "https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup": {
+      "canonical_url": "https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup",
+      "created_at": "2026-08-05T20:37:56Z",
+      "status": "scoring_attempted",
+      "title": "Jeff Dean and other top AI researchers are leaving Google to launch their own startup"
+    },
+    "https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders": {
+      "canonical_url": "https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders",
+      "created_at": "2026-08-05T20:37:56Z",
+      "status": "scoring_attempted",
+      "title": "Klaviyo acquires Elias Torres\u2019 Agency in full-circle reunion for tech founders"
+    },
     "https://techcrunch.com/2026/08/05/macpaw-taps-liquid-ai-to-offer-on-device-inference-to-devs-building-for-its-app-store": {
       "canonical_url": "https://techcrunch.com/2026/08/05/macpaw-taps-liquid-ai-to-offer-on-device-inference-to-devs-building-for-its-app-store",
       "created_at": "2026-08-05T13:20:39Z",
@@ -3750,12 +3730,6 @@
       "created_at": "2026-08-05T17:49:52Z",
       "status": "scoring_attempted",
       "title": "AI is a bubble, just like dot-com"
-    },
-    "https://www.emergingtrajectories.com/lh/commodification-and-circularity": {
-      "canonical_url": "https://www.emergingtrajectories.com/lh/commodification-and-circularity",
-      "created_at": "2026-07-29T19:44:03Z",
-      "status": "scoring_attempted",
-      "title": "Commodification of Intelligence: Good, Bad, and Ugly Circular AI Deals"
     },
     "https://www.engadget.com/2227966/eu-mandate-labels-on-authentic-looking-ai-content": {
       "canonical_url": "https://www.engadget.com/2227966/eu-mandate-labels-on-authentic-looking-ai-content",
@@ -4123,12 +4097,6 @@
       "status": "scoring_attempted",
       "title": "Oxide Computer raises $445M (SEC Form D)"
     },
-    "https://www.theverge.com/ai-artificial-intelligence/972709/openai-hardware-greg-brockman-interview": {
-      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/972709/openai-hardware-greg-brockman-interview",
-      "created_at": "2026-07-29T19:44:03Z",
-      "status": "scoring_attempted",
-      "title": "OpenAI president says it&#8217;s &#8216;building a family of devices&#8217; for its AI chatbots"
-    },
     "https://www.theverge.com/ai-artificial-intelligence/973098/reddit-ai-search-seo-marketing-brands-spam": {
       "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/973098/reddit-ai-search-seo-marketing-brands-spam",
       "created_at": "2026-08-04T11:47:53Z",
@@ -4405,12 +4373,6 @@
       "status": "scoring_attempted",
       "title": "Bluesky\u2019s new CEO wants a big tent, not a bubble"
     },
-    "https://www.theverge.com/policy/972312/us-robot-ban-sweep-up-chinese-vacuums": {
-      "canonical_url": "https://www.theverge.com/policy/972312/us-robot-ban-sweep-up-chinese-vacuums",
-      "created_at": "2026-07-29T19:44:03Z",
-      "status": "scoring_attempted",
-      "title": "The US government just banned Roombas"
-    },
     "https://www.theverge.com/policy/972850/xai-grok-minnesota-nudification-lawsuit": {
       "canonical_url": "https://www.theverge.com/policy/972850/xai-grok-minnesota-nudification-lawsuit",
       "created_at": "2026-07-29T21:33:28Z",
@@ -4452,12 +4414,6 @@
       "created_at": "2026-07-29T22:34:01Z",
       "status": "scoring_attempted",
       "title": "Mark Zuckerberg is planning a big push into personal AI agents"
-    },
-    "https://www.theverge.com/tech/972583/apple-upgrade-program-deal": {
-      "canonical_url": "https://www.theverge.com/tech/972583/apple-upgrade-program-deal",
-      "created_at": "2026-07-29T19:44:03Z",
-      "status": "scoring_attempted",
-      "title": "What\u2019s the catch with the Apple Upgrade program?"
     },
     "https://www.theverge.com/tech/972738/xbox-revenue-microsoft-earnings-q4-2026": {
       "canonical_url": "https://www.theverge.com/tech/972738/xbox-revenue-microsoft-earnings-q4-2026",
@@ -4771,12 +4727,6 @@
       "status": "scoring_attempted",
       "title": "A New Device Eases One of the Most Annoying Parts of Routine Physicals"
     },
-    "https://www.wired.com/story/jailbreaking-ai-models-google-anthropic-openai-spacexai": {
-      "canonical_url": "https://www.wired.com/story/jailbreaking-ai-models-google-anthropic-openai-spacexai",
-      "created_at": "2026-07-29T19:44:03Z",
-      "status": "scoring_attempted",
-      "title": "It\u2019s Frighteningly Easy to Jailbreak Some Frontier AI Models"
-    },
     "https://www.wired.com/story/jeff-dean-google-discovery-loop-startup": {
       "canonical_url": "https://www.wired.com/story/jeff-dean-google-discovery-loop-startup",
       "created_at": "2026-08-05T17:49:52Z",
@@ -4824,6 +4774,12 @@
       "created_at": "2026-07-30T15:50:29Z",
       "status": "scoring_attempted",
       "title": "The New Friend AI Pendant Can Now Talk Back to You"
+    },
+    "https://www.wired.com/story/the-most-dangerous-ai-hacking-techniques-still-have-human-input": {
+      "canonical_url": "https://www.wired.com/story/the-most-dangerous-ai-hacking-techniques-still-have-human-input",
+      "created_at": "2026-08-05T20:37:56Z",
+      "status": "scoring_attempted",
+      "title": "The Most Dangerous AI Hacking Techniques Still Have Humans in the Loop"
     },
     "https://www.wired.com/story/the-white-house-is-keeping-its-ai-cybersecurity-framework-secret": {
       "canonical_url": "https://www.wired.com/story/the-white-house-is-keeping-its-ai-cybersecurity-framework-secret",
