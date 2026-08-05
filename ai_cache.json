@@ -290,6 +290,56 @@
         }
       }
     },
+    "2377e7141c16190ecb58054205c4c2c638ac6f0562695bf351cc92324e584224": {
+      "created_at": "2026-08-05T03:37:00Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.5,
+              "impact_score": 0.5,
+              "index": 0,
+              "novelty_score": 0.2,
+              "reason": "Finance-focused article with low relevance to software engineers/AI researchers.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "After Losses, Retail Investors Flock to 3x Leverage as 2x Product Are Restricted",
+              "total_score": 2.7
+            }
+          ],
+          "best_index": 0,
+          "best_score": 2.7,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
+    "2ce093271de96c96354d30f352cd6f1dfc2c8dbed3c34c803b47ee4ac76e281f": {
+      "created_at": "2026-08-05T03:37:00Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 0.5,
+              "impact_score": 2.5,
+              "index": 1,
+              "novelty_score": 2.5,
+              "reason": "Opinion piece with no red flags but low novelty and impact.",
+              "red_flag": true,
+              "red_flag_reason": "opinion",
+              "source_score": 0.5,
+              "title": "Eight Myths on Software Engineering and GenAI",
+              "total_score": 6.0
+            }
+          ],
+          "best_index": 1,
+          "best_score": 6.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
     "37b0a8e5b0863255edaac207fe9f4300be37a1edbc1e2aaa3702707b885a8202": {
       "created_at": "2026-08-04T15:54:37Z",
       "payload": {
@@ -1776,6 +1826,31 @@
         }
       }
     },
+    "d990c2971a7645d360a759d872f4f27d3310b271c58b9a2c56d0211645067f54": {
+      "created_at": "2026-08-05T03:37:00Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.0,
+              "impact_score": 2.5,
+              "index": 7,
+              "novelty_score": 3.0,
+              "reason": "New release with broad developer impact but source tier C and 6h old.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Cloudflare Wallets: the programmable wallet for the agentic Internet",
+              "total_score": 7.0
+            }
+          ],
+          "best_index": 7,
+          "best_score": 7.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
     "dd3d0c8ef3c561d641448b4258c02bf0b00ca98fc7d339e02bca1f621e4fa86c": {
       "created_at": "2026-08-04T22:16:03Z",
       "payload": {
@@ -2172,12 +2247,6 @@
       "created_at": "2026-08-01T16:44:40Z",
       "status": "scoring_attempted",
       "title": "Explorative modeling: Train on the best of K guesses"
-    },
-    "https://andreadimatteo.com/md-to-html-compiler.html": {
-      "canonical_url": "https://andreadimatteo.com/md-to-html-compiler.html",
-      "created_at": "2026-07-29T02:12:16Z",
-      "status": "scoring_attempted",
-      "title": "Show HN: Learning Rust by writing a Markdown to HTML compiler"
     },
     "https://android-developers.googleblog.com/2026/07/google-play-age-signals-api-safer-experiences.html": {
       "canonical_url": "https://android-developers.googleblog.com/2026/07/google-play-age-signals-api-safer-experiences.html",
@@ -2935,6 +3004,12 @@
       "status": "scoring_attempted",
       "title": "The Billable Usage API: programmatic cost visibility for Cloudflare"
     },
+    "https://blog.cloudflare.com/wallets": {
+      "canonical_url": "https://blog.cloudflare.com/wallets",
+      "created_at": "2026-08-05T03:37:00Z",
+      "status": "scoring_attempted",
+      "title": "Cloudflare Wallets: the programmable wallet for the agentic Internet"
+    },
     "https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui": {
       "canonical_url": "https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui",
       "created_at": "2026-08-03T16:03:52Z",
@@ -3313,12 +3388,6 @@
       "status": "scoring_attempted",
       "title": "TokenTown: A visual way to understand how LLMs work"
     },
-    "https://learnvector.ai": {
-      "canonical_url": "https://learnvector.ai",
-      "created_at": "2026-07-29T02:12:16Z",
-      "status": "scoring_attempted",
-      "title": "LearnVector \u2013 Andrew Ng's AI company building one\u2011to\u2011one learning experiences"
-    },
     "https://lilianweng.github.io/posts/2026-07-04-harness": {
       "canonical_url": "https://lilianweng.github.io/posts/2026-07-04-harness",
       "created_at": "2026-08-04T09:24:04Z",
@@ -3523,6 +3592,12 @@
       "status": "scoring_attempted",
       "title": "Artificial Intelligence: Ars Notoria and the Promise of Instant Knowledge"
     },
+    "https://queue.acm.org/detail.cfm?id=3807963": {
+      "canonical_url": "https://queue.acm.org/detail.cfm?id=3807963",
+      "created_at": "2026-08-05T03:37:00Z",
+      "status": "scoring_attempted",
+      "title": "Eight Myths on Software Engineering and GenAI"
+    },
     "https://render.com/blog/infrastructure-patterns-for-agentic-applications": {
       "canonical_url": "https://render.com/blog/infrastructure-patterns-for-agentic-applications",
       "created_at": "2026-07-29T18:12:01Z",
@@ -3588,12 +3663,6 @@
       "created_at": "2026-07-29T05:32:39Z",
       "status": "scoring_attempted",
       "title": "More Tailscale tricks for your jailbroken Kindle"
-    },
-    "https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents": {
-      "canonical_url": "https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents",
-      "created_at": "2026-07-29T02:12:16Z",
-      "status": "scoring_attempted",
-      "title": "Cyera agrees to acquire Oasis Security for $1B to safeguard proliferating AI agents"
     },
     "https://techcrunch.com/2026/07/29/as-ai-content-floods-the-internet-pangram-raises-9m-to-detect-it": {
       "canonical_url": "https://techcrunch.com/2026/07/29/as-ai-content-floods-the-internet-pangram-raises-9m-to-detect-it",
@@ -4081,6 +4150,12 @@
       "status": "scoring_attempted",
       "title": "Zuckerberg details Meta\u2019s personal AI superintelligence strategy"
     },
+    "https://www.asiae.co.kr/en/article/2026080416131786841": {
+      "canonical_url": "https://www.asiae.co.kr/en/article/2026080416131786841",
+      "created_at": "2026-08-05T03:37:00Z",
+      "status": "scoring_attempted",
+      "title": "After Losses, Retail Investors Flock to 3x Leverage as 2x Product Are Restricted"
+    },
     "https://www.bloomberg.com/news/articles/2026-07-29/chatgpt-roblox-to-fall-under-strictest-eu-rules-for-platforms": {
       "canonical_url": "https://www.bloomberg.com/news/articles/2026-07-29/chatgpt-roblox-to-fall-under-strictest-eu-rules-for-platforms",
       "created_at": "2026-07-30T13:08:00Z",
@@ -4140,12 +4215,6 @@
       "created_at": "2026-08-02T20:04:15Z",
       "status": "scoring_attempted",
       "title": "'Crush this lady': how eBay harassment campaign led to $56M payout"
-    },
-    "https://www.hubble.md": {
-      "canonical_url": "https://www.hubble.md",
-      "created_at": "2026-07-29T02:12:16Z",
-      "status": "scoring_attempted",
-      "title": "Hubble: Open-source notetaking app for you and your agents"
     },
     "https://www.infoq.com/articles/securing-mcp-production-gateway": {
       "canonical_url": "https://www.infoq.com/articles/securing-mcp-production-gateway",
@@ -5100,12 +5169,6 @@
       "created_at": "2026-08-01T11:02:45Z",
       "status": "scoring_attempted",
       "title": "Nobody Knows if OpenAI\u2019s and Anthropic\u2019s AI Hacking Sprees Are Illegal"
-    },
-    "https://www.wired.com/story/openais-rogue-ai-agent-hacked-more-than-just-hugging-face": {
-      "canonical_url": "https://www.wired.com/story/openais-rogue-ai-agent-hacked-more-than-just-hugging-face",
-      "created_at": "2026-07-29T02:12:16Z",
-      "status": "scoring_attempted",
-      "title": "OpenAI\u2019s Rogue AI Agent Hacked More Than Just Hugging Face"
     },
     "https://www.wired.com/story/security-news-this-week-7-states-water-systems-hit-by-cyberattacks-likely-tied-to-iran": {
       "canonical_url": "https://www.wired.com/story/security-news-this-week-7-states-water-systems-hit-by-cyberattacks-likely-tied-to-iran",
