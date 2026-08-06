@@ -288,6 +288,31 @@
         }
       }
     },
+    "24d490f0a4ecef83a0c1642b246ec84b348a20680ab2b24960263d448659af24": {
+      "created_at": "2026-08-06T11:49:49Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 0.0,
+              "index": 0,
+              "novelty_score": 0.0,
+              "reason": "Title matches multiple red flags ('how to', 'guide to' implied) and is irrelevant to software engineers/AI researchers.",
+              "red_flag": true,
+              "red_flag_reason": "title contains 'how to' phrasing",
+              "source_score": 0.5,
+              "title": "How Americans View Capitalism, Socialism and Free Enterprise",
+              "total_score": 2.5
+            }
+          ],
+          "best_index": 0,
+          "best_score": 0.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
     "26b4a23fdb52e79d3859f34573674834f869420fc3ced40d53364daa865dc54e": {
       "created_at": "2026-08-05T21:53:10Z",
       "payload": {
@@ -1120,6 +1145,31 @@
         }
       }
     },
+    "7d64feb4bef67e86b558749931ecf8356f449b6ff473c41c04c6fb4c8bd32626": {
+      "created_at": "2026-08-06T11:49:49Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.5,
+              "impact_score": 2.5,
+              "index": 2,
+              "novelty_score": 2.5,
+              "reason": "Research presentation on Valkey architecture for low-latency AI workloads with niche but relevant impact.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1,
+              "title": "Presentation: From ms to \u03bcs: OSS Valkey Architecture Patterns for Modern AI",
+              "total_score": 7.5
+            }
+          ],
+          "best_index": 2,
+          "best_score": 7.5,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
     "8091db1a32ede8ea32e114089ec10b17069386883274ce328f2c8693ab237aa2": {
       "created_at": "2026-08-06T02:34:40Z",
       "payload": {
@@ -1168,6 +1218,38 @@
           "recommendation": "SKIP",
           "social_posts": {}
         }
+      }
+    },
+    "941e8f047fc7375fc61d117944afa3c04ab7d8baccb1c6ac8c6607d671e093e1": {
+      "created_at": "2026-08-06T11:49:49Z",
+      "payload": {
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2,
+              "impact_score": 2.5,
+              "index": 1,
+              "novelty_score": 2.5,
+              "reason": "Research-backed industry analysis on AI moderation limits with high impact and freshness.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "AI isn\u2019t enough to protect social media communities from AI",
+              "total_score": 8.5
+            }
+          ],
+          "best_index": 1,
+          "best_score": 8.5,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "A new Ars Technica piece makes a strong case that AI tools alone aren\u2019t sufficient to keep social media communities safe from AI-generated content. The article highlights why human moderation remains critical, even as AI scales. Link: https://arstechnica.com/gadgets/2026/08/ai-isnt-enough-to-protect-social-media-communities-from-ai/",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *AI isn\u2019t enough to protect social media communities from AI*\n\nArs Technica examines why human moderation remains critical even as AI tools scale to manage online communities.\n\n\ud83c\udfdb\ufe0f Source: Ars Technica (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://arstechnica.com/gadgets/2026/08/ai-isnt-enough-to-protect-social-media-communities-from-ai/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "Ars Technica\u2019s latest argues AI can\u2019t fully protect social media communities from AI-generated harm. Human oversight is still essential.\n\nhttps://arstechnica.com/gadgets/2026/08/ai-isnt-enough-to-protect-social-media-communities-from-ai/",
+            "twitter": "Ars Technica argues AI alone can\u2019t moderate social media communities effectively. Humans still need to step in.\n\nhttps://arstechnica.com/gadgets/2026/08/ai-isnt-enough-to-protect-social-media-communities-from-ai/"
+          }
+        },
+        "social_media_rules": []
       }
     },
     "9a32e6cd6cb516e75f216b7c53fd09baf89f1913ce76ac7f0679901a9b26988b": {
@@ -1427,31 +1509,6 @@
         }
       }
     },
-    "b65c5b5cc2f1398e4b4ee9aba221118ac6173a389a1eb9db362bef36200aea60": {
-      "created_at": "2026-08-05T11:38:24Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2,
-              "impact_score": 2,
-              "index": 1,
-              "novelty_score": 2.5,
-              "reason": "Industry move with high freshness and strong impact for niche but critical domain.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "AI makes weather prediction better. Can WindBorne make it lucrative?",
-              "total_score": 8.0
-            }
-          ],
-          "best_index": 1,
-          "best_score": 8.0,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
-      }
-    },
     "bd175fbb1e67b9bc2e50516c80dd06712565984c39144ec5499698bf27e1fdad": {
       "created_at": "2026-08-05T17:49:52Z",
       "payload": {
@@ -1707,31 +1764,6 @@
         }
       }
     },
-    "d7527ae006106579da51408bcf6202337e7b8bf46fb16f2ca5898acc0654caa5": {
-      "created_at": "2026-08-05T11:38:24Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2,
-              "impact_score": 2.5,
-              "index": 0,
-              "novelty_score": 2,
-              "reason": "Industry move with broad impact on Android users but not a research breakthrough.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "Google Assistant will disappear from your phone next month",
-              "total_score": 8
-            }
-          ],
-          "best_index": 0,
-          "best_score": 8,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
-      }
-    },
     "da2025792a48142755ee9e6a0a8bafa2329c24a06cbc2484df91da598debadab": {
       "created_at": "2026-08-05T21:53:10Z",
       "payload": {
@@ -1787,33 +1819,28 @@
         }
       }
     },
-    "f2085e442ad6088b3a65378085295e9df971fae2000cf8ca3a2c242914469953": {
-      "created_at": "2026-08-05T11:38:24Z",
+    "f1527009debecdc96b9668db07b611e0e5d21c0a38cad4cbe6fd594dbf894452": {
+      "created_at": "2026-08-06T11:49:49Z",
       "payload": {
         "response_schema": {
           "articles": [
             {
-              "freshness_score": 2,
-              "impact_score": 3,
-              "index": 2,
+              "freshness_score": 0.5,
+              "impact_score": 2.5,
+              "index": 6,
               "novelty_score": 2.5,
-              "reason": "Industry move with high impact and freshness, no red flags detected.",
+              "reason": "Research/industry move with moderate impact on Android developers, but source is Tier C and freshness is low.",
               "red_flag": false,
               "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "Trump\u2019s AI testing plan is limited and vague",
-              "total_score": 9
+              "source_score": 0.5,
+              "title": "On non-rooted Android 17, ADB uninstall of system apps fails",
+              "total_score": 6.0
             }
           ],
-          "best_index": 2,
-          "best_score": 9,
-          "recommendation": "POST_NOW",
-          "social_posts": {
-            "facebook": "The Trump administration\u2019s AI testing plan deliberately omits open models, according to Axios. The voluntary guidelines target closed systems only, raising questions about how they\u2019ll address the majority of AI tools in use today. Link: https://www.theverge.com/ai-artificial-intelligence/975509/white-house-ai-framework-open-models-excluded",
-            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Trump\u2019s AI testing plan is limited and vague*\n\nThe White House\u2019s new AI testing framework excludes open models entirely. Axios reports the voluntary guidelines focus only on closed systems, leaving a critical gap in oversight.\n\n\ud83c\udfdb\ufe0f Source: The Verge (Tier A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9/10\n\n\ud83d\udd17 https://www.theverge.com/ai-artificial-intelligence/975509/white-house-ai-framework-open-models-excluded\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-            "threads": "White House AI testing framework skips open models entirely. Axios reports the voluntary guidelines focus solely on closed systems, leaving a major blind spot in oversight. The move contradicts calls for broader AI safety measures.\n\nhttps://www.theverge.com/ai-artificial-intelligence/975509/white-house-ai-framework-open-models-excluded",
-            "twitter": "The White House\u2019s new AI testing framework excludes open models entirely. Axios reports voluntary guidelines focus only on closed systems, leaving a critical gap in oversight.\n\nhttps://www.theverge.com/ai-artificial-intelligence/975509/white-house-ai-framework-open-models-excluded"
-          }
+          "best_index": 6,
+          "best_score": 6.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
         }
       }
     },
@@ -1918,15 +1945,6 @@
         "twitter": "Univ\u00e9 is transforming its workforce with AI by leveraging ChatGPT Enterprise @OpenAI #AIadoption"
       }
     },
-    "b9ef049d94cb37d80fb07ae73b68a5d804630868068eea5394bcb063552b9be3": {
-      "created_at": "2026-07-30T11:28:52Z",
-      "payload": {
-        "facebook": "New research reveals that AI chatbots can create exploitable trust more effectively than humans. This study highlights the potential risks of AI-powered scams and the need for increased awareness. #AItrust #ArtificialIntelligence #Cybersecurity",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 AI chatbots are outpacing humans in building exploitable trust\nA recent study pitted a person against a Claude agent and found that the AI chatbot was more effective at creating exploitable trust with others.\n\ud83c\udfdb\ufe0f Source: Wired AI (A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9/10\n#AItrust #ArtificialIntelligence #Cybersecurity\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Researchers found that AI chatbots can build exploitable trust more effectively than humans, a concerning discovery with significant implications @Wired, #AItrust",
-        "twitter": "AI chatbots are outpacing humans in building exploitable trust, according to new research @Wired, #AItrust"
-      }
-    },
     "d4d2a7b52b896a2bfbc21d7f89861c60467397a08664f3d4dca00bf3bba39d8a": {
       "created_at": "2026-07-30T21:20:41Z",
       "payload": {
@@ -1973,12 +1991,6 @@
       "created_at": "2026-08-01T16:44:40Z",
       "status": "scoring_attempted",
       "title": "Explorative modeling: Train on the best of K guesses"
-    },
-    "https://android-developers.googleblog.com/2026/07/google-play-age-signals-api-safer-experiences.html": {
-      "canonical_url": "https://android-developers.googleblog.com/2026/07/google-play-age-signals-api-safer-experiences.html",
-      "created_at": "2026-07-30T11:28:52Z",
-      "status": "scoring_attempted",
-      "title": "Google will expand age checks on Android worldwide till the end of the year"
     },
     "https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code": {
       "canonical_url": "https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code",
@@ -2063,6 +2075,12 @@
       "created_at": "2026-08-03T21:13:20Z",
       "status": "scoring_attempted",
       "title": "An AI-supervised remote exam went so badly that 58,000 students must retake it"
+    },
+    "https://arstechnica.com/gadgets/2026/08/ai-isnt-enough-to-protect-social-media-communities-from-ai": {
+      "canonical_url": "https://arstechnica.com/gadgets/2026/08/ai-isnt-enough-to-protect-social-media-communities-from-ai",
+      "created_at": "2026-08-06T11:49:49Z",
+      "status": "scoring_attempted",
+      "title": "AI isn\u2019t enough to protect social media communities from AI"
     },
     "https://arstechnica.com/gadgets/2026/08/reddit-signals-ominous-upcoming-changes-for-old-reddit-com": {
       "canonical_url": "https://arstechnica.com/gadgets/2026/08/reddit-signals-ominous-upcoming-changes-for-old-reddit-com",
@@ -2682,12 +2700,6 @@
       "status": "scoring_attempted",
       "title": "Gemini Robotics 2 brings whole body intelligence to robots"
     },
-    "https://docs.carolinacloud.io/organizations/prepaid-interest": {
-      "canonical_url": "https://docs.carolinacloud.io/organizations/prepaid-interest",
-      "created_at": "2026-07-30T11:28:52Z",
-      "status": "scoring_attempted",
-      "title": "Carolina Cloud pays SOFR on unused prepaid credits"
-    },
     "https://economist.com/europe/2026/07/31/a-migrant-surge-tests-spains-open-policies": {
       "canonical_url": "https://economist.com/europe/2026/07/31/a-migrant-surge-tests-spains-open-policies",
       "created_at": "2026-08-01T07:25:24Z",
@@ -2778,11 +2790,11 @@
       "status": "scoring_attempted",
       "title": "MariaDB: Promote getting to 10k GitHub stars in server log and client prompt"
     },
-    "https://github.com/YoanWai/agent-manager": {
-      "canonical_url": "https://github.com/YoanWai/agent-manager",
-      "created_at": "2026-07-30T11:28:52Z",
+    "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/issues/1426": {
+      "canonical_url": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/issues/1426",
+      "created_at": "2026-08-06T11:49:49Z",
       "status": "scoring_attempted",
-      "title": "Agent-Manager: A Tmux TUI for Running Claude Code, Codex and OpenCode"
+      "title": "On non-rooted Android 17, ADB uninstall of system apps fails"
     },
     "https://github.com/asamassekou10/ship-safe": {
       "canonical_url": "https://github.com/asamassekou10/ship-safe",
@@ -2861,12 +2873,6 @@
       "created_at": "2026-08-01T17:49:54Z",
       "status": "scoring_attempted",
       "title": "Toast IDE Gets Markdown Spell Checking"
-    },
-    "https://github.com/tailscale/tailscale/issues/9284": {
-      "canonical_url": "https://github.com/tailscale/tailscale/issues/9284",
-      "created_at": "2026-07-30T11:28:52Z",
-      "status": "scoring_attempted",
-      "title": "Tailscale with Mullvad leaks your DNS"
     },
     "https://github.com/tikalk/adlc-team-skills": {
       "canonical_url": "https://github.com/tikalk/adlc-team-skills",
@@ -3029,6 +3035,12 @@
       "created_at": "2026-08-02T02:25:16Z",
       "status": "scoring_attempted",
       "title": "AI opens new era in cognitive studies of wild primates"
+    },
+    "https://news.gallup.com/poll/713144/americans-view-capitalism-socialism-free-enterprise.aspx": {
+      "canonical_url": "https://news.gallup.com/poll/713144/americans-view-capitalism-socialism-free-enterprise.aspx",
+      "created_at": "2026-08-06T11:49:49Z",
+      "status": "scoring_attempted",
+      "title": "How Americans View Capitalism, Socialism and Free Enterprise"
     },
     "https://news.microsoft.com/signal/articles/teaching-ai-to-speak-the-language-of-pathology": {
       "canonical_url": "https://news.microsoft.com/signal/articles/teaching-ai-to-speak-the-language-of-pathology",
@@ -3624,23 +3636,11 @@
       "status": "scoring_attempted",
       "title": "Why biological data matters more in AI drug discovery"
     },
-    "https://www.artificialintelligence-news.com/news/how-ai-is-changing-linux-vps-security-for-businesses": {
-      "canonical_url": "https://www.artificialintelligence-news.com/news/how-ai-is-changing-linux-vps-security-for-businesses",
-      "created_at": "2026-07-30T11:28:52Z",
-      "status": "scoring_attempted",
-      "title": "How AI is Changing Linux VPS Security for Businesses"
-    },
     "https://www.artificialintelligence-news.com/news/openai-aligns-safety-practices-with-eu-ai-act-gpai-code": {
       "canonical_url": "https://www.artificialintelligence-news.com/news/openai-aligns-safety-practices-with-eu-ai-act-gpai-code",
       "created_at": "2026-07-31T15:36:29Z",
       "status": "scoring_attempted",
       "title": "OpenAI aligns safety practices with EU AI Act\u2019s GPAI Code"
-    },
-    "https://www.artificialintelligence-news.com/news/zuckerberg-details-meta-personal-ai-superintelligence-strategy": {
-      "canonical_url": "https://www.artificialintelligence-news.com/news/zuckerberg-details-meta-personal-ai-superintelligence-strategy",
-      "created_at": "2026-07-30T11:28:52Z",
-      "status": "scoring_attempted",
-      "title": "Zuckerberg details Meta\u2019s personal AI superintelligence strategy"
     },
     "https://www.asiae.co.kr/en/article/2026080416131786841": {
       "canonical_url": "https://www.asiae.co.kr/en/article/2026080416131786841",
@@ -3876,6 +3876,12 @@
       "status": "scoring_attempted",
       "title": "Presentation: Microservices Platforms: When Team Topologies Meets Microservices Patterns"
     },
+    "https://www.infoq.com/presentations/valkey-architecture-patterns": {
+      "canonical_url": "https://www.infoq.com/presentations/valkey-architecture-patterns",
+      "created_at": "2026-08-06T11:49:49Z",
+      "status": "scoring_attempted",
+      "title": "Presentation: From ms to \u00b5s: OSS Valkey Architecture Patterns for Modern AI"
+    },
     "https://www.iowaattorneygeneral.gov/newsroom/attorney-general-brenna-bird-leads-coalition-demanding-transparency-from-openai-after-ai-breach-and": {
       "canonical_url": "https://www.iowaattorneygeneral.gov/newsroom/attorney-general-brenna-bird-leads-coalition-demanding-transparency-from-openai-after-ai-breach-and",
       "created_at": "2026-08-05T13:20:39Z",
@@ -3893,12 +3899,6 @@
       "created_at": "2026-07-31T06:40:34Z",
       "status": "scoring_attempted",
       "title": "PolyAI Releases Dialog-RSN-1: An Audio-Native Dialog Model That Fuses Turn-Taking, Speech Recognition, Function Calling, And Response"
-    },
-    "https://www.marktechpost.com/2026/07/30/tencent-open-sources-angelspec-a-unified-training-framework-for-mtp-and-block-parallel-speculative-decoding-on-hy3-models": {
-      "canonical_url": "https://www.marktechpost.com/2026/07/30/tencent-open-sources-angelspec-a-unified-training-framework-for-mtp-and-block-parallel-speculative-decoding-on-hy3-models",
-      "created_at": "2026-07-30T11:28:52Z",
-      "status": "scoring_attempted",
-      "title": "Tencent Open-Sources AngelSpec: A Unified Training Framework for MTP and Block-Parallel Speculative Decoding on Hy3 Models"
     },
     "https://www.marktechpost.com/2026/07/31/deepseek-upgrades-deepseek-v4-flash-0731-with-major-agentic-and-coding-gains": {
       "canonical_url": "https://www.marktechpost.com/2026/07/31/deepseek-upgrades-deepseek-v4-flash-0731-with-major-agentic-and-coding-gains",
@@ -4590,12 +4590,6 @@
       "status": "scoring_attempted",
       "title": "The AI Notetaker Has Been Invited to All the Meetings"
     },
-    "https://www.wired.com/story/ai-scammers-are-better-at-building-trust-than-humans": {
-      "canonical_url": "https://www.wired.com/story/ai-scammers-are-better-at-building-trust-than-humans",
-      "created_at": "2026-07-30T11:28:52Z",
-      "status": "scoring_attempted",
-      "title": "AI Scammers Are Better at Building Trust Than Humans"
-    },
     "https://www.wired.com/story/ai-slop-melodramas-are-taking-over-x-and-their-creators-are-cashing-in": {
       "canonical_url": "https://www.wired.com/story/ai-slop-melodramas-are-taking-over-x-and-their-creators-are-cashing-in",
       "created_at": "2026-07-31T15:36:29Z",
@@ -4655,12 +4649,6 @@
       "created_at": "2026-08-04T11:47:53Z",
       "status": "scoring_attempted",
       "title": "How Data Centers Broke American Politics"
-    },
-    "https://www.wired.com/story/how-linkedin-is-keeping-its-compute-capacity-flat": {
-      "canonical_url": "https://www.wired.com/story/how-linkedin-is-keeping-its-compute-capacity-flat",
-      "created_at": "2026-07-30T11:28:52Z",
-      "status": "scoring_attempted",
-      "title": "LinkedIn Won\u2019t Be Expanding Its Data Centers in the Next Year"
     },
     "https://www.wired.com/story/how-one-startup-built-a-mostly-china-free-robot": {
       "canonical_url": "https://www.wired.com/story/how-one-startup-built-a-mostly-china-free-robot",
