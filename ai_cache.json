@@ -104,6 +104,60 @@
         }
       }
     },
+    "0c7aed08b999e93865d4a667051a63141a316815cc11e0fa2623d055b81af2a6": {
+      "created_at": "2026-08-06T13:24:13Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2,
+              "impact_score": 2,
+              "index": 3,
+              "novelty_score": 2.5,
+              "reason": "Startup funding announcement with niche but broad impact on AI-driven e-commerce.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Ex-Spotify employees raise $10M to bring the AI behind its recommendations to e-commerce",
+              "total_score": 8.0
+            },
+            {
+              "freshness_score": 2,
+              "impact_score": 2.5,
+              "index": 4,
+              "novelty_score": 2.5,
+              "reason": "Major cloud partnership for AI research infrastructure with high industry impact.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Exclusive: Mirendil inks $100M+ Google Cloud deal to scale self-improving AI",
+              "total_score": 8.5
+            },
+            {
+              "freshness_score": 1.5,
+              "impact_score": 2.5,
+              "index": 5,
+              "novelty_score": 3,
+              "reason": "New AI feature in a widely used consumer app with broad developer implications.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "You can now ask Google Maps\u2019 AI to order food for you",
+              "total_score": 8.5
+            }
+          ],
+          "best_index": 5,
+          "best_score": 8.5,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "Google Maps is getting smarter. Its AI-powered \"Ask Maps\" feature can now order food, find hotels, and tailor suggestions based on your existing plans. The update reflects broader trends in AI-driven personalization.\n\nLink: https://www.theverge.com/tech/976079/google-ask-maps-food-ordering-personal-intelligence",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *You can now ask Google Maps\u2019 AI to order food for you*\n\nGoogle Maps\u2019 \"Ask Maps\" tool now supports personalized, conversational requests like ordering food, finding hotels, and adapting suggestions based on your existing plans.\n\n\ud83c\udfdb\ufe0f Source: The Verge (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/tech/976079/google-ask-maps-food-ordering-personal-intelligence\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "Google Maps\u2019 AI can now handle tasks beyond navigation. The \"Ask Maps\" tool lets you order food, book hotels, and get suggestions that adapt to your schedule\u2014all through conversational prompts.\n\nhttps://www.theverge.com/tech/976079/google-ask-maps-food-ordering-personal-intelligence",
+            "twitter": "Google Maps\u2019 AI can now order food for you. The \"Ask Maps\" tool expands to handle personalized, conversational requests like finding hotels or planning around your schedule.\n\nhttps://www.theverge.com/tech/976079/google-ask-maps-food-ordering-personal-intelligence"
+          }
+        }
+      }
+    },
     "117a80791d95abbc08ba6655628cd7b6e0e3a459f1b5ba4cc5f390bd5d70cd11": {
       "created_at": "2026-08-06T02:34:40Z",
       "payload": {
@@ -263,31 +317,6 @@
         }
       }
     },
-    "21e85db4e83db29c440537361d6c43a4fee16b39c197965cb62d1459b48b49c9": {
-      "created_at": "2026-08-05T13:20:39Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1,
-              "impact_score": 2.5,
-              "index": 6,
-              "novelty_score": 2.5,
-              "reason": "Opinion piece lacks novelty and freshness, scoring below threshold.",
-              "red_flag": true,
-              "red_flag_reason": "opinion",
-              "source_score": 0.5,
-              "title": "Position: LLMs Can't Jump",
-              "total_score": 6.5
-            }
-          ],
-          "best_index": 6,
-          "best_score": 6.5,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
-      }
-    },
     "24d490f0a4ecef83a0c1642b246ec84b348a20680ab2b24960263d448659af24": {
       "created_at": "2026-08-06T11:49:49Z",
       "payload": {
@@ -339,6 +368,102 @@
             "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Meta AI Releases Muse Code (Beta): A Terminal Coding Agent Powered by the New Muse Spark 1.2 Model*\n\nMeta Superintelligence Labs released Muse Code, a terminal coding agent in beta that plans changes, writes code, and validates results across large repositories. Async background agents stay active for the whole session instead of spawning per task.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (Tier A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/08/05/meta-superintelligence-labs-releases-muse-code/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
             "threads": "Meta\u2019s new Muse Code is a terminal AI agent that plans, writes, and validates code across large repos while staying active in the background. It\u2019s powered by the Muse Spark 1.2 model and currently in beta.\n\nhttps://www.marktechpost.com/2026/08/05/meta-superintelligence-labs-releases-muse-code/",
             "twitter": "Meta just dropped Muse Code\u2014a terminal AI agent that plans, writes, and validates code across large repos in the background. Powered by the new Muse Spark 1.2 model.\n\nhttps://www.marktechpost.com/2026/08/05/meta-superintelligence-labs-releases-muse-code/"
+          }
+        }
+      }
+    },
+    "27e5179a2ace2c5cc0bf0cbc6bfbe6c8531cd0574ce94b25074bc4d884c3415c": {
+      "created_at": "2026-08-06T13:24:13Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.5,
+              "impact_score": 1.5,
+              "index": 8,
+              "novelty_score": 2.0,
+              "reason": "Industry move with significant funding and growth metrics, but niche impact.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Omilia raises $67M to scale its customer support platform",
+              "total_score": 5.0
+            },
+            {
+              "freshness_score": 1.5,
+              "impact_score": 2.5,
+              "index": 9,
+              "novelty_score": 2.5,
+              "reason": "Research with high impact on AI safety but lower-tier source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Humans missed 1 in 3 threats approving AI agent commands across 40k game runs",
+              "total_score": 7.0
+            }
+          ],
+          "best_index": 9,
+          "best_score": 7.0,
+          "recommendation": "SKIP",
+          "social_posts": {
+            "facebook": "",
+            "telegram": "",
+            "threads": "",
+            "twitter": ""
+          }
+        }
+      }
+    },
+    "2ec41c886b88f70fa9ef224a4afc38b3bc02c993a82c3d248a3ca4965e2b74e8": {
+      "created_at": "2026-08-06T13:24:13Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 0.5,
+              "index": 0,
+              "novelty_score": 0.5,
+              "reason": "Title reads like opinion content, not a factual report.",
+              "red_flag": true,
+              "red_flag_reason": "opinion-like title",
+              "source_score": 1.5,
+              "title": "AI bots started a religion \u2014 humans immediately followed",
+              "total_score": 4.5
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 1.5,
+              "index": 1,
+              "novelty_score": 1.5,
+              "reason": "Title implies subjective review or tutorial, triggering red flag.",
+              "red_flag": true,
+              "red_flag_reason": "review/tutorial-like title",
+              "source_score": 1.5,
+              "title": "Viture\u2019s cheapest AR glasses have the sharpest image clarity I\u2019ve seen yet",
+              "total_score": 6.5
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 1.5,
+              "index": 2,
+              "novelty_score": 2.0,
+              "reason": "Industry move with broad but not universal impact.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Ford\u2019s first ultra-cheap EV is called Fathom, a full-featured truck for $28,350",
+              "total_score": 7.0
+            }
+          ],
+          "best_index": 2,
+          "best_score": 7.0,
+          "recommendation": "SKIP",
+          "social_posts": {
+            "facebook": "",
+            "telegram": "",
+            "threads": "",
+            "twitter": ""
           }
         }
       }
@@ -406,6 +531,48 @@
             "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Meta launches Muse Code, an AI agent for large code bases*\n\nMeta\u2019s new Muse Code is an AI agent designed to handle complex tasks across large, interconnected codebases. Early benchmarks suggest it reduces manual refactoring time by 40% in monorepos.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
             "threads": "Meta\u2019s Muse Code is an AI agent that targets large, complex codebases. It\u2019s not just another autocomplete tool\u2014it\u2019s built to refactor and navigate sprawling monorepos with minimal human input.\n\nhttps://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/",
             "twitter": "Meta just dropped Muse Code, an AI agent built to navigate and modify sprawling codebases. Early tests show it cuts manual refactoring time by 40% in large monorepos.\n\nhttps://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/"
+          }
+        }
+      }
+    },
+    "41fae2e8ff1775f19231db17dbd6fd285d9b9bbcfc2744082f207b19f004ec62": {
+      "created_at": "2026-08-06T13:24:13Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.5,
+              "index": 6,
+              "novelty_score": 3.0,
+              "reason": "New release with broad impact on all users, fresh and from a Tier A source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Google Maps adds agentic features, including food ordering and hotel bookings",
+              "total_score": 9.0
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 1.5,
+              "index": 7,
+              "novelty_score": 2.0,
+              "reason": "Industry move with niche gaming impact, fresh but lower novelty.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "GTA VI is getting an \u2018extended look\u2019 at the end of August",
+              "total_score": 7.0
+            }
+          ],
+          "best_index": 6,
+          "best_score": 9.0,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "Google Maps is evolving beyond navigation. The app now lets you order food and book hotels without leaving the interface. It\u2019s a step toward turning Maps into a full-service assistant.\n\nLink: https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings/",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Google Maps adds agentic features, including food ordering and hotel bookings*\n\nGoogle Maps now lets users order food and book hotels directly in the app, moving beyond navigation toward a full-service assistant.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "Google Maps added agentic features\u2014food ordering and hotel bookings\u2014directly in the app. It\u2019s a quiet but significant shift toward making Maps a real-world assistant.\n\nhttps://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings/",
+            "twitter": "Google Maps just got a major upgrade\u2014now you can order food and book hotels directly from the app. No more switching between tabs.\n\nhttps://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings/"
           }
         }
       }
@@ -1048,31 +1215,6 @@
         "social_media_rules": []
       }
     },
-    "7189464edd44de360d9d6af2af45e2c8aa7fbce3412843c05b394133cf2a758e": {
-      "created_at": "2026-08-05T13:20:39Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2,
-              "impact_score": 1.5,
-              "index": 4,
-              "novelty_score": 2.5,
-              "reason": "Industry move with niche impact (creator economy) but fresh and from Tier A source.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "Disney gives TikTok creators official access to Marvel, Star Wars, and Pixar characters",
-              "total_score": 7.5
-            }
-          ],
-          "best_index": 4,
-          "best_score": 7.5,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
-      }
-    },
     "764bf867cd1ae6f64894d9a54e1b49a77cc874852763d9cfb3e83efe08c23c83": {
       "created_at": "2026-08-05T19:06:40Z",
       "payload": {
@@ -1252,46 +1394,6 @@
         "social_media_rules": []
       }
     },
-    "9a32e6cd6cb516e75f216b7c53fd09baf89f1913ce76ac7f0679901a9b26988b": {
-      "created_at": "2026-08-05T13:20:39Z",
-      "payload": {
-        "candidates": [],
-        "prompt_version": "cerebras-scoring-v1",
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2,
-              "impact_score": 2.5,
-              "index": 0,
-              "novelty_score": 2.5,
-              "reason": "Government coalition demands action from OpenAI; high impact but low source tier.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Iowa et al asks OpenAI to keep their bots sandboxed",
-              "total_score": 7.5
-            },
-            {
-              "freshness_score": 2,
-              "impact_score": 2.5,
-              "index": 1,
-              "novelty_score": 3,
-              "reason": "New industry move with fresh data; high novelty and impact but low source tier.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "TIME Is Serving AI Bots a Different Website, with Ads Built In",
-              "total_score": 8
-            }
-          ],
-          "best_index": 1,
-          "best_score": 8,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        },
-        "social_media_rules": []
-      }
-    },
     "a67032d292c2cbb798258a0300258fc03b5fdd885bda4dcaa090d72f9dca5d2a": {
       "created_at": "2026-08-05T19:06:40Z",
       "payload": {
@@ -1464,48 +1566,6 @@
           "best_score": 8,
           "recommendation": "SKIP",
           "social_posts": {}
-        }
-      }
-    },
-    "b319ea3e3958b10ef1bfa7132d71ef8671f58fe0039637ffe9448056e88f6876": {
-      "created_at": "2026-08-05T13:20:39Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2,
-              "impact_score": 2.5,
-              "index": 2,
-              "novelty_score": 2.5,
-              "reason": "New industry move with high relevance for developers and freshness under 1 hour.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "MacPaw taps Liquid AI to offer on-device inference to devs building for its app store",
-              "total_score": 8.5
-            },
-            {
-              "freshness_score": 1.5,
-              "impact_score": 1.5,
-              "index": 3,
-              "novelty_score": 2.5,
-              "reason": "Research article with niche impact and low-tier source.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Why the Legendary Erd\u0151s Problems Are Falling to AI",
-              "total_score": 6
-            }
-          ],
-          "best_index": 2,
-          "best_score": 8.5,
-          "recommendation": "POST_NOW",
-          "social_posts": {
-            "facebook": "MacPaw is integrating Liquid AI\u2019s models to enable on-device inference for developers building apps in its store. This move could shift how AI assistants process data securely and efficiently, reducing reliance on cloud services.\n\nLink: https://techcrunch.com/2026/08/05/macpaw-taps-liquid-ai-to-offer-on-device-inference-to-devs-building-for-its-app-store/",
-            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *MacPaw taps Liquid AI to offer on-device inference to devs building for its app store*\n\nMacPaw is integrating Liquid AI\u2019s models to enable on-device inference for developers building apps in its store. This could reduce cloud dependency and improve data privacy for end users.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/08/05/macpaw-taps-liquid-ai-to-offer-on-device-inference-to-devs-building-for-its-app-store/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-            "threads": "MacPaw and Liquid AI just teamed up to bring on-device inference to developers using its app store. Early implications suggest a big step toward privacy-focused AI tools.\n\nhttps://techcrunch.com/2026/08/05/macpaw-taps-liquid-ai-to-offer-on-device-inference-to-devs-building-for-its-app-store/",
-            "twitter": "MacPaw just partnered with Liquid AI to bring on-device inference to its app store developers. This could redefine how AI assistants handle sensitive data locally.\n\nhttps://techcrunch.com/2026/08/05/macpaw-taps-liquid-ai-to-offer-on-device-inference-to-devs-building-for-its-app-store/"
-          }
         }
       }
     },
@@ -2964,12 +3024,6 @@
       "status": "scoring_attempted",
       "title": "Harness Engineering for Self-Improvement"
     },
-    "https://lwn.net/Articles/1086041": {
-      "canonical_url": "https://lwn.net/Articles/1086041",
-      "created_at": "2026-07-30T13:08:00Z",
-      "status": "scoring_attempted",
-      "title": "GCC steering committee announces AI policy"
-    },
     "https://manifest.build/blog/why-we-deprecated-our-llm-router": {
       "canonical_url": "https://manifest.build/blog/why-we-deprecated-our-llm-router",
       "created_at": "2026-07-31T18:59:27Z",
@@ -3167,6 +3221,12 @@
       "created_at": "2026-08-05T20:37:56Z",
       "status": "scoring_attempted",
       "title": "Sula: A Gemini protocol server written in Scryer Prolog"
+    },
+    "https://scalex.dev/blog/ai-agent-permissions-stats": {
+      "canonical_url": "https://scalex.dev/blog/ai-agent-permissions-stats",
+      "created_at": "2026-08-06T13:24:13Z",
+      "status": "scoring_attempted",
+      "title": "Humans missed 1 in 3 threats approving AI agent commands across 40k game runs"
     },
     "https://seanhelvey.com/tools-and-their-tools": {
       "canonical_url": "https://seanhelvey.com/tools-and-their-tools",
@@ -3528,6 +3588,30 @@
       "status": "scoring_attempted",
       "title": "TechCrunch Disrupt 2026\u2019s Real World AI Stage features robots, automated factories, and extinct animals"
     },
+    "https://techcrunch.com/2026/08/06/ex-spotify-employees-raise-10m-to-bring-the-ai-behind-its-recommendations-to-e-commerce": {
+      "canonical_url": "https://techcrunch.com/2026/08/06/ex-spotify-employees-raise-10m-to-bring-the-ai-behind-its-recommendations-to-e-commerce",
+      "created_at": "2026-08-06T13:24:13Z",
+      "status": "scoring_attempted",
+      "title": "Ex-Spotify employees raise $10M to bring the AI behind its recommendations to e-commerce"
+    },
+    "https://techcrunch.com/2026/08/06/exclusive-mirendil-inks-100m-google-cloud-deal-to-scale-self-improving-ai": {
+      "canonical_url": "https://techcrunch.com/2026/08/06/exclusive-mirendil-inks-100m-google-cloud-deal-to-scale-self-improving-ai",
+      "created_at": "2026-08-06T13:24:13Z",
+      "status": "scoring_attempted",
+      "title": "Exclusive: Mirendil inks $100M+ Google Cloud deal to scale self-improving AI"
+    },
+    "https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings": {
+      "canonical_url": "https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings",
+      "created_at": "2026-08-06T13:24:13Z",
+      "status": "scoring_attempted",
+      "title": "Google Maps adds agentic features, including food ordering and hotel bookings"
+    },
+    "https://techcrunch.com/2026/08/06/omilia-raises-67m-to-scale-its-customer-support-platform": {
+      "canonical_url": "https://techcrunch.com/2026/08/06/omilia-raises-67m-to-scale-its-customer-support-platform",
+      "created_at": "2026-08-06T13:24:13Z",
+      "status": "scoring_attempted",
+      "title": "Omilia raises $67M to scale its customer support platform"
+    },
     "https://techcrunch.com/podcast/ai-labs-want-to-pump-the-brakes-but-amazon-and-spacex-are-still-blasting-off": {
       "canonical_url": "https://techcrunch.com/podcast/ai-labs-want-to-pump-the-brakes-but-amazon-and-spacex-are-still-blasting-off",
       "created_at": "2026-07-31T17:48:59Z",
@@ -3660,12 +3744,6 @@
       "status": "scoring_attempted",
       "title": "LLMs won't break symmetric crypto"
     },
-    "https://www.bloomberg.com/news/articles/2026-07-29/chatgpt-roblox-to-fall-under-strictest-eu-rules-for-platforms": {
-      "canonical_url": "https://www.bloomberg.com/news/articles/2026-07-29/chatgpt-roblox-to-fall-under-strictest-eu-rules-for-platforms",
-      "created_at": "2026-07-30T13:08:00Z",
-      "status": "scoring_attempted",
-      "title": "ChatGPT, Roblox to Fall Under Strictest EU Rules for Platforms"
-    },
     "https://www.bloomberg.com/news/articles/2026-08-05/microsoft-s-ai-sales-mostly-come-from-openai-disclosures-show": {
       "canonical_url": "https://www.bloomberg.com/news/articles/2026-08-05/microsoft-s-ai-sales-mostly-come-from-openai-disclosures-show",
       "created_at": "2026-08-05T19:06:40Z",
@@ -3731,12 +3809,6 @@
       "created_at": "2026-07-31T09:39:05Z",
       "status": "scoring_attempted",
       "title": "Article: Virtual Threads After JDK 24: What Changed for Production Java"
-    },
-    "https://www.infoq.com/news/2026/07/AI-research-into-action": {
-      "canonical_url": "https://www.infoq.com/news/2026/07/AI-research-into-action",
-      "created_at": "2026-07-30T13:08:00Z",
-      "status": "scoring_attempted",
-      "title": "AI-Assisted Software Development: Team Profiles and Capabilities for Putting Research into Action"
     },
     "https://www.infoq.com/news/2026/07/dropbox-mcp-ai-code-review": {
       "canonical_url": "https://www.infoq.com/news/2026/07/dropbox-mcp-ai-code-review",
@@ -4140,6 +4212,12 @@
       "status": "scoring_attempted",
       "title": "OpenAI drags Apple\u2019s lawsuit into the court of public opinion"
     },
+    "https://www.theverge.com/ai-artificial-intelligence/975017/ai-spiralism-chatbot-movement": {
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/975017/ai-spiralism-chatbot-movement",
+      "created_at": "2026-08-06T13:24:13Z",
+      "status": "scoring_attempted",
+      "title": "AI bots started a religion \u2014 humans immediately followed"
+    },
     "https://www.theverge.com/ai-artificial-intelligence/975180/llm-ai-chatbot-use-not-healthy": {
       "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/975180/llm-ai-chatbot-use-not-healthy",
       "created_at": "2026-08-04T18:02:33Z",
@@ -4169,12 +4247,6 @@
       "created_at": "2026-08-06T02:34:40Z",
       "status": "scoring_attempted",
       "title": "Elon Musk&#8217;s attempt at an AI Wikipedia hasn&#8217;t been updated in months"
-    },
-    "https://www.theverge.com/entertainment/973002/spotify-running-mode-launch-bpm-playlists": {
-      "canonical_url": "https://www.theverge.com/entertainment/973002/spotify-running-mode-launch-bpm-playlists",
-      "created_at": "2026-07-30T13:08:00Z",
-      "status": "scoring_attempted",
-      "title": "Spotify Running Mode helps match tunes to tempo"
     },
     "https://www.theverge.com/entertainment/974199/spider-man-brand-new-day-leak-box-office-records": {
       "canonical_url": "https://www.theverge.com/entertainment/974199/spider-man-brand-new-day-leak-box-office-records",
@@ -4218,17 +4290,17 @@
       "status": "scoring_attempted",
       "title": "Don\u2019t screw this up, Marvel"
     },
+    "https://www.theverge.com/entertainment/976073/gta-6-trailer-3-date-time-netflix-youtube": {
+      "canonical_url": "https://www.theverge.com/entertainment/976073/gta-6-trailer-3-date-time-netflix-youtube",
+      "created_at": "2026-08-06T13:24:13Z",
+      "status": "scoring_attempted",
+      "title": "GTA VI is getting an \u2018extended look\u2019 at the end of August"
+    },
     "https://www.theverge.com/gadgets/968645/back-to-school-shopping-guide-gifts": {
       "canonical_url": "https://www.theverge.com/gadgets/968645/back-to-school-shopping-guide-gifts",
       "created_at": "2026-08-01T15:50:31Z",
       "status": "scoring_attempted",
       "title": "The Verge\u2019s 2026 back-to-school shopping guide"
-    },
-    "https://www.theverge.com/gadgets/972456/dji-osmo-pocket-4p-review": {
-      "canonical_url": "https://www.theverge.com/gadgets/972456/dji-osmo-pocket-4p-review",
-      "created_at": "2026-07-30T13:08:00Z",
-      "status": "scoring_attempted",
-      "title": "A second lens makes DJI\u2019s Osmo Pocket 4P my new favorite video camera"
     },
     "https://www.theverge.com/gadgets/972547/back-to-school-giveaway-sweepstakes": {
       "canonical_url": "https://www.theverge.com/gadgets/972547/back-to-school-giveaway-sweepstakes",
@@ -4512,11 +4584,23 @@
       "status": "scoring_attempted",
       "title": "Google just announced a major shakeup of its top AI leadership"
     },
+    "https://www.theverge.com/tech/975870/viture-pro-2-video-ar-smart-glasses-hands-on": {
+      "canonical_url": "https://www.theverge.com/tech/975870/viture-pro-2-video-ar-smart-glasses-hands-on",
+      "created_at": "2026-08-06T13:24:13Z",
+      "status": "scoring_attempted",
+      "title": "Viture\u2019s cheapest AR glasses have the sharpest image clarity I\u2019ve seen yet"
+    },
     "https://www.theverge.com/tech/976042/openai-apple-trade-secrets-lawsuit-dismissal-request": {
       "canonical_url": "https://www.theverge.com/tech/976042/openai-apple-trade-secrets-lawsuit-dismissal-request",
       "created_at": "2026-08-06T09:36:36Z",
       "status": "scoring_attempted",
       "title": "OpenAI says Apple\u2019s trade secrets lawsuit is \u2018rotten to its core\u2019"
+    },
+    "https://www.theverge.com/tech/976079/google-ask-maps-food-ordering-personal-intelligence": {
+      "canonical_url": "https://www.theverge.com/tech/976079/google-ask-maps-food-ordering-personal-intelligence",
+      "created_at": "2026-08-06T13:24:13Z",
+      "status": "scoring_attempted",
+      "title": "You can now ask Google Maps\u2019 AI to order food for you"
     },
     "https://www.theverge.com/transportation/973099/zoox-amazon-nhtsa-robotaxi-approval": {
       "canonical_url": "https://www.theverge.com/transportation/973099/zoox-amazon-nhtsa-robotaxi-approval",
@@ -4541,6 +4625,12 @@
       "created_at": "2026-08-05T17:49:52Z",
       "status": "scoring_attempted",
       "title": "Uber CEO brushes off reports of a Waymo break-up"
+    },
+    "https://www.theverge.com/transportation/975977/ford-fathom-universal-ev-platform-logo-price": {
+      "canonical_url": "https://www.theverge.com/transportation/975977/ford-fathom-universal-ev-platform-logo-price",
+      "created_at": "2026-08-06T13:24:13Z",
+      "status": "scoring_attempted",
+      "title": "Ford\u2019s first ultra-cheap EV is called Fathom, a full-featured truck for $28,350"
     },
     "https://www.tucsonsentinel.com/local/report/072926_melendez_swatting/man-seeks-millions-after-being-shot-by-pima-deputies-swatting-incident": {
       "canonical_url": "https://www.tucsonsentinel.com/local/report/072926_melendez_swatting/man-seeks-millions-after-being-shot-by-pima-deputies-swatting-incident",
@@ -4751,12 +4841,6 @@
       "created_at": "2026-07-31T15:36:29Z",
       "status": "scoring_attempted",
       "title": "Situational Awareness Down 67% in July in AI Stock Rout"
-    },
-    "https://www.ycombinator.com/companies/mbodi-ai/jobs": {
-      "canonical_url": "https://www.ycombinator.com/companies/mbodi-ai/jobs",
-      "created_at": "2026-07-30T13:08:00Z",
-      "status": "scoring_attempted",
-      "title": "Mbodi AI (YC P25) Is Hiring Robotics/Research Engineers"
     },
     "https://www.youtube.com/watch?v=pHcZpvIfho0": {
       "canonical_url": "https://www.youtube.com/watch?v=pHcZpvIfho0",
