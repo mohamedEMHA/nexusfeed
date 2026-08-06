@@ -292,31 +292,6 @@
         }
       }
     },
-    "2377e7141c16190ecb58054205c4c2c638ac6f0562695bf351cc92324e584224": {
-      "created_at": "2026-08-05T03:37:00Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1.5,
-              "impact_score": 0.5,
-              "index": 0,
-              "novelty_score": 0.2,
-              "reason": "Finance-focused article with low relevance to software engineers/AI researchers.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "After Losses, Retail Investors Flock to 3x Leverage as 2x Product Are Restricted",
-              "total_score": 2.7
-            }
-          ],
-          "best_index": 0,
-          "best_score": 2.7,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
-      }
-    },
     "26b4a23fdb52e79d3859f34573674834f869420fc3ced40d53364daa865dc54e": {
       "created_at": "2026-08-05T21:53:10Z",
       "payload": {
@@ -344,31 +319,6 @@
             "threads": "Meta\u2019s new Muse Code is a terminal AI agent that plans, writes, and validates code across large repos while staying active in the background. It\u2019s powered by the Muse Spark 1.2 model and currently in beta.\n\nhttps://www.marktechpost.com/2026/08/05/meta-superintelligence-labs-releases-muse-code/",
             "twitter": "Meta just dropped Muse Code\u2014a terminal AI agent that plans, writes, and validates code across large repos in the background. Powered by the new Muse Spark 1.2 model.\n\nhttps://www.marktechpost.com/2026/08/05/meta-superintelligence-labs-releases-muse-code/"
           }
-        }
-      }
-    },
-    "2ce093271de96c96354d30f352cd6f1dfc2c8dbed3c34c803b47ee4ac76e281f": {
-      "created_at": "2026-08-05T03:37:00Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 0.5,
-              "impact_score": 2.5,
-              "index": 1,
-              "novelty_score": 2.5,
-              "reason": "Opinion piece with no red flags but low novelty and impact.",
-              "red_flag": true,
-              "red_flag_reason": "opinion",
-              "source_score": 0.5,
-              "title": "Eight Myths on Software Engineering and GenAI",
-              "total_score": 6.0
-            }
-          ],
-          "best_index": 1,
-          "best_score": 6.0,
-          "recommendation": "SKIP",
-          "social_posts": {}
         }
       }
     },
@@ -435,6 +385,193 @@
             "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Meta launches Muse Code, an AI agent for large code bases*\n\nMeta\u2019s new Muse Code is an AI agent designed to handle complex tasks across large, interconnected codebases. Early benchmarks suggest it reduces manual refactoring time by 40% in monorepos.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
             "threads": "Meta\u2019s Muse Code is an AI agent that targets large, complex codebases. It\u2019s not just another autocomplete tool\u2014it\u2019s built to refactor and navigate sprawling monorepos with minimal human input.\n\nhttps://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/",
             "twitter": "Meta just dropped Muse Code, an AI agent built to navigate and modify sprawling codebases. Early tests show it cuts manual refactoring time by 40% in large monorepos.\n\nhttps://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/"
+          }
+        }
+      }
+    },
+    "44aa8cf0f72860161816b60d92aa6b92d7c1d436bdc6dc136afe3d3551267bdd": {
+      "created_at": "2026-08-06T05:34:36Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 1.5,
+              "index": 13,
+              "novelty_score": 2.5,
+              "reason": "Research paper with niche impact but fresh and novel.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Improving Auto-Design of Neural PDE Solvers with a Domain-Specific Language",
+              "total_score": 6.5
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.5,
+              "index": 14,
+              "novelty_score": 2.5,
+              "reason": "Research paper with broad impact on AI architecture but low-tier source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Architectural Implications of Agentic AI Workflows",
+              "total_score": 7.5
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 1.5,
+              "index": 15,
+              "novelty_score": 2.5,
+              "reason": "Research paper with niche impact but fresh and novel.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "CARGO-VL: Counterfactual Arbitration with Risk-Constrained Group Optimization for Vision-Language Models",
+              "total_score": 6.5
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.0,
+              "index": 16,
+              "novelty_score": 2.5,
+              "reason": "Research paper introducing a new benchmark with broad relevance to AI safety.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Leak-Resistant Unlearning: A New Benchmark for Evaluating Multi-Hop Reasoning Consistency and Recovery Robustness",
+              "total_score": 7.0
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 1.0,
+              "index": 17,
+              "novelty_score": 2.5,
+              "reason": "Research paper with highly niche impact.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Joint UAV Flight and Opportunistic Routing under Reinforcement Learning for Delay-Tolerant Networks",
+              "total_score": 6.0
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 1.5,
+              "index": 18,
+              "novelty_score": 2.5,
+              "reason": "Research paper with niche impact but fresh and novel.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Agreement Before Diversity: Verification-First Complementarity for Heterogeneous Language-Model Coordination",
+              "total_score": 6.5
+            }
+          ],
+          "best_index": 14,
+          "best_score": 7.5,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
+    "47e1b8cd600af7d1c73d93c5c3fd748484a21f132362257a087a8c122327fb97": {
+      "created_at": "2026-08-06T05:34:36Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.5,
+              "impact_score": 1.5,
+              "index": 0,
+              "novelty_score": 2.5,
+              "reason": "New open-source tool with niche but practical impact for AI agent security.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Ship Safe, an open source security scanner for coding agents",
+              "total_score": 6.0
+            },
+            {
+              "freshness_score": 1.5,
+              "impact_score": 1.5,
+              "index": 1,
+              "novelty_score": 2.5,
+              "reason": "New research paper introducing a theoretical framework for AI system persistence.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "A Long-Run Persistence Theory for AI Systems under the Redundancy-Adjusted Artificial Age Score (AAS)",
+              "total_score": 6.0
+            },
+            {
+              "freshness_score": 1.5,
+              "impact_score": 2.0,
+              "index": 2,
+              "novelty_score": 2.5,
+              "reason": "New research proposing a structural verification method for long-horizon AI agents.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "The LLM Proposes, the Executive Disposes: A Self-Verifying Agent Instrument that Dissociates Commitment Drift from Binding Drift in Long-Horizon Agents",
+              "total_score": 6.5
+            },
+            {
+              "freshness_score": 1.5,
+              "impact_score": 1.0,
+              "index": 3,
+              "novelty_score": 2.5,
+              "reason": "New research introducing a method for multimodal report generation from tabular data.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Monte Carlo Tree Search for Table-to-Multimodal Report Generation",
+              "total_score": 5.5
+            },
+            {
+              "freshness_score": 1.5,
+              "impact_score": 1.5,
+              "index": 4,
+              "novelty_score": 2.5,
+              "reason": "New benchmark for evaluating financial AI agents with professional standards.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "FinProBench: Evaluating Financial AI Agents with Role-Grounded Rubrics Derived from Professional Deliverables",
+              "total_score": 6.0
+            },
+            {
+              "freshness_score": 1.5,
+              "impact_score": 1.5,
+              "index": 5,
+              "novelty_score": 2.5,
+              "reason": "New benchmark for testing personalized memory in LLM agents.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "FinPerMA: A Theory-Informed, Event-Grounded Personalized-Memory Benchmark for LLM Agents",
+              "total_score": 6.0
+            },
+            {
+              "freshness_score": 1.5,
+              "impact_score": 1.0,
+              "index": 6,
+              "novelty_score": 2.5,
+              "reason": "New benchmark for evaluating LLMs on EEG data interpretation.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "BrainBench: Benchmarking Large Language Models for Comprehensive EEG Understanding",
+              "total_score": 5.5
+            }
+          ],
+          "best_index": 2,
+          "best_score": 6.5,
+          "recommendation": "SKIP",
+          "social_posts": {
+            "facebook": "",
+            "telegram": "",
+            "threads": "",
+            "twitter": ""
           }
         }
       }
@@ -744,6 +881,99 @@
             "twitter": ""
           }
         }
+      }
+    },
+    "6ec10ee727b2d1c7a320d26d4d55561a5e8fd273ade688e8542dd0a44c2bb72d": {
+      "created_at": "2026-08-06T05:34:36Z",
+      "payload": {
+        "candidates": [],
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.5,
+              "index": 7,
+              "novelty_score": 2.5,
+              "reason": "Research paper with high novelty and impact but lower source tier.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.0,
+              "title": "Adversarially Robust Abductive Fusion of Pre-trained Transformer-based Perception Models",
+              "total_score": 8.0
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.5,
+              "index": 8,
+              "novelty_score": 2.5,
+              "reason": "Research paper with high novelty and impact but lower source tier.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.0,
+              "title": "MatrAIx: Simulating the World with 8.3 Billion Persona Agents",
+              "total_score": 8.0
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.0,
+              "index": 9,
+              "novelty_score": 2.5,
+              "reason": "Research paper with strong novelty and freshness but niche impact.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.0,
+              "title": "Interoceptive Attention as Dynamic Homeostatic Prioritization in a Foraging Agent",
+              "total_score": 7.5
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.5,
+              "index": 10,
+              "novelty_score": 2.5,
+              "reason": "Research paper with high novelty and impact but lower source tier.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.0,
+              "title": "The RAIL Principles for Neurosymbolic AI: Reasoning, Assurances, Interfacing and Learning",
+              "total_score": 8.0
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.0,
+              "index": 11,
+              "novelty_score": 2.5,
+              "reason": "Research paper with strong novelty and freshness but niche impact.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.0,
+              "title": "SafeCommit: Certifying When Memory-Grounded Agents May Safely Act",
+              "total_score": 7.5
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.0,
+              "index": 12,
+              "novelty_score": 2.5,
+              "reason": "Research paper with strong novelty and freshness but niche impact.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.0,
+              "title": "NeuMoSync: End-to-End Neuromodulatory Control for Plasticity and Adaptability in Continual Learning",
+              "total_score": 7.5
+            }
+          ],
+          "best_index": 7,
+          "best_score": 8.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        },
+        "social_media_rules": [
+          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
+          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.",
+          "Use the FULL article title as headline without inventing facts.",
+          "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
+        ]
       }
     },
     "6f021305f1a1311f905cd8c8ff1f65059b64cebd0e7321ddae6c5934fc8850fb": {
@@ -1477,6 +1707,91 @@
         }
       }
     },
+    "d1648ee77887d07edfab1e177623c34e005aad8f932a3dee96c20b5d99d03e36": {
+      "created_at": "2026-08-06T05:34:36Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 1.5,
+              "index": 19,
+              "novelty_score": 2.5,
+              "reason": "Research paper with niche but practical impact on industrial A/B testing workflows.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "A/B Agent: A Self-Evolving Agent for Strategy Iteration in Industrial A/B Testing",
+              "total_score": 6.5
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 1.0,
+              "index": 20,
+              "novelty_score": 2.5,
+              "reason": "Research paper with narrow domain impact on legal translation.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "AI Literacy for Legal Translation: Developing Digital Resilience",
+              "total_score": 6.0
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 1.5,
+              "index": 21,
+              "novelty_score": 2.5,
+              "reason": "Research paper with niche but novel approach to multi-agent RL.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Calibrating Artificial Guilt: Neurally Grounded Reward Shaping for Prosocial Multi-Agent Reinforcement Learning",
+              "total_score": 6.5
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 1.0,
+              "index": 22,
+              "novelty_score": 2.5,
+              "reason": "Research paper with highly specialized impact on aviation safety.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Traceable LLM-Generated Hazard Scenarios for Operational Safety Analysis of Aviation Systems Using ASRS Reports",
+              "total_score": 6.0
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.0,
+              "index": 23,
+              "novelty_score": 2.5,
+              "reason": "Research paper introducing a novel diagnostic method for LLM agents.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Diagnosing Tool-Selection Reasoning in LLM Agents with Canary Tools",
+              "total_score": 7.0
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.0,
+              "index": 24,
+              "novelty_score": 2.5,
+              "reason": "Research paper addressing a critical gap in multimodal LLM reasoning.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "When Prompts Become Pixels: Prompt-Region Grounding for Multimodal Reasoning",
+              "total_score": 7.0
+            }
+          ],
+          "best_index": 24,
+          "best_score": 7.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
     "d7527ae006106579da51408bcf6202337e7b8bf46fb16f2ca5898acc0654caa5": {
       "created_at": "2026-08-05T11:38:24Z",
       "payload": {
@@ -1497,31 +1812,6 @@
           ],
           "best_index": 0,
           "best_score": 8,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
-      }
-    },
-    "d990c2971a7645d360a759d872f4f27d3310b271c58b9a2c56d0211645067f54": {
-      "created_at": "2026-08-05T03:37:00Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1.0,
-              "impact_score": 2.5,
-              "index": 7,
-              "novelty_score": 3.0,
-              "reason": "New release with broad developer impact but source tier C and 6h old.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Cloudflare Wallets: the programmable wallet for the agentic Internet",
-              "total_score": 7.0
-            }
-          ],
-          "best_index": 7,
-          "best_score": 7.0,
           "recommendation": "SKIP",
           "social_posts": {}
         }
@@ -2372,6 +2662,150 @@
       "status": "scoring_attempted",
       "title": "Why Large Language Models Fail at Tabular Prediction"
     },
+    "https://arxiv.org/abs/2608.04012": {
+      "canonical_url": "https://arxiv.org/abs/2608.04012",
+      "created_at": "2026-08-06T05:34:36Z",
+      "status": "scoring_attempted",
+      "title": "A Long-Run Persistence Theory for AI Systems under the Redundancy-Adjusted Artificial Age Score (AAS)"
+    },
+    "https://arxiv.org/abs/2608.04066": {
+      "canonical_url": "https://arxiv.org/abs/2608.04066",
+      "created_at": "2026-08-06T05:34:36Z",
+      "status": "scoring_attempted",
+      "title": "The LLM Proposes, the Executive Disposes: A Self-Verifying Agent Instrument that Dissociates Commitment Drift from Binding Drift in Long-Horizon Agents"
+    },
+    "https://arxiv.org/abs/2608.04071": {
+      "canonical_url": "https://arxiv.org/abs/2608.04071",
+      "created_at": "2026-08-06T05:34:36Z",
+      "status": "scoring_attempted",
+      "title": "Monte Carlo Tree Search for Table-to-Multimodal Report Generation"
+    },
+    "https://arxiv.org/abs/2608.04077": {
+      "canonical_url": "https://arxiv.org/abs/2608.04077",
+      "created_at": "2026-08-06T05:34:36Z",
+      "status": "scoring_attempted",
+      "title": "FinProBench: Evaluating Financial AI Agents with Role-Grounded Rubrics Derived from Professional Deliverables"
+    },
+    "https://arxiv.org/abs/2608.04095": {
+      "canonical_url": "https://arxiv.org/abs/2608.04095",
+      "created_at": "2026-08-06T05:34:36Z",
+      "status": "scoring_attempted",
+      "title": "FinPerMA: A Theory-Informed, Event-Grounded Personalized-Memory Benchmark for LLM Agents"
+    },
+    "https://arxiv.org/abs/2608.04156": {
+      "canonical_url": "https://arxiv.org/abs/2608.04156",
+      "created_at": "2026-08-06T05:34:36Z",
+      "status": "scoring_attempted",
+      "title": "BrainBench: Benchmarking Large Language Models for Comprehensive EEG Understanding"
+    },
+    "https://arxiv.org/abs/2608.04190": {
+      "canonical_url": "https://arxiv.org/abs/2608.04190",
+      "created_at": "2026-08-06T05:34:36Z",
+      "status": "scoring_attempted",
+      "title": "Adversarially Robust Abductive Fusion of Pre-trained Transformer-based Perception Models"
+    },
+    "https://arxiv.org/abs/2608.04205": {
+      "canonical_url": "https://arxiv.org/abs/2608.04205",
+      "created_at": "2026-08-06T05:34:36Z",
+      "status": "scoring_attempted",
+      "title": "MatrAIx: Simulating the World with 8.3 Billion Persona Agents"
+    },
+    "https://arxiv.org/abs/2608.04232": {
+      "canonical_url": "https://arxiv.org/abs/2608.04232",
+      "created_at": "2026-08-06T05:34:36Z",
+      "status": "scoring_attempted",
+      "title": "Interoceptive Attention as Dynamic Homeostatic Prioritization in a Foraging Agent"
+    },
+    "https://arxiv.org/abs/2608.04285": {
+      "canonical_url": "https://arxiv.org/abs/2608.04285",
+      "created_at": "2026-08-06T05:34:36Z",
+      "status": "scoring_attempted",
+      "title": "The RAIL Principles for Neurosymbolic AI: Reasoning, Assurances, Interfacing and Learning"
+    },
+    "https://arxiv.org/abs/2608.04289": {
+      "canonical_url": "https://arxiv.org/abs/2608.04289",
+      "created_at": "2026-08-06T05:34:36Z",
+      "status": "scoring_attempted",
+      "title": "SafeCommit: Certifying When Memory-Grounded Agents May Safely Act"
+    },
+    "https://arxiv.org/abs/2608.04358": {
+      "canonical_url": "https://arxiv.org/abs/2608.04358",
+      "created_at": "2026-08-06T05:34:36Z",
+      "status": "scoring_attempted",
+      "title": "NeuMoSync: End-to-End Neuromodulatory Control for Plasticity and Adaptability in Continual Learning"
+    },
+    "https://arxiv.org/abs/2608.04384": {
+      "canonical_url": "https://arxiv.org/abs/2608.04384",
+      "created_at": "2026-08-06T05:34:36Z",
+      "status": "scoring_attempted",
+      "title": "Improving Auto-Design of Neural PDE Solvers with a Domain-Specific Language"
+    },
+    "https://arxiv.org/abs/2608.04458": {
+      "canonical_url": "https://arxiv.org/abs/2608.04458",
+      "created_at": "2026-08-06T05:34:36Z",
+      "status": "scoring_attempted",
+      "title": "Architectural Implications of Agentic AI Workflows"
+    },
+    "https://arxiv.org/abs/2608.04509": {
+      "canonical_url": "https://arxiv.org/abs/2608.04509",
+      "created_at": "2026-08-06T05:34:36Z",
+      "status": "scoring_attempted",
+      "title": "CARGO-VL: Counterfactual Arbitration with Risk-Constrained Group Optimization for Vision-Language Models"
+    },
+    "https://arxiv.org/abs/2608.04519": {
+      "canonical_url": "https://arxiv.org/abs/2608.04519",
+      "created_at": "2026-08-06T05:34:36Z",
+      "status": "scoring_attempted",
+      "title": "Leak-Resistant Unlearning: A New Benchmark for Evaluating Multi-Hop Reasoning Consistency and Recovery Robustness"
+    },
+    "https://arxiv.org/abs/2608.04590": {
+      "canonical_url": "https://arxiv.org/abs/2608.04590",
+      "created_at": "2026-08-06T05:34:36Z",
+      "status": "scoring_attempted",
+      "title": "Joint UAV Flight and Opportunistic Routing under Reinforcement Learning for Delay-Tolerant Networks"
+    },
+    "https://arxiv.org/abs/2608.04618": {
+      "canonical_url": "https://arxiv.org/abs/2608.04618",
+      "created_at": "2026-08-06T05:34:36Z",
+      "status": "scoring_attempted",
+      "title": "Agreement Before Diversity: Verification-First Complementarity for Heterogeneous Language-Model Coordination"
+    },
+    "https://arxiv.org/abs/2608.04625": {
+      "canonical_url": "https://arxiv.org/abs/2608.04625",
+      "created_at": "2026-08-06T05:34:36Z",
+      "status": "scoring_attempted",
+      "title": "A/B Agent: A Self-Evolving Agent for Strategy Iteration in Industrial A/B Testing"
+    },
+    "https://arxiv.org/abs/2608.04641": {
+      "canonical_url": "https://arxiv.org/abs/2608.04641",
+      "created_at": "2026-08-06T05:34:36Z",
+      "status": "scoring_attempted",
+      "title": "AI Literacy for Legal Translation: Developing Digital Resilience"
+    },
+    "https://arxiv.org/abs/2608.04663": {
+      "canonical_url": "https://arxiv.org/abs/2608.04663",
+      "created_at": "2026-08-06T05:34:36Z",
+      "status": "scoring_attempted",
+      "title": "Calibrating Artificial Guilt: Neurally Grounded Reward Shaping for Prosocial Multi-Agent Reinforcement Learning"
+    },
+    "https://arxiv.org/abs/2608.04697": {
+      "canonical_url": "https://arxiv.org/abs/2608.04697",
+      "created_at": "2026-08-06T05:34:36Z",
+      "status": "scoring_attempted",
+      "title": "Traceable LLM-Generated Hazard Scenarios for Operational Safety Analysis of Aviation Systems Using ASRS Reports"
+    },
+    "https://arxiv.org/abs/2608.04719": {
+      "canonical_url": "https://arxiv.org/abs/2608.04719",
+      "created_at": "2026-08-06T05:34:36Z",
+      "status": "scoring_attempted",
+      "title": "Diagnosing Tool-Selection Reasoning in LLM Agents with Canary Tools"
+    },
+    "https://arxiv.org/abs/2608.04726": {
+      "canonical_url": "https://arxiv.org/abs/2608.04726",
+      "created_at": "2026-08-06T05:34:36Z",
+      "status": "scoring_attempted",
+      "title": "When Prompts Become Pixels: Prompt-Region Grounding for Multimodal Reasoning"
+    },
     "https://asymco.com/2026/07/31/apple-will-watch-everything-burn-when-ai-bubble-bursts": {
       "canonical_url": "https://asymco.com/2026/07/31/apple-will-watch-everything-burn-when-ai-bubble-bursts",
       "created_at": "2026-07-31T21:38:29Z",
@@ -2594,17 +3028,17 @@
       "status": "scoring_attempted",
       "title": "Agent-Manager: A Tmux TUI for Running Claude Code, Codex and OpenCode"
     },
+    "https://github.com/asamassekou10/ship-safe": {
+      "canonical_url": "https://github.com/asamassekou10/ship-safe",
+      "created_at": "2026-08-06T05:34:36Z",
+      "status": "scoring_attempted",
+      "title": "Ship Safe, an open source security scanner for coding agents"
+    },
     "https://github.com/david-g-3654/homebench": {
       "canonical_url": "https://github.com/david-g-3654/homebench",
       "created_at": "2026-08-04T13:26:57Z",
       "status": "scoring_attempted",
       "title": "Homebench \u2013 Benchmark local LLMs for speed, memory, and quality"
-    },
-    "https://github.com/funador/claude-code-merge-queue": {
-      "canonical_url": "https://github.com/funador/claude-code-merge-queue",
-      "created_at": "2026-07-30T03:33:04Z",
-      "status": "scoring_attempted",
-      "title": "Show HN: A local merge queue for parallel Claude Code agents"
     },
     "https://github.com/garagehq/nightcrawler": {
       "canonical_url": "https://github.com/garagehq/nightcrawler",
@@ -3007,12 +3441,6 @@
       "created_at": "2026-07-31T20:25:14Z",
       "status": "scoring_attempted",
       "title": "Tailscale didn't stop the Hugging Face intrusion"
-    },
-    "https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever": {
-      "canonical_url": "https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever",
-      "created_at": "2026-07-30T03:33:04Z",
-      "status": "scoring_attempted",
-      "title": "Microsoft is openly competing with OpenAI, Anthropic more than ever"
     },
     "https://techcrunch.com/2026/07/30/ai-hedge-fund-situational-awareness-may-have-sold-its-public-portfolio-but-it-still-has-its-anthropic-shares": {
       "canonical_url": "https://techcrunch.com/2026/07/30/ai-hedge-fund-situational-awareness-may-have-sold-its-public-portfolio-but-it-still-has-its-anthropic-shares",
