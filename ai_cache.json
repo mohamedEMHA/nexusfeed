@@ -134,29 +134,37 @@
         }
       }
     },
-    "1ad499b73130f482535d22edff759892de590e0432e1324dc0ac4c8edde3c59a": {
-      "created_at": "2026-08-05T06:10:38Z",
+    "184e035f76c799626585fda49e2f99551d6553553235322f3678269ba1eb4d5a": {
+      "created_at": "2026-08-06T08:04:15Z",
       "payload": {
+        "candidates": [],
+        "prompt_version": "cerebras-scoring-v1",
         "response_schema": {
           "articles": [
             {
-              "freshness_score": 1,
-              "impact_score": 1.5,
-              "index": 2,
-              "novelty_score": 2.5,
-              "reason": "Research on a low-cost SLM deployment with niche hardware impact.",
+              "freshness_score": 1.5,
+              "impact_score": 2.5,
+              "index": 1,
+              "novelty_score": 3.0,
+              "reason": "New experimental language release with niche but high potential impact for AI-driven development.",
               "red_flag": false,
               "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "An SLM trained on $8 ESP32-S3",
-              "total_score": 5.5
+              "source_score": 1.0,
+              "title": "Vercel Labs Ships Zero: A Graph-First Language Built So Agents Write the Code",
+              "total_score": 8.0
             }
           ],
-          "best_index": 2,
-          "best_score": 5.5,
+          "best_index": 1,
+          "best_score": 8.0,
           "recommendation": "SKIP",
           "social_posts": {}
-        }
+        },
+        "social_media_rules": [
+          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
+          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.",
+          "Use the FULL article title as headline without inventing facts.",
+          "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
+        ]
       }
     },
     "1db0595d2a6007401b50e69e5e16d39c0450ccff05cf172fb3d3e4280db63aad": {
@@ -474,6 +482,48 @@
         }
       }
     },
+    "4588703dc61e2f7a5db918949393b51c45d78a70a35eb8ef873db21b3afe2554": {
+      "created_at": "2026-08-06T08:04:15Z",
+      "payload": {
+        "candidates": [
+          {
+            "article_url": "https://www.infoq.com/news/2026/08/pod-deployment-unit-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+            "index": 0,
+            "published_relative": "2 hours ago",
+            "published_time_utc": "2026-08-06T06:00:00Z",
+            "source": "InfoQ AI/ML",
+            "summary": "Running AI agents on Kubernetes raises a key question: should each agent get its own Pod? The kagent project argues no\u2014agents are bursty, short-lived, can spawn subagents, and may wait for human approval, making one Pod per agent wasteful. Agent-substrate adds a control plane to schedule logical \u201cagents\u201d as lightweight workers on shared Pods.",
+            "tier": "B",
+            "title": "Pods as Workers, Not Agents: Rethinking the Deployment Unit for AI Agents on Kubernetes"
+          }
+        ],
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.5,
+              "impact_score": 2.5,
+              "index": 0,
+              "novelty_score": 2.5,
+              "reason": "Research on Kubernetes deployment patterns for AI agents with practical implications for scaling.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1,
+              "title": "Pods as Workers, Not Agents: Rethinking the Deployment Unit for AI Agents on Kubernetes",
+              "total_score": 7.5
+            }
+          ],
+          "best_index": 0,
+          "best_score": 7.5,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        },
+        "social_media_rules": [
+          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
+          "If recommendation is SKIP, the social_posts object must be empty."
+        ]
+      }
+    },
     "47e1b8cd600af7d1c73d93c5c3fd748484a21f132362257a087a8c122327fb97": {
       "created_at": "2026-08-06T05:34:36Z",
       "payload": {
@@ -574,36 +624,6 @@
             "twitter": ""
           }
         }
-      }
-    },
-    "48d75929b7c337a5bff2511673f6c360b1b618b36088c7fe10a2db09d5f3f6de": {
-      "created_at": "2026-08-05T06:10:38Z",
-      "payload": {
-        "prompt_version": "cerebras-scoring-v1",
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 2.5,
-              "index": 1,
-              "novelty_score": 2.5,
-              "reason": "Research paper with high novelty and impact, fresh but from low-tier source.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Zero-Mem: Zero-Token Memory Operations for LLM Agents",
-              "total_score": 7.5
-            }
-          ],
-          "best_index": 1,
-          "best_score": 7.5,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        },
-        "social_media_rules": [
-          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
-          "If recommendation is SKIP, social_posts must be empty objects."
-        ]
       }
     },
     "510fe8f08d8c1a991c9b164fc25503589467ba3bfd61fd500cd149c490bfb581": {
@@ -1184,36 +1204,6 @@
           "social_posts": {}
         },
         "social_media_rules": []
-      }
-    },
-    "8b31251bcd81d461bbe1fb681c83706b6914b144bdc1ca6d25630e0d175a1256": {
-      "created_at": "2026-08-05T06:10:38Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 2.5,
-              "index": 0,
-              "novelty_score": 3.0,
-              "reason": "New open-source release with broad developer impact and high freshness from Tier A source.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "CopilotKit Open Sources Channels SDK: An MIT Licensed Library That Runs Any AG-UI Agent Inside Slack And Microsoft Teams",
-              "total_score": 9.0
-            }
-          ],
-          "best_index": 0,
-          "best_score": 9.0,
-          "recommendation": "POST_NOW",
-          "social_posts": {
-            "facebook": "CopilotKit released the Channels SDK, an MIT-licensed library that embeds AG-UI agents directly into Slack and Microsoft Teams. Version 0.5.0 includes five platform adapters and a documented runtime contract for verified deployments.\n\nLink: https://www.marktechpost.com/2026/08/04/copilotkit-open-sources-channels-sdk/",
-            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *CopilotKit Open Sources Channels SDK: An MIT Licensed Library That Runs Any AG-UI Agent Inside Slack And Microsoft Teams*\n\nCopilotKit published the Channels SDK, an MIT-licensed library enabling AG-UI agents to run natively in Slack and Microsoft Teams. Version 0.5.0 includes five platform adapters and a documented runtime contract for verified deployments.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (Tier A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/08/04/copilotkit-open-sources-channels-sdk/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-            "threads": "CopilotKit open-sourced the Channels SDK (MIT license) to run AG-UI agents inside Slack and Teams. Version 0.5.0 ships five adapters and a runtime contract for verified deployments.\n\nhttps://www.marktechpost.com/2026/08/04/copilotkit-open-sources-channels-sdk/",
-            "twitter": "CopilotKit just open-sourced the Channels SDK, letting any AG-UI agent run natively in Slack and Teams. MIT-licensed and version 0.5.0 ships five platform adapters.\n\nhttps://www.marktechpost.com/2026/08/04/copilotkit-open-sources-channels-sdk/"
-          }
-        }
       }
     },
     "8c0b5c90f72cb5cff9ff68e20f36bfcac2b0ccd1294933377c6734f2dc5275ef": {
@@ -2218,150 +2208,6 @@
       "status": "scoring_attempted",
       "title": "Generative AI floods and dilutes the market for books"
     },
-    "https://arxiv.org/abs/2607.26119": {
-      "canonical_url": "https://arxiv.org/abs/2607.26119",
-      "created_at": "2026-07-30T06:10:27Z",
-      "status": "scoring_attempted",
-      "title": "Probing the Origins of Reasoning Performance: Representational Quality for Mathematical Problem-Solving in RL vs. SFT Fine-Tuned Models"
-    },
-    "https://arxiv.org/abs/2607.26120": {
-      "canonical_url": "https://arxiv.org/abs/2607.26120",
-      "created_at": "2026-07-30T06:10:27Z",
-      "status": "scoring_attempted",
-      "title": "Even More Deception: Objective Misalignment in Mixed-Motive LLM Multi-Agent Systems"
-    },
-    "https://arxiv.org/abs/2607.26155": {
-      "canonical_url": "https://arxiv.org/abs/2607.26155",
-      "created_at": "2026-07-30T06:10:27Z",
-      "status": "scoring_attempted",
-      "title": "ClinLens: Towards Long-Horizon Coding Agents for Longitudinal Multimodal Clinical Data Science"
-    },
-    "https://arxiv.org/abs/2607.26159": {
-      "canonical_url": "https://arxiv.org/abs/2607.26159",
-      "created_at": "2026-07-30T06:10:27Z",
-      "status": "scoring_attempted",
-      "title": "When benchmark inferences do not compose: Projectibility in AI evaluation"
-    },
-    "https://arxiv.org/abs/2607.26160": {
-      "canonical_url": "https://arxiv.org/abs/2607.26160",
-      "created_at": "2026-07-30T06:10:27Z",
-      "status": "scoring_attempted",
-      "title": "GuideSkill: Evolving Executable LLM Agent Skills for Guideline-Grounded Clinical Reasoning"
-    },
-    "https://arxiv.org/abs/2607.26181": {
-      "canonical_url": "https://arxiv.org/abs/2607.26181",
-      "created_at": "2026-07-30T06:10:27Z",
-      "status": "scoring_attempted",
-      "title": "GoGoTB: Agentic RTL Verification with Specification-Grounded Coverage Closure"
-    },
-    "https://arxiv.org/abs/2607.26191": {
-      "canonical_url": "https://arxiv.org/abs/2607.26191",
-      "created_at": "2026-07-30T06:10:27Z",
-      "status": "scoring_attempted",
-      "title": "Position: Evaluation Scores Are Perishable Knowledge Claims"
-    },
-    "https://arxiv.org/abs/2607.26307": {
-      "canonical_url": "https://arxiv.org/abs/2607.26307",
-      "created_at": "2026-07-30T06:10:27Z",
-      "status": "scoring_attempted",
-      "title": "TraceCoder: Explainable and Auditable Code Generation with Position-Key Snippet Versioning"
-    },
-    "https://arxiv.org/abs/2607.26367": {
-      "canonical_url": "https://arxiv.org/abs/2607.26367",
-      "created_at": "2026-07-30T06:10:27Z",
-      "status": "scoring_attempted",
-      "title": "Exploring Structures in Physics Problems: Can AI Agents Discover Statistical Mechanical Mappings?"
-    },
-    "https://arxiv.org/abs/2607.26393": {
-      "canonical_url": "https://arxiv.org/abs/2607.26393",
-      "created_at": "2026-07-30T06:10:27Z",
-      "status": "scoring_attempted",
-      "title": "CaM-Wolf: Causal-Aware Multimodal Agents for Social Deduction Games"
-    },
-    "https://arxiv.org/abs/2607.26452": {
-      "canonical_url": "https://arxiv.org/abs/2607.26452",
-      "created_at": "2026-07-30T06:10:27Z",
-      "status": "scoring_attempted",
-      "title": "CG-World: A Large-Scale World-State Dataset and Protocol for World Models"
-    },
-    "https://arxiv.org/abs/2607.26465": {
-      "canonical_url": "https://arxiv.org/abs/2607.26465",
-      "created_at": "2026-07-30T06:10:27Z",
-      "status": "scoring_attempted",
-      "title": "MultivationBench: A Benchmark for Multimodal Sequential Motivation Reasoning"
-    },
-    "https://arxiv.org/abs/2607.26490": {
-      "canonical_url": "https://arxiv.org/abs/2607.26490",
-      "created_at": "2026-07-30T06:10:27Z",
-      "status": "scoring_attempted",
-      "title": "EvoPINN: Agentic Discovery of Executable Algorithms for Physics-Informed Neural Networks"
-    },
-    "https://arxiv.org/abs/2607.26512": {
-      "canonical_url": "https://arxiv.org/abs/2607.26512",
-      "created_at": "2026-07-30T06:10:27Z",
-      "status": "scoring_attempted",
-      "title": "Evidence-Ledger Adjudication for Claim-Evidence Traceability"
-    },
-    "https://arxiv.org/abs/2607.26588": {
-      "canonical_url": "https://arxiv.org/abs/2607.26588",
-      "created_at": "2026-07-30T06:10:27Z",
-      "status": "scoring_attempted",
-      "title": "Eco3S: Complex Socio-Economic System Simulation via Agent-Based Models"
-    },
-    "https://arxiv.org/abs/2607.26611": {
-      "canonical_url": "https://arxiv.org/abs/2607.26611",
-      "created_at": "2026-07-30T06:10:27Z",
-      "status": "scoring_attempted",
-      "title": "Fewer Clarifications, Better Code: Benchmarking Cross-Session Personalized Ambiguity Adaptation in Coding Assistants"
-    },
-    "https://arxiv.org/abs/2607.26642": {
-      "canonical_url": "https://arxiv.org/abs/2607.26642",
-      "created_at": "2026-07-30T06:10:27Z",
-      "status": "scoring_attempted",
-      "title": "AlphaSchema: Exploring the Space of Trading Semantics for LLM-Based Alpha Mining"
-    },
-    "https://arxiv.org/abs/2607.26643": {
-      "canonical_url": "https://arxiv.org/abs/2607.26643",
-      "created_at": "2026-07-30T06:10:27Z",
-      "status": "scoring_attempted",
-      "title": "Rethinking Self-Evolution: A Constrained Exploration-Exploitation Process for Mitigating Skill Overfitting"
-    },
-    "https://arxiv.org/abs/2607.26661": {
-      "canonical_url": "https://arxiv.org/abs/2607.26661",
-      "created_at": "2026-07-30T06:10:27Z",
-      "status": "scoring_attempted",
-      "title": "AgenticCANN: Automated Ascend C Operator Generation via Knowledge-Augmented Agentic Evolution"
-    },
-    "https://arxiv.org/abs/2607.26724": {
-      "canonical_url": "https://arxiv.org/abs/2607.26724",
-      "created_at": "2026-07-30T06:10:27Z",
-      "status": "scoring_attempted",
-      "title": "UrbanDS: A Graph-Guided LLM Multi-Agent System for Data-Intensive Urban Tasks"
-    },
-    "https://arxiv.org/abs/2607.26773": {
-      "canonical_url": "https://arxiv.org/abs/2607.26773",
-      "created_at": "2026-07-30T06:10:27Z",
-      "status": "scoring_attempted",
-      "title": "Do Latent Channels Actually Communicate? A Causal Audit of Latent Multi-Agent LLM"
-    },
-    "https://arxiv.org/abs/2607.26787": {
-      "canonical_url": "https://arxiv.org/abs/2607.26787",
-      "created_at": "2026-07-30T06:10:27Z",
-      "status": "scoring_attempted",
-      "title": "Property-driven Causal Abstractions for Markov Decision Processes"
-    },
-    "https://arxiv.org/abs/2607.26903": {
-      "canonical_url": "https://arxiv.org/abs/2607.26903",
-      "created_at": "2026-07-30T06:10:27Z",
-      "status": "scoring_attempted",
-      "title": "From Passive Video to Editable Experience: Physically Grounded Experience Synthesis for Embodied Intelligence"
-    },
-    "https://arxiv.org/abs/2607.26935": {
-      "canonical_url": "https://arxiv.org/abs/2607.26935",
-      "created_at": "2026-07-30T06:10:27Z",
-      "status": "scoring_attempted",
-      "title": "What Does It Take to Detect an AI Agent? Minimal Feature Sets for Behavioral Detection under Browser Automation"
-    },
     "https://arxiv.org/abs/2607.28545": {
       "canonical_url": "https://arxiv.org/abs/2607.28545",
       "created_at": "2026-07-31T20:25:14Z",
@@ -3310,12 +3156,6 @@
       "status": "scoring_attempted",
       "title": "Solving the solvent problem"
     },
-    "https://noyb.eu/en/1741-informed-consents-one-click-gdpr-complaint-against-dictcc-filed": {
-      "canonical_url": "https://noyb.eu/en/1741-informed-consents-one-click-gdpr-complaint-against-dictcc-filed",
-      "created_at": "2026-07-30T06:10:27Z",
-      "status": "scoring_attempted",
-      "title": "1,741 \"informed\" consents with one click? GDPR complaint filed"
-    },
     "https://octanejs.dev": {
       "canonical_url": "https://octanejs.dev",
       "created_at": "2026-08-03T09:53:53Z",
@@ -4054,6 +3894,12 @@
       "status": "scoring_attempted",
       "title": "Platform Engineering Maturity Emerges as a Key Differentiator for Enterprise AI Success"
     },
+    "https://www.infoq.com/news/2026/08/pod-deployment-unit-ai-agents": {
+      "canonical_url": "https://www.infoq.com/news/2026/08/pod-deployment-unit-ai-agents",
+      "created_at": "2026-08-06T08:04:15Z",
+      "status": "scoring_attempted",
+      "title": "Pods as Workers, Not Agents: Rethinking the Deployment Unit for AI Agents on Kubernetes"
+    },
     "https://www.infoq.com/news/2026/08/ponytail-agent-skill-benchmark": {
       "canonical_url": "https://www.infoq.com/news/2026/08/ponytail-agent-skill-benchmark",
       "created_at": "2026-08-05T09:08:39Z",
@@ -4077,6 +3923,12 @@
       "created_at": "2026-08-03T10:37:30Z",
       "status": "scoring_attempted",
       "title": "HashiCorp Ships Public Beta of Vault Kubernetes Key Management"
+    },
+    "https://www.infoq.com/news/2026/08/vercel-ships-zero-ai": {
+      "canonical_url": "https://www.infoq.com/news/2026/08/vercel-ships-zero-ai",
+      "created_at": "2026-08-06T08:04:15Z",
+      "status": "scoring_attempted",
+      "title": "Vercel Labs Ships Zero: A Graph-First Language Built So Agents Write the Code"
     },
     "https://www.infoq.com/podcasts/feature-evolution-performance-transition-endive": {
       "canonical_url": "https://www.infoq.com/podcasts/feature-evolution-performance-transition-endive",
