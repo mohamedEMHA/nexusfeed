@@ -26,6 +26,9 @@ POSTED_PATH = ROOT / "posted_articles.json"
 STATE_PATH = ROOT / "daily_state.json"
 AI_CACHE_PATH = ROOT / "ai_cache.json"
 DEBUG_CEREBRAS_RESPONSE_PATH = ROOT / "debug-cerebras-response.txt"
+# Repo identifier used as a footer in Telegram notifications.
+# In GitHub Actions this resolves to e.g. "mohamedEMHA/nexusfeed".
+REPO_NAME = (os.environ.get("GITHUB_REPOSITORY") or "").strip() or "mohamedEMHA/nexusfeed"
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 GROQ_MODEL = "llama-3.3-70b-versatile"
 CEREBRAS_URL = "https://api.mistral.ai/v1/chat/completions"
@@ -970,6 +973,7 @@ def send_telegram_error(message: str, context: dict | None = None) -> bool:
     if context:
         serialized_context = json.dumps(context, ensure_ascii=True, default=str, separators=(",", ":"))
         lines.append(f"Context: {trim_error_text(serialized_context, 800)}")
+    lines.append(f"Repo: {REPO_NAME}")
     payload = {
         "chat_id": chat_id,
         "text": "\n".join(lines),
@@ -1618,6 +1622,44 @@ def call_groq_social_posts(
     return None
 
 
+def _extract_chat_completion_content(data: Any) -> str | None:
+    """Pull the assistant text out of an OpenAI/Mistral style chat response.
+
+    Different providers (or error wrappers) may place the payload under
+    slightly different keys, so we try a few known locations in order
+    before giving up. Returns the raw string or ``None`` when nothing
+    matching is found.
+    """
+    if not isinstance(data, dict):
+        return None
+
+    # OpenAI / Mistral chat.completion shape.
+    choices = data.get("choices")
+    if isinstance(choices, list) and choices:
+        first = choices[0]
+        if isinstance(first, dict):
+            message = first.get("message")
+            if isinstance(message, dict):
+                content = message.get("content")
+                if isinstance(content, str):
+                    return content
+            # Older completions payload uses "text" directly on the choice.
+            text = first.get("text")
+            if isinstance(text, str):
+                return text
+
+    # Some providers stream or wrap the content in a top-level field.
+    for key in ("content", "output", "response", "message"):
+        value = data.get(key)
+        if isinstance(value, str):
+            return value
+        if isinstance(value, dict):
+            nested = value.get("content")
+            if isinstance(nested, str):
+                return nested
+    return None
+
+
 def call_cerebras(
     candidates: list[Article],
     now: datetime,
@@ -1789,7 +1831,11 @@ def call_cerebras(
         try:
             response.raise_for_status()
             data = response.json()
-            content = data["choices"][0]["message"]["content"]
+            content = _extract_chat_completion_content(data)
+            if not isinstance(content, str) or not content.strip():
+                logging.error("Cerebras empty content. Raw response keys=%s", list(data.keys()) if isinstance(data, dict) else None)
+                save_debug_text(DEBUG_CEREBRAS_RESPONSE_PATH, json.dumps(data, ensure_ascii=False, default=str))
+                raise ValueError("Cerebras returned an empty content payload.")
             if len(content) > 1200:
                 save_debug_text(DEBUG_CEREBRAS_RESPONSE_PATH, content)
                 logging.error(
@@ -1923,6 +1969,32 @@ def score_candidates_with_cerebras_batches(
             logging.warning("Skipping Cerebras batch %s after request failure.", batch_number)
             continue
 
+        # Persist the raw payload we received so we can diagnose
+        # "InvalidResponse" cases offline (e.g. when the model wraps
+        # the JSON differently or returns a partial document).
+        try:
+            debug_payload = {
+                "batch_number": batch_number,
+                "raw_type": type(batch_raw_result).__name__,
+                "raw_keys": list(batch_raw_result.keys()) if isinstance(batch_raw_result, dict) else None,
+                "raw_preview": trim_error_text(
+                    batch_raw_result if isinstance(batch_raw_result, str) else json.dumps(batch_raw_result, ensure_ascii=False, default=str),
+                    2000,
+                ),
+            }
+        except Exception as debug_exc:  # pragma: no cover - debug-only path
+            debug_payload = {"batch_number": batch_number, "debug_error": str(debug_exc)}
+        save_debug_text(
+            DEBUG_CEREBRAS_RESPONSE_PATH.with_name(f"debug-cerebras-batch-{batch_number}.json"),
+            json.dumps(debug_payload, ensure_ascii=False, default=str),
+        )
+        logging.info(
+            "Cerebras batch %s raw result: type=%s keys=%s",
+            batch_number,
+            type(batch_raw_result).__name__,
+            list(batch_raw_result.keys()) if isinstance(batch_raw_result, dict) else None,
+        )
+
         normalized_batch = normalize_scoring_result(batch_raw_result, f"Cerebras batch {batch_number}")
         if not normalized_batch or not normalized_batch.get("articles"):
             logging.warning("Skipping Cerebras batch %s after invalid or empty structured output.", batch_number)
@@ -1954,12 +2026,44 @@ def score_candidates_with_cerebras_batches(
 
 
 def normalize_scoring_result(result: dict[str, Any], provider_name: str = "Provider") -> dict[str, Any] | None:
-    if not isinstance(result, dict) or not isinstance(result.get("articles"), list):
+    if not isinstance(result, dict):
+        notify_component_error(
+            f"{provider_name} Scoring",
+            "InvalidResponse",
+            f"{provider_name} returned a non-dict payload.",
+            {
+                "result_type": type(result).__name__,
+                "run_context": "normalize_scoring_result",
+            },
+        )
+        return None
+
+    # Some providers occasionally rename the scored items list. Fall back
+    # to common alternatives so we still recover a valid document.
+    articles = result.get("articles")
+    if not isinstance(articles, list):
+        for alias in ("scores", "results", "items", "candidates", "ranked"):
+            candidate = result.get(alias)
+            if isinstance(candidate, list):
+                logging.warning(
+                    "%s payload used alias '%s' instead of 'articles' - coercing.",
+                    provider_name,
+                    alias,
+                )
+                result["articles"] = candidate
+                articles = candidate
+                break
+
+    if not isinstance(articles, list):
         notify_component_error(
             f"{provider_name} Scoring",
             "InvalidResponse",
             f"{provider_name} returned a non-dict or missing articles list.",
-            {"run_context": "normalize_scoring_result"},
+            {
+                "result_keys": list(result.keys()),
+                "articles_type": type(articles).__name__,
+                "run_context": "normalize_scoring_result",
+            },
         )
         return None
     recommendation = str(result.get("recommendation", "SKIP")).upper()
