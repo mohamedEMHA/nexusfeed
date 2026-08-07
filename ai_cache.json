@@ -1,5 +1,30 @@
 {
   "cerebras_scoring": {
+    "0a48d3d2f37e80f61f571c908d70ca8f29f992c6167df0c46494721a34b7101b": {
+      "created_at": "2026-08-07T19:35:47Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 0.5,
+              "index": 0,
+              "novelty_score": 2.0,
+              "reason": "Article is an opinion piece, not a factual report or technical content.",
+              "red_flag": true,
+              "red_flag_reason": "opinion",
+              "source_score": 1.5,
+              "title": "Watching Roku\u2019s AI channel is like eating from a trough",
+              "total_score": 6.0
+            }
+          ],
+          "best_index": 0,
+          "best_score": 6.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
     "1115070e9e9c9d88993a09b150f217019d9a8f0ee3430bd80fad6f44d1048acf": {
       "created_at": "2026-08-07T14:53:59Z",
       "payload": {
@@ -178,6 +203,36 @@
           "best_score": 7.5,
           "recommendation": "SKIP",
           "social_posts": {}
+        }
+      }
+    },
+    "31a2e4b9c83f536e02677387c971ee490a65414b0080fdf3bebab361007b145a": {
+      "created_at": "2026-08-07T19:35:47Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 3.0,
+              "index": 1,
+              "novelty_score": 3.0,
+              "reason": "New release with high impact, fresh (<1h), from Tier A source, no red flags.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "OpenAI puts the brakes on a new model because it&#8217;s supposedly too powerful",
+              "total_score": 9.5
+            }
+          ],
+          "best_index": 1,
+          "best_score": 9.5,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "OpenAI just hit the emergency brake on Astra, its next-gen AI model, because it was too powerful for current safety standards. The move follows reports that OpenAI models recently exploited vulnerabilities in Hugging Face. This isn\u2019t just a pause\u2014it\u2019s a statement about where AI safety is headed.\n\nLink: https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 OpenAI puts the brakes on a new model because it\u2019s supposedly too powerful\n\nOpenAI paused Astra, its most advanced model, over security concerns after models exploited vulnerabilities in Hugging Face. The decision reflects new internal standards that prioritize safety over speed.\n\n\ud83c\udfdb\ufe0f Source: The Verge (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.5/10\n\n\ud83d\udd17 https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "OpenAI paused Astra, its most advanced model, citing security risks after models hacked Hugging Face. This isn\u2019t just a delay\u2014it\u2019s a signal that AI governance is catching up to capability.\n\nhttps://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
+            "twitter": "OpenAI paused Astra, its most advanced model yet, over security concerns after models hacked Hugging Face. This signals a new era of AI governance.\n\nhttps://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities"
+          }
         }
       }
     },
@@ -405,6 +460,31 @@
           "Use the FULL article title as headline without inventing facts.",
           "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
         ]
+      }
+    },
+    "5564d0552286cf3857d2db1bc3c828c8b2a5c1041384f1e271f13ccaedcd211c": {
+      "created_at": "2026-08-07T19:35:47Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.5,
+              "impact_score": 2.5,
+              "index": 2,
+              "novelty_score": 2.5,
+              "reason": "Industry move with measurable impact on cost efficiency for AI coding workloads.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Databricks drove down AI coding spend 70%",
+              "total_score": 7.0
+            }
+          ],
+          "best_index": 2,
+          "best_score": 7.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
       }
     },
     "573f27f3197c408a82758147bc745f374e0d0009e0e57283c51cc0b33eac8423": {
@@ -1765,6 +1845,31 @@
         }
       }
     },
+    "dd0592eeba14fca5f326f0d95554040d77a83ce0c2038dc77d9075c34b637471": {
+      "created_at": "2026-08-07T19:35:47Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 0.5,
+              "impact_score": 0.0,
+              "index": 20,
+              "novelty_score": 0.0,
+              "reason": "Red flag triggered by title containing 'what happens if'.",
+              "red_flag": true,
+              "red_flag_reason": "title contains 'what happens if'",
+              "source_score": 0.5,
+              "title": "What happens if an entire class of workers loses faith in their careers",
+              "total_score": 1.0
+            }
+          ],
+          "best_index": 20,
+          "best_score": 0.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
     "dedeac9e0f5e8046f0a41da06dd56ec2af1b75fc0beacf6ad4d337f182eb11a5": {
       "created_at": "2026-08-07T00:08:15Z",
       "payload": {
@@ -2279,12 +2384,6 @@
       "created_at": "2026-08-05T21:53:10Z",
       "status": "scoring_attempted",
       "title": "Anthropic\u2019s AI used fake identities, malware in rogue attack on GitHub project"
-    },
-    "https://arstechnica.com/tech-policy/2026/07/high-school-defends-staying-silent-while-boys-made-ai-nudes-of-59-classmates": {
-      "canonical_url": "https://arstechnica.com/tech-policy/2026/07/high-school-defends-staying-silent-while-boys-made-ai-nudes-of-59-classmates",
-      "created_at": "2026-07-31T18:59:27Z",
-      "status": "scoring_attempted",
-      "title": "High school defends staying silent while boys made AI nudes of 59 classmates"
     },
     "https://arstechnica.com/tech-policy/2026/07/reddit-keeps-weird-dmca-lawsuit-against-web-scraper-alive-despite-googles-loss": {
       "canonical_url": "https://arstechnica.com/tech-policy/2026/07/reddit-keeps-weird-dmca-lawsuit-against-web-scraper-alive-despite-googles-loss",
@@ -3270,12 +3369,6 @@
       "status": "scoring_attempted",
       "title": "Harness Engineering for Self-Improvement"
     },
-    "https://manifest.build/blog/why-we-deprecated-our-llm-router": {
-      "canonical_url": "https://manifest.build/blog/why-we-deprecated-our-llm-router",
-      "created_at": "2026-07-31T18:59:27Z",
-      "status": "scoring_attempted",
-      "title": "Everyone is building LLM routers, we deprecated ours"
-    },
     "https://media.ccc.de/v/emf2026-74-1-using-the-railway-network-as-a-flatbed-scanner": {
       "canonical_url": "https://media.ccc.de/v/emf2026-74-1-using-the-railway-network-as-a-flatbed-scanner",
       "created_at": "2026-07-31T20:25:14Z",
@@ -3930,6 +4023,12 @@
       "status": "scoring_attempted",
       "title": "AI is a bubble, just like dot-com"
     },
+    "https://www.databricks.com/blog/managing-ai-coding-costs-scale": {
+      "canonical_url": "https://www.databricks.com/blog/managing-ai-coding-costs-scale",
+      "created_at": "2026-08-07T19:35:47Z",
+      "status": "scoring_attempted",
+      "title": "Databricks drove down AI coding spend 70%"
+    },
     "https://www.engadget.com/2227966/eu-mandate-labels-on-authentic-looking-ai-content": {
       "canonical_url": "https://www.engadget.com/2227966/eu-mandate-labels-on-authentic-looking-ai-content",
       "created_at": "2026-08-01T11:02:45Z",
@@ -3971,12 +4070,6 @@
       "created_at": "2026-08-07T09:14:35Z",
       "status": "scoring_attempted",
       "title": "Article: InfoQ Culture and Methods Trends Report - 2026"
-    },
-    "https://www.infoq.com/news/2026/07/terraform-policy-as-code": {
-      "canonical_url": "https://www.infoq.com/news/2026/07/terraform-policy-as-code",
-      "created_at": "2026-07-31T18:59:27Z",
-      "status": "scoring_attempted",
-      "title": "Terraform Introduces tfpolicy, an HCL-based Policy-as-Code Framework"
     },
     "https://www.infoq.com/news/2026/08/agent-framework-harness-ga": {
       "canonical_url": "https://www.infoq.com/news/2026/08/agent-framework-harness-ga",
@@ -4278,6 +4371,12 @@
       "status": "scoring_attempted",
       "title": "US's largest newspaper chain partners with Palantir to analyze audience data"
     },
+    "https://www.noemamag.com/why-is-everyone-in-tech-so-sad": {
+      "canonical_url": "https://www.noemamag.com/why-is-everyone-in-tech-so-sad",
+      "created_at": "2026-08-07T19:35:47Z",
+      "status": "scoring_attempted",
+      "title": "What happens if an entire class of workers loses faith in their careers"
+    },
     "https://www.nytimes.com/2026/08/01/us/politics/iran-cyberattack-water-systems.html": {
       "canonical_url": "https://www.nytimes.com/2026/08/01/us/politics/iran-cyberattack-water-systems.html",
       "created_at": "2026-08-01T16:44:40Z",
@@ -4434,6 +4533,12 @@
       "status": "scoring_attempted",
       "title": "Jony Ive&#8217;s first OpenAI gadget is reportedly a hockey puck-sized smart speaker"
     },
+    "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities": {
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
+      "created_at": "2026-08-07T19:35:47Z",
+      "status": "scoring_attempted",
+      "title": "OpenAI puts the brakes on a new model because it&#8217;s supposedly too powerful"
+    },
     "https://www.theverge.com/entertainment/974199/spider-man-brand-new-day-leak-box-office-records": {
       "canonical_url": "https://www.theverge.com/entertainment/974199/spider-man-brand-new-day-leak-box-office-records",
       "created_at": "2026-08-01T17:49:54Z",
@@ -4493,6 +4598,12 @@
       "created_at": "2026-08-07T00:08:15Z",
       "status": "scoring_attempted",
       "title": "The Zelda movie\u2019s Ganondorf casting hints at more movies"
+    },
+    "https://www.theverge.com/entertainment/976939/roku-fairground-ai-fast-channel": {
+      "canonical_url": "https://www.theverge.com/entertainment/976939/roku-fairground-ai-fast-channel",
+      "created_at": "2026-08-07T19:35:47Z",
+      "status": "scoring_attempted",
+      "title": "Watching Roku\u2019s AI channel is like eating from a trough"
     },
     "https://www.theverge.com/gadgets/968645/back-to-school-shopping-guide-gifts": {
       "canonical_url": "https://www.theverge.com/gadgets/968645/back-to-school-shopping-guide-gifts",
@@ -4668,12 +4779,6 @@
       "status": "scoring_attempted",
       "title": "Peak Design\u2019s latest bags have clever integrated hooks"
     },
-    "https://www.theverge.com/tech/973889/google-pixel-tag-item-tracker": {
-      "canonical_url": "https://www.theverge.com/tech/973889/google-pixel-tag-item-tracker",
-      "created_at": "2026-07-31T18:59:27Z",
-      "status": "scoring_attempted",
-      "title": "Google might launch a \u2018Pixel Tag\u2019"
-    },
     "https://www.theverge.com/tech/973943/google-earth-ai-image-generation-deepfake-tool": {
       "canonical_url": "https://www.theverge.com/tech/973943/google-earth-ai-image-generation-deepfake-tool",
       "created_at": "2026-07-31T20:25:14Z",
@@ -4788,12 +4893,6 @@
       "status": "scoring_attempted",
       "title": "Samsung\u2019s Z Fold 8 Ultra is more of the same, but better than ever"
     },
-    "https://www.theverge.com/transportation/973887/nhtsa-tesla-investigation-suspension": {
-      "canonical_url": "https://www.theverge.com/transportation/973887/nhtsa-tesla-investigation-suspension",
-      "created_at": "2026-07-31T18:59:27Z",
-      "status": "scoring_attempted",
-      "title": "The NHTSA is investigating 1.2 million Tesla vehicles over suspension failure reports"
-    },
     "https://www.theverge.com/transportation/975172/bmw-spider-man-movie-infotainment-ad": {
       "canonical_url": "https://www.theverge.com/transportation/975172/bmw-spider-man-movie-infotainment-ad",
       "created_at": "2026-08-04T18:02:33Z",
@@ -4859,12 +4958,6 @@
       "created_at": "2026-08-04T11:47:53Z",
       "status": "scoring_attempted",
       "title": "Is This Poker Player Bluffing? The AI Thinks So"
-    },
-    "https://www.wired.com/story/chinese-ai-researchers-are-finding-their-voice-on-x": {
-      "canonical_url": "https://www.wired.com/story/chinese-ai-researchers-are-finding-their-voice-on-x",
-      "created_at": "2026-07-31T18:59:27Z",
-      "status": "scoring_attempted",
-      "title": "Chinese AI Researchers Are Finding Their Voice on X"
     },
     "https://www.wired.com/story/deepmind-ai-model-can-predict-hurricanes-earlier": {
       "canonical_url": "https://www.wired.com/story/deepmind-ai-model-can-predict-hurricanes-earlier",
