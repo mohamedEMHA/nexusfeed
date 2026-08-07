@@ -84,39 +84,6 @@
         }
       }
     },
-    "184e035f76c799626585fda49e2f99551d6553553235322f3678269ba1eb4d5a": {
-      "created_at": "2026-08-06T08:04:15Z",
-      "payload": {
-        "candidates": [],
-        "prompt_version": "cerebras-scoring-v1",
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1.5,
-              "impact_score": 2.5,
-              "index": 1,
-              "novelty_score": 3.0,
-              "reason": "New experimental language release with niche but high potential impact for AI-driven development.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.0,
-              "title": "Vercel Labs Ships Zero: A Graph-First Language Built So Agents Write the Code",
-              "total_score": 8.0
-            }
-          ],
-          "best_index": 1,
-          "best_score": 8.0,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        },
-        "social_media_rules": [
-          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
-          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.",
-          "Use the FULL article title as headline without inventing facts.",
-          "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
-        ]
-      }
-    },
     "22b21a5304d816962736b24386234f551daa5dc83a1268637c7cba57cdd84a43": {
       "created_at": "2026-08-07T07:08:19Z",
       "payload": {
@@ -398,48 +365,6 @@
             "twitter": "OpenAI just made ChatGPT\u2019s free tier far more usable by removing text chat limits. Free users now get unlimited queries and a new \u2018think\u2019 button for complex prompts.\n\nhttps://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/"
           }
         }
-      }
-    },
-    "4588703dc61e2f7a5db918949393b51c45d78a70a35eb8ef873db21b3afe2554": {
-      "created_at": "2026-08-06T08:04:15Z",
-      "payload": {
-        "candidates": [
-          {
-            "article_url": "https://www.infoq.com/news/2026/08/pod-deployment-unit-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-            "index": 0,
-            "published_relative": "2 hours ago",
-            "published_time_utc": "2026-08-06T06:00:00Z",
-            "source": "InfoQ AI/ML",
-            "summary": "Running AI agents on Kubernetes raises a key question: should each agent get its own Pod? The kagent project argues no\u2014agents are bursty, short-lived, can spawn subagents, and may wait for human approval, making one Pod per agent wasteful. Agent-substrate adds a control plane to schedule logical \u201cagents\u201d as lightweight workers on shared Pods.",
-            "tier": "B",
-            "title": "Pods as Workers, Not Agents: Rethinking the Deployment Unit for AI Agents on Kubernetes"
-          }
-        ],
-        "prompt_version": "cerebras-scoring-v1",
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1.5,
-              "impact_score": 2.5,
-              "index": 0,
-              "novelty_score": 2.5,
-              "reason": "Research on Kubernetes deployment patterns for AI agents with practical implications for scaling.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1,
-              "title": "Pods as Workers, Not Agents: Rethinking the Deployment Unit for AI Agents on Kubernetes",
-              "total_score": 7.5
-            }
-          ],
-          "best_index": 0,
-          "best_score": 7.5,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        },
-        "social_media_rules": [
-          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
-          "If recommendation is SKIP, the social_posts object must be empty."
-        ]
       }
     },
     "685f24588032f5a5cac1d9e8462ad150b928ab1a8b9f2355d1365d1c4305f64f": {
@@ -1027,6 +952,36 @@
         }
       }
     },
+    "b17583cbe5300043497ccd641f533e9be9cf13a729d7f0a9305c497f72b5f56d": {
+      "created_at": "2026-08-07T08:10:05Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.5,
+              "index": 0,
+              "novelty_score": 3.0,
+              "reason": "New release with broad cross-platform impact, fresh (<1h), but source is Tier B.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.0,
+              "title": "Uno Platform 6.6 Adds Native AOT, Vulkan Rendering, and Broader Accessibility Support",
+              "total_score": 8.5
+            }
+          ],
+          "best_index": 0,
+          "best_score": 8.5,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "Uno Platform 6.6 drops with Native AOT publishing, an optional Vulkan backend, and expanded WinUI API coverage across five platforms. The release also reduces XAML boilerplate and improves accessibility support. Link: https://www.infoq.com/news/2026/08/uno-platform-6-6/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Uno Platform 6.6 Adds Native AOT, Vulkan Rendering, and Broader Accessibility Support*\n\nUno Platform 6.6 introduces Native AOT publishing across five target platforms, an optional Vulkan rendering backend, and expanded WinUI API coverage. The release reduces XAML boilerplate and improves accessibility support.\n\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (Tier B)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.infoq.com/news/2026/08/uno-platform-6-6/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "Uno Platform 6.6 adds Native AOT publishing, Vulkan rendering, and WinUI API parity across five platforms. It cuts XAML boilerplate and improves accessibility support.\n\nhttps://www.infoq.com/news/2026/08/uno-platform-6-6/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+            "twitter": "Uno Platform 6.6 ships Native AOT, Vulkan rendering, and WinUI API parity across five platforms. The update cuts XAML boilerplate and boosts accessibility support.\n\nhttps://www.infoq.com/news/2026/08/uno-platform-6-6/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+          }
+        }
+      }
+    },
     "c0db23a1ab1c7bebed82887fd4fd08be2aa0144e9c73aea5f61c359ff3fd2405": {
       "created_at": "2026-08-07T05:52:22Z",
       "payload": {
@@ -1057,6 +1012,36 @@
           }
         },
         "social_media_rules": []
+      }
+    },
+    "c4406c9249fbdb878edc09c749613d7d3dec271c0c1105f74b111954765daed7": {
+      "created_at": "2026-08-07T08:10:05Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.5,
+              "index": 1,
+              "novelty_score": 3.0,
+              "reason": "New industry move with high impact on developer workflows, fresh and from a Tier B source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.0,
+              "title": "Rootly Drops Small PR Rule as Agentic AI Changes Code Review Economics",
+              "total_score": 8.5
+            }
+          ],
+          "best_index": 1,
+          "best_score": 8.5,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "Rootly stopped enforcing its small pull request rule after realizing AI agents now generate most of its code. The company now prioritizes review efficiency over PR size, signaling a broader shift in engineering practices driven by agentic AI.\n\nLink: https://www.infoq.com/news/2026/08/rootly-small-pr-agentic-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Rootly Drops Small PR Rule as Agentic AI Changes Code Review Economics*\n\nRootly abandoned its small pull request rule after AI agents began generating most of its code. The company now measures review efficiency instead of PR size, highlighting how agentic AI is reshaping engineering workflows.\n\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (Tier B)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.infoq.com/news/2026/08/rootly-small-pr-agentic-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "Rootly dropped its small PR rule because AI agents now handle most code generation. The change reflects how agentic AI is forcing teams to rethink traditional engineering metrics like PR size.\n\nhttps://www.infoq.com/news/2026/08/rootly-small-pr-agentic-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+            "twitter": "Rootly abandoned its small PR rule because AI agents now handle most code. The shift from PR size metrics to review efficiency reflects how agentic AI is rewriting engineering practices.\n\nhttps://www.infoq.com/news/2026/08/rootly-small-pr-agentic-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+          }
+        }
       }
     },
     "ccf69b669d6aa6168aa58e56618ea3f932f646b4995c07ca2db6c0eb7b6215a8": {
@@ -3299,6 +3284,12 @@
       "status": "scoring_attempted",
       "title": "Ponytail Agent Skill Corrects Its Own Benchmark After Contributor Challenge"
     },
+    "https://www.infoq.com/news/2026/08/rootly-small-pr-agentic-ai": {
+      "canonical_url": "https://www.infoq.com/news/2026/08/rootly-small-pr-agentic-ai",
+      "created_at": "2026-08-07T08:10:05Z",
+      "status": "scoring_attempted",
+      "title": "Rootly Drops Small PR Rule as Agentic AI Changes Code Review Economics"
+    },
     "https://www.infoq.com/news/2026/08/skia-sharp-4-release": {
       "canonical_url": "https://www.infoq.com/news/2026/08/skia-sharp-4-release",
       "created_at": "2026-08-05T09:08:39Z",
@@ -3310,6 +3301,12 @@
       "created_at": "2026-08-03T05:58:15Z",
       "status": "scoring_attempted",
       "title": "Microsoft Releases TypeScript 7.0 with a Native Go Compiler, Delivering 10x Faster Builds"
+    },
+    "https://www.infoq.com/news/2026/08/uno-platform-6-6": {
+      "canonical_url": "https://www.infoq.com/news/2026/08/uno-platform-6-6",
+      "created_at": "2026-08-07T08:10:05Z",
+      "status": "scoring_attempted",
+      "title": "Uno Platform 6.6 Adds Native AOT, Vulkan Rendering, and Broader Accessibility Support"
     },
     "https://www.infoq.com/news/2026/08/vault-kubernetes-key-management": {
       "canonical_url": "https://www.infoq.com/news/2026/08/vault-kubernetes-key-management",
