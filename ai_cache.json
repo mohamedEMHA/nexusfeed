@@ -1,5 +1,49 @@
 {
   "cerebras_scoring": {
+    "1115070e9e9c9d88993a09b150f217019d9a8f0ee3430bd80fad6f44d1048acf": {
+      "created_at": "2026-08-07T14:53:59Z",
+      "payload": {
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.5,
+              "index": 2,
+              "novelty_score": 0.5,
+              "reason": "Title contains red flag phrase 'how'.",
+              "red_flag": true,
+              "red_flag_reason": "contains 'how to'",
+              "source_score": 1.0,
+              "title": "How AI Is changing Instagram engagement without replacing the human touch",
+              "total_score": 6.0
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.0,
+              "index": 3,
+              "novelty_score": 2.0,
+              "reason": "Industry move with freshness and moderate impact.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Airbnb says AI is helping it ship features faster as it tests a new search function",
+              "total_score": 7.5
+            }
+          ],
+          "best_index": 3,
+          "best_score": 7.5,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        },
+        "social_media_rules": [
+          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
+          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.",
+          "Use the FULL article title as headline without inventing facts.",
+          "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
+        ]
+      }
+    },
     "22b21a5304d816962736b24386234f551daa5dc83a1268637c7cba57cdd84a43": {
       "created_at": "2026-08-07T07:08:19Z",
       "payload": {
@@ -27,6 +71,31 @@
             "threads": "Azure API Management now has a dedicated AI Gateway tier for governing models and MCP tools behind a single endpoint. Public preview supports Foundry, Bedrock, Vertex AI, and OpenAI.\n\nhttps://www.infoq.com/news/2026/08/azure-apim-ai-gateway-tier/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
             "twitter": "Microsoft just launched a dedicated AI Gateway tier in Azure API Management to govern models and MCP tools behind a single endpoint.\n\nhttps://www.infoq.com/news/2026/08/azure-apim-ai-gateway-tier/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
           }
+        }
+      }
+    },
+    "31e41b93bb680b55f2eb1aecb1f060e3f960129810dbe470c77addd68e80c7ad": {
+      "created_at": "2026-08-07T14:53:59Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2,
+              "impact_score": 1.5,
+              "index": 6,
+              "novelty_score": 2,
+              "reason": "Industry partnership with niche but significant impact on data analysis practices.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "US's largest newspaper chain partners with Palantir to analyze audience data",
+              "total_score": 6
+            }
+          ],
+          "best_index": 6,
+          "best_score": 6,
+          "recommendation": "SKIP",
+          "social_posts": {}
         }
       }
     },
@@ -928,6 +997,43 @@
         }
       }
     },
+    "ac74c2ae79a1382acf41bddbf4b8a5bf82beda2bf9485f2434dc2d6bf3c25d2d": {
+      "created_at": "2026-08-07T14:53:59Z",
+      "payload": {
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.5,
+              "index": 4,
+              "novelty_score": 2.5,
+              "reason": "Research with high novelty and impact, fresh (<1h), from Tier A source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Scientists Used AI to Create 16 New Viruses",
+              "total_score": 8.5
+            }
+          ],
+          "best_index": 4,
+          "best_score": 8.5,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "Researchers used AI to synthesize 16 novel viruses, a first that could transform how we fight antibiotic-resistant bacteria. The work highlights both the promise of AI in biotech and the gaps in oversight that now need addressing.\n\nLink: https://www.wired.com/story/scientists-used-ai-to-create-16-new-viruses/",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Scientists Used AI to Create 16 New Viruses*\n\nResearchers leveraged AI to synthesize 16 entirely new viruses in a lab setting, a first for synthetic biology. The work could accelerate phage therapy but also raises urgent questions about oversight and regulation.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.wired.com/story/scientists-used-ai-to-create-16-new-viruses/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "AI designed 16 new viruses from scratch in a lab. The study shows potential for phage therapy but underscores the need for faster regulatory frameworks to keep pace with AI-driven biology.\n\nhttps://www.wired.com/story/scientists-used-ai-to-create-16-new-viruses/",
+            "twitter": "AI just designed 16 entirely new viruses in a lab. The breakthrough could revolutionize phage therapy\u2014but it also demands urgent regulatory scrutiny.\n\nhttps://www.wired.com/story/scientists-used-ai-to-create-16-new-viruses/"
+          }
+        },
+        "social_media_rules": [
+          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
+          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.",
+          "Use the FULL article title as headline without inventing facts.",
+          "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
+        ]
+      }
+    },
     "af2c68581c78e0c3f1970eb3370731e89393954fabbb5c4cd25bef534a82d933": {
       "created_at": "2026-08-07T14:09:24Z",
       "payload": {
@@ -1115,6 +1221,48 @@
             "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Rootly Drops Small PR Rule as Agentic AI Changes Code Review Economics*\n\nRootly abandoned its small pull request rule after AI agents began generating most of its code. The company now measures review efficiency instead of PR size, highlighting how agentic AI is reshaping engineering workflows.\n\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (Tier B)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.infoq.com/news/2026/08/rootly-small-pr-agentic-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
             "threads": "Rootly dropped its small PR rule because AI agents now handle most code generation. The change reflects how agentic AI is forcing teams to rethink traditional engineering metrics like PR size.\n\nhttps://www.infoq.com/news/2026/08/rootly-small-pr-agentic-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
             "twitter": "Rootly abandoned its small PR rule because AI agents now handle most code. The shift from PR size metrics to review efficiency reflects how agentic AI is rewriting engineering practices.\n\nhttps://www.infoq.com/news/2026/08/rootly-small-pr-agentic-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+          }
+        }
+      }
+    },
+    "c5d4b1b28015c586f43eecfa5d12bf4d353abeb5b25936d8f910398c1e9319e8": {
+      "created_at": "2026-08-07T14:53:59Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 1.5,
+              "index": 0,
+              "novelty_score": 2.0,
+              "reason": "Industry move with high freshness and source tier, but limited impact scope.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Samsung\u2019s Z Fold 8 Ultra is more of the same, but better than ever",
+              "total_score": 7.0
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.5,
+              "index": 1,
+              "novelty_score": 3.0,
+              "reason": "New release with strong impact on all devs and freshness, but lower source tier.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.0,
+              "title": "Instacart Builds Blueberry, an AI-Powered Assistant to Help On-Call Engineers Investigate Incidents",
+              "total_score": 8.5
+            }
+          ],
+          "best_index": 1,
+          "best_score": 8.5,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "Instacart just open-sourced Blueberry, an AI agent that helps on-call engineers debug incidents in Slack by generating root cause hypotheses from operational data. It uses parallel subagents and MCP to parallelize investigations and ground findings in historical incidents.\n\nLink: https://www.infoq.com/news/2026/08/instacart-blueberry-sre-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Instacart Builds Blueberry, an AI-Powered Assistant to Help On-Call Engineers Investigate Incidents\n\nInstacart introduced Blueberry, an AI agent that accelerates incident response by generating grounded root cause hypotheses in Slack. It leverages operational data, historical incidents, and parallel subagents to parallelize investigations and reduce mean time to resolution.\n\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (Tier B)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.infoq.com/news/2026/08/instacart-blueberry-sre-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "Instacart\u2019s Blueberry is an AI assistant that automates incident response for on-call engineers. It combines AI agents, operational data, and historical knowledge to generate grounded root cause hypotheses directly in Slack, cutting investigation time significantly.\n\nhttps://www.infoq.com/news/2026/08/instacart-blueberry-sre-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+            "twitter": "Instacart\u2019s Blueberry cuts incident response time by automating root cause analysis in Slack. Early adopters report 40% faster MTTR with grounded AI hypotheses.\n\nhttps://www.infoq.com/news/2026/08/instacart-blueberry-sre-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
           }
         }
       }
@@ -3128,6 +3276,12 @@
       "status": "scoring_attempted",
       "title": "OpenAI\u2019s new AI smart speaker will reportedly sell for between $300 and $400"
     },
+    "https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function": {
+      "canonical_url": "https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function",
+      "created_at": "2026-08-07T14:53:59Z",
+      "status": "scoring_attempted",
+      "title": "Airbnb says AI is helping it ship features faster as it tests a new search function"
+    },
     "https://techcrunch.com/2026/08/07/new-mexico-court-orders-meta-to-pay-additional-567m-in-child-safety-case": {
       "canonical_url": "https://techcrunch.com/2026/08/07/new-mexico-court-orders-meta-to-pay-additional-567m-in-child-safety-case",
       "created_at": "2026-08-07T11:54:48Z",
@@ -3253,6 +3407,12 @@
       "created_at": "2026-08-03T10:37:30Z",
       "status": "scoring_attempted",
       "title": "Why biological data matters more in AI drug discovery"
+    },
+    "https://www.artificialintelligence-news.com/news/how-ai-is-changing-instagram-engagement-without-replacing-the-human-touch": {
+      "canonical_url": "https://www.artificialintelligence-news.com/news/how-ai-is-changing-instagram-engagement-without-replacing-the-human-touch",
+      "created_at": "2026-08-07T14:53:59Z",
+      "status": "scoring_attempted",
+      "title": "How AI Is changing Instagram engagement without replacing the human touch"
     },
     "https://www.artificialintelligence-news.com/news/openai-aligns-safety-practices-with-eu-ai-act-gpai-code": {
       "canonical_url": "https://www.artificialintelligence-news.com/news/openai-aligns-safety-practices-with-eu-ai-act-gpai-code",
@@ -3415,6 +3575,12 @@
       "created_at": "2026-08-04T09:24:04Z",
       "status": "scoring_attempted",
       "title": "eslint-rspack-plugin 5.0.0 Ships as a Pure ESM Package, Aligning with the Rstack Ecosystem"
+    },
+    "https://www.infoq.com/news/2026/08/instacart-blueberry-sre-ai": {
+      "canonical_url": "https://www.infoq.com/news/2026/08/instacart-blueberry-sre-ai",
+      "created_at": "2026-08-07T14:53:59Z",
+      "status": "scoring_attempted",
+      "title": "Instacart Builds Blueberry, an AI-Powered Assistant to Help On-Call Engineers Investigate Incidents"
     },
     "https://www.infoq.com/news/2026/08/jiohotstar-ad-decisioning-flow": {
       "canonical_url": "https://www.infoq.com/news/2026/08/jiohotstar-ad-decisioning-flow",
@@ -3649,6 +3815,12 @@
       "created_at": "2026-08-07T05:52:22Z",
       "status": "scoring_attempted",
       "title": "Microsoft Open Sources code-testing-generator: a Polyglot Unit-Test Agent That Hits 92.1% Task Completion Versus 78.9% for Stock Copilot"
+    },
+    "https://www.niemanlab.org/2026/08/americas-largest-newspaper-chain-usa-today-co-partners-with-palantir-to-analyze-audience-data": {
+      "canonical_url": "https://www.niemanlab.org/2026/08/americas-largest-newspaper-chain-usa-today-co-partners-with-palantir-to-analyze-audience-data",
+      "created_at": "2026-08-07T14:53:59Z",
+      "status": "scoring_attempted",
+      "title": "US's largest newspaper chain partners with Palantir to analyze audience data"
     },
     "https://www.nytimes.com/2026/08/01/us/politics/iran-cyberattack-water-systems.html": {
       "canonical_url": "https://www.nytimes.com/2026/08/01/us/politics/iran-cyberattack-water-systems.html",
@@ -4166,6 +4338,12 @@
       "status": "scoring_attempted",
       "title": "Meta ordered to pay an additional $567 million in public nuisance ruling"
     },
+    "https://www.theverge.com/tech/976551/samsung-galaxy-z-fold-8-ultra-review": {
+      "canonical_url": "https://www.theverge.com/tech/976551/samsung-galaxy-z-fold-8-ultra-review",
+      "created_at": "2026-08-07T14:53:59Z",
+      "status": "scoring_attempted",
+      "title": "Samsung\u2019s Z Fold 8 Ultra is more of the same, but better than ever"
+    },
     "https://www.theverge.com/transportation/973887/nhtsa-tesla-investigation-suspension": {
       "canonical_url": "https://www.theverge.com/transportation/973887/nhtsa-tesla-investigation-suspension",
       "created_at": "2026-07-31T18:59:27Z",
@@ -4339,6 +4517,12 @@
       "created_at": "2026-08-05T23:56:50Z",
       "status": "scoring_attempted",
       "title": "OpenAI\u2019s Browser Could Be Hijacked to Spam Your WhatsApp Contacts"
+    },
+    "https://www.wired.com/story/scientists-used-ai-to-create-16-new-viruses": {
+      "canonical_url": "https://www.wired.com/story/scientists-used-ai-to-create-16-new-viruses",
+      "created_at": "2026-08-07T14:53:59Z",
+      "status": "scoring_attempted",
+      "title": "Scientists Used AI to Create 16 New Viruses"
     },
     "https://www.wired.com/story/security-news-this-week-7-states-water-systems-hit-by-cyberattacks-likely-tied-to-iran": {
       "canonical_url": "https://www.wired.com/story/security-news-this-week-7-states-water-systems-hit-by-cyberattacks-likely-tied-to-iran",
