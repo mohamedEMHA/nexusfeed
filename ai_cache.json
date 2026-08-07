@@ -931,6 +931,63 @@
         "social_media_rules": []
       }
     },
+    "9ecb5233ba065d4dd0e567f42499c08e98db4cfb2ff6201869eb8a6a3fa1d135": {
+      "created_at": "2026-08-07T11:09:07Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 0.5,
+              "index": 2,
+              "novelty_score": 0.5,
+              "reason": "Opinion piece with low novelty and niche impact.",
+              "red_flag": true,
+              "red_flag_reason": "opinion piece",
+              "source_score": 1.5,
+              "title": "Trying to explain One Night Only&#8217;s tech-enforced sex dystopia",
+              "total_score": 4.5
+            }
+          ],
+          "best_index": 2,
+          "best_score": 4.5,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
+    "a0d1364eb81e455e4b7c8b66b2cc43d01669649721d15f0422b25a4c488d54a3": {
+      "created_at": "2026-08-07T11:09:07Z",
+      "payload": {
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.5,
+              "index": 1,
+              "novelty_score": 3.0,
+              "reason": "High novelty (new release/industry move), strong impact (all devs), fresh (<1h), but Tier B source limits score.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.0,
+              "title": "Presentation: Rewriting All of Spotify's Code Base, All the Time",
+              "total_score": 8.5
+            }
+          ],
+          "best_index": 1,
+          "best_score": 8.5,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "Spotify\u2019s new AI coding agent, Honk, is rewriting their entire codebase on an ongoing basis. Engineers shared how they decoupled CI verification from AI agents and automated pull request bottlenecks at massive scale. The architectural insights could change how large teams handle fleet-wide migrations.\n\nLink: https://www.infoq.com/presentations/spotify-ai-codebase-migration-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Presentation: Rewriting All of Spotify's Code Base, All the Time*\n\nSpotify\u2019s engineering team built \"Honk,\" an AI agent that continuously rewrites their entire codebase. They detail how they decoupled CI verification runtimes from AI agents and automated pull request bottlenecks at fleet scale.\n\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (Tier B)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.infoq.com/presentations/spotify-ai-codebase-migration-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "Spotify\u2019s Honk agent is rewriting their entire codebase continuously. The team decoupled CI from AI agents and automated PR bottlenecks at fleet scale. Their architectural choices could redefine how large teams handle large-scale migrations.\n\nhttps://www.infoq.com/presentations/spotify-ai-codebase-migration-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+            "twitter": "Spotify built an AI agent that rewrites its entire codebase continuously. Their new system decouples CI from agents and handles PR bottlenecks at scale.\n\nhttps://www.infoq.com/presentations/spotify-ai-codebase-migration-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+          }
+        },
+        "social_media_rules": []
+      }
+    },
     "a1305e7e28634edb46b0654eebf8d80f79c8b57331b72bbb04ccb0f6f85f3c9e": {
       "created_at": "2026-08-07T09:14:35Z",
       "payload": {
@@ -1424,6 +1481,36 @@
           ],
           "best_index": 7,
           "best_score": 7.5,
+          "recommendation": "SKIP",
+          "social_posts": {
+            "facebook": "",
+            "telegram": "",
+            "threads": "",
+            "twitter": ""
+          }
+        }
+      }
+    },
+    "fe7a723321ae7d01be422037bc21a98a1daa286013c70aa0359d08d5dc0c2b4a": {
+      "created_at": "2026-08-07T11:09:07Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.5,
+              "index": 0,
+              "novelty_score": 0.5,
+              "reason": "Question-based title triggers red flag per guidelines.",
+              "red_flag": true,
+              "red_flag_reason": "question in title",
+              "source_score": 1.5,
+              "title": "Why does Apple keep banning Telegram, but never X?",
+              "total_score": 6.5
+            }
+          ],
+          "best_index": 0,
+          "best_score": 0.0,
           "recommendation": "SKIP",
           "social_posts": {
             "facebook": "",
@@ -3405,6 +3492,12 @@
       "status": "scoring_attempted",
       "title": "Presentation: Microservices Platforms: When Team Topologies Meets Microservices Patterns"
     },
+    "https://www.infoq.com/presentations/spotify-ai-codebase-migration-agent": {
+      "canonical_url": "https://www.infoq.com/presentations/spotify-ai-codebase-migration-agent",
+      "created_at": "2026-08-07T11:09:07Z",
+      "status": "scoring_attempted",
+      "title": "Presentation: Rewriting All of Spotify's Code Base, All the Time"
+    },
     "https://www.infoq.com/presentations/valkey-architecture-patterns": {
       "canonical_url": "https://www.infoq.com/presentations/valkey-architecture-patterns",
       "created_at": "2026-08-06T11:49:49Z",
@@ -3759,6 +3852,12 @@
       "status": "scoring_attempted",
       "title": "Don\u2019t screw this up, Marvel"
     },
+    "https://www.theverge.com/entertainment/975917/one-night-only-sex-purge-movie-questions-tech": {
+      "canonical_url": "https://www.theverge.com/entertainment/975917/one-night-only-sex-purge-movie-questions-tech",
+      "created_at": "2026-08-07T11:09:07Z",
+      "status": "scoring_attempted",
+      "title": "Trying to explain One Night Only&#8217;s tech-enforced sex dystopia"
+    },
     "https://www.theverge.com/entertainment/976073/gta-6-trailer-3-date-time-netflix-youtube": {
       "canonical_url": "https://www.theverge.com/entertainment/976073/gta-6-trailer-3-date-time-netflix-youtube",
       "created_at": "2026-08-06T13:24:13Z",
@@ -4034,6 +4133,12 @@
       "created_at": "2026-08-06T13:24:13Z",
       "status": "scoring_attempted",
       "title": "You can now ask Google Maps\u2019 AI to order food for you"
+    },
+    "https://www.theverge.com/tech/976405/apple-telegram-ban-x-app-store-violations": {
+      "canonical_url": "https://www.theverge.com/tech/976405/apple-telegram-ban-x-app-store-violations",
+      "created_at": "2026-08-07T11:09:07Z",
+      "status": "scoring_attempted",
+      "title": "Why does Apple keep banning Telegram, but never X?"
     },
     "https://www.theverge.com/tech/976454/made-by-google-2026-event-pixel-11-trevor-noah": {
       "canonical_url": "https://www.theverge.com/tech/976454/made-by-google-2026-event-pixel-11-trevor-noah",
