@@ -291,6 +291,43 @@
         }
       }
     },
+    "35d6deff4e080d33e0468f784a513a6cb5def2f4a3cdbb6d75a23abab4bd77c3": {
+      "created_at": "2026-08-07T21:52:22Z",
+      "payload": {
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.5,
+              "index": 0,
+              "novelty_score": 3.0,
+              "reason": "New product release with high novelty, broad impact, and freshness.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "After Rippling blew millions on AI in months, it built an employee ROI tool",
+              "total_score": 9.0
+            }
+          ],
+          "best_index": 0,
+          "best_score": 9.0,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "Rippling\u2019s new AI Spend Console finally puts a number on whether your team\u2019s AI tools are worth the cost. After internal audits revealed runaway spending, the company built a product to track per-employee ROI across every AI subscription. It\u2019s live now for enterprise customers.\n\nLink: https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *After Rippling blew millions on AI in months, it built an employee ROI tool*\n\nRippling\u2019s new AI Spend Console audits AI tool usage and ROI by employee, team, and project. Early pilots report 30% cost reductions.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "Rippling\u2019s AI Spend Console is here to stop the AI budget hemorrhage. The tool audits every AI subscription by employee, team, and project\u2014something most orgs still do in spreadsheets. Early pilots cut costs by 30%.\n\nhttps://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
+            "twitter": "Rippling launches AI Spend Console to track employee AI tool ROI after burning millions. Early adopters report 30% cost reduction in pilot tests.\n\nhttps://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/"
+          }
+        },
+        "social_media_rules": [
+          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
+          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.",
+          "Use the FULL article title as headline without inventing facts.",
+          "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
+        ]
+      }
+    },
     "3a7882f55fc9498b65b487bddb95e38451fea499cc8694a26e6f6731acab3191": {
       "created_at": "2026-08-07T17:42:35Z",
       "payload": {
@@ -1016,6 +1053,36 @@
           "best_score": 3.5,
           "recommendation": "SKIP",
           "social_posts": {}
+        }
+      }
+    },
+    "817d05df71915db057a580b8bf5390dd60461e015f81b3354f7cd19b1633ffbc": {
+      "created_at": "2026-08-07T21:52:22Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.5,
+              "index": 1,
+              "novelty_score": 3.0,
+              "reason": "New open-source runtime for AI agents with significant novelty and broad impact for developers.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.0,
+              "title": "Cloudflare Launches Persistent, Stateful, Computer-like Environments for Agents",
+              "total_score": 8.5
+            }
+          ],
+          "best_index": 1,
+          "best_score": 8.5,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "Cloudflare\u2019s new open-source runtime, Cloudflare Computer, gives AI agents persistent, stateful environments instead of ephemeral containers. That means faster execution, lower costs, and better scalability for agent-based systems. The project is already live and open for contributions.\n\nLink: https://www.infoq.com/news/2026/08/cloudflare-computer-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Cloudflare Launches Persistent, Stateful, Computer-like Environments for Agents*\n\nCloudflare released Cloudflare Computer, an open-source runtime giving AI agents persistent state instead of ephemeral containers. Built on Cloudflare isolates, it promises faster execution and lower costs for agent workloads.\n\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (Tier B)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.infoq.com/news/2026/08/cloudflare-computer-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "Cloudflare Computer turns AI agents into something closer to real computers with persistent state. The serverless runtime leverages Cloudflare isolates for speed and cost efficiency, and it\u2019s open source now.\n\nhttps://www.infoq.com/news/2026/08/cloudflare-computer-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+            "twitter": "Cloudflare just shipped a persistent runtime for AI agents that feels like a real computer, not a throwaway container. Early tests show it slashes costs and latency for agent workloads.\n\nhttps://www.infoq.com/news/2026/08/cloudflare-computer-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+          }
         }
       }
     },
@@ -2443,23 +2510,11 @@
       "status": "scoring_attempted",
       "title": "Large genome models used to design new viruses"
     },
-    "https://arstechnica.com/security/2026/07/likely-illegally-claude-gained-access-to-3-networks-will-anthropic-be-held-to-account": {
-      "canonical_url": "https://arstechnica.com/security/2026/07/likely-illegally-claude-gained-access-to-3-networks-will-anthropic-be-held-to-account",
-      "created_at": "2026-07-31T21:38:29Z",
-      "status": "scoring_attempted",
-      "title": "Claude published malicious code to the Internet and attacked 3 real companies"
-    },
     "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project": {
       "canonical_url": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project",
       "created_at": "2026-08-05T21:53:10Z",
       "status": "scoring_attempted",
       "title": "Anthropic\u2019s AI used fake identities, malware in rogue attack on GitHub project"
-    },
-    "https://arstechnica.com/tech-policy/2026/07/reddit-keeps-weird-dmca-lawsuit-against-web-scraper-alive-despite-googles-loss": {
-      "canonical_url": "https://arstechnica.com/tech-policy/2026/07/reddit-keeps-weird-dmca-lawsuit-against-web-scraper-alive-despite-googles-loss",
-      "created_at": "2026-07-31T21:38:29Z",
-      "status": "scoring_attempted",
-      "title": "Reddit keeps its strange DMCA fight over Google search results alive"
     },
     "https://artificialanalysis.ai/?intelligence=agentic-index": {
       "canonical_url": "https://artificialanalysis.ai/?intelligence=agentic-index",
@@ -3073,12 +3128,6 @@
       "status": "scoring_attempted",
       "title": "Adaptive Arena-based Contestable Argumentative Network-of-Experts for Open-Ended Care Plan Coordination"
     },
-    "https://asymco.com/2026/07/31/apple-will-watch-everything-burn-when-ai-bubble-bursts": {
-      "canonical_url": "https://asymco.com/2026/07/31/apple-will-watch-everything-burn-when-ai-bubble-bursts",
-      "created_at": "2026-07-31T21:38:29Z",
-      "status": "scoring_attempted",
-      "title": "Apple Will 'Watch Everything Burn' When AI Bubble Bursts"
-    },
     "https://bjorg.bjornroche.com/management/ai-productivity-gap": {
       "canonical_url": "https://bjorg.bjornroche.com/management/ai-productivity-gap",
       "created_at": "2026-08-03T09:53:53Z",
@@ -3631,12 +3680,6 @@
       "status": "scoring_attempted",
       "title": "DDoS against Norwegian government IT infrastructure \u2013 status"
     },
-    "https://techcrunch.com/2026/07/31/india-is-starting-to-pay-for-apps-not-just-download-them": {
-      "canonical_url": "https://techcrunch.com/2026/07/31/india-is-starting-to-pay-for-apps-not-just-download-them",
-      "created_at": "2026-07-31T21:38:29Z",
-      "status": "scoring_attempted",
-      "title": "India is starting to pay for apps, not just download them"
-    },
     "https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok": {
       "canonical_url": "https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok",
       "created_at": "2026-07-31T22:56:18Z",
@@ -3876,6 +3919,12 @@
       "created_at": "2026-08-07T00:08:15Z",
       "status": "scoring_attempted",
       "title": "OpenAI\u2019s new AI smart speaker will reportedly sell for between $300 and $400"
+    },
+    "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool": {
+      "canonical_url": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool",
+      "created_at": "2026-08-07T21:52:22Z",
+      "status": "scoring_attempted",
+      "title": "After Rippling blew millions on AI in months, it built an employee ROI tool"
     },
     "https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function": {
       "canonical_url": "https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function",
@@ -4152,6 +4201,12 @@
       "created_at": "2026-08-03T19:59:18Z",
       "status": "scoring_attempted",
       "title": "Azure and Community Guidelines on Choosing Between a Skill or a Sub-Agent"
+    },
+    "https://www.infoq.com/news/2026/08/cloudflare-computer-agents": {
+      "canonical_url": "https://www.infoq.com/news/2026/08/cloudflare-computer-agents",
+      "created_at": "2026-08-07T21:52:22Z",
+      "status": "scoring_attempted",
+      "title": "Cloudflare Launches Persistent, Stateful, Computer-like Environments for Agents"
     },
     "https://www.infoq.com/news/2026/08/cloudflare-meerkat-consensus": {
       "canonical_url": "https://www.infoq.com/news/2026/08/cloudflare-meerkat-consensus",
