@@ -84,31 +84,6 @@
         }
       }
     },
-    "24d490f0a4ecef83a0c1642b246ec84b348a20680ab2b24960263d448659af24": {
-      "created_at": "2026-08-06T11:49:49Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 0.0,
-              "index": 0,
-              "novelty_score": 0.0,
-              "reason": "Title matches multiple red flags ('how to', 'guide to' implied) and is irrelevant to software engineers/AI researchers.",
-              "red_flag": true,
-              "red_flag_reason": "title contains 'how to' phrasing",
-              "source_score": 0.5,
-              "title": "How Americans View Capitalism, Socialism and Free Enterprise",
-              "total_score": 2.5
-            }
-          ],
-          "best_index": 0,
-          "best_score": 0.0,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
-      }
-    },
     "27e5179a2ace2c5cc0bf0cbc6bfbe6c8531cd0574ce94b25074bc4d884c3415c": {
       "created_at": "2026-08-06T13:24:13Z",
       "payload": {
@@ -579,31 +554,6 @@
         }
       }
     },
-    "7d64feb4bef67e86b558749931ecf8356f449b6ff473c41c04c6fb4c8bd32626": {
-      "created_at": "2026-08-06T11:49:49Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1.5,
-              "impact_score": 2.5,
-              "index": 2,
-              "novelty_score": 2.5,
-              "reason": "Research presentation on Valkey architecture for low-latency AI workloads with niche but relevant impact.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1,
-              "title": "Presentation: From ms to \u03bcs: OSS Valkey Architecture Patterns for Modern AI",
-              "total_score": 7.5
-            }
-          ],
-          "best_index": 2,
-          "best_score": 7.5,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
-      }
-    },
     "7fdc30f20891caf1d604acf138a8054a560ae1ee9c530e99607ddfe401a4a541": {
       "created_at": "2026-08-07T04:13:40Z",
       "payload": {
@@ -897,38 +847,6 @@
           "Use the FULL article title as headline without inventing facts.",
           "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
         ]
-      }
-    },
-    "941e8f047fc7375fc61d117944afa3c04ab7d8baccb1c6ac8c6607d671e093e1": {
-      "created_at": "2026-08-06T11:49:49Z",
-      "payload": {
-        "prompt_version": "cerebras-scoring-v1",
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2,
-              "impact_score": 2.5,
-              "index": 1,
-              "novelty_score": 2.5,
-              "reason": "Research-backed industry analysis on AI moderation limits with high impact and freshness.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "AI isn\u2019t enough to protect social media communities from AI",
-              "total_score": 8.5
-            }
-          ],
-          "best_index": 1,
-          "best_score": 8.5,
-          "recommendation": "POST_NOW",
-          "social_posts": {
-            "facebook": "A new Ars Technica piece makes a strong case that AI tools alone aren\u2019t sufficient to keep social media communities safe from AI-generated content. The article highlights why human moderation remains critical, even as AI scales. Link: https://arstechnica.com/gadgets/2026/08/ai-isnt-enough-to-protect-social-media-communities-from-ai/",
-            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *AI isn\u2019t enough to protect social media communities from AI*\n\nArs Technica examines why human moderation remains critical even as AI tools scale to manage online communities.\n\n\ud83c\udfdb\ufe0f Source: Ars Technica (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://arstechnica.com/gadgets/2026/08/ai-isnt-enough-to-protect-social-media-communities-from-ai/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-            "threads": "Ars Technica\u2019s latest argues AI can\u2019t fully protect social media communities from AI-generated harm. Human oversight is still essential.\n\nhttps://arstechnica.com/gadgets/2026/08/ai-isnt-enough-to-protect-social-media-communities-from-ai/",
-            "twitter": "Ars Technica argues AI alone can\u2019t moderate social media communities effectively. Humans still need to step in.\n\nhttps://arstechnica.com/gadgets/2026/08/ai-isnt-enough-to-protect-social-media-communities-from-ai/"
-          }
-        },
-        "social_media_rules": []
       }
     },
     "9ecb5233ba065d4dd0e567f42499c08e98db4cfb2ff6201869eb8a6a3fa1d135": {
@@ -1286,31 +1204,6 @@
         }
       }
     },
-    "f1527009debecdc96b9668db07b611e0e5d21c0a38cad4cbe6fd594dbf894452": {
-      "created_at": "2026-08-06T11:49:49Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 0.5,
-              "impact_score": 2.5,
-              "index": 6,
-              "novelty_score": 2.5,
-              "reason": "Research/industry move with moderate impact on Android developers, but source is Tier C and freshness is low.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "On non-rooted Android 17, ADB uninstall of system apps fails",
-              "total_score": 6.0
-            }
-          ],
-          "best_index": 6,
-          "best_score": 6.0,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
-      }
-    },
     "f97bf8fc8bb858bb5946c51455cc465b2f223f1438e4f572de46f6f2cefac3d8": {
       "created_at": "2026-08-07T04:13:40Z",
       "payload": {
@@ -1488,6 +1381,31 @@
             "threads": "",
             "twitter": ""
           }
+        }
+      }
+    },
+    "fc04db034ede2a432affc6c24f17adef86e48dde9dda40ddc6528e1150cf9123": {
+      "created_at": "2026-08-07T11:54:48Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2,
+              "impact_score": 2.5,
+              "index": 0,
+              "novelty_score": 2,
+              "reason": "Industry move with significant legal and financial impact, published under 1 hour ago from Tier A source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "New Mexico court orders Meta to pay additional $567M in child safety case",
+              "total_score": 8.0
+            }
+          ],
+          "best_index": 0,
+          "best_score": 8.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
         }
       }
     },
@@ -3132,6 +3050,12 @@
       "status": "scoring_attempted",
       "title": "OpenAI\u2019s new AI smart speaker will reportedly sell for between $300 and $400"
     },
+    "https://techcrunch.com/2026/08/07/new-mexico-court-orders-meta-to-pay-additional-567m-in-child-safety-case": {
+      "canonical_url": "https://techcrunch.com/2026/08/07/new-mexico-court-orders-meta-to-pay-additional-567m-in-child-safety-case",
+      "created_at": "2026-08-07T11:54:48Z",
+      "status": "scoring_attempted",
+      "title": "New Mexico court orders Meta to pay additional $567M in child safety case"
+    },
     "https://techcrunch.com/podcast/ai-labs-want-to-pump-the-brakes-but-amazon-and-spacex-are-still-blasting-off": {
       "canonical_url": "https://techcrunch.com/podcast/ai-labs-want-to-pump-the-brakes-but-amazon-and-spacex-are-still-blasting-off",
       "created_at": "2026-07-31T17:48:59Z",
@@ -4013,12 +3937,6 @@
       "created_at": "2026-08-05T13:20:39Z",
       "status": "scoring_attempted",
       "title": "Disney gives TikTok creators official access to Marvel, Star Wars, and Pixar characters"
-    },
-    "https://www.theverge.com/tech/973621/sony-playstation-ending-discs-pushing-forward": {
-      "canonical_url": "https://www.theverge.com/tech/973621/sony-playstation-ending-discs-pushing-forward",
-      "created_at": "2026-07-31T11:47:00Z",
-      "status": "scoring_attempted",
-      "title": "Sony pushes forward with ditching discs, despite backlash"
     },
     "https://www.theverge.com/tech/973624/peak-design-city-line-details-price": {
       "canonical_url": "https://www.theverge.com/tech/973624/peak-design-city-line-details-price",
