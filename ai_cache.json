@@ -148,6 +148,31 @@
         }
       }
     },
+    "3a7882f55fc9498b65b487bddb95e38451fea499cc8694a26e6f6731acab3191": {
+      "created_at": "2026-08-07T17:42:35Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.5,
+              "impact_score": 1.5,
+              "index": 7,
+              "novelty_score": 2.5,
+              "reason": "Research with niche but tangible impact; freshness and source moderate the score.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1,
+              "title": "Stanford Evo 2 AI model generates phages against E. coli",
+              "total_score": 6.5
+            }
+          ],
+          "best_index": 7,
+          "best_score": 6.5,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
     "43aca3cbe4a096c9f8f5d7ebfdf90f1475589489c055c6c032bb04add2c3e5e5": {
       "created_at": "2026-08-07T00:08:15Z",
       "payload": {
@@ -322,6 +347,45 @@
           "Use the FULL article title as headline without inventing facts.",
           "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
         ]
+      }
+    },
+    "573f27f3197c408a82758147bc745f374e0d0009e0e57283c51cc0b33eac8423": {
+      "created_at": "2026-08-07T17:42:35Z",
+      "payload": {
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2,
+              "impact_score": 1.5,
+              "index": 0,
+              "novelty_score": 2,
+              "reason": "Industry move with freshness and moderate impact, but not groundbreaking for devs.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "OpenAI\u2019s expensive smart speaker will use moving parts to seem \u201cmore alive\u201d",
+              "total_score": 7
+            },
+            {
+              "freshness_score": 2,
+              "impact_score": 0,
+              "index": 1,
+              "novelty_score": 0,
+              "reason": "Non-tech content with red flag trigger.",
+              "red_flag": true,
+              "red_flag_reason": "Red flag: 'guide to' implied in phrasing",
+              "source_score": 1.5,
+              "title": "Grab the entire Lord of the Rings trilogy on 4K Blu-ray for $50",
+              "total_score": 3.5
+            }
+          ],
+          "best_index": 0,
+          "best_score": 7,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        },
+        "social_media_rules": []
       }
     },
     "661b9279b11bda60daa943070f59d2a8e2600176fe4b8408a2cb955825175d53": {
@@ -934,6 +998,31 @@
         "social_media_rules": []
       }
     },
+    "89fcc069fa8cc44cc7ccec3b93423847901e5f5f4a7f62fad8ff1bce0c40fed0": {
+      "created_at": "2026-08-07T17:42:35Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.5,
+              "impact_score": 0.5,
+              "index": 4,
+              "novelty_score": 0.5,
+              "reason": "Opinion piece with no direct technical or research value for software engineers/AI researchers.",
+              "red_flag": true,
+              "red_flag_reason": "opinion",
+              "source_score": 0.5,
+              "title": "This Mine Predicts Major Wars. It's Opening Again",
+              "total_score": 3.0
+            }
+          ],
+          "best_index": 4,
+          "best_score": 3.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
     "8b878629fe25aa199e4031e29222453025d53ee5b2145480dcc49ee1354fdd06": {
       "created_at": "2026-08-07T09:14:35Z",
       "payload": {
@@ -1419,6 +1508,33 @@
             "twitter": "Instacart\u2019s Blueberry cuts incident response time by automating root cause analysis in Slack. Early adopters report 40% faster MTTR with grounded AI hypotheses.\n\nhttps://www.infoq.com/news/2026/08/instacart-blueberry-sre-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
           }
         }
+      }
+    },
+    "c5f2e91aa2b04fe9b7b6d75147c4da3a612454b9f2d0a7de80fcbb3bf627090b": {
+      "created_at": "2026-08-07T17:42:35Z",
+      "payload": {
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.5,
+              "index": 2,
+              "novelty_score": 2.0,
+              "reason": "Red flag triggered by 'what is' in title; otherwise strong score.",
+              "red_flag": true,
+              "red_flag_reason": "contains 'what is'",
+              "source_score": 1.5,
+              "title": "What&#8217;s behind the Google AI shake-up",
+              "total_score": 8.0
+            }
+          ],
+          "best_index": 2,
+          "best_score": 8.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        },
+        "social_media_rules": []
       }
     },
     "c9d2b8bafb36a119b73e12be982eda01a320431ff69038f2fd4eed1e9100d5be": {
@@ -1948,6 +2064,12 @@
       "created_at": "2026-08-06T11:49:49Z",
       "status": "scoring_attempted",
       "title": "AI isn\u2019t enough to protect social media communities from AI"
+    },
+    "https://arstechnica.com/gadgets/2026/08/openais-expensive-smart-speaker-will-use-moving-parts-to-seem-more-alive": {
+      "canonical_url": "https://arstechnica.com/gadgets/2026/08/openais-expensive-smart-speaker-will-use-moving-parts-to-seem-more-alive",
+      "created_at": "2026-08-07T17:42:35Z",
+      "status": "scoring_attempted",
+      "title": "OpenAI\u2019s expensive smart speaker will use moving parts to seem \u201cmore alive\u201d"
     },
     "https://arstechnica.com/gadgets/2026/08/reddit-signals-ominous-upcoming-changes-for-old-reddit-com": {
       "canonical_url": "https://arstechnica.com/gadgets/2026/08/reddit-signals-ominous-upcoming-changes-for-old-reddit-com",
@@ -3587,6 +3709,12 @@
       "status": "scoring_attempted",
       "title": "How AI Is changing Instagram engagement without replacing the human touch"
     },
+    "https://www.artificialintelligence-news.com/news/stanford-evo-2-ai-model-generates-phages-against-e-coli": {
+      "canonical_url": "https://www.artificialintelligence-news.com/news/stanford-evo-2-ai-model-generates-phages-against-e-coli",
+      "created_at": "2026-08-07T17:42:35Z",
+      "status": "scoring_attempted",
+      "title": "Stanford Evo 2 AI model generates phages against E. coli"
+    },
     "https://www.asiae.co.kr/en/article/2026080416131786841": {
       "canonical_url": "https://www.asiae.co.kr/en/article/2026080416131786841",
       "created_at": "2026-08-05T03:37:00Z",
@@ -3604,6 +3732,12 @@
       "created_at": "2026-08-06T02:34:40Z",
       "status": "scoring_attempted",
       "title": "LLMs won't break symmetric crypto"
+    },
+    "https://www.bloomberg.com/graphics/2026-opinion-australia-tungsten-mine-us-war-defense-china": {
+      "canonical_url": "https://www.bloomberg.com/graphics/2026-opinion-australia-tungsten-mine-us-war-defense-china",
+      "created_at": "2026-08-07T17:42:35Z",
+      "status": "scoring_attempted",
+      "title": "This Mine Predicts Major Wars. It's Opening Again"
     },
     "https://www.bloomberg.com/news/articles/2026-08-05/microsoft-s-ai-sales-mostly-come-from-openai-disclosures-show": {
       "canonical_url": "https://www.bloomberg.com/news/articles/2026-08-05/microsoft-s-ai-sales-mostly-come-from-openai-disclosures-show",
@@ -4277,6 +4411,12 @@
       "status": "scoring_attempted",
       "title": "Birdfy\u2019s smart bird feeder is on sale for just $60"
     },
+    "https://www.theverge.com/gadgets/976792/lord-of-the-rings-trilogy-4k-uhd-blu-ray-deal-sale": {
+      "canonical_url": "https://www.theverge.com/gadgets/976792/lord-of-the-rings-trilogy-4k-uhd-blu-ray-deal-sale",
+      "created_at": "2026-08-07T17:42:35Z",
+      "status": "scoring_attempted",
+      "title": "Grab the entire Lord of the Rings trilogy on 4K Blu-ray for $50"
+    },
     "https://www.theverge.com/games/971660/the-mermaid-mask-review": {
       "canonical_url": "https://www.theverge.com/games/971660/the-mermaid-mask-review",
       "created_at": "2026-08-01T13:56:45Z",
@@ -4318,6 +4458,12 @@
       "created_at": "2026-08-03T16:03:52Z",
       "status": "scoring_attempted",
       "title": "Bluesky\u2019s new CEO wants a big tent, not a bubble"
+    },
+    "https://www.theverge.com/podcast/976784/google-deepmind-ai-race-vergecast": {
+      "canonical_url": "https://www.theverge.com/podcast/976784/google-deepmind-ai-race-vergecast",
+      "created_at": "2026-08-07T17:42:35Z",
+      "status": "scoring_attempted",
+      "title": "What&#8217;s behind the Google AI shake-up"
     },
     "https://www.theverge.com/policy/976287/fcc-broadcast-ownership-rule-ends": {
       "canonical_url": "https://www.theverge.com/policy/976287/fcc-broadcast-ownership-rule-ends",
