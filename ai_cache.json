@@ -93,6 +93,39 @@
         ]
       }
     },
+    "2039747a1ec8bbdcee801a26012548f6aaf18f5c7a0d1a14b94f3c630f9cf1ae": {
+      "created_at": "2026-08-07T18:31:50Z",
+      "payload": {
+        "candidates": [],
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1,
+              "impact_score": 1.5,
+              "index": 17,
+              "novelty_score": 0.5,
+              "reason": "Opinion piece with 'why' framing triggers red flag per guidelines.",
+              "red_flag": true,
+              "red_flag_reason": "opinion piece with 'why' framing",
+              "source_score": 1.5,
+              "title": "Jill Lepore on the \u2018Artificial State\u2019 and why Silicon Valley\u2019s leaders are bad sci-fi readers",
+              "total_score": 3.5
+            }
+          ],
+          "best_index": 17,
+          "best_score": 3.5,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        },
+        "social_media_rules": [
+          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
+          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.",
+          "Use the FULL article title as headline without inventing facts.",
+          "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
+        ]
+      }
+    },
     "22b21a5304d816962736b24386234f551daa5dc83a1268637c7cba57cdd84a43": {
       "created_at": "2026-08-07T07:08:19Z",
       "payload": {
@@ -120,6 +153,31 @@
             "threads": "Azure API Management now has a dedicated AI Gateway tier for governing models and MCP tools behind a single endpoint. Public preview supports Foundry, Bedrock, Vertex AI, and OpenAI.\n\nhttps://www.infoq.com/news/2026/08/azure-apim-ai-gateway-tier/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
             "twitter": "Microsoft just launched a dedicated AI Gateway tier in Azure API Management to govern models and MCP tools behind a single endpoint.\n\nhttps://www.infoq.com/news/2026/08/azure-apim-ai-gateway-tier/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
           }
+        }
+      }
+    },
+    "30c9925b4f8bf2bfce23520a7aa0a3312574d79e0e2f3d2446f1221a85c798ba": {
+      "created_at": "2026-08-07T18:31:50Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2,
+              "impact_score": 2.5,
+              "index": 4,
+              "novelty_score": 2.5,
+              "reason": "Industry move with red flag 'industry move' reducing novelty score.",
+              "red_flag": true,
+              "red_flag_reason": "industry move",
+              "source_score": 0.5,
+              "title": "Oracle bans AI-generated code from OpenJDK",
+              "total_score": 7.5
+            }
+          ],
+          "best_index": 4,
+          "best_score": 7.5,
+          "recommendation": "SKIP",
+          "social_posts": {}
         }
       }
     },
@@ -851,6 +909,77 @@
         }
       }
     },
+    "85e7ee2015274af38b0bff9a60437444016b1f253f23e617d31eaaa1f08ae0f2": {
+      "created_at": "2026-08-07T18:31:50Z",
+      "payload": {
+        "candidates": [
+          {
+            "article_url": "https://www.theverge.com/streaming/976881/disney-plus-ai-recommendation-espn-search",
+            "index": 2,
+            "published_relative": "<1 hour ago",
+            "published_time_utc": "2026-08-07T17:53:44Z",
+            "source": "The Verge",
+            "summary": "Disney is testing a new AI-powered tool for Disney Plus that uses a natural language search, a voice query, or a suggested prompt to create a customized row of show and movie recommendations. Disney Plus, like other streaming services, can recommend shows to watch based on your viewing history. But...",
+            "tier": "A",
+            "title": "Disney Plus tries a new AI-powered search"
+          },
+          {
+            "article_url": "https://huggingface.co/blog/allenai/tutormoments",
+            "index": 3,
+            "published_relative": "<1 hour ago",
+            "published_time_utc": "2026-08-07T17:53:32Z",
+            "source": "HuggingFace",
+            "summary": "",
+            "tier": "S",
+            "title": "TutorMoments: Do AI tutors know when to help and when to hold back?"
+          }
+        ],
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2,
+              "impact_score": 1.5,
+              "index": 2,
+              "novelty_score": 2,
+              "reason": "Industry move with niche impact (streaming services) and fresh source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Disney Plus tries a new AI-powered search",
+              "total_score": 7.0
+            },
+            {
+              "freshness_score": 2,
+              "impact_score": 2.5,
+              "index": 3,
+              "novelty_score": 2.5,
+              "reason": "Research with high impact (AI tutors) from Tier S source, published <1h ago.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 2,
+              "title": "TutorMoments: Do AI tutors know when to help and when to hold back?",
+              "total_score": 9.0
+            }
+          ],
+          "best_index": 3,
+          "best_score": 9.0,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "AllenAI just released TutorMoments, a new benchmark that asks: can AI tutors know when to step in and when to stay silent? Early results show models often err on the side of over-assistance, which could impact real-world tutoring systems. The dataset is designed to measure nuanced decision-making in educational AI.\n\nLink: https://huggingface.co/blog/allenai/tutormoments",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *TutorMoments: Do AI tutors know when to help and when to hold back?*\n\nAllenAI\u2019s new benchmark evaluates whether AI tutoring models can balance intervention and autonomy. Early findings suggest models often intervene too soon.\n\n\ud83c\udfdb\ufe0f Source: Hugging Face (Tier S)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://huggingface.co/blog/allenai/tutormoments\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "AllenAI\u2019s TutorMoments benchmark exposes a key flaw in AI tutors: they can\u2019t always tell when to stop helping. The dataset tests models on balancing support and autonomy, with implications for real-world tutoring applications.\n\nhttps://huggingface.co/blog/allenai/tutormoments",
+            "twitter": "AllenAI\u2019s new TutorMoments benchmark reveals AI tutors often intervene too soon. The dataset tests whether models can balance support and autonomy in tutoring scenarios.\n\nhttps://huggingface.co/blog/allenai/tutormoments"
+          }
+        },
+        "social_media_rules": [
+          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
+          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.",
+          "Use the FULL article title as headline without inventing facts.",
+          "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
+        ]
+      }
+    },
     "878a36f0ca28f66b472f884b1bd9e5b42c55da677de87c017a4003fb5b2147b3": {
       "created_at": "2026-08-07T07:08:19Z",
       "payload": {
@@ -1095,6 +1224,50 @@
             "twitter": "Cloudflare just shipped Kitesurf, a browser optimized for AI agents that cuts compute costs by 50% vs Chromium for automation tasks.\n\nhttps://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/"
           }
         }
+      }
+    },
+    "9b541c60faffe5074f378934ccd0bbc220245b950de9cf951255ed317fe1f287": {
+      "created_at": "2026-08-07T18:31:50Z",
+      "payload": {
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 0.5,
+              "index": 0,
+              "novelty_score": 0.5,
+              "reason": "Low novelty and impact, but fresh and from a Tier C source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "ICE will release body cam video only when seen in the agency's 'best interests'",
+              "total_score": 3.0
+            },
+            {
+              "freshness_score": 2.0,
+              "impact_score": 0.5,
+              "index": 1,
+              "novelty_score": 0.2,
+              "reason": "Red flag triggered by 'best' in title.",
+              "red_flag": true,
+              "red_flag_reason": "best",
+              "source_score": 1.5,
+              "title": "The only instant cameras worth your money",
+              "total_score": 4.2
+            }
+          ],
+          "best_index": 0,
+          "best_score": 3.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        },
+        "social_media_rules": [
+          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
+          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.",
+          "Use the FULL article title as headline without inventing facts.",
+          "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
+        ]
       }
     },
     "9ecb5233ba065d4dd0e567f42499c08e98db4cfb2ff6201869eb8a6a3fa1d135": {
@@ -1968,6 +2141,18 @@
       "created_at": "2026-08-03T10:37:30Z",
       "status": "scoring_attempted",
       "title": "Prevent cognitive debt by manually retyping LLM-generated code"
+    },
+    "https://apnews.com/article/ice-body-cameras-officers-shootings-dab1b294c8dc412d9ef8557ccbebfd57": {
+      "canonical_url": "https://apnews.com/article/ice-body-cameras-officers-shootings-dab1b294c8dc412d9ef8557ccbebfd57",
+      "created_at": "2026-08-07T18:31:50Z",
+      "status": "scoring_attempted",
+      "title": "ICE will release body cam video only when seen in the agency's 'best interests'"
+    },
+    "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code": {
+      "canonical_url": "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code",
+      "created_at": "2026-08-07T18:31:50Z",
+      "status": "scoring_attempted",
+      "title": "Oracle bans AI-generated code from OpenJDK"
     },
     "https://armature.tech": {
       "canonical_url": "https://armature.tech",
@@ -3037,6 +3222,12 @@
       "status": "scoring_attempted",
       "title": "Deploy local agents everywhere with LFM2.5-2.6B"
     },
+    "https://huggingface.co/blog/allenai/tutormoments": {
+      "canonical_url": "https://huggingface.co/blog/allenai/tutormoments",
+      "created_at": "2026-08-07T18:31:50Z",
+      "status": "scoring_attempted",
+      "title": "TutorMoments: Do AI tutors know when to help and when to hold back?"
+    },
     "https://jwlabs.vercel.app/post/biting-the-bullet": {
       "canonical_url": "https://jwlabs.vercel.app/post/biting-the-bullet",
       "created_at": "2026-07-31T22:41:47Z",
@@ -3289,12 +3480,6 @@
       "status": "scoring_attempted",
       "title": "DDoS against Norwegian government IT infrastructure \u2013 status"
     },
-    "https://swe-rebench.com": {
-      "canonical_url": "https://swe-rebench.com",
-      "created_at": "2026-07-31T17:48:59Z",
-      "status": "scoring_attempted",
-      "title": "13 Models and 4 Agents on SWE Tasks: Go, Java, Python, Rust, TS"
-    },
     "https://tailscale.com/blog/hugging-face-intrusion": {
       "canonical_url": "https://tailscale.com/blog/hugging-face-intrusion",
       "created_at": "2026-07-31T20:25:14Z",
@@ -3318,18 +3503,6 @@
       "created_at": "2026-07-31T22:56:18Z",
       "status": "scoring_attempted",
       "title": "OpenAI reportedly finds evidence that more of its agents ran amok"
-    },
-    "https://techcrunch.com/2026/07/31/siri-ai-could-come-with-a-paywall-for-power-users": {
-      "canonical_url": "https://techcrunch.com/2026/07/31/siri-ai-could-come-with-a-paywall-for-power-users",
-      "created_at": "2026-07-31T17:48:59Z",
-      "status": "scoring_attempted",
-      "title": "Siri AI could come with a paywall for power users"
-    },
-    "https://techcrunch.com/2026/07/31/snapchat-no-longer-rewards-fully-ai-generated-spotlight-content": {
-      "canonical_url": "https://techcrunch.com/2026/07/31/snapchat-no-longer-rewards-fully-ai-generated-spotlight-content",
-      "created_at": "2026-07-31T17:48:59Z",
-      "status": "scoring_attempted",
-      "title": "Snapchat no longer rewards fully AI-generated Spotlight content"
     },
     "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps": {
       "canonical_url": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps",
@@ -3583,17 +3756,11 @@
       "status": "scoring_attempted",
       "title": "New Mexico court orders Meta to pay additional $567M in child safety case"
     },
-    "https://techcrunch.com/podcast/ai-labs-want-to-pump-the-brakes-but-amazon-and-spacex-are-still-blasting-off": {
-      "canonical_url": "https://techcrunch.com/podcast/ai-labs-want-to-pump-the-brakes-but-amazon-and-spacex-are-still-blasting-off",
-      "created_at": "2026-07-31T17:48:59Z",
+    "https://techcrunch.com/podcast/jill-lepore-on-the-artificial-state-and-why-silicon-valleys-leaders-are-bad-sci-fi-readers": {
+      "canonical_url": "https://techcrunch.com/podcast/jill-lepore-on-the-artificial-state-and-why-silicon-valleys-leaders-are-bad-sci-fi-readers",
+      "created_at": "2026-08-07T18:31:50Z",
       "status": "scoring_attempted",
-      "title": "AI labs want to pump the brakes, but Amazon and SpaceX are still blasting off"
-    },
-    "https://techcrunch.com/video/sam-altman-isnt-the-only-one-who-wants-to-pump-the-brakes-on-ai": {
-      "canonical_url": "https://techcrunch.com/video/sam-altman-isnt-the-only-one-who-wants-to-pump-the-brakes-on-ai",
-      "created_at": "2026-07-31T17:48:59Z",
-      "status": "scoring_attempted",
-      "title": "Sam Altman isn\u2019t the only one who wants to pump the brakes on AI"
+      "title": "Jill Lepore on the \u2018Artificial State\u2019 and why Silicon Valley\u2019s leaders are bad sci-fi readers"
     },
     "https://this.weekinsecurity.com/online-advertising-giant-adform-was-hacked-proving-once-again-why-ad-blockers-are-necessary": {
       "canonical_url": "https://this.weekinsecurity.com/online-advertising-giant-adform-was-hacked-proving-once-again-why-ad-blockers-are-necessary",
@@ -4165,23 +4332,17 @@
       "status": "scoring_attempted",
       "title": "AMD acquires Taalas to boost inference performance by etching models in silicon"
     },
+    "https://www.theverge.com/23133103/best-instant-cameras-fujifilm-polaroid-kodak": {
+      "canonical_url": "https://www.theverge.com/23133103/best-instant-cameras-fujifilm-polaroid-kodak",
+      "created_at": "2026-08-07T18:31:50Z",
+      "status": "scoring_attempted",
+      "title": "The only instant cameras worth your money"
+    },
     "https://www.theverge.com/ai-artificial-intelligence/973098/reddit-ai-search-seo-marketing-brands-spam": {
       "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/973098/reddit-ai-search-seo-marketing-brands-spam",
       "created_at": "2026-08-04T11:47:53Z",
       "status": "scoring_attempted",
       "title": "Can Reddit fend off a new wave of AI SEO spam?"
-    },
-    "https://www.theverge.com/ai-artificial-intelligence/973741/ai-music-major-record-labels-charts": {
-      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/973741/ai-music-major-record-labels-charts",
-      "created_at": "2026-07-31T17:48:59Z",
-      "status": "scoring_attempted",
-      "title": "The major labels propose rules to keep AI slop off the charts"
-    },
-    "https://www.theverge.com/ai-artificial-intelligence/973764/google-earth-ai-satellite-images": {
-      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/973764/google-earth-ai-satellite-images",
-      "created_at": "2026-07-31T17:48:59Z",
-      "status": "scoring_attempted",
-      "title": "Here\u2019s the problem with putting an AI image generator in Google Earth"
     },
     "https://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties": {
       "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties",
@@ -4495,17 +4656,17 @@
       "status": "scoring_attempted",
       "title": "Disney gives TikTok creators official access to Marvel, Star Wars, and Pixar characters"
     },
+    "https://www.theverge.com/streaming/976881/disney-plus-ai-recommendation-espn-search": {
+      "canonical_url": "https://www.theverge.com/streaming/976881/disney-plus-ai-recommendation-espn-search",
+      "created_at": "2026-08-07T18:31:50Z",
+      "status": "scoring_attempted",
+      "title": "Disney Plus tries a new AI-powered search"
+    },
     "https://www.theverge.com/tech/973624/peak-design-city-line-details-price": {
       "canonical_url": "https://www.theverge.com/tech/973624/peak-design-city-line-details-price",
       "created_at": "2026-08-04T13:26:57Z",
       "status": "scoring_attempted",
       "title": "Peak Design\u2019s latest bags have clever integrated hooks"
-    },
-    "https://www.theverge.com/tech/973738/robot-vacuum-ban-fewer-choices-higher-prices": {
-      "canonical_url": "https://www.theverge.com/tech/973738/robot-vacuum-ban-fewer-choices-higher-prices",
-      "created_at": "2026-07-31T17:48:59Z",
-      "status": "scoring_attempted",
-      "title": "The ban on robot vacuums won\u2019t make them safer, only worse"
     },
     "https://www.theverge.com/tech/973889/google-pixel-tag-item-tracker": {
       "canonical_url": "https://www.theverge.com/tech/973889/google-pixel-tag-item-tracker",
