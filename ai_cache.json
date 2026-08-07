@@ -312,6 +312,31 @@
         }
       }
     },
+    "661b9279b11bda60daa943070f59d2a8e2600176fe4b8408a2cb955825175d53": {
+      "created_at": "2026-08-07T12:52:11Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1,
+              "impact_score": 1.5,
+              "index": 7,
+              "novelty_score": 2.5,
+              "reason": "Show HN is a promotional format, not a formal article or research output.",
+              "red_flag": true,
+              "red_flag_reason": "Show HN",
+              "source_score": 0.5,
+              "title": "Show HN: Certo \u2013 An open source platform to deliver Open Badges",
+              "total_score": 5.5
+            }
+          ],
+          "best_index": 7,
+          "best_score": 0.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
     "685f24588032f5a5cac1d9e8462ad150b928ab1a8b9f2355d1365d1c4305f64f": {
       "created_at": "2026-08-07T01:29:06Z",
       "payload": {
@@ -994,6 +1019,61 @@
             "threads": "Uno Platform 6.6 adds Native AOT publishing, Vulkan rendering, and WinUI API parity across five platforms. It cuts XAML boilerplate and improves accessibility support.\n\nhttps://www.infoq.com/news/2026/08/uno-platform-6-6/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
             "twitter": "Uno Platform 6.6 ships Native AOT, Vulkan rendering, and WinUI API parity across five platforms. The update cuts XAML boilerplate and boosts accessibility support.\n\nhttps://www.infoq.com/news/2026/08/uno-platform-6-6/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
           }
+        }
+      }
+    },
+    "b2c46949a84dd11d76e56a0e04282e1cc6861db52335a18dd5b9a7dfaa43cad0": {
+      "created_at": "2026-08-07T12:52:11Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2,
+              "impact_score": 2.5,
+              "index": 0,
+              "novelty_score": 2.5,
+              "reason": "Industry move on AI in incident response with high impact for all devs and freshness under 1h.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1,
+              "title": "AI Is Transforming Incident Response - but the Hardest Problems May Still Belong to Humans",
+              "total_score": 8
+            }
+          ],
+          "best_index": 0,
+          "best_score": 8,
+          "recommendation": "SKIP",
+          "social_posts": {
+            "facebook": "",
+            "telegram": "",
+            "threads": "",
+            "twitter": ""
+          }
+        }
+      }
+    },
+    "b495ef7799bf19c507baba56adcf58c63d797d615032b64eb8abf45981ca4810": {
+      "created_at": "2026-08-07T12:52:11Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.5,
+              "impact_score": 2,
+              "index": 6,
+              "novelty_score": 2.5,
+              "reason": "Industry move with moderate novelty and impact, fresh but not breaking.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1,
+              "title": "Alibaba tests new business model for Qwen open-source AI",
+              "total_score": 7.0
+            }
+          ],
+          "best_index": 6,
+          "best_score": 7.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
         }
       }
     },
@@ -2468,6 +2548,12 @@
       "status": "scoring_attempted",
       "title": "Toast IDE Gets Markdown Spell Checking"
     },
+    "https://github.com/schroedinger-Hat/certo": {
+      "canonical_url": "https://github.com/schroedinger-Hat/certo",
+      "created_at": "2026-08-07T12:52:11Z",
+      "status": "scoring_attempted",
+      "title": "Show HN: Certo \u2013 An open source platform to deliver Open Badges"
+    },
     "https://github.com/tikalk/adlc-team-skills": {
       "canonical_url": "https://github.com/tikalk/adlc-team-skills",
       "created_at": "2026-08-04T15:54:37Z",
@@ -3152,6 +3238,12 @@
       "status": "scoring_attempted",
       "title": "Charlie Stross \u2013 On the non-use of AI in my writing process"
     },
+    "https://www.artificialintelligence-news.com/news/alibaba-qwen-open-source-ai-revenue-sharing": {
+      "canonical_url": "https://www.artificialintelligence-news.com/news/alibaba-qwen-open-source-ai-revenue-sharing",
+      "created_at": "2026-08-07T12:52:11Z",
+      "status": "scoring_attempted",
+      "title": "Alibaba tests new business model for Qwen open-source AI"
+    },
     "https://www.artificialintelligence-news.com/news/eu-ai-act-article-50-transparency-rules-enter-force": {
       "canonical_url": "https://www.artificialintelligence-news.com/news/eu-ai-act-article-50-transparency-rules-enter-force",
       "created_at": "2026-08-03T19:59:18Z",
@@ -3271,6 +3363,12 @@
       "created_at": "2026-08-03T13:29:05Z",
       "status": "scoring_attempted",
       "title": "Microsoft Agent Framework Harness and Hosted Agents Reach General Availability"
+    },
+    "https://www.infoq.com/news/2026/08/ai-incident-response": {
+      "canonical_url": "https://www.infoq.com/news/2026/08/ai-incident-response",
+      "created_at": "2026-08-07T12:52:11Z",
+      "status": "scoring_attempted",
+      "title": "AI Is Transforming Incident Response - but the Hardest Problems May Still Belong to Humans"
     },
     "https://www.infoq.com/news/2026/08/aws-builder-sandbox": {
       "canonical_url": "https://www.infoq.com/news/2026/08/aws-builder-sandbox",
