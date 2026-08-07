@@ -1,35 +1,5 @@
 {
   "cerebras_scoring": {
-    "04222abb2e27d8b31ac64f6b0aff3788075b269ec679339c85802542cff0d930": {
-      "created_at": "2026-08-06T09:36:36Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2,
-              "impact_score": 2.5,
-              "index": 2,
-              "novelty_score": 2.5,
-              "reason": "Research-style article on AI workflow patterns with high novelty and impact, published under 1 hour ago.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1,
-              "title": "Runtime-Agnostic AI Workflows: A Pattern for Production Durability and Fast Eval Iteration",
-              "total_score": 8.0
-            }
-          ],
-          "best_index": 2,
-          "best_score": 8.0,
-          "recommendation": "SKIP",
-          "social_posts": {
-            "facebook": "",
-            "telegram": "",
-            "threads": "",
-            "twitter": ""
-          }
-        }
-      }
-    },
     "0c7aed08b999e93865d4a667051a63141a316815cc11e0fa2623d055b81af2a6": {
       "created_at": "2026-08-06T13:24:13Z",
       "payload": {
@@ -522,38 +492,6 @@
             "twitter": ""
           }
         }
-      }
-    },
-    "6f89d98637addb9363a29511dd1225a62d45358dbd88d4d5facb69f1c0af5117": {
-      "created_at": "2026-08-06T09:36:36Z",
-      "payload": {
-        "prompt_version": "cerebras-scoring-v1",
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 3.0,
-              "index": 1,
-              "novelty_score": 2.5,
-              "reason": "High-impact security research with fresh disclosure on a critical Azure Cosmos DB flaw.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.0,
-              "title": "Wiz Discloses CosmosEscape, and Practitioners Debate What Customers Could Have Done",
-              "total_score": 8.5
-            }
-          ],
-          "best_index": 1,
-          "best_score": 8.5,
-          "recommendation": "POST_NOW",
-          "social_posts": {
-            "facebook": "A critical flaw in Azure Cosmos DB\u2019s Gremlin sandbox allowed researchers to extract a platform-wide master key granting access to every database. Microsoft blocked the entry point within two days but only fully removed the key in July 2026. The incident raises questions about customer responsibility and platform safeguards.\n\nLink: https://www.infoq.com/news/2026/08/cosmosescape-master-key/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Wiz Discloses CosmosEscape, and Practitioners Debate What Customers Could Have Done*\n\nWiz Research uncovered a chain escape in Azure Cosmos DB\u2019s Gremlin sandbox, leading to a platform-wide master key granting read and write access to every database. Microsoft blocked the entry point within two days but only fully removed the key in July 2026.\n\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (Tier B)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.infoq.com/news/2026/08/cosmosescape-master-key/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-            "threads": "Wiz disclosed CosmosEscape, a chain escape in Azure Cosmos DB\u2019s Gremlin sandbox that led to a master key granting access to every database. Microsoft acted within two days but only fully revoked the key in July 2026, sparking debate on customer accountability and platform security.\n\nhttps://www.infoq.com/news/2026/08/cosmosescape-master-key/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=ground",
-            "twitter": "Wiz found a chain escape in Azure Cosmos DB\u2019s Gremlin sandbox, leading to a platform-wide master key. Microsoft revoked it in 48 hours but took until July 2026 to fully remove access.\n\nhttps://www.infoq.com/news/2026/08/cosmosescape-master-key/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
-          }
-        },
-        "social_media_rules": []
       }
     },
     "7398d263bb6d93087b0f518804b5c97c8ca1ac8c502349f105d1be1003f4f68c": {
@@ -1054,36 +992,6 @@
         }
       }
     },
-    "b1225986e6476ebbb21eacd79d7b29b86d3f33367dae639cb3efef7cbc546e69": {
-      "created_at": "2026-08-06T09:36:36Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2,
-              "impact_score": 3,
-              "index": 0,
-              "novelty_score": 2,
-              "reason": "High-impact legal dispute with freshness and strong source, despite being an opinion piece.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "OpenAI says Apple\u2019s trade secrets lawsuit is \u2018rotten to its core\u2019",
-              "total_score": 8.5
-            }
-          ],
-          "best_index": 0,
-          "best_score": 8.5,
-          "recommendation": "POST_NOW",
-          "social_posts": {
-            "facebook": "OpenAI has filed a motion to dismiss Apple\u2019s trade secrets lawsuit, calling the allegations \"meritless\" and arguing Apple misrepresented its actions. The legal dispute centers on claims of stolen trade secrets related to AI development.\n\nLink: https://www.theverge.com/tech/976042/openai-apple-trade-secrets-lawsuit-dismissal-request",
-            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *OpenAI says Apple\u2019s trade secrets lawsuit is \u2018rotten to its core\u2019*\n\nOpenAI has asked a federal judge to dismiss Apple\u2019s lawsuit accusing it of stealing trade secrets, calling the allegations \"meritless\" and arguing Apple mischaracterized its actions.\n\n\ud83c\udfdb\ufe0f Source: The Verge (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.theverge.com/tech/976042/openai-apple-trade-secrets-lawsuit-dismissal-request\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-            "threads": "OpenAI just moved to dismiss Apple\u2019s trade secrets lawsuit, calling it \"rotten to its core\" and arguing the allegations are meritless. The filing claims Apple mischaracterized its actions entirely.\n\nhttps://www.theverge.com/tech/976042/openai-apple-trade-secrets-lawsuit-dismissal-request",
-            "twitter": "OpenAI calls Apple\u2019s trade secrets lawsuit against it \"meritless\" and asks a judge to toss it out. The motion argues Apple mischaracterized its actions entirely.\n\nhttps://www.theverge.com/tech/976042/openai-apple-trade-secrets-lawsuit-dismissal-request"
-          }
-        }
-      }
-    },
     "b17583cbe5300043497ccd641f533e9be9cf13a729d7f0a9305c497f72b5f56d": {
       "created_at": "2026-08-07T08:10:05Z",
       "payload": {
@@ -1173,6 +1081,31 @@
             "threads": "Rootly dropped its small PR rule because AI agents now handle most code generation. The change reflects how agentic AI is forcing teams to rethink traditional engineering metrics like PR size.\n\nhttps://www.infoq.com/news/2026/08/rootly-small-pr-agentic-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
             "twitter": "Rootly abandoned its small PR rule because AI agents now handle most code. The shift from PR size metrics to review efficiency reflects how agentic AI is rewriting engineering practices.\n\nhttps://www.infoq.com/news/2026/08/rootly-small-pr-agentic-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
           }
+        }
+      }
+    },
+    "c9d2b8bafb36a119b73e12be982eda01a320431ff69038f2fd4eed1e9100d5be": {
+      "created_at": "2026-08-07T10:12:44Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2,
+              "impact_score": 1.5,
+              "index": 0,
+              "novelty_score": 2.5,
+              "reason": "Novelty and freshness high but impact too niche for broader relevance.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "The Hottest New AI Chatbot Is Just a Guy Answering Your Questions",
+              "total_score": 7.5
+            }
+          ],
+          "best_index": 0,
+          "best_score": 7.5,
+          "recommendation": "SKIP",
+          "social_posts": {}
         }
       }
     },
@@ -1502,17 +1435,7 @@
       }
     }
   },
-  "groq_social_posts": {
-    "b45a96e0556a3fcfa64e839e44d904d070d201af93703fca9b4aeb76a9b40d50": {
-      "created_at": "2026-07-31T09:39:05Z",
-      "payload": {
-        "facebook": "As companies look to build an AI-ready workforce, Univ\u00e9 is setting an example by combining leadership and employee-led innovation to drive transformation at scale. This approach highlights the importance of responsible governance in AI adoption. #AIadoption #DigitalTransformation #Innovation",
-        "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Univ\u00e9 Transforms Workforce with AI\nUniv\u00e9 is leveraging ChatGPT Enterprise to build an AI-ready workforce, focusing on leadership, responsible governance, and innovation.\n\ud83c\udfdb\ufe0f Source: OpenAI (S)\n\u23f0 Published: 2 hours ago\n\u2b50 Score: 8.5/10\n#AIadoption #DigitalTransformation #Innovation\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-        "threads": "Univ\u00e9's move to build an AI-ready workforce with ChatGPT Enterprise is a significant step towards transforming work at scale, driven by leadership and employee-led innovation @OpenAI #AIadoption",
-        "twitter": "Univ\u00e9 is transforming its workforce with AI by leveraging ChatGPT Enterprise @OpenAI #AIadoption"
-      }
-    }
-  },
+  "groq_social_posts": {},
   "seen_article_links": {
     "http://observationalepidemiology.blogspot.com/2026/07/its-not-fear-of-ai-communism-its-fear.html": {
       "canonical_url": "http://observationalepidemiology.blogspot.com/2026/07/its-not-fear-of-ai-communism-its-fear.html",
@@ -2762,12 +2685,6 @@
       "status": "scoring_attempted",
       "title": "Third-party cyber evaluations involving OpenAI models"
     },
-    "https://openai.com/index/unive": {
-      "canonical_url": "https://openai.com/index/unive",
-      "created_at": "2026-07-31T09:39:05Z",
-      "status": "scoring_attempted",
-      "title": "Univ\u00e9 builds an AI-ready workforce"
-    },
     "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DklU4737opt": {
       "canonical_url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DklU4737opt",
       "created_at": "2026-08-05T13:20:39Z",
@@ -3325,12 +3242,6 @@
       "created_at": "2026-08-07T09:14:35Z",
       "status": "scoring_attempted",
       "title": "Article: InfoQ Culture and Methods Trends Report - 2026"
-    },
-    "https://www.infoq.com/articles/virtual-threads-after-jdk24": {
-      "canonical_url": "https://www.infoq.com/articles/virtual-threads-after-jdk24",
-      "created_at": "2026-07-31T09:39:05Z",
-      "status": "scoring_attempted",
-      "title": "Article: Virtual Threads After JDK 24: What Changed for Production Java"
     },
     "https://www.infoq.com/news/2026/07/dropbox-mcp-ai-code-review": {
       "canonical_url": "https://www.infoq.com/news/2026/07/dropbox-mcp-ai-code-review",
@@ -4339,6 +4250,12 @@
       "created_at": "2026-07-31T15:36:29Z",
       "status": "scoring_attempted",
       "title": "This AI Assistant Wants to Make Up for Your Boyfriend\u2019s Incompetence"
+    },
+    "https://www.wired.com/story/this-chatbot-is-just-a-random-guy-lol": {
+      "canonical_url": "https://www.wired.com/story/this-chatbot-is-just-a-random-guy-lol",
+      "created_at": "2026-08-07T10:12:44Z",
+      "status": "scoring_attempted",
+      "title": "The Hottest New AI Chatbot Is Just a Guy Answering Your Questions"
     },
     "https://www.wired.com/story/why-normal-people-arent-using-ai-agents": {
       "canonical_url": "https://www.wired.com/story/why-normal-people-arent-using-ai-agents",
