@@ -181,6 +181,36 @@
         }
       }
     },
+    "29c63b4347844a20f0940bc986704e046586dcd602818b0a1394676fd9092238": {
+      "created_at": "2026-08-07T20:19:31Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.5,
+              "impact_score": 0.5,
+              "index": 6,
+              "novelty_score": 0.5,
+              "reason": "Tutorial-style title with no technical novelty or broad impact.",
+              "red_flag": true,
+              "red_flag_reason": "tutorial",
+              "source_score": 0.5,
+              "title": "The Claudyssey: A line-for-line translation of Homer's Odyssey by Claude Fable 5",
+              "total_score": 3.0
+            }
+          ],
+          "best_index": 6,
+          "best_score": 0.0,
+          "recommendation": "SKIP",
+          "social_posts": {
+            "facebook": "",
+            "telegram": "",
+            "threads": "",
+            "twitter": ""
+          }
+        }
+      }
+    },
     "30c9925b4f8bf2bfce23520a7aa0a3312574d79e0e2f3d2446f1221a85c798ba": {
       "created_at": "2026-08-07T18:31:50Z",
       "payload": {
@@ -1232,6 +1262,31 @@
         }
       }
     },
+    "8b267d8d6e93b556e85f1c9e01346c7b4b0076831572c900833d6a87e7942e7c": {
+      "created_at": "2026-08-07T20:19:31Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2,
+              "impact_score": 1.5,
+              "index": 2,
+              "novelty_score": 2.5,
+              "reason": "Research-level novelty with niche impact and fresh publication.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Psychological Warfare in Reverse Engineering",
+              "total_score": 6.5
+            }
+          ],
+          "best_index": 2,
+          "best_score": 6.5,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
     "8b878629fe25aa199e4031e29222453025d53ee5b2145480dcc49ee1354fdd06": {
       "created_at": "2026-08-07T09:14:35Z",
       "payload": {
@@ -1491,6 +1546,33 @@
           "recommendation": "SKIP",
           "social_posts": {}
         }
+      }
+    },
+    "a55d98c78273a072573f024d053b3349976364577da060cb5c19091eda734dee": {
+      "created_at": "2026-08-07T20:19:31Z",
+      "payload": {
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 0.5,
+              "index": 0,
+              "novelty_score": 0.5,
+              "reason": "Article is an opinion piece with low novelty and impact for software engineers/AI researchers.",
+              "red_flag": true,
+              "red_flag_reason": "opinion",
+              "source_score": 1.5,
+              "title": "Fenix Flexin isn\u2019t even denying using AI to make \u2018Rubberz\u2019 anymore",
+              "total_score": 3.0
+            }
+          ],
+          "best_index": 0,
+          "best_score": 3.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        },
+        "social_media_rules": []
       }
     },
     "ac74c2ae79a1382acf41bddbf4b8a5bf82beda2bf9485f2434dc2d6bf3c25d2d": {
@@ -3285,6 +3367,12 @@
       "status": "scoring_attempted",
       "title": "CRM: An open-source, agentic-first CRM"
     },
+    "https://github.com/xoreaxeaxeax/repsych": {
+      "canonical_url": "https://github.com/xoreaxeaxeax/repsych",
+      "created_at": "2026-08-07T20:19:31Z",
+      "status": "scoring_attempted",
+      "title": "Psychological Warfare in Reverse Engineering"
+    },
     "https://github.com/yc-software/qm": {
       "canonical_url": "https://github.com/yc-software/qm",
       "created_at": "2026-08-01T03:53:33Z",
@@ -3854,6 +3942,12 @@
       "created_at": "2026-08-07T18:31:50Z",
       "status": "scoring_attempted",
       "title": "Jill Lepore on the \u2018Artificial State\u2019 and why Silicon Valley\u2019s leaders are bad sci-fi readers"
+    },
+    "https://theclaudyssey.com": {
+      "canonical_url": "https://theclaudyssey.com",
+      "created_at": "2026-08-07T20:19:31Z",
+      "status": "scoring_attempted",
+      "title": "The Claudyssey: A line-for-line translation of Homer's Odyssey by Claude Fable 5"
     },
     "https://this.weekinsecurity.com/online-advertising-giant-adform-was-hacked-proving-once-again-why-ad-blockers-are-necessary": {
       "canonical_url": "https://this.weekinsecurity.com/online-advertising-giant-adform-was-hacked-proving-once-again-why-ad-blockers-are-necessary",
@@ -4532,6 +4626,12 @@
       "created_at": "2026-08-07T00:08:15Z",
       "status": "scoring_attempted",
       "title": "Jony Ive&#8217;s first OpenAI gadget is reportedly a hockey puck-sized smart speaker"
+    },
+    "https://www.theverge.com/ai-artificial-intelligence/976801/fenix-flexin-rubberz-ai-song-treblo": {
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/976801/fenix-flexin-rubberz-ai-song-treblo",
+      "created_at": "2026-08-07T20:19:31Z",
+      "status": "scoring_attempted",
+      "title": "Fenix Flexin isn\u2019t even denying using AI to make \u2018Rubberz\u2019 anymore"
     },
     "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities": {
       "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
