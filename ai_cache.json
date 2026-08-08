@@ -1172,6 +1172,31 @@
         }
       }
     },
+    "a45215ae54f92a640775476c3a71d8ef9e37c8e1e51923ca02168d204193d00a": {
+      "created_at": "2026-08-08T10:54:13Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 0.0,
+              "index": 0,
+              "novelty_score": 0.0,
+              "reason": "Article is unrelated to software engineering or AI research.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "US Military's Cyber Command Unit Grapples with Cluster of Deaths by Suicide",
+              "total_score": 2.5
+            }
+          ],
+          "best_index": 0,
+          "best_score": 2.5,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
     "a55d98c78273a072573f024d053b3349976364577da060cb5c19091eda734dee": {
       "created_at": "2026-08-07T20:19:31Z",
       "payload": {
@@ -3338,6 +3363,12 @@
       "created_at": "2026-08-05T19:06:40Z",
       "status": "scoring_attempted",
       "title": "Microsoft's AI Sales Mostly Come from OpenAI, Disclosures Show"
+    },
+    "https://www.bloomberg.com/news/articles/2026-08-06/us-military-s-cyber-command-unit-grapples-with-cluster-of-deaths-by-suicide": {
+      "canonical_url": "https://www.bloomberg.com/news/articles/2026-08-06/us-military-s-cyber-command-unit-grapples-with-cluster-of-deaths-by-suicide",
+      "created_at": "2026-08-08T10:54:13Z",
+      "status": "scoring_attempted",
+      "title": "US Military's Cyber Command Unit Grapples with Cluster of Deaths by Suicide"
     },
     "https://www.brethorsting.com/blog/2026/08/the-greenhouse-and-the-lens-two-modes-of-agentic-ai-work": {
       "canonical_url": "https://www.brethorsting.com/blog/2026/08/the-greenhouse-and-the-lens-two-modes-of-agentic-ai-work",
