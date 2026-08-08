@@ -99,6 +99,36 @@
         ]
       }
     },
+    "175b2e7dc90242cc9f50c0227964dbc92269a2ceca314ea2d05baad7fa507899": {
+      "created_at": "2026-08-08T00:43:03Z",
+      "payload": {
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.5,
+              "impact_score": 3.0,
+              "index": 2,
+              "novelty_score": 3.0,
+              "reason": "Government-backed open model initiative with high novelty and broad impact, published 2 hours ago.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "U.S. Department of Energy Launches the Genesis Open Models Initiative",
+              "total_score": 8.0
+            }
+          ],
+          "best_index": 2,
+          "best_score": 8.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        },
+        "social_media_rules": [
+          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
+          "If recommendation is SKIP, social_posts must be empty objects."
+        ]
+      }
+    },
     "1780786359b5773f67bb750f4f1a263648e08172b87109f5736ce72db91adf1f": {
       "created_at": "2026-08-07T16:52:15Z",
       "payload": {
@@ -413,96 +443,6 @@
         }
       }
     },
-    "43aca3cbe4a096c9f8f5d7ebfdf90f1475589489c055c6c032bb04add2c3e5e5": {
-      "created_at": "2026-08-07T00:08:15Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1,
-              "impact_score": 1.5,
-              "index": 13,
-              "novelty_score": 2.5,
-              "reason": "Research on AI-designed viruses with niche but significant implications for biosecurity and synthetic biology.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "Large genome models used to design new viruses",
-              "total_score": 6.5
-            },
-            {
-              "freshness_score": 1,
-              "impact_score": 2.5,
-              "index": 14,
-              "novelty_score": 2.5,
-              "reason": "New model release with industry impact but sourced from a low-tier aggregator.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Qwen3.8 Max now ranked as the best overall model by agentic index",
-              "total_score": 6.5
-            },
-            {
-              "freshness_score": 1,
-              "impact_score": 0.5,
-              "index": 15,
-              "novelty_score": 0.5,
-              "reason": "Entertainment news with minimal relevance to software engineering or AI research.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "The Zelda movie\u2019s Ganondorf casting hints at more movies",
-              "total_score": 3.5
-            },
-            {
-              "freshness_score": 1,
-              "impact_score": 1.5,
-              "index": 16,
-              "novelty_score": 2,
-              "reason": "Industry move addressing AI-generated content spam with moderate impact.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "Suno shares plans to combat spammy AI music",
-              "total_score": 6
-            },
-            {
-              "freshness_score": 1,
-              "impact_score": 0.5,
-              "index": 17,
-              "novelty_score": 1.5,
-              "reason": "Policy update with limited relevance to software engineering or AI research.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "Brendan Carr officially unleashes broadcast consolidation",
-              "total_score": 4.5
-            },
-            {
-              "freshness_score": 1,
-              "impact_score": 3,
-              "index": 18,
-              "novelty_score": 3,
-              "reason": "Major product update with broad impact on all developers and users.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "ChatGPT brings unlimited text chats to free users",
-              "total_score": 8.5
-            }
-          ],
-          "best_index": 18,
-          "best_score": 8.5,
-          "recommendation": "POST_NOW",
-          "social_posts": {
-            "facebook": "OpenAI quietly upgraded ChatGPT\u2019s free tier to include unlimited text chats, matching the capabilities of paid users. A new \u2018think\u2019 button also appears for complex queries, making the free version significantly more functional overnight.\n\nLink: https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
-            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *OpenAI just made ChatGPT\u2019s free tier far more usable by removing text chat limits*\n\nFree users now get unlimited queries and a new \u2018think\u2019 button for complex prompts, matching paid features.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (Tier A)\n\u23f0 Published: 6 hours ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-            "threads": "OpenAI just removed ChatGPT\u2019s text chat limits for free users and added a \u2018think\u2019 button for complex queries. The free tier now matches paid features in a quiet but major upgrade.\n\nhttps://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
-            "twitter": "OpenAI just made ChatGPT\u2019s free tier far more usable by removing text chat limits. Free users now get unlimited queries and a new \u2018think\u2019 button for complex prompts.\n\nhttps://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/"
-          }
-        }
-      }
-    },
     "4f3a68b105f54bca03365e13b4d96aaa1ce58ac0ebdacc8fef21425a5de38f8f": {
       "created_at": "2026-08-07T14:09:24Z",
       "payload": {
@@ -653,6 +593,31 @@
         "social_media_rules": []
       }
     },
+    "5d437bb0c33e47b780d3a9abd84b2fa156f6d877b4bfa39f4248f7f8f141db1d": {
+      "created_at": "2026-08-08T00:43:03Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.5,
+              "index": 0,
+              "novelty_score": 0.5,
+              "reason": "Opinion piece with no novel contribution or technical depth.",
+              "red_flag": true,
+              "red_flag_reason": "opinion",
+              "source_score": 0.5,
+              "title": "Should AI labs be treated like the owners of dangerous animals?",
+              "total_score": 5.5
+            }
+          ],
+          "best_index": 0,
+          "best_score": 5.5,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
     "6034911d3779ceb39c2aa502118ae844e2cda2b41f9e538283189d8b6ca6c3c4": {
       "created_at": "2026-08-07T23:12:52Z",
       "payload": {
@@ -758,108 +723,6 @@
         }
       }
     },
-    "6bb3844b7e629e9cf1f0c7e450341bdca959c477c7c6e472d602eb237231fe57": {
-      "created_at": "2026-08-07T00:08:15Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1.5,
-              "impact_score": 1.5,
-              "index": 0,
-              "novelty_score": 2.5,
-              "reason": "Research on quantum-chemistry benchmarks with niche but technical impact.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Spin audit of SQD/QSCI quantum-chemistry benchmarks on iron\u2013sulfur clusters",
-              "total_score": 6.0
-            },
-            {
-              "freshness_score": 2,
-              "impact_score": 0.5,
-              "index": 1,
-              "novelty_score": 2,
-              "reason": "Industry move with low technical impact for software engineers.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "OpenAI\u2019s new AI smart speaker will reportedly sell for between $300 and $400",
-              "total_score": 6.0
-            },
-            {
-              "freshness_score": 1,
-              "impact_score": 2.5,
-              "index": 2,
-              "novelty_score": 3,
-              "reason": "New release of a critical tool for LLM inference with high impact.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Inside vLLM: Anatomy of a High-Throughput LLM Inference System (2025)",
-              "total_score": 7.0
-            },
-            {
-              "freshness_score": 1,
-              "impact_score": 0.5,
-              "index": 3,
-              "novelty_score": 1.5,
-              "reason": "Industry move with minimal technical relevance.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "Trevor Noah is hosting Google\u2019s Pixel 11 launch event",
-              "total_score": 4.5
-            },
-            {
-              "freshness_score": 1,
-              "impact_score": 0.5,
-              "index": 4,
-              "novelty_score": 2,
-              "reason": "Industry move with low technical impact for software engineers.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "Jony Ive\u2019s first OpenAI gadget is reportedly a hockey puck-sized smart speaker",
-              "total_score": 5.0
-            },
-            {
-              "freshness_score": 1,
-              "impact_score": 2.5,
-              "index": 5,
-              "novelty_score": 3,
-              "reason": "New release with high impact on AI inference infrastructure.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1,
-              "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
-              "total_score": 7.5
-            },
-            {
-              "freshness_score": 1,
-              "impact_score": 1.5,
-              "index": 6,
-              "novelty_score": 2,
-              "reason": "Industry move with moderate technical relevance.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "Suno hopes to go legit with watermarks for AI-generated music",
-              "total_score": 6.0
-            }
-          ],
-          "best_index": 5,
-          "best_score": 7.5,
-          "recommendation": "SKIP",
-          "social_posts": {
-            "facebook": "",
-            "telegram": "",
-            "threads": "",
-            "twitter": ""
-          }
-        }
-      }
-    },
     "6d3f1fbb5bf8710a421197d100f3b88866fe3ab9e01ad7a1a450125a1aa40c61": {
       "created_at": "2026-08-07T14:09:24Z",
       "payload": {
@@ -899,91 +762,6 @@
             "threads": "AI chatbots have already failed people in crisis. The question now is whether companies will open their safety data to prevent future harm. This isn\u2019t just a policy debate\u2014it\u2019s about real-world consequences.\n\nhttps://arstechnica.com/ai/2026/08/ai-chatbots-have-failed-people-in-crisis-can-that-be-fixed/",
             "twitter": "AI chatbots are failing users in crisis. Researchers say transparency in safety data is the only way to fix it.\n\nhttps://arstechnica.com/ai/2026/08/ai-chatbots-have-failed-people-in-crisis-can-that-be-fixed/"
           }
-        }
-      }
-    },
-    "7398d263bb6d93087b0f518804b5c97c8ca1ac8c502349f105d1be1003f4f68c": {
-      "created_at": "2026-08-07T00:08:15Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 0.0,
-              "impact_score": 3.0,
-              "index": 36,
-              "novelty_score": 3.0,
-              "reason": "New release with broad impact but older than 12 hours.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 2.0,
-              "title": "Improving GPT-5.6 Sol in ChatGPT\u2014and expanding access to GPT-5.6 Luna for free users",
-              "total_score": 8.0
-            },
-            {
-              "freshness_score": 1.0,
-              "impact_score": 1.5,
-              "index": 19,
-              "novelty_score": 2.0,
-              "reason": "Industry move with niche impact, published 7 hours ago.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "Na\u00efve raises $28.5M to automate the grunt work of setting up and running a company",
-              "total_score": 6.0
-            },
-            {
-              "freshness_score": 1.0,
-              "impact_score": 3.0,
-              "index": 20,
-              "novelty_score": 2.5,
-              "reason": "Industry move with broad impact, published 7 hours ago.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "OpenAI is giving ChatGPT free users unlimited text chats",
-              "total_score": 8.0
-            },
-            {
-              "freshness_score": 1.0,
-              "impact_score": 2.5,
-              "index": 21,
-              "novelty_score": 2.5,
-              "reason": "Research with broad impact, published 7 hours ago.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "DeepMind Says Its AI Can Predict Hurricanes Earlier Than Everyone Else",
-              "total_score": 7.5
-            },
-            {
-              "freshness_score": 1.0,
-              "impact_score": 2.0,
-              "index": 22,
-              "novelty_score": 2.5,
-              "reason": "New release with niche impact, published 7 hours ago.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "Cloudflare open-sources vibe-coding platform for people who aren't coders",
-              "total_score": 7.0
-            },
-            {
-              "freshness_score": 1.0,
-              "impact_score": 0.5,
-              "index": 23,
-              "novelty_score": 1.5,
-              "reason": "Update with minimal impact, published 8 hours ago.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Show HN: The Channels SDK \u2013 Bring Any Agent to Any Channel (Slack, MS Teams)",
-              "total_score": 3.5
-            }
-          ],
-          "best_index": 36,
-          "best_score": 8.0,
-          "recommendation": "SKIP",
-          "social_posts": {}
         }
       }
     },
@@ -2156,96 +1934,6 @@
           "best_score": 0.0,
           "recommendation": "SKIP",
           "social_posts": {}
-        }
-      }
-    },
-    "dedeac9e0f5e8046f0a41da06dd56ec2af1b75fc0beacf6ad4d337f182eb11a5": {
-      "created_at": "2026-08-07T00:08:15Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1,
-              "impact_score": 2.5,
-              "index": 7,
-              "novelty_score": 2.5,
-              "reason": "Research-level industry move with broad implications for AI infrastructure.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "Anthropic will design its own hardware to power Claude",
-              "total_score": 7.5
-            },
-            {
-              "freshness_score": 1,
-              "impact_score": 0.5,
-              "index": 8,
-              "novelty_score": 0,
-              "reason": "Consumer product deal with minimal relevance to software engineers.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "The AirPods Pro are $60 off, their best price since late June",
-              "total_score": 3.0
-            },
-            {
-              "freshness_score": 1,
-              "impact_score": 2.5,
-              "index": 9,
-              "novelty_score": 2,
-              "reason": "Opinion piece on AI adoption with broad but not technical impact.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "Why Normal People Aren\u2019t Using AI Agents",
-              "total_score": 7.0
-            },
-            {
-              "freshness_score": 1,
-              "impact_score": 2.5,
-              "index": 10,
-              "novelty_score": 3,
-              "reason": "New release with significant technical implications for AI agents.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "Cloudflare Introduces Kitesurf: An Agent-First Web Browser That Runs Entirely in V8 Isolates on Cloudflare Workers",
-              "total_score": 8.0
-            },
-            {
-              "freshness_score": 1,
-              "impact_score": 1.5,
-              "index": 11,
-              "novelty_score": 1.5,
-              "reason": "Mixed-topic recap with limited technical focus.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "ICE\u2019s DNA Collection Increases, SpaceX\u2019s Rocket Crashes Into the Moon, and the AI Backlash Grows",
-              "total_score": 5.5
-            },
-            {
-              "freshness_score": 1,
-              "impact_score": 0.5,
-              "index": 12,
-              "novelty_score": 1.5,
-              "reason": "Niche startup announcement with minimal broader relevance.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Herdr is joining Y Combinator. The runtime stays open",
-              "total_score": 3.5
-            }
-          ],
-          "best_index": 10,
-          "best_score": 8.0,
-          "recommendation": "POST_NOW",
-          "social_posts": {
-            "facebook": "Cloudflare launched Kitesurf, a browser designed exclusively for AI agents. It runs in V8 isolates on Cloudflare Workers, stripping away human-facing features to focus on machine-readable content. This could reshape how agents interact with the web.\n\nLink: https://www.marktechpost.com/2026/08/06/cloudflare-introduces-kitesurf-an-agent-first-web-browser-that-runs-entirely-in-v8-isolates-on-cloudflare-workers/",
-            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Cloudflare Introduces Kitesurf: An Agent-First Web Browser That Runs Entirely in V8 Isolates on Cloudflare Workers*\n\nCloudflare released Kitesurf, a stateless web browser built for AI agents that runs entirely in V8 isolates on Cloudflare Workers. It omits human-facing features like tabs and extensions, focusing instead on machine-readable content for agent workflows.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (Tier A)\n\u23f0 Published: 4 hours ago\n\u2b50 Score: 8.0/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/08/06/cloudflare-introduces-kitesurf-an-agent-first-web-browser-that-runs-entirely-in-v8-isolates-on-cloudflare-workers/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-            "threads": "Cloudflare\u2019s new Kitesurf browser runs entirely in V8 isolates on Workers\u2014no Chromium, no tabs, just agent-first web access. It\u2019s a bold move toward infrastructure built for AI agents, not humans.\n\nhttps://www.marktechpost.com/2026/08/06/cloudflare-introduces-kitesurf-an-agent-first-web-browser-that-runs-entirely-in-v8-isolates-on-cloudflare-workers/",
-            "twitter": "Cloudflare just shipped Kitesurf, a stateless browser built for AI agents that runs entirely in V8 isolates on Workers. No Chromium, no tabs\u2014just raw agent-first web access.\n\nhttps://www.marktechpost.com/2026/08/06/cloudflare-introduces-kitesurf-an-agent-first-web-browser-that-runs-entirely-in-v8-isolates-on-cloudflare-workers/"
-          }
         }
       }
     },
@@ -3424,6 +3112,12 @@
       "status": "scoring_attempted",
       "title": "My personal AI benchmark: \"Generate an SVG of a frog with a Habsburg jaw.\""
     },
+    "https://genesisopenmodels.anl.gov": {
+      "canonical_url": "https://genesisopenmodels.anl.gov",
+      "created_at": "2026-08-08T00:43:03Z",
+      "status": "scoring_attempted",
+      "title": "U.S. Department of Energy Launches the Genesis Open Models Initiative"
+    },
     "https://github.com/ArcaEge/creakwork12": {
       "canonical_url": "https://github.com/ArcaEge/creakwork12",
       "created_at": "2026-08-02T22:10:35Z",
@@ -4269,6 +3963,12 @@
       "created_at": "2026-08-07T19:35:47Z",
       "status": "scoring_attempted",
       "title": "Databricks drove down AI coding spend 70%"
+    },
+    "https://www.economist.com/science-and-technology/2026/08/06/should-ai-labs-be-treated-like-the-owners-of-dangerous-animals": {
+      "canonical_url": "https://www.economist.com/science-and-technology/2026/08/06/should-ai-labs-be-treated-like-the-owners-of-dangerous-animals",
+      "created_at": "2026-08-08T00:43:03Z",
+      "status": "scoring_attempted",
+      "title": "Should AI labs be treated like the owners of dangerous animals?"
     },
     "https://www.engadget.com/2227966/eu-mandate-labels-on-authentic-looking-ai-content": {
       "canonical_url": "https://www.engadget.com/2227966/eu-mandate-labels-on-authentic-looking-ai-content",
