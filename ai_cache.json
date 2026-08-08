@@ -165,55 +165,6 @@
         ]
       }
     },
-    "1780786359b5773f67bb750f4f1a263648e08172b87109f5736ce72db91adf1f": {
-      "created_at": "2026-08-07T16:52:15Z",
-      "payload": {
-        "candidates": [
-          {
-            "article_url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
-            "index": 3,
-            "published_relative": "1 hour ago",
-            "published_time_utc": "2026-08-07T15:20:00Z",
-            "source": "OpenAI",
-            "summary": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we\u2019re taking to strengthen safeguards and security controls.",
-            "tier": "S",
-            "title": "Responding to the next frontier of critical cyber capabilities"
-          }
-        ],
-        "prompt_version": "cerebras-scoring-v1",
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1.5,
-              "impact_score": 3.0,
-              "index": 3,
-              "novelty_score": 3.0,
-              "reason": "OpenAI's official cybersecurity evaluation release for Astra with high novelty, impact, and freshness from Tier S source.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 2.0,
-              "title": "Responding to the next frontier of critical cyber capabilities",
-              "total_score": 9.5
-            }
-          ],
-          "best_index": 3,
-          "best_score": 9.5,
-          "recommendation": "POST_NOW",
-          "social_posts": {
-            "facebook": "OpenAI has released preliminary cybersecurity evaluations for its Astra model, outlining the safeguards and security controls being implemented. The document highlights steps taken to address emerging risks in critical areas. This is a rare look at how frontier models are being stress-tested before deployment.\n\nLink: https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
-            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Responding to the next frontier of critical cyber capabilities*\n\nOpenAI released preliminary cybersecurity evaluations for its Astra model, detailing safeguards and security controls. The report outlines steps taken to address emerging risks in critical domains, including security testing methodologies.\n\n\ud83c\udfdb\ufe0f Source: OpenAI (Tier S)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9.5/10\n\n\ud83d\udd17 https://openai.com/index/responding-next-frontier-critical-cyber-capabilities\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-            "threads": "OpenAI published cybersecurity evaluations for Astra, including safeguards and security controls. The report details proactive risk mitigation in critical domains, offering a rare transparency into frontier model safety practices.\n\nhttps://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
-            "twitter": "OpenAI just published cybersecurity evaluations for its Astra model, detailing safeguards and security controls. Early assessments show proactive risk mitigation in critical domains.\n\nhttps://openai.com/index/responding-next-frontier-critical-cyber-capabilities"
-          }
-        },
-        "social_media_rules": [
-          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
-          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.",
-          "Use the FULL article title as headline without inventing facts.",
-          "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
-        ]
-      }
-    },
     "2039747a1ec8bbdcee801a26012548f6aaf18f5c7a0d1a14b94f3c630f9cf1ae": {
       "created_at": "2026-08-07T18:31:50Z",
       "payload": {
@@ -824,36 +775,6 @@
         }
       }
     },
-    "977a7dd8122870931e226de51518d946459668ae43ba972e1feacc7de14a32f7": {
-      "created_at": "2026-08-07T16:52:15Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 2.5,
-              "index": 1,
-              "novelty_score": 3.0,
-              "reason": "New AI-focused browser release from Tier A source with high freshness and broad developer impact.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "Cloudflare launches Kitesurf, a browser built for AI agents",
-              "total_score": 9.0
-            }
-          ],
-          "best_index": 1,
-          "best_score": 9.0,
-          "recommendation": "POST_NOW",
-          "social_posts": {
-            "facebook": "Cloudflare\u2019s new Kitesurf browser is built from the ground up for AI agents, not humans. Early tests show it uses significantly less compute for automation tasks, making it a game-changer for developers building browser-based AI systems.\n\nLink: https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
-            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Cloudflare launches Kitesurf, a browser built for AI agents\n\nCloudflare introduced Kitesurf, a cloud-hosted browser optimized for AI agents instead of human users. The browser reduces compute power requirements by up to 50% for common automation tasks, enabling more efficient development of browser-based AI systems.\n\n\ud83c\udfdb\ufe0f Source: TechCrunch (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-            "threads": "Cloudflare\u2019s Kitesurf browser is the first cloud-hosted browser designed specifically for AI agents. It reportedly reduces compute overhead by half compared to Chromium for automation tasks, which could reshape how we build AI-driven web interactions.\n\nhttps://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
-            "twitter": "Cloudflare just shipped Kitesurf, a browser optimized for AI agents that cuts compute costs by 50% vs Chromium for automation tasks.\n\nhttps://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/"
-          }
-        }
-      }
-    },
     "9b541c60faffe5074f378934ccd0bbc220245b950de9cf951255ed317fe1f287": {
       "created_at": "2026-08-07T18:31:50Z",
       "payload": {
@@ -896,31 +817,6 @@
           "Use the FULL article title as headline without inventing facts.",
           "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
         ]
-      }
-    },
-    "a290913602d5b4c42b78171b52b5f35fa3672ce905161cdadeb016ade2fec7a8": {
-      "created_at": "2026-08-07T16:52:15Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 0.5,
-              "index": 2,
-              "novelty_score": 0.2,
-              "reason": "Article is a product deal, not a software engineering or AI research topic.",
-              "red_flag": true,
-              "red_flag_reason": "tutorial",
-              "source_score": 1.5,
-              "title": "Birdfy\u2019s smart bird feeder is on sale for just $60",
-              "total_score": 4.2
-            }
-          ],
-          "best_index": 2,
-          "best_score": 0.0,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
       }
     },
     "a45215ae54f92a640775476c3a71d8ef9e37c8e1e51923ca02168d204193d00a": {
@@ -1223,31 +1119,6 @@
           "social_posts": {}
         }
       }
-    },
-    "fc6d991a155732da161022a30df22310c34b718c3d4aa6172955ed51f04a2e7a": {
-      "created_at": "2026-08-07T16:52:15Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2,
-              "impact_score": 1.5,
-              "index": 0,
-              "novelty_score": 2,
-              "reason": "Industry move with niche impact, fresh and from a low-tier source.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "The AI Billboards Are Killing SF",
-              "total_score": 6
-            }
-          ],
-          "best_index": 0,
-          "best_score": 6,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
-      }
     }
   },
   "groq_social_posts": {},
@@ -1269,12 +1140,6 @@
       "created_at": "2026-08-08T09:00:48Z",
       "status": "scoring_attempted",
       "title": "Grindr CEO Says AI Is Doing the Work of 200 Engineers"
-    },
-    "https://alexiglad.github.io/blog/2026/explorative_modeling": {
-      "canonical_url": "https://alexiglad.github.io/blog/2026/explorative_modeling",
-      "created_at": "2026-08-01T16:44:40Z",
-      "status": "scoring_attempted",
-      "title": "Explorative modeling: Train on the best of K guesses"
     },
     "https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code": {
       "canonical_url": "https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code",
@@ -2332,12 +2197,6 @@
       "status": "scoring_attempted",
       "title": "KTX Images Converter for WebGL/GPU and Threejs"
     },
-    "https://lalitm.com/post/github-alternatives": {
-      "canonical_url": "https://lalitm.com/post/github-alternatives",
-      "created_at": "2026-08-01T16:44:40Z",
-      "status": "scoring_attempted",
-      "title": "GitHub has alternatives, but no replacement"
-    },
     "https://lapcatsoftware.com/articles/2026/8/2.html": {
       "canonical_url": "https://lapcatsoftware.com/articles/2026/8/2.html",
       "created_at": "2026-08-03T16:03:52Z",
@@ -2559,12 +2418,6 @@
       "created_at": "2026-08-01T17:49:54Z",
       "status": "scoring_attempted",
       "title": "Sam Altman is still making the case for parenting via ChatGPT"
-    },
-    "https://techcrunch.com/2026/08/01/this-9-key-physically-locks-your-most-addictive-apps": {
-      "canonical_url": "https://techcrunch.com/2026/08/01/this-9-key-physically-locks-your-most-addictive-apps",
-      "created_at": "2026-08-01T16:44:40Z",
-      "status": "scoring_attempted",
-      "title": "This $9 key physically locks your most addictive apps"
     },
     "https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy": {
       "canonical_url": "https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy",
@@ -3363,12 +3216,6 @@
       "created_at": "2026-08-07T19:35:47Z",
       "status": "scoring_attempted",
       "title": "What happens if an entire class of workers loses faith in their careers"
-    },
-    "https://www.nytimes.com/2026/08/01/us/politics/iran-cyberattack-water-systems.html": {
-      "canonical_url": "https://www.nytimes.com/2026/08/01/us/politics/iran-cyberattack-water-systems.html",
-      "created_at": "2026-08-01T16:44:40Z",
-      "status": "scoring_attempted",
-      "title": "Scope of Hacks on U.S. Water Supply Widens as Evidence Points to Iran"
     },
     "https://www.ohiostatefair.com/p/get-involved/arts/poster-contest": {
       "canonical_url": "https://www.ohiostatefair.com/p/get-involved/arts/poster-contest",
