@@ -124,6 +124,31 @@
         ]
       }
     },
+    "12a11786f9c93ba1db7a95975183fd56d4f930945caca177fea14b01ceef8816": {
+      "created_at": "2026-08-08T12:21:44Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2,
+              "impact_score": 2.5,
+              "index": 1,
+              "novelty_score": 2.5,
+              "reason": "Research-level impact with freshness but low source tier.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
+              "total_score": 7.5
+            }
+          ],
+          "best_index": 1,
+          "best_score": 7.5,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
     "1614174dbdcfaf28d55fb3a177686ffd0ea7029a120b18ed6fed0f096faa82f0": {
       "created_at": "2026-08-08T08:08:33Z",
       "payload": {
@@ -1569,31 +1594,6 @@
         }
       }
     },
-    "fc04db034ede2a432affc6c24f17adef86e48dde9dda40ddc6528e1150cf9123": {
-      "created_at": "2026-08-07T11:54:48Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2,
-              "impact_score": 2.5,
-              "index": 0,
-              "novelty_score": 2,
-              "reason": "Industry move with significant legal and financial impact, published under 1 hour ago from Tier A source.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "New Mexico court orders Meta to pay additional $567M in child safety case",
-              "total_score": 8.0
-            }
-          ],
-          "best_index": 0,
-          "best_score": 8.0,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
-      }
-    },
     "fc6d991a155732da161022a30df22310c34b718c3d4aa6172955ed51f04a2e7a": {
       "created_at": "2026-08-07T16:52:15Z",
       "payload": {
@@ -2905,6 +2905,12 @@
       "created_at": "2026-08-04T11:47:53Z",
       "status": "scoring_attempted",
       "title": "Ray Bradbury's \"There Will Come Soft Rains\" is set today (2026-08-04)"
+    },
+    "https://simonwillison.net/2026/Aug/7/openai-timeline": {
+      "canonical_url": "https://simonwillison.net/2026/Aug/7/openai-timeline",
+      "created_at": "2026-08-08T12:21:44Z",
+      "status": "scoring_attempted",
+      "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face"
     },
     "https://status.digdir.no/incidents/d7hvqmf2yr3l": {
       "canonical_url": "https://status.digdir.no/incidents/d7hvqmf2yr3l",
