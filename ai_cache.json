@@ -99,6 +99,36 @@
         ]
       }
     },
+    "1614174dbdcfaf28d55fb3a177686ffd0ea7029a120b18ed6fed0f096faa82f0": {
+      "created_at": "2026-08-08T08:08:33Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.5,
+              "index": 0,
+              "novelty_score": 3.0,
+              "reason": "New release with broad impact on bot/AI agent detection, published <1h ago from Tier B source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.0,
+              "title": "Cloudflare's Precursor Detects Bots and AI Agents Through Continuous Behavioral Analysis",
+              "total_score": 8.5
+            }
+          ],
+          "best_index": 0,
+          "best_score": 8.5,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "Cloudflare just launched Precursor, a client-side behavioral engine that continuously analyzes mouse movements and keyboard timing to flag bots and AI agents in real time. Unlike CAPTCHAs, it doesn\u2019t rely on one-time challenges\u2014making it harder for bad actors to bypass. This could reshape how we handle automated traffic at scale.\n\nLink: https://www.infoq.com/news/2026/08/cloudflare-precursor-detection/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Cloudflare's Precursor Detects Bots and AI Agents Through Continuous Behavioral Analysis\n\nCloudflare introduced Precursor, a client-side behavioral analysis engine that continuously evaluates session interactions like mouse movements and keyboard timing to detect sophisticated bots and AI agents without relying on one-time challenges such as CAPTCHAs.\n\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (Tier B)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.infoq.com/news/2026/08/cloudflare-precursor-detection/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "Cloudflare\u2019s Precursor is a new behavioral analysis engine that continuously evaluates mouse movements and keyboard timing to detect bots and AI agents without CAPTCHAs. Early deployments show it outperforms static challenge methods in live traffic.\n\nhttps://www.infoq.com/news/2026/08/cloudflare-precursor-detection/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+            "twitter": "Cloudflare\u2019s Precursor uses continuous behavioral analysis to detect bots and AI agents without CAPTCHAs. Early tests show it outperforms static challenge methods in live traffic.\n\nhttps://www.infoq.com/news/2026/08/cloudflare-precursor-detection/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+          }
+        }
+      }
+    },
     "175b2e7dc90242cc9f50c0227964dbc92269a2ceca314ea2d05baad7fa507899": {
       "created_at": "2026-08-08T00:43:03Z",
       "payload": {
@@ -1330,6 +1360,38 @@
           "Use the FULL article title as headline without inventing facts.",
           "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
         ]
+      }
+    },
+    "b03a133cc512193c4a27cf4316af466bfc61730b74615ab4597108a381726c9b": {
+      "created_at": "2026-08-08T08:08:33Z",
+      "payload": {
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.5,
+              "index": 1,
+              "novelty_score": 3.0,
+              "reason": "New release with high impact on all developers, fresh (<1h), but source is Tier B.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.0,
+              "title": "GitHub Hardens npm and Actions Defaults, Drawing Debate over Delays versus Signing",
+              "total_score": 8.5
+            }
+          ],
+          "best_index": 1,
+          "best_score": 8.5,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "GitHub\u2019s latest npm and Actions defaults are changing how developers handle supply chain security, with some arguing delays are the wrong tool. The changes, rolled out over months, now face scrutiny over their effectiveness versus signing mechanisms.\n\nLink: https://www.infoq.com/news/2026/08/github-npm-actions-defaults/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *GitHub Hardens npm and Actions Defaults, Drawing Debate over Delays versus Signing*\n\nGitHub\u2019s consolidated npm and Actions changes, rolled out from March to July 2026, now face scrutiny over whether delays or signing better secure the supply chain. Hacker News discussion questions the effectiveness of waiting periods as a control.\n\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (Tier B)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.infoq.com/news/2026/08/github-npm-actions-defaults/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "GitHub\u2019s hardened npm and Actions defaults are drawing criticism for relying on delays instead of signing to mitigate supply chain risks. The changes, debated on Hacker News, highlight tensions between usability and security.\n\nhttps://www.infoq.com/news/2026/08/github-npm-actions-defaults/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+            "twitter": "GitHub\u2019s new npm and Actions defaults are sparking debate over whether delays or signing better secure the supply chain.\n\nhttps://www.infoq.com/news/2026/08/github-npm-actions-defaults/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+          }
+        },
+        "social_media_rules": "Applied."
       }
     },
     "b17583cbe5300043497ccd641f533e9be9cf13a729d7f0a9305c497f72b5f56d": {
@@ -3564,6 +3626,12 @@
       "status": "scoring_attempted",
       "title": "Cloudflare Introduces Meerkat for Strongly Consistent Global Coordination"
     },
+    "https://www.infoq.com/news/2026/08/cloudflare-precursor-detection": {
+      "canonical_url": "https://www.infoq.com/news/2026/08/cloudflare-precursor-detection",
+      "created_at": "2026-08-08T08:08:33Z",
+      "status": "scoring_attempted",
+      "title": "Cloudflare's Precursor Detects Bots and AI Agents Through Continuous Behavioral Analysis"
+    },
     "https://www.infoq.com/news/2026/08/cosmosescape-master-key": {
       "canonical_url": "https://www.infoq.com/news/2026/08/cosmosescape-master-key",
       "created_at": "2026-08-06T09:36:36Z",
@@ -3581,6 +3649,12 @@
       "created_at": "2026-08-04T09:24:04Z",
       "status": "scoring_attempted",
       "title": "eslint-rspack-plugin 5.0.0 Ships as a Pure ESM Package, Aligning with the Rstack Ecosystem"
+    },
+    "https://www.infoq.com/news/2026/08/github-npm-actions-defaults": {
+      "canonical_url": "https://www.infoq.com/news/2026/08/github-npm-actions-defaults",
+      "created_at": "2026-08-08T08:08:33Z",
+      "status": "scoring_attempted",
+      "title": "GitHub Hardens npm and Actions Defaults, Drawing Debate over Delays versus Signing"
     },
     "https://www.infoq.com/news/2026/08/instacart-blueberry-sre-ai": {
       "canonical_url": "https://www.infoq.com/news/2026/08/instacart-blueberry-sre-ai",
