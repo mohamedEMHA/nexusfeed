@@ -30,6 +30,31 @@
         }
       }
     },
+    "02b449d1662facd1770a4100bafc3e0449d32fcb368c24d78a90b3af3f037679": {
+      "created_at": "2026-08-08T09:54:36Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2,
+              "impact_score": 2.5,
+              "index": 0,
+              "novelty_score": 2.5,
+              "reason": "Research/industry move with high freshness and moderate source tier.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1,
+              "title": "Presentation: Keeping ChatGPT Fast as AI Development Accelerates",
+              "total_score": 8.0
+            }
+          ],
+          "best_index": 0,
+          "best_score": 8.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
     "0a48d3d2f37e80f61f571c908d70ca8f29f992c6167df0c46494721a34b7101b": {
       "created_at": "2026-08-07T19:35:47Z",
       "payload": {
@@ -693,31 +718,6 @@
         }
       }
     },
-    "6b48073328204e5f70a847ff2a63dcfac7f1a2c1bbd9ccf564acc29b7ce78f9c": {
-      "created_at": "2026-08-07T09:14:35Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2,
-              "impact_score": 1.5,
-              "index": 3,
-              "novelty_score": 2,
-              "reason": "Tutorial-style headline triggers red flag despite high freshness and source score.",
-              "red_flag": true,
-              "red_flag_reason": "tutorial",
-              "source_score": 2,
-              "title": "How HSP GRUPPE builds AI capabilities for tax advisory",
-              "total_score": 7.5
-            }
-          ],
-          "best_index": 3,
-          "best_score": 0,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
-      }
-    },
     "6d3f1fbb5bf8710a421197d100f3b88866fe3ab9e01ad7a1a450125a1aa40c61": {
       "created_at": "2026-08-07T14:09:24Z",
       "payload": {
@@ -941,33 +941,6 @@
         ]
       }
     },
-    "88e83450f5007b1fd92dc62d10ba5ef0dfc5f77e07b074486bf93d9e7887abf5": {
-      "created_at": "2026-08-07T09:14:35Z",
-      "payload": {
-        "prompt_version": "cerebras-scoring-v1",
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 0.5,
-              "index": 0,
-              "novelty_score": 0.5,
-              "reason": "Legal ruling lacks technical novelty or developer impact, and contains red flag keywords.",
-              "red_flag": true,
-              "red_flag_reason": "legal ruling",
-              "source_score": 1.5,
-              "title": "Meta ordered to pay an additional $567 million in public nuisance ruling",
-              "total_score": 4.5
-            }
-          ],
-          "best_index": 0,
-          "best_score": 0.0,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        },
-        "social_media_rules": []
-      }
-    },
     "89fcc069fa8cc44cc7ccec3b93423847901e5f5f4a7f62fad8ff1bce0c40fed0": {
       "created_at": "2026-08-07T17:42:35Z",
       "payload": {
@@ -1016,50 +989,6 @@
           "recommendation": "SKIP",
           "social_posts": {}
         }
-      }
-    },
-    "8b878629fe25aa199e4031e29222453025d53ee5b2145480dcc49ee1354fdd06": {
-      "created_at": "2026-08-07T09:14:35Z",
-      "payload": {
-        "candidates": [
-          {
-            "article_url": "https://www.infoq.com/podcasts/infoq-culture-trends-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-            "index": 2,
-            "published_relative": "<1 hour ago",
-            "published_time_utc": "2026-08-07T09:00:00Z",
-            "source": "InfoQ AI/ML",
-            "summary": "This is the Engineering Culture Trends Report for 2026. Featuring a panel of QCon speakers and InfoQ contributors, they discussed AI adoption maturity and risk, the transformation of engineering team structures and roles, and the human dimensions of software development that must not be lost in 202...",
-            "tier": "B",
-            "title": "Podcast: Culture & Methods Trends 2026: The Human Side of AI Engineering"
-          }
-        ],
-        "prompt_version": "cerebras-scoring-v1",
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 2.5,
-              "index": 2,
-              "novelty_score": 0.5,
-              "reason": "Podcast content with moderate novelty, broad impact on AI engineering culture, and very fresh publication.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.0,
-              "title": "Podcast: Culture & Methods Trends 2026: The Human Side of AI Engineering",
-              "total_score": 6.0
-            }
-          ],
-          "best_index": 2,
-          "best_score": 6.0,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        },
-        "social_media_rules": [
-          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
-          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.",
-          "Use the FULL article title as headline without inventing facts.",
-          "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
-        ]
       }
     },
     "8e748c559c5e064077f96ef0ef7985d077a818e8379b593cd75f9e95dbf0bab5": {
@@ -1216,42 +1145,6 @@
           }
         },
         "social_media_rules": []
-      }
-    },
-    "a1305e7e28634edb46b0654eebf8d80f79c8b57331b72bbb04ccb0f6f85f3c9e": {
-      "created_at": "2026-08-07T09:14:35Z",
-      "payload": {
-        "candidates": [],
-        "prompt_version": "cerebras-scoring-v1",
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 1.5,
-              "index": 1,
-              "novelty_score": 0.5,
-              "reason": "Recap-style article with no novel contribution or actionable insights for engineers.",
-              "red_flag": true,
-              "red_flag_reason": "recap",
-              "source_score": 1.0,
-              "title": "Article: InfoQ Culture and Methods Trends Report - 2026",
-              "total_score": 5.0
-            }
-          ],
-          "best_index": 1,
-          "best_score": 0.0,
-          "recommendation": "SKIP",
-          "social_posts": {
-            "facebook": "",
-            "telegram": "",
-            "threads": "",
-            "twitter": ""
-          }
-        },
-        "social_media_rules": [
-          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
-          "If recommendation is SKIP, social_posts must be empty strings for all keys."
-        ]
       }
     },
     "a290913602d5b4c42b78171b52b5f35fa3672ce905161cdadeb016ade2fec7a8": {
@@ -2937,12 +2830,6 @@
       "status": "scoring_attempted",
       "title": "Octane \u2013 React's programming model, compiled"
     },
-    "https://openai-git-upstream.openai.chatgpt.site": {
-      "canonical_url": "https://openai-git-upstream.openai.chatgpt.site",
-      "created_at": "2026-08-01T09:33:33Z",
-      "status": "scoring_attempted",
-      "title": "OpenAI's work on Git for large repositories"
-    },
     "https://openai.com/index/hsp-gruppe": {
       "canonical_url": "https://openai.com/index/hsp-gruppe",
       "created_at": "2026-08-07T09:14:35Z",
@@ -3375,12 +3262,6 @@
       "status": "scoring_attempted",
       "title": "Only 8.9% of sites block AI crawlers, but 94.8% are never cited in AI answers"
     },
-    "https://weeraman.com/the-prototype-isnt-the-product": {
-      "canonical_url": "https://weeraman.com/the-prototype-isnt-the-product",
-      "created_at": "2026-08-01T09:33:33Z",
-      "status": "scoring_attempted",
-      "title": "AI doesn't generate working products, that's still your job"
-    },
     "https://wwnorton.com/books/9781324051299": {
       "canonical_url": "https://wwnorton.com/books/9781324051299",
       "created_at": "2026-08-02T02:25:16Z",
@@ -3728,6 +3609,12 @@
       "created_at": "2026-08-04T11:47:53Z",
       "status": "scoring_attempted",
       "title": "Presentation: Microservices Platforms: When Team Topologies Meets Microservices Patterns"
+    },
+    "https://www.infoq.com/presentations/openai-performance-engineering-agentic-coding": {
+      "canonical_url": "https://www.infoq.com/presentations/openai-performance-engineering-agentic-coding",
+      "created_at": "2026-08-08T09:54:36Z",
+      "status": "scoring_attempted",
+      "title": "Presentation: Keeping ChatGPT Fast as AI Development Accelerates"
     },
     "https://www.infoq.com/presentations/spotify-ai-codebase-migration-agent": {
       "canonical_url": "https://www.infoq.com/presentations/spotify-ai-codebase-migration-agent",
