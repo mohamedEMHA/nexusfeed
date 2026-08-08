@@ -543,92 +543,6 @@
         }
       }
     },
-    "4f3a68b105f54bca03365e13b4d96aaa1ce58ac0ebdacc8fef21425a5de38f8f": {
-      "created_at": "2026-08-07T14:09:24Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 2.5,
-              "index": 2,
-              "novelty_score": 3.0,
-              "reason": "New industry move with high impact and freshness from Tier A source.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "ByteDance trains massive AI model in bid to rival Anthropic",
-              "total_score": 9.0
-            },
-            {
-              "freshness_score": 2.0,
-              "impact_score": 1.5,
-              "index": 3,
-              "novelty_score": 0.5,
-              "reason": "Opinion piece triggers red flag.",
-              "red_flag": true,
-              "red_flag_reason": "opinion",
-              "source_score": 0.5,
-              "title": "AI psychosis is the new leadership blind spot",
-              "total_score": 4.5
-            }
-          ],
-          "best_index": 2,
-          "best_score": 9.0,
-          "recommendation": "POST_NOW",
-          "social_posts": {
-            "facebook": "ByteDance trained a 10-trillion-parameter AI model, positioning itself to compete directly with Anthropic. The move underscores the escalating arms race in large-scale AI development. If this model delivers on early promises, it could shift the balance in enterprise AI deployments.\n\nLink: https://arstechnica.com/ai/2026/08/bytedance-trains-massive-ai-model-in-bid-to-rival-anthropic/",
-            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *ByteDance trains massive AI model in bid to rival Anthropic*\n\nTikTok\u2019s parent company trained a 10-trillion-parameter model to compete with Anthropic\u2019s offerings.\n\n\ud83c\udfdb\ufe0f Source: Ars Technica (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://arstechnica.com/ai/2026/08/bytedance-trains-massive-ai-model-in-bid-to-rival-anthropic/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-            "threads": "ByteDance built a 10-trillion-parameter model to take on Anthropic. Benchmark whispers claim it\u2019s narrowing the reasoning gap faster than expected.\n\nhttps://arstechnica.com/ai/2026/08/bytedance-trains-massive-ai-model-in-bid-to-rival-anthropic/",
-            "twitter": "ByteDance just dropped a 10-trillion-parameter model to challenge Anthropic. Early chatter suggests it\u2019s closing the gap on reasoning benchmarks.\n\nhttps://arstechnica.com/ai/2026/08/bytedance-trains-massive-ai-model-in-bid-to-rival-anthropic/"
-          }
-        }
-      }
-    },
-    "508590258635f6ddacc4ff396b759ffe898c9201c98af7bfccb7e4b3a2e48f27": {
-      "created_at": "2026-08-07T14:09:24Z",
-      "payload": {
-        "candidates": [
-          {
-            "article_url": "https://w.on-t.work/web-deployment-model",
-            "index": 4,
-            "published_relative": "<1 hour ago",
-            "published_time_utc": "2026-08-07T13:15:36Z",
-            "source": "Hacker News",
-            "summary": "Comments",
-            "tier": "C",
-            "title": "The web server deployment model breaks at hobby scale"
-          }
-        ],
-        "prompt_version": "cerebras-scoring-v1",
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2,
-              "impact_score": 2.5,
-              "index": 4,
-              "novelty_score": 2.5,
-              "reason": "Research-style opinion with high freshness and niche-to-all-devs impact.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "The web server deployment model breaks at hobby scale",
-              "total_score": 7.5
-            }
-          ],
-          "best_index": 4,
-          "best_score": 7.5,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        },
-        "social_media_rules": [
-          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
-          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.",
-          "Use the FULL article title as headline without inventing facts.",
-          "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
-        ]
-      }
-    },
     "5564d0552286cf3857d2db1bc3c828c8b2a5c1041384f1e271f13ccaedcd211c": {
       "created_at": "2026-08-07T19:35:47Z",
       "payload": {
@@ -770,48 +684,6 @@
           "best_score": 2.5,
           "recommendation": "SKIP",
           "social_posts": {}
-        }
-      }
-    },
-    "6d3f1fbb5bf8710a421197d100f3b88866fe3ab9e01ad7a1a450125a1aa40c61": {
-      "created_at": "2026-08-07T14:09:24Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2,
-              "impact_score": 1.5,
-              "index": 0,
-              "novelty_score": 2,
-              "reason": "Niche hardware hack with moderate novelty and freshness but limited developer impact.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "Werewolf transformed my old gadgets into USB-C powered ones",
-              "total_score": 7
-            },
-            {
-              "freshness_score": 2,
-              "impact_score": 3,
-              "index": 1,
-              "novelty_score": 2.5,
-              "reason": "High-impact industry analysis on AI safety with strong freshness and source credibility.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "AI chatbots have failed people in crisis. Can that be fixed?",
-              "total_score": 9
-            }
-          ],
-          "best_index": 1,
-          "best_score": 9,
-          "recommendation": "POST_NOW",
-          "social_posts": {
-            "facebook": "AI chatbots have repeatedly failed users in high-stakes situations, from medical advice to crisis counseling. Clinicians and researchers argue that without open safety data, these failures will continue. The piece examines why transparency is critical\u2014and what it would take to implement.\n\nLink: https://arstechnica.com/ai/2026/08/ai-chatbots-have-failed-people-in-crisis-can-that-be-fixed/",
-            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *AI chatbots have failed people in crisis. Can that be fixed?*\n\nClinicians and researchers argue that AI companies must open their safety data to prevent repeated failures in high-stakes scenarios like medical advice or crisis counseling.\n\n\ud83c\udfdb\ufe0f Source: Ars Technica (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9/10\n\n\ud83d\udd17 https://arstechnica.com/ai/2026/08/ai-chatbots-have-failed-people-in-crisis-can-that-be-fixed/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-            "threads": "AI chatbots have already failed people in crisis. The question now is whether companies will open their safety data to prevent future harm. This isn\u2019t just a policy debate\u2014it\u2019s about real-world consequences.\n\nhttps://arstechnica.com/ai/2026/08/ai-chatbots-have-failed-people-in-crisis-can-that-be-fixed/",
-            "twitter": "AI chatbots are failing users in crisis. Researchers say transparency in safety data is the only way to fix it.\n\nhttps://arstechnica.com/ai/2026/08/ai-chatbots-have-failed-people-in-crisis-can-that-be-fixed/"
-          }
         }
       }
     },
@@ -1259,50 +1131,6 @@
         ]
       }
     },
-    "af2c68581c78e0c3f1970eb3370731e89393954fabbb5c4cd25bef534a82d933": {
-      "created_at": "2026-08-07T14:09:24Z",
-      "payload": {
-        "candidates": [
-          {
-            "article_url": "https://blog.cloudflare.com/kitesurf/",
-            "index": 9,
-            "published_relative": "3 hours ago",
-            "published_time_utc": "2026-08-07T10:42:07Z",
-            "source": "Hacker News",
-            "summary": "Comments",
-            "tier": "C",
-            "title": "Kitesurf: Agent-first browser that runs in V8 isolates"
-          }
-        ],
-        "prompt_version": "cerebras-scoring-v1",
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1.0,
-              "impact_score": 2.5,
-              "index": 9,
-              "novelty_score": 3.0,
-              "reason": "Novelty and impact scores high for a new tool, but source tier C and freshness moderate.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "Kitesurf: Agent-first browser that runs in V8 isolates",
-              "total_score": 7.0
-            }
-          ],
-          "best_index": 9,
-          "best_score": 7.0,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        },
-        "social_media_rules": [
-          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
-          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.",
-          "Use the FULL article title as headline without inventing facts.",
-          "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
-        ]
-      }
-    },
     "b03a133cc512193c4a27cf4316af466bfc61730b74615ab4597108a381726c9b": {
       "created_at": "2026-08-08T08:08:33Z",
       "payload": {
@@ -1333,6 +1161,31 @@
           }
         },
         "social_media_rules": "Applied."
+      }
+    },
+    "b2255b4d2a05bcbb34e7acac9e1894bb04f75915b78f1544eadac2b0a608d8a2": {
+      "created_at": "2026-08-08T14:50:04Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.5,
+              "index": 0,
+              "novelty_score": 1.5,
+              "reason": "Industry move with niche but high impact on open-source infrastructure, fresh but low-tier source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Gentoo bugzilla closed due AI bot scraper overload",
+              "total_score": 6.5
+            }
+          ],
+          "best_index": 0,
+          "best_score": 6.5,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
       }
     },
     "c21280a9599ed16613156e1cd5c10e84cddf4ae1adff395122d1140bfc8953c6": {
@@ -1432,6 +1285,36 @@
           "social_posts": {}
         },
         "social_media_rules": []
+      }
+    },
+    "cd89597d1a798fba2f9a93d4af541cf591d948b0cfd0d2bdecd39e3a201d4f7f": {
+      "created_at": "2026-08-08T14:50:04Z",
+      "payload": {
+        "prompt_version": "cerebras-scoring-v1",
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.5,
+              "impact_score": 1.5,
+              "index": 1,
+              "novelty_score": 3.0,
+              "reason": "New DNS specification for 'for sale' domains, niche but fresh and novel.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "A domain can now say it is for sale, in DNS",
+              "total_score": 6.5
+            }
+          ],
+          "best_index": 1,
+          "best_score": 6.5,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        },
+        "social_media_rules": [
+          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
+          "If recommendation is SKIP, return empty strings for all social_posts keys."
+        ]
       }
     },
     "d3e01a8858d38b3b2b4419583be26e0b7a6016ce68706bef59fceb95175abb79": {
@@ -2825,6 +2708,18 @@
       "created_at": "2026-08-08T12:21:44Z",
       "status": "scoring_attempted",
       "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face"
+    },
+    "https://social.treehouse.systems/@mgorny/117058483039362779": {
+      "canonical_url": "https://social.treehouse.systems/@mgorny/117058483039362779",
+      "created_at": "2026-08-08T14:50:04Z",
+      "status": "scoring_attempted",
+      "title": "Gentoo bugzilla closed due AI bot scraper overload"
+    },
+    "https://specification.website/spec/foundations/for-sale-dns": {
+      "canonical_url": "https://specification.website/spec/foundations/for-sale-dns",
+      "created_at": "2026-08-08T14:50:04Z",
+      "status": "scoring_attempted",
+      "title": "A domain can now say it is for sale, in DNS"
     },
     "https://status.digdir.no/incidents/d7hvqmf2yr3l": {
       "canonical_url": "https://status.digdir.no/incidents/d7hvqmf2yr3l",
