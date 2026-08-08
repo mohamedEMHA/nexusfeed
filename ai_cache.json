@@ -443,6 +443,31 @@
         }
       }
     },
+    "4b7607a4ef1a778844bf4b7f14ad64275e03215629aebb8630146cd85e50eeeb": {
+      "created_at": "2026-08-08T09:00:48Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.5,
+              "impact_score": 0.5,
+              "index": 0,
+              "novelty_score": 2,
+              "reason": "Industry move with niche impact and moderate freshness from a low-tier source.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "Grindr CEO Says AI Is Doing the Work of 200 Engineers",
+              "total_score": 4.5
+            }
+          ],
+          "best_index": 0,
+          "best_score": 4.5,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
     "4f3a68b105f54bca03365e13b4d96aaa1ce58ac0ebdacc8fef21425a5de38f8f": {
       "created_at": "2026-08-07T14:09:24Z",
       "payload": {
@@ -1394,36 +1419,6 @@
         "social_media_rules": "Applied."
       }
     },
-    "b17583cbe5300043497ccd641f533e9be9cf13a729d7f0a9305c497f72b5f56d": {
-      "created_at": "2026-08-07T08:10:05Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 2.5,
-              "index": 0,
-              "novelty_score": 3.0,
-              "reason": "New release with broad cross-platform impact, fresh (<1h), but source is Tier B.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.0,
-              "title": "Uno Platform 6.6 Adds Native AOT, Vulkan Rendering, and Broader Accessibility Support",
-              "total_score": 8.5
-            }
-          ],
-          "best_index": 0,
-          "best_score": 8.5,
-          "recommendation": "POST_NOW",
-          "social_posts": {
-            "facebook": "Uno Platform 6.6 drops with Native AOT publishing, an optional Vulkan backend, and expanded WinUI API coverage across five platforms. The release also reduces XAML boilerplate and improves accessibility support. Link: https://www.infoq.com/news/2026/08/uno-platform-6-6/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Uno Platform 6.6 Adds Native AOT, Vulkan Rendering, and Broader Accessibility Support*\n\nUno Platform 6.6 introduces Native AOT publishing across five target platforms, an optional Vulkan rendering backend, and expanded WinUI API coverage. The release reduces XAML boilerplate and improves accessibility support.\n\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (Tier B)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.infoq.com/news/2026/08/uno-platform-6-6/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-            "threads": "Uno Platform 6.6 adds Native AOT publishing, Vulkan rendering, and WinUI API parity across five platforms. It cuts XAML boilerplate and improves accessibility support.\n\nhttps://www.infoq.com/news/2026/08/uno-platform-6-6/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-            "twitter": "Uno Platform 6.6 ships Native AOT, Vulkan rendering, and WinUI API parity across five platforms. The update cuts XAML boilerplate and boosts accessibility support.\n\nhttps://www.infoq.com/news/2026/08/uno-platform-6-6/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
-          }
-        }
-      }
-    },
     "b2c46949a84dd11d76e56a0e04282e1cc6861db52335a18dd5b9a7dfaa43cad0": {
       "created_at": "2026-08-07T12:52:11Z",
       "payload": {
@@ -1505,36 +1500,6 @@
             "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Tencent Cloud Open-Sources TencentDB Agent Memory v2.0: A Team-Level Memory Hub for AI Coding Agents*\n\nTencent Cloud released TencentDB Agent Memory v2.0 as MIT-licensed open source. The tool converts team conversations, documents and code into governed, reusable assets like Chat Memory, Skill, LLM-Wiki and Code-Graph. It supports self-hosting via Docker and integrates with Claude Code and OpenClaw.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (Tier A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/08/07/tencent-cloud-open-sources-tencentdb-agent-memory-v2-0/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
             "threads": "Tencent Cloud open-sourced TencentDB Agent Memory v2.0, a team-level memory hub for AI coding agents. It structures conversations, docs and code into governed assets like Chat Memory and Skill libraries, with Docker-based self-hosting and integrations.\n\nhttps://www.marktechpost.com/2026/08/07/tencent-cloud-open-sources-tencentdb-agent-memory-v2-0/",
             "twitter": "Tencent Cloud just open-sourced TencentDB Agent Memory v2.0, a team-level memory hub for AI coding agents. It turns conversations, docs and code into governed, reusable assets like Chat Memory and Skill libraries.\n\nhttps://www.marktechpost.com/2026/08/07/tencent-cloud-open-sources-tencentdb-agent-memory-v2-0/"
-          }
-        }
-      }
-    },
-    "c4406c9249fbdb878edc09c749613d7d3dec271c0c1105f74b111954765daed7": {
-      "created_at": "2026-08-07T08:10:05Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 2.5,
-              "index": 1,
-              "novelty_score": 3.0,
-              "reason": "New industry move with high impact on developer workflows, fresh and from a Tier B source.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.0,
-              "title": "Rootly Drops Small PR Rule as Agentic AI Changes Code Review Economics",
-              "total_score": 8.5
-            }
-          ],
-          "best_index": 1,
-          "best_score": 8.5,
-          "recommendation": "POST_NOW",
-          "social_posts": {
-            "facebook": "Rootly stopped enforcing its small pull request rule after realizing AI agents now generate most of its code. The company now prioritizes review efficiency over PR size, signaling a broader shift in engineering practices driven by agentic AI.\n\nLink: https://www.infoq.com/news/2026/08/rootly-small-pr-agentic-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Rootly Drops Small PR Rule as Agentic AI Changes Code Review Economics*\n\nRootly abandoned its small pull request rule after AI agents began generating most of its code. The company now measures review efficiency instead of PR size, highlighting how agentic AI is reshaping engineering workflows.\n\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (Tier B)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.infoq.com/news/2026/08/rootly-small-pr-agentic-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-            "threads": "Rootly dropped its small PR rule because AI agents now handle most code generation. The change reflects how agentic AI is forcing teams to rethink traditional engineering metrics like PR size.\n\nhttps://www.infoq.com/news/2026/08/rootly-small-pr-agentic-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-            "twitter": "Rootly abandoned its small PR rule because AI agents now handle most code. The shift from PR size metrics to review efficiency reflects how agentic AI is rewriting engineering practices.\n\nhttps://www.infoq.com/news/2026/08/rootly-small-pr-agentic-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
           }
         }
       }
@@ -1807,6 +1772,12 @@
       "created_at": "2026-08-03T19:59:18Z",
       "status": "scoring_attempted",
       "title": "The Potomac River Midair Collision"
+    },
+    "https://ai-updates.net/grindr-ceo-says-ai-is-doing-the-work-of-200-engineers": {
+      "canonical_url": "https://ai-updates.net/grindr-ceo-says-ai-is-doing-the-work-of-200-engineers",
+      "created_at": "2026-08-08T09:00:48Z",
+      "status": "scoring_attempted",
+      "title": "Grindr CEO Says AI Is Doing the Work of 200 Engineers"
     },
     "https://alexiglad.github.io/blog/2026/explorative_modeling": {
       "canonical_url": "https://alexiglad.github.io/blog/2026/explorative_modeling",
@@ -2989,12 +2960,6 @@
       "created_at": "2026-08-07T16:52:15Z",
       "status": "scoring_attempted",
       "title": "Responding to the next frontier of critical cyber capabilities"
-    },
-    "https://openai.com/index/ten-advances-in-mathematics": {
-      "canonical_url": "https://openai.com/index/ten-advances-in-mathematics",
-      "created_at": "2026-08-01T08:55:04Z",
-      "status": "scoring_attempted",
-      "title": "Ten advances in mathematics and theoretical computer science"
     },
     "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models": {
       "canonical_url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
