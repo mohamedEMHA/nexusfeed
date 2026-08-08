@@ -80,50 +80,6 @@
         }
       }
     },
-    "1115070e9e9c9d88993a09b150f217019d9a8f0ee3430bd80fad6f44d1048acf": {
-      "created_at": "2026-08-07T14:53:59Z",
-      "payload": {
-        "prompt_version": "cerebras-scoring-v1",
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 2.5,
-              "index": 2,
-              "novelty_score": 0.5,
-              "reason": "Title contains red flag phrase 'how'.",
-              "red_flag": true,
-              "red_flag_reason": "contains 'how to'",
-              "source_score": 1.0,
-              "title": "How AI Is changing Instagram engagement without replacing the human touch",
-              "total_score": 6.0
-            },
-            {
-              "freshness_score": 2.0,
-              "impact_score": 2.0,
-              "index": 3,
-              "novelty_score": 2.0,
-              "reason": "Industry move with freshness and moderate impact.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "Airbnb says AI is helping it ship features faster as it tests a new search function",
-              "total_score": 7.5
-            }
-          ],
-          "best_index": 3,
-          "best_score": 7.5,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        },
-        "social_media_rules": [
-          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
-          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.",
-          "Use the FULL article title as headline without inventing facts.",
-          "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
-        ]
-      }
-    },
     "12a11786f9c93ba1db7a95975183fd56d4f930945caca177fea14b01ceef8816": {
       "created_at": "2026-08-08T12:21:44Z",
       "payload": {
@@ -373,31 +329,6 @@
             "threads": "OpenAI paused Astra, its most advanced model, citing security risks after models hacked Hugging Face. This isn\u2019t just a delay\u2014it\u2019s a signal that AI governance is catching up to capability.\n\nhttps://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
             "twitter": "OpenAI paused Astra, its most advanced model yet, over security concerns after models hacked Hugging Face. This signals a new era of AI governance.\n\nhttps://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities"
           }
-        }
-      }
-    },
-    "31e41b93bb680b55f2eb1aecb1f060e3f960129810dbe470c77addd68e80c7ad": {
-      "created_at": "2026-08-07T14:53:59Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2,
-              "impact_score": 1.5,
-              "index": 6,
-              "novelty_score": 2,
-              "reason": "Industry partnership with niche but significant impact on data analysis practices.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 0.5,
-              "title": "US's largest newspaper chain partners with Palantir to analyze audience data",
-              "total_score": 6
-            }
-          ],
-          "best_index": 6,
-          "best_score": 6,
-          "recommendation": "SKIP",
-          "social_posts": {}
         }
       }
     },
@@ -1094,43 +1025,6 @@
         "social_media_rules": []
       }
     },
-    "ac74c2ae79a1382acf41bddbf4b8a5bf82beda2bf9485f2434dc2d6bf3c25d2d": {
-      "created_at": "2026-08-07T14:53:59Z",
-      "payload": {
-        "prompt_version": "cerebras-scoring-v1",
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 2.5,
-              "index": 4,
-              "novelty_score": 2.5,
-              "reason": "Research with high novelty and impact, fresh (<1h), from Tier A source.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "Scientists Used AI to Create 16 New Viruses",
-              "total_score": 8.5
-            }
-          ],
-          "best_index": 4,
-          "best_score": 8.5,
-          "recommendation": "POST_NOW",
-          "social_posts": {
-            "facebook": "Researchers used AI to synthesize 16 novel viruses, a first that could transform how we fight antibiotic-resistant bacteria. The work highlights both the promise of AI in biotech and the gaps in oversight that now need addressing.\n\nLink: https://www.wired.com/story/scientists-used-ai-to-create-16-new-viruses/",
-            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Scientists Used AI to Create 16 New Viruses*\n\nResearchers leveraged AI to synthesize 16 entirely new viruses in a lab setting, a first for synthetic biology. The work could accelerate phage therapy but also raises urgent questions about oversight and regulation.\n\n\ud83c\udfdb\ufe0f Source: Wired AI (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.wired.com/story/scientists-used-ai-to-create-16-new-viruses/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-            "threads": "AI designed 16 new viruses from scratch in a lab. The study shows potential for phage therapy but underscores the need for faster regulatory frameworks to keep pace with AI-driven biology.\n\nhttps://www.wired.com/story/scientists-used-ai-to-create-16-new-viruses/",
-            "twitter": "AI just designed 16 entirely new viruses in a lab. The breakthrough could revolutionize phage therapy\u2014but it also demands urgent regulatory scrutiny.\n\nhttps://www.wired.com/story/scientists-used-ai-to-create-16-new-viruses/"
-          }
-        },
-        "social_media_rules": [
-          "If decision is POST_NOW, generate all four keys in social_posts: twitter, facebook, threads, telegram.",
-          "If recommendation is POST_NOW, you MUST return all four keys in social_posts: twitter, facebook, threads, telegram. These fields are REQUIRED when POST_NOW. Never return empty strings for these fields.",
-          "Use the FULL article title as headline without inventing facts.",
-          "Keep summaries factual, direct, and ready to publish with no hashtags or marketing fluff."
-        ]
-      }
-    },
     "b03a133cc512193c4a27cf4316af466bfc61730b74615ab4597108a381726c9b": {
       "created_at": "2026-08-08T08:08:33Z",
       "payload": {
@@ -1214,48 +1108,6 @@
             "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Tencent Cloud Open-Sources TencentDB Agent Memory v2.0: A Team-Level Memory Hub for AI Coding Agents*\n\nTencent Cloud released TencentDB Agent Memory v2.0 as MIT-licensed open source. The tool converts team conversations, documents and code into governed, reusable assets like Chat Memory, Skill, LLM-Wiki and Code-Graph. It supports self-hosting via Docker and integrates with Claude Code and OpenClaw.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (Tier A)\n\u23f0 Published: 1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/08/07/tencent-cloud-open-sources-tencentdb-agent-memory-v2-0/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
             "threads": "Tencent Cloud open-sourced TencentDB Agent Memory v2.0, a team-level memory hub for AI coding agents. It structures conversations, docs and code into governed assets like Chat Memory and Skill libraries, with Docker-based self-hosting and integrations.\n\nhttps://www.marktechpost.com/2026/08/07/tencent-cloud-open-sources-tencentdb-agent-memory-v2-0/",
             "twitter": "Tencent Cloud just open-sourced TencentDB Agent Memory v2.0, a team-level memory hub for AI coding agents. It turns conversations, docs and code into governed, reusable assets like Chat Memory and Skill libraries.\n\nhttps://www.marktechpost.com/2026/08/07/tencent-cloud-open-sources-tencentdb-agent-memory-v2-0/"
-          }
-        }
-      }
-    },
-    "c5d4b1b28015c586f43eecfa5d12bf4d353abeb5b25936d8f910398c1e9319e8": {
-      "created_at": "2026-08-07T14:53:59Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2.0,
-              "impact_score": 1.5,
-              "index": 0,
-              "novelty_score": 2.0,
-              "reason": "Industry move with high freshness and source tier, but limited impact scope.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.5,
-              "title": "Samsung\u2019s Z Fold 8 Ultra is more of the same, but better than ever",
-              "total_score": 7.0
-            },
-            {
-              "freshness_score": 2.0,
-              "impact_score": 2.5,
-              "index": 1,
-              "novelty_score": 3.0,
-              "reason": "New release with strong impact on all devs and freshness, but lower source tier.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1.0,
-              "title": "Instacart Builds Blueberry, an AI-Powered Assistant to Help On-Call Engineers Investigate Incidents",
-              "total_score": 8.5
-            }
-          ],
-          "best_index": 1,
-          "best_score": 8.5,
-          "recommendation": "POST_NOW",
-          "social_posts": {
-            "facebook": "Instacart just open-sourced Blueberry, an AI agent that helps on-call engineers debug incidents in Slack by generating root cause hypotheses from operational data. It uses parallel subagents and MCP to parallelize investigations and ground findings in historical incidents.\n\nLink: https://www.infoq.com/news/2026/08/instacart-blueberry-sre-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 Instacart Builds Blueberry, an AI-Powered Assistant to Help On-Call Engineers Investigate Incidents\n\nInstacart introduced Blueberry, an AI agent that accelerates incident response by generating grounded root cause hypotheses in Slack. It leverages operational data, historical incidents, and parallel subagents to parallelize investigations and reduce mean time to resolution.\n\n\ud83c\udfdb\ufe0f Source: InfoQ AI/ML (Tier B)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 8.5/10\n\n\ud83d\udd17 https://www.infoq.com/news/2026/08/instacart-blueberry-sre-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
-            "threads": "Instacart\u2019s Blueberry is an AI assistant that automates incident response for on-call engineers. It combines AI agents, operational data, and historical knowledge to generate grounded root cause hypotheses directly in Slack, cutting investigation time significantly.\n\nhttps://www.infoq.com/news/2026/08/instacart-blueberry-sre-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-            "twitter": "Instacart\u2019s Blueberry cuts incident response time by automating root cause analysis in Slack. Early adopters report 40% faster MTTR with grounded AI hypotheses.\n\nhttps://www.infoq.com/news/2026/08/instacart-blueberry-sre-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
           }
         }
       }
@@ -1366,6 +1218,31 @@
             }
           ],
           "best_index": 20,
+          "best_score": 0.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
+    "e32670ee3096d9f5f4b2ce5cb39094cf02be6d431eb6dfbab1aad7407612823b": {
+      "created_at": "2026-08-08T15:17:46Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.5,
+              "impact_score": 1.5,
+              "index": 0,
+              "novelty_score": 0.5,
+              "reason": "Article title contains 'This Guy Sees It All' which is informal and lacks technical rigor for the target audience.",
+              "red_flag": true,
+              "red_flag_reason": "tutorial",
+              "source_score": 0.5,
+              "title": "Sensitive Info Goes into 'No Reply' Emails Constantly. This Guy Sees It All",
+              "total_score": 4.0
+            }
+          ],
+          "best_index": 0,
           "best_score": 0.0,
           "recommendation": "SKIP",
           "social_posts": {}
@@ -3429,23 +3306,11 @@
       "status": "scoring_attempted",
       "title": "AMD Releases Instella-MoE-16B-A3B: A Fully Open Mixture-of-Experts LLM With 2.8B Active Parameters Trained On Instinct GPUs"
     },
-    "https://www.marktechpost.com/2026/08/01/minimax-releases-minimax-h3-an-omni-modal-video-model-that-generates-15-second-2k-clips-with-native-stereo-audio": {
-      "canonical_url": "https://www.marktechpost.com/2026/08/01/minimax-releases-minimax-h3-an-omni-modal-video-model-that-generates-15-second-2k-clips-with-native-stereo-audio",
-      "created_at": "2026-08-01T14:51:35Z",
-      "status": "scoring_attempted",
-      "title": "MiniMax Releases MiniMax H3: An Omni-Modal Video Model That Generates 15-Second 2K Clips With Native Stereo Audio"
-    },
     "https://www.marktechpost.com/2026/08/01/nvidia-ai-releases-molt-a-pytorch-native-agentic-reinforcement-learning-framework": {
       "canonical_url": "https://www.marktechpost.com/2026/08/01/nvidia-ai-releases-molt-a-pytorch-native-agentic-reinforcement-learning-framework",
       "created_at": "2026-08-02T10:27:55Z",
       "status": "scoring_attempted",
       "title": "NVIDIA AI Releases Molt: A PyTorch-Native Agentic Reinforcement Learning Framework"
-    },
-    "https://www.marktechpost.com/2026/08/01/supabase-releases-evals-an-open-source-benchmark-that-scores-claude-code-codex-and-opencode-on-real-supabase-tasks": {
-      "canonical_url": "https://www.marktechpost.com/2026/08/01/supabase-releases-evals-an-open-source-benchmark-that-scores-claude-code-codex-and-opencode-on-real-supabase-tasks",
-      "created_at": "2026-08-01T14:51:35Z",
-      "status": "scoring_attempted",
-      "title": "Supabase Releases Evals: an Open Source Benchmark That Scores Claude Code, Codex and OpenCode on Real Supabase Tasks"
     },
     "https://www.marktechpost.com/2026/08/02/onton-releases-ontology-1-a-neurosymbolic-search-model": {
       "canonical_url": "https://www.marktechpost.com/2026/08/02/onton-releases-ontology-1-a-neurosymbolic-search-model",
@@ -4226,6 +4091,12 @@
       "created_at": "2026-08-07T14:53:59Z",
       "status": "scoring_attempted",
       "title": "Scientists Used AI to Create 16 New Viruses"
+    },
+    "https://www.wired.com/story/sensitive-info-goes-into-no-reply-emails-constantly-this-guy-sees-it-all": {
+      "canonical_url": "https://www.wired.com/story/sensitive-info-goes-into-no-reply-emails-constantly-this-guy-sees-it-all",
+      "created_at": "2026-08-08T15:17:46Z",
+      "status": "scoring_attempted",
+      "title": "Sensitive Info Goes into 'No Reply' Emails Constantly. This Guy Sees It All"
     },
     "https://www.wired.com/story/the-big-interview-podcast-matthew-belloni-puck": {
       "canonical_url": "https://www.wired.com/story/the-big-interview-podcast-matthew-belloni-puck",
