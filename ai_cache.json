@@ -468,6 +468,31 @@
         }
       }
     },
+    "4272cee44379e80c2488a38ea3be015443829a61ca097b119197b44b4cc71917": {
+      "created_at": "2026-08-08T11:46:46Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 1.0,
+              "impact_score": 3.0,
+              "index": 2,
+              "novelty_score": 3.0,
+              "reason": "High novelty and impact with fresh research, but source tier C and 2h old reduces score.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 0.5,
+              "title": "DeepMind's WeatherNext model achieves breakthrough forecasting cyclones",
+              "total_score": 7.5
+            }
+          ],
+          "best_index": 2,
+          "best_score": 7.5,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
     "4b7607a4ef1a778844bf4b7f14ad64275e03215629aebb8630146cd85e50eeeb": {
       "created_at": "2026-08-08T09:00:48Z",
       "payload": {
@@ -2466,6 +2491,12 @@
       "created_at": "2026-08-05T15:36:50Z",
       "status": "scoring_attempted",
       "title": "Building an Advanced Agentic Harness"
+    },
+    "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones": {
+      "canonical_url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones",
+      "created_at": "2026-08-08T11:46:46Z",
+      "status": "scoring_attempted",
+      "title": "DeepMind's WeatherNext model achieves breakthrough forecasting cyclones"
     },
     "https://edotenv.com": {
       "canonical_url": "https://edotenv.com",
