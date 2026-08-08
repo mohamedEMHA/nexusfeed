@@ -773,31 +773,6 @@
         }
       }
     },
-    "661b9279b11bda60daa943070f59d2a8e2600176fe4b8408a2cb955825175d53": {
-      "created_at": "2026-08-07T12:52:11Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1,
-              "impact_score": 1.5,
-              "index": 7,
-              "novelty_score": 2.5,
-              "reason": "Show HN is a promotional format, not a formal article or research output.",
-              "red_flag": true,
-              "red_flag_reason": "Show HN",
-              "source_score": 0.5,
-              "title": "Show HN: Certo \u2013 An open source platform to deliver Open Badges",
-              "total_score": 5.5
-            }
-          ],
-          "best_index": 7,
-          "best_score": 0.0,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
-      }
-    },
     "6d3f1fbb5bf8710a421197d100f3b88866fe3ab9e01ad7a1a450125a1aa40c61": {
       "created_at": "2026-08-07T14:09:24Z",
       "payload": {
@@ -1358,61 +1333,6 @@
           }
         },
         "social_media_rules": "Applied."
-      }
-    },
-    "b2c46949a84dd11d76e56a0e04282e1cc6861db52335a18dd5b9a7dfaa43cad0": {
-      "created_at": "2026-08-07T12:52:11Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 2,
-              "impact_score": 2.5,
-              "index": 0,
-              "novelty_score": 2.5,
-              "reason": "Industry move on AI in incident response with high impact for all devs and freshness under 1h.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1,
-              "title": "AI Is Transforming Incident Response - but the Hardest Problems May Still Belong to Humans",
-              "total_score": 8
-            }
-          ],
-          "best_index": 0,
-          "best_score": 8,
-          "recommendation": "SKIP",
-          "social_posts": {
-            "facebook": "",
-            "telegram": "",
-            "threads": "",
-            "twitter": ""
-          }
-        }
-      }
-    },
-    "b495ef7799bf19c507baba56adcf58c63d797d615032b64eb8abf45981ca4810": {
-      "created_at": "2026-08-07T12:52:11Z",
-      "payload": {
-        "response_schema": {
-          "articles": [
-            {
-              "freshness_score": 1.5,
-              "impact_score": 2,
-              "index": 6,
-              "novelty_score": 2.5,
-              "reason": "Industry move with moderate novelty and impact, fresh but not breaking.",
-              "red_flag": false,
-              "red_flag_reason": null,
-              "source_score": 1,
-              "title": "Alibaba tests new business model for Qwen open-source AI",
-              "total_score": 7.0
-            }
-          ],
-          "best_index": 6,
-          "best_score": 7.0,
-          "recommendation": "SKIP",
-          "social_posts": {}
-        }
       }
     },
     "c21280a9599ed16613156e1cd5c10e84cddf4ae1adff395122d1140bfc8953c6": {
