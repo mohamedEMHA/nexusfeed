@@ -375,6 +375,36 @@
         }
       }
     },
+    "40e15f2fed9e9789c95ed4dcc65007f5a68f38895411f31d7583c793b2c4547e": {
+      "created_at": "2026-08-08T17:19:13Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 2.5,
+              "index": 0,
+              "novelty_score": 3.0,
+              "reason": "New research release with extreme context length breakthrough and strong benchmarks.",
+              "red_flag": false,
+              "red_flag_reason": null,
+              "source_score": 1.5,
+              "title": "Pokee AI Releases Pokee-Isaac 28B: A 10M-Token Context Agentic Model Built to Run Inside the Customer Boundary",
+              "total_score": 9.0
+            }
+          ],
+          "best_index": 0,
+          "best_score": 9.0,
+          "recommendation": "POST_NOW",
+          "social_posts": {
+            "facebook": "Pokee AI released Pokee-Isaac 28B, a 28-billion-parameter model with a 10-million-token context window\u2014far exceeding current baselines that fail beyond 2M tokens. It scores 93.3% on RULER at full context and leads BFCL v4 at 70.94.\n\nThis is the first model designed to run entirely within a customer\u2019s infrastructure while handling extreme context lengths. Link: https://www.marktechpost.com/2026/08/08/pokee-ai-releases-pokee-isaac-28b-a-10m-token-context-agentic-model-built-to-run-inside-the-customer-boundary/",
+            "telegram": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udd25 *Pokee AI Releases Pokee-Isaac 28B: A 10M-Token Context Agentic Model Built to Run Inside the Customer Boundary*\n\nPokee AI released Pokee-Isaac 28B, a 28B text-only foundation model with a 10M-token context window built to run inside the customer boundary. It scores 93.3% on RULER at 10M tokens, where every baseline in its comparison panel returns 0.0 beyond 2M, and leads BFCL v4 at 70.94.\n\n\ud83c\udfdb\ufe0f Source: MarkTechPost (Tier A)\n\u23f0 Published: <1 hour ago\n\u2b50 Score: 9.0/10\n\n\ud83d\udd17 https://www.marktechpost.com/2026/08/08/pokee-ai-releases-pokee-isaac-28b-a-10m-token-context-agentic-model-built-to-run-inside-the-customer-boundary/\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+            "threads": "Pokee-Isaac 28B just dropped with a 10M-token context window\u2014every baseline in its comparison panel returns 0.0 beyond 2M tokens. It scores 93.3% on RULER at 10M and leads BFCL v4 at 70.94.\n\nThis is the first agentic model built to run inside a customer\u2019s boundary, not the cloud.\n\nhttps://www.marktechpost.com/2026/08/08/pokee-ai-releases-pokee-isaac-28b-a-10m-token-context-agentic-model-built-to-run-inside-the-customer-boundary/",
+            "twitter": "Pokee AI just shipped Pokee-Isaac 28B, a 28B model with a 10M-token context window that crushes every baseline beyond 2M tokens. Early benchmarks show 93.3% on RULER at 10M and 70.94 on BFCL v4.\n\nhttps://www.marktechpost.com/2026/08/08/pokee-ai-releases-pokee-isaac-28b-a-10m-token-context-agentic-model-built-to-run-inside-the-customer-boundary/"
+          }
+        }
+      }
+    },
     "4272cee44379e80c2488a38ea3be015443829a61ca097b119197b44b4cc71917": {
       "created_at": "2026-08-08T11:46:46Z",
       "payload": {
@@ -3204,6 +3234,12 @@
       "created_at": "2026-08-07T23:12:52Z",
       "status": "scoring_attempted",
       "title": "Tencent Cloud Open-Sources TencentDB Agent Memory v2.0: A Team-Level Memory Hub for AI Coding Agents"
+    },
+    "https://www.marktechpost.com/2026/08/08/pokee-ai-releases-pokee-isaac-28b-a-10m-token-context-agentic-model-built-to-run-inside-the-customer-boundary": {
+      "canonical_url": "https://www.marktechpost.com/2026/08/08/pokee-ai-releases-pokee-isaac-28b-a-10m-token-context-agentic-model-built-to-run-inside-the-customer-boundary",
+      "created_at": "2026-08-08T17:19:13Z",
+      "status": "scoring_attempted",
+      "title": "Pokee AI Releases Pokee-Isaac 28B: A 10M-Token Context Agentic Model Built to Run Inside the Customer Boundary"
     },
     "https://www.niemanlab.org/2026/08/americas-largest-newspaper-chain-usa-today-co-partners-with-palantir-to-analyze-audience-data": {
       "canonical_url": "https://www.niemanlab.org/2026/08/americas-largest-newspaper-chain-usa-today-co-partners-with-palantir-to-analyze-audience-data",
