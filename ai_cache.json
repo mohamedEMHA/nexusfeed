@@ -1967,6 +1967,31 @@
         }
       }
     },
+    "f980abae1d230676ad0a46330989ebb1535694eb71c01b46c729bb2232b2fe28": {
+      "created_at": "2026-08-08T04:02:16Z",
+      "payload": {
+        "response_schema": {
+          "articles": [
+            {
+              "freshness_score": 2.0,
+              "impact_score": 0.5,
+              "index": 0,
+              "novelty_score": 0.2,
+              "reason": "Red flag triggered by 'social engineering' in title; novelty and impact scores low due to niche and unclear context.",
+              "red_flag": true,
+              "red_flag_reason": "title contains 'social engineering'",
+              "source_score": 0.5,
+              "title": "Mythos social engineering AISI INC-2026-07-28-01",
+              "total_score": 3.2
+            }
+          ],
+          "best_index": 0,
+          "best_score": 0.0,
+          "recommendation": "SKIP",
+          "social_posts": {}
+        }
+      }
+    },
     "f9aa688d28709ba321fb5d1e3855ef727e8a4fab127ab8445facab67428d4625": {
       "created_at": "2026-08-07T04:13:40Z",
       "payload": {
@@ -2986,12 +3011,6 @@
       "status": "scoring_attempted",
       "title": "OpenAI says my prepaid credits were consumed, refuses to show any record"
     },
-    "https://consumerrights.wiki/w/BMW_Spider-Man_in-car_advertising": {
-      "canonical_url": "https://consumerrights.wiki/w/BMW_Spider-Man_in-car_advertising",
-      "created_at": "2026-08-01T03:53:33Z",
-      "status": "scoring_attempted",
-      "title": "BMW Spider-Man in-car advertising"
-    },
     "https://costperprompt.com": {
       "canonical_url": "https://costperprompt.com",
       "created_at": "2026-08-02T03:53:23Z",
@@ -3172,12 +3191,6 @@
       "status": "scoring_attempted",
       "title": "Psychological Warfare in Reverse Engineering"
     },
-    "https://github.com/yc-software/qm": {
-      "canonical_url": "https://github.com/yc-software/qm",
-      "created_at": "2026-08-01T03:53:33Z",
-      "status": "scoring_attempted",
-      "title": "qm \u2013 Multiplayer agent harness for work"
-    },
     "https://gwern.net/blackmail": {
       "canonical_url": "https://gwern.net/blackmail",
       "created_at": "2026-08-04T19:50:04Z",
@@ -3255,12 +3268,6 @@
       "created_at": "2026-08-02T12:52:51Z",
       "status": "scoring_attempted",
       "title": "Meshdiff \u2013 visually compare two STL versions in the browser, client-side"
-    },
-    "https://microsoft.github.io/flint-chart": {
-      "canonical_url": "https://microsoft.github.io/flint-chart",
-      "created_at": "2026-08-01T03:53:33Z",
-      "status": "scoring_attempted",
-      "title": "Flint: A Visualization Language for the AI Era"
     },
     "https://mistral.ai/news/shieldstral": {
       "canonical_url": "https://mistral.ai/news/shieldstral",
@@ -3765,6 +3772,12 @@
       "created_at": "2026-08-07T14:09:24Z",
       "status": "scoring_attempted",
       "title": "The web server deployment model breaks at hobby scale"
+    },
+    "https://web.archive.org/web/20260731053721/http://github.com/ancaferro/myNetwork/pull/3": {
+      "canonical_url": "https://web.archive.org/web/20260731053721/http://github.com/ancaferro/myNetwork/pull/3",
+      "created_at": "2026-08-08T04:02:16Z",
+      "status": "scoring_attempted",
+      "title": "Mythos social engineering AISI INC-2026-07-28-01"
     },
     "https://website-auditor.io/ai-visibility-index": {
       "canonical_url": "https://website-auditor.io/ai-visibility-index",
